@@ -1,14 +1,10 @@
 import { notFound } from "next/navigation";
-import { gramaticas, palabras, unidad, unidades, vecinas } from "@/lib/contenido";
+import { gramaticas, palabras, unidad, vecinas } from "@/lib/contenido";
 import { Cabecera } from "@/components/Cabecera";
 import { VistaUnidad } from "@/components/VistaUnidad";
 
-export function generateStaticParams() {
-  return unidades().map((u) => {
-    const [nivel, seccion, resto] = u.id.split("/");
-    return { nivel, seccion, unidad: resto };
-  });
-}
+// A propósito sin generateStaticParams: son 602 unidades y prerenderizarlas
+// dispara el coste del build. Se sirven bajo demanda desde el JSON empaquetado.
 
 export default async function Pagina(
   { params }: { params: Promise<{ nivel: string; seccion: string; unidad: string }> },
