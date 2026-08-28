@@ -72,9 +72,12 @@ Cada paso cachea lo suyo, así que repetirlo es barato.
 
    ```
    NEXT_PUBLIC_SUPABASE_URL=https://<ref>.supabase.co
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=<anon key>
-   SUPABASE_SERVICE_KEY=<service role key>     # sólo del lado del servidor
+   NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_...   # va al navegador
+   SUPABASE_SECRET_KEY=sb_secret_...                         # SOLO servidor
    ```
+
+   Son las llaves de formato nuevo; los nombres viejos
+   (`NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_KEY`) también se aceptan.
 4. Carga el contenido:
 
    ```bash
@@ -82,7 +85,7 @@ Cada paso cachea lo suyo, así que repetirlo es barato.
    ```
 
 `seed` es idempotente: se puede volver a correr cada vez que cambie
-`data/dist/`. La `service key` se salta RLS, así que **nunca** va en una
+`data/dist/`. La llave secreta se salta RLS, así que **nunca** va en una
 variable `NEXT_PUBLIC_`.
 
 ---

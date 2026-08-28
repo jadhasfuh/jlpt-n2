@@ -6,7 +6,13 @@ let cliente: SupabaseClient | null | undefined;
 export function supabaseServidor(): SupabaseClient | null {
   if (cliente !== undefined) return cliente;
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  // Supabase renombró las llaves: publishable/secret sustituyen a anon/service_role.
+  // Aceptamos ambos nombres para no romper nada al migrar.
+  const key =
+    process.env.SUPABASE_SECRET_KEY ||
+    process.env.SUPABASE_SERVICE_KEY ||
+    process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ||
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
   cliente = url && key ? createClient(url, key, { auth: { persistSession: false } }) : null;
   return cliente;
 }
@@ -16,7 +22,9 @@ let clienteNavegador: SupabaseClient | null | undefined;
 export function supabaseNavegador(): SupabaseClient | null {
   if (clienteNavegador !== undefined) return clienteNavegador;
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  const key =
+    process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ||
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
   clienteNavegador = url && key ? createClient(url, key) : null;
   return clienteNavegador;
 }

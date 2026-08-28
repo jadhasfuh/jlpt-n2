@@ -8,9 +8,9 @@ import { createClient } from "@supabase/supabase-js";
 import { readFileSync } from "node:fs";
 
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const key = process.env.SUPABASE_SERVICE_KEY;
+const key = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_KEY;
 if (!url || !key) {
-  console.error("Faltan NEXT_PUBLIC_SUPABASE_URL y SUPABASE_SERVICE_KEY.");
+  console.error("Faltan NEXT_PUBLIC_SUPABASE_URL y SUPABASE_SECRET_KEY.");
   process.exit(1);
 }
 const sb = createClient(url, key, { auth: { persistSession: false } });

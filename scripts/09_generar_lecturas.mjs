@@ -28,7 +28,7 @@ const niveles = leer("niveles");
 const vocab = new Map(leer("vocabulario").map((v) => [v.id, v]));
 const gram = new Map(leer("gramatica").map((g) => [g.id, g]));
 
-const sb = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY,
+const sb = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_KEY,
                         { auth: { persistSession: false } });
 const claude = new Anthropic();
 
