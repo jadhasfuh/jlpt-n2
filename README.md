@@ -67,7 +67,7 @@ Cada paso cachea lo suyo, así que repetirlo es barato.
 ## Base de datos (Supabase)
 
 1. Supabase → **New project**. Anota el *project ref* y la contraseña.
-2. En el editor SQL, pega y corre `supabase/schema.sql`.
+2. En el editor SQL, pega y corre `supabase/migrations/20260828120000_esquema_inicial.sql`.
 3. Pon las variables en `.env.local` (y en Railway):
 
    ```
@@ -135,8 +135,20 @@ data/dist/       el contenido final que consume la app
 scripts/         01→07, el pipeline de datos; 08 seed; 09 lecturas
 src/lib/         contenido, tipos, progreso, cliente de Supabase
 src/components/  Sesión (los pasos), Jp/furigana, Diccionario, Repaso, Ajustes
-supabase/        schema.sql
+supabase/        config.toml y migrations/ (el esquema)
 ```
+
+### Integración de GitHub / branching
+
+No hace falta y **cuesta dinero**: cada rama de preview levanta su propia
+instancia de cómputo, cobrada por hora y **fuera del tope de gasto** de la
+organización. El esquema de este proyecto se corre una vez y la carga es un
+script, así que el flujo de migraciones por pull request no aporta nada todavía.
+
+Si algún día se activa, el repo ya está en el formato que espera: `supabase/`
+con `config.toml` y `migrations/`. En ese caso: *Working directory* vacío (el
+directorio `supabase/` está en la raíz), *Production branch* `main`,
+**Automatic branching apagado** y *Supabase changes only* encendido.
 
 ## Lo que falta
 

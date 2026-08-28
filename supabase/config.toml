@@ -1,0 +1,4 @@
+# Config mínima para que la integración de GitHub sepa a qué proyecto apunta.
+# El resto de secciones sólo hacen falta si se usa la CLI en local
+# (`supabase init` genera el archivo completo).
+project_id = "nstpivbrojehlaghfwov"
