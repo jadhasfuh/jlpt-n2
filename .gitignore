@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+CONTEXTO-PRIVADO.md
+data/raw/
+data/build/
+*.log
+.DS_Store
+__pycache__/
+*.pyc

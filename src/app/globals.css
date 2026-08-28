@@ -1,0 +1,135 @@
+:root {
+  --papel: #fbfaf7;
+  --papel-2: #ffffff;
+  --tinta: #1e1c19;
+  --tinta-2: #55504a;
+  --tinta-3: #8b8479;
+  --linea: #e6e1d8;
+  --acento: #b4462f;        /* rojo sello japonés */
+  --acento-suave: #f4e6e1;
+  --verde: #2f7d5d;
+  --verde-suave: #e2f0e9;
+  --azul: #2b5f96;
+  --azul-suave: #e3ecf6;
+  --radio: 12px;
+  --sombra: 0 1px 2px rgba(30,28,25,.05), 0 8px 24px -12px rgba(30,28,25,.18);
+  --jp: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", "MS Mincho", serif;
+  --ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) {
+    --papel: #171614; --papel-2: #1f1e1b; --tinta: #ece8e1; --tinta-2: #b3ada3;
+    --tinta-3: #7d766c; --linea: #322f2a; --acento: #e0755c; --acento-suave: #3a2620;
+    --verde: #6fc79c; --verde-suave: #1e3229; --azul: #7fb0e0; --azul-suave: #1c2b3a;
+    --sombra: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.6);
+    color-scheme: dark;
+  }
+}
+:root[data-tema="oscuro"] {
+  --papel: #171614; --papel-2: #1f1e1b; --tinta: #ece8e1; --tinta-2: #b3ada3;
+  --tinta-3: #7d766c; --linea: #322f2a; --acento: #e0755c; --acento-suave: #3a2620;
+  --verde: #6fc79c; --verde-suave: #1e3229; --azul: #7fb0e0; --azul-suave: #1c2b3a;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body { padding: 0; margin: 0; }
+body {
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: var(--ui);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; cursor: pointer; }
+
+.envoltorio { max-width: 860px; margin: 0 auto; padding: 0 20px 96px; }
+
+/* ---------- cabecera ---------- */
+.cabecera {
+  position: sticky; top: 0; z-index: 40;
+  background: color-mix(in srgb, var(--papel) 88%, transparent);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--linea);
+}
+.cabecera-fila {
+  max-width: 860px; margin: 0 auto; padding: 12px 20px;
+  display: flex; align-items: center; gap: 14px;
+}
+.marca { font-family: var(--jp); font-size: 19px; letter-spacing: .04em; }
+.marca span { color: var(--acento); }
+.crecer { flex: 1; }
+
+/* ---------- botones ---------- */
+.btn {
+  border: 1px solid var(--linea); background: var(--papel-2);
+  border-radius: 999px; padding: 7px 15px; font-size: 13.5px;
+  transition: background .15s, border-color .15s, transform .05s;
+}
+.btn:hover { border-color: var(--tinta-3); }
+.btn:active { transform: translateY(1px); }
+.btn.encendido { background: var(--acento-suave); border-color: var(--acento); color: var(--acento); }
+.btn.primario {
+  background: var(--acento); border-color: var(--acento); color: #fff; font-weight: 600;
+  padding: 11px 26px; font-size: 15px;
+}
+.btn.primario:hover { filter: brightness(1.06); }
+.btn.fantasma { background: transparent; border-color: transparent; color: var(--tinta-2); }
+.btn:disabled { opacity: .4; cursor: not-allowed; }
+
+/* ---------- tarjetas ---------- */
+.tarjeta {
+  background: var(--papel-2); border: 1px solid var(--linea);
+  border-radius: var(--radio); padding: 20px; box-shadow: var(--sombra);
+}
+.rejilla { display: grid; gap: 12px; }
+@media (min-width: 620px) { .rejilla.dos { grid-template-columns: 1fr 1fr; } }
+
+/* ---------- japonés ---------- */
+.jp { font-family: var(--jp); line-height: 2.1; }
+.jp-grande { font-size: 40px; line-height: 1.8; }
+.jp-medio { font-size: 26px; }
+ruby { ruby-position: over; }
+rt { font-size: .48em; color: var(--tinta-3); font-family: var(--ui); letter-spacing: .02em; }
+.sin-furigana rt { visibility: hidden; }
+
+.etiqueta {
+  display: inline-block; font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--tinta-3); font-weight: 600;
+}
+.pastilla {
+  display: inline-block; padding: 2px 9px; border-radius: 999px;
+  font-size: 11.5px; font-weight: 600; border: 1px solid var(--linea);
+}
+.pastilla.n5 { background: var(--verde-suave); color: var(--verde); border-color: transparent; }
+.pastilla.n4 { background: var(--azul-suave); color: var(--azul); border-color: transparent; }
+.pastilla.n2 { background: var(--acento-suave); color: var(--acento); border-color: transparent; }
+
+.silencio { color: var(--tinta-2); }
+.tenue { color: var(--tinta-3); font-size: 13px; }
+
+/* ---------- progreso ---------- */
+.barra { height: 6px; background: var(--linea); border-radius: 999px; overflow: hidden; }
+.barra > i { display: block; height: 100%; background: var(--acento); border-radius: 999px; transition: width .4s; }
+
+/* ---------- pasos ---------- */
+.pasos { display: flex; gap: 6px; margin: 18px 0 26px; }
+.pasos > i {
+  flex: 1; height: 3px; border-radius: 999px; background: var(--linea);
+}
+.pasos > i.hecho { background: var(--acento); }
+
+/* ---------- diccionario flotante ---------- */
+.dicc {
+  position: fixed; z-index: 90; max-width: 300px;
+  background: var(--papel-2); border: 1px solid var(--linea);
+  border-radius: 10px; padding: 12px 14px; box-shadow: var(--sombra);
+}
+
+.tabla-vocab { width: 100%; border-collapse: collapse; }
+.tabla-vocab td { padding: 12px 6px; border-bottom: 1px solid var(--linea); vertical-align: middle; }
+.tabla-vocab tr:last-child td { border-bottom: none; }

@@ -1,0 +1,4 @@
+# Entradas de la lista original que no son palabras o están repetidas.
+# Se sacan del vocabulario y de las sesiones. Un id por línea.
+81      # あひら — no es una palabra; la fila venía vacía en la fuente
+3134    # 釣(つり) — repetida idéntica a la 3133

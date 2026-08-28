@@ -1,0 +1,12 @@
+# Arreglos a mano sobre la lista original de jlptstudy, que trae erratas y
+# mojibake. Columnas: id|kana|kanji|en|es  — deja el campo vacío para no tocarlo.
+# El id es el de la lista original (el mismo que usa data/dist/vocabulario.json).
+id|kana|kanji|en|es
+1845|さんせい|||          # el kana venía como mojibake "Uӣ[い"
+2778||対立||              # el kanji venía como mojibake "Ͼ立"
+1796|||a short while ago, a moment ago|hace un momento, hace un rato
+2663|||softly, gently, quietly, secretly|con cuidado, sigilosamente, a hurtadillas
+1250|||nail (metal spike)|clavo
+2557|||at least, if nothing else|al menos, siquiera
+4566|||already; (not) any more|ya; ya no
+2462|||to slip out of place, to be off, to deviate|desplazarse, quedar fuera de sitio, desviarse

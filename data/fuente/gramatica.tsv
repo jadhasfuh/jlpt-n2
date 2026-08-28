@@ -1,0 +1,198 @@
+romaji|ja|en|es|tier|cat
+ageku|あげく|to end up; in the end; after all|al final (tras mucho esfuerzo), acabó por…|3|resultado
+aruiwa|あるいは|or; either; maybe; perhaps|o; o bien; tal vez|1|conectores
+bakari|ばかり|about, approximately|más o menos; aproximadamente|1|grado
+bakari da|ばかりだ|continue to (go in negative direction)|no hace más que… (ir a peor)|3|estado_cambio
+bakari ka|ばかりか|not only... but also; as well as|no sólo… sino además|2|adicion
+bakari ni|ばかりに|simply because; on account of (negative result)|sólo por…; nada más que por… (mal resultado)|3|causa
+chinamini|ちなみに|by the way; incidentally|por cierto; a propósito|1|conectores
+chitto mo~nai|ちっとも～ない|(not) at all; (not) in the least|nada en absoluto; ni un poco|1|grado
+dake atte|だけあって|being the case; precisely because; as expected from|como era de esperar de…; no en vano|3|causa
+dake mashi da|だけましだ|it's better than; one should feel grateful for|menos mal que…; ya es algo que…|4|comparacion
+dake ni|だけに|being the case; precisely because; as one would expect|precisamente porque…; justo por eso|3|causa
+dake no koto wa aru|だけのことはある|no wonder; as expected of|con razón…; no en vano es…|4|causa
+dake wa|だけは|to do all that one can|al menos…; hacer todo lo posible en cuanto a…|4|enfasis
+datte|だって|because; but; after all; even|es que…; pero; incluso|2|causa
+de shika nai|でしかない|merely; nothing but; no more than|no es más que…; no pasa de ser…|4|grado_limite
+dokoro dewa nai|どころではない|not the time for; far from; anything but|no está uno para…; ni mucho menos|3|contraste
+dokoro ka|どころか|far from; anything but; let alone; much less|lejos de…; ni hablar de…; al contrario|3|contraste
+dou yara|どうやら|possibly; apparently; seems like; barely|al parecer; por lo visto; a duras penas|2|modal
+douse|どうせ|anyhow; in any case; after all; no matter what|de todos modos; total, que…|2|conectores
+enai|得ない（えない）|unable to; cannot; it is not possible to|no poder…; ser imposible…|3|posibilidad
+eru / uru|得る（える / うる）|can; to be able to; is possible to|poder…; ser posible…|3|posibilidad
+futatabi|再び（ふたたび）|again; once more|de nuevo; otra vez|1|tiempo
+fuu ni|ふうに|this way; that way; in such a way|de este modo; de tal manera|2|modo
+ga kikkake de / o kikkake ni|がきっかけで / をきっかけに|with… as a start; as a result of|a raíz de…; tomando… como punto de partida|3|causa
+ge|げ|looks like; seems like; appears to|con aire de…; con pinta de…|2|modal
+gyaku ni|逆に（ぎゃくに）|conversely; on the contrary|al contrario; a la inversa|1|conectores
+hanmen|反面（はんめん）|while, although; on the other hand|por un lado… por otro; en cambio|3|contraste
+hatashite|果たして（はたして）|as was expected; sure enough; really|efectivamente; tal como se esperaba; ¿de verdad…?|3|modal
+ichiou|一応（いちおう）|more or less; roughly; tentatively|por el momento; más o menos; en principio|1|conectores
+igai|以外（いがい）|with the exception of; excepting|salvo…; excepto…; aparte de…|1|grado_limite
+ijou ni|以上に（いじょうに）|more than; not less than; beyond|más que…; por encima de…|2|comparacion
+ijou wa|以上は（いじょうは）|because; since; seeing that|ya que…; puesto que… (y por tanto)|3|causa
+ikinari|いきなり|abruptly; suddenly; without warning|de repente; sin previo aviso|1|tiempo
+ikki ni|一気に（いっきに）|in one go; all at once; immediately|de un tirón; de una sola vez|1|tiempo
+ippou de|一方で（いっぽうで）|on one hand, on the other hand; although|por una parte… por otra|2|contraste
+iwayuru|いわゆる|what is called; the so-called|lo que se llama…; el llamado…|2|conectores
+iyoiyo|いよいよ|at last; finally; beyond doubt|por fin; ya mismo; definitivamente|1|tiempo
+jou|上（じょう）|from the standpoint of; in terms of|desde el punto de vista de…; en cuanto a…|3|punto_vista
+ka no you ni|かのように|as if; just like|como si…|3|comparacion
+ka to omottara|かと思ったら（かとおもったら）|just when; no sooner than|justo cuando…; apenas… cuando…|3|tiempo
+ka~nai ka no uchi ni|か～ないかのうちに|just as; right after; as soon as|nada más…; en cuanto…|4|tiempo
+kaette|かえって|on the contrary; rather; all the more|al contrario; más bien; peor aún|2|contraste
+kagiri|限り（かぎり）|as long as; as far as; while… is the case|mientras…; en la medida en que…; hasta donde…|3|grado_limite
+kai ga aru|甲斐がある（かいがある）|it's worth one's efforts to do something|valer la pena el esfuerzo|4|resultado
+kanenai|かねない|(someone) might do something; something might happen|es capaz de…; podría llegar a… (algo malo)|3|posibilidad
+kaneru|かねる|unable to do something; can't do something|no poder…; serle a uno difícil… (cortés)|3|posibilidad
+kara iu to|から言うと（からいうと）|in terms of; from the point of view of|desde el punto de vista de…; en términos de…|3|punto_vista
+kara koso|からこそ|precisely because|precisamente porque…|3|causa
+kara miru to|から見ると（からみると）|from the point of view of; judging from|a juzgar por…; visto desde…|3|punto_vista
+kara niwa|からには|now that; since; so long as; because|ya que…; una vez que… (entonces hay que…)|3|causa
+kara shite|からして|judging from; based on; even|a juzgar por…; ya sólo con…; empezando por…|4|punto_vista
+kara suru to / kara sureba|からすると / からすれば|judging from; considering|a juzgar por…; considerando…|3|punto_vista
+kara to itte|からと言って（からといって）|just because; even if; even though|por el hecho de que… no quiere decir que…|3|contraste
+kkonai|っこない|no chance of; is definitely not possible|no hay manera de que…; ni de broma|3|posibilidad
+koto da|ことだ|should do (suggestions or advice)|hay que…; lo que conviene es…|2|obligacion
+koto dakara|ことだから|because; since|como se trata de… (y ya sabemos cómo es)|3|causa
+koto ka|ことか|how…!; what…!|¡qué…!; ¡cuánto…!|3|enfasis
+koto naku|ことなく|without doing something even once|sin llegar a…; sin ni una vez…|3|modo
+koto ni|ことに|emphasize speaker's feelings; to my (surprise)|para mi… (sorpresa, alegría)|3|enfasis
+koto niwa naranai|ことにはならない|just because… doesn't mean|eso no significa que…|4|contraste
+kuse shite|くせして|although; despite the fact that|a pesar de que… (con reproche)|3|contraste
+madashimo|まだしも|rather; better|todavía pase que…; menos mal si…|4|comparacion
+mai|まい|will not; will probably not; intend not to|no pienso…; seguramente no…|4|modal
+mama ni|ままに|as, to do as|tal como…; a merced de…|3|modo
+mattaku~nai|全く～ない（まったく～ない）|not at all|en absoluto; para nada|1|grado
+mo kamawazu|もかまわず|without caring; without worrying about|sin importarle…; haciendo caso omiso de…|3|modo
+mo touzen da|も当然だ（もとうぜんだ）|it's only natural; no wonder|es lógico que…; con razón…|3|modal
+mono / mon|もの / もん|because; indicates reason/excuse/dissatisfaction|es que…; ¡pero si…! (excusa)|2|causa
+mono da|ものだ|describe feeling; express memories; state fact|solía…; ¡cómo…!; es cosa de…|2|modal
+mono dakara|ものだから|so; therefore; the reason for something|como…; es que… (por eso)|3|causa
+mono dewa nai|ものではない|shouldn't do something; it's impossible to|no se debe…; no es cosa de…|3|obligacion
+mono ga aru|ものがある|there is such a thing; to be the case that; feels like|tiene algo de…; hay en ello un…|4|enfasis
+mono ka / mon ka|ものか / もんか|as if…!; there's no way|¡ni hablar!; ¡cómo va a…!|4|enfasis
+mono nara|ものなら|if I/we could; if [A] is possible, then [B]|si (por milagro) pudiera…|4|condicion
+monono|ものの|but; although; even though|aunque…; si bien…|3|contraste
+motto mo|もっとも|but then; although; though|eso sí; aunque bien es cierto que…|2|contraste
+mou sukoshi de|もう少しで（もうすこしで）|almost; nearly, close to|por poco…; casi…|1|grado
+nai dewa irarenai|ないではいられない|can't help but feel; can't help but do|no poder evitar…; no aguantar sin…|4|modal
+nai koto niwa~nai|ないことには～ない|unless you|si no…, no…; a menos que…|4|condicion
+naka o / naka dewa|中を / 中では（なかを / なかでは）|in; in the midst of; when; while|en medio de…; mientras…|2|tiempo
+naku wa nai / naku mo nai|なくはない / なくもない|it's not that; I may (double negative)|no es que no…; algo de… sí hay|4|modal
+nakute sumu|なくて済む（なくてすむ）|get by without doing|arreglárselas sin…; no hacer falta…|3|obligacion
+nani mo~nai|何も～ない（なにも～ない）|nothing; (not) at all; there's no need to|no hay por qué…; nada de…|2|grado
+nao|なお|still; yet; furthermore; in addition|además; asimismo; aún|2|conectores
+neba naranai|ねばならない|have to do; must; should|hay que…; se debe… (formal)|3|obligacion
+ni atatte|にあたって|at the time; on the occasion of|con motivo de…; al…|3|tiempo
+ni hoka naranai|にほかならない|nothing but; none other than|no es otra cosa que…; es precisamente…|4|enfasis
+ni kagirazu|に限らず（にかぎらず）|not just; not only... but also|no sólo…; y no únicamente…|3|adicion
+ni kagiru|に限る（にかぎる）|is best; nothing is better than|nada como…; lo mejor es…|3|comparacion
+ni kagitte|に限って（にかぎって）|only; in particular|justo…; precisamente… (y no otro)|3|grado_limite
+ni kakawarazu|に関わらず（にかかわらず）|in spite of; regardless of|sin importar…; independientemente de…|3|contraste
+ni kakawaru|に関わる（にかかわる）|to relate to; to have to do with|tener que ver con…; afectar a…|3|relacion
+ni kimatte iru|に決まっている（にきまっている）|certainly; I'm sure that; it must be|seguro que…; no puede ser de otro modo|2|modal
+ni koshita koto wa nai|に越したことはない（にこしたことはない）|it's best that, there's nothing better than|no hay nada mejor que…; más vale…|4|comparacion
+ni kotaete|に応えて（にこたえて）|in response to|en respuesta a…; atendiendo a…|3|relacion
+ni kuwaete|に加えて（にくわえて）|in addition|además de…; sumado a…|2|adicion
+ni motozuite|に基づいて（にもとづいて）|based on; on the basis of|con base en…; a partir de…|3|relacion
+ni mukatte|に向かって（にむかって）|to face; to go towards; to head to|hacia…; de cara a…|2|relacion
+ni oujite|に応じて（におうじて）|depending on; in accordance with|según…; en función de…|3|relacion
+ni saishite|に際して（にさいして）|on the occasion of; at the time of|con ocasión de…; al momento de…|4|tiempo
+ni sakidachi|に先立ち（にさきだち）|before; prior to|antes de…; con antelación a…|3|tiempo
+ni seyo / ni shiro|にせよ / にしろ|even if; regardless; whether... or|aunque sea…; sea como sea…|3|contraste
+ni shiro~ni shiro|にしろ～にしろ|whether… or|ya sea… ya sea…|3|contraste
+ni shitara / ni sureba|にしたら / にすれば|from one's perspective|desde el punto de vista de…; para él/ella…|3|punto_vista
+ni shitemo~ni shitemo|にしても～にしても|regardless of whether|tanto si… como si…|3|contraste
+ni sotte|に沿って（にそって）|along with; in accordance with|a lo largo de…; conforme a…|3|relacion
+ni soui nai|に相違ない（にそういない）|without a doubt; certain; sure|sin duda…; no cabe duda de que…|4|modal
+ni suginai|に過ぎない（にすぎない）|no more than; just; merely; only|no es más que…; simplemente…|3|grado_limite
+ni tomonatte|に伴って（にともなって）|as; due to; along with; following|a medida que…; junto con…|3|relacion
+ni tsuke|につけ|every time; whenever; in (either case)|cada vez que…; tanto si… como si…|4|tiempo
+ni tsuki|につき|due to; because of; per; each|por…; debido a…; por cada…|3|causa
+ni watatte|にわたって|throughout; over a period of|a lo largo de…; durante todo…|3|grado_limite
+nimo kakawarazu|にも関わらず（にもかかわらず）|despite; in spite of; nevertheless|a pesar de…; pese a…|3|contraste
+nite|にて|in, at, with, by (formal particle)|en; con (partícula formal)|3|estilo
+no mo motto mo da|のももっともだ|no wonder; is only natural|es natural que…; con razón…|4|modal
+no moto de|の下で（のもとで）|under; with|bajo…; al amparo de…|3|relacion
+no ue de wa|の上では（のうえでは）|according to; from the viewpoint of|según…; sobre el papel…|3|punto_vista
+nomi|のみ|only; nothing but|sólo; únicamente (formal)|2|grado_limite
+nominarazu|のみならず|not only; besides; as well as|no sólo…; además de…|3|adicion
+nu|ぬ|negative verb conjugation (traditional ない)|forma negativa antigua (= ない)|3|estilo
+nuki ni shite / nuki de|抜きにして / 抜きで（ぬきにして / ぬきで）|without; leaving out; cutting out|sin…; dejando de lado…|3|modo
+nuku|抜く（ぬく）|to do something from beginning to end; completely|hasta el final; del todo|3|estado_cambio
+o keiki ni|を契機に（をけいきに）|as a good opportunity to; as a result of|aprovechando…; a raíz de…|4|causa
+o megutte|をめぐって|concerning; in regard to|en torno a…; a propósito de…|3|relacion
+o moto ni|をもとに|based on; derived from; building on|con base en…; partiendo de…|3|relacion
+o nozoite|を除いて（をのぞいて）|except; with the exception of|excepto…; con excepción de…|2|grado_limite
+o towazu|を問わず（をとわず）|regardless of; irrespective of|sin importar…; sea cual sea…|3|contraste
+o~negau|お～願う（お～ねがう）|please do; could you please…|le ruego que…; ¿podría…? (cortés)|3|estilo
+omake ni|おまけに|to make matters worse; besides; what's more|encima…; para colmo…|2|adicion
+osoraku|恐らく（おそらく）|perhaps; likely; probably|probablemente; me temo que…|2|modal
+osore ga aru|恐れがある（おそれがある）|it is feared that; to be in danger of|hay riesgo de que…; se teme que…|3|modal
+oyobi|及び（および）|and; as well as|y; así como (formal)|3|conectores
+roku ni~nai|ろくに～ない|not well; not enough; improperly|apenas…; ni siquiera bien…|3|grado
+saiwai na koto ni|幸いなことに（さいわいなことに）|fortunately; luckily; thankfully|por suerte; afortunadamente|2|enfasis
+sei ka|せいか|perhaps because|quizá porque…; será por…|2|causa
+sekkaku|せっかく|especially; going to great pains for|con lo que costó…; ya que…|2|conectores
+semete|せめて|at least; at most|al menos; siquiera|2|grado
+shidai|次第（しだい）|as soon as, dependent upon|en cuanto…; tan pronto como…|3|tiempo
+shidai de|次第で（しだいで）|depending on; so|según…; dependiendo de…|3|condicion
+shidai ni|次第に（しだいに）|gradually; in sequence; in order|poco a poco; gradualmente|2|estado_cambio
+shikamo|しかも|moreover; furthermore; and yet|y además; y encima|2|adicion
+sono ue|その上（そのうえ）|besides; in addition; furthermore|además; por si fuera poco|1|adicion
+sore na noni|それなのに|and yet; despite this; but even so|y sin embargo; a pesar de eso|1|contraste
+sore nara|それなら|if that's the case; if so|si es así; en ese caso|1|condicion
+sore ni shitemo|それにしても|nevertheless; at any rate; even so|aun así; de todas formas|2|contraste
+sou ieba|そう言えば（そういえば）|come to think of it; now that you mention it|ahora que lo dices; por cierto|1|conectores
+sou suru to|そうすると|having done that; if that is done|entonces; si se hace así|1|condicion
+sue ni|末に（すえに）|finally; after; at the end of|tras mucho…; al cabo de…|3|tiempo
+sukoshi mo~nai|少しも～ない（すこしも～ない）|not one bit; not even a little|ni lo más mínimo|1|grado
+sukunaku tomo|少なくとも（すくなくとも）|at least|al menos; como mínimo|2|grado
+tadachi ni|直ちに（ただちに）|at once; immediately; directly|de inmediato; en el acto|2|tiempo
+tamae|たまえ|do~; order somebody to do something|haz…; imperativo masculino anticuado|4|estilo
+te bakari wa irarenai|てばかりはいられない|can't keep doing|no se puede estar sólo…|4|modal
+te demo|てでも|even if I have to; by all means|aunque tenga que…; como sea|4|enfasis
+te irai|て以来（ていらい）|since; henceforth|desde que…|3|tiempo
+te ite wa|ていては|if one keeps doing|si uno sigue…（mal resultado)|4|condicion
+te koso|てこそ|now that; only by (doing)|sólo si…; únicamente al…|4|enfasis
+te made|てまで|even; will go so far as to|hasta el punto de…; llegando incluso a…|4|enfasis
+te naranai|てならない|can't help but; extremely|no puedo evitar sentir…; enormemente|3|modal
+te tamaranai|てたまらない|can't help but; dying to; extremely|me muero de…; no aguanto de tanto…|3|modal
+te touzen da|て当然だ（てとうぜんだ）|natural; as a matter of course|es normal que…; lo lógico es que…|3|modal
+tewa / dewa|ては / では|whenever; if; when; repetitive action|cada vez que…; si…（repetición)|3|condicion
+tewa irarenai|てはいられない|can't afford to; unable to|no puedo permitirme…; no es momento de…|3|modal
+tewa naranai|てはならない|must not; cannot; should not|no se debe…; está prohibido…|2|obligacion
+tewa~tewa|ては～ては|repetitive situations/actions|una y otra vez: … y …|4|tiempo
+to douji ni|と同時に（とどうじに）|at the same time as; while|al mismo tiempo que…; a la vez que…|2|tiempo
+to itta|といった|like; such as|como…; tales como…|2|adicion
+to iu fuu ni|というふうに|in such a way that|de manera que…; así: …|3|modo
+to iu koto wa|ということは|that is to say; so that means|o sea que…; eso significa que…|2|conectores
+to iu mono da|というものだ|something like; something called|eso sí que es…; a eso se le llama…|4|enfasis
+to iu mono dewa nai|というものではない|there is no guarantee that; not necessarily|no por eso…; no necesariamente…|4|contraste
+to kangaerareru|と考えられる（とかんがえられる）|one can think that; it is conceivable that|se considera que…; cabe pensar que…|3|modal
+toka (de)|とか（で）|I heard that|dicen que…; parece que…|3|modal
+tokku ni|とっくに|long ago; already; a long time ago|hace ya mucho; desde hace rato|1|tiempo
+tokoro datta|ところだった|was just about to do; something almost happened|por poco…; estuve a punto de…|2|tiempo
+tokoro ni|ところに|at the time; just as I was|justo cuando…; en ese momento…|3|tiempo
+tokoro o miru to|ところを見ると（ところをみると）|judging from; seeing that|a juzgar por el hecho de que…|3|punto_vista
+tomo|とも|even if; no matter (who, what, when); though|aunque…; por más que… (formal)|4|contraste
+toshite~nai|として～ない|not at all; there is not even one|ni uno solo…; ninguno en absoluto|4|grado
+toshitemo|としても|assuming; even if|aun suponiendo que…; aunque…|2|contraste
+tsutsu|つつ|while; even though; despite|mientras…; aun…|3|tiempo
+tsutsu aru|つつある|to be doing; to be in the process of doing|estar en proceso de…; ir …ando|3|estado_cambio
+ue wa|上は（うえは）|now that; since; as long as|una vez que…; puesto que… (formal)|4|causa
+wa moto yori|はもとより|also; let alone; from the beginning|ni qué decir de…; y por supuesto…|4|adicion
+wa tomokaku|はともかく|anyhow; regardless; whether or not|dejando aparte…; sea como sea…|3|contraste
+wazuka ni|わずかに|slightly; only; barely; narrowly|apenas; ligeramente; por poco|2|grado
+yagate|やがて|before long; soon; eventually|al poco tiempo; con el tiempo|1|tiempo
+yara~yara|やら～やら|such things as A and B|entre… y…; con esto y lo otro|3|adicion
+yohodo / yoppodo|よほど / よっぽど|very; greatly; to a large extent|bastante; muchísimo; casi que…|3|grado
+yori|より [2]|from (a time, place, or person)|desde…; a partir de… (formal)|1|estilo
+yori hoka nai|よりほかない|to have no choice but|no queda más remedio que…|3|obligacion
+you dewa|ようでは|if (bad result)|si sigue así…; si uno…（mal resultado)|4|condicion
+you dewa nai ka|ようではないか|let's do; why don't we|¿por qué no…?; hagamos…|3|modal
+you ka~mai ka|ようか～まいか|whether or not; considering options|si… o no; entre hacerlo y no hacerlo|4|modal
+you suru ni|要するに（ようするに）|in short; in a word; to put it simply|en resumen; en pocas palabras|2|conectores
+zaru o enai|ざるを得ない（ざるをえない）|cannot help (doing); have no choice but to|no queda más que…; verse obligado a…|3|obligacion
+zu ni sumu|ずに済む（ずにすむ）|get by without doing|salir del paso sin…; ahorrarse el…|3|obligacion

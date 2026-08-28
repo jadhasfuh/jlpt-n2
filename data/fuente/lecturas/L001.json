@@ -1,0 +1,35 @@
+{
+ "nivel_id": "L001",
+ "titulo": "わたしの<ruby>家族<rt>かぞく</rt></ruby>",
+ "cuerpo": "わたしの<ruby>家族<rt>かぞく</rt></ruby>は<ruby>五人<rt>ごにん</rt></ruby>です。<ruby>父<rt>ちち</rt></ruby>と<ruby>母<rt>はは</rt></ruby>と<ruby>兄<rt>あに</rt></ruby>と<ruby>妹<rt>いもうと</rt></ruby>がいます。<ruby>日曜日<rt>にちようび</rt></ruby>は、みんな<ruby>家<rt>いえ</rt></ruby>にいます。<ruby>兄<rt>あに</rt></ruby>はテレビを<ruby>見<rt>み</rt></ruby>ます。あるいは<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます。<ruby>妹<rt>いもうと</rt></ruby>は<ruby>母<rt>はは</rt></ruby>と<ruby>料理<rt>りょうり</rt></ruby>をします。しずかで、いい<ruby>家庭<rt>かてい</rt></ruby>です。",
+ "traduccion": "Mi familia somos cinco. Están mi padre, mi madre, mi hermano mayor y mi hermana menor. Los domingos todos estamos en casa. Mi hermano ve la tele, o si no, lee un libro. Mi hermana cocina con mi madre. Es un hogar tranquilo y agradable.",
+ "preguntas": [
+  {
+   "p": "この<ruby>家族<rt>かぞく</rt></ruby>は<ruby>何人<rt>なんにん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>三人<rt>さんにん</rt></ruby>",
+    "<ruby>四人<rt>よにん</rt></ruby>",
+    "<ruby>五人<rt>ごにん</rt></ruby>"
+   ],
+   "correcta": 2
+  },
+  {
+   "p": "<ruby>兄<rt>あに</rt></ruby>は<ruby>日曜日<rt>にちようび</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "テレビを<ruby>見<rt>み</rt></ruby>るか、<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む",
+    "<ruby>料理<rt>りょうり</rt></ruby>をする",
+    "<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>妹<rt>いもうと</rt></ruby>はだれと<ruby>料理<rt>りょうり</rt></ruby>をしますか。",
+   "opciones": [
+    "<ruby>父<rt>ちち</rt></ruby>",
+    "<ruby>母<rt>はは</rt></ruby>",
+    "<ruby>兄<rt>あに</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

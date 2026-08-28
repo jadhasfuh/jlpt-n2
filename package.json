@@ -1,0 +1,29 @@
+{
+  "name": "jlpt-n2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "datos": "python3 scripts/01_parse_vocab.py && python3 scripts/07_completar_definiciones.py && python3 scripts/02_clasificar.py && python3 scripts/03_niveles_jlpt.py && python3 scripts/04_curriculo.py && python3 scripts/05_traducir.py && python3 scripts/06_exportar.py",
+    "seed": "node scripts/08_seed_supabase.mjs",
+    "lecturas": "node scripts/09_generar_lecturas.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.122.0",
+    "@supabase/supabase-js": "^2.112.4",
+    "next": "^16.3.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "server-only": "^0.0.1",
+    "zod": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.7.0"
+  }
+}

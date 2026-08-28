@@ -1,0 +1,35 @@
+{
+ "nivel_id": "L005",
+ "titulo": "<ruby>右<rt>みぎ</rt></ruby>の<ruby>指<rt>ゆび</rt></ruby>",
+ "cuerpo": "さっき、<ruby>台所<rt>だいどころ</rt></ruby>で<ruby>右<rt>みぎ</rt></ruby>の<ruby>指<rt>ゆび</rt></ruby>を<ruby>切<rt>き</rt></ruby>りました。<ruby>血<rt>ち</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>し<ruby>出<rt>で</rt></ruby>ましたが、<ruby>大体<rt>だいたい</rt></ruby>だいじょうぶです。<ruby>母<rt>はは</rt></ruby>が<ruby>左<rt>ひだり</rt></ruby>の<ruby>手<rt>て</rt></ruby>にタオルを<ruby>渡<rt>わた</rt></ruby>してくれました。<ruby>指輪<rt>ゆびわ</rt></ruby>を<ruby>取<rt>と</rt></ruby>って、ゆっくり<ruby>手<rt>て</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>いました。<ruby>背中<rt>せなか</rt></ruby>の<ruby>力<rt>ちから</rt></ruby>が<ruby>抜<rt>ぬ</rt></ruby>けて、<ruby>心<rt>こころ</rt></ruby>も<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>きました。",
+ "traduccion": "Hace un rato me corté un dedo de la mano derecha en la cocina. Sangró un poco, pero en general estoy bien. Mi madre me pasó una toalla a la mano izquierda. Me quité el anillo y me lavé la mano despacio. Se me destensó la espalda y me tranquilicé.",
+ "preguntas": [
+  {
+   "p": "どこを<ruby>切<rt>き</rt></ruby>りましたか。",
+   "opciones": [
+    "<ruby>左<rt>ひだり</rt></ruby>の<ruby>耳<rt>みみ</rt></ruby>",
+    "<ruby>右<rt>みぎ</rt></ruby>の<ruby>指<rt>ゆび</rt></ruby>",
+    "<ruby>首<rt>くび</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>母<rt>はは</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>しましたか。",
+   "opciones": [
+    "タオル",
+    "<ruby>指輪<rt>ゆびわ</rt></ruby>",
+    "<ruby>水<rt>みず</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>手<rt>て</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>う<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>指輪<rt>ゆびわ</rt></ruby>を<ruby>取<rt>と</rt></ruby>った",
+    "<ruby>髪<rt>かみ</rt></ruby>を<ruby>切<rt>き</rt></ruby>った",
+    "<ruby>目<rt>め</rt></ruby>を<ruby>閉<rt>と</rt></ruby>じた"
+   ],
+   "correcta": 0
+  }
+ ]
+}
