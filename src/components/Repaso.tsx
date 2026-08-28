@@ -30,7 +30,7 @@ export function Repaso() {
         <div style={{ fontSize: 34 }}>🍵</div>
         <p style={{ fontSize: 17 }}>Nada pendiente de repasar.</p>
         <p className="silencio">Haz una sesión y las palabras irán entrando aquí solas.</p>
-        <Link className="btn primario" href="/">Ir a la sesión</Link>
+        <Link className="btn primario" href="/">Ir al curso</Link>
       </div>
     );
   }

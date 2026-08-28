@@ -104,6 +104,7 @@ SUBGRUPOS = {
    ("colocar",     "置くと入れる", "Colocar y meter"),
    ("percepcion",  "見る・聞く・感じる","Ver, oír, sentir"),
    ("conflicto",   "戦うと争う",   "Luchar y competir"),
+   ("abstractas",  "抽象的な行為", "Acciones abstractas"),
  ],
  "kotoba": [
    ("pensar",      "考える",       "Pensar"),
@@ -122,6 +123,7 @@ SUBGRUPOS = {
    ("grado",       "程度",         "Grado e intensidad"),
    ("comparacion", "比べる",       "Comparar"),
    ("estado",      "ようすと状態", "Estados y apariencia"),
+   ("conceptos",   "抽象概念",     "Conceptos abstractos"),
  ],
  "gijutsu": [
    ("maquinas",    "機械",         "Máquinas"),

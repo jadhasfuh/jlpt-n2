@@ -2,19 +2,24 @@
 import Link from "next/link";
 import { useAjustes } from "./Ajustes";
 
-export function Cabecera() {
+export function Cabecera({ atras, titulo }: { atras?: string; titulo?: string }) {
   const { tema, cambiarTema } = useAjustes();
   const icono = tema === "claro" ? "☀️" : tema === "oscuro" ? "🌙" : "◐";
   return (
     <header className="cabecera">
       <div className="cabecera-fila">
-        <Link href="/" className="marca">日本語 <span>N2</span></Link>
-        <nav style={{ display: "flex", gap: 4 }}>
-          <Link href="/secciones" className="btn fantasma">Secciones</Link>
-          <Link href="/repaso" className="btn fantasma">Repaso</Link>
-        </nav>
+        {atras ? (
+          <Link href={atras} className="atras">← <span>{titulo ?? "Atrás"}</span></Link>
+        ) : (
+          <Link href="/" className="marca">jlp<span>test</span></Link>
+        )}
         <div className="crecer" />
-        <button className="btn fantasma" onClick={cambiarTema} title={`Tema: ${tema}`}>{icono}</button>
+        <nav className="solo-escritorio">
+          <Link href="/" className="btn fantasma">Curso</Link>
+          <Link href="/repaso" className="btn fantasma">Repaso</Link>
+          <Link href="/perfil" className="btn fantasma">Perfil</Link>
+        </nav>
+        <button className="btn fantasma" onClick={cambiarTema} aria-label="Cambiar tema">{icono}</button>
       </div>
     </header>
   );

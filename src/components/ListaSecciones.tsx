@@ -1,0 +1,56 @@
+"use client";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import { COLOR_NIVEL, type Nivel } from "@/lib/tipos";
+import { leerProgreso } from "@/lib/progreso";
+import { Anillo } from "./Anillo";
+import { ACCESO_ABIERTO, esLibre } from "@/lib/acceso";
+
+type S = { id: string; ja: string; es: string; palabras: number; gramatica: number; unidades: number };
+
+export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones: S[] }) {
+  const [avance, setAvance] = useState<Record<string, number>>({});
+  useEffect(() => {
+    const recalcular = () => {
+      const p = leerProgreso();
+      const a: Record<string, number> = {};
+      for (const s of secciones) {
+        const hechas = Object.entries(p.unidades)
+          .filter(([id, u]) => u.practicada && id.startsWith(`${nivel}/${s.id}/`)).length;
+        a[s.id] = s.unidades ? hechas / s.unidades : 0;
+      }
+      setAvance(a);
+    };
+    recalcular();
+    window.addEventListener("progreso", recalcular);
+    return () => window.removeEventListener("progreso", recalcular);
+  }, [nivel, secciones]);
+
+  return (
+    <div className="lista">
+      {secciones.map((s) => {
+        const bloqueada = !ACCESO_ABIERTO && !esLibre(s.id);
+        const contenido = (
+          <>
+            <Anillo pct={avance[s.id] ?? 0} tono={COLOR_NIVEL[nivel as Nivel]}
+                    texto={`${Math.round((avance[s.id] ?? 0) * 100)}`} />
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <div className="jp" style={{ fontSize: 19, lineHeight: 1.4 }}>{s.ja}</div>
+              <div className="tenue">
+                {s.es} · {s.gramatica ? `${s.gramatica} puntos` : `${s.palabras} palabras`} · {s.unidades} unidades
+              </div>
+            </div>
+            {bloqueada ? <span style={{ fontSize: 17 }}>🔒</span>
+                       : !ACCESO_ABIERTO && esLibre(s.id) ? <span className="pastilla gratis">gratis</span>
+                       : <span className="flecha">›</span>}
+          </>
+        );
+        return bloqueada ? (
+          <div key={s.id} className="fila" style={{ opacity: .55 }}>{contenido}</div>
+        ) : (
+          <Link key={s.id} href={`/n/${nivel}/${s.id}`} className="fila">{contenido}</Link>
+        );
+      })}
+    </div>
+  );
+}

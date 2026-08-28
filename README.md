@@ -1,13 +1,21 @@
-# 日本語 N2 — curso por niveles
+# jlptest — japonés del N5 al N1
 
-Web para preparar el JLPT N2: **250 sesiones de 20 palabras nuevas**, agrupadas
-por tema, con los **197 puntos de gramática** repartidos de la forma más simple
-a la más compleja, y una lectura al final de cada sesión que sólo usa lo ya visto.
+Web (y pronto app) para preparar el JLPT. El contenido se navega
+**nivel → sección → unidad**: eliges N5…N1, dentro de cada nivel hay 14
+secciones temáticas, y cada sección se parte en unidades de ~20 palabras
+(家族 ①, 家族 ②…) con las fáciles primero.
 
-En el contenido japonés nunca aparece romaji. En cada paso hay dos botones
-rápidos: **ふりがな** (lectura en kana) y **意味** (significado). Además, al
-seleccionar cualquier trozo de japonés en la página se abre el diccionario
-interno con la lectura y el significado.
+En cada unidad: la lista de vocabulario, un interruptor con la gramática que
+aparece ahí, la lectura, y dos botones flotantes — **Practicar** y **Test**.
+La gramática también se puede consultar acumulada por sección y completa por
+nivel.
+
+En el contenido japonés nunca aparece romaji. Dos botones rápidos en cada
+pantalla: **ふりがな** y **意味**. Y al seleccionar cualquier trozo de japonés
+se abre el diccionario interno.
+
+Diseño **mobile-first** con barra de navegación inferior, pensado para que la
+app de React Native reutilice los mismos tokens y el mismo módulo de acceso.
 
 ---
 
@@ -15,29 +23,44 @@ interno con la lectura y el significado.
 
 | Cifra | |
 |---|---|
-| 4 961 | palabras (lista N2 de 2004, la misma de jlptstudy.net) |
-| 197 | puntos de gramática, con significado en español |
-| 250 | sesiones de 20 palabras |
-| 14 | secciones temáticas, 99 subgrupos |
+| 7 614 | palabras, de N5 a N1 |
+| 197 | puntos de gramática (todos N2), repartidos entre las unidades de ese nivel |
+| 602 | unidades de ~20 palabras |
+| 14 | secciones temáticas · 101 subgrupos |
 
-**Secciones y subgrupos.** El vocabulario se clasificó con un motor de reglas
-sobre la definición inglesa, el kanji y la categoría gramatical
-(`scripts/reglas.py`). El 93,5 % cae en un tema concreto; el resto queda en
-「その他」, que es una sección legítima y no un cajón de sastre roto.
+| Nivel | Palabras | Unidades |
+|---|---|---|
+| N5 | 859 | 100 |
+| N4 | 655 | 95 |
+| N3 | 1 785 | 127 |
+| N2 | 1 652 | 123 |
+| N1 | 2 663 | 157 |
 
-**Orden dentro de cada sesión.** Cada palabra lleva su nivel real (N5 / N4 / N2),
-sacado de cruzar la lista con las de N5 y N4 de la misma fuente. Dentro de un
-subgrupo las fáciles van primero, así cada sesión arranca con terreno conocido.
+**Dos fuentes.** La base es la lista del N2 de jlptstudy.net (4 959 entradas, la
+spec de 2004). Como esa lista no distingue N3 ni trae N1, los niveles reales se
+cruzan con las listas de los cinco niveles de
+`jamsinclair/open-anki-jlpt-decks`, de donde además se importan las 2 655
+palabras de N1 que faltaban.
 
-**Gramática.** Cada punto tiene una dificultad (1 a 4) y una categoría
-(conectores, tiempo, contraste, causa…). Se ordena por ahí y se reparte
-uniformemente entre las 250 sesiones: 197 sesiones estrenan un punto y 53 son
-de repaso.
+**Secciones y subgrupos.** Clasificación por reglas sobre la definición inglesa,
+el kanji y la categoría gramatical (`scripts/reglas.py`). El 90 % cae en un tema
+concreto; el resto queda en 「その他」.
 
-**Significados.** Vienen en inglés (de la fuente) y en español. Las etiquetas de
-registro —cortés, coloquial, jerga…— se separan del significado y se muestran
-aparte. La traducción al español de esta primera versión es automática; el paso
-para rehacerla con Claude ya está escrito (ver más abajo).
+**Dentro de cada sección**, las palabras se ordenan de menos a más kanji y de más
+corta a más larga, y se cortan en unidades de 20.
+
+**Significados** en inglés (de la fuente) y en español. Las etiquetas de registro
+—cortés, coloquial, jerga…— van aparte del significado. La traducción al español
+es automática en esta primera versión.
+
+**Gamificación**: XP por palabra nueva y por repaso, racha de días, estados por
+palabra (nueva / aprendiendo / dominada), medallas por nota de test y anillos de
+progreso por nivel y sección.
+
+**Acceso sin cuenta** (`src/lib/acceso.ts`): la sección 人と体 de cada nivel es
+libre; el resto pedirá cuenta cuando exista el login. Mientras tanto
+`NEXT_PUBLIC_ACCESO_ABIERTO` deja todo abierto. La app de React Native importará
+ese mismo módulo.
 
 ---
 
@@ -107,8 +130,8 @@ Es reanudable (salta las que ya existen) e imprime el gasto al terminar.
 Referencia: unas 250 lecturas con `claude-opus-5` rondan los 10–15 USD; con
 `--modelo claude-sonnet-5` baja a la tercera parte.
 
-Mientras tanto, las sesiones 1 a 3 traen lecturas escritas a mano
-(`data/fuente/lecturas.json`) para que el paso funcione desde el primer día.
+Mientras tanto hay 10 lecturas escritas a mano
+(`data/fuente/lecturas/`) para que el paso funcione desde el primer día.
 
 ---
 
@@ -131,13 +154,13 @@ app por caída.
 ## Mapa del repo
 
 ```
-data/fuente/     gramatica.tsv (las 197, escritas a mano) y lecturas de muestra
+data/fuente/     gramatica.tsv (las 197, a mano), lecturas/, correcciones.tsv
 data/raw/        HTML original de las listas (gitignored, se vuelve a bajar)
 data/build/      pasos intermedios y cachés (gitignored)
 data/dist/       el contenido final que consume la app
-scripts/         01→07, el pipeline de datos; 08 seed; 09 lecturas
+scripts/         01→07 pipeline de datos; 08 seed; 09 lecturas; 10 seed.sql
 src/lib/         contenido, tipos, progreso, cliente de Supabase
-src/components/  Sesión (los pasos), Jp/furigana, Diccionario, Repaso, Ajustes
+src/components/  VistaUnidad, Practica, Test, Jp/furigana, Diccionario, Perfil
 supabase/        config.toml y migrations/ (el esquema)
 ```
 

@@ -3,7 +3,7 @@
 import json, re, sys, collections, pathlib
 sys.path.insert(0, "scripts")
 from taxonomia import SECCIONES, SUBGRUPOS
-from reglas import REGLAS_EN, REGLAS_KANJI, REGLAS_EN2
+from reglas import REGLAS_EN, REGLAS_KANJI, REGLAS_EN2, REGLAS_EN3
 
 # Etiquetas de registro que trae la fuente entre paréntesis. Se separan del
 # significado: si se dejan, el traductor las convierte en disparates
@@ -33,6 +33,7 @@ for r in vocab:
     r["en"], r["registro"] = normalizar(r["en"])
 P1 = [(s, g, re.compile(p, re.I)) for s, g, p in REGLAS_EN]
 P2 = [(s, g, re.compile(p, re.I)) for s, g, p in REGLAS_EN2]
+P3 = [(s, g, re.compile(p, re.I)) for s, g, p in REGLAS_EN3]
 
 def singular(t):
     return re.sub(r"(\w{3,}?)(?:ies\b|es\b|s\b)", r"\1", t)
@@ -41,8 +42,25 @@ def es_afijo(r):
     t = r["kana"] + r["kanji"]
     return "~" in t or "～" in t
 
+def clase_por_definicion(en):
+    """La lista de N1 no trae categoría gramatical: se deduce del significado."""
+    t = en.strip().lower()
+    if t.startswith("to ") or re.match(r"^to\b", t):
+        return "verbos"
+    if re.search(r"\b(ly|manner)\b", t) or t.endswith("ly"):
+        return "adverbios"
+    if re.match(r"^(being|feeling|having)\b", t) or re.search(
+            r"\b(ful|ous|ive|able|ible|ish|less)\b$", t.split(",")[0].strip()):
+        return "adjetivos"
+    return "sustantivos"
+
 def por_pos(r):
     pos = set(p.strip() for p in re.split(r"[,\s]+", r["pos"]) if p.strip())
+    if not pos:
+        clase = clase_por_definicion(r["en"])
+        if clase == "adverbios":
+            return ("tsunagu", "adverbios")
+        return ("sonota", clase)
     if pos & {"conj"}:                        return ("tsunagu", "conjunciones")
     if pos & {"pref", "suf", "n-suf", "ctr"}: return ("tsunagu", "afijos")
     if pos & {"int", "exp"}:                  return ("kokoro", "saludos")
@@ -66,6 +84,8 @@ def clasificar(r):
                 if rx.search(sg): return s, g, "en-sg"
         for s, g, rx in P2:
             if rx.search(en) or rx.search(sg): return s, g, "en2"
+        for s, g, rx in P3:
+            if rx.search(en) or rx.search(sg): return s, g, "en3"
     if es_afijo(r):
         return "tsunagu", "afijos", "afijo"
     if r["kanji"]:

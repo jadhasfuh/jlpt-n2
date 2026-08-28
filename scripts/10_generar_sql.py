@@ -31,7 +31,14 @@ def bloque(tabla, columnas, filas, clave, por=200):
                    f"on conflict ({clave}) do update set {actualiza};")
     return "\n".join(out)
 
-secciones = [{**s, "orden": i + 1} for i, s in enumerate(leer("secciones"))]
+# las secciones ya no tienen archivo propio: se sacan del árbol del curso
+import sys; sys.path.insert(0, "scripts")
+from taxonomia import SECCIONES as TAX, SUBGRUPOS
+curso = leer("curso")
+vistas = {s["id"] for n in curso for s in n["secciones"]}
+secciones = [{"id": sid, "ja": ja, "es": es, "orden": i + 1,
+              "subgrupos": [{"id": g, "ja": gja, "es": ges} for g, gja, ges in SUBGRUPOS[sid]]}
+             for i, (sid, ja, es) in enumerate(TAX) if sid in vistas]
 gramatica = [{**g, "orden": i + 1} for i, g in enumerate(leer("gramatica"))]
 
 partes = [
@@ -40,19 +47,21 @@ partes = [
     bloque("secciones", ["id", "ja", "es", "orden", "subgrupos"], secciones, "id"),
     bloque("vocabulario",
            ["id", "kana", "kanji", "escritura", "lectura", "pos", "en", "es",
-            "es_origen", "seccion", "subgrupo", "jlpt"],
+            "registro", "seccion", "subgrupo", "jlpt"],
            leer("vocabulario"), "id"),
     bloque("gramatica", ["id", "forma", "lectura", "en", "es", "tier", "cat", "orden"],
            gramatica, "id"),
-    bloque("niveles", ["id", "numero", "seccion", "titulo_ja", "titulo_es", "palabras", "gramatica"],
-           leer("niveles"), "id"),
-    bloque("lecturas", ["nivel_id", "titulo", "cuerpo", "traduccion", "preguntas"],
-           leer("lecturas"), "nivel_id"),
+    bloque("unidades",
+           ["id", "tipo", "nivel", "seccion", "subgrupo", "parte", "partes",
+            "ja", "es", "palabras", "gramatica"],
+           leer("unidades"), "id"),
+    bloque("lecturas", ["unidad_id", "titulo", "cuerpo", "traduccion", "preguntas"],
+           leer("lecturas"), "unidad_id"),
     "commit;",
 ]
 salida = D / "seed.sql"
 salida.write_text("\n\n".join(partes) + "\n", encoding="utf-8")
 print(f"{salida}  {salida.stat().st_size/1024:.0f} KB")
 for n, d in [("secciones", secciones), ("vocabulario", leer("vocabulario")),
-             ("gramatica", gramatica), ("niveles", leer("niveles")), ("lecturas", leer("lecturas"))]:
+             ("gramatica", gramatica), ("unidades", leer("unidades")), ("lecturas", leer("lecturas"))]:
     print(f"  {n:<12} {len(d):5d}")

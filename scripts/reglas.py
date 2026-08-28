@@ -172,3 +172,18 @@ REGLAS_EN2 = [
 ("jikan","cantidad", r"\b(subtraction|digit|milli-|centi-|acidity|neuter gender)\b"),
 ("tsunagu","formulas", r"\b(thus\b|so\b|according to|hurrah|cheers|randomly|recklessly|blindly|in your care)\b"),
 ]
+
+
+# Tercera tanda: sustantivos abstractos de N1, que la lista trae sin categoría
+# gramatical y con definiciones de una sola palabra.
+REGLAS_EN3 = [
+("dousa","abstractas", r"\b(combination|amalgamation|merger|fusion|substitution|replacement|appointment|nomination|ordination|pursuit|chase\b|achievement|accomplishment|enactment|establishment|foundation, establishment|abolition|repeal|abolish|separation|detachment|segregation|division, separation|coexistence|isolation|compromise|assassination|exile|banishment|retreat|withdrawal|confrontation|showdown|neutraliz|counteract|yield, produce|production, yield|adjustment|expansion|reduction|restoration|revival|renewal|repetition|imitation|adoption|application|installation|removal|abandonment|preservation|maintenance|promotion|demotion|transfer|conversion|transformation|circulation|distribution|allocation|accumulation|elimination|exclusion|inclusion|integration|unification|dissolution|suspension|resumption|interruption|intervention|mediation|negotiation|reconciliation|cooperation|competition|comparison, contrast|selection, choice|inspection|supervision|regulation|restriction|liberation|persecution|oppression|exploitation|sacrifice|dedication|devotion|commitment)\b"),
+("seishitsu","conceptos", r"\b(purity|innocence|beauty\b|harmony|balance, harmony|cruelty|harshness|tolerance|forbearance|generosity|dignity|honou?r\b|virtue|vice\b|morality|ethics|justice\b|equality|freedom|liberty|truth\b|falsehood|essence|substance, essence|principle|concept|notion|abstraction|ideal\b|reality\b|existence|absence\b|presence\b|necessity|possibility|probability|certainty|ambiguity|contradiction|paradox|analogy|symbol|meaning\b|value\b|quality\b|quantity\b|origin\b|cause\b|effect\b|purpose\b|意|invalid|no effect|inefficiency|incompetence|efficiency|effectiveness|validity|superiority|inferiority|priority|majority\b|minority\b|extreme|moderation|excess\b|shortage\b)\b"),
+("seishitsu","valoracion", r"\b(shameful|despicable|mean\b|remarkable|considerable|heartening|reassuring|graceful|elegant|vain\b|futile|vacant|heartbroken|romantic|feudalistic|magnificent|marvel|superb|awkward|absurd|ridiculous|obvious|apparent|vague|precise|strict|lenient|harsh|gentle\b|noble|humble\b|vulgar|refined|delicate|fragile|robust|steady|unstable)\b"),
+("shizen","materia", r"\b(solution\b|alkali|acid\b|boiling|seething|evaporat|crystal|molecule|atom\b|cell\b|tissue\b|organism|specimen|compound|mixture|solvent|density|pressure\b|friction|combustion|radiation|magnetism|electron|proton|isotope)\b"),
+("shizen","cielo", r"\b(constellation|galaxy|comet|meteor|orbit|eclipse|astronom)\b"),
+("gijutsu","maquinas", r"\b(filter|timer|sensor|switchboard|generator|turbine|valve|pump\b|circuit\b|antenna|monitor\b|printer|misprint|ropeway|aerial tram|escalator|conveyor|crane\b)\b"),
+("basho","transporte", r"\b(main line|trunk line|branch line|terminal|junction|monorail|tramway|runway|dock\b|pier\b)\b"),
+("kokoro","relaciones", r"\b(errand|appointment, meeting|rendezvous|temptation|allurement|lure\b|seduction|persuasion|betrayal|loyalty|hospitality|courtesy, etiquette)\b"),
+("jikan","cantidad", r"\b(depopulation|overpopulation|surplus, excess|deficit|percentage, ratio|average, mean|maximum|minimum|total, sum|density, concentration)\b"),
+]

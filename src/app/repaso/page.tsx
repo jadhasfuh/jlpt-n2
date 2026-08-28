@@ -1,3 +1,11 @@
+import { Cabecera } from "@/components/Cabecera";
 import { Repaso } from "@/components/Repaso";
-export const metadata = { title: "Repaso — 日本語 N2" };
-export default function PaginaRepaso() { return <Repaso />; }
+export const metadata = { title: "Repaso — jlptest" };
+export default function Pagina() {
+  return (
+    <>
+      <Cabecera />
+      <main className="envoltorio"><Repaso /></main>
+    </>
+  );
+}
