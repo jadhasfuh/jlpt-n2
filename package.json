@@ -9,7 +9,8 @@
     "lint": "next lint",
     "datos": "python3 scripts/01_parse_vocab.py && python3 scripts/07_completar_definiciones.py && python3 scripts/02_clasificar.py && python3 scripts/03_niveles_jlpt.py && python3 scripts/04_curriculo.py && python3 scripts/05_traducir.py && python3 scripts/06_exportar.py",
     "seed": "node scripts/08_seed_supabase.mjs",
-    "lecturas": "node scripts/09_generar_lecturas.mjs"
+    "lecturas": "node scripts/09_generar_lecturas.mjs",
+    "sql": "python3 scripts/10_generar_sql.py"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.122.0",
