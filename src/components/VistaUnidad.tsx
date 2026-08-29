@@ -105,12 +105,15 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente }: {
                       </td>
                       <td>
                         {visible ? (
-                          <>
-                            <div style={{ fontSize: 14 }}>{w.es || w.en}</div>
-                            <div className="tenue">
+                          // Se puede volver a tapar tocándolo, salvo que esté
+                          // encendido el interruptor global de 意味.
+                          <button className="revelado-td" disabled={significado}
+                                  onClick={() => setAbierto({ ...abierto, [w.id]: false })}>
+                            <span style={{ fontSize: 14 }}>{w.es || w.en}</span>
+                            <span className="tenue" style={{ display: "block" }}>
                               {w.registro.length > 0 && <em>{w.registro.join(" · ")} — </em>}{w.en}
-                            </div>
-                          </>
+                            </span>
+                          </button>
                         ) : (
                           <button className="btn fantasma" style={{ paddingLeft: 0 }}
                                   onClick={() => setAbierto({ ...abierto, [w.id]: true })}>

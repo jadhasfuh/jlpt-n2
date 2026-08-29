@@ -300,3 +300,12 @@ em.g.n3 { border-color: color-mix(in srgb, var(--morado) 55%, transparent); }
 }
 .tira::-webkit-scrollbar { display: none; }
 .tira > * { flex: 0 0 auto; white-space: nowrap; }
+
+/* significado revelado dentro de una lista: se toca para volver a taparlo */
+.revelado-td {
+  text-align: left; padding: 0; width: 100%;
+  cursor: pointer; border-radius: 8px;
+  transition: background .12s;
+}
+.revelado-td:hover:not(:disabled) { background: var(--papel-3); }
+.revelado-td:disabled { cursor: default; }

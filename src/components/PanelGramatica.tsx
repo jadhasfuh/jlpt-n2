@@ -40,10 +40,11 @@ export function PanelGramatica({ items, agrupar = false }: { items: Gramatica[];
                       </td>
                       <td>
                         {visible ? (
-                          <>
-                            <div style={{ fontSize: 14 }}>{g.es}</div>
-                            <div className="tenue">{g.en}</div>
-                          </>
+                          <button className="revelado-td" disabled={significado}
+                                  onClick={() => setAbierto({ ...abierto, [g.id]: false })}>
+                            <span style={{ fontSize: 14 }}>{g.es}</span>
+                            <span className="tenue" style={{ display: "block" }}>{g.en}</span>
+                          </button>
                         ) : (
                           <button className="btn fantasma" style={{ paddingLeft: 0 }}
                                   onClick={() => setAbierto({ ...abierto, [g.id]: true })}>
