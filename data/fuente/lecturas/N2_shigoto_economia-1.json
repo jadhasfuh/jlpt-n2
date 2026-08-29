@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/shigoto/economia-1",
+ "titulo": "<ruby>工芸<rt>こうげい</rt></ruby>の<ruby>店<rt>みせ</rt></ruby>",
+ "cuerpo": "<ruby>町<rt>まち</rt></ruby>の<ruby>工芸<rt>こうげい</rt></ruby>の<ruby>店<rt>みせ</rt></ruby>は、<ruby>五十年<rt>ごじゅうねん</rt></ruby><em class=\"g\">にわたって</em><ruby>同<rt>おな</rt></ruby>じ<ruby>物<rt>もの</rt></ruby>を<ruby>作製<rt>さくせい</rt></ruby>している。<ruby>売行<rt>うれゆ</rt></ruby>きは<ruby>年<rt>とし</rt></ruby>によって<ruby>違<rt>ちが</rt></ruby>い、<ruby>売買<rt>ばいばい</rt></ruby>の<ruby>分布<rt>ぶんぷ</rt></ruby>も<ruby>変<rt>か</rt></ruby>わる。<ruby>職人<rt>しょくにん</rt></ruby>が<ruby>減<rt>へ</rt></ruby>り、<ruby>体力<rt>たいりょく</rt></ruby>の<ruby>消耗<rt>しょうもう</rt></ruby>も<ruby>大<rt>おお</rt></ruby>きいという。それでも<ruby>能率<rt>のうりつ</rt></ruby>より<ruby>手<rt>て</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>をこしらえることを<ruby>選<rt>えら</rt></ruby>んでいる。<ruby>注文<rt>ちゅうもん</rt></ruby>の<ruby>催促<rt>さいそく</rt></ruby>が<ruby>来<rt>く</rt></ruby>ても、<ruby>急<rt>いそ</rt></ruby>がないのがこの<ruby>店<rt>みせ</rt></ruby>のやり<ruby>方<rt>かた</rt></ruby>だ。",
+ "traduccion": "La tienda de artesanía del pueblo lleva cincuenta años fabricando lo mismo. Las ventas cambian según el año, y también cambia el reparto del comercio. Dicen que quedan menos artesanos y que el desgaste físico es grande. Aun así eligen hacer el trabajo a mano antes que la eficiencia. Aunque lleguen reclamaciones de pedidos, no apurarse es la manera de hacer de esta tienda.",
+ "preguntas": [
+  {
+   "p": "この<ruby>店<rt>みせ</rt></ruby>は<ruby>何年<rt>なんねん</rt></ruby><ruby>同<rt>おな</rt></ruby>じ<ruby>物<rt>もの</rt></ruby>を<ruby>作<rt>つく</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>五十年<rt>ごじゅうねん</rt></ruby>",
+    "<ruby>十年<rt>じゅうねん</rt></ruby>",
+    "<ruby>百年<rt>ひゃくねん</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>職人<rt>しょくにん</rt></ruby>はどうなっていますか。",
+   "opciones": [
+    "<ruby>減<rt>へ</rt></ruby>っている",
+    "<ruby>増<rt>ふ</rt></ruby>えている",
+    "<ruby>変<rt>か</rt></ruby>わらない"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>能率<rt>のうりつ</rt></ruby>より<ruby>何<rt>なに</rt></ruby>を<ruby>選<rt>えら</rt></ruby>んでいますか。",
+   "opciones": [
+    "<ruby>手<rt>て</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>",
+    "<ruby>売買<rt>ばいばい</rt></ruby>",
+    "<ruby>催促<rt>さいそく</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

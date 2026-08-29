@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/shigoto/ley-1",
+ "titulo": "<ruby>盗難<rt>とうなん</rt></ruby>の<ruby>届<rt>とど</rt></ruby>け",
+ "cuerpo": "テニスコートで<ruby>荷物<rt>にもつ</rt></ruby>が<ruby>無<rt>な</rt></ruby>くなり、<ruby>盗難<rt>とうなん</rt></ruby>の<ruby>届<rt>とど</rt></ruby>けを<ruby>出<rt>だ</rt></ruby>した。<ruby>判子<rt>はんこ</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていなかったので、<ruby>御免<rt>ごめん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いながらサインで<ruby>済<rt>す</rt></ruby>ませてもらった。<ruby>大凡<rt>おおよそ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>かれたが、はっきり<ruby>答<rt>こた</rt></ruby>える<em class=\"g\">ことなく</em><ruby>話<rt>はなし</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった。<ruby>防犯<rt>ぼうはん</rt></ruby>のカメラを<ruby>調<rt>しら</rt></ruby>べても、<ruby>人<rt>ひと</rt></ruby>を<ruby>捕<rt>とら</rt></ruby>えるのは<ruby>難<rt>むずか</rt></ruby>しいらしい。<ruby>停止<rt>ていし</rt></ruby>した<ruby>時計<rt>とけい</rt></ruby>のように、<ruby>調査<rt>ちょうさ</rt></ruby>はそこで<ruby>止<rt>と</rt></ruby>まっている。<ruby>規律<rt>きりつ</rt></ruby>や<ruby>法則<rt>ほうそく</rt></ruby>を<ruby>守<rt>まも</rt></ruby>る<ruby>人<rt>ひと</rt></ruby>ばかりではないのだと、はじめて<ruby>思<rt>おも</rt></ruby>い<ruby>知<rt>し</rt></ruby>った。",
+ "traduccion": "En la pista de tenis desapareció mi equipaje y puse una denuncia por robo. Como no llevaba sello, pidiendo disculpas me dejaron resolverlo con una firma. Me preguntaron la hora aproximada, pero la conversación terminó sin que yo llegara a responder con claridad. Aunque revisen las cámaras de seguridad, parece que atrapar a alguien es difícil. Como un reloj parado, la investigación se quedó ahí. Por primera vez comprendí que no todo el mundo respeta las normas y las leyes.",
+ "preguntas": [
+  {
+   "p": "どこで<ruby>荷物<rt>にもつ</rt></ruby>が<ruby>無<rt>な</rt></ruby>くなりましたか。",
+   "opciones": [
+    "テニスコート",
+    "<ruby>駅<rt>えき</rt></ruby>",
+    "<ruby>店<rt>みせ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>判子<rt>はんこ</rt></ruby>がないので、どうしましたか。",
+   "opciones": [
+    "サインで<ruby>済<rt>す</rt></ruby>ませた",
+    "<ruby>帰<rt>かえ</rt></ruby>った",
+    "<ruby>待<rt>ま</rt></ruby>った"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>調査<rt>ちょうさ</rt></ruby>はどうなりましたか。",
+   "opciones": [
+    "<ruby>止<rt>と</rt></ruby>まっている",
+    "<ruby>終<rt>お</rt></ruby>わった",
+    "<ruby>進<rt>すす</rt></ruby>んでいる"
+   ],
+   "correcta": 0
+  }
+ ]
+}

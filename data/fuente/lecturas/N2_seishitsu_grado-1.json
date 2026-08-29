@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/seishitsu/grado-1",
+ "titulo": "<ruby>長所<rt>ちょうしょ</rt></ruby>と<ruby>短所<rt>たんしょ</rt></ruby>",
+ "cuerpo": "<ruby>面接<rt>めんせつ</rt></ruby>の<ruby>当日<rt>とうじつ</rt></ruby>、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>長所<rt>ちょうしょ</rt></ruby>と<ruby>短所<rt>たんしょ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>かれた。<ruby>弱点<rt>じゃくてん</rt></ruby>を<ruby>隠<rt>かく</rt></ruby>さず<ruby>言<rt>い</rt></ruby>うほうが<ruby>手頃<rt>てごろ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>い、<ruby>正直<rt>しょうじき</rt></ruby>に<ruby>答<rt>こた</rt></ruby>えた。「かしこまりました」と<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>言<rt>い</rt></ruby>い、<ruby>基準<rt>きじゅん</rt></ruby>の<ruby>紙<rt>かみ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>か<ruby>書<rt>か</rt></ruby>いた。<ruby>現<rt>げん</rt></ruby>に<ruby>私<rt>わたし</rt></ruby>の<ruby>活力<rt>かつりょく</rt></ruby>は<ruby>標準<rt>ひょうじゅん</rt></ruby>より<ruby>幾分<rt>いくぶん</rt></ruby><ruby>高<rt>たか</rt></ruby>いらしい。<ruby>結果<rt>けっか</rt></ruby>は<ruby>来週<rt>らいしゅう</rt></ruby>、<ruby>書面<rt>しょめん</rt></ruby><em class=\"g\">にて</em><ruby>知<rt>し</rt></ruby>らせるとのことだった。",
+ "traduccion": "El día de la entrevista me preguntaron por mis puntos fuertes y débiles. Pensé que era más razonable decir mis debilidades sin esconderlas y respondí con sinceridad. «Entendido», dijo el encargado, y anotó algo en la hoja de criterios. Al parecer, mi energía está de hecho algo por encima de la media. El resultado me lo comunicarán la semana que viene por escrito.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>聞<rt>き</rt></ruby>かれましたか。",
+   "opciones": [
+    "<ruby>長所<rt>ちょうしょ</rt></ruby>と<ruby>短所<rt>たんしょ</rt></ruby>",
+    "<ruby>基準<rt>きじゅん</rt></ruby>",
+    "<ruby>活力<rt>かつりょく</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "どう<ruby>答<rt>こた</rt></ruby>えましたか。",
+   "opciones": [
+    "<ruby>正直<rt>しょうじき</rt></ruby>に",
+    "<ruby>隠<rt>かく</rt></ruby>して",
+    "<ruby>答<rt>こた</rt></ruby>えなかった"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>結果<rt>けっか</rt></ruby>はどうやって<ruby>知<rt>し</rt></ruby>らせますか。",
+   "opciones": [
+    "<ruby>書面<rt>しょめん</rt></ruby>で",
+    "<ruby>電話<rt>でんわ</rt></ruby>で",
+    "<ruby>直接<rt>ちょくせつ</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

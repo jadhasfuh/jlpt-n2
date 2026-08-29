@@ -13,7 +13,7 @@
     "sql": "python3 scripts/10_generar_sql.py",
     "pendientes": "python3 scripts/14_pendientes.py",
     "subir-lecturas": "bash scripts/subir_lecturas.sh",
-    "validar": "python3 scripts/13_validar_lecturas.py"
+    "validar": "python3 scripts/13_validar_lecturas.py && python3 scripts/15_validar_gramatica.py"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.122.0",

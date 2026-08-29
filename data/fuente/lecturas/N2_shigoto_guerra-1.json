@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/shigoto/guerra-1",
+ "titulo": "<ruby>博物館<rt>はくぶつかん</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>",
+ "cuerpo": "<ruby>博物館<rt>はくぶつかん</rt></ruby>に、<ruby>武士<rt>ぶし</rt></ruby>の<ruby>時代<rt>じだい</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>があった。<ruby>紺<rt>こん</rt></ruby>の<ruby>布<rt>ぬの</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に、<ruby>古<rt>ふる</rt></ruby>い<ruby>鉄砲<rt>てっぽう</rt></ruby>とピストルが<ruby>並<rt>なら</rt></ruby>んでいる。<ruby>説明<rt>せつめい</rt></ruby>には、<ruby>侵入<rt>しんにゅう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために<ruby>作<rt>つく</rt></ruby>られたと<ruby>書<rt>か</rt></ruby>いてあった。<ruby>勝敗<rt>しょうはい</rt></ruby>が<ruby>決<rt>き</rt></ruby>まる<ruby>前<rt>まえ</rt></ruby>に、<ruby>多<rt>おお</rt></ruby>くの<ruby>人<rt>ひと</rt></ruby>が<ruby>故郷<rt>こきょう</rt></ruby>を<ruby>離<rt>はな</rt></ruby>れたという。<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は、<ruby>子<rt>こ</rt></ruby>どもが<ruby>騒<rt>さわ</rt></ruby>ぐの<em class=\"g\">もかまわず</em>、<ruby>話<rt>はなし</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>けた。<ruby>聞<rt>き</rt></ruby>いた<em class=\"g\">ままに</em>メモを<ruby>取<rt>と</rt></ruby>っておいた。<ruby>最後<rt>さいご</rt></ruby>に「<ruby>戦<rt>たたか</rt></ruby>うより<ruby>仲直<rt>なかなお</rt></ruby>りのほうが<ruby>難<rt>むずか</rt></ruby>しい」と<ruby>言<rt>い</rt></ruby>った。",
+ "traduccion": "En el museo había una sala de la época de los samuráis. Sobre una tela azul marino se alineaban fusiles antiguos y una pistola. En la explicación decía que se fabricaron para impedir invasiones. Cuentan que, antes de que se decidiera el resultado, mucha gente dejó su tierra natal. El guía siguió hablando sin importarle que los niños alborotaran. Fui tomando notas tal como lo iba oyendo. Al final dijo: «reconciliarse es más difícil que pelear».",
+ "preguntas": [
+  {
+   "p": "<ruby>紺<rt>こん</rt></ruby>の<ruby>布<rt>ぬの</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "<ruby>鉄砲<rt>てっぽう</rt></ruby>とピストル",
+    "<ruby>本<rt>ほん</rt></ruby>",
+    "<ruby>写真<rt>しゃしん</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>のために<ruby>作<rt>つく</rt></ruby>られましたか。",
+   "opciones": [
+    "<ruby>侵入<rt>しんにゅう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐため",
+    "<ruby>売<rt>う</rt></ruby>るため",
+    "<ruby>祭<rt>まつ</rt></ruby>りのため"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>最後<rt>さいご</rt></ruby>に<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "<ruby>仲直<rt>なかなお</rt></ruby>りのほうが<ruby>難<rt>むずか</rt></ruby>しい",
+    "<ruby>戦<rt>たたか</rt></ruby>うのは<ruby>簡単<rt>かんたん</rt></ruby>だ",
+    "<ruby>帰<rt>かえ</rt></ruby>りなさい"
+   ],
+   "correcta": 0
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/shigoto/campo-1",
+ "titulo": "<ruby>畑<rt>はたけ</rt></ruby>を<ruby>耕<rt>たがや</rt></ruby>す",
+ "cuerpo": "<ruby>春<rt>はる</rt></ruby>になると、<ruby>祖父<rt>そふ</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby><ruby>畑<rt>はたけ</rt></ruby>を<ruby>耕<rt>たがや</rt></ruby>す。<ruby>去年<rt>きょねん</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なく、<ruby>作物<rt>さくもつ</rt></ruby>は<ruby>小<rt>ちい</rt></ruby>さくなる<em class=\"g\">ばかりだった</em>。<ruby>今年<rt>ことし</rt></ruby>は<ruby>土<rt>つち</rt></ruby>の<ruby>様子<rt>ようす</rt></ruby>がよく、<ruby>秋<rt>あき</rt></ruby>には<ruby>取<rt>と</rt></ruby>り<ruby>入<rt>い</rt></ruby>れられそうだ。<ruby>朝<rt>あさ</rt></ruby>の<ruby>五時<rt>ごじ</rt></ruby>から<ruby>働<rt>はたら</rt></ruby>き、<ruby>昼<rt>ひる</rt></ruby>は<ruby>木<rt>き</rt></ruby>の<ruby>下<rt>した</rt></ruby>で<ruby>休<rt>やす</rt></ruby>む。「<ruby>土<rt>つち</rt></ruby>は<ruby>嘘<rt>うそ</rt></ruby>をつかない」というのが、<ruby>祖父<rt>そふ</rt></ruby>の<ruby>口癖<rt>くちぐせ</rt></ruby>だ。",
+ "traduccion": "Cuando llega la primavera, mi abuelo ara el huerto todos los días. El año pasado llovió poco y las cosechas no hacían más que menguar. Este año la tierra tiene buen aspecto y parece que en otoño se podrá recolectar. Trabaja desde las cinco de la mañana y al mediodía descansa bajo un árbol. «La tierra no miente» es la frase que siempre repite.",
+ "preguntas": [
+  {
+   "p": "<ruby>祖父<rt>そふ</rt></ruby>は<ruby>春<rt>はる</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "<ruby>畑<rt>はたけ</rt></ruby>を<ruby>耕<rt>たがや</rt></ruby>す",
+    "<ruby>休<rt>やす</rt></ruby>む",
+    "<ruby>取<rt>と</rt></ruby>り<ruby>入<rt>い</rt></ruby>れる"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>去年<rt>きょねん</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>作物<rt>さくもつ</rt></ruby>が<ruby>小<rt>ちい</rt></ruby>さくなった",
+    "よく<ruby>育<rt>そだ</rt></ruby>った",
+    "<ruby>雨<rt>あめ</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かった"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>口癖<rt>くちぐせ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>土<rt>つち</rt></ruby>は<ruby>嘘<rt>うそ</rt></ruby>をつかない",
+    "<ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きろ",
+    "<ruby>休<rt>やす</rt></ruby>め"
+   ],
+   "correcta": 0
+  }
+ ]
+}
