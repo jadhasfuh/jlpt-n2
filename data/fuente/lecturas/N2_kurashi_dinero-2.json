@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kurashi/dinero-2",
+ "titulo": "<ruby>落<rt>おと</rt></ruby>し<ruby>物<rt>もの</rt></ruby>の<ruby>財布<rt>さいふ</rt></ruby>",
+ "cuerpo": "<ruby>駅<rt>えき</rt></ruby>の<ruby>出入<rt>でい</rt></ruby>りが<ruby>多<rt>おお</rt></ruby>い<ruby>場所<rt>ばしょ</rt></ruby>で、<ruby>財布<rt>さいふ</rt></ruby>の<ruby>落<rt>おと</rt></ruby>し<ruby>物<rt>もの</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけた。<ruby>中<rt>なか</rt></ruby>には<ruby>免税<rt>めんぜい</rt></ruby>の<ruby>紙<rt>かみ</rt></ruby>と、<ruby>払<rt>はら</rt></ruby>い<ruby>込<rt>こ</rt></ruby>んだばかりの<ruby>受取<rt>うけとり</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っていた。<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>受<rt>う</rt></ruby>け<ruby>持<rt>も</rt></ruby>ってくれ、<ruby>差<rt>さ</rt></ruby>し<ruby>引<rt>ひ</rt></ruby>きを<ruby>確<rt>たし</rt></ruby>かめて<ruby>記録<rt>きろく</rt></ruby>した。<ruby>酔<rt>よ</rt></ruby>っ<ruby>払<rt>ぱら</rt></ruby>いが<ruby>落<rt>お</rt></ruby>としたのかもしれない。<em class=\"g\">せめて</em><ruby>連絡先<rt>れんらくさき</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かればと<ruby>思<rt>おも</rt></ruby>いながら、<ruby>気<rt>き</rt></ruby>を<ruby>付<rt>つ</rt></ruby>けて<ruby>帰<rt>かえ</rt></ruby>った。",
+ "traduccion": "En un punto de mucho ir y venir de la estación me encontré una cartera perdida. Dentro había un papel de exención de impuestos y un recibo de un pago recién hecho. Un empleado se hizo cargo, comprobó el saldo y lo anotó. A lo mejor la perdió algún borracho. Pensando que ojalá al menos se supiera un contacto, volví a casa con cuidado.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけましたか。",
+   "opciones": [
+    "<ruby>財布<rt>さいふ</rt></ruby>の<ruby>落<rt>おと</rt></ruby>し<ruby>物<rt>もの</rt></ruby>",
+    "<ruby>受取<rt>うけとり</rt></ruby>",
+    "<ruby>紙幣<rt>しへい</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>中<rt>なか</rt></ruby>に<ruby>何<rt>なに</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っていましたか。",
+   "opciones": [
+    "<ruby>免税<rt>めんぜい</rt></ruby>の<ruby>紙<rt>かみ</rt></ruby>と<ruby>受取<rt>うけとり</rt></ruby>",
+    "お<ruby>金<rt>かね</rt></ruby>だけ",
+    "<ruby>写真<rt>しゃしん</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "だれが<ruby>受<rt>う</rt></ruby>け<ruby>持<rt>も</rt></ruby>ってくれましたか。",
+   "opciones": [
+    "<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>酔<rt>よ</rt></ruby>っ<ruby>払<rt>ぱら</rt></ruby>い",
+    "<ruby>友<rt>とも</rt></ruby>だち"
+   ],
+   "correcta": 0
+  }
+ ]
+}

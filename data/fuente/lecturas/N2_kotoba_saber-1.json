@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kotoba/saber-1",
+ "titulo": "<ruby>勘違<rt>かんちが</rt></ruby>い",
+ "cuerpo": "<ruby>待<rt>ま</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせの<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>勘違<rt>かんちが</rt></ruby>いしていた。<ruby>私<rt>わたし</rt></ruby>が<ruby>存<rt>ぞん</rt></ruby>じていたのは<ruby>北口<rt>きたぐち</rt></ruby>で、<ruby>相手<rt>あいて</rt></ruby>は<ruby>南口<rt>みなみぐち</rt></ruby>にいた。こういう<ruby>小<rt>ちい</rt></ruby>さな<ruby>間違<rt>まちが</rt></ruby>いが、<ruby>大<rt>おお</rt></ruby>きな<ruby>問題<rt>もんだい</rt></ruby>になり<em class=\"g\">かねない</em>。<ruby>次<rt>つぎ</rt></ruby>からは<ruby>前<rt>まえ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>に<ruby>確<rt>たし</rt></ruby>かめると<ruby>決<rt>き</rt></ruby>めた。<ruby>相手<rt>あいて</rt></ruby>は<ruby>怒<rt>おこ</rt></ruby>らず、「よく<ruby>存<rt>ぞん</rt></ruby>じています、いつものことです」と<ruby>笑<rt>わら</rt></ruby>った。",
+ "traduccion": "Me equivoqué con el sitio de la cita. Yo tenía entendido que era la salida norte y la otra persona estaba en la sur. Un despiste tan pequeño como este puede acabar siendo un problema grande. Decidí que a partir de ahora lo confirmaré el día antes. La otra persona no se enfadó y se rió: «lo sé de sobra, es lo de siempre».",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>勘違<rt>かんちが</rt></ruby>いしましたか。",
+   "opciones": [
+    "<ruby>場所<rt>ばしょ</rt></ruby>",
+    "<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>日<rt>ひ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>相手<rt>あいて</rt></ruby>はどこにいましたか。",
+   "opciones": [
+    "<ruby>南口<rt>みなみぐち</rt></ruby>",
+    "<ruby>北口<rt>きたぐち</rt></ruby>",
+    "<ruby>駅<rt>えき</rt></ruby>の<ruby>中<rt>なか</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>次<rt>つぎ</rt></ruby>からどうしますか。",
+   "opciones": [
+    "<ruby>前<rt>まえ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>に<ruby>確<rt>たし</rt></ruby>かめる",
+    "<ruby>早<rt>はや</rt></ruby>く<ruby>行<rt>い</rt></ruby>く",
+    "<ruby>電話<rt>でんわ</rt></ruby>する"
+   ],
+   "correcta": 0
+  }
+ ]
+}

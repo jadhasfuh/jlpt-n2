@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kurashi/comida-1",
+ "titulo": "<ruby>田植<rt>たう</rt></ruby>えの<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "<ruby>田植<rt>たう</rt></ruby>えを<ruby>手伝<rt>てつだ</rt></ruby>いに、<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った。<ruby>朝<rt>あさ</rt></ruby>は<ruby>餅<rt>もち</rt></ruby>を<ruby>焼<rt>や</rt></ruby>き、<ruby>湯飲<rt>ゆの</rt></ruby>みでお<ruby>茶<rt>ちゃ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んだ。<em class=\"g\">いわゆる</em><ruby>衣食住<rt>いしょくじゅう</rt></ruby>のうち、ここでは<ruby>食<rt>しょく</rt></ruby>がいちばん<ruby>大切<rt>たいせつ</rt></ruby>にされている。<ruby>昼<rt>ひる</rt></ruby>のおやつには<ruby>干<rt>ほ</rt></ruby>した<ruby>果実<rt>かじつ</rt></ruby>が<ruby>出<rt>で</rt></ruby>て、<ruby>粒<rt>つぶ</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きくて<ruby>甘<rt>あま</rt></ruby>かった。<em class=\"g\">なお</em>、<ruby>夜<rt>よる</rt></ruby>は<ruby>刺身<rt>さしみ</rt></ruby>で<ruby>乾杯<rt>かんぱい</rt></ruby>をした。<ruby>油断<rt>ゆだん</rt></ruby>して<ruby>食<rt>た</rt></ruby>べすぎ、カロリーのことは<ruby>考<rt>かんが</rt></ruby>えないことにした。",
+ "traduccion": "Fui a casa de mi abuela a ayudar con la plantación de arroz. Por la mañana asamos pasteles de arroz y tomamos té en tazas. De lo que se llama «vestido, comida y techo», aquí lo que más se cuida es la comida. De merienda sacaron fruta seca, de granos grandes y dulces. Además, por la noche brindamos con sashimi. Me confié y comí de más, y decidí no pensar en las calorías.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>いに<ruby>行<rt>い</rt></ruby>きましたか。",
+   "opciones": [
+    "<ruby>田植<rt>たう</rt></ruby>え",
+    "<ruby>料理<rt>りょうり</rt></ruby>",
+    "<ruby>掃除<rt>そうじ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "おやつは<ruby>何<rt>なに</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>干<rt>ほ</rt></ruby>した<ruby>果実<rt>かじつ</rt></ruby>",
+    "<ruby>餅<rt>もち</rt></ruby>",
+    "<ruby>刺身<rt>さしみ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>夜<rt>よる</rt></ruby>は<ruby>何<rt>なに</rt></ruby>で<ruby>乾杯<rt>かんぱい</rt></ruby>しましたか。",
+   "opciones": [
+    "<ruby>刺身<rt>さしみ</rt></ruby>",
+    "おやつ",
+    "お<ruby>茶<rt>ちゃ</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

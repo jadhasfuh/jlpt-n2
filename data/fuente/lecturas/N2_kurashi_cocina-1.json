@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kurashi/cocina-1",
+ "titulo": "<ruby>宴会<rt>えんかい</rt></ruby>の<ruby>献立<rt>こんだて</rt></ruby>",
+ "cuerpo": "<em class=\"g\">せっかく</em>の<ruby>宴会<rt>えんかい</rt></ruby>だから、<ruby>献立<rt>こんだて</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>たちで<ruby>考<rt>かんが</rt></ruby>えた。<ruby>好<rt>す</rt></ruby>き<ruby>嫌<rt>きら</rt></ruby>いが<ruby>多<rt>おお</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>もいるので、<ruby>味<rt>あじ</rt></ruby>は<ruby>塩辛<rt>しおから</rt></ruby>くしすぎない。<ruby>湯気<rt>ゆげ</rt></ruby>の<ruby>立<rt>た</rt></ruby>つ<ruby>鍋<rt>なべ</rt></ruby>を<ruby>囲<rt>かこ</rt></ruby>み、<ruby>皆<rt>みな</rt></ruby>で<ruby>味<rt>あじ</rt></ruby>わった。<ruby>調味料<rt>ちょうみりょう</rt></ruby>を<ruby>足<rt>た</rt></ruby>しすぎるとくどくなるので、<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>入<rt>い</rt></ruby>れる。<ruby>炊事<rt>すいじ</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>った<ruby>人<rt>ひと</rt></ruby>から「ごちそうさま」と<ruby>言<rt>い</rt></ruby>われて、さわやかな<ruby>気分<rt>きぶん</rt></ruby>になった。",
+ "traduccion": "Ya que la cena era algo especial, el menú lo pensamos nosotros. Como hay gente con muchas manías, procuramos que no quedara demasiado salado. Rodeamos la olla humeante y lo saboreamos entre todos. Si te pasas con el condimento queda pesado, así que se añade poco a poco. Cuando quienes ayudaron a cocinar me dijeron «gracias por la comida», me quedé con una sensación estupenda.",
+ "preguntas": [
+  {
+   "p": "<ruby>献立<rt>こんだて</rt></ruby>はだれが<ruby>考<rt>かんが</rt></ruby>えましたか。",
+   "opciones": [
+    "<ruby>自分<rt>じぶん</rt></ruby>たち",
+    "<ruby>店<rt>みせ</rt></ruby>",
+    "<ruby>先生<rt>せんせい</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>味<rt>あじ</rt></ruby>はどうしましたか。",
+   "opciones": [
+    "<ruby>塩辛<rt>しおから</rt></ruby>くしすぎない",
+    "とても<ruby>辛<rt>から</rt></ruby>くした",
+    "<ruby>甘<rt>あま</rt></ruby>くした"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>調味料<rt>ちょうみりょう</rt></ruby>はどう<ruby>入<rt>い</rt></ruby>れますか。",
+   "opciones": [
+    "<ruby>少<rt>すこ</rt></ruby>しずつ",
+    "<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>一度<rt>いちど</rt></ruby>に",
+    "<ruby>入<rt>い</rt></ruby>れない"
+   ],
+   "correcta": 0
+  }
+ ]
+}

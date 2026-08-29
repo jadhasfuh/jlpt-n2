@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kurashi/compras-1",
+ "titulo": "<ruby>特売<rt>とくばい</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>",
+ "cuerpo": "スーパーの<ruby>特売<rt>とくばい</rt></ruby>は<ruby>朝<rt>あさ</rt></ruby><ruby>九時<rt>くじ</rt></ruby>から<em class=\"g\"><ruby>直<rt>ただ</rt></ruby>ちに</em><ruby>始<rt>はじ</rt></ruby>まる。<ruby>名物<rt>めいぶつ</rt></ruby>の<ruby>缶詰<rt>かんづめ</rt></ruby>は<ruby>割引<rt>わりびき</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きく、<ruby>目立<rt>めだ</rt></ruby>つ<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>並<rt>なら</rt></ruby>んでいた。<ruby>開店<rt>かいてん</rt></ruby><em class=\"g\">と<ruby>同時<rt>どうじ</rt></ruby>に</em><ruby>人<rt>ひと</rt></ruby>が<ruby>入<rt>はい</rt></ruby>り、<ruby>十分<rt>じゅっぷん</rt></ruby>で<ruby>売<rt>う</rt></ruby>り<ruby>切<rt>き</rt></ruby>れた。<ruby>立<rt>た</rt></ruby>ち<ruby>止<rt>ど</rt></ruby>まって<ruby>迷<rt>まよ</rt></ruby>っている<ruby>間<rt>あいだ</rt></ruby>に、<ruby>棚<rt>たな</rt></ruby>は<ruby>空<rt>から</rt></ruby>になっていた。<ruby>受取<rt>うけとり</rt></ruby>をもらい、<ruby>速達<rt>そくたつ</rt></ruby>で<ruby>送<rt>おく</rt></ruby>ってもらうことにした。",
+ "traduccion": "La oferta del supermercado empieza de inmediato a las nueve de la mañana. Las conservas por las que es famoso tenían un descuento grande y estaban en un sitio bien visible. Nada más abrir entró la gente y en diez minutos se agotaron. Mientras yo me quedaba parado dudando, el estante ya estaba vacío. Pedí el recibo y encargué que me lo mandaran por correo urgente.",
+ "preguntas": [
+  {
+   "p": "<ruby>特売<rt>とくばい</rt></ruby>はいつ<ruby>始<rt>はじ</rt></ruby>まりますか。",
+   "opciones": [
+    "<ruby>朝<rt>あさ</rt></ruby><ruby>九時<rt>くじ</rt></ruby>",
+    "<ruby>昼<rt>ひる</rt></ruby>",
+    "<ruby>夜<rt>よる</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>名物<rt>めいぶつ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>缶詰<rt>かんづめ</rt></ruby>",
+    "<ruby>水産<rt>すいさん</rt></ruby>",
+    "<ruby>牧畜<rt>ぼくちく</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "どのくらいで<ruby>売<rt>う</rt></ruby>り<ruby>切<rt>き</rt></ruby>れましたか。",
+   "opciones": [
+    "<ruby>十分<rt>じゅっぷん</rt></ruby>",
+    "<ruby>一時間<rt>いちじかん</rt></ruby>",
+    "<ruby>一日<rt>いちにち</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

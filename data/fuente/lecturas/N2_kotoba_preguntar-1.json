@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kotoba/preguntar-1",
+ "titulo": "アンケートの<ruby>回答<rt>かいとう</rt></ruby>",
+ "cuerpo": "<ruby>店<rt>みせ</rt></ruby>で<ruby>配<rt>くば</rt></ruby>ったアンケートの<ruby>回答<rt>かいとう</rt></ruby>が<ruby>集<rt>あつ</rt></ruby>まった。<em class=\"g\"><ruby>果<rt>は</rt></ruby>たして</em>、<ruby>一番<rt>いちばん</rt></ruby><ruby>多<rt>おお</rt></ruby>かったのは「<ruby>値段<rt>ねだん</rt></ruby>」だった。<ruby>毎日<rt>まいにち</rt></ruby><ruby>来<rt>く</rt></ruby>る<ruby>客<rt>きゃく</rt></ruby>が<ruby>気<rt>き</rt></ruby>にするのだから、<ruby>安<rt>やす</rt></ruby>くしてほしいと<ruby>言<rt>い</rt></ruby>うのも<em class=\"g\">も<ruby>当然<rt>とうぜん</rt></ruby>だ</em>。<ruby>二番目<rt>にばんめ</rt></ruby>は<ruby>待<rt>ま</rt></ruby>ち<ruby>時間<rt>じかん</rt></ruby>で、これも<ruby>予想<rt>よそう</rt></ruby>どおり。<ruby>意外<rt>いがい</rt></ruby>だったのは、<ruby>店員<rt>てんいん</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>を<ruby>挙<rt>あ</rt></ruby>げた<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかったことだ。",
+ "traduccion": "Se recogieron las respuestas de la encuesta que repartimos en la tienda. Efectivamente, lo más mencionado fue «el precio». Como es lo que preocupa a los clientes que vienen a diario, es lógico que pidan que se abarate. Lo segundo fue el tiempo de espera, también como se esperaba. Lo sorprendente fue que poca gente mencionara el trato del personal.",
+ "preguntas": [
+  {
+   "p": "<ruby>一番<rt>いちばん</rt></ruby><ruby>多<rt>おお</rt></ruby>かった<ruby>回答<rt>かいとう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>値段<rt>ねだん</rt></ruby>",
+    "<ruby>待<rt>ま</rt></ruby>ち<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>店員<rt>てんいん</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>二番目<rt>にばんめ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>待<rt>ま</rt></ruby>ち<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>値段<rt>ねだん</rt></ruby>",
+    "<ruby>場所<rt>ばしょ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>意外<rt>いがい</rt></ruby>だったことは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>店員<rt>てんいん</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかった",
+    "<ruby>回答<rt>かいとう</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かった",
+    "<ruby>客<rt>きゃく</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない"
+   ],
+   "correcta": 0
+  }
+ ]
+}

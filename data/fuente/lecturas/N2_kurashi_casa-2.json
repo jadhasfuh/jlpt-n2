@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kurashi/casa-2",
+ "titulo": "<ruby>貸家<rt>かしや</rt></ruby>を<ruby>探<rt>さが</rt></ruby>す",
+ "cuerpo": "<ruby>自宅<rt>じたく</rt></ruby>が<ruby>狭<rt>せま</rt></ruby>くなり、<ruby>貸家<rt>かしや</rt></ruby>を<ruby>探<rt>さが</rt></ruby>しはじめた。<ruby>客間<rt>きゃくま</rt></ruby>と<ruby>座敷<rt>ざしき</rt></ruby>があり、<ruby>車庫<rt>しゃこ</rt></ruby>も<ruby>倉庫<rt>そうこ</rt></ruby>もついている<ruby>家<rt>いえ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけた。<ruby>蛇口<rt>じゃぐち</rt></ruby>の<ruby>水<rt>みず</rt></ruby>の<ruby>出<rt>で</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>く、<ruby>下水<rt>げすい</rt></ruby>のにおいも<ruby>少<rt>すこ</rt></ruby>しした。<em class=\"g\">それなのに</em>、<ruby>家賃<rt>やちん</rt></ruby>は<ruby>思<rt>おも</rt></ruby>ったより<ruby>高<rt>たか</rt></ruby>かった。<ruby>締切<rt>しめきり</rt></ruby>は<ruby>今週<rt>こんしゅう</rt></ruby>だが、<ruby>戸棚<rt>とだな</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けて<ruby>中<rt>なか</rt></ruby>を<ruby>見<rt>み</rt></ruby>てから<ruby>決<rt>き</rt></ruby>めたい。",
+ "traduccion": "Como se nos quedó pequeña la casa, empecé a buscar una de alquiler. Encontré una con salón de invitados, sala de tatami, garaje y almacén. El grifo daba poca agua y olía un poco a alcantarilla. Y sin embargo, el alquiler era más caro de lo que pensaba. La fecha límite es esta semana, pero antes de decidir quiero abrir los armarios y ver por dentro.",
+ "preguntas": [
+  {
+   "p": "どうして<ruby>貸家<rt>かしや</rt></ruby>を<ruby>探<rt>さが</rt></ruby>していますか。",
+   "opciones": [
+    "<ruby>自宅<rt>じたく</rt></ruby>が<ruby>狭<rt>せま</rt></ruby>いから",
+    "<ruby>高<rt>たか</rt></ruby>いから",
+    "<ruby>遠<rt>とお</rt></ruby>いから"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>蛇口<rt>じゃぐち</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>水<rt>みず</rt></ruby>の<ruby>出<rt>で</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>い",
+    "<ruby>新<rt>あたら</rt></ruby>しい",
+    "なかった"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>決<rt>き</rt></ruby>める<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をしたいですか。",
+   "opciones": [
+    "<ruby>戸棚<rt>とだな</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<ruby>見<rt>み</rt></ruby>る",
+    "<ruby>家賃<rt>やちん</rt></ruby>を<ruby>下<rt>さ</rt></ruby>げる",
+    "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>す"
+   ],
+   "correcta": 0
+  }
+ ]
+}

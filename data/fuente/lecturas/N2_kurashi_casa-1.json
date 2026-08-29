@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kurashi/casa-1",
+ "titulo": "<ruby>古<rt>ふる</rt></ruby>い<ruby>住<rt>す</rt></ruby>まい",
+ "cuerpo": "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>住<rt>す</rt></ruby>まいは<ruby>瓦<rt>かわら</rt></ruby>の<ruby>屋根<rt>やね</rt></ruby>で、<ruby>襖<rt>ふすま</rt></ruby>も<ruby>雨戸<rt>あまど</rt></ruby>も<ruby>昔<rt>むかし</rt></ruby>のままだ。<ruby>庭<rt>にわ</rt></ruby>には<ruby>井戸<rt>いど</rt></ruby>と<ruby>植木<rt>うえき</rt></ruby>があり、<ruby>垣根<rt>かきね</rt></ruby>の<ruby>向<rt>む</rt></ruby>こうは<ruby>畑<rt>はたけ</rt></ruby>になっている。マンションのような<ruby>便利<rt>べんり</rt></ruby>さは<em class=\"g\"><ruby>少<rt>すこ</rt></ruby>しもない</em>。<em class=\"g\">その<ruby>上<rt>うえ</rt></ruby></em>、<ruby>冬<rt>ふゆ</rt></ruby>は<ruby>屋外<rt>おくがい</rt></ruby>のほうが<ruby>暖<rt>あたた</rt></ruby>かいこともある。それでも<ruby>温室<rt>おんしつ</rt></ruby>で<ruby>育<rt>そだ</rt></ruby>てた<ruby>花<rt>はな</rt></ruby>を<ruby>見<rt>み</rt></ruby>ると、ここに<ruby>来<rt>き</rt></ruby>てよかったと<ruby>思<rt>おも</rt></ruby>う。",
+ "traduccion": "La casa de mi abuelo tiene tejado de tejas, y las puertas correderas y los postigos siguen como antaño. En el jardín hay un pozo y arbustos, y al otro lado del seto empieza el huerto. No tiene ni pizca de la comodidad de un piso moderno. Encima, en invierno a veces se está más caliente fuera. Aun así, cuando veo las flores criadas en el invernadero, me alegro de haber venido.",
+ "preguntas": [
+  {
+   "p": "<ruby>屋根<rt>やね</rt></ruby>は<ruby>何<rt>なに</rt></ruby>でできていますか。",
+   "opciones": [
+    "<ruby>瓦<rt>かわら</rt></ruby>",
+    "<ruby>木<rt>き</rt></ruby>",
+    "<ruby>紙<rt>かみ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>庭<rt>にわ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。",
+   "opciones": [
+    "<ruby>井戸<rt>いど</rt></ruby>と<ruby>植木<rt>うえき</rt></ruby>",
+    "<ruby>車庫<rt>しゃこ</rt></ruby>",
+    "<ruby>温室<rt>おんしつ</rt></ruby>だけ"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>冬<rt>ふゆ</rt></ruby>はどうですか。",
+   "opciones": [
+    "<ruby>屋外<rt>おくがい</rt></ruby>のほうが<ruby>暖<rt>あたた</rt></ruby>かいことがある",
+    "とても<ruby>暖<rt>あたた</rt></ruby>かい",
+    "<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>られない"
+   ],
+   "correcta": 0
+  }
+ ]
+}
