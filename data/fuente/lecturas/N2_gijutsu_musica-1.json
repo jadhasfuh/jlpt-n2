@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/gijutsu/musica-1",
+ "titulo": "<ruby>祭<rt>まつ</rt></ruby>りの<ruby>録音<rt>ろくおん</rt></ruby>",
+ "cuerpo": "<ruby>村<rt>むら</rt></ruby>の<ruby>民謡<rt>みんよう</rt></ruby>を<ruby>録音<rt>ろくおん</rt></ruby>することになった。<ruby>太鼓<rt>たいこ</rt></ruby>と<ruby>鈴<rt>すず</rt></ruby>だけの<ruby>簡単<rt>かんたん</rt></ruby>な<ruby>曲<rt>きょく</rt></ruby>だが、リズムが<ruby>難<rt>むずか</rt></ruby>しい。<ruby>実際<rt>じっさい</rt></ruby>に<ruby>叩<rt>たた</rt></ruby>いてみ<em class=\"g\">ないことには</em>、その<ruby>発想<rt>はっそう</rt></ruby>は<ruby>分<rt>わ</rt></ruby>からない。<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>はバンドやコーラスの<ruby>方<rt>ほう</rt></ruby>が<ruby>好<rt>す</rt></ruby>きらしいが、オーケストラのように<ruby>全員<rt>ぜんいん</rt></ruby>で<ruby>合<rt>あ</rt></ruby>わせる<ruby>楽<rt>たの</rt></ruby>しさは<ruby>同<rt>おな</rt></ruby>じだ。",
+ "traduccion": "Decidimos grabar las canciones populares del pueblo. Son piezas sencillas, sólo tambor y campanillas, pero el ritmo es difícil. Si uno no lo toca de verdad, no entiende esa manera de sentirlo. A los jóvenes parece que les gustan más las bandas y los coros, pero el gusto de encajar todos juntos, como en una orquesta, es el mismo.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>録音<rt>ろくおん</rt></ruby>しますか。",
+   "opciones": [
+    "<ruby>村<rt>むら</rt></ruby>の<ruby>民謡<rt>みんよう</rt></ruby>",
+    "コーラス",
+    "オーケストラ"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>曲<rt>きょく</rt></ruby>で<ruby>使<rt>つか</rt></ruby>う<ruby>楽器<rt>がっき</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>太鼓<rt>たいこ</rt></ruby>と<ruby>鈴<rt>すず</rt></ruby>",
+    "バンド",
+    "<ruby>笛<rt>ふえ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "リズムはどうですか。",
+   "opciones": [
+    "<ruby>易<rt>やさ</rt></ruby>しい",
+    "<ruby>難<rt>むずか</rt></ruby>しい",
+    "<ruby>短<rt>みじか</rt></ruby>い"
+   ],
+   "correcta": 1
+  }
+ ]
+}

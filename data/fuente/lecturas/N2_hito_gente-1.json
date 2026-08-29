@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/hito/gente-1",
+ "titulo": "<ruby>仲良<rt>なかよ</rt></ruby>しの<ruby>知人<rt>ちじん</rt></ruby>",
+ "cuerpo": "<ruby>隣<rt>となり</rt></ruby>に<ruby>住<rt>す</rt></ruby>むサラリーマンの<ruby>知人<rt>ちじん</rt></ruby>とは、<ruby>十年<rt>じゅうねん</rt></ruby>の<ruby>仲良<rt>なかよ</rt></ruby>しだ。<ruby>氏名<rt>しめい</rt></ruby>しか<ruby>知<rt>し</rt></ruby>らなかったころは<em class=\"g\"><ruby>全<rt>まった</rt></ruby>く<ruby>話<rt>はな</rt></ruby>さなかった</em>が、<ruby>今<rt>いま</rt></ruby>は<ruby>毎晩<rt>まいばん</rt></ruby>のように<ruby>話<rt>はな</rt></ruby>し<ruby>掛<rt>か</rt></ruby>ける。<ruby>夏<rt>なつ</rt></ruby>は<ruby>二人<rt>ふたり</rt></ruby>で<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>て<ruby>涼<rt>すず</rt></ruby>む。<ruby>先週<rt>せんしゅう</rt></ruby>は<em class=\"g\">もう<ruby>少<rt>すこ</rt></ruby>しで</em><ruby>約束<rt>やくそく</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れるところだった。<ruby>自<rt>みずか</rt></ruby>ら<ruby>謝<rt>あやま</rt></ruby>ると、<ruby>相手<rt>あいて</rt></ruby>は<ruby>独<rt>ひと</rt></ruby>り<ruby>言<rt>ごと</rt></ruby>のように「<ruby>気<rt>き</rt></ruby>にするな」と<ruby>言<rt>い</rt></ruby>った。",
+ "traduccion": "Con el vecino, un oficinista, somos amigos desde hace diez años. En la época en que sólo sabía su nombre completo no hablábamos en absoluto, pero ahora le doy conversación casi cada noche. En verano salimos los dos a tomar el fresco. La semana pasada por poco se me olvida una cita. Cuando me disculpé por iniciativa propia, él dijo como para sí mismo: «no le des importancia».",
+ "preguntas": [
+  {
+   "p": "<ruby>知人<rt>ちじん</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "サラリーマン",
+    "<ruby>先生<rt>せんせい</rt></ruby>",
+    "<ruby>医者<rt>いしゃ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>夏<rt>なつ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "<ruby>外<rt>そと</rt></ruby>で<ruby>涼<rt>すず</rt></ruby>む",
+    "<ruby>旅行<rt>りょこう</rt></ruby>する",
+    "<ruby>泳<rt>およ</rt></ruby>ぐ"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>先週<rt>せんしゅう</rt></ruby><ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "<ruby>約束<rt>やくそく</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れかけた",
+    "けんかした",
+    "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>した"
+   ],
+   "correcta": 0
+  }
+ ]
+}

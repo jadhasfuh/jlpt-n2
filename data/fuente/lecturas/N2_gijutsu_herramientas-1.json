@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/gijutsu/herramientas-1",
+ "titulo": "<ruby>文房具<rt>ぶんぼうぐ</rt></ruby>の<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>し",
+ "cuerpo": "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>し<em class=\"g\">を<ruby>契機<rt>けいき</rt></ruby>に</em>、<ruby>机<rt>つくえ</rt></ruby>の<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しを<ruby>整理<rt>せいり</rt></ruby>した。<ruby>古<rt>ふる</rt></ruby>いぺんとインキ、<ruby>乾<rt>かわ</rt></ruby>いた<ruby>糊<rt>のり</rt></ruby>、<ruby>折<rt>お</rt></ruby>れた<ruby>定規<rt>じょうぎ</rt></ruby>が<ruby>出<rt>で</rt></ruby>てきた。のこぎりまで<ruby>入<rt>はい</rt></ruby>っていて、<ruby>文房具<rt>ぶんぼうぐ</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>ではないと<ruby>思<rt>おも</rt></ruby>った。<ruby>器具<rt>きぐ</rt></ruby>は<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>箱<rt>はこ</rt></ruby>にまとめ、<ruby>紙<rt>かみ</rt></ruby>に<ruby>中身<rt>なかみ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いて<ruby>貼<rt>は</rt></ruby>った。<ruby>棚<rt>たな</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>には、<ruby>祖父<rt>そふ</rt></ruby>にもらった<ruby>列島<rt>れっとう</rt></ruby>の<ruby>地図<rt>ちず</rt></ruby>を<ruby>飾<rt>かざ</rt></ruby>った。",
+ "traduccion": "Aprovechando la mudanza, ordené los cajones del escritorio. Salieron bolígrafos y tinta viejos, pegamento seco y una regla partida. Hasta había un serrucho: pensé que ese no es sitio para material de oficina. Junté todos los utensilios en una caja y pegué un papel con el contenido. En el estante coloqué el mapa del archipiélago que me dio mi abuelo.",
+ "preguntas": [
+  {
+   "p": "いつ<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しを<ruby>整理<rt>せいり</rt></ruby>しましたか。",
+   "opciones": [
+    "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しのとき",
+    "<ruby>正月<rt>しょうがつ</rt></ruby>",
+    "<ruby>夏休<rt>なつやす</rt></ruby>み"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>出<rt>で</rt></ruby>てきましたか。",
+   "opciones": [
+    "<ruby>乾<rt>かわ</rt></ruby>いた<ruby>糊<rt>のり</rt></ruby>",
+    "<ruby>新<rt>あたら</rt></ruby>しい<ruby>本<rt>ほん</rt></ruby>",
+    "<ruby>写真<rt>しゃしん</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>棚<rt>たな</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>飾<rt>かざ</rt></ruby>りましたか。",
+   "opciones": [
+    "<ruby>列島<rt>れっとう</rt></ruby>の<ruby>地図<rt>ちず</rt></ruby>",
+    "のこぎり",
+    "<ruby>定規<rt>じょうぎ</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

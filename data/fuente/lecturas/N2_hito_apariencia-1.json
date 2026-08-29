@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/hito/apariencia-1",
+ "titulo": "<ruby>鏡<rt>かがみ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で",
+ "cuerpo": "<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>顔<rt>かお</rt></ruby>が<ruby>醜<rt>みにく</rt></ruby>いと<ruby>思<rt>おも</rt></ruby>った<ruby>時期<rt>じき</rt></ruby>がある。<ruby>今<rt>いま</rt></ruby>は<em class=\"g\">とっくに</em>そんなことを<ruby>気<rt>き</rt></ruby>にしていない。<ruby>姉<rt>あね</rt></ruby>はスマートな<ruby>服<rt>ふく</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶのが<ruby>上手<rt>じょうず</rt></ruby>で、<ruby>長<rt>なが</rt></ruby>い<ruby>髪<rt>かみ</rt></ruby>をいつもきれいにしている。<ruby>肩<rt>かた</rt></ruby>を<ruby>揉<rt>も</rt></ruby>んでもらいながら、<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>より<ruby>姿勢<rt>しせい</rt></ruby>が<ruby>大事<rt>だいじ</rt></ruby>だと<ruby>教<rt>おそ</rt></ruby>わった。",
+ "traduccion": "Hubo una época en que, al verme en las fotos, pensaba que tenía una cara fea. Ahora hace mucho que eso dejó de importarme. Mi hermana mayor tiene buena mano para elegir ropa elegante y siempre lleva el pelo largo bien arreglado. Mientras me daba un masaje en los hombros, me enseñó que la postura importa más que el aspecto.",
+ "preguntas": [
+  {
+   "p": "<ruby>昔<rt>むかし</rt></ruby>、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>顔<rt>かお</rt></ruby>をどう<ruby>思<rt>おも</rt></ruby>っていましたか。",
+   "opciones": [
+    "<ruby>醜<rt>みにく</rt></ruby>い",
+    "きれい",
+    "スマート"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>姉<rt>あね</rt></ruby>は<ruby>何<rt>なに</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>服<rt>ふく</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶこと",
+    "<ruby>写真<rt>しゃしん</rt></ruby>",
+    "<ruby>料理<rt>りょうり</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>大事<rt>だいじ</rt></ruby>だと<ruby>教<rt>おそ</rt></ruby>わりましたか。",
+   "opciones": [
+    "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>",
+    "<ruby>姿勢<rt>しせい</rt></ruby>",
+    "<ruby>髪<rt>かみ</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/hito/caracter-1",
+ "titulo": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>係長<rt>かかりちょう</rt></ruby>",
+ "cuerpo": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>係長<rt>かかりちょう</rt></ruby>は<ruby>威張<rt>いば</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>だ。<ruby>前<rt>まえ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はしつこくて<ruby>厚<rt>あつ</rt></ruby>かましかったので、<ruby>皆<rt>みな</rt></ruby>おどろいている。「<ruby>私<rt>わたし</rt></ruby>などまだまだです」と<ruby>謙遜<rt>けんそん</rt></ruby>するが、<em class=\"g\">やがて</em><ruby>皆<rt>みな</rt></ruby>が<ruby>信<rt>しん</rt></ruby>じるようになった。<ruby>声<rt>こえ</rt></ruby>は<ruby>小<rt>ちい</rt></ruby>さく、<ruby>動<rt>うご</rt></ruby>きも<ruby>鈍<rt>のろ</rt></ruby>い<em class=\"g\">ばかり</em>に<ruby>見<rt>み</rt></ruby>えるが、<ruby>困<rt>こま</rt></ruby>った<ruby>人<rt>ひと</rt></ruby>を<ruby>助<rt>たす</rt></ruby>けるときは<ruby>流石<rt>さすが</rt></ruby>に<ruby>勇<rt>いさ</rt></ruby>ましい。",
+ "traduccion": "El nuevo jefe de sección no es de los que se dan aires. Como el anterior era pesado y descarado, todos están sorprendidos. Dice modestamente «yo aún tengo mucho que aprender», pero con el tiempo todos acabaron creyéndole. Habla bajito y se mueve despacio, así que sólo parece lento; aun así, cuando ayuda a alguien en apuros es valiente, como cabía esperar.",
+ "preguntas": [
+  {
+   "p": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>係長<rt>かかりちょう</rt></ruby>はどんな<ruby>人<rt>ひと</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>威張<rt>いば</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>",
+    "しつこい<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>厚<rt>あつ</rt></ruby>かましい<ruby>人<rt>ひと</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>前<rt>まえ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>謙遜<rt>けんそん</rt></ruby>していた",
+    "しつこかった",
+    "<ruby>勇<rt>いさ</rt></ruby>ましかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>困<rt>こま</rt></ruby>った<ruby>人<rt>ひと</rt></ruby>を<ruby>助<rt>たす</rt></ruby>けるときはどうですか。",
+   "opciones": [
+    "<ruby>鈍<rt>のろ</rt></ruby>い",
+    "<ruby>勇<rt>いさ</rt></ruby>ましい",
+    "<ruby>恐縮<rt>きょうしゅく</rt></ruby>する"
+   ],
+   "correcta": 1
+  }
+ ]
+}

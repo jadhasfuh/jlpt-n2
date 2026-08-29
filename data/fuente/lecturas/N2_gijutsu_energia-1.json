@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/gijutsu/energia-1",
+ "titulo": "<ruby>電球<rt>でんきゅう</rt></ruby>が<ruby>切<rt>き</rt></ruby>れた<ruby>夜<rt>よる</rt></ruby>",
+ "cuerpo": "<ruby>台所<rt>だいどころ</rt></ruby>の<ruby>電球<rt>でんきゅう</rt></ruby>が<ruby>急<rt>きゅう</rt></ruby>に<ruby>切<rt>き</rt></ruby>れた。<ruby>電力<rt>でんりょく</rt></ruby>が<ruby>止<rt>と</rt></ruby>まったわけではなく、<ruby>他<rt>ほか</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>は<ruby>明<rt>あか</rt></ruby>るい。<ruby>父<rt>ちち</rt></ruby>は<ruby>磁石<rt>じしゃく</rt></ruby>と<ruby>電池<rt>でんち</rt></ruby>で<ruby>電流<rt>でんりゅう</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をはじめたが、<ruby>直流<rt>ちょくりゅう</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かったからといって<ruby>直<rt>なお</rt></ruby>せる<em class=\"g\">ことにはならない</em>。<ruby>明<rt>あか</rt></ruby>るければいい<em class=\"g\">というものではない</em>と<ruby>言<rt>い</rt></ruby>いながら、<ruby>結局<rt>けっきょく</rt></ruby><ruby>新<rt>あたら</rt></ruby>しいのを<ruby>買<rt>か</rt></ruby>いに<ruby>行<rt>い</rt></ruby>った。",
+ "traduccion": "Se fundió de golpe la bombilla de la cocina. No es que se hubiera cortado la luz: las demás habitaciones estaban encendidas. Mi padre se puso a hablar de corriente con un imán y una pila, pero entender la corriente continua no significa saber arreglarla. Diciendo que no basta con que haya luz, al final fue a comprar una nueva.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>切<rt>き</rt></ruby>れましたか。",
+   "opciones": [
+    "<ruby>台所<rt>だいどころ</rt></ruby>の<ruby>電球<rt>でんきゅう</rt></ruby>",
+    "<ruby>電力<rt>でんりょく</rt></ruby>",
+    "<ruby>電池<rt>でんち</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>電流<rt>でんりゅう</rt></ruby>",
+    "<ruby>磁石<rt>じしゃく</rt></ruby>の色",
+    "<ruby>料理<rt>りょうり</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>最後<rt>さいご</rt></ruby>にどうしましたか。",
+   "opciones": [
+    "<ruby>直<rt>なお</rt></ruby>した",
+    "<ruby>新<rt>あたら</rt></ruby>しいのを<ruby>買<rt>か</rt></ruby>いに<ruby>行<rt>い</rt></ruby>った",
+    "<ruby>寝<rt>ね</rt></ruby>た"
+   ],
+   "correcta": 1
+  }
+ ]
+}
