@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/gijutsu/creencias-1",
+ "titulo": "<ruby>村<rt>むら</rt></ruby>の<ruby>儀式<rt>ぎしき</rt></ruby>",
+ "cuerpo": "<ruby>毎年<rt>まいとし</rt></ruby>、<ruby>村<rt>むら</rt></ruby>では<ruby>神様<rt>かみさま</rt></ruby>に<ruby>米<rt>こめ</rt></ruby>を<ruby>供<rt>そな</rt></ruby>える<ruby>儀式<rt>ぎしき</rt></ruby>がある。<ruby>坊<rt>ぼう</rt></ruby>さんが<ruby>古<rt>ふる</rt></ruby>い<ruby>神話<rt>しんわ</rt></ruby>を<ruby>読<rt>よ</rt></ruby>み<ruby>上<rt>あ</rt></ruby>げ、みんなで<ruby>聞<rt>き</rt></ruby>く。<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ると<ruby>米<rt>こめ</rt></ruby>がよく<ruby>育<rt>そだ</rt></ruby>つという<ruby>迷信<rt>めいしん</rt></ruby>もあるが、<ruby>何<rt>なに</rt></ruby>もしないより<em class=\"g\">まだしも</em><ruby>気持<rt>きも</rt></ruby>ちが<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>く。<ruby>祖父<rt>そふ</rt></ruby>は「おかげさまで<ruby>今年<rt>ことし</rt></ruby>も<ruby>無事<rt>ぶじ</rt></ruby>だ」と<ruby>毎年<rt>まいとし</rt></ruby><ruby>同<rt>おな</rt></ruby>じことを<ruby>言<rt>い</rt></ruby>う。",
+ "traduccion": "Todos los años, en el pueblo hay una ceremonia en la que se ofrece arroz a los dioses. El monje lee en voz alta un mito antiguo y todos escuchamos. Existe la superstición de que si llueve el arroz crece bien; aun así, más vale eso que no hacer nada: tranquiliza. Mi abuelo dice todos los años lo mismo: «gracias a ustedes, este año también hemos estado bien».",
+ "preguntas": [
+  {
+   "p": "<ruby>儀式<rt>ぎしき</rt></ruby>で<ruby>何<rt>なに</rt></ruby>を<ruby>供<rt>そな</rt></ruby>えますか。",
+   "opciones": [
+    "<ruby>米<rt>こめ</rt></ruby>",
+    "<ruby>花<rt>はな</rt></ruby>",
+    "<ruby>お金<rt>おかね</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>坊<rt>ぼう</rt></ruby>さんは<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "<ruby>神話<rt>しんわ</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む",
+    "<ruby>米<rt>こめ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る",
+    "<ruby>歌<rt>うた</rt></ruby>う"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>祖父<rt>そふ</rt></ruby>は<ruby>毎年<rt>まいとし</rt></ruby><ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。",
+   "opciones": [
+    "「おかげさまで<ruby>無事<rt>ぶじ</rt></ruby>だ」",
+    "「<ruby>迷信<rt>めいしん</rt></ruby>だ」",
+    "「<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>る」"
+   ],
+   "correcta": 0
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/gakkou/libros-2",
+ "titulo": "<ruby>俳句<rt>はいく</rt></ruby>の<ruby>見出<rt>みだ</rt></ruby>し",
+ "cuerpo": "<ruby>新聞<rt>しんぶん</rt></ruby>の<ruby>見出<rt>みだ</rt></ruby>しに、<ruby>近所<rt>きんじょ</rt></ruby>の<ruby>筆者<rt>ひっしゃ</rt></ruby>の<ruby>俳句<rt>はいく</rt></ruby>が<ruby>出<rt>で</rt></ruby>ていた。あの<ruby>人<rt>ひと</rt></ruby>の<em class=\"g\">ことだから</em>、きっと<ruby>何度<rt>なんど</rt></ruby>も<ruby>書<rt>か</rt></ruby>き<ruby>直<rt>なお</rt></ruby>したのだろう。<ruby>文芸<rt>ぶんげい</rt></ruby>の<ruby>会<rt>かい</rt></ruby>で<ruby>編集<rt>へんしゅう</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>っていると<ruby>聞<rt>き</rt></ruby>いたことがある。<ruby>文献<rt>ぶんけん</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めるのが<ruby>必要<rt>ひつよう</rt></ruby>だと、いつも<ruby>言<rt>い</rt></ruby>っていた。<ruby>私<rt>わたし</rt></ruby>も<ruby>回数券<rt>かいすうけん</rt></ruby>を<ruby>買<rt>か</rt></ruby>って、<ruby>毎週<rt>まいしゅう</rt></ruby>その<ruby>会<rt>かい</rt></ruby>へ<ruby>通<rt>かよ</rt></ruby>おうと<ruby>決<rt>き</rt></ruby>めた。",
+ "traduccion": "En el titular del periódico salía un haiku de un escritor del barrio. Tratándose de él, seguro que lo reescribió muchas veces. He oído que ayuda con la edición en el círculo literario. Siempre decía que hace falta reunir bibliografía. Yo también decidí comprar un bono de viajes e ir a ese círculo todas las semanas.",
+ "preguntas": [
+  {
+   "p": "<ruby>新聞<rt>しんぶん</rt></ruby>に<ruby>何<rt>なに</rt></ruby>が<ruby>出<rt>で</rt></ruby>ていましたか。",
+   "opciones": [
+    "<ruby>俳句<rt>はいく</rt></ruby>",
+    "<ruby>社説<rt>しゃせつ</rt></ruby>",
+    "<ruby>文献<rt>ぶんけん</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "その<ruby>人<rt>ひと</rt></ruby>は<ruby>会<rt>かい</rt></ruby>で<ruby>何<rt>なに</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>編集<rt>へんしゅう</rt></ruby>",
+    "<ruby>掃除<rt>そうじ</rt></ruby>",
+    "<ruby>受付<rt>うけつけ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "「<ruby>私<rt>わたし</rt></ruby>」は<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いましたか。",
+   "opciones": [
+    "<ruby>本<rt>ほん</rt></ruby>",
+    "<ruby>回数券<rt>かいすうけん</rt></ruby>",
+    "<ruby>新聞<rt>しんぶん</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

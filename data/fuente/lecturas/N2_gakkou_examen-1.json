@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/gakkou/examen-1",
+ "titulo": "<ruby>受験<rt>じゅけん</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "<ruby>朝<rt>あさ</rt></ruby>、<ruby>駅<rt>えき</rt></ruby>の<ruby>改札<rt>かいさつ</rt></ruby>で<ruby>受験<rt>じゅけん</rt></ruby>の<ruby>申請<rt>しんせい</rt></ruby>の<ruby>紙<rt>かみ</rt></ruby>を<ruby>落<rt>お</rt></ruby>としかけた。<ruby>会場<rt>かいじょう</rt></ruby>では、<ruby>去年<rt>きょねん</rt></ruby><ruby>落<rt>お</rt></ruby>ちた<em class=\"g\">だけに</em><ruby>緊張<rt>きんちょう</rt></ruby>した。<ruby>解答<rt>かいとう</rt></ruby>を<ruby>書<rt>か</rt></ruby>き<ruby>終<rt>お</rt></ruby>えて<ruby>見<rt>み</rt></ruby><ruby>直<rt>なお</rt></ruby>すと、<ruby>一<rt>ひと</rt></ruby>つだけ<ruby>自信<rt>じしん</rt></ruby>がなかった。<ruby>採点<rt>さいてん</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>、<ruby>点数<rt>てんすう</rt></ruby>は<ruby>満点<rt>まんてん</rt></ruby>ではなかったが<ruby>合格<rt>ごうかく</rt></ruby>だった。<ruby>母<rt>はは</rt></ruby>は「<ruby>傑作<rt>けっさく</rt></ruby>だね」と<ruby>笑<rt>わら</rt></ruby>い、<ruby>私<rt>わたし</rt></ruby>の<ruby>答案<rt>とうあん</rt></ruby>を<ruby>壁<rt>かべ</rt></ruby>に<ruby>貼<rt>は</rt></ruby>った。",
+ "traduccion": "Por la mañana casi se me cae el papel de la solicitud del examen en el torno de la estación. En la sede estuve nervioso precisamente porque el año pasado suspendí. Al terminar de escribir las respuestas y repasarlas, sólo de una no estaba seguro. En la corrección la nota no fue perfecta, pero aprobé. Mi madre se rió y dijo «esto es una obra maestra», y colgó mi examen en la pared.",
+ "preguntas": [
+  {
+   "p": "どこで<ruby>紙<rt>かみ</rt></ruby>を<ruby>落<rt>お</rt></ruby>としかけましたか。",
+   "opciones": [
+    "<ruby>駅<rt>えき</rt></ruby>の<ruby>改札<rt>かいさつ</rt></ruby>",
+    "<ruby>会場<rt>かいじょう</rt></ruby>",
+    "<ruby>家<rt>いえ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "どうして<ruby>緊張<rt>きんちょう</rt></ruby>しましたか。",
+   "opciones": [
+    "<ruby>遅<rt>おく</rt></ruby>れたから",
+    "<ruby>去年<rt>きょねん</rt></ruby><ruby>落<rt>お</rt></ruby>ちたから",
+    "<ruby>寝<rt>ね</rt></ruby>ていないから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>点数<rt>てんすう</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>満点<rt>まんてん</rt></ruby>",
+    "<ruby>満点<rt>まんてん</rt></ruby>ではないが<ruby>合格<rt>ごうかく</rt></ruby>",
+    "<ruby>不合格<rt>ふごうかく</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}
