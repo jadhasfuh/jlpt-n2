@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/seishitsu/estado-1",
+ "titulo": "<ruby>開通<rt>かいつう</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>道<rt>みち</rt></ruby>が<ruby>開通<rt>かいつう</rt></ruby>した。<ruby>工事<rt>こうじ</rt></ruby>が<ruby>延長<rt>えんちょう</rt></ruby>され、<ruby>計画<rt>けいかく</rt></ruby>も<ruby>何度<rt>なんど</rt></ruby>か<ruby>改正<rt>かいせい</rt></ruby>された。テープを<ruby>切<rt>き</rt></ruby>る<em class=\"g\">か<ruby>切<rt>き</rt></ruby>らないかのうちに</em>、<ruby>車<rt>くるま</rt></ruby>が<ruby>一斉<rt>いっせい</rt></ruby>に<ruby>走<rt>はし</rt></ruby>り<ruby>出<rt>だ</rt></ruby>した。<ruby>開放<rt>かいほう</rt></ruby>された<ruby>広場<rt>ひろば</rt></ruby>は<ruby>人<rt>ひと</rt></ruby>で<ruby>散<rt>ち</rt></ruby>らかり、<ruby>空<rt>から</rt></ruby>っぽの<ruby>箱<rt>はこ</rt></ruby>が<ruby>浮<rt>う</rt></ruby>いていた。<ruby>式<rt>しき</rt></ruby><em class=\"g\">に<ruby>際<rt>さい</rt></ruby>して</em>、<ruby>町長<rt>ちょうちょう</rt></ruby>は<ruby>基礎<rt>きそ</rt></ruby>からやり<ruby>直<rt>なお</rt></ruby>した<ruby>苦労<rt>くろう</rt></ruby>を<ruby>語<rt>かた</rt></ruby>った。",
+ "traduccion": "Se abrió la carretera nueva. Las obras se alargaron y el plan se revisó varias veces. Nada más cortar la cinta, los coches arrancaron todos a la vez. La plaza, ya abierta al público, quedó revuelta de tanta gente, y flotaban cajas vacías. Con motivo del acto, el alcalde contó lo que costó rehacerlo todo desde los cimientos.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>開通<rt>かいつう</rt></ruby>しましたか。",
+   "opciones": [
+    "<ruby>新<rt>あたら</rt></ruby>しい<ruby>道<rt>みち</rt></ruby>",
+    "<ruby>広場<rt>ひろば</rt></ruby>",
+    "<ruby>駅<rt>えき</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "テープを<ruby>切<rt>き</rt></ruby>るとすぐ<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>きましたか。",
+   "opciones": [
+    "<ruby>車<rt>くるま</rt></ruby>が<ruby>走<rt>はし</rt></ruby>り<ruby>出<rt>だ</rt></ruby>した",
+    "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>った",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>帰<rt>かえ</rt></ruby>った"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>町長<rt>ちょうちょう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>語<rt>かた</rt></ruby>りましたか。",
+   "opciones": [
+    "<ruby>基礎<rt>きそ</rt></ruby>からやり<ruby>直<rt>なお</rt></ruby>した<ruby>苦労<rt>くろう</rt></ruby>",
+    "<ruby>計画<rt>けいかく</rt></ruby>の<ruby>値段<rt>ねだん</rt></ruby>",
+    "<ruby>広場<rt>ひろば</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

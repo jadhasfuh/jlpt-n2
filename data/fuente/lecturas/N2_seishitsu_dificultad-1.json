@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/seishitsu/dificultad-1",
+ "titulo": "<ruby>素人<rt>しろうと</rt></ruby>の<ruby>修理<rt>しゅうり</rt></ruby>",
+ "cuerpo": "<ruby>自転車<rt>じてんしゃ</rt></ruby>を<ruby>自分<rt>じぶん</rt></ruby>で<ruby>直<rt>なお</rt></ruby>そうとした。<ruby>部品<rt>ぶひん</rt></ruby>が<ruby>小<rt>ちい</rt></ruby>さくて<ruby>扱<rt>あつか</rt></ruby>い<em class=\"g\">にくい</em>のに、<ruby>説明書<rt>せつめいしょ</rt></ruby>もない。<ruby>二時間<rt>にじかん</rt></ruby><ruby>苦労<rt>くろう</rt></ruby>した<em class=\"g\">あげく</em>、<ruby>店<rt>みせ</rt></ruby>に<ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>った。<em class=\"g\"><ruby>驚<rt>おどろ</rt></ruby>いた<ruby>事<rt>こと</rt></ruby>に</em>、<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>十分<rt>じゅっぷん</rt></ruby>で<ruby>直<rt>なお</rt></ruby>してしまった。<ruby>素人<rt>しろうと</rt></ruby>と<ruby>職人<rt>しょくにん</rt></ruby>の<ruby>差<rt>さ</rt></ruby>を、<ruby>目<rt>め</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>見<rt>み</rt></ruby>せられた<ruby>気<rt>き</rt></ruby>がした。",
+ "traduccion": "Intenté arreglar la bicicleta yo mismo. Las piezas eran pequeñas y difíciles de manejar, y encima no había instrucciones. Después de dos horas peleándome, acabé llevándola a la tienda. Para mi sorpresa, el mecánico la arregló en diez minutos. Sentí que me habían enseñado delante de las narices la diferencia entre un aficionado y un profesional.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>直<rt>なお</rt></ruby>そうとしましたか。",
+   "opciones": [
+    "<ruby>自転車<rt>じてんしゃ</rt></ruby>",
+    "<ruby>時計<rt>とけい</rt></ruby>",
+    "<ruby>机<rt>つくえ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "どうして<ruby>難<rt>むずか</rt></ruby>しかったですか。",
+   "opciones": [
+    "<ruby>部品<rt>ぶひん</rt></ruby>が<ruby>小<rt>ちい</rt></ruby>さいから",
+    "<ruby>高<rt>たか</rt></ruby>いから",
+    "<ruby>重<rt>おも</rt></ruby>いから"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はどのくらいで<ruby>直<rt>なお</rt></ruby>しましたか。",
+   "opciones": [
+    "<ruby>十分<rt>じゅっぷん</rt></ruby>",
+    "<ruby>二時間<rt>にじかん</rt></ruby>",
+    "<ruby>一日<rt>いちにち</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

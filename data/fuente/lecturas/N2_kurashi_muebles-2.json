@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kurashi/muebles-2",
+ "titulo": "<ruby>停電<rt>ていでん</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>",
+ "cuerpo": "<ruby>夜<rt>よる</rt></ruby>、<ruby>急<rt>きゅう</rt></ruby>に<ruby>電気<rt>でんき</rt></ruby>が<ruby>消<rt>き</rt></ruby>えた。<ruby>目覚<rt>めざま</rt></ruby>しの<ruby>時計<rt>とけい</rt></ruby>も<ruby>止<rt>と</rt></ruby>まり、<ruby>部屋<rt>へや</rt></ruby>は<ruby>真<rt>ま</rt></ruby>っ<ruby>暗<rt>くら</rt></ruby>だ。<ruby>棚<rt>たな</rt></ruby>から<ruby>蝋燭<rt>ろうそく</rt></ruby>を<ruby>出<rt>だ</rt></ruby>し、<ruby>灯油<rt>とうゆ</rt></ruby>のストーブに<ruby>火<rt>ひ</rt></ruby>を<ruby>入<rt>い</rt></ruby>れた。<ruby>薬缶<rt>やかん</rt></ruby>でお<ruby>湯<rt>ゆ</rt></ruby>をわかし、<ruby>座布団<rt>ざぶとん</rt></ruby>に<ruby>座<rt>すわ</rt></ruby>って<ruby>待<rt>ま</rt></ruby>った。<ruby>去年<rt>きょねん</rt></ruby><em class=\"g\">より</em><ruby>準備<rt>じゅんび</rt></ruby>してあったので、あわてずに<ruby>済<rt>す</rt></ruby>んだ。<em class=\"g\">どうせ</em><ruby>朝<rt>あさ</rt></ruby>には<ruby>直<rt>なお</rt></ruby>るのだからと、<ruby>早<rt>はや</rt></ruby>めに<ruby>寝台<rt>しんだい</rt></ruby>に<ruby>入<rt>はい</rt></ruby>った。",
+ "traduccion": "Por la noche se fue la luz de golpe. El despertador también se paró y el cuarto quedó a oscuras. Saqué una vela del estante y encendí la estufa de queroseno. Puse agua a hervir en el hervidor y esperé sentado en un cojín. Como estaba mejor preparado que el año pasado, no me puse nervioso. Total, por la mañana lo arreglarían, así que me metí pronto en la cama.",
+ "preguntas": [
+  {
+   "p": "<ruby>夜<rt>よる</rt></ruby><ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>きましたか。",
+   "opciones": [
+    "<ruby>電気<rt>でんき</rt></ruby>が<ruby>消<rt>き</rt></ruby>えた",
+    "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>った",
+    "<ruby>火事<rt>かじ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>棚<rt>たな</rt></ruby>から<ruby>何<rt>なに</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しましたか。",
+   "opciones": [
+    "<ruby>蝋燭<rt>ろうそく</rt></ruby>",
+    "<ruby>薬缶<rt>やかん</rt></ruby>",
+    "<ruby>座布団<rt>ざぶとん</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "どうしてあわてませんでしたか。",
+   "opciones": [
+    "<ruby>準備<rt>じゅんび</rt></ruby>してあったから",
+    "<ruby>明<rt>あか</rt></ruby>るいから",
+    "<ruby>慣<rt>な</rt></ruby>れているから"
+   ],
+   "correcta": 0
+  }
+ ]
+}

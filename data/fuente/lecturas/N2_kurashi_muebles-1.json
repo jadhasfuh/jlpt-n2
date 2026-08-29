@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kurashi/muebles-1",
+ "titulo": "<ruby>台所<rt>だいどころ</rt></ruby>の<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>し",
+ "cuerpo": "<ruby>台所<rt>だいどころ</rt></ruby>の<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>箱<rt>はこ</rt></ruby>に<ruby>詰<rt>つ</rt></ruby>めた。フライパンと<ruby>釜<rt>かま</rt></ruby>、<ruby>丼<rt>どんぶり</rt></ruby>と<ruby>匙<rt>さじ</rt></ruby>、それに<ruby>蓋<rt>ふた</rt></ruby>のない<ruby>入<rt>い</rt></ruby>れ<ruby>物<rt>もの</rt></ruby>がいくつも<ruby>出<rt>で</rt></ruby>てきた。<ruby>割<rt>わ</rt></ruby>れやすい<ruby>物<rt>もの</rt></ruby><em class=\"g\"><ruby>以外<rt>いがい</rt></ruby></em>はバケツに<ruby>入<rt>い</rt></ruby>れ、<ruby>綱<rt>つな</rt></ruby>で<ruby>縛<rt>しば</rt></ruby>った。<ruby>箒<rt>ほうき</rt></ruby>と<ruby>櫛<rt>くし</rt></ruby>と<ruby>枕<rt>まくら</rt></ruby>は<ruby>最後<rt>さいご</rt></ruby>に<ruby>運<rt>はこ</rt></ruby>んだ。ねじが<ruby>一<rt>ひと</rt></ruby>つ<ruby>足<rt>た</rt></ruby>りず、じゃんけんで<ruby>買<rt>か</rt></ruby>いに<ruby>行<rt>い</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>を<ruby>決<rt>き</rt></ruby>めた。",
+ "traduccion": "Metí en cajas los utensilios de la cocina. Salieron la sartén y la olla, el cuenco y la cuchara, y unos cuantos recipientes sin tapa. Salvo las cosas frágiles, lo metí todo en un cubo y lo até con una cuerda. La escoba, el peine y la almohada los llevé al final. Faltaba un tornillo, y a piedra, papel o tijera decidimos quién iba a comprarlo.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>箱<rt>はこ</rt></ruby>に<ruby>詰<rt>つ</rt></ruby>めましたか。",
+   "opciones": [
+    "<ruby>台所<rt>だいどころ</rt></ruby>の<ruby>道具<rt>どうぐ</rt></ruby>",
+    "<ruby>服<rt>ふく</rt></ruby>",
+    "<ruby>本<rt>ほん</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "バケツに<ruby>入<rt>い</rt></ruby>れなかったのは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>割<rt>わ</rt></ruby>れやすい<ruby>物<rt>もの</rt></ruby>",
+    "<ruby>箒<rt>ほうき</rt></ruby>",
+    "ねじ"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "だれが<ruby>買<rt>か</rt></ruby>いに<ruby>行<rt>い</rt></ruby>くか、どうやって<ruby>決<rt>き</rt></ruby>めましたか。",
+   "opciones": [
+    "じゃんけん",
+    "<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>い",
+    "<ruby>順番<rt>じゅんばん</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

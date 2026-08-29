@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kurashi/limpieza-1",
+ "titulo": "<ruby>梅雨<rt>つゆ</rt></ruby>の<ruby>掃除<rt>そうじ</rt></ruby>",
+ "cuerpo": "<ruby>梅雨<rt>つゆ</rt></ruby>になると、ふろにかびが<ruby>生<rt>は</rt></ruby>えやすい。<ruby>今年<rt>ことし</rt></ruby>は<ruby>壁<rt>かべ</rt></ruby><em class=\"g\">ばかりか</em><ruby>天<rt>てん</rt></ruby>じょうまで<ruby>黒<rt>くろ</rt></ruby>くなった。<ruby>順々<rt>じゅんじゅん</rt></ruby>に<ruby>清掃<rt>せいそう</rt></ruby>し、<ruby>屑<rt>くず</rt></ruby>を<ruby>潰<rt>つぶ</rt></ruby>して<ruby>袋<rt>ふくろ</rt></ruby>にまとめた。<ruby>金<rt>かな</rt></ruby>ぐが<ruby>錆<rt>さ</rt></ruby>びていたので、<ruby>錆<rt>さび</rt></ruby>を<ruby>落<rt>お</rt></ruby>としてから<ruby>拭<rt>ふ</rt></ruby>いた。<ruby>不潔<rt>ふけつ</rt></ruby>なままでは<ruby>気<rt>き</rt></ruby>になるので、<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>整<rt>ととの</rt></ruby>うまでやめられない。<ruby>終<rt>お</rt></ruby>わったあとは、<ruby>部屋<rt>へや</rt></ruby>も<ruby>気持<rt>きも</rt></ruby>ちもすっきりした。",
+ "traduccion": "Cuando llega la temporada de lluvias, sale moho con facilidad en el baño. Este año se puso negro no sólo la pared, sino hasta el techo. Fui limpiando por orden, aplasté los desechos y los junté en una bolsa. Los herrajes estaban oxidados, así que quité el óxido antes de pasar el trapo. Si lo dejo sucio no me quedo tranquilo, y no puedo parar hasta que todo queda en orden. Al terminar, tanto el cuarto como yo nos quedamos despejados.",
+ "preguntas": [
+  {
+   "p": "いつかびが<ruby>生<rt>は</rt></ruby>えやすいですか。",
+   "opciones": [
+    "<ruby>梅雨<rt>つゆ</rt></ruby>",
+    "<ruby>冬<rt>ふゆ</rt></ruby>",
+    "<ruby>秋<rt>あき</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>今年<rt>ことし</rt></ruby>はどこまで<ruby>黒<rt>くろ</rt></ruby>くなりましたか。",
+   "opciones": [
+    "<ruby>天<rt>てん</rt></ruby>じょうまで",
+    "<ruby>床<rt>ゆか</rt></ruby>だけ",
+    "<ruby>壁<rt>かべ</rt></ruby>だけ"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>錆<rt>さ</rt></ruby>びていたものをどうしましたか。",
+   "opciones": [
+    "<ruby>錆<rt>さび</rt></ruby>を<ruby>落<rt>お</rt></ruby>として<ruby>拭<rt>ふ</rt></ruby>いた",
+    "<ruby>捨<rt>す</rt></ruby>てた",
+    "そのままにした"
+   ],
+   "correcta": 0
+  }
+ ]
+}

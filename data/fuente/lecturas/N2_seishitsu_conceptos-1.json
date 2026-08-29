@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/seishitsu/conceptos-1",
+ "titulo": "<ruby>矛盾<rt>むじゅん</rt></ruby>に<ruby>気<rt>き</rt></ruby>づく",
+ "cuerpo": "<ruby>実験<rt>じっけん</rt></ruby>の<ruby>記号<rt>きごう</rt></ruby>を<ruby>並<rt>なら</rt></ruby>べているうちに、<ruby>矛盾<rt>むじゅん</rt></ruby>が<ruby>生<rt>しょう</rt></ruby>じた。<ruby>確率<rt>かくりつ</rt></ruby>の<ruby>計算<rt>けいさん</rt></ruby>が<ruby>原始<rt>げんし</rt></ruby>のデータと<ruby>合<rt>あ</rt></ruby>わないのだ。<ruby>直<rt>なお</rt></ruby>し<em class=\"g\">ては</em><ruby>計算<rt>けいさん</rt></ruby>し<em class=\"g\">ては</em>、また<ruby>直<rt>なお</rt></ruby>した。<ruby>三日<rt>みっか</rt></ruby>のあいだ、<ruby>正<rt>ただ</rt></ruby>しい<ruby>答<rt>こた</rt></ruby>えは<em class=\"g\">として<ruby>一<rt>ひと</rt></ruby>つもなかった</em>。<ruby>最後<rt>さいご</rt></ruby>に<ruby>効力<rt>こうりょく</rt></ruby>のある<ruby>式<rt>しき</rt></ruby>が<ruby>見<rt>み</rt></ruby>つかり、ようやく<ruby>眠<rt>ねむ</rt></ruby>れた。",
+ "traduccion": "Mientras ordenaba los símbolos del experimento, surgió una contradicción: el cálculo de probabilidad no cuadraba con los datos originales. Corregía y calculaba, corregía y calculaba, y volvía a corregir. Durante tres días no hubo ni una sola respuesta correcta. Al final apareció una fórmula que funcionaba y por fin pude dormir.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>生<rt>しょう</rt></ruby>じましたか。",
+   "opciones": [
+    "<ruby>矛盾<rt>むじゅん</rt></ruby>",
+    "<ruby>効力<rt>こうりょく</rt></ruby>",
+    "<ruby>記号<rt>きごう</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>合<rt>あ</rt></ruby>いませんでしたか。",
+   "opciones": [
+    "<ruby>確率<rt>かくりつ</rt></ruby>の<ruby>計算<rt>けいさん</rt></ruby>とデータ",
+    "<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>人<rt>ひと</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>三日<rt>みっか</rt></ruby>のあいだどうでしたか。",
+   "opciones": [
+    "<ruby>正<rt>ただ</rt></ruby>しい<ruby>答<rt>こた</rt></ruby>えがなかった",
+    "すぐ<ruby>分<rt>わ</rt></ruby>かった",
+    "<ruby>休<rt>やす</rt></ruby>んだ"
+   ],
+   "correcta": 0
+  }
+ ]
+}

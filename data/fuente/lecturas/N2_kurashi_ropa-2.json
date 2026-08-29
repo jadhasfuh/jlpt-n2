@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kurashi/ropa-2",
+ "titulo": "<ruby>祭<rt>まつ</rt></ruby>りの<ruby>浴衣<rt>ゆかた</rt></ruby>",
+ "cuerpo": "<ruby>夏<rt>なつ</rt></ruby>の<ruby>祭<rt>まつ</rt></ruby>りに<ruby>浴衣<rt>ゆかた</rt></ruby>を<ruby>着<rt>き</rt></ruby>て<ruby>行<rt>い</rt></ruby>った。<ruby>下駄<rt>げた</rt></ruby>は<ruby>歩<rt>ある</rt></ruby>きにくいので、<ruby>草履<rt>ぞうり</rt></ruby>に<ruby>替<rt>か</rt></ruby>えた。<ruby>風呂敷<rt>ふろしき</rt></ruby>に<ruby>着替<rt>きが</rt></ruby>えと<ruby>肌着<rt>はだぎ</rt></ruby>を<ruby>包<rt>つつ</rt></ruby>み、<ruby>小遣<rt>こづか</rt></ruby>いも<ruby>少<rt>すこ</rt></ruby>し<ruby>入<rt>い</rt></ruby>れた。<ruby>人<rt>ひと</rt></ruby>ごみの<em class=\"g\"><ruby>中<rt>なか</rt></ruby>を</em><ruby>歩<rt>ある</rt></ruby>くうち、<ruby>香水<rt>こうすい</rt></ruby>と<ruby>屋台<rt>やたい</rt></ruby>のにおいが<ruby>混<rt>ま</rt></ruby>ざった。<ruby>夜<rt>よる</rt></ruby>が<ruby>更<rt>ふ</rt></ruby>けてから<ruby>寝巻<rt>ねまき</rt></ruby>に<ruby>着替<rt>きが</rt></ruby>え、<ruby>和服<rt>わふく</rt></ruby>をたたんでしまった。",
+ "traduccion": "Fui a la fiesta de verano vestido con yukata. Como las sandalias de madera cuestan de andar, me cambié a unas zōri. Envolví en un paño la muda y la ropa interior, y metí también algo de dinero. Mientras caminaba entre el gentío, se mezclaban el olor a perfume y el de los puestos. Cuando se hizo tarde me cambié al pijama y guardé el kimono doblado.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>着<rt>き</rt></ruby>て<ruby>行<rt>い</rt></ruby>きましたか。",
+   "opciones": [
+    "<ruby>浴衣<rt>ゆかた</rt></ruby>",
+    "<ruby>寝巻<rt>ねまき</rt></ruby>",
+    "<ruby>肌着<rt>はだぎ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>下駄<rt>げた</rt></ruby>をどうしましたか。",
+   "opciones": [
+    "<ruby>草履<rt>ぞうり</rt></ruby>に<ruby>替<rt>か</rt></ruby>えた",
+    "そのまま<ruby>履<rt>は</rt></ruby>いた",
+    "<ruby>捨<rt>す</rt></ruby>てた"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>夜<rt>よる</rt></ruby>が<ruby>更<rt>ふ</rt></ruby>けてからどうしましたか。",
+   "opciones": [
+    "<ruby>寝巻<rt>ねまき</rt></ruby>に<ruby>着替<rt>きが</rt></ruby>えた",
+    "<ruby>出<rt>で</rt></ruby>かけた",
+    "<ruby>香水<rt>こうすい</rt></ruby>をつけた"
+   ],
+   "correcta": 0
+  }
+ ]
+}
