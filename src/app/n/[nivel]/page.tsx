@@ -24,6 +24,16 @@ export default async function Pagina({ params }: { params: Promise<{ nivel: stri
             {n.palabras.toLocaleString("es")} palabras · {n.unidades} unidades
           </p>
         </section>
+        <Link href={`/n/${n.id}/kanji`} className="fila" style={{ marginBottom: 12 }}>
+          <div className="anillo" style={{ ["--pct" as string]: 100, ["--tono" as string]: "var(--tinta-3)" }}>
+            <span className="jp" style={{ fontSize: 15 }}>漢</span>
+          </div>
+          <div style={{ flex: 1 }}>
+            <div style={{ fontWeight: 600 }}>Todos los kanji del nivel</div>
+            <div className="tenue">{n.kanji} kanji · lista y test</div>
+          </div>
+          <span className="flecha">›</span>
+        </Link>
         {n.gramatica > 0 && (
           <Link href={`/n/${n.id}/gramatica`} className="fila" style={{ marginBottom: 12 }}>
             <div className="anillo" style={{ ["--pct" as string]: 100, ["--tono" as string]: "var(--tinta-3)" }}>

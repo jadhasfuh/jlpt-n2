@@ -74,6 +74,22 @@ descartadas = {u["id"]: [i for i in u["palabras"] if i in DESCARTAR] for u in un
 for u in unidades:
     u["palabras"] = [i for i in u["palabras"] if i not in DESCARTAR]
 
+# ---------------------------------------------------------------------- kanji
+KANJI_RX = re.compile(r"[一-鿿]")
+kanji_cat = json.loads(pathlib.Path("data/build/kanji.json").read_text(encoding="utf-8"))
+por_char = {k["char"]: k for k in kanji_cat}
+esc_de = {p["id"]: p["kanji"] for p in salida_v}
+
+def kanji_de(ids):
+    """Los kanji que aparecen en esas palabras, ordenados como el catálogo."""
+    vistos = set()
+    for i in ids:
+        vistos.update(KANJI_RX.findall(esc_de.get(i, "") or ""))
+    return [k["char"] for k in kanji_cat if k["char"] in vistos]
+
+for u in unidades:
+    u["kanji"] = kanji_de(u["palabras"])
+
 # ------------------------------------------------------------- árbol del curso
 et_sec = {s[0]: {"ja": s[1], "es": s[2]} for s in SECCIONES}
 orden_sec = [s[0] for s in SECCIONES]
@@ -89,8 +105,10 @@ for nivel in NIVELES:
             "id": sid, "ja": et_sec[sid]["ja"], "es": et_sec[sid]["es"],
             "palabras": sum(len(u["palabras"]) for u in us),
             "gramatica": sum(len(u["gramatica"]) for u in us),
+            "kanji": len({c for u in us for c in u["kanji"]}),
             "unidades": [{"id": u["id"], "ja": u["ja"], "es": u["es"], "tipo": u["tipo"],
-                          "items": len(u["palabras"]), "gramatica": len(u["gramatica"])}
+                          "items": len(u["palabras"]), "gramatica": len(u["gramatica"]),
+                          "kanji": len(u["kanji"])}
                          for u in us],
         })
     curso.append({
@@ -98,6 +116,8 @@ for nivel in NIVELES:
         "palabras": sum(len(u["palabras"]) for u in del_nivel),
         "gramatica": sum(len(u["gramatica"]) for u in del_nivel),
         "unidades": len(del_nivel),
+        # los kanji oficiales de ese nivel JLPT que además salen en el curso
+        "kanji": sum(1 for k in kanji_cat if k["nivel"] == nivel),
     })
 
 # -------------------------------------------------------------------- lecturas
@@ -112,8 +132,14 @@ for f in sorted(dir_lect.glob("*.json")):
 # ------------------------------------------------------------------ categorías
 categorias = [{"id": k, "es": v} for k, v in CAT_ES.items()]
 
+# Mapa compacto kanji -> nivel, para colorear el texto en el navegador (~10 KB).
+mapa_nivel = {k["char"]: (k["nivel"] or k["curso"]) for k in kanji_cat}
+(DIST / "kanji_niveles.json").write_text(json.dumps(mapa_nivel, ensure_ascii=False), encoding="utf-8")
+print(f"{'kanji_niveles':<14} {len(mapa_nivel):5d} registros  "
+      f"{(DIST/'kanji_niveles.json').stat().st_size/1024:8.1f} KB")
+
 for nombre, dato in [("vocabulario", salida_v), ("gramatica", salida_g),
-                     ("unidades", unidades), ("curso", curso),
+                     ("unidades", unidades), ("curso", curso), ("kanji", kanji_cat),
                      ("lecturas", salida_l), ("categorias", categorias)]:
     (DIST / f"{nombre}.json").write_text(json.dumps(dato, ensure_ascii=False), encoding="utf-8")
     print(f"{nombre:<14} {len(dato):5d} registros  {(DIST/f'{nombre}.json').stat().st_size/1024:8.1f} KB")

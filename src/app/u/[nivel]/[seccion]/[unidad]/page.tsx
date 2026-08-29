@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { gramaticas, palabras, unidad, vecinas } from "@/lib/contenido";
+import { gramaticas, kanjis, palabras, unidad, vecinas } from "@/lib/contenido";
 import { Cabecera } from "@/components/Cabecera";
 import { VistaUnidad } from "@/components/VistaUnidad";
 
@@ -24,6 +24,7 @@ export default async function Pagina(
         unidad={u}
         palabras={palabras(u.palabras)}
         gramatica={gramaticas(u.gramatica)}
+        kanji={kanjis(u.kanji)}
         siguiente={sig}
       />
     </>

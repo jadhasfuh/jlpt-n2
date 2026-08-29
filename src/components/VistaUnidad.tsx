@@ -1,20 +1,22 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import type { Gramatica, Palabra, Unidad } from "@/lib/tipos";
+import type { Gramatica, Kanji, Palabra, Unidad } from "@/lib/tipos";
 import { BotonesRapidos, useAjustes } from "./Ajustes";
 import { Jp, BotonVoz } from "./Jp";
 import { PanelGramatica } from "./PanelGramatica";
+import { PanelKanji } from "./PanelKanji";
 import { Practica } from "./Practica";
 import { Test } from "./Test";
 import { LecturaUnidad } from "./LecturaUnidad";
 import { estadoItem, leerProgreso, type Progreso } from "@/lib/progreso";
 
-export function VistaUnidad({ unidad, palabras, gramatica, siguiente }: {
-  unidad: Unidad; palabras: Palabra[]; gramatica: Gramatica[]; siguiente: string | null;
+export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente }: {
+  unidad: Unidad; palabras: Palabra[]; gramatica: Gramatica[];
+  kanji: Kanji[]; siguiente: string | null;
 }) {
   const { significado } = useAjustes();
-  const [pestana, setPestana] = useState<"vocabulario" | "gramatica" | "lectura">("vocabulario");
+  const [pestana, setPestana] = useState<"vocabulario" | "kanji" | "gramatica" | "lectura">("vocabulario");
   const [hayLectura, setHayLectura] = useState(false);
   const [abierto, setAbierto] = useState<Record<number, boolean>>({});
   const [escena, setEscena] = useState<null | "practica" | "test">(null);
@@ -61,6 +63,12 @@ export function VistaUnidad({ unidad, palabras, gramatica, siguiente }: {
                   onClick={() => setPestana("vocabulario")}>
             <span className="jp">語彙</span> {palabras.length}
           </button>
+          {kanji.length > 0 && (
+            <button className={`btn chico ${pestana === "kanji" ? "encendido" : ""}`}
+                    onClick={() => setPestana("kanji")}>
+              <span className="jp">漢字</span> {kanji.length}
+            </button>
+          )}
           {gramatica.length > 0 && (
             <button className={`btn chico ${pestana === "gramatica" ? "encendido" : ""}`}
                     onClick={() => setPestana("gramatica")}>
@@ -73,7 +81,9 @@ export function VistaUnidad({ unidad, palabras, gramatica, siguiente }: {
           </button>
         </div>
 
-        {pestana === "lectura" ? (
+        {pestana === "kanji" ? (
+          <PanelKanji kanji={kanji} titulo={`${unidad.ja} · ${unidad.nivel}`} />
+        ) : pestana === "lectura" ? (
           <LecturaUnidad unidadId={unidad.id} onEncontrada={setHayLectura} />
         ) : pestana === "gramatica" ? (
           <PanelGramatica items={gramatica} />

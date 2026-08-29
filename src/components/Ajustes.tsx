@@ -4,8 +4,9 @@ import { createContext, useContext, useEffect, useState } from "react";
 type Ajustes = {
   furigana: boolean;
   significado: boolean;
+  colores: boolean;
   tema: "auto" | "claro" | "oscuro";
-  alternar: (k: "furigana" | "significado") => void;
+  alternar: (k: "furigana" | "significado" | "colores") => void;
   cambiarTema: () => void;
 };
 
@@ -28,11 +29,13 @@ export function ProveedorAjustes({ children }: { children: React.ReactNode }) {
   // El furigana empieza apagado a propósito: primero se intenta leer sin ayuda.
   const [furigana, setFurigana] = useState(false);
   const [significado, setSignificado] = useState(false);
+  const [colores, setColores] = useState(true);   // los kanji entran coloreados
   const [tema, setTema] = useState<"auto" | "claro" | "oscuro">("auto");
 
   useEffect(() => {
     setFurigana(leer("jlpt.furigana", false));
     setSignificado(leer("jlpt.significado", false));
+    setColores(leer("jlpt.colores", true));
     setTema(leer("jlpt.tema", "auto"));
   }, []);
 
@@ -41,9 +44,9 @@ export function ProveedorAjustes({ children }: { children: React.ReactNode }) {
     try { localStorage.setItem("jlpt.tema", JSON.stringify(tema)); } catch {}
   }, [tema]);
 
-  const alternar = (k: "furigana" | "significado") => {
-    const set = k === "furigana" ? setFurigana : setSignificado;
-    const valor = k === "furigana" ? !furigana : !significado;
+  const alternar = (k: "furigana" | "significado" | "colores") => {
+    const set = k === "furigana" ? setFurigana : k === "significado" ? setSignificado : setColores;
+    const valor = !(k === "furigana" ? furigana : k === "significado" ? significado : colores);
     set(valor);
     try { localStorage.setItem(`jlpt.${k}`, JSON.stringify(valor)); } catch {}
   };
@@ -52,7 +55,7 @@ export function ProveedorAjustes({ children }: { children: React.ReactNode }) {
     setTema((t) => (t === "auto" ? "claro" : t === "claro" ? "oscuro" : "auto"));
 
   return (
-    <Ctx.Provider value={{ furigana, significado, tema, alternar, cambiarTema }}>
+    <Ctx.Provider value={{ furigana, significado, colores, tema, alternar, cambiarTema }}>
       {children}
     </Ctx.Provider>
   );
@@ -60,7 +63,7 @@ export function ProveedorAjustes({ children }: { children: React.ReactNode }) {
 
 /** Los dos botones rápidos. Van en cada paso de cada sección. */
 export function BotonesRapidos({ compacto = false }: { compacto?: boolean }) {
-  const { furigana, significado, alternar } = useAjustes();
+  const { furigana, significado, colores, alternar } = useAjustes();
   return (
     <div style={{ display: "flex", gap: 8 }}>
       <button
@@ -76,6 +79,13 @@ export function BotonesRapidos({ compacto = false }: { compacto?: boolean }) {
         title="Mostrar u ocultar el significado"
       >
         {compacto ? <span className="jp">意味</span> : <><span className="jp">意味</span> · significado</>}
+      </button>
+      <button
+        className={`btn ${colores ? "encendido" : ""}`}
+        onClick={() => alternar("colores")}
+        title="Colorear los kanji según su nivel JLPT"
+      >
+        <span className="jp">色</span>
       </button>
     </div>
   );

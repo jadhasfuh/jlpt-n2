@@ -27,22 +27,35 @@ export type Unidad = {
   seccion: string; subgrupo: string;
   parte: number; partes: number;
   ja: string; es: string;
-  palabras: number[]; gramatica: string[];
+  palabras: number[]; gramatica: string[]; kanji: string[];
 };
 
 export type UnidadMeta = {
   id: string; ja: string; es: string; tipo: string;
   items: number;      // palabras
   gramatica: number;  // puntos de gramática que trae la unidad
+  kanji: number;
 };
 export type SeccionCurso = {
   id: string; ja: string; es: string;
-  palabras: number; gramatica: number;
+  palabras: number; gramatica: number; kanji: number;
   unidades: UnidadMeta[];
 };
 export type NivelCurso = {
   id: Nivel; secciones: SeccionCurso[];
-  palabras: number; gramatica: number; unidades: number;
+  palabras: number; gramatica: number; unidades: number; kanji: number;
+};
+
+export type Kanji = {
+  char: string;
+  nivel: string;      // nivel JLPT oficial del kanji ("" si está fuera del JLPT)
+  curso: string;      // nivel del curso donde aparece por primera vez
+  trazos: number | null;
+  grado: number | null;
+  freq: number | null;
+  en: string[]; es: string;
+  on: string[]; kun: string[];
+  palabras: number[]; n_palabras: number;
 };
 
 export type Lectura = {

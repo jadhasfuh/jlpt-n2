@@ -212,3 +212,40 @@ rt { font-size: .5em; color: var(--tinta-3); font-family: var(--ui); }
 .tabla-vocab { width: 100%; border-collapse: collapse; }
 .tabla-vocab td { padding: 12px 4px; border-bottom: 1px solid var(--linea); vertical-align: middle; }
 .tabla-vocab tr:last-child td { border-bottom: none; }
+
+/* --------- kanji coloreados por nivel JLPT y gramática resaltada --------- */
+.k { font-weight: 600; }
+.k.n5 { color: var(--verde); }
+.k.n4 { color: var(--azul); }
+.k.n3 { color: var(--morado); }
+.k.n2 { color: var(--acento); }
+.k.n1 { color: var(--dorado); }
+
+/* la gramática dentro de una lectura */
+em.g {
+  font-style: normal; font-weight: 700;
+  border-bottom: 2px solid color-mix(in srgb, var(--acento) 55%, transparent);
+}
+em.g.n1 { border-color: color-mix(in srgb, var(--dorado) 55%, transparent); }
+em.g.n3 { border-color: color-mix(in srgb, var(--morado) 55%, transparent); }
+
+/* el interruptor 色 apaga todo el coloreado */
+.sin-colores .k { color: inherit; font-weight: inherit; }
+.sin-colores em.g { border-bottom: none; font-weight: inherit; }
+
+/* leyenda */
+.leyenda { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 6px 0 12px; }
+.leyenda span { font-size: 12px; font-weight: 700; }
+
+/* rejilla de kanji */
+.kanjis { display: grid; grid-template-columns: repeat(auto-fill, minmax(56px, 1fr)); gap: 8px; }
+.kanjis button {
+  aspect-ratio: 1; border: 1px solid var(--linea); border-radius: 10px;
+  background: var(--papel-2); font-family: var(--jp); font-size: 26px;
+  display: grid; place-items: center; transition: transform .06s;
+}
+.kanjis button:active { transform: scale(.94); }
+.kanjis button.sel { border-color: var(--acento); background: var(--acento-suave); }
+
+.ficha-kanji { display: flex; gap: 16px; align-items: flex-start; }
+.ficha-kanji .grande { font-family: var(--jp); font-size: 62px; line-height: 1; }

@@ -1,12 +1,13 @@
 import "server-only";
 import type {
-  Palabra, Gramatica, Unidad, NivelCurso, Lectura, Nivel,
+  Palabra, Gramatica, Unidad, NivelCurso, Lectura, Kanji,
 } from "./tipos";
 import vocabularioJson from "../../data/dist/vocabulario.json";
 import gramaticaJson from "../../data/dist/gramatica.json";
 import unidadesJson from "../../data/dist/unidades.json";
 import cursoJson from "../../data/dist/curso.json";
 import lecturasJson from "../../data/dist/lecturas.json";
+import kanjiJson from "../../data/dist/kanji.json";
 import { supabaseServidor } from "./supabase";
 
 const VOCABULARIO = vocabularioJson as Palabra[];
@@ -14,6 +15,8 @@ const GRAMATICA = gramaticaJson as Gramatica[];
 const UNIDADES = unidadesJson as Unidad[];
 const CURSO = cursoJson as NivelCurso[];
 const LECTURAS = new Map((lecturasJson as Lectura[]).map((l) => [l.unidad_id, l]));
+const KANJI = kanjiJson as Kanji[];
+const porChar = new Map(KANJI.map((k) => [k.char, k]));
 
 const porIdPalabra = new Map(VOCABULARIO.map((p) => [p.id, p]));
 const porIdGramatica = new Map(GRAMATICA.map((g) => [g.id, g]));
@@ -36,10 +39,32 @@ export function gramaticas(ids: string[]): Gramatica[] {
   return ids.map((i) => porIdGramatica.get(i)).filter(Boolean) as Gramatica[];
 }
 
+/** Fichas de esos kanji, en el orden del catálogo (frecuencia). */
+export function kanjis(chars: string[]): Kanji[] {
+  const set = new Set(chars);
+  return KANJI.filter((k) => set.has(k.char));
+}
+
+/** Los kanji oficiales de un nivel JLPT. */
+export function kanjiDeNivel(nivel: string): Kanji[] {
+  return KANJI.filter((k) => k.nivel === nivel);
+}
+
+/** Los kanji que salen en las palabras de una sección de un nivel. */
+export function kanjiDeSeccion(nivel: string, seccion: string): Kanji[] {
+  const chars = new Set(
+    UNIDADES.filter((u) => u.nivel === nivel && u.seccion === seccion)
+            .flatMap((u) => u.kanji));
+  return KANJI.filter((k) => chars.has(k.char));
+}
+
+export function kanjiPorChar(c: string): Kanji | undefined { return porChar.get(c); }
+
 export const totales = {
   palabras: VOCABULARIO.length,
   gramatica: GRAMATICA.length,
   unidades: UNIDADES.length,
+  kanji: KANJI.length,
 };
 
 /** Vecinas dentro de la misma sección, para el botón «siguiente». */
