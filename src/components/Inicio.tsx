@@ -7,16 +7,13 @@ import { Anillo } from "./Anillo";
 import { ACCESO_ABIERTO } from "@/lib/acceso";
 
 type Resumen = { id: Nivel; palabras: number; gramatica: number; unidades: number; secciones: number };
-type UnidadOrden = { id: string; ja: string; es: string; nivel: string; p: number; k: number; g: number };
 
-export function Inicio({ niveles, totales, orden }: {
+export function Inicio({ niveles, totales }: {
   niveles: Resumen[];
   totales: { palabras: number; gramatica: number; unidades: number };
-  orden: UnidadOrden[];
 }) {
   const [r, setR] = useState<ReturnType<typeof resumen> | null>(null);
   const [pend, setPend] = useState({ vencidas: 0, hoy: 0 });
-  const [siguiente, setSiguiente] = useState<UnidadOrden | null>(null);
   const [avance, setAvance] = useState<Record<string, number>>({});
 
   useEffect(() => {
@@ -24,8 +21,6 @@ export function Inicio({ niveles, totales, orden }: {
       const p = leerProgreso();
       setR(resumen(p));
       setPend(contarPendientes(p));
-      setSiguiente(orden.find((u) => !p.unidades[u.id]?.practicada) ?? null);
-      // avance por nivel = unidades practicadas de ese nivel / total
       const a: Record<string, number> = {};
       for (const n of niveles) {
         const hechas = Object.entries(p.unidades)
@@ -37,7 +32,7 @@ export function Inicio({ niveles, totales, orden }: {
     recalcular();
     window.addEventListener("progreso", recalcular);
     return () => window.removeEventListener("progreso", recalcular);
-  }, [niveles, orden]);
+  }, [niveles]);
 
   return (
     <>
@@ -50,7 +45,7 @@ export function Inicio({ niveles, totales, orden }: {
       </section>
 
       {r && (
-        <section className="tarjeta" style={{ marginBottom: 18, display: "flex", gap: 18, flexWrap: "wrap" }}>
+        <section className="tarjeta" style={{ marginBottom: 14, display: "flex", gap: 18, flexWrap: "wrap" }}>
           {[
             [`${r.xp}`, "XP"],
             [r.racha ? `${r.racha} 🔥` : "0", "días seguidos"],
@@ -65,39 +60,54 @@ export function Inicio({ niveles, totales, orden }: {
         </section>
       )}
 
-      {/* Lo primero al abrir: qué toca hoy y por dónde seguir. Antes esto era
-          un catálogo y había que decidir uno mismo cada vez. */}
-      {siguiente && (
-        <section className="tarjeta" style={{ marginBottom: 14 }}>
-          <div style={{ display: "flex", alignItems: "baseline", gap: 8 }}>
-            <span className="jp etiqueta" style={{ fontSize: 13 }}>今日の学習</span>
-            <span className="tenue">lo de hoy</span>
+      {pend.vencidas > 0 && (
+        <Link href="/repaso" className="fila" style={{ marginBottom: 10, borderColor: "var(--acento)" }}>
+          <div className="anillo" style={{ ["--pct" as string]: 100, ["--tono" as string]: "var(--acento)" }}>
+            <span>{pend.vencidas}</span>
           </div>
-
-          <div style={{ display: "flex", alignItems: "center", gap: 12, margin: "10px 0 14px", flexWrap: "wrap" }}>
-            <span className={`pastilla ${siguiente.nivel.toLowerCase()}`}>{siguiente.nivel}</span>
-            <div style={{ minWidth: 0 }}>
-              <div className="jp" style={{ fontSize: 21, lineHeight: 1.3 }}>{siguiente.ja}</div>
-              <div className="tenue">
-                {siguiente.p} palabras · {siguiente.k} kanji
-                {siguiente.g > 0 && ` · ${siguiente.g} gramática`}
-                {pend.vencidas > 0 && ` · ${pend.vencidas} repasos`}
-              </div>
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <div style={{ fontWeight: 600 }}>Te toca repasar</div>
+            <div className="tenue">
+              {pend.vencidas} {pend.vencidas === 1 ? "palabra vencida" : "palabras vencidas"}
+              {pend.hoy > 0 && ` · ${pend.hoy} más hoy`}
             </div>
           </div>
-
-          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-            <Link className="btn primario" style={{ flex: 1, minWidth: 160 }}
-                  href={`/u/${siguiente.id.split("/")[0]}/${siguiente.id.split("/")[1]}/${siguiente.id.split("/")[2]}`}>
-              {r?.unidades ? "Continuar" : "Empezar"} →
-            </Link>
-            {pend.vencidas > 0 && (
-              <Link className="btn" href="/repaso">Repasar {pend.vencidas}</Link>
-            )}
-          </div>
-        </section>
+          <span className="flecha">›</span>
+        </Link>
       )}
 
+      <Link href="/rapido" className="fila" style={{ marginBottom: 14 }}>
+        <div className="anillo" style={{ ["--pct" as string]: 100, ["--tono" as string]: "var(--verde)" }}>
+          <span style={{ fontSize: 17 }}>⏱</span>
+        </div>
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <div style={{ fontWeight: 600 }}>Cinco minutos</div>
+          <div className="tenue">Repaso corto de lo que tienes más flojo</div>
+        </div>
+        <span className="flecha">›</span>
+      </Link>
+
+      <div className="lista">
+        {niveles.map((n) => (
+          <Link key={n.id} href={`/n/${n.id}`} className="fila">
+            <Anillo pct={avance[n.id] ?? 0} tono={COLOR_NIVEL[n.id]} texto={n.id} />
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <div style={{ fontWeight: 600 }}>{DESC_NIVEL[n.id]}</div>
+              <div className="tenue">
+                {n.palabras.toLocaleString("es")} palabras
+                {n.gramatica ? ` · ${n.gramatica} gramática` : ""} · {n.secciones} secciones
+              </div>
+            </div>
+            <span className="flecha">›</span>
+          </Link>
+        ))}
+      </div>
+
+      {!ACCESO_ABIERTO && (
+        <p className="tenue" style={{ marginTop: 18 }}>
+          La sección 人と体 de cada nivel es libre. Para el resto hará falta una cuenta.
+        </p>
+      )}
     </>
   );
 }

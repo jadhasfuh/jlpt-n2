@@ -309,3 +309,7 @@ em.g.n3 { border-color: color-mix(in srgb, var(--morado) 55%, transparent); }
 }
 .revelado-td:hover:not(:disabled) { background: var(--papel-3); }
 .revelado-td:disabled { cursor: default; }
+
+/* filas de filtros que envuelven en vez de apretarse o deslizar */
+.filtros { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 8px; }
+.filtros > * { flex: 0 0 auto; }

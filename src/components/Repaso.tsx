@@ -106,9 +106,9 @@ export function Repaso() {
         </p>
       </div>
 
-      {/* Una sola fila que se desliza: antes los botones se apretaban unos
-          contra otros y el texto acababa en vertical. */}
-      <div className="tira">
+      {/* Dos filas, sin deslizar: los filtros arriba y los ajustes debajo.
+          Apretados en una sola línea el texto acababa escribiéndose vertical. */}
+      <div className="filtros">
         <button className={`btn chico ${nivel === "todos" ? "encendido" : ""}`}
                 onClick={() => setNivel("todos")}>Todos</button>
         {NIVELES.map((n) => {
@@ -121,7 +121,9 @@ export function Repaso() {
             </button>
           );
         })}
-        <span style={{ width: 1, background: "var(--linea)", flex: "0 0 1px", margin: "0 2px" }} />
+      </div>
+
+      <div className="filtros" style={{ marginBottom: 14 }}>
         <BotonesRapidos compacto />
       </div>
 
