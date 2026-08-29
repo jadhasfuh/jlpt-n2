@@ -59,6 +59,16 @@ partes = [
            leer("lecturas"), "unidad_id"),
     "commit;",
 ]
+# Bloque suelto de lecturas, para poder sincronizar sólo eso.
+lect = leer("lecturas")
+ids = ", ".join("'" + l["unidad_id"].replace("'", "''") + "'" for l in lect) or "''"
+(D / "seed_lecturas.sql").write_text(
+    "begin;\n"
+    + bloque("lecturas", ["unidad_id", "titulo", "cuerpo", "traduccion", "preguntas"],
+             lect, "unidad_id")
+    + f"\ndelete from lecturas where unidad_id not in ({ids});\ncommit;\n",
+    encoding="utf-8")
+
 salida = D / "seed.sql"
 salida.write_text("\n\n".join(partes) + "\n", encoding="utf-8")
 print(f"{salida}  {salida.stat().st_size/1024:.0f} KB")
