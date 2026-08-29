@@ -40,7 +40,7 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente }: {
 
   return (
     <>
-      <main className="envoltorio">
+      <main className="envoltorio con-flotantes">
         <section style={{ padding: "18px 0 12px", display: "flex", alignItems: "flex-end", gap: 12, flexWrap: "wrap" }}>
           <div style={{ minWidth: 0 }}>
             <span className={`pastilla ${unidad.nivel.toLowerCase()}`}>{unidad.nivel}</span>

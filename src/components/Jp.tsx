@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useState } from "react";
 import { useAjustes } from "./Ajustes";
 import { colorearHtml } from "@/lib/colores";
 
@@ -44,18 +45,48 @@ export function JpEnLinea({ html, clase = "" }: { html: string; clase?: string }
   );
 }
 
-/** Lee en voz alta con la voz japonesa del navegador, si la hay. */
-export function BotonVoz({ texto }: { texto: string }) {
-  const hablar = () => {
-    if (typeof window === "undefined" || !window.speechSynthesis) return;
+/**
+ * Lee en voz alta con la voz japonesa del navegador. El mismo botón para y
+ * reanuda: en un texto largo, no poder callarlo era desesperante.
+ */
+export function BotonVoz({ texto, etiqueta }: { texto: string; etiqueta?: string }) {
+  const [estado, setEstado] = useState<"parado" | "hablando" | "pausado">("parado");
+
+  // Si se cambia de pantalla mientras habla, que no siga sonando.
+  useEffect(() => () => { window.speechSynthesis?.cancel(); }, []);
+
+  const alternar = () => {
+    const s = typeof window !== "undefined" ? window.speechSynthesis : null;
+    if (!s) return;
+    if (estado === "hablando") { s.pause(); setEstado("pausado"); return; }
+    if (estado === "pausado") { s.resume(); setEstado("hablando"); return; }
+    s.cancel();
     const u = new SpeechSynthesisUtterance(texto);
     u.lang = "ja-JP";
     u.rate = 0.85;
-    window.speechSynthesis.cancel();
-    window.speechSynthesis.speak(u);
+    u.onend = () => setEstado("parado");
+    u.onerror = () => setEstado("parado");
+    setEstado("hablando");
+    s.speak(u);
   };
+
+  const parar = () => {
+    window.speechSynthesis?.cancel();
+    setEstado("parado");
+  };
+
   return (
-    <button className="btn fantasma" onClick={hablar} title="Escuchar" aria-label="Escuchar">🔊</button>
+    <span style={{ display: "inline-flex", alignItems: "center" }}>
+      <button className="btn fantasma" onClick={alternar}
+              title={estado === "hablando" ? "Pausar" : estado === "pausado" ? "Seguir" : "Escuchar"}
+              aria-label={estado === "hablando" ? "Pausar" : "Escuchar"}>
+        {estado === "hablando" ? "⏸" : estado === "pausado" ? "▶️" : "🔊"}
+        {etiqueta && <span style={{ marginLeft: 6, fontSize: 13 }}>{etiqueta}</span>}
+      </button>
+      {estado !== "parado" && (
+        <button className="btn fantasma" onClick={parar} title="Detener" aria-label="Detener">⏹</button>
+      )}
+    </span>
   );
 }
 

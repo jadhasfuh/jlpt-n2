@@ -249,3 +249,43 @@ em.g.n3 { border-color: color-mix(in srgb, var(--morado) 55%, transparent); }
 
 .ficha-kanji { display: flex; gap: 16px; align-items: flex-start; }
 .ficha-kanji .grande { font-family: var(--jp); font-size: 62px; line-height: 1; }
+
+/* ---------- ventana flotante centrada (ficha de kanji, etc.) ---------- */
+.velo {
+  position: fixed; inset: 0; z-index: 95;
+  background: color-mix(in srgb, var(--tinta) 45%, transparent);
+  backdrop-filter: blur(3px);
+  display: grid; place-items: center; padding: 20px;
+  animation: aparecer .16s ease-out;
+}
+.globo {
+  background: var(--papel-2); border: 1px solid var(--linea);
+  border-radius: 18px; padding: 22px; box-shadow: var(--sombra);
+  width: min(420px, 100%); max-height: 82vh; overflow-y: auto;
+  animation: subir .2s cubic-bezier(.2,.8,.3,1);
+}
+@keyframes aparecer { from { opacity: 0 } to { opacity: 1 } }
+@keyframes subir { from { opacity: 0; transform: translateY(14px) scale(.97) } to { opacity: 1; transform: none } }
+
+.globo-cerrar {
+  position: absolute; top: 10px; right: 12px;
+  font-size: 20px; line-height: 1; color: var(--tinta-3);
+}
+
+/* deja sitio para los botones flotantes: tapaban «Siguiente unidad» */
+.con-flotantes { padding-bottom: calc(var(--barra) + env(safe-area-inset-bottom) + 96px); }
+@media (min-width: 700px) { .con-flotantes { padding-bottom: 120px; } }
+
+/* revelado de la lectura en el test de kanji */
+.revelado { animation: revelar .32s cubic-bezier(.2,.8,.3,1); }
+@keyframes revelar {
+  from { opacity: 0; transform: translateY(10px) scale(.94); filter: blur(4px) }
+  to   { opacity: 1; transform: none; filter: none }
+}
+.cuenta {
+  height: 4px; background: var(--linea); border-radius: 999px; overflow: hidden;
+  width: min(460px, 100%); margin: 0 auto;
+}
+.cuenta > i { display: block; height: 100%; background: var(--acento); }
+.cuenta.corriendo > i { animation: agotar 3s linear forwards; }
+@keyframes agotar { from { width: 100% } to { width: 0 } }

@@ -32,8 +32,8 @@ export default async function Pagina({ params }: { params: Promise<{ nivel: stri
             {gram.length ? ` · ${gram.length} puntos de gramática` : ""}
           </p>
         </section>
-        <ListaUnidades nivel={nivel} unidades={s.unidades} gramatica={gram} kanji={kanji}
-                       titulo={`${s.ja} · ${nivel}`} />
+        <ListaUnidades nivel={nivel} seccion={seccion} unidades={s.unidades}
+                       gramatica={gram} kanji={kanji} />
       </main>
     </>
   );

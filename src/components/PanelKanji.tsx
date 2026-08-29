@@ -4,6 +4,8 @@ import type { Kanji } from "@/lib/tipos";
 import { Leyenda } from "./Jp";
 import { TestKanji } from "./TestKanji";
 import { useAjustes } from "./Ajustes";
+import { Globo } from "./Globo";
+import { BotonVoz } from "./Jp";
 
 export function PanelKanji({ kanji, titulo }: { kanji: Kanji[]; titulo: string }) {
   const [sel, setSel] = useState<Kanji | null>(null);
@@ -26,7 +28,7 @@ export function PanelKanji({ kanji, titulo }: { kanji: Kanji[]; titulo: string }
       </div>
 
       {sel && (
-        <article className="tarjeta" style={{ marginTop: 14 }}>
+        <Globo cerrar={() => setSel(null)}>
           <div className="ficha-kanji">
             <div className={`grande ${colores ? "" : "sin-colores"}`}>
               <span className={`k ${(sel.nivel || sel.curso).toLowerCase()}`}>{sel.char}</span>
@@ -44,9 +46,12 @@ export function PanelKanji({ kanji, titulo }: { kanji: Kanji[]; titulo: string }
                 <span className="jp">音</span> {sel.on.join("・") || "—"}　
                 <span className="jp">訓</span> {sel.kun.join("・") || "—"}
               </p>
+              <div style={{ marginTop: 10 }}>
+                <BotonVoz texto={sel.on[0] || sel.kun[0] || sel.char} etiqueta="escuchar" />
+              </div>
             </div>
           </div>
-        </article>
+        </Globo>
       )}
 
       <button className="btn primario" style={{ width: "100%", marginTop: 14 }}

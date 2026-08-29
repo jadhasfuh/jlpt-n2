@@ -1,7 +1,9 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import type { Kanji } from "@/lib/tipos";
 import { anotar, medalla, registrarTest } from "@/lib/progreso";
+
+const SEGUNDOS = 3;
 
 function mezclar<T>(a: T[]): T[] {
   const c = [...a];
@@ -12,23 +14,60 @@ function mezclar<T>(a: T[]): T[] {
   return c;
 }
 
-/** Test de kanji: alterna «¿qué significa?» y «¿cuál es este significado?». */
+/** 「いと.しい」 -> 「いとしい」; las lecturas kun traen el punto del okurigana. */
+const limpiar = (l: string) => l.replace(/\./g, "").replace(/[-~]/g, "");
+const lecturas = (k: Kanji) => [...k.on, ...k.kun].map(limpiar).filter(Boolean);
+
+/**
+ * Test de kanji en dos mitades:
+ *   1. el significado, sin prisa  -> medio punto
+ *   2. la lectura, con 3 segundos -> el otro medio
+ * Saber qué significa y saber cómo suena son dos cosas distintas, y la segunda
+ * es la que se cae en el examen si no se practica con reloj.
+ */
 export function TestKanji({ kanji, titulo, cerrar }: {
   kanji: Kanji[]; titulo: string; cerrar: () => void;
 }) {
   const preguntas = useMemo(() => {
     const utiles = kanji.filter((k) => (k.es || k.en.join(", ")).trim());
-    return mezclar(utiles).slice(0, 20).map((correcto, i) => ({
+    const conLectura = utiles.filter((k) => lecturas(k).length);
+    return mezclar(utiles).slice(0, 20).map((correcto) => ({
       correcto,
-      alReves: i % 3 === 2,   // una de cada tres al revés
       opciones: mezclar([correcto, ...mezclar(utiles.filter((o) => o.char !== correcto.char)).slice(0, 3)]),
+      hayLectura: lecturas(correcto).length > 0,
+      lecturaBuena: lecturas(correcto)[0] ?? "",
+      opcionesLectura: mezclar([
+        lecturas(correcto)[0] ?? "",
+        ...mezclar(conLectura.filter((o) => o.char !== correcto.char))
+          .slice(0, 3).map((o) => lecturas(o)[0]),
+      ].filter(Boolean)),
     }));
   }, [kanji]);
 
   const [n, setN] = useState(0);
+  const [fase, setFase] = useState<"significado" | "esperando" | "lectura">("significado");
   const [elegido, setElegido] = useState<string | null>(null);
-  const [aciertos, setAciertos] = useState(0);
+  const [puntos, setPuntos] = useState(0);
   const [guardado, setGuardado] = useState(false);
+
+  const q = preguntas[n];
+
+  const siguiente = useCallback(() => {
+    setElegido(null);
+    setFase("significado");
+    setN((v) => v + 1);
+  }, []);
+
+  // La cuenta atrás de la fase de lectura.
+  useEffect(() => {
+    if (fase !== "lectura" || elegido !== null) return;
+    const t = setTimeout(() => {
+      setElegido("__tiempo__");
+      if (q) anotar("gramatica", `kanji-lectura:${q.correcto.char}`, false);
+      setTimeout(siguiente, 1100);
+    }, SEGUNDOS * 1000);
+    return () => clearTimeout(t);
+  }, [fase, elegido, q, siguiente]);
 
   if (!preguntas.length) {
     return (
@@ -40,7 +79,7 @@ export function TestKanji({ kanji, titulo, cerrar }: {
   }
 
   if (n >= preguntas.length) {
-    const pct = Math.round((aciertos / preguntas.length) * 100);
+    const pct = Math.round((puntos / preguntas.length) * 100);
     if (!guardado) { registrarTest(`kanji:${titulo}`, pct); setGuardado(true); }
     return (
       <div className="escena">
@@ -48,22 +87,36 @@ export function TestKanji({ kanji, titulo, cerrar }: {
         <div className="escena-centro">
           <div style={{ fontSize: 52 }}>{medalla(pct) || (pct >= 50 ? "👍" : "💪")}</div>
           <h2 style={{ margin: 0, fontSize: 30 }}>{pct}%</h2>
-          <p className="silencio" style={{ margin: 0 }}>{aciertos} de {preguntas.length} kanji</p>
+          <p className="silencio" style={{ margin: 0 }}>
+            {puntos} de {preguntas.length} puntos · medio por el significado, medio por la lectura
+          </p>
           <button className="btn primario" style={{ marginTop: 14 }} onClick={cerrar}>Volver</button>
         </div>
       </div>
     );
   }
 
-  const q = preguntas[n];
   const sig = (k: Kanji) => k.es || k.en.join(", ");
-  const responder = (op: Kanji) => {
+
+  const responderSignificado = (op: Kanji) => {
     if (elegido !== null) return;
     setElegido(op.char);
     const bien = op.char === q.correcto.char;
-    if (bien) setAciertos((a) => a + 1);
+    if (bien) setPuntos((p) => p + 0.5);
     anotar("gramatica", `kanji:${q.correcto.char}`, bien);
-    setTimeout(() => { setElegido(null); setN((v) => v + 1); }, bien ? 480 : 1200);
+    setTimeout(() => {
+      setElegido(null);
+      if (q.hayLectura) setFase("esperando"); else siguiente();
+    }, bien ? 420 : 1100);
+  };
+
+  const responderLectura = (l: string) => {
+    if (elegido !== null) return;
+    setElegido(l);
+    const bien = l === q.lecturaBuena;
+    if (bien) setPuntos((p) => p + 0.5);
+    anotar("gramatica", `kanji-lectura:${q.correcto.char}`, bien);
+    setTimeout(siguiente, bien ? 420 : 1100);
   };
 
   return (
@@ -73,30 +126,47 @@ export function TestKanji({ kanji, titulo, cerrar }: {
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(n / preguntas.length) * 100}%` }} />
         </div>
-        <span className="tenue">{n + 1}/{preguntas.length}</span>
+        <span className="tenue">{puntos} pt · {n + 1}/{preguntas.length}</span>
       </div>
 
       <div className="escena-centro">
-        {q.alReves ? (
-          <>
-            <span className="etiqueta">¿Qué kanji es?</span>
-            <p style={{ fontSize: 22, margin: 0 }}>{sig(q.correcto)}</p>
-          </>
-        ) : (
-          <>
-            <span className="etiqueta">¿Qué significa?</span>
-            <div className="jp jp-grande" style={{ fontSize: 78 }}>{q.correcto.char}</div>
-          </>
+        <span className="etiqueta">
+          {fase === "significado" ? "¿Qué significa?"
+            : fase === "esperando" ? "Bien. ¿Y cómo se lee?"
+            : `¡${SEGUNDOS} segundos!`}
+        </span>
+        <div className="jp jp-grande" style={{ fontSize: 78 }}>{q.correcto.char}</div>
+        {fase !== "significado" && (
+          <p className="silencio" style={{ margin: 0 }}>{sig(q.correcto)}</p>
+        )}
+        {fase === "lectura" && (
+          <div className={`cuenta ${elegido === null ? "corriendo" : ""}`}><i /></div>
         )}
       </div>
 
       <div className="opciones" style={{ margin: "0 auto" }}>
-        {q.opciones.map((op) => {
-          const correcto = op.char === q.correcto.char;
-          const clase = elegido === null ? "" : correcto ? "bien" : elegido === op.char ? "mal" : "";
+        {fase === "significado" && q.opciones.map((op) => {
+          const bien = op.char === q.correcto.char;
+          const clase = elegido === null ? "" : bien ? "bien" : elegido === op.char ? "mal" : "";
           return (
-            <button key={op.char} className={`opcion ${clase}`} onClick={() => responder(op)}>
-              {q.alReves ? <span className="jp" style={{ fontSize: 30 }}>{op.char}</span> : sig(op)}
+            <button key={op.char} className={`opcion ${clase}`} onClick={() => responderSignificado(op)}>
+              {sig(op)}
+            </button>
+          );
+        })}
+
+        {fase === "esperando" && (
+          <button className="btn primario" style={{ minHeight: 54 }} onClick={() => setFase("lectura")}>
+            Ver las opciones de lectura
+          </button>
+        )}
+
+        {fase === "lectura" && q.opcionesLectura.map((l) => {
+          const bien = l === q.lecturaBuena;
+          const clase = elegido === null ? "" : bien ? "bien" : elegido === l ? "mal" : "";
+          return (
+            <button key={l} className={`opcion revelado ${clase}`} onClick={() => responderLectura(l)}>
+              <span className="jp" style={{ fontSize: 22 }}>{l}</span>
             </button>
           );
         })}

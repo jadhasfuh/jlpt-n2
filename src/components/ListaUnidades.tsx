@@ -3,15 +3,13 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { Gramatica, Kanji, UnidadMeta } from "@/lib/tipos";
 import { leerProgreso, medalla, type Progreso } from "@/lib/progreso";
-import { PanelGramatica } from "./PanelGramatica";
-import { PanelKanji } from "./PanelKanji";
 
-export function ListaUnidades({ nivel, unidades, gramatica, kanji, titulo }: {
-  nivel: string; unidades: UnidadMeta[]; gramatica: Gramatica[];
-  kanji: Kanji[]; titulo: string;
+
+export function ListaUnidades({ nivel, seccion, unidades, gramatica, kanji }: {
+  nivel: string; seccion: string; unidades: UnidadMeta[];
+  gramatica: Gramatica[]; kanji: Kanji[];
 }) {
   const [p, setP] = useState<Progreso | null>(null);
-  const [abierto, setAbierto] = useState<"" | "gramatica" | "kanji">("");
 
   useEffect(() => {
     const f = () => setP(leerProgreso());
@@ -22,20 +20,18 @@ export function ListaUnidades({ nivel, unidades, gramatica, kanji, titulo }: {
 
   return (
     <>
+      {/* Abren su propia pantalla: desplegarlas aquí empujaba la lista de
+          unidades muy abajo y se perdía el sitio donde estabas. */}
       <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>
-        <button className={`btn ${abierto === "kanji" ? "encendido" : ""}`} style={{ flex: 1 }}
-                onClick={() => setAbierto(abierto === "kanji" ? "" : "kanji")}>
-          <span className="jp">漢字</span> {kanji.length}
-        </button>
+        <Link className="btn" style={{ flex: 1 }} href={`/n/${nivel}/${seccion}/kanji`}>
+          <span className="jp">漢字</span> {kanji.length} ›
+        </Link>
         {gramatica.length > 0 && (
-          <button className={`btn ${abierto === "gramatica" ? "encendido" : ""}`} style={{ flex: 1 }}
-                  onClick={() => setAbierto(abierto === "gramatica" ? "" : "gramatica")}>
-            <span className="jp">文法</span> {gramatica.length}
-          </button>
+          <Link className="btn" style={{ flex: 1 }} href={`/n/${nivel}/${seccion}/gramatica`}>
+            <span className="jp">文法</span> {gramatica.length} ›
+          </Link>
         )}
       </div>
-      {abierto === "kanji" && <div style={{ marginBottom: 16 }}><PanelKanji kanji={kanji} titulo={titulo} /></div>}
-      {abierto === "gramatica" && <PanelGramatica items={gramatica} />}
 
       <div className="lista">
         {unidades.map((u) => {
