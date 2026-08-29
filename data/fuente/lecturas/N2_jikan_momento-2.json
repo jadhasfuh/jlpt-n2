@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/jikan/momento-2",
+ "titulo": "<ruby>終点<rt>しゅうてん</rt></ruby>まで",
+ "cuerpo": "<ruby>先程<rt>さきほど</rt></ruby>、<ruby>駅<rt>えき</rt></ruby>で<ruby>友<rt>とも</rt></ruby>だちに<ruby>会<rt>あ</rt></ruby>った。<ruby>元々<rt>もともと</rt></ruby><ruby>別々<rt>べつべつ</rt></ruby>の<ruby>用事<rt>ようじ</rt></ruby>だったが、<em class=\"g\">しかも</em><ruby>行<rt>い</rt></ruby>き<ruby>先<rt>さき</rt></ruby>が<ruby>同<rt>おな</rt></ruby>じだと<ruby>分<rt>わ</rt></ruby>かった。<ruby>早速<rt>さっそく</rt></ruby><ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>り、<ruby>中間<rt>ちゅうかん</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>で<ruby>降<rt>お</rt></ruby>りず<ruby>終点<rt>しゅうてん</rt></ruby>まで<ruby>話<rt>はな</rt></ruby>し<ruby>続<rt>つづ</rt></ruby>けた。<ruby>近々<rt>ちかぢか</rt></ruby>また<ruby>会<rt>あ</rt></ruby>おうと、<ruby>改<rt>あらた</rt></ruby>めて<ruby>約束<rt>やくそく</rt></ruby>した。<ruby>海<rt>うみ</rt></ruby>や<ruby>山<rt>やま</rt></ruby><em class=\"g\">といった</em><ruby>場所<rt>ばしょ</rt></ruby>へ、<ruby>今度<rt>こんど</rt></ruby>は<ruby>一斉<rt>いっせい</rt></ruby>に<ruby>皆<rt>みな</rt></ruby>で<ruby>行<rt>い</rt></ruby>きたい。",
+ "traduccion": "Hace un rato me encontré con un amigo en la estación. En principio íbamos a cosas distintas y, además, resultó que teníamos el mismo destino. Subimos juntos enseguida y, sin bajarnos en la parada intermedia, seguimos hablando hasta el final del trayecto. Quedamos formalmente en vernos pronto otra vez. La próxima quiero que vayamos todos a la vez a sitios como el mar o la montaña.",
+ "preguntas": [
+  {
+   "p": "どこで<ruby>友<rt>とも</rt></ruby>だちに<ruby>会<rt>あ</rt></ruby>いましたか。",
+   "opciones": [
+    "<ruby>駅<rt>えき</rt></ruby>",
+    "<ruby>海<rt>うみ</rt></ruby>",
+    "<ruby>家<rt>いえ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "どこまで<ruby>話<rt>はな</rt></ruby>しましたか。",
+   "opciones": [
+    "<ruby>終点<rt>しゅうてん</rt></ruby>まで",
+    "<ruby>中間<rt>ちゅうかん</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>まで",
+    "<ruby>次<rt>つぎ</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>まで"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>今度<rt>こんど</rt></ruby>どこへ<ruby>行<rt>い</rt></ruby>きたいですか。",
+   "opciones": [
+    "<ruby>海<rt>うみ</rt></ruby>や<ruby>山<rt>やま</rt></ruby>",
+    "<ruby>駅<rt>えき</rt></ruby>",
+    "<ruby>店<rt>みせ</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

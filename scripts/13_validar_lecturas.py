@@ -11,6 +11,7 @@ K = re.compile(r"[一-鿿]")
 ORDEN = ["N5", "N4", "N3", "N2", "N1"]
 
 unidades = json.load(open("data/dist/unidades.json", encoding="utf-8"))
+gram = {g["id"]: g for g in json.load(open("data/dist/gramatica.json", encoding="utf-8"))}
 kanji_cat = {k["char"]: k for k in json.load(open("data/dist/kanji.json", encoding="utf-8"))}
 lecturas = json.load(open("data/dist/lecturas.json", encoding="utf-8"))
 pos = {u["id"]: i for i, u in enumerate(
@@ -18,11 +19,20 @@ pos = {u["id"]: i for i, u in enumerate(
 ordenadas = sorted(unidades, key=lambda u: pos[u["id"]])
 
 def permitidos(unidad_id):
-    """Kanji de esa unidad y de todas las anteriores."""
+    """Kanji de esa unidad y de todas las anteriores, vocabulario Y gramática.
+
+    Los puntos de gramática también llevan kanji (〜に伴って, 〜に基づいて…) y son
+    parte de lo que la unidad enseña: contarlos como «fuera de alcance» era un
+    falso positivo.
+    """
     i = pos[unidad_id]
     vistos = set()
     for u in ordenadas[:i + 1]:
         vistos.update(u["kanji"])
+        for gid in u["gramatica"]:
+            g = gram.get(gid)
+            if g:
+                vistos.update(K.findall(g["forma"]))
     return vistos
 
 def sin_marcado(html):

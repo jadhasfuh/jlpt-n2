@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kotoba/decir-1",
+ "titulo": "<ruby>声<rt>こえ</rt></ruby>をかける",
+ "cuerpo": "<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>人<rt>ひと</rt></ruby>が<ruby>倒<rt>たお</rt></ruby>れ、<ruby>誰<rt>だれ</rt></ruby>かがどなって<ruby>人<rt>ひと</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>び<ruby>出<rt>だ</rt></ruby>した。<ruby>近<rt>ちか</rt></ruby>くの<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>救急車<rt>きゅうきゅうしゃ</rt></ruby>に<ruby>呼<rt>よ</rt></ruby>び<ruby>掛<rt>か</rt></ruby>けた。<ruby>私<rt>わたし</rt></ruby>は<ruby>何<rt>なに</rt></ruby>もでき<em class=\"g\">かねる</em>まま、ただ<ruby>立<rt>た</rt></ruby>っていた。<ruby>隣<rt>となり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>小<rt>ちい</rt></ruby>さな<ruby>声<rt>こえ</rt></ruby>で<ruby>囁<rt>ささや</rt></ruby>き、「あわてても<ruby>助<rt>たす</rt></ruby>かり<em class=\"g\">っこない</em>」と<ruby>言<rt>い</rt></ruby>った。あとで<ruby>先生<rt>せんせい</rt></ruby>が、こういうときの<ruby>動<rt>うご</rt></ruby>き<ruby>方<rt>かた</rt></ruby>を<ruby>例<rt>たと</rt></ruby>えながら<ruby>言<rt>い</rt></ruby>い<ruby>付<rt>つ</rt></ruby>けてくれた。",
+ "traduccion": "Delante de la estación alguien se desplomó y otra persona gritó llamando a la gente. Un empleado de una tienda cercana llamó a la ambulancia. Yo, sin poder hacer nada, me quedé sólo de pie. El de al lado susurró en voz baja: «ponerse nervioso no va a salvar a nadie». Después, el profesor nos explicó con ejemplos cómo hay que actuar en estos casos.",
+ "preguntas": [
+  {
+   "p": "<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>倒<rt>たお</rt></ruby>れた",
+    "<ruby>店<rt>みせ</rt></ruby>が<ruby>開<rt>あ</rt></ruby>いた",
+    "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>った"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "「<ruby>私<rt>わたし</rt></ruby>」はどうしましたか。",
+   "opciones": [
+    "ただ<ruby>立<rt>た</rt></ruby>っていた",
+    "<ruby>走<rt>はし</rt></ruby>った",
+    "<ruby>呼<rt>よ</rt></ruby>んだ"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>隣<rt>となり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "あわてても<ruby>助<rt>たす</rt></ruby>からない",
+    "<ruby>早<rt>はや</rt></ruby>く<ruby>行<rt>い</rt></ruby>け",
+    "<ruby>黙<rt>だま</rt></ruby>れ"
+   ],
+   "correcta": 0
+  }
+ ]
+}

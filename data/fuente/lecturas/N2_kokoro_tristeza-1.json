@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kokoro/tristeza-1",
+ "titulo": "<ruby>折角<rt>せっかく</rt></ruby>の<ruby>旅行<rt>りょこう</rt></ruby>",
+ "cuerpo": "<ruby>折角<rt>せっかく</rt></ruby>の<ruby>旅行<rt>りょこう</rt></ruby>だったのに、<ruby>不運<rt>ふうん</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>いた。<ruby>切符<rt>きっぷ</rt></ruby>を<ruby>破<rt>やぶ</rt></ruby>いてしまい、<ruby>雨<rt>あめ</rt></ruby>で<ruby>予定<rt>よてい</rt></ruby>も<ruby>崩<rt>くず</rt></ruby>れた。<ruby>自分<rt>じぶん</rt></ruby>のそそっかしさを<ruby>悔<rt>く</rt></ruby>やんだが、<ruby>怒<rt>おこ</rt></ruby>っても<ruby>仕方<rt>しかた</rt></ruby>がない。<ruby>宿<rt>やど</rt></ruby>への<ruby>苦情<rt>くじょう</rt></ruby>は<ruby>言<rt>い</rt></ruby>わなかった。<ruby>相手<rt>あいて</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby><em class=\"g\">に<ruby>関<rt>かか</rt></ruby>わる</em>ことだと<ruby>思<rt>おも</rt></ruby>ったからだ。<ruby>友<rt>とも</rt></ruby>だちは<ruby>楽<rt>たの</rt></ruby>しそうで、<ruby>少<rt>すこ</rt></ruby>しだけ<ruby>羨<rt>うらや</rt></ruby>ましかった。",
+ "traduccion": "Con lo que costó organizar el viaje, y encima se encadenó la mala suerte. Rompí el billete y la lluvia desbarató los planes. Me lamenté de lo despistado que soy, pero enfadarse no sirve de nada. No presenté queja al alojamiento: pensé que era algo que afectaba al trabajo de esa gente. Mis amigos parecían pasarlo bien y les tuve un poquito de envidia.",
+ "preguntas": [
+  {
+   "p": "<ruby>切符<rt>きっぷ</rt></ruby>をどうしましたか。",
+   "opciones": [
+    "<ruby>破<rt>やぶ</rt></ruby>いてしまった",
+    "<ruby>落<rt>お</rt></ruby>とした",
+    "<ruby>忘<rt>わす</rt></ruby>れた"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>宿<rt>やど</rt></ruby>に<ruby>苦情<rt>くじょう</rt></ruby>を<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "いいえ",
+    "はい",
+    "<ruby>手紙<rt>てがみ</rt></ruby>で<ruby>言<rt>い</rt></ruby>った"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>友<rt>とも</rt></ruby>だちを<ruby>見<rt>み</rt></ruby>てどう<ruby>思<rt>おも</rt></ruby>いましたか。",
+   "opciones": [
+    "<ruby>羨<rt>うらや</rt></ruby>ましかった",
+    "<ruby>憎<rt>にく</rt></ruby>らしかった",
+    "みじめだった"
+   ],
+   "correcta": 0
+  }
+ ]
+}

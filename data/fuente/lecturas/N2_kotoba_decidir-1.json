@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kotoba/decidir-1",
+ "titulo": "<ruby>来年<rt>らいねん</rt></ruby>のテーマ",
+ "cuerpo": "<ruby>来年<rt>らいねん</rt></ruby>のプログラムのテーマを<ruby>決<rt>き</rt></ruby>める<ruby>会<rt>かい</rt></ruby>があった。<ruby>去年<rt>きょねん</rt></ruby>の<ruby>狙<rt>ねら</rt></ruby>いがぼやけていたので、<ruby>今回<rt>こんかい</rt></ruby>は<ruby>目安<rt>めやす</rt></ruby>をはっきりさせた。<ruby>物差<rt>ものさ</rt></ruby>しがなければ、<ruby>良<rt>よ</rt></ruby>し<ruby>悪<rt>あ</rt></ruby>しも<ruby>言<rt>い</rt></ruby>えない。<ruby>対策<rt>たいさく</rt></ruby>を<ruby>三<rt>みっ</rt></ruby>つ<ruby>用意<rt>ようい</rt></ruby>し、<ruby>予備<rt>よび</rt></ruby>の<ruby>案<rt>あん</rt></ruby>も<ruby>残<rt>のこ</rt></ruby>した。<ruby>皆<rt>みな</rt></ruby>が<ruby>賛成<rt>さんせい</rt></ruby>したのは、<ruby>準備<rt>じゅんび</rt></ruby>に<ruby>時間<rt>じかん</rt></ruby>をかけた<ruby>以上<rt>いじょう</rt></ruby><em class=\"g\">て<ruby>当然<rt>とうぜん</rt></ruby>だ</em>という<ruby>気<rt>き</rt></ruby>もする。",
+ "traduccion": "Hubo una reunión para decidir el tema del programa del año que viene. Como el objetivo del año pasado quedó borroso, esta vez dejamos claro el criterio. Sin una vara de medir no se puede decir si algo está bien o mal. Preparamos tres planes de acción y dejamos también una propuesta de reserva. Que todos estuvieran de acuerdo, habiendo dedicado tanto tiempo a prepararlo, hasta me parece lo normal.",
+ "preguntas": [
+  {
+   "p": "<ruby>去年<rt>きょねん</rt></ruby>は<ruby>何<rt>なに</rt></ruby>がよくなかったですか。",
+   "opciones": [
+    "<ruby>狙<rt>ねら</rt></ruby>いがぼやけていた",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない",
+    "<ruby>時間<rt>じかん</rt></ruby>がない"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>対策<rt>たいさく</rt></ruby>をいくつ<ruby>用意<rt>ようい</rt></ruby>しましたか。",
+   "opciones": [
+    "<ruby>三<rt>みっ</rt></ruby>つ",
+    "<ruby>一<rt>ひと</rt></ruby>つ",
+    "<ruby>五<rt>いつ</rt></ruby>つ"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>予備<rt>よび</rt></ruby>の<ruby>案<rt>あん</rt></ruby>はどうしましたか。",
+   "opciones": [
+    "<ruby>残<rt>のこ</rt></ruby>した",
+    "<ruby>捨<rt>す</rt></ruby>てた",
+    "<ruby>使<rt>つか</rt></ruby>った"
+   ],
+   "correcta": 0
+  }
+ ]
+}

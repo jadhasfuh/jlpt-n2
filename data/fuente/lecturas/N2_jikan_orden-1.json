@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/jikan/orden-1",
+ "titulo": "<ruby>手続<rt>てつづ</rt></ruby>きの<ruby>順序<rt>じゅんじょ</rt></ruby>",
+ "cuerpo": "<ruby>上級<rt>じょうきゅう</rt></ruby>のクラスに<ruby>入<rt>はい</rt></ruby>るには、<ruby>手続<rt>てつづ</rt></ruby>きの<ruby>順序<rt>じゅんじょ</rt></ruby>がある。<ruby>初<rt>はじ</rt></ruby>めに<ruby>紙<rt>かみ</rt></ruby>を<ruby>出<rt>だ</rt></ruby>し、<ruby>明<rt>あ</rt></ruby>くる<ruby>日<rt>ひ</rt></ruby>に<ruby>試験<rt>しけん</rt></ruby>を<ruby>受<rt>う</rt></ruby>ける。<em class=\"g\">どうやら</em><ruby>段階<rt>だんかい</rt></ruby>は<ruby>三<rt>みっ</rt></ruby>つあるらしい。<ruby>小学生<rt>しょうがくせい</rt></ruby>のころから<ruby>同<rt>おな</rt></ruby>じ<ruby>学級<rt>がっきゅう</rt></ruby>だった<ruby>友<rt>とも</rt></ruby>だちも<ruby>登場<rt>とうじょう</rt></ruby>し、<ruby>二人<rt>ふたり</rt></ruby>とも<ruby>同格<rt>どうかく</rt></ruby>で<ruby>受<rt>う</rt></ruby>けることになった。<ruby>高等<rt>こうとう</rt></ruby>な<ruby>内容<rt>ないよう</rt></ruby>だが、シリーズで<ruby>学<rt>まな</rt></ruby>べば<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>だろう。",
+ "traduccion": "Para entrar en la clase avanzada hay un orden de trámites. Primero se entrega un papel y al día siguiente se hace el examen. Por lo visto hay tres niveles. También apareció un amigo que había estado en mi misma clase desde primaria, y acabamos presentándonos los dos en igualdad de condiciones. El contenido es de nivel alto, pero si se estudia por series saldrá bien.",
+ "preguntas": [
+  {
+   "p": "<ruby>初<rt>はじ</rt></ruby>めに<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "<ruby>紙<rt>かみ</rt></ruby>を<ruby>出<rt>だ</rt></ruby>す",
+    "<ruby>試験<rt>しけん</rt></ruby>を<ruby>受<rt>う</rt></ruby>ける",
+    "<ruby>待<rt>ま</rt></ruby>つ"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>段階<rt>だんかい</rt></ruby>はいくつありますか。",
+   "opciones": [
+    "<ruby>三<rt>みっ</rt></ruby>つ",
+    "<ruby>二<rt>ふた</rt></ruby>つ",
+    "<ruby>四<rt>よっ</rt></ruby>つ"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>友<rt>とも</rt></ruby>だちとはいつから<ruby>同<rt>おな</rt></ruby>じ<ruby>学級<rt>がっきゅう</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>小学生<rt>しょうがくせい</rt></ruby>のころ",
+    "<ruby>去年<rt>きょねん</rt></ruby>",
+    "<ruby>今年<rt>ことし</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

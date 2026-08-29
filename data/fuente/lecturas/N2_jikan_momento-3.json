@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/jikan/momento-3",
+ "titulo": "<ruby>打合<rt>うちあわ</rt></ruby>せの<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "<ruby>駅<rt>えき</rt></ruby>の<ruby>突<rt>つ</rt></ruby>き<ruby>当<rt>あ</rt></ruby>たりで<ruby>待<rt>ま</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせることにした。<ruby>電話<rt>でんわ</rt></ruby>が<ruby>話中<rt>はなしちゅう</rt></ruby>で、<ruby>間<rt>ま</rt></ruby>も<ruby>無<rt>な</rt></ruby>く<ruby>時間<rt>じかん</rt></ruby>になってしまう。<ruby>御無沙汰<rt>ごぶさた</rt></ruby>していた<ruby>相手<rt>あいて</rt></ruby>なので、<ruby>直後<rt>ちょくご</rt></ruby>に<ruby>謝<rt>あやま</rt></ruby>った。<ruby>一方<rt>いっぽう</rt></ruby>で<ruby>資料<rt>しりょう</rt></ruby>を<ruby>並行<rt>へいこう</rt></ruby>して<ruby>読<rt>よ</rt></ruby>み、<em class=\"g\"><ruby>一方<rt>いっぽう</rt></ruby>で</em><ruby>話<rt>はなし</rt></ruby>も<ruby>進<rt>すす</rt></ruby>めた。<ruby>内容<rt>ないよう</rt></ruby>を<ruby>区切<rt>くぎ</rt></ruby>って<ruby>話<rt>はな</rt></ruby>したので、<ruby>目下<rt>もっか</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>は<ruby>一段<rt>いちだん</rt></ruby>と<ruby>分<rt>わ</rt></ruby>かりやすくなった。",
+ "traduccion": "Quedamos al fondo del pasillo de la estación. El teléfono estaba comunicando y en nada se nos echaba la hora encima. Como hacía mucho que no hablaba con esa persona, me disculpé nada más verla. Por un lado leía los documentos en paralelo y, por otro, iba avanzando la conversación. Como hablamos por partes, el problema que tenemos ahora quedó bastante más claro.",
+ "preguntas": [
+  {
+   "p": "どこで<ruby>待<rt>ま</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせましたか。",
+   "opciones": [
+    "<ruby>駅<rt>えき</rt></ruby>の<ruby>突<rt>つ</rt></ruby>き<ruby>当<rt>あ</rt></ruby>たり",
+    "<ruby>店<rt>みせ</rt></ruby>",
+    "<ruby>会社<rt>かいしゃ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>電話<rt>でんわ</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>話中<rt>はなしちゅう</rt></ruby>だった",
+    "つながった",
+    "かけなかった"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "どうして<ruby>分<rt>わ</rt></ruby>かりやすくなりましたか。",
+   "opciones": [
+    "<ruby>内容<rt>ないよう</rt></ruby>を<ruby>区切<rt>くぎ</rt></ruby>ったから",
+    "<ruby>短<rt>みじか</rt></ruby>かったから",
+    "<ruby>資料<rt>しりょう</rt></ruby>がないから"
+   ],
+   "correcta": 0
+  }
+ ]
+}

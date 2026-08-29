@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kokoro/alegria-1",
+ "titulo": "<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>恩恵<rt>おんけい</rt></ruby>",
+ "cuerpo": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>近所<rt>きんじょ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>どもをとてもかわいがる。はじめましてと<ruby>言<rt>い</rt></ruby>う<ruby>子<rt>こ</rt></ruby>にも、すぐ<ruby>名前<rt>なまえ</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えて<ruby>話<rt>はな</rt></ruby>しかける。<ruby>私<rt>わたし</rt></ruby>が<ruby>落<rt>お</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>んだときも、<ruby>黙<rt>だま</rt></ruby>って<ruby>慰<rt>なぐさ</rt></ruby>めてくれた。その<ruby>恩恵<rt>おんけい</rt></ruby>を、<ruby>私<rt>わたし</rt></ruby>は<ruby>今<rt>いま</rt></ruby>も<ruby>受<rt>う</rt></ruby>け<em class=\"g\"><ruby>続<rt>つづ</rt></ruby>けている</em>。<ruby>人<rt>ひと</rt></ruby>を<ruby>敬<rt>うやま</rt></ruby>う<ruby>気持<rt>きも</rt></ruby>ちは、<ruby>祖母<rt>そぼ</rt></ruby>を<ruby>見<rt>み</rt></ruby>て<ruby>育<rt>そだ</rt></ruby>ち<em class=\"g\">つつある</em>と<ruby>思<rt>おも</rt></ruby>う。",
+ "traduccion": "Mi abuela quiere mucho a los niños del barrio. Incluso a los que le dicen «encantado» por primera vez, se aprende su nombre enseguida y les da conversación. Cuando yo estaba hundido también me consoló sin decir nada. Sigo recibiendo ese favor hoy en día. Creo que las ganas de respetar a la gente me van creciendo poco a poco de tanto verla a ella.",
+ "preguntas": [
+  {
+   "p": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>近所<rt>きんじょ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>どもをどうしますか。",
+   "opciones": [
+    "かわいがる",
+    "<ruby>叱<rt>しか</rt></ruby>る",
+    "<ruby>無視<rt>むし</rt></ruby>する"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>私<rt>わたし</rt></ruby>が<ruby>落<rt>お</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>んだとき、どうしてくれましたか。",
+   "opciones": [
+    "<ruby>慰<rt>なぐさ</rt></ruby>めてくれた",
+    "<ruby>怒<rt>おこ</rt></ruby>った",
+    "<ruby>笑<rt>わら</rt></ruby>った"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>私<rt>わたし</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>祖母<rt>そぼ</rt></ruby>から<ruby>学<rt>まな</rt></ruby>んでいますか。",
+   "opciones": [
+    "<ruby>人<rt>ひと</rt></ruby>を<ruby>敬<rt>うやま</rt></ruby>う<ruby>気持<rt>きも</rt></ruby>ち",
+    "<ruby>料理<rt>りょうり</rt></ruby>",
+    "<ruby>言葉<rt>ことば</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

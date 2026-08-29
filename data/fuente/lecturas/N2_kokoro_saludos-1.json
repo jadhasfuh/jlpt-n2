@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kokoro/saludos-1",
+ "titulo": "となりの<ruby>家<rt>いえ</rt></ruby>",
+ "cuerpo": "「ごめんください」と<ruby>声<rt>こえ</rt></ruby>をかけて、となりの<ruby>家<rt>いえ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>った。「おじゃまします」と<ruby>言<rt>い</rt></ruby>うと、「おかまいなく」と<ruby>返<rt>かえ</rt></ruby>ってきた。<ruby>体<rt>からだ</rt></ruby>を<ruby>悪<rt>わる</rt></ruby>くしていると<ruby>聞<rt>き</rt></ruby>いたので、「おだいじに」と<ruby>伝<rt>つた</rt></ruby>えた。<ruby>雨<rt>あめ</rt></ruby>で<ruby>約束<rt>やくそく</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れたのは、やむをえないことだった。<ruby>帰<rt>かえ</rt></ruby>るとき、<ruby>奥<rt>おく</rt></ruby>さんが<ruby>外<rt>そと</rt></ruby>まで<ruby>出<rt>で</rt></ruby>てきて「いってらっしゃい」と<ruby>手<rt>て</rt></ruby>を<ruby>振<rt>ふ</rt></ruby>ってくれた。<ruby>人<rt>ひと</rt></ruby>の<ruby>気持<rt>きも</rt></ruby>ちは、<ruby>生活<rt>せいかつ</rt></ruby><em class=\"g\">に<ruby>伴<rt>ともな</rt></ruby>って</em><ruby>伝<rt>つた</rt></ruby>わるものだと<ruby>思<rt>おも</rt></ruby>った。",
+ "traduccion": "Dije «¿se puede?» y entré en la casa de al lado. Cuando dije «perdón por molestar», me respondieron «no se moleste». Como había oído que estaba delicado de salud, le dije «que se mejore». Que la cita se retrasara por la lluvia no tenía remedio. Al irme, la señora salió hasta la puerta y me despidió con la mano diciendo «que le vaya bien». Pensé que los sentimientos de la gente se transmiten junto con la vida diaria.",
+ "preguntas": [
+  {
+   "p": "<ruby>家<rt>いえ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>るとき<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "ごめんください",
+    "さようなら",
+    "バイバイ"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>体<rt>からだ</rt></ruby>のことで<ruby>何<rt>なん</rt></ruby>と<ruby>伝<rt>つた</rt></ruby>えましたか。",
+   "opciones": [
+    "おだいじに",
+    "おめでとう",
+    "すみません"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>奥<rt>おく</rt></ruby>さんは<ruby>帰<rt>かえ</rt></ruby>るとき<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "いってらっしゃい",
+    "おかまいなく",
+    "しつれいしました"
+   ],
+   "correcta": 0
+  }
+ ]
+}

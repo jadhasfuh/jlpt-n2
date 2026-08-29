@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kokoro/actitud-1",
+ "titulo": "<ruby>謙虚<rt>けんきょ</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>店長<rt>てんちょう</rt></ruby>の<ruby>下<rt>もと</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>きはじめた。<ruby>客<rt>きゃく</rt></ruby>への<ruby>応対<rt>おうたい</rt></ruby>は<ruby>丁寧<rt>ていねい</rt></ruby>で、<ruby>姿勢<rt>しせい</rt></ruby>もいい。<ruby>前<rt>まえ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>言葉<rt>ことば</rt></ruby>が<ruby>荒<rt>あら</rt></ruby>く、そそっかしくて、よく<ruby>人<rt>ひと</rt></ruby>をおどかした。<ruby>休<rt>やす</rt></ruby>み<em class=\"g\">をめぐって</em><ruby>皆<rt>みな</rt></ruby>が<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>い</rt></ruby>ったこともある。<ruby>今<rt>いま</rt></ruby>は<ruby>皆<rt>みな</rt></ruby>が<ruby>素直<rt>すなお</rt></ruby>で<ruby>平気<rt>へいき</rt></ruby>な<ruby>顔<rt>かお</rt></ruby>をしている。<ruby>店長<rt>てんちょう</rt></ruby>は<ruby>悠々<rt>ゆうゆう</rt></ruby>と<ruby>笑<rt>わら</rt></ruby>って、エチケットは<ruby>教<rt>おし</rt></ruby>えるものではないと<ruby>言<rt>い</rt></ruby>った。",
+ "traduccion": "Empecé a trabajar bajo el nuevo encargado. Atiende a los clientes con cortesía y tiene buena postura. El anterior hablaba con brusquedad, era descuidado y asustaba a la gente a menudo. Hubo incluso quejas de todos en torno a los descansos. Ahora todos están dóciles y con cara tranquila. El encargado se ríe con calma y dice que la etiqueta no es algo que se enseñe.",
+ "preguntas": [
+  {
+   "p": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>店長<rt>てんちょう</rt></ruby>の<ruby>応対<rt>おうたい</rt></ruby>はどうですか。",
+   "opciones": [
+    "<ruby>丁寧<rt>ていねい</rt></ruby>",
+    "<ruby>荒<rt>あら</rt></ruby>い",
+    "<ruby>乱暴<rt>らんぼう</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>前<rt>まえ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "そそっかしかった",
+    "<ruby>謙虚<rt>けんきょ</rt></ruby>だった",
+    "<ruby>素直<rt>すなお</rt></ruby>だった"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>店長<rt>てんちょう</rt></ruby>はエチケットについて<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "<ruby>教<rt>おし</rt></ruby>えるものではない",
+    "<ruby>大切<rt>たいせつ</rt></ruby>だ",
+    "いらない"
+   ],
+   "correcta": 0
+  }
+ ]
+}

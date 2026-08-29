@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/kotoba/opinion-1",
+ "titulo": "<ruby>工事<rt>こうじ</rt></ruby>の<ruby>評論<rt>ひょうろん</rt></ruby>",
+ "cuerpo": "<ruby>町<rt>まち</rt></ruby>の<ruby>工事<rt>こうじ</rt></ruby>について、<ruby>新聞<rt>しんぶん</rt></ruby>に<ruby>評論<rt>ひょうろん</rt></ruby>が<ruby>出<rt>で</rt></ruby>た。<ruby>古<rt>ふる</rt></ruby>いコンセントのままでは<ruby>火事<rt>かじ</rt></ruby>の<em class=\"g\"><ruby>恐<rt>おそ</rt></ruby>れがある</em>という<ruby>内容<rt>ないよう</rt></ruby>だ。<ruby>去年<rt>きょねん</rt></ruby>、<ruby>作業<rt>さぎょう</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>怪我<rt>けが</rt></ruby>をしたこともある。まだ<ruby>断定<rt>だんてい</rt></ruby>はできないが、<ruby>会議<rt>かいぎ</rt></ruby>で<ruby>意見<rt>いけん</rt></ruby>を<ruby>言<rt>い</rt></ruby>うつもりだ。<ruby>急<rt>いそ</rt></ruby>ぐより、<ruby>皆<rt>みな</rt></ruby>が<ruby>納得<rt>なっとく</rt></ruby>するほうが<ruby>大事<rt>だいじ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>う。",
+ "traduccion": "Salió en el periódico una columna sobre las obras del pueblo. Dice que, si se dejan los enchufes viejos como están, hay riesgo de incendio. El año pasado además se lesionó un operario. Todavía no se puede afirmar nada, pero pienso dar mi opinión en la reunión. Creo que importa más que todos queden convencidos que ir deprisa.",
+ "preguntas": [
+  {
+   "p": "<ruby>新聞<rt>しんぶん</rt></ruby>に<ruby>何<rt>なに</rt></ruby>が<ruby>出<rt>で</rt></ruby>ましたか。",
+   "opciones": [
+    "<ruby>工事<rt>こうじ</rt></ruby>の<ruby>評論<rt>ひょうろん</rt></ruby>",
+    "<ruby>写真<rt>しゃしん</rt></ruby>",
+    "<ruby>広告<rt>こうこく</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>の<ruby>恐<rt>おそ</rt></ruby>れがありますか。",
+   "opciones": [
+    "<ruby>火事<rt>かじ</rt></ruby>",
+    "<ruby>雨<rt>あめ</rt></ruby>",
+    "<ruby>怪我<rt>けが</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "「<ruby>私<rt>わたし</rt></ruby>」は<ruby>何<rt>なに</rt></ruby>が<ruby>大事<rt>だいじ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>いますか。",
+   "opciones": [
+    "<ruby>皆<rt>みな</rt></ruby>が<ruby>納得<rt>なっとく</rt></ruby>すること",
+    "<ruby>急<rt>いそ</rt></ruby>ぐこと",
+    "<ruby>断定<rt>だんてい</rt></ruby>すること"
+   ],
+   "correcta": 0
+  }
+ ]
+}
