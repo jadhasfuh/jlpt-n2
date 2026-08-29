@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/dousa/percepcion-1",
+ "titulo": "<ruby>夜<rt>よる</rt></ruby>の<ruby>響<rt>ひび</rt></ruby>き",
+ "cuerpo": "<ruby>窓<rt>まど</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けると、どこからか<ruby>花<rt>はな</rt></ruby>の<ruby>匂<rt>にお</rt></ruby>いがした。<ruby>遠<rt>とお</rt></ruby>くの<ruby>工事<rt>こうじ</rt></ruby>の<ruby>雑音<rt>ざつおん</rt></ruby>が<ruby>響<rt>ひび</rt></ruby>いてくる。<ruby>弟<rt>おとうと</rt></ruby>はぶつぶつ<ruby>言<rt>い</rt></ruby>いながら<ruby>宿題<rt>しゅくだい</rt></ruby>をしていた。「<ruby>明日<rt>あした</rt></ruby>やる」と<ruby>言<rt>い</rt></ruby>うので、「<ruby>今<rt>いま</rt></ruby>やれば<ruby>朝<rt>あさ</rt></ruby><ruby>急<rt>いそ</rt></ruby>が<em class=\"g\">なくて<ruby>済<rt>す</rt></ruby>む</em>」と<ruby>教<rt>おし</rt></ruby>えた。<ruby>親<rt>おや</rt></ruby>として、こういうことは<ruby>言<rt>い</rt></ruby>わ<em class=\"g\">ねばならない</em>と<ruby>感<rt>かん</rt></ruby>じた。",
+ "traduccion": "Al abrir la ventana me llegó de algún sitio olor a flores. Resonaba el ruido de unas obras lejanas. Mi hermano hacía los deberes refunfuñando. Como dijo «mañana lo hago», le expliqué que si lo hacía ahora se ahorraría las prisas de la mañana. Como padre, sentí que estas cosas hay que decirlas.",
+ "preguntas": [
+  {
+   "p": "<ruby>窓<rt>まど</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けると<ruby>何<rt>なに</rt></ruby>がしましたか。",
+   "opciones": [
+    "<ruby>花<rt>はな</rt></ruby>の<ruby>匂<rt>にお</rt></ruby>い",
+    "<ruby>雨<rt>あめ</rt></ruby>の<ruby>音<rt>おと</rt></ruby>",
+    "<ruby>声<rt>こえ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>弟<rt>おとうと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていましたか。",
+   "opciones": [
+    "<ruby>寝<rt>ね</rt></ruby>ていた",
+    "<ruby>宿題<rt>しゅくだい</rt></ruby>",
+    "<ruby>食事<rt>しょくじ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>今<rt>いま</rt></ruby>やると、どうなりますか。",
+   "opciones": [
+    "<ruby>朝<rt>あさ</rt></ruby><ruby>急<rt>いそ</rt></ruby>がなくて<ruby>済<rt>す</rt></ruby>む",
+    "<ruby>疲<rt>つか</rt></ruby>れる",
+    "<ruby>叱<rt>しか</rt></ruby>られる"
+   ],
+   "correcta": 0
+  }
+ ]
+}

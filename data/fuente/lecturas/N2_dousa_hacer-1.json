@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/dousa/hacer-1",
+ "titulo": "<ruby>古<rt>ふる</rt></ruby>い<ruby>家<rt>いえ</rt></ruby>の<ruby>手入<rt>てい</rt></ruby>れ",
+ "cuerpo": "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>は<ruby>構造<rt>こうぞう</rt></ruby>こそ<ruby>古<rt>ふる</rt></ruby>いが、まだしっかりしている。<ruby>庭<rt>にわ</rt></ruby>の<ruby>木<rt>き</rt></ruby>が<ruby>茂<rt>しげ</rt></ruby>っていたので、<ruby>枝<rt>えだ</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>した<ruby>道具<rt>どうぐ</rt></ruby>で<ruby>切<rt>き</rt></ruby>った。<ruby>雨戸<rt>あまど</rt></ruby>の<ruby>修繕<rt>しゅうぜん</rt></ruby>は<ruby>大工<rt>だいく</rt></ruby>さんに<ruby>頼<rt>たの</rt></ruby>んだ。<ruby>大工<rt>だいく</rt></ruby>さん<em class=\"g\">にすれば</em><ruby>簡単<rt>かんたん</rt></ruby>な<ruby>仕事<rt>しごと</rt></ruby>らしく、<ruby>半日<rt>はんにち</rt></ruby>で<ruby>終<rt>お</rt></ruby>わった。<ruby>帰<rt>かえ</rt></ruby>ろうとする<ruby>私<rt>わたし</rt></ruby>を<ruby>祖父<rt>そふ</rt></ruby>が<ruby>引<rt>ひ</rt></ruby>き<ruby>止<rt>と</rt></ruby>め、ぶつだんを<ruby>拝<rt>おが</rt></ruby>んでから<ruby>帰<rt>かえ</rt></ruby>れと<ruby>言<rt>い</rt></ruby>った。",
+ "traduccion": "La casa de mi abuelo es antigua en su estructura, pero aún aguanta bien. Los árboles del jardín estaban muy frondosos, así que corté las ramas con una herramienta que saqué. La reparación de los postigos se la encargamos al carpintero. Para él debía de ser un trabajo sencillo: acabó en medio día. Cuando iba a marcharme, mi abuelo me retuvo y me dijo que rezara ante el altar antes de irme.",
+ "preguntas": [
+  {
+   "p": "<ruby>庭<rt>にわ</rt></ruby>の<ruby>木<rt>き</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>枯<rt>か</rt></ruby>れていた",
+    "<ruby>茂<rt>しげ</rt></ruby>っていた",
+    "<ruby>小<rt>ちい</rt></ruby>さかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>雨戸<rt>あまど</rt></ruby>の<ruby>修繕<rt>しゅうぜん</rt></ruby>はだれがしましたか。",
+   "opciones": [
+    "<ruby>祖父<rt>そふ</rt></ruby>",
+    "<ruby>大工<rt>だいく</rt></ruby>さん",
+    "<ruby>私<rt>わたし</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>祖父<rt>そふ</rt></ruby>は<ruby>帰<rt>かえ</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をしろと<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "<ruby>拝<rt>おが</rt></ruby>むこと",
+    "<ruby>掃除<rt>そうじ</rt></ruby>すること",
+    "<ruby>食<rt>た</rt></ruby>べること"
+   ],
+   "correcta": 0
+  }
+ ]
+}

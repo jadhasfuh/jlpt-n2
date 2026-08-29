@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/dousa/romper-1",
+ "titulo": "<ruby>氷<rt>こおり</rt></ruby>を<ruby>砕<rt>くだ</rt></ruby>く",
+ "cuerpo": "<ruby>夏<rt>なつ</rt></ruby>の<ruby>祭<rt>まつ</rt></ruby>りで、<ruby>氷<rt>こおり</rt></ruby>を<ruby>砕<rt>くだ</rt></ruby>く<ruby>係<rt>かかり</rt></ruby>になった。<ruby>大<rt>おお</rt></ruby>きな<ruby>氷<rt>こおり</rt></ruby>は<ruby>固<rt>かた</rt></ruby>くて、<ruby>叩<rt>たた</rt></ruby>いてもなかなか<ruby>砕<rt>くだ</rt></ruby>けない。<ruby>日<rt>ひ</rt></ruby>が<ruby>当<rt>あ</rt></ruby>たると<ruby>表面<rt>ひょうめん</rt></ruby>から<ruby>溶<rt>と</rt></ruby>けはじめた。<ruby>予定<rt>よてい</rt></ruby><em class=\"g\">の<ruby>上<rt>うえ</rt></ruby>では</em><ruby>二時<rt>にじ</rt></ruby>に<ruby>始<rt>はじ</rt></ruby>まるはずだったが、<ruby>人<rt>ひと</rt></ruby>が<ruby>集<rt>あつ</rt></ruby>まらない<ruby>様子<rt>ようす</rt></ruby><em class=\"g\">ところを<ruby>見<rt>み</rt></ruby>ると</em>、<ruby>雨<rt>あめ</rt></ruby>のせいで<ruby>取<rt>と</rt></ruby>り<ruby>消<rt>け</rt></ruby>しになったのかもしれない。",
+ "traduccion": "En la fiesta de verano me tocó ser el encargado de picar el hielo. El bloque grande era duro y por más que golpeaba no se rompía. Cuando le dio el sol empezó a derretirse por la superficie. Sobre el papel tenía que empezar a las dos, pero a juzgar por que no se juntaba nadie, quizá lo hayan cancelado por la lluvia.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>の<ruby>係<rt>かかり</rt></ruby>になりましたか。",
+   "opciones": [
+    "<ruby>氷<rt>こおり</rt></ruby>を<ruby>砕<rt>くだ</rt></ruby>く<ruby>係<rt>かかり</rt></ruby>",
+    "<ruby>受付<rt>うけつけ</rt></ruby>",
+    "<ruby>料理<rt>りょうり</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>日<rt>ひ</rt></ruby>が<ruby>当<rt>あ</rt></ruby>たると<ruby>氷<rt>こおり</rt></ruby>はどうなりましたか。",
+   "opciones": [
+    "<ruby>固<rt>かた</rt></ruby>くなった",
+    "<ruby>溶<rt>と</rt></ruby>けはじめた",
+    "<ruby>割<rt>わ</rt></ruby>れた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>祭<rt>まつ</rt></ruby>りはどうなったと<ruby>考<rt>かんが</rt></ruby>えていますか。",
+   "opciones": [
+    "<ruby>始<rt>はじ</rt></ruby>まった",
+    "<ruby>取<rt>と</rt></ruby>り<ruby>消<rt>け</rt></ruby>しになった",
+    "<ruby>遅<rt>おく</rt></ruby>れている"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/gakkou/escuela-1",
+ "titulo": "<ruby>大学院<rt>だいがくいん</rt></ruby>の<ruby>相談<rt>そうだん</rt></ruby>",
+ "cuerpo": "<ruby>高校<rt>こうこう</rt></ruby>の<ruby>教師<rt>きょうし</rt></ruby>に<ruby>大学院<rt>だいがくいん</rt></ruby>のことを<ruby>相談<rt>そうだん</rt></ruby>した。<ruby>学力<rt>がくりょく</rt></ruby><em class=\"g\">はともかく</em>、<ruby>学部<rt>がくぶ</rt></ruby>で<ruby>何<rt>なに</rt></ruby>を<ruby>学<rt>まな</rt></ruby>んだかが<ruby>大事<rt>だいじ</rt></ruby>だと<ruby>言<rt>い</rt></ruby>われた。<ruby>校庭<rt>こうてい</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>きながら、<ruby>講師<rt>こうし</rt></ruby>や<ruby>助教授<rt>じょきょうじゅ</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>も<ruby>聞<rt>き</rt></ruby>いた。ゼミやサークルで<ruby>生<rt>い</rt></ruby>き<ruby>生<rt>い</rt></ruby>きしている<ruby>人<rt>ひと</rt></ruby>が<ruby>強<rt>つよ</rt></ruby>いらしい。<ruby>落第<rt>らくだい</rt></ruby>しないように、<ruby>在学<rt>ざいがく</rt></ruby>のうちに<ruby>学術<rt>がくじゅつ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>もうと<ruby>思<rt>おも</rt></ruby>う。",
+ "traduccion": "Consulté con un profesor de instituto sobre el posgrado. Me dijo que, dejando aparte las notas, lo importante es qué has estudiado en la carrera. Mientras paseábamos por el patio, también me habló de los lectores y los profesores adjuntos. Parece que van fuertes los que están activos en seminarios y clubes. Para no suspender, pienso leer libros académicos mientras siga matriculado.",
+ "preguntas": [
+  {
+   "p": "だれに<ruby>相談<rt>そうだん</rt></ruby>しましたか。",
+   "opciones": [
+    "<ruby>高校<rt>こうこう</rt></ruby>の<ruby>教師<rt>きょうし</rt></ruby>",
+    "<ruby>講師<rt>こうし</rt></ruby>",
+    "<ruby>助教授<rt>じょきょうじゅ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>大事<rt>だいじ</rt></ruby>だと<ruby>言<rt>い</rt></ruby>われましたか。",
+   "opciones": [
+    "<ruby>学力<rt>がくりょく</rt></ruby>",
+    "<ruby>学部<rt>がくぶ</rt></ruby>で<ruby>学<rt>まな</rt></ruby>んだこと",
+    "サークル"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>在学<rt>ざいがく</rt></ruby>のうちに<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "<ruby>学術<rt>がくじゅつ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む",
+    "<ruby>働<rt>はたら</rt></ruby>く",
+    "<ruby>旅行<rt>りょこう</rt></ruby>する"
+   ],
+   "correcta": 0
+  }
+ ]
+}

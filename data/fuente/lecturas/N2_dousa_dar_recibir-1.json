@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/dousa/dar_recibir-1",
+ "titulo": "<ruby>川<rt>かわ</rt></ruby>の<ruby>水<rt>みず</rt></ruby>",
+ "cuerpo": "<ruby>雨<rt>あめ</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>いて、<ruby>川<rt>かわ</rt></ruby>の<ruby>水<rt>みず</rt></ruby>が<ruby>濁<rt>にご</rt></ruby>ってしまった。<ruby>色<rt>いろ</rt></ruby><em class=\"g\">から<ruby>見<rt>み</rt></ruby>ると</em>、<ruby>山<rt>やま</rt></ruby>の<ruby>土<rt>つち</rt></ruby>が<ruby>流<rt>なが</rt></ruby>れてきたのだろう。<ruby>風<rt>かぜ</rt></ruby>で<ruby>橋<rt>はし</rt></ruby>の<ruby>旗<rt>はた</rt></ruby>が<ruby>膨<rt>ふく</rt></ruby>らんでいた。<ruby>近<rt>ちか</rt></ruby>くの<ruby>人<rt>ひと</rt></ruby>の<ruby>話<rt>はなし</rt></ruby><em class=\"g\">からすると</em>、<ruby>去年<rt>きょねん</rt></ruby>も<ruby>同<rt>おな</rt></ruby>じことがあったらしい。<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>に<ruby>傘<rt>かさ</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>して、はやく<ruby>帰<rt>かえ</rt></ruby>れと<ruby>言<rt>い</rt></ruby>った。",
+ "traduccion": "Con tantos días de lluvia, el agua del río se enturbió. A juzgar por el color, debe de haber bajado tierra de la montaña. Con el viento, la bandera del puente se hinchaba. Según lo que cuenta la gente de por aquí, el año pasado pasó lo mismo. Mi abuela me dio el paraguas y me dijo que volviera pronto.",
+ "preguntas": [
+  {
+   "p": "<ruby>川<rt>かわ</rt></ruby>の<ruby>水<rt>みず</rt></ruby>はどうなりましたか。",
+   "opciones": [
+    "<ruby>濁<rt>にご</rt></ruby>った",
+    "<ruby>減<rt>へ</rt></ruby>った",
+    "<ruby>止<rt>と</rt></ruby>まった"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>風<rt>かぜ</rt></ruby>で<ruby>何<rt>なに</rt></ruby>が<ruby>膨<rt>ふく</rt></ruby>らみましたか。",
+   "opciones": [
+    "<ruby>傘<rt>かさ</rt></ruby>",
+    "<ruby>旗<rt>はた</rt></ruby>",
+    "<ruby>服<rt>ふく</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>しましたか。",
+   "opciones": [
+    "<ruby>傘<rt>かさ</rt></ruby>",
+    "<ruby>地図<rt>ちず</rt></ruby>",
+    "<ruby>お金<rt>おかね</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}
