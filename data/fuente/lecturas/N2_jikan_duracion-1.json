@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/jikan/duracion-1",
+ "titulo": "<ruby>新幹線<rt>しんかんせん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で",
+ "cuerpo": "ラッシュアワーを<ruby>避<rt>さ</rt></ruby>けて<ruby>新幹線<rt>しんかんせん</rt></ruby>に<ruby>乗<rt>の</rt></ruby>った。<ruby>時速<rt>じそく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いておどろき、<ruby>胸<rt>むね</rt></ruby>がどきどきした。<ruby>隣<rt>となり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>早口<rt>はやくち</rt></ruby>で、<ruby>短期<rt>たんき</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>けていた。<ruby>急<rt>いそ</rt></ruby>いでいる<em class=\"g\">としても</em>、あの<ruby>速力<rt>そくりょく</rt></ruby>で<ruby>話<rt>はな</rt></ruby>されると<ruby>疲<rt>つか</rt></ruby>れる。<em class=\"g\">だって</em>、こちらは<ruby>眠<rt>ねむ</rt></ruby>りたいのだから。それでも<ruby>継続<rt>けいぞく</rt></ruby>して<ruby>聞<rt>き</rt></ruby>いていると、なかなか<ruby>面白<rt>おもしろ</rt></ruby>い<ruby>話<rt>はなし</rt></ruby>だった。",
+ "traduccion": "Cogí el tren bala evitando la hora punta. Me sorprendió oír su velocidad y se me aceleró el corazón. El de al lado hablaba muy deprisa y seguía contando cosas de un trabajo temporal. Aunque tengas prisa, que te hablen a esa velocidad cansa. Es que yo lo que quería era dormir. Aun así, escuchando seguido, resultó ser una historia bastante interesante.",
+ "preguntas": [
+  {
+   "p": "どうしてラッシュアワーを<ruby>避<rt>さ</rt></ruby>けましたか。",
+   "opciones": [
+    "<ruby>混<rt>こ</rt></ruby>むから",
+    "<ruby>高<rt>たか</rt></ruby>いから",
+    "<ruby>遅<rt>おそ</rt></ruby>いから"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>隣<rt>となり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はどんな<ruby>話<rt>はな</rt></ruby>し<ruby>方<rt>かた</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>早口<rt>はやくち</rt></ruby>",
+    "ゆっくり",
+    "<ruby>小<rt>ちい</rt></ruby>さい<ruby>声<rt>こえ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "「<ruby>私<rt>わたし</rt></ruby>」は<ruby>本当<rt>ほんとう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしたかったですか。",
+   "opciones": [
+    "<ruby>眠<rt>ねむ</rt></ruby>りたかった",
+    "<ruby>話<rt>はな</rt></ruby>したかった",
+    "<ruby>降<rt>お</rt></ruby>りたかった"
+   ],
+   "correcta": 0
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/jikan/cantidad-2",
+ "titulo": "<ruby>関東<rt>かんとう</rt></ruby>の<ruby>雨<rt>あめ</rt></ruby>",
+ "cuerpo": "<ruby>今年<rt>ことし</rt></ruby>は<ruby>関東<rt>かんとう</rt></ruby>の<ruby>雨<rt>あめ</rt></ruby>が<ruby>激増<rt>げきぞう</rt></ruby>した。<ruby>各地<rt>かくち</rt></ruby>で<ruby>川<rt>かわ</rt></ruby>の<ruby>水<rt>みず</rt></ruby>が<ruby>過剰<rt>かじょう</rt></ruby>になり、<ruby>所々<rt>ところどころ</rt></ruby>で<ruby>道<rt>みち</rt></ruby>が<ruby>通<rt>とお</rt></ruby>れない。<ruby>山<rt>やま</rt></ruby>の<ruby>個所<rt>かしょ</rt></ruby><em class=\"g\">を<ruby>除<rt>のぞ</rt></ruby>いて</em>、<ruby>被害<rt>ひがい</rt></ruby>は<ruby>大<rt>たい</rt></ruby>してなかった。<ruby>去年<rt>きょねん</rt></ruby><em class=\"g\"><ruby>以上<rt>いじょう</rt></ruby>に</em><ruby>準備<rt>じゅんび</rt></ruby>していたのが<ruby>効<rt>き</rt></ruby>いたらしい。<ruby>残<rt>のこ</rt></ruby>らず<ruby>無事<rt>ぶじ</rt></ruby>だったと<ruby>聞<rt>き</rt></ruby>いて、<ruby>割<rt>わり</rt></ruby>と<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>いた<ruby>気持<rt>きも</rt></ruby>ちで<ruby>眠<rt>ねむ</rt></ruby>れた。",
+ "traduccion": "Este año la lluvia en Kanto aumentó de golpe. En varios sitios el agua de los ríos se desbordó y en algunos puntos las carreteras están cortadas. Salvo en algunos puntos de la montaña, los daños no fueron gran cosa. Parece que sirvió haberse preparado más que el año pasado. Al oír que todos sin excepción estaban bien, pude dormir bastante tranquilo.",
+ "preguntas": [
+  {
+   "p": "<ruby>今年<rt>ことし</rt></ruby>の<ruby>雨<rt>あめ</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>激増<rt>げきぞう</rt></ruby>した",
+    "<ruby>減<rt>へ</rt></ruby>った",
+    "<ruby>同<rt>おな</rt></ruby>じだった"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>被害<rt>ひがい</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>大<rt>たい</rt></ruby>してなかった",
+    "とても<ruby>大<rt>おお</rt></ruby>きかった",
+    "なかった"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "どうして<ruby>被害<rt>ひがい</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかったのですか。",
+   "opciones": [
+    "<ruby>去年<rt>きょねん</rt></ruby>より<ruby>準備<rt>じゅんび</rt></ruby>したから",
+    "<ruby>雨<rt>あめ</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから",
+    "<ruby>山<rt>やま</rt></ruby>だから"
+   ],
+   "correcta": 0
+  }
+ ]
+}

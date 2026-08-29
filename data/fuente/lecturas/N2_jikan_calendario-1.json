@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/jikan/calendario-1",
+ "titulo": "<ruby>元日<rt>がんじつ</rt></ruby>の<ruby>温泉<rt>おんせん</rt></ruby>",
+ "cuerpo": "<ruby>祭日<rt>さいじつ</rt></ruby>と<ruby>月曜<rt>げつよう</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>いたので、<ruby>元日<rt>がんじつ</rt></ruby>に<ruby>温泉<rt>おんせん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った。<ruby>金曜<rt>きんよう</rt></ruby>に<ruby>出<rt>で</rt></ruby>るつもりだったが、<ruby>深夜<rt>しんや</rt></ruby>の<ruby>道<rt>みち</rt></ruby>のほうが<ruby>空<rt>す</rt></ruby>いていると<ruby>聞<rt>き</rt></ruby>き、<ruby>一旦<rt>いったん</rt></ruby><ruby>家<rt>いえ</rt></ruby>で<ruby>休<rt>やす</rt></ruby>んでから<ruby>出<rt>で</rt></ruby>た。<em class=\"g\">かえって</em><ruby>早<rt>はや</rt></ruby>く<ruby>着<rt>つ</rt></ruby>き、<ruby>朝<rt>あさ</rt></ruby>の<ruby>湯<rt>ゆ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>れた。<em class=\"g\">もっとも</em>、しあさっての<ruby>学年<rt>がくねん</rt></ruby>の<ruby>用事<rt>ようじ</rt></ruby>を<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>して、<ruby>下旬<rt>げじゅん</rt></ruby>までは<ruby>忙<rt>いそが</rt></ruby>しそうだ。",
+ "traduccion": "Como el festivo caía junto al lunes, fui a las aguas termales el día de Año Nuevo. Pensaba salir el viernes, pero oí que de madrugada la carretera está más despejada, así que descansé un rato en casa y salí luego. Al contrario de lo que temía, llegué pronto y pude bañarme por la mañana. Eso sí, me acordé de un asunto del curso para dentro de tres días: hasta finales de mes voy a andar liado.",
+ "preguntas": [
+  {
+   "p": "いつ<ruby>温泉<rt>おんせん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きましたか。",
+   "opciones": [
+    "<ruby>元日<rt>がんじつ</rt></ruby>",
+    "<ruby>金曜<rt>きんよう</rt></ruby>",
+    "<ruby>月末<rt>げつまつ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "どうして<ruby>深夜<rt>しんや</rt></ruby>に<ruby>出<rt>で</rt></ruby>ましたか。",
+   "opciones": [
+    "<ruby>道<rt>みち</rt></ruby>が<ruby>空<rt>す</rt></ruby>いているから",
+    "<ruby>安<rt>やす</rt></ruby>いから",
+    "<ruby>朝<rt>あさ</rt></ruby>が<ruby>嫌<rt>きら</rt></ruby>いだから"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "いつまで<ruby>忙<rt>いそが</rt></ruby>しそうですか。",
+   "opciones": [
+    "<ruby>初旬<rt>しょじゅん</rt></ruby>",
+    "<ruby>下旬<rt>げじゅん</rt></ruby>",
+    "<ruby>元日<rt>がんじつ</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

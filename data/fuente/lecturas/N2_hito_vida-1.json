@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/hito/vida-1",
+ "titulo": "<ruby>盆<rt>ぼん</rt></ruby>の<ruby>帰<rt>かえ</rt></ruby>り",
+ "cuerpo": "<ruby>盆<rt>ぼん</rt></ruby>に<ruby>田舎<rt>いなか</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>ると、<ruby>庭<rt>にわ</rt></ruby>の<ruby>木<rt>き</rt></ruby>が<ruby>枯<rt>か</rt></ruby>れていた。<ruby>去年<rt>きょねん</rt></ruby>の<ruby>葬式<rt>そうしき</rt></ruby>のあと、<ruby>世話<rt>せわ</rt></ruby>をする<ruby>人<rt>ひと</rt></ruby>がいなくなったからだ。<ruby>末<rt>すえ</rt></ruby>っ<ruby>子<rt>こ</rt></ruby>の<ruby>私<rt>わたし</rt></ruby>は、<ruby>中年<rt>ちゅうねん</rt></ruby>になって<ruby>初<rt>はじ</rt></ruby>めてそれに<ruby>気<rt>き</rt></ruby>づいた。<ruby>家<rt>いえ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>はしいんとして、<ruby>物音<rt>ものおと</rt></ruby>が<em class=\"g\">ちっともしない</em>。<ruby>寿命<rt>じゅみょう</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>を<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>しながら、<ruby>坊<rt>ぼう</rt></ruby>やの<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>た。",
+ "traduccion": "Al volver al pueblo en Obon, el árbol del jardín estaba seco. Desde el funeral del año pasado ya no quedaba nadie que lo cuidara. Yo, que soy el menor, me di cuenta por primera vez ya de mediana edad. Dentro de la casa había un silencio absoluto: no se oía ni un ruido. Me acordé de la palabra «esperanza de vida» mientras miraba la foto del niño.",
+ "preguntas": [
+  {
+   "p": "<ruby>庭<rt>にわ</rt></ruby>の<ruby>木<rt>き</rt></ruby>はどうなっていましたか。",
+   "opciones": [
+    "<ruby>枯<rt>か</rt></ruby>れていた",
+    "<ruby>大<rt>おお</rt></ruby>きくなっていた",
+    "なくなっていた"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "どうして<ruby>世話<rt>せわ</rt></ruby>をする<ruby>人<rt>ひと</rt></ruby>がいませんか。",
+   "opciones": [
+    "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>葬式<rt>そうしき</rt></ruby>のあとだから",
+    "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>したから",
+    "<ruby>忙<rt>いそが</rt></ruby>しいから"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>家<rt>いえ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "にぎやか",
+    "しいんとしていた",
+    "<ruby>暗<rt>くら</rt></ruby>かった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

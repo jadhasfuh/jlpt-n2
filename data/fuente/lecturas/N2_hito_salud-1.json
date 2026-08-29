@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/hito/salud-1",
+ "titulo": "<ruby>外科<rt>げか</rt></ruby>の<ruby>待合室<rt>まちあいしつ</rt></ruby>",
+ "cuerpo": "<ruby>料理<rt>りょうり</rt></ruby>の<ruby>最中<rt>さいちゅう</rt></ruby>に<ruby>火傷<rt>やけど</rt></ruby>をして、<ruby>外科<rt>げか</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った。<ruby>看護婦<rt>かんごふ</rt></ruby>さんが<ruby>消毒<rt>しょうどく</rt></ruby>をして<ruby>包帯<rt>ほうたい</rt></ruby>を<ruby>巻<rt>ま</rt></ruby>いてくれた。<ruby>隣<rt>となり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はくしゃみが<ruby>止<rt>と</rt></ruby>まらず、<ruby>内科<rt>ないか</rt></ruby>を<ruby>待<rt>ま</rt></ruby>っていた。<ruby>診断<rt>しんだん</rt></ruby>が<ruby>出<rt>で</rt></ruby>るまで<ruby>長<rt>なが</rt></ruby>かったが、<em class=\"g\">いよいよ</em><ruby>名前<rt>なまえ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>ばれ、<ruby>薬局<rt>やっきょく</rt></ruby>で<ruby>薬品<rt>やくひん</rt></ruby>をもらって<em class=\"g\"><ruby>一気<rt>いっき</rt></ruby>に</em><ruby>気<rt>き</rt></ruby>が<ruby>楽<rt>らく</rt></ruby>になった。",
+ "traduccion": "Me quemé mientras cocinaba y fui a cirugía. La enfermera me desinfectó y me puso una venda. El de al lado no paraba de estornudar y esperaba para medicina interna. Tardaron en darme el diagnóstico, pero por fin me llamaron por mi nombre, recogí la medicina en la farmacia y de golpe me quedé tranquilo.",
+ "preguntas": [
+  {
+   "p": "どうして<ruby>外科<rt>げか</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きましたか。",
+   "opciones": [
+    "<ruby>火傷<rt>やけど</rt></ruby>をしたから",
+    "くしゃみのため",
+    "<ruby>育児<rt>いくじ</rt></ruby>のため"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>看護婦<rt>かんごふ</rt></ruby>さんは<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>消毒<rt>しょうどく</rt></ruby>して<ruby>包帯<rt>ほうたい</rt></ruby>を<ruby>巻<rt>ま</rt></ruby>いた",
+    "<ruby>診断<rt>しんだん</rt></ruby>した",
+    "<ruby>薬<rt>くすり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>った"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>薬品<rt>やくひん</rt></ruby>はどこでもらいましたか。",
+   "opciones": [
+    "<ruby>外科<rt>げか</rt></ruby>",
+    "<ruby>薬局<rt>やっきょく</rt></ruby>",
+    "<ruby>内科<rt>ないか</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/jikan/cantidad-1",
+ "titulo": "<ruby>峠<rt>とうげ</rt></ruby>の<ruby>店<rt>みせ</rt></ruby>",
+ "cuerpo": "<ruby>峠<rt>とうげ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に、<ruby>古<rt>ふる</rt></ruby>い<ruby>店<rt>みせ</rt></ruby>が<ruby>一<rt>いっ</rt></ruby>けんだけある。メニューは<ruby>三<rt>みっ</rt></ruby>つ<em class=\"g\">のみ</em>で、<ruby>値段<rt>ねだん</rt></ruby>は<ruby>桁<rt>けた</rt></ruby>が<ruby>一<rt>ひと</rt></ruby>つ<ruby>少<rt>すく</rt></ruby>ない。「<ruby>材料<rt>ざいりょう</rt></ruby>が<ruby>余<rt>あま</rt></ruby>ったら<ruby>皆<rt>みな</rt></ruby>さんに」と、<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby>のように<ruby>言<rt>い</rt></ruby>う。どうせ<ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>だからと、わたしは<ruby>毎回<rt>まいかい</rt></ruby><ruby>寄<rt>よ</rt></ruby>ってしまう。かえるとき、<ruby>皆<rt>みな</rt></ruby>が「ごくろうさま」と<ruby>声<rt>こえ</rt></ruby>をかけてくれる。",
+ "traduccion": "En lo alto del puerto hay una sola tienda vieja. El menú tiene únicamente tres platos y los precios llevan una cifra menos. «Si sobra material, para todos», dice el dueño casi cada día. Como total me pilla de camino a casa, acabo pasando siempre. Al irme, todos me dicen «buen trabajo».",
+ "preguntas": [
+  {
+   "p": "<ruby>峠<rt>とうげ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>店<rt>みせ</rt></ruby>はいくつありますか。",
+   "opciones": [
+    "<ruby>一<rt>いっ</rt></ruby>けん",
+    "<ruby>三<rt>さん</rt></ruby>けん",
+    "たくさん"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "メニューはいくつですか。",
+   "opciones": [
+    "<ruby>三<rt>みっ</rt></ruby>つ",
+    "<ruby>五<rt>いつ</rt></ruby>つ",
+    "<ruby>十<rt>とお</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "かえるとき、<ruby>皆<rt>みな</rt></ruby>は<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。",
+   "opciones": [
+    "ごくろうさま",
+    "おはよう",
+    "しめた"
+   ],
+   "correcta": 0
+  }
+ ]
+}
