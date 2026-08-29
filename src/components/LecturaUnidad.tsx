@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import type { Lectura } from "@/lib/tipos";
 import { JpHtml, JpEnLinea, BotonVoz } from "./Jp";
-import { callar, decir, enFrases, soloTexto } from "@/lib/voz";
+import { callar, decir, enFrases, pausar, reanudar, soloTexto } from "@/lib/voz";
 import { Ordenar } from "./Ordenar";
 
 /** Reproductor frase a frase, con el texto oculto. */
@@ -10,26 +10,50 @@ function LectorCiego({ texto, frase, setFrase }: {
   texto: string; frase: number; setFrase: (n: number) => void;
 }) {
   const frases = enFrases(texto);
+  const [estado, setEstado] = useState<"parado" | "sonando" | "pausado">("parado");
+
   const reproducir = (i: number) => {
     setFrase(i);
-    decir(frases[i]);
+    setEstado("sonando");
+    decir(frases[i], { alTerminar: () => setEstado("parado") });
   };
+
+  const botonGrande = () => {
+    if (estado === "sonando") { pausar(); setEstado("pausado"); return; }
+    if (estado === "pausado") { reanudar(); setEstado("sonando"); return; }
+    reproducir(frase);
+  };
+
   return (
     <div style={{ textAlign: "center", padding: "26px 0 10px" }}>
       <button className="btn primario"
               style={{ width: 96, height: 96, borderRadius: "50%", fontSize: 38 }}
-              onClick={() => reproducir(frase)} aria-label="Reproducir">🔊</button>
+              onClick={botonGrande}
+              aria-label={estado === "sonando" ? "Pausar" : "Reproducir"}>
+        {estado === "sonando" ? "⏸" : estado === "pausado" ? "▶️" : "🔊"}
+      </button>
+      {estado !== "parado" && (
+        <div>
+          <button className="btn fantasma"
+                  onClick={() => { callar(); setEstado("parado"); }}>⏹ detener</button>
+        </div>
+      )}
       <p className="tenue" style={{ marginBottom: 6 }}>
         frase {frase + 1} de {frases.length}
       </p>
       <div style={{ display: "flex", gap: 8, justifyContent: "center", flexWrap: "wrap" }}>
         <button className="btn chico" disabled={frase === 0} onClick={() => reproducir(frase - 1)}>‹ anterior</button>
-        <button className="btn chico" onClick={() => decir(frases[frase], { rate: 0.55 })}>más despacio</button>
+        <button className="btn chico"
+                onClick={() => { setEstado("sonando"); decir(frases[frase], { rate: 0.55, alTerminar: () => setEstado("parado") }); }}>
+          más despacio
+        </button>
         <button className="btn chico" disabled={frase >= frases.length - 1}
                 onClick={() => reproducir(frase + 1)}>siguiente ›</button>
       </div>
       <button className="btn chico" style={{ marginTop: 10 }}
-              onClick={() => decir(frases.join(""))}>escuchar todo seguido</button>
+              onClick={() => { setEstado("sonando"); decir(frases.join(""), { alTerminar: () => setEstado("parado") }); }}>
+        escuchar todo seguido
+      </button>
     </div>
   );
 }

@@ -29,6 +29,9 @@ export function decir(texto: string, opciones: { rate?: number; alTerminar?: () 
 }
 
 export const callar = () => window.speechSynthesis?.cancel();
+export const pausar = () => window.speechSynthesis?.pause();
+export const reanudar = () => window.speechSynthesis?.resume();
+export const hablando = () => !!window.speechSynthesis?.speaking;
 
 /** Quita el marcado y el furigana: si no, el lector dice la lectura dos veces. */
 export const soloTexto = (html: string) =>

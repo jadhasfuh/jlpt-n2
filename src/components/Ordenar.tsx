@@ -52,6 +52,17 @@ function mezclar<T>(a: T[]): T[] {
 
 export function Ordenar({ frases, traduccion }: { frases: string[]; traduccion: string }) {
   const [n, setN] = useState(0);
+
+  /**
+   * La traducción viene del texto entero. Si tiene tantas frases como el
+   * japonés (pasa en 91 de las 97 lecturas), se empareja una a una: enseñar la
+   * traducción completa mientras ordenas una sola frase confundía más que
+   * ayudaba.
+   */
+  const pista = useMemo(() => {
+    const es = traduccion.split(/(?<=[.!?])\s+/).map((x) => x.trim()).filter(Boolean);
+    return es.length === frases.length ? es[n] : "";
+  }, [traduccion, frases.length, n]);
   const correcta = useMemo(() => trocear(frases[n] ?? ""), [frases, n]);
   const [banco, setBanco] = useState<number[]>(() => mezclar(correcta.map((_, i) => i)));
   const [puestas, setPuestas] = useState<number[]>([]);
@@ -87,7 +98,9 @@ export function Ordenar({ frases, traduccion }: { frases: string[]; traduccion: 
   return (
     <div className="tarjeta" style={{ marginTop: 12 }}>
       <p className="etiqueta">Ordena la frase · {n + 1} de {frases.length}</p>
-      <p className="silencio" style={{ marginTop: 4 }}>{traduccion}</p>
+      {pista
+        ? <p className="silencio" style={{ marginTop: 4 }}>{pista}</p>
+        : <p className="tenue" style={{ marginTop: 4 }}>Reconstruye la frase con las fichas.</p>}
 
       <div style={{
         minHeight: 64, border: "1px dashed var(--linea)", borderRadius: 12,
