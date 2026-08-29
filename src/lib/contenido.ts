@@ -6,7 +6,6 @@ import vocabularioJson from "../../data/dist/vocabulario.json";
 import gramaticaJson from "../../data/dist/gramatica.json";
 import unidadesJson from "../../data/dist/unidades.json";
 import cursoJson from "../../data/dist/curso.json";
-import lecturasJson from "../../data/dist/lecturas.json";
 import kanjiJson from "../../data/dist/kanji.json";
 import { supabaseServidor } from "./supabase";
 
@@ -14,7 +13,6 @@ const VOCABULARIO = vocabularioJson as Palabra[];
 const GRAMATICA = gramaticaJson as Gramatica[];
 const UNIDADES = unidadesJson as Unidad[];
 const CURSO = cursoJson as NivelCurso[];
-const LECTURAS = new Map((lecturasJson as Lectura[]).map((l) => [l.unidad_id, l]));
 const KANJI = kanjiJson as Kanji[];
 const porChar = new Map(KANJI.map((k) => [k.char, k]));
 
@@ -96,10 +94,8 @@ export function buscarDiccionario(seleccion: string): Palabra[] {
 
 export async function lectura(unidadId: string): Promise<Lectura | null> {
   const sb = supabaseServidor();
-  if (sb) {
-    const { data } = await sb
-      .from("lecturas").select("*").eq("unidad_id", unidadId).maybeSingle();
-    if (data) return data as Lectura;
-  }
-  return LECTURAS.get(unidadId) ?? null;
+  if (!sb) return null;
+  const { data } = await sb
+    .from("lecturas").select("*").eq("unidad_id", unidadId).maybeSingle();
+  return (data as Lectura) ?? null;
 }

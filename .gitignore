@@ -11,3 +11,4 @@ data/build/
 __pycache__/
 *.pyc
 data/dist/seed.sql
+data/dist/lecturas.json
