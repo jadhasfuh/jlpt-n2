@@ -81,7 +81,8 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
     if (bien) setAciertos((a) => a + 1);
     anotar("palabras", q.palabra.id, bien);
     if (!bien && !repesca.includes(q.palabra.id)) setRepesca((r) => [...r, q.palabra.id]);
-    setTimeout(() => { setElegida(null); setN((v) => v + 1); }, bien ? 480 : 1200);
+    // Acertar sigue solo; fallar espera a que mires cuál era.
+    if (bien) setTimeout(() => { setElegida(null); setN((v) => v + 1); }, 480);
   };
 
   return (
@@ -100,6 +101,12 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
       </div>
 
       <div className="opciones" style={{ margin: "0 auto" }}>
+        {elegida !== null && elegida !== q.palabra.id && (
+          <button className="btn primario" style={{ minHeight: 50 }}
+                  onClick={() => { setElegida(null); setN((v) => v + 1); }}>
+            Siguiente →
+          </button>
+        )}
         {q.opciones.map((op) => {
           const correcta = op.id === q.palabra.id;
           const clase = elegida === null ? "" : correcta ? "bien" : elegida === op.id ? "mal" : "";

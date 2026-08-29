@@ -94,8 +94,10 @@ export function Escucha({ unidad, palabras, cerrar }: {
     const bien = op.id === q.correcta.id;
     if (bien) setAciertos((a) => a + 1);
     anotar("palabras", q.correcta.id, bien);
-    setTimeout(() => { setElegida(null); setN((v) => v + 1); }, bien ? 500 : 1400);
+    // Sin salto automático: aquí lo valioso es mirar la respuesta con calma.
   };
+
+  const siguiente = () => { setElegida(null); setN((v) => v + 1); };
 
   return (
     <div className="escena">
@@ -118,16 +120,27 @@ export function Escucha({ unidad, palabras, cerrar }: {
           más despacio
         </button>
         {elegida !== null && (
-          <p className="jp revelado" style={{ fontSize: 26, margin: 0 }}>
-            {q.correcta.escritura}
-            {q.correcta.lectura !== q.correcta.escritura && (
-              <span className="tenue">　{q.correcta.lectura}</span>
-            )}
-          </p>
+          <div className="revelado" style={{ textAlign: "center" }}>
+            <p className="jp" style={{ fontSize: 26, margin: 0 }}>
+              {q.correcta.escritura}
+              {q.correcta.lectura !== q.correcta.escritura && (
+                <span className="tenue">　{q.correcta.lectura}</span>
+              )}
+            </p>
+            <p style={{ margin: "2px 0 0" }}>{q.correcta.es || q.correcta.en}</p>
+            <button className="btn fantasma" onClick={() => decir(q.correcta.escritura)}>
+              🔊 oírla otra vez
+            </button>
+          </div>
         )}
       </div>
 
       <div className="opciones" style={{ margin: "0 auto" }}>
+        {elegida !== null && (
+          <button className="btn primario" style={{ minHeight: 50 }} onClick={siguiente}>
+            Siguiente →
+          </button>
+        )}
         {q.opciones.map((op) => {
           const bien = op.id === q.correcta.id;
           const clase = elegida === null ? "" : bien ? "bien" : elegida === op.id ? "mal" : "";

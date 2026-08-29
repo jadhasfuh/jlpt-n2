@@ -105,10 +105,13 @@ export function TestKanji({ kanji, titulo, cerrar }: {
     const bien = op.char === q.correcto.char;
     if (bien) setPuntos((p) => p + 0.5);
     anotar("gramatica", `kanji:${q.correcto.char}`, bien);
-    setTimeout(() => {
-      setElegido(null);
-      if (q.hayLectura) setFase("esperando"); else siguiente();
-    }, bien ? 420 : 1100);
+    if (bien) {
+      setTimeout(() => {
+        setElegido(null);
+        if (q.hayLectura) setFase("esperando"); else siguiente();
+      }, 420);
+    }
+    // Si falla, se queda para que vea el acierto y pulse él.
   };
 
   const responderLectura = (l: string) => {
@@ -117,7 +120,7 @@ export function TestKanji({ kanji, titulo, cerrar }: {
     const bien = l === q.lecturaBuena;
     if (bien) setPuntos((p) => p + 0.5);
     anotar("gramatica", `kanji-lectura:${q.correcto.char}`, bien);
-    setTimeout(siguiente, bien ? 420 : 1100);
+    if (bien) setTimeout(siguiente, 420);
   };
 
   return (
@@ -147,6 +150,16 @@ export function TestKanji({ kanji, titulo, cerrar }: {
       </div>
 
       <div className="opciones" style={{ margin: "0 auto" }}>
+        {elegido !== null && elegido !== q.correcto.char && elegido !== q.lecturaBuena && (
+          <button className="btn primario" style={{ minHeight: 50 }}
+                  onClick={() => {
+                    setElegido(null);
+                    if (fase === "significado" && q.hayLectura) setFase("esperando");
+                    else siguiente();
+                  }}>
+            Siguiente →
+          </button>
+        )}
         {fase === "significado" && q.opciones.map((op) => {
           const bien = op.char === q.correcto.char;
           const clase = elegido === null ? "" : bien ? "bien" : elegido === op.char ? "mal" : "";
