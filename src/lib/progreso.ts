@@ -9,6 +9,8 @@ export type MemoriaItem = {
 };
 export type MemoriaUnidad = { practicada: boolean; mejor: number; tests: number };
 
+export type TopeRepaso = "auto" | number;
+
 export type Progreso = {
   perfil: string;
   xp: number;
@@ -16,6 +18,8 @@ export type Progreso = {
   palabras: Record<string, MemoriaItem>;
   gramatica: Record<string, MemoriaItem>;
   unidades: Record<string, MemoriaUnidad>;
+  hechosPorDia: Record<string, number>;      // YYYY-MM-DD -> repasos ese día
+  tope: TopeRepaso;
 };
 
 const CLAVE = "jlpt.progreso";
@@ -48,6 +52,7 @@ const vacio = (): Progreso => ({
   perfil: globalThis.crypto?.randomUUID?.() ?? String(Date.now()),
   xp: 0, racha: { dias: 0, ultimo: "" },
   palabras: {}, gramatica: {}, unidades: {},
+  hechosPorDia: {}, tope: "auto",
 });
 
 export function leerProgreso(): Progreso {
@@ -108,9 +113,45 @@ export function anotar(
   e.proximo = Date.now() + ETAPAS_MS[e.etapa ?? 1];
   tabla[k] = e;
 
+  const d = hoy();
+  p.hechosPorDia[d] = (p.hechosPorDia[d] ?? 0) + 1;
+
   if (acierto) premiar(p, !antes || antes.a === 0 ? XP_NUEVA : XP_REPASO);
   guardar(p);
   return p;
+}
+
+/**
+ * Cuántos repasos enseñar hoy.
+ *
+ * Un tope fijo no sirve: para quien hace 20 al día, 100 es una montaña; para
+ * quien hace 120, es quedarse corto. Así que sale de tu propio ritmo de la
+ * última semana, con un suelo para que siempre haya algo que hacer.
+ */
+export const TOPE_MINIMO = 40;
+
+export function topeDiario(p: Progreso): number {
+  if (typeof p.tope === "number") return p.tope;
+  const dias: number[] = [];
+  for (let i = 1; i <= 7; i++) {
+    const f = new Date(Date.now() - i * 864e5).toISOString().slice(0, 10);
+    if (p.hechosPorDia[f]) dias.push(p.hechosPorDia[f]);
+  }
+  if (!dias.length) return TOPE_MINIMO;
+  const media = dias.reduce((a, b) => a + b, 0) / dias.length;
+  return Math.max(TOPE_MINIMO, Math.round((media * 1.5) / 10) * 10);
+}
+
+export function guardarTope(t: TopeRepaso): Progreso {
+  const p = leerProgreso();
+  p.tope = t;
+  guardar(p);
+  return p;
+}
+
+/** Cuántos llevas hechos hoy. */
+export function hechosHoy(p: Progreso): number {
+  return p.hechosPorDia[hoy()] ?? 0;
 }
 
 export function terminarPractica(unidadId: string): Progreso {
@@ -184,12 +225,16 @@ export function resumen(p: Progreso) {
   };
 }
 
-/** Lo que vence ahora: la cola de repaso, de lo más atrasado a lo más reciente. */
+/**
+ * Lo que vence ahora. Primero lo más atrasado y, a igualdad, lo que está en
+ * etapas bajas: son las frágiles, las que de verdad se pierden si no se ven.
+ */
 export function paraRepasar(p: Progreso): number[] {
   const ahora = Date.now();
   return Object.entries(p.palabras)
     .filter(([, m]) => (m.proximo ?? 0) <= ahora && m.a + m.f > 0)
-    .sort((a, b) => (a[1].proximo ?? 0) - (b[1].proximo ?? 0))
+    .sort((a, b) =>
+      (a[1].proximo ?? 0) - (b[1].proximo ?? 0) || (a[1].etapa ?? 0) - (b[1].etapa ?? 0))
     .map(([id]) => Number(id))
     .filter((n) => Number.isFinite(n));
 }

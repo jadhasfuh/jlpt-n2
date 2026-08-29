@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { leerProgreso, resumen, type Progreso } from "@/lib/progreso";
+import { guardarTope, leerProgreso, resumen, topeDiario, type Progreso, type TopeRepaso } from "@/lib/progreso";
 import { BotonesRapidos, useAjustes } from "./Ajustes";
 import { ACCESO_ABIERTO } from "@/lib/acceso";
 
@@ -50,6 +50,26 @@ export function Perfil({ totalPalabras }: { totalPalabras: number }) {
         <button className="btn" onClick={cambiarTema}>
           Tema: {tema === "auto" ? "automático" : tema}
         </button>
+      </section>
+
+      <h2 style={{ fontSize: 17, margin: "24px 0 10px" }}>Repasos por día</h2>
+      <section className="tarjeta">
+        <p style={{ marginTop: 0 }}>
+          Hoy te enseñará como máximo <strong>{topeDiario(p)}</strong> repasos.
+        </p>
+        <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+          {(["auto", 30, 60, 100, 9999] as TopeRepaso[]).map((t) => (
+            <button key={String(t)}
+                    className={`btn chico ${p.tope === t ? "encendido" : ""}`}
+                    onClick={() => setP(guardarTope(t))}>
+              {t === "auto" ? "Automático" : t === 9999 ? "Sin tope" : t}
+            </button>
+          ))}
+        </div>
+        <p className="tenue" style={{ marginBottom: 0 }}>
+          En automático sale de tu propio ritmo de la última semana, con un suelo de 40.
+          Así, si dejas la app unos días, no te encuentras un muro de trescientos repasos.
+        </p>
       </section>
 
       <h2 style={{ fontSize: 17, margin: "24px 0 10px" }}>Cuenta</h2>
