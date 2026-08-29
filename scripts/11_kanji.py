@@ -17,6 +17,12 @@ for p in vocab:
     for c in set(KANJI.findall(p["kanji"] or "")):
         apariciones[c].append(p)
 
+def a_katakana(t):
+    """La fuente da las dos lecturas en hiragana. La convención de los
+    diccionarios y los libros de texto es on'yomi en KATAKANA y kun'yomi en
+    hiragana: así se distinguen de un vistazo."""
+    return "".join(chr(ord(c) + 0x60) if "ぁ" <= c <= "ゖ" else c for c in t)
+
 catalogo = []
 for c, palabras in apariciones.items():
     d = crudo.get(c, {})
@@ -31,7 +37,7 @@ for c, palabras in apariciones.items():
         "grado": d.get("grade"),
         "freq": d.get("freq"),
         "en": d.get("meanings", [])[:4],
-        "on": d.get("readings_on", [])[:4],
+        "on": [a_katakana(x) for x in d.get("readings_on", [])[:4]],
         "kun": d.get("readings_kun", [])[:4],
         "palabras": sorted(p["id"] for p in palabras)[:12],   # ejemplos de uso
         "n_palabras": len(palabras),
