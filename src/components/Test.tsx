@@ -30,6 +30,8 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
   const [elegida, setElegida] = useState<number | null>(null);
   const [aciertos, setAciertos] = useState(0);
   const [guardado, setGuardado] = useState(false);
+  // Las falladas se reponen al final de la misma tanda.
+  const [repesca, setRepesca] = useState<number[]>([]);
 
   if (!preguntas.length) {
     return (
@@ -54,6 +56,11 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
             {aciertos} de {preguntas.length}
             {pct >= 80 ? " · ¡aprobado!" : " · repasa y vuelve a intentarlo"}
           </p>
+          {repesca.length > 0 && (
+            <p className="tenue" style={{ margin: 0 }}>
+              {repesca.length} {repesca.length === 1 ? "palabra vuelve" : "palabras vuelven"} pronto en Repaso
+            </p>
+          )}
           <div style={{ display: "flex", gap: 10, marginTop: 14, flexWrap: "wrap", justifyContent: "center" }}>
             <button className="btn" onClick={cerrar}>Volver a la unidad</button>
             {siguiente && pct >= 80 && (
@@ -72,6 +79,7 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
     const bien = op.id === q.palabra.id;
     if (bien) setAciertos((a) => a + 1);
     anotar("palabras", q.palabra.id, bien);
+    if (!bien && !repesca.includes(q.palabra.id)) setRepesca((r) => [...r, q.palabra.id]);
     setTimeout(() => { setElegida(null); setN((v) => v + 1); }, bien ? 480 : 1200);
   };
 

@@ -179,6 +179,7 @@ rt { font-size: .5em; color: var(--tinta-3); font-family: var(--ui); }
 .punto { width: 8px; height: 8px; border-radius: 50%; background: var(--linea); flex: none; }
 .punto.aprendiendo { background: var(--dorado); }
 .punto.dominada { background: var(--verde); }
+.punto.quemada { background: var(--dorado); box-shadow: 0 0 0 2px color-mix(in srgb, var(--dorado) 30%, transparent); }
 
 /* anillo de progreso */
 .anillo { --pct: 0; width: 46px; height: 46px; border-radius: 50%; flex: none;

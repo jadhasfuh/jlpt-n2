@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { Palabra } from "@/lib/tipos";
-import { leerProgreso, paraRepasar, anotar } from "@/lib/progreso";
+import { leerProgreso, paraRepasar, anotar, cuandoToca, contarPendientes } from "@/lib/progreso";
 import { BotonesRapidos, useAjustes } from "./Ajustes";
 import { Jp, BotonVoz } from "./Jp";
 
@@ -13,9 +13,20 @@ export function Repaso() {
   const [visible, setVisible] = useState(false);
   const { significado } = useAjustes();
 
+  const [proxima, setProxima] = useState<string>("");
+
   useEffect(() => {
-    const ids = paraRepasar(leerProgreso()).slice(0, 60);
-    if (!ids.length) { setCargando(false); return; }
+    const p = leerProgreso();
+    const ids = paraRepasar(p).slice(0, 60);
+    if (!ids.length) {
+      // Si no vence nada, decir cuándo vuelve a haber algo.
+      const futuros = Object.values(p.palabras)
+        .filter((m) => m.proximo && m.a + m.f > 0)
+        .sort((a, b) => (a.proximo ?? 0) - (b.proximo ?? 0));
+      setProxima(futuros[0] ? cuandoToca(futuros[0]) : "");
+      setCargando(false);
+      return;
+    }
     fetch(`/api/palabras?ids=${ids.join(",")}`)
       .then((r) => r.json())
       .then((d) => setCola(d.palabras as Palabra[]))
@@ -28,8 +39,12 @@ export function Repaso() {
     return (
       <div className="tarjeta" style={{ marginTop: 48, textAlign: "center", padding: 40 }}>
         <div style={{ fontSize: 34 }}>🍵</div>
-        <p style={{ fontSize: 17 }}>Nada pendiente de repasar.</p>
-        <p className="silencio">Haz una sesión y las palabras irán entrando aquí solas.</p>
+        <p style={{ fontSize: 17 }}>Nada vencido ahora mismo.</p>
+        <p className="silencio">
+          {proxima
+            ? `La próxima palabra vuelve en ${proxima}. Cada acierto la manda más lejos.`
+            : "Haz una sesión y las palabras irán entrando aquí solas."}
+        </p>
         <Link className="btn primario" href="/">Ir al curso</Link>
       </div>
     );
@@ -56,7 +71,7 @@ export function Repaso() {
     <>
       <div style={{ display: "flex", alignItems: "center", margin: "36px 0 18px" }}>
         <div>
-          <p className="etiqueta" style={{ margin: 0 }}>Repaso</p>
+          <p className="etiqueta" style={{ margin: 0 }}>Repaso · vencidas</p>
           <p className="tenue" style={{ margin: 0 }}>{i + 1} / {cola.length}</p>
         </div>
         <div style={{ flex: 1 }} />

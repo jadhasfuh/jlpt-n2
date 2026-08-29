@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { COLOR_NIVEL, DESC_NIVEL, type Nivel } from "@/lib/tipos";
-import { leerProgreso, resumen } from "@/lib/progreso";
+import { contarPendientes, leerProgreso, resumen } from "@/lib/progreso";
 import { Anillo } from "./Anillo";
 import { ACCESO_ABIERTO } from "@/lib/acceso";
 
@@ -13,12 +13,14 @@ export function Inicio({ niveles, totales }: {
   totales: { palabras: number; gramatica: number; unidades: number };
 }) {
   const [r, setR] = useState<ReturnType<typeof resumen> | null>(null);
+  const [pend, setPend] = useState({ vencidas: 0, hoy: 0 });
   const [avance, setAvance] = useState<Record<string, number>>({});
 
   useEffect(() => {
     const recalcular = () => {
       const p = leerProgreso();
       setR(resumen(p));
+      setPend(contarPendientes(p));
       // avance por nivel = unidades practicadas de ese nivel / total
       const a: Record<string, number> = {};
       for (const n of niveles) {
@@ -57,6 +59,22 @@ export function Inicio({ niveles, totales }: {
             </div>
           ))}
         </section>
+      )}
+
+      {pend.vencidas > 0 && (
+        <Link href="/repaso" className="fila" style={{ marginBottom: 14, borderColor: "var(--acento)" }}>
+          <div className="anillo" style={{ ["--pct" as string]: 100, ["--tono" as string]: "var(--acento)" }}>
+            <span>{pend.vencidas}</span>
+          </div>
+          <div style={{ flex: 1 }}>
+            <div style={{ fontWeight: 600 }}>Te toca repasar</div>
+            <div className="tenue">
+              {pend.vencidas} {pend.vencidas === 1 ? "palabra vencida" : "palabras vencidas"}
+              {pend.hoy > 0 && ` · ${pend.hoy} más hoy`}
+            </div>
+          </div>
+          <span className="flecha">›</span>
+        </Link>
       )}
 
       <div className="lista">

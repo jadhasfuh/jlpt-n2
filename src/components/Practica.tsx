@@ -27,8 +27,33 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
   const [i, setI] = useState(0);
   const [visible, setVisible] = useState(false);
   const [ganado, setGanado] = useState(0);
+  // Lo que fallas vuelve a salir antes de terminar: es lo que más fija.
+  const [cola, setCola] = useState<Carta[]>([]);
+  const [segundaVuelta, setSegundaVuelta] = useState(false);
 
-  if (i >= cartas.length) {
+  const mazo = segundaVuelta ? cola : cartas;
+
+  // Al acabar la primera pasada, si quedaron fallos se repasan.
+  if (!segundaVuelta && i >= cartas.length && cola.length > 0) {
+    return (
+      <div className="escena">
+        <div className="escena-cabeza"><button className="btn fantasma" onClick={cerrar}>✕</button></div>
+        <div className="escena-centro">
+          <div style={{ fontSize: 44 }}>🔁</div>
+          <h2 style={{ margin: 0 }}>Quedan {cola.length} por afianzar</h2>
+          <p className="silencio" style={{ margin: 0 }}>
+            Las que no te salieron vuelven ahora, antes de cerrar.
+          </p>
+          <button className="btn primario" style={{ marginTop: 12 }}
+                  onClick={() => { setSegundaVuelta(true); setI(0); setVisible(false); }}>
+            Repasarlas
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  if (i >= mazo.length) {
     return (
       <div className="escena">
         <div className="escena-cabeza"><button className="btn fantasma" onClick={cerrar}>✕</button></div>
@@ -37,6 +62,7 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
           <h2 style={{ margin: 0 }}>Práctica terminada</h2>
           <p className="silencio" style={{ margin: 0 }}>
             {cartas.length} tarjetas · +{ganado + XP_UNIDAD} XP
+            {cola.length > 0 && ` · ${cola.length} para la próxima`}
           </p>
           <button className="btn primario" style={{ marginTop: 12 }}
                   onClick={() => { terminarPractica(unidad.id); cerrar(); }}>
@@ -47,10 +73,15 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
     );
   }
 
-  const c = cartas[i];
+  const c = mazo[i];
   const responder = (acierto: boolean) => {
     anotar(c.tipo === "palabra" ? "palabras" : "gramatica", c.id, acierto);
-    if (acierto) setGanado((g) => g + XP_NUEVA);
+    if (acierto) {
+      setGanado((g) => g + XP_NUEVA);
+      if (segundaVuelta) setCola((q) => q.filter((x) => x.id !== c.id));
+    } else if (!segundaVuelta && !cola.some((x) => x.id === c.id)) {
+      setCola((q) => [...q, c]);
+    }
     setVisible(false);
     setI(i + 1);
   };
@@ -60,9 +91,11 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
       <div className="escena-cabeza">
         <button className="btn fantasma" onClick={cerrar}>✕</button>
         <div className="barra" style={{ flex: 1 }}>
-          <i style={{ width: `${(i / cartas.length) * 100}%` }} />
+          <i style={{ width: `${(i / mazo.length) * 100}%` }} />
         </div>
-        <span className="tenue">{i + 1}/{cartas.length}</span>
+        <span className="tenue">
+          {segundaVuelta && "🔁 "}{i + 1}/{mazo.length}
+        </span>
       </div>
 
       <div className="escena-centro">

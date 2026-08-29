@@ -1,7 +1,12 @@
 "use client";
 import { supabaseNavegador } from "./supabase";
 
-export type MemoriaItem = { a: number; f: number; visto: number };  // aciertos, fallos
+export type MemoriaItem = {
+  a: number; f: number;      // aciertos y fallos acumulados
+  visto: number;             // última vez que salió
+  etapa?: number;            // 0 nuevo … 8 quemado
+  proximo?: number;          // cuándo vuelve a tocar
+};
 export type MemoriaUnidad = { practicada: boolean; mejor: number; tests: number };
 
 export type Progreso = {
@@ -14,6 +19,24 @@ export type Progreso = {
 };
 
 const CLAVE = "jlpt.progreso";
+
+/**
+ * Repetición espaciada al estilo WaniKani. Aciertas y la palabra se va lejos;
+ * fallas y retrocede dos etapas. Lo importante no es el algoritmo, es que
+ * «Repaso» deje de ser una lista y pase a ser una cola que vence sola.
+ */
+export const ETAPAS_MS = [
+  0,                 // 0 · nueva, aún no vista
+  4 * 36e5,          // 1 · 4 horas
+  8 * 36e5,          // 2 · 8 horas
+  24 * 36e5,         // 3 · 1 día
+  3 * 24 * 36e5,     // 4 · 3 días
+  7 * 24 * 36e5,     // 5 · 1 semana
+  14 * 24 * 36e5,    // 6 · 2 semanas
+  30 * 24 * 36e5,    // 7 · 1 mes
+  120 * 24 * 36e5,   // 8 · 4 meses (quemada)
+];
+export const ULTIMA_ETAPA = ETAPAS_MS.length - 1;
 export const XP_NUEVA = 10;      // primera vez que aciertas una palabra
 export const XP_REPASO = 3;
 export const XP_UNIDAD = 25;     // terminar la práctica de una unidad
@@ -70,10 +93,21 @@ export function anotar(
   const tabla = p[tipo];
   const k = String(clave);
   const antes = tabla[k];
-  const e = antes ?? { a: 0, f: 0, visto: 0 };
-  if (acierto) e.a++; else e.f++;
+  const e: MemoriaItem = antes ?? { a: 0, f: 0, visto: 0, etapa: 0, proximo: 0 };
+  const etapa = e.etapa ?? 0;
+
+  if (acierto) {
+    e.a++;
+    e.etapa = Math.min(ULTIMA_ETAPA, etapa + 1);
+  } else {
+    e.f++;
+    // Retroceder dos etapas duele, y por eso funciona.
+    e.etapa = Math.max(1, etapa - 2);
+  }
   e.visto = Date.now();
+  e.proximo = Date.now() + ETAPAS_MS[e.etapa ?? 1];
   tabla[k] = e;
+
   if (acierto) premiar(p, !antes || antes.a === 0 ? XP_NUEVA : XP_REPASO);
   guardar(p);
   return p;
@@ -102,11 +136,26 @@ export function registrarTest(unidadId: string, porcentaje: number): Progreso {
 
 /* ------------------------------- estados -------------------------------- */
 
-export type EstadoItem = "nueva" | "aprendiendo" | "dominada";
+export type EstadoItem = "nueva" | "aprendiendo" | "dominada" | "quemada";
 
 export function estadoItem(m?: MemoriaItem): EstadoItem {
   if (!m || m.a + m.f === 0) return "nueva";
-  return m.a >= 3 && m.a > m.f ? "dominada" : "aprendiendo";
+  const etapa = m.etapa ?? (m.a >= 3 && m.a > m.f ? 5 : 2);   // datos viejos, sin etapa
+  if (etapa >= ULTIMA_ETAPA) return "quemada";
+  if (etapa >= 5) return "dominada";
+  return "aprendiendo";
+}
+
+/** Cuándo vuelve a tocar, en texto corto. */
+export function cuandoToca(m?: MemoriaItem): string {
+  if (!m?.proximo) return "ahora";
+  const falta = m.proximo - Date.now();
+  if (falta <= 0) return "ahora";
+  const h = falta / 36e5;
+  if (h < 1) return `${Math.ceil(falta / 6e4)} min`;
+  if (h < 24) return `${Math.ceil(h)} h`;
+  const d = h / 24;
+  return d < 30 ? `${Math.ceil(d)} días` : `${Math.round(d / 30)} meses`;
 }
 
 /** 0 a 1: cuánto de la unidad está dominado. */
@@ -130,17 +179,33 @@ export function resumen(p: Progreso) {
     racha: p.racha.ultimo === hoy() || p.racha.ultimo === new Date(Date.now() - 864e5).toISOString().slice(0, 10)
       ? p.racha.dias : 0,
     vistas: vals.length,
-    dominadas: vals.filter((m) => estadoItem(m) === "dominada").length,
+    dominadas: vals.filter((m) => ["dominada", "quemada"].includes(estadoItem(m))).length,
     unidades: Object.values(p.unidades).filter((u) => u.practicada).length,
   };
 }
 
-/** Palabras que tocan repaso: falladas, o dominadas hace más de N días. */
-export function paraRepasar(p: Progreso, dias = 3): number[] {
-  const limite = Date.now() - dias * 864e5;
+/** Lo que vence ahora: la cola de repaso, de lo más atrasado a lo más reciente. */
+export function paraRepasar(p: Progreso): number[] {
+  const ahora = Date.now();
   return Object.entries(p.palabras)
-    .filter(([, m]) => m.f > m.a || m.visto < limite)
-    .sort((a, b) => a[1].visto - b[1].visto)
+    .filter(([, m]) => (m.proximo ?? 0) <= ahora && m.a + m.f > 0)
+    .sort((a, b) => (a[1].proximo ?? 0) - (b[1].proximo ?? 0))
     .map(([id]) => Number(id))
     .filter((n) => Number.isFinite(n));
+}
+
+/** Cuántas vencen ahora y cuántas vencen hoy: es lo que se enseña en la portada. */
+export function contarPendientes(p: Progreso) {
+  const ahora = Date.now();
+  const finDia = ahora + 864e5;
+  let vencidas = 0, hoy = 0;
+  for (const tabla of [p.palabras, p.gramatica]) {
+    for (const m of Object.values(tabla)) {
+      if (m.a + m.f === 0) continue;
+      const t = m.proximo ?? 0;
+      if (t <= ahora) vencidas++;
+      else if (t <= finDia) hoy++;
+    }
+  }
+  return { vencidas, hoy };
 }
