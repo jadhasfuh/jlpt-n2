@@ -8,6 +8,7 @@ import { PanelGramatica } from "./PanelGramatica";
 import { PanelKanji } from "./PanelKanji";
 import { Practica } from "./Practica";
 import { Test } from "./Test";
+import { Escucha } from "./Escucha";
 import { LecturaUnidad } from "./LecturaUnidad";
 import { estadoItem, leerProgreso, type Progreso } from "@/lib/progreso";
 
@@ -19,7 +20,7 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente }: {
   const [pestana, setPestana] = useState<"vocabulario" | "kanji" | "gramatica" | "lectura">("vocabulario");
   const [hayLectura, setHayLectura] = useState(false);
   const [abierto, setAbierto] = useState<Record<number, boolean>>({});
-  const [escena, setEscena] = useState<null | "practica" | "test">(null);
+  const [escena, setEscena] = useState<null | "practica" | "test" | "escucha">(null);
   const [p, setP] = useState<Progreso | null>(null);
 
   useEffect(() => {
@@ -35,6 +36,8 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente }: {
   if (escena === "test")
     return <Test unidad={unidad} palabras={palabras} cerrar={() => setEscena(null)}
                  siguiente={siguiente} />;
+  if (escena === "escucha")
+    return <Escucha unidad={unidad} palabras={palabras} cerrar={() => setEscena(null)} />;
 
   const est = p?.unidades[unidad.id];
 
@@ -134,6 +137,9 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente }: {
       <div className="flotantes">
         <button className="btn primario" onClick={() => setEscena("practica")}>Practicar</button>
         <button className="btn" onClick={() => setEscena("test")}>Test</button>
+        <button className="btn" onClick={() => setEscena("escucha")}
+                title="Ejercicio de oído" aria-label="Escucha"
+                style={{ flex: "0 0 auto", maxWidth: 64 }}>🎧</button>
       </div>
     </>
   );

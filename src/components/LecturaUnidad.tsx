@@ -2,8 +2,36 @@
 import { useEffect, useState } from "react";
 import type { Lectura } from "@/lib/tipos";
 import { JpHtml, JpEnLinea, BotonVoz } from "./Jp";
+import { callar, decir, enFrases, soloTexto } from "@/lib/voz";
 
-const sinRuby = (h: string) => h.replace(/<rt>.*?<\/rt>/g, "").replace(/<[^>]+>/g, "");
+/** Reproductor frase a frase, con el texto oculto. */
+function LectorCiego({ texto, frase, setFrase }: {
+  texto: string; frase: number; setFrase: (n: number) => void;
+}) {
+  const frases = enFrases(texto);
+  const reproducir = (i: number) => {
+    setFrase(i);
+    decir(frases[i]);
+  };
+  return (
+    <div style={{ textAlign: "center", padding: "26px 0 10px" }}>
+      <button className="btn primario"
+              style={{ width: 96, height: 96, borderRadius: "50%", fontSize: 38 }}
+              onClick={() => reproducir(frase)} aria-label="Reproducir">🔊</button>
+      <p className="tenue" style={{ marginBottom: 6 }}>
+        frase {frase + 1} de {frases.length}
+      </p>
+      <div style={{ display: "flex", gap: 8, justifyContent: "center", flexWrap: "wrap" }}>
+        <button className="btn chico" disabled={frase === 0} onClick={() => reproducir(frase - 1)}>‹ anterior</button>
+        <button className="btn chico" onClick={() => decir(frases[frase], { rate: 0.55 })}>más despacio</button>
+        <button className="btn chico" disabled={frase >= frases.length - 1}
+                onClick={() => reproducir(frase + 1)}>siguiente ›</button>
+      </div>
+      <button className="btn chico" style={{ marginTop: 10 }}
+              onClick={() => decir(frases.join(""))}>escuchar todo seguido</button>
+    </div>
+  );
+}
 
 export function LecturaUnidad({ unidadId, onEncontrada }: {
   unidadId: string; onEncontrada?: (hay: boolean) => void;
@@ -12,6 +40,11 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
   const [cargando, setCargando] = useState(true);
   const [traducir, setTraducir] = useState(false);
   const [resp, setResp] = useState<Record<number, number>>({});
+  // Modo «a ciegas»: se oye el texto sin verlo y se contesta. Es lo más
+  // parecido al 聴解 del examen que podemos hacer con lo que ya tenemos.
+  const [ciega, setCiega] = useState(false);
+  const [frase, setFrase] = useState(0);
+  useEffect(() => () => callar(), []);
 
   useEffect(() => {
     let vivo = true;
@@ -41,14 +74,30 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
       <article className="tarjeta">
         <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
           <h2 style={{ fontSize: 20, margin: 0 }}><JpEnLinea html={l.titulo} /></h2>
-          <BotonVoz texto={sinRuby(l.cuerpo)} />
+          <BotonVoz texto={soloTexto(l.cuerpo)} />
         </div>
-        <JpHtml html={l.cuerpo} clase="jp-medio" />
-        <button className="btn chico" onClick={() => setTraducir(!traducir)} style={{ marginTop: 10 }}>
-          {traducir ? "Ocultar" : "Ver"} traducción
-        </button>
+        {ciega ? <LectorCiego texto={soloTexto(l.cuerpo)} frase={frase} setFrase={setFrase} />
+               : <JpHtml html={l.cuerpo} clase="jp-medio" />}
+
+        <div style={{ display: "flex", gap: 8, marginTop: 10, flexWrap: "wrap" }}>
+          <button className={`btn chico ${ciega ? "encendido" : ""}`}
+                  onClick={() => { callar(); setCiega(!ciega); setFrase(0); }}>
+            🎧 {ciega ? "Ver el texto" : "Escuchar sin leer"}
+          </button>
+          {!ciega && (
+            <button className="btn chico" onClick={() => setTraducir(!traducir)}>
+              {traducir ? "Ocultar" : "Ver"} traducción
+            </button>
+          )}
+        </div>
         {traducir && <p className="silencio" style={{ marginBottom: 0 }}>{l.traduccion}</p>}
       </article>
+
+      {ciega && (
+        <p className="tenue" style={{ marginTop: 10 }}>
+          Contesta de oído; luego pulsa «Ver el texto» para comprobarlo.
+        </p>
+      )}
 
       {l.preguntas?.length ? (
         <div className="tarjeta" style={{ marginTop: 12 }}>
