@@ -290,3 +290,13 @@ em.g.n3 { border-color: color-mix(in srgb, var(--morado) 55%, transparent); }
 .cuenta > i { display: block; height: 100%; background: var(--acento); }
 .cuenta.corriendo > i { animation: agotar 3s linear forwards; }
 @keyframes agotar { from { width: 100% } to { width: 0 } }
+
+/* fila de controles que se desliza en vez de romperse en vertical */
+.tira {
+  display: flex; gap: 6; gap: 6px; align-items: center;
+  overflow-x: auto; overflow-y: hidden;
+  padding-bottom: 12px; margin-bottom: 2px;
+  scrollbar-width: none; -webkit-overflow-scrolling: touch;
+}
+.tira::-webkit-scrollbar { display: none; }
+.tira > * { flex: 0 0 auto; white-space: nowrap; }

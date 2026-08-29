@@ -97,21 +97,18 @@ export function Repaso() {
 
   return (
     <>
-      <div style={{ display: "flex", alignItems: "center", margin: "36px 0 10px" }}>
-        <div>
-          <p className="etiqueta" style={{ margin: 0 }}>Repaso · vencidas</p>
-          <p className="tenue" style={{ margin: 0 }}>
-            {i + 1} / {cola.length}
-            {atrasadas > cola.length && ` · ${atrasadas} en total`}
-            {hechas > 0 && ` · ${hechas} hoy`}
-          </p>
-        </div>
-        <div style={{ flex: 1 }} />
-        <BotonesRapidos compacto />
+      <div style={{ margin: "28px 0 10px" }}>
+        <p className="etiqueta" style={{ margin: 0 }}>Repaso · vencidas</p>
+        <p className="tenue" style={{ margin: 0 }}>
+          {i + 1} / {cola.length}
+          {atrasadas > cola.length && ` · ${atrasadas} en total`}
+          {hechas > 0 && ` · ${hechas} hoy`}
+        </p>
       </div>
 
-      {/* Filtro por nivel: en época de examen se repasa sólo lo que entra. */}
-      <div style={{ display: "flex", gap: 6, overflowX: "auto", paddingBottom: 12 }}>
+      {/* Una sola fila que se desliza: antes los botones se apretaban unos
+          contra otros y el texto acababa en vertical. */}
+      <div className="tira">
         <button className={`btn chico ${nivel === "todos" ? "encendido" : ""}`}
                 onClick={() => setNivel("todos")}>Todos</button>
         {NIVELES.map((n) => {
@@ -124,10 +121,12 @@ export function Repaso() {
             </button>
           );
         })}
+        <span style={{ width: 1, background: "var(--linea)", flex: "0 0 1px", margin: "0 2px" }} />
+        <BotonesRapidos compacto />
       </div>
 
       <div className="tarjeta" style={{ textAlign: "center", padding: "44px 20px" }}>
-        <Jp escritura={p.escritura} lectura={p.lectura} tam="grande" />
+        <Jp escritura={p.escritura} lectura={p.lectura} tam="grande" revelar={visible} />
         <div style={{ marginTop: 6 }}><BotonVoz texto={p.escritura} /></div>
 
         {significado || visible ? (

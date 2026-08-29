@@ -55,6 +55,8 @@ export type Kanji = {
   freq: number | null;
   en: string[]; es: string;
   on: string[]; kun: string[];
+  radicales: string[];
+  radicales_es?: string[];
   palabras: number[]; n_palabras: number;
 };
 

@@ -2,6 +2,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { Palabra, Unidad } from "@/lib/tipos";
 import { anotar } from "@/lib/progreso";
+import { BotonFurigana } from "./Ajustes";
 import { alCargarVoces, callar, decir, hayVozJaponesa } from "@/lib/voz";
 
 function mezclar<T>(a: T[]): T[] {
@@ -103,6 +104,7 @@ export function Escucha({ unidad, palabras, cerrar }: {
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(n / preguntas.length) * 100}%` }} />
         </div>
+        <BotonFurigana />
         <span className="tenue">{n + 1}/{preguntas.length}</span>
       </div>
 

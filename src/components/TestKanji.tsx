@@ -2,6 +2,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { Kanji } from "@/lib/tipos";
 import { anotar, medalla, registrarTest } from "@/lib/progreso";
+import { BotonFurigana } from "./Ajustes";
 
 const SEGUNDOS = 3;
 
@@ -126,6 +127,7 @@ export function TestKanji({ kanji, titulo, cerrar }: {
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(n / preguntas.length) * 100}%` }} />
         </div>
+        <BotonFurigana />
         <span className="tenue">{puntos} pt · {n + 1}/{preguntas.length}</span>
       </div>
 

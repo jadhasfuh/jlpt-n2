@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import type { Lectura } from "@/lib/tipos";
 import { JpHtml, JpEnLinea, BotonVoz } from "./Jp";
 import { callar, decir, enFrases, soloTexto } from "@/lib/voz";
+import { Ordenar } from "./Ordenar";
 
 /** Reproductor frase a frase, con el texto oculto. */
 function LectorCiego({ texto, frase, setFrase }: {
@@ -98,6 +99,8 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
           Contesta de oído; luego pulsa «Ver el texto» para comprobarlo.
         </p>
       )}
+
+      <Ordenar frases={enFrases(l.cuerpo)} traduccion={l.traduccion} />
 
       {l.preguntas?.length ? (
         <div className="tarjeta" style={{ marginTop: 12 }}>

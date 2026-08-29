@@ -39,14 +39,24 @@ for c, palabras in apariciones.items():
         "en": d.get("meanings", [])[:4],
         "on": [a_katakana(x) for x in d.get("readings_on", [])[:4]],
         "kun": d.get("readings_kun", [])[:4],
+        # De qué piezas se compone: reconocerlas es lo que hace que 2.000 kanji
+        # dejen de ser 2.000 dibujos distintos.
+        "radicales": (d.get("wk_radicals") or [])[:6],   # el campo llega a null
         "palabras": sorted(p["id"] for p in palabras)[:12],   # ejemplos de uso
         "n_palabras": len(palabras),
     })
 
 # frecuencia ascendente = más comunes primero; los que no la traen, al final
 catalogo.sort(key=lambda k: (PESO[k["curso"]], k["freq"] or 99999, k["char"]))
-pathlib.Path("data/build/kanji.json").write_text(
-    json.dumps(catalogo, ensure_ascii=False, indent=1), encoding="utf-8")
+# Reaprovecha las traducciones de radicales si ya se hicieron.
+anterior = pathlib.Path("data/build/kanji.json")
+if anterior.exists():
+    previo = {k["char"]: k.get("radicales_es") for k in json.loads(anterior.read_text(encoding="utf-8"))}
+    for k in catalogo:
+        if previo.get(k["char"]):
+            k["radicales_es"] = previo[k["char"]]
+
+anterior.write_text(json.dumps(catalogo, ensure_ascii=False, indent=1), encoding="utf-8")
 
 print(f"kanji en nuestro vocabulario: {len(catalogo)}")
 print("por nivel JLPT oficial:", dict(sorted(collections.Counter(k['nivel'] or 'fuera de JLPT' for k in catalogo).items())))

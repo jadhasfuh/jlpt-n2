@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Palabra, Unidad } from "@/lib/tipos";
 import { Jp } from "./Jp";
+import { BotonFurigana } from "./Ajustes";
 import { anotar, medalla, registrarTest } from "@/lib/progreso";
 
 function mezclar<T>(a: T[]): T[] {
@@ -90,6 +91,7 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(n / preguntas.length) * 100}%` }} />
         </div>
+        <BotonFurigana />
         <span className="tenue">{n + 1}/{preguntas.length}</span>
       </div>
 

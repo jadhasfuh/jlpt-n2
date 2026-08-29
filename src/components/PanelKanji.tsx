@@ -46,6 +46,11 @@ export function PanelKanji({ kanji, titulo }: { kanji: Kanji[]; titulo: string }
                 <span className="jp">音</span> {sel.on.join("・") || "—"}　
                 <span className="jp">訓</span> {sel.kun.join("・") || "—"}
               </p>
+              {sel.radicales?.length > 0 && (
+                <p className="tenue" style={{ margin: "8px 0 0" }}>
+                  Se compone de: <strong>{(sel.radicales_es ?? sel.radicales).join(" + ")}</strong>
+                </p>
+              )}
               <div style={{ marginTop: 10 }}>
                 <BotonVoz texto={sel.on[0] || sel.kun[0] || sel.char} etiqueta="escuchar" />
               </div>

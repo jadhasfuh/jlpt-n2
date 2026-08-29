@@ -5,10 +5,18 @@ import { colorearHtml } from "@/lib/colores";
 
 /** Texto japonés con furigana y kanji coloreados por nivel. Nunca romaji. */
 export function Jp({
-  escritura, lectura, clase = "", tam,
-}: { escritura: string; lectura?: string; clase?: string; tam?: "grande" | "medio" }) {
+  escritura, lectura, clase = "", tam, revelar = false,
+}: {
+  escritura: string; lectura?: string; clase?: string;
+  tam?: "grande" | "medio";
+  /** Enseña la lectura y el color aunque estén apagados: al «ver significado»
+   *  uno quiere ver la palabra entera, no media. Se apaga solo en la siguiente. */
+  revelar?: boolean;
+}) {
   const { furigana, colores } = useAjustes();
-  const cls = `jp ${tam ? `jp-${tam}` : ""} ${clase} ${furigana ? "" : "sin-furigana"} ${colores ? "" : "sin-colores"}`;
+  const verFurigana = furigana || revelar;
+  const verColores = colores || revelar;
+  const cls = `jp ${tam ? `jp-${tam}` : ""} ${clase} ${verFurigana ? "" : "sin-furigana"} ${verColores ? "" : "sin-colores"}`;
   const hayKanji = /[一-鿿]/.test(escritura);
   const base = colorearHtml(escritura);
 

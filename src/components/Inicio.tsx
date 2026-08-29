@@ -77,6 +77,17 @@ export function Inicio({ niveles, totales }: {
         </Link>
       )}
 
+      <Link href="/rapido" className="fila" style={{ marginBottom: 14 }}>
+        <div className="anillo" style={{ ["--pct" as string]: 100, ["--tono" as string]: "var(--verde)" }}>
+          <span style={{ fontSize: 17 }}>⏱</span>
+        </div>
+        <div style={{ flex: 1 }}>
+          <div style={{ fontWeight: 600 }}>Cinco minutos</div>
+          <div className="tenue">Repaso corto de lo que tienes más flojo</div>
+        </div>
+        <span className="flecha">›</span>
+      </Link>
+
       <div className="lista">
         {niveles.map((n) => (
           <Link key={n.id} href={`/n/${n.id}`} className="fila">

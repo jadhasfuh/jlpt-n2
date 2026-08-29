@@ -2,6 +2,7 @@
 import { useMemo, useState } from "react";
 import type { Gramatica, Palabra, Unidad } from "@/lib/tipos";
 import { Jp, BotonVoz } from "./Jp";
+import { BotonFurigana } from "./Ajustes";
 import { anotar, terminarPractica, XP_NUEVA, XP_UNIDAD } from "@/lib/progreso";
 
 type Carta =
@@ -93,6 +94,7 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(i / mazo.length) * 100}%` }} />
         </div>
+        <BotonFurigana />
         <span className="tenue">
           {segundaVuelta && "🔁 "}{i + 1}/{mazo.length}
         </span>
@@ -100,7 +102,7 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
 
       <div className="escena-centro">
         {c.tipo === "gramatica" && <span className="etiqueta">文法</span>}
-        <Jp escritura={c.frente} lectura={c.lectura} clase="jp-grande" />
+        <Jp escritura={c.frente} lectura={c.lectura} clase="jp-grande" revelar={visible} />
         <BotonVoz texto={c.frente} />
         {visible && (
           <>
