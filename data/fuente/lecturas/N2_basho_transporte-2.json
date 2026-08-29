@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/basho/transporte-2",
+ "titulo": "<ruby>乗換<rt>のりかえ</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>",
+ "cuerpo": "この<ruby>町<rt>まち</rt></ruby>に<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>し<em class=\"g\">て<ruby>以来<rt>いらい</rt></ruby></em>、<ruby>毎朝<rt>まいあさ</rt></ruby>おなじ<ruby>駅<rt>えき</rt></ruby>で<ruby>乗換<rt>のりかえ</rt></ruby>をしている。<ruby>人通<rt>ひとどお</rt></ruby>りの<ruby>多<rt>おお</rt></ruby>いホームで<ruby>時間割<rt>じかんわり</rt></ruby>を<ruby>見<rt>み</rt></ruby>ている<em class=\"g\">ところに</em>、<ruby>古<rt>ふる</rt></ruby>い<ruby>機関車<rt>きかんしゃ</rt></ruby>が<ruby>停車<rt>ていしゃ</rt></ruby>した。<ruby>窓<rt>まど</rt></ruby>が<ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>っていて、<ruby>歯車<rt>はぐるま</rt></ruby>まで<ruby>見<rt>み</rt></ruby>えた。<ruby>子<rt>こ</rt></ruby>どもが<ruby>風船<rt>ふうせん</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>走<rt>はし</rt></ruby>り、わたしを<ruby>追<rt>お</rt></ruby>い<ruby>越<rt>こ</rt></ruby>していった。",
+ "traduccion": "Desde que me mudé a este pueblo, cada mañana hago transbordo en la misma estación. Justo cuando miraba el horario en un andén con mucho tránsito de gente, se detuvo una locomotora vieja. Los cristales estaban tan transparentes que hasta se veían los engranajes. Un niño pasó corriendo con un globo y me adelantó.",
+ "preguntas": [
+  {
+   "p": "<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>何<rt>なに</rt></ruby>をしていますか。",
+   "opciones": [
+    "<ruby>乗換<rt>のりかえ</rt></ruby>",
+    "<ruby>停車<rt>ていしゃ</rt></ruby>",
+    "<ruby>輸送<rt>ゆそう</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>停車<rt>ていしゃ</rt></ruby>しましたか。",
+   "opciones": [
+    "<ruby>古<rt>ふる</rt></ruby>い<ruby>機関車<rt>きかんしゃ</rt></ruby>",
+    "<ruby>船<rt>ふね</rt></ruby>",
+    "<ruby>風船<rt>ふうせん</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>子<rt>こ</rt></ruby>どもは<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていましたか。",
+   "opciones": [
+    "<ruby>歯車<rt>はぐるま</rt></ruby>",
+    "<ruby>風船<rt>ふうせん</rt></ruby>",
+    "<ruby>時間割<rt>じかんわり</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

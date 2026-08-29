@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/basho/ubicacion-2",
+ "titulo": "<ruby>書留<rt>かきとめ</rt></ruby>を<ruby>出<rt>だ</rt></ruby>す",
+ "cuerpo": "<ruby>欧米<rt>おうべい</rt></ruby>の<ruby>友<rt>とも</rt></ruby>だちに<ruby>書留<rt>かきとめ</rt></ruby>を<ruby>送<rt>おく</rt></ruby>ることにした。<ruby>宛名<rt>あてな</rt></ruby>を<ruby>書<rt>か</rt></ruby>くとき、<ruby>区域<rt>くいき</rt></ruby>の<ruby>番号<rt>ばんごう</rt></ruby>が<ruby>分<rt>わ</rt></ruby>からず、<ruby>外部<rt>がいぶ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>に<ruby>聞<rt>き</rt></ruby>いた。<ruby>窓口<rt>まどぐち</rt></ruby>は<ruby>塞<rt>ふさ</rt></ruby>がっていて、<ruby>長<rt>なが</rt></ruby>い<ruby>列<rt>れつ</rt></ruby>に<ruby>挟<rt>はさ</rt></ruby>まったまま<ruby>待<rt>ま</rt></ruby>った。<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は「<ruby>温帯<rt>おんたい</rt></ruby>の<ruby>国<rt>くに</rt></ruby>なら<ruby>一週間<rt>いっしゅうかん</rt></ruby><em class=\"g\">に<ruby>決<rt>き</rt></ruby>まっている</em>」と<ruby>言<rt>い</rt></ruby>った。",
+ "traduccion": "Decidí enviar una carta certificada a un amigo de Occidente. Al escribir el destinatario no sabía el número de la zona y se lo pregunté a alguien de fuera. La ventanilla estaba ocupada y esperé atrapado en una fila larga. El empleado dijo: «si es a un país de zona templada, seguro que llega en una semana».",
+ "preguntas": [
+  {
+   "p": "だれに<ruby>書留<rt>かきとめ</rt></ruby>を<ruby>送<rt>おく</rt></ruby>りますか。",
+   "opciones": [
+    "<ruby>欧米<rt>おうべい</rt></ruby>の<ruby>友<rt>とも</rt></ruby>だち",
+    "<ruby>関西<rt>かんさい</rt></ruby>の<ruby>親<rt>おや</rt></ruby>",
+    "<ruby>外部<rt>がいぶ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりませんでしたか。",
+   "opciones": [
+    "<ruby>区域<rt>くいき</rt></ruby>の<ruby>番号<rt>ばんごう</rt></ruby>",
+    "<ruby>宛名<rt>あてな</rt></ruby>の<ruby>字<rt>じ</rt></ruby>",
+    "<ruby>限度<rt>げんど</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何日<rt>なんにち</rt></ruby>かかると<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "<ruby>三日<rt>みっか</rt></ruby>",
+    "<ruby>一週間<rt>いっしゅうかん</rt></ruby>",
+    "<ruby>一月<rt>いっかげつ</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

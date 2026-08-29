@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/basho/ubicacion-3",
+ "titulo": "<ruby>地図<rt>ちず</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で",
+ "cuerpo": "<em class=\"g\"><ruby>恐<rt>おそ</rt></ruby>らく</em>この<ruby>地点<rt>ちてん</rt></ruby>が<ruby>正面<rt>しょうめん</rt></ruby>の<ruby>入口<rt>いりぐち</rt></ruby>だろう。<ruby>敷地<rt>しきち</rt></ruby>の<ruby>周辺<rt>しゅうへん</rt></ruby>には<ruby>隙間<rt>すきま</rt></ruby>なく<ruby>木<rt>き</rt></ruby>が<ruby>植<rt>う</rt></ruby>えてある。<ruby>針路<rt>しんろ</rt></ruby>を<ruby>南<rt>みなみ</rt></ruby>に<ruby>取<rt>と</rt></ruby>れば、<ruby>頂点<rt>ちょうてん</rt></ruby>まで<ruby>三十分<rt>さんじゅっぷん</rt></ruby><ruby>前後<rt>ぜんご</rt></ruby>だ。<em class=\"g\"><ruby>幸<rt>さいわ</rt></ruby>いなことに</em>、<ruby>地名<rt>ちめい</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きく<ruby>書<rt>か</rt></ruby>いてあって<ruby>迷<rt>まよ</rt></ruby>わなかった。<ruby>中世<rt>ちゅうせい</rt></ruby>の<ruby>地帯<rt>ちたい</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>いている<ruby>気<rt>き</rt></ruby>がした。",
+ "traduccion": "Probablemente este punto sea la entrada principal. Alrededor del recinto hay árboles plantados sin dejar un hueco. Si tomo rumbo al sur, hasta la cima serán unos treinta minutos. Por suerte, los nombres de los lugares estaban escritos en grande y no me perdí. Tenía la sensación de estar caminando por una zona medieval.",
+ "preguntas": [
+  {
+   "p": "<ruby>針路<rt>しんろ</rt></ruby>をどちらに<ruby>取<rt>と</rt></ruby>りますか。",
+   "opciones": [
+    "<ruby>南<rt>みなみ</rt></ruby>",
+    "<ruby>北<rt>きた</rt></ruby>",
+    "<ruby>西<rt>にし</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>頂点<rt>ちょうてん</rt></ruby>まで、どのくらいかかりますか。",
+   "opciones": [
+    "<ruby>十分<rt>じゅっぷん</rt></ruby><ruby>前後<rt>ぜんご</rt></ruby>",
+    "<ruby>三十分<rt>さんじゅっぷん</rt></ruby><ruby>前後<rt>ぜんご</rt></ruby>",
+    "<ruby>二時間<rt>にじかん</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "どうして<ruby>迷<rt>まよ</rt></ruby>いませんでしたか。",
+   "opciones": [
+    "<ruby>地名<rt>ちめい</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きかったから",
+    "<ruby>人<rt>ひと</rt></ruby>に<ruby>聞<rt>き</rt></ruby>いたから",
+    "<ruby>地図<rt>ちず</rt></ruby>がなかったから"
+   ],
+   "correcta": 0
+  }
+ ]
+}

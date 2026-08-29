@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/basho/ubicacion-5",
+ "titulo": "<ruby>日当<rt>ひあ</rt></ruby>たりのいい<ruby>部屋<rt>へや</rt></ruby>",
+ "cuerpo": "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>し<em class=\"g\">にあたって</em>、<ruby>日当<rt>ひあ</rt></ruby>たりだけは<ruby>譲<rt>ゆず</rt></ruby>らないと<ruby>決<rt>き</rt></ruby>めていた。<ruby>新<rt>あたら</rt></ruby>しい<ruby>部屋<rt>へや</rt></ruby>は<ruby>五階<rt>ごかい</rt></ruby>で、<ruby>窓<rt>まど</rt></ruby>から<ruby>町<rt>まち</rt></ruby>を<ruby>見下<rt>みお</rt></ruby>ろせる。<ruby>机<rt>つくえ</rt></ruby>を<ruby>組<rt>く</rt></ruby>み<ruby>立<rt>た</rt></ruby>てているとき、<ruby>箱<rt>はこ</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>っ<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>してしまった。<ruby>猫<rt>ねこ</rt></ruby>はおどろいて<ruby>棚<rt>たな</rt></ruby>の<ruby>奥<rt>おく</rt></ruby>に<ruby>引<rt>ひ</rt></ruby>っ<ruby>込<rt>こ</rt></ruby>んだ。<ruby>追<rt>お</rt></ruby>い<ruby>掛<rt>か</rt></ruby>けずに、そっと<ruby>近付<rt>ちかづ</rt></ruby>けるのを<ruby>待<rt>ま</rt></ruby>った。",
+ "traduccion": "Al mudarme había decidido no ceder al menos en la luz del sol. El piso nuevo está en el quinto y desde la ventana se domina la ciudad. Mientras montaba el escritorio volqué una caja. El gato se asustó y se metió al fondo del estante. En vez de perseguirlo, esperé a poder acercarme despacio.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>譲<rt>ゆず</rt></ruby>らないと<ruby>決<rt>き</rt></ruby>めていましたか。",
+   "opciones": [
+    "<ruby>日当<rt>ひあ</rt></ruby>たり",
+    "<ruby>広<rt>ひろ</rt></ruby>さ",
+    "<ruby>家賃<rt>やちん</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>机<rt>つくえ</rt></ruby>を<ruby>組<rt>く</rt></ruby>み<ruby>立<rt>た</rt></ruby>てるとき<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>きましたか。",
+   "opciones": [
+    "<ruby>箱<rt>はこ</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>っ<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>した",
+    "<ruby>窓<rt>まど</rt></ruby>が<ruby>割<rt>わ</rt></ruby>れた",
+    "<ruby>猫<rt>ねこ</rt></ruby>が<ruby>出<rt>で</rt></ruby>ていった"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>猫<rt>ねこ</rt></ruby>をどうしましたか。",
+   "opciones": [
+    "<ruby>追<rt>お</rt></ruby>い<ruby>掛<rt>か</rt></ruby>けた",
+    "<ruby>待<rt>ま</rt></ruby>った",
+    "<ruby>呼<rt>よ</rt></ruby>んだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

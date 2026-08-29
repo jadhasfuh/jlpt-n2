@@ -18,7 +18,10 @@ unidades = json.load(open("data/dist/unidades.json", encoding="utf-8"))
 vocab = {p["id"]: p for p in json.load(open("data/dist/vocabulario.json", encoding="utf-8"))}
 gram = {g["id"]: g for g in json.load(open("data/dist/gramatica.json", encoding="utf-8"))}
 kanji = {k["char"]: k for k in json.load(open("data/dist/kanji.json", encoding="utf-8"))}
-hechas = {p.stem.replace("_", "/") for p in pathlib.Path("data/fuente/lecturas").glob("*.json")}
+# El id va DENTRO del archivo: derivarlo del nombre falla con subgrupos que
+# llevan guion bajo (ir_venir, dar_recibir, estado_cambio…).
+hechas = {json.loads(p.read_text(encoding="utf-8"))["unidad_id"]
+          for p in pathlib.Path("data/fuente/lecturas").glob("*.json")}
 
 # Prioridad: el nivel del examen primero, luego hacia abajo y hacia arriba.
 PRIORIDAD = ["N2", "N3", "N4", "N5", "N1"]

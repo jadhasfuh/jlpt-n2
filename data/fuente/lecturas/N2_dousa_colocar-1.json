@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/dousa/colocar-1",
+ "titulo": "<ruby>布<rt>ぬの</rt></ruby>を<ruby>被<rt>かぶ</rt></ruby>せる",
+ "cuerpo": "<ruby>冬<rt>ふゆ</rt></ruby>が<ruby>近<rt>ちか</rt></ruby>づくと、<ruby>庭<rt>にわ</rt></ruby>の<ruby>木<rt>き</rt></ruby>に<ruby>布<rt>ぬの</rt></ruby>を<ruby>被<rt>かぶ</rt></ruby>せる。<ruby>土<rt>つち</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>にも<ruby>古<rt>ふる</rt></ruby>い<ruby>紙<rt>かみ</rt></ruby>を<ruby>敷<rt>し</rt></ruby>いておく。<ruby>葉<rt>は</rt></ruby>にくっついた<ruby>雪<rt>ゆき</rt></ruby>は、<ruby>手<rt>て</rt></ruby>で<ruby>落<rt>お</rt></ruby>とす<em class=\"g\">ものではない</em>と<ruby>祖父<rt>そふ</rt></ruby>に<ruby>教<rt>おそ</rt></ruby>わった。<ruby>枝<rt>えだ</rt></ruby>が<ruby>折<rt>お</rt></ruby>れてしまうからだ。<ruby>春<rt>はる</rt></ruby>になって<ruby>布<rt>ぬの</rt></ruby>を<ruby>取<rt>と</rt></ruby>ると、<ruby>小<rt>ちい</rt></ruby>さな<ruby>芽<rt>め</rt></ruby>がくっついていた。",
+ "traduccion": "Cuando se acerca el invierno, cubro con una tela los árboles del jardín. También extiendo papel viejo sobre la tierra. Mi abuelo me enseñó que la nieve pegada a las hojas no se debe quitar con la mano: se rompen las ramas. Al llegar la primavera, cuando quité la tela, había pequeños brotes pegados.",
+ "preguntas": [
+  {
+   "p": "<ruby>冬<rt>ふゆ</rt></ruby>に<ruby>木<rt>き</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>被<rt>かぶ</rt></ruby>せますか。",
+   "opciones": [
+    "<ruby>布<rt>ぬの</rt></ruby>",
+    "<ruby>紙<rt>かみ</rt></ruby>",
+    "<ruby>土<rt>つち</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>雪<rt>ゆき</rt></ruby>を<ruby>手<rt>て</rt></ruby>で<ruby>落<rt>お</rt></ruby>とすとどうなりますか。",
+   "opciones": [
+    "<ruby>葉<rt>は</rt></ruby>が<ruby>落<rt>お</rt></ruby>ちる",
+    "<ruby>枝<rt>えだ</rt></ruby>が<ruby>折<rt>お</rt></ruby>れる",
+    "<ruby>芽<rt>め</rt></ruby>が<ruby>出<rt>で</rt></ruby>る"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>春<rt>はる</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "<ruby>小<rt>ちい</rt></ruby>さな<ruby>芽<rt>め</rt></ruby>",
+    "<ruby>雪<rt>ゆき</rt></ruby>",
+    "<ruby>古<rt>ふる</rt></ruby>い<ruby>紙<rt>かみ</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}
