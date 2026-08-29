@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/basho/ir_venir-1",
+ "titulo": "<ruby>朝<rt>あさ</rt></ruby>の<ruby>回<rt>まわ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>",
+ "cuerpo": "<ruby>出勤<rt>しゅっきん</rt></ruby>のとき、<ruby>工事<rt>こうじ</rt></ruby>で<ruby>道<rt>みち</rt></ruby>が<ruby>通<rt>とお</rt></ruby>れず、<ruby>回<rt>まわ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>をしました。<ruby>公園<rt>こうえん</rt></ruby>を<ruby>巡<rt>めぐ</rt></ruby>る<ruby>道<rt>みち</rt></ruby>で、<ruby>犬<rt>いぬ</rt></ruby>が<ruby>急<rt>きゅう</rt></ruby>に<ruby>飛<rt>と</rt></ruby>び<ruby>込<rt>こ</rt></ruby>んできて、わたしは<ruby>木<rt>き</rt></ruby>に<ruby>突<rt>つ</rt></ruby>き<ruby>当<rt>あ</rt></ruby>たりそうになりました。その<ruby>道<rt>みち</rt></ruby>は<ruby>朝<rt>あさ</rt></ruby><em class=\"g\">に<ruby>限<rt>かぎ</rt></ruby>らず</em>、<ruby>夜<rt>よる</rt></ruby>も<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いです。<ruby>通<rt>とお</rt></ruby>り<ruby>掛<rt>か</rt></ruby>かった<ruby>人<rt>ひと</rt></ruby>に<ruby>笑<rt>わら</rt></ruby>われ、<em class=\"g\">のみならず</em><ruby>荷物<rt>にもつ</rt></ruby>まで<ruby>散<rt>ち</rt></ruby>らかしてしまいました。",
+ "traduccion": "De camino al trabajo la calle estaba cortada por obras y tuve que dar un rodeo. En el camino que rodea el parque, un perro se me echó encima de golpe y por poco me doy contra un árbol. Ese camino no sólo por la mañana: también de noche tiene mucha gente. Alguien que pasaba por allí se rió de mí y, por si fuera poco, se me desparramó hasta el equipaje.",
+ "preguntas": [
+  {
+   "p": "どうして<ruby>回<rt>まわ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>雨<rt>あめ</rt></ruby>だったから",
+    "<ruby>工事<rt>こうじ</rt></ruby>で<ruby>通<rt>とお</rt></ruby>れなかったから",
+    "<ruby>犬<rt>いぬ</rt></ruby>がいたから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>公園<rt>こうえん</rt></ruby>の<ruby>道<rt>みち</rt></ruby>で<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>きましたか。",
+   "opciones": [
+    "<ruby>犬<rt>いぬ</rt></ruby>が<ruby>飛<rt>と</rt></ruby>び<ruby>込<rt>こ</rt></ruby>んできた",
+    "<ruby>車<rt>くるま</rt></ruby>が<ruby>止<rt>と</rt></ruby>まった",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>倒<rt>たお</rt></ruby>れた"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "その<ruby>道<rt>みち</rt></ruby>はいつ<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いですか。",
+   "opciones": [
+    "<ruby>朝<rt>あさ</rt></ruby>だけ",
+    "<ruby>夜<rt>よる</rt></ruby>だけ",
+    "<ruby>朝<rt>あさ</rt></ruby>も<ruby>夜<rt>よる</rt></ruby>も"
+   ],
+   "correcta": 2
+  }
+ ]
+}

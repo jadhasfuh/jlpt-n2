@@ -1,7 +1,7 @@
 {
  "unidad_id": "N3/hito/cuerpo-1",
  "titulo": "<ruby>発表<rt>はっぴょう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>",
- "cuerpo": "あしたは<ruby>発表<rt>はっぴょう</rt></ruby>です。<ruby>派手<rt>はで</rt></ruby>な<ruby>靴<rt>くつ</rt></ruby>を<ruby>履<rt>は</rt></ruby>くつもりでしたが、やめました。<ruby>額<rt>ひたい</rt></ruby>から<ruby>汗<rt>あせ</rt></ruby>が<ruby>出<rt>で</rt></ruby>て、<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>もします。<ruby>人差指<rt>ひとさしゆび</rt></ruby>で<ruby>紙<rt>かみ</rt></ruby>の<ruby>表面<rt>ひょうめん</rt></ruby>を<ruby>触<rt>さわ</rt></ruby>りながら、<ruby>膝<rt>ひざ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>で<ruby>手<rt>て</rt></ruby>を<ruby>合<rt>あ</rt></ruby>わせました。<ruby>終<rt>お</rt></ruby>わったら<ruby>拍手<rt>はくしゅ</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえて、<ruby>肌<rt>はだ</rt></ruby>まであたたかくなりました。",
+ "cuerpo": "あしたは<ruby>発表<rt>はっぴょう</rt></ruby>です。<ruby>派手<rt>はで</rt></ruby>な<ruby>靴<rt>くつ</rt></ruby>を<ruby>履<rt>は</rt></ruby>くつもりでしたが、やめました。<ruby>額<rt>ひたい</rt></ruby>からあせが<ruby>出<rt>で</rt></ruby>て、<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>もします。<ruby>人差指<rt>ひとさしゆび</rt></ruby>で<ruby>紙<rt>かみ</rt></ruby>の<ruby>表面<rt>ひょうめん</rt></ruby>を<ruby>触<rt>さわ</rt></ruby>りながら、<ruby>膝<rt>ひざ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>で<ruby>手<rt>て</rt></ruby>を<ruby>合<rt>あ</rt></ruby>わせました。<ruby>終<rt>お</rt></ruby>わったらはくしゅが<ruby>聞<rt>き</rt></ruby>こえて、<ruby>肌<rt>はだ</rt></ruby>まであたたかくなりました。",
  "traduccion": "Mañana tengo la presentación. Pensaba ponerme unos zapatos llamativos, pero lo dejé. Me sale sudor de la frente y hasta tengo náuseas. Mientras rozaba con el índice la superficie del papel, junté las manos sobre las rodillas. Cuando terminó, oí los aplausos y hasta la piel se me puso caliente.",
  "preguntas": [
   {
@@ -25,7 +25,7 @@
   {
    "p": "<ruby>終<rt>お</rt></ruby>わったあと、<ruby>何<rt>なに</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえましたか。",
    "opciones": [
-    "<ruby>拍手<rt>はくしゅ</rt></ruby>",
+    "はくしゅ",
     "<ruby>雨<rt>あめ</rt></ruby>の<ruby>音<rt>おと</rt></ruby>",
     "<ruby>声<rt>こえ</rt></ruby>"
    ],

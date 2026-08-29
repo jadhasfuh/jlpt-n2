@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/basho/viaje-1",
+ "titulo": "<ruby>出張<rt>しゅっちょう</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>",
+ "cuerpo": "<ruby>昨日<rt>きのう</rt></ruby>は<ruby>送別<rt>そうべつ</rt></ruby>の<ruby>会<rt>かい</rt></ruby>で<ruby>遅<rt>おそ</rt></ruby>くなり、<em class=\"g\">ろくに<ruby>寝<rt>ね</rt></ruby>ていない</em>。<ruby>道順<rt>みちじゅん</rt></ruby>を<ruby>確<rt>たし</rt></ruby>かめ<em class=\"g\">つつ</em><ruby>駅<rt>えき</rt></ruby>へ<ruby>急<rt>いそ</rt></ruby>いだが、<ruby>階段<rt>かいだん</rt></ruby>でつまずいてしまった。それでも<ruby>仲間<rt>なかま</rt></ruby>が<ruby>出迎<rt>でむか</rt></ruby>えてくれて<ruby>有難<rt>ありがた</rt></ruby>かった。<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>見学<rt>けんがく</rt></ruby>は<ruby>日帰<rt>ひがえ</rt></ruby>りで、<ruby>夜<rt>よる</rt></ruby>には<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>れた。<ruby>母<rt>はは</rt></ruby>が「お<ruby>帰<rt>かえ</rt></ruby>り」と<ruby>言<rt>い</rt></ruby>ってくれた。",
+ "traduccion": "Ayer se me hizo tarde en la cena de despedida y apenas he dormido. Iba hacia la estación comprobando el itinerario y me tropecé en las escaleras. Aun así, mis compañeros salieron a recibirme y se lo agradecí. La visita a la fábrica fue de ida y vuelta en el día, y por la noche pude volver a casa. Mi madre me dijo: «bienvenido».",
+ "preguntas": [
+  {
+   "p": "どうして<ruby>寝<rt>ね</rt></ruby>ていませんか。",
+   "opciones": [
+    "<ruby>出張<rt>しゅっちょう</rt></ruby>だから",
+    "<ruby>送別<rt>そうべつ</rt></ruby>の<ruby>会<rt>かい</rt></ruby>があったから",
+    "<ruby>工場<rt>こうじょう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>ったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>駅<rt>えき</rt></ruby>へ<ruby>急<rt>いそ</rt></ruby>ぐとき、<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "<ruby>階段<rt>かいだん</rt></ruby>でつまずいた",
+    "<ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>った",
+    "<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れた"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>見学<rt>けんがく</rt></ruby>は<ruby>何日<rt>なんにち</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>日帰<rt>ひがえ</rt></ruby>り",
+    "<ruby>二日<rt>ふつか</rt></ruby>",
+    "<ruby>一週間<rt>いっしゅうかん</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}
