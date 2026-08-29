@@ -24,9 +24,11 @@ const A_LA_VEZ = Number(arg("paralelo", 3));
 const VENTANA = 10;   // sesiones recientes cuyo vocabulario se lista explícitamente
 
 const leer = (n) => JSON.parse(readFileSync(new URL(`../data/dist/${n}.json`, import.meta.url), "utf8"));
-const niveles = leer("niveles");
+const unidades = leer("unidades");
 const vocab = new Map(leer("vocabulario").map((v) => [v.id, v]));
 const gram = new Map(leer("gramatica").map((g) => [g.id, g]));
+const kanji = new Map(leer("kanji").map((k) => [k.char, k]));
+const ORDEN = ["N5", "N4", "N3", "N2", "N1"];
 
 const sb = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_KEY,
                         { auth: { persistSession: false } });
@@ -48,6 +50,12 @@ estudiante hispanohablante que prepara el JLPT N2.
 
 Reglas, sin excepción:
 - El texto va ÍNTEGRAMENTE en japonés: kanji, hiragana y katakana. Nunca romaji.
+- **No uses ningún kanji de un nivel JLPT más difícil que el de esta unidad.**
+  Te doy abajo los kanji de la unidad; puedes usar además kanji del mismo nivel
+  o más fáciles, pero nunca por encima. Si necesitas una palabra cuyo kanji sea
+  demasiado difícil, escríbela en kana.
+- Marca la gramática que uses envolviéndola en <em class="g">…</em>, para que la
+  app la pueda resaltar.
 - Usa sobre todo el vocabulario y la gramática que te doy. Puedes apoyarte en
   vocabulario básico de N5/N4 (partículas, verbos comunes, números), pero no
   metas palabras avanzadas que el estudiante no ha visto.
@@ -62,16 +70,20 @@ Reglas, sin excepción:
 const compacta = (v) => `${v.escritura}（${v.lectura}）${v.es || v.en}`;
 
 async function generar(nivel) {
-  const idx = niveles.findIndex((n) => n.id === nivel.id);
-  const recientes = niveles.slice(Math.max(0, idx - VENTANA + 1), idx + 1);
+  const idx = unidades.findIndex((n) => n.id === nivel.id);
+  const recientes = unidades.slice(Math.max(0, idx - VENTANA + 1), idx + 1);
+  const kanjiUnidad = nivel.kanji ?? [];
   const palabras = recientes.flatMap((n) => n.palabras).map((i) => vocab.get(i)).filter(Boolean);
-  const gramVistas = niveles.slice(0, idx + 1).flatMap((n) => n.gramatica).map((i) => gram.get(i)).filter(Boolean);
+  const gramVistas = unidades.slice(0, idx + 1).flatMap((n) => n.gramatica).map((i) => gram.get(i)).filter(Boolean);
   const gramNueva = nivel.gramatica.map((i) => gram.get(i)).filter(Boolean);
 
   const contenido = [
-    `Tema de la sesión: ${nivel.titulo_ja} (${nivel.titulo_es}). Sesión ${nivel.numero}.`,
+    `Unidad: ${nivel.ja} (${nivel.es}), nivel ${nivel.nivel}.`,
     ``,
-    `VOCABULARIO DISPONIBLE (últimas ${recientes.length} sesiones):`,
+    `KANJI DE ESTA UNIDAD (${kanjiUnidad.length}): ${kanjiUnidad.join("")}`,
+    `NIVEL MÁXIMO DE KANJI PERMITIDO: ${nivel.nivel}`,
+    ``,
+    `VOCABULARIO DISPONIBLE (últimas ${recientes.length} unidades):`,
     palabras.map(compacta).join("\n"),
     ``,
     `GRAMÁTICA YA VISTA (${gramVistas.length} puntos):`,
@@ -94,9 +106,9 @@ async function generar(nivel) {
   return { ...r.parsed_output, uso: r.usage };
 }
 
-const objetivo = niveles.filter((n) => n.numero >= DESDE && n.numero <= HASTA);
-const { data: yaHechas } = await sb.from("lecturas").select("nivel_id");
-const hechas = new Set((yaHechas ?? []).map((r) => r.nivel_id));
+const objetivo = unidades.filter((u) => u.palabras.length > 0);
+const { data: yaHechas } = await sb.from("lecturas").select("unidad_id");
+const hechas = new Set((yaHechas ?? []).map((r) => r.unidad_id));
 const pendientes = objetivo.filter((n) => !hechas.has(n.id));
 
 console.log(`sesiones objetivo: ${objetivo.length} | ya generadas: ${objetivo.length - pendientes.length} | por generar: ${pendientes.length}`);
@@ -112,11 +124,11 @@ for (let i = 0; i < pendientes.length; i += A_LA_VEZ) {
       entrada += l.uso.input_tokens ?? 0;
       salida += l.uso.output_tokens ?? 0;
       const { error } = await sb.from("lecturas").upsert({
-        nivel_id: nivel.id, titulo: l.titulo, cuerpo: l.cuerpo,
+        unidad_id: nivel.id, titulo: l.titulo, cuerpo: l.cuerpo,
         traduccion: l.traduccion, preguntas: l.preguntas, modelo: MODELO,
       });
       if (error) throw new Error(error.message);
-      console.log(`  ✓ ${nivel.id} (sesión ${nivel.numero}) — ${l.titulo}`);
+      console.log(`  ✓ ${nivel.id} — ${l.titulo.replace(/<[^>]+>/g, "")}`);
     } catch (e) {
       errores++;
       console.error(`  ✗ ${nivel.id}: ${e.message}`);
