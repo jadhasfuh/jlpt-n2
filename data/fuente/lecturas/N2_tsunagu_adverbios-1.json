@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/tsunagu/adverbios-1",
+ "titulo": "にこにこ<ruby>待<rt>ま</rt></ruby>つ<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "<ruby>窓口<rt>まどぐち</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で、<ruby>人<rt>ひと</rt></ruby>がぎっしり<ruby>並<rt>なら</rt></ruby>んでいた。のろのろとしか<ruby>進<rt>すす</rt></ruby>まず、まごまごしている<ruby>人<rt>ひと</rt></ruby>もいる。<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はにこにこして、はきはきと<ruby>答<rt>こた</rt></ruby>えていた。<ruby>直前<rt>ちょくぜん</rt></ruby>になって、こっそり<ruby>列<rt>れつ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ろうとする<ruby>人<rt>ひと</rt></ruby>もいる。<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>い</rt></ruby>っ<em class=\"g\">てばかりはいられない</em>ので、さっさと<ruby>用事<rt>ようじ</rt></ruby>を<ruby>済<rt>す</rt></ruby>ませた。<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>ると、<ruby>空<rt>そら</rt></ruby>がぴかぴかで、<ruby>広々<rt>ひろびろ</rt></ruby>として<ruby>見<rt>み</rt></ruby>えた。",
+ "traduccion": "Delante de la ventanilla la gente estaba apretujada en fila. Sólo avanzaba lentísimo y había quien andaba hecho un lío. El empleado atendía sonriente y respondía con claridad. Justo antes de llegar, alguien intentaba colarse a escondidas. Como uno no puede estar sólo quejándose, despaché mi asunto rápido. Al salir, el cielo estaba reluciente y parecía enorme.",
+ "preguntas": [
+  {
+   "p": "<ruby>列<rt>れつ</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "のろのろ<ruby>進<rt>すす</rt></ruby>む",
+    "<ruby>速<rt>はや</rt></ruby>い",
+    "<ruby>短<rt>みじか</rt></ruby>い"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "にこにこしていた",
+    "<ruby>怒<rt>おこ</rt></ruby>っていた",
+    "いなかった"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>ると<ruby>空<rt>そら</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "ぴかぴか",
+    "<ruby>暗<rt>くら</rt></ruby>い",
+    "<ruby>雨<rt>あめ</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

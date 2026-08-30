@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/sonota/verbos-2",
+ "titulo": "<ruby>行列<rt>ぎょうれつ</rt></ruby>の<ruby>撮影<rt>さつえい</rt></ruby>",
+ "cuerpo": "<ruby>祭<rt>まつ</rt></ruby>りの<ruby>行列<rt>ぎょうれつ</rt></ruby>を<ruby>撮影<rt>さつえい</rt></ruby>する<ruby>係<rt>かかり</rt></ruby>になった。<ruby>司会<rt>しかい</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>道<rt>みち</rt></ruby>を<ruby>隔<rt>へだ</rt></ruby>てて<ruby>立<rt>た</rt></ruby>ち、<ruby>人<rt>ひと</rt></ruby>の<ruby>流<rt>なが</rt></ruby>れを<ruby>妨<rt>さまた</rt></ruby>げないようにする。<ruby>朝<rt>あさ</rt></ruby>は<ruby>凍<rt>こご</rt></ruby>えるほど<ruby>寒<rt>さむ</rt></ruby>く、<ruby>息<rt>いき</rt></ruby>が<ruby>白<rt>しろ</rt></ruby>く<ruby>蒸発<rt>じょうはつ</rt></ruby>していった。カメラが<ruby>詰<rt>つ</rt></ruby>まって<ruby>遅<rt>おく</rt></ruby>れ、<ruby>皆<rt>みな</rt></ruby>に<ruby>詫<rt>わ</rt></ruby>びた。<ruby>休<rt>やす</rt></ruby>みを<ruby>削<rt>けず</rt></ruby>っ<em class=\"g\">てまで</em><ruby>準備<rt>じゅんび</rt></ruby>したのだから、<ruby>最後<rt>さいご</rt></ruby>まで<ruby>撮<rt>と</rt></ruby>りたかった。",
+ "traduccion": "Me tocó ser el encargado de fotografiar la procesión de la fiesta. El presentador se colocó al otro lado de la calle para no entorpecer el paso de la gente. Por la mañana hacía un frío helador y el aliento se evaporaba blanco. La cámara se atascó, me retrasé y pedí disculpas a todos. Como había preparado esto hasta el punto de recortar mis descansos, quería fotografiarlo hasta el final.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>の<ruby>係<rt>かかり</rt></ruby>になりましたか。",
+   "opciones": [
+    "<ruby>撮影<rt>さつえい</rt></ruby>",
+    "<ruby>司会<rt>しかい</rt></ruby>",
+    "<ruby>行列<rt>ぎょうれつ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>朝<rt>あさ</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>凍<rt>こご</rt></ruby>えるほど<ruby>寒<rt>さむ</rt></ruby>い",
+    "<ruby>暖<rt>あたた</rt></ruby>かい",
+    "<ruby>雨<rt>あめ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "どうして<ruby>詫<rt>わ</rt></ruby>びましたか。",
+   "opciones": [
+    "カメラが<ruby>詰<rt>つ</rt></ruby>まって<ruby>遅<rt>おく</rt></ruby>れたから",
+    "<ruby>休<rt>やす</rt></ruby>んだから",
+    "<ruby>撮<rt>と</rt></ruby>れなかったから"
+   ],
+   "correcta": 0
+  }
+ ]
+}

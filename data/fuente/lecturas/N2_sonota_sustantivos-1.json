@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/sonota/sustantivos-1",
+ "titulo": "ロビーの<ruby>朝<rt>あさ</rt></ruby>",
+ "cuerpo": "ホテルのロビーに、<ruby>客<rt>きゃく</rt></ruby>がずらりと<ruby>並<rt>なら</rt></ruby>んでいた。<ruby>外<rt>そと</rt></ruby>でサイレンが<ruby>鳴<rt>な</rt></ruby>り、<ruby>行<rt>い</rt></ruby>く<em class=\"g\">ようか</em>やめる<em class=\"g\">まいか</em>と<ruby>迷<rt>まよ</rt></ruby>った。チップの<ruby>用意<rt>ようい</rt></ruby><em class=\"g\">だけは</em>しておこうと、<ruby>小銭<rt>こぜに</rt></ruby>を<ruby>数<rt>かぞ</rt></ruby>えた。マスクをした<ruby>人<rt>ひと</rt></ruby>が、あらすじだけ<ruby>教<rt>おし</rt></ruby>えてくれた。<ruby>工事<rt>こうじ</rt></ruby>の<ruby>音<rt>おと</rt></ruby>で<ruby>眠<rt>ねむ</rt></ruby>れず、<ruby>朝<rt>あさ</rt></ruby>からあくびが<ruby>止<rt>と</rt></ruby>まらない。",
+ "traduccion": "En el vestíbulo del hotel los clientes estaban puestos en fila. Fuera sonó una sirena y dudé entre ir o no ir. Pensé en preparar al menos la propina y conté las monedas. Una persona con mascarilla me contó por encima lo que pasaba. Con el ruido de las obras no pude dormir y desde la mañana no paro de bostezar.",
+ "preguntas": [
+  {
+   "p": "ロビーはどうでしたか。",
+   "opciones": [
+    "<ruby>客<rt>きゃく</rt></ruby>がずらりと<ruby>並<rt>なら</rt></ruby>んでいた",
+    "だれもいない",
+    "<ruby>静<rt>しず</rt></ruby>か"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>外<rt>そと</rt></ruby>で<ruby>何<rt>なに</rt></ruby>が<ruby>鳴<rt>な</rt></ruby>りましたか。",
+   "opciones": [
+    "サイレン",
+    "ダイヤル",
+    "テンポ"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "どうしてあくびが<ruby>出<rt>で</rt></ruby>ますか。",
+   "opciones": [
+    "<ruby>眠<rt>ねむ</rt></ruby>れなかったから",
+    "<ruby>退屈<rt>たいくつ</rt></ruby>だから",
+    "<ruby>寒<rt>さむ</rt></ruby>いから"
+   ],
+   "correcta": 0
+  }
+ ]
+}

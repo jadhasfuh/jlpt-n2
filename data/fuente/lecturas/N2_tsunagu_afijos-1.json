@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/tsunagu/afijos-1",
+ "titulo": "<ruby>荷物<rt>にもつ</rt></ruby>の<ruby>札<rt>ふだ</rt></ruby>",
+ "cuerpo": "<ruby>箱<rt>はこ</rt></ruby>に「<ruby>確認<rt>かくにん</rt></ruby><ruby>済<rt>ずみ</rt></ruby>」の<ruby>札<rt>ふだ</rt></ruby>を<ruby>貼<rt>は</rt></ruby>り、<ruby>子<rt>こ</rt></ruby>ども<ruby>向<rt>む</rt></ruby>けの<ruby>物<rt>もの</rt></ruby>だけ<ruby>分<rt>わ</rt></ruby>けた。<ruby>一<rt>ひと</rt></ruby>つずつ<ruby>数<rt>かぞ</rt></ruby>えると、<ruby>三十<rt>さんじゅう</rt></ruby>キロを<ruby>超<rt>こ</rt></ruby>えていた。<ruby>母<rt>はは</rt></ruby>は<ruby>昔<rt>むかし</rt></ruby>のまま、しわだらけのメモを<ruby>持<rt>も</rt></ruby>っている。それを<ruby>見<rt>み</rt></ruby>ると<ruby>手伝<rt>てつだ</rt></ruby>わ<em class=\"g\">ないではいられない</em>。<ruby>重<rt>おも</rt></ruby>くて<ruby>運<rt>はこ</rt></ruby>べない<ruby>気<rt>き</rt></ruby>もするが、<ruby>無理<rt>むり</rt></ruby>では<em class=\"g\">なくもない</em>。<ruby>三<rt>さん</rt></ruby><ruby>番目<rt>ばんめ</rt></ruby>の<ruby>箱<rt>はこ</rt></ruby>だけ、ほんの<ruby>少<rt>すこ</rt></ruby>し<ruby>軽<rt>かる</rt></ruby>かった。",
+ "traduccion": "Pegué en las cajas la etiqueta de «revisado» y separé sólo lo destinado a los niños. Contándolas de una en una, pasaban de treinta kilos. Mi madre sigue igual que siempre, con una nota llena de arrugas en la mano. Al verla, no puedo evitar echar una mano. Me da la sensación de que pesa demasiado para moverlo, aunque tampoco es que sea imposible. Sólo la tercera caja pesaba un poquito menos.",
+ "preguntas": [
+  {
+   "p": "<ruby>箱<rt>はこ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>貼<rt>は</rt></ruby>りましたか。",
+   "opciones": [
+    "「<ruby>確認<rt>かくにん</rt></ruby><ruby>済<rt>ずみ</rt></ruby>」の<ruby>札<rt>ふだ</rt></ruby>",
+    "<ruby>名前<rt>なまえ</rt></ruby>",
+    "メモ"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>全部<rt>ぜんぶ</rt></ruby>で<ruby>何<rt>なん</rt></ruby>キロを<ruby>超<rt>こ</rt></ruby>えましたか。",
+   "opciones": [
+    "<ruby>三十<rt>さんじゅう</rt></ruby>キロ",
+    "<ruby>十<rt>じゅっ</rt></ruby>キロ",
+    "<ruby>百<rt>ひゃっ</rt></ruby>キロ"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "どの<ruby>箱<rt>はこ</rt></ruby>が<ruby>軽<rt>かる</rt></ruby>かったですか。",
+   "opciones": [
+    "<ruby>三<rt>さん</rt></ruby><ruby>番目<rt>ばんめ</rt></ruby>",
+    "<ruby>一<rt>いち</rt></ruby><ruby>番目<rt>ばんめ</rt></ruby>",
+    "<ruby>最後<rt>さいご</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

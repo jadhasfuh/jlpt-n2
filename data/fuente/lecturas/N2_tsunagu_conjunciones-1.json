@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/tsunagu/conjunciones-1",
+ "titulo": "<ruby>問答<rt>もんどう</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>",
+ "cuerpo": "<ruby>会<rt>かい</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>に、<ruby>問答<rt>もんどう</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>があった。<ruby>利害<rt>りがい</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かれる<ruby>話<rt>はなし</rt></ruby>で、あれこれ<ruby>意見<rt>いけん</rt></ruby>が<ruby>出<rt>で</rt></ruby>た。<ruby>話<rt>はな</rt></ruby>し<ruby>方<rt>かた</rt></ruby><em class=\"g\">からして</em>、<ruby>準備<rt>じゅんび</rt></ruby>してきた<ruby>人<rt>ひと</rt></ruby>だとすぐ<ruby>分<rt>わ</rt></ruby>かった。<ruby>但<rt>ただ</rt></ruby>し、<ruby>来月<rt>らいげつ</rt></ruby><ruby>以降<rt>いこう</rt></ruby>のことは<ruby>何<rt>なに</rt></ruby>も<ruby>決<rt>き</rt></ruby>まっていない。ともかく、<ruby>早<rt>はや</rt></ruby>めに<ruby>知<rt>し</rt></ruby>らせておく<em class=\"g\">に<ruby>越<rt>こ</rt></ruby>したことはない</em>。そうして<ruby>皆<rt>みな</rt></ruby>は、<ruby>資料<rt>しりょう</rt></ruby><ruby>等<rt>など</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>帰<rt>かえ</rt></ruby>っていった。",
+ "traduccion": "Al final de la reunión hubo un turno de preguntas. Era un asunto donde los intereses se dividen, y salieron opiniones de todo tipo. Por la manera de hablar se notaba enseguida quién venía preparado. Eso sí, de lo que pase a partir del mes que viene no hay nada decidido. En cualquier caso, no hay nada mejor que avisar con tiempo. Y así, todos se fueron con la documentación y demás.",
+ "preguntas": [
+  {
+   "p": "<ruby>会<rt>かい</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "<ruby>問答<rt>もんどう</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>食事<rt>しょくじ</rt></ruby>",
+    "<ruby>休<rt>やす</rt></ruby>み"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>で<ruby>準備<rt>じゅんび</rt></ruby>してきた<ruby>人<rt>ひと</rt></ruby>だと<ruby>分<rt>わ</rt></ruby>かりましたか。",
+   "opciones": [
+    "<ruby>話<rt>はな</rt></ruby>し<ruby>方<rt>かた</rt></ruby>",
+    "<ruby>顔<rt>かお</rt></ruby>",
+    "<ruby>資料<rt>しりょう</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>来月<rt>らいげつ</rt></ruby><ruby>以降<rt>いこう</rt></ruby>のことは？",
+   "opciones": [
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>決<rt>き</rt></ruby>まっていない",
+    "<ruby>決<rt>き</rt></ruby>まった",
+    "<ruby>中止<rt>ちゅうし</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/sonota/verbos-3",
+ "titulo": "<ruby>図書館<rt>としょかん</rt></ruby>の<ruby>貸<rt>か</rt></ruby>し<ruby>出<rt>だ</rt></ruby>し",
+ "cuerpo": "<ruby>図書館<rt>としょかん</rt></ruby>の<ruby>工事<rt>こうじ</rt></ruby>が<ruby>長引<rt>ながび</rt></ruby>き、<ruby>貸<rt>か</rt></ruby>し<ruby>出<rt>だ</rt></ruby>しが<ruby>止<rt>と</rt></ruby>まっていた。<ruby>附属<rt>ふぞく</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>だけ<ruby>開<rt>あ</rt></ruby>いていて、<ruby>見慣<rt>みな</rt></ruby>れた<ruby>本<rt>ほん</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>し<ruby>置<rt>お</rt></ruby>いてある。<ruby>郵送<rt>ゆうそう</rt></ruby>でも<ruby>借<rt>か</rt></ruby>りられるようになり、この<ruby>制度<rt>せいど</rt></ruby>は<ruby>町中<rt>まちじゅう</rt></ruby>に<ruby>普及<rt>ふきゅう</rt></ruby>した。<ruby>待<rt>ま</rt></ruby>った<em class=\"g\"><ruby>甲斐<rt>かい</rt></ruby>があった</em>と、<ruby>皆<rt>みな</rt></ruby>が<ruby>言<rt>い</rt></ruby>っている。<ruby>閉会<rt>へいかい</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>に<ruby>瓶詰<rt>びんづめ</rt></ruby>のジュースが<ruby>配<rt>くば</rt></ruby>られたのは、ちょっとしたごほうび<em class=\"g\">というものだ</em>。",
+ "traduccion": "Las obras de la biblioteca se alargaron y el préstamo estuvo parado. Sólo estaba abierta la sala anexa, con unos pocos libros ya conocidos. Ahora también se puede pedir prestado por correo, y ese sistema se ha extendido por todo el pueblo. Todos dicen que valió la pena esperar. Que el día de clausura repartieran zumo embotellado, eso sí que es un pequeño premio.",
+ "preguntas": [
+  {
+   "p": "どうして<ruby>貸<rt>か</rt></ruby>し<ruby>出<rt>だ</rt></ruby>しが<ruby>止<rt>と</rt></ruby>まっていましたか。",
+   "opciones": [
+    "<ruby>工事<rt>こうじ</rt></ruby>が<ruby>長引<rt>ながび</rt></ruby>いたから",
+    "<ruby>本<rt>ほん</rt></ruby>がないから",
+    "<ruby>休<rt>やす</rt></ruby>みだから"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>今<rt>いま</rt></ruby>はどうやって<ruby>借<rt>か</rt></ruby>りられますか。",
+   "opciones": [
+    "<ruby>郵送<rt>ゆうそう</rt></ruby>でも",
+    "<ruby>店<rt>みせ</rt></ruby>で",
+    "<ruby>借<rt>か</rt></ruby>りられない"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>閉会<rt>へいかい</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>が<ruby>配<rt>くば</rt></ruby>られましたか。",
+   "opciones": [
+    "<ruby>瓶詰<rt>びんづめ</rt></ruby>のジュース",
+    "<ruby>本<rt>ほん</rt></ruby>",
+    "お<ruby>菓子<rt>かし</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

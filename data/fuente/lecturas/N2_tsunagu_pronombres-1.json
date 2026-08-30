@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/tsunagu/pronombres-1",
+ "titulo": "また<ruby>会<rt>あ</rt></ruby>う<ruby>日<rt>ひ</rt></ruby>まで",
+ "cuerpo": "<ruby>駅<rt>えき</rt></ruby>で<ruby>友<rt>とも</rt></ruby>だちを<ruby>見送<rt>みおく</rt></ruby>った。そういえば、<ruby>十年前<rt>じゅうねんまえ</rt></ruby>も<ruby>同<rt>おな</rt></ruby>じホームだった。「ありがとう」と<ruby>言<rt>い</rt></ruby>うと、「こちらこそ」と<ruby>返<rt>かえ</rt></ruby>ってきた。<ruby>泣<rt>な</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、なんて<ruby>正直<rt>しょうじき</rt></ruby>なのだろうと<ruby>思<rt>おも</rt></ruby>った。<ruby>私<rt>わたし</rt></ruby>は<ruby>泣<rt>な</rt></ruby>く<em class=\"g\">まい</em>と<ruby>決<rt>き</rt></ruby>めていたのに、<ruby>目<rt>め</rt></ruby>が<ruby>熱<rt>あつ</rt></ruby>くなった。「おげんきで」と<ruby>手<rt>て</rt></ruby>を<ruby>振<rt>ふ</rt></ruby>り、<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>見<rt>み</rt></ruby>えなくなるまで<ruby>立<rt>た</rt></ruby>っていた。",
+ "traduccion": "Despedí a un amigo en la estación. Ahora que lo pienso, hace diez años fue en el mismo andén. Cuando le dije «gracias», me respondió «gracias a ti». Al ver a alguien llorar, pensé qué sincera es la gente. Yo había decidido que no iba a llorar, y sin embargo se me calentaron los ojos. Dije «que te vaya bien» agitando la mano, y me quedé de pie hasta que el tren desapareció.",
+ "preguntas": [
+  {
+   "p": "どこで<ruby>見送<rt>みおく</rt></ruby>りましたか。",
+   "opciones": [
+    "<ruby>駅<rt>えき</rt></ruby>",
+    "<ruby>家<rt>いえ</rt></ruby>",
+    "<ruby>空港<rt>くうこう</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "「ありがとう」の<ruby>返事<rt>へんじ</rt></ruby>は？",
+   "opciones": [
+    "こちらこそ",
+    "おげんきで",
+    "そういえば"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "「<ruby>私<rt>わたし</rt></ruby>」は<ruby>何<rt>なに</rt></ruby>を<ruby>決<rt>き</rt></ruby>めていましたか。",
+   "opciones": [
+    "<ruby>泣<rt>な</rt></ruby>かないこと",
+    "<ruby>見送<rt>みおく</rt></ruby>らないこと",
+    "<ruby>待<rt>ま</rt></ruby>つこと"
+   ],
+   "correcta": 0
+  }
+ ]
+}

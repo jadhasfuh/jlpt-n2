@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/sonota/sustantivos-3",
+ "titulo": "<ruby>催<rt>もよお</rt></ruby>しの<ruby>案内<rt>あんない</rt></ruby>",
+ "cuerpo": "<ruby>高層<rt>こうそう</rt></ruby>ビルの<ruby>両側<rt>りょうがわ</rt></ruby>に、<ruby>矢印<rt>やじるし</rt></ruby>の<ruby>看板<rt>かんばん</rt></ruby>が<ruby>立<rt>た</rt></ruby>っている。<ruby>催<rt>もよお</rt></ruby>しの<ruby>見本<rt>みほん</rt></ruby>が<ruby>並<rt>なら</rt></ruby>び、<ruby>括弧<rt>かっこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>用途<rt>ようと</rt></ruby>が<ruby>書<rt>か</rt></ruby>いてある。<ruby>人命<rt>じんめい</rt></ruby>に<ruby>関<rt>かか</rt></ruby>わる<ruby>話<rt>はなし</rt></ruby>もあり、<ruby>間接<rt>かんせつ</rt></ruby>に<ruby>聞<rt>き</rt></ruby>いただけで<ruby>溜息<rt>ためいき</rt></ruby>が<ruby>出<rt>で</rt></ruby>た。<ruby>伝染<rt>でんせん</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐ<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>聞<rt>き</rt></ruby>かずに<ruby>帰<rt>かえ</rt></ruby>る<em class=\"g\">もんか</em>と<ruby>思<rt>おも</rt></ruby>い、<ruby>問<rt>と</rt></ruby>い<ruby>合<rt>あ</rt></ruby>わせた。<ruby>答<rt>こた</rt></ruby>えてくれたのは、<ruby>準備<rt>じゅんび</rt></ruby>を<ruby>重<rt>かさ</rt></ruby>ねてきた<ruby>人<rt>ひと</rt></ruby>たちの<ruby>力<rt>ちから</rt></ruby><em class=\"g\">にほかならない</em>。",
+ "traduccion": "A ambos lados del rascacielos hay carteles con flechas. Se alinean muestras del evento y entre paréntesis viene su utilidad. Había también asuntos que afectan a vidas humanas, y con sólo oírlo de forma indirecta se me escapó un suspiro. Pensando «¡cómo me voy a ir sin preguntar cómo se evita el contagio!», hice la consulta. Que me respondieran no es otra cosa que el mérito de quienes llevan tiempo preparándolo.",
+ "preguntas": [
+  {
+   "p": "<ruby>看板<rt>かんばん</rt></ruby>には<ruby>何<rt>なに</rt></ruby>がありますか。",
+   "opciones": [
+    "<ruby>矢印<rt>やじるし</rt></ruby>",
+    "<ruby>見本<rt>みほん</rt></ruby>",
+    "<ruby>括弧<rt>かっこ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>括弧<rt>かっこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>には<ruby>何<rt>なに</rt></ruby>が<ruby>書<rt>か</rt></ruby>いてありますか。",
+   "opciones": [
+    "<ruby>用途<rt>ようと</rt></ruby>",
+    "<ruby>値段<rt>ねだん</rt></ruby>",
+    "<ruby>名前<rt>なまえ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きに<ruby>問<rt>と</rt></ruby>い<ruby>合<rt>あ</rt></ruby>わせましたか。",
+   "opciones": [
+    "<ruby>伝染<rt>でんせん</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐ<ruby>方法<rt>ほうほう</rt></ruby>",
+    "<ruby>場所<rt>ばしょ</rt></ruby>",
+    "<ruby>時間<rt>じかん</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

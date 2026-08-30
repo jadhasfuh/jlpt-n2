@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/sonota/verbos-1",
+ "titulo": "<ruby>神社<rt>じんじゃ</rt></ruby>の<ruby>石段<rt>いしだん</rt></ruby>",
+ "cuerpo": "<ruby>神<rt>かみ</rt></ruby>を<ruby>祭<rt>まつ</rt></ruby>る<ruby>神社<rt>じんじゃ</rt></ruby>は、<ruby>石段<rt>いしだん</rt></ruby>を<ruby>上<rt>のぼ</rt></ruby>った<ruby>先<rt>さき</rt></ruby>にある。<ruby>太陽<rt>たいよう</rt></ruby>が<ruby>照<rt>て</rt></ruby>り、<ruby>影<rt>かげ</rt></ruby>が<ruby>斜<rt>なな</rt></ruby>めに<ruby>傾<rt>かたむ</rt></ruby>いていた。<ruby>木<rt>き</rt></ruby>の<ruby>根<rt>ね</rt></ruby>をまたぐたびにめまいがして、<ruby>何度<rt>なんど</rt></ruby>も<ruby>休<rt>やす</rt></ruby>んだ。<ruby>這<rt>は</rt></ruby>って<em class=\"g\">でも</em><ruby>上<rt>のぼ</rt></ruby>ると<ruby>誓<rt>ちか</rt></ruby>った<ruby>手前<rt>てまえ</rt></ruby>、ためらってはいられない。<ruby>鐘<rt>かね</rt></ruby>の<ruby>音<rt>おと</rt></ruby>が<ruby>響<rt>ひび</rt></ruby>き、<ruby>頂上<rt>ちょうじょう</rt></ruby>に<ruby>立<rt>た</rt></ruby>って<em class=\"g\">こそ</em><ruby>見<rt>み</rt></ruby>える<ruby>景色<rt>けしき</rt></ruby>があった。",
+ "traduccion": "El santuario donde se venera al dios está al final de una escalera de piedra. El sol pegaba y las sombras se inclinaban en diagonal. Cada vez que pasaba por encima de una raíz me mareaba, y descansé varias veces. Habiendo jurado que subiría aunque fuera a rastras, no podía andarme con dudas. Sonó una campana, y sólo estando arriba había un paisaje que se podía ver.",
+ "preguntas": [
+  {
+   "p": "<ruby>神社<rt>じんじゃ</rt></ruby>はどこにありますか。",
+   "opciones": [
+    "<ruby>石段<rt>いしだん</rt></ruby>の<ruby>先<rt>さき</rt></ruby>",
+    "<ruby>木<rt>き</rt></ruby>の<ruby>下<rt>した</rt></ruby>",
+    "<ruby>町<rt>まち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "どうして<ruby>何度<rt>なんど</rt></ruby>も<ruby>休<rt>やす</rt></ruby>みましたか。",
+   "opciones": [
+    "めまいがしたから",
+    "<ruby>暑<rt>あつ</rt></ruby>いから",
+    "<ruby>雨<rt>あめ</rt></ruby>だから"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>頂上<rt>ちょうじょう</rt></ruby>で<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "<ruby>景色<rt>けしき</rt></ruby>が<ruby>見<rt>み</rt></ruby>えた",
+    "<ruby>鐘<rt>かね</rt></ruby>を<ruby>鳴<rt>な</rt></ruby>らした",
+    "<ruby>人<rt>ひと</rt></ruby>に<ruby>会<rt>あ</rt></ruby>った"
+   ],
+   "correcta": 0
+  }
+ ]
+}
