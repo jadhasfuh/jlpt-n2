@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/shigoto/oficios-1",
+ "titulo": "<ruby>町<rt>まち</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>たち",
+ "cuerpo": "この<ruby>町<rt>まち</rt></ruby>には<ruby>大工<rt>だいく</rt></ruby>も<ruby>漁師<rt>りょうし</rt></ruby>も<ruby>職人<rt>しょくにん</rt></ruby>もいる。<ruby>朝<rt>あさ</rt></ruby>は<ruby>巡査<rt>じゅんさ</rt></ruby>が<ruby>警備<rt>けいび</rt></ruby>に<ruby>立<rt>た</rt></ruby>ち、<ruby>役人<rt>やくにん</rt></ruby>が<ruby>公表<rt>こうひょう</rt></ruby>の<ruby>紙<rt>かみ</rt></ruby>を<ruby>貼<rt>は</rt></ruby>る。<ruby>祭<rt>まつ</rt></ruby>りの<ruby>日<rt>ひ</rt></ruby><em class=\"g\">に<ruby>限<rt>かぎ</rt></ruby>って</em>、<ruby>役者<rt>やくしゃ</rt></ruby>やジャーナリストまで<ruby>集<rt>あつ</rt></ruby>まる。<ruby>私<rt>わたし</rt></ruby>はウエートレスだが、それは<ruby>今<rt>いま</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby><em class=\"g\">に<ruby>過<rt>す</rt></ruby>ぎない</em>。<ruby>学<rt>まな</rt></ruby>ぶことを<ruby>怠<rt>おこた</rt></ruby>らなければ、いつか<ruby>判事<rt>はんじ</rt></ruby>にもなれると<ruby>思<rt>おも</rt></ruby>っている。",
+ "traduccion": "En este pueblo hay carpinteros, pescadores y artesanos. Por la mañana el policía monta guardia y el funcionario pega los avisos oficiales. Justo los días de fiesta se juntan hasta actores y periodistas. Yo soy camarera, pero eso no es más que mi trabajo de ahora. Si no descuido el estudio, creo que algún día podré ser jueza.",
+ "preguntas": [
+  {
+   "p": "<ruby>朝<rt>あさ</rt></ruby>、<ruby>巡査<rt>じゅんさ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "<ruby>警備<rt>けいび</rt></ruby>に<ruby>立<rt>た</rt></ruby>つ",
+    "<ruby>紙<rt>かみ</rt></ruby>を<ruby>貼<rt>は</rt></ruby>る",
+    "<ruby>集<rt>あつ</rt></ruby>まる"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "いつ<ruby>役者<rt>やくしゃ</rt></ruby>が<ruby>集<rt>あつ</rt></ruby>まりますか。",
+   "opciones": [
+    "<ruby>祭<rt>まつ</rt></ruby>りの<ruby>日<rt>ひ</rt></ruby>",
+    "<ruby>毎日<rt>まいにち</rt></ruby>",
+    "<ruby>冬<rt>ふゆ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "「<ruby>私<rt>わたし</rt></ruby>」は<ruby>何<rt>なに</rt></ruby>になりたいですか。",
+   "opciones": [
+    "<ruby>判事<rt>はんじ</rt></ruby>",
+    "<ruby>大工<rt>だいく</rt></ruby>",
+    "<ruby>漁師<rt>りょうし</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

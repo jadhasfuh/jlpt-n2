@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/shizen/agua-1",
+ "titulo": "<ruby>滝<rt>たき</rt></ruby>までの<ruby>道<rt>みち</rt></ruby>",
+ "cuerpo": "<ruby>岬<rt>みさき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くに、<ruby>海洋<rt>かいよう</rt></ruby>を<ruby>見<rt>み</rt></ruby>おろせる<ruby>滝<rt>たき</rt></ruby>がある。<ruby>雨<rt>あめ</rt></ruby>のあとは<ruby>水<rt>みず</rt></ruby>があふれ、<ruby>水面<rt>すいめん</rt></ruby>ににじが<ruby>出<rt>で</rt></ruby>ることもある。<ruby>村<rt>むら</rt></ruby>は<ruby>去年<rt>きょねん</rt></ruby><ruby>断水<rt>だんすい</rt></ruby>したが、<ruby>地下水<rt>ちかすい</rt></ruby>のおかげで<ruby>助<rt>たす</rt></ruby>かった。<ruby>都会<rt>とかい</rt></ruby>に<ruby>住<rt>す</rt></ruby>んでいる<em class=\"g\">くせして</em>、<ruby>私<rt>わたし</rt></ruby>はここの<ruby>運河<rt>うんが</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>まで<ruby>覚<rt>おぼ</rt></ruby>えている。<ruby>噴水<rt>ふんすい</rt></ruby>の<ruby>水滴<rt>すいてき</rt></ruby>が<ruby>顔<rt>かお</rt></ruby>にかかると、<ruby>夏<rt>なつ</rt></ruby>が<ruby>来<rt>き</rt></ruby>たと<ruby>感<rt>かん</rt></ruby>じる。",
+ "traduccion": "Cerca del cabo hay una cascada desde la que se domina el océano. Después de la lluvia el agua se desborda y a veces sale un arcoíris sobre la superficie. El año pasado el pueblo se quedó sin agua, pero se salvó gracias al agua subterránea. A pesar de vivir en la ciudad, yo me sé hasta el nombre del canal de aquí. Cuando las gotas de la fuente me salpican la cara, siento que ha llegado el verano.",
+ "preguntas": [
+  {
+   "p": "<ruby>滝<rt>たき</rt></ruby>からは<ruby>何<rt>なに</rt></ruby>が<ruby>見<rt>み</rt></ruby>えますか。",
+   "opciones": [
+    "<ruby>海洋<rt>かいよう</rt></ruby>",
+    "<ruby>運河<rt>うんが</rt></ruby>",
+    "<ruby>噴水<rt>ふんすい</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>去年<rt>きょねん</rt></ruby><ruby>村<rt>むら</rt></ruby>は<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>きましたか。",
+   "opciones": [
+    "<ruby>断水<rt>だんすい</rt></ruby>",
+    "<ruby>大雨<rt>おおあめ</rt></ruby>",
+    "<ruby>火事<rt>かじ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>のおかげで<ruby>助<rt>たす</rt></ruby>かりましたか。",
+   "opciones": [
+    "<ruby>地下水<rt>ちかすい</rt></ruby>",
+    "<ruby>滝<rt>たき</rt></ruby>",
+    "<ruby>雨<rt>あめ</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ]
+}

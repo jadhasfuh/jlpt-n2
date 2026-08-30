@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/shizen/tierra-1",
+ "titulo": "<ruby>平野<rt>へいや</rt></ruby>の<ruby>牧場<rt>ぼくじょう</rt></ruby>",
+ "cuerpo": "<ruby>緯度<rt>いど</rt></ruby>の<ruby>高<rt>たか</rt></ruby>い<ruby>平野<rt>へいや</rt></ruby>に、<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>牧場<rt>ぼくじょう</rt></ruby>がある。<ruby>田<rt>たん</rt></ruby>ぼも<ruby>耕地<rt>こうち</rt></ruby>も<ruby>広<rt>ひろ</rt></ruby>く、<ruby>遠<rt>とお</rt></ruby>くに<ruby>火山<rt>かざん</rt></ruby>と<ruby>森林<rt>しんりん</rt></ruby>が<ruby>見<rt>み</rt></ruby>える。<ruby>土地<rt>とち</rt></ruby>は<ruby>平<rt>たい</rt></ruby>らに<ruby>見<rt>み</rt></ruby>える<em class=\"g\"><ruby>反面<rt>はんめん</rt></ruby></em>、ところどころ<ruby>凹<rt>へこ</rt></ruby>んでいる。<ruby>地盤<rt>じばん</rt></ruby>が<ruby>弱<rt>よわ</rt></ruby>い<em class=\"g\">からと<ruby>言<rt>い</rt></ruby>って</em>、<ruby>建<rt>た</rt></ruby>てられないわけではないと<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>言<rt>い</rt></ruby>う。<ruby>電柱<rt>でんちゅう</rt></ruby>の<ruby>先<rt>さき</rt></ruby>まで<ruby>無地<rt>むじ</rt></ruby>の<ruby>空<rt>そら</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>き、<ruby>赤道<rt>せきどう</rt></ruby>が<ruby>遠<rt>とお</rt></ruby>いことを<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>す。",
+ "traduccion": "En una llanura de latitud alta está el prado de mi abuela. Los arrozales y las tierras de cultivo son amplios, y a lo lejos se ven un volcán y el bosque. El terreno parece plano, pero por otro lado está hundido en algunos puntos. Mi abuela dice que por el hecho de que el suelo sea flojo no significa que no se pueda construir. Hasta más allá de los postes se extiende un cielo liso, y uno se acuerda de lo lejos que queda el ecuador.",
+ "preguntas": [
+  {
+   "p": "<ruby>牧場<rt>ぼくじょう</rt></ruby>はどこにありますか。",
+   "opciones": [
+    "<ruby>平野<rt>へいや</rt></ruby>",
+    "<ruby>森林<rt>しんりん</rt></ruby>",
+    "<ruby>火山<rt>かざん</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>土地<rt>とち</rt></ruby>はどうですか。",
+   "opciones": [
+    "ところどころ<ruby>凹<rt>へこ</rt></ruby>んでいる",
+    "<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>平<rt>たい</rt></ruby>ら",
+    "<ruby>山<rt>やま</rt></ruby>ばかり"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。",
+   "opciones": [
+    "<ruby>建<rt>た</rt></ruby>てられないわけではない",
+    "<ruby>建<rt>た</rt></ruby>てられない",
+    "<ruby>危<rt>あぶ</rt></ruby>ない"
+   ],
+   "correcta": 0
+  }
+ ]
+}

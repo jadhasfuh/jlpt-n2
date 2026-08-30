@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/shigoto/sociedad-1",
+ "titulo": "<ruby>公衆<rt>こうしゅう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で",
+ "cuerpo": "<ruby>大学<rt>だいがく</rt></ruby>で<ruby>人文科学<rt>じんぶんかがく</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をすることになった。<ruby>難<rt>むずか</rt></ruby>しい<ruby>言葉<rt>ことば</rt></ruby>を<em class=\"g\"><ruby>抜<rt>ぬ</rt></ruby>きにして</em>、だれにでも<ruby>分<rt>わ</rt></ruby>かるように<ruby>話<rt>はな</rt></ruby>したい。<ruby>芸能<rt>げいのう</rt></ruby>の<ruby>番組<rt>ばんぐみ</rt></ruby>のように、<ruby>例<rt>れい</rt></ruby>を<ruby>先<rt>さき</rt></ruby>に<ruby>出<rt>だ</rt></ruby>す。<ruby>次<rt>つぎ</rt></ruby>に<ruby>理由<rt>りゆう</rt></ruby>、<ruby>最後<rt>さいご</rt></ruby>に<ruby>結論<rt>けつろん</rt></ruby><em class=\"g\">というふうに</em><ruby>並<rt>なら</rt></ruby>べる。<ruby>公衆<rt>こうしゅう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>は<ruby>苦手<rt>にがて</rt></ruby>だが、<ruby>順序<rt>じゅんじょ</rt></ruby>が<ruby>決<rt>き</rt></ruby>まれば<ruby>怖<rt>こわ</rt></ruby>くない。",
+ "traduccion": "Me tocó dar una charla de humanidades en la universidad. Dejando de lado las palabras difíciles, quiero hablar de forma que lo entienda cualquiera. Como en los programas de entretenimiento, pongo primero los ejemplos. Luego las razones y al final la conclusión: los ordeno de esa manera. Hablar en público se me da mal, pero si el orden está decidido no da miedo.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をしますか。",
+   "opciones": [
+    "<ruby>人文科学<rt>じんぶんかがく</rt></ruby>",
+    "<ruby>芸能<rt>げいのう</rt></ruby>",
+    "<ruby>公衆<rt>こうしゅう</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>先<rt>さき</rt></ruby>に<ruby>出<rt>だ</rt></ruby>しますか。",
+   "opciones": [
+    "<ruby>例<rt>れい</rt></ruby>",
+    "<ruby>結論<rt>けつろん</rt></ruby>",
+    "<ruby>理由<rt>りゆう</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "どうすれば<ruby>怖<rt>こわ</rt></ruby>くないですか。",
+   "opciones": [
+    "<ruby>順序<rt>じゅんじょ</rt></ruby>が<ruby>決<rt>き</rt></ruby>まれば",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なければ",
+    "<ruby>短<rt>みじか</rt></ruby>ければ"
+   ],
+   "correcta": 0
+  }
+ ]
+}

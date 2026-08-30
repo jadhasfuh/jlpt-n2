@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/shizen/materia-1",
+ "titulo": "<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>見学<rt>けんがく</rt></ruby>",
+ "cuerpo": "<ruby>煉瓦<rt>れんが</rt></ruby>の<ruby>工場<rt>こうじょう</rt></ruby>を<ruby>見学<rt>けんがく</rt></ruby>し、リポートを<ruby>書<rt>か</rt></ruby>くことになった。<ruby>原料<rt>げんりょう</rt></ruby>の<ruby>成分<rt>せいぶん</rt></ruby>を<ruby>混合<rt>こんごう</rt></ruby>し、<ruby>圧縮<rt>あっしゅく</rt></ruby>してから<ruby>火口<rt>かこう</rt></ruby>で<ruby>焼<rt>や</rt></ruby>く。<ruby>温度<rt>おんど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>すぎると<ruby>焦<rt>こ</rt></ruby>げるので、<ruby>初歩<rt>しょほ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>必<rt>かなら</rt></ruby>ず<ruby>見<rt>み</rt></ruby>てもらう。<ruby>木材<rt>もくざい</rt></ruby><em class=\"g\">にしろ</em><ruby>鉱物<rt>こうぶつ</rt></ruby><em class=\"g\">にしろ</em>、<ruby>材料<rt>ざいりょう</rt></ruby>の<ruby>性質<rt>せいしつ</rt></ruby>を<ruby>知<rt>し</rt></ruby>らないと<ruby>作<rt>つく</rt></ruby>れない。<ruby>液体<rt>えきたい</rt></ruby><em class=\"g\">にしても</em><ruby>固体<rt>こたい</rt></ruby><em class=\"g\">にしても</em>、<ruby>標本<rt>ひょうほん</rt></ruby>を<ruby>見<rt>み</rt></ruby>るのがいちばん<ruby>早<rt>はや</rt></ruby>い。",
+ "traduccion": "Visitamos una fábrica de ladrillos y tocaba escribir un informe. Se mezclan los componentes de la materia prima, se comprimen y luego se cuecen en el horno. Si la temperatura es demasiado alta se queman, así que a los principiantes siempre se les supervisa. Ya sea madera, ya sean minerales, sin conocer las propiedades del material no se puede fabricar. Tanto si es líquido como si es sólido, lo más rápido es mirar una muestra.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>の<ruby>工場<rt>こうじょう</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>煉瓦<rt>れんが</rt></ruby>",
+    "<ruby>木材<rt>もくざい</rt></ruby>",
+    "セメント"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>温度<rt>おんど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>すぎるとどうなりますか。",
+   "opciones": [
+    "<ruby>焦<rt>こ</rt></ruby>げる",
+    "<ruby>固<rt>かた</rt></ruby>くなる",
+    "<ruby>割<rt>わ</rt></ruby>れる"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "いちばん<ruby>早<rt>はや</rt></ruby>い<ruby>方法<rt>ほうほう</rt></ruby>は？",
+   "opciones": [
+    "<ruby>標本<rt>ひょうほん</rt></ruby>を<ruby>見<rt>み</rt></ruby>る",
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む",
+    "<ruby>聞<rt>き</rt></ruby>く"
+   ],
+   "correcta": 0
+  }
+ ]
+}

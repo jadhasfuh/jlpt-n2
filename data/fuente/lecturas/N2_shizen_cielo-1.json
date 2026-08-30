@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/shizen/cielo-1",
+ "titulo": "<ruby>三日月<rt>みかづき</rt></ruby>の<ruby>晩<rt>ばん</rt></ruby>",
+ "cuerpo": "<ruby>屋根<rt>やね</rt></ruby>に<ruby>上<rt>あが</rt></ruby>って<ruby>空<rt>そら</rt></ruby>を<ruby>見<rt>み</rt></ruby>ると、<ruby>三日月<rt>みかづき</rt></ruby>が<ruby>水平線<rt>すいへいせん</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>出<rt>で</rt></ruby>ていた。<ruby>昼<rt>ひる</rt></ruby>は<ruby>陽射<rt>ひざ</rt></ruby>しが<ruby>強<rt>つよ</rt></ruby>く、<ruby>日陰<rt>ひかげ</rt></ruby>を<ruby>探<rt>さが</rt></ruby>すのが<ruby>大変<rt>たいへん</rt></ruby>だった。<ruby>星<rt>ほし</rt></ruby>を<ruby>見<rt>み</rt></ruby>るどころか、<ruby>雲<rt>くも</rt></ruby>で<ruby>何<rt>なに</rt></ruby>も<ruby>見<rt>み</rt></ruby>えない<ruby>晩<rt>ばん</rt></ruby>も<ruby>多<rt>おお</rt></ruby>い。<ruby>今夜<rt>こんや</rt></ruby>は<ruby>光線<rt>こうせん</rt></ruby>が<ruby>弱<rt>よわ</rt></ruby>く、<ruby>空中<rt>くうちゅう</rt></ruby>に<ruby>薄<rt>うす</rt></ruby>い<ruby>雲<rt>くも</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>っているだけだ。<ruby>引力<rt>いんりょく</rt></ruby>や<ruby>重力<rt>じゅうりょく</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をする<em class=\"g\">どころではない</em>ほど、ただ<ruby>静<rt>しず</rt></ruby>かだった。",
+ "traduccion": "Al subir al tejado y mirar el cielo, la luna nueva asomaba sobre el horizonte. De día el sol pegaba fuerte y costaba encontrar sombra. Hay muchas noches en que, lejos de ver estrellas, no se ve nada por las nubes. Esta noche la luz es tenue y sólo queda una nube fina en el aire. Estaba todo tan callado que no era momento de ponerse a hablar de gravedad.",
+ "preguntas": [
+  {
+   "p": "<ruby>空<rt>そら</rt></ruby>に<ruby>何<rt>なに</rt></ruby>が<ruby>出<rt>で</rt></ruby>ていましたか。",
+   "opciones": [
+    "<ruby>三日月<rt>みかづき</rt></ruby>",
+    "<ruby>虹<rt>にじ</rt></ruby>",
+    "<ruby>星<rt>ほし</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>昼<rt>ひる</rt></ruby>は<ruby>何<rt>なに</rt></ruby>が<ruby>大変<rt>たいへん</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>日陰<rt>ひかげ</rt></ruby>を<ruby>探<rt>さが</rt></ruby>すこと",
+    "<ruby>屋根<rt>やね</rt></ruby>に<ruby>上<rt>あが</rt></ruby>ること",
+    "<ruby>星<rt>ほし</rt></ruby>を<ruby>見<rt>み</rt></ruby>ること"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>今夜<rt>こんや</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>静<rt>しず</rt></ruby>かだった",
+    "うるさかった",
+    "<ruby>雨<rt>あめ</rt></ruby>だった"
+   ],
+   "correcta": 0
+  }
+ ]
+}

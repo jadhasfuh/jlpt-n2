@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/shizen/desastre-1",
+ "titulo": "<ruby>噴火<rt>ふんか</rt></ruby>のあと",
+ "cuerpo": "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>噴火<rt>ふんか</rt></ruby>のあと、<ruby>町<rt>まち</rt></ruby>は<ruby>物騒<rt>ぶっそう</rt></ruby>になった。<ruby>道<rt>みち</rt></ruby>が<ruby>通<rt>とお</rt></ruby>れなくなり、<ruby>食料<rt>しょくりょう</rt></ruby>が<ruby>届<rt>とど</rt></ruby>かず、<ruby>飢饉<rt>ききん</rt></ruby>が<ruby>心配<rt>しんぱい</rt></ruby>された。<ruby>大<rt>おお</rt></ruby>きな<ruby>災難<rt>さいなん</rt></ruby><em class=\"g\">にも<ruby>関<rt>かか</rt></ruby>わらず</em>、<ruby>人<rt>ひと</rt></ruby>は<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>いていた。<ruby>年<rt>とし</rt></ruby><em class=\"g\">を<ruby>問<rt>と</rt></ruby>わず</em>、<ruby>皆<rt>みな</rt></ruby>が<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>び、<ruby>動物<rt>どうぶつ</rt></ruby>も<ruby>外<rt>そと</rt></ruby>へ<ruby>逃<rt>に</rt></ruby>がした。<ruby>今<rt>いま</rt></ruby>は<ruby>道<rt>みち</rt></ruby>の<ruby>拡張<rt>かくちょう</rt></ruby>が<ruby>進<rt>すす</rt></ruby>み、<ruby>前<rt>まえ</rt></ruby>より<ruby>安全<rt>あんぜん</rt></ruby>になったという。",
+ "traduccion": "Después de la erupción del año pasado, el pueblo se volvió inseguro. Las carreteras quedaron cortadas, no llegaban alimentos y se temió una hambruna. A pesar de un desastre tan grande, la gente mantuvo la calma. Sin importar la edad, todos cargaron con bultos y también soltaron a los animales fuera. Ahora avanza la ampliación de la carretera y dicen que está más seguro que antes.",
+ "preguntas": [
+  {
+   "p": "<ruby>去年<rt>きょねん</rt></ruby><ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "<ruby>噴火<rt>ふんか</rt></ruby>",
+    "<ruby>地震<rt>じしん</rt></ruby>",
+    "<ruby>火事<rt>かじ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>心配<rt>しんぱい</rt></ruby>されましたか。",
+   "opciones": [
+    "<ruby>飢饉<rt>ききん</rt></ruby>",
+    "<ruby>雨<rt>あめ</rt></ruby>",
+    "<ruby>動物<rt>どうぶつ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>今<rt>いま</rt></ruby>はどうなっていますか。",
+   "opciones": [
+    "<ruby>前<rt>まえ</rt></ruby>より<ruby>安全<rt>あんぜん</rt></ruby>",
+    "<ruby>危<rt>あぶ</rt></ruby>ない",
+    "<ruby>同<rt>おな</rt></ruby>じ"
+   ],
+   "correcta": 0
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "unidad_id": "N2/shizen/animales-1",
+ "titulo": "<ruby>猫<rt>ねこ</rt></ruby>の<ruby>爪<rt>つめ</rt></ruby>",
+ "cuerpo": "うちの<ruby>猫<rt>ねこ</rt></ruby>は、しっぽを<ruby>立<rt>た</rt></ruby>てて<ruby>歩<rt>ある</rt></ruby>く。<ruby>爪<rt>つめ</rt></ruby>を<ruby>切<rt>き</rt></ruby>るのは<ruby>大変<rt>たいへん</rt></ruby>で、<ruby>嫌<rt>いや</rt></ruby>がって<ruby>逃<rt>に</rt></ruby>げる。<ruby>雨<rt>あめ</rt></ruby><em class=\"g\">にせよ</em><ruby>雪<rt>ゆき</rt></ruby><em class=\"g\">にしろ</em>、<ruby>朝<rt>あさ</rt></ruby>は<ruby>必<rt>かなら</rt></ruby>ず<ruby>外<rt>そと</rt></ruby>へ<ruby>出<rt>で</rt></ruby>たがる。<ruby>冬<rt>ふゆ</rt></ruby>のあいだ、<ruby>私<rt>わたし</rt></ruby>は<ruby>編物<rt>あみもの</rt></ruby>をしながら<ruby>猫<rt>ねこ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つ。<ruby>父<rt>ちち</rt></ruby>は<ruby>競馬<rt>けいば</rt></ruby>の<ruby>番組<rt>ばんぐみ</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>二人<rt>ふたり</rt></ruby>とも<ruby>静<rt>しず</rt></ruby>かな<ruby>午後<rt>ごご</rt></ruby>を<ruby>過<rt>す</rt></ruby>ごす。",
+ "traduccion": "Nuestro gato camina con la cola levantada. Cortarle las uñas cuesta lo suyo: se resiste y huye. Llueva o nieve, por la mañana siempre quiere salir. Durante el invierno yo tejo mientras lo espero. Mi padre ve el programa de carreras de caballos, y los dos pasamos una tarde tranquila.",
+ "preguntas": [
+  {
+   "p": "<ruby>猫<rt>ねこ</rt></ruby>はどう<ruby>歩<rt>ある</rt></ruby>きますか。",
+   "opciones": [
+    "しっぽを<ruby>立<rt>た</rt></ruby>てて",
+    "ゆっくり",
+    "<ruby>走<rt>はし</rt></ruby>って"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>爪<rt>つめ</rt></ruby>を<ruby>切<rt>き</rt></ruby>るとどうなりますか。",
+   "opciones": [
+    "<ruby>逃<rt>に</rt></ruby>げる",
+    "<ruby>喜<rt>よろこ</rt></ruby>ぶ",
+    "<ruby>寝<rt>ね</rt></ruby>る"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>冬<rt>ふゆ</rt></ruby>、「<ruby>私<rt>わたし</rt></ruby>」は<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "<ruby>編物<rt>あみもの</rt></ruby>",
+    "<ruby>競馬<rt>けいば</rt></ruby>を<ruby>見<rt>み</rt></ruby>る",
+    "<ruby>外<rt>そと</rt></ruby>へ<ruby>出<rt>で</rt></ruby>る"
+   ],
+   "correcta": 0
+  }
+ ]
+}
