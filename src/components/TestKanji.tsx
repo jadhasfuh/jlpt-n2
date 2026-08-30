@@ -144,6 +144,12 @@ export function TestKanji({ kanji, titulo, cerrar }: {
         {fase !== "significado" && (
           <p className="silencio" style={{ margin: 0 }}>{sig(q.correcto)}</p>
         )}
+        {elegido !== null && (
+          <p className="tenue revelado" style={{ margin: 0 }}>
+            <span className="jp">音</span> {q.correcto.on.join("・") || "—"}　
+            <span className="jp">訓</span> {q.correcto.kun.join("・") || "—"}
+          </p>
+        )}
         {fase === "lectura" && (
           <div className={`cuenta ${elegido === null ? "corriendo" : ""}`}><i /></div>
         )}

@@ -97,7 +97,10 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
       </div>
 
       <div className="escena-centro">
-        <Jp escritura={q.palabra.escritura} lectura={q.palabra.lectura} clase="jp-grande" />
+        {/* Al responder se enseña la lectura y el color aunque estén apagados:
+            si fallas, lo útil es ver la palabra entera, no media. */}
+        <Jp escritura={q.palabra.escritura} lectura={q.palabra.lectura}
+            clase="jp-grande" revelar={elegida !== null} />
       </div>
 
       <div className="opciones" style={{ margin: "0 auto" }}>
