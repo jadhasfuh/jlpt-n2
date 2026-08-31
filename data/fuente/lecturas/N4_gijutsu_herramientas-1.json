@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/gijutsu/herramientas-1",
+ "titulo": "<ruby>墨<rt>すみ</rt></ruby>のにおい",
+ "cuerpo": "しゅうじのきょうしつに<ruby>通<rt>かよ</rt></ruby>い<ruby>始<rt>はじ</rt></ruby>めました。<ruby>墨<rt>すみ</rt></ruby>のにおいは、<ruby>子<rt>こ</rt></ruby>どものころをおもいださせます。<ruby>手<rt>て</rt></ruby>がよごれた<em class=\"g\">場合は</em>、すぐに<ruby>洗<rt>あら</rt></ruby>わないと<ruby>落<rt>お</rt></ruby>ちません。<ruby>先生<rt>せんせい</rt></ruby>は「<ruby>字<rt>じ</rt></ruby>がまがった<em class=\"g\">場合は</em>、けさずにさいごまで<ruby>書<rt>か</rt></ruby>きなさい」と<ruby>教<rt>おし</rt></ruby>えてくれました。<ruby>紙<rt>かみ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>では、やりなおせないことのほうがおおいのです。だからこそ、<ruby>書<rt>か</rt></ruby>き<ruby>始<rt>はじ</rt></ruby>めるまえにいきをととのえます。",
+ "traduccion": "Empecé a ir a clases de caligrafía. El olor de la tinta me trae la infancia. Si te manchas las manos, no se quita si no te las lavas enseguida. La profesora me enseñó: «si el trazo te sale torcido, no lo borres: llégate hasta el final». Sobre el papel hay más cosas que no se pueden rehacer que al contrario. Precisamente por eso, antes de empezar a escribir uno acompasa la respiración.",
+ "preguntas": [
+  {
+   "p": "<ruby>手<rt>て</rt></ruby>がよごれたら、どうしなければなりませんか。",
+   "opciones": [
+    "けす",
+    "すぐに<ruby>洗<rt>あら</rt></ruby>う",
+    "さいごまで<ruby>書<rt>か</rt></ruby>く",
+    "<ruby>何<rt>なに</rt></ruby>もしない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>字<rt>じ</rt></ruby>がまがったら、<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>教<rt>おし</rt></ruby>えましたか。",
+   "opciones": [
+    "やりなおす",
+    "けさずにさいごまで<ruby>書<rt>か</rt></ruby>く",
+    "<ruby>墨<rt>すみ</rt></ruby>をかえる",
+    "やめる"
+   ],
+   "correcta": 1
+  }
+ ]
+}

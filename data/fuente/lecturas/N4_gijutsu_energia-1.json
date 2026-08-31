@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/gijutsu/energia-1",
+ "titulo": "<ruby>光<rt>ひかり</rt></ruby>のちから",
+ "cuerpo": "<ruby>夏<rt>なつ</rt></ruby>のあいだ、<ruby>冷房<rt>れいぼう</rt></ruby>をつけっぱなしにしていました。でんきだいを<ruby>見<rt>み</rt></ruby>て、おどろきました。それからは、<ruby>昼<rt>ひる</rt></ruby>のあいだ<ruby>電灯<rt>でんとう</rt></ruby>を<em class=\"g\">あまり</em>つけ<em class=\"g\">ない</em>ようにしています。まどのカーテンを<ruby>開<rt>あ</rt></ruby>けると、しぜんの<ruby>光<rt>ひかり</rt></ruby>だけで<ruby>十分<rt>じゅうぶん</rt></ruby>あかるいのです。よるも、<ruby>力<rt>ちから</rt></ruby>のよわい<ruby>灯<rt>ひ</rt></ruby>のほうが<ruby>目<rt>め</rt></ruby>にやさしいと<ruby>気<rt>き</rt></ruby>づきました。でんきを<em class=\"g\">あまり</em>つかわ<em class=\"g\">ない</em>くらしは、<ruby>思<rt>おも</rt></ruby>っていたよりふべんではありません。",
+ "traduccion": "Durante el verano dejé el aire acondicionado encendido todo el rato. Al ver la factura me llevé un susto. Desde entonces procuro no encender mucho la luz durante el día. Si abro las cortinas, con la luz natural ya hay claridad de sobra. También me di cuenta de que por la noche una luz tenue cansa menos la vista. Vivir sin gastar mucha electricidad no resulta tan incómodo como pensaba.",
+ "preguntas": [
+  {
+   "p": "なぜ、<ruby>電灯<rt>でんとう</rt></ruby>を<em class=\"g\">あまり</em>つけ<em class=\"g\">ない</em>ようにしていますか。",
+   "opciones": [
+    "<ruby>目<rt>め</rt></ruby>がいたいから",
+    "でんきだいにおどろいたから",
+    "<ruby>光<rt>ひかり</rt></ruby>がきらいだから",
+    "カーテンがないから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "よるについて、<ruby>何<rt>なに</rt></ruby>に<ruby>気<rt>き</rt></ruby>づきましたか。",
+   "opciones": [
+    "あかるいほうがいい",
+    "<ruby>力<rt>ちから</rt></ruby>のよわい<ruby>灯<rt>ひ</rt></ruby>のほうが<ruby>目<rt>め</rt></ruby>にやさしい",
+    "<ruby>冷房<rt>れいぼう</rt></ruby>がひつよう",
+    "でんきはいらない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

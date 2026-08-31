@@ -69,6 +69,24 @@ for l in lecturas:
         leves += 1
         print(f"  ·  {uid:<28} {len(blandos):2d} aún no vistos pero del nivel o más fáciles: {''.join(blandos)}")
 
+# El marcado se escribe como {漢字|かんじ} y lo convierte scripts/rubi.py. Si algo
+# se cuela a medio convertir (<rt>字|じ</rt>, o llaves sueltas), el furigana sale
+# mal en pantalla y hasta ahora nadie lo miraba.
+import re as _re
+rotas = 0
+for l in lecturas:
+    trozos = [l["titulo"], l["cuerpo"]]
+    for q in l.get("preguntas", []):
+        trozos.append(q["p"]); trozos += q["opciones"]
+    for t in trozos:
+        if any(c in m for m in _re.findall(r"<rt>([^<]*)</rt>", t) for c in "|{}") \
+           or _re.search(r"\{[^}]*\|", t):
+            print(f"  ✗ {l['unidad_id']}: marcado a medio convertir")
+            rotas += 1
+            break
+if rotas:
+    print(f"  lecturas con marcado roto: {rotas}")
+
 print(f"\nlecturas revisadas: {len(lecturas)}")
 print(f"  con kanji por encima del nivel (hay que corregir): {graves}")
 print(f"  sólo con kanji adelantados pero del nivel o menos:  {leves}")

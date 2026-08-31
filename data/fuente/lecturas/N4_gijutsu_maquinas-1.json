@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/gijutsu/maquinas-1",
+ "titulo": "<ruby>機械<rt>きかい</rt></ruby>になれる<ruby>頃<rt>ころ</rt></ruby>",
+ "cuerpo": "<ruby>会社<rt>かいしゃ</rt></ruby>にあたらしい<ruby>機械<rt>きかい</rt></ruby>が<ruby>入<rt>はい</rt></ruby>りました。はじめの<ruby>頃<rt>ころ</rt></ruby>は、みんなこわがってさわりませんでした。<ruby>説明<rt>せつめい</rt></ruby>の<ruby>紙<rt>かみ</rt></ruby>はあついし、<ruby>器械<rt>きかい</rt></ruby>のことばはむずかしいです。<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby><ruby>経<rt>た</rt></ruby>った<ruby>頃<rt>ころ</rt></ruby>、だれかが「エスカレーターとおなじで、のってしまえばはこんでくれる」と<ruby>言<rt>い</rt></ruby>いました。たしかにそのとおりで、<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>をおぼえるより、<ruby>使<rt>つか</rt></ruby>ってみるほうがはやかったのです。",
+ "traduccion": "Llegó una máquina nueva a la oficina. Al principio todos le teníamos miedo y no la tocábamos. El manual es grueso y el vocabulario técnico es difícil. Al cabo de un mes, alguien dijo: «es como una escalera mecánica: si te subes, ella te lleva». Y era exactamente así: resultó más rápido usarla que aprenderse cómo se usa.",
+ "preguntas": [
+  {
+   "p": "はじめの<ruby>頃<rt>ころ</rt></ruby>、みんなはどうでしたか。",
+   "opciones": [
+    "すぐに<ruby>使<rt>つか</rt></ruby>った",
+    "こわがってさわらなかった",
+    "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだ",
+    "よろこんだ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "だれかは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むべきだ",
+    "のってしまえばはこんでくれる",
+    "むずかしすぎる",
+    "<ruby>古<rt>ふる</rt></ruby>い<ruby>機械<rt>きかい</rt></ruby>がいい"
+   ],
+   "correcta": 1
+  }
+ ]
+}
