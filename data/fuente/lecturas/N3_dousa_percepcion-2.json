@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/dousa/percepcion-2",
+ "titulo": "<ruby>騒音<rt>そうおん</rt></ruby>のなかの<ruby>静<rt>しず</rt></ruby>けさ",
+ "cuerpo": "<ruby>引<rt>ひ</rt></ruby>っこした<ruby>先<rt>さき</rt></ruby>は、<ruby>大通<rt>おおどお</rt></ruby>りのそばでした。はじめは<ruby>騒音<rt>そうおん</rt></ruby>が<ruby>気<rt>き</rt></ruby>になって、ねむれませんでした。<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>もすると、<ruby>物音<rt>ものおと</rt></ruby>が<ruby>気<rt>き</rt></ruby>にならなくなりました。<ruby>人<rt>ひと</rt></ruby>のからだはなれるものだ<em class=\"g\">ということだ</em>と<ruby>思<rt>おも</rt></ruby>います。でも、いなかへ<ruby>行<rt>い</rt></ruby>った<ruby>日<rt>ひ</rt></ruby>、あまりに<ruby>静<rt>しず</rt></ruby>かで、かえってねむれませんでした。<em class=\"g\">一体</em>、わたしにとってのしずけさとは<ruby>何<rt>なん</rt></ruby>だったのでしょう。<ruby>常識<rt>じょうしき</rt></ruby>では、<ruby>静<rt>しず</rt></ruby>かなほうがよくねむれるはずです。<ruby>様子<rt>ようす</rt></ruby>をみて、<ruby>知恵<rt>ちえ</rt></ruby>をしぼって、けっきょくラジオを<ruby>小<rt>ちい</rt></ruby>さくかけてねました。",
+ "traduccion": "Me mudé a un sitio junto a una avenida grande. Al principio el ruido me molestaba y no podía dormir. Al cabo de un mes dejé de notarlo. Creo que eso significa que el cuerpo humano se acostumbra. Pero el día que fui al campo, era tan silencioso que, al revés, no pude dormir. ¿Qué diablos era el silencio para mí? Según el sentido común, se debería dormir mejor cuanto más silencio. Observando la situación y exprimiendo el ingenio, acabé durmiéndome con la radio puesta bajita.",
+ "preguntas": [
+  {
+   "p": "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>すると、どうなりましたか。",
+   "opciones": [
+    "もっと<ruby>気<rt>き</rt></ruby>になった",
+    "<ruby>物音<rt>ものおと</rt></ruby>が<ruby>気<rt>き</rt></ruby>にならなくなった",
+    "ひっこした",
+    "ねむれなくなった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いなかで、どうしてねむれませんでしたか。",
+   "opciones": [
+    "<ruby>騒音<rt>そうおん</rt></ruby>がうるさいから",
+    "あまりに<ruby>静<rt>しず</rt></ruby>かだから",
+    "ラジオがないから",
+    "<ruby>知<rt>し</rt></ruby>らない<ruby>場所<rt>ばしょ</rt></ruby>だから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

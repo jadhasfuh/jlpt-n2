@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/gakkou/escuela-1",
+ "titulo": "<ruby>奨学金<rt>しょうがくきん</rt></ruby>のこと",
+ "cuerpo": "<ruby>大学<rt>だいがく</rt></ruby>に<ruby>通<rt>かよ</rt></ruby>うために、<ruby>奨学金<rt>しょうがくきん</rt></ruby>を<ruby>受<rt>う</rt></ruby>けました。<ruby>単位<rt>たんい</rt></ruby>を<ruby>一定<rt>いってい</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>とらないと、<ruby>次<rt>つぎ</rt></ruby>の<ruby>学期<rt>がっき</rt></ruby>に<ruby>続<rt>つづ</rt></ruby>かないという<ruby>条<rt>じょう</rt></ruby>けんつきです。<em class=\"g\">もしも</em>おとしていた<em class=\"g\">ら</em>、<ruby>通学<rt>つうがく</rt></ruby>そのものができなくなっていたでしょう。<ruby>同<rt>おな</rt></ruby>じ<ruby>寮<rt>りょう</rt></ruby>の<ruby>後輩<rt>こうはい</rt></ruby>にその<ruby>話<rt>はなし</rt></ruby>をすると、<em class=\"g\">まるで</em>じぶんのことのようにしんぱいしてくれました。<ruby>教授<rt>きょうじゅ</rt></ruby>に<ruby>相談<rt>そうだん</rt></ruby>して、<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>科目<rt>かもく</rt></ruby>からじゅんに<ruby>取<rt>と</rt></ruby>ることにしました。<ruby>学問<rt>がくもん</rt></ruby>をつづけられるのは、<ruby>当<rt>あ</rt></ruby>たり<ruby>前<rt>まえ</rt></ruby>のことではありません。",
+ "traduccion": "Para poder ir a la universidad me dieron una beca. Va con la condición de aprobar cierto número de créditos: si no, no continúa el siguiente cuatrimestre. Si los hubiera suspendido, me habría quedado sin poder ir siquiera a clase. Cuando se lo conté a un compañero más joven de la residencia, se preocupó como si fuera cosa suya. Lo consulté con un profesor y decidí ir cogiendo primero las asignaturas importantes. Poder seguir estudiando no es algo que se dé por hecho.",
+ "preguntas": [
+  {
+   "p": "<ruby>奨学金<rt>しょうがくきん</rt></ruby>の<ruby>条<rt>じょう</rt></ruby>けんは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>寮<rt>りょう</rt></ruby>にすむこと",
+    "<ruby>単位<rt>たんい</rt></ruby>を<ruby>一定<rt>いってい</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>とること",
+    "<ruby>教授<rt>きょうじゅ</rt></ruby>に<ruby>相談<rt>そうだん</rt></ruby>すること",
+    "<ruby>通学<rt>つうがく</rt></ruby>すること"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>後輩<rt>こうはい</rt></ruby>はどうしましたか。",
+   "opciones": [
+    "わらった",
+    "<em class=\"g\">まるで</em>じぶんのことのようにしんぱいした",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった",
+    "<ruby>教授<rt>きょうじゅ</rt></ruby>に<ruby>話<rt>はな</rt></ruby>した"
+   ],
+   "correcta": 1
+  }
+ ]
+}

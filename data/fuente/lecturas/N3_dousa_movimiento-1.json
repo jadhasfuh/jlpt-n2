@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/dousa/movimiento-1",
+ "titulo": "ボールを<ruby>蹴<rt>け</rt></ruby>る",
+ "cuerpo": "はじめてサッカーをした<ruby>日<rt>ひ</rt></ruby>、ボールを<ruby>蹴<rt>け</rt></ruby>っても、まっすぐ<ruby>飛<rt>と</rt></ruby>びませんでした。<ruby>足<rt>あし</rt></ruby>のどこに<ruby>当<rt>あ</rt></ruby>てるかで、<ruby>方向<rt>ほうこう</rt></ruby>がぜんぜんちがうのです。<ruby>基本<rt>きほん</rt></ruby>を<ruby>習<rt>なら</rt></ruby>っ<em class=\"g\">てからでないと</em>、つよく<ruby>蹴<rt>け</rt></ruby>っても<ruby>意味<rt>いみ</rt></ruby>がありません。<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>、まっすぐ<ruby>蹴<rt>け</rt></ruby>るれんしゅうだけをしました。つまらないと<ruby>感<rt>かん</rt></ruby>じましたが、それができ<em class=\"g\">てからでないと</em>、つぎへは<ruby>進<rt>すす</rt></ruby>めません。いまは、ねらったところへ<ruby>飛<rt>と</rt></ruby>ぶようになりました。",
+ "traduccion": "El día que jugué al fútbol por primera vez, aunque le daba a la pelota, no salía recta. Según con qué parte del pie la golpees, la dirección cambia por completo. Si no aprendes lo básico primero, de nada sirve chutar fuerte. Durante un mes solo practiqué darle recto. Me pareció aburrido, pero hasta que no consigues eso no puedes pasar a lo siguiente. Ahora sale hacia donde apunto.",
+ "preguntas": [
+  {
+   "p": "ボールがまっすぐ<ruby>飛<rt>と</rt></ruby>ばなかったのはなぜですか。",
+   "opciones": [
+    "ちからがないから",
+    "<ruby>足<rt>あし</rt></ruby>のどこに<ruby>当<rt>あ</rt></ruby>てるかで<ruby>方向<rt>ほうこう</rt></ruby>がちがうから",
+    "ボールがわるいから",
+    "かぜのせい"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "つよく<ruby>蹴<rt>け</rt></ruby>るれんしゅう",
+    "まっすぐ<ruby>蹴<rt>け</rt></ruby>るれんしゅう",
+    "<ruby>試合<rt>しあい</rt></ruby>",
+    "<ruby>休<rt>やす</rt></ruby>んだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

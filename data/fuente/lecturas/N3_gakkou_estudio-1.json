@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/gakkou/estudio-1",
+ "titulo": "<ruby>努力<rt>どりょく</rt></ruby>と<ruby>才能<rt>さいのう</rt></ruby>",
+ "cuerpo": "「あの<ruby>人<rt>ひと</rt></ruby>は<ruby>才能<rt>さいのう</rt></ruby>があるから」と<ruby>言<rt>い</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>がいます。でも、<ruby>語学<rt>ごがく</rt></ruby>でも<ruby>体育<rt>たいいく</rt></ruby>でも、<ruby>訓練<rt>くんれん</rt></ruby>をつづけた<ruby>人<rt>ひと</rt></ruby>がのびるのを<ruby>何度<rt>なんど</rt></ruby>も<ruby>見<rt>み</rt></ruby>てきました。<ruby>知識<rt>ちしき</rt></ruby>をふやすだけでは<ruby>理解<rt>りかい</rt></ruby>には<ruby>達<rt>たっ</rt></ruby>しません。<ruby>学習<rt>がくしゅう</rt></ruby>のけいかくを<ruby>検討<rt>けんとう</rt></ruby>して、じっさいに<ruby>実行<rt>じっこう</rt></ruby>することが<ruby>必要<rt>ひつよう</rt></ruby>です。<ruby>能力<rt>のうりょく</rt></ruby>のちがいはある<em class=\"g\">にしても</em>、<ruby>努力<rt>どりょく</rt></ruby>のぶんは<ruby>必<rt>かなら</rt></ruby>ずのこります。<ruby>才能<rt>さいのう</rt></ruby>がない<em class=\"g\">にしても</em>、つづけられることじたいが<ruby>一<rt>ひと</rt></ruby>つの<ruby>才能<rt>さいのう</rt></ruby>です。",
+ "traduccion": "Hay quien dice «es que esa persona tiene talento». Pero, ya sea en idiomas o en educación física, he visto muchas veces que quien progresa es quien mantiene el entrenamiento. Aumentar los conocimientos no basta para llegar a comprender. Hace falta revisar el plan de estudio y llevarlo de verdad a la práctica. Aunque existan diferencias de capacidad, lo que pones de esfuerzo siempre queda. Aunque no tengas talento, poder mantenerlo es en sí mismo una forma de talento.",
+ "preguntas": [
+  {
+   "p": "<ruby>知識<rt>ちしき</rt></ruby>をふやすだけでは、どうですか。",
+   "opciones": [
+    "<ruby>理解<rt>りかい</rt></ruby>に<ruby>達<rt>たっ</rt></ruby>する",
+    "<ruby>理解<rt>りかい</rt></ruby>には<ruby>達<rt>たっ</rt></ruby>しない",
+    "<ruby>才能<rt>さいのう</rt></ruby>になる",
+    "<ruby>十分<rt>じゅうぶん</rt></ruby>だ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>にとって、<ruby>一<rt>ひと</rt></ruby>つの<ruby>才能<rt>さいのう</rt></ruby>とは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>知識<rt>ちしき</rt></ruby>がおおいこと",
+    "つづけられること",
+    "<ruby>能力<rt>のうりょく</rt></ruby>がたかいこと",
+    "けいかくを<ruby>立<rt>た</rt></ruby>てること"
+   ],
+   "correcta": 1
+  }
+ ]
+}
