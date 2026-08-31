@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/shigoto/economia-1",
+ "titulo": "<ruby>需要<rt>じゅよう</rt></ruby>と<ruby>供給<rt>きょうきゅう</rt></ruby>",
+ "cuerpo": "<ruby>地方<rt>ちほう</rt></ruby>の<ruby>小<rt>ちい</rt></ruby>さな<ruby>工場<rt>こうじょう</rt></ruby>が、あたらしい<ruby>製造<rt>せいぞう</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めました。<ruby>資本<rt>しほん</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないので、<ruby>広告<rt>こうこく</rt></ruby>や<ruby>宣伝<rt>せんでん</rt></ruby>にはお<ruby>金<rt>かね</rt></ruby>をかけられません。それでも<ruby>注文<rt>ちゅうもん</rt></ruby>がふえているのは、<ruby>品<rt>しな</rt></ruby>のよさが<ruby>口<rt>くち</rt></ruby>コミで<ruby>伝<rt>つた</rt></ruby>わったからです。<ruby>要求<rt>ようきゅう</rt></ruby>にこたえるだけの<ruby>供給<rt>きょうきゅう</rt></ruby>がまだできていません。<ruby>発展<rt>はってん</rt></ruby><em class=\"g\">というより</em>、<ruby>成長<rt>せいちょう</rt></ruby>のいたみと<ruby>言<rt>い</rt></ruby>うべきかもしれません。<ruby>上京<rt>じょうきょう</rt></ruby>して<ruby>働<rt>はたら</rt></ruby>く<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>が<ruby>減<rt>へ</rt></ruby>るなか、<ruby>地元<rt>じもと</rt></ruby>の<ruby>資源<rt>しげん</rt></ruby>をどう<ruby>生<rt>い</rt></ruby>かすかがこれからの<ruby>実力<rt>じつりょく</rt></ruby>になります。",
+ "traduccion": "Una pequeña fábrica de provincias ha empezado a producir algo nuevo. Como tiene poco capital, no puede gastar en publicidad ni promoción. Aun así los pedidos aumentan, porque la calidad se ha ido corriendo de boca en boca. Todavía no consiguen producir lo suficiente para atender la demanda. Más que desarrollo, quizá habría que llamarlo dolores de crecimiento. Mientras baja el número de jóvenes que se van a la capital a trabajar, cómo aprovechar los recursos locales será de ahora en adelante la verdadera capacidad.",
+ "preguntas": [
+  {
+   "p": "なぜ<ruby>注文<rt>ちゅうもん</rt></ruby>がふえていますか。",
+   "opciones": [
+    "<ruby>広告<rt>こうこく</rt></ruby>のおかげ",
+    "<ruby>品<rt>しな</rt></ruby>のよさが<ruby>口<rt>くち</rt></ruby>コミで<ruby>伝<rt>つた</rt></ruby>わったから",
+    "<ruby>資本<rt>しほん</rt></ruby>がおおいから",
+    "<ruby>値<rt>ね</rt></ruby>だんがやすいから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "これからの<ruby>実力<rt>じつりょく</rt></ruby>になるのは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>宣伝<rt>せんでん</rt></ruby>",
+    "<ruby>地元<rt>じもと</rt></ruby>の<ruby>資源<rt>しげん</rt></ruby>をどう<ruby>生<rt>い</rt></ruby>かすか",
+    "<ruby>上京<rt>じょうきょう</rt></ruby>すること",
+    "<ruby>製造<rt>せいぞう</rt></ruby>をふやすこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

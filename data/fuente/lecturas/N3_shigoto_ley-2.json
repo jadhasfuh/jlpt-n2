@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/shigoto/ley-2",
+ "titulo": "<ruby>判断<rt>はんだん</rt></ruby>する<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "スポーツの<ruby>審判<rt>しんぱん</rt></ruby>をしている<ruby>人<rt>ひと</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きました。どんなに<ruby>整理<rt>せいり</rt></ruby>して<ruby>見<rt>み</rt></ruby>ていても、<ruby>一<rt>いっ</rt></ruby>しゅんの<ruby>判断<rt>はんだん</rt></ruby>をまちがえることはあるそうです。<ruby>批判<rt>ひはん</rt></ruby>されることも<ruby>多<rt>おお</rt></ruby>く、<ruby>気<rt>き</rt></ruby>が<ruby>重<rt>おも</rt></ruby>くなり<em class=\"g\">がち</em>だと<ruby>言<rt>い</rt></ruby>います。それでも<ruby>続<rt>つづ</rt></ruby>けているのは、だれかがやらなければ<ruby>試合<rt>しあい</rt></ruby>が<ruby>成<rt>な</rt></ruby>り<ruby>立<rt>た</rt></ruby>たないからです。<ruby>犯罪<rt>はんざい</rt></ruby>の<ruby>捜査<rt>そうさ</rt></ruby>で<ruby>犯人<rt>はんにん</rt></ruby>を<ruby>逮捕<rt>たいほ</rt></ruby>するのとはちがいますが、<ruby>判断<rt>はんだん</rt></ruby>する<ruby>責任<rt>せきにん</rt></ruby>という<ruby>点<rt>てん</rt></ruby>ではにています。<ruby>子<rt>こ</rt></ruby>ども<ruby>向<rt>む</rt></ruby>けの<ruby>教室<rt>きょうしつ</rt></ruby>もひらいているそうです。",
+ "traduccion": "Escuché a alguien que trabaja de árbitro. Dice que, por mucho que lo mire todo ordenadamente, a veces se equivoca en un juicio de un instante. Le critican a menudo y dice que tiende a desanimarse. Aun así sigue, porque si nadie lo hace no hay partido. No es lo mismo que detener a un delincuente en una investigación criminal, pero en cuanto a la responsabilidad de juzgar se parecen. Dice que además da clases dirigidas a niños.",
+ "preguntas": [
+  {
+   "p": "<ruby>審判<rt>しんぱん</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いと<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>試合<rt>しあい</rt></ruby>",
+    "<ruby>批判<rt>ひはん</rt></ruby>されること",
+    "<ruby>逮捕<rt>たいほ</rt></ruby>すること",
+    "<ruby>整理<rt>せいり</rt></ruby>すること"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "それでも<ruby>続<rt>つづ</rt></ruby>けているのはなぜですか。",
+   "opciones": [
+    "すきだから",
+    "だれかがやらなければ<ruby>試合<rt>しあい</rt></ruby>が<ruby>成<rt>な</rt></ruby>り<ruby>立<rt>た</rt></ruby>たないから",
+    "お<ruby>金<rt>かね</rt></ruby>のため",
+    "<ruby>子<rt>こ</rt></ruby>どものため"
+   ],
+   "correcta": 1
+  }
+ ]
+}

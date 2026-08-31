@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/shigoto/guerra-1",
+ "titulo": "<ruby>平和<rt>へいわ</rt></ruby>という<ruby>仕事<rt>しごと</rt></ruby>",
+ "cuerpo": "<ruby>博物館<rt>はくぶつかん</rt></ruby>で、<ruby>昔<rt>むかし</rt></ruby>の<ruby>武器<rt>ぶき</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。<ruby>軍隊<rt>ぐんたい</rt></ruby>が<ruby>使<rt>つか</rt></ruby>っていたものです。<ruby>敵<rt>てき</rt></ruby>を<ruby>攻<rt>せ</rt></ruby>めるためだけに<ruby>作<rt>つく</rt></ruby>られた<ruby>道具<rt>どうぐ</rt></ruby>が、ガラスの<ruby>中<rt>なか</rt></ruby>にならんでいます。<ruby>大戦<rt>たいせん</rt></ruby>のときの<ruby>情報<rt>じょうほう</rt></ruby>がパネルに<ruby>書<rt>か</rt></ruby>かれていました。<ruby>勝<rt>か</rt></ruby>ち<ruby>負<rt>ま</rt></ruby>けではなく、<ruby>何人<rt>なんにん</rt></ruby>が<ruby>帰<rt>かえ</rt></ruby>ってこなかったかが<ruby>数<rt>かぞ</rt></ruby>えてあります。<ruby>子<rt>こ</rt></ruby>ども<ruby>向<rt>む</rt></ruby>きの<ruby>説明<rt>せつめい</rt></ruby>もあり、やさしいことばで<ruby>書<rt>か</rt></ruby>いてありました。<ruby>戦<rt>たたか</rt></ruby>いを<ruby>克服<rt>こくふく</rt></ruby>するというのは、<ruby>優勝<rt>ゆうしょう</rt></ruby>することではなく、<ruby>二度<rt>にど</rt></ruby>と<ruby>始<rt>はじ</rt></ruby>めないことなのでしょう。",
+ "traduccion": "En el museo vi armas antiguas. Son las que usaba el ejército. Herramientas creadas solo para atacar al enemigo, alineadas dentro de una vitrina. En los paneles había información sobre la gran guerra. No se contaban victorias y derrotas, sino cuántas personas no volvieron. También había explicaciones dirigidas a niños, escritas con palabras sencillas. Superar la guerra no debe de consistir en salir vencedor, sino en no empezarla nunca más.",
+ "preguntas": [
+  {
+   "p": "パネルには<ruby>何<rt>なに</rt></ruby>が<ruby>数<rt>かぞ</rt></ruby>えてありましたか。",
+   "opciones": [
+    "<ruby>勝<rt>か</rt></ruby>ち<ruby>負<rt>ま</rt></ruby>け",
+    "<ruby>何人<rt>なんにん</rt></ruby>が<ruby>帰<rt>かえ</rt></ruby>ってこなかったか",
+    "<ruby>武器<rt>ぶき</rt></ruby>のかず",
+    "<ruby>軍隊<rt>ぐんたい</rt></ruby>のおおきさ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>戦<rt>たたか</rt></ruby>いを<ruby>克服<rt>こくふく</rt></ruby>するとは<ruby>何<rt>なに</rt></ruby>だと<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>優勝<rt>ゆうしょう</rt></ruby>すること",
+    "<ruby>二度<rt>にど</rt></ruby>と<ruby>始<rt>はじ</rt></ruby>めないこと",
+    "<ruby>武器<rt>ぶき</rt></ruby>をもつこと",
+    "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めること"
+   ],
+   "correcta": 1
+  }
+ ]
+}

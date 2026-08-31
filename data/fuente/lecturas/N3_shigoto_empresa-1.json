@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/shigoto/empresa-1",
+ "titulo": "<ruby>組織<rt>そしき</rt></ruby>のかたち",
+ "cuerpo": "<ruby>企業<rt>きぎょう</rt></ruby>の<ruby>制度<rt>せいど</rt></ruby>が<ruby>変<rt>か</rt></ruby>わりました。<ruby>部<rt>ぶ</rt></ruby>をこえた<ruby>共同<rt>きょうどう</rt></ruby>の<ruby>組<rt>くみ</rt></ruby>をつくり、<ruby>委員<rt>いいん</rt></ruby>を<ruby>選<rt>えら</rt></ruby>んで<ruby>経営<rt>けいえい</rt></ruby>に<ruby>意見<rt>いけん</rt></ruby>を<ruby>出<rt>だ</rt></ruby>せるようにしたのです。<ruby>会員<rt>かいいん</rt></ruby><em class=\"g\">にとって</em>は、<ruby>声<rt>こえ</rt></ruby>をとどける<ruby>道<rt>みち</rt></ruby>ができたことになります。<ruby>組合<rt>くみあい</rt></ruby>や<ruby>団体<rt>だんたい</rt></ruby>のような<ruby>形<rt>かたち</rt></ruby>ではありませんが、はたらく<ruby>人<rt>ひと</rt></ruby><em class=\"g\">にとって</em>たいせつなのはかたちよりも<ruby>中身<rt>なかみ</rt></ruby>です。<ruby>政府<rt>せいふ</rt></ruby>の<ruby>方<rt>ほう</rt></ruby>しんにあわせるだけでは、<ruby>現場<rt>げんば</rt></ruby>のこまりごとは<ruby>解決<rt>かいけつ</rt></ruby>しません。<ruby>付<rt>つ</rt></ruby>き<ruby>合<rt>あ</rt></ruby>いの<ruby>長<rt>なが</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>どうしのほうが、<ruby>本当<rt>ほんとう</rt></ruby>のことを<ruby>話<rt>はな</rt></ruby>せるものです。",
+ "traduccion": "El sistema interno de la empresa ha cambiado. Se creó un grupo conjunto por encima de los departamentos y se eligieron representantes para poder dar opinión a la dirección. Para los miembros, eso significa que se ha abierto una vía para hacer llegar su voz. No tiene la forma de un sindicato ni de una asociación, pero para quien trabaja lo importante no es la forma, sino el contenido. Limitarse a seguir las directrices del gobierno no resuelve los problemas del terreno. Entre quienes llevan tiempo tratándose es donde se pueden decir las cosas de verdad.",
+ "preguntas": [
+  {
+   "p": "あたらしい<ruby>制度<rt>せいど</rt></ruby>で、<ruby>何<rt>なに</rt></ruby>ができましたか。",
+   "opciones": [
+    "<ruby>組合<rt>くみあい</rt></ruby>",
+    "<ruby>声<rt>こえ</rt></ruby>をとどける<ruby>道<rt>みち</rt></ruby>",
+    "<ruby>団体<rt>だんたい</rt></ruby>",
+    "<ruby>政府<rt>せいふ</rt></ruby>の<ruby>方<rt>ほう</rt></ruby>しん"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "はたらく<ruby>人<rt>ひと</rt></ruby><em class=\"g\">にとって</em>たいせつなのは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "かたち",
+    "<ruby>中身<rt>なかみ</rt></ruby>",
+    "<ruby>委員<rt>いいん</rt></ruby>のかず",
+    "<ruby>経営<rt>けいえい</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

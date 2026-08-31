@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/shigoto/oficios-1",
+ "titulo": "<ruby>名人<rt>めいじん</rt></ruby>とよばれて",
+ "cuerpo": "<ruby>技師<rt>ぎし</rt></ruby>としてはたらいて<ruby>三十年<rt>さんじゅうねん</rt></ruby>になる<ruby>人<rt>ひと</rt></ruby>に<ruby>会<rt>あ</rt></ruby>いました。まわりからは<ruby>名人<rt>めいじん</rt></ruby>とよばれていますが、<ruby>本人<rt>ほんにん</rt></ruby>は「まだまだ」と<ruby>言<rt>い</rt></ruby>います。<ruby>正式<rt>せいしき</rt></ruby>な<ruby>書類<rt>しょるい</rt></ruby>のあつかいから、<ruby>助手<rt>じょしゅ</rt></ruby>への<ruby>教<rt>おし</rt></ruby>え<ruby>方<rt>かた</rt></ruby>まで、ぜんぶ<ruby>自分<rt>じぶん</rt></ruby>でやります。<ruby>画家<rt>がか</rt></ruby>や<ruby>歌手<rt>かしゅ</rt></ruby>のように<ruby>名前<rt>なまえ</rt></ruby>が<ruby>出<rt>で</rt></ruby>る<ruby>仕事<rt>しごと</rt></ruby>ではありません。<ruby>学者<rt>がくしゃ</rt></ruby><em class=\"g\">っぽい</em><ruby>話<rt>はな</rt></ruby>し<ruby>方<rt>かた</rt></ruby>をしますが、<ruby>手<rt>て</rt></ruby>はいつも<ruby>汚<rt>よご</rt></ruby>れています。「うまくなったと<ruby>思<rt>おも</rt></ruby>ったら、<em class=\"g\">せいぜい</em>そこまでだ」というのが<ruby>口<rt>くち</rt></ruby>ぐせです。",
+ "traduccion": "Conocí a alguien que lleva treinta años trabajando como técnico. Los demás le llaman maestro, pero él dice «aún me queda». Lo hace todo él: desde el manejo de la documentación oficial hasta enseñar a los ayudantes. No es un oficio en el que salga tu nombre, como el de pintor o cantante. Habla un poco como un académico, pero siempre tiene las manos sucias. Su muletilla es: «el día que creas que ya lo haces bien, como mucho llegarás hasta ahí».",
+ "preguntas": [
+  {
+   "p": "まわりからは<ruby>何<rt>なに</rt></ruby>とよばれていますか。",
+   "opciones": [
+    "<ruby>学者<rt>がくしゃ</rt></ruby>",
+    "<ruby>名人<rt>めいじん</rt></ruby>",
+    "<ruby>助手<rt>じょしゅ</rt></ruby>",
+    "<ruby>画家<rt>がか</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>口<rt>くち</rt></ruby>ぐせは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "まだまだだ",
+    "うまくなったと<ruby>思<rt>おも</rt></ruby>ったら<em class=\"g\">せいぜい</em>そこまでだ",
+    "<ruby>手<rt>て</rt></ruby>が<ruby>汚<rt>よご</rt></ruby>れる",
+    "<ruby>名前<rt>なまえ</rt></ruby>が<ruby>出<rt>で</rt></ruby>ない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/shigoto/ley-1",
+ "titulo": "<ruby>許<rt>ゆる</rt></ruby>すということ",
+ "cuerpo": "<ruby>裁判<rt>さいばん</rt></ruby>をぼうちょうしたことがあります。<ruby>罪<rt>つみ</rt></ruby>をおかした<ruby>人<rt>ひと</rt></ruby>を<ruby>罰<rt>ばっ</rt></ruby>するだけが<ruby>法<rt>ほう</rt></ruby>の<ruby>目<rt>もく</rt></ruby>てきではない、と<ruby>知<rt>し</rt></ruby>りました。<ruby>禁止<rt>きんし</rt></ruby>や<ruby>違反<rt>いはん</rt></ruby>のきまりは、<ruby>公平<rt>こうへい</rt></ruby>な<ruby>社会<rt>しゃかい</rt></ruby>をつくるためにあります。<ruby>権利<rt>けんり</rt></ruby>をまもるということは、だれかの<ruby>自由<rt>じゆう</rt></ruby>に<ruby>触<rt>ふ</rt></ruby>れるということでもあります。<ruby>許可<rt>きょか</rt></ruby>を<ruby>出<rt>だ</rt></ruby>すのも、<ruby>許<rt>ゆる</rt></ruby>さないと<ruby>決<rt>き</rt></ruby>めるのも、かんたんなことではありません。<ruby>署名<rt>しょめい</rt></ruby>ひとつをするのにも、<ruby>何<rt>なに</rt></ruby>も<ruby>考<rt>かんが</rt></ruby>え<em class=\"g\">ずに</em>サインしてはいけないのだと<ruby>感<rt>かん</rt></ruby>じました。",
+ "traduccion": "Una vez asistí como público a un juicio. Aprendí que castigar a quien cometió un delito no es el único fin de la ley. Las normas de prohibición e infracción existen para construir una sociedad justa. Proteger un derecho significa también tocar la libertad de alguien. Ni conceder un permiso ni decidir no perdonar son cosas fáciles. Sentí que ni siquiera una firma debe estamparse sin pensar en nada.",
+ "preguntas": [
+  {
+   "p": "<ruby>法<rt>ほう</rt></ruby>の<ruby>目<rt>もく</rt></ruby>てきについて、<ruby>何<rt>なに</rt></ruby>を<ruby>知<rt>し</rt></ruby>りましたか。",
+   "opciones": [
+    "<ruby>罰<rt>ばっ</rt></ruby>するだけ",
+    "<ruby>罰<rt>ばっ</rt></ruby>するだけではない",
+    "<ruby>許<rt>ゆる</rt></ruby>すこと",
+    "<ruby>禁止<rt>きんし</rt></ruby>すること"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>権利<rt>けんり</rt></ruby>をまもるとは、どういうことでもありますか。",
+   "opciones": [
+    "だれも<ruby>困<rt>こま</rt></ruby>らない",
+    "だれかの<ruby>自由<rt>じゆう</rt></ruby>に<ruby>触<rt>ふ</rt></ruby>れる",
+    "<ruby>許可<rt>きょか</rt></ruby>を<ruby>出<rt>だ</rt></ruby>す",
+    "<ruby>署名<rt>しょめい</rt></ruby>する"
+   ],
+   "correcta": 1
+  }
+ ]
+}
