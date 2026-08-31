@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/basho/viaje-1",
+ "titulo": "なつの<ruby>旅行<rt>りょこう</rt></ruby>",
+ "cuerpo": "きょねんのなつ、<ruby>友<rt>とも</rt></ruby>だちと<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。あさはやくうちを<ruby>出<rt>で</rt></ruby>て、バスに<ruby>三<rt>さん</rt></ruby>じかんのりました。バスのなかで、ずっと<ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby>ていました。うみのちかくのまちに<ruby>着<rt>つ</rt></ruby>いたとき、そらが<em class=\"g\">とても</em>あおくて、みんなでこえをあげました。かえりのバスでは、みんなつかれてねてしまい、おりるときにボタンを<ruby>押<rt>お</rt></ruby>すのをわすれました。それでも<em class=\"g\">とても</em>たのしい<ruby>旅行<rt>りょこう</rt></ruby>でした。",
+ "traduccion": "El verano pasado hice un viaje con unos amigos. Salimos de casa temprano y estuvimos tres horas en el autobús. Durante el trayecto no paré de mirar el mapa. Cuando llegamos al pueblo, cerca del mar, el cielo estaba tan azul que gritamos todos a la vez. En el autobús de vuelta nos quedamos dormidos del cansancio y se nos olvidó pulsar el botón para bajar. Aun así fue un viaje muy bonito.",
+ "preguntas": [
+  {
+   "p": "バスにどのくらいのりましたか。",
+   "opciones": [
+    "<ruby>一<rt>いち</rt></ruby>じかん",
+    "<ruby>二<rt>に</rt></ruby>じかん",
+    "<ruby>三<rt>さん</rt></ruby>じかん",
+    "<ruby>四<rt>よ</rt></ruby>じかん"
+   ],
+   "correcta": 2
+  },
+  {
+   "p": "かえりのバスで、<ruby>何<rt>なに</rt></ruby>をわすれましたか。",
+   "opciones": [
+    "<ruby>地図<rt>ちず</rt></ruby>",
+    "ボタンを<ruby>押<rt>お</rt></ruby>すこと",
+    "きっぷ",
+    "かばん"
+   ],
+   "correcta": 1
+  }
+ ]
+}

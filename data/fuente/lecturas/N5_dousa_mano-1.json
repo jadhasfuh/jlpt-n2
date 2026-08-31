@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/dousa/mano-1",
+ "titulo": "はじめてのりょうり",
+ "cuerpo": "わたしはりょうりをならい<em class=\"g\">たい</em>です。でも、<ruby>切<rt>き</rt></ruby>るのがへたで、いつも<ruby>時間<rt>じかん</rt></ruby>がかかります。せんせいは、はじめはゆっくりでいいとおしえてくれました。きのうは、やさいを<ruby>切<rt>き</rt></ruby>って、なべのふたを<ruby>閉<rt>し</rt></ruby>めて、じっぷんまちました。そのあいだに、てをあらって、つくえをふきました。<ruby>空<rt>あ</rt></ruby>いたはこもかたづけました。ぜんぶひとりでできたので、うれしかったです。はやくじょうずになり<em class=\"g\">たい</em>です。",
+ "traduccion": "Quiero aprender a cocinar. Pero se me da mal cortar y siempre tardo mucho. La profesora me dijo que al principio está bien ir despacio. Ayer corté la verdura, tapé la olla y esperé diez minutos. Mientras tanto me lavé las manos y limpié la mesa. También recogí las cajas que habían quedado vacías. Como lo hice todo yo sola, me puse contenta. Tengo ganas de que se me dé bien pronto.",
+ "preguntas": [
+  {
+   "p": "なべのふたを<ruby>閉<rt>し</rt></ruby>めたあと、どのくらいまちましたか。",
+   "opciones": [
+    "ごふん",
+    "じっぷん",
+    "じゅうごふん",
+    "さんじゅっぷん"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "うれしかったのはなぜですか。",
+   "opciones": [
+    "せんせいがほめたから",
+    "ぜんぶひとりでできたから",
+    "はやく<ruby>切<rt>き</rt></ruby>れたから",
+    "はこがかたづいたから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

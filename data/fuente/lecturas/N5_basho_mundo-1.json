@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/basho/mundo-1",
+ "titulo": "<ruby>外国<rt>がいこく</rt></ruby>のことば",
+ "cuerpo": "わたしは<ruby>外国<rt>がいこく</rt></ruby>のことばをならうのがすきです。<ruby>今<rt>いま</rt></ruby>、<ruby>英語<rt>えいご</rt></ruby>をべんきょうしています。<ruby>英語<rt>えいご</rt></ruby>はいろいろな<ruby>国<rt>くに</rt></ruby>でつかわれています。<ruby>日本語<rt>にほんご</rt></ruby><em class=\"g\">も</em>ならいたいです。ちきゅうには<ruby>百<rt>ひゃく</rt></ruby><ruby>九十<rt>きゅうじゅう</rt></ruby>よりおおくの<ruby>国<rt>くに</rt></ruby>があります。ぜんぶの<ruby>国<rt>くに</rt></ruby>のことばはならえませんが、ふたつ、みっつならできるとおもいます。ことばがわかると、その<ruby>国<rt>くに</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>話<rt>はな</rt></ruby>せます。それがいちばんたのしいです。",
+ "traduccion": "Me gusta aprender lenguas extranjeras. Ahora estudio inglés. El inglés se usa en muchos países. También quiero aprender japonés. En la Tierra hay más de ciento noventa países. No puedo aprender las lenguas de todos, pero creo que sí dos o tres. Cuando entiendes la lengua, puedes hablar con la gente de ese país. Eso es lo más divertido.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>今<rt>いま</rt></ruby>、<ruby>何<rt>なに</rt></ruby>をべんきょうしていますか。",
+   "opciones": [
+    "<ruby>日本語<rt>にほんご</rt></ruby>",
+    "<ruby>英語<rt>えいご</rt></ruby>",
+    "ぜんぶのことば",
+    "なにも"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "ことばがわかると、<ruby>何<rt>なに</rt></ruby>がいちばんたのしいですか。",
+   "opciones": [
+    "<ruby>外国<rt>がいこく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くこと",
+    "その<ruby>国<rt>くに</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>話<rt>はな</rt></ruby>すこと",
+    "<ruby>国<rt>くに</rt></ruby>のかずをかぞえること",
+    "ことばをみっつならうこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

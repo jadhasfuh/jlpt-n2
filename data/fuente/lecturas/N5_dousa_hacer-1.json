@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/dousa/hacer-1",
+ "titulo": "はこを<ruby>作<rt>つく</rt></ruby>る",
+ "cuerpo": "<ruby>土<rt>ど</rt></ruby>よう<ruby>日<rt>び</rt></ruby>、<ruby>父<rt>ちち</rt></ruby>と<ruby>木<rt>き</rt></ruby>のはこを<ruby>作<rt>つく</rt></ruby>りました。まず、<em class=\"g\">どんな</em>はこがいいか、<ruby>二人<rt>ふたり</rt></ruby>で<ruby>話<rt>はな</rt></ruby>しました。<ruby>本<rt>ほん</rt></ruby>を<ruby>入<rt>い</rt></ruby>れるので、すこし<ruby>大<rt>おお</rt></ruby>きいほうがいいと<ruby>父<rt>ちち</rt></ruby>がおしえてくれました。<ruby>一<rt>いち</rt></ruby>じかんで<ruby>出<rt>で</rt></ruby>きあがりました。さいごに、はこの<ruby>中<rt>なか</rt></ruby>に<ruby>何<rt>なに</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っているか、しゃしんを<ruby>撮<rt>と</rt></ruby>って、のこしました。こんどは<em class=\"g\">どんな</em>ものを<ruby>作<rt>つく</rt></ruby>ろうかと、いまからたのしみです。",
+ "traduccion": "El sábado hice una caja de madera con mi padre. Primero hablamos entre los dos sobre qué clase de caja queríamos. Como era para meter libros, mi padre me explicó que convenía que fuera algo grande. La terminamos en una hora. Al final hice una foto de lo que había dentro, para dejar constancia. Ya estoy deseando ver qué clase de cosa haremos la próxima vez.",
+ "preguntas": [
+  {
+   "p": "なぜ、<ruby>大<rt>おお</rt></ruby>きいはこにしましたか。",
+   "opciones": [
+    "<ruby>父<rt>ちち</rt></ruby>がすきだから",
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>入<rt>い</rt></ruby>れるから",
+    "<ruby>木<rt>き</rt></ruby>がおおいから",
+    "しゃしんをとるから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "さいごに<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "はこを<ruby>大<rt>おお</rt></ruby>きくした",
+    "しゃしんを<ruby>撮<rt>と</rt></ruby>った",
+    "<ruby>父<rt>ちち</rt></ruby>と<ruby>話<rt>はな</rt></ruby>した",
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

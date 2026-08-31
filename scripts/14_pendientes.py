@@ -24,7 +24,7 @@ hechas = {json.loads(p.read_text(encoding="utf-8"))["unidad_id"]
           for p in pathlib.Path("data/fuente/lecturas").glob("*.json")}
 
 # Prioridad: el nivel del examen primero, luego hacia abajo y hacia arriba.
-PRIORIDAD = ["N2", "N3", "N4", "N5", "N1"]
+PRIORIDAD = ["N5", "N4", "N3", "N2", "N1"]   # de abajo arriba: se llena primero lo que más gente usa
 def clave(u):
     return (PRIORIDAD.index(u["nivel"]), u["seccion"], u["subgrupo"], u["parte"])
 

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/dousa/percepcion-1",
+ "titulo": "<ruby>声<rt>こえ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>く",
+ "cuerpo": "そとから<ruby>声<rt>こえ</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえました。まどから<ruby>見<rt>み</rt></ruby>ると、<ruby>子<rt>こ</rt></ruby>どもが<ruby>五人<rt>ごにん</rt></ruby>あそんでいました。わたしはうるさいと<ruby>感<rt>かん</rt></ruby>じましたが、しばらく<ruby>聞<rt>き</rt></ruby>いていると、だんだんたのしくなりました。<ruby>子<rt>こ</rt></ruby>どものあそび<ruby>方<rt>かた</rt></ruby>は、わたしのころとおなじです。はしって、とまって、また、わらう。<ruby>体<rt>からだ</rt></ruby>をうごかすあそび<ruby>方<rt>かた</rt></ruby>は、<ruby>何十年<rt>なんじゅうねん</rt></ruby>たってもかわらないのだと<ruby>感<rt>かん</rt></ruby>じました。",
+ "traduccion": "Se oían voces fuera. Al mirar por la ventana, cinco niños estaban jugando. Al principio me pareció ruidoso, pero según los fui oyendo un rato, me fue haciendo gracia. La manera de jugar de los niños es la misma que en mi época. Corren, se paran y se vuelven a reír. Me dio la sensación de que la manera de jugar moviendo el cuerpo no cambia por muchas décadas que pasen.",
+ "preguntas": [
+  {
+   "p": "はじめ、<ruby>子<rt>こ</rt></ruby>どもの<ruby>声<rt>こえ</rt></ruby>をどう<ruby>感<rt>かん</rt></ruby>じましたか。",
+   "opciones": [
+    "たのしい",
+    "うるさい",
+    "<ruby>小<rt>ちい</rt></ruby>さい",
+    "きれい"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>がかわらないと<ruby>感<rt>かん</rt></ruby>じましたか。",
+   "opciones": [
+    "<ruby>子<rt>こ</rt></ruby>どものかず",
+    "あそび<ruby>方<rt>かた</rt></ruby>",
+    "こうえんのひろさ",
+    "まどの<ruby>大<rt>おお</rt></ruby>きさ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/basho/ir_venir-1",
+ "titulo": "やまに<ruby>登<rt>のぼ</rt></ruby>った<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "<ruby>日<rt>にち</rt></ruby>よう<ruby>日<rt>び</rt></ruby>、わたしはやまに<ruby>登<rt>のぼ</rt></ruby>りました。あさはやくうちを<ruby>出<rt>で</rt></ruby>て、えきまで<ruby>歩<rt>ある</rt></ruby>きました。<em class=\"g\">そして</em>、<ruby>電車<rt>でんしゃ</rt></ruby>でやまの<ruby>入口<rt>いりぐち</rt></ruby>まで<ruby>行<rt>い</rt></ruby>きました。やまのみちは<ruby>長<rt>なが</rt></ruby>くて、なんかいも<ruby>止<rt>と</rt></ruby>まりました。<ruby>上<rt>うえ</rt></ruby>まで<ruby>行<rt>い</rt></ruby>くと、<ruby>下<rt>した</rt></ruby>にまちが<ruby>小<rt>ちい</rt></ruby>さく<ruby>見<rt>み</rt></ruby>えました。とりが<ruby>飛<rt>と</rt></ruby>んでいました。かえりに<ruby>友<rt>とも</rt></ruby>だちのうちに<ruby>寄<rt>よ</rt></ruby>りました。<em class=\"g\">そして</em>、かりていた<ruby>本<rt>ほん</rt></ruby>を<ruby>返<rt>かえ</rt></ruby>しました。",
+ "traduccion": "El domingo subí a la montaña. Salí de casa temprano por la mañana y fui andando hasta la estación. Y luego fui en tren hasta la entrada del monte. El camino era largo y me paré muchas veces. Al llegar arriba, el pueblo se veía pequeño allá abajo. Volaban pájaros. A la vuelta pasé por casa de un amigo. Y le devolví el libro que me había prestado.",
+ "preguntas": [
+  {
+   "p": "やまのみちで、なんかいも<ruby>止<rt>と</rt></ruby>まったのはなぜですか。",
+   "opciones": [
+    "とりを<ruby>見<rt>み</rt></ruby>たから",
+    "みちが<ruby>長<rt>なが</rt></ruby>かったから",
+    "<ruby>友<rt>とも</rt></ruby>だちがいたから",
+    "<ruby>電車<rt>でんしゃ</rt></ruby>がなかったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>友<rt>とも</rt></ruby>だちのうちで<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>本<rt>ほん</rt></ruby>をかりた",
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>返<rt>かえ</rt></ruby>した",
+    "ごはんを<ruby>食<rt>た</rt></ruby>べた",
+    "とりを<ruby>見<rt>み</rt></ruby>た"
+   ],
+   "correcta": 1
+  }
+ ]
+}

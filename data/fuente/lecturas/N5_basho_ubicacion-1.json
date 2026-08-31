@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/basho/ubicacion-1",
+ "titulo": "わたしのへや",
+ "cuerpo": "わたしのへやは<ruby>大<rt>おお</rt></ruby>きくありませんが、しずかです。つくえの<ruby>上<rt>うえ</rt></ruby>に<ruby>本<rt>ほん</rt></ruby>が<ruby>三<rt>さん</rt></ruby>さつあります。ねる<em class=\"g\">前に</em>、いつも<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます。つくえの<ruby>下<rt>した</rt></ruby>にかばんをおいています。きのう、かぎがどこにもなくて、こまりました。うちの<ruby>中<rt>なか</rt></ruby>をぜんぶさがしました。あとで、かばんの<ruby>底<rt>そこ</rt></ruby>にありました。まどは<ruby>北<rt>きた</rt></ruby>の<ruby>方<rt>ほう</rt></ruby>にあるので、へやはあまりあつくなりません。",
+ "traduccion": "Mi habitación no es grande, pero es tranquila. Encima del escritorio tengo tres libros. Antes de dormir siempre leo. Debajo del escritorio dejo la mochila. Ayer la llave no aparecía por ningún sitio y me agobié. Busqué por toda la casa. Luego apareció en el fondo de la mochila. La ventana da al norte, así que la habitación no se calienta mucho.",
+ "preguntas": [
+  {
+   "p": "かぎはどこにありましたか。",
+   "opciones": [
+    "つくえの<ruby>上<rt>うえ</rt></ruby>",
+    "つくえの<ruby>下<rt>した</rt></ruby>",
+    "かばんの<ruby>底<rt>そこ</rt></ruby>",
+    "まどの<ruby>方<rt>ほう</rt></ruby>"
+   ],
+   "correcta": 2
+  },
+  {
+   "p": "ねる<em class=\"g\">前に</em>、この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "かばんをおく",
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む",
+    "まどをあける",
+    "うちをさがす"
+   ],
+   "correcta": 1
+  }
+ ]
+}

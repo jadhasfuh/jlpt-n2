@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/dousa/colocar-1",
+ "titulo": "とりがにげた<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "うちに<ruby>小<rt>ちい</rt></ruby>さいとりがいます。まいあさ、はこのなかにえさを<ruby>入<rt>い</rt></ruby>れます。せんしゅう、まどをあけたとき、とりがそとへ<ruby>放<rt>はな</rt></ruby>れてしまいました。わたしは<em class=\"g\">どうやって</em>さがしたらいいか、わかりませんでした。<ruby>父<rt>ちち</rt></ruby>が、なまえをよんでみなさいとおしえてくれました。そとでなまえをよぶと、とりはすぐにもどってきました。<em class=\"g\">どうやって</em>わたしのこえがわかったのでしょう。ふしぎですが、うれしかったです。",
+ "traduccion": "En casa tenemos un pajarito. Cada mañana le pongo comida dentro de la caja. La semana pasada, al abrir la ventana, se escapó fuera. No sabía cómo buscarlo. Mi padre me dijo que probara a llamarlo por su nombre. Lo llamé desde fuera y volvió enseguida. ¿Cómo reconocería mi voz? Es un misterio, pero me hizo mucha ilusión.",
+ "preguntas": [
+  {
+   "p": "とりはどうしてそとへ<ruby>出<rt>で</rt></ruby>ましたか。",
+   "opciones": [
+    "はこがこわれたから",
+    "まどがあいていたから",
+    "えさがなかったから",
+    "<ruby>父<rt>ちち</rt></ruby>がだしたから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "とりはどうやってもどってきましたか。",
+   "opciones": [
+    "えさを<ruby>見<rt>み</rt></ruby>て",
+    "なまえをよばれて",
+    "はこの<ruby>中<rt>なか</rt></ruby>へ<ruby>入<rt>い</rt></ruby>って",
+    "<ruby>父<rt>ちち</rt></ruby>がつかまえて"
+   ],
+   "correcta": 1
+  }
+ ]
+}

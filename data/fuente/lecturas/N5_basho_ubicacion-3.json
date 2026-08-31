@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/basho/ubicacion-3",
+ "titulo": "あさからよるまで",
+ "cuerpo": "わたしはあさおきると、まず、まどを<ruby>開<rt>あ</rt></ruby>けます。それから、でんきを<ruby>点<rt>つ</rt></ruby>けます。あさごはんをたべ<em class=\"g\">てから</em>、しごとに<ruby>行<rt>い</rt></ruby>きます。かいしゃはうちから<ruby>遠<rt>とお</rt></ruby>くないので、あるいて<ruby>行<rt>い</rt></ruby>けます。かいしゃの<ruby>向<rt>む</rt></ruby>こうに<ruby>小<rt>ちい</rt></ruby>さいこうえんがあって、ひるはそこでやすみます。しごとがおわっ<em class=\"g\">てから</em>、<ruby>近<rt>ちか</rt></ruby>くのみせによります。うちに<ruby>帰<rt>かえ</rt></ruby>ると、まず、つくえの<ruby>上<rt>うえ</rt></ruby>に<ruby>本<rt>ほん</rt></ruby>を<ruby>並<rt>なら</rt></ruby>べます。それがわたしのまい<ruby>日<rt>にち</rt></ruby>です。",
+ "traduccion": "Cuando me levanto por la mañana, lo primero que hago es abrir la ventana. Luego enciendo la luz. Después de desayunar me voy a trabajar. La oficina no está lejos de casa, así que puedo ir andando. Enfrente de la oficina hay un parque pequeño y allí descanso al mediodía. Después de terminar, paso por una tienda cercana. Al volver a casa, lo primero que hago es ordenar los libros encima del escritorio. Ese es mi día a día.",
+ "preguntas": [
+  {
+   "p": "あさおきて、いちばんはじめに<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "でんきを<ruby>点<rt>つ</rt></ruby>ける",
+    "まどを<ruby>開<rt>あ</rt></ruby>ける",
+    "あさごはんをたべる",
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>並<rt>なら</rt></ruby>べる"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "かいしゃへは<ruby>何<rt>なに</rt></ruby>で<ruby>行<rt>い</rt></ruby>きますか。",
+   "opciones": [
+    "<ruby>電車<rt>でんしゃ</rt></ruby>",
+    "あるいて",
+    "<ruby>自転車<rt>じてんしゃ</rt></ruby>",
+    "バス"
+   ],
+   "correcta": 1
+  }
+ ]
+}

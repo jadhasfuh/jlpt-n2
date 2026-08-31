@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/dousa/romper-1",
+ "titulo": "けしてしまったしゅくだい",
+ "cuerpo": "きのう、<ruby>学校<rt>がっこう</rt></ruby>のしゅくだいをパソコンで<ruby>書<rt>か</rt></ruby>きました。<ruby>三<rt>さん</rt></ruby>じかんかかりました。さいごに、まちがえてぜんぶ<ruby>消<rt>け</rt></ruby>してしまいました。<em class=\"g\">どうして</em>たいせつなものほど<ruby>消<rt>き</rt></ruby>えてしまうのでしょう。<ruby>先生<rt>せんせい</rt></ruby>に<ruby>話<rt>はな</rt></ruby>すと、わらって、もう<ruby>一<rt>いち</rt></ruby>ど<ruby>書<rt>か</rt></ruby>きなさいとおしえてくれました。つぎの<ruby>日<rt>ひ</rt></ruby>、もう<ruby>一<rt>いち</rt></ruby>ど<ruby>書<rt>か</rt></ruby>くと、はじめよりよくなりました。<em class=\"g\">どうして</em>か、にかいめのほうがはやく<ruby>書<rt>か</rt></ruby>けました。",
+ "traduccion": "Ayer escribí los deberes del colegio en el ordenador. Tardé tres horas. Al final los borré todos por equivocación. ¿Por qué desaparecerá justo lo que más importa? Se lo conté al profesor y, riéndose, me dijo que lo escribiera otra vez. Al día siguiente lo escribí de nuevo y salió mejor que la primera vez. No sé por qué, pero la segunda vez lo escribí más deprisa.",
+ "preguntas": [
+  {
+   "p": "しゅくだいはどうなりましたか。",
+   "opciones": [
+    "<ruby>先生<rt>せんせい</rt></ruby>にわたした",
+    "ぜんぶ<ruby>消<rt>き</rt></ruby>えた",
+    "はんぶんのこった",
+    "<ruby>時間<rt>じかん</rt></ruby>がたりなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "にかいめに<ruby>書<rt>か</rt></ruby>いたとき、どうでしたか。",
+   "opciones": [
+    "もっと<ruby>時間<rt>じかん</rt></ruby>がかかった",
+    "はじめよりよくなった",
+    "また<ruby>消<rt>け</rt></ruby>した",
+    "<ruby>書<rt>か</rt></ruby>けなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/dousa/movimiento-1",
+ "titulo": "からだをうごかす",
+ "cuerpo": "まいあさ、こうえんでたいそうをします。まず、いすに<ruby>座<rt>すわ</rt></ruby>って、あしをのばします。つぎに、たって、からだを<ruby>前<rt>まえ</rt></ruby>に<ruby>曲<rt>ま</rt></ruby>げます。はじめのころは、てがゆかにとどきませんでした。いまは、すこしずつとどくようになりました。おなじこうえんに、まい<ruby>日<rt>にち</rt></ruby>くるおじいさんがいます。その<ruby>人<rt>ひと</rt></ruby>は、わたしよりじょうずにからだを<ruby>曲<rt>ま</rt></ruby>げます。<ruby>年<rt>とし</rt></ruby>をとっても、まい<ruby>日<rt>にち</rt></ruby>つづければできるのだとおしえてもらいました。",
+ "traduccion": "Cada mañana hago gimnasia en el parque. Primero me siento en un banco y estiro las piernas. Después me pongo de pie y doblo el cuerpo hacia delante. Al principio no llegaba al suelo con las manos. Ahora, poco a poco, ya llego. Al mismo parque viene un señor mayor todos los días. Él dobla el cuerpo mejor que yo. Me ha enseñado que, aunque cumplas años, si sigues cada día se consigue.",
+ "preguntas": [
+  {
+   "p": "はじめのころ、できなかったことは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "いすに<ruby>座<rt>すわ</rt></ruby>ること",
+    "てがゆかにとどくこと",
+    "こうえんへ<ruby>行<rt>い</rt></ruby>くこと",
+    "あしをのばすこと"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "おじいさんから<ruby>何<rt>なに</rt></ruby>をおしえてもらいましたか。",
+   "opciones": [
+    "たいそうはあさがいいこと",
+    "まい<ruby>日<rt>にち</rt></ruby>つづければできること",
+    "こうえんはひろいほうがいいこと",
+    "<ruby>年<rt>とし</rt></ruby>をとるとできないこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}
