@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/seishitsu/comparacion-1",
+ "titulo": "<ruby>内訳<rt>うちわけ</rt></ruby>を<ruby>見<rt>み</rt></ruby>る",
+ "cuerpo": "<ruby>同<rt>おな</rt></ruby>じ<ruby>仕事<rt>しごと</rt></ruby>なのに<ruby>給料<rt>きゅうりょう</rt></ruby>に<ruby>格差<rt>かくさ</rt></ruby>があると<ruby>聞<rt>き</rt></ruby>いて、<ruby>内訳<rt>うちわけ</rt></ruby>を<ruby>出<rt>だ</rt></ruby>してもらいました。<ruby>手当<rt>てあて</rt></ruby>の<ruby>種類<rt>しゅるい</rt></ruby>がまちまちで、<ruby>比<rt>くら</rt></ruby>べるだけでも<ruby>手間<rt>てま</rt></ruby>がかかります。<ruby>差額<rt>さがく</rt></ruby>そのものは<ruby>大<rt>おお</rt></ruby>きくありません。けれども、<ruby>説明<rt>せつめい</rt></ruby>が<ruby>一行<rt>いちぎょう</rt></ruby>もないまま<ruby>数字<rt>すうじ</rt></ruby>だけを<ruby>見<rt>み</rt></ruby>せられると、<ruby>納得<rt>なっとく</rt></ruby>はできないものです。<ruby>担当<rt>たんとう</rt></ruby>の<ruby>方<rt>かた</rt></ruby>は<ruby>書類<rt>しょるい</rt></ruby><em class=\"g\">をもって</em><ruby>正式<rt>せいしき</rt></ruby>に<ruby>回答<rt>かいとう</rt></ruby>すると<ruby>言<rt>い</rt></ruby>い、<ruby>一週間<rt>いっしゅうかん</rt></ruby><ruby>後<rt>ご</rt></ruby>に<ruby>対比<rt>たいひ</rt></ruby>の<ruby>表<rt>ひょう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ってくれました。<ruby>勤続<rt>きんぞく</rt></ruby><ruby>年数<rt>ねんすう</rt></ruby>と<ruby>担当<rt>たんとう</rt></ruby>する<ruby>品種<rt>ひんしゅ</rt></ruby>の<ruby>数<rt>かず</rt></ruby>で<ruby>換算<rt>かんさん</rt></ruby>するのだそうです。<ruby>理由<rt>りゆう</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かれば、<ruby>金額<rt>きんがく</rt></ruby>が<ruby>変<rt>か</rt></ruby>わら<em class=\"g\">ずとも</em><ruby>気持<rt>きも</rt></ruby>ちは<ruby>変<rt>か</rt></ruby>わります。<ruby>似通<rt>にかよ</rt></ruby>った<ruby>仕事<rt>しごと</rt></ruby>に<ruby>見<rt>み</rt></ruby>えても、<ruby>中身<rt>なかみ</rt></ruby>は<ruby>多様<rt>たよう</rt></ruby>なのだと<ruby>知<rt>し</rt></ruby>りました。<ruby>取<rt>と</rt></ruby>り<ruby>替<rt>か</rt></ruby>えのきかない<ruby>部分<rt>ぶぶん</rt></ruby>が、どの<ruby>仕事<rt>しごと</rt></ruby>にもあるのでしょう。",
+ "traduccion": "Al oír que había diferencias de sueldo entre quienes hacemos el mismo trabajo, pedí que me dieran el desglose. Los tipos de complemento eran de lo más variado y solo compararlos ya cuesta trabajo. La diferencia en sí no era grande. Pero cuando te enseñan solo cifras sin una línea de explicación, no hay manera de quedarse conforme. La persona responsable dijo que respondería formalmente por escrito y una semana después me preparó una tabla comparativa. Al parecer se calcula según los años de antigüedad y el número de variedades que llevas. Cuando entiendes el motivo, aunque la cantidad no cambie, sí cambia cómo te sientes. Aprendí que, aunque los trabajos parezcan iguales, por dentro son muy distintos. En cualquier trabajo debe de haber una parte que no se puede sustituir.",
+ "preguntas": [
+  {
+   "p": "<ruby>数字<rt>すうじ</rt></ruby>だけを<ruby>見<rt>み</rt></ruby>せられて、この<ruby>人<rt>ひと</rt></ruby>はどう<ruby>感<rt>かん</rt></ruby>じましたか。",
+   "opciones": [
+    "<ruby>納得<rt>なっとく</rt></ruby>した",
+    "<ruby>納得<rt>なっとく</rt></ruby>できなかった",
+    "<ruby>怒<rt>おこ</rt></ruby>った",
+    "<ruby>気<rt>き</rt></ruby>にしなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>理由<rt>りゆう</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かると、<ruby>何<rt>なに</rt></ruby>が<ruby>変<rt>か</rt></ruby>わりましたか。",
+   "opciones": [
+    "<ruby>金額<rt>きんがく</rt></ruby>",
+    "<ruby>気持<rt>きも</rt></ruby>ち",
+    "<ruby>仕事<rt>しごと</rt></ruby>の<ruby>内容<rt>ないよう</rt></ruby>",
+    "<ruby>担当<rt>たんとう</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

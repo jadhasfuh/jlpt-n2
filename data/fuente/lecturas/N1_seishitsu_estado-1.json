@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/seishitsu/estado-1",
+ "titulo": "<ruby>均衡<rt>きんこう</rt></ruby>がくずれるとき",
+ "cuerpo": "<ruby>雨<rt>あめ</rt></ruby>の<ruby>予報<rt>よほう</rt></ruby>を<ruby>見<rt>み</rt></ruby>ずに<ruby>出<rt>で</rt></ruby>かけて、びっしょり<ruby>濡<rt>ぬ</rt></ruby>れて<ruby>帰<rt>かえ</rt></ruby>る<ruby>羽目<rt>はめ</rt></ruby>になりました。<ruby>傘<rt>かさ</rt></ruby>を<ruby>買<rt>か</rt></ruby>えばよかったのですが、そのときは<ruby>惜<rt>お</rt></ruby>しかったのです。<ruby>家<rt>いえ</rt></ruby>に<ruby>着<rt>つ</rt></ruby>くころには<ruby>靴<rt>くつ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>までずぶぬれで、<ruby>玄関<rt>げんかん</rt></ruby>で<ruby>空<rt>うつ</rt></ruby>ろな<ruby>顔<rt>かお</rt></ruby>をして<ruby>立<rt>た</rt></ruby>っていました。<ruby>翌日<rt>よくじつ</rt></ruby>、<ruby>熱<rt>ねつ</rt></ruby>が<ruby>出<rt>で</rt></ruby>て<ruby>予定<rt>よてい</rt></ruby>を<ruby>解除<rt>かいじょ</rt></ruby>する<ruby>連絡<rt>れんらく</rt></ruby>を<ruby>何本<rt>なんぼん</rt></ruby>も<ruby>入<rt>い</rt></ruby>れます。<ruby>一日<rt>いちにち</rt></ruby>の<ruby>進<rt>すす</rt></ruby>みが<ruby>一変<rt>いっぺん</rt></ruby>して、<ruby>回覧<rt>かいらん</rt></ruby>の<ruby>書類<rt>しょるい</rt></ruby>も<ruby>止<rt>と</rt></ruby>まりました。<ruby>生活<rt>せいかつ</rt></ruby>の<ruby>均衡<rt>きんこう</rt></ruby>というのは、こんなに<ruby>簡単<rt>かんたん</rt></ruby>に<ruby>逆転<rt>ぎゃくてん</rt></ruby>するものです。<ruby>気<rt>き</rt></ruby>が<ruby>緩<rt>ゆる</rt></ruby>んだ<ruby>一日<rt>いちにち</rt></ruby>が、<ruby>一週間<rt>いっしゅうかん</rt></ruby>の<ruby>経過<rt>けいか</rt></ruby>を<ruby>違<rt>ちが</rt></ruby>えてしまう。<ruby>予定表<rt>よていひょう</rt></ruby>を<ruby>改訂<rt>かいてい</rt></ruby>しながら、<ruby>同<rt>おな</rt></ruby>じサイクルで<ruby>回<rt>まわ</rt></ruby>せることのありがたさを<ruby>考<rt>かんが</rt></ruby>えていました。<ruby>貫禄<rt>かんろく</rt></ruby>のある<ruby>人<rt>ひと</rt></ruby>ほど<ruby>無理<rt>むり</rt></ruby>をしないのは、たぶんこれを<ruby>何度<rt>なんど</rt></ruby>も<ruby>経験<rt>けいけん</rt></ruby>したからなのでしょう。",
+ "traduccion": "Salí sin mirar la previsión de lluvia y acabé volviendo empapado. Podría haber comprado un paraguas, pero en aquel momento me pareció un gasto. Al llegar a casa tenía hasta los zapatos calados y me quedé de pie en la entrada con la mirada perdida. Al día siguiente me subió la fiebre y tuve que hacer varias llamadas para cancelar cosas. El ritmo del día se dio la vuelta por completo y hasta los papeles que circulaban se pararon. El equilibrio de la vida diaria se invierte con esta facilidad. Un día en que bajas la guardia te cambia el curso de una semana entera. Mientras rehacía la agenda, pensaba en lo valioso que es poder mantener el mismo ciclo. Que la gente con más peso encima sea la que menos se fuerza será, seguramente, porque ha pasado por esto muchas veces.",
+ "preguntas": [
+  {
+   "p": "なぜ<ruby>濡<rt>ぬ</rt></ruby>れて<ruby>帰<rt>かえ</rt></ruby>ることになりましたか。",
+   "opciones": [
+    "<ruby>傘<rt>かさ</rt></ruby>をなくしたから",
+    "<ruby>雨<rt>あめ</rt></ruby>の<ruby>予報<rt>よほう</rt></ruby>を<ruby>見<rt>み</rt></ruby>ずに<ruby>出<rt>で</rt></ruby>かけたから",
+    "<ruby>歩<rt>ある</rt></ruby>いて<ruby>帰<rt>かえ</rt></ruby>ったから",
+    "<ruby>靴<rt>くつ</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>かったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>貫禄<rt>かんろく</rt></ruby>のある<ruby>人<rt>ひと</rt></ruby>が<ruby>無理<rt>むり</rt></ruby>をしないのは、なぜだと<ruby>考<rt>かんが</rt></ruby>えていますか。",
+   "opciones": [
+    "<ruby>体<rt>からだ</rt></ruby>が<ruby>弱<rt>よわ</rt></ruby>いから",
+    "これを<ruby>何度<rt>なんど</rt></ruby>も<ruby>経験<rt>けいけん</rt></ruby>したから",
+    "<ruby>予定<rt>よてい</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから",
+    "<ruby>年<rt>とし</rt></ruby>をとったから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

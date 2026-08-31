@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/seishitsu/conceptos-1",
+ "titulo": "<ruby>調和<rt>ちょうわ</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>",
+ "cuerpo": "<ruby>庭<rt>にわ</rt></ruby>を<ruby>手入<rt>てい</rt></ruby>れしている<ruby>方<rt>かた</rt></ruby>に、<ruby>美<rt>び</rt></ruby>とは<ruby>何<rt>なに</rt></ruby>かと<ruby>尋<rt>たず</rt></ruby>ねたことがあります。<ruby>答<rt>こた</rt></ruby>えは「<ruby>調和<rt>ちょうわ</rt></ruby>だ」の<ruby>一言<rt>ひとこと</rt></ruby>でした。<ruby>一本<rt>いっぽん</rt></ruby>の<ruby>木<rt>き</rt></ruby>が<ruby>神聖<rt>しんせい</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるかどうかは、<ruby>周<rt>まわ</rt></ruby>りとの<ruby>関係<rt>かんけい</rt></ruby><em class=\"g\">にかかっている</em>、と。<ruby>極端<rt>きょくたん</rt></ruby>に<ruby>整<rt>ととの</rt></ruby>えれば<ruby>清純<rt>せいじゅん</rt></ruby>に<ruby>見<rt>み</rt></ruby>えますが、そこに<ruby>生<rt>い</rt></ruby>きているものの<ruby>気配<rt>けはい</rt></ruby>が<ruby>消<rt>き</rt></ruby>えてしまいます。かといって<ruby>放<rt>ほう</rt></ruby>っておくのは<ruby>無能<rt>むのう</rt></ruby>なのではなく、ただの<ruby>怠<rt>なま</rt></ruby>けでしょう。<ruby>円滑<rt>えんかつ</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるものほど、<ruby>裏<rt>うら</rt></ruby>に<ruby>細<rt>こま</rt></ruby>かい<ruby>作用<rt>さよう</rt></ruby>があるのだそうです。<ruby>寛容<rt>かんよう</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>を<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>しました。<ruby>何<rt>なに</rt></ruby>も<ruby>切<rt>き</rt></ruby>らないことが<ruby>寛容<rt>かんよう</rt></ruby>ではありません。どこを<ruby>残<rt>のこ</rt></ruby>すかを<ruby>決<rt>き</rt></ruby>めるのが<ruby>寛容<rt>かんよう</rt></ruby>なのだと。<ruby>美<rt>び</rt></ruby>の<ruby>原点<rt>げんてん</rt></ruby>が<ruby>均衡<rt>きんこう</rt></ruby>にあるという<ruby>考<rt>かんが</rt></ruby>えは、<ruby>庭<rt>にわ</rt></ruby>の<ruby>外<rt>そと</rt></ruby>でも<ruby>通<rt>つう</rt></ruby>じるように<ruby>思<rt>おも</rt></ruby>います。<ruby>冷酷<rt>れいこく</rt></ruby>でも<ruby>残酷<rt>ざんこく</rt></ruby>でもなく、ただ<ruby>選<rt>えら</rt></ruby>ぶということ。",
+ "traduccion": "Una vez le pregunté a la persona que cuida un jardín qué es la belleza. La respuesta fue una sola palabra: «armonía». Que un árbol parezca sagrado o no depende de su relación con lo que lo rodea. Si lo ordenas al extremo parece puro, pero desaparece el rastro de lo que vive ahí. Y dejarlo a su aire tampoco es incompetencia: es simple dejadez. Al parecer, cuanto más natural parece algo, más trabajo fino hay detrás. Me acordé de la palabra «tolerancia». Tolerar no es no cortar nada. Tolerar es decidir qué se conserva. La idea de que el origen de la belleza está en el equilibrio me parece que vale también fuera del jardín. No ser ni frío ni cruel, simplemente elegir.",
+ "preguntas": [
+  {
+   "p": "<ruby>庭<rt>にわ</rt></ruby>を<ruby>手入<rt>てい</rt></ruby>れしている<ruby>方<rt>かた</rt></ruby>にとって、<ruby>美<rt>び</rt></ruby>とは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>清純<rt>せいじゅん</rt></ruby>さ",
+    "<ruby>調和<rt>ちょうわ</rt></ruby>",
+    "<ruby>極端<rt>きょくたん</rt></ruby>な<ruby>整<rt>ととの</rt></ruby>え",
+    "<ruby>自然<rt>しぜん</rt></ruby>のまま"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>にとって<ruby>寛容<rt>かんよう</rt></ruby>とは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>切<rt>き</rt></ruby>らないこと",
+    "どこを<ruby>残<rt>のこ</rt></ruby>すかを<ruby>決<rt>き</rt></ruby>めること",
+    "<ruby>放<rt>ほう</rt></ruby>っておくこと",
+    "<ruby>周<rt>まわ</rt></ruby>りに<ruby>合<rt>あ</rt></ruby>わせること"
+   ],
+   "correcta": 1
+  }
+ ]
+}
