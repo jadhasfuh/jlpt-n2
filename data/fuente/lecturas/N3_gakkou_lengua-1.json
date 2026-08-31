@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/gakkou/lengua-1",
+ "titulo": "<ruby>一言<rt>ひとこと</rt></ruby>の<ruby>重<rt>おも</rt></ruby>さ",
+ "cuerpo": "<ruby>外国語<rt>がいこくご</rt></ruby>を<ruby>学<rt>まな</rt></ruby>ぶと、<ruby>母国語<rt>ぼこくご</rt></ruby>のことも<ruby>見<rt>み</rt></ruby>えてきます。<ruby>動詞<rt>どうし</rt></ruby>や<ruby>名詞<rt>めいし</rt></ruby>の<ruby>活用<rt>かつよう</rt></ruby>は、その<ruby>言語<rt>げんご</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>をうつしています。<ruby>訳<rt>やく</rt></ruby>すとき、ぴったりあうことばがないこともあります。<ruby>省略<rt>しょうりゃく</rt></ruby>の<ruby>多<rt>おお</rt></ruby>い<ruby>日本語<rt>にほんご</rt></ruby>は、<em class=\"g\">なかなか</em><ruby>訳<rt>やく</rt></ruby>し<em class=\"g\">にくい</em>ものです。「<ruby>申<rt>もう</rt></ruby>し<ruby>訳<rt>わけ</rt></ruby>ありません」という<ruby>文<rt>ぶん</rt></ruby>をそのまま<ruby>訳<rt>やく</rt></ruby>しても、<ruby>意味<rt>いみ</rt></ruby>はつたわりません。<ruby>文字<rt>もじ</rt></ruby>のうしろにある<ruby>気持<rt>きも</rt></ruby>ちまではこぶのは、<em class=\"g\">なかなか</em>むずかしいことです。",
+ "traduccion": "Cuando aprendes una lengua extranjera, también empiezas a ver la tuya. La conjugación de verbos y sustantivos refleja la forma de pensar de esa lengua. Al traducir, a veces no existe una palabra que encaje del todo. El japonés, con tantas elipsis, resulta bastante difícil de traducir. Aunque traduzcas literalmente «mōshiwake arimasen», el sentido no llega. Llevar hasta el sentimiento que hay detrás de las letras es bastante difícil.",
+ "preguntas": [
+  {
+   "p": "<ruby>外国語<rt>がいこくご</rt></ruby>を<ruby>学<rt>まな</rt></ruby>ぶと、<ruby>何<rt>なに</rt></ruby>が<ruby>見<rt>み</rt></ruby>えてきますか。",
+   "opciones": [
+    "<ruby>文字<rt>もじ</rt></ruby>のかたち",
+    "<ruby>母国語<rt>ぼこくご</rt></ruby>のこと",
+    "<ruby>動詞<rt>どうし</rt></ruby>のかず",
+    "<ruby>訳<rt>やく</rt></ruby>し<ruby>方<rt>かた</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "なぜ<ruby>日本語<rt>にほんご</rt></ruby>は<ruby>訳<rt>やく</rt></ruby>しにくいのですか。",
+   "opciones": [
+    "<ruby>文字<rt>もじ</rt></ruby>がおおいから",
+    "<ruby>省略<rt>しょうりゃく</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いから",
+    "<ruby>動詞<rt>どうし</rt></ruby>がむずかしいから",
+    "<ruby>短<rt>みじか</rt></ruby>いから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

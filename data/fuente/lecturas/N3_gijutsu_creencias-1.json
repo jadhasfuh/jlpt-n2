@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/gijutsu/creencias-1",
+ "titulo": "<ruby>信<rt>しん</rt></ruby>じるということ",
+ "cuerpo": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>毎朝<rt>まいあさ</rt></ruby>、<ruby>仏<rt>ぶつ</rt></ruby>だんに<ruby>手<rt>て</rt></ruby>をあわせます。<ruby>宗教<rt>しゅうきょう</rt></ruby>について<ruby>深<rt>ふか</rt></ruby>く<ruby>語<rt>かた</rt></ruby>ったことはありません。「<ruby>信仰<rt>しんこう</rt></ruby><em class=\"g\">と言えば</em>おおげさだけれど、<ruby>習慣<rt>しゅうかん</rt></ruby>のようなものだ」と<ruby>言<rt>い</rt></ruby>います。<ruby>悪<rt>わる</rt></ruby>いことが<ruby>起<rt>お</rt></ruby>きたとき、<ruby>悪魔<rt>あくま</rt></ruby>のせいにするのはかんたんです。でも<ruby>祖母<rt>そぼ</rt></ruby>はそうしません。「わたしにできることをするだけ」と<ruby>言<rt>い</rt></ruby>うのです。<ruby>信<rt>しん</rt></ruby>じる<ruby>対<rt>たい</rt></ruby>しょうが<ruby>何<rt>なん</rt></ruby>であっ<em class=\"g\">ても構わない</em>、その<ruby>人<rt>ひと</rt></ruby>がまっすぐ<ruby>生<rt>い</rt></ruby>きているなら、それでいいのだと<ruby>思<rt>おも</rt></ruby>うようになりました。",
+ "traduccion": "Mi abuela junta las manos ante el altar budista todas las mañanas. Nunca ha hablado a fondo de religión. Dice: «llamarlo fe suena grandilocuente, pero es más bien una costumbre». Cuando pasa algo malo, es fácil echarle la culpa al diablo. Pero ella no lo hace. Dice: «yo solo hago lo que puedo». He llegado a pensar que no importa en qué crea cada uno: si vive con rectitud, con eso basta.",
+ "preguntas": [
+  {
+   "p": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>信仰<rt>しんこう</rt></ruby>についてどう<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "とてもたいせつだ",
+    "<ruby>習慣<rt>しゅうかん</rt></ruby>のようなものだ",
+    "<ruby>必要<rt>ひつよう</rt></ruby>ない",
+    "むずかしい"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>悪<rt>わる</rt></ruby>いことが<ruby>起<rt>お</rt></ruby>きたとき、<ruby>祖母<rt>そぼ</rt></ruby>はどうしますか。",
+   "opciones": [
+    "<ruby>悪魔<rt>あくま</rt></ruby>のせいにする",
+    "じぶんにできることをする",
+    "<ruby>祈<rt>いの</rt></ruby>る",
+    "<ruby>何<rt>なに</rt></ruby>もしない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

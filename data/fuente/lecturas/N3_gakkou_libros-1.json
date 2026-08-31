@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/gakkou/libros-1",
+ "titulo": "<ruby>印刷<rt>いんさつ</rt></ruby>し<ruby>立<rt>た</rt></ruby>ての<ruby>本<rt>ほん</rt></ruby>",
+ "cuerpo": "<ruby>出版<rt>しゅっぱん</rt></ruby>しゃではたらく<ruby>友人<rt>ゆうじん</rt></ruby>に、<ruby>印刷<rt>いんさつ</rt></ruby>し<em class=\"g\">たて</em>の<ruby>本<rt>ほん</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてもらいました。まだあたたかくて、インクのにおいがしました。<ruby>著者<rt>ちょしゃ</rt></ruby>が<ruby>何年<rt>なんねん</rt></ruby>もかけて<ruby>書<rt>か</rt></ruby>いた<ruby>物語<rt>ものがたり</rt></ruby>が、こうしてかたちになるのです。<ruby>一<rt>いっ</rt></ruby><ruby>章<rt>しょう</rt></ruby><em class=\"g\">ずつ</em><ruby>読<rt>よ</rt></ruby>んでいくと、<ruby>場面<rt>ばめん</rt></ruby>のうつりかわりがよくわかります。<ruby>題名<rt>だいめい</rt></ruby>は<ruby>最後<rt>さいご</rt></ruby>にきめたそうです。<ruby>記録<rt>きろく</rt></ruby>として<ruby>残<rt>のこ</rt></ruby>る<ruby>書物<rt>しょもつ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る<ruby>仕事<rt>しごと</rt></ruby>は、<ruby>時間<rt>じかん</rt></ruby>がかかりますが、<ruby>発行<rt>はっこう</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>のよろこびは<ruby>格<rt>かく</rt></ruby>べつでしょう。",
+ "traduccion": "Un amigo que trabaja en una editorial me enseñó un libro recién impreso. Todavía estaba caliente y olía a tinta. La historia que el autor tardó años en escribir cobra forma así. Si lo vas leyendo capítulo a capítulo, se aprecia bien cómo cambian las escenas. Dicen que el título lo decidieron al final. Hacer libros que queden como registro lleva tiempo, pero la alegría del día de la publicación debe de ser especial.",
+ "preguntas": [
+  {
+   "p": "<ruby>印刷<rt>いんさつ</rt></ruby>し<em class=\"g\">たて</em>の<ruby>本<rt>ほん</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "つめたかった",
+    "あたたかくてインクのにおいがした",
+    "きれいだった",
+    "おもかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>題名<rt>だいめい</rt></ruby>はいつきめましたか。",
+   "opciones": [
+    "はじめ",
+    "<ruby>最後<rt>さいご</rt></ruby>",
+    "<ruby>印刷<rt>いんさつ</rt></ruby>のあと",
+    "<ruby>著者<rt>ちょしゃ</rt></ruby>がきめなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

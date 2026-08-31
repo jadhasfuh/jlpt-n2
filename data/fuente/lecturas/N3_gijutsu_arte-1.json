@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/gijutsu/arte-1",
+ "titulo": "<ruby>芝居<rt>しばい</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>",
+ "cuerpo": "はじめて<ruby>劇<rt>げき</rt></ruby>を<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。<ruby>絵画<rt>かいが</rt></ruby>や<ruby>音楽<rt>おんがく</rt></ruby>とちがって、その<ruby>場<rt>ば</rt></ruby>かぎりで<ruby>消<rt>き</rt></ruby>えてしまうのが<ruby>芝居<rt>しばい</rt></ruby>です。<ruby>演技<rt>えんぎ</rt></ruby>をしている<ruby>人<rt>ひと</rt></ruby>の<ruby>真剣<rt>しんけん</rt></ruby>な<ruby>顔<rt>かお</rt></ruby>を<ruby>見<rt>み</rt></ruby>ていると、こちらまで<ruby>息<rt>いき</rt></ruby>をとめてしまいます。<ruby>演奏<rt>えんそう</rt></ruby>も<ruby>生<rt>なま</rt></ruby>で、まちがえる<ruby>音<rt>おと</rt></ruby>もありました。でも、それがかえってよかったのです。<ruby>終<rt>お</rt></ruby>わったあと、しばらく<ruby>立<rt>た</rt></ruby>てなくて、<ruby>感<rt>かん</rt></ruby>どうし<em class=\"g\">てしょうがない</em>まま<ruby>席<rt>せき</rt></ruby>にすわっていました。<ruby>額<rt>がく</rt></ruby>に<ruby>入<rt>はい</rt></ruby>った<ruby>絵<rt>え</rt></ruby>のようにのこせないからこそ、わすれられないのだと<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "Fui por primera vez a ver una obra de teatro. A diferencia de la pintura o la música, el teatro se desvanece con la función. Viendo la cara seria de quien actúa, uno mismo acaba conteniendo la respiración. La música era en directo y hubo notas mal dadas. Pero eso, al contrario, estuvo bien. Al terminar no pude levantarme durante un rato y me quedé en el asiento, emocionadísimo. Precisamente porque no se puede guardar como un cuadro enmarcado, no se olvida.",
+ "preguntas": [
+  {
+   "p": "<ruby>芝居<rt>しばい</rt></ruby>が<ruby>絵画<rt>かいが</rt></ruby>とちがうのはどこですか。",
+   "opciones": [
+    "きれいなこと",
+    "その<ruby>場<rt>ば</rt></ruby>かぎりで<ruby>消<rt>き</rt></ruby>えること",
+    "<ruby>音楽<rt>おんがく</rt></ruby>があること",
+    "<ruby>額<rt>がく</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ること"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "まちがえる<ruby>音<rt>おと</rt></ruby>について、どう<ruby>思<rt>おも</rt></ruby>いましたか。",
+   "opciones": [
+    "ざんねんだった",
+    "かえってよかった",
+    "<ruby>気<rt>き</rt></ruby>がつかなかった",
+    "うるさかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

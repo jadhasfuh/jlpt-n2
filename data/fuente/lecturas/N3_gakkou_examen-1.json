@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/gakkou/examen-1",
+ "titulo": "<ruby>成績<rt>せいせき</rt></ruby>より<ruby>大切<rt>たいせつ</rt></ruby>なこと",
+ "cuerpo": "<ruby>試験<rt>しけん</rt></ruby>の<ruby>成績<rt>せいせき</rt></ruby>が<ruby>返<rt>かえ</rt></ruby>ってきました。<ruby>合格<rt>ごうかく</rt></ruby>はしましたが、<ruby>同<rt>おな</rt></ruby>じような<ruby>間違<rt>まちが</rt></ruby>いを<ruby>何度<rt>なんど</rt></ruby>もしていました。<ruby>問題<rt>もんだい</rt></ruby><em class=\"g\">ごとに</em>どこで<ruby>誤<rt>あやま</rt></ruby>ったかを<ruby>調<rt>しら</rt></ruby>べると、たいてい<ruby>最後<rt>さいご</rt></ruby>のけいさんでミスをしています。つまり、わからなかったのではなく、いそいでいただけです。<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby><em class=\"g\">ごとに</em><ruby>自分<rt>じぶん</rt></ruby>の<ruby>答<rt>こた</rt></ruby>えを<ruby>見<rt>み</rt></ruby>なおす<ruby>習慣<rt>しゅうかん</rt></ruby>をつけました。<ruby>欠席<rt>けっせき</rt></ruby>せずに<ruby>通<rt>かよ</rt></ruby>うことも<ruby>大事<rt>だいじ</rt></ruby>ですが、<ruby>見<rt>み</rt></ruby>なおす<em class=\"g\">ほど</em><ruby>力<rt>ちから</rt></ruby>がつくものはありません。",
+ "traduccion": "Me devolvieron las notas del examen. Aprobé, pero había cometido el mismo tipo de error varias veces. Al revisar pregunta por pregunta dónde me había equivocado, casi siempre fallaba en el último cálculo. Es decir, no era que no lo supiera: es que iba con prisa. Me impuse la costumbre de revisar mis respuestas cada mes. Asistir sin faltar también importa, pero no hay nada que dé tanta capacidad como revisar.",
+ "preguntas": [
+  {
+   "p": "どこでミスをしていましたか。",
+   "opciones": [
+    "はじめの<ruby>問題<rt>もんだい</rt></ruby>",
+    "<ruby>最後<rt>さいご</rt></ruby>のけいさん",
+    "<ruby>名前<rt>なまえ</rt></ruby>",
+    "ぜんぶ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いちばん<ruby>力<rt>ちから</rt></ruby>がつくのは<ruby>何<rt>なに</rt></ruby>だと<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>欠席<rt>けっせき</rt></ruby>しないこと",
+    "<ruby>見<rt>み</rt></ruby>なおすこと",
+    "<ruby>合格<rt>ごうかく</rt></ruby>すること",
+    "いそぐこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

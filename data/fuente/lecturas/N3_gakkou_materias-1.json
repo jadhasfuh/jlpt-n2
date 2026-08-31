@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/gakkou/materias-1",
+ "titulo": "<ruby>観察<rt>かんさつ</rt></ruby>する<ruby>目<rt>め</rt></ruby>",
+ "cuerpo": "<ruby>物理<rt>ぶつり</rt></ruby>の<ruby>実験<rt>じっけん</rt></ruby>で、おなじことを<ruby>十<rt>じゅっ</rt></ruby>かいくりかえしました。<ruby>結果<rt>けっか</rt></ruby>はまいかいすこしずつちがいます。<ruby>分析<rt>ぶんせき</rt></ruby>してみると、そのちがいにも<ruby>理由<rt>りゆう</rt></ruby>がありました。<ruby>式<rt>しき</rt></ruby>のうえでは<ruby>同<rt>おな</rt></ruby>じでも、じっさいの<ruby>世界<rt>せかい</rt></ruby>では<ruby>同<rt>おな</rt></ruby>じことは<ruby>二<rt>に</rt></ruby><ruby>度<rt>ど</rt></ruby>と<ruby>起<rt>お</rt></ruby>きません。<ruby>哲学<rt>てつがく</rt></ruby>のじゅぎょうで<ruby>聞<rt>き</rt></ruby>いた<ruby>説<rt>せつ</rt></ruby>を<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>しました。<ruby>注目<rt>ちゅうもく</rt></ruby>するべきは、<ruby>答<rt>こた</rt></ruby>えの<ruby>正<rt>ただ</rt></ruby>しさ<em class=\"g\">だけ</em>ではなく、どうやってそこに<ruby>至<rt>いた</rt></ruby>ったかです。<ruby>観察<rt>かんさつ</rt></ruby>するちからは、どの<ruby>科目<rt>かもく</rt></ruby>でも<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>ちます。",
+ "traduccion": "En el experimento de física repetimos lo mismo diez veces. Los resultados salían un poco distintos cada vez. Al analizarlo, esas diferencias también tenían su motivo. Sobre el papel es lo mismo, pero en el mundo real nada ocurre dos veces igual. Me acordé de una teoría que oí en la clase de filosofía. Lo que hay que mirar no es solo si la respuesta es correcta, sino cómo se llegó hasta ella. La capacidad de observar sirve en cualquier asignatura.",
+ "preguntas": [
+  {
+   "p": "<ruby>実験<rt>じっけん</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "まいかい<ruby>同<rt>おな</rt></ruby>じ",
+    "まいかいすこしずつちがう",
+    "まちがっていた",
+    "<ruby>分析<rt>ぶんせき</rt></ruby>できなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>注目<rt>ちゅうもく</rt></ruby>するべきなのは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>答<rt>こた</rt></ruby>えの<ruby>正<rt>ただ</rt></ruby>しさ<em class=\"g\">だけ</em>",
+    "どうやってそこに<ruby>至<rt>いた</rt></ruby>ったか",
+    "<ruby>式<rt>しき</rt></ruby>",
+    "<ruby>科目<rt>かもく</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}
