@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/hito/cuerpo-2",
+ "titulo": "<ruby>新人<rt>しんじん</rt></ruby>だったころ",
+ "cuerpo": "<ruby>入社<rt>にゅうしゃ</rt></ruby>して<ruby>最初<rt>さいしょ</rt></ruby>の<ruby>半年<rt>はんとし</rt></ruby>は、<ruby>大人<rt>おとな</rt></ruby><em class=\"g\">びた</em><ruby>顔<rt>かお</rt></ruby>をしようと<ruby>必死<rt>ひっし</rt></ruby>でした。<ruby>内心<rt>ないしん</rt></ruby>ではいつも<ruby>不安<rt>ふあん</rt></ruby>だったのに、<ruby>手元<rt>てもと</rt></ruby>の<ruby>資料<rt>しりょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら<ruby>分<rt>わ</rt></ruby>かったふりをしていたのです。<ruby>現場<rt>げんば</rt></ruby>に<ruby>着手<rt>ちゃくしゅ</rt></ruby>するまでの<ruby>準備<rt>じゅんび</rt></ruby>が<ruby>長<rt>なが</rt></ruby>く、<ruby>体力<rt>たいりょく</rt></ruby>よりも<ruby>気<rt>き</rt></ruby>のほうが<ruby>先<rt>さき</rt></ruby>にすり<ruby>減<rt>へ</rt></ruby>りました。<ruby>健康<rt>けんこう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>で<ruby>数値<rt>すうち</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>く<ruby>出<rt>で</rt></ruby>て、<ruby>肉体<rt>にくたい</rt></ruby>は<ruby>正直<rt>しょうじき</rt></ruby>なのだと<ruby>思<rt>おも</rt></ruby>い<ruby>知<rt>し</rt></ruby>りました。<ruby>首脳<rt>しゅのう</rt></ruby><ruby>会議<rt>かいぎ</rt></ruby>の<ruby>資料<rt>しりょう</rt></ruby>を<ruby>入手<rt>にゅうしゅ</rt></ruby>する<ruby>役<rt>やく</rt></ruby>を<ruby>任<rt>まか</rt></ruby>されたとき、はじめて<ruby>自分<rt>じぶん</rt></ruby>が<ruby>主体<rt>しゅたい</rt></ruby>として<ruby>動<rt>うご</rt></ruby>いている<ruby>感覚<rt>かんかく</rt></ruby>がありました。<ruby>他方<rt>たほう</rt></ruby>で、<ruby>徒歩<rt>とほ</rt></ruby><ruby>十分<rt>じゅっぷん</rt></ruby>の<ruby>道<rt>みち</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>く<ruby>余裕<rt>よゆう</rt></ruby>すらない<ruby>日<rt>ひ</rt></ruby>もあります。<ruby>念願<rt>ねんがん</rt></ruby>だった<ruby>職<rt>しょく</rt></ruby>に<ruby>就<rt>つ</rt></ruby>いたはずなのに、と<ruby>何度<rt>なんど</rt></ruby>も<ruby>考<rt>かんが</rt></ruby>えました。<ruby>生身<rt>なまみ</rt></ruby>の<ruby>人間<rt>にんげん</rt></ruby>であることを<ruby>忘<rt>わす</rt></ruby>れないでいたいと、いまは<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "Durante el primer medio año en la empresa me esforzaba por poner cara de adulto. Por dentro estaba siempre inseguro y, mirando los papeles que tenía a mano, fingía haber entendido. La preparación hasta pisar el terreno era larga, y antes que las fuerzas se me gastó el ánimo. En la revisión médica me salieron mal las cifras y comprendí que el cuerpo no miente. Cuando me encargaron conseguir la documentación de la reunión de directivos, tuve por primera vez la sensación de estar actuando como sujeto. Por otro lado, hay días en que no tengo ni margen para andar diez minutos a pie. Cuántas veces pensé que se suponía que este era el trabajo que quería. Ahora lo que quiero es no olvidar que soy una persona de carne y hueso.",
+ "preguntas": [
+  {
+   "p": "<ruby>健康<rt>けんこう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>で、この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>思<rt>おも</rt></ruby>い<ruby>知<rt>し</rt></ruby>りましたか。",
+   "opciones": [
+    "<ruby>準備<rt>じゅんび</rt></ruby>が<ruby>長<rt>なが</rt></ruby>すぎること",
+    "<ruby>肉体<rt>にくたい</rt></ruby>は<ruby>正直<rt>しょうじき</rt></ruby>だということ",
+    "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>向<rt>む</rt></ruby>いていないこと",
+    "<ruby>体力<rt>たいりょく</rt></ruby>は<ruby>関係<rt>かんけい</rt></ruby>ないこと"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "はじめて<ruby>主体<rt>しゅたい</rt></ruby>として<ruby>動<rt>うご</rt></ruby>いている<ruby>感覚<rt>かんかく</rt></ruby>があったのは、いつですか。",
+   "opciones": [
+    "<ruby>入社<rt>にゅうしゃ</rt></ruby>した<ruby>日<rt>ひ</rt></ruby>",
+    "<ruby>首脳<rt>しゅのう</rt></ruby><ruby>会議<rt>かいぎ</rt></ruby>の<ruby>資料<rt>しりょう</rt></ruby>を<ruby>入手<rt>にゅうしゅ</rt></ruby>する<ruby>役<rt>やく</rt></ruby>を<ruby>任<rt>まか</rt></ruby>されたとき",
+    "<ruby>健康<rt>けんこう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>のあと",
+    "<ruby>半年<rt>はんとし</rt></ruby>がすぎたとき"
+   ],
+   "correcta": 1
+  }
+ ]
+}

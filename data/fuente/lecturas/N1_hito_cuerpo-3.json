@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/hito/cuerpo-3",
+ "titulo": "<ruby>骨董品<rt>こっとうひん</rt></ruby>の<ruby>店<rt>みせ</rt></ruby>で",
+ "cuerpo": "<ruby>駅<rt>えき</rt></ruby>の<ruby>真<rt>ま</rt></ruby>ん<ruby>前<rt>まえ</rt></ruby>に、<ruby>骨董品<rt>こっとうひん</rt></ruby>をあつかう<ruby>小<rt>ちい</rt></ruby>さな<ruby>店<rt>みせ</rt></ruby>があります。<ruby>店主<rt>てんしゅ</rt></ruby>は<ruby>無口<rt>むくち</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>で、こちらが<ruby>指差<rt>ゆびさ</rt></ruby>すまで<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>いません。<ruby>棚<rt>たな</rt></ruby>の<ruby>本体<rt>ほんたい</rt></ruby>が<ruby>傾<rt>かたむ</rt></ruby>いているのが<ruby>気<rt>き</rt></ruby>になって、<ruby>振<rt>ふ</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>って<ruby>聞<rt>き</rt></ruby>いてみると「<ruby>昔<rt>むかし</rt></ruby>からです」とだけ<ruby>返<rt>かえ</rt></ruby>ってきました。<ruby>値札<rt>ねふだ</rt></ruby><em class=\"g\">も</em>なけれ<em class=\"g\">ば</em><ruby>説明<rt>せつめい</rt></ruby><em class=\"g\">も</em>ないのですが、こちらが<ruby>本気<rt>ほんき</rt></ruby>で<ruby>見<rt>み</rt></ruby>ていると、ようやく<ruby>口<rt>くち</rt></ruby>を<ruby>開<rt>ひら</rt></ruby>きます。<ruby>立体<rt>りったい</rt></ruby>の<ruby>置物<rt>おきもの</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つ<ruby>手<rt>て</rt></ruby>に<ruby>取<rt>と</rt></ruby>ると、<ruby>裏<rt>うら</rt></ruby>に<ruby>書<rt>か</rt></ruby>かれた<ruby>本文<rt>ほんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んでくれました。<ruby>学者<rt>がくしゃ</rt></ruby><em class=\"g\">じみた</em><ruby>話<rt>はな</rt></ruby>し<ruby>方<rt>かた</rt></ruby>ではなく、<ruby>持<rt>も</rt></ruby>ち<ruby>主<rt>ぬし</rt></ruby>のことばかり<ruby>話<rt>はな</rt></ruby>すのです。<ruby>足<rt>た</rt></ruby>し<ruby>算<rt>ざん</rt></ruby>をするように<ruby>年<rt>ねん</rt></ruby>を<ruby>数<rt>かぞ</rt></ruby>えて、この<ruby>品<rt>しな</rt></ruby>が<ruby>何人<rt>なんにん</rt></ruby>の<ruby>手<rt>て</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>ってきたかを<ruby>教<rt>おし</rt></ruby>えてくれました。<ruby>物足<rt>ものた</rt></ruby>りないくらいの<ruby>説明<rt>せつめい</rt></ruby>のほうが、あとまで<ruby>残<rt>のこ</rt></ruby>るものです。",
+ "traduccion": "Justo enfrente de la estación hay una tiendecita de antigüedades. El dueño es callado y no dice nada hasta que uno señala algo. Me llamó la atención que el cuerpo del estante estuviera inclinado y, al volverme para preguntarle, solo me contestó: «lleva así desde siempre». No hay etiquetas de precio ni tampoco explicaciones, pero cuando ve que miras en serio, por fin abre la boca. Cogí una figura y me leyó el texto escrito en la parte de atrás. No habla con esos aires de erudito: solo habla de quienes fueron sus dueños. Fue contando los años como quien hace una suma y me dijo por cuántas manos había pasado aquella pieza. Las explicaciones que se quedan algo cortas son las que más duran.",
+ "preguntas": [
+  {
+   "p": "<ruby>店主<rt>てんしゅ</rt></ruby>はどんな<ruby>人<rt>ひと</rt></ruby>ですか。",
+   "opciones": [
+    "よくしゃべる",
+    "<ruby>無口<rt>むくち</rt></ruby>で、<ruby>指差<rt>ゆびさ</rt></ruby>すまで<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わない",
+    "<ruby>学者<rt>がくしゃ</rt></ruby>である",
+    "<ruby>値段<rt>ねだん</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>ばかりする"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>店主<rt>てんしゅ</rt></ruby>は<ruby>品物<rt>しなもの</rt></ruby>について<ruby>何<rt>なに</rt></ruby>を<ruby>話<rt>はな</rt></ruby>しますか。",
+   "opciones": [
+    "<ruby>作<rt>つく</rt></ruby>り<ruby>方<rt>かた</rt></ruby>",
+    "<ruby>持<rt>も</rt></ruby>ち<ruby>主<rt>ぬし</rt></ruby>のこと",
+    "<ruby>値段<rt>ねだん</rt></ruby>",
+    "<ruby>材料<rt>ざいりょう</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}
