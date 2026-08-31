@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/gijutsu/herramientas-1",
+ "titulo": "ねじまわし<ruby>一本<rt>いっぽん</rt></ruby>",
+ "cuerpo": "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しのとき、<ruby>道具<rt>どうぐ</rt></ruby><ruby>箱<rt>ばこ</rt></ruby>をひとつだけ<ruby>持<rt>も</rt></ruby>っていくことにしました。<ruby>中身<rt>なかみ</rt></ruby>はねじまわしとかなづちと、<ruby>父<rt>ちち</rt></ruby>からもらった<ruby>古<rt>ふる</rt></ruby>い<ruby>定規<rt>じょうぎ</rt></ruby>です。<ruby>新<rt>あたら</rt></ruby>しい<ruby>部屋<rt>へや</rt></ruby>の<ruby>棚<rt>たな</rt></ruby>はどれもゆるく、ねじを<ruby>締<rt>し</rt></ruby>めなおすだけで<ruby>使<rt>つか</rt></ruby>えるようになりました。<ruby>道具<rt>どうぐ</rt></ruby>あっての<ruby>暮<rt>く</rt></ruby>らしだと<ruby>思<rt>おも</rt></ruby>います。いや、<ruby>正確<rt>せいかく</rt></ruby>には、<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby><em class=\"g\">あっての</em><ruby>道具<rt>どうぐ</rt></ruby>でしょう。<ruby>箱<rt>はこ</rt></ruby>の<ruby>奥<rt>おく</rt></ruby>に、どこのものかわからない<ruby>小<rt>ちい</rt></ruby>さな<ruby>鍵<rt>かぎ</rt></ruby>が<ruby>一本<rt>いっぽん</rt></ruby><ruby>残<rt>のこ</rt></ruby>っています。<ruby>何度<rt>なんど</rt></ruby><ruby>考<rt>かんが</rt></ruby>えても<em class=\"g\">どうにも</em><ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>せ<em class=\"g\">ない</em>のに、<ruby>捨<rt>す</rt></ruby>てる<ruby>気<rt>き</rt></ruby>にもなれません。<ruby>物<rt>もの</rt></ruby>には<ruby>持<rt>も</rt></ruby>ち<ruby>主<rt>ぬし</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>付<rt>つ</rt></ruby>いてくるのだと、<ruby>箱<rt>はこ</rt></ruby>を<ruby>閉<rt>し</rt></ruby>めながら<ruby>思<rt>おも</rt></ruby>いました。<ruby>君主<rt>くんしゅ</rt></ruby>でも<ruby>元首<rt>げんしゅ</rt></ruby>でもない<ruby>普通<rt>ふつう</rt></ruby>の<ruby>暮<rt>く</rt></ruby>らしにも、<ruby>守<rt>まも</rt></ruby>るに<ruby>値<rt>あたい</rt></ruby>するものはいくつもあります。",
+ "traduccion": "Al mudarme decidí llevarme una sola caja de herramientas. Dentro van un destornillador, un martillo y una regla vieja que me dio mi padre. Todas las estanterías del piso nuevo bailaban, y con solo apretar los tornillos quedaron utilizables. Pienso que la vida diaria existe gracias a las herramientas. O más exactamente: las herramientas existen gracias a quien las usa. En el fondo de la caja queda una llave pequeña de la que no sé de dónde es. Por más vueltas que le doy no consigo acordarme de ninguna manera, y tampoco me veo capaz de tirarla. Pensé, mientras cerraba la caja, que a los objetos se les pega el tiempo de quien los tuvo. También en una vida corriente, que no es la de ningún monarca ni jefe de Estado, hay unas cuantas cosas que merecen guardarse.",
+ "preguntas": [
+  {
+   "p": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>部屋<rt>へや</rt></ruby>の<ruby>棚<rt>たな</rt></ruby>は、どうやって<ruby>使<rt>つか</rt></ruby>えるようになりましたか。",
+   "opciones": [
+    "<ruby>新<rt>あたら</rt></ruby>しく<ruby>買<rt>か</rt></ruby>った",
+    "ねじを<ruby>締<rt>し</rt></ruby>めなおした",
+    "<ruby>捨<rt>す</rt></ruby>てた",
+    "<ruby>人<rt>ひと</rt></ruby>に<ruby>頼<rt>たの</rt></ruby>んだ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>小<rt>ちい</rt></ruby>さな<ruby>鍵<rt>かぎ</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。",
+   "opciones": [
+    "どこのものか<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>せないが<ruby>捨<rt>す</rt></ruby>てられない",
+    "<ruby>父<rt>ちち</rt></ruby>からもらった",
+    "<ruby>新<rt>あたら</rt></ruby>しい<ruby>部屋<rt>へや</rt></ruby>のものだ",
+    "<ruby>道具<rt>どうぐ</rt></ruby><ruby>箱<rt>ばこ</rt></ruby>の<ruby>鍵<rt>かぎ</rt></ruby>だ"
+   ],
+   "correcta": 0
+  }
+ ]
+}
