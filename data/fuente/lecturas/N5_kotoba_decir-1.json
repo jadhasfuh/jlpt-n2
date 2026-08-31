@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kotoba/decir-1",
+ "titulo": "<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>",
+ "cuerpo": "おなじことでも、<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>でつたわりかたがかわります。「はやくして」より「そろそろ<ruby>行<rt>い</rt></ruby>こう」と<ruby>話<rt>はな</rt></ruby>す<em class=\"g\">ほうがいい</em>です。こどものころ、<ruby>父<rt>ちち</rt></ruby>にそうおしえられました。せんじつ、ともだちの<ruby>絵<rt>え</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、「へただね」と<ruby>言<rt>い</rt></ruby>ってしまいました。すぐにあやまりましたが、「ここをこう<ruby>描<rt>か</rt></ruby>くともっとよくなるよ」と<ruby>言<rt>い</rt></ruby>う<em class=\"g\">ほうがいい</em>と、あとでおもいました。ことばは、あいてのこころにのこるからです。",
+ "traduccion": "Aunque digas lo mismo, según cómo lo digas llega de una manera o de otra. Es mejor decir «venga, vámonos ya» que «date prisa». Me lo enseñó mi padre de niño. El otro día, viendo el dibujo de un amigo, se me escapó un «qué mal te ha salido». Le pedí perdón enseguida, pero luego pensé que habría sido mejor decir «si dibujas esta parte así, queda aún mejor». Porque las palabras se quedan en el corazón del otro.",
+ "preguntas": [
+  {
+   "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をおしえましたか。",
+   "opciones": [
+    "はやくすること",
+    "<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>でつたわりかたがかわること",
+    "<ruby>絵<rt>え</rt></ruby>を<ruby>描<rt>か</rt></ruby>くこと",
+    "あやまること"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "ともだちに、どう<ruby>言<rt>い</rt></ruby>えばよかったとおもいましたか。",
+   "opciones": [
+    "「へただね」",
+    "「ここをこう<ruby>描<rt>か</rt></ruby>くともっとよくなるよ」",
+    "「はやくして」",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

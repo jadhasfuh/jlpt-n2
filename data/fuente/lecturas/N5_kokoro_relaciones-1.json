@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kokoro/relaciones-1",
+ "titulo": "ともだちの<ruby>結婚<rt>けっこん</rt></ruby>",
+ "cuerpo": "こどものころから<ruby>仲<rt>なか</rt></ruby>のいいともだちが<ruby>結婚<rt>けっこん</rt></ruby>しました。しきに<ruby>呼<rt>よ</rt></ruby>ばれて、とおくのまちまで<ruby>行<rt>い</rt></ruby>きました。ひさしぶりに<ruby>遇<rt>あ</rt></ruby>うと、かおはおなじでしたが、はなしかたがすこし<ruby>大人<rt>おとな</rt></ruby>になっていました。「しゃしんをとっ<em class=\"g\">てもいいです</em>か」ときくと、わらってうなずいてくれました。かえるまえに、「またいっしょに<ruby>遊<rt>あそ</rt></ruby>ぼう」とやくそくしました。となりのせきの<ruby>人<rt>ひと</rt></ruby>にも「ここにすわっ<em class=\"g\">てもいいです</em>か」ときかれ、あたらしいともだちができました。",
+ "traduccion": "Un amigo con el que me llevo bien desde niño se ha casado. Me invitó a la ceremonia y fui hasta una ciudad lejana. Al reencontrarnos después de tanto, su cara era la misma, pero su forma de hablar se había hecho un poco más adulta. Le pregunté «¿puedo hacer una foto?» y asintió riéndose. Antes de volver, quedamos en jugar juntos otra vez. Alguien del asiento de al lado me preguntó «¿puedo sentarme aquí?», y así hice un amigo nuevo.",
+ "preguntas": [
+  {
+   "p": "ともだちの<ruby>何<rt>なに</rt></ruby>がかわっていましたか。",
+   "opciones": [
+    "かお",
+    "はなしかた",
+    "なまえ",
+    "まち"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "となりのせきの<ruby>人<rt>ひと</rt></ruby>とはどうなりましたか。",
+   "opciones": [
+    "<ruby>話<rt>はな</rt></ruby>さなかった",
+    "あたらしいともだちになった",
+    "しゃしんをとった",
+    "さきにかえった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

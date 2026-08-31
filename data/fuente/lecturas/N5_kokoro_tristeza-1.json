@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kokoro/tristeza-1",
+ "titulo": "<ruby>泣<rt>な</rt></ruby>いた<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "きのう、<ruby>大変<rt>たいへん</rt></ruby>なことがありました。かばんをなくして、<ruby>中<rt>なか</rt></ruby>にあったたいせつなノートもなくしました。<ruby>困<rt>こま</rt></ruby>って、こうえんで<ruby>泣<rt>な</rt></ruby>いてしまいました。<ruby>頭<rt>あたま</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>くなって、<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べられませんでした。よるおそく、<ruby>知<rt>し</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>からでんわがありました。かばんをひろってくれたそうです。うれしくて、また<ruby>泣<rt>な</rt></ruby>きました。つまらないことで<ruby>泣<rt>な</rt></ruby>くのは<ruby>嫌<rt>きら</rt></ruby>いですが、きのうだけはしかたがなかったとおもいます。",
+ "traduccion": "Ayer me pasó algo terrible. Perdí la mochila y con ella el cuaderno importante que llevaba dentro. Me agobié y acabé llorando en el parque. Me empezó a doler la cabeza y no pude comer nada. Ya tarde por la noche me llamó un desconocido: había encontrado la mochila. De la alegría volví a llorar. Odio llorar por tonterías, pero creo que ayer no había otra.",
+ "preguntas": [
+  {
+   "p": "なぜ<ruby>困<rt>こま</rt></ruby>りましたか。",
+   "opciones": [
+    "<ruby>頭<rt>あたま</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>かったから",
+    "かばんとノートをなくしたから",
+    "でんわがなかったから",
+    "こうえんがとおかったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "よるおそく、<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "また<ruby>泣<rt>な</rt></ruby>いた",
+    "<ruby>知<rt>し</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>からでんわがあった",
+    "ごはんを<ruby>食<rt>た</rt></ruby>べた",
+    "ノートを<ruby>書<rt>か</rt></ruby>いた"
+   ],
+   "correcta": 1
+  }
+ ]
+}

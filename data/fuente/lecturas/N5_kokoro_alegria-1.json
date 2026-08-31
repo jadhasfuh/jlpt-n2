@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kokoro/alegria-1",
+ "titulo": "おれいのことば",
+ "cuerpo": "たんじょうびに、ともだちが<ruby>本<rt>ほん</rt></ruby>をくれました。わたしが<ruby>好<rt>す</rt></ruby>きなさっかのものでした。「これ<em class=\"g\">をください</em>」といちど<ruby>話<rt>はな</rt></ruby>したのをおぼえていてくれたのです。とてもうれしくて、その<ruby>日<rt>ひ</rt></ruby>のうちにはんぶん<ruby>読<rt>よ</rt></ruby>みました。おもしろくて、<ruby>楽<rt>たの</rt></ruby>しい<ruby>時間<rt>じかん</rt></ruby>でした。つぎの<ruby>日<rt>ひ</rt></ruby>、おみせで「おなじものをもう<ruby>一<rt>いっ</rt></ruby>さつ<em class=\"g\">をください</em>」とたのみました。ともだちにおかえしをするためです。おれいは、ことばだけでなく、かたちにもしたいのです。",
+ "traduccion": "Por mi cumpleaños un amigo me regaló un libro. Era de una autora que me gusta. Se acordaba de que una vez había dicho «dame este». Me hizo tanta ilusión que ese mismo día leí la mitad. Fue interesante y pasé un rato muy agradable. Al día siguiente fui a la tienda y pedí «deme otro ejemplar igual, por favor». Era para devolverle el detalle a mi amigo. El agradecimiento no quiero que sea solo palabras, sino que tome forma.",
+ "preguntas": [
+  {
+   "p": "なぜ、ともだちはその<ruby>本<rt>ほん</rt></ruby>をえらびましたか。",
+   "opciones": [
+    "やすかったから",
+    "わたしが<ruby>好<rt>す</rt></ruby>きなさっかのものだから",
+    "あたらしいから",
+    "おもしろいから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "つぎの<ruby>日<rt>ひ</rt></ruby>、おみせで<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>本<rt>ほん</rt></ruby>をかえした",
+    "おなじ<ruby>本<rt>ほん</rt></ruby>をもう<ruby>一<rt>いっ</rt></ruby>さつたのんだ",
+    "ともだちにあった",
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

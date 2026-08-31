@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kotoba/opinion-1",
+ "titulo": "だまっていた<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "かいぎで、みんなが<ruby>話<rt>はな</rt></ruby>していました。わたしはひとつだけ、だれも<ruby>言<rt>い</rt></ruby>わないことに<ruby>気<rt>き</rt></ruby>がつきました。でも、「わたしが<ruby>言<rt>い</rt></ruby>わ<em class=\"g\">なくてもいい</em>だろう」とおもって、だまっていました。あとで、そのことがもんだいになりました。ちいさな<ruby>物<rt>もの</rt></ruby>でも、<ruby>気<rt>き</rt></ruby>がついた<ruby>人<rt>ひと</rt></ruby>が<ruby>言<rt>い</rt></ruby>えばよかったのです。ぜんぶの<ruby>人<rt>ひと</rt></ruby>が<ruby>話<rt>はな</rt></ruby>さ<em class=\"g\">なくてもいい</em>ですが、<ruby>気<rt>き</rt></ruby>がついた<ruby>人<rt>ひと</rt></ruby>はべつです。つぎのかいぎでは、みじかくてもいいから<ruby>言<rt>い</rt></ruby>おうときめました。",
+ "traduccion": "En la reunión todos hablaban. Yo me di cuenta de una sola cosa que nadie decía. Pero pensé «no hace falta que lo diga yo» y me callé. Después, eso acabó siendo un problema. Aunque fuera una cosa pequeña, debía haberlo dicho quien se dio cuenta. No hace falta que hablen todos, pero quien se da cuenta es otra cosa. Decidí que en la próxima reunión lo diré, aunque sea con pocas palabras.",
+ "preguntas": [
+  {
+   "p": "なぜ、だまっていましたか。",
+   "opciones": [
+    "わからなかったから",
+    "じぶんが<ruby>言<rt>い</rt></ruby>わ<em class=\"g\">なくてもいい</em>とおもったから",
+    "<ruby>時間<rt>じかん</rt></ruby>がなかったから",
+    "ほかの<ruby>人<rt>ひと</rt></ruby>が<ruby>言<rt>い</rt></ruby>ったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "つぎのかいぎでは、どうすることにしましたか。",
+   "opciones": [
+    "だまっている",
+    "みじかくても<ruby>言<rt>い</rt></ruby>う",
+    "ほかの<ruby>人<rt>ひと</rt></ruby>にたのむ",
+    "<ruby>行<rt>い</rt></ruby>かない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

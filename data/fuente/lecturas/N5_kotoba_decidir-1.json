@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kotoba/decidir-1",
+ "titulo": "どちらを<ruby>選<rt>えら</rt></ruby>ぶか",
+ "cuerpo": "しごとをかえるかどうか、<ruby>一<rt>いっ</rt></ruby>かげつかんがえました。<ruby>選択<rt>せんたく</rt></ruby>はふたつありました。いまのところにのこるか、あたらしいところへ<ruby>行<rt>い</rt></ruby>くかです。かみに、いいところとわるいところを<ruby>書<rt>か</rt></ruby>きました。どちらもおなじくらいでした。さいごは、「<ruby>十<rt>じゅう</rt></ruby>ねん<ruby>後<rt>ご</rt></ruby>にどちらをえらんでよかったとおもうか」でかんがえました。そうすると、こたえはすぐに<ruby>出<rt>で</rt></ruby>ました。<ruby>選択<rt>せんたく</rt></ruby>にこまったときは、いまではなく<ruby>先<rt>さき</rt></ruby>から<ruby>見<rt>み</rt></ruby>るといいのだと<ruby>知<rt>し</rt></ruby>りました。",
+ "traduccion": "Estuve un mes pensando si cambiar de trabajo. Tenía dos opciones: quedarme donde estaba o irme a un sitio nuevo. Apunté en un papel lo bueno y lo malo de cada una. Salían más o menos iguales. Al final lo pensé así: «dentro de diez años, ¿cuál me alegraré de haber elegido?». Con eso la respuesta salió enseguida. Aprendí que cuando una elección te bloquea, conviene mirarla no desde el ahora, sino desde más adelante.",
+ "preguntas": [
+  {
+   "p": "かみに<ruby>何<rt>なに</rt></ruby>を<ruby>書<rt>か</rt></ruby>きましたか。",
+   "opciones": [
+    "こたえ",
+    "いいところとわるいところ",
+    "しごとのなまえ",
+    "<ruby>十<rt>じゅう</rt></ruby>ねんのよてい"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "さいご、どうやってきめましたか。",
+   "opciones": [
+    "ともだちにきいた",
+    "<ruby>十<rt>じゅう</rt></ruby>ねん<ruby>後<rt>ご</rt></ruby>からかんがえた",
+    "かみをすてた",
+    "いまのところにのこった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

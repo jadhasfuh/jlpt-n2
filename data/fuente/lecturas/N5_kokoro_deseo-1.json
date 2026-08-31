@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kokoro/deseo-1",
+ "titulo": "<ruby>欲<rt>ほ</rt></ruby>しいもの",
+ "cuerpo": "こどものころ、<ruby>欲<rt>ほ</rt></ruby>しいものがたくさんありました。いまは、あまりありません。ものより、しずかな<ruby>時間<rt>じかん</rt></ruby>のほうが<ruby>欲<rt>ほ</rt></ruby>しいです。ともだちに「すこしまっ<em class=\"g\">てください</em>」とたのんで、こうえんのベンチにすわりました。「そこにすわっ<em class=\"g\">てください</em>」と、そのともだちもとなりにきました。<ruby>二人<rt>ふたり</rt></ruby>で<ruby>何<rt>なに</rt></ruby>も<ruby>話<rt>はな</rt></ruby>さずに、そらを<ruby>見<rt>み</rt></ruby>ていました。<ruby>欲<rt>ほ</rt></ruby>しかったものは、たぶんこれだったのだとおもいます。",
+ "traduccion": "De niño tenía muchas cosas que quería. Ahora casi ninguna. Más que cosas, lo que quiero es tiempo tranquilo. Le pedí a un amigo «espera un poco, por favor» y me senté en un banco del parque. «Siéntate ahí, por favor», le dije, y se puso a mi lado. Los dos nos quedamos mirando el cielo sin decir nada. Creo que lo que quería era justamente esto.",
+ "preguntas": [
+  {
+   "p": "いま、この<ruby>人<rt>ひと</rt></ruby>が<ruby>欲<rt>ほ</rt></ruby>しいものは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "たくさんのもの",
+    "しずかな<ruby>時間<rt>じかん</rt></ruby>",
+    "あたらしいベンチ",
+    "ともだち"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "こうえんで<ruby>二人<rt>ふたり</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "たくさん<ruby>話<rt>はな</rt></ruby>した",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>話<rt>はな</rt></ruby>さずそらを<ruby>見<rt>み</rt></ruby>ていた",
+    "あるいた",
+    "かえった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

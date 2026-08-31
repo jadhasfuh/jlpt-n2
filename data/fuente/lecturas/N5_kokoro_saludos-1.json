@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kokoro/saludos-1",
+ "titulo": "もしもし",
+ "cuerpo": "でんわに<ruby>出<rt>で</rt></ruby>るとき、わたしはいつも「もしもし」と<ruby>言<rt>い</rt></ruby>います。ちいさいころ、その<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>をおぼえるのに<ruby>時間<rt>じかん</rt></ruby>がかかりました。あいさつは、いちばんみじかいことばですが、いちばんたいせつだとおもいます。あさは「おはよう」、よるは「おやすみ」。それだけで、うちの<ruby>中<rt>なか</rt></ruby>があかるくなります。きょう、<ruby>知<rt>し</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>に「こんにちは」と<ruby>言<rt>い</rt></ruby>われました。わたしもすぐにこたえました。あたたかい<ruby>気<rt>き</rt></ruby>もち<em class=\"g\">がほしい</em>なら、まずこちらからあいさつをすればいいのです。",
+ "traduccion": "Cuando cojo el teléfono siempre digo «moshi moshi». De pequeño tardé en aprender esa fórmula. Los saludos son las palabras más cortas, pero creo que las más importantes. Por la mañana «ohayō», por la noche «oyasumi». Solo con eso la casa se ilumina. Hoy un desconocido me dijo «konnichiwa». Yo le contesté enseguida. Si quieres un ambiente cálido, basta con saludar tú primero.",
+ "preguntas": [
+  {
+   "p": "あいさつについて、この<ruby>人<rt>ひと</rt></ruby>はどうおもっていますか。",
+   "opciones": [
+    "ながいほうがいい",
+    "みじかいがたいせつだ",
+    "いらない",
+    "むずかしい"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "きょう、<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "でんわがあった",
+    "<ruby>知<rt>し</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>にあいさつされた",
+    "うちがあかるくなった",
+    "ことばをおぼえた"
+   ],
+   "correcta": 1
+  }
+ ]
+}
