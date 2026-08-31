@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/basho/transporte-1",
  "titulo": "まい<ruby>日<rt>にち</rt></ruby>ののりもの",
- "cuerpo": "わたしはまい<ruby>日<rt>にち</rt></ruby><ruby>自転車<rt>じてんしゃ</rt></ruby>で<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。<ruby>雨<rt>あめ</rt></ruby>の<em class=\"g\">とき</em>は<ruby>自転車<rt>じてんしゃ</rt></ruby>にのりません。えきまであるいて、<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ります。えきで<ruby>切符<rt>きっぷ</rt></ruby>をかいます。あさの<ruby>電車<rt>でんしゃ</rt></ruby>は<ruby>人<rt>ひと</rt></ruby>がおおくて、とても<ruby>疲<rt>つか</rt></ruby>れます。<ruby>学校<rt>がっこう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>のえきで<ruby>降<rt>お</rt></ruby>ります。かえりに<ruby>荷物<rt>にもつ</rt></ruby>がおもい<em class=\"g\">とき</em>は、<ruby>タクシー<rt>タクシー</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ることもあります。<ruby>地下鉄<rt>ちかてつ</rt></ruby>はやすいですが、うちからとおいので、あまりつかいません。",
+ "cuerpo": "わたしはまい<ruby>日<rt>にち</rt></ruby><ruby>自転車<rt>じてんしゃ</rt></ruby>で<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。<ruby>雨<rt>あめ</rt></ruby>の<em class=\"g\">とき</em>は<ruby>自転車<rt>じてんしゃ</rt></ruby>にのりません。えきまであるいて、<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ります。えきで<ruby>切符<rt>きっぷ</rt></ruby>をかいます。あさの<ruby>電車<rt>でんしゃ</rt></ruby>は<ruby>人<rt>ひと</rt></ruby>がおおくて、とても<ruby>疲<rt>つか</rt></ruby>れます。<ruby>学校<rt>がっこう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>のえきで<ruby>降<rt>お</rt></ruby>ります。かえりに<ruby>荷物<rt>にもつ</rt></ruby>がおもい<em class=\"g\">とき</em>は、タクシーに<ruby>乗<rt>の</rt></ruby>ることもあります。<ruby>地下鉄<rt>ちかてつ</rt></ruby>はやすいですが、うちからとおいので、あまりつかいません。",
  "traduccion": "Todos los días voy al colegio en bicicleta. Cuando llueve no la uso. Voy andando a la estación y cojo el tren. Compro el billete en la estación. El tren de la mañana va lleno de gente y cansa mucho. Me bajo en la estación que está delante del colegio. A la vuelta, cuando llevo mucho peso, a veces cojo un taxi. El metro es más barato, pero me pilla lejos de casa y casi no lo uso.",
  "preguntas": [
   {
@@ -9,7 +9,7 @@
    "opciones": [
     "<ruby>自転車<rt>じてんしゃ</rt></ruby>",
     "<ruby>電車<rt>でんしゃ</rt></ruby>",
-    "<ruby>タクシー<rt>タクシー</rt></ruby>",
+    "タクシー",
     "<ruby>地下鉄<rt>ちかてつ</rt></ruby>"
    ],
    "correcta": 1

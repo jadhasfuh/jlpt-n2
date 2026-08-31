@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/basho/ciudad-1",
  "titulo": "わたしの<ruby>町<rt>まち</rt></ruby>",
- "cuerpo": "わたしの<ruby>町<rt>まち</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きくありません。<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>交差点<rt>こうさてん</rt></ruby>があります。その<ruby>道<rt>みち</rt></ruby>を<ruby>右<rt>みぎ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くと、<ruby>公園<rt>こうえん</rt></ruby>があります。<ruby>公園<rt>こうえん</rt></ruby>の<ruby>北<rt>きた</rt></ruby>に<ruby>川<rt>かわ</rt></ruby>と<ruby>橋<rt>はし</rt></ruby>があります。<ruby>橋<rt>はし</rt></ruby>をわたると、<ruby>小<rt>ちい</rt></ruby>さい<ruby>村<rt>むら</rt></ruby>です。<ruby>村<rt>むら</rt></ruby>には<ruby>道<rt>みち</rt></ruby>が<ruby>一<rt>いっ</rt></ruby><ruby>本<rt>ぽん</rt></ruby>だけあります。なつになると、<ruby>外国<rt>がいこく</rt></ruby>から<ruby>人<rt>ひと</rt></ruby>が<ruby>来<rt>き</rt></ruby>て、<ruby>町<rt>まち</rt></ruby>の<ruby>ホテル<rt>ホテル</rt></ruby>に<ruby>泊<rt>と</rt></ruby>まります。<ruby>大<rt>おお</rt></ruby>きい<ruby>都市<rt>とし</rt></ruby>もいいですが、わたしはこの<ruby>町<rt>まち</rt></ruby>がすきです。",
+ "cuerpo": "わたしの<ruby>町<rt>まち</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きくありません。<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>交差点<rt>こうさてん</rt></ruby>があります。その<ruby>道<rt>みち</rt></ruby>を<ruby>右<rt>みぎ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くと、<ruby>公園<rt>こうえん</rt></ruby>があります。<ruby>公園<rt>こうえん</rt></ruby>の<ruby>北<rt>きた</rt></ruby>に<ruby>川<rt>かわ</rt></ruby>と<ruby>橋<rt>はし</rt></ruby>があります。<ruby>橋<rt>はし</rt></ruby>をわたると、<ruby>小<rt>ちい</rt></ruby>さい<ruby>村<rt>むら</rt></ruby>です。<ruby>村<rt>むら</rt></ruby>には<ruby>道<rt>みち</rt></ruby>が<ruby>一<rt>いっ</rt></ruby><ruby>本<rt>ぽん</rt></ruby>だけあります。なつになると、<ruby>外国<rt>がいこく</rt></ruby>から<ruby>人<rt>ひと</rt></ruby>が<ruby>来<rt>き</rt></ruby>て、<ruby>町<rt>まち</rt></ruby>のホテルに<ruby>泊<rt>と</rt></ruby>まります。<ruby>大<rt>おお</rt></ruby>きい<ruby>都市<rt>とし</rt></ruby>もいいですが、わたしはこの<ruby>町<rt>まち</rt></ruby>がすきです。",
  "traduccion": "Mi pueblo no es grande. Delante de la estación hay un cruce. Si sigues esa calle a la derecha, hay un parque. Al norte del parque están el río y el puente. Cruzando el puente hay una aldea pequeña. En la aldea solo hay un camino. En verano viene gente del extranjero y se aloja en el hotel del pueblo. Las ciudades grandes también están bien, pero a mí me gusta este pueblo.",
  "preguntas": [
   {
@@ -19,7 +19,7 @@
    "opciones": [
     "<ruby>村<rt>むら</rt></ruby>のうち",
     "<ruby>城<rt>しろ</rt></ruby>",
-    "<ruby>町<rt>まち</rt></ruby>の<ruby>ホテル<rt>ホテル</rt></ruby>",
+    "<ruby>町<rt>まち</rt></ruby>のホテル",
     "<ruby>公園<rt>こうえん</rt></ruby>"
    ],
    "correcta": 2

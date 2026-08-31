@@ -118,6 +118,20 @@ for l in lecturas:
 if latinas:
     print(f"  lecturas con letras latinas en el furigana: {latinas}")
 
+sin_kanji = 0
+for l in lecturas:
+    trozos = [l["titulo"], l["cuerpo"]]
+    for q in l.get("preguntas", []):
+        trozos.append(q["p"]); trozos += q["opciones"]
+    for t in trozos:
+        malas = [b for b in _re.findall(r"<ruby>([^<]*)<rt>", t) if not K.search(b)]
+        if malas:
+            print(f"  ✗ {l['unidad_id']}: furigana sobre algo que no es kanji: {', '.join(malas)}")
+            sin_kanji += 1
+            break
+if sin_kanji:
+    print(f"  lecturas con furigana sobrante: {sin_kanji}")
+
 print(f"\nlecturas revisadas: {len(lecturas)}")
 print(f"  con kanji por encima del nivel (hay que corregir): {graves}")
 print(f"  sólo con kanji adelantados pero del nivel o menos:  {leves}")

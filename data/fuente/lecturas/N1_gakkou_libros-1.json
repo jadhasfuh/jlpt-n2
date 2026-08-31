@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/gakkou/libros-1",
+ "titulo": "<ruby>絶版<rt>ぜっぱん</rt></ruby>になった<ruby>本<rt>ほん</rt></ruby>",
+ "cuerpo": "<ruby>学生<rt>がくせい</rt></ruby>のころに<ruby>読<rt>よ</rt></ruby>んだ<ruby>長編<rt>ちょうへん</rt></ruby>を、もう<ruby>一度<rt>いちど</rt></ruby><ruby>読<rt>よ</rt></ruby>みたくなりました。<ruby>探<rt>さが</rt></ruby>してみると、とうに<ruby>絶版<rt>ぜっぱん</rt></ruby>になっています。<ruby>図書館<rt>としょかん</rt></ruby>の<ruby>目録<rt>もくろく</rt></ruby>を<ruby>参照<rt>さんしょう</rt></ruby>し、<ruby>閲覧<rt>えつらん</rt></ruby>の<ruby>申請<rt>しんせい</rt></ruby>をしました。<ruby>原書<rt>げんしょ</rt></ruby>のほうも<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>出<rt>だ</rt></ruby>してもらい、<ruby>原文<rt>げんぶん</rt></ruby>と<ruby>並<rt>なら</rt></ruby>べてみます。<ruby>訳<rt>やく</rt></ruby>のうまさ<em class=\"g\">といい</em>、<ruby>装丁<rt>そうてい</rt></ruby>の<ruby>美<rt>うつく</rt></ruby>しさ<em class=\"g\">といい</em>、<ruby>当時<rt>とうじ</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>のていねいさに<ruby>驚<rt>おどろ</rt></ruby>きました。<ruby>巻末<rt>かんまつ</rt></ruby>には<ruby>著者<rt>ちょしゃ</rt></ruby>の<ruby>他<rt>ほか</rt></ruby>の<ruby>著書<rt>ちょしょ</rt></ruby>が<ruby>組<rt>く</rt></ruby>み<ruby>込<rt>こ</rt></ruby>まれていて、<ruby>書評<rt>しょひょう</rt></ruby>の<ruby>切<rt>き</rt></ruby>り<ruby>抜<rt>ぬ</rt></ruby>きまではさまっています。<ruby>電子<rt>でんし</rt></ruby>で<ruby>何<rt>なん</rt></ruby>でも<ruby>読<rt>よ</rt></ruby>める<ruby>時代<rt>じだい</rt></ruby>に<ruby>紙<rt>かみ</rt></ruby>にこだわるのは<ruby>古<rt>ふる</rt></ruby>い<em class=\"g\">と言えなくもない</em>でしょう。それでも、<ruby>声<rt>こえ</rt></ruby>に<ruby>出<rt>だ</rt></ruby>して<ruby>読<rt>よ</rt></ruby>み<ruby>上<rt>あ</rt></ruby>げてみると、<ruby>文<rt>ぶん</rt></ruby>の<ruby>長<rt>なが</rt></ruby>さが<ruby>息<rt>いき</rt></ruby>に<ruby>合<rt>あ</rt></ruby>っているのがわかります。<ruby>朗読<rt>ろうどく</rt></ruby>を<ruby>前提<rt>ぜんてい</rt></ruby>に<ruby>書<rt>か</rt></ruby>かれた<ruby>文章<rt>ぶんしょう</rt></ruby>だったのだと、<ruby>二十年<rt>にじゅうねん</rt></ruby>たってようやく<ruby>気<rt>き</rt></ruby>づきました。",
+ "traduccion": "Me entraron ganas de releer una novela larga que leí de estudiante. Al buscarla, resulta que hace mucho que está descatalogada. Consulté el catálogo de la biblioteca y pedí permiso para consultarla en sala. Me sacaron también el original y lo puse al lado para compararlos. Tanto por lo buena que era la traducción como por lo bonita que era la edición, me sorprendió el cuidado con que se trabajaba entonces. Al final del volumen venía incorporada una lista de las otras obras del autor, y había incluso un recorte de una reseña metido dentro. En una época en que todo se puede leer en pantalla, aferrarse al papel bien podría llamarse anticuado. Aun así, al leerlo en voz alta se nota que la longitud de las frases encaja con la respiración. Que era un texto escrito pensando en la lectura en voz alta he tardado veinte años en darme cuenta.",
+ "preguntas": [
+  {
+   "p": "<ruby>読<rt>よ</rt></ruby>みたかった<ruby>本<rt>ほん</rt></ruby>は、どうなっていましたか。",
+   "opciones": [
+    "<ruby>高<rt>たか</rt></ruby>すぎた",
+    "とうに<ruby>絶版<rt>ぜっぱん</rt></ruby>になっていた",
+    "<ruby>電子<rt>でんし</rt></ruby><ruby>版<rt>ばん</rt></ruby>しかなかった",
+    "<ruby>訳<rt>やく</rt></ruby>が<ruby>変<rt>か</rt></ruby>わっていた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>声<rt>こえ</rt></ruby>に<ruby>出<rt>だ</rt></ruby>して<ruby>読<rt>よ</rt></ruby>んで、<ruby>何<rt>なに</rt></ruby>に<ruby>気<rt>き</rt></ruby>づきましたか。",
+   "opciones": [
+    "<ruby>訳<rt>やく</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>いこと",
+    "<ruby>朗読<rt>ろうどく</rt></ruby>を<ruby>前提<rt>ぜんてい</rt></ruby>に<ruby>書<rt>か</rt></ruby>かれた<ruby>文章<rt>ぶんしょう</rt></ruby>だったこと",
+    "<ruby>字<rt>じ</rt></ruby>が<ruby>小<rt>ちい</rt></ruby>さいこと",
+    "<ruby>長<rt>なが</rt></ruby>すぎること"
+   ],
+   "correcta": 1
+  }
+ ]
+}
