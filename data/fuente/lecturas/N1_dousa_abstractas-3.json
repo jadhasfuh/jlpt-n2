@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/dousa/abstractas-3",
+ "titulo": "<ruby>復興<rt>ふっこう</rt></ruby>の<ruby>十年<rt>じゅうねん</rt></ruby>",
+ "cuerpo": "<ruby>水害<rt>すいがい</rt></ruby>のあと、<ruby>町<rt>まち</rt></ruby>の<ruby>復旧<rt>ふっきゅう</rt></ruby>に<ruby>十年<rt>じゅうねん</rt></ruby>かかりました。<ruby>道路<rt>どうろ</rt></ruby>と<ruby>橋<rt>はし</rt></ruby>をなおすところまでは<ruby>早<rt>はや</rt></ruby>かったのです。<ruby>難<rt>むずか</rt></ruby>しいのは、<ruby>離<rt>はな</rt></ruby>れていった<ruby>人<rt>ひと</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>ってきてもらうことでした。<ruby>復興<rt>ふっこう</rt></ruby><em class=\"g\">となると</em>、<ruby>建物<rt>たてもの</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>われがちですが、じっさいには<ruby>暮<rt>く</rt></ruby>らしを<ruby>組<rt>く</rt></ruby>み<ruby>立<rt>た</rt></ruby>てなおす<ruby>話<rt>はなし</rt></ruby>です。<ruby>仕事<rt>しごと</rt></ruby>と<ruby>子育<rt>こそだ</rt></ruby>てを<ruby>両立<rt>りょうりつ</rt></ruby>できる<ruby>場所<rt>ばしょ</rt></ruby>でなければ、だれも<ruby>帰<rt>かえ</rt></ruby>ってはきません。<ruby>予算<rt>よさん</rt></ruby>の<ruby>割当<rt>わりあて</rt></ruby>をめぐって<ruby>意見<rt>いけん</rt></ruby>が<ruby>分離<rt>ぶんり</rt></ruby>し、<ruby>古<rt>ふる</rt></ruby>い<ruby>制度<rt>せいど</rt></ruby>をいくつか<ruby>廃止<rt>はいし</rt></ruby>することになりました。<ruby>反対<rt>はんたい</rt></ruby>する<ruby>人<rt>ひと</rt></ruby>を<ruby>排除<rt>はいじょ</rt></ruby>しないこと。<ruby>時間<rt>じかん</rt></ruby>がかかっ<em class=\"g\">とて</em>、それだけは<ruby>守<rt>まも</rt></ruby>ろうと<ruby>皆<rt>みな</rt></ruby>で<ruby>決<rt>き</rt></ruby>めたのです。<ruby>土地<rt>とち</rt></ruby>が<ruby>返還<rt>へんかん</rt></ruby>された<ruby>日<rt>ひ</rt></ruby>、<ruby>待<rt>ま</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせをして<ruby>川<rt>かわ</rt></ruby>まで<ruby>歩<rt>ある</rt></ruby>きました。<ruby>真心<rt>まごころ</rt></ruby>という<ruby>古<rt>ふる</rt></ruby>い<ruby>言葉<rt>ことば</rt></ruby>が、あのときだけは<ruby>軽<rt>かる</rt></ruby>く<ruby>聞<rt>き</rt></ruby>こえませんでした。",
+ "traduccion": "Después de la inundación, la reparación del pueblo llevó diez años. Arreglar las carreteras y los puentes fue lo rápido. Lo difícil era conseguir que volviera la gente que se había ido. Cuando se habla de reconstrucción se piensa en edificios, pero en realidad se trata de rehacer una forma de vida. Si no es un sitio donde se pueda compaginar el trabajo con criar hijos, no vuelve nadie. Las opiniones se dividieron por el reparto del presupuesto y se decidió suprimir varias normas antiguas. No excluir a quien se opusiera: aunque llevara tiempo, acordamos entre todos que eso al menos se respetaría. El día que devolvieron los terrenos quedamos y bajamos andando hasta el río. Aquella vez, la vieja palabra «sinceridad» no sonó ligera.",
+ "preguntas": [
+  {
+   "p": "<ruby>復興<rt>ふっこう</rt></ruby>でいちばん<ruby>難<rt>むずか</rt></ruby>しかったのは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>道路<rt>どうろ</rt></ruby>をなおすこと",
+    "<ruby>離<rt>はな</rt></ruby>れた<ruby>人<rt>ひと</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>ってきてもらうこと",
+    "<ruby>橋<rt>はし</rt></ruby>をかけること",
+    "<ruby>予算<rt>よさん</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めること"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>皆<rt>みな</rt></ruby>で<ruby>守<rt>まも</rt></ruby>ろうと<ruby>決<rt>き</rt></ruby>めたことは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>早<rt>はや</rt></ruby>く<ruby>終<rt>お</rt></ruby>わらせること",
+    "<ruby>反対<rt>はんたい</rt></ruby>する<ruby>人<rt>ひと</rt></ruby>を<ruby>排除<rt>はいじょ</rt></ruby>しないこと",
+    "<ruby>制度<rt>せいど</rt></ruby>を<ruby>変<rt>か</rt></ruby>えないこと",
+    "<ruby>予算<rt>よさん</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やすこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

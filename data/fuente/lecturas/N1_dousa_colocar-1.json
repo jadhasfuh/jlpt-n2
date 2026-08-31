@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/dousa/colocar-1",
+ "titulo": "<ruby>棚<rt>たな</rt></ruby>を<ruby>据<rt>す</rt></ruby>え<ruby>付<rt>つ</rt></ruby>ける",
+ "cuerpo": "<ruby>古<rt>ふる</rt></ruby>い<ruby>家<rt>いえ</rt></ruby>を<ruby>借<rt>か</rt></ruby>りたので、<ruby>台所<rt>だいどころ</rt></ruby>に<ruby>棚<rt>たな</rt></ruby>を<ruby>据<rt>す</rt></ruby>え<ruby>付<rt>つ</rt></ruby>けることにしました。<ruby>壁<rt>かべ</rt></ruby>が<ruby>薄<rt>うす</rt></ruby>くて、ねじがうまく<ruby>入<rt>はい</rt></ruby>りません。<ruby>道具<rt>どうぐ</rt></ruby>をそろえずにはじめたのが<ruby>原因<rt>げんいん</rt></ruby>で、はじめから<ruby>測<rt>はか</rt></ruby>りなおすことになりました。<ruby>下<rt>した</rt></ruby>の<ruby>階<rt>かい</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<em class=\"g\">さも</em><ruby>慣<rt>な</rt></ruby>れたようすで<ruby>手伝<rt>てつだ</rt></ruby>いに<ruby>来<rt>き</rt></ruby>てくれて、「<ruby>水平<rt>すいへい</rt></ruby>を<ruby>保<rt>たも</rt></ruby>たないと<ruby>皿<rt>さら</rt></ruby>が<ruby>落<rt>お</rt></ruby>ちますよ、<em class=\"g\">さもないと</em>あとで<ruby>泣<rt>な</rt></ruby>くことになります」と<ruby>笑<rt>わら</rt></ruby>いました。<ruby>釘<rt>くぎ</rt></ruby>を<ruby>何本<rt>なんぼん</rt></ruby>も<ruby>連<rt>つら</rt></ruby>ねて<ruby>打<rt>う</rt></ruby>ち、<ruby>板<rt>いた</rt></ruby>を<ruby>固定<rt>こてい</rt></ruby>していきます。<ruby>作業<rt>さぎょう</rt></ruby>のあいだ、<ruby>窓<rt>まど</rt></ruby>の<ruby>外<rt>そと</rt></ruby>には<ruby>小鳥<rt>ことり</rt></ruby>が<ruby>群<rt>むら</rt></ruby>がっていました。できあがった<ruby>棚<rt>たな</rt></ruby>に、<ruby>持<rt>も</rt></ruby>ってきた<ruby>皿<rt>さら</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>混<rt>ま</rt></ruby>ぜて<ruby>並<rt>なら</rt></ruby>べます。<ruby>手<rt>て</rt></ruby>を<ruby>込<rt>こ</rt></ruby>めて<ruby>作<rt>つく</rt></ruby>ったものは、<ruby>暮<rt>く</rt></ruby>らしと<ruby>結<rt>むす</rt></ruby>び<ruby>付<rt>つ</rt></ruby>くのが<ruby>早<rt>はや</rt></ruby>い。<ruby>荷物<rt>にもつ</rt></ruby>の<ruby>箱<rt>はこ</rt></ruby>を<ruby>葬<rt>ほうむ</rt></ruby>るように<ruby>片付<rt>かたづ</rt></ruby>けて、その<ruby>晩<rt>ばん</rt></ruby>はじめて、ここが<ruby>自分<rt>じぶん</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>だと<ruby>感<rt>かん</rt></ruby>じました。",
+ "traduccion": "Como alquilé una casa vieja, decidí instalar una estantería en la cocina. La pared era fina y los tornillos no entraban bien. Por haber empezado sin reunir antes las herramientas, acabé teniendo que medirlo todo otra vez. El vecino de abajo vino a echarme una mano con aire de saber muy bien lo que hacía y me dijo riéndose: «si no lo mantienes nivelado se te caen los platos; si no, luego lloras». Fuimos clavando varios clavos seguidos y fijando la tabla. Mientras trabajábamos, al otro lado de la ventana se agolpaban los pájaros. En la estantería ya montada coloqué, mezclados, los platos que había traído. Lo que uno hace poniéndole cuidado se une antes a la vida diaria. Recogí las cajas de la mudanza como quien las entierra, y aquella noche sentí por primera vez que aquella era mi casa.",
+ "preguntas": [
+  {
+   "p": "<ruby>棚<rt>たな</rt></ruby>をつけるとき、うまくいかなかった<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>壁<rt>かべ</rt></ruby>が<ruby>厚<rt>あつ</rt></ruby>かったから",
+    "<ruby>道具<rt>どうぐ</rt></ruby>をそろえずにはじめたから",
+    "<ruby>手伝<rt>てつだ</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>がいなかったから",
+    "<ruby>板<rt>いた</rt></ruby>が<ruby>短<rt>みじか</rt></ruby>かったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>下<rt>した</rt></ruby>の<ruby>階<rt>かい</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "<ruby>棚<rt>たな</rt></ruby>はやめたほうがいい",
+    "<ruby>水平<rt>すいへい</rt></ruby>を<ruby>保<rt>たも</rt></ruby>たないと<ruby>皿<rt>さら</rt></ruby>が<ruby>落<rt>お</rt></ruby>ちる",
+    "<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>貸<rt>か</rt></ruby>す",
+    "<ruby>壁<rt>かべ</rt></ruby>を<ruby>直<rt>なお</rt></ruby>すべきだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

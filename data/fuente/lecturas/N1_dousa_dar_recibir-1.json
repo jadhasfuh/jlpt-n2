@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/dousa/dar_recibir-1",
+ "titulo": "<ruby>寄贈<rt>きぞう</rt></ruby>された<ruby>本<rt>ほん</rt></ruby>",
+ "cuerpo": "<ruby>町<rt>まち</rt></ruby>の<ruby>図書室<rt>としょしつ</rt></ruby>に、<ruby>亡<rt>な</rt></ruby>くなった<ruby>方<rt>かた</rt></ruby>の<ruby>蔵書<rt>ぞうしょ</rt></ruby>が<ruby>寄贈<rt>きぞう</rt></ruby>されました。<ruby>段<rt>だん</rt></ruby>ボール<ruby>箱<rt>ばこ</rt></ruby>が<ruby>山<rt>やま</rt></ruby>の<em class=\"g\">ごとく</em><ruby>積<rt>つ</rt></ruby>まれ、<ruby>職員<rt>しょくいん</rt></ruby>は<ruby>泣<rt>な</rt></ruby>き<ruby>出<rt>だ</rt></ruby>さ<em class=\"g\">んばかりに</em><ruby>頭<rt>あたま</rt></ruby>をかかえていました。<ruby>一冊<rt>いっさつ</rt></ruby>ずつ<ruby>開<rt>ひら</rt></ruby>くと、<ruby>余白<rt>よはく</rt></ruby>に<ruby>細<rt>こま</rt></ruby>かい<ruby>字<rt>じ</rt></ruby>が<ruby>書<rt>か</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれています。<ruby>持<rt>も</rt></ruby>ち<ruby>主<rt>ぬし</rt></ruby>が<ruby>何<rt>なに</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えながら<ruby>読<rt>よ</rt></ruby>んでいたのかが<ruby>伝<rt>つた</rt></ruby>わってきて、<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れるかどうかという<ruby>話<rt>はなし</rt></ruby>が、いつのまにか、どう<ruby>残<rt>のこ</rt></ruby>すかという<ruby>話<rt>はなし</rt></ruby>に<ruby>変<rt>か</rt></ruby>わっていました。<ruby>棚<rt>たな</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>付<rt>つ</rt></ruby>け、<ruby>足<rt>た</rt></ruby>りない<ruby>分<rt>ぶん</rt></ruby>は<ruby>注文<rt>ちゅうもん</rt></ruby>して<ruby>取<rt>と</rt></ruby>り<ruby>寄<rt>よ</rt></ruby>せます。<ruby>作業<rt>さぎょう</rt></ruby>が<ruby>長引<rt>ながび</rt></ruby>いて<ruby>関係<rt>かんけい</rt></ruby>がこじれかけた<ruby>日<rt>ひ</rt></ruby>もありましたが、<ruby>夕食<rt>ゆうしょく</rt></ruby>をおごり<ruby>合<rt>あ</rt></ruby>いながら<ruby>言葉<rt>ことば</rt></ruby>を<ruby>交<rt>かわ</rt></ruby>すうちに<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>きました。<ruby>物<rt>もの</rt></ruby>をもらうことには、いつも<ruby>責任<rt>せきにん</rt></ruby>が<ruby>伴<rt>ともな</rt></ruby>います。それでも、<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>ったものが<ruby>次<rt>つぎ</rt></ruby>のだれかに<ruby>渡<rt>わた</rt></ruby>るなら、その<ruby>手間<rt>てま</rt></ruby>には<ruby>意味<rt>いみ</rt></ruby>があるのだと<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "A la biblioteca del pueblo le donaron los libros de una persona fallecida. Las cajas de cartón se apilaban como una montaña y el personal se llevaba las manos a la cabeza, a punto de echarse a llorar. Al abrirlos uno a uno, en los márgenes había anotaciones con letra menuda. Se transmitía lo que su dueño pensaba mientras leía, y la conversación sobre si aceptarlos o no se había convertido, sin darnos cuenta, en cómo conservarlos. Instalamos estanterías y encargamos las que faltaban. Hubo días en que el trabajo se alargó y la relación estuvo a punto de agriarse, pero se calmó a base de invitarnos a cenar unos a otros y hablar. Recibir cosas siempre trae consigo una responsabilidad. Aun así, si lo recibido llega a manos de otro después, creo que ese trabajo tiene sentido.",
+ "preguntas": [
+  {
+   "p": "<ruby>本<rt>ほん</rt></ruby>の<ruby>余白<rt>よはく</rt></ruby>には<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "<ruby>名前<rt>なまえ</rt></ruby>",
+    "<ruby>細<rt>こま</rt></ruby>かい<ruby>字<rt>じ</rt></ruby>の<ruby>書<rt>か</rt></ruby>き<ruby>込<rt>こ</rt></ruby>み",
+    "<ruby>絵<rt>え</rt></ruby>",
+    "<ruby>日付<rt>ひづけ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>職員<rt>しょくいん</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>は、どう<ruby>変<rt>か</rt></ruby>わっていきましたか。",
+   "opciones": [
+    "<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れるかどうかから、どう<ruby>残<rt>のこ</rt></ruby>すかへ",
+    "どう<ruby>残<rt>のこ</rt></ruby>すかから、<ruby>断<rt>ことわ</rt></ruby>るかどうかへ",
+    "<ruby>値段<rt>ねだん</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>へ",
+    "<ruby>場所<rt>ばしょ</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>へ"
+   ],
+   "correcta": 0
+  }
+ ]
+}
