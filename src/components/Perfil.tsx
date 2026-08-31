@@ -21,7 +21,7 @@ export function Perfil({ totalPalabras }: { totalPalabras: number }) {
 
   return (
     <>
-      <h1 style={{ fontSize: 24, margin: "20px 0 12px" }}>Tu avance</h1>
+      <h1 style={{ fontSize: 24, fontWeight: 500, margin: "26px 0 12px" }}>Tu avance</h1>
 
       <section className="tarjeta">
         <div style={{ display: "flex", gap: 20, flexWrap: "wrap" }}>
@@ -33,7 +33,7 @@ export function Perfil({ totalPalabras }: { totalPalabras: number }) {
             [`${r.unidades}`, "unidades practicadas"],
           ].map(([v, t]) => (
             <div key={t} style={{ minWidth: 92 }}>
-              <div style={{ fontSize: 22, fontWeight: 700 }}>{v}</div>
+              <div style={{ fontSize: 21, fontWeight: 600, fontVariantNumeric: "tabular-nums" }}>{v}</div>
               <div className="tenue">{t}</div>
             </div>
           ))}
@@ -44,7 +44,7 @@ export function Perfil({ totalPalabras }: { totalPalabras: number }) {
         </p>
       </section>
 
-      <h2 style={{ fontSize: 17, margin: "24px 0 10px" }}>Ajustes</h2>
+      <h2 className="enc-seccion" style={{ marginTop: 24 }}>Ajustes</h2>
       <section className="tarjeta" style={{ display: "flex", gap: 10, flexWrap: "wrap", alignItems: "center" }}>
         <BotonesRapidos />
         <button className="btn" onClick={cambiarTema}>
@@ -52,7 +52,7 @@ export function Perfil({ totalPalabras }: { totalPalabras: number }) {
         </button>
       </section>
 
-      <h2 style={{ fontSize: 17, margin: "24px 0 10px" }}>Repasos por día</h2>
+      <h2 className="enc-seccion" style={{ marginTop: 24 }}>Repasos por día</h2>
       <section className="tarjeta">
         <p style={{ marginTop: 0 }}>
           Hoy te enseñará como máximo <strong>{topeDiario(p)}</strong> repasos.
@@ -72,7 +72,7 @@ export function Perfil({ totalPalabras }: { totalPalabras: number }) {
         </p>
       </section>
 
-      <h2 style={{ fontSize: 17, margin: "24px 0 10px" }}>Cuenta</h2>
+      <h2 className="enc-seccion" style={{ marginTop: 24 }}>Cuenta</h2>
       <section className="tarjeta">
         <p style={{ marginTop: 0 }}>
           Todavía no hay cuentas: tu avance se guarda en este dispositivo

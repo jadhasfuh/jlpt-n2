@@ -28,4 +28,5 @@ export {
   ArrowCounterClockwise as IcOtraVez,
   BookOpen as IcDiccionario,
   Translate as IcSignificado,
+  Lock as IcCandado,
 } from "@phosphor-icons/react/ssr";

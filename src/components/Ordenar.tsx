@@ -106,7 +106,8 @@ export function Ordenar({ frases, traduccion }: { frases: string[]; traduccion: 
       <div style={{
         minHeight: 64, border: "1px dashed var(--linea)", borderRadius: 12,
         padding: 10, display: "flex", flexWrap: "wrap", gap: 6, alignItems: "center",
-        background: revisado === true ? "var(--verde-suave)" : revisado === false ? "var(--acento-suave)" : undefined,
+        background: revisado === true ? "color-mix(in srgb, var(--acento) 10%, transparent)"
+                    : revisado === false ? "color-mix(in srgb, var(--rojo) 10%, transparent)" : undefined,
       }}>
         {puestas.length === 0 && <span className="tenue">Toca las fichas de abajo…</span>}
         {puestas.map((i) => (

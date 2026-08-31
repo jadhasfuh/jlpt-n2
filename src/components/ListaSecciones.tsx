@@ -5,7 +5,7 @@ import { COLOR_NIVEL, type Nivel } from "@/lib/tipos";
 import { leerProgreso } from "@/lib/progreso";
 import { Anillo } from "./Anillo";
 import { ACCESO_ABIERTO, esLibre } from "@/lib/acceso";
-import { IcDerecha } from "./Iconos";
+import { IcCandado, IcDerecha } from "./Iconos";
 
 type S = { id: string; ja: string; es: string; palabras: number; gramatica: number; unidades: number };
 
@@ -36,12 +36,12 @@ export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones:
             <Anillo pct={avance[s.id] ?? 0} tono={COLOR_NIVEL[nivel as Nivel]}
                     texto={`${Math.round((avance[s.id] ?? 0) * 100)}`} />
             <div style={{ flex: 1, minWidth: 0 }}>
-              <div className="jp" style={{ fontSize: 19, lineHeight: 1.4 }}>{s.ja}</div>
+              <div className="jp" style={{ fontSize: 19, fontWeight: 500, lineHeight: 1.4 }}>{s.ja}</div>
               <div className="tenue">
                 {s.es} · {s.gramatica ? `${s.gramatica} puntos` : `${s.palabras} palabras`} · {s.unidades} unidades
               </div>
             </div>
-            {bloqueada ? <span style={{ fontSize: 17 }}>🔒</span>
+            {bloqueada ? <span className="flecha"><IcCandado size={15} /></span>
                        : !ACCESO_ABIERTO && esLibre(s.id) ? <span className="pastilla gratis">gratis</span>
                        : <span className="flecha"><IcDerecha size={14} /></span>}
           </>

@@ -10,7 +10,6 @@
   /* --- superficies --- */
   --papel: #161826;          /* fondo */
   --papel-2: #232532;        /* superficie: tarjetas del tema claro */
-  --papel-3: #2b2d3c;        /* un paso más: hover */
   --papel-fila: transparent; /* en oscuro las filas van sin fondo */
 
   /* --- texto --- */
@@ -24,9 +23,6 @@
   /* --- acento (blurple) --- */
   --acento: #9184d9;
   --acento-300: #d2cefd;
-  --acento-400: #b5abfc;
-  --acento-500: #968ae0;
-  --acento-600: #796cbf;
   --acento-700: #5d5294;
   --acento-800: #423a6a;
   --acento-900: #2b2741;
@@ -34,7 +30,6 @@
 
   /* --- rojo de marca --- */
   --rojo: #e2445c;           /* la variante para fondo oscuro */
-  --rojo-suave: color-mix(in srgb, var(--rojo) 14%, transparent);
 
   /* --- rampa de niveles JLPT: del acento al rojo de marca --- */
   --n5: #b5abfc;
@@ -42,12 +37,6 @@
   --n3: #796cbf;
   --n2: #a7566f;
   --n1: var(--rojo);
-
-  /* Nombres antiguos, conservados para que nada se rompa. */
-  --verde: var(--n5);   --verde-suave: color-mix(in srgb, var(--n5) 13%, transparent);
-  --azul: var(--n4);    --azul-suave: color-mix(in srgb, var(--n4) 13%, transparent);
-  --morado: var(--n3);  --morado-suave: color-mix(in srgb, var(--n3) 13%, transparent);
-  --dorado: var(--n1);  --dorado-suave: color-mix(in srgb, var(--n1) 13%, transparent);
 
   /* --- forma --- */
   --radio: 12px;
@@ -66,12 +55,12 @@
 /* --- tema claro (1f): mismo markup, otros tokens --- */
 @media (prefers-color-scheme: light) {
   :root:not([data-tema="oscuro"]) {
-    --papel: #f6f7fd; --papel-2: #e9ecf8; --papel-3: #dfe3f3;
+    --papel: #f6f7fd; --papel-2: #e9ecf8;
     --papel-fila: var(--papel-2);
     --tinta: #232532; --tinta-2: #595d6c; --tinta-3: #75798c; --tinta-4: #9397ab;
     --linea: rgba(41,43,49,.15); --borde-fuerte: #b2b6ca;
-    --acento: #5d5294; --acento-300: #796cbf; --acento-400: #796cbf;
-    --acento-600: #423a6a; --acento-700: #423a6a; --acento-800: #2b2741;
+    --acento: #5d5294; --acento-300: #796cbf;
+    --acento-700: #423a6a; --acento-800: #2b2741;
     --rojo: #bc002d;
     --n5: #796cbf; --n4: #5d5294; --n3: #423a6a; --n2: #8a3c52;
     --fantasma: rgba(41,43,49,.07);
@@ -81,12 +70,12 @@
   }
 }
 :root[data-tema="claro"] {
-  --papel: #f6f7fd; --papel-2: #e9ecf8; --papel-3: #dfe3f3;
+  --papel: #f6f7fd; --papel-2: #e9ecf8;
   --papel-fila: var(--papel-2);
   --tinta: #232532; --tinta-2: #595d6c; --tinta-3: #75798c; --tinta-4: #9397ab;
   --linea: rgba(41,43,49,.15); --borde-fuerte: #b2b6ca;
-  --acento: #5d5294; --acento-300: #796cbf; --acento-400: #796cbf;
-  --acento-600: #423a6a; --acento-700: #423a6a; --acento-800: #2b2741;
+  --acento: #5d5294; --acento-300: #796cbf;
+  --acento-700: #423a6a; --acento-800: #2b2741;
   --rojo: #bc002d;
   --n5: #796cbf; --n4: #5d5294; --n3: #423a6a; --n2: #8a3c52;
   --fantasma: rgba(41,43,49,.07);
