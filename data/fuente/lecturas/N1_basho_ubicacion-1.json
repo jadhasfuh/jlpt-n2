@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/basho/ubicacion-1",
+ "titulo": "<ruby>渚<rt>なぎさ</rt></ruby>のほとりで",
+ "cuerpo": "<ruby>夏<rt>なつ</rt></ruby>のあいだ、<ruby>湖<rt>みずうみ</rt></ruby>のほとりの<ruby>小<rt>ちい</rt></ruby>さな<ruby>宿<rt>やど</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いていました。フロントに<ruby>立<rt>た</rt></ruby>っていると、<ruby>道<rt>みち</rt></ruby>をたずねる<ruby>人<rt>ひと</rt></ruby>が<ruby>次<rt>つぎ</rt></ruby>から<ruby>次<rt>つぎ</rt></ruby>へやってきます。<ruby>地図<rt>ちず</rt></ruby>の<ruby>向<rt>む</rt></ruby>きがあべこべのまま<ruby>歩<rt>ある</rt></ruby>いてきて、てっきり<ruby>山<rt>やま</rt></ruby>のてっぺんに<ruby>着<rt>つ</rt></ruby>くはずだったと<ruby>言<rt>い</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>もいました。<ruby>同僚<rt>どうりょう</rt></ruby>は<ruby>仕事<rt>しごと</rt></ruby><em class=\"g\">はそっちのけで</em>、そういう<ruby>客<rt>きゃく</rt></ruby>と<ruby>長<rt>なが</rt></ruby>く<ruby>話<rt>はな</rt></ruby>しこみます。はじめはうんざりしていましたが、<ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>った<ruby>人<rt>ひと</rt></ruby>が<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>知<rt>し</rt></ruby>りたいのは<ruby>道順<rt>みちじゅん</rt></ruby>ではなく、だいじょうぶだという<ruby>一言<rt>ひとこと</rt></ruby>なのだと<ruby>気<rt>き</rt></ruby>づきました。<ruby>建物<rt>たてもの</rt></ruby>のうしろの<ruby>溝<rt>どぶ</rt></ruby>に<ruby>沿<rt>そ</rt></ruby>って<ruby>歩<rt>ある</rt></ruby>くと、<ruby>渚<rt>なぎさ</rt></ruby>に<ruby>出<rt>で</rt></ruby>ます。<ruby>夕方<rt>ゆうがた</rt></ruby>、そこで<ruby>空<rt>そら</rt></ruby>を<ruby>仰<rt>あお</rt></ruby>ぐ<ruby>時間<rt>じかん</rt></ruby>だけは、<em class=\"g\">あくまでも</em><ruby>自分<rt>じぶん</rt></ruby>のものにしておきたくて、だれにも<ruby>言<rt>い</rt></ruby>わずに<ruby>毎日<rt>まいにち</rt></ruby><ruby>同<rt>おな</rt></ruby>じコーナーに<ruby>立<rt>た</rt></ruby>っていました。<ruby>丈<rt>たけ</rt></ruby>の<ruby>高<rt>たか</rt></ruby>い<ruby>草<rt>くさ</rt></ruby>のあいだを<ruby>辿<rt>たど</rt></ruby>った<ruby>道<rt>みち</rt></ruby>のことを、ノートの<ruby>隅<rt>すみ</rt></ruby>に<ruby>記<rt>しる</rt></ruby>してあります。",
+ "traduccion": "Durante el verano trabajé en un hostal pequeño a la orilla de un lago. Detrás del mostrador, la gente venía sin parar a preguntar por el camino. Alguno había caminado con el mapa del revés y decía que estaba convencido de que llegaría a la cima de la montaña. Un compañero mío dejaba el trabajo de lado y se enredaba a hablar largo con esos clientes. Al principio me hartaba, pero me di cuenta de que lo que de verdad quiere quien se ha perdido no son las indicaciones, sino que le digan que no pasa nada. Si andas siguiendo la acequia de detrás del edificio, sales a la orilla. Al atardecer, ese rato mirando el cielo desde allí quería que fuera mío hasta el final, así que sin decírselo a nadie me ponía cada día en el mismo rincón. El camino que seguí entre la hierba alta lo tengo anotado en una esquina del cuaderno.",
+ "preguntas": [
+  {
+   "p": "<ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>った<ruby>人<rt>ひと</rt></ruby>が<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>知<rt>し</rt></ruby>りたいのは<ruby>何<rt>なん</rt></ruby>だと<ruby>気<rt>き</rt></ruby>づきましたか。",
+   "opciones": [
+    "<ruby>正<rt>ただ</rt></ruby>しい<ruby>道順<rt>みちじゅん</rt></ruby>",
+    "だいじょうぶだという<ruby>一言<rt>ひとこと</rt></ruby>",
+    "<ruby>地図<rt>ちず</rt></ruby>の<ruby>読<rt>よ</rt></ruby>み<ruby>方<rt>かた</rt></ruby>",
+    "<ruby>宿<rt>やど</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>夕方<rt>ゆうがた</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>について、この<ruby>人<rt>ひと</rt></ruby>はどうしていましたか。",
+   "opciones": [
+    "<ruby>同僚<rt>どうりょう</rt></ruby>とすごした",
+    "だれにも<ruby>言<rt>い</rt></ruby>わず<ruby>同<rt>おな</rt></ruby>じコーナーに<ruby>立<rt>た</rt></ruby>っていた",
+    "<ruby>宿<rt>やど</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いていた",
+    "<ruby>山<rt>やま</rt></ruby>に<ruby>登<rt>のぼ</rt></ruby>っていた"
+   ],
+   "correcta": 1
+  }
+ ]
+}

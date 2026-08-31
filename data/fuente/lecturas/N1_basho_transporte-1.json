@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/basho/transporte-1",
+ "titulo": "<ruby>沿線<rt>えんせん</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>",
+ "cuerpo": "<ruby>運送<rt>うんそう</rt></ruby><ruby>会社<rt>がいしゃ</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>きはじめて<ruby>三年<rt>さんねん</rt></ruby>になります。<ruby>朝<rt>あさ</rt></ruby>、<ruby>事務所<rt>じむしょ</rt></ruby>のドアを<ruby>開<rt>あ</rt></ruby>ける<em class=\"g\">なり</em>、その<ruby>日<rt>ひ</rt></ruby>の<ruby>荷<rt>に</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>が<ruby>壁<rt>かべ</rt></ruby>の<ruby>表<rt>ひょう</rt></ruby>に<ruby>出<rt>で</rt></ruby>ているのが<ruby>目<rt>め</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ります。<ruby>幹線<rt>かんせん</rt></ruby>が<ruby>混<rt>こ</rt></ruby>む<ruby>日<rt>ひ</rt></ruby>は、<ruby>沿線<rt>えんせん</rt></ruby>の<ruby>細<rt>ほそ</rt></ruby>い<ruby>道<rt>みち</rt></ruby>を<ruby>交互<rt>こうご</rt></ruby>に<ruby>使<rt>つか</rt></ruby>います。ダンプやパトカーとすれちがいながら、<ruby>降水<rt>こうすい</rt></ruby><ruby>確率<rt>かくりつ</rt></ruby>をちらっと<ruby>見<rt>み</rt></ruby>て、<ruby>積<rt>つ</rt></ruby>み<ruby>方<rt>かた</rt></ruby>を<ruby>決<rt>き</rt></ruby>めるのです。<ruby>運搬<rt>うんぱん</rt></ruby>というのは<ruby>力<rt>ちから</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>われがちですが、じっさいには<ruby>段取<rt>だんど</rt></ruby>りの<ruby>仕事<rt>しごと</rt></ruby>です。<ruby>体<rt>からだ</rt></ruby>を<ruby>鍛<rt>きた</rt></ruby>えるより、<ruby>頭<rt>あたま</rt></ruby>をつかう<ruby>時間<rt>じかん</rt></ruby>のほうが<ruby>長<rt>なが</rt></ruby>い。<ruby>海運<rt>かいうん</rt></ruby>のほうへ<ruby>移<rt>うつ</rt></ruby>った<ruby>同期<rt>どうき</rt></ruby>に<ruby>聞<rt>き</rt></ruby>くと、<ruby>漁船<rt>ぎょせん</rt></ruby>や<ruby>汽船<rt>きせん</rt></ruby>のあいだでも<ruby>同<rt>おな</rt></ruby>じだと<ruby>言<rt>い</rt></ruby>っていました。<ruby>運輸<rt>うんゆ</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きいけれど、<ruby>中身<rt>なかみ</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby>の<ruby>小<rt>ちい</rt></ruby>さな<ruby>判断<rt>はんだん</rt></ruby>の<ruby>積<rt>つ</rt></ruby>み<ruby>重<rt>かさ</rt></ruby>ねです。",
+ "traduccion": "Hace tres años que empecé a trabajar en una empresa de transporte. Por la mañana, nada más abrir la puerta de la oficina, lo primero que veo es la cantidad de carga del día apuntada en el tablón de la pared. Los días que la carretera principal se atasca, alternamos las calles estrechas paralelas a la vía. Cruzándonos con volquetes y coches patrulla, echo un vistazo a la probabilidad de lluvia y decido cómo cargar. Se suele pensar que el acarreo es un trabajo de fuerza, pero en realidad es un trabajo de organización. Paso más horas usando la cabeza que fortaleciendo el cuerpo. Un compañero de mi promoción que se pasó al transporte marítimo me dijo que entre pesqueros y vapores es exactamente igual. La palabra «transporte» suena grande, pero por dentro no es más que la suma de decisiones pequeñas de cada día.",
+ "preguntas": [
+  {
+   "p": "<ruby>事務所<rt>じむしょ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ってすぐ、この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>見<rt>み</rt></ruby>ますか。",
+   "opciones": [
+    "<ruby>天気<rt>てんき</rt></ruby>よほう",
+    "<ruby>壁<rt>かべ</rt></ruby>の<ruby>表<rt>ひょう</rt></ruby>にある<ruby>荷<rt>に</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
+    "<ruby>車<rt>くるま</rt></ruby>のかぎ",
+    "<ruby>同僚<rt>どうりょう</rt></ruby>の<ruby>顔<rt>かお</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>運搬<rt>うんぱん</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>について、この<ruby>人<rt>ひと</rt></ruby>はどう<ruby>考<rt>かんが</rt></ruby>えていますか。",
+   "opciones": [
+    "<ruby>力<rt>ちから</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>だ",
+    "<ruby>段取<rt>だんど</rt></ruby>りの<ruby>仕事<rt>しごと</rt></ruby>だ",
+    "だれでもできる",
+    "<ruby>海運<rt>かいうん</rt></ruby>とはちがう"
+   ],
+   "correcta": 1
+  }
+ ]
+}

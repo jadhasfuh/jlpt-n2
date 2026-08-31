@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/basho/ir_venir-1",
+ "titulo": "<ruby>門<rt>もん</rt></ruby>をくぐるまで",
+ "cuerpo": "<ruby>父<rt>ちち</rt></ruby>は<ruby>小<rt>ちい</rt></ruby>さな<ruby>工場<rt>こうじょう</rt></ruby>を<ruby>営<rt>いとな</rt></ruby>んでいました。<ruby>学校<rt>がっこう</rt></ruby>を<ruby>出<rt>で</rt></ruby>たら<ruby>店<rt>みせ</rt></ruby>を<ruby>継<rt>つ</rt></ruby>ぐものだと<ruby>思<rt>おも</rt></ruby>われていて、その<ruby>期待<rt>きたい</rt></ruby>に<ruby>背<rt>そむ</rt></ruby>くのがこわかったのを<ruby>覚<rt>おぼ</rt></ruby>えています。それでも<ruby>試験<rt>しけん</rt></ruby>に<ruby>受<rt>う</rt></ruby>かった<ruby>日<rt>ひ</rt></ruby>、はじめて<ruby>自分<rt>じぶん</rt></ruby>の<ruby>道<rt>みち</rt></ruby>を<ruby>歩<rt>あゆ</rt></ruby>もうと<ruby>決<rt>き</rt></ruby>めました。いくつかの<ruby>職場<rt>しょくば</rt></ruby><em class=\"g\">を経て</em>、いまは<ruby>遠<rt>とお</rt></ruby>い<ruby>町<rt>まち</rt></ruby>の<ruby>研究所<rt>けんきゅうじょ</rt></ruby>に<ruby>赴<rt>おもむ</rt></ruby>いています。<ruby>最初<rt>さいしょ</rt></ruby>の<ruby>一年<rt>いちねん</rt></ruby><em class=\"g\">を皮切りに</em>、<ruby>毎年<rt>まいとし</rt></ruby><ruby>何<rt>なに</rt></ruby>かをあきらめ、<ruby>何<rt>なに</rt></ruby>かを<ruby>得<rt>え</rt></ruby>てきました。<ruby>看板<rt>かんばん</rt></ruby>の<ruby>文字<rt>もじ</rt></ruby>が<ruby>剥<rt>は</rt></ruby>げ、<ruby>制服<rt>せいふく</rt></ruby>のそでが<ruby>綻<rt>ほころ</rt></ruby>びるころには、<ruby>苦<rt>くる</rt></ruby>しさから<ruby>脱<rt>だっ</rt></ruby>する<ruby>方法<rt>ほうほう</rt></ruby>も<ruby>少<rt>すこ</rt></ruby>しずつわかってきます。<ruby>目<rt>め</rt></ruby>に<ruby>涙<rt>なみだ</rt></ruby>が<ruby>滲<rt>にじ</rt></ruby>むような<ruby>夜<rt>よる</rt></ruby>を<ruby>何度<rt>なんど</rt></ruby>か<ruby>越<rt>こ</rt></ruby>えて、はじめの<ruby>志<rt>こころざし</rt></ruby>を<ruby>貫<rt>つらぬ</rt></ruby>いてこられたのは、<ruby>人<rt>ひと</rt></ruby>と<ruby>言葉<rt>ことば</rt></ruby>を<ruby>交<rt>まじ</rt></ruby>えることを<ruby>抜<rt>ぬ</rt></ruby>かさなかったからだと<ruby>思<rt>おも</rt></ruby>います。<ruby>逃<rt>のが</rt></ruby>れたい<ruby>気持<rt>きも</rt></ruby>ちに<ruby>尽<rt>つ</rt></ruby>きることはありません。それでも、<ruby>門<rt>もん</rt></ruby>をくぐるたびに<ruby>今日<rt>きょう</rt></ruby>も<ruby>一日<rt>いちにち</rt></ruby>やってみようと<ruby>思<rt>おも</rt></ruby>うのです。",
+ "traduccion": "Mi padre llevaba un taller pequeño. Se daba por hecho que al terminar los estudios me haría cargo del negocio, y recuerdo el miedo que me daba defraudar esa expectativa. Aun así, el día que aprobé el examen decidí por primera vez recorrer mi propio camino. Después de pasar por varios trabajos, ahora estoy destinado en un laboratorio de una ciudad lejana. Empezando por aquel primer año, cada año he renunciado a algo y he ganado algo. Cuando las letras del cartel se despintan y se descosen las mangas del uniforme, uno va entendiendo poco a poco cómo salir de lo que duele. Tras superar unas cuantas noches con los ojos húmedos, si he podido mantener el propósito del principio creo que ha sido por no haberme saltado nunca el hablar con la gente. Las ganas de escapar no se acaban nunca. Y sin embargo, cada vez que cruzo la puerta pienso: hoy también, vamos a intentarlo.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>学校<rt>がっこう</rt></ruby>を<ruby>出<rt>で</rt></ruby>たあと、どうしましたか。",
+   "opciones": [
+    "<ruby>父<rt>ちち</rt></ruby>の<ruby>工場<rt>こうじょう</rt></ruby>を<ruby>継<rt>つ</rt></ruby>いだ",
+    "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>道<rt>みち</rt></ruby>を<ruby>歩<rt>あゆ</rt></ruby>むことにした",
+    "<ruby>何<rt>なに</rt></ruby>もしなかった",
+    "<ruby>外国<rt>がいこく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "はじめの<ruby>志<rt>こころざし</rt></ruby>を<ruby>貫<rt>つらぬ</rt></ruby>けた<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>だと<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>才能<rt>さいのう</rt></ruby>があったから",
+    "<ruby>人<rt>ひと</rt></ruby>と<ruby>言葉<rt>ことば</rt></ruby>を<ruby>交<rt>まじ</rt></ruby>えることを<ruby>抜<rt>ぬ</rt></ruby>かさなかったから",
+    "<ruby>苦<rt>くる</rt></ruby>しくなかったから",
+    "<ruby>父<rt>ちち</rt></ruby>に<ruby>助<rt>たす</rt></ruby>けられたから"
+   ],
+   "correcta": 1
+  }
+ ]
+}
