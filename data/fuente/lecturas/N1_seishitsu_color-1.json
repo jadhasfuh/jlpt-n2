@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/seishitsu/color-1",
+ "titulo": "<ruby>赤<rt>あか</rt></ruby>らむ<ruby>顔<rt>かお</rt></ruby>",
+ "cuerpo": "<ruby>人前<rt>ひとまえ</rt></ruby>で<ruby>話<rt>はな</rt></ruby>すと、いまでも<ruby>顔<rt>かお</rt></ruby>が<ruby>赤<rt>あか</rt></ruby>らみます。<ruby>子<rt>こ</rt></ruby>どものころは、それが<ruby>恥<rt>は</rt></ruby>ずかしくてたまりませんでした。<ruby>同級生<rt>どうきゅうせい</rt></ruby>に<ruby>指<rt>ゆび</rt></ruby>をさされたときの<ruby>気持<rt>きも</rt></ruby>ちは、<ruby>情<rt>なさ</rt></ruby>けないこと<em class=\"g\">この上ない</em>ものでした。<ruby>美術<rt>びじゅつ</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>で<ruby>布<rt>ぬの</rt></ruby>を<ruby>染<rt>そ</rt></ruby>める<ruby>時間<rt>じかん</rt></ruby>があり、<ruby>赤<rt>あか</rt></ruby>の<ruby>色彩<rt>しきさい</rt></ruby>をどう<ruby>出<rt>だ</rt></ruby>すかを<ruby>習<rt>なら</rt></ruby>いました。<ruby>先生<rt>せんせい</rt></ruby>は<ruby>学校<rt>がっこう</rt></ruby><em class=\"g\">きっての</em><ruby>職人<rt>しょくにん</rt></ruby><ruby>肌<rt>はだ</rt></ruby>の<ruby>方<rt>かた</rt></ruby>で、「<ruby>赤<rt>あか</rt></ruby>は<ruby>隠<rt>かく</rt></ruby>せない<ruby>色<rt>いろ</rt></ruby>だ」と<ruby>言<rt>い</rt></ruby>っていました。<ruby>隠<rt>かく</rt></ruby>せないから<ruby>強<rt>つよ</rt></ruby>いのだ、と。いま<ruby>思<rt>おも</rt></ruby>えば、あれは<ruby>告白<rt>こくはく</rt></ruby>のようなものだったのでしょう。<ruby>赤<rt>あか</rt></ruby>らむ<ruby>顔<rt>かお</rt></ruby>は<ruby>白状<rt>はくじょう</rt></ruby>しているだけで、<ruby>弱<rt>よわ</rt></ruby>さではありません。<ruby>音色<rt>ねいろ</rt></ruby>が<ruby>人<rt>ひと</rt></ruby>によってちがうように、<ruby>緊張<rt>きんちょう</rt></ruby>の<ruby>出<rt>で</rt></ruby>かたも<ruby>人<rt>ひと</rt></ruby>それぞれなのだと、いまは<ruby>思<rt>おも</rt></ruby>えます。",
+ "traduccion": "Cuando hablo delante de gente todavía se me pone la cara roja. De niño aquello me daba una vergüenza insoportable. Lo que sentí cuando un compañero me señaló con el dedo fue lo más humillante que recuerdo. En clase de plástica hubo un tiempo dedicado a teñir telas y aprendimos cómo sacar el color rojo. El profesor era el hombre con más oficio de todo el colegio y decía: «el rojo es un color que no se puede esconder». Y que precisamente por eso es fuerte. Pensándolo ahora, aquello fue una especie de confesión. Una cara que enrojece solo está confesando; no es debilidad. Igual que el timbre de la voz cambia de una persona a otra, ahora puedo pensar que los nervios también salen de forma distinta en cada uno.",
+ "preguntas": [
+  {
+   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>赤<rt>あか</rt></ruby>についてどう<ruby>言<rt>い</rt></ruby>っていましたか。",
+   "opciones": [
+    "<ruby>出<rt>だ</rt></ruby>すのが<ruby>難<rt>むずか</rt></ruby>しい<ruby>色<rt>いろ</rt></ruby>だ",
+    "<ruby>隠<rt>かく</rt></ruby>せない<ruby>色<rt>いろ</rt></ruby>で、だから<ruby>強<rt>つよ</rt></ruby>い",
+    "<ruby>使<rt>つか</rt></ruby>わないほうがいい",
+    "<ruby>子<rt>こ</rt></ruby>どもの<ruby>色<rt>いろ</rt></ruby>だ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いま、この<ruby>人<rt>ひと</rt></ruby>は<ruby>赤<rt>あか</rt></ruby>らむ<ruby>顔<rt>かお</rt></ruby>をどう<ruby>考<rt>かんが</rt></ruby>えていますか。",
+   "opciones": [
+    "<ruby>弱<rt>よわ</rt></ruby>さのしるし",
+    "<ruby>白状<rt>はくじょう</rt></ruby>しているだけで<ruby>弱<rt>よわ</rt></ruby>さではない",
+    "<ruby>直<rt>なお</rt></ruby>すべきもの",
+    "<ruby>恥<rt>は</rt></ruby>ずかしいもの"
+   ],
+   "correcta": 1
+  }
+ ]
+}

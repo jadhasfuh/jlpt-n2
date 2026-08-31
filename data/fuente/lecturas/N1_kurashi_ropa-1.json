@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/kurashi/ropa-1",
+ "titulo": "<ruby>制服<rt>せいふく</rt></ruby>のある<ruby>場所<rt>ばしょ</rt></ruby>",
+ "cuerpo": "<ruby>中学<rt>ちゅうがく</rt></ruby>の<ruby>制服<rt>せいふく</rt></ruby>は<ruby>一律<rt>いちりつ</rt></ruby>に<ruby>紺色<rt>こんいろ</rt></ruby>で、<ruby>裾<rt>すそ</rt></ruby>の<ruby>長<rt>なが</rt></ruby>さまで<ruby>決<rt>き</rt></ruby>まっていました。<ruby>校則<rt>こうそく</rt></ruby>を<ruby>数<rt>かぞ</rt></ruby>えはじめると<ruby>切<rt>き</rt></ruby>りがないほどです。<ruby>皆<rt>みな</rt></ruby>が<ruby>一様<rt>いちよう</rt></ruby>に<ruby>同<rt>おな</rt></ruby>じ<ruby>衣類<rt>いるい</rt></ruby>を<ruby>着<rt>き</rt></ruby>ることに、<ruby>当時<rt>とうじ</rt></ruby>は<ruby>意味<rt>いみ</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりませんでした。いま<ruby>働<rt>はたら</rt></ruby>いている<ruby>現場<rt>げんば</rt></ruby>にもユニフォームがあります。<ruby>揃<rt>そろ</rt></ruby>いの<ruby>上着<rt>うわぎ</rt></ruby>とブーツ、それに<ruby>名前<rt>なまえ</rt></ruby>の<ruby>入<rt>はい</rt></ruby>った<ruby>帯<rt>おび</rt></ruby>。<ruby>危険<rt>きけん</rt></ruby>な<ruby>機械<rt>きかい</rt></ruby>に<ruby>袖<rt>そで</rt></ruby>が<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれる<em class=\"g\">ことのないように</em>、<ruby>形<rt>かたち</rt></ruby>まで<ruby>細<rt>こま</rt></ruby>かく<ruby>決<rt>き</rt></ruby>められているのだと<ruby>教<rt>おそ</rt></ruby>わりました。<ruby>軍服<rt>ぐんぷく</rt></ruby>や<ruby>盛装<rt>せいそう</rt></ruby>とはちがって、これは<ruby>身<rt>み</rt></ruby>を<ruby>守<rt>まも</rt></ruby>るための<ruby>衣装<rt>いしょう</rt></ruby>です。<ruby>織物<rt>おりもの</rt></ruby>の<ruby>厚<rt>あつ</rt></ruby>さにも<ruby>理由<rt>りゆう</rt></ruby>があります。<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>に<ruby>執着<rt>しゅうちゃく</rt></ruby>しない<ruby>服<rt>ふく</rt></ruby>にも、ちゃんと<ruby>考<rt>かんが</rt></ruby>えが<ruby>入<rt>はい</rt></ruby>っているのだと<ruby>知<rt>し</rt></ruby>りました。",
+ "traduccion": "El uniforme del instituto era azul marino para todos, y hasta el largo del bajo estaba fijado. Si te pones a contar las normas del centro, no se acaban nunca. Que todos lleváramos la misma ropa por igual era algo cuyo sentido entonces no entendía. En el sitio donde trabajo ahora también hay uniforme. Chaqueta y botas a juego, y un cinturón con el nombre puesto. Me explicaron que hasta la forma está decidida al detalle para que la manga no se enganche en una máquina peligrosa. A diferencia de un uniforme militar o de un traje de gala, esto es ropa para protegerse. El grosor del tejido también tiene su razón. Aprendí que incluso en la ropa que no se preocupa por el aspecto hay un pensamiento detrás.",
+ "preguntas": [
+  {
+   "p": "<ruby>現場<rt>げんば</rt></ruby>のユニフォームの<ruby>形<rt>かたち</rt></ruby>が<ruby>決<rt>き</rt></ruby>められているのは、なぜですか。",
+   "opciones": [
+    "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>をそろえるため",
+    "<ruby>袖<rt>そで</rt></ruby>が<ruby>機械<rt>きかい</rt></ruby>に<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれないため",
+    "<ruby>安<rt>やす</rt></ruby>く<ruby>作<rt>つく</rt></ruby>るため",
+    "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>入<rt>い</rt></ruby>れるため"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>知<rt>し</rt></ruby>ったことは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>制服<rt>せいふく</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>ない",
+    "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>に<ruby>執着<rt>しゅうちゃく</rt></ruby>しない<ruby>服<rt>ふく</rt></ruby>にも<ruby>考<rt>かんが</rt></ruby>えが<ruby>入<rt>はい</rt></ruby>っている",
+    "<ruby>軍服<rt>ぐんぷく</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby>いい",
+    "<ruby>校則<rt>こうそく</rt></ruby>は<ruby>多<rt>おお</rt></ruby>すぎる"
+   ],
+   "correcta": 1
+  }
+ ]
+}
