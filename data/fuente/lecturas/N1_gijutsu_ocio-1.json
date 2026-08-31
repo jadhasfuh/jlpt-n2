@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/gijutsu/ocio-1",
+ "titulo": "くじびきの<ruby>当番<rt>とうばん</rt></ruby>",
+ "cuerpo": "<ruby>夏<rt>なつ</rt></ruby>の<ruby>祭<rt>まつ</rt></ruby>りで、くじびきの<ruby>係<rt>かかり</rt></ruby>を<ruby>任<rt>まか</rt></ruby>されました。<ruby>朝<rt>あさ</rt></ruby>のうちに<ruby>参加<rt>さんか</rt></ruby><ruby>費<rt>ひ</rt></ruby>を<ruby>徴収<rt>ちょうしゅう</rt></ruby>し、<ruby>景品<rt>けいひん</rt></ruby>の<ruby>玩具<rt>がんぐ</rt></ruby>を<ruby>台<rt>だい</rt></ruby>に<ruby>並<rt>なら</rt></ruby>べていきます。<ruby>子<rt>こ</rt></ruby>どもたちは<ruby>開始<rt>かいし</rt></ruby>の<ruby>一時間<rt>いちじかん</rt></ruby><ruby>前<rt>まえ</rt></ruby>からもう<ruby>列<rt>れつ</rt></ruby>をつくっていました。どんな<ruby>景品<rt>けいひん</rt></ruby>が<ruby>出<rt>で</rt></ruby><em class=\"g\">ようが</em>、みんなうれしそうにしています。<ruby>当<rt>あ</rt></ruby>たりでも<ruby>外<rt>はず</rt></ruby>れでも、<ruby>引<rt>ひ</rt></ruby>く<ruby>瞬間<rt>しゅんかん</rt></ruby>が<ruby>楽<rt>たの</rt></ruby>しいのでしょう。<ruby>賭<rt>かけ</rt></ruby>のようなものだと<ruby>言<rt>い</rt></ruby>う<ruby>大人<rt>おとな</rt></ruby>もいますが、<ruby>百円<rt>ひゃくえん</rt></ruby>で<ruby>買<rt>か</rt></ruby>っているのはあの<ruby>数秒<rt>すうびょう</rt></ruby>のほうです。<ruby>終<rt>お</rt></ruby>わったあと、<ruby>残<rt>のこ</rt></ruby>った<ruby>玩具<rt>がんぐ</rt></ruby>を<ruby>回収<rt>かいしゅう</rt></ruby>して<ruby>箱<rt>はこ</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>しました。<ruby>来年<rt>らいねん</rt></ruby>も<ruby>同<rt>おな</rt></ruby>じものが<ruby>出<rt>で</rt></ruby>てくるはずです。<ruby>同<rt>おな</rt></ruby>じ<ruby>景品<rt>けいひん</rt></ruby>、<ruby>同<rt>おな</rt></ruby>じ<ruby>台<rt>だい</rt></ruby>、<ruby>同<rt>おな</rt></ruby>じ<ruby>列<rt>れつ</rt></ruby>。<ruby>変<rt>か</rt></ruby>わらないというのは、それだけでひとつの<ruby>贈<rt>おく</rt></ruby>り<ruby>物<rt>もの</rt></ruby>なのだと<ruby>思<rt>おも</rt></ruby>いました。",
+ "traduccion": "En la fiesta de verano me encargaron el puesto de la rifa. Por la mañana cobré la cuota de participación y fui colocando los juguetes de premio sobre la mesa. Los niños ya hacían cola una hora antes de empezar. Saliera el premio que saliera, todos ponían cara de contentos. Toque o no toque, lo divertido debe de ser el instante de sacar el papelito. Hay adultos que dicen que es como apostar, pero lo que se compra por cien yenes son esos pocos segundos. Al terminar recogí los juguetes que sobraron y los devolví a la caja. El año que viene saldrán exactamente los mismos. Los mismos premios, la misma mesa, la misma cola. Pensé que el hecho de que algo no cambie es, por sí solo, un regalo.",
+ "preguntas": [
+  {
+   "p": "<ruby>子<rt>こ</rt></ruby>どもたちは、いつから<ruby>列<rt>れつ</rt></ruby>をつくっていましたか。",
+   "opciones": [
+    "<ruby>開始<rt>かいし</rt></ruby>のあと",
+    "<ruby>開始<rt>かいし</rt></ruby>の<ruby>一時間<rt>いちじかん</rt></ruby><ruby>前<rt>まえ</rt></ruby>",
+    "<ruby>昼<rt>ひる</rt></ruby>から",
+    "<ruby>前<rt>まえ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>から"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は、<ruby>百円<rt>ひゃくえん</rt></ruby>で<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>っていると<ruby>考<rt>かんが</rt></ruby>えていますか。",
+   "opciones": [
+    "<ruby>景品<rt>けいひん</rt></ruby>の<ruby>玩具<rt>がんぐ</rt></ruby>",
+    "くじを<ruby>引<rt>ひ</rt></ruby>く<ruby>数秒<rt>すうびょう</rt></ruby>",
+    "<ruby>当<rt>あ</rt></ruby>たりの<ruby>確率<rt>かくりつ</rt></ruby>",
+    "<ruby>祭<rt>まつ</rt></ruby>りの<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

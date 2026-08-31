@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/gijutsu/musica-1",
+ "titulo": "<ruby>合唱<rt>がっしょう</rt></ruby>が<ruby>復活<rt>ふっかつ</rt></ruby>した<ruby>年<rt>とし</rt></ruby>",
+ "cuerpo": "<ruby>町<rt>まち</rt></ruby>の<ruby>合唱<rt>がっしょう</rt></ruby><ruby>団<rt>だん</rt></ruby>が、<ruby>十年<rt>じゅうねん</rt></ruby>ぶりに<ruby>復活<rt>ふっかつ</rt></ruby>しました。<ruby>人<rt>ひと</rt></ruby>が<ruby>集<rt>あつ</rt></ruby>まらなくなって、いちど<ruby>解散<rt>かいさん</rt></ruby>していたのです。<ruby>最初<rt>さいしょ</rt></ruby>の<ruby>練習<rt>れんしゅう</rt></ruby>に<ruby>来<rt>き</rt></ruby>たのは<ruby>七人<rt>ななにん</rt></ruby>でした。<em class=\"g\">なんという</em><ruby>少<rt>すく</rt></ruby>なさかと<ruby>笑<rt>わら</rt></ruby>いながら、それでも<ruby>声<rt>こえ</rt></ruby>を<ruby>出<rt>だ</rt></ruby>してみます。<ruby>一人<rt>ひとり</rt></ruby>ずつのトーンがそろわないまま、メロディーだけが<ruby>天井<rt>てんじょう</rt></ruby>にのぼっていきました。<ruby>指揮<rt>しき</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>も<ruby>直<rt>なお</rt></ruby>しませんでした。<ruby>音<rt>おと</rt></ruby>を<ruby>合<rt>あ</rt></ruby>わせようとし<em class=\"g\">たところで</em>、<ruby>気持<rt>きも</rt></ruby>ちが<ruby>別々<rt>べつべつ</rt></ruby>なら<ruby>合<rt>あ</rt></ruby>うはずがない、と。<ruby>半年<rt>はんとし</rt></ruby>かけて、<ruby>声<rt>こえ</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>近<rt>ちか</rt></ruby>づいていきました。<ruby>窓<rt>まど</rt></ruby>の<ruby>外<rt>そと</rt></ruby>で<ruby>鳥<rt>とり</rt></ruby>がさえずるのが<ruby>聞<rt>き</rt></ruby>こえる<ruby>季節<rt>きせつ</rt></ruby>になったころ、<ruby>曲<rt>きょく</rt></ruby>の<ruby>終<rt>お</rt></ruby>わりで<ruby>全員<rt>ぜんいん</rt></ruby>の<ruby>息<rt>いき</rt></ruby>がそろった<ruby>瞬間<rt>しゅんかん</rt></ruby>があって、だれも<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>えませんでした。",
+ "traduccion": "El coro del pueblo volvió a funcionar después de diez años. Se había disuelto porque ya no venía nadie. Al primer ensayo aparecimos siete. Nos reímos de lo poquísimos que éramos y aun así probamos a cantar. Con los tonos de cada uno sin cuadrar, solo la melodía subía hacia el techo. El director no corrigió nada. Dijo que, aunque intentes ajustar las notas, si los ánimos van cada uno por su lado no hay manera de que cuadren. A lo largo de medio año, las voces se fueron acercando. Por la época en que ya se oía cantar a los pájaros al otro lado de la ventana, hubo un instante, al final de una pieza, en que la respiración de todos coincidió, y nadie fue capaz de decir nada.",
+ "preguntas": [
+  {
+   "p": "<ruby>最初<rt>さいしょ</rt></ruby>の<ruby>練習<rt>れんしゅう</rt></ruby>に<ruby>何人<rt>なんにん</rt></ruby><ruby>来<rt>き</rt></ruby>ましたか。",
+   "opciones": [
+    "<ruby>十人<rt>じゅうにん</rt></ruby>",
+    "<ruby>七人<rt>ななにん</rt></ruby>",
+    "<ruby>一人<rt>ひとり</rt></ruby>",
+    "<ruby>全員<rt>ぜんいん</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>指揮<rt>しき</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>は、なぜ<ruby>何<rt>なに</rt></ruby>も<ruby>直<rt>なお</rt></ruby>さなかったのですか。",
+   "opciones": [
+    "<ruby>時間<rt>じかん</rt></ruby>がなかったから",
+    "<ruby>気持<rt>きも</rt></ruby>ちが<ruby>別々<rt>べつべつ</rt></ruby>なら<ruby>音<rt>おと</rt></ruby>は<ruby>合<rt>あ</rt></ruby>わないから",
+    "<ruby>上手<rt>じょうず</rt></ruby>だったから",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかったから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

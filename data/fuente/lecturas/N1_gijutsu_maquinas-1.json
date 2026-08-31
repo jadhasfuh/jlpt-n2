@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/gijutsu/maquinas-1",
+ "titulo": "<ruby>仕組<rt>しく</rt></ruby>みを<ruby>知<rt>し</rt></ruby>る",
+ "cuerpo": "<ruby>古<rt>ふる</rt></ruby>い<ruby>施設<rt>しせつ</rt></ruby>の<ruby>点検<rt>てんけん</rt></ruby>を<ruby>任<rt>まか</rt></ruby>されました。<ruby>装備<rt>そうび</rt></ruby>はどれも<ruby>十年<rt>じゅうねん</rt></ruby><ruby>以上<rt>いじょう</rt></ruby><ruby>前<rt>まえ</rt></ruby>のもので、モニターの<ruby>表示<rt>ひょうじ</rt></ruby>が<ruby>時<rt>とき</rt></ruby>どき<ruby>消<rt>き</rt></ruby>えます。<ruby>手順<rt>てじゅん</rt></ruby><ruby>書<rt>しょ</rt></ruby><em class=\"g\">に則って</em><ruby>一<rt>ひと</rt></ruby>つずつ<ruby>確<rt>たし</rt></ruby>かめていくと、ポンプのフィルタに<ruby>汚<rt>よご</rt></ruby>れがたまっているのが<ruby>原因<rt>げんいん</rt></ruby>でした。<ruby>水<rt>みず</rt></ruby>をこすだけの<ruby>部品<rt>ぶひん</rt></ruby>ですが、そこが<ruby>詰<rt>つ</rt></ruby>まると<ruby>全体<rt>ぜんたい</rt></ruby>が<ruby>止<rt>と</rt></ruby>まる<ruby>仕掛<rt>しか</rt></ruby>けになっているのです。<ruby>記録<rt>きろく</rt></ruby><em class=\"g\">に照らして</em><ruby>前<rt>まえ</rt></ruby>の<ruby>交換<rt>こうかん</rt></ruby><ruby>時期<rt>じき</rt></ruby>をさがすと、<ruby>三年<rt>さんねん</rt></ruby>も<ruby>放<rt>ほう</rt></ruby>っておかれていました。<ruby>無線<rt>むせん</rt></ruby>で<ruby>連絡<rt>れんらく</rt></ruby>し、<ruby>部品<rt>ぶひん</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>寄<rt>よ</rt></ruby>せます。<ruby>機械<rt>きかい</rt></ruby><ruby>狂<rt>きょう</rt></ruby>というほど<ruby>詳<rt>くわ</rt></ruby>しくはありませんが、<ruby>仕組<rt>しく</rt></ruby>みが<ruby>頭<rt>あたま</rt></ruby>に<ruby>入<rt>はい</rt></ruby>っていると、こわれた<ruby>時<rt>とき</rt></ruby>にどこを<ruby>見<rt>み</rt></ruby>ればいいかがわかります。<ruby>前置<rt>まえお</rt></ruby>きの<ruby>長<rt>なが</rt></ruby>い<ruby>説明<rt>せつめい</rt></ruby>より、<ruby>一度<rt>いちど</rt></ruby><ruby>中<rt>なか</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けてみるほうが<ruby>早<rt>はや</rt></ruby>いのです。",
+ "traduccion": "Me encargaron la revisión de unas instalaciones viejas. Todo el equipamiento tiene más de diez años y la pantalla del monitor se apaga de vez en cuando. Siguiendo el manual y comprobando punto por punto, resultó que la causa era la suciedad acumulada en el filtro de la bomba. Es una pieza que solo cuela agua, pero está montado de modo que si eso se atasca, se para el conjunto entero. Buscando en el registro cuándo se cambió la última vez, llevaba tres años abandonado. Avisé por radio y encargamos la pieza. No soy un fanático de las máquinas ni mucho menos, pero cuando tienes el mecanismo en la cabeza sabes dónde mirar en cuanto algo se rompe. Antes que una explicación con un preámbulo largo, es más rápido abrirlo y mirar por dentro.",
+ "preguntas": [
+  {
+   "p": "<ruby>故障<rt>こしょう</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でしたか。",
+   "opciones": [
+    "モニターの<ruby>故障<rt>こしょう</rt></ruby>",
+    "ポンプのフィルタの<ruby>汚<rt>よご</rt></ruby>れ",
+    "<ruby>無線<rt>むせん</rt></ruby>の<ruby>不調<rt>ふちょう</rt></ruby>",
+    "<ruby>装備<rt>そうび</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>いこと"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>仕組<rt>しく</rt></ruby>みを<ruby>知<rt>し</rt></ruby>っていると、どうなると<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>早<rt>はや</rt></ruby>く<ruby>直<rt>なお</rt></ruby>せる<ruby>人<rt>ひと</rt></ruby>になれる",
+    "こわれた<ruby>時<rt>とき</rt></ruby>にどこを<ruby>見<rt>み</rt></ruby>ればいいかがわかる",
+    "<ruby>部品<rt>ぶひん</rt></ruby>が<ruby>安<rt>やす</rt></ruby>く<ruby>買<rt>か</rt></ruby>える",
+    "<ruby>点検<rt>てんけん</rt></ruby>が<ruby>要<rt>い</rt></ruby>らなくなる"
+   ],
+   "correcta": 1
+  }
+ ]
+}
