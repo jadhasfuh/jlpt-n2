@@ -1,10 +1,11 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { COLOR_NIVEL, DESC_NIVEL, type Nivel } from "@/lib/tipos";
+import { COLOR_NIVEL, DESC_NIVEL, NUMERAL_NIVEL, type Nivel } from "@/lib/tipos";
 import { contarPendientes, leerProgreso, resumen } from "@/lib/progreso";
 import { Anillo } from "./Anillo";
 import { ACCESO_ABIERTO } from "@/lib/acceso";
+import { IcCronometro, IcDerecha, IcRacha } from "./Iconos";
 
 type Resumen = { id: Nivel; palabras: number; gramatica: number; unidades: number; secciones: number };
 
@@ -36,69 +37,79 @@ export function Inicio({ niveles, totales }: {
 
   return (
     <>
-      <section style={{ padding: "22px 0 18px" }}>
-        <h1 className="jp" style={{ fontSize: 30, margin: "0 0 2px" }}>日本語能力試験</h1>
-        <p className="silencio" style={{ margin: 0 }}>
+      <section style={{ padding: "6px 0 12px" }}>
+        <h1 className="jp" style={{ fontSize: 26, fontWeight: 500, lineHeight: 1.25, margin: "0 0 6px" }}>
+          日本語能力試験
+        </h1>
+        <p style={{ margin: 0, fontSize: 13, lineHeight: 1.5, color: "var(--tinta-2)", maxWidth: "33ch" }}>
           {totales.palabras.toLocaleString("es")} palabras y {totales.gramatica} puntos de
           gramática, en unidades de 20. Elige por dónde empezar.
         </p>
       </section>
 
       {r && (
-        <section className="tarjeta" style={{ marginBottom: 14, display: "flex", gap: 18, flexWrap: "wrap" }}>
-          {[
-            [`${r.xp}`, "XP"],
-            [r.racha ? `${r.racha} 🔥` : "0", "días seguidos"],
-            [`${r.dominadas}`, "dominadas"],
-            [`${r.unidades}`, "unidades"],
-          ].map(([v, t]) => (
-            <div key={t} style={{ minWidth: 68 }}>
-              <div style={{ fontSize: 21, fontWeight: 700 }}>{v}</div>
-              <div className="tenue">{t}</div>
-            </div>
-          ))}
-        </section>
+        <div className="tira-stats">
+          <div>
+            <b>{r.xp}</b>
+            <i>XP</i>
+          </div>
+          <div>
+            <b style={{ color: r.racha ? "var(--rojo)" : undefined }}>
+              {r.racha}
+              {r.racha > 0 && <IcRacha size={14} weight="fill" />}
+            </b>
+            <i>días</i>
+          </div>
+          <div>
+            <b>{r.dominadas}</b>
+            <i>dominadas</i>
+          </div>
+          <div>
+            <b>{r.unidades}</b>
+            <i>unidades</i>
+          </div>
+        </div>
       )}
 
       {pend.vencidas > 0 && (
-        <Link href="/repaso" className="fila" style={{ marginBottom: 10, borderColor: "var(--acento)" }}>
-          <div className="anillo" style={{ ["--pct" as string]: 100, ["--tono" as string]: "var(--acento)" }}>
-            <span>{pend.vencidas}</span>
-          </div>
+        <Link href="/repaso" className="fila acento" style={{ marginBottom: 8 }}>
+          <Anillo pct={1} tono="var(--acento)" texto={`${pend.vencidas}`} />
           <div style={{ flex: 1, minWidth: 0 }}>
-            <div style={{ fontWeight: 600 }}>Te toca repasar</div>
-            <div className="tenue">
+            <div className="fila-titulo">Te toca repasar</div>
+            <div className="fila-sub">
               {pend.vencidas} {pend.vencidas === 1 ? "palabra vencida" : "palabras vencidas"}
               {pend.hoy > 0 && ` · ${pend.hoy} más hoy`}
             </div>
           </div>
-          <span className="flecha">›</span>
+          <span className="flecha"><IcDerecha size={15} /></span>
         </Link>
       )}
 
-      <Link href="/rapido" className="fila" style={{ marginBottom: 14 }}>
-        <div className="anillo" style={{ ["--pct" as string]: 100, ["--tono" as string]: "var(--verde)" }}>
-          <span style={{ fontSize: 17 }}>⏱</span>
-        </div>
+      <Link href="/rapido" className="fila" style={{ marginBottom: 12, padding: "11px 14px" }}>
+        <span className="disco"><IcCronometro size={19} /></span>
         <div style={{ flex: 1, minWidth: 0 }}>
-          <div style={{ fontWeight: 600 }}>Cinco minutos</div>
-          <div className="tenue">Repaso corto de lo que tienes más flojo</div>
+          <div className="fila-titulo">Cinco minutos</div>
+          <div className="fila-sub">Repaso corto de lo que tienes más flojo</div>
         </div>
-        <span className="flecha">›</span>
+        <span className="flecha"><IcDerecha size={15} /></span>
       </Link>
 
-      <div className="lista">
+      <h2 className="enc-seccion">Niveles</h2>
+
+      <div className="lista rejilla-niveles">
         {niveles.map((n) => (
           <Link key={n.id} href={`/n/${n.id}`} className="fila">
-            <Anillo pct={avance[n.id] ?? 0} tono={COLOR_NIVEL[n.id]} texto={n.id} />
+            <span className="numeral jp">{NUMERAL_NIVEL[n.id]}</span>
+            <Anillo pct={avance[n.id] ?? 0} tono={COLOR_NIVEL[n.id]} texto={n.id} tam={38} />
             <div style={{ flex: 1, minWidth: 0 }}>
-              <div style={{ fontWeight: 600 }}>{DESC_NIVEL[n.id]}</div>
-              <div className="tenue">
-                {n.palabras.toLocaleString("es")} palabras
-                {n.gramatica ? ` · ${n.gramatica} gramática` : ""} · {n.secciones} secciones
+              <div style={{ fontSize: 14, fontWeight: 500 }}>{DESC_NIVEL[n.id]}</div>
+              {/* Una sola línea: con el recuento de gramática envuelve y la lista
+                  deja de caber en una pantalla de móvil. */}
+              <div className="tenue" style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+                {n.palabras.toLocaleString("es")} palabras · {n.secciones} secciones
               </div>
             </div>
-            <span className="flecha">›</span>
+            <span className="flecha"><IcDerecha size={14} /></span>
           </Link>
         ))}
       </div>

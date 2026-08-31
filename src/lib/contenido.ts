@@ -99,3 +99,31 @@ export async function lectura(unidadId: string): Promise<Lectura | null> {
     .from("lecturas").select("*").eq("unidad_id", unidadId).maybeSingle();
   return (data as Lectura) ?? null;
 }
+
+/**
+ * Búsqueda libre para el buscador de la cabecera. `buscarDiccionario` sirve
+ * para una selección exacta dentro de un texto; aquí se escribe a mano y hace
+ * falta tolerar prefijos y buscar también por el significado en español.
+ */
+export function buscarLibre(consulta: string, tope = 24): Palabra[] {
+  const q = consulta.trim().toLowerCase();
+  if (q.length < 1) return [];
+  const japones = /[぀-ヿ一-鿿]/.test(q);
+  const empieza: Palabra[] = [];
+  const contiene: Palabra[] = [];
+
+  for (const p of VOCABULARIO) {
+    const campos = japones ? [p.kanji, p.kana] : [p.es, p.en];
+    let puesto = 0;
+    for (const c of campos) {
+      if (!c) continue;
+      const v = japones ? c : c.toLowerCase();
+      if (v.startsWith(q)) { puesto = 2; break; }
+      if (v.includes(q)) puesto = 1;
+    }
+    if (puesto === 2) empieza.push(p);
+    else if (puesto === 1) contiene.push(p);
+    if (empieza.length >= tope) break;
+  }
+  return [...empieza, ...contiene].slice(0, tope);
+}

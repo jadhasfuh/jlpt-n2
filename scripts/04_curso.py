@@ -63,21 +63,44 @@ for nivel in NIVELES:
                 })
 
 # ------------------------------------------------------------------ gramática
-# Los 197 puntos son todos de N2. En vez de una sección aparte, se reparten
-# entre las unidades de vocabulario de N2: así la gramática se encuentra en
-# contexto, y además se puede consultar la lista entera desde el nivel.
-gram = list(csv.DictReader(open("data/fuente/gramatica.tsv", encoding="utf-8"), delimiter="|"))
-ORDEN_CAT = ["conectores","tiempo","grado","adicion","contraste","causa","condicion",
-             "grado_limite","comparacion","modo","estado_cambio","relacion","punto_vista",
-             "obligacion","posibilidad","modal","enfasis","resultado","estilo"]
-gram.sort(key=lambda g: (int(g["tier"]), ORDEN_CAT.index(g["cat"]), g["romaji"]))
+# Cada nivel reparte SU gramática entre SUS unidades de vocabulario, para que
+# se encuentre en contexto. N2 viene del TSV escrito a mano; el resto, de las
+# listas bajadas y clasificadas.
 slug = lambda s: re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
-destino = [u for u in unidades if u["nivel"] == "N2"]
-N, G = len(destino), len(gram)
-for i, u in enumerate(destino):
-    a, b = -(-i * G // N), -(-(i + 1) * G // N)      # techo: la primera unidad ya estrena
-    u["gramatica"] = [slug(g["romaji"]) for g in gram[a:b]]
+gram = []
+for g in csv.DictReader(open("data/fuente/gramatica.tsv", encoding="utf-8"), delimiter="|"):
+    gram.append({"id": slug(g["romaji"]), "nivel": "N2", "ja": g["ja"],
+                 "en": g["en"], "es": g["es"], "tier": int(g["tier"]), "cat": g["cat"]})
+
+bajada = pathlib.Path("data/build/gramatica_clasificada.json")
+if bajada.exists():
+    for g in json.loads(bajada.read_text(encoding="utf-8")):
+        # Los ids de N2 ya están en uso: los demás se prefijan con su nivel
+        # para que no puedan chocar.
+        gram.append({"id": f"{g['nivel'].lower()}-{slug(g['romaji'])}", "nivel": g["nivel"],
+                     "ja": g["ja"], "en": g["en"], "es": g.get("es", ""),
+                     "tier": g["tier"], "cat": g["cat"]})
+
+ORDEN_CAT = ["particulas","formas","conectores","tiempo","grado","adicion","contraste","causa",
+             "condicion","grado_limite","comparacion","modo","estado_cambio","relacion",
+             "punto_vista","cortesia","deseo","interrogativos","obligacion","posibilidad",
+             "modal","enfasis","resultado","estilo"]
+def clave_gram(g):
+    return (g["tier"], ORDEN_CAT.index(g["cat"]) if g["cat"] in ORDEN_CAT else 99, g["id"])
+
+for nivel in NIVELES:
+    suyas = sorted([g for g in gram if g["nivel"] == nivel], key=clave_gram)
+    destino = [u for u in unidades if u["nivel"] == nivel]
+    if not suyas or not destino:
+        continue
+    N, G = len(destino), len(suyas)
+    for i, u in enumerate(destino):
+        a, b = -(-i * G // N), -(-(i + 1) * G // N)   # techo: la primera ya estrena
+        u["gramatica"] = [g["id"] for g in suyas[a:b]]
+
+pathlib.Path("data/build/gramatica_todos.json").write_text(
+    json.dumps(gram, ensure_ascii=False, indent=1), encoding="utf-8")
 
 # ------------------------------------------------------------------- verificación
 ids_v = [i for u in unidades for i in u["palabras"]]

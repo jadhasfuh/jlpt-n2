@@ -60,13 +60,13 @@ for r in vocab:
     })
 
 # ------------------------------------------------------------------ gramática
-gram = list(csv.DictReader(open("data/fuente/gramatica.tsv", encoding="utf-8"), delimiter="|"))
-slug = lambda s: re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
+# Los 846 puntos de los cinco niveles: N2 del TSV a mano, el resto bajados.
+gram = json.loads(pathlib.Path("data/build/gramatica_todos.json").read_text(encoding="utf-8"))
 salida_g = []
 for g in gram:
     forma, lectura = partir_gramatica(g["ja"])
-    salida_g.append({"id": slug(g["romaji"]), "forma": forma, "lectura": lectura,
-                     "en": g["en"], "es": g["es"], "tier": int(g["tier"]), "cat": g["cat"]})
+    salida_g.append({"id": g["id"], "nivel": g["nivel"], "forma": forma, "lectura": lectura,
+                     "en": g["en"], "es": g["es"], "tier": g["tier"], "cat": g["cat"]})
 
 # ------------------------------------------------------------------- unidades
 unidades = [u for u in json.load(open("data/build/unidades.json", encoding="utf-8"))]

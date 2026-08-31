@@ -15,6 +15,7 @@ export type Palabra = {
 
 export type Gramatica = {
   id: string;          // identificador interno, nunca se muestra
+  nivel: Nivel;
   forma: string; lectura: string;
   en: string; es: string;
   tier: number; cat: string;
@@ -66,9 +67,14 @@ export type Lectura = {
   preguntas?: { p: string; opciones: string[]; correcta: number }[];
 };
 
+/** La rampa va del acento al rojo de la marca: cuanto más alto el nivel, más rojo. */
 export const COLOR_NIVEL: Record<Nivel, string> = {
-  N5: "var(--verde)", N4: "var(--azul)", N3: "var(--morado)",
-  N2: "var(--acento)", N1: "var(--dorado)",
+  N5: "var(--n5)", N4: "var(--n4)", N3: "var(--n3)",
+  N2: "var(--n2)", N1: "var(--n1)",
+};
+/** El numeral kanji que va de fondo en cada fila de nivel. */
+export const NUMERAL_NIVEL: Record<Nivel, string> = {
+  N5: "五", N4: "四", N3: "三", N2: "二", N1: "一",
 };
 export const DESC_NIVEL: Record<Nivel, string> = {
   N5: "Los primeros pasos", N4: "Base cotidiana", N3: "El salto intermedio",

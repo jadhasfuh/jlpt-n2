@@ -9,4 +9,11 @@ CAT_ES = {
  "obligacion": "Obligación y prohibición", "posibilidad": "Posibilidad",
  "modal": "Juicio y suposición", "enfasis": "Énfasis", "resultado": "Resultado",
  "estilo": "Registro y estilo",
+ # Las que hacen falta al bajar a N5/N4: ahí la «gramática» son sobre todo
+ # partículas y conjugaciones, no matices de significado.
+ "particulas": "Partículas",
+ "formas": "Formas verbales y adjetivales",
+ "interrogativos": "Interrogativos",
+ "cortesia": "Cortesía y peticiones",
+ "deseo": "Deseo e intención",
 }
