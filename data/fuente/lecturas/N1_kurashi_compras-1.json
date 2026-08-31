@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/kurashi/compras-1",
+ "titulo": "<ruby>問屋<rt>とんや</rt></ruby>の<ruby>通<rt>とお</rt></ruby>り",
+ "cuerpo": "<ruby>駅<rt>えき</rt></ruby>の<ruby>裏<rt>うら</rt></ruby>に、<ruby>雑貨<rt>ざっか</rt></ruby>の<ruby>問屋<rt>とんや</rt></ruby>が<ruby>連<rt>つら</rt></ruby>なる<ruby>通<rt>とお</rt></ruby>りがあります。<ruby>業者<rt>ぎょうしゃ</rt></ruby>が<ruby>仕入<rt>しい</rt></ruby>れに<ruby>来<rt>く</rt></ruby>る<ruby>場所<rt>ばしょ</rt></ruby>なので、<ruby>値引<rt>ねび</rt></ruby>きの<ruby>札<rt>ふだ</rt></ruby>は<ruby>出<rt>で</rt></ruby>ていません。それでも<ruby>国産<rt>こくさん</rt></ruby>の<ruby>道具<rt>どうぐ</rt></ruby>が<ruby>相場<rt>そうば</rt></ruby>より<ruby>安<rt>やす</rt></ruby>く<ruby>手<rt>て</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ります。<ruby>在庫<rt>ざいこ</rt></ruby>を<ruby>抱<rt>かか</rt></ruby>え<em class=\"g\">んがために</em><ruby>仕入<rt>しい</rt></ruby>れるのではなく、<ruby>売<rt>う</rt></ruby>れるものだけを<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>置<rt>お</rt></ruby>くのだと<ruby>店主<rt>てんしゅ</rt></ruby>が<ruby>言<rt>い</rt></ruby>っていました。<ruby>前売<rt>まえう</rt></ruby>りの<ruby>券<rt>けん</rt></ruby><em class=\"g\">もしくは</em><ruby>予約<rt>よやく</rt></ruby>がないと<ruby>買<rt>か</rt></ruby>えない<ruby>特産<rt>とくさん</rt></ruby><ruby>品<rt>ひん</rt></ruby>もあります。<ruby>名産<rt>めいさん</rt></ruby>として<ruby>有名<rt>ゆうめい</rt></ruby>になると、<ruby>流通<rt>りゅうつう</rt></ruby>が<ruby>追<rt>お</rt></ruby>いつかないのだそうです。<ruby>荷造<rt>にづく</rt></ruby>りをしている<ruby>奥<rt>おく</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>をのぞくと、<ruby>物資<rt>ぶっし</rt></ruby>が<ruby>天井<rt>てんじょう</rt></ruby>まで<ruby>積<rt>つ</rt></ruby>まれていました。<ruby>購入<rt>こうにゅう</rt></ruby>した<ruby>品<rt>しな</rt></ruby>に、たいてい<ruby>小<rt>ちい</rt></ruby>さなおまけが<ruby>付<rt>つ</rt></ruby>いてきます。<ruby>蓄積<rt>ちくせき</rt></ruby>された<ruby>付<rt>つ</rt></ruby>き<ruby>合<rt>あ</rt></ruby>いというのは、<ruby>値段<rt>ねだん</rt></ruby>の<ruby>表<rt>ひょう</rt></ruby>には<ruby>出<rt>で</rt></ruby>てこないものだと<ruby>思<rt>おも</rt></ruby>いました。",
+ "traduccion": "Detrás de la estación hay una calle donde se alinean los almacenes mayoristas. Como es donde vienen los comerciantes a abastecerse, no hay carteles de rebajas. Aun así, se consiguen utensilios de fabricación nacional por debajo del precio de mercado. El dueño me contó que no compran para acumular existencias, sino que van poniendo poco a poco solo lo que se vende. Hay productos de la zona que no se pueden comprar sin entrada anticipada o reserva. Al parecer, cuando algo se hace famoso, la distribución no da abasto. Al asomarme al cuarto del fondo, donde estaban empaquetando, la mercancía llegaba hasta el techo. Con lo que compras casi siempre te dan algún detalle de regalo. Pensé que el trato acumulado con los años es algo que no aparece en ninguna lista de precios.",
+ "preguntas": [
+  {
+   "p": "この<ruby>通<rt>とお</rt></ruby>りに<ruby>値引<rt>ねび</rt></ruby>きの<ruby>札<rt>ふだ</rt></ruby>が<ruby>出<rt>で</rt></ruby>ていないのは、なぜですか。",
+   "opciones": [
+    "<ruby>高<rt>たか</rt></ruby>い<ruby>店<rt>みせ</rt></ruby>だから",
+    "<ruby>業者<rt>ぎょうしゃ</rt></ruby>が<ruby>仕入<rt>しい</rt></ruby>れに<ruby>来<rt>く</rt></ruby>る<ruby>場所<rt>ばしょ</rt></ruby>だから",
+    "<ruby>品<rt>しな</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから",
+    "<ruby>客<rt>きゃく</rt></ruby>が<ruby>来<rt>こ</rt></ruby>ないから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>店主<rt>てんしゅ</rt></ruby>は<ruby>仕入<rt>しい</rt></ruby>れについて<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。",
+   "opciones": [
+    "<ruby>在庫<rt>ざいこ</rt></ruby>をたくさん<ruby>持<rt>も</rt></ruby>つ",
+    "<ruby>売<rt>う</rt></ruby>れるものだけを<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>置<rt>お</rt></ruby>く",
+    "<ruby>名産<rt>めいさん</rt></ruby>だけを<ruby>買<rt>か</rt></ruby>う",
+    "<ruby>予約<rt>よやく</rt></ruby>しかしない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

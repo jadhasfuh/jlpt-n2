@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/kurashi/dinero-2",
+ "titulo": "<ruby>収支<rt>しゅうし</rt></ruby>を<ruby>見<rt>み</rt></ruby>る<ruby>習慣<rt>しゅうかん</rt></ruby>",
+ "cuerpo": "<ruby>独立<rt>どくりつ</rt></ruby>してから、<ruby>月<rt>つき</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby><ruby>収支<rt>しゅうし</rt></ruby>をつける<ruby>習慣<rt>しゅうかん</rt></ruby>ができました。<ruby>所得<rt>しょとく</rt></ruby>と<ruby>出費<rt>しゅっぴ</rt></ruby>を<ruby>並<rt>なら</rt></ruby>べ、<ruby>残高<rt>ざんだか</rt></ruby>を<ruby>確<rt>たし</rt></ruby>かめるだけです。<ruby>固定<rt>こてい</rt></ruby>でかかる<ruby>分<rt>ぶん</rt></ruby>と、その<ruby>月<rt>つき</rt></ruby>だけの<ruby>実費<rt>じっぴ</rt></ruby>を<ruby>分<rt>わ</rt></ruby>けて<ruby>書<rt>か</rt></ruby>きます。<ruby>採算<rt>さいさん</rt></ruby>が<ruby>合<rt>あ</rt></ruby>わない<ruby>月<rt>つき</rt></ruby>も<ruby>当然<rt>とうぜん</rt></ruby>ありました。<ruby>損失<rt>そんしつ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ないふりをすると、<ruby>滞納<rt>たいのう</rt></ruby>になってから<ruby>気<rt>き</rt></ruby>づくことになります。<ruby>貯蓄<rt>ちょちく</rt></ruby><em class=\"g\">なり</em><ruby>資産<rt>しさん</rt></ruby>の<ruby>見直<rt>みなお</rt></ruby>し<em class=\"g\">なり</em>、<ruby>早<rt>はや</rt></ruby>めに<ruby>手<rt>て</rt></ruby>を<ruby>打<rt>う</rt></ruby>てば<ruby>選<rt>えら</rt></ruby>べる<ruby>道<rt>みち</rt></ruby>は<ruby>多<rt>おお</rt></ruby>いのです。<ruby>大金<rt>たいきん</rt></ruby>を<ruby>動<rt>うご</rt></ruby>かすわけではありません。<ruby>自分<rt>じぶん</rt></ruby><em class=\"g\">なりの</em><ruby>基準<rt>きじゅん</rt></ruby>で、<ruby>賃金<rt>ちんぎん</rt></ruby>の<ruby>何割<rt>なんわり</rt></ruby>までなら<ruby>使<rt>つか</rt></ruby>えるかを<ruby>決<rt>き</rt></ruby>めています。<ruby>私物<rt>しぶつ</rt></ruby>と<ruby>仕事<rt>しごと</rt></ruby>の<ruby>物<rt>もの</rt></ruby>を<ruby>混<rt>ま</rt></ruby>ぜないのも、そのころ<ruby>覚<rt>おぼ</rt></ruby>えたことです。<ruby>数字<rt>すうじ</rt></ruby>を<ruby>見<rt>み</rt></ruby>るのは<ruby>気<rt>き</rt></ruby>が<ruby>重<rt>おも</rt></ruby>い<ruby>作業<rt>さぎょう</rt></ruby>ですが、<ruby>送金<rt>そうきん</rt></ruby>の<ruby>記録<rt>きろく</rt></ruby>を<ruby>一行<rt>いちぎょう</rt></ruby>ずつ<ruby>追<rt>お</rt></ruby>っていると、この<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>大事<rt>だいじ</rt></ruby>にしたのかが<ruby>見<rt>み</rt></ruby>えてきます。",
+ "traduccion": "Desde que trabajo por mi cuenta cogí la costumbre de hacer cuentas una vez al mes. Solo pongo en fila ingresos y gastos y compruebo el saldo. Escribo por separado lo que es fijo y lo que es gasto real de ese mes. Claro que hubo meses en que no salían las cuentas. Si haces como que no ves las pérdidas, te enteras cuando ya has dejado de pagar algo. Sea revisando los ahorros o el patrimonio, si actúas pronto tienes muchos más caminos donde elegir. Tampoco es que mueva grandes cantidades. Con mi propio criterio decido qué porcentaje del sueldo puedo gastar. No mezclar lo personal con lo del trabajo también lo aprendí entonces. Mirar las cifras es una tarea que da pereza, pero siguiendo línea a línea el registro de las transferencias acaba viéndose qué me ha importado durante ese mes.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>月<rt>つき</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "<ruby>貯蓄<rt>ちょちく</rt></ruby>する",
+    "<ruby>収支<rt>しゅうし</rt></ruby>をつけて<ruby>残高<rt>ざんだか</rt></ruby>を<ruby>確<rt>たし</rt></ruby>かめる",
+    "<ruby>送金<rt>そうきん</rt></ruby>する",
+    "<ruby>資産<rt>しさん</rt></ruby>を<ruby>売<rt>う</rt></ruby>る"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>損失<rt>そんしつ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ないふりをすると、どうなりますか。",
+   "opciones": [
+    "すぐに<ruby>直<rt>なお</rt></ruby>る",
+    "<ruby>滞納<rt>たいのう</rt></ruby>になってから<ruby>気<rt>き</rt></ruby>づく",
+    "<ruby>採算<rt>さいさん</rt></ruby>が<ruby>合<rt>あ</rt></ruby>う",
+    "<ruby>貯蓄<rt>ちょちく</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>える"
+   ],
+   "correcta": 1
+  }
+ ]
+}
