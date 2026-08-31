@@ -1,0 +1,737 @@
+[
+ {
+  "id": "n4-bunpou1-0001",
+  "nivel": "N4",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "雨が降っている（　）、試合は中止になった。",
+  "opciones": [
+   "ので",
+   "のに",
+   "でも",
+   "ように"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "のには逆接",
+   "でもは逆接",
+   "ようには様態"
+  ],
+  "explicacion": {
+   "es": "〜ので da la causa. 〜のに sería «a pesar de que», que aquí no encaja.",
+   "en": "〜ので gives the cause. 〜のに would be 'even though', which doesn't fit here."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunpou1-0002",
+  "nivel": "N4",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "薬を飲んだ（　）、熱が下がらない。",
+  "opciones": [
+   "のに",
+   "ので",
+   "から",
+   "なら"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ので は理由",
+   "から も理由",
+   "なら は仮定"
+  ],
+  "explicacion": {
+   "es": "〜のに = «a pesar de que». Marca que el resultado esperado no llegó.",
+   "en": "〜のに = 'even though'. It marks that the expected result didn't happen."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunpou1-0003",
+  "nivel": "N4",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "母に部屋を（　）られた。",
+  "opciones": [
+   "片付け",
+   "片付く",
+   "片付いて",
+   "片付ける"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "自動詞",
+   "て形",
+   "辞書形"
+  ],
+  "explicacion": {
+   "es": "受身は ない形の語幹＋られる: 片付ける → 片付けられる.",
+   "en": "The passive uses the ない-stem + られる: 片付ける → 片付けられる."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunpou1-0004",
+  "nivel": "N4",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "日本語が話せる（　）なりました。",
+  "opciones": [
+   "ように",
+   "そうに",
+   "ことに",
+   "はずに"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "そうには様態",
+   "ことにはは決定",
+   "はずには使わない"
+  ],
+  "explicacion": {
+   "es": "〜ようになる = «llegar a poder». Va con la forma potencial delante.",
+   "en": "〜ようになる = 'to reach the point of being able to'. It follows the potential form."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunpou1-0005",
+  "nivel": "N4",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "時間が（　）ば、行きたいです。",
+  "opciones": [
+   "あれ",
+   "あり",
+   "ある",
+   "あって"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ます形",
+   "辞書形",
+   "て形"
+  ],
+  "explicacion": {
+   "es": "La forma condicional ば se hace con la base え: ある → あれば.",
+   "en": "The ば conditional uses the e-base: ある → あれば."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunpou1-0006",
+  "nivel": "N4",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "先生は今、教室に（　）ます。",
+  "opciones": [
+   "いらっしゃい",
+   "おり",
+   "まいり",
+   "いたし"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "おるは謙譲",
+   "まいるは謙譲",
+   "いたすは謙譲"
+  ],
+  "explicacion": {
+   "es": "Del profesor se habla en honorífico: いらっしゃる. おる y まいる son humildes, para uno mismo.",
+   "en": "You speak about the teacher in honorific: いらっしゃる. おる and まいる are humble, for yourself."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunpou1-0007",
+  "nivel": "N4",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "手伝って（　）ませんか。",
+  "opciones": [
+   "いただけ",
+   "さしあげ",
+   "申し上げ",
+   "おっしゃい"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "さしあげるは与える",
+   "申し上げるは言う",
+   "おっしゃるは言う"
+  ],
+  "explicacion": {
+   "es": "〜ていただけませんか es la petición cortés. Los otros tres no piden un favor.",
+   "en": "〜ていただけませんか is the polite request. The other three don't ask for a favour."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunpou1-0008",
+  "nivel": "N4",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "子どもに野菜を食べ（　）ました。",
+  "opciones": [
+   "させ",
+   "され",
+   "られ",
+   "させられ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "受身",
+   "受身",
+   "使役受身"
+  ],
+  "explicacion": {
+   "es": "使役: 食べる → 食べさせる («hacer que coma»). El sujeto es quien manda.",
+   "en": "Causative: 食べる → 食べさせる ('make someone eat'). The subject is the one directing."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunpou1-0009",
+  "nivel": "N4",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "明日は雨が降る（　）です。",
+  "opciones": [
+   "そう",
+   "よう",
+   "らしく",
+   "みたく"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ようは断定を避ける別形",
+   "らしくは連用形",
+   "みたくは口語で不適"
+  ],
+  "explicacion": {
+   "es": "〜そうです (con forma llana delante) = «he oído que». Aquí transmite el parte.",
+   "en": "〜そうです (after a plain form) = 'I hear that'. Here it reports the forecast."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunpou1-0010",
+  "nivel": "N4",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "父にカメラを買って（　）。",
+  "opciones": [
+   "もらった",
+   "あげた",
+   "くれた",
+   "やった"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "あげるは与える側",
+   "くれるは主語が父",
+   "やるは目下に与える"
+  ],
+  "explicacion": {
+   "es": "〜てもらう: yo recibo el favor. Con 父に, quien compra es el padre y yo recibo.",
+   "en": "〜てもらう: I receive the favour. With 父に, the father buys and I benefit."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunpou1-0011",
+  "nivel": "N4",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "駅に着いたら、電話して（　）。",
+  "opciones": [
+   "ください",
+   "いただく",
+   "さしあげる",
+   "まいる"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "いただくは受け手が自分",
+   "さしあげるは与える",
+   "まいるは移動"
+  ],
+  "explicacion": {
+   "es": "〜てください es la petición directa y cortés.",
+   "en": "〜てください is the direct, polite request."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunpou1-0012",
+  "nivel": "N4",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "漢字は覚え（　）が、忘れやすい。",
+  "opciones": [
+   "やすい",
+   "にくい",
+   "づらい",
+   "がたい"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "にくい は「難しい」で逆",
+   "づらい も「難しい」",
+   "がたい も「難しい」"
+  ],
+  "explicacion": {
+   "es": "El contraste con 忘れやすい pide 覚えやすい: «fácil de recordar, pero fácil de olvidar».",
+   "en": "The contrast with 忘れやすい calls for 覚えやすい: 'easy to learn but easy to forget'."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunpou2-0001",
+  "nivel": "N4",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "私は ＿＿ ＿★＿ ＿＿ ＿＿ 思います。",
+  "opciones": [
+   "が",
+   "日本語",
+   "難しい",
+   "と"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [],
+  "objetivo": "日本語 が 難しい と",
+  "explicacion": {
+   "es": "El orden es 日本語が難しいと思います. En el ★, segunda casilla, va 難しい.",
+   "en": "The order is 日本語が難しいと思います. 難しい goes in the ★, the second slot."
+  },
+  "etiquetas": [
+   "orden"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunpou2-0002",
+  "nivel": "N4",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "母に ＿＿ ＿★＿ ＿＿ ＿＿ もらいました。",
+  "opciones": [
+   "を",
+   "作って",
+   "料理",
+   "おいしい"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [],
+  "objetivo": "おいしい 料理 を 作って",
+  "explicacion": {
+   "es": "El orden es おいしい料理を作ってもらいました. En el ★ va 料理.",
+   "en": "The order is おいしい料理を作ってもらいました. 料理 goes in the ★."
+  },
+  "etiquetas": [
+   "orden"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunpou2-0003",
+  "nivel": "N4",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "雨が ＿＿ ＿★＿ ＿＿ ＿＿ 中止です。",
+  "opciones": [
+   "ば",
+   "降れ",
+   "試合は",
+   "明日の"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [],
+  "objetivo": "降れ ば 明日の 試合は",
+  "explicacion": {
+   "es": "El orden es 降れば明日の試合は中止です. En el ★ va 明日の.",
+   "en": "The order is 降れば明日の試合は中止です. 明日の goes in the ★."
+  },
+  "etiquetas": [
+   "orden"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunpou2-0004",
+  "nivel": "N4",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "先生に ＿＿ ＿★＿ ＿＿ ＿＿ いただきました。",
+  "opciones": [
+   "を",
+   "教えて",
+   "文法",
+   "難しい"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [],
+  "objetivo": "難しい 文法 を 教えて",
+  "explicacion": {
+   "es": "El orden es 難しい文法を教えていただきました. En el ★ va 文法.",
+   "en": "The order is 難しい文法を教えていただきました. 文法 goes in the ★."
+  },
+  "etiquetas": [
+   "orden"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-sokuji-0001",
+  "nivel": "N4",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "あのう、ちょっとよろしいでしょうか。",
+  "opciones": [
+   "はい、何でしょうか。",
+   "はい、よろしいです。",
+   "いいえ、けっこうです。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "相手の言葉をそのまま返している",
+   "断る場面ではない"
+  ],
+  "explicacion": {
+   "es": "Te están pidiendo un momento: se responde preguntando qué necesitan.",
+   "en": "They're asking for a moment: you answer by asking what they need."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "あのう、ちょっとよろしいでしょうか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-sokuji-0002",
+  "nivel": "N4",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "この資料、コピーしておきましょうか。",
+  "opciones": [
+   "ええ、お願いします。",
+   "ええ、しておきました。",
+   "いいえ、コピーです。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "申し出に過去形で答えている",
+   "意味が通らない"
+  ],
+  "explicacion": {
+   "es": "Es un ofrecimiento: se acepta con お願いします.",
+   "en": "It's an offer: you accept with お願いします."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "この資料、コピーしておきましょうか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-sokuji-0003",
+  "nivel": "N4",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "日本語がお上手ですね。",
+  "opciones": [
+   "いいえ、まだまだです。",
+   "はい、上手です。",
+   "そうですね、下手です。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "自分をほめている",
+   "不自然な同意"
+  ],
+  "explicacion": {
+   "es": "Ante un cumplido, lo natural en japonés es quitarse mérito con まだまだです.",
+   "en": "Faced with a compliment, the natural Japanese reply plays it down: まだまだです."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "日本語がお上手ですね。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-sokuji-0004",
+  "nivel": "N4",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "すみません、この席、空いていますか。",
+  "opciones": [
+   "ええ、どうぞ。",
+   "ええ、座りました。",
+   "いいえ、空です。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "過去形で答えている",
+   "「空」の意味が違う"
+  ],
+  "explicacion": {
+   "es": "Preguntan si está libre: se concede con どうぞ.",
+   "en": "They ask whether it's free: you grant it with どうぞ."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "すみません、この席、空いていますか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-sokuji-0005",
+  "nivel": "N4",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "明日の会議、何時からでしたっけ。",
+  "opciones": [
+   "たしか十時からです。",
+   "はい、会議です。",
+   "いいえ、明日です。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "時間を答えていない",
+   "時間を答えていない"
+  ],
+  "explicacion": {
+   "es": "〜でしたっけ pide que le confirmen un dato que no recuerda: la hora.",
+   "en": "〜でしたっけ asks you to confirm a detail they've forgotten: the time."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "明日の会議、何時からでしたっけ。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-sokuji-0006",
+  "nivel": "N4",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "先週の旅行、どうでしたか。",
+  "opciones": [
+   "とても楽しかったです。",
+   "はい、行きます。",
+   "来週の予定です。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "これから行く言い方",
+   "時期が違う"
+  ],
+  "explicacion": {
+   "es": "Preguntan por un viaje ya hecho: se contesta en pasado.",
+   "en": "They ask about a trip already taken: you answer in the past."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "先週の旅行、どうでしたか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-kadai-0001",
+  "nivel": "N4",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は これから 何を しますか。",
+  "opciones": [
+   "部屋を 片付ける",
+   "買い物に 行く",
+   "料理を 作る",
+   "友だちに 電話する"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "片付けるのは 買い物の あと",
+   "買い物は 人数が 決まってから",
+   "料理は 最後"
+  ],
+  "explicacion": {
+   "es": "No sabe cuántos vienen, así que primero llama para confirmar; la compra y lo demás van después.",
+   "en": "She doesn't know how many are coming, so first she calls to check; shopping and the rest come after."
+  },
+  "puntos": [
+   "何人 来るか まだ 分からない → hay que confirmar",
+   "人数が 分かってから 買い物 → la compra va después",
+   "まず 電話して → esto es lo inmediato"
+  ],
+  "guion": {
+   "intro": "男の人と 女の人が 話しています。女の人は これから 何を しますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "土曜日の パーティー、準備は できましたか。"
+    },
+    {
+     "quien": "F",
+     "texto": "いいえ、まだです。部屋も 片付けなければ なりませんし。"
+    },
+    {
+     "quien": "M",
+     "texto": "食べ物は?"
+    },
+    {
+     "quien": "F",
+     "texto": "それが、何人 来るか まだ 分からないんです。"
+    },
+    {
+     "quien": "M",
+     "texto": "じゃあ、人数が 分かってから 買い物に 行った ほうが いいですね。"
+    },
+    {
+     "quien": "F",
+     "texto": "ええ。まず 友だちに 電話して、聞いてみます。"
+    }
+   ],
+   "pregunta": "女の人は これから 何を しますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [
+   "課題理解"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-kadai-0002",
+  "nivel": "N4",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は 明日 何を 持って きますか。",
+  "opciones": [
+   "辞書と ノート",
+   "ノートと えんぴつ",
+   "辞書だけ",
+   "何も 持って こない"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "辞書は 教室に ある",
+   "辞書は 借りられる",
+   "ノートは 必要"
+  ],
+  "explicacion": {
+   "es": "El diccionario está en el aula, así que solo trae cuaderno y lápiz.",
+   "en": "The dictionary is in the classroom, so he only brings a notebook and a pencil."
+  },
+  "puntos": [
+   "辞書は 教室に ありますよ → no hace falta traerlo",
+   "ノートは 持って きて → sí",
+   "えんぴつも → sí"
+  ],
+  "guion": {
+   "intro": "女の先生と 男の学生が 話しています。男の人は 明日 何を 持って きますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "先生、明日の 授業に 辞書を 持って きましょうか。"
+    },
+    {
+     "quien": "F",
+     "texto": "辞書は 教室に ありますよ。使って ください。"
+    },
+    {
+     "quien": "M",
+     "texto": "そうですか。じゃあ、ノートだけで いいですか。"
+    },
+    {
+     "quien": "F",
+     "texto": "ええ。あ、書く 練習を しますから、えんぴつも お願いします。"
+    },
+    {
+     "quien": "M",
+     "texto": "分かりました。"
+    }
+   ],
+   "pregunta": "男の人は 明日 何を 持って きますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [
+   "課題理解",
+   "学校"
+  ],
+  "dificultad": 2
+ }
+]

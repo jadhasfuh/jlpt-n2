@@ -1,0 +1,627 @@
+[
+ {
+  "id": "n4-kanji_yomi-0001",
+  "nivel": "N4",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "来週から新しい仕事が始まります。",
+  "opciones": [
+   "しごと",
+   "しこと",
+   "じごと",
+   "しごど"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "連濁なし",
+   "清音を濁音にした",
+   "最後を濁音にした"
+  ],
+  "explicacion": {
+   "es": "仕事（しごと）. 事 se sonoriza a ごと tras 仕: es el 連濁.",
+   "en": "仕事 (shigoto). 事 voices to ごと after 仕 — that's rendaku."
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n4-kanji_yomi-0002",
+  "nivel": "N4",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "駅前の交番で道を聞いた。",
+  "opciones": [
+   "こうばん",
+   "こうはん",
+   "ごうばん",
+   "こばん"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "連濁なし",
+   "清音を濁音にした",
+   "長音を落とした"
+  ],
+  "explicacion": {
+   "es": "交番（こうばん）. 番 se sonoriza a ばん y 交 lleva vocal larga.",
+   "en": "交番 (kōban). 番 voices to ばん and 交 has a long vowel."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-kanji_yomi-0003",
+  "nivel": "N4",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼は毎日、日記をつけている。",
+  "opciones": [
+   "にっき",
+   "にちき",
+   "にっけ",
+   "じっき"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "促音にしない",
+   "記をけと読んだ",
+   "日をじつと読んだ"
+  ],
+  "explicacion": {
+   "es": "日記（にっき）. 日 se acorta a にっ ante 記.",
+   "en": "日記 (nikki). 日 shortens to にっ before 記."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-kanji_yomi-0004",
+  "nivel": "N4",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この道具は使いやすい。",
+  "opciones": [
+   "どうぐ",
+   "どうく",
+   "とうぐ",
+   "どぐ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "連濁なし",
+   "清音にした",
+   "長音を落とした"
+  ],
+  "explicacion": {
+   "es": "道具（どうぐ）. 具 se sonoriza a ぐ y 道 lleva vocal larga.",
+   "en": "道具 (dōgu). 具 voices to ぐ and 道 has a long vowel."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-kanji_yomi-0005",
+  "nivel": "N4",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "会場は駅から近い。",
+  "opciones": [
+   "かいじょう",
+   "かいしょう",
+   "かいじょ",
+   "がいじょう"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "連濁なし",
+   "長音を落とした",
+   "清音を濁音にした"
+  ],
+  "explicacion": {
+   "es": "会場（かいじょう）. 場 se sonoriza a じょう tras 会.",
+   "en": "会場 (kaijō). 場 voices to じょう after 会."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-kanji_yomi-0006",
+  "nivel": "N4",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼女は教える経験がある。",
+  "opciones": [
+   "けいけん",
+   "けいげん",
+   "きょうけん",
+   "けいけ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "験を濁音にした",
+   "経をきょうと読んだ",
+   "長音を落とした"
+  ],
+  "explicacion": {
+   "es": "経験（けいけん）. 経 es けい (no きょう, que sería 経文) y 験 けん.",
+   "en": "経験 (keiken). 経 is けい (not きょう) and 験 is けん."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-kanji_yomi-0007",
+  "nivel": "N4",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この規則は守らなければならない。",
+  "opciones": [
+   "きそく",
+   "ぎそく",
+   "きぞく",
+   "きそっく"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "清音を濁音にした",
+   "則を濁音にした",
+   "促音を入れた"
+  ],
+  "explicacion": {
+   "es": "規則（きそく）. Ni 規 ni 則 se sonorizan aquí.",
+   "en": "規則 (kisoku). Neither 規 nor 則 voices here."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-hyouki-0001",
+  "nivel": "N4",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この店はやさいがしんせんだ。",
+  "opciones": [
+   "新鮮",
+   "新選",
+   "親鮮",
+   "親選"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "鮮と選の混同",
+   "新と親の混同",
+   "両方"
+  ],
+  "explicacion": {
+   "es": "新鮮 = fresco. 親 (padres, íntimo) y 選 (elegir) se parecen pero son otros.",
+   "en": "新鮮 = fresh. 親 (parent, close) and 選 (choose) look similar but are different."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-hyouki-0002",
+  "nivel": "N4",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "かいぎは三時からです。",
+  "opciones": [
+   "会議",
+   "会義",
+   "開議",
+   "開義"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "議と義の混同",
+   "会と開の混同",
+   "両方"
+  ],
+  "explicacion": {
+   "es": "会議 = reunión. 議 (deliberar) no 義 (justicia); 会 (reunirse) no 開 (abrir).",
+   "en": "会議 = meeting. 議 (deliberate) not 義 (justice); 会 (meet) not 開 (open)."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-hyouki-0003",
+  "nivel": "N4",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "あの人はとてもしんせつだ。",
+  "opciones": [
+   "親切",
+   "新切",
+   "親功",
+   "身切"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "親と新の混同",
+   "切と功の混同",
+   "親と身の混同"
+  ],
+  "explicacion": {
+   "es": "親切 = amable. Lleva 親, el mismo de 親しい (íntimo).",
+   "en": "親切 = kind. It uses 親, the same as in 親しい (close)."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-hyouki-0004",
+  "nivel": "N4",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "ちずを見て場所をたしかめた。",
+  "opciones": [
+   "場所",
+   "揚所",
+   "場処",
+   "湯所"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "場と揚の混同",
+   "所と処の混同",
+   "場と湯の混同"
+  ],
+  "explicacion": {
+   "es": "場所 = lugar. 揚 (freír) y 湯 (agua caliente) comparten forma con 場.",
+   "en": "場所 = place. 揚 (to fry) and 湯 (hot water) share their shape with 場."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-hyouki-0005",
+  "nivel": "N4",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "じしんのときは、あわてないでください。",
+  "opciones": [
+   "地震",
+   "地振",
+   "池震",
+   "治震"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "震と振の混同",
+   "地と池の混同",
+   "地と治の混同"
+  ],
+  "explicacion": {
+   "es": "地震 = terremoto. 震 (temblar) no 振 (agitar); 地 (tierra) no 池 (estanque).",
+   "en": "地震 = earthquake. 震 (to quake) not 振 (to shake); 地 (earth) not 池 (pond)."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunmyaku-0001",
+  "nivel": "N4",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この字は小さくて（　）にくいです。",
+  "opciones": [
+   "読み",
+   "書き",
+   "話し",
+   "聞き"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "字を書くのは別の話",
+   "字は話さない",
+   "字は聞かない"
+  ],
+  "explicacion": {
+   "es": "字が小さい → 読みにくい. Lo que cuesta con una letra pequeña es leerla.",
+   "en": "Small letters are hard to read. 書く/話す/聞く don't fit a written character."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunmyaku-0002",
+  "nivel": "N4",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "かぜをひいたので、会社を（　）ました。",
+  "opciones": [
+   "休み",
+   "終わり",
+   "始め",
+   "続け"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "終わるのは仕事のほう",
+   "始めるのは逆",
+   "続けるのは逆"
+  ],
+  "explicacion": {
+   "es": "会社を休む = faltar al trabajo. Es la colocación fija con 休む.",
+   "en": "会社を休む = to take the day off work. It's the fixed collocation with 休む."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunmyaku-0003",
+  "nivel": "N4",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "電車が（　）ので、会議に遅れました。",
+  "opciones": [
+   "遅れた",
+   "急いだ",
+   "乗った",
+   "降りた"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "急ぐのは人",
+   "乗るのは人",
+   "降りるのは人"
+  ],
+  "explicacion": {
+   "es": "El tren se retrasa: 電車が遅れる. 乗る y 降りる los hace la persona, no el tren.",
+   "en": "The train is delayed: 電車が遅れる. 乗る and 降りる are done by people, not trains."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunmyaku-0004",
+  "nivel": "N4",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "このボタンを（　）と、ドアが開きます。",
+  "opciones": [
+   "押す",
+   "引く",
+   "切る",
+   "投げる"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ボタンは引かない",
+   "共起しない",
+   "共起しない"
+  ],
+  "explicacion": {
+   "es": "ボタンを押す = pulsar el botón. 引く sería tirar de algo.",
+   "en": "ボタンを押す = to press the button. 引く would be to pull."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunmyaku-0005",
+  "nivel": "N4",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "レポートの（　）は来週の金曜日です。",
+  "opciones": [
+   "締め切り",
+   "入り口",
+   "出発",
+   "予約"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "場所の話",
+   "移動の話",
+   "場所を取る話"
+  ],
+  "explicacion": {
+   "es": "締め切り = fecha límite. Los otros tres no se combinan con レポート así.",
+   "en": "締め切り = deadline. The other three don't combine with レポート this way."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunmyaku-0006",
+  "nivel": "N4",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "部屋が暗いので、電気を（　）ください。",
+  "opciones": [
+   "つけて",
+   "消して",
+   "閉めて",
+   "洗って"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対の動作",
+   "窓や戸に使う",
+   "共起しない"
+  ],
+  "explicacion": {
+   "es": "暗い → 電気をつける. 消す sería apagarla, lo contrario.",
+   "en": "It's dark → turn the light on. 消す would be to turn it off."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-iikae-0001",
+  "nivel": "N4",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この問題はやさしいです。",
+  "opciones": [
+   "簡単です",
+   "複雑です",
+   "大切です",
+   "有名です"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対の意味",
+   "別の性質",
+   "別の性質"
+  ],
+  "explicacion": {
+   "es": "やさしい (fácil) = 簡単. 複雑 (complicado) es lo contrario.",
+   "en": "やさしい (easy) = 簡単. 複雑 (complex) is the opposite."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-iikae-0002",
+  "nivel": "N4",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼はたいてい七時に起きます。",
+  "opciones": [
+   "ほとんどいつも",
+   "たまに",
+   "決して",
+   "少しも"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "頻度が逆",
+   "否定と使う",
+   "否定と使う"
+  ],
+  "explicacion": {
+   "es": "たいてい = casi siempre. たまに sería de vez en cuando.",
+   "en": "たいてい = usually, almost always. たまに would be occasionally."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-iikae-0003",
+  "nivel": "N4",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この店はいつも客でいっぱいだ。",
+  "opciones": [
+   "とても混んでいる",
+   "すいている",
+   "閉まっている",
+   "静かだ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対の意味",
+   "営業の話",
+   "音の話"
+  ],
+  "explicacion": {
+   "es": "客でいっぱい = está a rebosar. すいている sería justo lo contrario.",
+   "en": "客でいっぱい = packed with customers. すいている is the exact opposite."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-iikae-0004",
+  "nivel": "N4",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼の説明ははっきりしていた。",
+  "opciones": [
+   "よく分かった",
+   "分かりにくかった",
+   "長かった",
+   "短かった"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対の意味",
+   "長さの話",
+   "長さの話"
+  ],
+  "explicacion": {
+   "es": "はっきりしている = claro, se entiende. Los otros dos hablan de la extensión.",
+   "en": "はっきりしている = clear, understandable. The other two are about length."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-youhou-0001",
+  "nivel": "N4",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "慣れる",
+  "opciones": [
+   "新しい仕事にもだいぶ慣れてきた。",
+   "この道具は使うと慣れてしまう。",
+   "彼は毎朝、水を慣れて飲む。",
+   "部屋が暗いので電気を慣れた。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "物は慣れない",
+   "共起不可能",
+   "共起不可能"
+  ],
+  "explicacion": {
+   "es": "慣れる = acostumbrarse (una persona a algo). No lo hacen los objetos.",
+   "en": "慣れる = to get used to (a person to something). Objects don't do it."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-youhou-0002",
+  "nivel": "N4",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "届ける",
+  "opciones": [
+   "駅で友だちを届けた。",
+   "落とし物を交番に届けた。",
+   "この本は面白くて届けた。",
+   "朝ごはんを届けて食べた。"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "1は迎える",
+   "3は共起不可能",
+   "4は共起不可能"
+  ],
+  "explicacion": {
+   "es": "届ける = llevar o entregar algo a un sitio o a alguien. Con personas sería 迎える.",
+   "en": "届ける = to deliver something somewhere. With people you'd use 迎える."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-youhou-0003",
+  "nivel": "N4",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "そろそろ",
+  "opciones": [
+   "そろそろ出かけましょうか。",
+   "彼はそろそろ走って行った。",
+   "この料理はそろそろおいしい。",
+   "そろそろ三年前のことです。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "速度の副詞ではない",
+   "味には使わない",
+   "過去の時点には使わない"
+  ],
+  "explicacion": {
+   "es": "そろそろ = ya casi es hora de. Marca que se acerca el momento de hacer algo.",
+   "en": "そろそろ = it's about time to. It marks that the moment to act is near."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ }
+]
