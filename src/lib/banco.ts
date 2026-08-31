@@ -1,5 +1,5 @@
 import "server-only";
-import { supabaseServidor } from "./supabase";
+import { supabaseServidor } from "./supabase-servidor";
 import { armarReparto, SECCION_DE, type Ajuste, type Item, type TipoItem } from "./examen";
 
 function mezclar<T>(a: T[]): T[] {

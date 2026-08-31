@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { Palabra } from "@/lib/tipos";
 import { anotar, estadoItem, leerProgreso, paraRepasar } from "@/lib/progreso";
-import { BotonFurigana } from "./Ajustes";
+import { BotonFurigana, useAjustes } from "./Ajustes";
 import { Jp, BotonVoz } from "./Jp";
 import { IcCerrar, IcCronometro, IcDerecha } from "./Iconos";
 
@@ -15,6 +15,7 @@ const MINUTOS = 5;
  * que está a medio aprender.
  */
 export function SesionRapida() {
+  const { t } = useAjustes();
   const [cola, setCola] = useState<Palabra[]>([]);
   const [cargando, setCargando] = useState(true);
   const [i, setI] = useState(0);
@@ -51,15 +52,15 @@ export function SesionRapida() {
   const ss = String(restante % 60).padStart(2, "0");
   const terminado = restante === 0 || i >= cola.length;
 
-  if (cargando) return <p className="silencio" style={{ marginTop: 48 }}>Cargando…</p>;
+  if (cargando) return <p className="silencio" style={{ marginTop: 48 }}>{t("com.cargando")}</p>;
 
   if (!cola.length) {
     return (
       <div className="tarjeta" style={{ marginTop: 48, textAlign: "center", padding: 40 }}>
         <div style={{ fontSize: 34 }}>🌱</div>
-        <p style={{ fontSize: 17 }}>Todavía no hay nada que repasar.</p>
-        <p className="silencio">Haz una unidad y esto se llena solo.</p>
-        <Link className="btn primario" href="/">Ir al curso</Link>
+        <p style={{ fontSize: 17 }}>{t("rap.nada")}</p>
+        <p className="silencio">{t("rap.seLlena")}</p>
+        <Link className="btn primario" href="/">{t("rep.irAlCurso")}</Link>
       </div>
     );
   }
@@ -68,7 +69,7 @@ export function SesionRapida() {
     return (
       <div className="tarjeta" style={{ marginTop: 48, textAlign: "center", padding: 40 }}>
         <span className="disco" style={{ width: 56, height: 56 }}><IcCronometro size={24} /></span>
-        <h1 style={{ fontSize: 24, margin: "8px 0 4px" }}>Cinco minutos</h1>
+        <h1 style={{ fontSize: 24, margin: "8px 0 4px" }}>{t("inicio.cincoMin")}</h1>
         <p className="silencio">
           Repaso corto con lo que tienes más flojo. Para solo cuando se acabe el tiempo.
         </p>
@@ -90,7 +91,7 @@ export function SesionRapida() {
         </p>
         <div style={{ display: "flex", gap: 10, justifyContent: "center", marginTop: 16, flexWrap: "wrap" }}>
           <Link className="btn" href="/">Volver</Link>
-          <Link className="btn primario" href="/repaso">Seguir repasando</Link>
+          <Link className="btn primario" href="/repaso">{t("rap.seguir")}</Link>
         </div>
       </div>
     );

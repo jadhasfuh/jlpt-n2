@@ -2,7 +2,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { Kanji } from "@/lib/tipos";
 import { anotar, registrarTest } from "@/lib/progreso";
-import { BotonFurigana } from "./Ajustes";
+import { BotonFurigana, useAjustes } from "./Ajustes";
 import { IcCerrar, IcDerecha } from "./Iconos";
 
 const SEGUNDOS = 3;
@@ -30,6 +30,7 @@ const lecturas = (k: Kanji) => [...k.on, ...k.kun].map(limpiar).filter(Boolean);
 export function TestKanji({ kanji, titulo, cerrar }: {
   kanji: Kanji[]; titulo: string; cerrar: () => void;
 }) {
+  const { t } = useAjustes();
   const preguntas = useMemo(() => {
     const utiles = kanji.filter((k) => (k.es || k.en.join(", ")).trim());
     const conLectura = utiles.filter((k) => lecturas(k).length);
@@ -74,8 +75,8 @@ export function TestKanji({ kanji, titulo, cerrar }: {
   if (!preguntas.length) {
     return (
       <div className="escena">
-        <div className="escena-cabeza"><button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button></div>
-        <div className="escena-centro"><p>No hay kanji suficientes para un test.</p></div>
+        <div className="escena-cabeza"><button className="icono-btn" onClick={cerrar} aria-label={t("com.cerrar")}><IcCerrar size={16} /></button></div>
+        <div className="escena-centro"><p>{t("kan.sinTest")}</p></div>
       </div>
     );
   }
@@ -85,7 +86,7 @@ export function TestKanji({ kanji, titulo, cerrar }: {
     if (!guardado) { registrarTest(`kanji:${titulo}`, pct); setGuardado(true); }
     return (
       <div className="escena">
-        <div className="escena-cabeza"><button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button></div>
+        <div className="escena-cabeza"><button className="icono-btn" onClick={cerrar} aria-label={t("com.cerrar")}><IcCerrar size={16} /></button></div>
         <div className="escena-centro">
           <span className="jp" style={{ fontSize: 34, fontWeight: 500, color: "var(--acento)" }}>
             {pct >= 70 ? "合格" : "再挑戦"}
@@ -94,7 +95,7 @@ export function TestKanji({ kanji, titulo, cerrar }: {
           <p className="silencio" style={{ margin: 0 }}>
             {puntos} de {preguntas.length} puntos · medio por el significado, medio por la lectura
           </p>
-          <button className="btn primario" style={{ marginTop: 14 }} onClick={cerrar}>Volver</button>
+          <button className="btn primario" style={{ marginTop: 14 }} onClick={cerrar}>{t("com.volver")}</button>
         </div>
       </div>
     );
@@ -129,7 +130,7 @@ export function TestKanji({ kanji, titulo, cerrar }: {
   return (
     <div className="escena">
       <div className="escena-cabeza">
-        <button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button>
+        <button className="icono-btn" onClick={cerrar} aria-label={t("com.cerrar")}><IcCerrar size={16} /></button>
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(n / preguntas.length) * 100}%` }} />
         </div>

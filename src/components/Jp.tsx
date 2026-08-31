@@ -105,14 +105,14 @@ export function BotonVoz({ texto, etiqueta }: { texto: string; etiqueta?: string
 
 /** Leyenda de colores: qué nivel es cada uno. */
 export function Leyenda() {
-  const { colores } = useAjustes();
+  const { colores, t } = useAjustes();
   if (!colores) return null;
   return (
     <div className="leyenda">
       {(["N5", "N4", "N3", "N2", "N1"] as const).map((n) => (
         <span key={n} className={`k ${n.toLowerCase()}`}>{n}</span>
       ))}
-      <span className="tenue" style={{ fontWeight: 400 }}>nivel de cada kanji</span>
+      <span className="tenue" style={{ fontWeight: 400 }}>{t("aj.nivelKanji")}</span>
     </div>
   );
 }

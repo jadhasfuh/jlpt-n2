@@ -7,7 +7,7 @@ import gramaticaJson from "../../data/dist/gramatica.json";
 import unidadesJson from "../../data/dist/unidades.json";
 import cursoJson from "../../data/dist/curso.json";
 import kanjiJson from "../../data/dist/kanji.json";
-import { supabaseServidor } from "./supabase";
+import { supabaseServidor } from "./supabase-servidor";
 
 const VOCABULARIO = vocabularioJson as Palabra[];
 const GRAMATICA = gramaticaJson as Gramatica[];

@@ -476,6 +476,19 @@ em.g.n3 { border-color: color-mix(in srgb, var(--n3) 60%, transparent); }
 .filtros { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 8px; }
 .filtros > * { flex: 0 0 auto; }
 
+/* el «?» que explica la instrucción del examen */
+.ayuda-btn {
+  flex: none; width: 20px; height: 20px; border-radius: 50%;
+  border: 1px solid var(--linea); color: var(--tinta-3);
+  font-size: 11px; font-weight: 600; line-height: 1;
+  display: inline-grid; place-items: center;
+  transition: background .14s ease-out, color .14s ease-out, border-color .14s ease-out;
+}
+.ayuda-btn:hover {
+  background: color-mix(in srgb, var(--acento) 12%, transparent);
+  border-color: var(--acento); color: var(--acento);
+}
+
 /* ------------------------- escritorio (1i) ------------------------- */
 .lateral { display: none; }
 @media (min-width: 900px) {

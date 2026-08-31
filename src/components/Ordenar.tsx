@@ -68,7 +68,7 @@ export function Ordenar({ frases, traduccion }: { frases: string[]; traduccion: 
   const [banco, setBanco] = useState<number[]>(() => mezclar(correcta.map((_, i) => i)));
   const [puestas, setPuestas] = useState<number[]>([]);
   const [revisado, setRevisado] = useState<null | boolean>(null);
-  const { furigana, colores } = useAjustes();
+  const { furigana, colores, t } = useAjustes();
 
   const reiniciar = (indice: number) => {
     const t = trocear(frases[indice] ?? "");
@@ -80,7 +80,7 @@ export function Ordenar({ frases, traduccion }: { frases: string[]; traduccion: 
 
   if (!frases.length) return null;
   if (correcta.length < 3) {
-    return <p className="silencio">Esta frase es demasiado corta para ordenarla.</p>;
+    return <p className="silencio">{t("ord.corta")}</p>;
   }
 
   const clase = `jp ${furigana ? "" : "sin-furigana"} ${colores ? "" : "sin-colores"}`;
@@ -101,7 +101,7 @@ export function Ordenar({ frases, traduccion }: { frases: string[]; traduccion: 
       <p className="etiqueta">Ordena la frase · {n + 1} de {frases.length}</p>
       {pista
         ? <p className="silencio" style={{ marginTop: 4 }}>{pista}</p>
-        : <p className="tenue" style={{ marginTop: 4 }}>Reconstruye la frase con las fichas.</p>}
+        : <p className="tenue" style={{ marginTop: 4 }}>{t("ord.recons")}</p>}
 
       <div style={{
         minHeight: 64, border: "1px dashed var(--linea)", borderRadius: 12,
@@ -109,7 +109,7 @@ export function Ordenar({ frases, traduccion }: { frases: string[]; traduccion: 
         background: revisado === true ? "color-mix(in srgb, var(--acento) 10%, transparent)"
                     : revisado === false ? "color-mix(in srgb, var(--rojo) 10%, transparent)" : undefined,
       }}>
-        {puestas.length === 0 && <span className="tenue">Toca las fichas de abajo…</span>}
+        {puestas.length === 0 && <span className="tenue">{t("ord.toca")}</span>}
         {puestas.map((i) => (
           <button key={i} className="btn chico" onClick={() => quitar(i)}>
             <span className={clase} dangerouslySetInnerHTML={{ __html: colorearHtml(correcta[i]) }} />
@@ -133,11 +133,11 @@ export function Ordenar({ frases, traduccion }: { frases: string[]; traduccion: 
         ) : (
           <>
             <span className="btn" style={{ pointerEvents: "none" }}>
-              {revisado ? <><IcBien size={14} /> correcto</> : <><IcCerrar size={14} /> no era ese orden</>}
+              {revisado ? <><IcBien size={14} /> {t("ord.correcto")}</> : <><IcCerrar size={14} /> {t("ord.noEraAsi")}</>}
             </span>
-            <button className="btn" onClick={() => reiniciar(n)}>Otra vez</button>
+            <button className="btn" onClick={() => reiniciar(n)}>{t("ord.otraVez")}</button>
             {n < frases.length - 1 && (
-              <button className="btn primario" onClick={() => reiniciar(n + 1)}>Siguiente frase</button>
+              <button className="btn primario" onClick={() => reiniciar(n + 1)}>{t("ord.siguiente")}</button>
             )}
           </>
         )}

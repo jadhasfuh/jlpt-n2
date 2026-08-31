@@ -4,17 +4,29 @@ import type { Gramatica } from "@/lib/tipos";
 import { Jp } from "./Jp";
 import { useAjustes } from "./Ajustes";
 
-const CAT: Record<string, string> = {
-  conectores: "Conectores", tiempo: "Tiempo y secuencia", grado: "Grado e intensidad",
-  adicion: "Adición y enumeración", contraste: "Contraste y concesión", causa: "Causa y razón",
-  condicion: "Condición", grado_limite: "Alcance y límite", comparacion: "Comparación",
-  modo: "Modo y manera", estado_cambio: "Estado y cambio", relacion: "Relación y correspondencia",
-  punto_vista: "Punto de vista", obligacion: "Obligación y prohibición", posibilidad: "Posibilidad",
-  modal: "Juicio y suposición", enfasis: "Énfasis", resultado: "Resultado", estilo: "Registro y estilo",
+const CAT: Record<string, { es: string; en: string }> = {
+  conectores:   { es: "Conectores",                 en: "Connectors" },
+  tiempo:       { es: "Tiempo y secuencia",         en: "Time and sequence" },
+  grado:        { es: "Grado e intensidad",         en: "Degree and intensity" },
+  adicion:      { es: "Adición y enumeración",      en: "Addition and listing" },
+  contraste:    { es: "Contraste y concesión",      en: "Contrast and concession" },
+  causa:        { es: "Causa y razón",              en: "Cause and reason" },
+  condicion:    { es: "Condición",                  en: "Condition" },
+  grado_limite: { es: "Alcance y límite",           en: "Scope and limit" },
+  comparacion:  { es: "Comparación",                en: "Comparison" },
+  modo:         { es: "Modo y manera",              en: "Means and manner" },
+  estado_cambio:{ es: "Estado y cambio",            en: "State and change" },
+  relacion:     { es: "Relación y correspondencia", en: "Relation and correspondence" },
+  punto_vista:  { es: "Punto de vista",             en: "Point of view" },
+  obligacion:   { es: "Obligación y prohibición",   en: "Obligation and prohibition" },
+  posibilidad:  { es: "Posibilidad",                en: "Possibility" },
+  modal:        { es: "Juicio y suposición",        en: "Judgement and supposition" },
+  enfasis:      { es: "Énfasis",                    en: "Emphasis" },
+  resultado:    { es: "Resultado",                  en: "Result" },
+  estilo:       { es: "Registro y estilo",          en: "Register and style" },
 };
-
 export function PanelGramatica({ items, agrupar = false }: { items: Gramatica[]; agrupar?: boolean }) {
-  const { significado } = useAjustes();
+  const { significado, idioma } = useAjustes();
   const [abierto, setAbierto] = useState<Record<string, boolean>>({});
 
   const grupos = agrupar
@@ -27,7 +39,7 @@ export function PanelGramatica({ items, agrupar = false }: { items: Gramatica[];
     <div style={{ marginBottom: 14 }}>
       {grupos.map(([cat, lista]) => (
         <div key={cat}>
-          {cat && <p className="etiqueta" style={{ margin: "16px 0 6px" }}>{CAT[cat] ?? cat}</p>}
+          {cat && <p className="etiqueta" style={{ margin: "16px 0 6px" }}>{CAT[cat]?.[idioma] ?? cat}</p>}
           <div className="tarjeta" style={{ padding: "4px 14px" }}>
             <table className="tabla-vocab">
               <tbody>

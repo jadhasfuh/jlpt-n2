@@ -1,4 +1,5 @@
 "use client";
+import { useAjustes } from "./Ajustes";
 import { useEffect, useState } from "react";
 import type { Lectura } from "@/lib/tipos";
 import { JpHtml, JpEnLinea, BotonVoz } from "./Jp";
@@ -10,6 +11,7 @@ import { IcDerecha, IcEscucha, IcIzquierda, IcParar, IcPausa, IcReproducir } fro
 function LectorCiego({ texto, frase, setFrase }: {
   texto: string; frase: number; setFrase: (n: number) => void;
 }) {
+  const { t } = useAjustes();
   const frases = enFrases(texto);
   const [estado, setEstado] = useState<"parado" | "sonando" | "pausado">("parado");
 
@@ -29,7 +31,7 @@ function LectorCiego({ texto, frase, setFrase }: {
     <div style={{ textAlign: "center", padding: "26px 0 10px" }}>
       <button
         onClick={botonGrande}
-        aria-label={estado === "sonando" ? "Pausar" : "Reproducir"}
+        aria-label={estado === "sonando" ? t("com.pausar") : t("com.reproducir")}
         style={{
           width: 112, height: 112, borderRadius: "50%", display: "grid", placeItems: "center",
           border: "1px solid var(--acento)", color: "var(--acento)",
@@ -43,16 +45,16 @@ function LectorCiego({ texto, frase, setFrase }: {
         <div>
           <button className="btn fantasma"
                   onClick={() => { callar(); setEstado("parado"); }}>
-            <IcParar size={14} weight="fill" /> detener
+            <IcParar size={14} weight="fill" /> {t("com.detener")}
           </button>
         </div>
       )}
       <p className="tenue" style={{ marginBottom: 6 }}>
-        frase {frase + 1} de {frases.length}
+        {t("lec.frase", { i: frase + 1, n: frases.length })}
       </p>
       <div style={{ display: "flex", gap: 8, justifyContent: "center", flexWrap: "wrap" }}>
         <button className="btn chico" disabled={frase === 0} onClick={() => reproducir(frase - 1)}>
-          <IcIzquierda size={13} /> anterior
+          <IcIzquierda size={13} /> {t("lec.anterior")}
         </button>
         <button className="btn chico"
                 onClick={() => { setEstado("sonando"); decir(frases[frase], { rate: 0.55, alTerminar: () => setEstado("parado") }); }}>
@@ -60,12 +62,12 @@ function LectorCiego({ texto, frase, setFrase }: {
         </button>
         <button className="btn chico" disabled={frase >= frases.length - 1}
                 onClick={() => reproducir(frase + 1)}>
-          siguiente <IcDerecha size={13} />
+          {t("lec.siguiente")} <IcDerecha size={13} />
         </button>
       </div>
       <button className="btn chico" style={{ marginTop: 10 }}
               onClick={() => { setEstado("sonando"); decir(frases.join(""), { alTerminar: () => setEstado("parado") }); }}>
-        escuchar todo seguido
+        {t("lec.todoSeguido")}
       </button>
     </div>
   );
@@ -74,6 +76,7 @@ function LectorCiego({ texto, frase, setFrase }: {
 export function LecturaUnidad({ unidadId, onEncontrada }: {
   unidadId: string; onEncontrada?: (hay: boolean) => void;
 }) {
+  const { t } = useAjustes();
   const [l, setL] = useState<Lectura | null>(null);
   const [cargando, setCargando] = useState(true);
   const [traducir, setTraducir] = useState(false);
@@ -98,7 +101,7 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
   if (!l) {
     return (
       <div className="tarjeta">
-        <p style={{ margin: 0 }}>Esta unidad todavía no tiene lectura.</p>
+        <p style={{ margin: 0 }}>{t("lec.sinLectura")}</p>
         <p className="tenue" style={{ marginBottom: 0 }}>
           Las lecturas se escriben por tandas y usan sólo el vocabulario y la gramática
           que ya viste hasta aquí.
@@ -120,11 +123,11 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
         <div style={{ display: "flex", gap: 8, marginTop: 10, flexWrap: "wrap" }}>
           <button className={`btn chico ${ciega ? "encendido" : ""}`}
                   onClick={() => { callar(); setCiega(!ciega); setFrase(0); }}>
-            <IcEscucha size={15} /> {ciega ? "Ver el texto" : "Escuchar sin leer"}
+            <IcEscucha size={15} /> {ciega ? t("lec.verTexto") : t("lec.sinLeer")}
           </button>
           {!ciega && (
             <button className="btn chico" onClick={() => setTraducir(!traducir)}>
-              {traducir ? "Ocultar" : "Ver"} traducción
+              {traducir ? t("lec.ocultarTrad") : t("lec.verTrad")}
             </button>
           )}
         </div>
@@ -141,7 +144,7 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
 
       {l.preguntas?.length ? (
         <div className="tarjeta" style={{ marginTop: 12 }}>
-          <p className="etiqueta">Comprensión</p>
+          <p className="etiqueta">{t("lec.comprension")}</p>
           {l.preguntas.map((q, i) => (
             <div key={i} style={{ marginTop: 12 }}>
               <div style={{ fontSize: 17 }}><JpEnLinea html={q.p} /></div>

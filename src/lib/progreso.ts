@@ -288,3 +288,75 @@ export function masFlojas(p: Progreso, cuantas = 3): { id: number; fallos: numbe
 export function vivas(p: Progreso): number {
   return Object.values(p.palabras).filter((m) => m.a + m.f > 0).length;
 }
+
+// ------------------------------------------------- adoptar una cuenta nueva
+
+const mejorItem = (a?: MemoriaItem, b?: MemoriaItem): MemoriaItem | undefined => {
+  if (!a) return b;
+  if (!b) return a;
+  // Gana quien esté más adelante en el SRS; a igual etapa, quien más veces la vio.
+  const ea = a.etapa ?? 0, eb = b.etapa ?? 0;
+  if (ea !== eb) return ea > eb ? a : b;
+  return (a.a + a.f) >= (b.a + b.f) ? a : b;
+};
+
+/** Une dos progresos sin perder nada y sin inflar las cuentas. */
+export function fusionar(local: Progreso, nube: Progreso): Progreso {
+  const p: Progreso = { ...local };
+  // XP y racha: el máximo, no la suma. Sumar duplicaría lo ya sincronizado
+  // desde otro aparato, y regalar XP falso hace que el número deje de decir nada.
+  p.xp = Math.max(local.xp, nube.xp);
+  p.racha = (local.racha.ultimo >= nube.racha.ultimo ? local : nube).racha;
+  p.racha = { ...p.racha, dias: Math.max(local.racha.dias, nube.racha.dias) };
+  p.tope = local.tope !== "auto" ? local.tope : nube.tope;
+
+  for (const campo of ["palabras", "gramatica"] as const) {
+    const salida: Record<string, MemoriaItem> = {};
+    for (const k of new Set([...Object.keys(local[campo]), ...Object.keys(nube[campo])])) {
+      const m = mejorItem(local[campo][k], nube[campo][k]);
+      if (m) salida[k] = m;
+    }
+    p[campo] = salida;
+  }
+
+  p.unidades = {};
+  for (const k of new Set([...Object.keys(local.unidades), ...Object.keys(nube.unidades)])) {
+    const a = local.unidades[k], b = nube.unidades[k];
+    p.unidades[k] = {
+      practicada: !!(a?.practicada || b?.practicada),
+      mejor: Math.max(a?.mejor ?? 0, b?.mejor ?? 0),
+      tests: Math.max(a?.tests ?? 0, b?.tests ?? 0),
+    };
+  }
+
+  p.hechosPorDia = { ...nube.hechosPorDia };
+  for (const [d, n] of Object.entries(local.hechosPorDia)) {
+    p.hechosPorDia[d] = Math.max(n, p.hechosPorDia[d] ?? 0);
+  }
+  return p;
+}
+
+/**
+ * Al entrar por primera vez con una cuenta, el avance hecho sin ella se lleva
+ * consigo. Sin esto, quien estudia un mes y luego se registra vería su progreso
+ * en cero, que es la peor bienvenida posible.
+ */
+export async function adoptarCuenta(usuarioId: string): Promise<Progreso> {
+  const local = leerProgreso();
+  const sb = supabaseNavegador();
+  let unido = { ...local, perfil: usuarioId };
+
+  if (sb) {
+    try {
+      const { data } = await sb.from("progreso")
+        .select("datos").eq("perfil", usuarioId).maybeSingle();
+      const nube = (data as { datos?: Progreso } | null)?.datos;
+      if (nube) unido = { ...fusionar(local, nube), perfil: usuarioId };
+    } catch { /* sin red: se sube lo local, que es mejor que nada */ }
+  }
+
+  try { localStorage.setItem(CLAVE, JSON.stringify(unido)); } catch {}
+  window.dispatchEvent(new CustomEvent("progreso"));
+  await sincronizar(unido);
+  return unido;
+}

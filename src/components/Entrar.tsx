@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { supabaseNavegador } from "@/lib/supabase";
+import { adoptarCuenta } from "@/lib/progreso";
 import { Marca } from "./Marca";
 import { IcBien, IcDerecha } from "./Iconos";
 import { useAjustes } from "./Ajustes";
@@ -40,11 +41,14 @@ export function Entrar({ destino = "/perfil" }: { destino?: string }) {
     e.preventDefault();
     if (!sb) return;
     setCargando(true); setError("");
-    const { error } = await sb.auth.verifyOtp({
+    const { data, error } = await sb.auth.verifyOtp({
       email: correo.trim(), token: codigo.trim(), type: "email",
     });
+    if (error) { setCargando(false); return setError(t("ent.malCodigo")); }
+    // El avance hecho sin cuenta se lleva a la cuenta. Si ya había progreso en
+    // la nube (otro aparato), se fusionan en vez de pisarse.
+    if (data.user) { try { await adoptarCuenta(data.user.id); } catch {} }
     setCargando(false);
-    if (error) return setError(t("ent.malCodigo"));
     window.location.href = destino;
   };
 

@@ -6,6 +6,7 @@ import {
 } from "@/lib/examen";
 import { useAjustes } from "./Ajustes";
 import { JpEnLinea } from "./Jp";
+import { AyudaInstruccion } from "./AyudaInstruccion";
 import { callar, decir } from "@/lib/voz";
 import { IcBien, IcCerrar, IcDerecha, IcReproducir } from "./Iconos";
 
@@ -254,9 +255,7 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
           <span className="tenue">{NOMBRE_TIPO[item.tipo][idioma]}</span>
         </div>
 
-        <p className="jp" style={{ fontSize: 11.5, color: "var(--tinta-3)", margin: "0 0 10px", lineHeight: 1.6 }}>
-          {item.instruccion_ja}
-        </p>
+        <AyudaInstruccion tipo={item.tipo} texto={item.instruccion_ja} />
 
         {pasaje && (
           <div className="tarjeta" style={{ marginBottom: 12 }}>

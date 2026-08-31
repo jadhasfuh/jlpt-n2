@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { supabaseServidor } from "@/lib/supabase";
+import { supabaseServidor } from "@/lib/supabase-servidor";
 
 /** Cuántas preguntas hay por nivel y tipo: la pantalla de ajustes lo enseña
  *  para que nadie pida un examen de 15 minutos de algo que tiene 2 preguntas. */

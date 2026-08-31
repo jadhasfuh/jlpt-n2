@@ -11,10 +11,10 @@ import { significado as sig } from "@/lib/idioma";
 export function PanelKanji({ kanji, titulo }: { kanji: Kanji[]; titulo: string }) {
   const [sel, setSel] = useState<Kanji | null>(null);
   const [test, setTest] = useState(false);
-  const { colores, idioma } = useAjustes();
+  const { colores, idioma, t } = useAjustes();
 
   if (test) return <TestKanji kanji={kanji} titulo={titulo} cerrar={() => setTest(false)} />;
-  if (!kanji.length) return <p className="silencio">Aquí no hay kanji todavía.</p>;
+  if (!kanji.length) return <p className="silencio">{t("kan.sinKanji")}</p>;
 
   return (
     <>

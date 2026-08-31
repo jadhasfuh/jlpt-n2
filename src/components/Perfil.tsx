@@ -126,6 +126,11 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
               }}>
         {t("per.borrar")}
       </button>
+
+      <div className="filtros" style={{ justifyContent: "center", margin: "22px 0 8px" }}>
+        <Link href="/legal/terminos" className="btn fantasma chico">{t("per.terminos")}</Link>
+        <Link href="/legal/privacidad" className="btn fantasma chico">{t("per.privacidad")}</Link>
+      </div>
     </>
   );
 }
