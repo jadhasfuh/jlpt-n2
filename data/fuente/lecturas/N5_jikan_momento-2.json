@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/jikan/momento-2",
+ "titulo": "<ruby>初<rt>はじ</rt></ruby>めての<ruby>出掛<rt>でか</rt></ruby>け",
+ "cuerpo": "きょう、<ruby>初<rt>はじ</rt></ruby>めてひとりでとおくへ<ruby>出掛<rt>でか</rt></ruby>けました。あさ<ruby>早<rt>はや</rt></ruby>く<ruby>出<rt>で</rt></ruby>て、<ruby>二<rt>に</rt></ruby><ruby>時間<rt>じかん</rt></ruby>かかりました。<ruby>未<rt>ま</rt></ruby>だくらいうちに<ruby>駅<rt>えき</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くのは、すこしこわかったです。でも、うちに<ruby>着<rt>つ</rt></ruby>いてしまえば、あとは<ruby>少<rt>すこ</rt></ruby>しずつたのしくなりました。かえりのしたくが<ruby>済<rt>す</rt></ruby>んでから、みせでおみやげをかいました。<ruby>前<rt>ぜん</rt></ruby>じつまでしんぱいしていましたが、<ruby>終<rt>お</rt></ruby>わってみるとかんたんでした。",
+ "traduccion": "Hoy he salido solo por primera vez a un sitio lejano. Salí temprano por la mañana y tardé dos horas. Ir a la estación cuando todavía estaba oscuro daba un poco de miedo. Pero una vez llegué, poco a poco me fui divirtiendo. Cuando terminé de preparar la vuelta, compré un recuerdo en una tienda. Hasta el día anterior estuve preocupado, pero al acabar resultó sencillo.",
+ "preguntas": [
+  {
+   "p": "<ruby>出掛<rt>でか</rt></ruby>けるのにどのくらいかかりましたか。",
+   "opciones": [
+    "<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>二<rt>に</rt></ruby><ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>三<rt>さん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>半<rt>はん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>終<rt>お</rt></ruby>わってみて、どうおもいましたか。",
+   "opciones": [
+    "こわかった",
+    "かんたんだった",
+    "つかれた",
+    "しんぱいだった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

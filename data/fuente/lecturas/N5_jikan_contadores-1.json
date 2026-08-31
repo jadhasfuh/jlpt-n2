@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/jikan/contadores-1",
+ "titulo": "<ruby>松<rt>まつ</rt></ruby>の<ruby>木<rt>き</rt></ruby>を<ruby>数<rt>かぞ</rt></ruby>える",
+ "cuerpo": "うちのうらに<ruby>松<rt>まつ</rt></ruby>の<ruby>木<rt>き</rt></ruby>が<ruby>十<rt>じゅう</rt></ruby><ruby>本<rt>ぽん</rt></ruby>あります。そふが<ruby>百<rt>ひゃく</rt></ruby>ねんまえにうえたそうです。わたしは<em class=\"g\">いつも</em>、あさそこをとおるとき、<ruby>何<rt>なん</rt></ruby><ruby>本<rt>ぼん</rt></ruby>あるか<ruby>数<rt>かぞ</rt></ruby>えます。<ruby>七<rt>なな</rt></ruby><ruby>本<rt>ほん</rt></ruby>めの<ruby>木<rt>き</rt></ruby>が<em class=\"g\">いつも</em>いちばん<ruby>大<rt>おお</rt></ruby>きく<ruby>見<rt>み</rt></ruby>えます。きょねん、<ruby>二<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby>がかぜでたおれました。いまは<ruby>八<rt>はち</rt></ruby><ruby>本<rt>ほん</rt></ruby>です。<ruby>三<rt>さん</rt></ruby><ruby>泊<rt>ぱく</rt></ruby>の<ruby>旅行<rt>りょこう</rt></ruby>からかえったとき、まずこの<ruby>木<rt>き</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。",
+ "traduccion": "Detrás de casa hay diez pinos. Dicen que los plantó mi abuelo hace cien años. Yo siempre los cuento cuando paso por ahí por la mañana. El séptimo siempre me parece el más grande. El año pasado el viento tiró dos. Ahora quedan ocho. Cuando volví de un viaje de tres noches, lo primero que miré fueron estos árboles.",
+ "preguntas": [
+  {
+   "p": "いま、<ruby>松<rt>まつ</rt></ruby>の<ruby>木<rt>き</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>本<rt>ぼん</rt></ruby>ありますか。",
+   "opciones": [
+    "<ruby>七<rt>なな</rt></ruby><ruby>本<rt>ほん</rt></ruby>",
+    "<ruby>八<rt>はち</rt></ruby><ruby>本<rt>ほん</rt></ruby>",
+    "<ruby>十<rt>じゅう</rt></ruby><ruby>本<rt>ぽん</rt></ruby>",
+    "<ruby>二<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<em class=\"g\">いつも</em>いちばん<ruby>大<rt>おお</rt></ruby>きく<ruby>見<rt>み</rt></ruby>えるのはどれですか。",
+   "opciones": [
+    "<ruby>一<rt>いっ</rt></ruby><ruby>本<rt>ぽん</rt></ruby>め",
+    "<ruby>七<rt>なな</rt></ruby><ruby>本<rt>ほん</rt></ruby>め",
+    "<ruby>十<rt>じゅう</rt></ruby><ruby>本<rt>ぽん</rt></ruby>め",
+    "ぜんぶおなじ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

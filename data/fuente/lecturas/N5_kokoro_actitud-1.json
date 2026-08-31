@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kokoro/actitud-1",
+ "titulo": "<ruby>軽<rt>かる</rt></ruby>いかばん",
+ "cuerpo": "あさ、かばんが<ruby>重<rt>おも</rt></ruby>いと、<ruby>気<rt>き</rt></ruby>もちまで<ruby>重<rt>おも</rt></ruby>くなります。きょうは<ruby>中<rt>なか</rt></ruby>のものをはんぶんにして、<ruby>軽<rt>かる</rt></ruby>くしました。すると、おなじみちなのに、あるくのがずっとらくでした。じゅぎょうのあと、ともだちに「どちらの<ruby>本<rt>ほん</rt></ruby>をかりる?」ときかれて、うすいほう<em class=\"g\">にする</em>ことにしました。おもいものをもつのが<ruby>嫌<rt>いや</rt></ruby>なのではありません。ただ、そのぶん<ruby>風<rt>かぜ</rt></ruby>をきもちよく<ruby>感<rt>かん</rt></ruby>じられるのです。あしたも<ruby>軽<rt>かる</rt></ruby>いかばんで<ruby>出<rt>で</rt></ruby>ること<em class=\"g\">にする</em>つもりです。",
+ "traduccion": "Por la mañana, si la mochila pesa, hasta el ánimo se vuelve pesado. Hoy he dejado la mitad de las cosas y la he aligerado. Y entonces, siendo el mismo camino, andar se me ha hecho mucho más fácil. Después de clase, un amigo me preguntó cuál de los dos libros quería, y me decidí por el más fino. No es que me moleste llevar peso. Es solo que así siento mejor el viento. Mañana también pienso decidirme por salir con la mochila ligera.",
+ "preguntas": [
+  {
+   "p": "かばんを<ruby>軽<rt>かる</rt></ruby>くすると、どうなりましたか。",
+   "opciones": [
+    "みちがみじかくなった",
+    "あるくのがらくになった",
+    "<ruby>気<rt>き</rt></ruby>もちが<ruby>重<rt>おも</rt></ruby>くなった",
+    "ともだちがふえた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "どちらの<ruby>本<rt>ほん</rt></ruby>をえらびましたか。",
+   "opciones": [
+    "<ruby>重<rt>おも</rt></ruby>いほう",
+    "うすいほう",
+    "<ruby>大<rt>おお</rt></ruby>きいほう",
+    "えらばなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

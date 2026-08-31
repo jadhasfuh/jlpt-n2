@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/jikan/contadores-2",
+ "titulo": "みかんを<ruby>分<rt>わ</rt></ruby>ける",
+ "cuerpo": "つくえの<ruby>上<rt>うえ</rt></ruby>にみかんが<ruby>九<rt>ここの</rt></ruby>つあります。かぞくは<ruby>四<rt>よ</rt></ruby>にんです。<ruby>二<rt>ふた</rt></ruby>つずつわけると、<ruby>一<rt>ひと</rt></ruby>つのこります。「のこりはだれのもの?」ときくと、だれもこたえません。<em class=\"g\">まだ</em>きめられないので、はんぶんに<ruby>切<rt>き</rt></ruby>って、<ruby>四<rt>よっ</rt></ruby>つにしました。それでも<ruby>三<rt>みっ</rt></ruby>つあまりました。かぞえかたが<em class=\"g\">まだ</em>へたなようです。あしたは<ruby>五<rt>いつ</rt></ruby>つだけかって、ひとり<ruby>一<rt>ひと</rt></ruby>つにします。",
+ "traduccion": "Encima de la mesa hay nueve mandarinas. En casa somos cuatro. Si repartimos dos a cada uno, sobra una. Pregunté de quién era la que sobraba y nadie contestó. Como todavía no lo podíamos decidir, la corté por la mitad y salieron cuatro trozos. Aun así sobraron tres. Parece que todavía se me da mal contar. Mañana compraré solo cinco, una para cada uno.",
+ "preguntas": [
+  {
+   "p": "みかんはいくつありましたか。",
+   "opciones": [
+    "<ruby>四<rt>よっ</rt></ruby>つ",
+    "<ruby>五<rt>いつ</rt></ruby>つ",
+    "<ruby>九<rt>ここの</rt></ruby>つ",
+    "<ruby>三<rt>みっ</rt></ruby>つ"
+   ],
+   "correcta": 2
+  },
+  {
+   "p": "あした、いくつかいますか。",
+   "opciones": [
+    "<ruby>四<rt>よっ</rt></ruby>つ",
+    "<ruby>五<rt>いつ</rt></ruby>つ",
+    "<ruby>九<rt>ここの</rt></ruby>つ",
+    "<ruby>二<rt>ふた</rt></ruby>つ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

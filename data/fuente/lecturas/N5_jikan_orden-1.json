@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/jikan/orden-1",
+ "titulo": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>一<rt>ひと</rt></ruby>つ",
+ "cuerpo": "しごとにはじゅんじょがあります。わたしは<ruby>目<rt>め</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>のことをぜんぶいちどにやろうとして、いつもしっぱいしていました。<ruby>先生<rt>せんせい</rt></ruby>は「<ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><ruby>目<rt>め</rt></ruby>が<ruby>終<rt>お</rt></ruby>わる<em class=\"g\">まで</em>、<ruby>二<rt>に</rt></ruby><ruby>番<rt>ばん</rt></ruby><ruby>目<rt>め</rt></ruby>にてをつけるな」とおしえてくれました。それからは、<ruby>次<rt>つぎ</rt></ruby>の<ruby>一<rt>ひと</rt></ruby>つだけをかんがえます。<ruby>過程<rt>かてい</rt></ruby>をとばさないほうが、けっきょくはやいのです。<ruby>翌<rt>よく</rt></ruby>じつまでのこることも、<ruby>少<rt>すく</rt></ruby>なくなりました。いまは<ruby>上<rt>じょう</rt></ruby>の<ruby>級<rt>きゅう</rt></ruby>のしごともまかされています。",
+ "traduccion": "El trabajo tiene un orden. Yo intentaba hacer todo lo que tenía delante de una vez y siempre me salía mal. El profesor me enseñó: «hasta que no termines lo primero, no toques lo segundo». Desde entonces solo pienso en la siguiente cosa. Al final se va más rápido si no te saltas el proceso. También me quedan menos cosas para el día siguiente. Ahora incluso me encargan trabajo de nivel superior.",
+ "preguntas": [
+  {
+   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をおしえてくれましたか。",
+   "opciones": [
+    "ぜんぶいちどにやること",
+    "<ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><ruby>目<rt>め</rt></ruby>が<ruby>終<rt>お</rt></ruby>わる<em class=\"g\">まで</em>、<ruby>二<rt>に</rt></ruby><ruby>番<rt>ばん</rt></ruby><ruby>目<rt>め</rt></ruby>にてをつけないこと",
+    "はやくやること",
+    "<ruby>翌<rt>よく</rt></ruby>じつにのこすこと"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いま、どうなりましたか。",
+   "opciones": [
+    "しっぱいがふえた",
+    "<ruby>上<rt>じょう</rt></ruby>の<ruby>級<rt>きゅう</rt></ruby>のしごともまかされている",
+    "しごとがへった",
+    "<ruby>時間<rt>じかん</rt></ruby>がかかる"
+   ],
+   "correcta": 1
+  }
+ ]
+}

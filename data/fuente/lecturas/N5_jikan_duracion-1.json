@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/jikan/duracion-1",
+ "titulo": "<ruby>速<rt>はや</rt></ruby>くあるく<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "まいあさ、おなじみちであう<ruby>人<rt>ひと</rt></ruby>がいます。とても<ruby>速<rt>はや</rt></ruby>くあるい<em class=\"g\">ている</em>ので、すぐにわたしをぬいていきます。きょう、その<ruby>人<rt>ひと</rt></ruby>がとまっ<em class=\"g\">ている</em>のを<ruby>見<rt>み</rt></ruby>ました。ちいさないぬを<ruby>見<rt>み</rt></ruby><em class=\"g\">ている</em>ようでした。<ruby>声<rt>こえ</rt></ruby>をかけると、「まいにち<ruby>速<rt>はや</rt></ruby>くあるくのは、あるくのがすきだからではなく、しごとにおくれるからです」とわらいました。あしたからは、わたしももうすこしはやくうちを<ruby>出<rt>で</rt></ruby>ようとおもいます。",
+ "traduccion": "Cada mañana me cruzo con una persona en el mismo camino. Camina tan rápido que enseguida me adelanta. Hoy la he visto parada. Parecía estar mirando a un perrito. Le dije algo y me contestó riéndose: «camino rápido todos los días no porque me guste andar, sino porque llego tarde al trabajo». A partir de mañana yo también voy a salir de casa un poco antes.",
+ "preguntas": [
+  {
+   "p": "きょう、その<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をし<em class=\"g\">ている</em>ましたか。",
+   "opciones": [
+    "<ruby>速<rt>はや</rt></ruby>くあるいていた",
+    "とまっていた",
+    "はしっていた",
+    "<ruby>話<rt>はな</rt></ruby>していた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "その<ruby>人<rt>ひと</rt></ruby>が<ruby>速<rt>はや</rt></ruby>くあるくのはなぜですか。",
+   "opciones": [
+    "あるくのがすきだから",
+    "しごとにおくれるから",
+    "いぬがいるから",
+    "みちがながいから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

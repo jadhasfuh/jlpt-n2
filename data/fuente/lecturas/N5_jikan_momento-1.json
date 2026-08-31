@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/jikan/momento-1",
+ "titulo": "<ruby>終<rt>お</rt></ruby>わりと<ruby>先<rt>さき</rt></ruby>",
+ "cuerpo": "<ruby>今<rt>いま</rt></ruby>のしごとは<ruby>先<rt>せん</rt></ruby>げつはじまりました。<ruby>前<rt>まえ</rt></ruby>のしごとが<ruby>終<rt>お</rt></ruby>わったあと、すこしやすんでから<ruby>来<rt>き</rt></ruby>ました。はじめは<ruby>何<rt>なに</rt></ruby>もわからず、<ruby>遅<rt>おそ</rt></ruby>くまでのこっていました。<ruby>後<rt>うし</rt></ruby>ろのせきの<ruby>人<rt>ひと</rt></ruby>が、「わからないことは<ruby>先<rt>さき</rt></ruby>にきいたほうがいい」とおしえてくれました。それからすこしずつはやく<ruby>終<rt>お</rt></ruby>わるように<em class=\"g\">なり</em>ました。いつかわたしも、あたらしい<ruby>人<rt>ひと</rt></ruby>におしえられるように<em class=\"g\">なり</em>たいです。",
+ "traduccion": "Mi trabajo actual empezó el mes pasado. Vine después de que terminara el anterior y de descansar un poco. Al principio no entendía nada y me quedaba hasta tarde. La persona del asiento de detrás me enseñó que lo que no entiendes conviene preguntarlo cuanto antes. Desde entonces he ido acabando cada vez más pronto. Algún día quiero llegar a poder enseñarle yo a los que llegan nuevos.",
+ "preguntas": [
+  {
+   "p": "はじめ、どうして<ruby>遅<rt>おそ</rt></ruby>くまでのこっていましたか。",
+   "opciones": [
+    "しごとがおおかったから",
+    "<ruby>何<rt>なに</rt></ruby>もわからなかったから",
+    "<ruby>後<rt>うし</rt></ruby>ろの<ruby>人<rt>ひと</rt></ruby>をまっていたから",
+    "やすみたかったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>後<rt>うし</rt></ruby>ろのせきの<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をおしえてくれましたか。",
+   "opciones": [
+    "はやくかえること",
+    "わからないことは<ruby>先<rt>さき</rt></ruby>にきくこと",
+    "<ruby>遅<rt>おそ</rt></ruby>くまでのこること",
+    "しごとをかえること"
+   ],
+   "correcta": 1
+  }
+ ]
+}

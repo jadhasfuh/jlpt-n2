@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/jikan/frecuencia-1",
+ "titulo": "<ruby>時々<rt>ときどき</rt></ruby>のてがみ",
+ "cuerpo": "そぼは<ruby>時々<rt>ときどき</rt></ruby>てがみをくれます。でんわ<em class=\"g\">で</em><ruby>話<rt>はな</rt></ruby>すより、かいたもののほうがいいそうです。わたしのへんじは<ruby>少<rt>すく</rt></ruby>ないですが、<ruby>又<rt>また</rt></ruby>かならず<ruby>書<rt>か</rt></ruby>きます。ことしは<ruby>三<rt>さん</rt></ruby><ruby>遍<rt>べん</rt></ruby>だけでした。<ruby>正<rt>ただ</rt></ruby>しいことばがわからなくて、<ruby>時間<rt>じかん</rt></ruby>がかかるからです。でも、そぼは「<ruby>少<rt>すこ</rt></ruby>しずつでいい」とこたえてくれました。だんだん<ruby>書<rt>か</rt></ruby>くのがはやくなっています。らいねんは<ruby>十<rt>じゅっ</rt></ruby><ruby>遍<rt>ぺん</rt></ruby>をめざします。",
+ "traduccion": "Mi abuela me manda cartas de vez en cuando. Dice que prefiere lo escrito a hablar por teléfono. Mis respuestas son pocas, pero siempre acabo escribiendo otra vez. Este año solo han sido tres veces. Es que no doy con las palabras correctas y tardo mucho. Pero mi abuela me contestó que poco a poco está bien. Poco a poco escribo más deprisa. El año que viene voy a por diez veces.",
+ "preguntas": [
+  {
+   "p": "ことし、<ruby>何<rt>なん</rt></ruby><ruby>遍<rt>べん</rt></ruby>てがみを<ruby>書<rt>か</rt></ruby>きましたか。",
+   "opciones": [
+    "<ruby>一<rt>いっ</rt></ruby><ruby>遍<rt>ぺん</rt></ruby>",
+    "<ruby>三<rt>さん</rt></ruby><ruby>遍<rt>べん</rt></ruby>",
+    "<ruby>十<rt>じゅっ</rt></ruby><ruby>遍<rt>ぺん</rt></ruby>",
+    "<ruby>時々<rt>ときどき</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "てがみに<ruby>時間<rt>じかん</rt></ruby>がかかるのはなぜですか。",
+   "opciones": [
+    "<ruby>少<rt>すく</rt></ruby>ないから",
+    "<ruby>正<rt>ただ</rt></ruby>しいことばがわからないから",
+    "でんわがすきだから",
+    "そぼがとおいから"
+   ],
+   "correcta": 1
+  }
+ ]
+}
