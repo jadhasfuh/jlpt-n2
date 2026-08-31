@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/kurashi/casa-1",
+ "titulo": "<ruby>縁側<rt>えんがわ</rt></ruby>のある<ruby>家<rt>いえ</rt></ruby>",
+ "cuerpo": "<ruby>祖父母<rt>そふぼ</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>には<ruby>縁側<rt>えんがわ</rt></ruby>がありました。<ruby>冬<rt>ふゆ</rt></ruby>はこたつ、<ruby>夏<rt>なつ</rt></ruby>は<ruby>扉<rt>とびら</rt></ruby>を<ruby>開<rt>あ</rt></ruby>け<ruby>放<rt>はな</rt></ruby>して<ruby>風<rt>かぜ</rt></ruby>を<ruby>通<rt>とお</rt></ruby>す。<ruby>平<rt>ひら</rt></ruby>たい<ruby>板<rt>いた</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>にすわって<ruby>庭<rt>にわ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ているだけで、<ruby>一日<rt>いちにち</rt></ruby>がすぎていくような<ruby>空間<rt>くうかん</rt></ruby>でした。いまの<ruby>社宅<rt>しゃたく</rt></ruby>は<ruby>新築<rt>しんちく</rt></ruby>で<ruby>便利<rt>べんり</rt></ruby>ですが、<ruby>外<rt>そと</rt></ruby>と<ruby>中<rt>なか</rt></ruby>のあいだにあたる<ruby>場所<rt>ばしょ</rt></ruby>がありません。<ruby>居住<rt>きょじゅう</rt></ruby>するのに<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>所定<rt>しょてい</rt></ruby>の<ruby>広<rt>ひろ</rt></ruby>さは<ruby>足<rt>た</rt></ruby>りているのに、<ruby>何<rt>なに</rt></ruby>かが<ruby>足<rt>た</rt></ruby>りない<ruby>気<rt>き</rt></ruby>がするのです。<em class=\"g\">あらかじめ</em><ruby>決<rt>き</rt></ruby>められた<ruby>間取<rt>まど</rt></ruby>りに、<ruby>暮<rt>く</rt></ruby>らしのほうを<ruby>合<rt>あ</rt></ruby>わせている。<ruby>勝手<rt>かって</rt></ruby>に<ruby>棚<rt>たな</rt></ruby>をつけることもできません。<ruby>家出<rt>いえで</rt></ruby>をした<ruby>子<rt>こ</rt></ruby>どものころ、<ruby>行<rt>い</rt></ruby>く<ruby>当<rt>あ</rt></ruby>てもなく<ruby>結局<rt>けっきょく</rt></ruby>あの<ruby>縁側<rt>えんがわ</rt></ruby>にすわっていました。<ruby>家<rt>いえ</rt></ruby>というのは、<ruby>所持<rt>しょじ</rt></ruby>するものではなく<ruby>帰<rt>かえ</rt></ruby>る<ruby>所在<rt>しょざい</rt></ruby>のことなのだと<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "En casa de mis abuelos había una galería de madera. En invierno, la mesa con brasero; en verano, las puertas abiertas de par en par para que corriera el aire. Con solo sentarte en aquellas tablas planas a mirar el jardín se te iba el día: era ese tipo de espacio. El piso de empresa donde vivo ahora es nuevo y cómodo, pero no tiene ningún sitio que quede entre el fuera y el dentro. Cumple de sobra los metros que se exigen para vivir y aun así siento que falta algo. Es la vida la que se adapta a una distribución decidida de antemano. Ni siquiera puedo poner una estantería por mi cuenta. De niño, cuando me escapé de casa, sin ningún sitio adonde ir, acabé sentado precisamente en aquella galería. Creo que una casa no es algo que se posee, sino el lugar al que uno vuelve.",
+ "preguntas": [
+  {
+   "p": "<ruby>祖父母<rt>そふぼ</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>の<ruby>縁側<rt>えんがわ</rt></ruby>は、どんな<ruby>場所<rt>ばしょ</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>寒<rt>さむ</rt></ruby>くて<ruby>使<rt>つか</rt></ruby>えない<ruby>場所<rt>ばしょ</rt></ruby>",
+    "すわって<ruby>庭<rt>にわ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ているだけで<ruby>一日<rt>いちにち</rt></ruby>がすぎる<ruby>場所<rt>ばしょ</rt></ruby>",
+    "<ruby>物<rt>もの</rt></ruby>を<ruby>置<rt>お</rt></ruby>く<ruby>場所<rt>ばしょ</rt></ruby>",
+    "<ruby>客<rt>きゃく</rt></ruby>を<ruby>通<rt>とお</rt></ruby>す<ruby>場所<rt>ばしょ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いまの<ruby>社宅<rt>しゃたく</rt></ruby>に<ruby>足<rt>た</rt></ruby>りないものは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>広<rt>ひろ</rt></ruby>さ",
+    "<ruby>外<rt>そと</rt></ruby>と<ruby>中<rt>なか</rt></ruby>のあいだにあたる<ruby>場所<rt>ばしょ</rt></ruby>",
+    "<ruby>便利<rt>べんり</rt></ruby>さ",
+    "<ruby>新<rt>あたら</rt></ruby>しさ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

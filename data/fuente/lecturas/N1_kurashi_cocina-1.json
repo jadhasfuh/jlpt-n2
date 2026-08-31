@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/kurashi/cocina-1",
+ "titulo": "<ruby>味覚<rt>みかく</rt></ruby>は<ruby>変<rt>か</rt></ruby>わる",
+ "cuerpo": "<ruby>子<rt>こ</rt></ruby>どものころ、<ruby>甘口<rt>あまくち</rt></ruby>のカレーしか<ruby>食<rt>た</rt></ruby>べられませんでした。<ruby>辛<rt>から</rt></ruby>いものを<ruby>飲<rt>の</rt></ruby>み<ruby>込<rt>こ</rt></ruby>むこと<ruby>自体<rt>じたい</rt></ruby>ができなかったのです。いまは<ruby>本場<rt>ほんば</rt></ruby>の<ruby>製法<rt>せいほう</rt></ruby>で<ruby>作<rt>つく</rt></ruby>られた<ruby>辛<rt>から</rt></ruby>い<ruby>料理<rt>りょうり</rt></ruby>をすすんで<ruby>選<rt>えら</rt></ruby>ぶようになりました。<ruby>嗜好<rt>しこう</rt></ruby>というのは、<ruby>生<rt>う</rt></ruby>まれつきのものではないのでしょう。<ruby>年<rt>とし</rt></ruby>をとれば、<ruby>早<rt>はや</rt></ruby>かれ<ruby>遅<rt>おそ</rt></ruby>かれ<ruby>味覚<rt>みかく</rt></ruby>は<ruby>変<rt>か</rt></ruby>わっていきます。<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>最後<rt>さいご</rt></ruby>の<ruby>数年<rt>すうねん</rt></ruby>、<ruby>薄味<rt>うすあじ</rt></ruby>のものしか<ruby>受<rt>う</rt></ruby>けつけませんでした。おいしいか<ruby>否<rt>いな</rt></ruby>かではなく、<ruby>噛<rt>か</rt></ruby>み<ruby>切<rt>き</rt></ruby>れるかどうかで<ruby>献立<rt>こんだて</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えたものです。<ruby>調理<rt>ちょうり</rt></ruby>をしながら、<ruby>食<rt>た</rt></ruby>べる<ruby>人<rt>ひと</rt></ruby>のことを<ruby>思<rt>おも</rt></ruby>い<ruby>浮<rt>う</rt></ruby>かべる。<ruby>欲望<rt>よくぼう</rt></ruby>を<ruby>満<rt>み</rt></ruby>たすための<ruby>料理<rt>りょうり</rt></ruby>とは<ruby>別<rt>べつ</rt></ruby>の<ruby>趣<rt>おもむき</rt></ruby>が、そこにはあります。すがすがしい<ruby>朝<rt>あさ</rt></ruby>に<ruby>出<rt>だ</rt></ruby>し<ruby>汁<rt>じる</rt></ruby>をとると、<ruby>台所<rt>だいどころ</rt></ruby>に<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>手<rt>て</rt></ruby>つきが<ruby>戻<rt>もど</rt></ruby>ってくるようです。",
+ "traduccion": "De niño solo podía comer curry suave. Ni siquiera era capaz de tragar nada picante. Ahora elijo por gusto platos picantes hechos según la receta del lugar de origen. El gusto no debe de ser algo con lo que se nace. Con los años, tarde o temprano, el paladar cambia. Mi abuela, sus últimos años, solo aceptaba comida de sabor suave. El menú no se pensaba por si estaba bueno o no, sino por si podía masticarlo. Cocinar imaginándote a quien va a comer. Eso tiene un carácter distinto al de la cocina que sirve para saciar un deseo. Cuando preparo el caldo en una mañana despejada, es como si a la cocina volvieran los gestos de las manos de mi abuela.",
+ "preguntas": [
+  {
+   "p": "<ruby>子<rt>こ</rt></ruby>どものころ、この<ruby>人<rt>ひと</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>辛<rt>から</rt></ruby>いものが<ruby>好<rt>す</rt></ruby>きだった",
+    "<ruby>甘口<rt>あまくち</rt></ruby>のカレーしか<ruby>食<rt>た</rt></ruby>べられなかった",
+    "<ruby>何<rt>なん</rt></ruby>でも<ruby>食<rt>た</rt></ruby>べた",
+    "<ruby>料理<rt>りょうり</rt></ruby>をしていた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>献立<rt>こんだて</rt></ruby>は、<ruby>何<rt>なに</rt></ruby>を<ruby>基準<rt>きじゅん</rt></ruby>に<ruby>考<rt>かんが</rt></ruby>えましたか。",
+   "opciones": [
+    "おいしいかどうか",
+    "<ruby>噛<rt>か</rt></ruby>み<ruby>切<rt>き</rt></ruby>れるかどうか",
+    "<ruby>値段<rt>ねだん</rt></ruby>",
+    "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

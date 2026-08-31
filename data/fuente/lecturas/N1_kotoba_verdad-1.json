@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/kotoba/verdad-1",
+ "titulo": "<ruby>真相<rt>しんそう</rt></ruby>をたしかめる",
+ "cuerpo": "<ruby>不動産<rt>ふどうさん</rt></ruby>の<ruby>契約<rt>けいやく</rt></ruby>で、<ruby>書類<rt>しょるい</rt></ruby>の<ruby>事項<rt>じこう</rt></ruby>が<ruby>一<rt>ひと</rt></ruby>つ<ruby>食<rt>く</rt></ruby>い<ruby>違<rt>ちが</rt></ruby>っていました。<ruby>担当<rt>たんとう</rt></ruby>の<ruby>方<rt>かた</rt></ruby>は「よくあることです」と<ruby>軽<rt>かる</rt></ruby>く<ruby>流<rt>なが</rt></ruby>そうとします。やけに<ruby>急<rt>いそ</rt></ruby>がせるので、こちらも<ruby>不審<rt>ふしん</rt></ruby>に<ruby>思<rt>おも</rt></ruby>いました。<ruby>密<rt>ひそ</rt></ruby>かに<ruby>別<rt>べつ</rt></ruby>の<ruby>書類<rt>しょるい</rt></ruby>と<ruby>照合<rt>しょうごう</rt></ruby>してみると、<em class=\"g\">案の定</em>、<ruby>面積<rt>めんせき</rt></ruby>の<ruby>数字<rt>すうじ</rt></ruby>がちがっていたのです。<ruby>疑惑<rt>ぎわく</rt></ruby>を<ruby>持<rt>も</rt></ruby>ったまま<ruby>本名<rt>ほんみょう</rt></ruby>で<ruby>署名<rt>しょめい</rt></ruby>する<ruby>気<rt>き</rt></ruby>にはなれません。<ruby>本気<rt>ほんき</rt></ruby>で<ruby>問<rt>と</rt></ruby>いただすと、<ruby>担当<rt>たんとう</rt></ruby>の<ruby>方<rt>かた</rt></ruby>は<ruby>事実<rt>じじつ</rt></ruby>を<ruby>認<rt>みと</rt></ruby>めました。<ruby>印刷<rt>いんさつ</rt></ruby>の<ruby>段階<rt>だんかい</rt></ruby>での<ruby>誤<rt>あやま</rt></ruby>りだったそうです。<ruby>内緒<rt>ないしょ</rt></ruby>にしようとしたわけではなく、<ruby>面倒<rt>めんどう</rt></ruby>を<ruby>避<rt>さ</rt></ruby>けたかっただけなのでしょう。けれども、<ruby>実態<rt>じったい</rt></ruby>を<ruby>確<rt>たし</rt></ruby>かめずに<ruby>進<rt>すす</rt></ruby>めていたら、あとで<ruby>取<rt>と</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>しがつかなくなっていました。<ruby>誠<rt>まこと</rt></ruby>にありのままを<ruby>言<rt>い</rt></ruby>うのは、<ruby>言<rt>い</rt></ruby>うほうにも<ruby>勇気<rt>ゆうき</rt></ruby>が<ruby>要<rt>い</rt></ruby>るのだと<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "En un contrato inmobiliario, uno de los datos de los papeles no cuadraba. La persona que lo llevaba intentó quitarle importancia: «pasa a menudo». Como metía muchísima prisa, a mí me empezó a resultar sospechoso. Al cotejarlo discretamente con otro documento, efectivamente, la cifra de la superficie no coincidía. Con esa sospecha encima no me veía capaz de firmar con mi nombre. Cuando lo pregunté en serio, aquella persona reconoció el hecho. Al parecer fue un error en la fase de impresión. No es que quisiera ocultarlo: seguramente solo quería evitarse la molestia. Pero si hubiéramos seguido adelante sin comprobar la situación real, después no habría tenido arreglo. Creo que decir las cosas tal como son también requiere valor por parte de quien las dice.",
+ "preguntas": [
+  {
+   "p": "<ruby>書類<rt>しょるい</rt></ruby>を<ruby>照合<rt>しょうごう</rt></ruby>して、<ruby>何<rt>なに</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりましたか。",
+   "opciones": [
+    "まちがいはなかった",
+    "<ruby>面積<rt>めんせき</rt></ruby>の<ruby>数字<rt>すうじ</rt></ruby>がちがっていた",
+    "<ruby>名前<rt>なまえ</rt></ruby>がちがっていた",
+    "<ruby>日付<rt>ひづけ</rt></ruby>がなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>担当<rt>たんとう</rt></ruby>の<ruby>方<rt>かた</rt></ruby>が<ruby>軽<rt>かる</rt></ruby>く<ruby>流<rt>なが</rt></ruby>そうとしたのは、なぜだと<ruby>考<rt>かんが</rt></ruby>えていますか。",
+   "opciones": [
+    "<ruby>事実<rt>じじつ</rt></ruby>を<ruby>知<rt>し</rt></ruby>らなかったから",
+    "<ruby>面倒<rt>めんどう</rt></ruby>を<ruby>避<rt>さ</rt></ruby>けたかったから",
+    "<ruby>急<rt>いそ</rt></ruby>いでいたから",
+    "<ruby>内緒<rt>ないしょ</rt></ruby>にしたかったから"
+   ],
+   "correcta": 1
+  }
+ ]
+}
