@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/hito/caracter-1",
+ "titulo": "しぶとい<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "<ruby>職場<rt>しょくば</rt></ruby>に、<ruby>何<rt>なに</rt></ruby>を<ruby>言<rt>い</rt></ruby>われても<ruby>動<rt>どう</rt></ruby>じない<ruby>先輩<rt>せんぱい</rt></ruby>がいます。<ruby>温和<rt>おんわ</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるのに、<ruby>必要<rt>ひつよう</rt></ruby>なときには<ruby>強硬<rt>きょうこう</rt></ruby>です。<ruby>自分<rt>じぶん</rt></ruby>の<ruby>個性<rt>こせい</rt></ruby>を<ruby>誇<rt>ほこ</rt></ruby>るような<ruby>人<rt>ひと</rt></ruby>ではありません。<ruby>愚痴<rt>ぐち</rt></ruby>を<ruby>言<rt>い</rt></ruby>っているところも<ruby>見<rt>み</rt></ruby>たことがない。<ruby>根気<rt>こんき</rt></ruby>だけで<ruby>十年<rt>じゅうねん</rt></ruby><ruby>同<rt>おな</rt></ruby>じ<ruby>仕事<rt>しごと</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>けてきたのだそうです。<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>が<ruby>何度<rt>なんど</rt></ruby><ruby>失敗<rt>しっぱい</rt></ruby>しても、<ruby>前<rt>まえ</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby><em class=\"g\">を踏まえて</em>どうするかを<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>考<rt>かんが</rt></ruby>えます。ばかばかしいと<ruby>切<rt>き</rt></ruby>り<ruby>捨<rt>す</rt></ruby>てることをしません。<ruby>各種<rt>かくしゅ</rt></ruby>の<ruby>手続<rt>てつづ</rt></ruby>きを<ruby>斡旋<rt>あっせん</rt></ruby>してくれることもあります。<ruby>巧妙<rt>こうみょう</rt></ruby>なやり<ruby>方<rt>かた</rt></ruby>をするわけではなく、ただ<ruby>細<rt>こま</rt></ruby>やかに<ruby>見<rt>み</rt></ruby>ているだけなのでしょう。<ruby>気質<rt>きしつ</rt></ruby>というのは<ruby>変<rt>か</rt></ruby>えられないと<ruby>言<rt>い</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>もいますが、あの<ruby>人<rt>ひと</rt></ruby>を<ruby>見<rt>み</rt></ruby>ていると、<ruby>態度<rt>たいど</rt></ruby>は<ruby>選<rt>えら</rt></ruby>べるのだと<ruby>思<rt>おも</rt></ruby>えてきます。",
+ "traduccion": "En mi trabajo hay un veterano al que no le altera nada de lo que le digan. Parece apacible y sin embargo, cuando hace falta, se pone firme. No es de los que presumen de su carácter. Tampoco lo he visto nunca quejándose. Dice que ha aguantado diez años en el mismo puesto solo a base de constancia. Por muchas veces que se equivoque alguien joven, piensa con esa persona qué hacer partiendo de lo ya vivido. No despacha nada diciendo que es una tontería. A veces incluso te gestiona los trámites de todo tipo. No es que use ninguna estrategia astuta: simplemente mira con atención al detalle. Hay quien dice que el temperamento no se cambia, pero viéndolo a él me da por pensar que la actitud sí se elige.",
+ "preguntas": [
+  {
+   "p": "この<ruby>先輩<rt>せんぱい</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。",
+   "opciones": [
+    "よく<ruby>愚痴<rt>ぐち</rt></ruby>を<ruby>言<rt>い</rt></ruby>う",
+    "<ruby>温和<rt>おんわ</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるが<ruby>必要<rt>ひつよう</rt></ruby>なときは<ruby>強硬<rt>きょうこう</rt></ruby>だ",
+    "<ruby>個性<rt>こせい</rt></ruby>を<ruby>誇<rt>ほこ</rt></ruby>る",
+    "<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>を<ruby>相手<rt>あいて</rt></ruby>にしない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>最後<rt>さいご</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>思<rt>おも</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>気質<rt>きしつ</rt></ruby>は<ruby>変<rt>か</rt></ruby>えられない",
+    "<ruby>態度<rt>たいど</rt></ruby>は<ruby>選<rt>えら</rt></ruby>べる",
+    "<ruby>根気<rt>こんき</rt></ruby>は<ruby>生<rt>う</rt></ruby>まれつきだ",
+    "<ruby>仕事<rt>しごと</rt></ruby>は<ruby>十年<rt>じゅうねん</rt></ruby><ruby>続<rt>つづ</rt></ruby>けるべきだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

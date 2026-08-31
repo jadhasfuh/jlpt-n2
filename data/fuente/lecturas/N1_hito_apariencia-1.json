@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/hito/apariencia-1",
+ "titulo": "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>",
+ "cuerpo": "<ruby>面接<rt>めんせつ</rt></ruby>の<ruby>練習<rt>れんしゅう</rt></ruby>をしていた<ruby>時期<rt>じき</rt></ruby>、<ruby>服装<rt>ふくそう</rt></ruby>のことばかり<ruby>言<rt>い</rt></ruby>われました。<ruby>髪<rt>かみ</rt></ruby>を<ruby>切<rt>き</rt></ruby>れ、<ruby>背<rt>せ</rt></ruby>すじをのばせ、<ruby>見苦<rt>みぐる</rt></ruby>しくない<ruby>格好<rt>かっこう</rt></ruby>をしろ、と。<ruby>身長<rt>しんちょう</rt></ruby>のことまで<ruby>気<rt>き</rt></ruby>にしていたのを<ruby>覚<rt>おぼ</rt></ruby>えています。<ruby>先生<rt>せんせい</rt></ruby>は、<ruby>面接<rt>めんせつ</rt></ruby><em class=\"g\">に先駆けて</em><ruby>自分<rt>じぶん</rt></ruby>の<ruby>話<rt>はな</rt></ruby>し<ruby>方<rt>かた</rt></ruby>を<ruby>録音<rt>ろくおん</rt></ruby>してみなさいと<ruby>言<rt>い</rt></ruby>いました。<ruby>聞<rt>き</rt></ruby>きなおすと、<ruby>声<rt>こえ</rt></ruby>が<ruby>早<rt>はや</rt></ruby>すぎて<ruby>半分<rt>はんぶん</rt></ruby>も<ruby>伝<rt>つた</rt></ruby>わっていません。<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>をととのえるより、そちらのほうがよほど<ruby>大事<rt>だいじ</rt></ruby>でした。<ruby>自分<rt>じぶん</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby><em class=\"g\">に即して</em><ruby>話<rt>はな</rt></ruby>すようにしてから、<ruby>言葉<rt>ことば</rt></ruby>がすんなり<ruby>出<rt>で</rt></ruby>てくるようになりました。<ruby>相手<rt>あいて</rt></ruby>が<ruby>見<rt>み</rt></ruby>ているのは<ruby>服<rt>ふく</rt></ruby>ではなく、<ruby>話<rt>はな</rt></ruby>している<ruby>人<rt>ひと</rt></ruby>が<ruby>何<rt>なに</rt></ruby>を<ruby>大切<rt>たいせつ</rt></ruby>にしているかなのだと<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "En la época en que practicaba entrevistas, no me hablaban de otra cosa que de la ropa. Que me cortara el pelo, que enderezara la espalda, que fuera vestido de forma presentable. Recuerdo que llegué a preocuparme hasta por mi estatura. El profesor me dijo que, antes de la entrevista, grabara mi propia forma de hablar. Al escucharla, hablaba tan rápido que no se entendía ni la mitad. Aquello importaba mucho más que arreglarse el aspecto. Desde que empecé a hablar ateniéndome a mi propia experiencia, las palabras me empezaron a salir con soltura. Creo que lo que mira el otro no es la ropa, sino qué es lo que le importa a la persona que está hablando.",
+ "preguntas": [
+  {
+   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をするように<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "<ruby>髪<rt>かみ</rt></ruby>を<ruby>切<rt>き</rt></ruby>ること",
+    "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>話<rt>はな</rt></ruby>し<ruby>方<rt>かた</rt></ruby>を<ruby>録音<rt>ろくおん</rt></ruby>すること",
+    "<ruby>服<rt>ふく</rt></ruby>を<ruby>買<rt>か</rt></ruby>うこと",
+    "<ruby>背<rt>せ</rt></ruby>すじをのばすこと"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>言葉<rt>ことば</rt></ruby>がすんなり<ruby>出<rt>で</rt></ruby>るようになったのは、どうしてからですか。",
+   "opciones": [
+    "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>をととのえてから",
+    "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby>に<ruby>即<rt>そく</rt></ruby>して<ruby>話<rt>はな</rt></ruby>すようにしてから",
+    "<ruby>声<rt>こえ</rt></ruby>を<ruby>大<rt>おお</rt></ruby>きくしてから",
+    "<ruby>練習<rt>れんしゅう</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やしてから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

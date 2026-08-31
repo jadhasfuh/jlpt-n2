@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/hito/cuerpo-1",
+ "titulo": "<ruby>駆<rt>か</rt></ruby>けっこの<ruby>朝<rt>あさ</rt></ruby>",
+ "cuerpo": "<ruby>運動会<rt>うんどうかい</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>は、<ruby>空腹<rt>くうふく</rt></ruby>なのに<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べられませんでした。<ruby>襟<rt>えり</rt></ruby>のかたちを<ruby>何度<rt>なんど</rt></ruby>も<ruby>直<rt>なお</rt></ruby>し、かかとで<ruby>地面<rt>じめん</rt></ruby>をたしかめます。<ruby>父<rt>ちち</rt></ruby>が「<ruby>行<rt>い</rt></ruby>ってこい<em class=\"g\">ぞ</em>」と<ruby>背中<rt>せなか</rt></ruby>をたたきました。<ruby>母<rt>はは</rt></ruby>は「<ruby>転<rt>ころ</rt></ruby>んでもいい<em class=\"g\">わ</em>よ」と<ruby>笑<rt>わら</rt></ruby>っていました。<ruby>駆<rt>か</rt></ruby>けっこの<ruby>一目<rt>いちもく</rt></ruby><ruby>目<rt>め</rt></ruby>、<ruby>前<rt>まえ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>の<ruby>胴<rt>どう</rt></ruby>しか<ruby>見<rt>み</rt></ruby>えません。<ruby>胸<rt>むね</rt></ruby>のあたりが<ruby>苦<rt>くる</rt></ruby>しくなって、<ruby>山腹<rt>さんぷく</rt></ruby>を<ruby>登<rt>のぼ</rt></ruby>っているような<ruby>気分<rt>きぶん</rt></ruby>でした。<ruby>結果<rt>けっか</rt></ruby>は<ruby>三位<rt>さんい</rt></ruby>。<ruby>大筋<rt>おおすじ</rt></ruby>では<ruby>練習<rt>れんしゅう</rt></ruby>どおりです。<ruby>先生<rt>せんせい</rt></ruby>に<ruby>走<rt>はし</rt></ruby>り<ruby>方<rt>かた</rt></ruby>の<ruby>癖<rt>くせ</rt></ruby>を<ruby>指摘<rt>してき</rt></ruby>されて、<ruby>肩<rt>かた</rt></ruby>の<ruby>力<rt>ちから</rt></ruby>を<ruby>抜<rt>ぬ</rt></ruby>くようにと<ruby>口頭<rt>こうとう</rt></ruby>で<ruby>教<rt>おそ</rt></ruby>わりました。<ruby>一面<rt>いちめん</rt></ruby>の<ruby>青空<rt>あおぞら</rt></ruby>の<ruby>下<rt>した</rt></ruby>で、<ruby>息<rt>いき</rt></ruby>を<ruby>合<rt>あ</rt></ruby>わせて<ruby>走<rt>はし</rt></ruby>る。<ruby>勝<rt>か</rt></ruby>ち<ruby>負<rt>ま</rt></ruby>けより、あの<ruby>数十秒<rt>すうじゅうびょう</rt></ruby>のほうを<ruby>体<rt>からだ</rt></ruby>が<ruby>覚<rt>おぼ</rt></ruby>えています。",
+ "traduccion": "La mañana del festival deportivo tenía hambre y aun así no podía comer nada. Me recolocaba el cuello de la camiseta una y otra vez y tanteaba el suelo con los talones. Mi padre me dio una palmada en la espalda: «¡venga, allá vas!». Mi madre se reía: «no pasa nada si te caes». En la carrera, al primer vistazo solo veía el torso del niño que iba delante. Se me cerraba el pecho, como si estuviera subiendo una ladera. Quedé tercero. A grandes rasgos, como en los entrenamientos. El profesor me señaló un vicio en mi manera de correr y me explicó de viva voz que soltara la tensión de los hombros. Correr acompasando la respiración bajo un cielo azul de lado a lado. Más que quién ganó, lo que el cuerpo recuerda son aquellas decenas de segundos.",
+ "preguntas": [
+  {
+   "p": "<ruby>運動会<rt>うんどうかい</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>、この<ruby>人<rt>ひと</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "よく<ruby>食<rt>た</rt></ruby>べた",
+    "<ruby>空腹<rt>くうふく</rt></ruby>なのに<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べられなかった",
+    "<ruby>寝坊<rt>ねぼう</rt></ruby>した",
+    "<ruby>父<rt>ちち</rt></ruby>と<ruby>練習<rt>れんしゅう</rt></ruby>した"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>教<rt>おそ</rt></ruby>えましたか。",
+   "opciones": [
+    "もっと<ruby>速<rt>はや</rt></ruby>く<ruby>走<rt>はし</rt></ruby>ること",
+    "<ruby>肩<rt>かた</rt></ruby>の<ruby>力<rt>ちから</rt></ruby>を<ruby>抜<rt>ぬ</rt></ruby>くこと",
+    "<ruby>前<rt>まえ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ること",
+    "<ruby>練習<rt>れんしゅう</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やすこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}
