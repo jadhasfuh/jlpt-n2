@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/kotoba/opinion-1",
+ "titulo": "<ruby>纏<rt>まと</rt></ruby>まらない<ruby>議題<rt>ぎだい</rt></ruby>",
+ "cuerpo": "<ruby>地域<rt>ちいき</rt></ruby>の<ruby>協定<rt>きょうてい</rt></ruby>を<ruby>見直<rt>みなお</rt></ruby>す<ruby>討議<rt>とうぎ</rt></ruby>が、<ruby>三回<rt>さんかい</rt></ruby><ruby>続<rt>つづ</rt></ruby>いています。<ruby>趣旨<rt>しゅし</rt></ruby>には<ruby>全員<rt>ぜんいん</rt></ruby>が<ruby>同意<rt>どうい</rt></ruby>しているのに、<ruby>細<rt>こま</rt></ruby>かい<ruby>条件<rt>じょうけん</rt></ruby>になると<ruby>異論<rt>いろん</rt></ruby>が<ruby>出<rt>で</rt></ruby>てまとまりません。<ruby>同感<rt>どうかん</rt></ruby>だと<ruby>言<rt>い</rt></ruby>いながら、<ruby>合致<rt>がっち</rt></ruby>しない<ruby>点<rt>てん</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>るのです。<ruby>強<rt>し</rt></ruby>いて<ruby>妥結<rt>だけつ</rt></ruby>させることもできたでしょう。でも、<ruby>承諾<rt>しょうだく</rt></ruby>したふりだけが<ruby>残<rt>のこ</rt></ruby>る<ruby>合意<rt>ごうい</rt></ruby>に<ruby>意味<rt>いみ</rt></ruby>はありません。<ruby>司会<rt>しかい</rt></ruby>の<ruby>方<rt>かた</rt></ruby>は<ruby>一人<rt>ひとり</rt></ruby><em class=\"g\">という</em><ruby>一人<rt>ひとり</rt></ruby>に<ruby>発言<rt>はつげん</rt></ruby>の<ruby>機会<rt>きかい</rt></ruby>を<ruby>回<rt>まわ</rt></ruby>しました。<ruby>同調<rt>どうちょう</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めるのではなく、<ruby>反対<rt>はんたい</rt></ruby>の<ruby>理由<rt>りゆう</rt></ruby>を<ruby>実情<rt>じつじょう</rt></ruby>に<ruby>即<rt>そく</rt></ruby>して<ruby>聞<rt>き</rt></ruby>き<ruby>出<rt>だ</rt></ruby>していきます。こういうやり<ruby>方<rt>かた</rt></ruby><em class=\"g\">をおいて</em>、<ruby>地域<rt>ちいき</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をまとめる<ruby>方法<rt>ほうほう</rt></ruby>は<em class=\"g\">ない</em>のかもしれません。<ruby>四回目<rt>よんかいめ</rt></ruby>でようやく<ruby>纏<rt>まと</rt></ruby>めができました。<ruby>時間<rt>じかん</rt></ruby>はかかりましたが、<ruby>誰<rt>だれ</rt></ruby>も<ruby>黙<rt>だま</rt></ruby>らせなかったのが<ruby>何<rt>なに</rt></ruby>よりです。",
+ "traduccion": "El debate para revisar el convenio del barrio va ya por la tercera sesión. Todos están de acuerdo con el propósito general, pero al llegar a las condiciones concretas surgen objeciones y no hay manera. Dicen compartir la opinión y aun así quedan puntos que no encajan. Se podría haber forzado un acuerdo. Pero un acuerdo del que solo queda el gesto de haber consentido no sirve de nada. Quien moderaba fue dando el turno de palabra a todos y cada uno. En vez de buscar adhesiones, iba sacando los motivos de la oposición ateniéndose a la situación real. Puede que, fuera de esta manera de hacerlo, no haya modo de sacar adelante un asunto vecinal. En la cuarta sesión salió por fin la conclusión. Llevó su tiempo, pero lo importante es que no se hizo callar a nadie.",
+ "preguntas": [
+  {
+   "p": "<ruby>議題<rt>ぎだい</rt></ruby>がまとまらないのは、なぜですか。",
+   "opciones": [
+    "<ruby>趣旨<rt>しゅし</rt></ruby>に<ruby>反対<rt>はんたい</rt></ruby>があるから",
+    "<ruby>細<rt>こま</rt></ruby>かい<ruby>条件<rt>じょうけん</rt></ruby>になると<ruby>異論<rt>いろん</rt></ruby>が<ruby>出<rt>で</rt></ruby>るから",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから",
+    "<ruby>司会<rt>しかい</rt></ruby>がいないから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>司会<rt>しかい</rt></ruby>の<ruby>方<rt>かた</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>同調<rt>どうちょう</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めた",
+    "<ruby>反対<rt>はんたい</rt></ruby>の<ruby>理由<rt>りゆう</rt></ruby>を<ruby>実情<rt>じつじょう</rt></ruby>に<ruby>即<rt>そく</rt></ruby>して<ruby>聞<rt>き</rt></ruby>き<ruby>出<rt>だ</rt></ruby>した",
+    "<ruby>妥結<rt>だけつ</rt></ruby>を<ruby>急<rt>いそ</rt></ruby>いだ",
+    "<ruby>発言<rt>はつげん</rt></ruby>を<ruby>止<rt>と</rt></ruby>めた"
+   ],
+   "correcta": 1
+  }
+ ]
+}

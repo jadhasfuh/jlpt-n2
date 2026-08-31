@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/kotoba/saber-1",
+ "titulo": "<ruby>行<rt>い</rt></ruby>き<ruby>違<rt>ちが</rt></ruby>い",
+ "cuerpo": "<ruby>待<rt>ま</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせの<ruby>場所<rt>ばしょ</rt></ruby>をまちがえて、<ruby>二時間<rt>にじかん</rt></ruby><ruby>会<rt>あ</rt></ruby>えなかったことがあります。<ruby>電話<rt>でんわ</rt></ruby>の<ruby>電池<rt>でんち</rt></ruby>が<ruby>切<rt>き</rt></ruby>れていて、<ruby>問<rt>と</rt></ruby>い<ruby>合<rt>あ</rt></ruby>わせ<em class=\"g\">ようにも</em><ruby>手<rt>て</rt></ruby>だてが<em class=\"g\">ない</em><ruby>状態<rt>じょうたい</rt></ruby>でした。<ruby>駅<rt>えき</rt></ruby>のインフォメーションで<ruby>放送<rt>ほうそう</rt></ruby>を<ruby>頼<rt>たの</rt></ruby>もうかとも<ruby>思<rt>おも</rt></ruby>いましたが、<ruby>名前<rt>なまえ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>ばれるのが<ruby>恥<rt>は</rt></ruby>ずかしくてやめました。けっきょく、<ruby>相手<rt>あいて</rt></ruby>も<ruby>同<rt>おな</rt></ruby>じことを<ruby>考<rt>かんが</rt></ruby>えていたと<ruby>分<rt>わ</rt></ruby>かって<ruby>笑<rt>わら</rt></ruby>いました。<em class=\"g\">いかなる</em><ruby>準備<rt>じゅんび</rt></ruby>をしても、こういう<ruby>行<rt>い</rt></ruby>き<ruby>違<rt>ちが</rt></ruby>いは<ruby>起<rt>お</rt></ruby>きます。<ruby>知<rt>し</rt></ruby>っているつもりのことほど<ruby>確認<rt>かくにん</rt></ruby>をしないからです。<ruby>体験<rt>たいけん</rt></ruby>してみて<ruby>分<rt>わ</rt></ruby>かったのは、<ruby>連絡<rt>れんらく</rt></ruby>が<ruby>取<rt>と</rt></ruby>れないときにどこで<ruby>待<rt>ま</rt></ruby>つかを<ruby>先<rt>さき</rt></ruby>に<ruby>決<rt>き</rt></ruby>めておけばよかった、というだけのことでした。それ<ruby>以来<rt>いらい</rt></ruby>、<ruby>約束<rt>やくそく</rt></ruby>のときは<ruby>必<rt>かなら</rt></ruby>ず<ruby>一言<rt>ひとこと</rt></ruby><ruby>付<rt>つ</rt></ruby>け<ruby>加<rt>くわ</rt></ruby>えています。",
+ "traduccion": "Una vez me equivoqué de punto de encuentro y estuvimos dos horas sin vernos. Se me había acabado la batería del teléfono, así que aunque hubiera querido preguntar no tenía manera. Pensé en pedir un aviso por megafonía en información de la estación, pero me dio vergüenza que dijeran mi nombre y lo dejé. Al final resultó que la otra persona había pensado exactamente lo mismo, y nos reímos. Por muchos preparativos que hagas, estos desencuentros pasan. Porque justo lo que uno cree saber es lo que no comprueba. Lo que aprendí de vivirlo fue algo tan simple como que deberíamos haber decidido de antemano dónde esperar si no conseguíamos contactar. Desde entonces, cuando quedo con alguien, añado siempre esa frase.",
+ "preguntas": [
+  {
+   "p": "なぜ<ruby>問<rt>と</rt></ruby>い<ruby>合<rt>あ</rt></ruby>わせができませんでしたか。",
+   "opciones": [
+    "<ruby>駅<rt>えき</rt></ruby>が<ruby>遠<rt>とお</rt></ruby>かったから",
+    "<ruby>電話<rt>でんわ</rt></ruby>の<ruby>電池<rt>でんち</rt></ruby>が<ruby>切<rt>き</rt></ruby>れていたから",
+    "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>知<rt>し</rt></ruby>らなかったから",
+    "<ruby>放送<rt>ほうそう</rt></ruby>がなかったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>体験<rt>たいけん</rt></ruby>から<ruby>学<rt>まな</rt></ruby>んだことは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>電池<rt>でんち</rt></ruby>を<ruby>充電<rt>じゅうでん</rt></ruby>しておくこと",
+    "<ruby>連絡<rt>れんらく</rt></ruby>が<ruby>取<rt>と</rt></ruby>れないときにどこで<ruby>待<rt>ま</rt></ruby>つかを<ruby>先<rt>さき</rt></ruby>に<ruby>決<rt>き</rt></ruby>めておくこと",
+    "<ruby>放送<rt>ほうそう</rt></ruby>を<ruby>頼<rt>たの</rt></ruby>むこと",
+    "<ruby>早<rt>はや</rt></ruby>く<ruby>着<rt>つ</rt></ruby>くこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

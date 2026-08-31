@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/kotoba/preguntar-1",
+ "titulo": "<ruby>質疑<rt>しつぎ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>",
+ "cuerpo": "<ruby>講演<rt>こうえん</rt></ruby>のあとの<ruby>質疑<rt>しつぎ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が、いつも<ruby>苦手<rt>にがて</rt></ruby>でした。<ruby>手<rt>て</rt></ruby>を<ruby>挙<rt>あ</rt></ruby>げるのは<ruby>勇気<rt>ゆうき</rt></ruby>のいることです。<ruby>追及<rt>ついきゅう</rt></ruby>するような<ruby>聞<rt>き</rt></ruby>き<ruby>方<rt>かた</rt></ruby>になってしまわないか、<ruby>的外<rt>まとはず</rt></ruby>れな<ruby>出題<rt>しゅつだい</rt></ruby>をしていないか、と<ruby>気<rt>き</rt></ruby>になるのです。これは<ruby>講演<rt>こうえん</rt></ruby><em class=\"g\">に限ったことではない</em>のでしょう。<ruby>会議<rt>かいぎ</rt></ruby>でも<ruby>授業<rt>じゅぎょう</rt></ruby>でも、<ruby>最初<rt>さいしょ</rt></ruby>の<ruby>一人<rt>ひとり</rt></ruby>が<ruby>出<rt>で</rt></ruby>てこない。<ruby>先日<rt>せんじつ</rt></ruby>、<ruby>隣<rt>となり</rt></ruby>の<ruby>席<rt>せき</rt></ruby>の<ruby>方<rt>かた</rt></ruby>が「よく<ruby>分<rt>わ</rt></ruby>からなかったので、もう<ruby>一度<rt>いちど</rt></ruby>お<ruby>願<rt>ねが</rt></ruby>いします」と<ruby>言<rt>い</rt></ruby>いました。<ruby>暗示<rt>あんじ</rt></ruby>も<ruby>助言<rt>じょげん</rt></ruby>もなく、ただ<ruby>正直<rt>しょうじき</rt></ruby>な<ruby>返答<rt>へんとう</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めたのです。<ruby>会場<rt>かいじょう</rt></ruby>の<ruby>反応<rt>はんのう</rt></ruby>が<ruby>変<rt>か</rt></ruby>わりました。<ruby>同<rt>おな</rt></ruby>じところで<ruby>分<rt>わ</rt></ruby>からなかった<ruby>人<rt>ひと</rt></ruby>が、<ruby>共感<rt>きょうかん</rt></ruby>して<ruby>次々<rt>つぎつぎ</rt></ruby>に<ruby>手<rt>て</rt></ruby>を<ruby>挙<rt>あ</rt></ruby>げはじめたのです。<ruby>勧告<rt>かんこく</rt></ruby>よりも、<ruby>一<rt>ひと</rt></ruby>つの<ruby>素直<rt>すなお</rt></ruby>な<ruby>質問<rt>しつもん</rt></ruby>のほうが<ruby>場<rt>ば</rt></ruby>を<ruby>開<rt>ひら</rt></ruby>く。そう<ruby>申<rt>もう</rt></ruby>し<ruby>入<rt>い</rt></ruby>れたいくらいでした。",
+ "traduccion": "El turno de preguntas después de una conferencia siempre se me hizo cuesta arriba. Levantar la mano requiere valor. Te preocupa que la manera de preguntar suene a interrogatorio, o que estés planteando algo que no viene al caso. Y esto no pasa solo en las conferencias. En reuniones y en clase, la primera persona tampoco sale. El otro día, alguien sentado a mi lado dijo: «no lo he entendido bien, ¿podría repetirlo?». Sin insinuaciones ni consejos, simplemente pidió una respuesta franca. La reacción de la sala cambió. Los que se habían perdido en ese mismo punto se sintieron identificados y empezaron a levantar la mano uno tras otro. Más que cualquier recomendación, es una sola pregunta sincera lo que abre una sala. Me habría gustado proponerlo así.",
+ "preguntas": [
+  {
+   "p": "<ruby>質疑<rt>しつぎ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>苦手<rt>にがて</rt></ruby>なのは、なぜですか。",
+   "opciones": [
+    "<ruby>時間<rt>じかん</rt></ruby>が<ruby>短<rt>みじか</rt></ruby>いから",
+    "<ruby>追及<rt>ついきゅう</rt></ruby>するような<ruby>聞<rt>き</rt></ruby>き<ruby>方<rt>かた</rt></ruby>にならないか<ruby>気<rt>き</rt></ruby>になるから",
+    "<ruby>講演<rt>こうえん</rt></ruby>が<ruby>難<rt>むずか</rt></ruby>しいから",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>隣<rt>となり</rt></ruby>の<ruby>席<rt>せき</rt></ruby>の<ruby>方<rt>かた</rt></ruby>が<ruby>質問<rt>しつもん</rt></ruby>したあと、どうなりましたか。",
+   "opciones": [
+    "<ruby>誰<rt>だれ</rt></ruby>も<ruby>手<rt>て</rt></ruby>を<ruby>挙<rt>あ</rt></ruby>げなかった",
+    "<ruby>共感<rt>きょうかん</rt></ruby>した<ruby>人<rt>ひと</rt></ruby>が<ruby>次々<rt>つぎつぎ</rt></ruby>に<ruby>手<rt>て</rt></ruby>を<ruby>挙<rt>あ</rt></ruby>げた",
+    "<ruby>講演<rt>こうえん</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった",
+    "<ruby>司会<rt>しかい</rt></ruby>が<ruby>止<rt>と</rt></ruby>めた"
+   ],
+   "correcta": 1
+  }
+ ]
+}
