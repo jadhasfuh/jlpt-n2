@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/hito/caracter-1",
+ "titulo": "<ruby>我慢<rt>がまん</rt></ruby><ruby>強<rt>づよ</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "<ruby>職場<rt>しょくば</rt></ruby>に、とても<ruby>穏<rt>おだ</rt></ruby>やかな<ruby>人<rt>ひと</rt></ruby>がいます。<ruby>朝<rt>あさ</rt></ruby><em class=\"g\">から</em><ruby>夕方<rt>ゆうがた</rt></ruby><em class=\"g\">にかけて</em>、こえをあらげるところを<ruby>見<rt>み</rt></ruby>たことがありません。<ruby>我慢<rt>がまん</rt></ruby>しているのだろうと<ruby>思<rt>おも</rt></ruby>っていましたが、<ruby>本人<rt>ほんにん</rt></ruby>は「べつに<ruby>我慢<rt>がまん</rt></ruby>していない」と<ruby>言<rt>い</rt></ruby>います。<ruby>性格<rt>せいかく</rt></ruby>というより、<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>の<ruby>種類<rt>しゅるい</rt></ruby>がちがうのかもしれません。<ruby>怠<rt>なま</rt></ruby>けているわけでもなく、しごとはだれよりも<ruby>丁寧<rt>ていねい</rt></ruby>です。<ruby>何<rt>なに</rt></ruby>かをやり<ruby>込<rt>こ</rt></ruby>む<ruby>人<rt>ひと</rt></ruby>は、だいたい<ruby>静<rt>しず</rt></ruby>かなものです。",
+ "traduccion": "En mi trabajo hay una persona muy serena. Desde la mañana hasta el atardecer, nunca la he visto levantar la voz. Yo pensaba que se estaría aguantando, pero ella dice que «no es que me aguante». Quizá, más que carácter, sea un tipo distinto de manera de pensar. Tampoco es que sea perezosa: trabaja con más cuidado que nadie. Quien se entrega a fondo a algo suele ser, por lo general, silencioso.",
+ "preguntas": [
+  {
+   "p": "その<ruby>人<rt>ひと</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>のことをどう<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>我慢<rt>がまん</rt></ruby>している",
+    "べつに<ruby>我慢<rt>がまん</rt></ruby>していない",
+    "つかれている",
+    "<ruby>怠<rt>なま</rt></ruby>けている"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えはどれですか。",
+   "opciones": [
+    "<ruby>静<rt>しず</rt></ruby>かな<ruby>人<rt>ひと</rt></ruby>は<ruby>怠<rt>なま</rt></ruby>けている",
+    "やり<ruby>込<rt>こ</rt></ruby>む<ruby>人<rt>ひと</rt></ruby>はだいたい<ruby>静<rt>しず</rt></ruby>かだ",
+    "<ruby>我慢<rt>がまん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>だ",
+    "<ruby>性格<rt>せいかく</rt></ruby>はかわらない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/hito/apariencia-1",
+ "titulo": "<ruby>泥<rt>どろ</rt></ruby><em class=\"g\">だらけ</em>の<ruby>姿<rt>すがた</rt></ruby>",
+ "cuerpo": "<ruby>子<rt>こ</rt></ruby>どもが<ruby>泥<rt>どろ</rt></ruby><em class=\"g\">だらけ</em>で<ruby>帰<rt>かえ</rt></ruby>ってきました。<ruby>顔<rt>かお</rt></ruby>も<ruby>手<rt>て</rt></ruby>も<ruby>汚<rt>よご</rt></ruby>れていて、<ruby>髪<rt>かみ</rt></ruby>には<ruby>草<rt>くさ</rt></ruby>までついています。おこるつもりでしたが、その<ruby>姿<rt>すがた</rt></ruby>を<ruby>見<rt>み</rt></ruby>てわらってしまいました。<ruby>美人<rt>びじん</rt></ruby>やハンサムということばは<ruby>顔<rt>かお</rt></ruby>のことだけを<ruby>指<rt>さ</rt></ruby>しますが、<ruby>本当<rt>ほんとう</rt></ruby>にきれいに<ruby>見<rt>み</rt></ruby>えるのは<ruby>夢中<rt>むちゅう</rt></ruby>になっている<ruby>人<rt>ひと</rt></ruby>の<ruby>姿<rt>すがた</rt></ruby>です。きずと<ruby>脂<rt>あぶら</rt></ruby><em class=\"g\">だらけ</em>の<ruby>手<rt>て</rt></ruby>をした<ruby>職人<rt>しょくにん</rt></ruby>を<ruby>美<rt>うつく</rt></ruby>しいと<ruby>感<rt>かん</rt></ruby>じるのも、たぶん<ruby>同<rt>おな</rt></ruby>じ<ruby>理由<rt>りゆう</rt></ruby>でしょう。",
+ "traduccion": "Mi hijo volvió lleno de barro. Tenía la cara y las manos sucias y hasta hierba en el pelo. Iba a regañarle, pero al ver esa estampa me eché a reír. Palabras como «guapa» o «guapo» se refieren solo a la cara, pero lo que de verdad se ve hermoso es la figura de alguien absorto en lo que hace. Que un artesano con las manos llenas de cortes y grasa nos parezca bello es, seguramente, por la misma razón.",
+ "preguntas": [
+  {
+   "p": "<ruby>子<rt>こ</rt></ruby>どもを<ruby>見<rt>み</rt></ruby>て、どうしましたか。",
+   "opciones": [
+    "おこった",
+    "わらってしまった",
+    "<ruby>洗<rt>あら</rt></ruby>った",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>本当<rt>ほんとう</rt></ruby>にきれいに<ruby>見<rt>み</rt></ruby>えるのは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>顔<rt>かお</rt></ruby>",
+    "<ruby>夢中<rt>むちゅう</rt></ruby>になっている<ruby>人<rt>ひと</rt></ruby>の<ruby>姿<rt>すがた</rt></ruby>",
+    "<ruby>美人<rt>びじん</rt></ruby>",
+    "きれいな<ruby>手<rt>て</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

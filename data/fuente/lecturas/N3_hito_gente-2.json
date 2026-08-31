@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/hito/gente-2",
+ "titulo": "<ruby>仲間<rt>なかま</rt></ruby>と<ruby>他人<rt>たにん</rt></ruby>",
+ "cuerpo": "<ruby>住宅<rt>じゅうたく</rt></ruby>がふえるにつれて、<ruby>住民<rt>じゅうみん</rt></ruby>のかおぶれもかわりました。<ruby>昔<rt>むかし</rt></ruby>からすんでいる<ruby>人<rt>ひと</rt></ruby>と、あたらしく<ruby>来<rt>き</rt></ruby>た<ruby>人<rt>ひと</rt></ruby>。はじめは<ruby>他人<rt>たにん</rt></ruby>どうしでも、<ruby>時間<rt>じかん</rt></ruby>がたつ<em class=\"g\">につれて</em><ruby>仲間<rt>なかま</rt></ruby>になっていきます。<ruby>個人<rt>こじん</rt></ruby>のせいかつをたいせつにしながら、こまったときはたすけあう。<ruby>人間<rt>にんげん</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>は、そのバランスできまります。<ruby>年<rt>とし</rt></ruby>を<ruby>取<rt>と</rt></ruby>る<em class=\"g\">につれて</em>、<ruby>味方<rt>みかた</rt></ruby>になってくれる<ruby>人<rt>ひと</rt></ruby>のありがたさがよくわかるようになりました。<ruby>知合<rt>しりあ</rt></ruby>いから<ruby>友人<rt>ゆうじん</rt></ruby>へ、そして<ruby>親友<rt>しんゆう</rt></ruby>へ。<ruby>時間<rt>じかん</rt></ruby>しかできないことがあります。",
+ "traduccion": "A medida que aumentaban las viviendas, también cambió el vecindario. Los que viven aquí desde siempre y los recién llegados. Aunque al principio sean desconocidos, conforme pasa el tiempo se van convirtiendo en compañeros. Cuidar la vida privada de cada uno y, cuando hay un problema, ayudarse. Las relaciones humanas se definen por ese equilibrio. Conforme cumplo años, entiendo mejor lo que vale la gente que se pone de tu lado. De conocidos a amigos, y de ahí a amigos íntimos. Hay cosas que solo puede hacer el tiempo.",
+ "preguntas": [
+  {
+   "p": "<ruby>住民<rt>じゅうみん</rt></ruby>のかおぶれがかわったのはなぜですか。",
+   "opciones": [
+    "<ruby>年<rt>とし</rt></ruby>を<ruby>取<rt>と</rt></ruby>ったから",
+    "<ruby>住宅<rt>じゅうたく</rt></ruby>がふえたから",
+    "<ruby>仲間<rt>なかま</rt></ruby>になったから",
+    "<ruby>他人<rt>たにん</rt></ruby>だから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>人間<rt>にんげん</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>できまりますか。",
+   "opciones": [
+    "<ruby>時間<rt>じかん</rt></ruby>のながさ",
+    "<ruby>個人<rt>こじん</rt></ruby>のせいかつとたすけあいのバランス",
+    "<ruby>住宅<rt>じゅうたく</rt></ruby>の<ruby>数<rt>かず</rt></ruby>",
+    "<ruby>年<rt>とし</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

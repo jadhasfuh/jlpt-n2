@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/gijutsu/ocio-1",
+ "titulo": "カードの<ruby>謎<rt>なぞ</rt></ruby>",
+ "cuerpo": "<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>、<ruby>子<rt>こ</rt></ruby>どもたちとトランプをしました。まけると、すぐに「もう<ruby>一<rt>いち</rt></ruby>かい」と<ruby>言<rt>い</rt></ruby>います。つよくなりたいのではなく、そのばで<ruby>終<rt>お</rt></ruby>わらせたくないだけのようです。<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>い</rt></ruby>っ<em class=\"g\">ても始まらない</em>ので、ルールをすこしかえて、みんなが<ruby>勝<rt>か</rt></ruby>てるようにしました。むかしあつめたカードの<ruby>集<rt>しゅう</rt></ruby>が<ruby>押<rt>お</rt></ruby>し<ruby>入<rt>い</rt></ruby>れから<ruby>出<rt>で</rt></ruby>てきて、<ruby>謎<rt>なぞ</rt></ruby>のような<ruby>絵<rt>え</rt></ruby>をながめて<ruby>時間<rt>じかん</rt></ruby>が<ruby>過<rt>す</rt></ruby>ぎました。<ruby>勝<rt>か</rt></ruby>ち<ruby>負<rt>ま</rt></ruby>けをかぞえ<em class=\"g\">ても始まらない</em><ruby>遊<rt>あそ</rt></ruby>びのほうが、あとまでのこるものです。",
+ "traduccion": "Un día de lluvia jugué a las cartas con unos niños. Cuando pierden, enseguida dicen «otra vez». No es que quieran ganar: parece que simplemente no quieren que aquello se acabe ahí. Como quejarse no sirve de nada, cambié un poco las reglas para que todos pudieran ganar. Del armario salió la colección de cartas que reuní hace años, y se me pasó el rato mirando aquellos dibujos enigmáticos. Los juegos en los que no tiene sentido contar victorias y derrotas son los que se quedan contigo.",
+ "preguntas": [
+  {
+   "p": "<ruby>子<rt>こ</rt></ruby>どもたちが「もう<ruby>一<rt>いち</rt></ruby>かい」と<ruby>言<rt>い</rt></ruby>うのはなぜですか。",
+   "opciones": [
+    "つよくなりたいから",
+    "そのばで<ruby>終<rt>お</rt></ruby>わらせたくないから",
+    "<ruby>勝<rt>か</rt></ruby>ったから",
+    "<ruby>雨<rt>あめ</rt></ruby>だから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "やめた",
+    "ルールをかえてみんなが<ruby>勝<rt>か</rt></ruby>てるようにした",
+    "<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>い</rt></ruby>った",
+    "カードをすてた"
+   ],
+   "correcta": 1
+  }
+ ]
+}

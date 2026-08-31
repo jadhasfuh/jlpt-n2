@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/hito/familia-1",
+ "titulo": "<ruby>孫<rt>まご</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>",
+ "cuerpo": "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>に、<ruby>親戚<rt>しんせき</rt></ruby>があつまりました。<ruby>夫婦<rt>ふうふ</rt></ruby>で<ruby>来<rt>き</rt></ruby>た<ruby>人<rt>ひと</rt></ruby>も、<ruby>子<rt>こ</rt></ruby>どもを<ruby>連<rt>つ</rt></ruby>れてきた<ruby>人<rt>ひと</rt></ruby>もいます。<ruby>姉妹<rt>しまい</rt></ruby>のうち、<ruby>下<rt>した</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>にはじめて<ruby>孫<rt>まご</rt></ruby>ができたそうです。「<ruby>名前<rt>なまえ</rt></ruby>、なんだった<em class=\"g\">っけ</em>」と<ruby>祖父<rt>そふ</rt></ruby>が<ruby>何度<rt>なんど</rt></ruby>も<ruby>聞<rt>き</rt></ruby>きます。わすれているのではなく、<ruby>言<rt>い</rt></ruby>いたいだけなのかもしれません。<ruby>農家<rt>のうか</rt></ruby>をついだいとこは、しごとの<ruby>話<rt>はなし</rt></ruby><em class=\"g\">ばかりで</em>、なかなかすわりません。それでも、<ruby>一家<rt>いっか</rt></ruby>がそろう<ruby>日<rt>ひ</rt></ruby>は<ruby>年<rt>ねん</rt></ruby>に<ruby>一<rt>いち</rt></ruby><ruby>度<rt>ど</rt></ruby>きりです。",
+ "traduccion": "En casa de mi abuelo se juntó la familia. Vino gente en pareja y gente con sus hijos. De entre las hermanas, la menor acaba de tener su primer nieto. Mi abuelo pregunta una y otra vez: «¿cómo se llamaba?». Puede que no sea que lo olvide, sino que solo quiere decirlo. El primo que se quedó con la granja no para de hablar de trabajo y no acaba de sentarse. Aun así, el día en que se junta toda la familia es solo una vez al año.",
+ "preguntas": [
+  {
+   "p": "<ruby>祖父<rt>そふ</rt></ruby>が<ruby>何度<rt>なんど</rt></ruby>も<ruby>聞<rt>き</rt></ruby>くのはなぜかもしれませんか。",
+   "opciones": [
+    "わすれているから",
+    "<ruby>言<rt>い</rt></ruby>いたいだけかもしれない",
+    "<ruby>聞<rt>き</rt></ruby>こえないから",
+    "<ruby>知<rt>し</rt></ruby>らないから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いとこはどうしていますか。",
+   "opciones": [
+    "すわって<ruby>話<rt>はな</rt></ruby>している",
+    "しごとの<ruby>話<rt>はなし</rt></ruby><em class=\"g\">ばかりで</em>なかなかすわらない",
+    "<ruby>来<rt>こ</rt></ruby>なかった",
+    "<ruby>子<rt>こ</rt></ruby>どもと<ruby>遊<rt>あそ</rt></ruby>んでいる"
+   ],
+   "correcta": 1
+  }
+ ]
+}
