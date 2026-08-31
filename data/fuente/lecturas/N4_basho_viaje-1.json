@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/basho/viaje-1",
+ "titulo": "<ruby>案内<rt>あんない</rt></ruby>してくれた<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "はじめての<ruby>町<rt>まち</rt></ruby>で、<ruby>道<rt>みち</rt></ruby>がわからなくなりました。<ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby>ても、<ruby>自分<rt>じぶん</rt></ruby>がどこにいるのかわかりません。<ruby>近<rt>ちか</rt></ruby>くの<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>にきくと、そとまで<ruby>出<rt>で</rt></ruby>てきて<ruby>案内<rt>あんない</rt></ruby>してくれました。「この<ruby>道<rt>みち</rt></ruby>をまっすぐ<ruby>行<rt>い</rt></ruby>けば、<em class=\"g\">きっと</em>わかりますよ」と<ruby>言<rt>い</rt></ruby>って、<ruby>地図<rt>ちず</rt></ruby>にしるしまで<ruby>書<rt>か</rt></ruby>いてくれました。<ruby>旅行<rt>りょこう</rt></ruby>のいちばんの<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>は、<ruby>見<rt>み</rt></ruby>たものより、こういう<ruby>人<rt>ひと</rt></ruby>のことです。つぎに<ruby>道<rt>みち</rt></ruby>をきかれたら、<em class=\"g\">きっと</em><ruby>同<rt>おな</rt></ruby>じようにしようと<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "En una ciudad a la que iba por primera vez me perdí. Aunque miraba el mapa, no sabía dónde estaba yo. Pregunté a alguien de una tienda cercana y salió a la calle para guiarme. Me dijo: «si sigue recto por esta calle, seguro que lo encuentra», y hasta me marcó el mapa. El mejor recuerdo de un viaje no son las cosas que ves, sino la gente así. La próxima vez que alguien me pregunte por una calle, seguro que haré lo mismo.",
+ "preguntas": [
+  {
+   "p": "<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしてくれましたか。",
+   "opciones": [
+    "<ruby>地図<rt>ちず</rt></ruby>をくれた",
+    "そとまで<ruby>出<rt>で</rt></ruby>て<ruby>案内<rt>あんない</rt></ruby>してくれた",
+    "<ruby>店<rt>みせ</rt></ruby>まで<ruby>送<rt>おく</rt></ruby>ってくれた",
+    "<ruby>電話<rt>でんわ</rt></ruby>してくれた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>旅行<rt>りょこう</rt></ruby>のいちばんの<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>見<rt>み</rt></ruby>たもの",
+    "<ruby>人<rt>ひと</rt></ruby>のこと",
+    "<ruby>地図<rt>ちず</rt></ruby>",
+    "<ruby>道<rt>みち</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

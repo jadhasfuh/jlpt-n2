@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/basho/ubicacion-2",
+ "titulo": "<ruby>近所<rt>きんじょ</rt></ruby>の<ruby>会場<rt>かいじょう</rt></ruby>",
+ "cuerpo": "<ruby>近所<rt>きんじょ</rt></ruby>の<ruby>会場<rt>かいじょう</rt></ruby>で、<ruby>西洋<rt>せいよう</rt></ruby>のおんがくの<ruby>会<rt>かい</rt></ruby>がありました。<ruby>場所<rt>ばしょ</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>から<ruby>十分<rt>じっぷん</rt></ruby><ruby>以内<rt>いない</rt></ruby>です。<ruby>朝<rt>あさ</rt></ruby>、でんしゃが<ruby>故障<rt>こしょう</rt></ruby>して<ruby>不通<rt>ふつう</rt></ruby>になり、<em class=\"g\">急に</em><ruby>行<rt>い</rt></ruby>けなくなるかと<ruby>思<rt>おも</rt></ruby>いましたが、バスで<ruby>間<rt>ま</rt></ruby>にあいました。<ruby>会場<rt>かいじょう</rt></ruby>の<ruby>真中<rt>まんなか</rt></ruby>あたりに<ruby>座<rt>すわ</rt></ruby>りました。<ruby>中<rt>なか</rt></ruby>が<ruby>冷<rt>ひ</rt></ruby>えていたので、うわぎをきました。<ruby>子<rt>こ</rt></ruby>どもを<ruby>育<rt>そだ</rt></ruby>てながらおんがくをつづけている<ruby>人<rt>ひと</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて、<ruby>仕方<rt>しかた</rt></ruby>はひとつではないと<ruby>思<rt>おも</rt></ruby>いました。<ruby>時間<rt>じかん</rt></ruby>が<ruby>過<rt>す</rt></ruby>ぎるのがはやい<ruby>夜<rt>よる</rt></ruby>でした。",
+ "traduccion": "En un local de mi barrio hubo un concierto de música occidental. El sitio está a menos de diez minutos de la estación. Por la mañana el tren se averió y quedó cortado, y pensé que de repente me quedaría sin ir, pero llegué a tiempo en autobús. Me senté más o menos en el centro de la sala. Dentro hacía fresco, así que me puse la chaqueta. Al oír a alguien que sigue con la música mientras cría a sus hijos, pensé que no hay una sola manera de hacer las cosas. Fue una noche en la que el tiempo pasó rápido.",
+ "preguntas": [
+  {
+   "p": "<ruby>朝<rt>あさ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "バスがとまった",
+    "でんしゃが<ruby>故障<rt>こしょう</rt></ruby>した",
+    "<ruby>雨<rt>あめ</rt></ruby>がふった",
+    "<ruby>会<rt>かい</rt></ruby>が<ruby>中止<rt>ちゅうし</rt></ruby>になった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>思<rt>おも</rt></ruby>いましたか。",
+   "opciones": [
+    "おんがくはむずかしい",
+    "<ruby>仕方<rt>しかた</rt></ruby>はひとつではない",
+    "<ruby>子<rt>こ</rt></ruby>そだてはたいへんだ",
+    "<ruby>場所<rt>ばしょ</rt></ruby>がとおい"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -41,8 +41,14 @@ def aparece(forma, texto):
             # La última pieza suele conjugarse (願う→願います, ない→なかった,
             # 済む→済んだ): se acepta también sin su okurigana final.
             if i < 0 and k == len(partes) - 1 and len(parte) > 1:
-                i = texto.find(parte[:-1], pos)
-                if i >= 0: encontrada = parte[:-1]
+                # する y 来る son irregulares: cortar la última letra da «す» y
+                # «来», que no aparecen. Sus raíces de verdad son し y き.
+                for raiz in (parte[:-2] + "し" if parte.endswith("する") else None,
+                             parte[:-2] + "き" if parte.endswith("くる") else None,
+                             parte[:-1]):
+                    if not raiz: continue
+                    i = texto.find(raiz, pos)
+                    if i >= 0: encontrada = raiz; break
             parte = encontrada
             if i < 0: ok = False; break
             pos = i + len(parte)

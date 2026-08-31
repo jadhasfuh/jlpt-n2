@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/dousa/colocar-1",
+ "titulo": "はこに<ruby>集<rt>あつ</rt></ruby>める",
+ "cuerpo": "へやがちらかっていました。ゆかにも、つくえの<ruby>上<rt>うえ</rt></ruby>にも、<ruby>物<rt>もの</rt></ruby>がたくさんおいてあります。ともだちが「まず、<ruby>同<rt>おな</rt></ruby>じものを<ruby>一<rt>ひと</rt></ruby>つのはこに<ruby>集<rt>あつ</rt></ruby>め<em class=\"g\">たらどう</em>?」と<ruby>言<rt>い</rt></ruby>いました。やってみると、かみはかみ、ペンはペンで、すぐにかたづきました。<ruby>半分<rt>はんぶん</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>はいらないものでした。「つぎは、いらないものをすて<em class=\"g\">たらどう</em>?」と<ruby>言<rt>い</rt></ruby>われましたが、それはもうすこしかんがえてからにします。",
+ "traduccion": "Mi habitación estaba hecha un desastre. Había cosas por el suelo y encima del escritorio. Un amigo me dijo: «¿y si primero juntas lo del mismo tipo en una caja?». Lo probé y, con los papeles por un lado y los bolis por otro, se recogió enseguida. Más de la mitad eran cosas que no necesitaba. Me dijo «¿y si ahora tiras lo que no te hace falta?», pero eso lo dejo para cuando lo piense un poco más.",
+ "preguntas": [
+  {
+   "p": "ともだちは、まず<ruby>何<rt>なに</rt></ruby>をすすめましたか。",
+   "opciones": [
+    "すてること",
+    "<ruby>同<rt>おな</rt></ruby>じものをはこに<ruby>集<rt>あつ</rt></ruby>めること",
+    "つくえをかたづけること",
+    "かみを<ruby>書<rt>か</rt></ruby>くこと"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いらないものはどのくらいありましたか。",
+   "opciones": [
+    "<ruby>少<rt>すこ</rt></ruby>し",
+    "<ruby>半分<rt>はんぶん</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>",
+    "ぜんぶ",
+    "なかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}
