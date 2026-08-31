@@ -1,7 +1,7 @@
 {
  "unidad_id": "N3/shigoto/campo-1",
  "titulo": "たねを<ruby>蒔<rt>ま</rt></ruby>く",
- "cuerpo": "<ruby>春<rt>はる</rt></ruby>のはじめ、はたけにたねを<ruby>蒔<rt>ま</rt></ruby>きます。<ruby>土<rt>つち</rt></ruby>のかわきぐあいを<ruby>見<rt>み</rt></ruby><em class=\"g\">にしたがって</em>、<ruby>水<rt>みず</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>を<ruby>変<rt>か</rt></ruby>えます。はやく<ruby>芽<rt>め</rt></ruby>を<ruby>出<rt>だ</rt></ruby>させる<em class=\"g\">には</em>、あたたかい<ruby>日<rt>ひ</rt></ruby>をえらぶことです。<ruby>肥<rt>ひ</rt></ruby>りょうを<ruby>撒<rt>ま</rt></ruby>くのは、<ruby>芽<rt>め</rt></ruby>が<ruby>出<rt>で</rt></ruby>てからでおそくありません。<ruby>海<rt>うみ</rt></ruby>では<ruby>釣<rt>つり</rt></ruby>のきせつが<ruby>始<rt>はじ</rt></ruby>まります。<ruby>魚<rt>さかな</rt></ruby>も<ruby>作物<rt>さくもつ</rt></ruby>も、<ruby>人<rt>ひと</rt></ruby>のつごうではなく<ruby>季節<rt>きせつ</rt></ruby>にしたがってうごきます。<ruby>待<rt>ま</rt></ruby>つことをおぼえる<em class=\"g\">には</em>、この<ruby>仕事<rt>しごと</rt></ruby>がいちばんです。",
+ "cuerpo": "<ruby>春<rt>はる</rt></ruby>のはじめ、はたけにたねを<ruby>蒔<rt>ま</rt></ruby>きます。<ruby>土<rt>つち</rt></ruby>のかわきぐあいを<ruby>見<rt>み</rt></ruby><em class=\"g\">にしたがって</em>、<ruby>水<rt>みず</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>を<ruby>変<rt>か</rt></ruby>えます。はやく<ruby>芽<rt>め</rt></ruby>を<ruby>出<rt>だ</rt></ruby>させる<em class=\"g\">には</em>、あたたかい<ruby>日<rt>ひ</rt></ruby>をえらぶことです。ひりょうを<ruby>撒<rt>ま</rt></ruby>くのは、<ruby>芽<rt>め</rt></ruby>が<ruby>出<rt>で</rt></ruby>てからでおそくありません。<ruby>海<rt>うみ</rt></ruby>では<ruby>釣<rt>つり</rt></ruby>のきせつが<ruby>始<rt>はじ</rt></ruby>まります。<ruby>魚<rt>さかな</rt></ruby>も<ruby>作物<rt>さくもつ</rt></ruby>も、<ruby>人<rt>ひと</rt></ruby>のつごうではなく<ruby>季節<rt>きせつ</rt></ruby>にしたがってうごきます。<ruby>待<rt>ま</rt></ruby>つことをおぼえる<em class=\"g\">には</em>、この<ruby>仕事<rt>しごと</rt></ruby>がいちばんです。",
  "traduccion": "A principios de primavera se siembra en el huerto. Según cómo veas de seca la tierra, cambias la cantidad de agua. Para que broten pronto, hay que elegir un día templado. Echar el abono no es tarde si se hace después de que broten. En el mar empieza la temporada de pesca. Tanto los peces como los cultivos se mueven según las estaciones, no según la conveniencia de la gente. Para aprender a esperar, no hay oficio mejor que este.",
  "preguntas": [
   {
@@ -10,7 +10,7 @@
     "<ruby>季節<rt>きせつ</rt></ruby>",
     "<ruby>土<rt>つち</rt></ruby>のかわきぐあい",
     "<ruby>芽<rt>め</rt></ruby>の<ruby>数<rt>かず</rt></ruby>",
-    "<ruby>肥<rt>ひ</rt></ruby>りょう"
+    "ひりょう"
    ],
    "correcta": 1
   },
