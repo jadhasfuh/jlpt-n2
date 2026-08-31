@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kokoro/relaciones-1",
+ "titulo": "<ruby>世話<rt>せわ</rt></ruby>になった<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "<ruby>学生<rt>がくせい</rt></ruby>のころ<ruby>世話<rt>せわ</rt></ruby>になった<ruby>先生<rt>せんせい</rt></ruby>を<ruby>訪<rt>たず</rt></ruby>ねました。<ruby>招待<rt>しょうたい</rt></ruby>してくださったのは<ruby>先生<rt>せんせい</rt></ruby>のほうです。げんかんで<ruby>挨拶<rt>あいさつ</rt></ruby>をすると、おくさんがおちゃをいれ<em class=\"g\">てくれ</em>ました。<ruby>彼<rt>かれ</rt></ruby>はもう<ruby>仕事<rt>しごと</rt></ruby>をやめていますが、まだたくさんの<ruby>学生<rt>がくせい</rt></ruby>と<ruby>関係<rt>かんけい</rt></ruby>がつづいているそうです。「<ruby>何<rt>なに</rt></ruby>かこまったら、いつでも<ruby>伺<rt>うかが</rt></ruby>っていいですか」と<ruby>聞<rt>き</rt></ruby>くと、「もちろん」とわらっ<em class=\"g\">てくれ</em>ました。だれかにしてもらったことは、ほかのだれかにかえせばいいのだと<ruby>教<rt>おし</rt></ruby>わりました。",
+ "traduccion": "Fui a visitar al profesor que me ayudó tanto en mis años de estudiante. Fue él quien me invitó. Al saludar en el recibidor, su mujer me preparó un té. Él ya se ha jubilado, pero dicen que mantiene el contacto con muchos antiguos alumnos. Le pregunté si podía ir a verle siempre que tuviera un problema y me contestó riéndose que por supuesto. Aprendí que lo que alguien hace por ti se devuelve a otra persona.",
+ "preguntas": [
+  {
+   "p": "だれが<ruby>招待<rt>しょうたい</rt></ruby>しましたか。",
+   "opciones": [
+    "この<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>先生<rt>せんせい</rt></ruby>",
+    "おくさん",
+    "<ruby>学生<rt>がくせい</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>教<rt>おし</rt></ruby>わりましたか。",
+   "opciones": [
+    "<ruby>先生<rt>せんせい</rt></ruby>をたずねること",
+    "してもらったことはほかのだれかにかえせばいい",
+    "<ruby>仕事<rt>しごと</rt></ruby>をやめること",
+    "<ruby>挨拶<rt>あいさつ</rt></ruby>のしかた"
+   ],
+   "correcta": 1
+  }
+ ]
+}

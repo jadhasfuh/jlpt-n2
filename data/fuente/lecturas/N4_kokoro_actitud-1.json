@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kokoro/actitud-1",
+ "titulo": "<ruby>丁寧<rt>ていねい</rt></ruby>にこたえる",
+ "cuerpo": "でんわに<ruby>出<rt>で</rt></ruby>ると、「<ruby>山田<rt>やまだ</rt></ruby>さんは<em class=\"g\">いらっしゃい</em>ますか」と<ruby>聞<rt>き</rt></ruby>かれました。「ただいま<ruby>席<rt>せき</rt></ruby>をはずしております。<ruby>三時<rt>さんじ</rt></ruby>にはもどると<ruby>思<rt>おも</rt></ruby>います」と<ruby>丁寧<rt>ていねい</rt></ruby>に<ruby>答<rt>こた</rt></ruby>えました。あいてのこえはつかれていました。こういうとき、<ruby>無視<rt>むし</rt></ruby>するのがいちばんよくないと<ruby>思<rt>おも</rt></ruby>います。<ruby>大事<rt>だいじ</rt></ruby>なのは、<ruby>行動<rt>こうどう</rt></ruby>でしめすことです。「おつたえしたいことは<em class=\"g\">ございます</em>か」ときいて、メモをとりました。<ruby>叱<rt>しか</rt></ruby>るよりも、まずあいてのはなしを<ruby>聞<rt>き</rt></ruby>くほうがはやいのです。とうとう<ruby>三時<rt>さんじ</rt></ruby>に、<ruby>山田<rt>やまだ</rt></ruby>さんはもどってきました。",
+ "traduccion": "Al coger el teléfono me preguntaron si estaba el señor Yamada. Contesté con formalidad: «ahora mismo no está en su sitio; creo que vuelve a las tres». La voz del otro sonaba cansada. En situaciones así, creo que lo peor es ignorar a la persona. Lo importante es demostrarlo con hechos. Le pregunté si había algo que quisiera transmitirle y tomé nota. Más que regañar, se va más rápido escuchando primero al otro. Al final, a las tres, el señor Yamada volvió.",
+ "preguntas": [
+  {
+   "p": "でんわで<ruby>何<rt>なに</rt></ruby>を<ruby>聞<rt>き</rt></ruby>かれましたか。",
+   "opciones": [
+    "<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>山田<rt>やまだ</rt></ruby>さんが<em class=\"g\">いらっしゃい</em>ますか",
+    "なまえ",
+    "<ruby>用<rt>よう</rt></ruby>じ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby>よくないと<ruby>思<rt>おも</rt></ruby>うことは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>叱<rt>しか</rt></ruby>ること",
+    "<ruby>無視<rt>むし</rt></ruby>すること",
+    "メモをとること",
+    "<ruby>待<rt>ま</rt></ruby>つこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

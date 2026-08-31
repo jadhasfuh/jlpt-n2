@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kokoro/tristeza-1",
+ "titulo": "<ruby>寂<rt>さび</rt></ruby>しさとつきあう",
+ "cuerpo": "ひとりぐらしを<ruby>始<rt>はじ</rt></ruby>めたころ、よる<ruby>寂<rt>さび</rt></ruby>しくて<ruby>怖<rt>こわ</rt></ruby>かったです。<ruby>心配<rt>しんぱい</rt></ruby>した<ruby>母<rt>はは</rt></ruby>が、まいばんでんわをくれました。でも、いつまでもそうしてもらうわけにはいきません。すこしずつ、ひとりの<ruby>時間<rt>じかん</rt></ruby>になれ<em class=\"g\">ていき</em>ました。<ruby>悲<rt>かな</rt></ruby>しいことがあった<ruby>日<rt>ひ</rt></ruby>は、いまでもつらいです。<ruby>怒<rt>おこ</rt></ruby>ることも、<ruby>残念<rt>ざんねん</rt></ruby>に<ruby>思<rt>おも</rt></ruby>うこともあります。でも、そういう<ruby>気持<rt>きも</rt></ruby>ちは、むりにけさなくてもいいのだと<ruby>分<rt>わ</rt></ruby>かりました。そのまま<ruby>持<rt>も</rt></ruby>っ<em class=\"g\">ていく</em>ほうが、かえってかるくなるのです。",
+ "traduccion": "Cuando empecé a vivir solo, por las noches me sentía solo y tenía miedo. Mi madre, preocupada, me llamaba cada noche. Pero eso no podía durar para siempre. Poco a poco me fui acostumbrando al tiempo a solas. Los días en que pasa algo triste siguen siendo duros. También me enfado, y también hay cosas que lamento. Pero entendí que esos sentimientos no hace falta borrarlos a la fuerza. Llevarlos contigo tal cual acaba resultando, al contrario, más ligero.",
+ "preguntas": [
+  {
+   "p": "ひとりぐらしを<ruby>始<rt>はじ</rt></ruby>めたころ、どうでしたか。",
+   "opciones": [
+    "たのしかった",
+    "よる<ruby>寂<rt>さび</rt></ruby>しくて<ruby>怖<rt>こわ</rt></ruby>かった",
+    "<ruby>気<rt>き</rt></ruby>にならなかった",
+    "<ruby>母<rt>はは</rt></ruby>といた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "つらい<ruby>気持<rt>きも</rt></ruby>ちについて、<ruby>何<rt>なに</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりましたか。",
+   "opciones": [
+    "すぐけすべきだ",
+    "むりにけさなくてもいい",
+    "だれかに<ruby>話<rt>はな</rt></ruby>すべきだ",
+    "わすれるべきだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

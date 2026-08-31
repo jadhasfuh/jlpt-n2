@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kokoro/deseo-1",
+ "titulo": "<ruby>熱心<rt>ねっしん</rt></ruby>な<ruby>理由<rt>りゆう</rt></ruby>",
+ "cuerpo": "いま、あたらしいけいかくを<ruby>考<rt>かんが</rt></ruby>え<em class=\"g\">ているところ</em>です。まわりからは「よく<ruby>続<rt>つづ</rt></ruby>くね」と<ruby>言<rt>い</rt></ruby>われます。<ruby>熱心<rt>ねっしん</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるようですが、じつは、<ruby>分<rt>わ</rt></ruby>かり<em class=\"g\">やすい</em><ruby>理由<rt>りゆう</rt></ruby>があります。むかし、やりたかったことをあきらめたことがあるのです。そのときの<ruby>気持<rt>きも</rt></ruby>ちをおぼえているから、いまは<ruby>意志<rt>いし</rt></ruby>がつづきます。だれでも、はじめは<ruby>弱<rt>よわ</rt></ruby>い<ruby>意思<rt>いし</rt></ruby>しか<ruby>持<rt>も</rt></ruby>てません。うまくいくように<ruby>祈<rt>いの</rt></ruby>りながら、できることからやっ<em class=\"g\">ているところ</em>です。",
+ "traduccion": "Ahora mismo estoy dándole vueltas a un plan nuevo. La gente de alrededor me dice «cómo aguantas». Parece que doy la impresión de ser muy entusiasta, pero en realidad hay una razón fácil de entender. Hace tiempo renuncié a algo que quería hacer. Como recuerdo lo que sentí entonces, ahora la voluntad me dura. Cualquiera, al principio, solo puede tener una voluntad débil. Rezando para que salga bien, voy haciendo lo que puedo.",
+ "preguntas": [
+  {
+   "p": "まわりからは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>われますか。",
+   "opciones": [
+    "むずかしいね",
+    "よく<ruby>続<rt>つづ</rt></ruby>くね",
+    "やめなさい",
+    "<ruby>早<rt>はや</rt></ruby>いね"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>意志<rt>いし</rt></ruby>がつづく<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>熱心<rt>ねっしん</rt></ruby>だから",
+    "むかしあきらめたときの<ruby>気持<rt>きも</rt></ruby>ちをおぼえているから",
+    "まわりが<ruby>見<rt>み</rt></ruby>ているから",
+    "けいかくがいいから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

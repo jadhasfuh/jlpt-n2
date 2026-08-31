@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/jikan/orden-1",
+ "titulo": "<ruby>通<rt>とお</rt></ruby>りにやってみる",
+ "cuerpo": "あたらしいりょうりを<ruby>作<rt>つく</rt></ruby>るとき、わたしは<ruby>本<rt>ほん</rt></ruby>の<ruby>通<rt>とお</rt></ruby>りにやります。はじめから<ruby>自分<rt>じぶん</rt></ruby>のやり<ruby>方<rt>かた</rt></ruby>にすると、たいていしっぱいするからです。<ruby>一<rt>いち</rt></ruby><ruby>度<rt>ど</rt></ruby><ruby>通<rt>とお</rt></ruby>りにやってみて、うまくいった<ruby>間<rt>あいだ</rt></ruby>に、どこをかえられるかを<ruby>考<rt>かんが</rt></ruby>えます。<ruby>子<rt>こ</rt></ruby>どもがとなりで<ruby>手<rt>て</rt></ruby>つだってくれている<em class=\"g\">間に</em>、ゆかに<ruby>落<rt>お</rt></ruby>ちたやさいを<ruby>踏<rt>ふ</rt></ruby>んでしまいました。けっきょく、その<ruby>日<rt>ひ</rt></ruby>のりょうりは<ruby>通<rt>とお</rt></ruby>りにはなりませんでした。でも、<ruby>次<rt>つぎ</rt></ruby>はもっとうまくできるはずです。",
+ "traduccion": "Cuando cocino algo nuevo, lo hago tal cual dice el libro. Porque si voy a mi aire desde el principio, casi siempre sale mal. Lo hago una vez al pie de la letra y, mientras sale bien, pienso qué se podría cambiar. Mientras mi hijo me ayudaba a mi lado, pisé una verdura que se había caído al suelo. Al final, la comida de aquel día no salió como decía el libro. Pero la próxima vez debería salirme mejor.",
+ "preguntas": [
+  {
+   "p": "なぜ、<ruby>本<rt>ほん</rt></ruby>の<ruby>通<rt>とお</rt></ruby>りにやりますか。",
+   "opciones": [
+    "はやいから",
+    "<ruby>自分<rt>じぶん</rt></ruby>のやり<ruby>方<rt>かた</rt></ruby>だとしっぱいするから",
+    "<ruby>子<rt>こ</rt></ruby>どもがいるから",
+    "やさしいから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "その<ruby>日<rt>ひ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "うまくできた",
+    "ゆかのやさいを<ruby>踏<rt>ふ</rt></ruby>んでしまった",
+    "<ruby>本<rt>ほん</rt></ruby>をなくした",
+    "<ruby>子<rt>こ</rt></ruby>どもがしっぱいした"
+   ],
+   "correcta": 1
+  }
+ ]
+}
