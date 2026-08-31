@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/kokoro/actitud-1",
+ "titulo": "<ruby>和<rt>なご</rt></ruby>やかな<ruby>職場<rt>しょくば</rt></ruby>",
+ "cuerpo": "この<ruby>半年<rt>はんとし</rt></ruby><em class=\"g\">というもの</em>、<ruby>職場<rt>しょくば</rt></ruby>の<ruby>空気<rt>くうき</rt></ruby>がずいぶん<ruby>変<rt>か</rt></ruby>わりました。<ruby>前<rt>まえ</rt></ruby>の<ruby>責任者<rt>せきにんしゃ</rt></ruby>は<ruby>荒<rt>あら</rt></ruby>っぽい<ruby>人<rt>ひと</rt></ruby>で、<ruby>数字<rt>すうじ</rt></ruby>が<ruby>足<rt>た</rt></ruby>りないと<ruby>声<rt>こえ</rt></ruby>を<ruby>荒<rt>あ</rt></ruby>らげて<ruby>人<rt>ひと</rt></ruby>を<ruby>脅<rt>おど</rt></ruby>すようなところがありました。<ruby>注意<rt>ちゅうい</rt></ruby>の<ruby>仕方<rt>しかた</rt></ruby>もぞんざいで、<ruby>人前<rt>ひとまえ</rt></ruby>でとがめるのです。<ruby>新<rt>あたら</rt></ruby>しい<ruby>方<rt>かた</rt></ruby>は<ruby>正反対<rt>せいはんたい</rt></ruby>でした。<ruby>誠<rt>まこと</rt></ruby>に<ruby>丁寧<rt>ていねい</rt></ruby>で、<ruby>言葉<rt>ことば</rt></ruby>を<ruby>謹<rt>つつし</rt></ruby>んで<ruby>話<rt>はな</rt></ruby>されます。<ruby>成果<rt>せいか</rt></ruby>を<ruby>見<rt>み</rt></ruby>せびらかすこともなく、<ruby>困<rt>こま</rt></ruby>っている<ruby>人<rt>ひと</rt></ruby>に<ruby>先<rt>さき</rt></ruby>に<ruby>手<rt>て</rt></ruby>を<ruby>施<rt>ほどこ</rt></ruby>す。<ruby>活発<rt>かっぱつ</rt></ruby>に<ruby>意見<rt>いけん</rt></ruby>が<ruby>出<rt>で</rt></ruby>るようになったのは、<ruby>失敗<rt>しっぱい</rt></ruby>をおろそかに<ruby>扱<rt>あつか</rt></ruby>われない<ruby>安心<rt>あんしん</rt></ruby>があるからでしょう。<ruby>受身<rt>うけみ</rt></ruby>だった<ruby>同僚<rt>どうりょう</rt></ruby>が<ruby>自分<rt>じぶん</rt></ruby>から<ruby>提案<rt>ていあん</rt></ruby>を<ruby>持<rt>も</rt></ruby>ってくるようになりました。のどかとまでは<ruby>言<rt>い</rt></ruby>いませんが、<ruby>行<rt>おこな</rt></ruby>いひとつで<ruby>場<rt>ば</rt></ruby>はここまで<ruby>変<rt>か</rt></ruby>わるのだと<ruby>驚<rt>おどろ</rt></ruby>いています。",
+ "traduccion": "Estos últimos seis meses el ambiente del trabajo ha cambiado mucho. El anterior responsable era una persona brusca y, si no salían los números, levantaba la voz de un modo que llegaba a intimidar. También llamaba la atención de mala manera, riñendo delante de todos. La persona nueva es justo lo contrario. Es sumamente cuidadosa y habla midiendo las palabras. No presume de resultados y echa una mano primero a quien está en apuros. Si ahora salen opiniones con soltura será porque existe la tranquilidad de que un error no se va a despachar de cualquier manera. Compañeros que antes eran pasivos vienen ahora con propuestas propias. No diría que se respire calma absoluta, pero me sorprende hasta qué punto la conducta de una sola persona puede cambiar un sitio.",
+ "preguntas": [
+  {
+   "p": "<ruby>前<rt>まえ</rt></ruby>の<ruby>責任者<rt>せきにんしゃ</rt></ruby>はどんな<ruby>人<rt>ひと</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>丁寧<rt>ていねい</rt></ruby>だった",
+    "<ruby>荒<rt>あら</rt></ruby>っぽく、<ruby>人前<rt>ひとまえ</rt></ruby>でとがめた",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった",
+    "<ruby>提案<rt>ていあん</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>意見<rt>いけん</rt></ruby>が<ruby>活発<rt>かっぱつ</rt></ruby>に<ruby>出<rt>で</rt></ruby>るようになった<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>数字<rt>すうじ</rt></ruby>がよくなったから",
+    "<ruby>失敗<rt>しっぱい</rt></ruby>をおろそかに<ruby>扱<rt>あつか</rt></ruby>われない<ruby>安心<rt>あんしん</rt></ruby>があるから",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えたから",
+    "<ruby>会議<rt>かいぎ</rt></ruby>が<ruby>減<rt>へ</rt></ruby>ったから"
+   ],
+   "correcta": 1
+  }
+ ]
+}
