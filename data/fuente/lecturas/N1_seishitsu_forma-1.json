@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/seishitsu/forma-1",
+ "titulo": "サイズの<ruby>話<rt>はなし</rt></ruby>",
+ "cuerpo": "<ruby>弟<rt>おとうと</rt></ruby>は<ruby>大柄<rt>おおがら</rt></ruby>で、<ruby>既製<rt>きせい</rt></ruby>の<ruby>服<rt>ふく</rt></ruby>がなかなか<ruby>合<rt>あ</rt></ruby>いません。<ruby>袖<rt>そで</rt></ruby>が<ruby>窮屈<rt>きゅうくつ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>えば、<ruby>今度<rt>こんど</rt></ruby>は<ruby>裾<rt>すそ</rt></ruby>がぶかぶかになる。わたしは<ruby>小柄<rt>こがら</rt></ruby>なので、その<ruby>苦労<rt>くろう</rt></ruby>はよく<ruby>分<rt>わ</rt></ruby>かりません。<ruby>去年<rt>きょねん</rt></ruby>、<ruby>仕立<rt>した</rt></ruby>て<ruby>屋<rt>や</rt></ruby>に<ruby>行<rt>い</rt></ruby>ってみることにしました。<ruby>職人<rt>しょくにん</rt></ruby>の<ruby>方<rt>かた</rt></ruby>はまず<ruby>紙<rt>かみ</rt></ruby>におおまかなデッサンを<ruby>描<rt>か</rt></ruby>き、<ruby>原型<rt>げんけい</rt></ruby>を<ruby>起<rt>お</rt></ruby>こしてから<ruby>布<rt>ぬの</rt></ruby>に<ruby>移<rt>うつ</rt></ruby>していきます。<ruby>規範<rt>きはん</rt></ruby>になる<ruby>型<rt>かた</rt></ruby>があって、そこから<ruby>崩<rt>くず</rt></ruby>していくのだそうです。<ruby>高尚<rt>こうしょう</rt></ruby>な<ruby>話<rt>はなし</rt></ruby>のように<ruby>聞<rt>き</rt></ruby>こえますが、<ruby>中身<rt>なかみ</rt></ruby>は<ruby>地道<rt>じみち</rt></ruby>な<ruby>手仕事<rt>てしごと</rt></ruby>でした。<ruby>雑<rt>ざつ</rt></ruby>に<ruby>測<rt>はか</rt></ruby>って<ruby>直<rt>なお</rt></ruby>しを<ruby>重<rt>かさ</rt></ruby>ねるくらいなら、はじめに<ruby>長々<rt>ながなが</rt></ruby>と<ruby>時間<rt>じかん</rt></ruby>をかける<em class=\"g\">ほうがましだ</em>と<ruby>言<rt>い</rt></ruby>います。できあがった<ruby>上着<rt>うわぎ</rt></ruby>を<ruby>着<rt>き</rt></ruby>た<ruby>弟<rt>おとうと</rt></ruby>は、はじめて<ruby>鏡<rt>かがみ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>長<rt>なが</rt></ruby>く<ruby>立<rt>た</rt></ruby>っていました。",
+ "traduccion": "Mi hermano es corpulento y la ropa de confección casi nunca le queda bien. Si las mangas le aprietan, entonces el bajo le viene holgadísimo. Yo soy menudo, así que ese problema no lo entiendo del todo. El año pasado decidimos ir a un sastre. El artesano dibujó primero un boceto aproximado en papel, levantó un patrón base y de ahí lo pasó a la tela. Al parecer hay un molde que sirve de norma y a partir de ahí se va desviando. Suena a conversación elevada, pero por dentro era trabajo manual y paciente. Dice que, antes que medir de cualquier manera y acumular arreglos, más vale dedicarle mucho tiempo al principio. Con la chaqueta terminada puesta, mi hermano se quedó por primera vez mucho rato ante el espejo.",
+ "preguntas": [
+  {
+   "p": "<ruby>弟<rt>おとうと</rt></ruby>の<ruby>服<rt>ふく</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>値段<rt>ねだん</rt></ruby>が<ruby>高<rt>たか</rt></ruby>い",
+    "<ruby>既製<rt>きせい</rt></ruby>の<ruby>服<rt>ふく</rt></ruby>がなかなか<ruby>合<rt>あ</rt></ruby>わない",
+    "<ruby>色<rt>いろ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きではない",
+    "<ruby>数<rt>かず</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>職人<rt>しょくにん</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>はどれですか。",
+   "opciones": [
+    "<ruby>早<rt>はや</rt></ruby>く<ruby>作<rt>つく</rt></ruby>って<ruby>直<rt>なお</rt></ruby>す",
+    "はじめに<ruby>長<rt>なが</rt></ruby>く<ruby>時間<rt>じかん</rt></ruby>をかけるほうがいい",
+    "<ruby>型<rt>かた</rt></ruby>は<ruby>使<rt>つか</rt></ruby>わない",
+    "<ruby>測<rt>はか</rt></ruby>らずに<ruby>作<rt>つく</rt></ruby>る"
+   ],
+   "correcta": 1
+  }
+ ]
+}

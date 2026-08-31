@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/seishitsu/forma-2",
+ "titulo": "<ruby>模型<rt>もけい</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "<ruby>近所<rt>きんじょ</rt></ruby>に、<ruby>船<rt>ふね</rt></ruby>の<ruby>模型<rt>もけい</rt></ruby>ばかり<ruby>作<rt>つく</rt></ruby>っている<ruby>方<rt>かた</rt></ruby>がいます。<ruby>本格<rt>ほんかく</rt></ruby><ruby>的<rt>てき</rt></ruby>な<ruby>道具<rt>どうぐ</rt></ruby>をそろえ、<ruby>目盛<rt>めもり</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みながら<ruby>一<rt>ひと</rt></ruby>つずつ<ruby>削<rt>けず</rt></ruby>る。<ruby>十年<rt>じゅうねん</rt></ruby><em class=\"g\">からある</em><ruby>作品<rt>さくひん</rt></ruby>が<ruby>棚<rt>たな</rt></ruby>を<ruby>埋<rt>う</rt></ruby>めています。はじめて<ruby>見<rt>み</rt></ruby>せてもらったとき、<em class=\"g\">いかにも</em><ruby>手間<rt>てま</rt></ruby>のかかったものだと<ruby>感<rt>かん</rt></ruby>じました。<ruby>用紙<rt>ようし</rt></ruby>に<ruby>箇条書<rt>かじょうが</rt></ruby>きで<ruby>手順<rt>てじゅん</rt></ruby>を<ruby>残<rt>のこ</rt></ruby>してあり、<ruby>様式<rt>ようしき</rt></ruby>ごとに<ruby>手本<rt>てほん</rt></ruby>となる<ruby>図<rt>ず</rt></ruby>が<ruby>添<rt>そ</rt></ruby>えられています。<ruby>目方<rt>めかた</rt></ruby>まで<ruby>記録<rt>きろく</rt></ruby>しているのは、<ruby>完成<rt>かんせい</rt></ruby>したときの<ruby>浮<rt>う</rt></ruby>き<ruby>方<rt>かた</rt></ruby>を<ruby>見<rt>み</rt></ruby>るためだそうです。<ruby>露骨<rt>ろこつ</rt></ruby>に<ruby>褒<rt>ほ</rt></ruby>めると、<ruby>素<rt>そ</rt></ruby>っ<ruby>気<rt>け</rt></ruby>なく「<ruby>暇<rt>ひま</rt></ruby>なだけです」と<ruby>返<rt>かえ</rt></ruby>ってきました。<ruby>待望<rt>たいぼう</rt></ruby>の<ruby>一隻<rt>いっせき</rt></ruby>が<ruby>仕上<rt>しあ</rt></ruby>がった<ruby>日<rt>ひ</rt></ruby>、<ruby>雑木<rt>ぞうき</rt></ruby>に<ruby>囲<rt>かこ</rt></ruby>まれた<ruby>池<rt>いけ</rt></ruby>まで<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>運<rt>はこ</rt></ruby>びました。<ruby>水<rt>みず</rt></ruby>に<ruby>浮<rt>う</rt></ruby>かんだ<ruby>瞬間<rt>しゅんかん</rt></ruby>の<ruby>顔<rt>かお</rt></ruby>は、<ruby>感無量<rt>かんむりょう</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>そのものでした。",
+ "traduccion": "En mi barrio hay una persona que no hace más que maquetas de barcos. Tiene herramientas de verdad y va tallando pieza a pieza mientras lee la escala. Obras de hasta diez años llenan sus estanterías. La primera vez que me las enseñó pensé que se veía a la legua el trabajo que llevaban. Guarda los procedimientos anotados en hojas, en forma de lista, con un dibujo de referencia para cada estilo. Que registre hasta el peso es, según dice, para ver cómo flotará al terminarla. Cuando lo elogié abiertamente, me contestó secamente: «es solo que tengo tiempo libre». El día que quedó lista la nave que llevaba esperando, la llevamos juntos hasta un estanque rodeado de arbolillos. La cara que puso en el instante en que flotó era, literalmente, la emoción entera.",
+ "preguntas": [
+  {
+   "p": "この<ruby>方<rt>かた</rt></ruby>が<ruby>目方<rt>めかた</rt></ruby>まで<ruby>記録<rt>きろく</rt></ruby>するのは、なぜですか。",
+   "opciones": [
+    "<ruby>値段<rt>ねだん</rt></ruby>を<ruby>決<rt>き</rt></ruby>めるため",
+    "<ruby>完成<rt>かんせい</rt></ruby>したときの<ruby>浮<rt>う</rt></ruby>き<ruby>方<rt>かた</rt></ruby>を<ruby>見<rt>み</rt></ruby>るため",
+    "<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶため",
+    "<ruby>手本<rt>てほん</rt></ruby>にするため"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>褒<rt>ほ</rt></ruby>められたとき、この<ruby>方<rt>かた</rt></ruby>はどう<ruby>答<rt>こた</rt></ruby>えましたか。",
+   "opciones": [
+    "よろこんだ",
+    "<ruby>素<rt>そ</rt></ruby>っ<ruby>気<rt>け</rt></ruby>なく「<ruby>暇<rt>ひま</rt></ruby>なだけです」と<ruby>答<rt>こた</rt></ruby>えた",
+    "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めた",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

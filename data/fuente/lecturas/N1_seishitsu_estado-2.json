@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/seishitsu/estado-2",
+ "titulo": "<ruby>根拠<rt>こんきょ</rt></ruby>をたずねる",
+ "cuerpo": "<ruby>決算<rt>けっさん</rt></ruby>の<ruby>数字<rt>すうじ</rt></ruby>を<ruby>見<rt>み</rt></ruby>る<ruby>会議<rt>かいぎ</rt></ruby>で、<ruby>形勢<rt>けいせい</rt></ruby>がいいという<ruby>話<rt>はなし</rt></ruby>になりました。<ruby>好況<rt>こうきょう</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるのは、<ruby>一部<rt>いちぶ</rt></ruby>の<ruby>事業<rt>じぎょう</rt></ruby>を<ruby>除外<rt>じょがい</rt></ruby>して<ruby>数<rt>かぞ</rt></ruby>えているからです。<ruby>数字<rt>すうじ</rt></ruby>と<ruby>印象<rt>いんしょう</rt></ruby>を<ruby>混同<rt>こんどう</rt></ruby>する<ruby>嫌<rt>きら</rt></ruby>いがあると、<ruby>先輩<rt>せんぱい</rt></ruby>が<ruby>静<rt>しず</rt></ruby>かに<ruby>指摘<rt>してき</rt></ruby>しました。<ruby>情勢<rt>じょうせい</rt></ruby>がよくなると、<ruby>人<rt>ひと</rt></ruby>は<em class=\"g\">ともすれば</em><ruby>確<rt>たし</rt></ruby>かめるのをやめてしまいます。<ruby>根拠<rt>こんきょ</rt></ruby>のない<ruby>向上<rt>こうじょう</rt></ruby><ruby>感<rt>かん</rt></ruby>は、あとで<ruby>是正<rt>ぜせい</rt></ruby>するほうが<ruby>高<rt>たか</rt></ruby>くつくのです。<ruby>訂正<rt>ていせい</rt></ruby>の<ruby>一枚<rt>いちまい</rt></ruby>を<ruby>配<rt>くば</rt></ruby>るだけで<ruby>会議<rt>かいぎ</rt></ruby>は<ruby>中断<rt>ちゅうだん</rt></ruby>しました。<ruby>多忙<rt>たぼう</rt></ruby>な<ruby>時期<rt>じき</rt></ruby>に<ruby>嫌<rt>いや</rt></ruby>がられる<ruby>仕事<rt>しごと</rt></ruby>です。それでも<ruby>進度<rt>しんど</rt></ruby>を<ruby>正直<rt>しょうじき</rt></ruby>に<ruby>出<rt>だ</rt></ruby>したほうが、<ruby>結局<rt>けっきょく</rt></ruby>は<ruby>進展<rt>しんてん</rt></ruby>が<ruby>早<rt>はや</rt></ruby>くなります。<ruby>制裁<rt>せいさい</rt></ruby>を<ruby>恐<rt>おそ</rt></ruby>れて<ruby>数字<rt>すうじ</rt></ruby>を<ruby>飾<rt>かざ</rt></ruby>る<ruby>文化<rt>ぶんか</rt></ruby>になると、<ruby>束縛<rt>そくばく</rt></ruby>だけが<ruby>増<rt>ふ</rt></ruby>えていくのでしょう。",
+ "traduccion": "En la reunión donde se miran las cifras del cierre, se dijo que la cosa iba bien. Si parecía una buena racha era porque se contaba dejando fuera parte de la actividad. Un compañero veterano señaló con calma que tendemos a confundir las cifras con la impresión. Cuando la situación mejora, la gente propende a dejar de comprobar. Una sensación de mejora sin fundamento sale más cara de corregir después. Con solo repartir una hoja de correcciones, la reunión se interrumpió. Es un trabajo que en época de mucha faena molesta a todos. Aun así, sacar el avance real acaba haciendo que se progrese antes. Si se instala una cultura de maquillar las cifras por miedo a la sanción, lo único que crecerá serán las ataduras.",
+ "preguntas": [
+  {
+   "p": "なぜ<ruby>好況<rt>こうきょう</rt></ruby>に<ruby>見<rt>み</rt></ruby>えていましたか。",
+   "opciones": [
+    "<ruby>売上<rt>うりあげ</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えたから",
+    "<ruby>一部<rt>いちぶ</rt></ruby>の<ruby>事業<rt>じぎょう</rt></ruby>を<ruby>除外<rt>じょがい</rt></ruby>して<ruby>数<rt>かぞ</rt></ruby>えていたから",
+    "<ruby>会議<rt>かいぎ</rt></ruby>が<ruby>短<rt>みじか</rt></ruby>かったから",
+    "<ruby>数字<rt>すうじ</rt></ruby>が<ruby>正<rt>ただ</rt></ruby>しかったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>進度<rt>しんど</rt></ruby>を<ruby>正直<rt>しょうじき</rt></ruby>に<ruby>出<rt>だ</rt></ruby>すと、どうなりますか。",
+   "opciones": [
+    "<ruby>制裁<rt>せいさい</rt></ruby>を<ruby>受<rt>う</rt></ruby>ける",
+    "<ruby>結局<rt>けっきょく</rt></ruby><ruby>進展<rt>しんてん</rt></ruby>が<ruby>早<rt>はや</rt></ruby>くなる",
+    "<ruby>会議<rt>かいぎ</rt></ruby>が<ruby>長<rt>なが</rt></ruby>くなる",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>変<rt>か</rt></ruby>わらない"
+   ],
+   "correcta": 1
+  }
+ ]
+}
