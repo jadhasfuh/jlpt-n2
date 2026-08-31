@@ -1,0 +1,576 @@
+[
+ {
+  "id": "n2-sokuji-0001",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "この資料、明日までにお願いできますか。",
+  "opciones": [
+   "はい、承知しました。",
+   "はい、お願いします。",
+   "いいえ、けっこうです。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "依頼を受けた側が「お願いします」とは言わない",
+   "断り方として不自然"
+  ],
+  "explicacion": {
+   "es": "Te están pidiendo algo: se acepta con 承知しました. Decir お願いします sería devolverle el encargo.",
+   "en": "You're being asked to do something: accept with 承知しました. Saying お願いします would hand the job back."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "この資料、明日までにお願いできますか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-sokuji-0002",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "今日はごちそうさまでした。",
+  "opciones": [
+   "いただきます。",
+   "お粗末さまでした。",
+   "ごちそうさまです。"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "食べる前の挨拶",
+   "相手の言葉をそのまま返している"
+  ],
+  "explicacion": {
+   "es": "Quien ha invitado responde お粗末さまでした. いただきます se dice antes de comer.",
+   "en": "The host replies お粗末さまでした. いただきます is said before eating, not after."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "今日はごちそうさまでした。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-sokuji-0003",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "会議、そろそろ始めてもよろしいでしょうか。",
+  "opciones": [
+   "ええ、どうぞ。",
+   "ええ、始めました。",
+   "いいえ、始めません。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "許可を求められているのに過去形",
+   "主語がずれている"
+  ],
+  "explicacion": {
+   "es": "Piden permiso, así que se concede con どうぞ. 始めました contestaría a otra pregunta.",
+   "en": "They're asking permission, so grant it with どうぞ. 始めました would answer a different question."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "会議、そろそろ始めてもよろしいでしょうか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-sokuji-0004",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "その件でしたら、私がやっておきましょうか。",
+  "opciones": [
+   "では、お願いできますか。",
+   "では、やっておきました。",
+   "では、やらないでください。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "申し出に過去形で答えている",
+   "申し出を断る理由がない"
+  ],
+  "explicacion": {
+   "es": "Se están ofreciendo: se acepta con お願いできますか.",
+   "en": "They're offering to help: accept with お願いできますか."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "その件でしたら、私がやっておきましょうか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-sokuji-0005",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "田中さん、なんだか顔色がよくないですね。",
+  "opciones": [
+   "ええ、ちょっと寝不足で。",
+   "ええ、色を変えました。",
+   "ええ、よく見えます。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "顔色を文字通りの「色」と取った",
+   "意味が通らない"
+  ],
+  "explicacion": {
+   "es": "顔色がよくない = tienes mala cara. La opción 2 entiende 色 literalmente como un color.",
+   "en": "顔色がよくない = you look unwell. Option 2 takes 色 literally as a colour."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "田中さん、なんだか顔色がよくないですね。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-sokuji-0006",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "すみません、道に迷ってしまって。",
+  "opciones": [
+   "じゃあ、迎えに行きましょうか。",
+   "じゃあ、道を作りましょうか。",
+   "じゃあ、迷ってください。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "文字通りすぎる",
+   "命令として意味が通らない"
+  ],
+  "explicacion": {
+   "es": "Se ha perdido: lo natural es ofrecerse a ir a buscarlo.",
+   "en": "They're lost: the natural reply is to offer to come and get them."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "すみません、道に迷ってしまって。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-sokuji-0007",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "部長は、もう帰られましたか。",
+  "opciones": [
+   "ええ、さっき出られましたよ。",
+   "ええ、もうすぐ来られます。",
+   "ええ、帰ってきました。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "時間の向きが逆",
+   "主語がずれている"
+  ],
+  "explicacion": {
+   "es": "帰られましたか es honorífico: «¿ya se ha ido?». La 2 dice que está por llegar, lo contrario.",
+   "en": "帰られましたか is honorific: 'has he left yet?'. Option 2 says he's about to arrive — the opposite."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "部長は、もう帰られましたか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-sokuji-0008",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "明日の打ち合わせ、少し遅れるかもしれません。",
+  "opciones": [
+   "では、お先に始めておきますね。",
+   "では、早く来てくださいね。",
+   "では、遅れないでください。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "avisar no es pedir permiso",
+   "責める返事になっている"
+  ],
+  "explicacion": {
+   "es": "Avisan de que llegarán tarde: se responde adaptándose, no regañando.",
+   "en": "They're warning they'll be late: you respond by adapting, not by scolding."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "明日の打ち合わせ、少し遅れるかもしれません。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-sokuji-0009",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "これ、ちょっと味見してみてくれない?",
+  "opciones": [
+   "うん、ちょっともらうね。",
+   "うん、見るだけね。",
+   "うん、作っておくね。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "味見の「見」を文字通りに取った",
+   "頼まれていないこと"
+  ],
+  "explicacion": {
+   "es": "味見する = probar, no mirar. La 2 se queda en el 見 literal.",
+   "en": "味見する = to taste, not to look. Option 2 gets stuck on the literal 見."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "これ、ちょっと味見してみてくれない?"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-sokuji-0010",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "エアコンをつけてもかまいませんか。",
+  "opciones": [
+   "ええ、かまいます。",
+   "ええ、どうぞ。",
+   "いいえ、つけました。"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "かまいませんの肯定形は使わない",
+   "否定と過去が矛盾"
+  ],
+  "explicacion": {
+   "es": "A 〜てもかまいませんか se contesta どうぞ. «かまいます» no se usa como respuesta afirmativa.",
+   "en": "To 〜てもかまいませんか you answer どうぞ. 'かまいます' isn't used as an affirmative reply."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "エアコンをつけてもかまいませんか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-sokuji-0011",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "山田さん、この漢字の読み方、分かる?",
+  "opciones": [
+   "うーん、ちょっと自信ないな。",
+   "うーん、読んでおいたよ。",
+   "うーん、書いてあるよ。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "質問に答えていない",
+   "質問に答えていない"
+  ],
+  "explicacion": {
+   "es": "Preguntan si lo sabe: se admite la duda. Las otras dos hablan de otra cosa.",
+   "en": "They ask whether you know it: admit the doubt. The other two talk about something else."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "山田さん、この漢字の読み方、分かる?"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-sokuji-0012",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "先週の出張、どうでしたか。",
+  "opciones": [
+   "はい、行ってきます。",
+   "思ったより収穫がありました。",
+   "来週の予定です。"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "これから行く言い方",
+   "時期が違う"
+  ],
+  "explicacion": {
+   "es": "Preguntan por un viaje ya hecho. 行ってきます es para irse ahora y 来週 cambia la fecha.",
+   "en": "They ask about a trip already made. 行ってきます is for leaving now, and 来週 changes the date."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "先週の出張、どうでしたか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-kadai-0001",
+  "nivel": "N2",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人はこの後まず何をしますか。",
+  "opciones": [
+   "資料を追加で印刷する",
+   "部長に内容を確認する",
+   "会議室の予約を延長する",
+   "参加者に連絡する"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "印刷は確認の後",
+   "部長は今いない",
+   "連絡は話に出ていない"
+  ],
+  "explicacion": {
+   "es": "Hacen falta más copias, pero antes el jefe quiere corregir algo — y ahora está reunido. Lo único que puede hacer ya es ampliar la reserva de la sala.",
+   "en": "More copies are needed, but the boss wants to change something first — and he's in a meeting. The only thing left to do right now is extend the room booking."
+  },
+  "puntos": [
+   "部数が足りない → hay que imprimir más",
+   "その前に部長が直したい → imprimir va después de la revisión",
+   "さっき会議室に入った → ahora no se le puede preguntar",
+   "それまでに予約を延長して → esto es lo inmediato"
+  ],
+  "guion": {
+   "intro": "男の人と女の人が会社で話しています。男の人はこの後まず何をしますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "田中さん、明日の会議の資料、もうできてる?"
+    },
+    {
+     "quien": "M",
+     "texto": "はい、印刷もしておきました。"
+    },
+    {
+     "quien": "F",
+     "texto": "ああ、ちょっと待って。参加者が二人増えたから、部数が足りないかも。"
+    },
+    {
+     "quien": "M",
+     "texto": "じゃあ、追加で印刷しますね。"
+    },
+    {
+     "quien": "F",
+     "texto": "うん。でも、その前に部長が内容を一か所直したいって言ってたから、確認してから印刷して。"
+    },
+    {
+     "quien": "M",
+     "texto": "わかりました。部長、今いらっしゃいますか。"
+    },
+    {
+     "quien": "F",
+     "texto": "さっき会議室に入ったから、終わるまで待ったほうがいいわ。それまでに会議室の予約を延長しておいてくれる?"
+    },
+    {
+     "quien": "M",
+     "texto": "はい。"
+    }
+   ],
+   "pregunta": "男の人はこの後まず何をしますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [
+   "課題理解",
+   "職場"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-kadai-0002",
+  "nivel": "N2",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人はこれから何を買いますか。",
+  "opciones": [
+   "絵の具とノート",
+   "ノートと鉛筆",
+   "鉛筆と筆",
+   "筆とノート"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "絵の具は持っている",
+   "筆は先生が貸してくれる",
+   "筆は借りられる"
+  ],
+  "explicacion": {
+   "es": "Se van descartando: las pinturas ya las tiene, los pinceles los presta el profesor. Quedan el cuaderno y un lápiz blando.",
+   "en": "Things get ruled out one by one: she already has the paints, the teacher lends the brushes. That leaves the notebook and a soft pencil."
+  },
+  "puntos": [
+   "絵の具は去年のがある → no hay que comprarlas",
+   "筆は先生が貸してくれる → tampoco",
+   "ノートは新しいのが要る → sí",
+   "鉛筆は柔らかいのを → sí"
+  ],
+  "guion": {
+   "intro": "女の人と男の人が話しています。女の人はこれから何を買いますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "来週から絵の教室に通うんだけど、何を用意したらいいかな。"
+    },
+    {
+     "quien": "M",
+     "texto": "絵の具は持ってる?"
+    },
+    {
+     "quien": "F",
+     "texto": "うん、去年買ったのがまだ残ってる。"
+    },
+    {
+     "quien": "M",
+     "texto": "じゃあ大丈夫。筆は最初の授業で先生が貸してくれるはずだよ。"
+    },
+    {
+     "quien": "F",
+     "texto": "そうなんだ。じゃあ、あとはノートくらいかな。"
+    },
+    {
+     "quien": "M",
+     "texto": "うん、それと鉛筆。下書きに使うから、柔らかいのを一本ね。"
+    },
+    {
+     "quien": "F",
+     "texto": "分かった、その二つを買っておく。"
+    }
+   ],
+   "pregunta": "女の人はこれから何を買いますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [
+   "課題理解",
+   "買い物"
+  ],
+  "dificultad": 3
+ }
+]

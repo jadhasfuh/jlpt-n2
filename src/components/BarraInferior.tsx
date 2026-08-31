@@ -3,11 +3,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { contarPendientes, leerProgreso } from "@/lib/progreso";
-import { IcCurso, IcPerfil, IcRepaso } from "./Iconos";
+import { IcCurso, IcExamen, IcPerfil, IcRepaso } from "./Iconos";
 import { useAjustes } from "./Ajustes";
 
 const ENLACES = [
   { href: "/", Icono: IcCurso, clave: "nav.curso" },
+  { href: "/examen", Icono: IcExamen, clave: "nav.examen" },
   { href: "/repaso", Icono: IcRepaso, clave: "nav.repaso" },
   { href: "/perfil", Icono: IcPerfil, clave: "nav.perfil" },
 ] as const;

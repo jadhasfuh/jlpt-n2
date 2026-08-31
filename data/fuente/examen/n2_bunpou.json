@@ -1,0 +1,422 @@
+[
+ {
+  "id": "n2-bunpou1-0001",
+  "nivel": "N2",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼は仕事が忙しい（　）、会議には必ず出席する。",
+  "opciones": [
+   "ものの",
+   "ために",
+   "おかげで",
+   "ばかりに"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ためには理由",
+   "おかげでは good cause",
+   "ばかりにはbad cause"
+  ],
+  "explicacion": {
+   "es": "〜ものの = «aunque», concesivo. Los otros tres son de causa, y aquí no hay causa sino contraste.",
+   "en": "〜ものの = 'although', concessive. The other three mark cause, but this sentence contrasts rather than explains."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou1-0002",
+  "nivel": "N2",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "一度引き受けた（　）、最後までやり遂げるつもりだ。",
+  "opciones": [
+   "からには",
+   "ところで",
+   "とはいえ",
+   "どころか"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ところでは逆接",
+   "とはいえは逆接",
+   "どころかは否定強調"
+  ],
+  "explicacion": {
+   "es": "〜からには = «ya que…, entonces por fuerza». Introduce la determinación que sigue.",
+   "en": "〜からには = 'now that…, then of course'. It sets up the resolve that follows."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou1-0003",
+  "nivel": "N2",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "今さら先生に言われた（　）、勉強する気にはなれない。",
+  "opciones": [
+   "ところで",
+   "からこそ",
+   "ばかりに",
+   "とともに"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "からこそは肯定的理由",
+   "ばかりにはbad cause",
+   "とともには同時"
+  ],
+  "explicacion": {
+   "es": "〜たところで = «aunque me lo digan, da igual». Siempre lleva un resultado negativo o inútil.",
+   "en": "〜たところで = 'even if they tell me, it won't help'. It always leads to a futile or negative result."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou1-0004",
+  "nivel": "N2",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼の実力（　）、優勝は当然の結果と言える。",
+  "opciones": [
+   "からすれば",
+   "にしては",
+   "どころか",
+   "において"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "にしてはは期待外れ",
+   "どころかは否定強調",
+   "においては場面"
+  ],
+  "explicacion": {
+   "es": "〜からすれば = «a juzgar por». にしては diría lo contrario: que el resultado no cuadra con su nivel.",
+   "en": "〜からすれば = 'judging from'. にしては would say the opposite: that the result doesn't match his level."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou1-0005",
+  "nivel": "N2",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "体調が悪いので、今回の出張は見送らざる（　）。",
+  "opciones": [
+   "を得ない",
+   "にすぎない",
+   "ようがない",
+   "ほかならない"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "にすぎないは程度",
+   "ようがないは手段の不在",
+   "ほかならないは断定"
+  ],
+  "explicacion": {
+   "es": "〜ざるを得ない = «no queda más remedio que». Se une a la forma ない sin el ない: 見送らざるを得ない.",
+   "en": "〜ざるを得ない = 'have no choice but to'. It attaches to the ない-stem: 見送らざるを得ない."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou1-0006",
+  "nivel": "N2",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼は忙しい忙しいと言い（　）、毎晩飲みに行っている。",
+  "opciones": [
+   "つつ",
+   "ばかり",
+   "きり",
+   "がち"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ばかりは限定",
+   "きりは以来",
+   "がちは傾向"
+  ],
+  "explicacion": {
+   "es": "〜つつ = «mientras dice…, en realidad». Marca contradicción entre lo que se dice y lo que se hace.",
+   "en": "〜つつ = 'while saying…, actually'. It marks the gap between what is said and what is done."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou1-0007",
+  "nivel": "N2",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "あの店は値段が高い（　）、味は確かだ。",
+  "opciones": [
+   "だけあって",
+   "どころか",
+   "ばかりか",
+   "にしては"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "どころかは否定強調",
+   "ばかりかは追加",
+   "にしてはは期待外れ"
+  ],
+  "explicacion": {
+   "es": "〜だけあって = «como corresponde a lo caro que es». El precio justifica la calidad.",
+   "en": "〜だけあって = 'as befits how expensive it is'. The price justifies the quality."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou1-0008",
+  "nivel": "N2",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "連絡先が分からないので、知らせ（　）がない。",
+  "opciones": [
+   "よう",
+   "もの",
+   "こと",
+   "ところ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ものは物事",
+   "ことは事柄",
+   "ところは場所や場面"
+  ],
+  "explicacion": {
+   "es": "〜ようがない = «no hay manera de». Se forma con la raíz masu: 知らせ＋ようがない.",
+   "en": "〜ようがない = 'there's no way to'. Built on the masu-stem: 知らせ＋ようがない."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou1-0009",
+  "nivel": "N2",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "小学生（　）、ずいぶん難しい言葉を知っているね。",
+  "opciones": [
+   "にしては",
+   "としては",
+   "にしても",
+   "において"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "としてはは立場",
+   "にしてもは譲歩",
+   "においては場面"
+  ],
+  "explicacion": {
+   "es": "〜にしては = «para ser…, sorprende». Marca que la realidad no cuadra con lo esperado de esa categoría.",
+   "en": "〜にしては = 'for a…, surprisingly'. It flags that reality doesn't match what the category leads you to expect."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou1-0010",
+  "nivel": "N2",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "試験に受かるかどうかは、これからの努力（　）だ。",
+  "opciones": [
+   "次第",
+   "ばかり",
+   "きり",
+   "まま"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ばかりは限定",
+   "きりは以来",
+   "ままは状態の維持"
+  ],
+  "explicacion": {
+   "es": "〜次第だ = «depende de». Lo que va delante decide el resultado.",
+   "en": "〜次第だ = 'depends on'. What comes before decides the outcome."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou1-0011",
+  "nivel": "N2",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "準備が終わらない（　）、始めるわけにはいかない。",
+  "opciones": [
+   "ことには",
+   "ものなら",
+   "どころか",
+   "かぎりで"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ものならは仮定",
+   "どころかは否定強調",
+   "かぎりでは範囲"
+  ],
+  "explicacion": {
+   "es": "〜ないことには = «si no…, entonces no». Condición imprescindible, siempre en negativo.",
+   "en": "〜ないことには = 'unless…, then not'. An indispensable condition, always negative."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou1-0012",
+  "nivel": "N2",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この本は読めば読む（　）、面白くなってくる。",
+  "opciones": [
+   "ほど",
+   "だけ",
+   "まま",
+   "きり"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "だけは限定",
+   "ままは維持",
+   "きりは以来"
+  ],
+  "explicacion": {
+   "es": "〜ば〜ほど = «cuanto más…, más». La estructura pide 読めば読むほど.",
+   "en": "〜ば〜ほど = 'the more…, the more'. The pattern requires 読めば読むほど."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou2-0001",
+  "nivel": "N2",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この計画は ＿＿ ＿★＿ ＿＿ ＿＿ 中止になった。",
+  "opciones": [
+   "の",
+   "反対",
+   "住民",
+   "により"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [],
+  "explicacion": {
+   "es": "El orden es 住民の反対により («por la oposición de los vecinos»). En el ★, segunda casilla, va の.",
+   "en": "The order is 住民の反対により ('because of the residents' opposition'). The ★, the second slot, takes の."
+  },
+  "etiquetas": [
+   "orden"
+  ],
+  "objetivo": "住民 の 反対 により",
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou2-0002",
+  "nivel": "N2",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼は ＿＿ ＿★＿ ＿＿ ＿＿ 諦めなかった。",
+  "opciones": [
+   "に",
+   "何度",
+   "も",
+   "失敗したの"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [],
+  "explicacion": {
+   "es": "El orden es 何度も失敗したのに («aunque falló muchas veces»). En el ★ va も.",
+   "en": "The order is 何度も失敗したのに ('even though he failed many times'). も goes in the ★."
+  },
+  "etiquetas": [
+   "orden"
+  ],
+  "objetivo": "何度 も 失敗したの に",
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou2-0003",
+  "nivel": "N2",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "日本語は ＿＿ ＿★＿ ＿＿ ＿＿ 難しくなる。",
+  "opciones": [
+   "ほど",
+   "勉強",
+   "すれば",
+   "する"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [],
+  "explicacion": {
+   "es": "El orden es 勉強すればするほど («cuanto más estudias»). En el ★ va すれば.",
+   "en": "The order is 勉強すればするほど ('the more you study'). すれば goes in the ★."
+  },
+  "etiquetas": [
+   "orden"
+  ],
+  "objetivo": "勉強 すれば する ほど",
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou2-0004",
+  "nivel": "N2",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "先生の ＿＿ ＿★＿ ＿＿ ＿＿ 合格できた。",
+  "opciones": [
+   "おかげ",
+   "で",
+   "助言",
+   "の"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [],
+  "explicacion": {
+   "es": "El orden es 助言のおかげで («gracias al consejo»). En el ★ va の.",
+   "en": "The order is 助言のおかげで ('thanks to the advice'). の goes in the ★."
+  },
+  "etiquetas": [
+   "orden"
+  ],
+  "objetivo": "助言 の おかげ で",
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunpou2-0005",
+  "nivel": "N2",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "あの店は ＿＿ ＿★＿ ＿＿ ＿＿ 味がいい。",
+  "opciones": [
+   "だけ",
+   "高い",
+   "あって",
+   "値段が"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [],
+  "explicacion": {
+   "es": "El orden es 値段が高いだけあって («como corresponde a lo caro que es»). En el ★ va 高い.",
+   "en": "The order is 値段が高いだけあって ('as befits how pricey it is'). 高い goes in the ★."
+  },
+  "etiquetas": [
+   "orden"
+  ],
+  "objetivo": "値段が 高い だけ あって",
+  "dificultad": 3
+ }
+]

@@ -5,7 +5,7 @@ import { COLOR_NIVEL, NUMERAL_NIVEL, type Nivel } from "@/lib/tipos";
 import { contarPendientes, leerProgreso, resumen } from "@/lib/progreso";
 import { Anillo } from "./Anillo";
 import { ACCESO_ABIERTO } from "@/lib/acceso";
-import { IcCronometro, IcDerecha, IcRacha } from "./Iconos";
+import { IcCronometro, IcDerecha, IcExamen, IcRacha } from "./Iconos";
 import { useAjustes } from "./Ajustes";
 
 type Resumen = { id: Nivel; palabras: number; gramatica: number; unidades: number; secciones: number };
@@ -88,6 +88,15 @@ export function Inicio({ niveles, totales }: {
           <span className="flecha"><IcDerecha size={15} /></span>
         </Link>
       )}
+
+      <Link href="/examen" className="fila" style={{ marginBottom: 8, padding: "11px 14px" }}>
+        <span className="disco"><IcExamen size={19} /></span>
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <div className="fila-titulo">{t("inicio.examen")}</div>
+          <div className="fila-sub">{t("inicio.examenSub")}</div>
+        </div>
+        <span className="flecha"><IcDerecha size={15} /></span>
+      </Link>
 
       <Link href="/rapido" className="fila" style={{ marginBottom: 12, padding: "11px 14px" }}>
         <span className="disco"><IcCronometro size={19} /></span>

@@ -29,4 +29,5 @@ export {
   BookOpen as IcDiccionario,
   Translate as IcSignificado,
   Lock as IcCandado,
+  Exam as IcExamen,
 } from "@phosphor-icons/react/ssr";

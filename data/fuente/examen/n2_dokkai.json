@@ -1,0 +1,197 @@
+[
+ {
+  "id": "n2-tanbun-0001",
+  "nivel": "N2",
+  "tipo": "tanbun",
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "grupo": "n2-tanbun-g001",
+  "orden_grupo": 0,
+  "pasaje": {
+   "texto": "「片づけが苦手だ」と言う人の多くは、実は片づけ方を知らないのではなく、物を減らす決心がつかないだけらしい。ある調査によると、収納用品を買い足した家庭ほど、半年後の部屋の状態が悪くなっていたという。入れ物が増えれば、捨てずに済んでしまうからだ。つまり、収納を工夫することと片づけることは、似ているようで正反対の行為なのかもしれない。",
+   "notas": [
+    {
+     "termino": "収納用品",
+     "glosa": "物をしまうための箱や棚"
+    }
+   ]
+  },
+  "enunciado": "筆者は、収納を工夫することについてどのように考えているか。",
+  "opciones": [
+   "片づけの第一歩として、まず取り組むべきだ",
+   "物を捨てずに済ませてしまうので、片づけとは逆の結果になりうる",
+   "収納用品を買えば、半年で部屋がきれいになる",
+   "片づけ方を知らない人には向いていない"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "本文と逆",
+   "調査結果を逆に読んでいる",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "El texto dice que cuantos más recipientes se compran, peor está el cuarto medio año después, porque uno acaba no tirando nada. La opción 3 lee el estudio al revés.",
+   "en": "The text says the more containers people buy, the worse the room is six months later, because they end up throwing nothing away. Option 3 reads the study backwards."
+  },
+  "puntos": [
+   "収納用品を買い足した家庭ほど半年後の状態が悪い → comprar cajas empeora la cosa",
+   "入れ物が増えれば捨てずに済む → esa es la razón",
+   "似ているようで正反対 → la tesis"
+  ],
+  "etiquetas": [
+   "随筆"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-tanbun-0002",
+  "nivel": "N2",
+  "tipo": "tanbun",
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "grupo": "n2-tanbun-g002",
+  "orden_grupo": 0,
+  "pasaje": {
+   "texto": "外国語を学ぶとき、間違いを恐れるなとよく言われる。しかし私は、恐れるなという助言はあまり役に立たないと思っている。恐れは意志で消せるものではないからだ。それよりも、間違えても困らない場所を先に用意するほうがいい。聞き返してくれる相手、笑って直してくれる相手がいれば、恐れは自然に小さくなる。勇気の問題に見えて、実は環境の問題なのだ。",
+   "notas": []
+  },
+  "enunciado": "「勇気の問題に見えて、実は環境の問題なのだ」とあるが、どういうことか。",
+  "opciones": [
+   "間違いを恐れない強い気持ちを持つことが何より大切だということ",
+   "間違えても困らない相手がいるかどうかで、恐れの大きさが変わるということ",
+   "外国語は環境のよい国で学ぶべきだということ",
+   "助言をする人の態度に問題があるということ"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "筆者が役に立たないと言っている助言そのもの",
+   "「環境」を国のことだと文字通りに取った",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Para el autor el miedo no se quita por voluntad, sino que se encoge solo cuando hay alguien que te repregunta y te corrige sin dramas. La 3 toma «entorno» como país, que no es lo que dice.",
+   "en": "For the author fear doesn't go away by willpower; it shrinks on its own when someone asks again and corrects you without fuss. Option 3 takes 'environment' to mean country, which isn't what's said."
+  },
+  "puntos": [
+   "恐れは意志で消せない → el consejo habitual no sirve",
+   "間違えても困らない場所を用意する → la propuesta",
+   "聞き返してくれる相手がいれば恐れは小さくなる → el porqué"
+  ],
+  "etiquetas": [
+   "随筆",
+   "比喩"
+  ],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-chuubun-0001",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "grupo": "n2-chuubun-g001",
+  "orden_grupo": 0,
+  "pasaje": {
+   "texto": "会社に入ったばかりのころ、先輩に「報告は早いほどいい」と言われた。私はそれを、仕事が終わったらすぐ知らせろという意味だと受け取っていた。実際、しばらくはそのつもりで働いていたし、それで困ったこともなかった。\nところがある日、大きな失敗をして報告が遅れたとき、先輩に叱られたのは失敗そのものではなかった。「終わってから言うな、困った時点で言え」と言われたのだ。自分では、きちんと片をつけてから伝えるほうが迷惑をかけないと思っていたのだが、先輩の顔を見て、その考えが逆であることに気づいた。\n考えてみれば当然である。終わった仕事の報告は、聞く側にとってはただの記録にすぎない。しかし途中の報告は、まだ手の打ちようがある情報だ。前者は過去の話で、後者は未来の話なのだ。記録は後からでも読めるが、未来の話は、その時に聞かなければ意味を失う。\nそれ以来、私は「順調です」という報告をしないことにしている。順調なら黙っていても誰も困らない。報告が必要なのは、いつも順調でないときのほうなのだから。",
+   "notas": [
+    {
+     "termino": "手の打ちよう",
+     "glosa": "対処する方法"
+    }
+   ]
+  },
+  "enunciado": "先輩に叱られたのは、どんなことに対してか。",
+  "opciones": [
+   "大きな失敗をしたこと",
+   "困った時点で報告しなかったこと",
+   "報告の仕方が丁寧でなかったこと",
+   "仕事が終わるのが遅かったこと"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "本文が「失敗そのものではなかった」と否定している",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "El texto dice expresamente que no le riñeron por el error, sino por avisar cuando ya había terminado en vez de cuando surgió el problema.",
+   "en": "The text says outright that he wasn't told off for the mistake, but for reporting once it was over instead of when the trouble started."
+  },
+  "puntos": [
+   "叱られたのは失敗そのものではなかった → no fue por el error",
+   "困った時点で言え → fue por el momento del aviso"
+  ],
+  "etiquetas": [
+   "随筆",
+   "職場"
+  ],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-chuubun-0002",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "grupo": "n2-chuubun-g001",
+  "orden_grupo": 1,
+  "pasaje": null,
+  "enunciado": "「前者は過去の話で、後者は未来の話なのだ」とあるが、「後者」とは何か。",
+  "opciones": [
+   "終わった仕事の報告",
+   "途中の報告",
+   "先輩の助言",
+   "失敗の記録"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "前者のほう",
+   "本文の別の要素",
+   "本文の別の要素"
+  ],
+  "explicacion": {
+   "es": "前者 es el informe de un trabajo ya terminado y 後者 el informe a medio camino, que todavía permite reaccionar.",
+   "en": "前者 is the report on finished work and 後者 the mid-way report, which still allows you to act."
+  },
+  "puntos": [
+   "終わった仕事の報告＝前者",
+   "途中の報告＝後者、まだ手の打ちようがある"
+  ],
+  "etiquetas": [
+   "随筆",
+   "職場"
+  ],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-chuubun-0003",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "grupo": "n2-chuubun-g001",
+  "orden_grupo": 2,
+  "pasaje": null,
+  "enunciado": "筆者が「順調です」という報告をしないのはなぜか。",
+  "opciones": [
+   "順調なときは報告する時間がないから",
+   "順調でないときこそ報告が必要だと考えているから",
+   "先輩にそう命じられたから",
+   "報告が多いと迷惑をかけるから"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "本文にない",
+   "先輩の言葉は別の内容",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Su conclusión es que si todo va bien no pasa nada por callar; el informe hace falta justo cuando las cosas no van bien.",
+   "en": "His conclusion is that when things go well silence costs nothing; the report is needed precisely when they don't."
+  },
+  "puntos": [
+   "順調なら黙っていても困らない",
+   "報告が必要なのは順調でないときのほう"
+  ],
+  "etiquetas": [
+   "随筆",
+   "職場"
+  ],
+  "dificultad": 4
+ }
+]

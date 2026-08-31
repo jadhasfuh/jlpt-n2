@@ -6,7 +6,7 @@ import { contarPendientes, leerProgreso, resumen } from "@/lib/progreso";
 import { Marca } from "./Marca";
 import { Buscador } from "./Buscador";
 import {
-  IcAuto, IcCurso, IcDiccionario, IcLuna, IcPerfil, IcRepaso, IcSol,
+  IcAuto, IcCurso, IcDiccionario, IcExamen, IcLuna, IcPerfil, IcRepaso, IcSol,
 } from "./Iconos";
 import { useAjustes } from "./Ajustes";
 
@@ -47,6 +47,9 @@ export function Lateral() {
         <nav>
           <Link href="/" className={activo("/") ? "activo" : ""}>
             <IcCurso size={19} /> {t("nav.curso")}
+          </Link>
+          <Link href="/examen" className={activo("/examen") ? "activo" : ""}>
+            <IcExamen size={19} /> {t("nav.examen")}
           </Link>
           <Link href="/repaso" className={activo("/repaso") ? "activo" : ""}>
             <IcRepaso size={19} /> {t("nav.repaso")}

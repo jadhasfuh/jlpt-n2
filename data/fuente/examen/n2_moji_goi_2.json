@@ -1,0 +1,418 @@
+[
+ {
+  "id": "n2-bunmyaku-0001",
+  "nivel": "N2",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この計画は（　）に検討したうえで決定したい。",
+  "objetivo": "（　）",
+  "opciones": [
+   "慎重",
+   "貴重",
+   "尊重",
+   "重大"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "「重」を共有",
+   "「重」を共有",
+   "「重」を共有"
+  ],
+  "explicacion": {
+   "es": "慎重に検討する = estudiarlo con cuidado. Las cuatro comparten el kanji 重, pero sólo 慎重 combina con 検討する.",
+   "en": "慎重に検討する = to look into it carefully. All four share 重, but only 慎重 collocates with 検討する."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunmyaku-0002",
+  "nivel": "N2",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼は約束の時間に（　）現れる。",
+  "objetivo": "（　）",
+  "opciones": [
+   "きっちり",
+   "がっかり",
+   "うっかり",
+   "しっかり"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "同じ形の副詞",
+   "同じ形の副詞",
+   "同じ形の副詞"
+  ],
+  "explicacion": {
+   "es": "きっちり = clavado, exacto. うっかり es «por descuido» y がっかり «decepcionado»: misma forma, sentido incompatible.",
+   "en": "きっちり = exactly, on the dot. うっかり is 'carelessly' and がっかり 'disappointed' — same shape, incompatible sense."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunmyaku-0003",
+  "nivel": "N2",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "大雨のため、試合は（　）された。",
+  "objetivo": "（　）",
+  "opciones": [
+   "中止",
+   "禁止",
+   "停止",
+   "廃止"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "「止」を共有",
+   "「止」を共有",
+   "「止」を共有"
+  ],
+  "explicacion": {
+   "es": "中止 = cancelado por una circunstancia. 禁止 es prohibir, 停止 detener algo en marcha, 廃止 abolir para siempre.",
+   "en": "中止 = called off because of circumstances. 禁止 is to forbid, 停止 to halt something running, 廃止 to abolish for good."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunmyaku-0004",
+  "nivel": "N2",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼の話は（　）がなくて、何が言いたいのか分からない。",
+  "objetivo": "（　）",
+  "opciones": [
+   "まとまり",
+   "つながり",
+   "かかわり",
+   "へだたり"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "同じ〜り名詞",
+   "同じ〜り名詞",
+   "同じ〜り名詞"
+  ],
+  "explicacion": {
+   "es": "まとまりがない = deslavazado, sin hilo. つながり sería «conexión» entre cosas concretas.",
+   "en": "まとまりがない = rambling, with no thread. つながり would be a 'connection' between specific things."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunmyaku-0005",
+  "nivel": "N2",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼はまだ経験が（　）ので、一人で任せるのは不安だ。",
+  "objetivo": "（　）",
+  "opciones": [
+   "乏しい",
+   "貧しい",
+   "惜しい",
+   "険しい"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "同じ〜しい形容詞",
+   "同じ〜しい形容詞",
+   "同じ〜しい形容詞"
+  ],
+  "explicacion": {
+   "es": "経験が乏しい = tiene poca experiencia. 貧しい se dice del dinero, no de la experiencia.",
+   "en": "経験が乏しい = short on experience. 貧しい is about money, not experience."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunmyaku-0006",
+  "nivel": "N2",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "新入社員は（　）した態度で質問に答えていた。",
+  "objetivo": "（　）",
+  "opciones": [
+   "はきはき",
+   "いきいき",
+   "どきどき",
+   "ばらばら"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "同じ畳語の副詞",
+   "同じ畳語の副詞",
+   "同じ畳語の副詞"
+  ],
+  "explicacion": {
+   "es": "はきはきした態度 = con desparpajo, respondiendo claro. いきいき es «lleno de vida» y no describe la manera de contestar.",
+   "en": "はきはきした態度 = crisp and clear in answering. いきいき is 'lively' and doesn't describe how one answers."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-bunmyaku-0007",
+  "nivel": "N2",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "先生に注意されて、彼は（　）していた。",
+  "objetivo": "（　）",
+  "opciones": [
+   "しょんぼり",
+   "ゆっくり",
+   "はっきり",
+   "ぴったり"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "同じ〜り副詞",
+   "同じ〜り副詞",
+   "同じ〜り副詞"
+  ],
+  "explicacion": {
+   "es": "しょんぼり = cabizbajo. Los otros tres son también 〜り pero ninguno describe un estado de ánimo.",
+   "en": "しょんぼり = downcast. The other three are also 〜り adverbs but none describes a mood."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-iikae-0001",
+  "nivel": "N2",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "その件については、おって連絡します。",
+  "objetivo": "おって",
+  "opciones": [
+   "すぐに",
+   "あとで",
+   "直接",
+   "必ず"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "時間の逆",
+   "手段であって時期でない",
+   "確実さであって時期でない"
+  ],
+  "explicacion": {
+   "es": "おって = más adelante, en su momento. Es la versión formal de あとで.",
+   "en": "おって = later on, in due course. It's the formal version of あとで."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-iikae-0002",
+  "nivel": "N2",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼の説明はくどくて、聞いていて疲れる。",
+  "objetivo": "くどくて",
+  "opciones": [
+   "あっさりしていて",
+   "しつこくて",
+   "短くて",
+   "難しくて"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "反対の意味",
+   "長さだけの問題ではない",
+   "難易度は別の話"
+  ],
+  "explicacion": {
+   "es": "くどい = pesado de tanto insistir. あっさりしている es justo lo contrario.",
+   "en": "くどい = tediously insistent. あっさりしている is the exact opposite."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-iikae-0003",
+  "nivel": "N2",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "今年は予算がとぼしい。",
+  "objetivo": "とぼしい",
+  "opciones": [
+   "多い",
+   "少ない",
+   "ちょうどいい",
+   "増えている"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "程度の尺度: 反対",
+   "程度の尺度: 中間",
+   "方向が違う"
+  ],
+  "explicacion": {
+   "es": "とぼしい = escaso. Los distractores forman una escala de cantidad y sólo «少ない» coincide.",
+   "en": "とぼしい = scarce. The distractors form a scale of quantity and only 少ない matches."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-iikae-0004",
+  "nivel": "N2",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼女はたちまち有名になった。",
+  "objetivo": "たちまち",
+  "opciones": [
+   "だんだん",
+   "あっという間に",
+   "なかなか",
+   "ようやく"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "速度が逆",
+   "時間がかかる含み",
+   "時間がかかる含み"
+  ],
+  "explicacion": {
+   "es": "たちまち = en un abrir y cerrar de ojos. だんだん sería poco a poco, lo contrario.",
+   "en": "たちまち = in no time at all. だんだん would be gradually, the opposite."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-iikae-0005",
+  "nivel": "N2",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "その案はあっさり却下された。",
+  "objetivo": "あっさり",
+  "opciones": [
+   "簡単に",
+   "ようやく",
+   "しぶしぶ",
+   "全員に"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "苦労の含みが逆",
+   "気持ちの話であって難易度でない",
+   "人数は問われていない"
+  ],
+  "explicacion": {
+   "es": "あっさり = sin más, sin resistencia. ようやく implicaría que costó, justo lo contrario.",
+   "en": "あっさり = just like that, without resistance. ようやく would imply it took effort — the opposite."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-youhou-0001",
+  "nivel": "N2",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "思いつく",
+  "objetivo": "思いつく",
+  "opciones": [
+   "シャワーを浴びているとき、いいアイデアを思いついた。",
+   "昔のことを思いついて、懐かしくなった。",
+   "彼の気持ちを思いついて、何も言えなかった。",
+   "明日の予定を思いついておいてください。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "2は思い出す",
+   "3は思いやる",
+   "4は考えておく"
+  ],
+  "explicacion": {
+   "es": "思いつく = que se te ocurra algo de golpe. Recordar es 思い出す y ponerse en el lugar del otro es 思いやる.",
+   "en": "思いつく = for an idea to strike you. Remembering is 思い出す and empathising is 思いやる."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-youhou-0002",
+  "nivel": "N2",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "引き受ける",
+  "objetivo": "引き受ける",
+  "opciones": [
+   "駅で友達を引き受けた。",
+   "難しい仕事だったが、引き受けることにした。",
+   "重い荷物を引き受けて運んだ。",
+   "彼の意見を引き受けて計画を変えた。"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "1は迎える",
+   "3は引き取る/運ぶ",
+   "4は受け入れる"
+  ],
+  "explicacion": {
+   "es": "引き受ける = hacerse cargo de una tarea o responsabilidad. No se «hace cargo» de personas ni de opiniones.",
+   "en": "引き受ける = to take on a task or responsibility. You don't 'take on' people or opinions."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-youhou-0003",
+  "nivel": "N2",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "そそっかしい",
+  "objetivo": "そそっかしい",
+  "opciones": [
+   "彼はそそっかしくて、よく忘れ物をする。",
+   "この部屋はそそっかしくて落ち着かない。",
+   "彼女はそそっかしい性格で、誰にでも優しい。",
+   "そそっかしい味の料理は苦手だ。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "2は騒がしい",
+   "3は内容が矛盾",
+   "4は共起不可能"
+  ],
+  "explicacion": {
+   "es": "そそっかしい = atolondrado, descuidado. Sólo se dice de personas, y no cuadra con «amable con todos».",
+   "en": "そそっかしい = scatterbrained. It only describes people, and doesn't square with 'kind to everyone'."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n2-youhou-0004",
+  "nivel": "N2",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "相次ぐ",
+  "objetivo": "相次ぐ",
+  "opciones": [
+   "今月に入って事故が相次いで起きている。",
+   "昨日は彼と相次いで食事をした。",
+   "相次ぐ道をまっすぐ歩いた。",
+   "彼女は質問に相次いで返事をした。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "2は一緒に",
+   "3は共起不可能",
+   "4はすぐに"
+  ],
+  "explicacion": {
+   "es": "相次ぐ = sucederse uno tras otro. Necesita varios sucesos del mismo tipo, no dos personas ni un camino.",
+   "en": "相次ぐ = to happen one after another. It needs several events of the same kind, not two people or a road."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ }
+]
