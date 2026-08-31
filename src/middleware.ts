@@ -13,7 +13,12 @@ export async function middleware(req: NextRequest) {
   const host = req.headers.get("host") ?? "";
   if (host.startsWith("www.")) {
     const destino = new URL(req.url);
-    destino.host = host.slice(4);
+    // `.host` NO borra el puerto si el valor nuevo no lo lleva, y detrás del
+    // proxy de Railway la petición entra por el 8080: con `.host` la
+    // redirección salía a https://jlptest.org:8080/, que no abre desde fuera.
+    destino.hostname = host.slice(4).split(":")[0];
+    destino.port = "";
+    destino.protocol = "https:";
     return NextResponse.redirect(destino, 308);
   }
 
