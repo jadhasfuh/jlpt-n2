@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kotoba/saber-1",
+ "titulo": "<ruby>誤解<rt>ごかい</rt></ruby>が<ruby>解<rt>と</rt></ruby>けるまで",
+ "cuerpo": "メールの<ruby>文<rt>ぶん</rt></ruby>が<ruby>短<rt>みじか</rt></ruby>かったせいで、<ruby>相手<rt>あいて</rt></ruby>をおこらせてしまいました。<ruby>誤解<rt>ごかい</rt></ruby>だと<ruby>分<rt>わ</rt></ruby>かるまで、<ruby>三日<rt>みっか</rt></ruby>かかりました。<ruby>文字<rt>もじ</rt></ruby>だけのやりとりは、<ruby>短<rt>みじか</rt></ruby>けれ<em class=\"g\">ば短いほど</em>、<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>り<ruby>方<rt>かた</rt></ruby>のはばが<ruby>広<rt>ひろ</rt></ruby>がります。あわてて<ruby>説明<rt>せつめい</rt></ruby>すると、かえってこじれます。<ruby>勘定<rt>かんじょう</rt></ruby>のまちがいなら<ruby>数字<rt>すうじ</rt></ruby>で<ruby>直<rt>なお</rt></ruby>せますが、<ruby>気持<rt>きも</rt></ruby>ちのすれちがいはそうはいきません。けっきょく、<ruby>電話<rt>でんわ</rt></ruby>を<ruby>一<rt>いっ</rt></ruby><ruby>本<rt>ぽん</rt></ruby>かけて、<ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby><ruby>話<rt>はな</rt></ruby>したら<ruby>解決<rt>かいけつ</rt></ruby>しました。",
+ "traduccion": "Por culpa de lo breve que era mi correo, hice enfadar a la otra persona. Tardamos tres días en aclarar que era un malentendido. En los intercambios solo de texto, cuanto más breves son, más se amplía el abanico de interpretaciones. Si te apresuras a explicarte, la cosa se enreda más. Un error de cuentas se corrige con números, pero un desencuentro de sentimientos no funciona así. Al final hice una llamada y, tras cinco minutos de conversación, quedó resuelto.",
+ "preguntas": [
+  {
+   "p": "<ruby>誤解<rt>ごかい</rt></ruby>だと<ruby>分<rt>わ</rt></ruby>かるまで、どのくらいかかりましたか。",
+   "opciones": [
+    "<ruby>一日<rt>いちにち</rt></ruby>",
+    "<ruby>三日<rt>みっか</rt></ruby>",
+    "<ruby>一<rt>いっ</rt></ruby>しゅうかん",
+    "<ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "どうやって<ruby>解決<rt>かいけつ</rt></ruby>しましたか。",
+   "opciones": [
+    "メールで<ruby>説明<rt>せつめい</rt></ruby>した",
+    "<ruby>電話<rt>でんわ</rt></ruby>をかけて<ruby>話<rt>はな</rt></ruby>した",
+    "<ruby>何<rt>なに</rt></ruby>もしなかった",
+    "<ruby>数字<rt>すうじ</rt></ruby>で<ruby>直<rt>なお</rt></ruby>した"
+   ],
+   "correcta": 1
+  }
+ ]
+}

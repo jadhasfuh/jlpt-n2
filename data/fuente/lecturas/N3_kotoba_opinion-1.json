@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kotoba/opinion-1",
+ "titulo": "<ruby>納得<rt>なっとく</rt></ruby>するまで",
+ "cuerpo": "<ruby>会議<rt>かいぎ</rt></ruby>で<ruby>結論<rt>けつろん</rt></ruby>が<ruby>出<rt>で</rt></ruby>ませんでした。<ruby>意見<rt>いけん</rt></ruby>が<ruby>一致<rt>いっち</rt></ruby>しなかったからです。<ruby>批評<rt>ひひょう</rt></ruby>ばかりでていあんがないと、<ruby>話<rt>はなし</rt></ruby>は<ruby>前<rt>まえ</rt></ruby>へ<ruby>進<rt>すす</rt></ruby>みません。そこで、<ruby>反対<rt>はんたい</rt></ruby>する<ruby>人<rt>ひと</rt></ruby>に「<ruby>代<rt>か</rt></ruby>わりに、どうすればいいと<ruby>思<rt>おも</rt></ruby>いますか」と<ruby>聞<rt>き</rt></ruby>きました。だまって<ruby>承認<rt>しょうにん</rt></ruby>させるやり<ruby>方<rt>かた</rt></ruby>を、わたしは<em class=\"g\">決して</em>とり<em class=\"g\">ません</em>。<ruby>納得<rt>なっとく</rt></ruby>しないまま<ruby>完了<rt>かんりょう</rt></ruby>した<ruby>仕事<rt>しごと</rt></ruby>は、あとでかならず<ruby>反抗<rt>はんこう</rt></ruby>のかたちであらわれます。<ruby>時間<rt>じかん</rt></ruby>はかかりましたが、<ruby>全員<rt>ぜんいん</rt></ruby>が<ruby>納得<rt>なっとく</rt></ruby>する<ruby>形<rt>かたち</rt></ruby>になりました。",
+ "traduccion": "En la reunión no salió una conclusión, porque las opiniones no coincidían. Si todo son críticas y no hay propuestas, la cosa no avanza. Así que le pregunté a quien se oponía: «y en su lugar, ¿qué cree usted que habría que hacer?». Yo nunca recurro a hacer que alguien apruebe algo callándose. Un trabajo cerrado sin que la gente lo asuma siempre acaba reapareciendo en forma de resistencia. Costó tiempo, pero acabó tomando una forma que todos aceptaron.",
+ "preguntas": [
+  {
+   "p": "なぜ<ruby>結論<rt>けつろん</rt></ruby>が<ruby>出<rt>で</rt></ruby>ませんでしたか。",
+   "opciones": [
+    "<ruby>時間<rt>じかん</rt></ruby>がないから",
+    "<ruby>意見<rt>いけん</rt></ruby>が<ruby>一致<rt>いっち</rt></ruby>しなかったから",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから",
+    "ていあんが<ruby>多<rt>おお</rt></ruby>いから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>納得<rt>なっとく</rt></ruby>しないまま<ruby>完了<rt>かんりょう</rt></ruby>した<ruby>仕事<rt>しごと</rt></ruby>は、どうなりますか。",
+   "opciones": [
+    "うまくいく",
+    "あとで<ruby>反抗<rt>はんこう</rt></ruby>のかたちであらわれる",
+    "はやく<ruby>終<rt>お</rt></ruby>わる",
+    "わすれられる"
+   ],
+   "correcta": 1
+  }
+ ]
+}

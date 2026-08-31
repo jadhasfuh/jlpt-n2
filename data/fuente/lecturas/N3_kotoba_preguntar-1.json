@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kotoba/preguntar-1",
+ "titulo": "<ruby>問<rt>と</rt></ruby>いの<ruby>立<rt>た</rt></ruby>て<ruby>方<rt>かた</rt></ruby>",
+ "cuerpo": "<ruby>疑問<rt>ぎもん</rt></ruby>に<ruby>思<rt>おも</rt></ruby>ったことを、そのまま<ruby>口<rt>くち</rt></ruby>に<ruby>出<rt>だ</rt></ruby>すのはむずかしいものです。「これは<ruby>何<rt>なに</rt></ruby>ですか」と<ruby>聞<rt>き</rt></ruby>くのと、「なぜこうなっているのですか」と<ruby>聞<rt>き</rt></ruby>くのとでは、<ruby>返<rt>かえ</rt></ruby>ってくる<ruby>答<rt>こた</rt></ruby>えがまるでちがいます。<ruby>主張<rt>しゅちょう</rt></ruby>したいことがあるときこそ、まず<ruby>問<rt>と</rt></ruby>いのかたちにしてみるといいです。コーヒー<em class=\"g\">か何か</em>を<ruby>飲<rt>の</rt></ruby>みながら、<ruby>提案<rt>ていあん</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えなおしました。いい<ruby>問<rt>と</rt></ruby>いは、<ruby>答<rt>こた</rt></ruby>えよりも<ruby>長<rt>なが</rt></ruby>く<ruby>残<rt>のこ</rt></ruby>ります。",
+ "traduccion": "Es difícil sacar por la boca, tal cual, lo que te ha dejado con dudas. Preguntar «¿qué es esto?» no es lo mismo que preguntar «¿por qué está así?»: la respuesta que recibes cambia por completo. Precisamente cuando tienes algo que reclamar conviene darle primero forma de pregunta. Tomándome un café o algo así, reformulé mi propuesta. Una buena pregunta dura más que una respuesta.",
+ "preguntas": [
+  {
+   "p": "<ruby>問<rt>と</rt></ruby>いの<ruby>立<rt>た</rt></ruby>て<ruby>方<rt>かた</rt></ruby>で、<ruby>何<rt>なに</rt></ruby>がかわりますか。",
+   "opciones": [
+    "<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>返<rt>かえ</rt></ruby>ってくる<ruby>答<rt>こた</rt></ruby>え",
+    "<ruby>相手<rt>あいて</rt></ruby>",
+    "<ruby>気<rt>き</rt></ruby>もち"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いい<ruby>問<rt>と</rt></ruby>いについて、どう<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "すぐわすれられる",
+    "<ruby>答<rt>こた</rt></ruby>えよりも<ruby>長<rt>なが</rt></ruby>く<ruby>残<rt>のこ</rt></ruby>る",
+    "むずかしい",
+    "<ruby>必要<rt>ひつよう</rt></ruby>ない"
+   ],
+   "correcta": 1
+  }
+ ]
+}
