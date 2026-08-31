@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kotoba/decir-1",
+ "titulo": "<ruby>語<rt>かた</rt></ruby>るということ",
+ "cuerpo": "<ruby>演説<rt>えんぜつ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>く<ruby>機会<rt>きかい</rt></ruby>がありました。<ruby>表現<rt>ひょうげん</rt></ruby>がうまい<ruby>人<rt>ひと</rt></ruby>のスピーチは、<ruby>絵<rt>え</rt></ruby>を<ruby>描<rt>えが</rt></ruby>くように<ruby>場面<rt>ばめん</rt></ruby>が<ruby>見<rt>み</rt></ruby>えてきます。ただしゃべるのと、<ruby>語<rt>かた</rt></ruby>るのはちがいます。いわゆるうまい<ruby>話<rt>はな</rt></ruby>し<ruby>方<rt>かた</rt></ruby>とは、はやく<ruby>話<rt>はな</rt></ruby>すことでも、むずかしいことばを<ruby>使<rt>つか</rt></ruby>うことでもありません。<ruby>別<rt>べつ</rt></ruby>にとくべつなぎじゅつが<em class=\"g\">ない</em>のに、<ruby>心<rt>こころ</rt></ruby>にのこる<ruby>人<rt>ひと</rt></ruby>がいます。その<ruby>人<rt>ひと</rt></ruby><em class=\"g\">ほど</em><ruby>正直<rt>しょうじき</rt></ruby>に<ruby>話<rt>はな</rt></ruby>す<ruby>人<rt>ひと</rt></ruby>は<em class=\"g\">いません</em>。あとで<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>うと、みんなが<ruby>同<rt>おな</rt></ruby>じところを<ruby>覚<rt>おぼ</rt></ruby>えていました。",
+ "traduccion": "Tuve ocasión de escuchar un discurso. Los discursos de quien se expresa bien hacen que las escenas se vean, como si dibujara. Hablar sin más y narrar no son lo mismo. Lo que llamamos hablar bien no consiste en ir rápido ni en usar palabras difíciles. Hay gente que, sin tener ninguna técnica especial, se queda en el corazón. No hay nadie que hable con tanta honestidad como esa persona. Cuando después lo comentamos, todos recordábamos el mismo pasaje.",
+ "preguntas": [
+  {
+   "p": "うまい<ruby>話<rt>はな</rt></ruby>し<ruby>方<rt>かた</rt></ruby>とは<ruby>何<rt>なに</rt></ruby>ではありませんか。",
+   "opciones": [
+    "<ruby>正直<rt>しょうじき</rt></ruby>に<ruby>話<rt>はな</rt></ruby>すこと",
+    "はやく<ruby>話<rt>はな</rt></ruby>すことやむずかしいことばを<ruby>使<rt>つか</rt></ruby>うこと",
+    "<ruby>絵<rt>え</rt></ruby>を<ruby>描<rt>えが</rt></ruby>くこと",
+    "<ruby>心<rt>こころ</rt></ruby>にのこること"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "あとで<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>うと、どうでしたか。",
+   "opciones": [
+    "みんなちがうところを<ruby>覚<rt>おぼ</rt></ruby>えていた",
+    "みんなが<ruby>同<rt>おな</rt></ruby>じところを<ruby>覚<rt>おぼ</rt></ruby>えていた",
+    "だれも<ruby>覚<rt>おぼ</rt></ruby>えていなかった",
+    "<ruby>意見<rt>いけん</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かれた"
+   ],
+   "correcta": 1
+  }
+ ]
+}

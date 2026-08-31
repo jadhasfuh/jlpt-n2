@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kokoro/tristeza-2",
+ "titulo": "<ruby>面倒<rt>めんどう</rt></ruby>なこと",
+ "cuerpo": "<ruby>困難<rt>こんなん</rt></ruby>なしごとを<ruby>頼<rt>たの</rt></ruby>まれました。はじめは<ruby>不安<rt>ふあん</rt></ruby>で、<ruby>失望<rt>しつぼう</rt></ruby>するのがこわかったです。<ruby>迷惑<rt>めいわく</rt></ruby>をかけたくないという<ruby>気持<rt>きも</rt></ruby>ちもありました。でも、<ruby>面倒<rt>めんどう</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>うことほど、やっ<em class=\"g\">たって</em>たいていはなんとかなります。<ruby>不平<rt>ふへい</rt></ruby>や<ruby>不満<rt>ふまん</rt></ruby>を<ruby>言<rt>い</rt></ruby>っているあいだは、<ruby>時間<rt>じかん</rt></ruby>だけが<ruby>過<rt>す</rt></ruby>ぎていきます。はじめてしまえ<em class=\"g\">ばいい</em>のです。<ruby>退屈<rt>たいくつ</rt></ruby>な<ruby>作業<rt>さぎょう</rt></ruby>も、<ruby>終<rt>お</rt></ruby>わりが<ruby>見<rt>み</rt></ruby>えると<ruby>気<rt>き</rt></ruby>にならなくなりました。<ruby>気<rt>き</rt></ruby>の<ruby>毒<rt>どく</rt></ruby>なのは、やる<ruby>前<rt>まえ</rt></ruby>に<ruby>悩<rt>なや</rt></ruby>みつづけていたじぶんのほうでした。",
+ "traduccion": "Me encargaron un trabajo difícil. Al principio estaba inquieto y me daba miedo decepcionar. También sentía que no quería causar molestias. Pero justo con lo que te parece un fastidio, aunque lo hagas, casi siempre sale adelante. Mientras te dedicas a quejarte, lo único que pasa es el tiempo. Basta con empezar. Incluso la tarea aburrida dejó de molestarme en cuanto se veía el final. A quien había que compadecer era a mí mismo, que estuve angustiándome antes de empezar.",
+ "preguntas": [
+  {
+   "p": "はじめ、なぜこわかったですか。",
+   "opciones": [
+    "<ruby>時間<rt>じかん</rt></ruby>がないから",
+    "<ruby>失望<rt>しつぼう</rt></ruby>するのがこわかったから",
+    "<ruby>退屈<rt>たいくつ</rt></ruby>だから",
+    "<ruby>頼<rt>たの</rt></ruby>まれたから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>気<rt>き</rt></ruby>の<ruby>毒<rt>どく</rt></ruby>なのはだれですか。",
+   "opciones": [
+    "<ruby>頼<rt>たの</rt></ruby>んだ<ruby>人<rt>ひと</rt></ruby>",
+    "やる<ruby>前<rt>まえ</rt></ruby>に<ruby>悩<rt>なや</rt></ruby>みつづけていたじぶん",
+    "まわりの<ruby>人<rt>ひと</rt></ruby>",
+    "だれもいない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

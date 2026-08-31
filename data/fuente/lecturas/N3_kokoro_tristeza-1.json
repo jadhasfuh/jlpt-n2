@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kokoro/tristeza-1",
+ "titulo": "<ruby>涙<rt>なみだ</rt></ruby>の<ruby>理由<rt>りゆう</rt></ruby>",
+ "cuerpo": "<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ていて、とつぜん<ruby>涙<rt>なみだ</rt></ruby>が<ruby>出<rt>で</rt></ruby>てきました。<ruby>悲<rt>かな</rt></ruby>しい<ruby>場面<rt>ばめん</rt></ruby>ではありません。むしろ、しずかな<ruby>場面<rt>ばめん</rt></ruby>でした。<ruby>緊張<rt>きんちょう</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>いていた<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>の<ruby>疲<rt>つか</rt></ruby>れがそこで<ruby>出<rt>で</rt></ruby>たのだと<ruby>思<rt>おも</rt></ruby>います。<em class=\"g\">なぜなら</em>、その<ruby>日<rt>ひ</rt></ruby>は<ruby>朝<rt>あさ</rt></ruby>からわけもなくいらいらしていたからです。<ruby>苦<rt>くる</rt></ruby>しいときは、<ruby>苦<rt>くる</rt></ruby>しいと<ruby>気<rt>き</rt></ruby>づけないことがあります。<ruby>恐<rt>おそ</rt></ruby>れや<ruby>悩<rt>なや</rt></ruby>みは、ふとした<ruby>瞬間<rt>しゅんかん</rt></ruby>にかたちを<ruby>変<rt>か</rt></ruby>えて<ruby>出<rt>で</rt></ruby>てきます。<ruby>叫<rt>さけ</rt></ruby>ばずに<ruby>泣<rt>な</rt></ruby>けたのは、むしろよかったのかもしれません。",
+ "traduccion": "Viendo una película, de repente me saltaron las lágrimas. No era una escena triste. Al contrario, era una escena tranquila. Creo que ahí salió el cansancio de un mes de tensión continua. Porque aquel día llevaba desde la mañana irritado sin motivo. Cuando lo estás pasando mal, a veces no te das cuenta de que lo estás pasando mal. Los miedos y las preocupaciones salen en un momento cualquiera, cambiados de forma. Quizá fuera mejor haber podido llorar sin gritar.",
+ "preguntas": [
+  {
+   "p": "なぜ<ruby>涙<rt>なみだ</rt></ruby>が<ruby>出<rt>で</rt></ruby>たと<ruby>思<rt>おも</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>映画<rt>えいが</rt></ruby>が<ruby>悲<rt>かな</rt></ruby>しいから",
+    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>の<ruby>疲<rt>つか</rt></ruby>れが<ruby>出<rt>で</rt></ruby>たから",
+    "<ruby>目<rt>め</rt></ruby>がいたいから",
+    "<ruby>場面<rt>ばめん</rt></ruby>がしずかだから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>苦<rt>くる</rt></ruby>しいときについて、どう<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "すぐ<ruby>分<rt>わ</rt></ruby>かる",
+    "<ruby>苦<rt>くる</rt></ruby>しいと<ruby>気<rt>き</rt></ruby>づけないことがある",
+    "<ruby>泣<rt>な</rt></ruby>くべきだ",
+    "<ruby>叫<rt>さけ</rt></ruby>ぶべきだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}
