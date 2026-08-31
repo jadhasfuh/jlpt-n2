@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" width="56" height="56">
   <rect width="56" height="56" rx="13" fill="#292b31"/>
-  <text x="11" y="39" font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif"
-        font-size="28" font-weight="600" letter-spacing="-1.4" fill="#e4e7f5">jt</text>
-  <circle cx="43.5" cy="14.5" r="4.5" fill="#d7263d"/>
+  <text x="28" y="36" text-anchor="middle"
+        font-family="Inter, system-ui, -apple-system, Segoe UI, sans-serif"
+        font-size="22" font-weight="600" letter-spacing="-1.1" fill="#e4e7f5">jt</text>
+  <circle cx="40.5" cy="17.5" r="4.5" fill="#d7263d"/>
 </svg>
