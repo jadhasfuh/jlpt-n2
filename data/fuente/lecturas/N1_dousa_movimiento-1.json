@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/dousa/movimiento-1",
+ "titulo": "<ruby>舞<rt>ま</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>を<ruby>見<rt>み</rt></ruby>て",
+ "cuerpo": "<ruby>秋<rt>あき</rt></ruby>の<ruby>祭<rt>まつ</rt></ruby>りで、<ruby>近所<rt>きんじょ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>たちが<ruby>舞<rt>ま</rt></ruby>うのを<ruby>見<rt>み</rt></ruby>ました。<ruby>面<rt>めん</rt></ruby>をつけ、<ruby>体<rt>からだ</rt></ruby>を<ruby>少<rt>すこ</rt></ruby>し<ruby>傾<rt>かたむ</rt></ruby>けて、<ruby>足<rt>あし</rt></ruby>をすり<ruby>足<rt>あし</rt></ruby>にして<ruby>回<rt>まわ</rt></ruby>っていきます。<ruby>子<rt>こ</rt></ruby>どものころは<ruby>退屈<rt>たいくつ</rt></ruby>で、<ruby>列<rt>れつ</rt></ruby>を<ruby>抜<rt>ぬ</rt></ruby>け<ruby>出<rt>だ</rt></ruby>しては<ruby>柱<rt>はしら</rt></ruby>に<ruby>寄<rt>よ</rt></ruby>り<ruby>掛<rt>か</rt></ruby>かって<ruby>眠<rt>ねむ</rt></ruby>っていました。いま<ruby>見<rt>み</rt></ruby>ると、あの<ruby>遅<rt>おそ</rt></ruby>さが<ruby>難<rt>むずか</rt></ruby>しいのだとわかります。<ruby>一<rt>いっ</rt></ruby><ruby>歩<rt>ぽ</rt></ruby>をゆっくり<ruby>出<rt>だ</rt></ruby>すには、<ruby>体<rt>からだ</rt></ruby>の<ruby>芯<rt>しん</rt></ruby>が<ruby>要<rt>い</rt></ruby>る。<ruby>足<rt>あし</rt></ruby>を<ruby>蹴<rt>け</rt></ruby><ruby>飛<rt>と</rt></ruby>ばすように<ruby>動<rt>うご</rt></ruby>かせば<ruby>楽<rt>らく</rt></ruby>ですが、それでは<ruby>何<rt>なに</rt></ruby>も<ruby>伝<rt>つた</rt></ruby>わりません。<ruby>舞<rt>ま</rt></ruby>っていたのは<ruby>米屋<rt>こめや</rt></ruby>の<ruby>主人<rt>しゅじん</rt></ruby>でした。プロ<em class=\"g\">ではあるまいし</em><ruby>上手<rt>じょうず</rt></ruby>でなくてもいい、と<ruby>本人<rt>ほんにん</rt></ruby>は<ruby>言<rt>い</rt></ruby>います。でも、<ruby>暗<rt>くら</rt></ruby>がりに<ruby>紛<rt>まぎ</rt></ruby>れて<ruby>見<rt>み</rt></ruby>ていた<ruby>何十人<rt>なんじゅうにん</rt></ruby>が<ruby>息<rt>いき</rt></ruby>をとめていたのを、わたしは<ruby>知<rt>し</rt></ruby>っています。",
+ "traduccion": "En la fiesta de otoño vi bailar a la gente del barrio. Con la máscara puesta y el cuerpo algo inclinado, giraban arrastrando los pies. De niño me aburría, me escapaba de la fila y me quedaba dormido apoyado en una columna. Viéndolo ahora, entiendo que lo difícil es precisamente esa lentitud. Para sacar un solo paso despacio hace falta centro. Mover las piernas como quien da una patada es cómodo, pero así no se transmite nada. Quien bailaba era el dueño de la tienda de arroz. Él dice que, como no es ningún profesional, no hace falta que lo haga bien. Pero yo sé que las decenas de personas que miraban desde la penumbra estaban conteniendo la respiración.",
+ "preguntas": [
+  {
+   "p": "<ruby>子<rt>こ</rt></ruby>どものころ、この<ruby>人<rt>ひと</rt></ruby>は<ruby>祭<rt>まつ</rt></ruby>りで<ruby>何<rt>なに</rt></ruby>をしていましたか。",
+   "opciones": [
+    "<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>舞<rt>ま</rt></ruby>っていた",
+    "<ruby>列<rt>れつ</rt></ruby>を<ruby>抜<rt>ぬ</rt></ruby>け<ruby>出<rt>だ</rt></ruby>して<ruby>眠<rt>ねむ</rt></ruby>っていた",
+    "<ruby>面<rt>めん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>っていた",
+    "<ruby>写真<rt>しゃしん</rt></ruby>をとっていた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いま<ruby>見<rt>み</rt></ruby>て、<ruby>何<rt>なに</rt></ruby>が<ruby>難<rt>むずか</rt></ruby>しいとわかりましたか。",
+   "opciones": [
+    "<ruby>速<rt>はや</rt></ruby>くうごくこと",
+    "ゆっくりうごくこと",
+    "<ruby>面<rt>めん</rt></ruby>をつけること",
+    "<ruby>列<rt>れつ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ること"
+   ],
+   "correcta": 1
+  }
+ ]
+}

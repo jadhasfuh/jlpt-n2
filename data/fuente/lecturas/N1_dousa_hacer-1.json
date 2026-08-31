@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/dousa/hacer-1",
+ "titulo": "<ruby>繕<rt>つくろ</rt></ruby>う<ruby>手<rt>て</rt></ruby>",
+ "cuerpo": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でも<ruby>繕<rt>つくろ</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>でした。<ruby>破<rt>やぶ</rt></ruby>れた<ruby>靴下<rt>くつした</rt></ruby>も、<ruby>取<rt>と</rt></ruby>れたボタンも、<ruby>捨<rt>す</rt></ruby>てるという<ruby>考<rt>かんが</rt></ruby>えが<ruby>頭<rt>あたま</rt></ruby>になかったのだと<ruby>思<rt>おも</rt></ruby>います。<ruby>目<rt>め</rt></ruby>が<ruby>霞<rt>かす</rt></ruby>むようになり、<ruby>手先<rt>てさき</rt></ruby>が<ruby>鈍<rt>にぶ</rt></ruby>って<ruby>針<rt>はり</rt></ruby>が<ruby>通<rt>とお</rt></ruby>らなくなっ<em class=\"g\">に至っても</em>、<ruby>糸<rt>いと</rt></ruby>を<ruby>持<rt>も</rt></ruby>つことをやめませんでした。<ruby>母<rt>はは</rt></ruby><em class=\"g\">に言わせれば</em>、それはただの<ruby>意地<rt>いじ</rt></ruby>だそうです。でもわたしには、<ruby>物<rt>もの</rt></ruby>を<ruby>生<rt>い</rt></ruby>かしきることが<ruby>祖母<rt>そぼ</rt></ruby>なりの<ruby>礼儀<rt>れいぎ</rt></ruby>のように<ruby>見<rt>み</rt></ruby>えました。<ruby>家<rt>いえ</rt></ruby>を<ruby>改修<rt>かいしゅう</rt></ruby>したとき、<ruby>押<rt>お</rt></ruby>し<ruby>入<rt>い</rt></ruby>れの<ruby>奥<rt>おく</rt></ruby>から<ruby>針<rt>はり</rt></ruby><ruby>箱<rt>ばこ</rt></ruby>が<ruby>出<rt>で</rt></ruby>てきました。<ruby>中<rt>なか</rt></ruby>には<ruby>使<rt>つか</rt></ruby>いかけの<ruby>糸<rt>いと</rt></ruby>が<ruby>色<rt>いろ</rt></ruby>ごとに<ruby>並<rt>なら</rt></ruby>んでいます。<ruby>玄関<rt>げんかん</rt></ruby>に<ruby>小<rt>ちい</rt></ruby>さな<ruby>棚<rt>たな</rt></ruby>を<ruby>設<rt>もう</rt></ruby>けて、そこに<ruby>花<rt>はな</rt></ruby>を<ruby>生<rt>い</rt></ruby>けることにしました。<ruby>祖母<rt>そぼ</rt></ruby>のやり<ruby>方<rt>かた</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえながら、<ruby>自分<rt>じぶん</rt></ruby>なりのかたちに<ruby>辿<rt>たど</rt></ruby>り<ruby>着<rt>つ</rt></ruby>ければいいと<ruby>思<rt>おも</rt></ruby>っています。",
+ "traduccion": "Mi abuela era de las que remiendan cualquier cosa. Calcetines rotos, botones caídos: creo que la opción de tirar algo no le pasaba por la cabeza. Incluso cuando la vista se le nubló y, con los dedos ya torpes, la aguja dejó de entrarle, no soltó el hilo. Si le preguntas a mi madre, aquello no era más que cabezonería. Pero a mí me parecía que agotar la vida útil de las cosas era la manera que tenía mi abuela de ser respetuosa. Cuando reformamos la casa, del fondo del armario salió su costurero. Dentro, los hilos empezados estaban ordenados por color. He puesto un estante pequeño en la entrada y he decidido poner flores ahí. Partiendo de su manera de hacer las cosas, me conformo con llegar a una forma que sea mía.",
+ "preguntas": [
+  {
+   "p": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>目<rt>め</rt></ruby>が<ruby>見<rt>み</rt></ruby>えにくくなってから、どうしましたか。",
+   "opciones": [
+    "<ruby>針<rt>はり</rt></ruby><ruby>仕事<rt>しごと</rt></ruby>をやめた",
+    "それでも<ruby>糸<rt>いと</rt></ruby>を<ruby>持<rt>も</rt></ruby>つことをやめなかった",
+    "<ruby>母<rt>はは</rt></ruby>に<ruby>頼<rt>たの</rt></ruby>んだ",
+    "<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>捨<rt>す</rt></ruby>てた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>祖母<rt>そぼ</rt></ruby>のやり<ruby>方<rt>かた</rt></ruby>をどうしたいと<ruby>思<rt>おも</rt></ruby>っていますか。",
+   "opciones": [
+    "そのまま<ruby>真似<rt>まね</rt></ruby>したい",
+    "それを<ruby>踏<rt>ふ</rt></ruby>まえて<ruby>自分<rt>じぶん</rt></ruby>なりのかたちに<ruby>辿<rt>たど</rt></ruby>り<ruby>着<rt>つ</rt></ruby>きたい",
+    "<ruby>忘<rt>わす</rt></ruby>れたい",
+    "<ruby>母<rt>はは</rt></ruby>に<ruby>教<rt>おし</rt></ruby>えたい"
+   ],
+   "correcta": 1
+  }
+ ]
+}
