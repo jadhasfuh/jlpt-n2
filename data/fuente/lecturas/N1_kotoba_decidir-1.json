@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/kotoba/decidir-1",
+ "titulo": "<ruby>企画<rt>きかく</rt></ruby>を<ruby>通<rt>とお</rt></ruby>すまで",
+ "cuerpo": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>事業<rt>じぎょう</rt></ruby>の<ruby>企画<rt>きかく</rt></ruby>を<ruby>任<rt>まか</rt></ruby>されたとき、はじめは<ruby>規模<rt>きぼ</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きさに<ruby>足<rt>あし</rt></ruby>がすくみました。<ruby>上司<rt>じょうし</rt></ruby>の<ruby>指図<rt>さしず</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つばかりで、<ruby>自分<rt>じぶん</rt></ruby>で<ruby>何<rt>なに</rt></ruby>かを<ruby>定<rt>さだ</rt></ruby>めることができなかったのです。<ruby>専門<rt>せんもん</rt></ruby><ruby>家<rt>か</rt></ruby><em class=\"g\">ぶって</em><ruby>難<rt>むずか</rt></ruby>しい<ruby>言葉<rt>ことば</rt></ruby>を<ruby>並<rt>なら</rt></ruby>べても、<ruby>中身<rt>なかみ</rt></ruby>がなければ<ruby>誰<rt>だれ</rt></ruby>も<ruby>採択<rt>さいたく</rt></ruby>してくれません。<ruby>嫌々<rt>いやいや</rt></ruby>やっているうちは、<ruby>企画<rt>きかく</rt></ruby><em class=\"g\">でも何でもない</em>のです。<ruby>客観<rt>きゃっかん</rt></ruby><ruby>的<rt>てき</rt></ruby>な<ruby>数字<rt>すうじ</rt></ruby>をそろえ、<ruby>目標<rt>もくひょう</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つに<ruby>絞<rt>しぼ</rt></ruby>りました。<ruby>提供<rt>ていきょう</rt></ruby>できる<ruby>価値<rt>かち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>かという<ruby>一点<rt>いってん</rt></ruby>だけをまとにして<ruby>書<rt>か</rt></ruby>き<ruby>直<rt>なお</rt></ruby>したのです。<ruby>決断<rt>けつだん</rt></ruby>するというのは、<ruby>足<rt>た</rt></ruby>すことではなく<ruby>削<rt>けず</rt></ruby>ることでした。<ruby>手筈<rt>てはず</rt></ruby>がととのって<ruby>確定<rt>かくてい</rt></ruby>したのは、それから<ruby>半年<rt>はんとし</rt></ruby><ruby>後<rt>ご</rt></ruby>です。<ruby>志<rt>こころざ</rt></ruby>した<ruby>方向<rt>ほうこう</rt></ruby>は、いまも<ruby>変<rt>か</rt></ruby>わっていません。",
+ "traduccion": "Cuando me encargaron el proyecto de una nueva línea de negocio, al principio la envergadura me dejó paralizado. No hacía más que esperar instrucciones del jefe y era incapaz de decidir nada por mi cuenta. Por mucho que uno se dé aires de experto y alinee palabras difíciles, si no hay contenido nadie te lo aprueba. Mientras lo haces a regañadientes, aquello no es ningún proyecto. Reuní cifras objetivas y reduje el objetivo a uno solo. Lo reescribí apuntando únicamente a una cosa: qué valor podemos ofrecer. Decidir no consistía en añadir, sino en quitar. Los preparativos cuadraron y quedó aprobado medio año después. La dirección que me propuse entonces sigue siendo la misma.",
+ "preguntas": [
+  {
+   "p": "はじめ、この<ruby>人<rt>ひと</rt></ruby>はどうしていましたか。",
+   "opciones": [
+    "すぐに<ruby>書<rt>か</rt></ruby>きはじめた",
+    "<ruby>上司<rt>じょうし</rt></ruby>の<ruby>指図<rt>さしず</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つばかりだった",
+    "<ruby>数字<rt>すうじ</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めた",
+    "<ruby>目標<rt>もくひょう</rt></ruby>を<ruby>絞<rt>しぼ</rt></ruby>った"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>にとって<ruby>決断<rt>けつだん</rt></ruby>とは<ruby>何<rt>なん</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>足<rt>た</rt></ruby>すこと",
+    "<ruby>削<rt>けず</rt></ruby>ること",
+    "<ruby>待<rt>ま</rt></ruby>つこと",
+    "<ruby>相談<rt>そうだん</rt></ruby>すること"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/kotoba/decidir-2",
+ "titulo": "<ruby>手回<rt>てまわ</rt></ruby>しのいい<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "<ruby>催<rt>もよお</rt></ruby>し<ruby>物<rt>もの</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>を<ruby>三人<rt>さんにん</rt></ruby>で<ruby>担当<rt>たんとう</rt></ruby>しました。<ruby>一人<rt>ひとり</rt></ruby>は<ruby>手回<rt>てまわ</rt></ruby>しがよく、<ruby>方式<rt>ほうしき</rt></ruby>を<ruby>先<rt>さき</rt></ruby>に<ruby>決<rt>き</rt></ruby>めてしまう<ruby>人<rt>ひと</rt></ruby>です。<ruby>机<rt>つくえ</rt></ruby>の<ruby>配列<rt>はいれつ</rt></ruby>から<ruby>受付<rt>うけつけ</rt></ruby>の<ruby>取締<rt>とりしま</rt></ruby>りまで、<ruby>図<rt>ず</rt></ruby>に<ruby>起<rt>お</rt></ruby>こして<ruby>皆<rt>みな</rt></ruby>に<ruby>配<rt>くば</rt></ruby>りました。もう<ruby>一人<rt>ひとり</rt></ruby>は<ruby>慎重<rt>しんちょう</rt></ruby>で、<ruby>判定<rt>はんてい</rt></ruby>を<ruby>急<rt>いそ</rt></ruby>ぎません。<ruby>並列<rt>へいれつ</rt></ruby>に<ruby>案<rt>あん</rt></ruby>を<ruby>置<rt>お</rt></ruby>いて、<ruby>目途<rt>めど</rt></ruby>が<ruby>立<rt>た</rt></ruby>つまで<ruby>見<rt>み</rt></ruby>くらべます。どちらが<ruby>正<rt>ただ</rt></ruby>しいという<ruby>話<rt>はなし</rt></ruby>ではありません。<ruby>当日<rt>とうじつ</rt></ruby>に<ruby>機械<rt>きかい</rt></ruby>が<ruby>故障<rt>こしょう</rt></ruby>したときは、<ruby>謝<rt>あやま</rt></ruby>るだけ<em class=\"g\">では済まない</em><ruby>事態<rt>じたい</rt></ruby>になりました。そこで<ruby>力<rt>ちから</rt></ruby>を<ruby>発揮<rt>はっき</rt></ruby>したのは、<ruby>慎重<rt>しんちょう</rt></ruby>なほうが<ruby>用意<rt>ようい</rt></ruby>していた<ruby>予備<rt>よび</rt></ruby>の<ruby>手順<rt>てじゅん</rt></ruby>です。<ruby>責<rt>せ</rt></ruby>めるがましいことを<ruby>言<rt>い</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>は<ruby>一人<rt>ひとり</rt></ruby>もいませんでした。<ruby>統率<rt>とうそつ</rt></ruby>というのは<ruby>一人<rt>ひとり</rt></ruby>が<ruby>引<rt>ひ</rt></ruby>っぱることだと<ruby>思<rt>おも</rt></ruby>っていましたが、<ruby>違<rt>ちが</rt></ruby>う<ruby>速<rt>はや</rt></ruby>さの<ruby>人<rt>ひと</rt></ruby>が<ruby>同<rt>おな</rt></ruby>じ<ruby>方<rt>ほう</rt></ruby>を<ruby>向<rt>む</rt></ruby>くことなのだと<ruby>知<rt>し</rt></ruby>りました。",
+ "traduccion": "Nos encargamos entre tres de preparar un evento. Uno de ellos es muy previsor y decide el método desde el principio. Desde la disposición de las mesas hasta el control de la recepción, lo dibujó en un esquema y nos lo repartió. Otra es prudente y no se precipita al juzgar. Pone las alternativas en paralelo y las compara hasta ver claro el camino. No se trata de quién tiene razón. Cuando el día del evento se averió una máquina, la cosa llegó a un punto en que no bastaba con pedir disculpas. Y ahí lo que funcionó fue el procedimiento de reserva que había preparado la prudente. Nadie dijo nada que sonara a reproche. Yo creía que liderar consistía en que uno tira del resto, pero aprendí que es que gente con ritmos distintos mire en la misma dirección.",
+ "preguntas": [
+  {
+   "p": "<ruby>当日<rt>とうじつ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>きましたか。",
+   "opciones": [
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>来<rt>こ</rt></ruby>なかった",
+    "<ruby>機械<rt>きかい</rt></ruby>が<ruby>故障<rt>こしょう</rt></ruby>した",
+    "<ruby>受付<rt>うけつけ</rt></ruby>がまちがえた",
+    "<ruby>机<rt>つくえ</rt></ruby>が<ruby>足<rt>た</rt></ruby>りなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>にとって<ruby>統率<rt>とうそつ</rt></ruby>とは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>一人<rt>ひとり</rt></ruby>が<ruby>引<rt>ひ</rt></ruby>っぱること",
+    "<ruby>違<rt>ちが</rt></ruby>う<ruby>速<rt>はや</rt></ruby>さの<ruby>人<rt>ひと</rt></ruby>が<ruby>同<rt>おな</rt></ruby>じ<ruby>方<rt>ほう</rt></ruby>を<ruby>向<rt>む</rt></ruby>くこと",
+    "<ruby>方式<rt>ほうしき</rt></ruby>を<ruby>先<rt>さき</rt></ruby>に<ruby>決<rt>き</rt></ruby>めること",
+    "<ruby>判定<rt>はんてい</rt></ruby>を<ruby>急<rt>いそ</rt></ruby>ぐこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}
