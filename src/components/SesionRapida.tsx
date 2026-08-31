@@ -5,6 +5,7 @@ import type { Palabra } from "@/lib/tipos";
 import { anotar, estadoItem, leerProgreso, paraRepasar } from "@/lib/progreso";
 import { BotonFurigana } from "./Ajustes";
 import { Jp, BotonVoz } from "./Jp";
+import { IcCerrar, IcCronometro, IcDerecha } from "./Iconos";
 
 const MINUTOS = 5;
 
@@ -66,7 +67,7 @@ export function SesionRapida() {
   if (!arrancado) {
     return (
       <div className="tarjeta" style={{ marginTop: 48, textAlign: "center", padding: 40 }}>
-        <div style={{ fontSize: 40 }}>⏱</div>
+        <span className="disco" style={{ width: 56, height: 56 }}><IcCronometro size={24} /></span>
         <h1 style={{ fontSize: 24, margin: "8px 0 4px" }}>Cinco minutos</h1>
         <p className="silencio">
           Repaso corto con lo que tienes más flojo. Para solo cuando se acabe el tiempo.

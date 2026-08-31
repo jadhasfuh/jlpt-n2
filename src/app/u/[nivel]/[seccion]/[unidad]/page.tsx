@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { gramaticas, kanjis, palabras, unidad, vecinas } from "@/lib/contenido";
+import { gramaticas, kanjis, palabras, seccionCurso, unidad, vecinas } from "@/lib/contenido";
 import { Cabecera } from "@/components/Cabecera";
 import { VistaUnidad } from "@/components/VistaUnidad";
 
@@ -12,20 +12,23 @@ export default async function Pagina(
   const { nivel, seccion, unidad: parte } = await params;
   const u = unidad(`${nivel}/${seccion}/${parte}`);
   if (!u) notFound();
-  const { siguiente } = vecinas(u.id);
+  const { siguiente, indice, total } = vecinas(u.id);
+  const sec = seccionCurso(nivel, seccion);
   const sig = siguiente
     ? `/u/${siguiente.split("/")[0]}/${siguiente.split("/")[1]}/${siguiente.split("/")[2]}`
     : null;
 
   return (
     <>
-      <Cabecera atras={`/n/${nivel}/${seccion}`} titulo="Sección" />
+      <Cabecera atras={`/n/${nivel}/${seccion}`} titulo={sec?.ja ?? "Sección"} />
       <VistaUnidad
         unidad={u}
         palabras={palabras(u.palabras)}
         gramatica={gramaticas(u.gramatica)}
         kanji={kanjis(u.kanji)}
         siguiente={sig}
+        indice={indice}
+        total={total}
       />
     </>
   );

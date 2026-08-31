@@ -2,6 +2,7 @@
 import { useMemo, useState } from "react";
 import { useAjustes } from "./Ajustes";
 import { colorearHtml } from "@/lib/colores";
+import { IcBien, IcCerrar } from "./Iconos";
 
 /**
  * Ordenar la frase con fichas. En japonés esto suele exigir un analizador
@@ -131,7 +132,7 @@ export function Ordenar({ frases, traduccion }: { frases: string[]; traduccion: 
         ) : (
           <>
             <span className="btn" style={{ pointerEvents: "none" }}>
-              {revisado ? "✓ correcto" : "✗ no era ese orden"}
+              {revisado ? <><IcBien size={14} /> correcto</> : <><IcCerrar size={14} /> no era ese orden</>}
             </span>
             <button className="btn" onClick={() => reiniciar(n)}>Otra vez</button>
             {n < frases.length - 1 && (

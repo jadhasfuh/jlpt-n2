@@ -65,13 +65,18 @@ export const totales = {
   kanji: KANJI.length,
 };
 
-/** Vecinas dentro de la misma sección, para el botón «siguiente». */
-export function vecinas(id: string): { anterior?: string; siguiente?: string } {
+/** Vecinas dentro de la misma sección, y en qué puesto va esta unidad. */
+export function vecinas(id: string): {
+  anterior?: string; siguiente?: string; indice: number; total: number;
+} {
   const u = porIdUnidad.get(id);
-  if (!u) return {};
+  if (!u) return { indice: 0, total: 0 };
   const hermanas = UNIDADES.filter((x) => x.nivel === u.nivel && x.seccion === u.seccion);
   const i = hermanas.findIndex((x) => x.id === id);
-  return { anterior: hermanas[i - 1]?.id, siguiente: hermanas[i + 1]?.id };
+  return {
+    anterior: hermanas[i - 1]?.id, siguiente: hermanas[i + 1]?.id,
+    indice: i + 1, total: hermanas.length,
+  };
 }
 
 // Índice del diccionario interno (lo consulta /api/diccionario).

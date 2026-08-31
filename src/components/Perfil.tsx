@@ -27,7 +27,7 @@ export function Perfil({ totalPalabras }: { totalPalabras: number }) {
         <div style={{ display: "flex", gap: 20, flexWrap: "wrap" }}>
           {[
             [`${r.xp}`, "XP acumulado"],
-            [r.racha ? `${r.racha} 🔥` : "0", "días seguidos"],
+            [`${r.racha}`, "días seguidos"],
             [`${r.dominadas}`, "palabras dominadas"],
             [`${r.vistas}`, "palabras vistas"],
             [`${r.unidades}`, "unidades practicadas"],

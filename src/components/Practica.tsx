@@ -1,9 +1,11 @@
 "use client";
 import { useMemo, useState } from "react";
 import type { Gramatica, Palabra, Unidad } from "@/lib/tipos";
-import { Jp, BotonVoz } from "./Jp";
+import { Jp, JpEnLinea, BotonVoz } from "./Jp";
 import { BotonFurigana } from "./Ajustes";
 import { anotar, terminarPractica, XP_NUEVA, XP_UNIDAD } from "@/lib/progreso";
+import { ejemploDe, useFrases } from "@/lib/frases";
+import { IcBien, IcCerrar, IcRepaso } from "./Iconos";
 
 type Carta =
   | { tipo: "palabra"; id: number; frente: string; lectura: string; reverso: string; extra: string }
@@ -25,12 +27,14 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
     })),
   ], [palabras, gramatica]);
 
+  const frases = useFrases(unidad.id);
   const [i, setI] = useState(0);
   const [visible, setVisible] = useState(false);
   const [ganado, setGanado] = useState(0);
   // Lo que fallas vuelve a salir antes de terminar: es lo que más fija.
   const [cola, setCola] = useState<Carta[]>([]);
   const [segundaVuelta, setSegundaVuelta] = useState(false);
+  const [marcas, setMarcas] = useState<Record<number, boolean>>({});
 
   const mazo = segundaVuelta ? cola : cartas;
 
@@ -38,11 +42,13 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
   if (!segundaVuelta && i >= cartas.length && cola.length > 0) {
     return (
       <div className="escena">
-        <div className="escena-cabeza"><button className="btn fantasma" onClick={cerrar}>✕</button></div>
+        <div className="escena-cabeza">
+          <button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button>
+        </div>
         <div className="escena-centro">
-          <div style={{ fontSize: 44 }}>🔁</div>
-          <h2 style={{ margin: 0 }}>Quedan {cola.length} por afianzar</h2>
-          <p className="silencio" style={{ margin: 0 }}>
+          <span className="disco" style={{ width: 56, height: 56 }}><IcRepaso size={24} /></span>
+          <h2 style={{ margin: 0, fontSize: 19 }}>Quedan {cola.length} por afianzar</h2>
+          <p style={{ margin: 0, fontSize: 13, color: "var(--tinta-2)" }}>
             Las que no te salieron vuelven ahora, antes de cerrar.
           </p>
           <button className="btn primario" style={{ marginTop: 12 }}
@@ -57,11 +63,14 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
   if (i >= mazo.length) {
     return (
       <div className="escena">
-        <div className="escena-cabeza"><button className="btn fantasma" onClick={cerrar}>✕</button></div>
+        <div className="escena-cabeza">
+          <button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button>
+        </div>
         <div className="escena-centro">
-          <div style={{ fontSize: 48 }}>🎌</div>
-          <h2 style={{ margin: 0 }}>Práctica terminada</h2>
-          <p className="silencio" style={{ margin: 0 }}>
+          <div className="halo" />
+          <span className="jp" style={{ fontSize: 40, fontWeight: 500 }}>語彙</span>
+          <h2 style={{ margin: 0, fontSize: 19 }}>Práctica terminada</h2>
+          <p style={{ margin: 0, fontSize: 13, color: "var(--tinta-2)" }}>
             {cartas.length} tarjetas · +{ganado + XP_UNIDAD} XP
             {cola.length > 0 && ` · ${cola.length} para la próxima`}
           </p>
@@ -75,8 +84,11 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
   }
 
   const c = mazo[i];
+  const ejemplo = c.tipo === "palabra" ? ejemploDe(frases, c.frente) : null;
+
   const responder = (acierto: boolean) => {
     anotar(c.tipo === "palabra" ? "palabras" : "gramatica", c.id, acierto);
+    setMarcas((m) => ({ ...m, [i]: acierto }));
     if (acierto) {
       setGanado((g) => g + XP_NUEVA);
       if (segundaVuelta) setCola((q) => q.filter((x) => x.id !== c.id));
@@ -90,24 +102,43 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
   return (
     <div className="escena">
       <div className="escena-cabeza">
-        <button className="btn fantasma" onClick={cerrar}>✕</button>
-        <div className="barra" style={{ flex: 1 }}>
-          <i style={{ width: `${(i / mazo.length) * 100}%` }} />
+        <button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button>
+        {/* Una barrita por tarjeta: se ve de un vistazo cuántas has fallado. */}
+        <div className="segmentos">
+          {mazo.map((_, n) => (
+            <i key={n} className={marcas[n] === true ? "bien" : marcas[n] === false ? "mal" : ""} />
+          ))}
         </div>
         <BotonFurigana />
-        <span className="tenue">
-          {segundaVuelta && "🔁 "}{i + 1}/{mazo.length}
+        <span className="tenue" style={{ fontVariantNumeric: "tabular-nums" }}>
+          {i + 1}/{mazo.length}
         </span>
       </div>
 
       <div className="escena-centro">
-        {c.tipo === "gramatica" && <span className="etiqueta">文法</span>}
+        <div className="halo" />
+        <span className={`pastilla ${c.tipo === "gramatica" ? "acento" : unidad.nivel.toLowerCase()}`}>
+          <span className="jp">{c.tipo === "gramatica" ? "文法" : "語彙"}</span> · {unidad.nivel}
+        </span>
         <Jp escritura={c.frente} lectura={c.lectura} clase="jp-grande" revelar={visible} />
         <BotonVoz texto={c.frente} />
         {visible && (
           <>
-            <p style={{ fontSize: 18, margin: "6px 0 0" }}>{c.reverso}</p>
-            <p className="tenue" style={{ margin: 0 }}>{c.extra}</p>
+            <p style={{ fontSize: 19, margin: "6px 0 0" }}>{c.reverso}</p>
+            <p style={{ margin: 0, fontSize: 13, color: "var(--tinta-3)" }}>{c.extra}</p>
+            {ejemplo && (
+              // La frase sale de la lectura de esta misma unidad, así que no
+              // trae kanji ni gramática por encima de su nivel.
+              <div style={{
+                border: "1px solid var(--linea)", borderRadius: 10, padding: "10px 12px",
+                marginTop: 8, textAlign: "left", maxWidth: 460,
+              }}>
+                <JpEnLinea html={ejemplo.html} />
+                {ejemplo.es && (
+                  <div style={{ fontSize: 11.5, color: "var(--tinta-3)", marginTop: 4 }}>{ejemplo.es}</div>
+                )}
+              </div>
+            )}
           </>
         )}
       </div>
@@ -115,15 +146,22 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
       <div className="opciones" style={{ margin: "0 auto", flexDirection: "row" }}>
         {visible ? (
           <>
-            <button className="btn" style={{ flex: 1 }} onClick={() => responder(false)}>No la sabía</button>
-            <button className="btn primario" style={{ flex: 1 }} onClick={() => responder(true)}>La sabía</button>
+            <button className="btn" style={{ flex: 1, padding: 13 }} onClick={() => responder(false)}>
+              <IcCerrar size={15} /> No la sabía
+            </button>
+            <button className="btn primario" style={{ flex: 1, padding: 13 }} onClick={() => responder(true)}>
+              <IcBien size={15} /> La sabía
+            </button>
           </>
         ) : (
-          <button className="btn primario" style={{ flex: 1 }} onClick={() => setVisible(true)}>
+          <button className="btn primario" style={{ flex: 1, padding: 13 }} onClick={() => setVisible(true)}>
             Ver significado
           </button>
         )}
       </div>
+      <p className="tenue" style={{ textAlign: "center", margin: "8px 0 0", fontSize: 10.5 }}>
+        Las que falles vuelven antes de cerrar la sesión
+      </p>
     </div>
   );
 }

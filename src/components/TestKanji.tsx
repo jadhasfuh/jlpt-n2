@@ -1,8 +1,9 @@
 "use client";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { Kanji } from "@/lib/tipos";
-import { anotar, medalla, registrarTest } from "@/lib/progreso";
+import { anotar, registrarTest } from "@/lib/progreso";
 import { BotonFurigana } from "./Ajustes";
+import { IcCerrar, IcDerecha } from "./Iconos";
 
 const SEGUNDOS = 3;
 
@@ -73,7 +74,7 @@ export function TestKanji({ kanji, titulo, cerrar }: {
   if (!preguntas.length) {
     return (
       <div className="escena">
-        <div className="escena-cabeza"><button className="btn fantasma" onClick={cerrar}>✕</button></div>
+        <div className="escena-cabeza"><button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button></div>
         <div className="escena-centro"><p>No hay kanji suficientes para un test.</p></div>
       </div>
     );
@@ -84,9 +85,11 @@ export function TestKanji({ kanji, titulo, cerrar }: {
     if (!guardado) { registrarTest(`kanji:${titulo}`, pct); setGuardado(true); }
     return (
       <div className="escena">
-        <div className="escena-cabeza"><button className="btn fantasma" onClick={cerrar}>✕</button></div>
+        <div className="escena-cabeza"><button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button></div>
         <div className="escena-centro">
-          <div style={{ fontSize: 52 }}>{medalla(pct) || (pct >= 50 ? "👍" : "💪")}</div>
+          <span className="jp" style={{ fontSize: 34, fontWeight: 500, color: "var(--acento)" }}>
+            {pct >= 70 ? "合格" : "再挑戦"}
+          </span>
           <h2 style={{ margin: 0, fontSize: 30 }}>{pct}%</h2>
           <p className="silencio" style={{ margin: 0 }}>
             {puntos} de {preguntas.length} puntos · medio por el significado, medio por la lectura
@@ -126,7 +129,7 @@ export function TestKanji({ kanji, titulo, cerrar }: {
   return (
     <div className="escena">
       <div className="escena-cabeza">
-        <button className="btn fantasma" onClick={cerrar}>✕</button>
+        <button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button>
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(n / preguntas.length) * 100}%` }} />
         </div>
@@ -163,7 +166,7 @@ export function TestKanji({ kanji, titulo, cerrar }: {
                     if (fase === "significado" && q.hayLectura) setFase("esperando");
                     else siguiente();
                   }}>
-            Siguiente →
+            Siguiente <IcDerecha size={15} />
           </button>
         )}
         {fase === "significado" && q.opciones.map((op) => {

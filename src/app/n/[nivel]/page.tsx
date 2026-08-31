@@ -4,6 +4,7 @@ import { curso, nivelCurso } from "@/lib/contenido";
 import { Cabecera } from "@/components/Cabecera";
 import { ListaSecciones } from "@/components/ListaSecciones";
 import { DESC_NIVEL, type Nivel } from "@/lib/tipos";
+import { IcDerecha } from "@/components/Iconos";
 
 export function generateStaticParams() {
   return curso().map((n) => ({ nivel: n.id }));
@@ -32,7 +33,7 @@ export default async function Pagina({ params }: { params: Promise<{ nivel: stri
             <div style={{ fontWeight: 600 }}>Todos los kanji del nivel</div>
             <div className="tenue">{n.kanji} kanji · lista y test</div>
           </div>
-          <span className="flecha">›</span>
+          <span className="flecha"><IcDerecha size={14} /></span>
         </Link>
         {n.gramatica > 0 && (
           <Link href={`/n/${n.id}/gramatica`} className="fila" style={{ marginBottom: 12 }}>
@@ -43,7 +44,7 @@ export default async function Pagina({ params }: { params: Promise<{ nivel: stri
               <div style={{ fontWeight: 600 }}>Toda la gramática del nivel</div>
               <div className="tenue">{n.gramatica} puntos, de simple a complejo</div>
             </div>
-            <span className="flecha">›</span>
+            <span className="flecha"><IcDerecha size={14} /></span>
           </Link>
         )}
         <ListaSecciones nivel={n.id} secciones={n.secciones.map((s) => ({

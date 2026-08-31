@@ -5,6 +5,7 @@ import { COLOR_NIVEL, type Nivel } from "@/lib/tipos";
 import { leerProgreso } from "@/lib/progreso";
 import { Anillo } from "./Anillo";
 import { ACCESO_ABIERTO, esLibre } from "@/lib/acceso";
+import { IcDerecha } from "./Iconos";
 
 type S = { id: string; ja: string; es: string; palabras: number; gramatica: number; unidades: number };
 
@@ -42,7 +43,7 @@ export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones:
             </div>
             {bloqueada ? <span style={{ fontSize: 17 }}>🔒</span>
                        : !ACCESO_ABIERTO && esLibre(s.id) ? <span className="pastilla gratis">gratis</span>
-                       : <span className="flecha">›</span>}
+                       : <span className="flecha"><IcDerecha size={14} /></span>}
           </>
         );
         return bloqueada ? (

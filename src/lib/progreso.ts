@@ -206,10 +206,11 @@ export function avanceUnidad(p: Progreso, ids: (string | number)[], tipo: "palab
   return n / ids.length;
 }
 
-export function medalla(mejor: number): "" | "🥉" | "🥈" | "🥇" {
-  if (mejor >= 95) return "🥇";
-  if (mejor >= 85) return "🥈";
-  if (mejor >= 70) return "🥉";
+/** El grado del mejor test de una unidad. Sin emoji: se pinta como pastilla. */
+export function medalla(mejor: number): "" | "bronce" | "plata" | "oro" {
+  if (mejor >= 95) return "oro";
+  if (mejor >= 85) return "plata";
+  if (mejor >= 70) return "bronce";
   return "";
 }
 
@@ -253,4 +254,40 @@ export function contarPendientes(p: Progreso) {
     }
   }
   return { vencidas, hoy };
+}
+
+/**
+ * Cuántas palabras vencen cada uno de los próximos siete días. El primer cubo
+ * arrastra todo lo ya vencido: si llevas una semana sin entrar, lo atrasado
+ * toca hoy, no el día en que venció.
+ */
+export function prevision7dias(p: Progreso): { dia: string; n: number }[] {
+  const hoy = new Date(); hoy.setHours(0, 0, 0, 0);
+  const inicio = hoy.getTime();
+  const cubos = Array(7).fill(0) as number[];
+  for (const m of Object.values(p.palabras)) {
+    if (!m.proximo || m.a + m.f === 0) continue;
+    const d = Math.floor((m.proximo - inicio) / 864e5);
+    if (d < 0) cubos[0]++;
+    else if (d < 7) cubos[d]++;
+  }
+  const nombres = ["dom", "lun", "mar", "mié", "jue", "vie", "sáb"];
+  return cubos.map((n, i) => ({
+    dia: i === 0 ? "hoy" : nombres[(hoy.getDay() + i) % 7],
+    n,
+  }));
+}
+
+/** Las que más veces has fallado: por dónde conviene empezar a apretar. */
+export function masFlojas(p: Progreso, cuantas = 3): { id: number; fallos: number }[] {
+  return Object.entries(p.palabras)
+    .map(([id, m]) => ({ id: Number(id), fallos: m.f }))
+    .filter((x) => x.fallos > 0)
+    .sort((a, b) => b.fallos - a.fallos)
+    .slice(0, cuantas);
+}
+
+/** Cuántas palabras tienes vivas: vistas alguna vez y aún no quemadas. */
+export function vivas(p: Progreso): number {
+  return Object.values(p.palabras).filter((m) => m.a + m.f > 0).length;
 }

@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { useAjustes } from "./Ajustes";
 import { colorearHtml } from "@/lib/colores";
+import { IcParar, IcPausa, IcReproducir, IcVoz } from "./Iconos";
 
 /** Texto japonés con furigana y kanji coloreados por nivel. Nunca romaji. */
 export function Jp({
@@ -88,11 +89,15 @@ export function BotonVoz({ texto, etiqueta }: { texto: string; etiqueta?: string
       <button className="btn fantasma" onClick={alternar}
               title={estado === "hablando" ? "Pausar" : estado === "pausado" ? "Seguir" : "Escuchar"}
               aria-label={estado === "hablando" ? "Pausar" : "Escuchar"}>
-        {estado === "hablando" ? "⏸" : estado === "pausado" ? "▶️" : "🔊"}
-        {etiqueta && <span style={{ marginLeft: 6, fontSize: 13 }}>{etiqueta}</span>}
+        {estado === "hablando" ? <IcPausa size={17} weight="fill" />
+         : estado === "pausado" ? <IcReproducir size={17} weight="fill" />
+         : <IcVoz size={17} />}
+        {etiqueta && <span style={{ marginLeft: 6, fontSize: 12.5 }}>{etiqueta}</span>}
       </button>
       {estado !== "parado" && (
-        <button className="btn fantasma" onClick={parar} title="Detener" aria-label="Detener">⏹</button>
+        <button className="btn fantasma" onClick={parar} title="Detener" aria-label="Detener">
+          <IcParar size={16} weight="fill" />
+        </button>
       )}
     </span>
   );

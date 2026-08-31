@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { Gramatica, Kanji, UnidadMeta } from "@/lib/tipos";
 import { leerProgreso, medalla, type Progreso } from "@/lib/progreso";
+import { IcDerecha } from "./Iconos";
 
 
 export function ListaUnidades({ nivel, seccion, unidades, gramatica, kanji }: {
@@ -24,11 +25,11 @@ export function ListaUnidades({ nivel, seccion, unidades, gramatica, kanji }: {
           unidades muy abajo y se perdía el sitio donde estabas. */}
       <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>
         <Link className="btn" style={{ flex: 1 }} href={`/n/${nivel}/${seccion}/kanji`}>
-          <span className="jp">漢字</span> {kanji.length} ›
+          <span className="jp">漢字</span> {kanji.length}
         </Link>
         {gramatica.length > 0 && (
           <Link className="btn" style={{ flex: 1 }} href={`/n/${nivel}/${seccion}/gramatica`}>
-            <span className="jp">文法</span> {gramatica.length} ›
+            <span className="jp">文法</span> {gramatica.length}
           </Link>
         )}
       </div>
@@ -46,9 +47,12 @@ export function ListaUnidades({ nivel, seccion, unidades, gramatica, kanji }: {
                   {u.gramatica ? ` · ${u.gramatica} gramática` : ""}
                 </div>
               </div>
-              {est?.mejor ? <span title={`mejor: ${est.mejor}%`}>{medalla(est.mejor) || `${est.mejor}%`}</span> : null}
+              {est?.mejor ? (
+                <span className={`pastilla ${medalla(est.mejor) ? "acento" : ""}`}
+                      title={`mejor test: ${est.mejor}%`}>{est.mejor}%</span>
+              ) : null}
               {est?.practicada && !est.mejor ? <span className="punto dominada" /> : null}
-              <span className="flecha">›</span>
+              <span className="flecha"><IcDerecha size={14} /></span>
             </Link>
           );
         })}

@@ -4,6 +4,11 @@ import type { Palabra, Unidad } from "@/lib/tipos";
 import { anotar } from "@/lib/progreso";
 import { BotonFurigana } from "./Ajustes";
 import { alCargarVoces, callar, decir, hayVozJaponesa } from "@/lib/voz";
+import { IcCerrar, IcDerecha, IcOtraVez, IcReproducir } from "./Iconos";
+
+// Alturas de la onda. Fijas a propósito: es una figura, no un medidor — no
+// tenemos progreso real del sintetizador y fingirlo sería mentir.
+const ONDA = [14, 22, 33, 26, 40, 31, 19, 36, 24, 38, 28, 17, 30, 21, 12];
 
 function mezclar<T>(a: T[]): T[] {
   const c = [...a];
@@ -38,23 +43,37 @@ export function Escucha({ unidad, palabras, cerrar }: {
 
   const [n, setN] = useState(0);
   const [elegida, setElegida] = useState<number | null>(null);
+  const [rendida, setRendida] = useState(false);
   const [aciertos, setAciertos] = useState(0);
+  const [sonando, setSonando] = useState(false);
+  const [lento, setLento] = useState(false);
   const q = preguntas[n];
 
-  const reproducir = useCallback(() => {
-    if (q) decir(q.correcta.escritura);
+  const reproducir = useCallback((rate?: number) => {
+    if (!q) return;
+    setSonando(true);
+    decir(q.correcta.escritura, { rate, alTerminar: () => setSonando(false) });
   }, [q]);
 
-  useEffect(() => { reproducir(); }, [reproducir]);
+  // Al entrar en cada palabra suena una vez sola. Depende sólo de `n` a
+  // propósito: si escuchara a `reproducir` o a `lento`, cambiar la velocidad
+  // volvería a disparar el audio por su cuenta.
+  useEffect(() => { reproducir(lento ? 0.55 : undefined); }, [n]);
+
+  const cabeza = (
+    <div className="escena-cabeza">
+      <button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button>
+    </div>
+  );
 
   if (!hayVoz) {
     return (
       <div className="escena">
-        <div className="escena-cabeza"><button className="btn fantasma" onClick={cerrar}>✕</button></div>
+        {cabeza}
         <div className="escena-centro">
-          <div style={{ fontSize: 40 }}>🔇</div>
-          <h2 style={{ margin: 0, fontSize: 20 }}>Este dispositivo no tiene voz japonesa</h2>
-          <p className="silencio" style={{ maxWidth: 380 }}>
+          <span className="jp" style={{ fontSize: 34, fontWeight: 500, color: "var(--tinta-3)" }}>無音</span>
+          <h2 style={{ margin: 0, fontSize: 19 }}>Este dispositivo no tiene voz japonesa</h2>
+          <p style={{ maxWidth: 380, fontSize: 13, color: "var(--tinta-2)" }}>
             En iPhone y Mac suele venir instalada. En Android se añade desde
             Ajustes → Idiomas → Salida de texto a voz, descargando el paquete de japonés.
           </p>
@@ -67,7 +86,7 @@ export function Escucha({ unidad, palabras, cerrar }: {
   if (!preguntas.length) {
     return (
       <div className="escena">
-        <div className="escena-cabeza"><button className="btn fantasma" onClick={cerrar}>✕</button></div>
+        {cabeza}
         <div className="escena-centro"><p>Esta unidad no tiene palabras con definición.</p></div>
       </div>
     );
@@ -77,19 +96,24 @@ export function Escucha({ unidad, palabras, cerrar }: {
     const pct = Math.round((aciertos / preguntas.length) * 100);
     return (
       <div className="escena">
-        <div className="escena-cabeza"><button className="btn fantasma" onClick={cerrar}>✕</button></div>
+        {cabeza}
         <div className="escena-centro">
-          <div style={{ fontSize: 48 }}>{pct >= 80 ? "👂" : "💪"}</div>
-          <h2 style={{ margin: 0, fontSize: 30 }}>{pct}%</h2>
-          <p className="silencio" style={{ margin: 0 }}>{aciertos} de {preguntas.length} de oído</p>
+          <div className="halo" />
+          <span className="jp" style={{ fontSize: 34, fontWeight: 500, color: "var(--acento)" }}>聴解</span>
+          <h2 style={{ margin: 0, fontSize: 30, fontWeight: 500 }}>{pct}%</h2>
+          <p style={{ margin: 0, fontSize: 13, color: "var(--tinta-2)" }}>
+            {aciertos} de {preguntas.length} de oído
+          </p>
           <button className="btn primario" style={{ marginTop: 14 }} onClick={cerrar}>Volver</button>
         </div>
       </div>
     );
   }
 
+  const resuelta = elegida !== null || rendida;
+
   const responder = (op: Palabra) => {
-    if (elegida !== null) return;
+    if (resuelta) return;
     setElegida(op.id);
     const bien = op.id === q.correcta.id;
     if (bien) setAciertos((a) => a + 1);
@@ -97,62 +121,106 @@ export function Escucha({ unidad, palabras, cerrar }: {
     // Sin salto automático: aquí lo valioso es mirar la respuesta con calma.
   };
 
-  const siguiente = () => { setElegida(null); setN((v) => v + 1); };
+  const rendirse = () => {
+    if (resuelta) return;
+    setRendida(true);
+    anotar("palabras", q.correcta.id, false);
+  };
+
+  const siguiente = () => { setElegida(null); setRendida(false); setN((v) => v + 1); };
 
   return (
     <div className="escena">
       <div className="escena-cabeza">
-        <button className="btn fantasma" onClick={cerrar}>✕</button>
+        <button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button>
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(n / preguntas.length) * 100}%` }} />
         </div>
         <BotonFurigana />
-        <span className="tenue">{n + 1}/{preguntas.length}</span>
+        <span className="tenue" style={{ fontVariantNumeric: "tabular-nums" }}>{n + 1}/{preguntas.length}</span>
+        <span className="pastilla"><span className="jp">聴解</span></span>
       </div>
 
-      <div className="escena-centro">
+      <div className="escena-centro" style={{ flex: "0 0 auto", padding: "12px 0" }}>
+        <div className="halo" style={{ width: 300, height: 300 }} />
         <span className="etiqueta">
           {q.modo === "significado" ? "Escucha y elige el significado" : "Escucha y elige la palabra"}
         </span>
-        <button className="btn primario" style={{ width: 96, height: 96, borderRadius: "50%", fontSize: 38 }}
-                onClick={reproducir} aria-label="Repetir">🔊</button>
-        <button className="btn fantasma" onClick={() => decir(q.correcta.escritura, { rate: 0.55 })}>
-          más despacio
+        <button
+          onClick={() => reproducir(lento ? 0.55 : undefined)}
+          aria-label="Reproducir"
+          style={{
+            width: 112, height: 112, borderRadius: "50%", display: "grid", placeItems: "center",
+            border: "1px solid var(--acento)",
+            background: "color-mix(in srgb, var(--acento) 12%, transparent)",
+            color: "var(--acento)", marginTop: 4,
+          }}
+        >
+          <IcReproducir size={38} weight="fill" />
         </button>
-        {elegida !== null && (
-          <div className="revelado" style={{ textAlign: "center" }}>
-            <p className="jp" style={{ fontSize: 26, margin: 0 }}>
+
+        <div style={{ display: "flex", alignItems: "flex-end", gap: 3, height: 40, marginTop: 4 }}>
+          {ONDA.map((h, k) => (
+            <i key={k} style={{
+              display: "block", width: 3, height: h, borderRadius: 2,
+              background: `color-mix(in srgb, var(--acento) ${100 - k * 5}%, var(--acento-900))`,
+              opacity: sonando ? 1 : .45,
+              transition: "opacity .2s ease-out",
+            }} />
+          ))}
+        </div>
+
+        <div style={{ display: "flex", gap: 8, marginTop: 6 }}>
+          <button className="btn chico" onClick={() => reproducir(lento ? 0.55 : undefined)}>
+            <IcOtraVez size={14} /> Otra vez
+          </button>
+          <button className={`btn chico ${lento ? "encendido" : ""}`}
+                  onClick={() => { setLento(!lento); reproducir(lento ? undefined : 0.55); }}>
+            0,75×
+          </button>
+        </div>
+
+        {resuelta && (
+          <div className="revelado" style={{ textAlign: "center", marginTop: 6 }}>
+            <p className="jp" style={{ fontSize: 26, margin: 0, fontWeight: 500 }}>
               {q.correcta.escritura}
               {q.correcta.lectura !== q.correcta.escritura && (
                 <span className="tenue">　{q.correcta.lectura}</span>
               )}
             </p>
-            <p style={{ margin: "2px 0 0" }}>{q.correcta.es || q.correcta.en}</p>
-            <button className="btn fantasma" onClick={() => decir(q.correcta.escritura)}>
-              🔊 oírla otra vez
-            </button>
+            <p style={{ margin: "2px 0 0", fontSize: 14 }}>{q.correcta.es || q.correcta.en}</p>
           </div>
         )}
       </div>
 
-      <div className="opciones" style={{ margin: "0 auto" }}>
-        {elegida !== null && (
-          <button className="btn primario" style={{ minHeight: 50 }} onClick={siguiente}>
-            Siguiente →
-          </button>
-        )}
-        {q.opciones.map((op) => {
-          const bien = op.id === q.correcta.id;
-          const clase = elegida === null ? "" : bien ? "bien" : elegida === op.id ? "mal" : "";
-          return (
-            <button key={op.id} className={`opcion ${clase}`} onClick={() => responder(op)}>
-              {q.modo === "significado"
-                ? (op.es || op.en)
-                : <span className="jp" style={{ fontSize: 22 }}>{op.escritura}</span>}
-            </button>
-          );
-        })}
+      <div style={{ flex: 1, overflowY: "auto" }}>
+        <div className="opciones" style={{ margin: "0 auto" }}>
+          {q.opciones.map((op) => {
+            const bien = op.id === q.correcta.id;
+            const clase = !resuelta ? "" : bien ? "bien" : elegida === op.id ? "mal" : "";
+            return (
+              <button key={op.id} className={`opcion ${clase}`} onClick={() => responder(op)}>
+                {/* Nunca la lectura en kana: delataría la respuesta antes de oírla. */}
+                {q.modo === "significado"
+                  ? <span>{op.es || op.en}</span>
+                  : <span className="jp" style={{ fontSize: 21 }}>{op.escritura}</span>}
+              </button>
+            );
+          })}
+        </div>
       </div>
+
+      {resuelta ? (
+        <button className="btn primario" style={{ width: "100%", minHeight: 46, marginTop: 10 }}
+                onClick={siguiente}>
+          Siguiente <IcDerecha size={15} />
+        </button>
+      ) : (
+        <button className="btn fantasma" style={{ width: "100%", marginTop: 10, fontSize: 12 }}
+                onClick={rendirse}>
+          No la reconozco · verla escrita
+        </button>
+      )}
     </div>
   );
 }

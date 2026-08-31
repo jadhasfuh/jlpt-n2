@@ -1,5 +1,6 @@
 "use client";
 import { useEffect } from "react";
+import { IcCerrar } from "./Iconos";
 
 /** Ventana flotante centrada. Se cierra con Escape o tocando fuera. */
 export function Globo({ children, cerrar }: { children: React.ReactNode; cerrar: () => void }) {
@@ -17,7 +18,7 @@ export function Globo({ children, cerrar }: { children: React.ReactNode; cerrar:
   return (
     <div className="velo" onClick={cerrar} role="dialog" aria-modal="true">
       <div className="globo" style={{ position: "relative" }} onClick={(e) => e.stopPropagation()}>
-        <button className="globo-cerrar" onClick={cerrar} aria-label="Cerrar">✕</button>
+        <button className="globo-cerrar" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={18} /></button>
         {children}
       </div>
     </div>

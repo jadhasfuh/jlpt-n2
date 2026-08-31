@@ -4,6 +4,7 @@ import type { Lectura } from "@/lib/tipos";
 import { JpHtml, JpEnLinea, BotonVoz } from "./Jp";
 import { callar, decir, enFrases, pausar, reanudar, soloTexto } from "@/lib/voz";
 import { Ordenar } from "./Ordenar";
+import { IcDerecha, IcEscucha, IcIzquierda, IcParar, IcPausa, IcReproducir } from "./Iconos";
 
 /** Reproductor frase a frase, con el texto oculto. */
 function LectorCiego({ texto, frase, setFrase }: {
@@ -26,29 +27,41 @@ function LectorCiego({ texto, frase, setFrase }: {
 
   return (
     <div style={{ textAlign: "center", padding: "26px 0 10px" }}>
-      <button className="btn primario"
-              style={{ width: 96, height: 96, borderRadius: "50%", fontSize: 38 }}
-              onClick={botonGrande}
-              aria-label={estado === "sonando" ? "Pausar" : "Reproducir"}>
-        {estado === "sonando" ? "⏸" : estado === "pausado" ? "▶️" : "🔊"}
+      <button
+        onClick={botonGrande}
+        aria-label={estado === "sonando" ? "Pausar" : "Reproducir"}
+        style={{
+          width: 112, height: 112, borderRadius: "50%", display: "grid", placeItems: "center",
+          border: "1px solid var(--acento)", color: "var(--acento)",
+          background: "color-mix(in srgb, var(--acento) 12%, transparent)",
+        }}
+      >
+        {estado === "sonando" ? <IcPausa size={38} weight="fill" />
+         : <IcReproducir size={38} weight="fill" />}
       </button>
       {estado !== "parado" && (
         <div>
           <button className="btn fantasma"
-                  onClick={() => { callar(); setEstado("parado"); }}>⏹ detener</button>
+                  onClick={() => { callar(); setEstado("parado"); }}>
+            <IcParar size={14} weight="fill" /> detener
+          </button>
         </div>
       )}
       <p className="tenue" style={{ marginBottom: 6 }}>
         frase {frase + 1} de {frases.length}
       </p>
       <div style={{ display: "flex", gap: 8, justifyContent: "center", flexWrap: "wrap" }}>
-        <button className="btn chico" disabled={frase === 0} onClick={() => reproducir(frase - 1)}>‹ anterior</button>
+        <button className="btn chico" disabled={frase === 0} onClick={() => reproducir(frase - 1)}>
+          <IcIzquierda size={13} /> anterior
+        </button>
         <button className="btn chico"
                 onClick={() => { setEstado("sonando"); decir(frases[frase], { rate: 0.55, alTerminar: () => setEstado("parado") }); }}>
-          más despacio
+          0,75×
         </button>
         <button className="btn chico" disabled={frase >= frases.length - 1}
-                onClick={() => reproducir(frase + 1)}>siguiente ›</button>
+                onClick={() => reproducir(frase + 1)}>
+          siguiente <IcDerecha size={13} />
+        </button>
       </div>
       <button className="btn chico" style={{ marginTop: 10 }}
               onClick={() => { setEstado("sonando"); decir(frases.join(""), { alTerminar: () => setEstado("parado") }); }}>
@@ -107,7 +120,7 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
         <div style={{ display: "flex", gap: 8, marginTop: 10, flexWrap: "wrap" }}>
           <button className={`btn chico ${ciega ? "encendido" : ""}`}
                   onClick={() => { callar(); setCiega(!ciega); setFrase(0); }}>
-            🎧 {ciega ? "Ver el texto" : "Escuchar sin leer"}
+            <IcEscucha size={15} /> {ciega ? "Ver el texto" : "Escuchar sin leer"}
           </button>
           {!ciega && (
             <button className="btn chico" onClick={() => setTraducir(!traducir)}>

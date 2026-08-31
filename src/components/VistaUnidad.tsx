@@ -11,13 +11,16 @@ import { Test } from "./Test";
 import { Escucha } from "./Escucha";
 import { LecturaUnidad } from "./LecturaUnidad";
 import { estadoItem, leerProgreso, type Progreso } from "@/lib/progreso";
+import { IcDerecha, IcEscucha } from "./Iconos";
 
-export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente }: {
+type Pestana = "vocabulario" | "kanji" | "gramatica" | "lectura";
+
+export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, indice, total }: {
   unidad: Unidad; palabras: Palabra[]; gramatica: Gramatica[];
-  kanji: Kanji[]; siguiente: string | null;
+  kanji: Kanji[]; siguiente: string | null; indice: number; total: number;
 }) {
   const { significado } = useAjustes();
-  const [pestana, setPestana] = useState<"vocabulario" | "kanji" | "gramatica" | "lectura">("vocabulario");
+  const [pestana, setPestana] = useState<Pestana>("vocabulario");
   const [hayLectura, setHayLectura] = useState(false);
   const [abierto, setAbierto] = useState<Record<number, boolean>>({});
   const [escena, setEscena] = useState<null | "practica" | "test" | "escucha">(null);
@@ -40,48 +43,55 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente }: {
     return <Escucha unidad={unidad} palabras={palabras} cerrar={() => setEscena(null)} />;
 
   const est = p?.unidades[unidad.id];
+  const hechas = palabras.filter((w) => estadoItem(p?.palabras[String(w.id)]) !== "nueva").length;
+
+  const pestanas: { id: Pestana; ja: string; n?: number | string }[] = [
+    { id: "vocabulario", ja: "語彙", n: palabras.length },
+    ...(kanji.length ? [{ id: "kanji" as const, ja: "漢字", n: kanji.length }] : []),
+    ...(gramatica.length ? [{ id: "gramatica" as const, ja: "文法", n: gramatica.length }] : []),
+    { id: "lectura", ja: "読解", n: hayLectura ? "✓" : undefined },
+  ];
 
   return (
     <>
       <main className="envoltorio con-flotantes">
-        <section style={{ padding: "18px 0 12px", display: "flex", alignItems: "flex-end", gap: 12, flexWrap: "wrap" }}>
-          <div style={{ minWidth: 0 }}>
-            <span className={`pastilla ${unidad.nivel.toLowerCase()}`}>{unidad.nivel}</span>
-            <h1 className="jp" style={{ fontSize: 27, margin: "8px 0 0" }}>{unidad.ja}</h1>
-            <p className="silencio" style={{ margin: 0 }}>{unidad.es}</p>
+        <section style={{ padding: "14px 0 10px" }}>
+          <div style={{ display: "flex", alignItems: "flex-start", gap: 12, flexWrap: "wrap" }}>
+            <div style={{ minWidth: 0, flex: 1 }}>
+              <span className={`pastilla ${unidad.nivel.toLowerCase()}`}>{unidad.nivel}</span>
+              <h1 className="jp" style={{ fontSize: 27, fontWeight: 500, margin: "8px 0 2px", lineHeight: 1.25 }}>
+                {unidad.ja}
+              </h1>
+              <p style={{ margin: 0, fontSize: 13, color: "var(--tinta-2)" }}>
+                {unidad.es}
+                {total > 1 && ` · unidad ${indice} de ${total}`}
+              </p>
+            </div>
+            <BotonesRapidos compacto />
           </div>
-          <div className="crecer" style={{ flex: 1 }} />
-          <BotonesRapidos compacto />
         </section>
 
-        {est && (
-          <p className="tenue" style={{ marginTop: 0 }}>
-            {est.practicada ? "Practicada" : "Sin practicar"}
-            {est.mejor ? ` · mejor test ${est.mejor}%` : ""}
-          </p>
-        )}
+        {/* Cuánto llevas de esta unidad, sin tener que contar los puntos a mano. */}
+        <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
+          <div className="barra" style={{ flex: 1 }}>
+            <i style={{ width: `${palabras.length ? (hechas / palabras.length) * 100 : 0}%` }} />
+          </div>
+          <span style={{ fontSize: 11, color: "var(--tinta-3)", flex: "0 0 auto" }}>
+            {est?.practicada ? "practicada" : `${hechas}/${palabras.length}`}
+            {est?.mejor ? ` · mejor test ${est.mejor}%` : ""}
+          </span>
+        </div>
 
-        <div style={{ display: "flex", gap: 8, margin: "6px 0 14px", flexWrap: "wrap" }}>
-          <button className={`btn chico ${pestana === "vocabulario" ? "encendido" : ""}`}
-                  onClick={() => setPestana("vocabulario")}>
-            <span className="jp">語彙</span> {palabras.length}
-          </button>
-          {kanji.length > 0 && (
-            <button className={`btn chico ${pestana === "kanji" ? "encendido" : ""}`}
-                    onClick={() => setPestana("kanji")}>
-              <span className="jp">漢字</span> {kanji.length}
+        <div className="filtros" style={{ marginBottom: 12 }}>
+          {pestanas.map((t) => (
+            <button key={t.id} className={`btn chico ${pestana === t.id ? "encendido" : ""}`}
+                    onClick={() => setPestana(t.id)}>
+              <span className="jp">{t.ja}</span>
+              {t.n !== undefined && (
+                <span style={{ fontSize: 11, opacity: .7 }}>{t.n}</span>
+              )}
             </button>
-          )}
-          {gramatica.length > 0 && (
-            <button className={`btn chico ${pestana === "gramatica" ? "encendido" : ""}`}
-                    onClick={() => setPestana("gramatica")}>
-              <span className="jp">文法</span> {gramatica.length}
-            </button>
-          )}
-          <button className={`btn chico ${pestana === "lectura" ? "encendido" : ""}`}
-                  onClick={() => setPestana("lectura")}>
-            <span className="jp">読解</span>{hayLectura ? " ✓" : ""}
-          </button>
+          ))}
         </div>
 
         {pestana === "kanji" ? (
@@ -91,48 +101,63 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente }: {
         ) : pestana === "gramatica" ? (
           <PanelGramatica items={gramatica} />
         ) : (
-          <div className="tarjeta" style={{ padding: "2px 14px" }}>
-            <table className="tabla-vocab">
-              <tbody>
-                {palabras.map((w) => {
-                  const visible = significado || abierto[w.id];
-                  const estado = estadoItem(p?.palabras[String(w.id)]);
-                  return (
-                    <tr key={w.id}>
-                      <td style={{ width: 14 }}><span className={`punto ${estado}`} /></td>
-                      <td style={{ width: "42%" }}>
-                        <Jp escritura={w.escritura} lectura={w.lectura} clase="jp-medio" />
-                      </td>
-                      <td>
-                        {visible ? (
-                          // Se puede volver a tapar tocándolo, salvo que esté
-                          // encendido el interruptor global de 意味.
-                          <button className="revelado-td" disabled={significado}
-                                  onClick={() => setAbierto({ ...abierto, [w.id]: false })}>
-                            <span style={{ fontSize: 14 }}>{w.es || w.en}</span>
-                            <span className="tenue" style={{ display: "block" }}>
-                              {w.registro.length > 0 && <em>{w.registro.join(" · ")} — </em>}{w.en}
-                            </span>
-                          </button>
-                        ) : (
-                          <button className="btn fantasma" style={{ paddingLeft: 0 }}
-                                  onClick={() => setAbierto({ ...abierto, [w.id]: true })}>
-                            ver significado
-                          </button>
-                        )}
-                      </td>
-                      <td style={{ width: 40, textAlign: "right" }}><BotonVoz texto={w.escritura} /></td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
+          <>
+            <div className="lista-vocab">
+              {palabras.map((w) => {
+                const visible = significado || abierto[w.id];
+                const mem = p?.palabras[String(w.id)];
+                const estado = estadoItem(mem);
+                const vencida = !!mem?.proximo && mem.proximo <= Date.now() && estado !== "nueva";
+                return (
+                  <div key={w.id}
+                       style={{ display: "flex", alignItems: "center", gap: 11, padding: "12px 14px" }}>
+                    <span className={`punto ${vencida ? "vencida" : estado}`} />
+                    <div style={{ width: 112, flex: "0 0 auto" }}>
+                      <Jp escritura={w.escritura} lectura={w.lectura} clase="jp-medio" />
+                    </div>
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      {visible ? (
+                        // Se puede volver a tapar tocándolo, salvo que esté
+                        // encendido el interruptor global de 意味.
+                        <button className="revelado-td" disabled={significado}
+                                onClick={() => setAbierto({ ...abierto, [w.id]: false })}>
+                          <span style={{ fontSize: 13.5 }}>{w.es || w.en}</span>
+                          <span style={{ display: "block", fontSize: 11, color: "var(--tinta-3)" }}>
+                            {w.registro.length > 0 && <em>{w.registro.join(" · ")} — </em>}{w.en}
+                          </span>
+                        </button>
+                      ) : (
+                        <button className="btn fantasma chico" style={{ paddingLeft: 0 }}
+                                onClick={() => setAbierto({ ...abierto, [w.id]: true })}>
+                          ver significado
+                        </button>
+                      )}
+                    </div>
+                    <BotonVoz texto={w.escritura} />
+                  </div>
+                );
+              })}
+            </div>
+
+            <div className="leyenda" style={{ marginTop: 10 }}>
+              {([
+                ["dominada", "dominada", "var(--acento)"],
+                ["aprendiendo", "en curso", "var(--acento-700)"],
+                ["nueva", "nueva", "var(--pista)"],
+                ["vencida", "vencida", "var(--rojo)"],
+              ] as const).map(([k, texto, color]) => (
+                <span key={k} style={{ display: "inline-flex", alignItems: "center", gap: 5, color: "var(--tinta-3)" }}>
+                  <i style={{ width: 6, height: 6, borderRadius: "50%", background: color, display: "block" }} />
+                  {texto}
+                </span>
+              ))}
+            </div>
+          </>
         )}
 
         {siguiente && (
           <Link href={siguiente} className="btn" style={{ width: "100%", marginTop: 14 }}>
-            Siguiente unidad →
+            Siguiente unidad <IcDerecha size={14} />
           </Link>
         )}
       </main>
@@ -140,9 +165,10 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente }: {
       <div className="flotantes">
         <button className="btn primario" onClick={() => setEscena("practica")}>Practicar</button>
         <button className="btn" onClick={() => setEscena("test")}>Test</button>
-        <button className="btn" onClick={() => setEscena("escucha")}
-                title="Ejercicio de oído" aria-label="Escucha"
-                style={{ flex: "0 0 auto", maxWidth: 64 }}>🎧</button>
+        <button className="btn cuadrado" onClick={() => setEscena("escucha")}
+                title="Ejercicio de oído" aria-label="Escucha">
+          <IcEscucha size={19} />
+        </button>
       </div>
     </>
   );
