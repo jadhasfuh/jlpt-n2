@@ -1,13 +1,20 @@
 "use client";
 import { createContext, useContext, useEffect, useState } from "react";
+import {
+  COOKIE_IDIOMA, IDIOMA_POR_DEFECTO, t as traducir,
+  type Clave, type Idioma,
+} from "@/lib/idioma";
 
 type Ajustes = {
   furigana: boolean;
   significado: boolean;
   colores: boolean;
   tema: "auto" | "claro" | "oscuro";
+  idioma: Idioma;
   alternar: (k: "furigana" | "significado" | "colores") => void;
   cambiarTema: () => void;
+  cambiarIdioma: (i: Idioma) => void;
+  t: (clave: Clave, vars?: Record<string, string | number>) => string;
 };
 
 const Ctx = createContext<Ajustes | null>(null);
@@ -25,12 +32,17 @@ const leer = <T,>(k: string, def: T): T => {
   } catch { return def; }
 };
 
-export function ProveedorAjustes({ children }: { children: React.ReactNode }) {
+export function ProveedorAjustes({ children, idiomaInicial = IDIOMA_POR_DEFECTO }: {
+  children: React.ReactNode;
+  /** Lo resuelve el servidor (cookie o Accept-Language) para que no parpadee. */
+  idiomaInicial?: Idioma;
+}) {
   // El furigana empieza apagado a propósito: primero se intenta leer sin ayuda.
   const [furigana, setFurigana] = useState(false);
   const [significado, setSignificado] = useState(false);
   const [colores, setColores] = useState(true);   // los kanji entran coloreados
   const [tema, setTema] = useState<"auto" | "claro" | "oscuro">("auto");
+  const [idioma, setIdioma] = useState<Idioma>(idiomaInicial);
 
   useEffect(() => {
     setFurigana(leer("jlpt.furigana", false));
@@ -54,8 +66,22 @@ export function ProveedorAjustes({ children }: { children: React.ReactNode }) {
   const cambiarTema = () =>
     setTema((t) => (t === "auto" ? "claro" : t === "claro" ? "oscuro" : "auto"));
 
+  // En cookie, no en localStorage: el servidor tiene que poder leerlo para
+  // mandar la página ya traducida.
+  const cambiarIdioma = (i: Idioma) => {
+    setIdioma(i);
+    document.documentElement.lang = i;
+    document.cookie = `${COOKIE_IDIOMA}=${i}; path=/; max-age=31536000; samesite=lax`;
+  };
+
+  const t = (clave: Clave, vars?: Record<string, string | number>) =>
+    traducir(clave, idioma, vars);
+
   return (
-    <Ctx.Provider value={{ furigana, significado, colores, tema, alternar, cambiarTema }}>
+    <Ctx.Provider value={{
+      furigana, significado, colores, tema, idioma,
+      alternar, cambiarTema, cambiarIdioma, t,
+    }}>
       {children}
     </Ctx.Provider>
   );
@@ -67,11 +93,11 @@ export function ProveedorAjustes({ children }: { children: React.ReactNode }) {
  * en una palabra por no ver la lectura no enseña nada.
  */
 export function BotonFurigana() {
-  const { furigana, alternar } = useAjustes();
+  const { furigana, alternar, t } = useAjustes();
   return (
     <button className={`btn chico ${furigana ? "encendido" : ""}`}
             onClick={() => alternar("furigana")}
-            title="Mostrar u ocultar la lectura en kana">
+            title={t("aj.furigana")}>
       <span className="jp">ふりがな</span>
     </button>
   );
@@ -79,27 +105,27 @@ export function BotonFurigana() {
 
 /** Los dos botones rápidos. Van en cada paso de cada sección. */
 export function BotonesRapidos({ compacto = false }: { compacto?: boolean }) {
-  const { furigana, significado, colores, alternar } = useAjustes();
+  const { furigana, significado, colores, alternar, t } = useAjustes();
   return (
     <div style={{ display: "flex", gap: 8 }}>
       <button
         className={`btn ${furigana ? "encendido" : ""}`}
         onClick={() => alternar("furigana")}
-        title="Mostrar u ocultar la lectura en kana"
+        title={t("aj.furigana")}
       >
         <span className="jp">ふりがな</span>
       </button>
       <button
         className={`btn ${significado ? "encendido" : ""}`}
         onClick={() => alternar("significado")}
-        title="Mostrar u ocultar el significado"
+        title={t("aj.significado")}
       >
-        {compacto ? <span className="jp">意味</span> : <><span className="jp">意味</span> · significado</>}
+        {compacto ? <span className="jp">意味</span> : <><span className="jp">意味</span> · {t("aj.significadoLargo")}</>}
       </button>
       <button
         className={`btn ${colores ? "encendido" : ""}`}
         onClick={() => alternar("colores")}
-        title="Colorear los kanji según su nivel JLPT"
+        title={t("aj.colores")}
       >
         <span className="jp">色</span>
       </button>

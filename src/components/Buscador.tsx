@@ -3,12 +3,15 @@ import { useEffect, useRef, useState } from "react";
 import type { Palabra } from "@/lib/tipos";
 import { Jp } from "./Jp";
 import { IcCerrar } from "./Iconos";
+import { useAjustes } from "./Ajustes";
+import { significado, significadoSecundario } from "@/lib/idioma";
 
 /**
  * Buscador del diccionario interno. Acepta japonés (kanji o kana) y también
  * español: buscar «lluvia» y encontrar 雨 es la mitad de para qué sirve.
  */
 export function Buscador({ alCerrar }: { alCerrar: () => void }) {
+  const { idioma, t } = useAjustes();
   const [q, setQ] = useState("");
   const [res, setRes] = useState<Palabra[]>([]);
   const caja = useRef<HTMLInputElement>(null);
@@ -39,11 +42,11 @@ export function Buscador({ alCerrar }: { alCerrar: () => void }) {
   return (
     <div className="velo" onClick={(e) => { if (e.target === e.currentTarget) alCerrar(); }}>
       <div className="globo" style={{ position: "relative", padding: "18px 18px 8px" }}>
-        <button className="globo-cerrar" onClick={alCerrar} aria-label="Cerrar"><IcCerrar size={18} /></button>
+        <button className="globo-cerrar" onClick={alCerrar} aria-label={t("com.cerrar")}><IcCerrar size={18} /></button>
         <input
           ref={caja} value={q} onChange={(e) => setQ(e.target.value)}
-          placeholder="漢字, かな o español…"
-          aria-label="Buscar una palabra"
+          placeholder={t("dic.marcador")}
+          aria-label={t("com.buscar")}
           style={{
             width: "100%", padding: "10px 12px", fontSize: 15, fontFamily: "var(--jp)",
             background: "transparent", color: "var(--tinta)", marginTop: 6,
@@ -52,7 +55,7 @@ export function Buscador({ alCerrar }: { alCerrar: () => void }) {
         />
         <div style={{ marginTop: 10 }}>
           {q.trim() && res.length === 0 && (
-            <p className="tenue" style={{ padding: "10px 2px" }}>Sin resultados.</p>
+            <p className="tenue" style={{ padding: "10px 2px" }}>{t("dic.sinResultados")}</p>
           )}
           {res.map((p) => (
             <div key={p.id} style={{ padding: "9px 2px", borderTop: "1px solid var(--linea)" }}>
@@ -60,8 +63,10 @@ export function Buscador({ alCerrar }: { alCerrar: () => void }) {
                 <Jp escritura={p.kanji || p.kana} lectura={p.kana} clase="jp-medio" revelar />
                 {p.jlpt && <span className={`pastilla ${p.jlpt.toLowerCase()}`}>{p.jlpt}</span>}
               </div>
-              <div style={{ fontSize: 13 }}>{p.es}</div>
-              {p.en && <div className="tenue">{p.en}</div>}
+              <div style={{ fontSize: 13 }}>{significado(p, idioma)}</div>
+              {significadoSecundario(p, idioma) && (
+                <div className="tenue">{significadoSecundario(p, idioma)}</div>
+              )}
             </div>
           ))}
         </div>

@@ -10,6 +10,7 @@ import {
 import { BotonesRapidos, useAjustes } from "./Ajustes";
 import { Jp, BotonVoz } from "./Jp";
 import { IcBien, IcDerecha } from "./Iconos";
+import { significado as sig, significadoSecundario as sigSec } from "@/lib/idioma";
 
 export function Repaso() {
   const [cargando, setCargando] = useState(true);
@@ -21,7 +22,7 @@ export function Repaso() {
   const [visible, setVisible] = useState(false);
   const [prog, setProg] = useState<Progreso | null>(null);
   const [proxima, setProxima] = useState("");
-  const { significado } = useAjustes();
+  const { significado, idioma, t } = useAjustes();
 
   useEffect(() => {
     const p = leerProgreso();
@@ -61,19 +62,17 @@ export function Repaso() {
 
   useEffect(() => { setI(0); setVisible(false); }, [nivel]);
 
-  if (cargando) return <p className="silencio" style={{ marginTop: 48 }}>Cargando…</p>;
+  if (cargando) return <p className="silencio" style={{ marginTop: 48 }}>{t("com.cargando")}</p>;
 
   if (!todas.length) {
     return (
       <div className="tarjeta" style={{ marginTop: 48, textAlign: "center", padding: 40 }}>
         <span className="jp" style={{ fontSize: 30, fontWeight: 500, color: "var(--acento)" }}>休</span>
-        <p style={{ fontSize: 16 }}>Nada vencido ahora mismo.</p>
+        <p style={{ fontSize: 16 }}>{t("rep.nadaVencido")}</p>
         <p className="silencio">
-          {proxima
-            ? `La próxima palabra vuelve en ${proxima}. Cada acierto la manda más lejos.`
-            : "Haz una sesión y las palabras irán entrando aquí solas."}
+          {proxima ? t("rep.proxima", { t: proxima }) : t("rep.sinNada")}
         </p>
-        <Link className="btn primario" href="/">Ir al curso</Link>
+        <Link className="btn primario" href="/">{t("rep.irAlCurso")}</Link>
       </div>
     );
   }
@@ -84,15 +83,16 @@ export function Repaso() {
   // ---------------------------------------------------------- portada
   if (!empezado) {
     const prevision = prog ? prevision7dias(prog) : [];
+    const nombresDia = t("rep.dias").split(",");
     const alto = Math.max(1, ...prevision.map((d) => d.n));
     const pctVencidas = cola.length ? (Math.min(pend.vencidas, cola.length) / cola.length) * 100 : 0;
 
     return (
       <>
-        <h1 style={{ fontSize: 24, fontWeight: 500, margin: "26px 0 4px" }}>Repaso</h1>
+        <h1 style={{ fontSize: 24, fontWeight: 500, margin: "26px 0 4px" }}>{t("rep.titulo")}</h1>
         <p style={{ margin: "0 0 14px", fontSize: 13, color: "var(--tinta-2)" }}>
-          Hoy te tocan {cola.length} de las {prog ? vivas(prog) : 0} que llevas vivas.
-          {hechas > 0 && ` Ya llevas ${hechas} hechas.`}
+          {t("rep.hoyTocan", { n: cola.length, vivas: prog ? vivas(prog) : 0 })}
+          {hechas > 0 && t("rep.yaLlevas", { n: hechas })}
         </p>
 
         <div className="tarjeta" style={{
@@ -114,25 +114,25 @@ export function Repaso() {
               <span style={{ fontSize: 20, fontWeight: 600, color: "var(--tinta)" }}>{cola.length}</span>
             </div>
             <div style={{ minWidth: 0 }}>
-              <div style={{ fontSize: 14.5, fontWeight: 500, marginBottom: 4 }}>Tu cola de hoy</div>
+              <div style={{ fontSize: 14.5, fontWeight: 500, marginBottom: 4 }}>{t("rep.tuCola")}</div>
               <div style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 12, color: "var(--tinta-2)" }}>
-                <i className="punto vencida" /> {pend.vencidas} vencidas
+                <i className="punto vencida" /> {t("rep.nVencidas", { n: pend.vencidas })}
               </div>
               <div style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 12, color: "var(--tinta-2)" }}>
-                <i className="punto dominada" /> {pend.hoy} tocan hoy
+                <i className="punto dominada" /> {t("rep.nHoy", { n: pend.hoy })}
               </div>
             </div>
           </div>
           <button className="btn primario" style={{ width: "100%", marginTop: 16, minHeight: 46 }}
                   onClick={() => setEmpezado(true)}>
-            Empezar · {cola.length} {cola.length === 1 ? "tarjeta" : "tarjetas"}
+            {t(cola.length === 1 ? "rep.empezar_1" : "rep.empezar_n", { n: cola.length })}
           </button>
         </div>
 
         {/* Los niveles siguen filtrando la cola desde aquí. */}
         <div className="filtros" style={{ marginTop: 16 }}>
           <button className={`btn chico ${nivel === "todos" ? "encendido" : ""}`}
-                  onClick={() => setNivel("todos")}>Todos</button>
+                  onClick={() => setNivel("todos")}>{t("rep.todos")}</button>
           {NIVELES.map((n) => {
             const cuantas = todas.filter((w) => w.jlpt === n).length;
             if (!cuantas) return null;
@@ -145,15 +145,17 @@ export function Repaso() {
           })}
         </div>
 
-        <h2 className="enc-seccion" style={{ marginTop: 22 }}>Próximos siete días</h2>
+        <h2 className="enc-seccion" style={{ marginTop: 22 }}>{t("rep.sieteDias")}</h2>
         <div style={{ display: "flex", alignItems: "flex-end", gap: 6, height: 76 }}>
           {prevision.map((d, k) => (
-            <div key={d.dia + k} style={{ flex: 1, textAlign: "center" }}>
+            <div key={k} style={{ flex: 1, textAlign: "center" }}>
               <div style={{
                 height: Math.max(4, (d.n / alto) * 54), borderRadius: 5,
                 background: k === 0 ? "var(--acento)" : k <= 3 ? "var(--acento-700)" : "var(--acento-800)",
               }} />
-              <div style={{ fontSize: 10, color: "var(--tinta-3)", marginTop: 5 }}>{d.dia}</div>
+              <div style={{ fontSize: 10, color: "var(--tinta-3)", marginTop: 5 }}>
+                {k === 0 ? t("rep.hoy") : nombresDia[d.diaSemana]}
+              </div>
               <div style={{ fontSize: 10, color: "var(--tinta-4)" }}>{d.n || ""}</div>
             </div>
           ))}
@@ -161,7 +163,7 @@ export function Repaso() {
 
         {flojas.length > 0 && (
           <>
-            <h2 className="enc-seccion" style={{ marginTop: 22 }}>Lo más flojo</h2>
+            <h2 className="enc-seccion" style={{ marginTop: 22 }}>{t("rep.masFlojo")}</h2>
             <div className="lista-vocab">
               {flojas.map(({ palabra, fallos }) => (
                 <div key={palabra.id}
@@ -169,9 +171,9 @@ export function Repaso() {
                   <div style={{ width: 96, flex: "0 0 auto" }}>
                     <Jp escritura={palabra.escritura} lectura={palabra.lectura} clase="jp-medio" />
                   </div>
-                  <div style={{ flex: 1, minWidth: 0, fontSize: 13 }}>{palabra.es || palabra.en}</div>
+                  <div style={{ flex: 1, minWidth: 0, fontSize: 13 }}>{sig(palabra, idioma)}</div>
                   <span style={{ fontSize: 11.5, color: fallos >= 3 ? "var(--rojo)" : "var(--tinta-3)" }}>
-                    {fallos} {fallos === 1 ? "fallo" : "fallos"}
+                    {t(fallos === 1 ? "rep.fallos_1" : "rep.fallos_n", { n: fallos })}
                   </span>
                 </div>
               ))}
@@ -188,14 +190,13 @@ export function Repaso() {
     return (
       <div className="tarjeta" style={{ marginTop: 48, textAlign: "center", padding: 40 }}>
         <IcBien size={30} style={{ color: "var(--acento)" }} />
-        <p style={{ fontSize: 16 }}>Repaso del día terminado: {cola.length} palabras.</p>
+        <p style={{ fontSize: 16 }}>{t("rep.terminado", { n: cola.length })}</p>
         {quedan > 0 && (
           <p className="silencio">
-            Quedan {quedan} vencidas para mañana. El tope de hoy era {tope}, calculado
-            sobre tu ritmo de la última semana.
+            {t("rep.quedan", { n: quedan, tope })}
           </p>
         )}
-        <Link className="btn primario" href="/">Volver</Link>
+        <Link className="btn primario" href="/">{t("com.volver")}</Link>
       </div>
     );
   }
@@ -231,23 +232,23 @@ export function Repaso() {
 
           {significado || visible ? (
             <>
-              <p style={{ fontSize: 17, marginBottom: 2 }}>{p.es || p.en}</p>
-              <p className="tenue" style={{ marginTop: 0 }}>{p.en}</p>
+              <p style={{ fontSize: 17, marginBottom: 2 }}>{sig(p, idioma)}</p>
+              <p className="tenue" style={{ marginTop: 0 }}>{sigSec(p, idioma)}</p>
               <div style={{ display: "flex", gap: 8, justifyContent: "center", marginTop: 18 }}>
-                <button className="btn" onClick={() => responder(false)}>No la sabía</button>
-                <button className="btn primario" onClick={() => responder(true)}>La sabía</button>
+                <button className="btn" onClick={() => responder(false)}>{t("pra.noSabia")}</button>
+                <button className="btn primario" onClick={() => responder(true)}>{t("pra.siSabia")}</button>
               </div>
             </>
           ) : (
             <button className="btn primario" style={{ marginTop: 22 }} onClick={() => setVisible(true)}>
-              Ver significado
+              {t("pra.verSig")}
             </button>
           )}
         </div>
       </div>
 
       <Link href="/" className="btn fantasma" style={{ marginTop: 12 }}>
-        Dejarlo por hoy <IcDerecha size={14} />
+        {t("rep.dejarlo")} <IcDerecha size={14} />
       </Link>
     </>
   );

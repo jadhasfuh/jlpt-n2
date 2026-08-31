@@ -6,11 +6,12 @@ import { TestKanji } from "./TestKanji";
 import { useAjustes } from "./Ajustes";
 import { Globo } from "./Globo";
 import { BotonVoz } from "./Jp";
+import { significado as sig } from "@/lib/idioma";
 
 export function PanelKanji({ kanji, titulo }: { kanji: Kanji[]; titulo: string }) {
   const [sel, setSel] = useState<Kanji | null>(null);
   const [test, setTest] = useState(false);
-  const { colores } = useAjustes();
+  const { colores, idioma } = useAjustes();
 
   if (test) return <TestKanji kanji={kanji} titulo={titulo} cerrar={() => setTest(false)} />;
   if (!kanji.length) return <p className="silencio">Aquí no hay kanji todavía.</p>;
@@ -41,7 +42,7 @@ export function PanelKanji({ kanji, titulo }: { kanji: Kanji[]; titulo: string }
                   {sel.n_palabras ? ` · en ${sel.n_palabras} palabras` : ""}
                 </span>
               </div>
-              <p style={{ margin: "8px 0 4px", fontSize: 16 }}>{sel.es || sel.en.join(", ")}</p>
+              <p style={{ margin: "8px 0 4px", fontSize: 16 }}>{sig(sel, idioma)}</p>
               <p className="tenue" style={{ margin: 0 }}>
                 <span className="jp">音</span> {sel.on.join("・") || "—"}　
                 <span className="jp">訓</span> {sel.kun.join("・") || "—"}

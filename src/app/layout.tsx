@@ -5,6 +5,7 @@ import { ProveedorAjustes } from "@/components/Ajustes";
 import { Diccionario } from "@/components/Diccionario";
 import { BarraInferior } from "@/components/BarraInferior";
 import { Lateral } from "@/components/Lateral";
+import { idiomaActual } from "@/lib/idioma-servidor";
 
 // Inter va autoalojada: el subconjunto latino es pequeño y así no depende de
 // Google en tiempo de ejecución. Noto Sans JP no: sus glifos japoneses pesan
@@ -30,9 +31,10 @@ export const viewport: Viewport = {
   ],
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const idioma = await idiomaActual();
   return (
-    <html lang="es" className={inter.variable}>
+    <html lang={idioma} className={inter.variable}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
@@ -42,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
-        <ProveedorAjustes>
+        <ProveedorAjustes idiomaInicial={idioma}>
           <Lateral />
           <div className="con-lateral">{children}</div>
           <Diccionario />

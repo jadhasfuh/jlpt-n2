@@ -43,7 +43,10 @@ for i in range(0, len(faltan), 30):
             except Exception: res.append("")
             time.sleep(0.15)
     for t, es in zip(grupo, res):
-        cache[t] = limpiar(es)
+        # Nunca guardar un fallo: si Google nos limita (429) devolvería "" y esa
+        # cadena vacía se quedaría en la caché dándose por buena para siempre.
+        if es.strip():
+            cache[t] = limpiar(es)
     CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=0), encoding="utf-8")
     print(f"  {min(i+30,len(faltan))}/{len(faltan)}", flush=True)
     time.sleep(0.25)

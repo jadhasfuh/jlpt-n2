@@ -12,6 +12,7 @@ import { Escucha } from "./Escucha";
 import { LecturaUnidad } from "./LecturaUnidad";
 import { estadoItem, leerProgreso, type Progreso } from "@/lib/progreso";
 import { IcDerecha, IcEscucha } from "./Iconos";
+import { significado as sig, significadoSecundario as sigSec } from "@/lib/idioma";
 
 type Pestana = "vocabulario" | "kanji" | "gramatica" | "lectura";
 
@@ -19,7 +20,7 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
   unidad: Unidad; palabras: Palabra[]; gramatica: Gramatica[];
   kanji: Kanji[]; siguiente: string | null; indice: number; total: number;
 }) {
-  const { significado } = useAjustes();
+  const { significado, idioma, t } = useAjustes();
   const [pestana, setPestana] = useState<Pestana>("vocabulario");
   const [hayLectura, setHayLectura] = useState(false);
   const [abierto, setAbierto] = useState<Record<number, boolean>>({});
@@ -64,7 +65,7 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
               </h1>
               <p style={{ margin: 0, fontSize: 13, color: "var(--tinta-2)" }}>
                 {unidad.es}
-                {total > 1 && ` · unidad ${indice} de ${total}`}
+                {total > 1 && ` · ${t("uni.unidadDe", { i: indice, n: total })}`}
               </p>
             </div>
             <BotonesRapidos compacto />
@@ -77,18 +78,18 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
             <i style={{ width: `${palabras.length ? (hechas / palabras.length) * 100 : 0}%` }} />
           </div>
           <span style={{ fontSize: 11, color: "var(--tinta-3)", flex: "0 0 auto" }}>
-            {est?.practicada ? "practicada" : `${hechas}/${palabras.length}`}
-            {est?.mejor ? ` · mejor test ${est.mejor}%` : ""}
+            {est?.practicada ? t("uni.practicada") : `${hechas}/${palabras.length}`}
+            {est?.mejor ? t("uni.mejorTest", { n: est.mejor }) : ""}
           </span>
         </div>
 
         <div className="filtros" style={{ marginBottom: 12 }}>
-          {pestanas.map((t) => (
-            <button key={t.id} className={`btn chico ${pestana === t.id ? "encendido" : ""}`}
-                    onClick={() => setPestana(t.id)}>
-              <span className="jp">{t.ja}</span>
-              {t.n !== undefined && (
-                <span style={{ fontSize: 11, opacity: .7 }}>{t.n}</span>
+          {pestanas.map((pes) => (
+            <button key={pes.id} className={`btn chico ${pestana === pes.id ? "encendido" : ""}`}
+                    onClick={() => setPestana(pes.id)}>
+              <span className="jp">{pes.ja}</span>
+              {pes.n !== undefined && (
+                <span style={{ fontSize: 11, opacity: .7 }}>{pes.n}</span>
               )}
             </button>
           ))}
@@ -121,15 +122,16 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
                         // encendido el interruptor global de 意味.
                         <button className="revelado-td" disabled={significado}
                                 onClick={() => setAbierto({ ...abierto, [w.id]: false })}>
-                          <span style={{ fontSize: 13.5 }}>{w.es || w.en}</span>
+                          <span style={{ fontSize: 13.5 }}>{sig(w, idioma)}</span>
                           <span style={{ display: "block", fontSize: 11, color: "var(--tinta-3)" }}>
-                            {w.registro.length > 0 && <em>{w.registro.join(" · ")} — </em>}{w.en}
+                            {w.registro.length > 0 && <em>{w.registro.join(" · ")} — </em>}
+                            {sigSec(w, idioma)}
                           </span>
                         </button>
                       ) : (
                         <button className="btn fantasma chico" style={{ paddingLeft: 0 }}
                                 onClick={() => setAbierto({ ...abierto, [w.id]: true })}>
-                          ver significado
+                          {t("uni.verSig")}
                         </button>
                       )}
                     </div>
@@ -141,14 +143,14 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
 
             <div className="leyenda" style={{ marginTop: 10 }}>
               {([
-                ["dominada", "dominada", "var(--acento)"],
-                ["aprendiendo", "en curso", "var(--acento-700)"],
-                ["nueva", "nueva", "var(--pista)"],
-                ["vencida", "vencida", "var(--rojo)"],
-              ] as const).map(([k, texto, color]) => (
+                ["dominada", "uni.est.dominada", "var(--acento)"],
+                ["aprendiendo", "uni.est.aprendiendo", "var(--acento-700)"],
+                ["nueva", "uni.est.nueva", "var(--pista)"],
+                ["vencida", "uni.est.vencida", "var(--rojo)"],
+              ] as const).map(([k, clave, color]) => (
                 <span key={k} style={{ display: "inline-flex", alignItems: "center", gap: 5, color: "var(--tinta-3)" }}>
                   <i style={{ width: 6, height: 6, borderRadius: "50%", background: color, display: "block" }} />
-                  {texto}
+                  {t(clave)}
                 </span>
               ))}
             </div>
@@ -157,16 +159,16 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
 
         {siguiente && (
           <Link href={siguiente} className="btn" style={{ width: "100%", marginTop: 14 }}>
-            Siguiente unidad <IcDerecha size={14} />
+            {t("uni.siguienteUnidad")} <IcDerecha size={14} />
           </Link>
         )}
       </main>
 
       <div className="flotantes">
-        <button className="btn primario" onClick={() => setEscena("practica")}>Practicar</button>
-        <button className="btn" onClick={() => setEscena("test")}>Test</button>
+        <button className="btn primario" onClick={() => setEscena("practica")}>{t("uni.practicar")}</button>
+        <button className="btn" onClick={() => setEscena("test")}>{t("uni.test")}</button>
         <button className="btn cuadrado" onClick={() => setEscena("escucha")}
-                title="Ejercicio de oído" aria-label="Escucha">
+                title={t("uni.escucha")} aria-label={t("uni.escucha")}>
           <IcEscucha size={19} />
         </button>
       </div>

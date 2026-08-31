@@ -6,10 +6,12 @@ import { leerProgreso } from "@/lib/progreso";
 import { Anillo } from "./Anillo";
 import { ACCESO_ABIERTO, esLibre } from "@/lib/acceso";
 import { IcCandado, IcDerecha } from "./Iconos";
+import { useAjustes } from "./Ajustes";
 
 type S = { id: string; ja: string; es: string; palabras: number; gramatica: number; unidades: number };
 
 export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones: S[] }) {
+  const { idioma } = useAjustes();
   const [avance, setAvance] = useState<Record<string, number>>({});
   useEffect(() => {
     const recalcular = () => {
@@ -38,7 +40,7 @@ export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones:
             <div style={{ flex: 1, minWidth: 0 }}>
               <div className="jp" style={{ fontSize: 19, fontWeight: 500, lineHeight: 1.4 }}>{s.ja}</div>
               <div className="tenue">
-                {s.es} · {s.gramatica ? `${s.gramatica} puntos` : `${s.palabras} palabras`} · {s.unidades} unidades
+                {s.es} · {s.palabras} · {s.unidades}
               </div>
             </div>
             {bloqueada ? <span className="flecha"><IcCandado size={15} /></span>

@@ -261,7 +261,7 @@ export function contarPendientes(p: Progreso) {
  * arrastra todo lo ya vencido: si llevas una semana sin entrar, lo atrasado
  * toca hoy, no el día en que venció.
  */
-export function prevision7dias(p: Progreso): { dia: string; n: number }[] {
+export function prevision7dias(p: Progreso): { diaSemana: number; n: number }[] {
   const hoy = new Date(); hoy.setHours(0, 0, 0, 0);
   const inicio = hoy.getTime();
   const cubos = Array(7).fill(0) as number[];
@@ -271,11 +271,8 @@ export function prevision7dias(p: Progreso): { dia: string; n: number }[] {
     if (d < 0) cubos[0]++;
     else if (d < 7) cubos[d]++;
   }
-  const nombres = ["dom", "lun", "mar", "mié", "jue", "vie", "sáb"];
-  return cubos.map((n, i) => ({
-    dia: i === 0 ? "hoy" : nombres[(hoy.getDay() + i) % 7],
-    n,
-  }));
+  // Devuelve el día de la semana, no su nombre: traducirlo es cosa de quien pinta.
+  return cubos.map((n, i) => ({ diaSemana: (hoy.getDay() + i) % 7, n }));
 }
 
 /** Las que más veces has fallado: por dónde conviene empezar a apretar. */

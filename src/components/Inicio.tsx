@@ -1,11 +1,12 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { COLOR_NIVEL, DESC_NIVEL, NUMERAL_NIVEL, type Nivel } from "@/lib/tipos";
+import { COLOR_NIVEL, NUMERAL_NIVEL, type Nivel } from "@/lib/tipos";
 import { contarPendientes, leerProgreso, resumen } from "@/lib/progreso";
 import { Anillo } from "./Anillo";
 import { ACCESO_ABIERTO } from "@/lib/acceso";
 import { IcCronometro, IcDerecha, IcRacha } from "./Iconos";
+import { useAjustes } from "./Ajustes";
 
 type Resumen = { id: Nivel; palabras: number; gramatica: number; unidades: number; secciones: number };
 
@@ -13,6 +14,7 @@ export function Inicio({ niveles, totales }: {
   niveles: Resumen[];
   totales: { palabras: number; gramatica: number; unidades: number };
 }) {
+  const { t } = useAjustes();
   const [r, setR] = useState<ReturnType<typeof resumen> | null>(null);
   const [pend, setPend] = useState({ vencidas: 0, hoy: 0 });
   const [avance, setAvance] = useState<Record<string, number>>({});
@@ -42,8 +44,10 @@ export function Inicio({ niveles, totales }: {
           日本語能力試験
         </h1>
         <p style={{ margin: 0, fontSize: 13, lineHeight: 1.5, color: "var(--tinta-2)", maxWidth: "33ch" }}>
-          {totales.palabras.toLocaleString("es")} palabras y {totales.gramatica} puntos de
-          gramática, en unidades de 20. Elige por dónde empezar.
+          {t("inicio.sub", {
+            palabras: totales.palabras.toLocaleString(),
+            gramatica: totales.gramatica,
+          })}
         </p>
       </section>
 
@@ -51,22 +55,22 @@ export function Inicio({ niveles, totales }: {
         <div className="tira-stats">
           <div>
             <b>{r.xp}</b>
-            <i>XP</i>
+            <i>{t("inicio.xp")}</i>
           </div>
           <div>
             <b style={{ color: r.racha ? "var(--rojo)" : undefined }}>
               {r.racha}
               {r.racha > 0 && <IcRacha size={14} weight="fill" />}
             </b>
-            <i>días</i>
+            <i>{t("inicio.dias")}</i>
           </div>
           <div>
             <b>{r.dominadas}</b>
-            <i>dominadas</i>
+            <i>{t("inicio.dominadas")}</i>
           </div>
           <div>
             <b>{r.unidades}</b>
-            <i>unidades</i>
+            <i>{t("inicio.unidades")}</i>
           </div>
         </div>
       )}
@@ -75,10 +79,10 @@ export function Inicio({ niveles, totales }: {
         <Link href="/repaso" className="fila acento" style={{ marginBottom: 8 }}>
           <Anillo pct={1} tono="var(--acento)" texto={`${pend.vencidas}`} />
           <div style={{ flex: 1, minWidth: 0 }}>
-            <div className="fila-titulo">Te toca repasar</div>
+            <div className="fila-titulo">{t("inicio.tocaRepasar")}</div>
             <div className="fila-sub">
-              {pend.vencidas} {pend.vencidas === 1 ? "palabra vencida" : "palabras vencidas"}
-              {pend.hoy > 0 && ` · ${pend.hoy} más hoy`}
+              {t(pend.vencidas === 1 ? "inicio.vencidas_1" : "inicio.vencidas_n", { n: pend.vencidas })}
+              {pend.hoy > 0 && t("inicio.masHoy", { n: pend.hoy })}
             </div>
           </div>
           <span className="flecha"><IcDerecha size={15} /></span>
@@ -88,13 +92,13 @@ export function Inicio({ niveles, totales }: {
       <Link href="/rapido" className="fila" style={{ marginBottom: 12, padding: "11px 14px" }}>
         <span className="disco"><IcCronometro size={19} /></span>
         <div style={{ flex: 1, minWidth: 0 }}>
-          <div className="fila-titulo">Cinco minutos</div>
-          <div className="fila-sub">Repaso corto de lo que tienes más flojo</div>
+          <div className="fila-titulo">{t("inicio.cincoMin")}</div>
+          <div className="fila-sub">{t("inicio.cincoMinSub")}</div>
         </div>
         <span className="flecha"><IcDerecha size={15} /></span>
       </Link>
 
-      <h2 className="enc-seccion">Niveles</h2>
+      <h2 className="enc-seccion">{t("inicio.niveles")}</h2>
 
       <div className="lista rejilla-niveles">
         {niveles.map((n) => (
@@ -102,11 +106,13 @@ export function Inicio({ niveles, totales }: {
             <span className="numeral jp">{NUMERAL_NIVEL[n.id]}</span>
             <Anillo pct={avance[n.id] ?? 0} tono={COLOR_NIVEL[n.id]} texto={n.id} tam={38} />
             <div style={{ flex: 1, minWidth: 0 }}>
-              <div style={{ fontSize: 14, fontWeight: 500 }}>{DESC_NIVEL[n.id]}</div>
+              <div style={{ fontSize: 14, fontWeight: 500 }}>{t(`nivel.${n.id}`)}</div>
               {/* Una sola línea: con el recuento de gramática envuelve y la lista
                   deja de caber en una pantalla de móvil. */}
               <div className="tenue" style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
-                {n.palabras.toLocaleString("es")} palabras · {n.secciones} secciones
+                {t("inicio.resumenNivel", {
+                  palabras: n.palabras.toLocaleString(), secciones: n.secciones,
+                })}
               </div>
             </div>
             <span className="flecha"><IcDerecha size={14} /></span>
@@ -116,7 +122,7 @@ export function Inicio({ niveles, totales }: {
 
       {!ACCESO_ABIERTO && (
         <p className="tenue" style={{ marginTop: 18 }}>
-          La sección 人と体 de cada nivel es libre. Para el resto hará falta una cuenta.
+          {t("inicio.libre")}
         </p>
       )}
     </>

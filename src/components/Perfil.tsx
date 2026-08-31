@@ -6,12 +6,13 @@ import { ACCESO_ABIERTO } from "@/lib/acceso";
 import type { Perfil as Cuenta } from "@/lib/sesion";
 import { IcDerecha } from "./Iconos";
 import Link from "next/link";
+import { SelectorIdioma } from "./SelectorIdioma";
 
 export function Perfil({ totalPalabras, cuenta, alDia }: {
   totalPalabras: number; cuenta: Cuenta | null; alDia: boolean;
 }) {
   const [p, setP] = useState<Progreso | null>(null);
-  const { tema, cambiarTema } = useAjustes();
+  const { tema, cambiarTema, idioma, t } = useAjustes();
 
   useEffect(() => {
     const f = () => setP(leerProgreso());
@@ -26,16 +27,16 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
 
   return (
     <>
-      <h1 style={{ fontSize: 24, fontWeight: 500, margin: "26px 0 12px" }}>Tu avance</h1>
+      <h1 style={{ fontSize: 24, fontWeight: 500, margin: "26px 0 12px" }}>{t("per.tuAvance")}</h1>
 
       <section className="tarjeta">
         <div style={{ display: "flex", gap: 20, flexWrap: "wrap" }}>
           {[
-            [`${r.xp}`, "XP acumulado"],
-            [`${r.racha}`, "días seguidos"],
-            [`${r.dominadas}`, "palabras dominadas"],
-            [`${r.vistas}`, "palabras vistas"],
-            [`${r.unidades}`, "unidades practicadas"],
+            [`${r.xp}`, t("per.xpAcum")],
+            [`${r.racha}`, t("per.diasSeguidos")],
+            [`${r.dominadas}`, t("per.palDominadas")],
+            [`${r.vistas}`, t("per.palVistas")],
+            [`${r.unidades}`, t("per.uniPracticadas")],
           ].map(([v, t]) => (
             <div key={t} style={{ minWidth: 92 }}>
               <div style={{ fontSize: 21, fontWeight: 600, fontVariantNumeric: "tabular-nums" }}>{v}</div>
@@ -45,71 +46,72 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
         </div>
         <div className="barra" style={{ marginTop: 16 }}><i style={{ width: `${pct}%` }} /></div>
         <p className="tenue" style={{ marginBottom: 0 }}>
-          {pct}% del vocabulario de los cinco niveles ({totalPalabras.toLocaleString("es")} palabras)
+          {t("per.pctVocab", { pct, total: totalPalabras.toLocaleString() })}
         </p>
       </section>
 
-      <h2 className="enc-seccion" style={{ marginTop: 24 }}>Ajustes</h2>
+      <h2 className="enc-seccion" style={{ marginTop: 24 }}>{t("per.ajustes")}</h2>
       <section className="tarjeta" style={{ display: "flex", gap: 10, flexWrap: "wrap", alignItems: "center" }}>
         <BotonesRapidos />
         <button className="btn" onClick={cambiarTema}>
-          Tema: {tema === "auto" ? "automático" : tema}
+          {t("com.tema", { v: t(tema === "claro" ? "tema.claro" : tema === "oscuro" ? "tema.oscuro" : "tema.auto") })}
         </button>
       </section>
 
-      <h2 className="enc-seccion" style={{ marginTop: 24 }}>Repasos por día</h2>
+      <h2 className="enc-seccion" style={{ marginTop: 24 }}>{t("per.idioma")}</h2>
+      <section className="tarjeta">
+        <SelectorIdioma />
+      </section>
+
+      <h2 className="enc-seccion" style={{ marginTop: 24 }}>{t("per.repasosDia")}</h2>
       <section className="tarjeta">
         <p style={{ marginTop: 0 }}>
-          Hoy te enseñará como máximo <strong>{topeDiario(p)}</strong> repasos.
+          {t("per.topeHoy", { n: topeDiario(p) })}
         </p>
         <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
-          {(["auto", 30, 60, 100, 9999] as TopeRepaso[]).map((t) => (
-            <button key={String(t)}
-                    className={`btn chico ${p.tope === t ? "encendido" : ""}`}
-                    onClick={() => setP(guardarTope(t))}>
-              {t === "auto" ? "Automático" : t === 9999 ? "Sin tope" : t}
+          {(["auto", 30, 60, 100, 9999] as TopeRepaso[]).map((v) => (
+            <button key={String(v)}
+                    className={`btn chico ${p.tope === v ? "encendido" : ""}`}
+                    onClick={() => setP(guardarTope(v))}>
+              {v === "auto" ? t("per.automatico") : v === 9999 ? t("per.sinTope") : v}
             </button>
           ))}
         </div>
         <p className="tenue" style={{ marginBottom: 0 }}>
-          En automático sale de tu propio ritmo de la última semana, con un suelo de 40.
-          Así, si dejas la app unos días, no te encuentras un muro de trescientos repasos.
+          {t("per.topeAuto")}
         </p>
       </section>
 
-      <h2 className="enc-seccion" style={{ marginTop: 24 }}>Cuenta</h2>
+      <h2 className="enc-seccion" style={{ marginTop: 24 }}>{t("per.cuenta")}</h2>
       <section className="tarjeta">
         {cuenta ? (
           <>
             <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
               <div style={{ flex: 1, minWidth: 0 }}>
-                <div style={{ fontSize: 14.5, fontWeight: 500 }}>{cuenta.nombre || "Tu cuenta"}</div>
+                <div style={{ fontSize: 14.5, fontWeight: 500 }}>{cuenta.nombre || t("per.tuCuenta")}</div>
                 <div className="tenue">{cuenta.email}</div>
               </div>
               <span className={`pastilla ${alDia ? "acento" : ""}`}>
-                {alDia ? "acceso completo" : "gratuita"}
+                {alDia ? t("per.accesoCompleto") : t("per.gratuita")}
               </span>
             </div>
             {alDia && cuenta.vence_en && (
               <p className="tenue" style={{ marginBottom: 0, marginTop: 10 }}>
-                {cuenta.membresia === "cancelada"
-                  ? `Cancelada; te dura hasta el ${fecha(cuenta.vence_en)}.`
-                  : `Se renueva el ${fecha(cuenta.vence_en)}.`}
+                {t(cuenta.membresia === "cancelada" ? "per.cancelada" : "per.renueva",
+                    { fecha: fecha(cuenta.vence_en, idioma) })}
               </p>
             )}
             <form action="/auth/salir" method="post" style={{ marginTop: 14 }}>
-              <button className="btn" style={{ width: "100%" }}>Salir de la cuenta</button>
+              <button className="btn" style={{ width: "100%" }}>{t("per.salir")}</button>
             </form>
           </>
         ) : (
           <>
             <p style={{ marginTop: 0 }}>
-              Sin cuenta, tu avance se guarda sólo en este navegador
-              {ACCESO_ABIERTO ? " y todo el contenido está abierto" : ""}. Si lo borras
-              o cambias de aparato, se pierde.
+              {t("per.sinCuenta", { abierto: ACCESO_ABIERTO ? t("per.todoAbierto") : "" })}
             </p>
             <Link href="/entrar" className="btn primario" style={{ width: "100%" }}>
-              Entrar o crear cuenta <IcDerecha size={15} />
+              {t("per.entrar")} <IcDerecha size={15} />
             </Link>
           </>
         )}
@@ -117,16 +119,16 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
 
       <button className="btn" style={{ width: "100%", marginTop: 24 }}
               onClick={() => {
-                if (confirm("¿Borrar todo tu avance en este dispositivo?")) {
+                if (confirm(t("per.borrarConf"))) {
                   localStorage.removeItem("jlpt.progreso");
                   location.reload();
                 }
               }}>
-        Borrar mi avance
+        {t("per.borrar")}
       </button>
     </>
   );
 }
 
-const fecha = (iso: string) =>
-  new Date(iso).toLocaleDateString("es", { day: "numeric", month: "long", year: "numeric" });
+const fecha = (iso: string, idioma: string) =>
+  new Date(iso).toLocaleDateString(idioma, { day: "numeric", month: "long", year: "numeric" });

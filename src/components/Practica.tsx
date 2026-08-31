@@ -6,6 +6,8 @@ import { BotonFurigana } from "./Ajustes";
 import { anotar, terminarPractica, XP_NUEVA, XP_UNIDAD } from "@/lib/progreso";
 import { ejemploDe, useFrases } from "@/lib/frases";
 import { IcBien, IcCerrar, IcRepaso } from "./Iconos";
+import { useAjustes } from "./Ajustes";
+import { significado as sig, significadoSecundario as sigSec } from "@/lib/idioma";
 
 type Carta =
   | { tipo: "palabra"; id: number; frente: string; lectura: string; reverso: string; extra: string }
@@ -16,16 +18,17 @@ type Carta =
 export function Practica({ unidad, palabras, gramatica, cerrar }: {
   unidad: Unidad; palabras: Palabra[]; gramatica: Gramatica[]; cerrar: () => void;
 }) {
+  const { idioma, t } = useAjustes();
   const cartas = useMemo<Carta[]>(() => [
     ...palabras.map((p) => ({
       tipo: "palabra" as const, id: p.id, frente: p.escritura, lectura: p.lectura,
-      reverso: p.es || p.en, extra: p.en,
+      reverso: sig(p, idioma), extra: sigSec(p, idioma),
     })),
     ...gramatica.map((g) => ({
       tipo: "gramatica" as const, id: g.id, frente: g.forma, lectura: g.lectura,
-      reverso: g.es, extra: g.en,
+      reverso: sig(g, idioma), extra: sigSec(g, idioma),
     })),
-  ], [palabras, gramatica]);
+  ], [palabras, gramatica, idioma]);
 
   const frases = useFrases(unidad.id);
   const [i, setI] = useState(0);
@@ -43,17 +46,17 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
     return (
       <div className="escena">
         <div className="escena-cabeza">
-          <button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button>
+          <button className="icono-btn" onClick={cerrar} aria-label={t("com.cerrar")}><IcCerrar size={16} /></button>
         </div>
         <div className="escena-centro">
           <span className="disco" style={{ width: 56, height: 56 }}><IcRepaso size={24} /></span>
-          <h2 style={{ margin: 0, fontSize: 19 }}>Quedan {cola.length} por afianzar</h2>
+          <h2 style={{ margin: 0, fontSize: 19 }}>{t("pra.porAfianzar", { n: cola.length })}</h2>
           <p style={{ margin: 0, fontSize: 13, color: "var(--tinta-2)" }}>
-            Las que no te salieron vuelven ahora, antes de cerrar.
+            {t("pra.vuelvenAhora")}
           </p>
           <button className="btn primario" style={{ marginTop: 12 }}
                   onClick={() => { setSegundaVuelta(true); setI(0); setVisible(false); }}>
-            Repasarlas
+            {t("pra.repasarlas")}
           </button>
         </div>
       </div>
@@ -64,19 +67,19 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
     return (
       <div className="escena">
         <div className="escena-cabeza">
-          <button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button>
+          <button className="icono-btn" onClick={cerrar} aria-label={t("com.cerrar")}><IcCerrar size={16} /></button>
         </div>
         <div className="escena-centro">
           <div className="halo" />
           <span className="jp" style={{ fontSize: 40, fontWeight: 500 }}>語彙</span>
-          <h2 style={{ margin: 0, fontSize: 19 }}>Práctica terminada</h2>
+          <h2 style={{ margin: 0, fontSize: 19 }}>{t("pra.terminada")}</h2>
           <p style={{ margin: 0, fontSize: 13, color: "var(--tinta-2)" }}>
-            {cartas.length} tarjetas · +{ganado + XP_UNIDAD} XP
-            {cola.length > 0 && ` · ${cola.length} para la próxima`}
+            {t("pra.resumen", { n: cartas.length, xp: ganado + XP_UNIDAD })}
+            {cola.length > 0 && t("pra.paraProxima", { n: cola.length })}
           </p>
           <button className="btn primario" style={{ marginTop: 12 }}
                   onClick={() => { terminarPractica(unidad.id); cerrar(); }}>
-            Volver a la unidad
+            {t("pra.volverUnidad")}
           </button>
         </div>
       </div>
@@ -102,7 +105,7 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
   return (
     <div className="escena">
       <div className="escena-cabeza">
-        <button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button>
+        <button className="icono-btn" onClick={cerrar} aria-label={t("com.cerrar")}><IcCerrar size={16} /></button>
         {/* Una barrita por tarjeta: se ve de un vistazo cuántas has fallado. */}
         <div className="segmentos">
           {mazo.map((_, n) => (
@@ -147,20 +150,20 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
         {visible ? (
           <>
             <button className="btn" style={{ flex: 1, padding: 13 }} onClick={() => responder(false)}>
-              <IcCerrar size={15} /> No la sabía
+              <IcCerrar size={15} /> {t("pra.noSabia")}
             </button>
             <button className="btn primario" style={{ flex: 1, padding: 13 }} onClick={() => responder(true)}>
-              <IcBien size={15} /> La sabía
+              <IcBien size={15} /> {t("pra.siSabia")}
             </button>
           </>
         ) : (
           <button className="btn primario" style={{ flex: 1, padding: 13 }} onClick={() => setVisible(true)}>
-            Ver significado
+            {t("pra.verSig")}
           </button>
         )}
       </div>
       <p className="tenue" style={{ textAlign: "center", margin: "8px 0 0", fontSize: 10.5 }}>
-        Las que falles vuelven antes de cerrar la sesión
+        {t("pra.vuelven")}
       </p>
     </div>
   );

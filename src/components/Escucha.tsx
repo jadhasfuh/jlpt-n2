@@ -5,6 +5,8 @@ import { anotar } from "@/lib/progreso";
 import { BotonFurigana } from "./Ajustes";
 import { alCargarVoces, callar, decir, hayVozJaponesa } from "@/lib/voz";
 import { IcCerrar, IcDerecha, IcOtraVez, IcReproducir } from "./Iconos";
+import { useAjustes } from "./Ajustes";
+import { significado as sig } from "@/lib/idioma";
 
 // Alturas de la onda. Fijas a propósito: es una figura, no un medidor — no
 // tenemos progreso real del sintetizador y fingirlo sería mentir.
@@ -28,18 +30,19 @@ function mezclar<T>(a: T[]): T[] {
 export function Escucha({ unidad, palabras, cerrar }: {
   unidad: Unidad; palabras: Palabra[]; cerrar: () => void;
 }) {
+  const { idioma, t } = useAjustes();
   const [hayVoz, setHayVoz] = useState(true);
   useEffect(() => alCargarVoces(() => setHayVoz(hayVozJaponesa())), []);
   useEffect(() => () => callar(), []);
 
   const preguntas = useMemo(() => {
-    const utiles = palabras.filter((p) => (p.es || p.en).trim());
+    const utiles = palabras.filter((p) => sig(p, idioma).trim());
     return mezclar(utiles).map((correcta, i) => ({
       correcta,
       modo: i % 2 === 0 ? ("significado" as const) : ("escritura" as const),
       opciones: mezclar([correcta, ...mezclar(utiles.filter((o) => o.id !== correcta.id)).slice(0, 3)]),
     }));
-  }, [palabras]);
+  }, [palabras, idioma]);
 
   const [n, setN] = useState(0);
   const [elegida, setElegida] = useState<number | null>(null);
@@ -62,7 +65,7 @@ export function Escucha({ unidad, palabras, cerrar }: {
 
   const cabeza = (
     <div className="escena-cabeza">
-      <button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button>
+      <button className="icono-btn" onClick={cerrar} aria-label={t("com.cerrar")}><IcCerrar size={16} /></button>
     </div>
   );
 
@@ -72,12 +75,11 @@ export function Escucha({ unidad, palabras, cerrar }: {
         {cabeza}
         <div className="escena-centro">
           <span className="jp" style={{ fontSize: 34, fontWeight: 500, color: "var(--tinta-3)" }}>無音</span>
-          <h2 style={{ margin: 0, fontSize: 19 }}>Este dispositivo no tiene voz japonesa</h2>
+          <h2 style={{ margin: 0, fontSize: 19 }}>{t("esc.sinVoz")}</h2>
           <p style={{ maxWidth: 380, fontSize: 13, color: "var(--tinta-2)" }}>
-            En iPhone y Mac suele venir instalada. En Android se añade desde
-            Ajustes → Idiomas → Salida de texto a voz, descargando el paquete de japonés.
+            {t("esc.sinVozSub")}
           </p>
-          <button className="btn primario" onClick={cerrar}>Volver</button>
+          <button className="btn primario" onClick={cerrar}>{t("com.volver")}</button>
         </div>
       </div>
     );
@@ -87,7 +89,7 @@ export function Escucha({ unidad, palabras, cerrar }: {
     return (
       <div className="escena">
         {cabeza}
-        <div className="escena-centro"><p>Esta unidad no tiene palabras con definición.</p></div>
+        <div className="escena-centro"><p>{t("test.sinDefinicion")}</p></div>
       </div>
     );
   }
@@ -102,9 +104,9 @@ export function Escucha({ unidad, palabras, cerrar }: {
           <span className="jp" style={{ fontSize: 34, fontWeight: 500, color: "var(--acento)" }}>聴解</span>
           <h2 style={{ margin: 0, fontSize: 30, fontWeight: 500 }}>{pct}%</h2>
           <p style={{ margin: 0, fontSize: 13, color: "var(--tinta-2)" }}>
-            {aciertos} de {preguntas.length} de oído
+            {t("esc.deOido", { a: aciertos, n: preguntas.length })}
           </p>
-          <button className="btn primario" style={{ marginTop: 14 }} onClick={cerrar}>Volver</button>
+          <button className="btn primario" style={{ marginTop: 14 }} onClick={cerrar}>{t("com.volver")}</button>
         </div>
       </div>
     );
@@ -132,7 +134,7 @@ export function Escucha({ unidad, palabras, cerrar }: {
   return (
     <div className="escena">
       <div className="escena-cabeza">
-        <button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button>
+        <button className="icono-btn" onClick={cerrar} aria-label={t("com.cerrar")}><IcCerrar size={16} /></button>
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(n / preguntas.length) * 100}%` }} />
         </div>
@@ -144,11 +146,11 @@ export function Escucha({ unidad, palabras, cerrar }: {
       <div className="escena-centro" style={{ flex: "0 0 auto", padding: "12px 0" }}>
         <div className="halo" style={{ width: 300, height: 300 }} />
         <span className="etiqueta">
-          {q.modo === "significado" ? "Escucha y elige el significado" : "Escucha y elige la palabra"}
+          {t(q.modo === "significado" ? "esc.elegirSig" : "esc.elegirPal")}
         </span>
         <button
           onClick={() => reproducir(lento ? 0.55 : undefined)}
-          aria-label="Reproducir"
+          aria-label={t("com.reproducir")}
           style={{
             width: 112, height: 112, borderRadius: "50%", display: "grid", placeItems: "center",
             border: "1px solid var(--acento)",
@@ -172,7 +174,7 @@ export function Escucha({ unidad, palabras, cerrar }: {
 
         <div style={{ display: "flex", gap: 8, marginTop: 6 }}>
           <button className="btn chico" onClick={() => reproducir(lento ? 0.55 : undefined)}>
-            <IcOtraVez size={14} /> Otra vez
+            <IcOtraVez size={14} /> {t("com.otraVez")}
           </button>
           <button className={`btn chico ${lento ? "encendido" : ""}`}
                   onClick={() => { setLento(!lento); reproducir(lento ? undefined : 0.55); }}>
@@ -188,7 +190,7 @@ export function Escucha({ unidad, palabras, cerrar }: {
                 <span className="tenue">　{q.correcta.lectura}</span>
               )}
             </p>
-            <p style={{ margin: "2px 0 0", fontSize: 14 }}>{q.correcta.es || q.correcta.en}</p>
+            <p style={{ margin: "2px 0 0", fontSize: 14 }}>{sig(q.correcta, idioma)}</p>
           </div>
         )}
       </div>
@@ -202,7 +204,7 @@ export function Escucha({ unidad, palabras, cerrar }: {
               <button key={op.id} className={`opcion ${clase}`} onClick={() => responder(op)}>
                 {/* Nunca la lectura en kana: delataría la respuesta antes de oírla. */}
                 {q.modo === "significado"
-                  ? <span>{op.es || op.en}</span>
+                  ? <span>{sig(op, idioma)}</span>
                   : <span className="jp" style={{ fontSize: 21 }}>{op.escritura}</span>}
               </button>
             );
@@ -213,12 +215,12 @@ export function Escucha({ unidad, palabras, cerrar }: {
       {resuelta ? (
         <button className="btn primario" style={{ width: "100%", minHeight: 46, marginTop: 10 }}
                 onClick={siguiente}>
-          Siguiente <IcDerecha size={15} />
+          {t("com.siguiente")} <IcDerecha size={15} />
         </button>
       ) : (
         <button className="btn fantasma" style={{ width: "100%", marginTop: 10, fontSize: 12 }}
                 onClick={rendirse}>
-          No la reconozco · verla escrita
+          {t("esc.noReconozco")}
         </button>
       )}
     </div>

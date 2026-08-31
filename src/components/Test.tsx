@@ -7,6 +7,8 @@ import { BotonFurigana } from "./Ajustes";
 import { anotar, cuandoToca, leerProgreso, medalla, registrarTest } from "@/lib/progreso";
 import { ejemploDe, useFrases } from "@/lib/frases";
 import { IcBien, IcCerrar, IcDerecha } from "./Iconos";
+import { useAjustes } from "./Ajustes";
+import { significado as sig, significadoSecundario as sigSec } from "@/lib/idioma";
 
 const LETRAS = ["A", "B", "C", "D"];
 
@@ -23,13 +25,14 @@ function mezclar<T>(a: T[]): T[] {
 export function Test({ unidad, palabras, cerrar, siguiente }: {
   unidad: Unidad; palabras: Palabra[]; cerrar: () => void; siguiente: string | null;
 }) {
+  const { idioma, t } = useAjustes();
   const preguntas = useMemo(() => {
-    const utiles = palabras.filter((p) => (p.es || p.en).trim());
+    const utiles = palabras.filter((p) => sig(p, idioma).trim());
     return mezclar(utiles).map((correcta) => ({
       palabra: correcta,
       opciones: mezclar([correcta, ...mezclar(utiles.filter((o) => o.id !== correcta.id)).slice(0, 3)]),
     }));
-  }, [palabras]);
+  }, [palabras, idioma]);
 
   const frases = useFrases(unidad.id);
   const [n, setN] = useState(0);
@@ -42,7 +45,7 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
 
   const cabeza = (
     <div className="escena-cabeza">
-      <button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button>
+      <button className="icono-btn" onClick={cerrar} aria-label={t("com.cerrar")}><IcCerrar size={16} /></button>
     </div>
   );
 
@@ -50,7 +53,7 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
     return (
       <div className="escena">
         {cabeza}
-        <div className="escena-centro"><p>Esta unidad no tiene palabras con definición.</p></div>
+        <div className="escena-centro"><p>{t("test.sinDefinicion")}</p></div>
       </div>
     );
   }
@@ -68,18 +71,18 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
           </span>
           <h2 style={{ margin: 0, fontSize: 30, fontWeight: 500 }}>{pct}%</h2>
           <p style={{ margin: 0, fontSize: 13, color: "var(--tinta-2)" }}>
-            {aciertos} de {preguntas.length}
-            {pct >= 80 ? " · ¡aprobado!" : " · repasa y vuelve a intentarlo"}
+            {t("test.deN", { a: aciertos, n: preguntas.length })}
+            {pct >= 80 ? t("test.aprobado") : t("test.repasa")}
           </p>
           {repesca.length > 0 && (
             <p className="tenue" style={{ margin: 0 }}>
-              {repesca.length} {repesca.length === 1 ? "palabra vuelve" : "palabras vuelven"} pronto en Repaso
+              {t(repesca.length === 1 ? "test.vuelvenPronto_1" : "test.vuelvenPronto_n", { n: repesca.length })}
             </p>
           )}
           <div style={{ display: "flex", gap: 8, marginTop: 14, flexWrap: "wrap", justifyContent: "center" }}>
-            <button className="btn" onClick={cerrar}>Volver a la unidad</button>
+            <button className="btn" onClick={cerrar}>{t("pra.volverUnidad")}</button>
             {siguiente && pct >= 80 && (
-              <Link className="btn primario" href={siguiente}>Siguiente unidad <IcDerecha size={14} /></Link>
+              <Link className="btn primario" href={siguiente}>{t("uni.siguienteUnidad")} <IcDerecha size={14} /></Link>
             )}
           </div>
         </div>
@@ -105,7 +108,7 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
   return (
     <div className="escena">
       <div className="escena-cabeza">
-        <button className="icono-btn" onClick={cerrar} aria-label="Cerrar"><IcCerrar size={16} /></button>
+        <button className="icono-btn" onClick={cerrar} aria-label={t("com.cerrar")}><IcCerrar size={16} /></button>
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(n / preguntas.length) * 100}%` }} />
         </div>
@@ -118,7 +121,7 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
       </div>
 
       <div className="escena-centro" style={{ flex: "0 0 auto", padding: "18px 0 14px" }}>
-        <span className="etiqueta">¿Qué significa?</span>
+        <span className="etiqueta">{t("test.queSignifica")}</span>
         {/* Al responder se enseña la lectura y el color aunque estén apagados:
             si fallas, lo útil es ver la palabra entera, no media. */}
         <Jp escritura={q.palabra.escritura} lectura={q.palabra.lectura}
@@ -137,8 +140,8 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
                    : clase === "mal" ? <IcCerrar size={12} weight="bold" />
                    : LETRAS[k]}
                 </span>
-                <span>{op.es || op.en}</span>
-                {clase && <span className="marca-op">{clase === "bien" ? "correcta" : "tu respuesta"}</span>}
+                <span>{sig(op, idioma)}</span>
+                {clase && <span className="marca-op">{t(clase === "bien" ? "test.correcta" : "test.tuRespuesta")}</span>}
               </button>
             );
           })}
@@ -155,11 +158,11 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
                 )}
               </>
             ) : (
-              <div style={{ fontSize: 13 }}>{q.palabra.en}</div>
+              <div style={{ fontSize: 13 }}>{sigSec(q.palabra, idioma)}</div>
             )}
             {vuelve && (
               <div className="tenue" style={{ marginTop: 6 }}>
-                Vuelve {vuelve === "ahora" ? "en este mismo repaso" : `dentro de ${vuelve}`}.
+                {vuelve === "ahora" ? t("test.vuelveYa") : t("test.vuelveEn", { t: vuelve })}
               </div>
             )}
           </div>
@@ -168,7 +171,7 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
 
       {elegida !== null && (
         <button className="btn primario" style={{ width: "100%", minHeight: 46, marginTop: 10 }} onClick={seguir}>
-          Siguiente <IcDerecha size={15} />
+          {t("com.siguiente")} <IcDerecha size={15} />
         </button>
       )}
     </div>

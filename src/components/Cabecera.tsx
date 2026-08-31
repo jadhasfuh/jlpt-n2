@@ -7,10 +7,10 @@ import { Buscador } from "./Buscador";
 import { IcAuto, IcBuscar, IcIzquierda, IcLuna, IcSol } from "./Iconos";
 
 export function Cabecera({ atras, titulo }: { atras?: string; titulo?: string }) {
-  const { tema, cambiarTema } = useAjustes();
+  const { tema, cambiarTema, t } = useAjustes();
   const [buscando, setBuscando] = useState(false);
   const Tema = tema === "claro" ? IcSol : tema === "oscuro" ? IcLuna : IcAuto;
-  const nombreTema = tema === "claro" ? "claro" : tema === "oscuro" ? "oscuro" : "automático";
+  const nombreTema = t(tema === "claro" ? "tema.claro" : tema === "oscuro" ? "tema.oscuro" : "tema.auto");
 
   return (
     <>
@@ -19,18 +19,18 @@ export function Cabecera({ atras, titulo }: { atras?: string; titulo?: string })
           {atras ? (
             <Link href={atras} className="atras">
               <IcIzquierda size={16} />
-              <span>{titulo ?? "Atrás"}</span>
+              <span>{titulo ?? t("com.atras")}</span>
             </Link>
           ) : (
             <Marca />
           )}
           <div className="crecer" />
           <button className="icono-btn" onClick={cambiarTema}
-                  aria-label={`Tema ${nombreTema}; pulsa para cambiarlo`} title={`Tema ${nombreTema}`}>
+                  aria-label={t("com.tema", { v: nombreTema })} title={t("com.tema", { v: nombreTema })}>
             <Tema size={17} />
           </button>
           <button className="icono-btn" onClick={() => setBuscando(true)}
-                  aria-label="Buscar en el diccionario" title="Buscar una palabra">
+                  aria-label={t("com.buscarDicc")} title={t("com.buscar")}>
             <IcBuscar size={17} />
           </button>
         </div>

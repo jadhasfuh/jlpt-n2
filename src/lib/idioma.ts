@@ -1,0 +1,272 @@
+/**
+ * Los textos de la interfaz, en español e inglés.
+ *
+ * Sin librería de i18n a propósito: son un par de cientos de cadenas y una
+ * tabla se lee mejor que una cadena de herramientas. Añadir un idioma es
+ * añadir una columna aquí.
+ *
+ * El **contenido** (significados de palabras, gramática y kanji) no pasa por
+ * aquí: ya viene con sus campos `es` y `en` desde la base, y se elige con
+ * `significado()`.
+ */
+export const IDIOMAS = [
+  { id: "es", nombre: "Español" },
+  { id: "en", nombre: "English" },
+] as const;
+
+export type Idioma = (typeof IDIOMAS)[number]["id"];
+export const IDIOMA_POR_DEFECTO: Idioma = "es";
+export const COOKIE_IDIOMA = "jlpt.idioma";
+
+export function esIdioma(v: unknown): v is Idioma {
+  return typeof v === "string" && IDIOMAS.some((i) => i.id === v);
+}
+
+/** Del encabezado Accept-Language del navegador al idioma que tengamos. */
+export function idiomaDeCabecera(accept: string | null | undefined): Idioma {
+  if (!accept) return IDIOMA_POR_DEFECTO;
+  for (const trozo of accept.split(",")) {
+    const cod = trozo.split(";")[0].trim().toLowerCase();
+    if (cod.startsWith("es")) return "es";
+    if (cod.startsWith("en")) return "en";
+  }
+  // Un japonés estudiando japonés no quiere la app en español: al inglés.
+  return "en";
+}
+
+type Entrada = Record<Idioma, string>;
+
+const T = {
+  // ---------------------------------------------------------------- general
+  "app.lema": { es: "Vocabulario y gramática del JLPT, del N5 al N1, en unidades de 20 palabras.",
+                en: "JLPT vocabulary and grammar, N5 to N1, in units of 20 words." },
+  "nav.curso":   { es: "Curso",       en: "Course" },
+  "nav.repaso":  { es: "Repaso",      en: "Review" },
+  "nav.perfil":  { es: "Perfil",      en: "Profile" },
+  "nav.dicc":    { es: "Diccionario", en: "Dictionary" },
+  "com.atras":     { es: "Atrás",     en: "Back" },
+  "com.seccion":   { es: "Sección",   en: "Section" },
+  "com.cerrar":    { es: "Cerrar",    en: "Close" },
+  "com.siguiente": { es: "Siguiente", en: "Next" },
+  "com.volver":    { es: "Volver",    en: "Back" },
+  "com.cargando":  { es: "Cargando…", en: "Loading…" },
+  "com.buscar":    { es: "Buscar una palabra", en: "Search for a word" },
+  "com.buscarDicc": { es: "Buscar en el diccionario", en: "Search the dictionary" },
+  "com.tema":      { es: "Tema {v}; pulsa para cambiarlo", en: "{v} theme; tap to change" },
+  "tema.claro":  { es: "claro",      en: "light" },
+  "tema.oscuro": { es: "oscuro",     en: "dark" },
+  "tema.auto":   { es: "automático", en: "automatic" },
+  "com.escuchar": { es: "Escuchar", en: "Listen" },
+  "com.pausar":   { es: "Pausar",   en: "Pause" },
+  "com.seguir":   { es: "Seguir",   en: "Resume" },
+  "com.detener":  { es: "Detener",  en: "Stop" },
+  "com.reproducir": { es: "Reproducir", en: "Play" },
+  "com.otraVez":  { es: "Otra vez", en: "Again" },
+
+  // ------------------------------------------------------------------ inicio
+  "inicio.sub": { es: "{palabras} palabras y {gramatica} puntos de gramática, en unidades de 20. Elige por dónde empezar.",
+                  en: "{palabras} words and {gramatica} grammar points, in units of 20. Pick where to start." },
+  "inicio.xp":        { es: "XP",         en: "XP" },
+  "inicio.dias":      { es: "días",       en: "days" },
+  "inicio.dominadas": { es: "dominadas",  en: "mastered" },
+  "inicio.unidades":  { es: "unidades",   en: "units" },
+  "inicio.niveles":   { es: "Niveles",    en: "Levels" },
+  "inicio.tocaRepasar": { es: "Te toca repasar", en: "Time to review" },
+  "inicio.vencidas_1":  { es: "{n} palabra vencida",  en: "{n} word due" },
+  "inicio.vencidas_n":  { es: "{n} palabras vencidas", en: "{n} words due" },
+  "inicio.masHoy":      { es: " · {n} más hoy", en: " · {n} more today" },
+  "inicio.cincoMin":    { es: "Cinco minutos", en: "Five minutes" },
+  "inicio.cincoMinSub": { es: "Repaso corto de lo que tienes más flojo",
+                          en: "A short review of your weakest words" },
+  "inicio.resumenNivel": { es: "{palabras} palabras · {secciones} secciones",
+                           en: "{palabras} words · {secciones} sections" },
+  "inicio.libre": { es: "La sección 人と体 de cada nivel es libre. Para el resto hará falta una cuenta.",
+                    en: "The 人と体 section of every level is free. The rest needs an account." },
+
+  // ------------------------------------------------------------------ niveles
+  "nivel.N5": { es: "Los primeros pasos",  en: "First steps" },
+  "nivel.N4": { es: "Base cotidiana",      en: "Everyday basics" },
+  "nivel.N3": { es: "El salto intermedio", en: "The intermediate jump" },
+  "nivel.N2": { es: "Nivel avanzado",      en: "Advanced level" },
+  "nivel.N1": { es: "El nivel más alto",   en: "The highest level" },
+
+  // ------------------------------------------------------------------ unidad
+  "uni.unidadDe":  { es: "unidad {i} de {n}", en: "unit {i} of {n}" },
+  "uni.practicada":{ es: "practicada", en: "practised" },
+  "uni.mejorTest": { es: " · mejor test {n}%", en: " · best test {n}%" },
+  "uni.practicar": { es: "Practicar", en: "Practise" },
+  "uni.test":      { es: "Test",      en: "Test" },
+  "uni.escucha":   { es: "Ejercicio de oído", en: "Listening exercise" },
+  "uni.verSig":    { es: "ver significado", en: "show meaning" },
+  "uni.siguienteUnidad": { es: "Siguiente unidad", en: "Next unit" },
+  "uni.est.dominada":    { es: "dominada", en: "mastered" },
+  "uni.est.aprendiendo": { es: "en curso", en: "learning" },
+  "uni.est.nueva":       { es: "nueva",    en: "new" },
+  "uni.est.vencida":     { es: "vencida",  en: "due" },
+
+  // ---------------------------------------------------------------- práctica
+  "pra.verSig":     { es: "Ver significado", en: "Show meaning" },
+  "pra.noSabia":    { es: "No la sabía", en: "Didn't know it" },
+  "pra.siSabia":    { es: "La sabía",    en: "Knew it" },
+  "pra.vuelven":    { es: "Las que falles vuelven antes de cerrar la sesión",
+                      en: "The ones you miss come back before the session ends" },
+  "pra.porAfianzar":{ es: "Quedan {n} por afianzar", en: "{n} left to nail down" },
+  "pra.vuelvenAhora": { es: "Las que no te salieron vuelven ahora, antes de cerrar.",
+                        en: "The ones you missed come back now, before we finish." },
+  "pra.repasarlas": { es: "Repasarlas", en: "Review them" },
+  "pra.terminada":  { es: "Práctica terminada", en: "Practice finished" },
+  "pra.resumen":    { es: "{n} tarjetas · +{xp} XP", en: "{n} cards · +{xp} XP" },
+  "pra.paraProxima":{ es: " · {n} para la próxima", en: " · {n} for next time" },
+  "pra.volverUnidad": { es: "Volver a la unidad", en: "Back to the unit" },
+
+  // -------------------------------------------------------------------- test
+  "test.queSignifica": { es: "¿Qué significa?", en: "What does it mean?" },
+  "test.correcta":     { es: "correcta", en: "correct" },
+  "test.tuRespuesta":  { es: "tu respuesta", en: "your answer" },
+  "test.vuelveEn":     { es: "Vuelve dentro de {t}.", en: "Comes back in {t}." },
+  "test.vuelveYa":     { es: "Vuelve en este mismo repaso.", en: "Comes back in this same review." },
+  "test.sinDefinicion":{ es: "Esta unidad no tiene palabras con definición.",
+                         en: "This unit has no words with a definition." },
+  "test.deN":          { es: "{a} de {n}", en: "{a} of {n}" },
+  "test.aprobado":     { es: " · ¡aprobado!", en: " · passed!" },
+  "test.repasa":       { es: " · repasa y vuelve a intentarlo", en: " · review and try again" },
+  "test.vuelvenPronto_1": { es: "{n} palabra vuelve pronto en Repaso",
+                            en: "{n} word comes back soon in Review" },
+  "test.vuelvenPronto_n": { es: "{n} palabras vuelven pronto en Repaso",
+                            en: "{n} words come back soon in Review" },
+
+  // ------------------------------------------------------------------ repaso
+  "rep.titulo":   { es: "Repaso", en: "Review" },
+  "rep.hoyTocan": { es: "Hoy te tocan {n} de las {vivas} que llevas vivas.",
+                    en: "Today you have {n} of the {vivas} you have in play." },
+  "rep.yaLlevas": { es: " Ya llevas {n} hechas.", en: " You've done {n} already." },
+  "rep.tuCola":   { es: "Tu cola de hoy", en: "Today's queue" },
+  "rep.nVencidas":{ es: "{n} vencidas", en: "{n} due" },
+  "rep.nHoy":     { es: "{n} tocan hoy", en: "{n} come up today" },
+  "rep.empezar_1":{ es: "Empezar · {n} tarjeta", en: "Start · {n} card" },
+  "rep.empezar_n":{ es: "Empezar · {n} tarjetas", en: "Start · {n} cards" },
+  "rep.sieteDias":{ es: "Próximos siete días", en: "Next seven days" },
+  "rep.masFlojo": { es: "Lo más flojo", en: "Weakest words" },
+  "rep.fallos_1": { es: "{n} fallo",  en: "{n} miss" },
+  "rep.fallos_n": { es: "{n} fallos", en: "{n} misses" },
+  "rep.todos":    { es: "Todos", en: "All" },
+  "rep.nadaVencido": { es: "Nada vencido ahora mismo.", en: "Nothing due right now." },
+  "rep.proxima":  { es: "La próxima palabra vuelve en {t}. Cada acierto la manda más lejos.",
+                    en: "The next word returns in {t}. Every hit pushes it further out." },
+  "rep.sinNada":  { es: "Haz una sesión y las palabras irán entrando aquí solas.",
+                    en: "Do a session and words will start showing up here on their own." },
+  "rep.irAlCurso":{ es: "Ir al curso", en: "Go to the course" },
+  "rep.terminado":{ es: "Repaso del día terminado: {n} palabras.",
+                    en: "Today's review finished: {n} words." },
+  "rep.quedan":   { es: "Quedan {n} vencidas para mañana. El tope de hoy era {tope}, calculado sobre tu ritmo de la última semana.",
+                    en: "{n} due words are left for tomorrow. Today's cap was {tope}, worked out from your pace over the last week." },
+  "rep.dejarlo":  { es: "Dejarlo por hoy", en: "Stop for today" },
+  "rep.dias":     { es: "dom,lun,mar,mié,jue,vie,sáb", en: "Sun,Mon,Tue,Wed,Thu,Fri,Sat" },
+  "rep.hoy":      { es: "hoy", en: "today" },
+
+  // ----------------------------------------------------------------- escucha
+  "esc.elegirSig": { es: "Escucha y elige el significado", en: "Listen and pick the meaning" },
+  "esc.elegirPal": { es: "Escucha y elige la palabra",     en: "Listen and pick the word" },
+  "esc.noReconozco": { es: "No la reconozco · verla escrita",
+                       en: "I don't recognise it · show it written" },
+  "esc.deOido":    { es: "{a} de {n} de oído", en: "{a} of {n} by ear" },
+  "esc.sinVoz":    { es: "Este dispositivo no tiene voz japonesa",
+                     en: "This device has no Japanese voice" },
+  "esc.sinVozSub": { es: "En iPhone y Mac suele venir instalada. En Android se añade desde Ajustes → Idiomas → Salida de texto a voz, descargando el paquete de japonés.",
+                     en: "iPhone and Mac usually have one. On Android add it in Settings → Languages → Text-to-speech output, downloading the Japanese pack." },
+
+  // ------------------------------------------------------------------ perfil
+  "per.tuAvance":  { es: "Tu avance", en: "Your progress" },
+  "per.xpAcum":    { es: "XP acumulado", en: "XP earned" },
+  "per.diasSeguidos": { es: "días seguidos", en: "day streak" },
+  "per.palDominadas": { es: "palabras dominadas", en: "words mastered" },
+  "per.palVistas":    { es: "palabras vistas", en: "words seen" },
+  "per.uniPracticadas": { es: "unidades practicadas", en: "units practised" },
+  "per.pctVocab":  { es: "{pct}% del vocabulario de los cinco niveles ({total} palabras)",
+                     en: "{pct}% of the vocabulary across the five levels ({total} words)" },
+  "per.ajustes":   { es: "Ajustes", en: "Settings" },
+  "per.idioma":    { es: "Idioma", en: "Language" },
+  "per.repasosDia":{ es: "Repasos por día", en: "Reviews per day" },
+  "per.topeHoy":   { es: "Hoy te enseñará como máximo {n} repasos.",
+                     en: "Today it will show you at most {n} reviews." },
+  "per.topeAuto":  { es: "En automático sale de tu propio ritmo de la última semana, con un suelo de 40. Así, si dejas la app unos días, no te encuentras un muro de trescientos repasos.",
+                     en: "On automatic it follows your own pace over the last week, with a floor of 40. That way, if you skip a few days, you don't come back to a wall of three hundred reviews." },
+  "per.automatico":{ es: "Automático", en: "Automatic" },
+  "per.sinTope":   { es: "Sin tope", en: "No cap" },
+  "per.cuenta":    { es: "Cuenta", en: "Account" },
+  "per.tuCuenta":  { es: "Tu cuenta", en: "Your account" },
+  "per.accesoCompleto": { es: "acceso completo", en: "full access" },
+  "per.gratuita":  { es: "gratuita", en: "free" },
+  "per.renueva":   { es: "Se renueva el {fecha}.", en: "Renews on {fecha}." },
+  "per.cancelada": { es: "Cancelada; te dura hasta el {fecha}.",
+                     en: "Cancelled; yours until {fecha}." },
+  "per.salir":     { es: "Salir de la cuenta", en: "Sign out" },
+  "per.sinCuenta": { es: "Sin cuenta, tu avance se guarda sólo en este navegador{abierto}. Si lo borras o cambias de aparato, se pierde.",
+                     en: "Without an account your progress lives only in this browser{abierto}. Clear it or switch devices and it's gone." },
+  "per.todoAbierto": { es: " y todo el contenido está abierto", en: " and all the content is open" },
+  "per.entrar":    { es: "Entrar o crear cuenta", en: "Sign in or create an account" },
+  "per.borrar":    { es: "Borrar mi avance", en: "Delete my progress" },
+  "per.borrarConf":{ es: "¿Borrar todo tu avance en este dispositivo?",
+                     en: "Delete all your progress on this device?" },
+
+  // ------------------------------------------------------------------ entrar
+  "ent.titulo":    { es: "Entrar o crear cuenta", en: "Sign in or create an account" },
+  "ent.sub":       { es: "La cuenta guarda tu progreso y lo lleva de un aparato a otro.",
+                     en: "An account saves your progress and carries it between devices." },
+  "ent.miraCorreo":{ es: "Mira tu correo", en: "Check your email" },
+  "ent.enviamos":  { es: "Enviamos seis cifras a {correo}.", en: "We sent six digits to {correo}." },
+  "ent.tuCorreo":  { es: "Tu correo", en: "Your email" },
+  "ent.seguir":    { es: "Seguir", en: "Continue" },
+  "ent.enviando":  { es: "Enviando…", en: "Sending…" },
+  "ent.comprobando": { es: "Comprobando…", en: "Checking…" },
+  "ent.entrar":    { es: "Entrar", en: "Sign in" },
+  "ent.codigo":    { es: "Código", en: "Code" },
+  "ent.otroCorreo":{ es: "Usar otro correo", en: "Use another email" },
+  "ent.malCodigo": { es: "Ese código no vale. Mira que no haya caducado.",
+                     en: "That code isn't valid. Check that it hasn't expired." },
+  "ent.sinCuenta": { es: "Sin cuenta también se puede estudiar: el progreso se queda en este navegador.",
+                     en: "You can study without an account too: progress stays in this browser." },
+
+
+  // ------------------------------------------------------------- diccionario
+  "dic.marcador":  { es: "漢字, かな o español…", en: "漢字, かな or English…" },
+  "dic.sinResultados": { es: "Sin resultados.", en: "No results." },
+
+  // ------------------------------------------------------------------ ajustes
+  "aj.furigana": { es: "Mostrar u ocultar la lectura en kana",
+                   en: "Show or hide the kana reading" },
+  "aj.significado": { es: "Mostrar u ocultar el significado", en: "Show or hide the meaning" },
+  "aj.colores":  { es: "Colorear los kanji según su nivel JLPT",
+                   en: "Colour kanji by their JLPT level" },
+  "aj.significadoLargo": { es: "significado", en: "meaning" },
+  "aj.nivelKanji": { es: "nivel de cada kanji", en: "each kanji's level" },
+} satisfies Record<string, Entrada>;
+
+export type Clave = keyof typeof T;
+
+/** Traduce, sustituyendo {marcadores} por sus valores. */
+export function t(clave: Clave, idioma: Idioma, vars?: Record<string, string | number>): string {
+  const texto = T[clave][idioma] ?? T[clave][IDIOMA_POR_DEFECTO];
+  if (!vars) return texto;
+  return texto.replace(/\{(\w+)\}/g, (todo, k) =>
+    k in vars ? String(vars[k]) : todo);
+}
+
+/** El significado del contenido, que ya viene bilingüe de la base. */
+export function significado(
+  item: { es?: string | null; en?: string | string[] | null },
+  idioma: Idioma,
+): string {
+  const en = Array.isArray(item.en) ? item.en.join(", ") : (item.en ?? "");
+  if (idioma === "en") return en || item.es || "";
+  return item.es || en;
+}
+
+/** El otro idioma, para enseñarlo debajo en letra pequeña. */
+export function significadoSecundario(
+  item: { es?: string | null; en?: string | string[] | null },
+  idioma: Idioma,
+): string {
+  const en = Array.isArray(item.en) ? item.en.join(", ") : (item.en ?? "");
+  return idioma === "en" ? (item.es || "") : en;
+}

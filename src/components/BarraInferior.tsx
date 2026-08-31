@@ -4,14 +4,16 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { contarPendientes, leerProgreso } from "@/lib/progreso";
 import { IcCurso, IcPerfil, IcRepaso } from "./Iconos";
+import { useAjustes } from "./Ajustes";
 
 const ENLACES = [
-  { href: "/", Icono: IcCurso, texto: "Curso" },
-  { href: "/repaso", Icono: IcRepaso, texto: "Repaso" },
-  { href: "/perfil", Icono: IcPerfil, texto: "Perfil" },
-];
+  { href: "/", Icono: IcCurso, clave: "nav.curso" },
+  { href: "/repaso", Icono: IcRepaso, clave: "nav.repaso" },
+  { href: "/perfil", Icono: IcPerfil, clave: "nav.perfil" },
+] as const;
 
 export function BarraInferior() {
+  const { t } = useAjustes();
   const ruta = usePathname();
   const [vencidas, setVencidas] = useState(0);
 
@@ -28,10 +30,10 @@ export function BarraInferior() {
 
   return (
     <nav className="barra-inferior">
-      {ENLACES.map(({ href, Icono, texto }) => (
+      {ENLACES.map(({ href, Icono, clave }) => (
         <Link key={href} href={href} className={activo(href) ? "activo" : ""}>
           <Icono size={22} />
-          {texto}
+          {t(clave)}
           {href === "/repaso" && vencidas > 0 && (
             <span className="senal">{vencidas > 99 ? "99+" : vencidas}</span>
           )}

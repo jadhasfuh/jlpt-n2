@@ -16,7 +16,7 @@ import { useAjustes } from "./Ajustes";
  */
 export function Lateral() {
   const ruta = usePathname();
-  const { tema, cambiarTema } = useAjustes();
+  const { tema, cambiarTema, t } = useAjustes();
   const [vencidas, setVencidas] = useState(0);
   const [r, setR] = useState<ReturnType<typeof resumen> | null>(null);
   const [buscando, setBuscando] = useState(false);
@@ -36,7 +36,9 @@ export function Lateral() {
     h === "/" ? ruta === "/" || ruta.startsWith("/n/") || ruta.startsWith("/u/") : ruta.startsWith(h);
 
   const Tema = tema === "claro" ? IcSol : tema === "oscuro" ? IcLuna : IcAuto;
-  const nombreTema = tema === "claro" ? "Tema claro" : tema === "oscuro" ? "Tema oscuro" : "Tema automático";
+  const nombreTema = t("com.tema", {
+    v: t(tema === "claro" ? "tema.claro" : tema === "oscuro" ? "tema.oscuro" : "tema.auto"),
+  });
 
   return (
     <>
@@ -44,31 +46,31 @@ export function Lateral() {
         <Marca tam={22} />
         <nav>
           <Link href="/" className={activo("/") ? "activo" : ""}>
-            <IcCurso size={19} /> Curso
+            <IcCurso size={19} /> {t("nav.curso")}
           </Link>
           <Link href="/repaso" className={activo("/repaso") ? "activo" : ""}>
-            <IcRepaso size={19} /> Repaso
+            <IcRepaso size={19} /> {t("nav.repaso")}
             {vencidas > 0 && <span className="senal">{vencidas > 99 ? "99+" : vencidas}</span>}
           </Link>
           <button onClick={() => setBuscando(true)} style={{ textAlign: "left" }}>
-            <IcDiccionario size={19} /> Diccionario
+            <IcDiccionario size={19} /> {t("nav.dicc")}
           </button>
           <Link href="/perfil" className={activo("/perfil") ? "activo" : ""}>
-            <IcPerfil size={19} /> Perfil
+            <IcPerfil size={19} /> {t("nav.perfil")}
           </Link>
         </nav>
 
         {r && (
           <div style={{ marginTop: 22, display: "grid", gap: 10 }}>
             {([
-              [`${r.xp}`, "XP"],
-              [`${r.racha}`, "días"],
-              [`${r.dominadas}`, "dominadas"],
-              [`${r.unidades}`, "unidades"],
-            ] as const).map(([v, t]) => (
-              <div key={t} style={{ display: "flex", alignItems: "baseline", gap: 8 }}>
+              [`${r.xp}`, t("inicio.xp")],
+              [`${r.racha}`, t("inicio.dias")],
+              [`${r.dominadas}`, t("inicio.dominadas")],
+              [`${r.unidades}`, t("inicio.unidades")],
+            ] as const).map(([v, etiqueta]) => (
+              <div key={etiqueta} style={{ display: "flex", alignItems: "baseline", gap: 8 }}>
                 <b style={{ fontSize: 17, fontWeight: 600, fontVariantNumeric: "tabular-nums" }}>{v}</b>
-                <i className="etiqueta" style={{ fontStyle: "normal" }}>{t}</i>
+                <i className="etiqueta" style={{ fontStyle: "normal" }}>{etiqueta}</i>
               </div>
             ))}
           </div>
