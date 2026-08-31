@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/tsunagu/conjunciones-1",
+ "titulo": "<ruby>君<rt>きみ</rt></ruby>のおかげ",
+ "cuerpo": "しごとでこまっていたとき、どうりょうが<ruby>手<rt>て</rt></ruby>つだってくれました。すると、はんぶんの<ruby>時間<rt>じかん</rt></ruby>で<ruby>終<rt>お</rt></ruby>わりました。それで、おれいに<ruby>昼<rt>ひる</rt></ruby>ごはんをごちそうしました。「<ruby>君<rt>きみ</rt></ruby>のおかげだよ」と<ruby>言<rt>い</rt></ruby>うと、「またなにかあったら、いつでも」とわらってくれました。それに、つぎの<ruby>日<rt>ひ</rt></ruby>には<ruby>別<rt>べつ</rt></ruby>のしりょうまで<ruby>用意<rt>ようい</rt></ruby>しておいてくれました。だから、こんどはわたしがだれかを<ruby>手<rt>て</rt></ruby>つだう<ruby>番<rt>ばん</rt></ruby>です。<ruby>部長<rt>ぶちょう</rt></ruby>も、そのことを<em class=\"g\">お</em><ruby>聞<rt>き</rt></ruby>き<em class=\"g\">になり</em>ました。",
+ "traduccion": "Cuando andaba atascado con el trabajo, un compañero me echó una mano. Entonces terminamos en la mitad de tiempo. Por eso lo invité a comer para agradecérselo. Cuando le dije «es gracias a ti», se rió y contestó «cuando quieras, si vuelve a pasar algo». Además, al día siguiente hasta me dejó preparados otros documentos. Así que ahora me toca a mí ayudar a alguien. El jefe también se enteró de todo esto.",
+ "preguntas": [
+  {
+   "p": "どうりょうが<ruby>手<rt>て</rt></ruby>つだって、どうなりましたか。",
+   "opciones": [
+    "おそくなった",
+    "はんぶんの<ruby>時間<rt>じかん</rt></ruby>で<ruby>終<rt>お</rt></ruby>わった",
+    "かわらなかった",
+    "むずかしくなった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "つぎの<ruby>日<rt>ひ</rt></ruby>、どうりょうは<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "やすんだ",
+    "<ruby>別<rt>べつ</rt></ruby>のしりょうまで<ruby>用意<rt>ようい</rt></ruby>しておいた",
+    "ごちそうした",
+    "<ruby>何<rt>なに</rt></ruby>もしなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

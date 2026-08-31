@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/tsunagu/adverbios-1",
+ "titulo": "はっきり<ruby>言<rt>い</rt></ruby>う",
+ "cuerpo": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えをはっきり<ruby>言<rt>い</rt></ruby>う<em class=\"g\">必要があります</em>。<ruby>特<rt>とく</rt></ruby>に、しごとではそうです。「たぶん」「かもしれません」ばかりでは、あいてがこまります。しっかり<ruby>準備<rt>じゅんび</rt></ruby>してから<ruby>話<rt>はな</rt></ruby>すと、こえもしぜんに<ruby>強<rt>つよ</rt></ruby>くなります。ただし、はっきり<ruby>言<rt>い</rt></ruby>うことと、つよく<ruby>言<rt>い</rt></ruby>うことはちがいます。しずかにはっきり、が<ruby>一番<rt>いちばん</rt></ruby>つたわります。そのためには、<ruby>何<rt>なに</rt></ruby>を<ruby>言<rt>い</rt></ruby>うかを<ruby>先<rt>さき</rt></ruby>にきめておく<em class=\"g\">必要がある</em>のです。",
+ "traduccion": "Hace falta decir lo que uno piensa con claridad. Sobre todo en el trabajo. Si todo son «quizá» y «puede ser», el otro se queda perdido. Cuando hablas después de prepararlo bien, la voz también se vuelve firme de forma natural. Eso sí, decir las cosas claras no es lo mismo que decirlas fuerte. Lo que mejor llega es hablar claro y con calma. Y para eso hace falta decidir de antemano qué vas a decir.",
+ "preguntas": [
+  {
+   "p": "「たぶん」ばかりだと、どうなりますか。",
+   "opciones": [
+    "つたわる",
+    "あいてがこまる",
+    "こえが<ruby>強<rt>つよ</rt></ruby>くなる",
+    "<ruby>準備<rt>じゅんび</rt></ruby>できる"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いちばんつたわるのはどれですか。",
+   "opciones": [
+    "つよく<ruby>言<rt>い</rt></ruby>う",
+    "しずかにはっきり<ruby>言<rt>い</rt></ruby>う",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わない",
+    "たくさん<ruby>言<rt>い</rt></ruby>う"
+   ],
+   "correcta": 1
+  }
+ ]
+}

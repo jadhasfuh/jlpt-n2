@@ -41,7 +41,8 @@ def aparece(forma, texto):
     for variante in re.split(r"\s*[/・]\s*", forma):
         # ～ 〜 ~ y los huecos con corchetes (の中で[A]が一番) son lo mismo:
         # algo va en medio y sólo se exige que las piezas salgan en orden.
-        partes = [p for p in re.split(r"[\uff5e\u301c~]|\[[^\]]*\]", variante) if p]
+        partes = [p.strip() for p in
+                  re.split(r"[\uff5e\u301c~]|\[[^\]]*\]|・・・|…", variante) if p.strip()]
         pos = 0
         ok = True
         for k, parte in enumerate(partes):

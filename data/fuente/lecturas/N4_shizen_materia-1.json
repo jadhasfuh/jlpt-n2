@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/shizen/materia-1",
+ "titulo": "<ruby>火<rt>ひ</rt></ruby>のあつかい",
+ "cuerpo": "<ruby>化学<rt>かがく</rt></ruby>のじゅぎょうで、<ruby>火<rt>ひ</rt></ruby>をつかいました。<ruby>砂<rt>すな</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>でやるのは、<ruby>焼<rt>や</rt></ruby>けてもひろがらない<em class=\"g\">ようだ</em>からです。<ruby>先生<rt>せんせい</rt></ruby>は「<ruby>火事<rt>かじ</rt></ruby>になるのは、たいてい<ruby>小<rt>ちい</rt></ruby>さなゆだんからの<em class=\"g\">ようです</em>」と<ruby>話<rt>はな</rt></ruby>しました。<ruby>堅<rt>かた</rt></ruby>いものはもえにくく、かみのような<ruby>軽<rt>かる</rt></ruby>いものはすぐもえます。<ruby>消<rt>け</rt></ruby>しゴムのけずりかすがちらばっていて、あぶないと<ruby>注意<rt>ちゅうい</rt></ruby>されました。ガスをとめてから<ruby>出<rt>で</rt></ruby>ることも、そのとき<ruby>習<rt>なら</rt></ruby>いました。",
+ "traduccion": "En la clase de química usamos fuego. Se hace sobre arena porque así, aunque prenda, parece que no se extiende. El profesor dijo: «los incendios suelen venir de un pequeño descuido». Lo duro cuesta que arda; lo ligero como el papel prende enseguida. Me avisaron de que las virutas de goma esparcidas eran peligrosas. También aprendí entonces a cerrar el gas antes de salir.",
+ "preguntas": [
+  {
+   "p": "なぜ、<ruby>砂<rt>すな</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>でやりますか。",
+   "opciones": [
+    "<ruby>見<rt>み</rt></ruby>やすいから",
+    "<ruby>焼<rt>や</rt></ruby>けてもひろがらない<em class=\"g\">ようだ</em>から",
+    "<ruby>堅<rt>かた</rt></ruby>いから",
+    "きれいだから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>火事<rt>かじ</rt></ruby>の<ruby>原<rt>げん</rt></ruby>いんについて<ruby>何<rt>なに</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しましたか。",
+   "opciones": [
+    "ガスから",
+    "たいてい<ruby>小<rt>ちい</rt></ruby>さなゆだんから",
+    "かみから",
+    "<ruby>化学<rt>かがく</rt></ruby>から"
+   ],
+   "correcta": 1
+  }
+ ]
+}

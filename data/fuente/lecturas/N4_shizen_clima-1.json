@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/shizen/clima-1",
+ "titulo": "<ruby>台風<rt>たいふう</rt></ruby>のあと",
+ "cuerpo": "<ruby>台風<rt>たいふう</rt></ruby>が<ruby>近<rt>ちか</rt></ruby>づいて、<ruby>雲<rt>くも</rt></ruby>が<ruby>朝<rt>あさ</rt></ruby>から<ruby>黒<rt>くろ</rt></ruby>かったです。<ruby>天気<rt>てんき</rt></ruby>よほうを<ruby>見<rt>み</rt></ruby>て<ruby>準備<rt>じゅんび</rt></ruby>していた<em class=\"g\">のに</em>、<ruby>夜<rt>よる</rt></ruby>にでんきがとまりました。<ruby>暖房<rt>だんぼう</rt></ruby>もつかえません。さむくて<ruby>気分<rt>きぶん</rt></ruby>もわるくなりました。つぎの<ruby>朝<rt>あさ</rt></ruby>、そとに<ruby>出<rt>で</rt></ruby>ると、<ruby>空<rt>そら</rt></ruby>がうそのように<ruby>青<rt>あお</rt></ruby>かったです。あんなに<ruby>風<rt>かぜ</rt></ruby>がつよかった<em class=\"g\">のに</em>、<ruby>木<rt>き</rt></ruby>はほとんどたおれていませんでした。<ruby>自然<rt>しぜん</rt></ruby>のちからは、こわすほうにも、たえるほうにもはたらくのだと<ruby>思<rt>おも</rt></ruby>いました。",
+ "traduccion": "Se acercó un tifón y desde por la mañana las nubes estaban negras. Aunque había visto el parte y me había preparado, por la noche se fue la luz. Tampoco funcionaba la calefacción. Con el frío me encontré mal. A la mañana siguiente salí fuera y el cielo estaba azul, como si nada. Aunque el viento había sido tan fuerte, casi ningún árbol se había caído. Pensé que la fuerza de la naturaleza actúa tanto para destruir como para resistir.",
+ "preguntas": [
+  {
+   "p": "<ruby>台風<rt>たいふう</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>、<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "<ruby>木<rt>き</rt></ruby>がたおれた",
+    "でんきがとまった",
+    "<ruby>雨<rt>あめ</rt></ruby>がふらなかった",
+    "<ruby>暖房<rt>だんぼう</rt></ruby>がついた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "つぎの<ruby>朝<rt>あさ</rt></ruby>、<ruby>木<rt>き</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "ぜんぶたおれた",
+    "ほとんどたおれていなかった",
+    "きえた",
+    "<ruby>黒<rt>くろ</rt></ruby>かった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

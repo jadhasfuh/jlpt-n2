@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/sonota/sustantivos-1",
+ "titulo": "<ruby>代<rt>か</rt></ruby>わりの<ruby>席<rt>せき</rt></ruby>",
+ "cuerpo": "でんしゃで<ruby>席<rt>せき</rt></ruby>がひとつだけ<ruby>空<rt>あ</rt></ruby>いていました。<ruby>僕<rt>ぼく</rt></ruby>のとなりに<ruby>立<rt>た</rt></ruby>っていた<ruby>人<rt>ひと</rt></ruby>にゆずると、「いいんですか」と<em class=\"g\">なかなか</em>すわろうとし<em class=\"g\">ません</em>でした。<ruby>十分<rt>じゅうぶん</rt></ruby>に<ruby>時間<rt>じかん</rt></ruby>があったので、「どうぞ」ともういちど<ruby>言<rt>い</rt></ruby>いました。こういうやりとりは、<em class=\"g\">なかなか</em>うまく<em class=\"g\">いきません</em>。でも、しなければ<ruby>何<rt>なに</rt></ruby>もはじまりません。ゆずってよかった<em class=\"g\">と言ってもいい</em><ruby>一日<rt>いちにち</rt></ruby>でした。",
+ "traduccion": "En el tren solo quedaba un asiento libre. Se lo cedí a la persona que estaba de pie a mi lado y, diciendo «¿seguro?», no acababa de sentarse. Como había tiempo de sobra, le dije «adelante» otra vez. Estos intercambios no salen bien fácilmente. Pero si no lo haces, no empieza nada. Se podría decir que fue un día en el que hice bien cediendo el sitio.",
+ "preguntas": [
+  {
+   "p": "となりの<ruby>人<rt>ひと</rt></ruby>はどうしましたか。",
+   "opciones": [
+    "すぐすわった",
+    "<em class=\"g\">なかなか</em>すわろうとし<em class=\"g\">ません</em>でした",
+    "ことわった",
+    "<ruby>立<rt>た</rt></ruby>っていた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>はどう<ruby>思<rt>おも</rt></ruby>っていますか。",
+   "opciones": [
+    "ゆずらないほうがよかった",
+    "ゆずってよかった",
+    "<ruby>席<rt>せき</rt></ruby>はいらない",
+    "<ruby>時間<rt>じかん</rt></ruby>がなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

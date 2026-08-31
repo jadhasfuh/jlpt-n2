@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/shizen/plantas-1",
+ "titulo": "<ruby>花見<rt>はなみ</rt></ruby>の<ruby>約束<rt>やくそく</rt></ruby>",
+ "cuerpo": "<ruby>来週<rt>らいしゅう</rt></ruby>、<ruby>花見<rt>はなみ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。<ruby>雨<rt>あめ</rt></ruby><em class=\"g\">なら</em>、<ruby>再来週<rt>さらいしゅう</rt></ruby>にします。きょねん<ruby>植<rt>う</rt></ruby>えた<ruby>草<rt>くさ</rt></ruby>も<ruby>芽<rt>め</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しました。<ruby>枝<rt>えだ</rt></ruby>を<ruby>折<rt>お</rt></ruby>らないように、と<ruby>立<rt>た</rt></ruby>てふだに<ruby>書<rt>か</rt></ruby>いてあります。<ruby>花<rt>はな</rt></ruby>がひらい<em class=\"g\">たら</em>、いちばんきれいなのはさいしょの<ruby>三<rt>みっ</rt></ruby>か<ruby>日<rt>か</rt></ruby>だけです。みじかいからこそ、みんながあつまるのでしょう。<ruby>天気<rt>てんき</rt></ruby>がよかっ<em class=\"g\">たら</em>、おべんとうをつくって<ruby>持<rt>も</rt></ruby>っていくつもりです。",
+ "traduccion": "La semana que viene vamos a ver los cerezos. Si llueve, lo pasamos a la siguiente. La hierba que planté el año pasado también ha brotado. En un cartel pone que no rompamos las ramas. Cuando se abren las flores, lo más bonito son solo los tres primeros días. Quizá sea justo por lo breve que todo el mundo se junta. Si hace bueno, pienso preparar comida y llevármela.",
+ "preguntas": [
+  {
+   "p": "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ったら、どうしますか。",
+   "opciones": [
+    "やめる",
+    "<ruby>再来週<rt>さらいしゅう</rt></ruby>にする",
+    "うちでする",
+    "<ruby>行<rt>い</rt></ruby>く"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いちばんきれいなのはいつですか。",
+   "opciones": [
+    "さいしょの<ruby>三<rt>みっ</rt></ruby>か<ruby>日<rt>か</rt></ruby>",
+    "<ruby>一<rt>いち</rt></ruby>しゅうかん",
+    "<ruby>来週<rt>らいしゅう</rt></ruby>",
+    "まいにち"
+   ],
+   "correcta": 0
+  }
+ ]
+}

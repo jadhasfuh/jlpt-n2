@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/sonota/verbos-1",
+ "titulo": "<ruby>紹介<rt>しょうかい</rt></ruby>してもらう",
+ "cuerpo": "あたらしい<ruby>会社<rt>かいしゃ</rt></ruby>を<ruby>紹介<rt>しょうかい</rt></ruby>してもらいました。めんせつの<ruby>日<rt>ひ</rt></ruby>は<ruby>朝<rt>あさ</rt></ruby>はやく<ruby>出発<rt>しゅっぱつ</rt></ruby>しました。<ruby>受付<rt>うけつけ</rt></ruby>でしょるいをわたすと、「<ruby>拝見<rt>はいけん</rt></ruby>いたします」とていねいに<ruby>見<rt>み</rt></ruby>てくださいました。<ruby>邪魔<rt>じゃま</rt></ruby>にならないよう、しずかに<ruby>待<rt>ま</rt></ruby>ちました。けっかは<ruby>一<rt>いっ</rt></ruby>しゅうかん<ruby>後<rt>ご</rt></ruby>に<ruby>知<rt>し</rt></ruby>らせてくれる<em class=\"g\">と聞いた</em>。おちてもいい、<ruby>経験<rt>けいけん</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>るのだから、と<ruby>自分<rt>じぶん</rt></ruby>に<ruby>言<rt>い</rt></ruby>いました。むかしなら、こんなふうには<ruby>考<rt>かんが</rt></ruby>えられなかったでしょう。",
+ "traduccion": "Me presentaron una empresa nueva. El día de la entrevista salí temprano por la mañana. Cuando entregué los papeles en recepción, me dijeron «permítame verlos» y los revisaron con cuidado. Esperé en silencio para no molestar. Oí que me comunicarían el resultado una semana después. Me dije a mí mismo que, aunque no me cogieran, la experiencia se queda. Antes no habría podido pensarlo así.",
+ "preguntas": [
+  {
+   "p": "けっかはいつ<ruby>知<rt>し</rt></ruby>らせてくれますか。",
+   "opciones": [
+    "その<ruby>日<rt>ひ</rt></ruby>",
+    "<ruby>一<rt>いっ</rt></ruby>しゅうかん<ruby>後<rt>ご</rt></ruby>",
+    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby><ruby>後<rt>ご</rt></ruby>",
+    "しらせない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>自分<rt>じぶん</rt></ruby>に<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "ぜったいうかる",
+    "おちてもいい、<ruby>経験<rt>けいけん</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>る",
+    "<ruby>出発<rt>しゅっぱつ</rt></ruby>がはやい",
+    "<ruby>邪魔<rt>じゃま</rt></ruby>をするな"
+   ],
+   "correcta": 1
+  }
+ ]
+}

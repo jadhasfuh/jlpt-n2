@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/shizen/cielo-1",
+ "titulo": "<ruby>星<rt>ほし</rt></ruby>の<ruby>光<rt>ひかり</rt></ruby>",
+ "cuerpo": "まちでは<ruby>星<rt>ほし</rt></ruby>がほとんど<ruby>見<rt>み</rt></ruby>えません。<ruby>空気<rt>くうき</rt></ruby>がよごれているからだけではなく、したのあかりが<ruby>明<rt>あか</rt></ruby>るすぎるからです。<em class=\"g\">それでも</em>、<ruby>月<rt>つき</rt></ruby><em class=\"g\">は</em><ruby>見<rt>み</rt></ruby>えます<em class=\"g\">が</em>、<ruby>星<rt>ほし</rt></ruby><em class=\"g\">は</em>むずかしいです。<ruby>山<rt>やま</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った<ruby>夜<rt>よる</rt></ruby>、はじめて<ruby>天<rt>あま</rt></ruby>の<ruby>川<rt>がわ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。<ruby>光<rt>ひか</rt></ruby>っているのは<ruby>今<rt>いま</rt></ruby>の<ruby>光<rt>ひかり</rt></ruby>ではなく、ずっとまえに<ruby>出<rt>で</rt></ruby>た<ruby>光<rt>ひかり</rt></ruby>だそうです。そう<ruby>聞<rt>き</rt></ruby>くと、<ruby>空<rt>そら</rt></ruby>を<ruby>見<rt>み</rt></ruby>るのは<ruby>昔<rt>むかし</rt></ruby>を<ruby>見<rt>み</rt></ruby>ることなのかもしれません。",
+ "traduccion": "En la ciudad casi no se ven las estrellas. No es solo porque el aire esté sucio, sino porque las luces de abajo son demasiado brillantes. Aun así, la luna sí se ve, pero las estrellas cuestan. La noche que fui a la montaña vi la Vía Láctea por primera vez. Dicen que la luz que brilla no es la de ahora, sino la que salió hace muchísimo. Oyéndolo así, quizá mirar el cielo sea mirar el pasado.",
+ "preguntas": [
+  {
+   "p": "まちで<ruby>星<rt>ほし</rt></ruby>が<ruby>見<rt>み</rt></ruby>えない<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>空気<rt>くうき</rt></ruby>だけ",
+    "<ruby>空気<rt>くうき</rt></ruby>と、したのあかりが<ruby>明<rt>あか</rt></ruby>るすぎること",
+    "<ruby>月<rt>つき</rt></ruby>があるから",
+    "<ruby>山<rt>やま</rt></ruby>がないから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>星<rt>ほし</rt></ruby>の<ruby>光<rt>ひかり</rt></ruby>について、<ruby>何<rt>なに</rt></ruby>を<ruby>知<rt>し</rt></ruby>りましたか。",
+   "opciones": [
+    "<ruby>今<rt>いま</rt></ruby>の<ruby>光<rt>ひかり</rt></ruby>だ",
+    "ずっとまえに<ruby>出<rt>で</rt></ruby>た<ruby>光<rt>ひかり</rt></ruby>だ",
+    "<ruby>見<rt>み</rt></ruby>えない",
+    "まちのあかりだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

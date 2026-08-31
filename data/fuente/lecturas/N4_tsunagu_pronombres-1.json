@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/tsunagu/pronombres-1",
+ "titulo": "どれに<ruby>興味<rt>きょうみ</rt></ruby>がありますか",
+ "cuerpo": "はじめてあう<ruby>人<rt>ひと</rt></ruby>に、なにを<ruby>聞<rt>き</rt></ruby>けばいいかわからないことがあります。そんなとき、わたしは「どんなことに<ruby>興味<rt>きょうみ</rt></ruby>がありますか」と<ruby>聞<rt>き</rt></ruby>くようにしています。しゅみでも、しごとでも、その<ruby>人<rt>ひと</rt></ruby>がすきなことなら、たいてい<ruby>話<rt>はな</rt></ruby>してくれます。「もうすこしくわしく<ruby>教<rt>おし</rt></ruby>え<em class=\"g\">ていただけませんか</em>」とつづけると、<ruby>顔<rt>かお</rt></ruby>がすこしあかるくなります。だれも、じぶんの<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いてもらいたいのです。「よかったら、こんど<ruby>見<rt>み</rt></ruby>せ<em class=\"g\">ていただけませんか</em>」と<ruby>言<rt>い</rt></ruby>って、その<ruby>日<rt>ひ</rt></ruby>は<ruby>別<rt>わか</rt></ruby>れました。",
+ "traduccion": "A veces, con alguien a quien conoces por primera vez, no sabes qué preguntarle. En esos casos yo procuro preguntar «¿qué cosas le interesan?». Ya sea una afición o el trabajo, si es algo que le gusta, casi siempre te lo cuenta. Si sigues con un «¿podría explicármelo un poco más?», la cara se le ilumina un poco. Todo el mundo quiere que le escuchen. Le dije «si le parece, ¿podría enseñármelo otro día?» y nos despedimos.",
+ "preguntas": [
+  {
+   "p": "はじめてあう<ruby>人<rt>ひと</rt></ruby>に、<ruby>何<rt>なに</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きますか。",
+   "opciones": [
+    "なまえ",
+    "どんなことに<ruby>興味<rt>きょうみ</rt></ruby>があるか",
+    "しごと",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>聞<rt>き</rt></ruby>かない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えはどれですか。",
+   "opciones": [
+    "だれも<ruby>話<rt>はな</rt></ruby>したくない",
+    "だれも、じぶんの<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いてもらいたい",
+    "しつもんはしないほうがいい",
+    "しゅみの<ruby>話<rt>はなし</rt></ruby>はつまらない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/shizen/agua-1",
+ "titulo": "<ruby>湖<rt>みずうみ</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>",
+ "cuerpo": "<ruby>夏<rt>なつ</rt></ruby>のあいだ、<ruby>湖<rt>みずうみ</rt></ruby>のちかくにとまりました。あさ<ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きれ<em class=\"g\">ば</em>、<ruby>水<rt>みず</rt></ruby>のおもてが<ruby>鏡<rt>かがみ</rt></ruby>のようになるのが<ruby>見<rt>み</rt></ruby>られます。<ruby>海岸<rt>かいがん</rt></ruby>とちがってなみがないので、<ruby>水泳<rt>すいえい</rt></ruby>のれんしゅうにもちょうどいいです。<ruby>湯<rt>ゆ</rt></ruby>をわかしてお<ruby>茶<rt>ちゃ</rt></ruby>をのみながら、<ruby>何<rt>なに</rt></ruby>もしない<ruby>時間<rt>じかん</rt></ruby>をすごしました。こういう<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>来<rt>く</rt></ruby>れ<em class=\"g\">ば</em>、からだよりさきに<ruby>頭<rt>あたま</rt></ruby>がやすまるようです。",
+ "traduccion": "Durante el verano me alojé cerca de un lago. Si te levantas temprano por la mañana, puedes ver cómo la superficie del agua se vuelve un espejo. A diferencia de la costa no hay olas, así que viene bien para practicar natación. Puse agua a hervir y pasé un rato sin hacer nada, tomando té. Cuando vienes a un sitio así, parece que la cabeza descansa antes que el cuerpo.",
+ "preguntas": [
+  {
+   "p": "あさ<ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きると、<ruby>何<rt>なに</rt></ruby>が<ruby>見<rt>み</rt></ruby>られますか。",
+   "opciones": [
+    "なみ",
+    "<ruby>水<rt>みず</rt></ruby>のおもてが<ruby>鏡<rt>かがみ</rt></ruby>のようになるところ",
+    "<ruby>海岸<rt>かいがん</rt></ruby>",
+    "<ruby>湯<rt>ゆ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>海岸<rt>かいがん</rt></ruby>とちがうところは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>水<rt>みず</rt></ruby>がつめたい",
+    "なみがない",
+    "<ruby>人<rt>ひと</rt></ruby>がおおい",
+    "<ruby>泳<rt>およ</rt></ruby>げない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

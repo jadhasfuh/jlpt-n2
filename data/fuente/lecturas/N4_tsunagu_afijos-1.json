@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/tsunagu/afijos-1",
+ "titulo": "<ruby>力<rt>ちから</rt></ruby>をつける",
+ "cuerpo": "あたらしいしごとをはじめると、まわりの<ruby>人<rt>ひと</rt></ruby>がうらやまし<em class=\"g\">がる</em>ことがあります。でも、はたらいている<ruby>本人<rt>ほんにん</rt></ruby>は、まいにちおぼえることでいっぱいです。<ruby>読<rt>よ</rt></ruby>む<ruby>力<rt>ちから</rt></ruby>も<ruby>書<rt>か</rt></ruby>く<ruby>力<rt>ちから</rt></ruby>も、すこしずつしか<ruby>付<rt>つ</rt></ruby>きません。<ruby>今日<rt>きょう</rt></ruby>は<ruby>一<rt>ひと</rt></ruby>つだけ、しりょうを<ruby>読<rt>よ</rt></ruby>み<ruby>込<rt>こ</rt></ruby>むことにし<em class=\"g\">よう</em>。そうやって<ruby>続<rt>つづ</rt></ruby>けていけば、<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby><ruby>後<rt>ご</rt></ruby>にはちがう<ruby>様<rt>さま</rt></ruby>になっているはずです。",
+ "traduccion": "Cuando empiezas un trabajo nuevo, a veces la gente de alrededor da muestras de envidia. Pero quien lo está haciendo tiene la cabeza llena de cosas que aprender cada día. La capacidad de leer y la de escribir solo se adquieren poco a poco. Hoy voy a hacer solo una cosa: leerme a fondo la documentación. Si sigo así, dentro de un año la cosa debería tener otra pinta.",
+ "preguntas": [
+  {
+   "p": "まわりの<ruby>人<rt>ひと</rt></ruby>はどうしますか。",
+   "opciones": [
+    "てつだう",
+    "うらやまし<em class=\"g\">がる</em>",
+    "しんぱいする",
+    "<ruby>何<rt>なに</rt></ruby>もしない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>今日<rt>きょう</rt></ruby>、<ruby>何<rt>なに</rt></ruby>をすることにしましたか。",
+   "opciones": [
+    "やすむ",
+    "しりょうを<ruby>読<rt>よ</rt></ruby>み<ruby>込<rt>こ</rt></ruby>む",
+    "<ruby>力<rt>ちから</rt></ruby>をつける",
+    "<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby><ruby>待<rt>ま</rt></ruby>つ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

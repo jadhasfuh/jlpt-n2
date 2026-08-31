@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/shizen/animales-1",
+ "titulo": "<ruby>小鳥<rt>ことり</rt></ruby>と<ruby>虫<rt>むし</rt></ruby>",
+ "cuerpo": "まどのそとに<ruby>小鳥<rt>ことり</rt></ruby>が<ruby>来<rt>き</rt></ruby>ます。パンをおいておくと、すこしずつちかづいてきます。<ruby>手<rt>て</rt></ruby>をのばし<em class=\"g\">ても</em>、もうにげません。<ruby>虫<rt>むし</rt></ruby>はにがてでしたが、<ruby>小鳥<rt>ことり</rt></ruby>が<ruby>虫<rt>むし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べているのを<ruby>見<rt>み</rt></ruby>てから、<ruby>考<rt>かんが</rt></ruby>えがかわりました。すききらいがあっ<em class=\"g\">ても</em>、みんなつながっているのです。とりのいない<ruby>朝<rt>あさ</rt></ruby>は、すこしさびしいです。",
+ "traduccion": "A la ventana vienen pajarillos. Si les dejo pan, se van acercando poco a poco. Aunque estire la mano, ya no huyen. Los insectos no me gustaban, pero desde que vi a los pájaros comérselos, cambié de idea. Aunque tengas manías, todo está conectado. Las mañanas en que no hay pájaros se me hacen un poco tristes.",
+ "preguntas": [
+  {
+   "p": "<ruby>手<rt>て</rt></ruby>をのばすと、<ruby>小鳥<rt>ことり</rt></ruby>はどうしますか。",
+   "opciones": [
+    "にげる",
+    "もうにげない",
+    "<ruby>鳴<rt>な</rt></ruby>く",
+    "<ruby>虫<rt>むし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べる"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "なぜ、<ruby>虫<rt>むし</rt></ruby>についての<ruby>考<rt>かんが</rt></ruby>えがかわりましたか。",
+   "opciones": [
+    "きれいだから",
+    "<ruby>小鳥<rt>ことり</rt></ruby>が<ruby>食<rt>た</rt></ruby>べているのを<ruby>見<rt>み</rt></ruby>たから",
+    "パンをたべるから",
+    "まどにいるから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

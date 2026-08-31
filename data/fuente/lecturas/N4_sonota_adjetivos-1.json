@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/sonota/adjetivos-1",
+ "titulo": "<ruby>眠<rt>ねむ</rt></ruby>い<ruby>朝<rt>あさ</rt></ruby>",
+ "cuerpo": "よるおそくまで<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んでいたので、けさはとても<ruby>眠<rt>ねむ</rt></ruby>かったです。<ruby>眠<rt>ねむ</rt></ruby>いときは、あたまがはたらかない<em class=\"g\">と思います</em>。コーヒーをのんでも、<ruby>同<rt>おな</rt></ruby>じでした。けっきょく、<ruby>昼<rt>ひる</rt></ruby>に<ruby>十五分<rt>じゅうごふん</rt></ruby>だけ<ruby>目<rt>め</rt></ruby>をとじると、ずいぶんらくになりました。<ruby>眠<rt>ねむ</rt></ruby>さは、がまんするより、みじかくてもねてしまうほうがはやい<em class=\"g\">と思います</em>。<ruby>今夜<rt>こんや</rt></ruby>ははやくねます。",
+ "traduccion": "Como estuve leyendo hasta tarde, esta mañana tenía muchísimo sueño. Creo que cuando tienes sueño la cabeza no funciona. Aunque tomé café, fue lo mismo. Al final, cerrar los ojos solo quince minutos al mediodía me alivió bastante. Creo que con el sueño, más que aguantarlo, se va más rápido durmiendo aunque sea poco. Esta noche me acuesto pronto.",
+ "preguntas": [
+  {
+   "p": "なぜ、けさは<ruby>眠<rt>ねむ</rt></ruby>かったですか。",
+   "opciones": [
+    "はやく<ruby>起<rt>お</rt></ruby>きたから",
+    "よるおそくまで<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んでいたから",
+    "コーヒーをのんだから",
+    "<ruby>仕事<rt>しごと</rt></ruby>がおおいから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>がいちばんきいたと<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "コーヒー",
+    "<ruby>昼<rt>ひる</rt></ruby>に<ruby>十五分<rt>じゅうごふん</rt></ruby><ruby>目<rt>め</rt></ruby>をとじること",
+    "がまんすること",
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

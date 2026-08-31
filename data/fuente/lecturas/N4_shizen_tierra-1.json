@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/shizen/tierra-1",
+ "titulo": "<ruby>森<rt>もり</rt></ruby>のみち",
+ "cuerpo": "<ruby>地理<rt>ちり</rt></ruby>のじゅぎょうで、<ruby>近<rt>ちか</rt></ruby>くの<ruby>森<rt>もり</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。<ruby>坂<rt>さか</rt></ruby>をのぼると、<ruby>林<rt>はやし</rt></ruby>のおくにふるいみちがありました。<ruby>土<rt>つち</rt></ruby>が<ruby>硬<rt>かた</rt></ruby>くて、<ruby>歩<rt>ある</rt></ruby>きやすかったです。<ruby>昔<rt>むかし</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がここを<ruby>通<rt>とお</rt></ruby>っていた<em class=\"g\">のは</em>、とおまわりでも<ruby>安全<rt>あんぜん</rt></ruby>だった<em class=\"g\">からです</em>。<ruby>容易<rt>ようい</rt></ruby>にみえるみちが、いつもいちばん<ruby>早<rt>はや</rt></ruby>いとはかぎりません。かえりは<ruby>別<rt>べつ</rt></ruby>のみちをえらびましたが、そちらのほうがずっと<ruby>時間<rt>じかん</rt></ruby>がかかりました。",
+ "traduccion": "En la clase de geografía fuimos al bosque cercano. Al subir la cuesta, en lo hondo de la arboleda había un camino antiguo. La tierra estaba dura y se andaba bien. Que la gente de antes pasara por aquí era porque, aun dando rodeo, era seguro. El camino que parece fácil no siempre es el más rápido. A la vuelta escogí otro y tardé mucho más.",
+ "preguntas": [
+  {
+   "p": "ふるいみちはどこにありましたか。",
+   "opciones": [
+    "<ruby>坂<rt>さか</rt></ruby>のした",
+    "<ruby>林<rt>はやし</rt></ruby>のおく",
+    "<ruby>森<rt>もり</rt></ruby>の<ruby>入口<rt>いりぐち</rt></ruby>",
+    "<ruby>地理<rt>ちり</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>昔<rt>むかし</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がそこを<ruby>通<rt>とお</rt></ruby>っていた<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>早<rt>はや</rt></ruby>いから",
+    "とおまわりでも<ruby>安全<rt>あんぜん</rt></ruby>だったから",
+    "<ruby>容易<rt>ようい</rt></ruby>だから",
+    "<ruby>土<rt>つち</rt></ruby>が<ruby>硬<rt>かた</rt></ruby>いから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

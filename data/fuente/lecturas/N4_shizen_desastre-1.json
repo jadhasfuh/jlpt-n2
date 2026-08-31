@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/shizen/desastre-1",
+ "titulo": "<ruby>地震<rt>じしん</rt></ruby>のあとで",
+ "cuerpo": "よる、<ruby>地震<rt>じしん</rt></ruby>がありました。ゆれた<ruby>時間<rt>じかん</rt></ruby>はみじかかったですが、<ruby>立<rt>た</rt></ruby>っていられませんでした。<ruby>注意<rt>ちゅうい</rt></ruby>して<ruby>歩<rt>ある</rt></ruby>き、<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>へうつりました。<ruby>危険<rt>きけん</rt></ruby>なのは、ゆれているあいだ<em class=\"g\">だけで</em>はありません。そのあと、われたガラスやたおれたたなが<ruby>残<rt>のこ</rt></ruby>ります。<ruby>朝<rt>あさ</rt></ruby><em class=\"g\">までに</em>、うちの<ruby>中<rt>なか</rt></ruby>をぜんぶかたづけました。<ruby>水<rt>みず</rt></ruby>と<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>を<ruby>用意<rt>ようい</rt></ruby>しておく<em class=\"g\">だけで</em>、<ruby>気持<rt>きも</rt></ruby>ちがずいぶんちがいます。<ruby>次<rt>つぎ</rt></ruby>の<ruby>地震<rt>じしん</rt></ruby><em class=\"g\">までに</em>、もういちど<ruby>準備<rt>じゅんび</rt></ruby>を<ruby>見<rt>み</rt></ruby>なおすつもりです。",
+ "traduccion": "Por la noche hubo un terremoto. El temblor duró poco, pero no podía mantenerme en pie. Caminé con cuidado y me trasladé a un lugar seguro. Lo peligroso no es solo mientras tiembla. Después quedan los cristales rotos y los muebles caídos. Antes de que llegara la mañana recogí toda la casa. Solo con tener preparados agua y comida, el ánimo cambia bastante. Antes del próximo terremoto pienso revisar los preparativos otra vez.",
+ "preguntas": [
+  {
+   "p": "<ruby>危険<rt>きけん</rt></ruby>なのはいつですか。",
+   "opciones": [
+    "ゆれているあいだ<em class=\"g\">だけで</em>",
+    "そのあとも",
+    "<ruby>朝<rt>あさ</rt></ruby>だけ",
+    "<ruby>危険<rt>きけん</rt></ruby>ではない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>朝<rt>あさ</rt></ruby><em class=\"g\">までに</em><ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "ねた",
+    "うちの<ruby>中<rt>なか</rt></ruby>をぜんぶかたづけた",
+    "<ruby>水<rt>みず</rt></ruby>をかった",
+    "そとへ<ruby>出<rt>で</rt></ruby>た"
+   ],
+   "correcta": 1
+  }
+ ]
+}
