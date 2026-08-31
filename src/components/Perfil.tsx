@@ -11,6 +11,7 @@ import { SelectorIdioma } from "./SelectorIdioma";
 export function Perfil({ totalPalabras, cuenta, alDia }: {
   totalPalabras: number; cuenta: Cuenta | null; alDia: boolean;
 }) {
+  const [borrando, setBorrando] = useState(false);
   const [p, setP] = useState<Progreso | null>(null);
   const { tema, cambiarTema, idioma, t } = useAjustes();
 
@@ -101,7 +102,11 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
                     { fecha: fecha(cuenta.vence_en, idioma) })}
               </p>
             )}
-            <form action="/auth/salir" method="post" style={{ marginTop: 14 }}>
+            <Link href="/suscripcion" className="btn primario"
+                  style={{ width: "100%", marginTop: 14 }}>
+              {alDia ? t("sus.gestionar") : t("sus.suscribirse")} <IcDerecha size={15} />
+            </Link>
+            <form action="/auth/salir" method="post" style={{ marginTop: 8 }}>
               <button className="btn" style={{ width: "100%" }}>{t("per.salir")}</button>
             </form>
           </>
@@ -126,6 +131,21 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
               }}>
         {t("per.borrar")}
       </button>
+
+      {cuenta && (
+        <button className="btn fantasma" style={{ width: "100%", marginTop: 8, color: "var(--rojo)" }}
+                disabled={borrando}
+                onClick={async () => {
+                  if (!confirm(t("per.borrarAviso"))) return;
+                  setBorrando(true);
+                  const r = await fetch("/api/cuenta/borrar", { method: "POST" });
+                  if (!r.ok) { setBorrando(false); return alert(t("sus.errorPortal")); }
+                  localStorage.removeItem("jlpt.progreso");
+                  location.href = "/";
+                }}>
+          {borrando ? t("per.borrando") : t("per.borrarCuenta")}
+        </button>
+      )}
 
       <div className="filtros" style={{ justifyContent: "center", margin: "22px 0 8px" }}>
         <Link href="/legal/terminos" className="btn fantasma chico">{t("per.terminos")}</Link>

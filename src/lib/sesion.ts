@@ -12,6 +12,9 @@ export type Perfil = {
   membresia: Membresia;
   vence_en: string | null;
   origen: "web" | "apple" | "google" | null;
+  /** Ids del proveedor de pago. Nunca llegan al navegador. */
+  cliente_pago: string | null;
+  suscripcion_id: string | null;
 };
 
 /**
@@ -60,7 +63,7 @@ export async function perfil(): Promise<Perfil | null> {
   const admin = createClient(url, secreta, { auth: { persistSession: false } });
   const { data } = await admin
     .from("perfiles")
-    .select("id, nombre, email, membresia, vence_en, origen")
+    .select("id, nombre, email, membresia, vence_en, origen, cliente_pago, suscripcion_id")
     .eq("id", u.id)
     .maybeSingle();
   return (data as Perfil) ?? null;

@@ -153,7 +153,11 @@ export function Legal({ cual }: { cual: "terminos" | "privacidad" }) {
       <section style={{ marginTop: 22 }}>
         <h2 className="enc-seccion">{idioma === "es" ? "Contacto" : "Contact"}</h2>
         <p style={{ fontSize: 13.5, color: "var(--tinta-2)" }}>
-          <a href="mailto:hola@jlptest.org" style={{ color: "var(--acento)" }}>hola@jlptest.org</a>
+          {/* Correo real de contacto. Cuando el dominio tenga reenvío se
+              puede volver a una dirección @jlptest.org que apunte aquí. */}
+          <a href="mailto:adriancar75@hotmail.com" style={{ color: "var(--acento)" }}>
+            adriancar75@hotmail.com
+          </a>
         </p>
       </section>
 
