@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/hito/gente-2",
+ "titulo": "<ruby>身近<rt>みぢか</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>たち",
+ "cuerpo": "<ruby>歴史<rt>れきし</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>では、<ruby>王<rt>おう</rt></ruby>や<ruby>富豪<rt>ふごう</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>ばかり<ruby>出<rt>で</rt></ruby>てきます。<ruby>占領<rt>せんりょう</rt></ruby>や<ruby>防衛<rt>ぼうえい</rt></ruby>の<ruby>年号<rt>ねんごう</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えさせられて、<ruby>庶民<rt>しょみん</rt></ruby>がどう<ruby>暮<rt>く</rt></ruby>らしていたかは<ruby>習<rt>なら</rt></ruby>いませんでした。<em class=\"g\">やれ</em><ruby>英雄<rt>えいゆう</rt></ruby>だ<em class=\"g\">やれ</em><ruby>悪者<rt>わるもの</rt></ruby>だと<ruby>分<rt>わ</rt></ruby>けるのは<ruby>簡単<rt>かんたん</rt></ruby>です。でも、<ruby>当人<rt>とうにん</rt></ruby>たちにしてみればその<ruby>日<rt>ひ</rt></ruby>を<ruby>生<rt>い</rt></ruby>きていただけだったのでしょう。<ruby>祖父<rt>そふ</rt></ruby>の<ruby>世代<rt>せだい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>くと、<ruby>人民<rt>じんみん</rt></ruby>だの<ruby>民族<rt>みんぞく</rt></ruby>だのという<ruby>大<rt>おお</rt></ruby>きな<ruby>言葉<rt>ことば</rt></ruby>は<ruby>一<rt>ひと</rt></ruby>つも<ruby>出<rt>で</rt></ruby>てきません。<ruby>米<rt>こめ</rt></ruby>のこと、<ruby>雨<rt>あめ</rt></ruby>のこと、<ruby>人影<rt>ひとかげ</rt></ruby>の<ruby>少<rt>すく</rt></ruby>ない<ruby>道<rt>みち</rt></ruby>のこと。<em class=\"g\">敢えて</em><ruby>記録<rt>きろく</rt></ruby>に<ruby>残<rt>のこ</rt></ruby>すほどでもないと<ruby>思<rt>おも</rt></ruby>われてきたことのほうに、<ruby>本当<rt>ほんとう</rt></ruby>の<ruby>歴史<rt>れきし</rt></ruby>があるのではないかと<ruby>思<rt>おも</rt></ruby>います。<ruby>自我<rt>じが</rt></ruby>や<ruby>自尊心<rt>じそんしん</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>を<ruby>知<rt>し</rt></ruby>らなくても、<ruby>人<rt>ひと</rt></ruby>は<ruby>自立<rt>じりつ</rt></ruby>して<ruby>生<rt>い</rt></ruby>きてきたのです。",
+ "traduccion": "En las clases de historia solo aparecen nombres de reyes y de ricos. Nos hacían memorizar las fechas de ocupaciones y defensas, pero no aprendíamos cómo vivía la gente corriente. Es fácil repartir etiquetas: que si héroe, que si villano. Pero para los propios interesados aquello era, seguramente, solo vivir el día. Cuando escucho historias de la generación de mi abuelo, no sale ni una sola de esas palabras grandes como «pueblo» o «nación». El arroz, la lluvia, un camino por el que apenas pasaba nadie. Creo que la historia de verdad está más bien en lo que nunca se consideró digno de dejar por escrito. Aunque no conocieran palabras como «yo» o «amor propio», la gente ha vivido siendo dueña de su vida.",
+ "preguntas": [
+  {
+   "p": "<ruby>歴史<rt>れきし</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>で<ruby>習<rt>なら</rt></ruby>わなかったことは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>王<rt>おう</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>",
+    "<ruby>庶民<rt>しょみん</rt></ruby>がどう<ruby>暮<rt>く</rt></ruby>らしていたか",
+    "<ruby>占領<rt>せんりょう</rt></ruby>の<ruby>年号<rt>ねんごう</rt></ruby>",
+    "<ruby>防衛<rt>ぼうえい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>本当<rt>ほんとう</rt></ruby>の<ruby>歴史<rt>れきし</rt></ruby>がどこにあると<ruby>考<rt>かんが</rt></ruby>えていますか。",
+   "opciones": [
+    "<ruby>記録<rt>きろく</rt></ruby>に<ruby>残<rt>のこ</rt></ruby>された<ruby>大<rt>おお</rt></ruby>きな<ruby>出来事<rt>できごと</rt></ruby>",
+    "<ruby>記録<rt>きろく</rt></ruby>に<ruby>残<rt>のこ</rt></ruby>すほどでもないと<ruby>思<rt>おも</rt></ruby>われてきたこと",
+    "<ruby>英雄<rt>えいゆう</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>",
+    "<ruby>民族<rt>みんぞく</rt></ruby>の<ruby>歴史<rt>れきし</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

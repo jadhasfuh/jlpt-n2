@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/hito/vida-1",
+ "titulo": "<ruby>還暦<rt>かんれき</rt></ruby>の<ruby>祝<rt>いわ</rt></ruby>い",
+ "cuerpo": "<ruby>父<rt>ちち</rt></ruby>の<ruby>還暦<rt>かんれき</rt></ruby>を、<ruby>郷里<rt>きょうり</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>で<ruby>祝<rt>いわ</rt></ruby>いました。<ruby>定年<rt>ていねん</rt></ruby>まであと<ruby>数年<rt>すうねん</rt></ruby>、<ruby>本人<rt>ほんにん</rt></ruby>は<ruby>老<rt>お</rt></ruby>いたつもりがないようです。<ruby>青春<rt>せいしゅん</rt></ruby>のころの<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>出<rt>だ</rt></ruby>してきて、<ruby>同<rt>おな</rt></ruby>い<ruby>年<rt>どし</rt></ruby>の<ruby>友人<rt>ゆうじん</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をいつまでも<ruby>続<rt>つづ</rt></ruby>けました。<ruby>一度<rt>いちど</rt></ruby><ruby>昔話<rt>むかしばなし</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まっ<em class=\"g\">たら最後|たらさいご</em>、<ruby>夜中<rt>よなか</rt></ruby>まで<ruby>終<rt>お</rt></ruby>わらない<ruby>始末<rt>しまつ</rt></ruby>です。<ruby>母<rt>はは</rt></ruby>は<ruby>笑<rt>わら</rt></ruby>って<ruby>台所<rt>だいどころ</rt></ruby>に<ruby>立<rt>た</rt></ruby>っていました。<ruby>子<rt>こ</rt></ruby>どものころ、わたしは<ruby>甘<rt>あま</rt></ruby>えるのが<ruby>下手<rt>へた</rt></ruby>な<ruby>子<rt>こ</rt></ruby>でした。おんぶも<ruby>抱<rt>だ</rt></ruby>っこも、<ruby>年頃<rt>としごろ</rt></ruby>になってからは<ruby>一度<rt>いちど</rt></ruby>も<ruby>頼<rt>たの</rt></ruby>んでいません。<ruby>生<rt>う</rt></ruby>まれつきの<ruby>性格<rt>せいかく</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>っていましたが、<ruby>父<rt>ちち</rt></ruby>が<ruby>同<rt>おな</rt></ruby>じことを<ruby>言<rt>い</rt></ruby>うのを<ruby>聞<rt>き</rt></ruby>いて<ruby>妙<rt>みょう</rt></ruby>におかしくなりました。<ruby>世代<rt>せだい</rt></ruby>が<ruby>変<rt>か</rt></ruby>わっても<ruby>続<rt>つづ</rt></ruby>いていくものがあるのだと、<ruby>絶<rt>た</rt></ruby>えることのない<ruby>昔話<rt>むかしばなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きながら<ruby>思<rt>おも</rt></ruby>っていました。",
+ "traduccion": "Celebramos los sesenta años de mi padre en la casa del pueblo. Le quedan unos años para jubilarse y él no tiene ninguna sensación de haber envejecido. Sacó las fotos de su juventud y siguió hablando sin parar de los amigos de su quinta. Como empiece una vez con las batallitas, ya no hay quien lo pare: acaba durando hasta medianoche. Mi madre se reía, de pie en la cocina. De pequeño yo era un niño malo para pedir mimos. Desde que tuve cierta edad no he vuelto a pedir ni que me llevaran a hombros ni en brazos. Creía que era mi carácter de nacimiento, pero al oír a mi padre decir exactamente lo mismo me hizo una gracia rara. Escuchando aquellas batallitas que no se acababan nunca, pensaba que hay cosas que siguen aunque cambie la generación.",
+ "preguntas": [
+  {
+   "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>のことをどう<ruby>思<rt>おも</rt></ruby>っていますか。",
+   "opciones": [
+    "もう<ruby>老<rt>お</rt></ruby>いた",
+    "<ruby>老<rt>お</rt></ruby>いたつもりがない",
+    "<ruby>定年<rt>ていねん</rt></ruby>が<ruby>待<rt>ま</rt></ruby>ち<ruby>遠<rt>どお</rt></ruby>しい",
+    "<ruby>疲<rt>つか</rt></ruby>れている"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>父<rt>ちち</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて、なぜおかしくなりましたか。",
+   "opciones": [
+    "<ruby>写真<rt>しゃしん</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>かったから",
+    "<ruby>自分<rt>じぶん</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じことを<ruby>言<rt>い</rt></ruby>ったから",
+    "<ruby>母<rt>はは</rt></ruby>が<ruby>笑<rt>わら</rt></ruby>ったから",
+    "<ruby>話<rt>はなし</rt></ruby>が<ruby>長<rt>なが</rt></ruby>かったから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

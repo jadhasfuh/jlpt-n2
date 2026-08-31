@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/hito/salud-1",
+ "titulo": "<ruby>往診<rt>おうしん</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>",
+ "cuerpo": "<ruby>祖母<rt>そぼ</rt></ruby>が<ruby>足<rt>あし</rt></ruby>を<ruby>痛<rt>いた</rt></ruby>めてから、<ruby>月<rt>つき</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby><ruby>往診<rt>おうしん</rt></ruby>に<ruby>来<rt>き</rt></ruby>てくださる<ruby>先生<rt>せんせい</rt></ruby>がいます。<ruby>外来<rt>がいらい</rt></ruby>なら<ruby>五分<rt>ごふん</rt></ruby>で<ruby>終<rt>お</rt></ruby>わる<ruby>診療<rt>しんりょう</rt></ruby>を、<ruby>一時間<rt>いちじかん</rt></ruby>かけて<ruby>話<rt>はな</rt></ruby>を<ruby>聞<rt>き</rt></ruby>く。<ruby>薬<rt>くすり</rt></ruby>の<ruby>処置<rt>しょち</rt></ruby>よりも、その<ruby>時間<rt>じかん</rt></ruby>のほうが<ruby>効<rt>き</rt></ruby>いているように<ruby>見<rt>み</rt></ruby>えます。<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>臆病<rt>おくびょう</rt></ruby>なところがあって、<ruby>痛<rt>いた</rt></ruby>みを<ruby>隠<rt>かく</rt></ruby>してしまうのです。<ruby>微<rt>かす</rt></ruby>かな<ruby>変化<rt>へんか</rt></ruby>に<ruby>気<rt>き</rt></ruby>づけるのは、<ruby>毎回<rt>まいかい</rt></ruby><ruby>同<rt>おな</rt></ruby>じ<ruby>人<rt>ひと</rt></ruby>が<ruby>看<rt>み</rt></ruby>ているからでしょう。<ruby>仕事<rt>しごと</rt></ruby><em class=\"g\">にかまけて</em><ruby>顔<rt>かお</rt></ruby>を<ruby>出<rt>だ</rt></ruby>さない<ruby>月<rt>つき</rt></ruby>もあったわたしには、<ruby>介護<rt>かいご</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>を<ruby>軽<rt>かる</rt></ruby>く<ruby>使<rt>つか</rt></ruby>う<ruby>資格<rt>しかく</rt></ruby>がありません。<ruby>健在<rt>けんざい</rt></ruby>なうちに<ruby>会<rt>あ</rt></ruby>っておきなさいと、<ruby>父<rt>ちち</rt></ruby>によく<ruby>言<rt>い</rt></ruby>われます。<ruby>全快<rt>ぜんかい</rt></ruby>はもう<ruby>難<rt>むずか</rt></ruby>しいのだそうです。それでも、<ruby>介抱<rt>かいほう</rt></ruby>のしかたを<ruby>教<rt>おそ</rt></ruby>わりながら<ruby>隣<rt>となり</rt></ruby>にすわっている<ruby>時間<rt>じかん</rt></ruby>こそ、<ruby>何<rt>なに</rt></ruby>よりも<ruby>大切<rt>たいせつ</rt></ruby>にする<em class=\"g\">に値する</em>と<ruby>思<rt>おも</rt></ruby>っています。",
+ "traduccion": "Desde que mi abuela se lesionó la pierna, hay un médico que viene a verla a casa una vez al mes. Una consulta que en el ambulatorio duraría cinco minutos, él la alarga a una hora escuchándola. Más que el tratamiento con medicinas, parece que lo que hace efecto es ese rato. Mi abuela es algo miedosa y esconde el dolor. Si alguien puede notar un cambio mínimo es porque la ve siempre la misma persona. Yo, que hubo meses en que, ocupado con el trabajo, no me pasé por allí, no tengo derecho a usar la palabra «cuidados» a la ligera. Mi padre me repite que vaya a verla mientras esté bien. Al parecer una recuperación completa ya es difícil. Aun así, el rato que paso sentado a su lado mientras me enseñan a atenderla es precisamente lo que merece más cuidado que ninguna otra cosa.",
+ "preguntas": [
+  {
+   "p": "<ruby>往診<rt>おうしん</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>は、<ruby>外来<rt>がいらい</rt></ruby>とどうちがいますか。",
+   "opciones": [
+    "<ruby>薬<rt>くすり</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い",
+    "<ruby>一時間<rt>いちじかん</rt></ruby>かけて<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>く",
+    "<ruby>値段<rt>ねだん</rt></ruby>が<ruby>安<rt>やす</rt></ruby>い",
+    "<ruby>毎週<rt>まいしゅう</rt></ruby><ruby>来<rt>く</rt></ruby>る"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>微<rt>かす</rt></ruby>かな<ruby>変化<rt>へんか</rt></ruby>に<ruby>気<rt>き</rt></ruby>づけるのは、なぜですか。",
+   "opciones": [
+    "<ruby>薬<rt>くすり</rt></ruby>が<ruby>効<rt>き</rt></ruby>いているから",
+    "<ruby>毎回<rt>まいかい</rt></ruby><ruby>同<rt>おな</rt></ruby>じ<ruby>人<rt>ひと</rt></ruby>が<ruby>看<rt>み</rt></ruby>ているから",
+    "<ruby>祖母<rt>そぼ</rt></ruby>が<ruby>話<rt>はな</rt></ruby>すから",
+    "<ruby>家族<rt>かぞく</rt></ruby>がいるから"
+   ],
+   "correcta": 1
+  }
+ ]
+}
