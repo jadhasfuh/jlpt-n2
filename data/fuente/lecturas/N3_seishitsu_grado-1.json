@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/seishitsu/grado-1",
+ "titulo": "<ruby>基本<rt>きほん</rt></ruby>にもどる",
+ "cuerpo": "この<ruby>町<rt>まち</rt></ruby><em class=\"g\">は</em><ruby>祭<rt>まつ</rt></ruby>り<em class=\"g\">で有名</em>です。<ruby>活気<rt>かっき</rt></ruby>があって、<ruby>勢<rt>いきお</rt></ruby>いのある<ruby>場所<rt>ばしょ</rt></ruby>です。でも<ruby>最近<rt>さいきん</rt></ruby>、<ruby>参加<rt>さんか</rt></ruby>する<ruby>人<rt>ひと</rt></ruby>が<ruby>減<rt>へ</rt></ruby>ってきました。<ruby>原因<rt>げんいん</rt></ruby>は<ruby>一<rt>ひと</rt></ruby>つではありません。<ruby>幼<rt>おさな</rt></ruby>いころから<ruby>見<rt>み</rt></ruby>てきた<ruby>人<rt>ひと</rt></ruby>に<ruby>聞<rt>き</rt></ruby>くと、「<ruby>昔<rt>むかし</rt></ruby>は<ruby>適度<rt>てきど</rt></ruby>に<ruby>力<rt>ちから</rt></ruby>をぬいていた」と<ruby>言<rt>い</rt></ruby>います。<ruby>全<rt>まった</rt></ruby>く<ruby>同<rt>おな</rt></ruby>じことをつづけるより、できる<ruby>範囲<rt>はんい</rt></ruby>で<ruby>形<rt>かたち</rt></ruby>をかえるほうがいいのでしょう。<ruby>極<rt>ごく</rt></ruby>まじめにやりすぎると、つづかなくなるものです。ますます<ruby>人<rt>ひと</rt></ruby>が<ruby>減<rt>へ</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に、<ruby>基本<rt>きほん</rt></ruby>にもどる<ruby>時期<rt>じき</rt></ruby>かもしれません。",
+ "traduccion": "Este pueblo es famoso por su fiesta. Es un sitio con vida y con empuje. Pero últimamente ha ido bajando la gente que participa. La causa no es una sola. Al preguntar a alguien que lo ha visto desde pequeño, dice: «antes se aflojaba en su justa medida». Más que seguir haciendo exactamente lo mismo, quizá sea mejor cambiar la forma dentro de lo posible. Cuando te lo tomas demasiado en serio, deja de poder mantenerse. Antes de que la gente siga menguando, quizá sea momento de volver a lo básico.",
+ "preguntas": [
+  {
+   "p": "この<ruby>町<rt>まち</rt></ruby>は<ruby>何<rt>なに</rt></ruby><em class=\"g\">で有名</em>ですか。",
+   "opciones": [
+    "<ruby>建物<rt>たてもの</rt></ruby>",
+    "<ruby>祭<rt>まつ</rt></ruby>り",
+    "<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>",
+    "<ruby>人<rt>ひと</rt></ruby>の<ruby>数<rt>かず</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>昔<rt>むかし</rt></ruby>はどうだったと<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "まじめすぎた",
+    "<ruby>適度<rt>てきど</rt></ruby>に<ruby>力<rt>ちから</rt></ruby>をぬいていた",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかった",
+    "<ruby>形<rt>かたち</rt></ruby>をかえなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

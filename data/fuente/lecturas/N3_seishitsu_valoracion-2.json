@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/seishitsu/valoracion-2",
+ "titulo": "<ruby>評判<rt>ひょうばん</rt></ruby>と<ruby>中身<rt>なかみ</rt></ruby>",
+ "cuerpo": "<ruby>評判<rt>ひょうばん</rt></ruby>のいい<ruby>店<rt>みせ</rt></ruby>が、じぶんに<ruby>合<rt>あ</rt></ruby>うとはかぎりません。<em class=\"g\">例えば</em>、<ruby>行列<rt>ぎょうれつ</rt></ruby>のできる<ruby>店<rt>みせ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>っても、<ruby>待<rt>ま</rt></ruby>った<ruby>時間<rt>じかん</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えると<ruby>有利<rt>ゆうり</rt></ruby>だとは<ruby>言<rt>い</rt></ruby>えないこともあります。<ruby>見事<rt>みごと</rt></ruby>な<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>でも、<ruby>中身<rt>なかみ</rt></ruby>が<ruby>微妙<rt>びみょう</rt></ruby>なら<ruby>無駄<rt>むだ</rt></ruby>です。<ruby>唯一<rt>ゆいいつ</rt></ruby>たしかなのは、じぶんで<ruby>試<rt>ため</rt></ruby>してみることだけ。<ruby>目上<rt>めうえ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>にすすめられたからといって、<ruby>不正<rt>ふせい</rt></ruby>に<ruby>高<rt>たか</rt></ruby>い<ruby>値<rt>ね</rt></ruby>だんをはらう<ruby>必要<rt>ひつよう</rt></ruby>はありません。<ruby>優秀<rt>ゆうしゅう</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>ほど、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>感覚<rt>かんかく</rt></ruby>を<ruby>信<rt>しん</rt></ruby>じています。",
+ "traduccion": "Un local con buena fama no tiene por qué encajar contigo. Por ejemplo, aunque entres en un sitio con cola, a veces, contando el tiempo de espera, no se puede decir que salgas ganando. Aunque el aspecto sea espléndido, si el contenido es dudoso no sirve de nada. Lo único seguro es probarlo uno mismo. Que te lo recomiende alguien de arriba no significa que tengas que pagar un precio injustamente alto. Cuanto más capaz es alguien, más confía en su propio criterio.",
+ "preguntas": [
+  {
+   "p": "<ruby>行列<rt>ぎょうれつ</rt></ruby>のできる<ruby>店<rt>みせ</rt></ruby>について、どう<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "いつも<ruby>有利<rt>ゆうり</rt></ruby>だ",
+    "<ruby>待<rt>ま</rt></ruby>った<ruby>時間<rt>じかん</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えると<ruby>有利<rt>ゆうり</rt></ruby>とはかぎらない",
+    "<ruby>入<rt>はい</rt></ruby>るべきでない",
+    "<ruby>評判<rt>ひょうばん</rt></ruby>が<ruby>正<rt>ただ</rt></ruby>しい"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>唯一<rt>ゆいいつ</rt></ruby>たしかなことは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>評判<rt>ひょうばん</rt></ruby>を<ruby>信<rt>しん</rt></ruby>じること",
+    "じぶんで<ruby>試<rt>ため</rt></ruby>してみること",
+    "<ruby>目上<rt>めうえ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>に<ruby>聞<rt>き</rt></ruby>くこと",
+    "<ruby>値<rt>ね</rt></ruby>だんを<ruby>見<rt>み</rt></ruby>ること"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/seishitsu/valoracion-1",
+ "titulo": "<ruby>貴重<rt>きちょう</rt></ruby>なもの",
+ "cuerpo": "ふるい<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてもらいました。<ruby>豪華<rt>ごうか</rt></ruby>ではありませんが、<ruby>独特<rt>どくとく</rt></ruby>の<ruby>形<rt>かたち</rt></ruby>をしています。<ruby>持<rt>も</rt></ruby>ち<ruby>主<rt>ぬし</rt></ruby>は「<ruby>最低<rt>さいてい</rt></ruby><ruby>五十<rt>ごじゅう</rt></ruby><ruby>年<rt>ねん</rt></ruby><em class=\"g\">は</em><ruby>使<rt>つか</rt></ruby>っている」と<ruby>話<rt>はな</rt></ruby>していました。<ruby>相当<rt>そうとう</rt></ruby>ふるいのに、<ruby>正確<rt>せいかく</rt></ruby>にうごきます。<ruby>奇妙<rt>きみょう</rt></ruby>なもので、<ruby>新<rt>あたら</rt></ruby>しいものより<ruby>貴重<rt>きちょう</rt></ruby>に<ruby>見<rt>み</rt></ruby>えてきます。<ruby>偉大<rt>いだい</rt></ruby>な<ruby>発明<rt>はつめい</rt></ruby>ではなく、<ruby>様々<rt>さまざま</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>の<ruby>手<rt>て</rt></ruby>をとおってきた<ruby>時間<rt>じかん</rt></ruby>そのものが<ruby>価値<rt>かち</rt></ruby>なのでしょう。すてるのは<ruby>寧<rt>むし</rt></ruby>ろかんたんです。のこすほうが<ruby>適切<rt>てきせつ</rt></ruby>なときもあります。",
+ "traduccion": "Me enseñaron una herramienta antigua. No es lujosa, pero tiene una forma peculiar. Su dueño decía: «lleva usándose al menos cincuenta años». Aunque es bastante vieja, funciona con precisión. Es curioso: acaba pareciendo más valiosa que las nuevas. No es un gran invento: lo que tiene valor debe de ser el tiempo mismo que ha pasado por las manos de tanta gente. Tirar es más bien lo fácil. A veces lo apropiado es conservar.",
+ "preguntas": [
+  {
+   "p": "<ruby>持<rt>も</rt></ruby>ち<ruby>主<rt>ぬし</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>話<rt>はな</rt></ruby>していましたか。",
+   "opciones": [
+    "<ruby>豪華<rt>ごうか</rt></ruby>だ",
+    "<ruby>最低<rt>さいてい</rt></ruby><ruby>五十<rt>ごじゅう</rt></ruby><ruby>年<rt>ねん</rt></ruby><em class=\"g\">は</em><ruby>使<rt>つか</rt></ruby>っている",
+    "こわれている",
+    "<ruby>新<rt>あたら</rt></ruby>しい"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>価値<rt>かち</rt></ruby>があるのは<ruby>何<rt>なに</rt></ruby>だと<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>偉大<rt>いだい</rt></ruby>な<ruby>発明<rt>はつめい</rt></ruby>",
+    "<ruby>様々<rt>さまざま</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>の<ruby>手<rt>て</rt></ruby>をとおってきた<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>形<rt>かたち</rt></ruby>",
+    "<ruby>正確<rt>せいかく</rt></ruby>さ"
+   ],
+   "correcta": 1
+  }
+ ]
+}
