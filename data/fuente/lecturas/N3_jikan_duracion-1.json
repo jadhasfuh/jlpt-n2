@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/jikan/duracion-1",
+ "titulo": "<ruby>高速<rt>こうそく</rt></ruby>で<ruby>過<rt>す</rt></ruby>ぎる<ruby>時間<rt>じかん</rt></ruby>",
+ "cuerpo": "<ruby>子<rt>こ</rt></ruby>どものころ、<ruby>一日<rt>いちにち</rt></ruby>はとても<ruby>長<rt>なが</rt></ruby>かったです。いまは<ruby>急速<rt>きゅうそく</rt></ruby>に<ruby>過<rt>す</rt></ruby>ぎていきます。<ruby>同<rt>おな</rt></ruby>じ<ruby>速度<rt>そくど</rt></ruby>で<ruby>時計<rt>とけい</rt></ruby>は<ruby>動<rt>うご</rt></ruby>いているのに、ふしぎなことです。あたらしいことをしている<ruby>日<rt>ひ</rt></ruby>は、<ruby>時間<rt>じかん</rt></ruby>がゆっくり<ruby>感<rt>かん</rt></ruby>じられます。<ruby>永遠<rt>えいえん</rt></ruby>に<ruby>続<rt>つづ</rt></ruby>くように<ruby>思<rt>おも</rt></ruby>えた<ruby>夏休<rt>なつやす</rt></ruby>みも、<ruby>終<rt>お</rt></ruby>わっ<em class=\"g\">たとたん</em>、<ruby>一<rt>いっ</rt></ruby>しゅんに<ruby>見<rt>み</rt></ruby>えました。<ruby>高速<rt>こうそく</rt></ruby>どうろを<ruby>走<rt>はし</rt></ruby>る<ruby>車<rt>くるま</rt></ruby>から<ruby>外<rt>そと</rt></ruby>を<ruby>見<rt>み</rt></ruby>ると、<ruby>近<rt>ちか</rt></ruby>くのものほどはやく<ruby>通<rt>とお</rt></ruby>り<ruby>過<rt>す</rt></ruby>ぎます。<ruby>時間<rt>じかん</rt></ruby>も、<ruby>近<rt>ちか</rt></ruby>すぎると<ruby>見<rt>み</rt></ruby>えないのかもしれません。",
+ "traduccion": "De niño, un día era larguísimo. Ahora pasa a toda velocidad. Es curioso, porque el reloj se mueve a la misma velocidad. Los días en que hago algo nuevo, el tiempo se siente más lento. Aquellas vacaciones de verano que parecían eternas, en cuanto terminaban, se veían como un instante. Cuando miras fuera desde un coche por la autopista, cuanto más cerca está algo más rápido pasa. Quizá el tiempo tampoco se vea cuando está demasiado cerca.",
+ "preguntas": [
+  {
+   "p": "いつ<ruby>時間<rt>じかん</rt></ruby>がゆっくり<ruby>感<rt>かん</rt></ruby>じられますか。",
+   "opciones": [
+    "まいにち<ruby>同<rt>おな</rt></ruby>じことをする<ruby>日<rt>ひ</rt></ruby>",
+    "あたらしいことをしている<ruby>日<rt>ひ</rt></ruby>",
+    "<ruby>夏休<rt>なつやす</rt></ruby>み",
+    "<ruby>車<rt>くるま</rt></ruby>に<ruby>乗<rt>の</rt></ruby>る<ruby>日<rt>ひ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>高速<rt>こうそく</rt></ruby>どうろの<ruby>例<rt>れい</rt></ruby>で、<ruby>何<rt>なに</rt></ruby>を<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>車<rt>くるま</rt></ruby>がはやい",
+    "<ruby>近<rt>ちか</rt></ruby>すぎると<ruby>見<rt>み</rt></ruby>えないかもしれない",
+    "<ruby>外<rt>そと</rt></ruby>がきれい",
+    "<ruby>時計<rt>とけい</rt></ruby>がおかしい"
+   ],
+   "correcta": 1
+  }
+ ]
+}

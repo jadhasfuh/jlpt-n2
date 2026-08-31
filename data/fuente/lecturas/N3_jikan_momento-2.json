@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/jikan/momento-2",
+ "titulo": "<ruby>偶然<rt>ぐうぜん</rt></ruby>の<ruby>再会<rt>さいかい</rt></ruby>",
+ "cuerpo": "<ruby>駅前<rt>えきまえ</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>いていた<ruby>際<rt>さい</rt></ruby>に、<ruby>以前<rt>いぜん</rt></ruby>はたらいていた<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>に<ruby>偶然<rt>ぐうぜん</rt></ruby><ruby>会<rt>あ</rt></ruby>いました。<ruby>再<rt>ふたた</rt></ruby>び<ruby>会<rt>あ</rt></ruby>うとは<ruby>思<rt>おも</rt></ruby>っていませんでした。<ruby>一瞬<rt>いっしゅん</rt></ruby>、だれだか<ruby>分<rt>わ</rt></ruby>かりませんでした。<ruby>開始<rt>かいし</rt></ruby>のころからいっしょにはたらいた<ruby>仲間<rt>なかま</rt></ruby>です。<ruby>期間<rt>きかん</rt></ruby>にすれば<ruby>二年<rt>にねん</rt></ruby>ほどですが、その<ruby>時<rt>とき</rt></ruby>にもらったものは<ruby>今<rt>いま</rt></ruby>も<ruby>残<rt>のこ</rt></ruby>っています。「そのうち、また」と<ruby>言<rt>い</rt></ruby>って<ruby>別<rt>わか</rt></ruby>れました。<ruby>以来<rt>いらい</rt></ruby><ruby>十年<rt>じゅうねん</rt></ruby>。<ruby>今<rt>いま</rt></ruby>にも<ruby>雨<rt>あめ</rt></ruby>がふりそうな<ruby>空<rt>そら</rt></ruby>の<ruby>下<rt>した</rt></ruby>で、<ruby>時間<rt>じかん</rt></ruby>のふしぎさを<ruby>考<rt>かんが</rt></ruby>えていました。",
+ "traduccion": "Cuando caminaba por delante de la estación me encontré por casualidad con alguien de la empresa donde trabajaba antes. No esperaba volver a verlo. Por un instante no supe quién era. Es un compañero con el que trabajé desde el principio. En cuanto a tiempo fueron unos dos años, pero lo que recibí entonces sigue conmigo. Nos despedimos con un «a ver si nos vemos». Diez años desde entonces. Bajo un cielo que parecía a punto de llover, me quedé pensando en lo extraño que es el tiempo.",
+ "preguntas": [
+  {
+   "p": "その<ruby>人<rt>ひと</rt></ruby>とはどんな<ruby>関係<rt>かんけい</rt></ruby>でしたか。",
+   "opciones": [
+    "はじめて<ruby>会<rt>あ</rt></ruby>った",
+    "<ruby>以前<rt>いぜん</rt></ruby>の<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>仲間<rt>なかま</rt></ruby>",
+    "<ruby>家族<rt>かぞく</rt></ruby>",
+    "<ruby>近所<rt>きんじょ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いっしょにはたらいた<ruby>期間<rt>きかん</rt></ruby>はどのくらいですか。",
+   "opciones": [
+    "<ruby>二年<rt>にねん</rt></ruby>ほど",
+    "<ruby>十年<rt>じゅうねん</rt></ruby>",
+    "<ruby>一年<rt>いちねん</rt></ruby>",
+    "<ruby>分<rt>わ</rt></ruby>からない"
+   ],
+   "correcta": 0
+  }
+ ]
+}

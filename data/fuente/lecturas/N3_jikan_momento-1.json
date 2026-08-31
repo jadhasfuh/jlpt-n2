@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/jikan/momento-1",
+ "titulo": "やり<ruby>直<rt>なお</rt></ruby>す<ruby>機会<rt>きかい</rt></ruby>",
+ "cuerpo": "<ruby>仕事<rt>しごと</rt></ruby>のしりょうを<ruby>作<rt>つく</rt></ruby>り<ruby>直<rt>なお</rt></ruby>しました。<ruby>一度<rt>いちど</rt></ruby>できたものに<ruby>手<rt>て</rt></ruby>を<ruby>入<rt>い</rt></ruby>れるのは、はじめから<ruby>作<rt>つく</rt></ruby>るよりつらいことがあります。<ruby>元<rt>もと</rt></ruby>の<ruby>形<rt>かたち</rt></ruby>がいいと<ruby>思<rt>おも</rt></ruby>っていたからです。ところが、<ruby>直<rt>なお</rt></ruby>してみると、<ruby>前<rt>まえ</rt></ruby>よりずっと<ruby>読<rt>よ</rt></ruby>みやすくなりました。<ruby>末<rt>すえ</rt></ruby>にきづいたのは、はじめの<ruby>案<rt>あん</rt></ruby>に<ruby>自分<rt>じぶん</rt></ruby>がしばられていたということです。パソコンをつけ<em class=\"g\">っぱなし</em>にしたまま<ruby>考<rt>かんが</rt></ruby>えこんで、<ruby>気<rt>き</rt></ruby>がついたらもう<ruby>夜<rt>よる</rt></ruby>でした。その<ruby>際<rt>さい</rt></ruby>、<ruby>今<rt>いま</rt></ruby>に<ruby>見<rt>み</rt></ruby>ていろ、とひとりでつぶやいてしまいました。",
+ "traduccion": "Rehice los materiales del trabajo. Meterle mano a algo ya terminado a veces cuesta más que hacerlo desde cero. Porque yo pensaba que la forma original estaba bien. Sin embargo, al rehacerlo, quedó mucho más legible que antes. Al final me di cuenta de que estaba atado a mi primera idea. Me quedé pensando con el ordenador encendido y, cuando me di cuenta, ya era de noche. En ese momento se me escapó un «ya veréis» dicho a solas.",
+ "preguntas": [
+  {
+   "p": "<ruby>直<rt>なお</rt></ruby>してみて、どうなりましたか。",
+   "opciones": [
+    "<ruby>前<rt>まえ</rt></ruby>より<ruby>悪<rt>わる</rt></ruby>くなった",
+    "<ruby>前<rt>まえ</rt></ruby>よりずっと<ruby>読<rt>よ</rt></ruby>みやすくなった",
+    "かわらなかった",
+    "できなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>末<rt>すえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>にきづきましたか。",
+   "opciones": [
+    "はじめの<ruby>案<rt>あん</rt></ruby>がよかった",
+    "はじめの<ruby>案<rt>あん</rt></ruby>にしばられていたこと",
+    "<ruby>時間<rt>じかん</rt></ruby>がないこと",
+    "パソコンがこわれたこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/jikan/cantidad-3",
+ "titulo": "<ruby>平均<rt>へいきん</rt></ruby>という<ruby>数字<rt>すうじ</rt></ruby>",
+ "cuerpo": "<ruby>全国<rt>ぜんこく</rt></ruby>の<ruby>調査<rt>ちょうさ</rt></ruby>のけっかが<ruby>発表<rt>はっぴょう</rt></ruby>されました。<ruby>全体<rt>ぜんたい</rt></ruby>の<ruby>平均<rt>へいきん</rt></ruby>は<ruby>去年<rt>きょねん</rt></ruby>より<ruby>増加<rt>ぞうか</rt></ruby>しています。でも、<ruby>大半<rt>たいはん</rt></ruby>の<ruby>地域<rt>ちいき</rt></ruby>では<ruby>不足<rt>ふそく</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>いていました。<ruby>数字<rt>すうじ</rt></ruby>は、ときどきわたしたちを<ruby>裏切<rt>うらぎ</rt></ruby>ります。<ruby>全員<rt>ぜんいん</rt></ruby>が<ruby>同<rt>おな</rt></ruby>じ<ruby>程度<rt>ていど</rt></ruby>よくなったわけではないのです。<ruby>一部<rt>いちぶ</rt></ruby>の<ruby>地域<rt>ちいき</rt></ruby>が<ruby>余分<rt>よぶん</rt></ruby>にのびたぶん、<ruby>平均<rt>へいきん</rt></ruby>だけが<ruby>上<rt>あ</rt></ruby>がって<ruby>見<rt>み</rt></ruby>えます。<ruby>数字<rt>すうじ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ている<em class=\"g\">うちに</em>、その<ruby>裏<rt>うら</rt></ruby>にある<ruby>模様<rt>もよう</rt></ruby>が<ruby>気<rt>き</rt></ruby>になってきました。<ruby>役割<rt>やくわり</rt></ruby>のちがう<ruby>人<rt>ひと</rt></ruby>たちが、それぞれちがう<ruby>現<rt>げん</rt></ruby>じつを<ruby>生<rt>い</rt></ruby>きています。",
+ "traduccion": "Se publicaron los resultados de la encuesta nacional. La media global ha aumentado respecto al año pasado. Pero en la mayoría de las zonas la carencia seguía. Las cifras a veces nos traicionan. No es que todos hayan mejorado en la misma medida. Como unas pocas zonas crecieron de más, solo la media parece subir. Mientras miraba los números, me empezó a interesar el patrón que hay detrás. Personas con papeles distintos viven realidades distintas.",
+ "preguntas": [
+  {
+   "p": "<ruby>全体<rt>ぜんたい</rt></ruby>の<ruby>平均<rt>へいきん</rt></ruby>はどうなりましたか。",
+   "opciones": [
+    "へった",
+    "<ruby>増加<rt>ぞうか</rt></ruby>した",
+    "かわらない",
+    "<ruby>不足<rt>ふそく</rt></ruby>した"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "なぜ<ruby>平均<rt>へいきん</rt></ruby>だけが<ruby>上<rt>あ</rt></ruby>がって<ruby>見<rt>み</rt></ruby>えますか。",
+   "opciones": [
+    "<ruby>全員<rt>ぜんいん</rt></ruby>がよくなったから",
+    "<ruby>一部<rt>いちぶ</rt></ruby>の<ruby>地域<rt>ちいき</rt></ruby>が<ruby>余分<rt>よぶん</rt></ruby>にのびたから",
+    "<ruby>調査<rt>ちょうさ</rt></ruby>がまちがっているから",
+    "<ruby>地域<rt>ちいき</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから"
+   ],
+   "correcta": 1
+  }
+ ]
+}
