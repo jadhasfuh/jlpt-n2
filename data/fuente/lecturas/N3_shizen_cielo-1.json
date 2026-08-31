@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/shizen/cielo-1",
+ "titulo": "<ruby>宇宙<rt>うちゅう</rt></ruby>からの<ruby>目<rt>め</rt></ruby>",
+ "cuerpo": "<ruby>衛星<rt>えいせい</rt></ruby>から<ruby>送<rt>おく</rt></ruby>られてくる<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。<ruby>大気<rt>たいき</rt></ruby>のうすい<ruby>層<rt>そう</rt></ruby>が、<ruby>地球<rt>ちきゅう</rt></ruby>をつつんでいるのがわかります。<ruby>地平線<rt>ちへいせん</rt></ruby>のむこうに<ruby>太陽<rt>たいよう</rt></ruby>が<ruby>見<rt>み</rt></ruby>えて、<ruby>日光<rt>にっこう</rt></ruby>が<ruby>雲<rt>くも</rt></ruby>のあいだからのびていました。<ruby>大<rt>おお</rt></ruby>きさの<em class=\"g\">割に</em>、<ruby>地球<rt>ちきゅう</rt></ruby>のあたたかさはたよりないもののようです。<ruby>星<rt>ほし</rt></ruby>と<ruby>星<rt>ほし</rt></ruby>の<ruby>間隔<rt>かんかく</rt></ruby>は<ruby>想像<rt>そうぞう</rt></ruby>できないほどはなれています。その<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>た<em class=\"g\">結果</em>、けんかをしていた<ruby>同僚<rt>どうりょう</rt></ruby>にあやまろうという<ruby>気<rt>き</rt></ruby>になりました。",
+ "traduccion": "Vi las fotos que envía un satélite. Se distingue la fina capa de atmósfera que envuelve la Tierra. Al otro lado del horizonte se veía el sol y la luz se extendía entre las nubes. Para lo grande que es, el calor de la Tierra parece algo frágil. La distancia entre una estrella y otra es inimaginable. Como resultado de ver esa foto, me entraron ganas de disculparme con el compañero con el que había discutido.",
+ "preguntas": [
+  {
+   "p": "<ruby>写真<rt>しゃしん</rt></ruby>で<ruby>何<rt>なに</rt></ruby>がわかりますか。",
+   "opciones": [
+    "<ruby>星<rt>ほし</rt></ruby>のかず",
+    "<ruby>大気<rt>たいき</rt></ruby>のうすい<ruby>層<rt>そう</rt></ruby>が<ruby>地球<rt>ちきゅう</rt></ruby>をつつんでいること",
+    "<ruby>太陽<rt>たいよう</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きさ",
+    "<ruby>雲<rt>くも</rt></ruby>のかたち"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>た<em class=\"g\">結果</em>、どうなりましたか。",
+   "opciones": [
+    "こわくなった",
+    "<ruby>同僚<rt>どうりょう</rt></ruby>にあやまろうという<ruby>気<rt>き</rt></ruby>になった",
+    "<ruby>宇宙<rt>うちゅう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きたくなった",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>感<rt>かん</rt></ruby>じなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}
