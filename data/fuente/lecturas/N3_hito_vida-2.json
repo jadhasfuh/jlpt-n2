@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/hito/vida-2",
+ "titulo": "<ruby>年齢<rt>ねんれい</rt></ruby>のかぞえ<ruby>方<rt>かた</rt></ruby>",
+ "cuerpo": "<ruby>生年月日<rt>せいねんがっぴ</rt></ruby>を<ruby>書<rt>か</rt></ruby>くたびに、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>年齢<rt>ねんれい</rt></ruby>におどろきます。<ruby>年代<rt>ねんだい</rt></ruby>によって、<ruby>同<rt>おな</rt></ruby>じ<ruby>数字<rt>すうじ</rt></ruby>のうけとりかたもちがうようです。<ruby>老人<rt>ろうじん</rt></ruby>とよばれる<ruby>年<rt>とし</rt></ruby>が<ruby>何<rt>なん</rt></ruby>さいからかは、はっきりきまっていません。この<ruby>国<rt>くに</rt></ruby>では、<ruby>六十五<rt>ろくじゅうご</rt></ruby>さい<ruby>以上<rt>いじょう</rt></ruby>をそうよぶ<em class=\"g\">ことになっています</em>が、じっさいには、まだはたらいている<ruby>人<rt>ひと</rt></ruby>がたくさんいます。<ruby>夜中<rt>よなか</rt></ruby>に<ruby>目<rt>め</rt></ruby>がさめて、<ruby>不幸<rt>ふこう</rt></ruby>なことばかり<ruby>考<rt>かんが</rt></ruby>えてしまう<ruby>夜<rt>よる</rt></ruby>もあります。でも<ruby>朝<rt>あさ</rt></ruby>になれば、また<ruby>必死<rt>ひっし</rt></ruby>にはたらくのです。",
+ "traduccion": "Cada vez que escribo mi fecha de nacimiento me sorprende mi edad. Parece que, según la generación, también cambia cómo se recibe la misma cifra. A partir de qué edad se llama a alguien «anciano» no está claramente fijado. En este país está establecido llamar así a los mayores de sesenta y cinco, pero en realidad hay muchísimos que siguen trabajando. Hay noches en que me despierto de madrugada y solo pienso en desgracias. Pero cuando llega la mañana, vuelvo a trabajar a destajo.",
+ "preguntas": [
+  {
+   "p": "この<ruby>国<rt>くに</rt></ruby>では、<ruby>何<rt>なん</rt></ruby>さい<ruby>以上<rt>いじょう</rt></ruby>を<ruby>老人<rt>ろうじん</rt></ruby>とよびますか。",
+   "opciones": [
+    "<ruby>六十<rt>ろくじゅう</rt></ruby>さい",
+    "<ruby>六十五<rt>ろくじゅうご</rt></ruby>さい",
+    "<ruby>七十<rt>ななじゅう</rt></ruby>さい",
+    "きまっていない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "じっさいには、どうですか。",
+   "opciones": [
+    "みんなやすんでいる",
+    "まだはたらいている<ruby>人<rt>ひと</rt></ruby>がたくさんいる",
+    "<ruby>年齢<rt>ねんれい</rt></ruby>をかぞえない",
+    "<ruby>不幸<rt>ふこう</rt></ruby>だ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

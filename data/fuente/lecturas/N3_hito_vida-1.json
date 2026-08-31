@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/hito/vida-1",
+ "titulo": "<ruby>墓<rt>はか</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で",
+ "cuerpo": "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>墓<rt>はか</rt></ruby>にまいりました。<ruby>生<rt>う</rt></ruby>まれてから<ruby>死<rt>し</rt></ruby>ぬまで、この<ruby>土地<rt>とち</rt></ruby>をはなれなかった<ruby>人<rt>ひと</rt></ruby>です。<ruby>少年<rt>しょうねん</rt></ruby>のころのしゃしんがいちまいだけのこっています。そのころ<ruby>歌<rt>うた</rt></ruby>っていた<ruby>童謡<rt>どうよう</rt></ruby>を、<ruby>年寄<rt>としよ</rt></ruby>りになってからもよく<ruby>口<rt>くち</rt></ruby>ずさんでいました。<ruby>一生<rt>いっしょう</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つの<ruby>場所<rt>ばしょ</rt></ruby>ですごした<em class=\"g\">ことから</em>、せまい<ruby>世界<rt>せかい</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>もいるでしょう。でも、<ruby>同<rt>おな</rt></ruby>じ<ruby>土地<rt>とち</rt></ruby>で<ruby>児童<rt>じどう</rt></ruby>から<ruby>成人<rt>せいじん</rt></ruby>まで<ruby>育<rt>そだ</rt></ruby>っていく<ruby>人<rt>ひと</rt></ruby>たちを<ruby>見<rt>み</rt></ruby>まもってきた<ruby>人<rt>ひと</rt></ruby>の<ruby>目<rt>め</rt></ruby>は、とても<ruby>広<rt>ひろ</rt></ruby>いものでした。",
+ "traduccion": "Fui a visitar la tumba de mi abuelo. Es alguien que no se movió de esta tierra desde que nació hasta que murió. Solo queda una foto suya de cuando era niño. La canción infantil que cantaba por entonces la siguió tarareando incluso ya de anciano. Por el hecho de haber pasado toda la vida en un solo sitio, habrá quien piense que su mundo era estrecho. Pero la mirada de alguien que ha visto crecer, en esa misma tierra, a las personas desde niños hasta adultos, era muy amplia.",
+ "preguntas": [
+  {
+   "p": "<ruby>祖父<rt>そふ</rt></ruby>はどんな<ruby>人<rt>ひと</rt></ruby>でしたか。",
+   "opciones": [
+    "いろいろな<ruby>場所<rt>ばしょ</rt></ruby>にすんだ",
+    "<ruby>生<rt>う</rt></ruby>まれてから<ruby>死<rt>し</rt></ruby>ぬまでこの<ruby>土地<rt>とち</rt></ruby>をはなれなかった",
+    "<ruby>歌<rt>うた</rt></ruby>が<ruby>下手<rt>へた</rt></ruby>だった",
+    "しゃしんがきらいだった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>祖父<rt>そふ</rt></ruby>の<ruby>目<rt>め</rt></ruby>をどう<ruby>見<rt>み</rt></ruby>ていますか。",
+   "opciones": [
+    "せまい",
+    "とても<ruby>広<rt>ひろ</rt></ruby>い",
+    "きびしい",
+    "つめたい"
+   ],
+   "correcta": 1
+  }
+ ]
+}

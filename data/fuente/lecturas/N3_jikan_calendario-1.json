@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/jikan/calendario-1",
+ "titulo": "<ruby>梅雨<rt>つゆ</rt></ruby>の<ruby>時期<rt>じき</rt></ruby>",
+ "cuerpo": "<ruby>六月<rt>ろくがつ</rt></ruby>になると、<ruby>梅雨<rt>つゆ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ります。<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>き、<ruby>夜明<rt>よあ</rt></ruby>けも<ruby>暗<rt>くら</rt></ruby>いままです。<ruby>洗濯物<rt>せんたくもの</rt></ruby>がかわかず、<ruby>気<rt>き</rt></ruby>もちまでしめってきます。<ruby>当時<rt>とうじ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は、この<ruby>時期<rt>じき</rt></ruby>にあわせて<ruby>田<rt>た</rt></ruby>うえをしていました。いやな<ruby>季節<rt>きせつ</rt></ruby>のようですが、この<ruby>雨<rt>あめ</rt></ruby>がなければ<ruby>米<rt>こめ</rt></ruby>はそだちません。<ruby>正午<rt>しょうご</rt></ruby>すぎに<ruby>晴<rt>は</rt></ruby>れ<ruby>間<rt>ま</rt></ruby>が<ruby>出<rt>で</rt></ruby>ると、<ruby>陽気<rt>ようき</rt></ruby>な<ruby>声<rt>こえ</rt></ruby>が<ruby>外<rt>そと</rt></ruby>から<ruby>聞<rt>き</rt></ruby>こえてきます。<ruby>世紀<rt>せいき</rt></ruby>がかわっても、この<ruby>時期<rt>じき</rt></ruby>のすごし<ruby>方<rt>かた</rt></ruby>は<em class=\"g\">すでに</em><ruby>昔<rt>むかし</rt></ruby>からきまっているのでしょう。",
+ "traduccion": "Al llegar junio empieza la temporada de lluvias. Los días de lluvia se encadenan y hasta el amanecer sigue oscuro. La colada no seca y hasta el ánimo se humedece. La gente de entonces plantaba el arroz coincidiendo con esta época. Parece una estación desagradable, pero sin esta lluvia el arroz no crece. Cuando pasado el mediodía se abre un claro, desde fuera llegan voces animadas. Aunque cambien los siglos, la manera de pasar esta época estaba ya fijada desde antiguo.",
+ "preguntas": [
+  {
+   "p": "<ruby>梅雨<rt>つゆ</rt></ruby>はいつ<ruby>始<rt>はじ</rt></ruby>まりますか。",
+   "opciones": [
+    "<ruby>五月<rt>ごがつ</rt></ruby>",
+    "<ruby>六月<rt>ろくがつ</rt></ruby>",
+    "<ruby>七月<rt>しちがつ</rt></ruby>",
+    "<ruby>正午<rt>しょうご</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>雨<rt>あめ</rt></ruby>がなければ、どうなりますか。",
+   "opciones": [
+    "<ruby>気<rt>き</rt></ruby>もちがいい",
+    "<ruby>米<rt>こめ</rt></ruby>がそだたない",
+    "<ruby>晴<rt>は</rt></ruby>れる",
+    "<ruby>世紀<rt>せいき</rt></ruby>がかわる"
+   ],
+   "correcta": 1
+  }
+ ]
+}

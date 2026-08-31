@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/jikan/cantidad-2",
+ "titulo": "<ruby>半<rt>なか</rt></ruby>ばまで<ruby>来<rt>き</rt></ruby>て",
+ "cuerpo": "<ruby>一年<rt>いちねん</rt></ruby>の<ruby>半<rt>なか</rt></ruby>ばをすぎました。はじめに<ruby>立<rt>た</rt></ruby>てたけいかくの<ruby>合計<rt>ごうけい</rt></ruby>を<ruby>計算<rt>けいさん</rt></ruby>してみると、できたのは<ruby>僅<rt>わず</rt></ruby>かでした。とちゅうで<ruby>数<rt>かぞ</rt></ruby>えるのをやめた<ruby>項<rt>こう</rt></ruby>もくもあります。<ruby>要<rt>よう</rt></ruby>するに、けいかくが<ruby>大<rt>おお</rt></ruby>きすぎたのです。そこで、やることを<ruby>減<rt>へ</rt></ruby>らして、<ruby>一<rt>ひと</rt></ruby>つずつ<ruby>加<rt>くわ</rt></ruby>えていくことにしました。<em class=\"g\">ついに</em><ruby>最高<rt>さいこう</rt></ruby>のけっかは<ruby>出<rt>で</rt></ruby>ませんでしたが、<ruby>続<rt>つづ</rt></ruby>けられる<ruby>形<rt>かたち</rt></ruby>にはなりました。<em class=\"g\">ついでに</em>、いらないよていもぜんぶけしました。<ruby>数<rt>かず</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やすより、<ruby>減<rt>へ</rt></ruby>らすほうがむずかしいものです。",
+ "traduccion": "Ha pasado la mitad del año. Al sumar el total de lo que planeé al principio, resulta que había hecho muy poco. Hay apartados que dejé de contar a medio camino. En resumen, el plan era demasiado grande. Así que decidí reducir las tareas e ir añadiéndolas de una en una. Al final no logré el mejor resultado, pero sí le di una forma sostenible. De paso, borré también todos los planes innecesarios. Cuesta más reducir la cantidad que aumentarla.",
+ "preguntas": [
+  {
+   "p": "けいかくができなかった<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>時間<rt>じかん</rt></ruby>がない",
+    "けいかくが<ruby>大<rt>おお</rt></ruby>きすぎた",
+    "<ruby>数<rt>かぞ</rt></ruby>えなかった",
+    "やる<ruby>気<rt>き</rt></ruby>がない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>にとって、むずかしいのはどちらですか。",
+   "opciones": [
+    "<ruby>数<rt>かず</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やすこと",
+    "<ruby>数<rt>かず</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らすこと",
+    "<ruby>計算<rt>けいさん</rt></ruby>",
+    "<ruby>続<rt>つづ</rt></ruby>けること"
+   ],
+   "correcta": 1
+  }
+ ]
+}

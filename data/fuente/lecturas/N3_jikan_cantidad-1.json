@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/jikan/cantidad-1",
+ "titulo": "<ruby>数<rt>かず</rt></ruby>にあらわれないもの",
+ "cuerpo": "<ruby>仕事<rt>しごと</rt></ruby>のけっかは、たいてい<ruby>数<rt>かず</rt></ruby>であらわされます。<ruby>率<rt>りつ</rt></ruby>やパーセントが<ruby>図<rt>ず</rt></ruby>になってならびます。<ruby>最<rt>さい</rt></ruby>じゅうようなことが、そこにぜんぶ<ruby>出<rt>で</rt></ruby>ているとはかぎりません。だれかがしずかに<ruby>手<rt>て</rt></ruby>つだった<ruby>時間<rt>じかん</rt></ruby>や、だれかが<ruby>失<rt>うしな</rt></ruby>わずにすんだ<ruby>気力<rt>きりょく</rt></ruby>は、<ruby>数字<rt>すうじ</rt></ruby>にはなりません。それでも、はじめから<ruby>終<rt>お</rt></ruby>わりまでやり<em class=\"g\">通す</em><ruby>人<rt>ひと</rt></ruby>のことは、まわりがちゃんと<ruby>見<rt>み</rt></ruby>ています。<ruby>全<rt>すべ</rt></ruby>てを<ruby>数<rt>かぞ</rt></ruby>えることはできませんが、<ruby>少々<rt>しょうしょう</rt></ruby>の<ruby>無<rt>む</rt></ruby>りをして<ruby>支<rt>ささ</rt></ruby>えた<ruby>人<rt>ひと</rt></ruby>を、わたしはわすれません。",
+ "traduccion": "Los resultados del trabajo suelen expresarse en cifras. Los porcentajes y las tasas se alinean en gráficos. Pero no siempre aparece ahí lo más importante. El rato que alguien echó una mano en silencio, o las ganas que alguien logró no perder, no se convierten en números. Aun así, la gente de alrededor sí ve a quien lleva las cosas hasta el final. No se puede contar todo, pero yo no me olvido de quien aguantó forzando un poco la máquina para sostener el trabajo.",
+ "preguntas": [
+  {
+   "p": "<ruby>数字<rt>すうじ</rt></ruby>にならないものは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>率<rt>りつ</rt></ruby>",
+    "しずかに<ruby>手<rt>て</rt></ruby>つだった<ruby>時間<rt>じかん</rt></ruby>",
+    "パーセント",
+    "<ruby>図<rt>ず</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "まわりは<ruby>何<rt>なに</rt></ruby>を<ruby>見<rt>み</rt></ruby>ていますか。",
+   "opciones": [
+    "<ruby>数字<rt>すうじ</rt></ruby>だけ",
+    "はじめから<ruby>終<rt>お</rt></ruby>わりまでやり<em class=\"g\">通す</em><ruby>人<rt>ひと</rt></ruby>",
+    "けっか",
+    "<ruby>無<rt>む</rt></ruby>り"
+   ],
+   "correcta": 1
+  }
+ ]
+}

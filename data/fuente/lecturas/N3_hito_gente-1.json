@@ -1,16 +1,16 @@
 {
  "unidad_id": "N3/hito/gente-1",
  "titulo": "<ruby>迎<rt>むか</rt></ruby>えに<ruby>現<rt>あらわ</rt></ruby>れた<ruby>人<rt>ひと</rt></ruby>",
- "cuerpo": "<ruby>空港<rt>くうこう</rt></ruby>の<ruby>出口<rt>でぐち</rt></ruby>で、<ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いた<ruby>紙<rt>かみ</rt></ruby>を<ruby>持<rt>も</rt></ruby>った<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>立<rt>た</rt></ruby>っていました。<ruby>連<rt>つ</rt></ruby>れの<ruby>人<rt>ひと</rt></ruby>が<ruby>見<rt>み</rt></ruby>つからず、しばらく<ruby>待<rt>ま</rt></ruby>ちました。<ruby>国籍<rt>こくせき</rt></ruby>も<ruby>年<rt>とし</rt></ruby>もちがう<ruby>人<rt>ひと</rt></ruby>たちが、つぎつぎに<ruby>現<rt>あらわ</rt></ruby>れては<ruby>消<rt>き</rt></ruby>えていきます。はじめて<ruby>会<rt>あ</rt></ruby>う<ruby>相手<rt>あいて</rt></ruby>なのに、<ruby>目<rt>め</rt></ruby>があうとすぐわかるのがふしぎです。<ruby>親<rt>した</rt></ruby>しい<ruby>友<rt>とも</rt></ruby>だち<em class=\"g\">にしては</em>そっけないあいさつでしたが、その<ruby>人<rt>ひと</rt></ruby>はとても<ruby>丁寧<rt>ていねい</rt></ruby>でした。<ruby>交際<rt>こうさい</rt></ruby>のながさより、そのときの<ruby>態<rt>たい</rt></ruby>どのほうが<ruby>記<rt>き</rt></ruby>おくにのこります。",
- "traduccion": "En la salida del aeropuerto había un empleado de pie con un cartel con nombres escritos. Mi acompañante no aparecía y esperamos un rato. Gente de nacionalidades y edades distintas iba apareciendo y desapareciendo. Es curioso que, siendo alguien a quien ves por primera vez, en cuanto se cruzan las miradas lo reconoces. Para ser un amigo íntimo el saludo fue seco, pero aquella persona fue muy correcta. Más que los años de trato, lo que se queda en la memoria es la actitud de ese momento.",
+ "cuerpo": "<ruby>空港<rt>くうこう</rt></ruby>の<ruby>出口<rt>でぐち</rt></ruby>で、<ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いた<ruby>紙<rt>かみ</rt></ruby>を<ruby>持<rt>も</rt></ruby>った<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>立<rt>た</rt></ruby>っていました。<ruby>連<rt>つ</rt></ruby>れの<ruby>人<rt>ひと</rt></ruby>が<ruby>見<rt>み</rt></ruby>つからず、しばらく<ruby>待<rt>ま</rt></ruby>ちました。<ruby>国籍<rt>こくせき</rt></ruby>も<ruby>年<rt>とし</rt></ruby>もちがう<ruby>人<rt>ひと</rt></ruby>たちが、つぎつぎに<ruby>現<rt>あらわ</rt></ruby>れては<ruby>消<rt>き</rt></ruby>えていきます。はじめて<ruby>会<rt>あ</rt></ruby>う<ruby>相手<rt>あいて</rt></ruby>なのに、<ruby>目<rt>め</rt></ruby>があうとすぐわかるのがふしぎです。あとで<ruby>友<rt>とも</rt></ruby>だちに<ruby>話<rt>はな</rt></ruby>すと、「その<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>、<ruby>昔<rt>むかし</rt></ruby>この<ruby>空港<rt>くうこう</rt></ruby>ではたらいてたんだ<em class=\"g\">って</em>」と<ruby>教<rt>おし</rt></ruby>えてくれました。<ruby>親<rt>した</rt></ruby>しい<ruby>友<rt>とも</rt></ruby>だち<em class=\"g\">にしては</em>そっけないあいさつでしたが、その<ruby>人<rt>ひと</rt></ruby>はとても<ruby>丁寧<rt>ていねい</rt></ruby>でした。<ruby>交際<rt>こうさい</rt></ruby>のながさより、そのときのようすのほうが<ruby>記<rt>き</rt></ruby>おくにのこります。",
+ "traduccion": "En la salida del aeropuerto había un empleado de pie con un cartel con nombres escritos. Mi acompañante no aparecía y esperamos un rato. Gente de nacionalidades y edades distintas iba apareciendo y desapareciendo. Es curioso que, siendo alguien a quien ves por primera vez, en cuanto se cruzan las miradas lo reconoces. Cuando se lo conté luego a un amigo, me dijo que había oído que aquel empleado trabajaba antes en este aeropuerto. Para ser un amigo íntimo el saludo fue seco, pero aquella persona fue muy correcta. Más que los años de trato, lo que se queda en la memoria es cómo se comportó en ese momento.",
  "preguntas": [
   {
-   "p": "<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていましたか。",
+   "p": "<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>について、<ruby>友<rt>とも</rt></ruby>だちは<ruby>何<rt>なに</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてくれましたか。",
    "opciones": [
-    "かばん",
-    "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いた<ruby>紙<rt>かみ</rt></ruby>",
-    "でんわ",
-    "<ruby>何<rt>なに</rt></ruby>も"
+    "<ruby>名前<rt>なまえ</rt></ruby>",
+    "<ruby>昔<rt>むかし</rt></ruby>この<ruby>空港<rt>くうこう</rt></ruby>ではたらいていたこと",
+    "<ruby>国籍<rt>こくせき</rt></ruby>",
+    "<ruby>年<rt>とし</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -18,7 +18,7 @@
    "p": "<ruby>記<rt>き</rt></ruby>おくにのこるのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
     "<ruby>交際<rt>こうさい</rt></ruby>のながさ",
-    "そのときの<ruby>態<rt>たい</rt></ruby>ど",
+    "そのときのようす",
     "<ruby>国籍<rt>こくせき</rt></ruby>",
     "<ruby>名前<rt>なまえ</rt></ruby>"
    ],

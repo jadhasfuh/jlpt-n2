@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/hito/salud-1",
+ "titulo": "<ruby>回復<rt>かいふく</rt></ruby>するまで",
+ "cuerpo": "<ruby>手術<rt>しゅじゅつ</rt></ruby>のあと、<ruby>一<rt>いち</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>{ぶりに}そとを<ruby>歩<rt>ある</rt></ruby>きました。<ruby>傷<rt>きず</rt></ruby>の<ruby>痛<rt>いた</rt></ruby>みはまだのこっていますが、<ruby>苦痛<rt>くつう</rt></ruby>というほどではありません。<ruby>患者<rt>かんじゃ</rt></ruby>どうしで<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>う<ruby>時間<rt>じかん</rt></ruby>があって、<ruby>同<rt>おな</rt></ruby>じ<ruby>病<rt>びょう</rt></ruby>きの<ruby>人<rt>ひと</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>は<ruby>医療<rt>いりょう</rt></ruby>のせつめいよりも<ruby>気<rt>き</rt></ruby>がらくになりました。<ruby>診察<rt>しんさつ</rt></ruby>のたびに、<ruby>先生<rt>せんせい</rt></ruby>は「<ruby>回復<rt>かいふく</rt></ruby>は<ruby>急<rt>いそ</rt></ruby>がなくていい」と<ruby>言<rt>い</rt></ruby>います。<ruby>健康<rt>けんこう</rt></ruby>なときは<ruby>気<rt>き</rt></ruby>づきませんでしたが、からだは、<ruby>待<rt>ま</rt></ruby>ってやらないと<ruby>直<rt>なお</rt></ruby>らないものなのです。<ruby>半年<rt>はんとし</rt></ruby>{ぶりに}<ruby>仕事<rt>しごと</rt></ruby>にもどる<ruby>日<rt>ひ</rt></ruby>を<ruby>楽<rt>たの</rt></ruby>しみにしています。",
+ "traduccion": "Después de la operación, salí a caminar por primera vez en un mes. El dolor de la herida sigue ahí, pero no llega a ser un sufrimiento. Hay un rato para que los pacientes hablemos entre nosotros, y oír a alguien con la misma enfermedad me alivió más que las explicaciones médicas. En cada revisión, el médico me dice: «la recuperación no hay que apurarla». Cuando estaba sano no me daba cuenta, pero el cuerpo no se cura si no le das espera. Espero con ganas el día en que vuelva al trabajo, medio año después.",
+ "preguntas": [
+  {
+   "p": "<ruby>患者<rt>かんじゃ</rt></ruby>どうしの<ruby>話<rt>はなし</rt></ruby>は、どうでしたか。",
+   "opciones": [
+    "わかりにくかった",
+    "<ruby>医療<rt>いりょう</rt></ruby>のせつめいより<ruby>気<rt>き</rt></ruby>がらくになった",
+    "つらかった",
+    "<ruby>必要<rt>ひつよう</rt></ruby>なかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。",
+   "opciones": [
+    "はやく<ruby>回復<rt>かいふく</rt></ruby>しなさい",
+    "<ruby>回復<rt>かいふく</rt></ruby>は<ruby>急<rt>いそ</rt></ruby>がなくていい",
+    "<ruby>仕事<rt>しごと</rt></ruby>にもどりなさい",
+    "<ruby>歩<rt>ある</rt></ruby>きなさい"
+   ],
+   "correcta": 1
+  }
+ ]
+}
