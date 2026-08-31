@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/dousa/romper-1",
+ "titulo": "<ruby>割<rt>わ</rt></ruby>れたコップ",
+ "cuerpo": "<ruby>子<rt>こ</rt></ruby>どもがコップを<ruby>落<rt>お</rt></ruby>として、<ruby>割<rt>わ</rt></ruby>れてしまいました。「ごめんなさい」と<ruby>言<rt>い</rt></ruby>う<ruby>声<rt>こえ</rt></ruby>が<ruby>小<rt>ちい</rt></ruby>さかったので、しかられると<ruby>思<rt>おも</rt></ruby>っていたのでしょう。わたしは「けがはない?」とだけききました。<ruby>子<rt>こ</rt></ruby>どもは<ruby>自分<rt>じぶん</rt></ruby>でかたづけ<em class=\"g\">たがる</em>ので、「あぶないから、ほうきを<ruby>持<rt>も</rt></ruby>ってきて」とたのみました。<ruby>物<rt>もの</rt></ruby>は<ruby>壊<rt>こわ</rt></ruby>れますが、<ruby>気持<rt>きも</rt></ruby>ちは<ruby>壊<rt>こわ</rt></ruby>したくありません。おちゃ<em class=\"g\">でも</em>のんで、<ruby>一<rt>いっ</rt></ruby>しょにやすみました。",
+ "traduccion": "Un niño se le cayó un vaso y se rompió. Su «lo siento» sonó muy bajito, así que debía de pensar que le iba a regañar. Yo solo le pregunté si se había hecho daño. Como quería recogerlo él mismo, le pedí que trajera la escoba, que era peligroso. Las cosas se rompen, pero lo que no quiero romper es el ánimo. Nos tomamos un té o algo así y descansamos juntos.",
+ "preguntas": [
+  {
+   "p": "コップが<ruby>割<rt>わ</rt></ruby>れたとき、<ruby>何<rt>なに</rt></ruby>をききましたか。",
+   "opciones": [
+    "だれが<ruby>割<rt>わ</rt></ruby>ったか",
+    "けがはないか",
+    "いくらだったか",
+    "なぜ<ruby>落<rt>お</rt></ruby>としたか"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>子<rt>こ</rt></ruby>どもに<ruby>何<rt>なに</rt></ruby>をたのみましたか。",
+   "opciones": [
+    "かたづけないこと",
+    "ほうきを<ruby>持<rt>も</rt></ruby>ってくること",
+    "あやまること",
+    "おちゃをいれること"
+   ],
+   "correcta": 1
+  }
+ ]
+}

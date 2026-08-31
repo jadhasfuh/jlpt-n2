@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/dousa/mano-1",
+ "titulo": "<ruby>手<rt>て</rt></ruby>でおぼえる",
+ "cuerpo": "はたらきはじめたころ、きかいに<ruby>触<rt>さわ</rt></ruby>るのがこわかったです。ボタンを<ruby>打<rt>う</rt></ruby>つ<ruby>手<rt>て</rt></ruby>が<ruby>揺<rt>ゆ</rt></ruby>れて、なんどもまちがえました。<ruby>先<rt>せん</rt></ruby>ぱいは「わたしがやって<ruby>見<rt>み</rt></ruby>せ<em class=\"g\">いたします</em>」と<ruby>言<rt>い</rt></ruby>って、ゆっくり<ruby>動<rt>うご</rt></ruby>かしてくれました。つかわないものを<ruby>棄<rt>す</rt></ruby>てて、<ruby>空<rt>あ</rt></ruby>いた<ruby>場所<rt>ばしょ</rt></ruby>にどうぐを<ruby>留<rt>と</rt></ruby>めておくと、<ruby>手<rt>て</rt></ruby>がまよわなくなります。いまでは<ruby>見<rt>み</rt></ruby>なくても<ruby>付<rt>つ</rt></ruby>けられます。ごしつもんがあれば、いつでもごせつめい<em class=\"g\">いたします</em>。",
+ "traduccion": "Cuando empecé a trabajar me daba miedo tocar la máquina. Me temblaba la mano al pulsar los botones y me equivocaba muchas veces. Un compañero veterano me dijo «se lo hago yo para que lo vea» y lo movió despacio. Si tiras lo que no usas y fijas las herramientas en el hueco que queda, la mano deja de dudar. Ahora ya puedo montarlo sin mirar. Si tiene alguna pregunta, se la explico cuando quiera.",
+ "preguntas": [
+  {
+   "p": "はじめ、なぜまちがえましたか。",
+   "opciones": [
+    "きかいが<ruby>古<rt>ふる</rt></ruby>いから",
+    "<ruby>手<rt>て</rt></ruby>が<ruby>揺<rt>ゆ</rt></ruby>れたから",
+    "<ruby>先<rt>せん</rt></ruby>ぱいがいないから",
+    "どうぐがないから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>手<rt>て</rt></ruby>がまよわなくなるのはどうしてですか。",
+   "opciones": [
+    "まいにちれんしゅうするから",
+    "どうぐをきまった<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>留<rt>と</rt></ruby>めておくから",
+    "<ruby>見<rt>み</rt></ruby>ないから",
+    "ボタンが<ruby>少<rt>すく</rt></ruby>ないから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

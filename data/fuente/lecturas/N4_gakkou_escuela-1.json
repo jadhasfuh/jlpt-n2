@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/gakkou/escuela-1",
+ "titulo": "<ruby>卒業<rt>そつぎょう</rt></ruby>まで",
+ "cuerpo": "この<ruby>小学校<rt>しょうがっこう</rt></ruby>に<ruby>入学<rt>にゅうがく</rt></ruby>したのは、<ruby>六<rt>ろく</rt></ruby><ruby>年<rt>ねん</rt></ruby>まえです。はじめのころは、<ruby>一日<rt>いちにち</rt></ruby><em class=\"g\">おきに</em><ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きたくないと<ruby>言<rt>い</rt></ruby>っていたそうです。いまはちがいます。<ruby>先輩<rt>せんぱい</rt></ruby>に<ruby>教<rt>おし</rt></ruby>えてもらった<ruby>歌<rt>うた</rt></ruby>を、いまは<ruby>下<rt>した</rt></ruby>の<ruby>学年<rt>がくねん</rt></ruby>に<ruby>教<rt>おし</rt></ruby>えています。<ruby>講義<rt>こうぎ</rt></ruby>のような<ruby>長<rt>なが</rt></ruby>い<ruby>話<rt>はなし</rt></ruby>はにがてですが、からだをうごかすことはすきです。<ruby>来月<rt>らいげつ</rt></ruby>、<ruby>卒業<rt>そつぎょう</rt></ruby>します。<ruby>三<rt>さん</rt></ruby><ruby>日<rt>にち</rt></ruby><em class=\"g\">おきに</em><ruby>練習<rt>れんしゅう</rt></ruby>してきた<ruby>歌<rt>うた</rt></ruby>を、さいごにみんなでうたいます。",
+ "traduccion": "Entré en esta escuela primaria hace seis años. Dicen que al principio decía un día sí y otro no que no quería ir al colegio. Ahora es distinto. La canción que me enseñaron los mayores ahora se la enseño yo a los cursos de abajo. Las charlas largas tipo conferencia no se me dan bien, pero me gusta moverme. El mes que viene me gradúo. La canción que hemos ensayado cada tres días la cantaremos todos juntos al final.",
+ "preguntas": [
+  {
+   "p": "はじめのころ、この<ruby>子<rt>こ</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>学校<rt>がっこう</rt></ruby>がすきだった",
+    "<ruby>行<rt>い</rt></ruby>きたくないと<ruby>言<rt>い</rt></ruby>っていた",
+    "<ruby>歌<rt>うた</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>だった",
+    "<ruby>先輩<rt>せんぱい</rt></ruby>になった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いま、<ruby>歌<rt>うた</rt></ruby>をだれに<ruby>教<rt>おし</rt></ruby>えていますか。",
+   "opciones": [
+    "<ruby>先輩<rt>せんぱい</rt></ruby>",
+    "<ruby>下<rt>した</rt></ruby>の<ruby>学年<rt>がくねん</rt></ruby>",
+    "<ruby>先生<rt>せんせい</rt></ruby>",
+    "だれにも"
+   ],
+   "correcta": 1
+  }
+ ]
+}

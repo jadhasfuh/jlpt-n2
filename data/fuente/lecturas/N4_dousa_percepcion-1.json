@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/dousa/percepcion-1",
+ "titulo": "<ruby>景色<rt>けしき</rt></ruby>と<ruby>匂<rt>にお</rt></ruby>い",
+ "cuerpo": "<ruby>朝<rt>あさ</rt></ruby>、まどをあけると、<ruby>雨<rt>あめ</rt></ruby>の<ruby>匂<rt>にお</rt></ruby>いがしました。とおくの<ruby>山<rt>やま</rt></ruby>が白く<ruby>見<rt>み</rt></ruby>えます。<ruby>音<rt>おと</rt></ruby>はほとんど<ruby>聞<rt>き</rt></ruby>こえません。こういう<ruby>朝<rt>あさ</rt></ruby>は、きっといい<ruby>一日<rt>いちにち</rt></ruby>になる<em class=\"g\">はずだ</em>と<ruby>思<rt>おも</rt></ruby>います。<ruby>景色<rt>けしき</rt></ruby>をながめていると、<ruby>気持<rt>きも</rt></ruby>ちがおちつきます。なくした<ruby>鍵<rt>かぎ</rt></ruby>を<ruby>探<rt>さが</rt></ruby>していたことも、しばらくわすれていました。あとで<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>して<ruby>捜<rt>さが</rt></ruby>すと、うわぎのポケットにありました。あわてているときには<ruby>見<rt>み</rt></ruby>えないものが、おちついていると<ruby>見<rt>み</rt></ruby>える<em class=\"g\">はずです</em>。",
+ "traduccion": "Al abrir la ventana por la mañana olía a lluvia. La montaña lejana se veía blanca. Casi no se oía nada. Pienso que una mañana así tiene que dar lugar a un buen día. Mirando el paisaje, el ánimo se serena. Hasta se me olvidó un rato que estaba buscando la llave que había perdido. Después me acordé, la busqué y estaba en el bolsillo de la chaqueta. Lo que no se ve cuando uno va agobiado debería verse cuando está tranquilo.",
+ "preguntas": [
+  {
+   "p": "<ruby>朝<rt>あさ</rt></ruby>、まどをあけると<ruby>何<rt>なに</rt></ruby>がしましたか。",
+   "opciones": [
+    "<ruby>音<rt>おと</rt></ruby>",
+    "<ruby>雨<rt>あめ</rt></ruby>の<ruby>匂<rt>にお</rt></ruby>い",
+    "<ruby>風<rt>かぜ</rt></ruby>",
+    "<ruby>声<rt>こえ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>鍵<rt>かぎ</rt></ruby>はどこにありましたか。",
+   "opciones": [
+    "まどのそば",
+    "うわぎのポケット",
+    "つくえの<ruby>上<rt>うえ</rt></ruby>",
+    "<ruby>見<rt>み</rt></ruby>つからなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

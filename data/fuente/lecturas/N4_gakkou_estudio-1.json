@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/gakkou/estudio-1",
+ "titulo": "<ruby>復習<rt>ふくしゅう</rt></ruby>のやり<ruby>方<rt>かた</rt></ruby>",
+ "cuerpo": "<em class=\"g\">さっき</em><ruby>試験<rt>しけん</rt></ruby>が<ruby>終<rt>お</rt></ruby>わりました。<ruby>説明<rt>せつめい</rt></ruby>をよく<ruby>聞<rt>き</rt></ruby>いたつもりでしたが、<ruby>答<rt>こた</rt></ruby>えられない<ruby>問題<rt>もんだい</rt></ruby>がありました。<ruby>研究<rt>けんきゅう</rt></ruby>によると、ならった<em class=\"g\">ばかり</em>のことは、その<ruby>日<rt>ひ</rt></ruby>のうちに<ruby>復習<rt>ふくしゅう</rt></ruby>するとのこりやすいそうです。わたしの<ruby>専門<rt>せんもん</rt></ruby>は<ruby>技術<rt>ぎじゅつ</rt></ruby>のほうですが、おぼえかたそのものも<ruby>勉強<rt>べんきょう</rt></ruby>のうちだと<ruby>思<rt>おも</rt></ruby>います。<ruby>今日<rt>きょう</rt></ruby>から、うちに<ruby>帰<rt>かえ</rt></ruby>った<em class=\"g\">ばかり</em>の<ruby>時間<rt>じかん</rt></ruby>に十分だけ<ruby>見<rt>み</rt></ruby>なおすことにします。<ruby>運動<rt>うんどう</rt></ruby>のあとにするのが、いちばんつづきそうです。",
+ "traduccion": "Acabo de terminar el examen hace un rato. Creía haber escuchado bien la explicación, pero había preguntas que no supe contestar. Según los estudios, lo que acabas de aprender se queda mejor si lo repasas ese mismo día. Mi especialidad es más bien la parte técnica, pero creo que la forma de memorizar también es parte de estudiar. A partir de hoy voy a repasar diez minutos justo al llegar a casa. Hacerlo después del ejercicio parece lo más sostenible.",
+ "preguntas": [
+  {
+   "p": "<ruby>研究<rt>けんきゅう</rt></ruby>によると、いつ<ruby>復習<rt>ふくしゅう</rt></ruby>するとのこりやすいですか。",
+   "opciones": [
+    "<ruby>試験<rt>しけん</rt></ruby>のまえ",
+    "ならったその<ruby>日<rt>ひ</rt></ruby>のうち",
+    "<ruby>一<rt>いっ</rt></ruby>しゅうかん<ruby>後<rt>ご</rt></ruby>",
+    "<ruby>運動<rt>うんどう</rt></ruby>のまえ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>今日<rt>きょう</rt></ruby>から、いつ<ruby>見<rt>み</rt></ruby>なおしますか。",
+   "opciones": [
+    "<ruby>朝<rt>あさ</rt></ruby>",
+    "うちに<ruby>帰<rt>かえ</rt></ruby>ったばかりの<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>試験<rt>しけん</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>",
+    "<ruby>学校<rt>がっこう</rt></ruby>で"
+   ],
+   "correcta": 1
+  }
+ ]
+}
