@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/gakkou/libros-1",
+ "titulo": "<ruby>新聞<rt>しんぶん</rt></ruby>と<ruby>雑誌<rt>ざっし</rt></ruby>",
+ "cuerpo": "<ruby>父<rt>ちち</rt></ruby>はまいあさ<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます。わたしは<ruby>雑誌<rt>ざっし</rt></ruby>のほうがすきです。しゃしんがおおくて、<ruby>見<rt>み</rt></ruby>ているだけでたのしいからです。せんしゅう、<ruby>雑誌<rt>ざっし</rt></ruby>にわたしの<ruby>学校<rt>がっこう</rt></ruby>のことが<ruby>載<rt>の</rt></ruby>っていました。<ruby>一番<rt>いちばん</rt></ruby>うれしかったのは、ともだちの<ruby>歌<rt>うた</rt></ruby>が<ruby>記<rt>しる</rt></ruby>されていたことです。かれは<ruby>詩<rt>し</rt></ruby>も<ruby>書<rt>か</rt></ruby>きます。いつか<ruby>本<rt>ほん</rt></ruby>を<ruby>出<rt>だ</rt></ruby>したいと<ruby>話<rt>はな</rt></ruby>していました。わたしは、その<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて、じぶんも<ruby>何<rt>なに</rt></ruby>か<ruby>書<rt>か</rt></ruby>いてみたくなりました。",
+ "traduccion": "Mi padre lee el periódico todas las mañanas. Yo prefiero las revistas, porque tienen muchas fotos y solo con mirarlas ya me entretengo. La semana pasada salió mi colegio en una revista. Lo que más ilusión me hizo fue que apareciera recogida la canción de un amigo. Él también escribe poemas. Decía que algún día quiere publicar un libro. Al oírle, a mí también me entraron ganas de escribir algo.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>雑誌<rt>ざっし</rt></ruby>をすきなのはなぜですか。",
+   "opciones": [
+    "<ruby>父<rt>ちち</rt></ruby>が<ruby>読<rt>よ</rt></ruby>むから",
+    "しゃしんがおおいから",
+    "<ruby>学校<rt>がっこう</rt></ruby>のことが<ruby>載<rt>の</rt></ruby>るから",
+    "<ruby>歌<rt>うた</rt></ruby>があるから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>一番<rt>いちばん</rt></ruby>うれしかったことは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>学校<rt>がっこう</rt></ruby>が<ruby>載<rt>の</rt></ruby>ったこと",
+    "ともだちの<ruby>歌<rt>うた</rt></ruby>が<ruby>記<rt>しる</rt></ruby>されていたこと",
+    "<ruby>父<rt>ちち</rt></ruby>が<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだこと",
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>出<rt>だ</rt></ruby>したこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

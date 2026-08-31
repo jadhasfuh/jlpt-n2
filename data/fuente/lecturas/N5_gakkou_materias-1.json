@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/gakkou/materias-1",
+ "titulo": "<ruby>何<rt>なに</rt></ruby>をならうか",
+ "cuerpo": "らいねんから、あたらしい<ruby>課程<rt>かてい</rt></ruby>がはじまります。わたしはまよわ<em class=\"g\">ないで</em>、ならいたいものをえらびました。にほんの<ruby>史<rt>し</rt></ruby>のじゅぎょうです。むかしの<ruby>人<rt>ひと</rt></ruby>がどんなものを<ruby>食<rt>た</rt></ruby>べ、どんなくらしをしていたかを<ruby>知<rt>し</rt></ruby>りたいからです。<ruby>先生<rt>せんせい</rt></ruby>は、「<ruby>名<rt>な</rt></ruby>まえだけおぼえ<em class=\"g\">ないで</em>、なぜそうなったかをかんがえなさい」と<ruby>話<rt>はな</rt></ruby>してくれました。むずかしそうですが、たのしみです。",
+ "traduccion": "El año que viene empieza un plan de estudios nuevo. Elegí lo que quería estudiar sin dudarlo: las clases de historia de Japón. Porque quiero saber qué comía y cómo vivía la gente de antes. El profesor me dijo: «no te limites a memorizar nombres sin más, piensa por qué ocurrió así». Parece difícil, pero tengo ganas.",
+ "preguntas": [
+  {
+   "p": "なぜ、この<ruby>課程<rt>かてい</rt></ruby>をえらびましたか。",
+   "opciones": [
+    "やさしそうだから",
+    "むかしの<ruby>人<rt>ひと</rt></ruby>のくらしを<ruby>知<rt>し</rt></ruby>りたいから",
+    "<ruby>先生<rt>せんせい</rt></ruby>がすすめたから",
+    "<ruby>名<rt>な</rt></ruby>まえがおぼえやすいから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしなさいと<ruby>話<rt>はな</rt></ruby>しましたか。",
+   "opciones": [
+    "<ruby>名<rt>な</rt></ruby>まえをぜんぶおぼえる",
+    "なぜそうなったかをかんがえる",
+    "まいにち<ruby>書<rt>か</rt></ruby>く",
+    "<ruby>食<rt>た</rt></ruby>べものをしらべる"
+   ],
+   "correcta": 1
+  }
+ ]
+}

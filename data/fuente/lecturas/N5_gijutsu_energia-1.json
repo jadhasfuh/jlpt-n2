@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/gijutsu/energia-1",
+ "titulo": "<ruby>電気<rt>でんき</rt></ruby>をたいせつに",
+ "cuerpo": "うちでは、だれもいないへやの<ruby>電気<rt>でんき</rt></ruby>をつけません。もったいないからです。でも、くらいへやはこわいので、げんかんの<ruby>電気<rt>でんき</rt></ruby><em class=\"g\">じゃない</em>と、よるはこまります。<ruby>父<rt>ちち</rt></ruby>は「あかるすぎるのはいいこと<em class=\"g\">ではない</em>」と<ruby>話<rt>はな</rt></ruby>します。せんげつ、<ruby>雨<rt>あめ</rt></ruby>のつよい<ruby>日<rt>ひ</rt></ruby>に<ruby>電気<rt>でんき</rt></ruby>がとまりました。<ruby>中<rt>なか</rt></ruby>が<ruby>見<rt>み</rt></ruby>えなくて、<ruby>何<rt>なに</rt></ruby>もできませんでした。あたりまえのものは、あたりまえ<em class=\"g\">ではない</em>のだとわかりました。",
+ "traduccion": "En casa no encendemos la luz de las habitaciones donde no hay nadie, porque es un desperdicio. Pero las habitaciones a oscuras dan miedo, así que si no es la luz de la entrada, por la noche lo paso mal. Mi padre dice que tener demasiada luz tampoco es bueno. El mes pasado, un día de lluvia fuerte, se fue la luz. No se veía nada dentro y no pude hacer nada. Entendí que lo que se da por hecho no está garantizado.",
+ "preguntas": [
+  {
+   "p": "うちで<ruby>電気<rt>でんき</rt></ruby>をつけないのはどんなときですか。",
+   "opciones": [
+    "よるのとき",
+    "だれもいないへやのとき",
+    "<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>",
+    "げんかんのとき"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>電気<rt>でんき</rt></ruby>がとまって、<ruby>何<rt>なに</rt></ruby>がわかりましたか。",
+   "opciones": [
+    "よるはこわいこと",
+    "あたりまえのものはあたりまえ<em class=\"g\">ではない</em>こと",
+    "<ruby>父<rt>ちち</rt></ruby>がただしいこと",
+    "<ruby>雨<rt>あめ</rt></ruby>はつよいこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

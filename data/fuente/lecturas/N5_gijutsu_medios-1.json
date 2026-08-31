@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/gijutsu/medios-1",
+ "titulo": "はがきを<ruby>出<rt>だ</rt></ruby>す",
+ "cuerpo": "そぼに<ruby>葉書<rt>はがき</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しました。そぼはでんわよりも、かいたものがすきだからです。しずかなよるに、つくえのまえにすわって、ゆっくり<ruby>書<rt>か</rt></ruby>きました。<ruby>切手<rt>きって</rt></ruby>をはって、<ruby>封筒<rt>ふうとう</rt></ruby>はつかわずに、そのままポストに<ruby>入<rt>い</rt></ruby>れました。きれいな<ruby>字<rt>じ</rt></ruby>ではありませんが、たいせつなことばをえらびました。<ruby>一<rt>いっ</rt></ruby>しゅうかんご、そぼからでんわがありました。とてもげんきなこえでした。",
+ "traduccion": "Le envié una postal a mi abuela. Es que a ella le gustan más las cosas escritas que el teléfono. Una noche tranquila me senté ante la mesa y la escribí sin prisa. Pegué el sello y, sin usar sobre, la eché tal cual al buzón. Mi letra no es bonita, pero escogí palabras que importaban. Una semana después mi abuela me llamó. Tenía la voz muy animada.",
+ "preguntas": [
+  {
+   "p": "なぜ<ruby>葉書<rt>はがき</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しましたか。",
+   "opciones": [
+    "でんわがこわれたから",
+    "そぼがかいたものをすきだから",
+    "<ruby>切手<rt>きって</rt></ruby>があったから",
+    "<ruby>封筒<rt>ふうとう</rt></ruby>をつかいたかったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>一<rt>いっ</rt></ruby>しゅうかんご、<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "<ruby>葉書<rt>はがき</rt></ruby>がかえってきた",
+    "そぼからでんわがあった",
+    "<ruby>切手<rt>きって</rt></ruby>をもらった",
+    "そぼが<ruby>来<rt>き</rt></ruby>た"
+   ],
+   "correcta": 1
+  }
+ ]
+}

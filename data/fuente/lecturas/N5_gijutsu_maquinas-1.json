@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/gijutsu/maquinas-1",
+ "titulo": "うちのきかい",
+ "cuerpo": "うちには<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>とテレビとラジオがあります。<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きくて、しろくて、とてもふるいです。<ruby>父<rt>ちち</rt></ruby>がわかいときにかったものだそうです。テレビは<ruby>小<rt>ちい</rt></ruby>さいですが、<ruby>見<rt>み</rt></ruby>やすいです。ラジオはあさのニュースをきくのにつかいます。<ruby>電話<rt>でんわ</rt></ruby>は<ruby>一<rt>いち</rt></ruby>だいだけあります。あたらしいものはたかいので、うちのものはみんなふるいです。でも、こわれないので、それでいいと<ruby>父<rt>ちち</rt></ruby>は<ruby>話<rt>はな</rt></ruby>しています。エレベーターのないふるいたてものですが、<ruby>中<rt>なか</rt></ruby>はあかるくてあたたかいです。",
+ "traduccion": "En casa tenemos nevera, televisión y radio. La nevera es grande, blanca y muy vieja. Dicen que la compró mi padre cuando era joven. La televisión es pequeña, pero se ve bien. La radio la usamos para escuchar las noticias por la mañana. Teléfono solo tenemos uno. Lo nuevo es caro, así que todo lo de casa es viejo. Pero como no se estropea, mi padre dice que así está bien. Es un edificio antiguo sin ascensor, pero por dentro es luminoso y cálido.",
+ "preguntas": [
+  {
+   "p": "<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>はどんなものですか。",
+   "opciones": [
+    "ちいさくてあたらしい",
+    "<ruby>大<rt>おお</rt></ruby>きくてふるい",
+    "くろくてたかい",
+    "こわれやすい"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "ラジオは<ruby>何<rt>なに</rt></ruby>につかいますか。",
+   "opciones": [
+    "おんがくをきく",
+    "あさのニュースをきく",
+    "<ruby>電話<rt>でんわ</rt></ruby>をかける",
+    "テレビを<ruby>見<rt>み</rt></ruby>る"
+   ],
+   "correcta": 1
+  }
+ ]
+}

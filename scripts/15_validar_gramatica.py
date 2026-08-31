@@ -18,9 +18,19 @@ def variantes_te(parte):
     aparece de verdad como 〜でいては, y sigue siendo el mismo punto."""
     return [parte, "で" + parte[1:]] if parte.startswith("て") else [parte]
 
+# Tres «puntos» del N5 no son una forma que se pueda buscar, sino una categoría
+# entera (los adjetivos en い y en な). Una lectura de esa unidad los usa por
+# fuerza, así que exigir la cadena literal sería un falso positivo eterno.
+CATEGORIAS = {"い-adjectives", "な-adjectives"}
+
 def aparece(forma, texto):
-    for variante in re.split(r"\s*/\s*", forma):          # 「にせよ / にしろ」
-        partes = [p for p in re.split("[\uff5e\u301c~]", variante) if p]   # ～ 〜 ~
+    if forma in CATEGORIAS: return True
+    # Las alternativas vienen con «/» en las escritas a mano y con «・» en las
+    # bajadas de jlptsensei (じゃない・ではない): basta con que aparezca una.
+    for variante in re.split(r"\s*[/・]\s*", forma):
+        # ～ 〜 ~ y los huecos con corchetes (の中で[A]が一番) son lo mismo:
+        # algo va en medio y sólo se exige que las piezas salgan en orden.
+        partes = [p for p in re.split(r"[\uff5e\u301c~]|\[[^\]]*\]", variante) if p]
         pos = 0
         ok = True
         for k, parte in enumerate(partes):

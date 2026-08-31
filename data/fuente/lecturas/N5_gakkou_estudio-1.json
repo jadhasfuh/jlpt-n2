@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/gakkou/estudio-1",
+ "titulo": "<ruby>練習<rt>れんしゅう</rt></ruby>のしかた",
+ "cuerpo": "わたしは<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>習<rt>なら</rt></ruby>っています。はじめは、ことばをぜんぜん<ruby>知<rt>し</rt></ruby>らなかった<em class=\"g\">ので</em>、<ruby>話<rt>はな</rt></ruby>すのがこわかったです。<ruby>先生<rt>せんせい</rt></ruby>は、まいにちすこしずつ<ruby>練習<rt>れんしゅう</rt></ruby>しなさいとおしえてくれました。それで、あさとよる、ノートに<ruby>五<rt>いつ</rt></ruby>つずつことばを<ruby>書<rt>か</rt></ruby>くことにしました。はんとしつづけた<em class=\"g\">ので</em>、いまはすこし<ruby>上手<rt>じょうず</rt></ruby>になりました。ともだちにおしえることもできます。だれかに<ruby>教<rt>おし</rt></ruby>えると、じぶんもよく<ruby>知<rt>し</rt></ruby>ることができると<ruby>気<rt>き</rt></ruby>がつきました。",
+ "traduccion": "Estoy aprendiendo japonés. Al principio no sabía nada de vocabulario, así que me daba miedo hablar. El profesor me enseñó que practicara un poco cada día. Así que decidí escribir cinco palabras en el cuaderno por la mañana y por la noche. Como llevo medio año haciéndolo, ahora se me da algo mejor. Incluso puedo enseñar a mis amigos. Me he dado cuenta de que, cuando enseñas a alguien, tú también acabas sabiéndolo mejor.",
+ "preguntas": [
+  {
+   "p": "なぜ、はじめは<ruby>話<rt>はな</rt></ruby>すのがこわかったのですか。",
+   "opciones": [
+    "<ruby>先生<rt>せんせい</rt></ruby>がこわかったから",
+    "ことばを<ruby>知<rt>し</rt></ruby>らなかったから",
+    "ノートがなかったから",
+    "ともだちがいなかったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "だれかに<ruby>教<rt>おし</rt></ruby>えると、どうなると<ruby>気<rt>き</rt></ruby>がつきましたか。",
+   "opciones": [
+    "<ruby>時間<rt>じかん</rt></ruby>がなくなる",
+    "じぶんもよく<ruby>知<rt>し</rt></ruby>ることができる",
+    "<ruby>練習<rt>れんしゅう</rt></ruby>がいらなくなる",
+    "<ruby>上手<rt>じょうず</rt></ruby>になれない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

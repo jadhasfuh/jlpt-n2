@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/gijutsu/musica-1",
+ "titulo": "ギターをひく",
+ "cuerpo": "わたしは<ruby>歌<rt>うた</rt></ruby>をうたう<em class=\"g\">のが上手</em>ではありませんが、ギターを<ruby>弾<rt>ひ</rt></ruby>くのはすきです。<ruby>父<rt>ちち</rt></ruby>がわかいころにつかっていたギターをもらいました。まいばん、<ruby>十<rt>じゅう</rt></ruby>ぷんだけれんしゅうします。ちいさな<ruby>音<rt>おと</rt></ruby>でひくので、となりのへやにはきこえません。ともだちは<ruby>歌<rt>うた</rt></ruby>をうたう<em class=\"g\">のが上手</em>なので、いっしょにやると、とてもたのしいです。<ruby>音楽<rt>おんがく</rt></ruby>があると、つかれた<ruby>日<rt>ひ</rt></ruby>でも<ruby>気<rt>き</rt></ruby>もちがかるくなります。",
+ "traduccion": "No se me da bien cantar, pero me gusta tocar la guitarra. Heredé la que usaba mi padre de joven. Cada noche practico solo diez minutos. Toco flojito, así que en la habitación de al lado no se oye. Un amigo mío canta muy bien, y cuando lo hacemos juntos es muy divertido. Con música, incluso los días de cansancio, el ánimo se aligera.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>がすきなことは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>歌<rt>うた</rt></ruby>をうたうこと",
+    "ギターを<ruby>弾<rt>ひ</rt></ruby>くこと",
+    "ともだちと<ruby>話<rt>はな</rt></ruby>すこと",
+    "ねること"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "まいばん、どのくらいれんしゅうしますか。",
+   "opciones": [
+    "<ruby>五<rt>ご</rt></ruby>ふん",
+    "<ruby>十<rt>じゅう</rt></ruby>ぷん",
+    "<ruby>一<rt>いち</rt></ruby>じかん",
+    "<ruby>二<rt>に</rt></ruby>じかん"
+   ],
+   "correcta": 1
+  }
+ ]
+}

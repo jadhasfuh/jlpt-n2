@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/gakkou/lengua-1",
+ "titulo": "<ruby>漢字<rt>かんじ</rt></ruby>のおぼえ<ruby>方<rt>かた</rt></ruby>",
+ "cuerpo": "<ruby>日本語<rt>にほんご</rt></ruby>には<ruby>平仮名<rt>ひらがな</rt></ruby>と<ruby>片仮名<rt>かたかな</rt></ruby>と<ruby>漢字<rt>かんじ</rt></ruby>があります。はじめのふたつはすぐおぼえましたが、<ruby>漢字<rt>かんじ</rt></ruby><em class=\"g\">だけ</em>はなかなかおぼえられませんでした。<ruby>辞書<rt>じしょ</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>くと、ひとつの<ruby>字<rt>じ</rt></ruby>にいくつも<ruby>意味<rt>いみ</rt></ruby>があって、こまりました。そこで、<ruby>字<rt>じ</rt></ruby><em class=\"g\">だけ</em>をおぼえるのをやめて、<ruby>文章<rt>ぶんしょう</rt></ruby>のなかで<ruby>言葉<rt>ことば</rt></ruby>ごとおぼえることにしました。すると、<ruby>意味<rt>いみ</rt></ruby>がよくわかるようになりました。<ruby>名<rt>な</rt></ruby>まえのしらない<ruby>漢字<rt>かんじ</rt></ruby>も、いまはこわくありません。",
+ "traduccion": "En japonés hay hiragana, katakana y kanji. Los dos primeros los aprendí enseguida, pero solo los kanji se me resistían. Al buscar en el diccionario, cada carácter tenía varios significados y me agobiaba. Así que dejé de memorizar caracteres sueltos y decidí aprender las palabras enteras dentro de una frase. Entonces empecé a entender bien el significado. Ahora los kanji cuyo nombre no conozco ya no me dan miedo.",
+ "preguntas": [
+  {
+   "p": "なにをおぼえるのがむずかしかったですか。",
+   "opciones": [
+    "<ruby>平仮名<rt>ひらがな</rt></ruby>",
+    "<ruby>片仮名<rt>かたかな</rt></ruby>",
+    "<ruby>漢字<rt>かんじ</rt></ruby>",
+    "<ruby>辞書<rt>じしょ</rt></ruby>"
+   ],
+   "correcta": 2
+  },
+  {
+   "p": "どうやっておぼえることにしましたか。",
+   "opciones": [
+    "<ruby>辞書<rt>じしょ</rt></ruby>をぜんぶ<ruby>読<rt>よ</rt></ruby>む",
+    "<ruby>文章<rt>ぶんしょう</rt></ruby>のなかで<ruby>言葉<rt>ことば</rt></ruby>ごとおぼえる",
+    "<ruby>字<rt>じ</rt></ruby><em class=\"g\">だけ</em>を<ruby>書<rt>か</rt></ruby>く",
+    "<ruby>名<rt>な</rt></ruby>まえをつける"
+   ],
+   "correcta": 1
+  }
+ ]
+}

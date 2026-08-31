@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/gijutsu/arte-1",
+ "titulo": "<ruby>映画<rt>えいが</rt></ruby>と<ruby>絵<rt>え</rt></ruby>",
+ "cuerpo": "<ruby>土<rt>ど</rt></ruby>よう<ruby>日<rt>び</rt></ruby>、ともだちと<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。ふるいフィルムの<ruby>映画<rt>えいが</rt></ruby>で、おとがすこし<ruby>小<rt>ちい</rt></ruby>さかったです。でも、<ruby>画<rt>が</rt></ruby>めんの<ruby>中<rt>なか</rt></ruby>の<ruby>山<rt>やま</rt></ruby>や<ruby>川<rt>かわ</rt></ruby>が<ruby>絵<rt>え</rt></ruby>のようにきれいでした。<ruby>見<rt>み</rt></ruby>おわってから、そとで<ruby>写真<rt>しゃしん</rt></ruby>をとりました。ともだちは、その<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、「<ruby>絵<rt>え</rt></ruby>みたいだ」と<ruby>話<rt>はな</rt></ruby>しました。わたしは<ruby>絵<rt>え</rt></ruby>をかくのがへたですが、<ruby>写真<rt>しゃしん</rt></ruby>ならとれます。",
+ "traduccion": "El sábado fui al cine con un amigo. Era una película de rollo antiguo y el sonido se oía un poco bajo. Pero las montañas y los ríos de la pantalla eran preciosos, como un cuadro. Al salir hicimos fotos fuera. Mi amigo miró la foto y dijo que parecía un cuadro. A mí se me da mal dibujar, pero fotos sí sé hacer.",
+ "preguntas": [
+  {
+   "p": "<ruby>映画<rt>えいが</rt></ruby>のどこがよかったですか。",
+   "opciones": [
+    "おと",
+    "<ruby>山<rt>やま</rt></ruby>や<ruby>川<rt>かわ</rt></ruby>",
+    "フィルム",
+    "ともだち"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>がへたなことは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>写真<rt>しゃしん</rt></ruby>をとること",
+    "<ruby>絵<rt>え</rt></ruby>をかくこと",
+    "<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ること",
+    "<ruby>話<rt>はな</rt></ruby>すこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

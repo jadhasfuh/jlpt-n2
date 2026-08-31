@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/hito/apariencia-1",
+ "titulo": "<ruby>立派<rt>りっぱ</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "そふは<ruby>背<rt>せ</rt></ruby>が<ruby>高<rt>たか</rt></ruby>くて、うでが<ruby>太<rt>ふと</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>でした。わかいころは<ruby>山<rt>やま</rt></ruby>のしごとをしていたそうです。いまのわたしは<ruby>背<rt>せ</rt></ruby>がひくくて、うでも<ruby>細<rt>ほそ</rt></ruby>いです。そふのしゃしんを<ruby>見<rt>み</rt></ruby>ると、<ruby>母<rt>はは</rt></ruby>はいつも「<ruby>立派<rt>りっぱ</rt></ruby>だ<em class=\"g\">ね</em>」と<ruby>話<rt>はな</rt></ruby>します。でも、そのあとで「みためより、まいにちのしごとのほうがたいせつだ<em class=\"g\">ね</em>」ともつけくわえます。わたしもそうおもいます。かみのけがうすくなっても、ふとっても、まいにちはたらく<ruby>人<rt>ひと</rt></ruby>はきれいです。",
+ "traduccion": "Mi abuelo era un hombre alto y de brazos gruesos. Dicen que de joven trabajaba en el monte. Yo ahora soy bajo y de brazos delgados. Cuando mira la foto de mi abuelo, mi madre siempre dice «qué porte tenía, ¿eh?». Pero luego añade: «más que el aspecto, lo que importa es el trabajo de cada día, ¿verdad?». Yo pienso lo mismo. Aunque se te caiga el pelo o engordes, quien trabaja cada día resulta hermoso.",
+ "preguntas": [
+  {
+   "p": "そふはどんな<ruby>人<rt>ひと</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>背<rt>せ</rt></ruby>がひくくてうでが<ruby>細<rt>ほそ</rt></ruby>い",
+    "<ruby>背<rt>せ</rt></ruby>が<ruby>高<rt>たか</rt></ruby>くてうでが<ruby>太<rt>ふと</rt></ruby>い",
+    "かみのけがうすい",
+    "ふとっていた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>母<rt>はは</rt></ruby>は<ruby>何<rt>なに</rt></ruby>がたいせつだと<ruby>話<rt>はな</rt></ruby>しますか。",
+   "opciones": [
+    "みため",
+    "まいにちのしごと",
+    "<ruby>背<rt>せ</rt></ruby>の<ruby>高<rt>たか</rt></ruby>さ",
+    "しゃしん"
+   ],
+   "correcta": 1
+  }
+ ]
+}

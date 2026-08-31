@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/gijutsu/ocio-1",
+ "titulo": "パーティーの<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "きのう、ともだちのうちでパーティーがありました。みんなで<em class=\"g\">一緒に</em>りょうりを<ruby>作<rt>つく</rt></ruby>りました。わたしはやさいを<ruby>切<rt>き</rt></ruby>るかかりでした。ごはんのあと、<em class=\"g\">一緒に</em><ruby>歌<rt>うた</rt></ruby>をうたいました。うたえない<ruby>人<rt>ひと</rt></ruby>もいましたが、だれも<ruby>気<rt>き</rt></ruby>にしませんでした。よるおそくまで<ruby>話<rt>はな</rt></ruby>して、そとに<ruby>出<rt>で</rt></ruby>ると、<ruby>雨<rt>あめ</rt></ruby>がやんでいました。みんなで<em class=\"g\">一緒に</em><ruby>駅<rt>えき</rt></ruby>まであるきました。ひとりでかえるより、ずっとたのしかったです。",
+ "traduccion": "Ayer hubo una fiesta en casa de un amigo. Cocinamos todos juntos. Yo me encargué de cortar la verdura. Después de comer, cantamos juntos. Había quien no sabía cantar, pero a nadie le importó. Estuvimos hablando hasta tarde y, al salir, ya había parado de llover. Fuimos todos juntos andando hasta la estación. Fue mucho más divertido que volver solo.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>はパーティーで<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "ごはんを<ruby>作<rt>つく</rt></ruby>らなかった",
+    "やさいを<ruby>切<rt>き</rt></ruby>った",
+    "<ruby>歌<rt>うた</rt></ruby>をうたわなかった",
+    "はやくかえった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "そとに<ruby>出<rt>で</rt></ruby>ると、どうでしたか。",
+   "opciones": [
+    "<ruby>雨<rt>あめ</rt></ruby>がふっていた",
+    "<ruby>雨<rt>あめ</rt></ruby>がやんでいた",
+    "<ruby>人<rt>ひと</rt></ruby>がおおかった",
+    "くらくなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

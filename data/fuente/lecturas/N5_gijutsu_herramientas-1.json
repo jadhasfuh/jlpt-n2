@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/gijutsu/herramientas-1",
+ "titulo": "<ruby>鉛筆<rt>えんぴつ</rt></ruby>とボールペン",
+ "cuerpo": "わたしは<ruby>字<rt>じ</rt></ruby>を<ruby>書<rt>か</rt></ruby>く<em class=\"g\">のが下手</em>です。とくにボールペンはにがてです。まちがえても<ruby>消<rt>け</rt></ruby>せないからです。<ruby>鉛筆<rt>えんぴつ</rt></ruby>なら、なんどでも<ruby>書<rt>か</rt></ruby>きなおせます。きのう、ノートに<ruby>大<rt>おお</rt></ruby>きなかみを<ruby>貼<rt>は</rt></ruby>って、<ruby>一<rt>いち</rt></ruby>しゅうかんのよていを<ruby>書<rt>か</rt></ruby>きました。<ruby>先生<rt>せんせい</rt></ruby>は、よめればいいのだとおしえてくれました。それを<ruby>聞<rt>き</rt></ruby>いて、<ruby>気<rt>き</rt></ruby>もちがかるくなりました。いまは、<ruby>字<rt>じ</rt></ruby>をならべる<em class=\"g\">のが下手</em>でも、まいにち<ruby>書<rt>か</rt></ruby>くようにしています。",
+ "traduccion": "Se me da mal escribir. El bolígrafo sobre todo, porque si te equivocas no lo puedes borrar. Con el lápiz puedo reescribir las veces que haga falta. Ayer pegué un papel grande en el cuaderno y apunté el plan de la semana. El profesor me enseñó que basta con que se entienda. Al oírlo me quedé más tranquilo. Ahora, aunque se me dé mal alinear las letras, procuro escribir todos los días.",
+ "preguntas": [
+  {
+   "p": "ボールペンがにがてなのはなぜですか。",
+   "opciones": [
+    "たかいから",
+    "まちがえても<ruby>消<rt>け</rt></ruby>せないから",
+    "ふといから",
+    "<ruby>書<rt>か</rt></ruby>きにくいから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をおしえてくれましたか。",
+   "opciones": [
+    "まいにち<ruby>書<rt>か</rt></ruby>くこと",
+    "よめればいいこと",
+    "<ruby>鉛筆<rt>えんぴつ</rt></ruby>をつかうこと",
+    "かみを<ruby>貼<rt>は</rt></ruby>ること"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/gakkou/escuela-1",
+ "titulo": "わたしの<ruby>学校<rt>がっこう</rt></ruby>",
+ "cuerpo": "わたしの<ruby>学校<rt>がっこう</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>からあるいてじっぷんのところにあります。<ruby>教室<rt>きょうしつ</rt></ruby>は<ruby>三<rt>さん</rt></ruby>かいにあって、まどから<ruby>山<rt>やま</rt></ruby>が<ruby>見<rt>み</rt></ruby>えます。クラスには<ruby>学生<rt>がくせい</rt></ruby>が<ruby>二十人<rt>にじゅうにん</rt></ruby>います。<ruby>授業<rt>じゅぎょう</rt></ruby>はあさ<ruby>九時<rt>くじ</rt></ruby>からです。きょうは<ruby>大学<rt>だいがく</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>が<ruby>来<rt>き</rt></ruby>て、<ruby>講演<rt>こうえん</rt></ruby>をしてくれました。<ruby>話<rt>はなし</rt></ruby>はすこしむずかしかったですが、おもしろかったです。かえりに<ruby>宿題<rt>しゅくだい</rt></ruby>をもらいました。<ruby>生徒<rt>せいと</rt></ruby>はみんな、「おおいね」とわらっていました。",
+ "traduccion": "Mi colegio está a diez minutos andando de la estación. Las aulas están en el tercer piso y desde la ventana se ve la montaña. En mi clase somos veinte estudiantes. Las clases empiezan a las nueve de la mañana. Hoy vino un profesor de la universidad y nos dio una conferencia. La charla fue un poco difícil, pero interesante. Al salir nos pusieron deberes. Los alumnos se reían diciendo «¡cuántos!».",
+ "preguntas": [
+  {
+   "p": "<ruby>教室<rt>きょうしつ</rt></ruby>のまどから<ruby>何<rt>なに</rt></ruby>が<ruby>見<rt>み</rt></ruby>えますか。",
+   "opciones": [
+    "<ruby>駅<rt>えき</rt></ruby>",
+    "<ruby>山<rt>やま</rt></ruby>",
+    "<ruby>大学<rt>だいがく</rt></ruby>",
+    "<ruby>川<rt>かわ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "きょう、<ruby>大学<rt>だいがく</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>授業<rt>じゅぎょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>た",
+    "<ruby>講演<rt>こうえん</rt></ruby>をした",
+    "<ruby>宿題<rt>しゅくだい</rt></ruby>をあつめた",
+    "クラスをつくった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

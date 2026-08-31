@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/gakkou/examen-1",
+ "titulo": "テストの<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "きょうはテストの<ruby>日<rt>ひ</rt></ruby>でした。あさおきて、ごはんをたべました。<em class=\"g\">それから</em>、ノートをもう<ruby>一<rt>いち</rt></ruby>どよみました。<ruby>学校<rt>がっこう</rt></ruby>につくと、ともだちが「<ruby>質問<rt>しつもん</rt></ruby>がある」といいました。かれの<ruby>質問<rt>しつもん</rt></ruby>にこたえて、<em class=\"g\">それから</em>、<ruby>二人<rt>ふたり</rt></ruby>で<ruby>教室<rt>きょうしつ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りました。テストの<ruby>問題<rt>もんだい</rt></ruby>は<ruby>十<rt>じゅう</rt></ruby>ありました。むずかしいものもありましたが、ぜんぶこたえました。<em class=\"g\">それから</em>、そとに<ruby>出<rt>で</rt></ruby>て、そらを<ruby>見<rt>み</rt></ruby>ました。とてもあおかったです。",
+ "traduccion": "Hoy era el día del examen. Me levanté por la mañana y desayuné. Después repasé el cuaderno una vez más. Al llegar al colegio, un amigo me dijo que tenía una pregunta. Le respondí y después entramos los dos en el aula. El examen tenía diez preguntas. Algunas eran difíciles, pero las contesté todas. Luego salí fuera y miré el cielo. Estaba muy azul.",
+ "preguntas": [
+  {
+   "p": "<ruby>学校<rt>がっこう</rt></ruby>についたとき、ともだちは<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "ノートをかした",
+    "<ruby>質問<rt>しつもん</rt></ruby>をした",
+    "テストをうけた",
+    "そとへ<ruby>出<rt>で</rt></ruby>た"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "テストの<ruby>問題<rt>もんだい</rt></ruby>はいくつありましたか。",
+   "opciones": [
+    "<ruby>五<rt>いつ</rt></ruby>つ",
+    "<ruby>十<rt>じゅう</rt></ruby>",
+    "<ruby>二十<rt>にじゅう</rt></ruby>",
+    "<ruby>一<rt>ひと</rt></ruby>つ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

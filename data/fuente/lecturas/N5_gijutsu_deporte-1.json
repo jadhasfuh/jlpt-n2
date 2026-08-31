@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/gijutsu/deporte-1",
+ "titulo": "スポーツの<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "<ruby>日<rt>にち</rt></ruby>よう<ruby>日<rt>び</rt></ruby>は、こうえんでスポーツをします。ともだちと、はしっ<em class=\"g\">たり</em>なげ<em class=\"g\">たり</em>します。<ruby>今<rt>いま</rt></ruby>はサッカーが<ruby>一番<rt>いちばん</rt></ruby>すきです。ちいさいころは、およい<em class=\"g\">たり</em><ruby>山<rt>やま</rt></ruby>にのぼっ<em class=\"g\">たり</em>していました。からだをうごかすと、よるよくねむれます。<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は、うちで<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>ん<em class=\"g\">だり</em>おんがくを<ruby>聞<rt>き</rt></ruby>い<em class=\"g\">たり</em>します。それもたのしいですが、やはりそとのほうがすきです。",
+ "traduccion": "Los domingos hago deporte en el parque. Con mis amigos corro, lanzo la pelota y cosas así. Ahora lo que más me gusta es el fútbol. De pequeño hacía cosas como nadar o subir a la montaña. Cuando muevo el cuerpo, por la noche duermo bien. Los días de lluvia me quedo en casa leyendo o escuchando música. Eso también está bien, pero prefiero estar fuera.",
+ "preguntas": [
+  {
+   "p": "<ruby>今<rt>いま</rt></ruby>、<ruby>一番<rt>いちばん</rt></ruby>すきなスポーツは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "およぐこと",
+    "サッカー",
+    "<ruby>山<rt>やま</rt></ruby>にのぼること",
+    "はしること"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "こうえんへ<ruby>行<rt>い</rt></ruby>く",
+    "うちで<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだりする",
+    "およぐ",
+    "<ruby>山<rt>やま</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く"
+   ],
+   "correcta": 1
+  }
+ ]
+}

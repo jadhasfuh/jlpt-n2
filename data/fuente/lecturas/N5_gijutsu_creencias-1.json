@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/gijutsu/creencias-1",
+ "titulo": "むらのまつり",
+ "cuerpo": "<ruby>年<rt>とし</rt></ruby>に<ruby>一<rt>いち</rt></ruby>ど、むらでまつりがあります。ちいさなおみやに<ruby>神<rt>かみ</rt></ruby>さまがいると、むかしからつたえられています。まつりの<ruby>日<rt>ひ</rt></ruby>は、あめ<em class=\"g\">か</em>はれ<em class=\"g\">か</em>わからないので、みんなすこししんぱいします。ことしははれました。<ruby>子<rt>こ</rt></ruby>どもも<ruby>大人<rt>おとな</rt></ruby>も、<ruby>気<rt>き</rt></ruby>もちよくあるきました。うちのそぼは、ぶっ<ruby>教<rt>きょう</rt></ruby>のおてらにも<ruby>行<rt>い</rt></ruby>きます。<ruby>神<rt>かみ</rt></ruby>さま<em class=\"g\">か</em>ほとけさま<em class=\"g\">か</em>、どちらかをえらばなくてもいいのだとおしえてくれました。",
+ "traduccion": "Una vez al año hay una fiesta en la aldea. Se cuenta desde antiguo que en el pequeño santuario vive un dios. El día de la fiesta nadie sabe si lloverá o hará sol, así que todos andamos algo preocupados. Este año hizo sol. Niños y mayores caminamos a gusto. Mi abuela va también al templo budista. Me enseñó que no hace falta elegir entre el dios sintoísta o el Buda.",
+ "preguntas": [
+  {
+   "p": "まつりの<ruby>日<rt>ひ</rt></ruby>、みんながしんぱいするのはなぜですか。",
+   "opciones": [
+    "<ruby>人<rt>ひと</rt></ruby>がすくないから",
+    "あめ<em class=\"g\">か</em>はれ<em class=\"g\">か</em>わからないから",
+    "おみやがちいさいから",
+    "<ruby>神<rt>かみ</rt></ruby>さまがいないから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "そぼは<ruby>何<rt>なに</rt></ruby>をおしえてくれましたか。",
+   "opciones": [
+    "おてらへ<ruby>行<rt>い</rt></ruby>くこと",
+    "どちらかをえらばなくてもいいこと",
+    "まつりに<ruby>出<rt>で</rt></ruby>ること",
+    "<ruby>気<rt>き</rt></ruby>もちをたいせつにすること"
+   ],
+   "correcta": 1
+  }
+ ]
+}
