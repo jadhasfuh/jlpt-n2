@@ -324,6 +324,8 @@ const T = {
   "sus.titulo":     { es: "Suscripción", en: "Subscription" },
   "sus.sub":        { es: "Acceso completo a los cinco niveles, los exámenes y el repaso. Se cancela cuando quieras.",
                       en: "Full access to all five levels, the exams and reviews. Cancel whenever you like." },
+  "sus.alMes":      { es: "al mes", en: "per month" },
+  "sus.alAno":      { es: "al año", en: "per year" },
   "sus.queIncluye": { es: "Qué incluye", en: "What you get" },
   "sus.p1":         { es: "Los cinco niveles completos, del N5 al N1.",
                       en: "All five levels, N5 through N1." },

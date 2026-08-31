@@ -19,10 +19,11 @@ declare global { interface Window { Paddle?: Paddle } }
  * webhook tarda un par de segundos en llegar: se recarga cuando Paddle avisa
  * de que la compra se completó.
  */
-export function Suscripcion({ ajustes, cuenta }: {
+export function Suscripcion({ ajustes, cuenta, tarifa }: {
   ajustes: { token: string; precio: string; entorno: string; listo: boolean };
   cuenta: { correo: string | null; id: string; alDia: boolean; membresia: string;
             vence: string | null; tienePago: boolean } | null;
+  tarifa: { texto: string; intervalo: string | null } | null;
 }) {
   const { t } = useAjustes();
   const [cargado, setCargado] = useState(false);
@@ -130,6 +131,16 @@ export function Suscripcion({ ajustes, cuenta }: {
   return (
     <>
       <div className="tarjeta" style={{ marginTop: 26, padding: 22 }}>
+        {/* El precio va antes que la lista: es lo primero que busca quien entra,
+            y Paddle exige verlo en la web antes de aprobar la cuenta. */}
+        {tarifa && (
+          <p style={{ margin: "0 0 14px", display: "flex", alignItems: "baseline", gap: 6 }}>
+            <span style={{ fontSize: 30, fontWeight: 600, color: "var(--tinta)" }}>{tarifa.texto}</span>
+            <span style={{ fontSize: 13.5, color: "var(--tinta-2)" }}>
+              {t(tarifa.intervalo === "year" ? "sus.alAno" : "sus.alMes")}
+            </span>
+          </p>
+        )}
         <h2 style={{ fontSize: 17, fontWeight: 500, margin: "0 0 10px" }}>{t("sus.queIncluye")}</h2>
         <ul style={{ margin: 0, paddingLeft: 18, fontSize: 14, lineHeight: 1.9, color: "var(--tinta-2)" }}>
           <li>{t("sus.p1")}</li>

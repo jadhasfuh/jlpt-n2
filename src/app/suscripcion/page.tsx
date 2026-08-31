@@ -1,7 +1,7 @@
 import { Cabecera } from "@/components/Cabecera";
 import { Suscripcion } from "@/components/Suscripcion";
 import { alDia, perfil } from "@/lib/sesion";
-import { ajustesNavegador } from "@/lib/paddle";
+import { ajustesNavegador, precio } from "@/lib/paddle";
 import { idiomaActual } from "@/lib/idioma-servidor";
 import { t as trad } from "@/lib/idioma";
 
@@ -9,7 +9,7 @@ export const metadata = { title: "Suscripción — jlptest" };
 
 export default async function Pagina() {
   const idioma = await idiomaActual();
-  const p = await perfil();
+  const [p, tarifa] = await Promise.all([perfil(), precio(idioma)]);
   // Del perfil sólo baja lo que la pantalla necesita: los ids del proveedor de
   // pago se quedan en el servidor.
   const cuenta = p && {
@@ -27,7 +27,7 @@ export default async function Pagina() {
         <p style={{ margin: "0 0 6px", fontSize: 13, color: "var(--tinta-2)", maxWidth: "42ch" }}>
           {trad("sus.sub", idioma)}
         </p>
-        <Suscripcion ajustes={ajustesNavegador()} cuenta={cuenta} />
+        <Suscripcion ajustes={ajustesNavegador()} cuenta={cuenta} tarifa={tarifa} />
       </main>
     </>
   );

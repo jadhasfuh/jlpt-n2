@@ -107,3 +107,44 @@ export async function portal(clienteId: string, suscripcionId?: string | null) {
     cambiarPago: suya?.update_subscription_payment_method ?? null,
   };
 }
+
+type Precio = {
+  data: {
+    unit_price: { amount: string; currency_code: string };
+    billing_cycle: { interval: string; frequency: number } | null;
+  };
+};
+
+/**
+ * El precio, tal como está puesto en Paddle.
+ *
+ * Se lee de allí en vez de escribirlo aquí a mano para que no puedan
+ * desacordarse: si algún día se sube el precio, se cambia en un sitio y la
+ * página lo refleja. `amount` viene en la unidad más pequeña de la moneda
+ * (7900 = 79,00 MXN) y como cadena, no como número.
+ *
+ * Se cachea una hora: el precio no cambia a diario y no tiene sentido llamar
+ * a Paddle en cada visita.
+ */
+export async function precio(idioma: "es" | "en" = "es") {
+  const id = process.env.PADDLE_PRECIO;
+  const clave = process.env.PADDLE_API_KEY;
+  if (!id || !clave) return null;
+  try {
+    const r = await fetch(`${API}/prices/${id}`, {
+      headers: { Authorization: `Bearer ${clave}` },
+      next: { revalidate: 3600 },
+    });
+    if (!r.ok) return null;
+    const j = (await r.json()) as Precio;
+    const cantidad = Number(j.data.unit_price.amount) / 100;
+    const moneda = j.data.unit_price.currency_code;
+    const texto = new Intl.NumberFormat(idioma === "es" ? "es-MX" : "en-US", {
+      style: "currency", currency: moneda, maximumFractionDigits: 0,
+    }).format(cantidad);
+    return { texto, intervalo: j.data.billing_cycle?.interval ?? null };
+  } catch {
+    // Que no se caiga la pantalla de suscripción por no poder pintar el precio.
+    return null;
+  }
+}
