@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/dousa/dar_recibir-1",
+ "titulo": "<ruby>寄付<rt>きふ</rt></ruby>のかたち",
+ "cuerpo": "<ruby>近所<rt>きんじょ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>どもしょくどうに、<ruby>毎月<rt>まいつき</rt></ruby>すこしずつ<ruby>寄付<rt>きふ</rt></ruby>をしています。<ruby>金<rt>かね</rt></ruby>がすべてではないと<ruby>分<rt>わ</rt></ruby>かっていますが、はたらいている<ruby>今<rt>いま</rt></ruby>のわたしにできるのは、それくらいです。<ruby>時間<rt>じかん</rt></ruby>のある<ruby>人<rt>ひと</rt></ruby>は、りょうりを<ruby>作<rt>つく</rt></ruby>って<ruby>貢献<rt>こうけん</rt></ruby>しています。できることが<ruby>人<rt>ひと</rt></ruby>によってちがうのは、あたりまえのことです。「<ruby>何<rt>なに</rt></ruby>もできないから」と<ruby>言<rt>い</rt></ruby>って<ruby>何<rt>なに</rt></ruby>もしない<em class=\"g\">わけにはいかない</em>と<ruby>思<rt>おも</rt></ruby>っています。<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>った<ruby>子<rt>こ</rt></ruby>どもの<ruby>顔<rt>かお</rt></ruby>を<ruby>見<rt>み</rt></ruby>ると、つづけずに<em class=\"g\">はいられない</em><ruby>気持<rt>きも</rt></ruby>ちになります。<ruby>支<rt>ささ</rt></ruby>えは、<ruby>広<rt>ひろ</rt></ruby>がっていくものです。",
+ "traduccion": "Cada mes hago una pequeña donación al comedor infantil del barrio. Sé que el dinero no lo es todo, pero, con el trabajo que tengo ahora, es lo que puedo hacer. Quien dispone de tiempo contribuye cocinando. Es lo más normal que lo que cada uno puede hacer sea distinto. Creo que no vale decir «yo no puedo hacer nada» y quedarse sin hacer nada. Cuando ves la cara de los niños que lo reciben, no puedes evitar querer seguir. El apoyo es algo que se va extendiendo.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていますか。",
+   "opciones": [
+    "りょうりを<ruby>作<rt>つく</rt></ruby>る",
+    "<ruby>毎月<rt>まいつき</rt></ruby>すこしずつ<ruby>寄付<rt>きふ</rt></ruby>する",
+    "<ruby>子<rt>こ</rt></ruby>どもをあずかる",
+    "<ruby>時間<rt>じかん</rt></ruby>をあげる"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>時間<rt>じかん</rt></ruby>のある<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていますか。",
+   "opciones": [
+    "<ruby>寄付<rt>きふ</rt></ruby>する",
+    "りょうりを<ruby>作<rt>つく</rt></ruby>って<ruby>貢献<rt>こうけん</rt></ruby>する",
+    "<ruby>何<rt>なに</rt></ruby>もしない",
+    "<ruby>子<rt>こ</rt></ruby>どもを<ruby>見<rt>み</rt></ruby>る"
+   ],
+   "correcta": 1
+  }
+ ]
+}

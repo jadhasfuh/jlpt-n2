@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/dousa/hacer-1",
+ "titulo": "<ruby>省<rt>はぶ</rt></ruby>くと<ruby>生<rt>しょう</rt></ruby>じるもの",
+ "cuerpo": "<ruby>建設<rt>けんせつ</rt></ruby>の<ruby>現場<rt>げんば</rt></ruby>では、<ruby>時間<rt>じかん</rt></ruby>をちぢめるためにてじゅんを<ruby>省<rt>はぶ</rt></ruby>きたくなることがあります。でも、<ruby>設計<rt>せっけい</rt></ruby>に<ruby>基<rt>もと</rt></ruby>づかない<ruby>作業<rt>さぎょう</rt></ruby>からは、あとでかならずもんだいが<ruby>生<rt>しょう</rt></ruby>じます。<ruby>建築<rt>けんちく</rt></ruby>は、<ruby>見<rt>み</rt></ruby>えないところがたいせつです。<ruby>一<rt>ひと</rt></ruby>つの<ruby>工<rt>こう</rt></ruby>ていを<ruby>飛<rt>と</rt></ruby>ばして、<ruby>十<rt>じゅう</rt></ruby><ruby>年<rt>ねん</rt></ruby><ruby>後<rt>ご</rt></ruby>にこわれたら、はやく<ruby>作<rt>つく</rt></ruby>った<ruby>意味<rt>いみ</rt></ruby>がありません。<ruby>発明<rt>はつめい</rt></ruby>やあたらしいぎじゅつを<ruby>用<rt>もち</rt></ruby>いても、きほんはかわりません。いそがしくても、たしかめ<em class=\"g\">ないことはない</em>はずです。<ruby>一<rt>いち</rt></ruby><ruby>分<rt>ぷん</rt></ruby>あれば、できることのほうがおおいのですから。",
+ "traduccion": "En las obras, a veces te entran ganas de saltarte pasos para acortar el tiempo. Pero de un trabajo que no se apoya en el proyecto siempre acaban surgiendo problemas después. En construcción lo que importa es lo que no se ve. Si te saltas una fase y aquello se rompe diez años más tarde, no tiene sentido haberlo hecho rápido. Aunque uses inventos y tecnología nueva, lo básico no cambia. Por muy ocupado que estés, no es que no puedas comprobarlo. Porque con un minuto ya se pueden hacer bastantes cosas.",
+ "preguntas": [
+  {
+   "p": "<ruby>設計<rt>せっけい</rt></ruby>に<ruby>基<rt>もと</rt></ruby>づかない<ruby>作業<rt>さぎょう</rt></ruby>から、<ruby>何<rt>なに</rt></ruby>が<ruby>生<rt>しょう</rt></ruby>じますか。",
+   "opciones": [
+    "はやいけっか",
+    "あとでもんだい",
+    "あたらしいぎじゅつ",
+    "やすいたてもの"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>建築<rt>けんちく</rt></ruby>でたいせつなのはどこですか。",
+   "opciones": [
+    "<ruby>見<rt>み</rt></ruby>えるところ",
+    "<ruby>見<rt>み</rt></ruby>えないところ",
+    "はやさ",
+    "<ruby>発明<rt>はつめい</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

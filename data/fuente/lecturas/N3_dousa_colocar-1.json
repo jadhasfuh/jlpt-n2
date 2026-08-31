@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/dousa/colocar-1",
+ "titulo": "<ruby>混<rt>ま</rt></ruby>ざっていくもの",
+ "cuerpo": "<ruby>台所<rt>だいどころ</rt></ruby>のひきだしに、こまかいものが<ruby>溜<rt>た</rt></ruby>まっていました。はさみ、ひも、つかっていないコード。ぜんぶ<ruby>交<rt>ま</rt></ruby>ざっていて、さがすのに<ruby>時間<rt>じかん</rt></ruby>がかかります。ひもを<ruby>組<rt>く</rt></ruby>んでまとめ、コードは<ruby>繋<rt>つな</rt></ruby>げてもいい<ruby>相手<rt>あいて</rt></ruby>がないので、すてることにしました。<ruby>奥<rt>おく</rt></ruby>に<ruby>隠<rt>かく</rt></ruby>れていたねじは、どこのものか<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>し<em class=\"g\">ようがない</em>です。でも、こういうものこそ、すてたつぎの<ruby>日<rt>ひ</rt></ruby>に<ruby>要<rt>い</rt></ruby>るようになるん<em class=\"g\">じゃない</em>でしょうか。けっきょく、ちいさな<ruby>箱<rt>はこ</rt></ruby>にまとめて<ruby>残<rt>のこ</rt></ruby>しました。",
+ "traduccion": "En el cajón de la cocina se habían ido acumulando cosas pequeñas. Tijeras, cuerdas, cables sin usar. Estaba todo mezclado y se tardaba en encontrar algo. Trencé las cuerdas para juntarlas y, como los cables no tenían a qué conectarse, decidí tirarlos. De los tornillos escondidos al fondo no hay manera de acordarse de dónde salieron. Pero ¿no será que justo estas cosas hacen falta al día siguiente de tirarlas? Al final las junté todas en una cajita y las guardé.",
+ "preguntas": [
+  {
+   "p": "コードをすてたのはなぜですか。",
+   "opciones": [
+    "<ruby>古<rt>ふる</rt></ruby>いから",
+    "<ruby>繋<rt>つな</rt></ruby>げてもいい<ruby>相手<rt>あいて</rt></ruby>がないから",
+    "<ruby>隠<rt>かく</rt></ruby>れていたから",
+    "<ruby>溜<rt>た</rt></ruby>まっていたから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "ねじについて、どうしましたか。",
+   "opciones": [
+    "すてた",
+    "ちいさな<ruby>箱<rt>はこ</rt></ruby>にまとめて<ruby>残<rt>のこ</rt></ruby>した",
+    "<ruby>組<rt>く</rt></ruby>んだ",
+    "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>した"
+   ],
+   "correcta": 1
+  }
+ ]
+}

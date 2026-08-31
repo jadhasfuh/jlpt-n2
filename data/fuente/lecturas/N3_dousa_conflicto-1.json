@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/dousa/conflicto-1",
+ "titulo": "<ruby>選手<rt>せんしゅ</rt></ruby>たちの<ruby>夜<rt>よる</rt></ruby>",
+ "cuerpo": "<ruby>試合<rt>しあい</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>、<ruby>選手<rt>せんしゅ</rt></ruby>たちはだまってじゅんびをします。<ruby>相手<rt>あいて</rt></ruby>のこうげきをどう<ruby>防<rt>ふせ</rt></ruby>ぐか、なんどもかくにんします。ゲームのけっかはその<ruby>日<rt>ひ</rt></ruby>のちょうしにもよりますが、じゅんびをした<ruby>人<rt>ひと</rt></ruby><em class=\"g\">こそ</em>、しっぱいしたときに<ruby>立<rt>た</rt></ruby>ちなおれます。かんとくは、<ruby>作<rt>さく</rt></ruby>せんを<ruby>長<rt>なが</rt></ruby>く<ruby>論<rt>ろん</rt></ruby>じません。「けっかより、やることをやったかどうかだ」と<ruby>一言<rt>ひとこと</rt></ruby>だけ<ruby>言<rt>い</rt></ruby>います。<ruby>勝<rt>か</rt></ruby>ったときよりも、<ruby>負<rt>ま</rt></ruby>けたときのようす<em class=\"g\">こそ</em>が、そのチームのちからを<ruby>表<rt>あらわ</rt></ruby>すのだと<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "La noche antes del partido, los jugadores preparan las cosas en silencio. Repasan una y otra vez cómo frenar el ataque del rival. El resultado depende también del estado de forma de ese día, pero es precisamente quien se ha preparado el que puede rehacerse cuando falla. El entrenador no se extiende hablando de táctica. Solo dice una frase: «más que el resultado, si hemos hecho lo que teníamos que hacer». Creo que es la manera de comportarse al perder, más que al ganar, lo que muestra la fuerza de un equipo.",
+ "preguntas": [
+  {
+   "p": "じゅんびをした<ruby>人<rt>ひと</rt></ruby>は、どんなときに<ruby>強<rt>つよ</rt></ruby>いですか。",
+   "opciones": [
+    "<ruby>勝<rt>か</rt></ruby>ったとき",
+    "しっぱいしたとき",
+    "<ruby>試合<rt>しあい</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>",
+    "かんとくがいるとき"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "チームのちからを<ruby>表<rt>あらわ</rt></ruby>すのは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>勝<rt>か</rt></ruby>ったときのようす",
+    "<ruby>負<rt>ま</rt></ruby>けたときのようす",
+    "<ruby>作<rt>さく</rt></ruby>せん",
+    "<ruby>選手<rt>せんしゅ</rt></ruby>のかず"
+   ],
+   "correcta": 1
+  }
+ ]
+}

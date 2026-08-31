@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/dousa/mano-1",
+ "titulo": "<ruby>結<rt>むす</rt></ruby>んで、<ruby>解<rt>と</rt></ruby>いて",
+ "cuerpo": "こどものころ、くつのひもを<ruby>結<rt>むす</rt></ruby>ぶのがへたでした。きつく<ruby>引<rt>ひ</rt></ruby>っ<ruby>張<rt>ぱ</rt></ruby>りすぎて、あとで<ruby>解<rt>と</rt></ruby>けなくなります。ゆるいと、<ruby>歩<rt>ある</rt></ruby>いているうちに<ruby>外<rt>はず</rt></ruby>れてしまいます。<ruby>母<rt>はは</rt></ruby>は「ちからをぬいて、ゆびを<ruby>当<rt>あ</rt></ruby>てるだけでいい」と<ruby>教<rt>おし</rt></ruby>えてくれました。<em class=\"g\">まさか</em>それだけでうまくいくとは<ruby>思<rt>おも</rt></ruby>いませんでしたが、やってみるとほんとうにできました。ちからを<ruby>高<rt>たか</rt></ruby>めるより、ぬくほうがむずかしいこともあります。まいにちやら<em class=\"g\">ないと</em>、<ruby>手<rt>て</rt></ruby>はすぐわすれてしまいます。",
+ "traduccion": "De niño se me daba mal atarme los cordones. Los apretaba tanto que luego no se desataban. Y si los dejaba flojos, se me soltaban andando. Mi madre me enseñó: «relaja la fuerza, basta con apoyar los dedos». Jamás pensé que solo con eso saliera bien, pero al probarlo funcionó de verdad. A veces cuesta más soltar la fuerza que aumentarla. Si no lo haces cada día, las manos se olvidan enseguida.",
+ "preguntas": [
+  {
+   "p": "きつく<ruby>引<rt>ひ</rt></ruby>っ<ruby>張<rt>ぱ</rt></ruby>りすぎると、どうなりますか。",
+   "opciones": [
+    "<ruby>外<rt>はず</rt></ruby>れる",
+    "あとで<ruby>解<rt>と</rt></ruby>けなくなる",
+    "<ruby>歩<rt>ある</rt></ruby>けない",
+    "きれる"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>母<rt>はは</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてくれましたか。",
+   "opciones": [
+    "きつく<ruby>結<rt>むす</rt></ruby>ぶこと",
+    "ちからをぬいてゆびを<ruby>当<rt>あ</rt></ruby>てるだけでいいこと",
+    "まいにちれんしゅうすること",
+    "くつをかえること"
+   ],
+   "correcta": 1
+  }
+ ]
+}

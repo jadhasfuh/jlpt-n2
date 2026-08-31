@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/dousa/abstractas-1",
+ "titulo": "<ruby>保存<rt>ほぞん</rt></ruby>という<ruby>仕事<rt>しごと</rt></ruby>",
+ "cuerpo": "<ruby>図書<rt>としょ</rt></ruby>かんの<ruby>地下<rt>ちか</rt></ruby>に、<ruby>古<rt>ふる</rt></ruby>い<ruby>資料<rt>しりょう</rt></ruby>が<ruby>保存<rt>ほぞん</rt></ruby>されています。<ruby>温度<rt>おんど</rt></ruby>と<ruby>湿<rt>しつ</rt></ruby>どを<ruby>一定<rt>いってい</rt></ruby>に<ruby>維持<rt>いじ</rt></ruby>するために、<ruby>一年<rt>いちねん</rt></ruby>じゅう<ruby>機械<rt>きかい</rt></ruby>が<ruby>動<rt>うご</rt></ruby>いています。<ruby>別<rt>べつ</rt></ruby>の<ruby>建物<rt>たてもの</rt></ruby>へ<ruby>移動<rt>いどう</rt></ruby>させるときは、<ruby>紙<rt>かみ</rt></ruby>が<ruby>破<rt>やぶ</rt></ruby>れないよう、いちまいずつ<ruby>運<rt>はこ</rt></ruby>びます。<ruby>見<rt>み</rt></ruby>ている<ruby>人<rt>ひと</rt></ruby><em class=\"g\">さえ</em>いない<ruby>地下<rt>ちか</rt></ruby>で、だれかがこの<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>けてきました。はじめは<ruby>単<rt>たん</rt></ruby>じゅんな<ruby>仕事<rt>しごと</rt></ruby>に<ruby>見<rt>み</rt></ruby>えましたが、この<ruby>静<rt>しず</rt></ruby>かさ<em class=\"g\">に慣れる</em>と、<ruby>百年<rt>ひゃくねん</rt></ruby><ruby>先<rt>さき</rt></ruby>に<ruby>渡<rt>わた</rt></ruby>すという<ruby>意味<rt>いみ</rt></ruby>がわかってきます。",
+ "traduccion": "En el sótano de la biblioteca se conservan documentos antiguos. Para mantener constantes la temperatura y la humedad, las máquinas funcionan todo el año. Cuando hay que trasladarlos a otro edificio, se llevan hoja por hoja para que el papel no se rompa. En un sótano donde ni siquiera hay nadie mirando, alguien ha seguido haciendo este trabajo. Al principio parecía una tarea sencilla, pero cuando te acostumbras a ese silencio, empiezas a entender lo que significa entregárselo a alguien dentro de cien años.",
+ "preguntas": [
+  {
+   "p": "<ruby>機械<rt>きかい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>のために<ruby>動<rt>うご</rt></ruby>いていますか。",
+   "opciones": [
+    "<ruby>紙<rt>かみ</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶため",
+    "<ruby>温度<rt>おんど</rt></ruby>と<ruby>湿<rt>しつ</rt></ruby>どを<ruby>維持<rt>いじ</rt></ruby>するため",
+    "<ruby>人<rt>ひと</rt></ruby>を<ruby>見<rt>み</rt></ruby>るため",
+    "<ruby>建物<rt>たてもの</rt></ruby>をまもるため"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>静<rt>しず</rt></ruby>かさ<em class=\"g\">に慣れる</em>と、<ruby>何<rt>なに</rt></ruby>がわかってきますか。",
+   "opciones": [
+    "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>単<rt>たん</rt></ruby>じゅんなこと",
+    "<ruby>百年<rt>ひゃくねん</rt></ruby><ruby>先<rt>さき</rt></ruby>に<ruby>渡<rt>わた</rt></ruby>す<ruby>意味<rt>いみ</rt></ruby>",
+    "<ruby>機械<rt>きかい</rt></ruby>のしくみ",
+    "<ruby>資料<rt>しりょう</rt></ruby>の<ruby>数<rt>かず</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}
