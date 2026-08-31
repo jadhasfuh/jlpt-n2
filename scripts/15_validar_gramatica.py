@@ -29,7 +29,7 @@ def variantes_te(parte):
 # Tres «puntos» del N5 no son una forma que se pueda buscar, sino una categoría
 # entera (los adjetivos en い y en な). Una lectura de esa unidad los usa por
 # fuerza, así que exigir la cadena literal sería un falso positivo eterno.
-CATEGORIAS = {"い-adjectives", "な-adjectives"}
+CATEGORIAS = {"い-adjectives", "な-adjectives", "他動詞 & 自動詞"}
 
 def aparece(forma, texto):
     if forma in CATEGORIAS: return True

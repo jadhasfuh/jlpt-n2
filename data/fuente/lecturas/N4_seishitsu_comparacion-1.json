@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/seishitsu/comparacion-1",
+ "titulo": "<ruby>比<rt>くら</rt></ruby>べない",
+ "cuerpo": "<ruby>子<rt>こ</rt></ruby>どものころ、いつも<ruby>兄<rt>あに</rt></ruby>と<ruby>比<rt>くら</rt></ruby>べられていました。「あんなふうになりなさい」と<ruby>言<rt>い</rt></ruby>われるたび、<ruby>自分<rt>じぶん</rt></ruby>がだめ<em class=\"g\">に見え</em>ました。<ruby>大人<rt>おとな</rt></ruby>になって<ruby>分<rt>わ</rt></ruby>かったのは、<ruby>兄<rt>あに</rt></ruby>も<ruby>同<rt>おな</rt></ruby>じことを<ruby>思<rt>おも</rt></ruby>っていたということです。<ruby>顔<rt>かお</rt></ruby>は<ruby>似<rt>に</rt></ruby>ていますが、すきなものはぜんぜんちがいます。きょうだい<em class=\"g\">の中で</em>いちばんしずかなのは<ruby>妹<rt>いもうと</rt></ruby>です。そんなふうに、それぞれちがうままでいいのだといまは<ruby>思<rt>おも</rt></ruby>います。<ruby>比<rt>くら</rt></ruby>べるのをやめると、あいてのいいところがよく<ruby>見<rt>み</rt></ruby>えてきます。",
+ "traduccion": "De niño siempre me comparaban con mi hermano mayor. Cada vez que me decían «sé como él», yo me veía inútil. Lo que entendí de adulto es que mi hermano pensaba exactamente lo mismo. Nuestras caras se parecen, pero lo que nos gusta no tiene nada que ver. De entre los hermanos, la más callada es mi hermana pequeña. Ahora pienso que está bien así, cada uno distinto. Cuando dejas de comparar, empiezas a ver lo bueno del otro.",
+ "preguntas": [
+  {
+   "p": "<ruby>子<rt>こ</rt></ruby>どものころ、どう<ruby>感<rt>かん</rt></ruby>じていましたか。",
+   "opciones": [
+    "<ruby>兄<rt>あに</rt></ruby>がすきだった",
+    "<ruby>自分<rt>じぶん</rt></ruby>がだめ<em class=\"g\">に見え</em>た",
+    "<ruby>妹<rt>いもうと</rt></ruby>がしずかだ",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>感<rt>かん</rt></ruby>じなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>大人<rt>おとな</rt></ruby>になって<ruby>分<rt>わ</rt></ruby>かったことは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>兄<rt>あに</rt></ruby>のほうがすぐれている",
+    "<ruby>兄<rt>あに</rt></ruby>も<ruby>同<rt>おな</rt></ruby>じことを<ruby>思<rt>おも</rt></ruby>っていた",
+    "<ruby>顔<rt>かお</rt></ruby>が<ruby>似<rt>に</rt></ruby>ている",
+    "<ruby>比<rt>くら</rt></ruby>べるべきだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

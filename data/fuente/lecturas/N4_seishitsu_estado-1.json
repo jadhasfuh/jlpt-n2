@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/seishitsu/estado-1",
+ "titulo": "<ruby>変<rt>か</rt></ruby>わるものと<ruby>変<rt>か</rt></ruby>えるもの",
+ "cuerpo": "<ruby>雨<rt>あめ</rt></ruby>が<ruby>止<rt>や</rt></ruby>みました。<ruby>空<rt>そら</rt></ruby>の<ruby>様<rt>よう</rt></ruby>すは、こちらが<ruby>何<rt>なに</rt></ruby>もしなくても<ruby>変<rt>か</rt></ruby>わります。でも、へやのなかは、<ruby>自分<rt>じぶん</rt></ruby>で<ruby>変<rt>か</rt></ruby>えなければ<ruby>変<rt>か</rt></ruby>わりません。<ruby>止<rt>と</rt></ruby>める、<ruby>止<rt>や</rt></ruby>む。<ruby>変<rt>か</rt></ruby>える、<ruby>変<rt>か</rt></ruby>わる。にほんごには、この<ruby>二<rt>ふた</rt></ruby>つのかたちがそろっていて、どちらの<ruby>場合<rt>ばあい</rt></ruby>かをはっきりさせます。<ruby>都合<rt>つごう</rt></ruby>がわるいとき、わたしはよく「しかたがない」と<ruby>言<rt>い</rt></ruby>います。でも、<ruby>遠慮<rt>えんりょ</rt></ruby>せずに<ruby>動<rt>うご</rt></ruby>けば<ruby>変<rt>か</rt></ruby>えられることも、<ruby>以外<rt>いがい</rt></ruby>とおおいのです。<ruby>生<rt>い</rt></ruby>きるというのは、たぶんその<ruby>見<rt>み</rt></ruby>わけかたを<ruby>習<rt>なら</rt></ruby>うことです。",
+ "traduccion": "Ha parado de llover. El aspecto del cielo cambia sin que uno haga nada. Pero el interior de una habitación no cambia si no lo cambias tú. Parar algo, pararse. Cambiar algo, cambiarse. El japonés tiene las dos formas y deja claro de cuál de los dos casos se trata. Cuando algo no me viene bien, suelo decir «no hay remedio». Pero, si te mueves sin cortarte, hay bastantes más cosas de las que parece que sí se pueden cambiar. Vivir es, probablemente, aprender a distinguir entre unas y otras.",
+ "preguntas": [
+  {
+   "p": "へやのなかについて、どうですか。",
+   "opciones": [
+    "<ruby>何<rt>なに</rt></ruby>もしなくても<ruby>変<rt>か</rt></ruby>わる",
+    "<ruby>自分<rt>じぶん</rt></ruby>で<ruby>変<rt>か</rt></ruby>えなければ<ruby>変<rt>か</rt></ruby>わらない",
+    "<ruby>変<rt>か</rt></ruby>えられない",
+    "<ruby>空<rt>そら</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えはどれですか。",
+   "opciones": [
+    "しかたがないことばかりだ",
+    "<ruby>動<rt>うご</rt></ruby>けば<ruby>変<rt>か</rt></ruby>えられることもおおい",
+    "<ruby>遠慮<rt>えんりょ</rt></ruby>すべきだ",
+    "<ruby>雨<rt>あめ</rt></ruby>は<ruby>止<rt>や</rt></ruby>まない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

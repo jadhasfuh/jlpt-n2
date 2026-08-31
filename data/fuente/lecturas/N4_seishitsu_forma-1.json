@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/seishitsu/forma-1",
+ "titulo": "<ruby>深<rt>ふか</rt></ruby>いところ",
+ "cuerpo": "うみで<ruby>泳<rt>およ</rt></ruby>ぐとき、<ruby>浅<rt>あさ</rt></ruby>いところと<ruby>深<rt>ふか</rt></ruby>いところでは<ruby>水<rt>みず</rt></ruby>のいろがちがいます。<ruby>子<rt>こ</rt></ruby>どものころは<ruby>浅<rt>あさ</rt></ruby>いところでしか<ruby>遊<rt>あそ</rt></ruby>びませんでした。ちいさいタイプのボートにのって、はじめて<ruby>深<rt>ふか</rt></ruby>いほうへ<ruby>行<rt>い</rt></ruby>ったとき、<ruby>足<rt>あし</rt></ruby>がとどかないのがこわかったです。でも、すっと<ruby>力<rt>ちから</rt></ruby>をぬくと、からだがうきました。<em class=\"g\">ぜひ</em>、こわがっている<ruby>人<rt>ひと</rt></ruby>にもためしてほしいです。<ruby>深<rt>ふか</rt></ruby>いところのほうが、じつはうきやすいのですから。",
+ "traduccion": "Cuando nadas en el mar, el color del agua cambia entre la zona poco profunda y la honda. De niño solo jugaba donde cubría poco. La primera vez que fui a la parte honda, en una barca pequeña, me dio miedo no llegar al fondo con los pies. Pero al soltar el cuerpo sin más, floté. Ojalá quien tenga miedo lo pruebe también. Porque es justo en lo hondo donde resulta más fácil flotar.",
+ "preguntas": [
+  {
+   "p": "<ruby>子<rt>こ</rt></ruby>どものころ、どこで<ruby>遊<rt>あそ</rt></ruby>びましたか。",
+   "opciones": [
+    "<ruby>深<rt>ふか</rt></ruby>いところ",
+    "<ruby>浅<rt>あさ</rt></ruby>いところ",
+    "ボートの<ruby>上<rt>うえ</rt></ruby>",
+    "<ruby>泳<rt>およ</rt></ruby>がなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>力<rt>ちから</rt></ruby>をぬくと、どうなりましたか。",
+   "opciones": [
+    "しずんだ",
+    "からだがういた",
+    "<ruby>足<rt>あし</rt></ruby>がとどいた",
+    "こわくなった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

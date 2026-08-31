@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kurashi/ropa-1",
+ "titulo": "<ruby>着物<rt>きもの</rt></ruby>を<ruby>着<rt>き</rt></ruby>る<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "そぼの<ruby>着物<rt>きもの</rt></ruby>をもらいました。<ruby>絹<rt>きぬ</rt></ruby>のもので、<ruby>木綿<rt>もめん</rt></ruby>のふくとはさわったかんじがちがいます。「よごす<em class=\"g\">な</em>よ」と<ruby>父<rt>ちち</rt></ruby>にわらわれました。<ruby>着<rt>き</rt></ruby>るのに<ruby>時間<rt>じかん</rt></ruby>がかかるので、<ruby>床屋<rt>とこや</rt></ruby>によってから<ruby>着<rt>き</rt></ruby>ると<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わないかもしれません。<ruby>手袋<rt>てぶくろ</rt></ruby>とサンダルはあわないので、はきものも<ruby>決<rt>き</rt></ruby>めなおしました。「まよう<em class=\"g\">な</em>、まず<ruby>着<rt>き</rt></ruby>てみろ」と<ruby>母<rt>はは</rt></ruby>に<ruby>言<rt>い</rt></ruby>われて、そのとおりにしました。<ruby>下着<rt>したぎ</rt></ruby>からぜんぶちがうので、<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>かかりました。",
+ "traduccion": "Me dieron el kimono de mi abuela. Es de seda y al tacto no se parece nada a la ropa de algodón. Mi padre se rió y me dijo «no lo manches». Como se tarda en ponerlo, si paso antes por la peluquería quizá no llegue a tiempo. Los guantes no pegaban con las sandalias, así que también cambié el calzado. Mi madre me dijo «no le des vueltas, pruébatelo primero» y le hice caso. Como cambia todo desde la ropa interior, tardé una hora.",
+ "preguntas": [
+  {
+   "p": "<ruby>着物<rt>きもの</rt></ruby>は<ruby>何<rt>なに</rt></ruby>でできていますか。",
+   "opciones": [
+    "<ruby>木綿<rt>もめん</rt></ruby>",
+    "<ruby>絹<rt>きぬ</rt></ruby>",
+    "かわ",
+    "わからない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>母<rt>はは</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "よごすな",
+    "まよう<em class=\"g\">な</em>、まず<ruby>着<rt>き</rt></ruby>てみろ",
+    "<ruby>床屋<rt>とこや</rt></ruby>へ<ruby>行<rt>い</rt></ruby>け",
+    "はやくしろ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

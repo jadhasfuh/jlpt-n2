@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/seishitsu/grado-1",
+ "titulo": "<ruby>必<rt>かなら</rt></ruby>ず<ruby>気<rt>き</rt></ruby>がつくこと",
+ "cuerpo": "<ruby>非常<rt>ひじょう</rt></ruby>に<ruby>厳<rt>きび</rt></ruby>しい<ruby>先生<rt>せんせい</rt></ruby>がいました。<ruby>随分<rt>ずいぶん</rt></ruby>こわいと<ruby>思<rt>おも</rt></ruby>っていましたが、<ruby>大分<rt>だいぶ</rt></ruby>たってから、その<ruby>理由<rt>りゆう</rt></ruby><em class=\"g\">に気がつき</em>ました。できていないところを、ほとんど<ruby>必<rt>かなら</rt></ruby>ずその<ruby>日<rt>ひ</rt></ruby>のうちに<ruby>言<rt>い</rt></ruby>ってくれていたのです。<ruby>以上<rt>いじょう</rt></ruby>のことは<ruby>言<rt>い</rt></ruby>いません。<ruby>勿論<rt>もちろん</rt></ruby>、<ruby>言<rt>い</rt></ruby>われたときはつらいです。でも、それほど<ruby>正<rt>ただ</rt></ruby>しいことばは、ほかにありませんでした。なるほど、といまになって<em class=\"g\">気がつきます</em>。",
+ "traduccion": "Tuve un profesor extremadamente estricto. Yo lo veía bastante temible, pero mucho tiempo después me di cuenta del motivo. Casi siempre me señalaba lo que estaba mal ese mismo día. Y no decía nada más allá de eso. Por supuesto, cuando te lo dicen duele. Pero no había palabras tan certeras en ninguna otra parte. Ahora me doy cuenta de que tenía razón.",
+ "preguntas": [
+  {
+   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていましたか。",
+   "opciones": [
+    "よくほめた",
+    "できていないところをその<ruby>日<rt>ひ</rt></ruby>のうちに<ruby>言<rt>い</rt></ruby>った",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった",
+    "<ruby>以上<rt>いじょう</rt></ruby>のことも<ruby>言<rt>い</rt></ruby>った"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いま、この<ruby>人<rt>ひと</rt></ruby>はどう<ruby>思<rt>おも</rt></ruby>っていますか。",
+   "opciones": [
+    "こわいだけだった",
+    "それほど<ruby>正<rt>ただ</rt></ruby>しいことばはほかになかった",
+    "きびしすぎた",
+    "わすれた"
+   ],
+   "correcta": 1
+  }
+ ]
+}

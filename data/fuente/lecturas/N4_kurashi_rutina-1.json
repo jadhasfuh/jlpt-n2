@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kurashi/rutina-1",
+ "titulo": "<ruby>習慣<rt>しゅうかん</rt></ruby>をつくる",
+ "cuerpo": "まいあさ<ruby>六<rt>ろく</rt></ruby>じに<ruby>起<rt>お</rt></ruby>きるのが<ruby>習慣<rt>しゅうかん</rt></ruby>になりました。はじめは、めざましが<ruby>鳴<rt>な</rt></ruby>っても<ruby>眠<rt>ねむ</rt></ruby>ったままでした。<ruby>家族<rt>かぞく</rt></ruby>が<ruby>起<rt>お</rt></ruby>こしてくれた<ruby>日<rt>ひ</rt></ruby>もあります。いまは、めざましより<ruby>先<rt>さき</rt></ruby>に<ruby>目<rt>め</rt></ruby>がさめます。あさのうちに<ruby>家事<rt>かじ</rt></ruby>をすませると、<ruby>一日<rt>いちにち</rt></ruby>がながく<ruby>感<rt>かん</rt></ruby>じます。おなじことをつづけていると、<ruby>夢<rt>ゆめ</rt></ruby>のなかでもそれをしていることがあります。<ruby>妹<rt>いもうと</rt></ruby>にも、あさのおちゃをいれ<em class=\"g\">てあげ</em>るようになりました。だれかのためにやると、もっとつづきやすくなります。",
+ "traduccion": "Levantarme a las seis todas las mañanas se me ha vuelto costumbre. Al principio, aunque sonara el despertador, me quedaba dormido. Hubo días en que me despertó la familia. Ahora me despierto antes que el despertador. Si dejo hechas las tareas de casa por la mañana, el día se me hace más largo. Cuando repites lo mismo, a veces hasta lo haces en sueños. También he empezado a prepararle el té de la mañana a mi hermana. Cuando lo haces por alguien, cuesta menos mantenerlo.",
+ "preguntas": [
+  {
+   "p": "いま、<ruby>朝<rt>あさ</rt></ruby>はどうですか。",
+   "opciones": [
+    "めざましで<ruby>起<rt>お</rt></ruby>きる",
+    "めざましより<ruby>先<rt>さき</rt></ruby>に<ruby>目<rt>め</rt></ruby>がさめる",
+    "<ruby>家族<rt>かぞく</rt></ruby>が<ruby>起<rt>お</rt></ruby>こす",
+    "<ruby>眠<rt>ねむ</rt></ruby>ったまま"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "つづけやすくなったのはなぜですか。",
+   "opciones": [
+    "はやくねるから",
+    "だれかのためにやるから",
+    "<ruby>家事<rt>かじ</rt></ruby>がすきだから",
+    "<ruby>夢<rt>ゆめ</rt></ruby>を<ruby>見<rt>み</rt></ruby>るから"
+   ],
+   "correcta": 1
+  }
+ ]
+}
