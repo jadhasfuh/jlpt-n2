@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/hito/gente-1",
+ "titulo": "いろいろな<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "<ruby>私<rt>わたし</rt></ruby>のうちのそばに、<ruby>大勢<rt>おおぜい</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>があつまるこうえんがあります。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>も<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>もいます。<ruby>古<rt>ふる</rt></ruby>くからすんでいる<ruby>者<rt>もの</rt></ruby>もいれば、きたばかりの<ruby>者<rt>もの</rt></ruby>もいます。<ruby>友達<rt>ともだち</rt></ruby>になるのに、<ruby>年<rt>とし</rt></ruby>はかんけいありません。<ruby>一人<rt>ひとり</rt></ruby>でくる<ruby>人<rt>ひと</rt></ruby>も、<ruby>二人<rt>ふたり</rt></ruby>でくる<ruby>人<rt>ひと</rt></ruby>もいます。<ruby>自分<rt>じぶん</rt></ruby>から<ruby>声<rt>こえ</rt></ruby>をかけると、たいていみんなこたえてくれます。<ruby>母<rt>はは</rt></ruby>は「こちらから<ruby>話<rt>はな</rt></ruby>しかけなさい」といつもおしえてくれました。",
+ "traduccion": "Cerca de mi casa hay un parque donde se junta mucha gente. Hay hombres y mujeres. Hay quien lleva viviendo aquí desde antiguo y quien acaba de llegar. Para hacerse amigos, la edad no importa. Hay quien viene solo y quien viene en pareja. Si eres tú quien saluda primero, casi todos responden. Mi madre siempre me enseñó que fuera yo quien empezara a hablar.",
+ "preguntas": [
+  {
+   "p": "こうえんにはどんな<ruby>人<rt>ひと</rt></ruby>がきますか。",
+   "opciones": [
+    "<ruby>古<rt>ふる</rt></ruby>くからすんでいる<ruby>者<rt>もの</rt></ruby>だけ",
+    "いろいろな<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>だけ",
+    "<ruby>子<rt>こ</rt></ruby>どもだけ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>母<rt>はは</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をおしえてくれましたか。",
+   "opciones": [
+    "<ruby>一人<rt>ひとり</rt></ruby>でいくこと",
+    "こちらから<ruby>話<rt>はな</rt></ruby>しかけること",
+    "<ruby>年<rt>とし</rt></ruby>をきくこと",
+    "<ruby>友達<rt>ともだち</rt></ruby>をえらぶこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

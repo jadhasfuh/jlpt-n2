@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/jikan/cantidad-1",
+ "titulo": "はこの<ruby>中<rt>なか</rt></ruby>の<ruby>数<rt>かず</rt></ruby>",
+ "cuerpo": "<ruby>奥<rt>おく</rt></ruby>のへやに、ふるいはこ<em class=\"g\">があります</em>。<ruby>中<rt>なか</rt></ruby>には、そふののこしたかみがたくさん<ruby>入<rt>はい</rt></ruby>っています。<ruby>皆<rt>みんな</rt></ruby>で<ruby>数<rt>かぞ</rt></ruby>えてみたら、<ruby>千<rt>せん</rt></ruby>まいちかくありました。<ruby>半<rt>はん</rt></ruby>ぶんはてがみで、のこりはしゃしんです。<ruby>一<rt>いち</rt></ruby>まいずつ<ruby>見<rt>み</rt></ruby>ていくと、<ruby>時間<rt>じかん</rt></ruby>がいくらあってもたりません。それでも、あまった<ruby>時間<rt>じかん</rt></ruby>にすこしずつ<ruby>見<rt>み</rt></ruby>ています。おなじへやには、<ruby>番<rt>ばん</rt></ruby>ごうのついたちいさいはこも<em class=\"g\">があります</em>。それはまだ<ruby>開<rt>あ</rt></ruby>けていません。",
+ "traduccion": "En la habitación del fondo hay una caja vieja. Dentro hay muchísimos papeles que dejó mi abuelo. Los contamos entre todos y había casi mil. La mitad son cartas y el resto fotos. Si los voy mirando de uno en uno, no hay tiempo que alcance. Aun así, los voy mirando poco a poco en los ratos sueltos. En la misma habitación hay también una caja pequeña con un número. Esa todavía no la he abierto.",
+ "preguntas": [
+  {
+   "p": "かみは<ruby>何<rt>なん</rt></ruby>まいくらいありましたか。",
+   "opciones": [
+    "<ruby>百<rt>ひゃく</rt></ruby>まい",
+    "<ruby>千<rt>せん</rt></ruby>まいちかく",
+    "<ruby>万<rt>まん</rt></ruby>まい",
+    "<ruby>十<rt>じゅう</rt></ruby>まい"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>番<rt>ばん</rt></ruby>ごうのついたはこはどうしましたか。",
+   "opciones": [
+    "<ruby>皆<rt>みんな</rt></ruby>で<ruby>開<rt>あ</rt></ruby>けた",
+    "まだ<ruby>開<rt>あ</rt></ruby>けていない",
+    "すてた",
+    "<ruby>数<rt>かぞ</rt></ruby>えた"
+   ],
+   "correcta": 1
+  }
+ ]
+}

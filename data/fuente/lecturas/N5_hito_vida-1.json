@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/hito/vida-1",
+ "titulo": "<ruby>子供<rt>こども</rt></ruby>から<ruby>大人<rt>おとな</rt></ruby>へ",
+ "cuerpo": "うちのいもうとは<ruby>二十歳<rt>はたち</rt></ruby>になりました。<ruby>生<rt>う</rt></ruby>まれたときのことを、<ruby>母<rt>はは</rt></ruby>がよく<ruby>話<rt>はな</rt></ruby>してくれます。ちいさな<ruby>女<rt>おんな</rt></ruby>の<ruby>子<rt>こ</rt></ruby>でしたが、いまはわたしよりせが<ruby>高<rt>たか</rt></ruby>いです。らいげつ、あたらしいまち<em class=\"g\">へ</em><ruby>行<rt>い</rt></ruby>きます。しごとがきまったからです。<ruby>父<rt>ちち</rt></ruby>はさびしそうですが、「じぶんのあしであるきなさい」と<ruby>話<rt>はな</rt></ruby>していました。<ruby>年<rt>とし</rt></ruby>をとって<ruby>死<rt>し</rt></ruby>ぬまで、<ruby>人<rt>ひと</rt></ruby>はなんどもあたらしいところ<em class=\"g\">へ</em><ruby>行<rt>い</rt></ruby>くのでしょう。",
+ "traduccion": "Mi hermana pequeña ha cumplido veinte años. Mi madre me cuenta a menudo cómo fue cuando nació. Era una niña pequeñita y ahora es más alta que yo. El mes que viene se va a una ciudad nueva, porque ha encontrado trabajo. Mi padre parece triste, pero le decía: «camina con tus propios pies». Hasta que envejecemos y morimos, las personas iremos muchas veces a sitios nuevos.",
+ "preguntas": [
+  {
+   "p": "いもうとはなぜ、あたらしいまち<em class=\"g\">へ</em><ruby>行<rt>い</rt></ruby>きますか。",
+   "opciones": [
+    "<ruby>学校<rt>がっこう</rt></ruby>があるから",
+    "しごとがきまったから",
+    "<ruby>父<rt>ちち</rt></ruby>がいるから",
+    "せが<ruby>高<rt>たか</rt></ruby>くなったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しましたか。",
+   "opciones": [
+    "さびしいから<ruby>行<rt>い</rt></ruby>くな",
+    "じぶんのあしであるきなさい",
+    "<ruby>母<rt>はは</rt></ruby>と<ruby>行<rt>い</rt></ruby>きなさい",
+    "<ruby>二十歳<rt>はたち</rt></ruby>までまちなさい"
+   ],
+   "correcta": 1
+  }
+ ]
+}

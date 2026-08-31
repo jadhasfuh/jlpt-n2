@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/hito/salud-1",
+ "titulo": "<ruby>風邪<rt>かぜ</rt></ruby>をひいた<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "せんしゅう、<ruby>風邪<rt>かぜ</rt></ruby>をひきました。<ruby>気<rt>き</rt></ruby>もちがわるくて、<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べられませんでした。<ruby>母<rt>はは</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>につれていってくれました。<ruby>医者<rt>いしゃ</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>は「よくやすんでください」と<ruby>話<rt>はな</rt></ruby>して、<ruby>薬<rt>くすり</rt></ruby>をくれました。<ruby>三<rt>みっ</rt></ruby>か<ruby>後<rt>ご</rt></ruby>、<ruby>元気<rt>げんき</rt></ruby>になりました。あたりまえにあるいて、あたりまえに<ruby>食<rt>た</rt></ruby>べられるのは、いいものだ<em class=\"g\">なあ</em>とおもいました。<ruby>丈夫<rt>じょうぶ</rt></ruby>なからだをつくりたい<em class=\"g\">なあ</em>と、いまはまいにちあるいています。",
+ "traduccion": "La semana pasada cogí un resfriado. Me encontraba mal y no podía comer nada. Mi madre me llevó al hospital. El médico me dijo que descansara bien y me dio medicinas. Tres días después ya estaba bien. Pensé qué bien está poder andar y comer con normalidad. Ahora ando todos los días, con ganas de tener un cuerpo resistente.",
+ "preguntas": [
+  {
+   "p": "<ruby>病院<rt>びょういん</rt></ruby>で<ruby>医者<rt>いしゃ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をくれましたか。",
+   "opciones": [
+    "ごはん",
+    "<ruby>薬<rt>くすり</rt></ruby>",
+    "<ruby>本<rt>ほん</rt></ruby>",
+    "<ruby>水<rt>みず</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いま、まいにち<ruby>何<rt>なに</rt></ruby>をしていますか。",
+   "opciones": [
+    "やすんでいる",
+    "あるいている",
+    "<ruby>食<rt>た</rt></ruby>べている",
+    "<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>っている"
+   ],
+   "correcta": 1
+  }
+ ]
+}

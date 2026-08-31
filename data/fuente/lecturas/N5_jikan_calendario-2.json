@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/jikan/calendario-2",
+ "titulo": "カレンダーに<ruby>書<rt>か</rt></ruby>い<em class=\"g\">てある</em>こと",
+ "cuerpo": "つくえの<ruby>前<rt>まえ</rt></ruby>のカレンダーには、たいせつな<ruby>日<rt>ひ</rt></ruby>が<ruby>書<rt>か</rt></ruby>い<em class=\"g\">てある</em>。<ruby>三日<rt>みっか</rt></ruby>はともだちのたんじょうび、<ruby>七日<rt>なのか</rt></ruby>は<ruby>学校<rt>がっこう</rt></ruby>のしけん、<ruby>二十日<rt>はつか</rt></ruby>はははのたんじょうびだ。<ruby>今日<rt>きょう</rt></ruby>は<ruby>五日<rt>いつか</rt></ruby>で、<ruby>午前<rt>ごぜん</rt></ruby>にじゅぎょうがあり、<ruby>午後<rt>ごご</rt></ruby>はやすみだ。<ruby>昨日<rt>きのう</rt></ruby>は<ruby>一日<rt>ついたち</rt></ruby>からのしゅくだいをぜんぶおえた。<ruby>明日<rt>あす</rt></ruby>からは、あたらしい<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みはじめる。カレンダーにそう<ruby>書<rt>か</rt></ruby>い<em class=\"g\">てある</em>から、きっとできるだろう。",
+ "traduccion": "En el calendario que tengo delante del escritorio están apuntados los días importantes. El día 3 es el cumpleaños de un amigo, el 7 el examen del colegio y el 20 el cumpleaños de mi madre. Hoy es 5: por la mañana tengo clase y por la tarde libre. Ayer terminé todos los deberes que llevaba desde el día 1. A partir de mañana empiezo un libro nuevo. Como está apuntado en el calendario, seguro que lo consigo.",
+ "preguntas": [
+  {
+   "p": "<ruby>学校<rt>がっこう</rt></ruby>のしけんはいつですか。",
+   "opciones": [
+    "<ruby>三日<rt>みっか</rt></ruby>",
+    "<ruby>五日<rt>いつか</rt></ruby>",
+    "<ruby>七日<rt>なのか</rt></ruby>",
+    "<ruby>二十日<rt>はつか</rt></ruby>"
+   ],
+   "correcta": 2
+  },
+  {
+   "p": "<ruby>今日<rt>きょう</rt></ruby>の<ruby>午後<rt>ごご</rt></ruby>はどうですか。",
+   "opciones": [
+    "じゅぎょうがある",
+    "やすみだ",
+    "しけんがある",
+    "しゅくだいがある"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/jikan/cantidad-2",
+ "titulo": "<ruby>半分<rt>はんぶん</rt></ruby>ずつ",
+ "cuerpo": "ケーキを<ruby>一<rt>ひと</rt></ruby>つかって、いもうとと<ruby>半分<rt>はんぶん</rt></ruby>ずつ<ruby>食<rt>た</rt></ruby>べました。<ruby>全部<rt>ぜんぶ</rt></ruby>で<ruby>八<rt>はっ</rt></ruby>つに<ruby>切<rt>き</rt></ruby>って、<ruby>四<rt>よっ</rt></ruby>つずつです。いもうとは「<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>、<ruby>小<rt>ちい</rt></ruby>さいほうでいい」と<ruby>言<rt>い</rt></ruby>いましたが、わたしは<ruby>多<rt>おお</rt></ruby>いほうをわたしました。<ruby>一番<rt>いちばん</rt></ruby>うれしそうな<ruby>顔<rt>かお</rt></ruby>をしていました。<ruby>本<rt>ほん</rt></ruby>やノートも、いつも<ruby>二人<rt>ふたり</rt></ruby>で<ruby>付<rt>つ</rt></ruby>けたしるしを<ruby>見<rt>み</rt></ruby>て、<ruby>各<rt>かく</rt></ruby>じぶんのものをわけています。それでけんかになったことは、いくつもありません。",
+ "traduccion": "Compré una tarta y me la comí a medias con mi hermana. La corté en ocho trozos en total, cuatro para cada una. Ella dijo «tranquila, a mí me vale el trozo pequeño», pero yo le di el más grande. Puso la cara más contenta del mundo. Los libros y los cuadernos también los repartimos mirando la marca que cada una pone. Por eso no hemos discutido apenas ninguna vez.",
+ "preguntas": [
+  {
+   "p": "ケーキはいくつに<ruby>切<rt>き</rt></ruby>りましたか。",
+   "opciones": [
+    "<ruby>四<rt>よっ</rt></ruby>つ",
+    "<ruby>六<rt>むっ</rt></ruby>つ",
+    "<ruby>八<rt>はっ</rt></ruby>つ",
+    "<ruby>十<rt>じゅう</rt></ruby>"
+   ],
+   "correcta": 2
+  },
+  {
+   "p": "いもうとに、どちらをわたしましたか。",
+   "opciones": [
+    "<ruby>小<rt>ちい</rt></ruby>さいほう",
+    "<ruby>多<rt>おお</rt></ruby>いほう",
+    "<ruby>半分<rt>はんぶん</rt></ruby>",
+    "わたさなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

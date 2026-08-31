@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/hito/cuerpo-1",
+ "titulo": "からだのしごと",
+ "cuerpo": "<ruby>目<rt>め</rt></ruby>は<ruby>見<rt>み</rt></ruby>て、<ruby>耳<rt>みみ</rt></ruby>は<ruby>聞<rt>き</rt></ruby>いて、<ruby>口<rt>くち</rt></ruby>は<ruby>話<rt>はな</rt></ruby>します。<ruby>手<rt>て</rt></ruby>はものをもち、<ruby>足<rt>あし</rt></ruby>はあるきます。あたりまえのことですが、かぜをひいて<ruby>頭<rt>あたま</rt></ruby>がいたくなったとき、はじめてありがたいとおもいました。<ruby>歯<rt>は</rt></ruby>がいたいと、<ruby>顔<rt>かお</rt></ruby>までいたくなります。<ruby>左<rt>ひだり</rt></ruby>の<ruby>肩<rt>かた</rt></ruby>がこったときは、<ruby>右<rt>みぎ</rt></ruby>の<ruby>手<rt>て</rt></ruby>もうごかしにくくなりました。からだはぜんぶつながっているのでしょう<em class=\"g\">か</em>。きょうはどんなちょうし<em class=\"g\">か</em>、あさおきたときの<ruby>足<rt>あし</rt></ruby>のかるさでわかります。",
+ "traduccion": "Los ojos ven, los oídos oyen y la boca habla. Las manos sostienen cosas y los pies caminan. Son cosas obvias, pero solo cuando cogí un resfriado y me empezó a doler la cabeza pensé por primera vez que era de agradecer. Cuando duele una muela, duele hasta la cara. Cuando se me cargó el hombro izquierdo, también me costaba mover la mano derecha. ¿Será que el cuerpo está todo unido? En qué estado estoy hoy lo sé por lo ligeras que noto las piernas al levantarme.",
+ "preguntas": [
+  {
+   "p": "いつ、からだをありがたいとおもいましたか。",
+   "opciones": [
+    "<ruby>歯<rt>は</rt></ruby>がいたいとき",
+    "かぜをひいて<ruby>頭<rt>あたま</rt></ruby>がいたくなったとき",
+    "<ruby>足<rt>あし</rt></ruby>がかるいとき",
+    "あさおきたとき"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>左<rt>ひだり</rt></ruby>の<ruby>肩<rt>かた</rt></ruby>がこったとき、どうなりましたか。",
+   "opciones": [
+    "<ruby>顔<rt>かお</rt></ruby>がいたくなった",
+    "<ruby>右<rt>みぎ</rt></ruby>の<ruby>手<rt>て</rt></ruby>もうごかしにくくなった",
+    "<ruby>目<rt>め</rt></ruby>が<ruby>見<rt>み</rt></ruby>えにくくなった",
+    "あるけなくなった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

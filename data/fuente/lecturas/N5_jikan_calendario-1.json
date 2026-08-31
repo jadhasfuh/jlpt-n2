@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/jikan/calendario-1",
+ "titulo": "<ruby>四<rt>よっ</rt></ruby>つのきせつ",
+ "cuerpo": "にほんには<ruby>春<rt>はる</rt></ruby>、<ruby>夏<rt>なつ</rt></ruby>、<ruby>秋<rt>あき</rt></ruby>、<ruby>冬<rt>ふゆ</rt></ruby>があります。わたしは<ruby>秋<rt>あき</rt></ruby>がいちばんすきです。<ruby>朝<rt>あさ</rt></ruby>はすずしくて、<ruby>昼<rt>ひる</rt></ruby>はあたたかく、<ruby>夕<rt>ゆう</rt></ruby>がたにはそらがあかくなります。<ruby>夏<rt>なつ</rt></ruby>は<ruby>夜<rt>よる</rt></ruby>もあつくて、あまりねむれません。<ruby>冬<rt>ふゆ</rt></ruby>の<ruby>晩<rt>ばん</rt></ruby>に、あたたかいものを<ruby>食<rt>た</rt></ruby>べるのもいいものです。<ruby>春<rt>はる</rt></ruby>、<ruby>山<rt>やま</rt></ruby>のはなが<ruby>開<rt>ひら</rt></ruby>くのを<ruby>見<rt>み</rt></ruby><em class=\"g\">たことがある</em>ひとは、きっとわすれないでしょう。<ruby>昨<rt>さく</rt></ruby>ねんはいそがしくて<ruby>見<rt>み</rt></ruby>られませんでした。ことしはかならず<ruby>行<rt>い</rt></ruby>くつもりです。",
+ "traduccion": "En Japón hay primavera, verano, otoño e invierno. A mí el que más me gusta es el otoño. Por la mañana refresca, al mediodía hace bueno y al atardecer el cielo se pone rojo. En verano también hace calor de noche y no duermo bien. En las noches de invierno está bien comer algo caliente. Quien haya visto abrirse las flores del monte en primavera seguro que no lo olvida. El año pasado estuve ocupado y no pude verlas. Este año pienso ir sin falta.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>がいちばんすきなきせつはどれですか。",
+   "opciones": [
+    "<ruby>春<rt>はる</rt></ruby>",
+    "<ruby>夏<rt>なつ</rt></ruby>",
+    "<ruby>秋<rt>あき</rt></ruby>",
+    "<ruby>冬<rt>ふゆ</rt></ruby>"
+   ],
+   "correcta": 2
+  },
+  {
+   "p": "<ruby>昨<rt>さく</rt></ruby>ねん、なぜ<ruby>山<rt>やま</rt></ruby>のはなを<ruby>見<rt>み</rt></ruby>られませんでしたか。",
+   "opciones": [
+    "あつかったから",
+    "いそがしかったから",
+    "<ruby>雨<rt>あめ</rt></ruby>だったから",
+    "とおかったから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

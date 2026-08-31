@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/hito/caracter-1",
+ "titulo": "となりの<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "となりのへや<em class=\"g\">に</em>、<ruby>年<rt>とし</rt></ruby>をとった<ruby>人<rt>ひと</rt></ruby>がすんでいます。とても<ruby>優<rt>やさ</rt></ruby>しくて、あうと、かならず<ruby>声<rt>こえ</rt></ruby>をかけてくれます。せんしゅう、おかしをくれました。とても<ruby>甘<rt>あま</rt></ruby>かったです。その<ruby>人<rt>ひと</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>ではなく、<ruby>低<rt>ひく</rt></ruby>い<ruby>声<rt>こえ</rt></ruby>でゆっくり<ruby>話<rt>はな</rt></ruby>します。「わたし<em class=\"g\">に</em>なんでも<ruby>聞<rt>き</rt></ruby>いてください」と<ruby>言<rt>い</rt></ruby>ってくれるので、こまったとき、いつもその<ruby>人<rt>ひと</rt></ruby>のところ<em class=\"g\">に</em><ruby>行<rt>い</rt></ruby>きます。うちの<ruby>父<rt>ちち</rt></ruby>より<ruby>厚<rt>あつ</rt></ruby>いこころをもった<ruby>人<rt>ひと</rt></ruby>だとおもいます。",
+ "traduccion": "En la habitación de al lado vive una persona mayor. Es muy amable y siempre que nos cruzamos me saluda. La semana pasada me dio unos dulces. Estaban muy dulces. No habla con voz alta, sino con voz grave y despacio. Como me dice «pregúntame lo que sea», cuando tengo un problema siempre voy a verle. Creo que tiene un corazón más generoso incluso que el de mi padre.",
+ "preguntas": [
+  {
+   "p": "となりの<ruby>人<rt>ひと</rt></ruby>はどんな<ruby>声<rt>こえ</rt></ruby>で<ruby>話<rt>はな</rt></ruby>しますか。",
+   "opciones": [
+    "<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>",
+    "<ruby>低<rt>ひく</rt></ruby>い<ruby>声<rt>こえ</rt></ruby>",
+    "はやい<ruby>声<rt>こえ</rt></ruby>",
+    "<ruby>高<rt>たか</rt></ruby>い<ruby>声<rt>こえ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "こまったとき、どうしますか。",
+   "opciones": [
+    "<ruby>父<rt>ちち</rt></ruby>に<ruby>聞<rt>き</rt></ruby>く",
+    "となりの<ruby>人<rt>ひと</rt></ruby>のところ<em class=\"g\">に</em><ruby>行<rt>い</rt></ruby>く",
+    "おかしを<ruby>食<rt>た</rt></ruby>べる",
+    "ひとりでかんがえる"
+   ],
+   "correcta": 1
+  }
+ ]
+}
