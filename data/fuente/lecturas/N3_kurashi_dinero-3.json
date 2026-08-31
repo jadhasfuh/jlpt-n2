@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kurashi/dinero-3",
+ "titulo": "<ruby>節約<rt>せつやく</rt></ruby>と<ruby>予算<rt>よさん</rt></ruby>",
+ "cuerpo": "<ruby>今月<rt>こんげつ</rt></ruby>は<ruby>支出<rt>ししゅつ</rt></ruby>が<ruby>予算<rt>よさん</rt></ruby>をこえました。<ruby>物価<rt>ぶっか</rt></ruby>が<ruby>上<rt>あ</rt></ruby>がって、<ruby>料金<rt>りょうきん</rt></ruby>もいっせいに<ruby>上<rt>あ</rt></ruby>がったからです。<ruby>節約<rt>せつやく</rt></ruby>といっても、<ruby>無料<rt>むりょう</rt></ruby>のものだけでくらすことはできません。<ruby>消費<rt>しょうひ</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らすより、<ruby>収入<rt>しゅうにゅう</rt></ruby>をふやすほうが<ruby>早<rt>はや</rt></ruby>いという<ruby>人<rt>ひと</rt></ruby>もいます。でも、<ruby>評価<rt>ひょうか</rt></ruby>や<ruby>利益<rt>りえき</rt></ruby>を<ruby>追<rt>お</rt></ruby>いかけてからだをこわしては<ruby>意味<rt>いみ</rt></ruby>がありません。<ruby>担当<rt>たんとう</rt></ruby>のしごとを<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby><ruby>中<rt>じゅう</rt></ruby>つづけられるかどうかで<ruby>考<rt>かんが</rt></ruby>えます。<ruby>貯金<rt>ちょきん</rt></ruby>は<ruby>保証<rt>ほしょう</rt></ruby>ではありませんが、<ruby>選<rt>えら</rt></ruby>ぶ<ruby>自由<rt>じゆう</rt></ruby>にはなります。",
+ "traduccion": "Este mes los gastos superaron el presupuesto, porque subieron los precios y las tarifas a la vez. Aunque hable de ahorrar, no se puede vivir solo de lo gratuito. Hay quien dice que es más rápido aumentar los ingresos que reducir el consumo. Pero no tiene sentido perseguir el reconocimiento y los beneficios hasta reventarse la salud. Lo pienso en función de si puedo mantener mi trabajo durante todo un año. Los ahorros no son una garantía, pero sí se convierten en libertad para elegir.",
+ "preguntas": [
+  {
+   "p": "なぜ<ruby>支出<rt>ししゅつ</rt></ruby>が<ruby>予算<rt>よさん</rt></ruby>をこえましたか。",
+   "opciones": [
+    "<ruby>買<rt>か</rt></ruby>いすぎたから",
+    "<ruby>物価<rt>ぶっか</rt></ruby>と<ruby>料金<rt>りょうきん</rt></ruby>が<ruby>上<rt>あ</rt></ruby>がったから",
+    "<ruby>収入<rt>しゅうにゅう</rt></ruby>がへったから",
+    "<ruby>貯金<rt>ちょきん</rt></ruby>したから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>貯金<rt>ちょきん</rt></ruby>について、どう<ruby>考<rt>かんが</rt></ruby>えていますか。",
+   "opciones": [
+    "<ruby>保証<rt>ほしょう</rt></ruby>になる",
+    "<ruby>選<rt>えら</rt></ruby>ぶ<ruby>自由<rt>じゆう</rt></ruby>になる",
+    "<ruby>必要<rt>ひつよう</rt></ruby>ない",
+    "<ruby>利益<rt>りえき</rt></ruby>になる"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kurashi/muebles-2",
+ "titulo": "<ruby>弁当<rt>べんとう</rt></ruby>ばこの<ruby>布<rt>ぬの</rt></ruby>",
+ "cuerpo": "<ruby>毎朝<rt>まいあさ</rt></ruby>、<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>包<rt>つつ</rt></ruby>む<ruby>布<rt>ぬの</rt></ruby>をえらびます。<ruby>食卓<rt>しょくたく</rt></ruby>にならべた<ruby>容器<rt>ようき</rt></ruby>に、のこりものを<ruby>詰<rt>つ</rt></ruby>めるだけです。それでも、<ruby>布<rt>ぬの</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>が<ruby>気<rt>き</rt></ruby>に<ruby>入<rt>い</rt></ruby>ると、その<ruby>日<rt>ひ</rt></ruby>の<ruby>調子<rt>ちょうし</rt></ruby>までよくなる<ruby>気<rt>き</rt></ruby>がします。<ruby>毛布<rt>もうふ</rt></ruby>や<ruby>旗<rt>はた</rt></ruby>のように<ruby>大<rt>おお</rt></ruby>きなものではなく、<ruby>小<rt>ちい</rt></ruby>さな<ruby>布<rt>ぬの</rt></ruby><ruby>一<rt>いち</rt></ruby>まいです。<ruby>家具<rt>かぐ</rt></ruby>をそろえなくても、こういうもの<ruby>一<rt>ひと</rt></ruby>つ<em class=\"g\">で済む</em>ことがあります。<ruby>紐<rt>ひも</rt></ruby>のむすび<ruby>方<rt>かた</rt></ruby>をかえるだけ<em class=\"g\">で済んだ</em>のに、ずいぶん<ruby>長<rt>なが</rt></ruby>いあいだ、あたらしいものをさがしていました。",
+ "traduccion": "Cada mañana elijo la tela con la que envuelvo la fiambrera. Solo meto las sobras en los recipientes que dejo en la mesa. Aun así, cuando el color de la tela me gusta, me da la sensación de que hasta el ánimo del día mejora. No es algo grande como una manta o una bandera: es un simple paño pequeño. Aunque no tengas los muebles a juego, a veces con una cosa así basta. Con cambiar la forma del nudo del cordón habría bastado, y sin embargo estuve muchísimo tiempo buscando algo nuevo.",
+ "preguntas": [
+  {
+   "p": "<ruby>布<rt>ぬの</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>が<ruby>気<rt>き</rt></ruby>に<ruby>入<rt>い</rt></ruby>ると、どうなりますか。",
+   "opciones": [
+    "<ruby>弁当<rt>べんとう</rt></ruby>がおいしくなる",
+    "その<ruby>日<rt>ひ</rt></ruby>の<ruby>調子<rt>ちょうし</rt></ruby>までよくなる<ruby>気<rt>き</rt></ruby>がする",
+    "かわらない",
+    "<ruby>時間<rt>じかん</rt></ruby>がかかる"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>長<rt>なが</rt></ruby>いあいだ、<ruby>何<rt>なに</rt></ruby>をしていましたか。",
+   "opciones": [
+    "<ruby>紐<rt>ひも</rt></ruby>をむすんでいた",
+    "あたらしいものをさがしていた",
+    "<ruby>家具<rt>かぐ</rt></ruby>をそろえていた",
+    "<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>っていた"
+   ],
+   "correcta": 1
+  }
+ ]
+}

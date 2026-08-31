@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kurashi/ropa-1",
+ "titulo": "<ruby>畳<rt>たた</rt></ruby>んだ<ruby>衣服<rt>いふく</rt></ruby>",
+ "cuerpo": "<ruby>洗濯<rt>せんたく</rt></ruby>した<ruby>衣服<rt>いふく</rt></ruby>を<ruby>乾<rt>かわ</rt></ruby>かして、<ruby>畳<rt>たた</rt></ruby>んでしまいます。<ruby>綿<rt>めん</rt></ruby>のシャツは<ruby>乾<rt>かわ</rt></ruby>くのがはやく、<ruby>生地<rt>きじ</rt></ruby>のあついものは<ruby>時間<rt>じかん</rt></ruby>がかかります。<ruby>袖<rt>そで</rt></ruby>のところが<ruby>破<rt>やぶ</rt></ruby>れていたので、すてる<em class=\"g\">つもりだった</em>のですが、<ruby>布<rt>ぬの</rt></ruby>を<ruby>当<rt>あ</rt></ruby>てて<ruby>直<rt>なお</rt></ruby>すことにしました。<ruby>熱帯<rt>ねったい</rt></ruby>の<ruby>国<rt>くに</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く{つもりで}かった<ruby>服<rt>ふく</rt></ruby>も、けっきょくこの<ruby>町<rt>まち</rt></ruby>で<ruby>着<rt>き</rt></ruby>ています。<ruby>宝石<rt>ほうせき</rt></ruby>や<ruby>化粧<rt>けしょう</rt></ruby>よりも、きちんと<ruby>揃<rt>そろ</rt></ruby>えた<ruby>服装<rt>ふくそう</rt></ruby>のほうがその<ruby>人<rt>ひと</rt></ruby>に<ruby>適<rt>てき</rt></ruby>していると<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "Seco la ropa lavada, la doblo y la guardo. Las camisas de algodón secan rápido; las de tela gruesa tardan. Como estaba rota por la manga, pensaba tirarla, pero decidí ponerle un parche y arreglarla. La ropa que compré con la intención de ir a un país tropical acabé usándola en esta ciudad. Creo que un vestuario bien conjuntado le sienta mejor a una persona que las joyas o el maquillaje.",
+ "preguntas": [
+  {
+   "p": "<ruby>袖<rt>そで</rt></ruby>が<ruby>破<rt>やぶ</rt></ruby>れていた<ruby>服<rt>ふく</rt></ruby>をどうしましたか。",
+   "opciones": [
+    "すてた",
+    "<ruby>布<rt>ぬの</rt></ruby>を<ruby>当<rt>あ</rt></ruby>てて<ruby>直<rt>なお</rt></ruby>した",
+    "そのまま<ruby>着<rt>き</rt></ruby>た",
+    "あげた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えはどれですか。",
+   "opciones": [
+    "<ruby>宝石<rt>ほうせき</rt></ruby>がたいせつだ",
+    "きちんと<ruby>揃<rt>そろ</rt></ruby>えた<ruby>服装<rt>ふくそう</rt></ruby>のほうが<ruby>適<rt>てき</rt></ruby>している",
+    "<ruby>化粧<rt>けしょう</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>だ",
+    "あたらしい<ruby>服<rt>ふく</rt></ruby>がいい"
+   ],
+   "correcta": 1
+  }
+ ]
+}
