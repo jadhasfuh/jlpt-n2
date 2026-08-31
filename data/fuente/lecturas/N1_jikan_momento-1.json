@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/jikan/momento-1",
+ "titulo": "いざという<ruby>折<rt>おり</rt></ruby>に",
+ "cuerpo": "<ruby>父<rt>ちち</rt></ruby>は<ruby>反対<rt>はんたい</rt></ruby>を<ruby>押<rt>お</rt></ruby>し<ruby>切<rt>き</rt></ruby>って<ruby>店<rt>みせ</rt></ruby>を<ruby>畳<rt>たた</rt></ruby>みました。<ruby>周<rt>まわ</rt></ruby>りは<em class=\"g\">を押して</em>まで<ruby>続<rt>つづ</rt></ruby>けるべきだと<ruby>言<rt>い</rt></ruby>っていたのです。<ruby>借金<rt>しゃっきん</rt></ruby>を<ruby>残<rt>のこ</rt></ruby>さないことを<ruby>前提<rt>ぜんてい</rt></ruby><em class=\"g\">として</em><ruby>決<rt>き</rt></ruby>めたのだと、あとになって<ruby>知<rt>し</rt></ruby>りました。<ruby>予<rt>あらかじ</rt></ruby>め<ruby>相談<rt>そうだん</rt></ruby>してくれれば、と<ruby>当時<rt>とうじ</rt></ruby>は<ruby>思<rt>おも</rt></ruby>いました。でも、<ruby>家族<rt>かぞく</rt></ruby>に<ruby>負担<rt>ふたん</rt></ruby>をかけたくなかったのでしょう。<ruby>故<rt>こ</rt></ruby><ruby>祖父<rt>そふ</rt></ruby>が<ruby>建<rt>た</rt></ruby>てた<ruby>店<rt>みせ</rt></ruby>です。まして<ruby>父<rt>ちち</rt></ruby>にとってはなおさら<ruby>手放<rt>てばな</rt></ruby>しにくかったはずです。<ruby>閉<rt>し</rt></ruby>める<ruby>日<rt>ひ</rt></ruby>、<ruby>父<rt>ちち</rt></ruby>はさっと<ruby>看板<rt>かんばん</rt></ruby>を<ruby>外<rt>はず</rt></ruby>してとりあえず<ruby>倉庫<rt>そうこ</rt></ruby>にしまいました。ふらふらになるまで<ruby>片付<rt>かたづ</rt></ruby>けをして、<ruby>夜<rt>よる</rt></ruby>おそくに<ruby>帰<rt>かえ</rt></ruby>ってきます。<ruby>傍<rt>かたわ</rt></ruby>らで<ruby>母<rt>はは</rt></ruby>が<ruby>黙<rt>だま</rt></ruby>って<ruby>茶<rt>ちゃ</rt></ruby>をいれていました。いざという<ruby>折<rt>おり</rt></ruby>にどうふるまうか。<ruby>言葉<rt>ことば</rt></ruby>ではなく、あの<ruby>数日<rt>すうじつ</rt></ruby>で<ruby>教<rt>おそ</rt></ruby>わった<ruby>気<rt>き</rt></ruby>がします。",
+ "traduccion": "Mi padre cerró la tienda pasando por encima de las objeciones. La gente de alrededor decía que debía seguir aunque fuera a la fuerza. Supe más tarde que lo decidió partiendo de la condición de no dejar deudas. En su momento pensé que ojalá lo hubiera consultado antes. Pero seguramente no quería cargar a la familia. Era la tienda que levantó mi difunto abuelo. Y para mi padre, con más razón, tuvo que ser aún más difícil soltarla. El día del cierre descolgó el cartel de un movimiento y lo guardó de momento en el almacén. Estuvo recogiendo hasta quedarse sin fuerzas y volvió a casa muy tarde. A su lado, mi madre preparaba té en silencio. Cómo comportarse cuando llega el momento de verdad. Siento que lo aprendí en aquellos días, y no con palabras.",
+ "preguntas": [
+  {
+   "p": "<ruby>父<rt>ちち</rt></ruby>が<ruby>店<rt>みせ</rt></ruby>を<ruby>畳<rt>たた</rt></ruby>むと<ruby>決<rt>き</rt></ruby>めた<ruby>前提<rt>ぜんてい</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>家族<rt>かぞく</rt></ruby>に<ruby>相談<rt>そうだん</rt></ruby>すること",
+    "<ruby>借金<rt>しゃっきん</rt></ruby>を<ruby>残<rt>のこ</rt></ruby>さないこと",
+    "<ruby>周<rt>まわ</rt></ruby>りの<ruby>意見<rt>いけん</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うこと",
+    "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>意志<rt>いし</rt></ruby>を<ruby>継<rt>つ</rt></ruby>ぐこと"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は、あの<ruby>数日<rt>すうじつ</rt></ruby>で<ruby>何<rt>なに</rt></ruby>を<ruby>教<rt>おそ</rt></ruby>わったと<ruby>感<rt>かん</rt></ruby>じていますか。",
+   "opciones": [
+    "<ruby>店<rt>みせ</rt></ruby>の<ruby>経営<rt>けいえい</rt></ruby>",
+    "いざという<ruby>折<rt>おり</rt></ruby>にどうふるまうか",
+    "<ruby>借金<rt>しゃっきん</rt></ruby>のこわさ",
+    "<ruby>母<rt>はは</rt></ruby>の<ruby>気持<rt>きも</rt></ruby>ち"
+   ],
+   "correcta": 1
+  }
+ ]
+}

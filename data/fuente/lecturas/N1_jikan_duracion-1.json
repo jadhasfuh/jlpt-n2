@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/jikan/duracion-1",
+ "titulo": "<ruby>急<rt>いそ</rt></ruby>がない<ruby>練習<rt>れんしゅう</rt></ruby>",
+ "cuerpo": "<ruby>泳<rt>およ</rt></ruby>ぎを<ruby>習<rt>なら</rt></ruby>いはじめたころ、わたしは<ruby>焦<rt>あせ</rt></ruby>ってばかりいました。<ruby>速<rt>はや</rt></ruby>く<ruby>進<rt>すす</rt></ruby>もうとして<ruby>手<rt>て</rt></ruby>を<ruby>急<rt>いそ</rt></ruby>がせ、そのたびに<ruby>息<rt>いき</rt></ruby>が<ruby>切<rt>き</rt></ruby>れて<ruby>足<rt>あし</rt></ruby>をついてしまうのです。コーチは「<ruby>急<rt>せ</rt></ruby>かすのは<ruby>自分<rt>じぶん</rt></ruby>だけだ」と<ruby>言<rt>い</rt></ruby>いました。<ruby>短気<rt>たんき</rt></ruby>な<ruby>性格<rt>せいかく</rt></ruby>を<ruby>直<rt>なお</rt></ruby>そうとして、うまくいっ<em class=\"g\">ためしがない</em>のです。でも<ruby>水<rt>みず</rt></ruby>の<ruby>中<rt>なか</rt></ruby>では、<ruby>力<rt>ちから</rt></ruby>を<ruby>緩<rt>ゆる</rt></ruby>めないと<ruby>前<rt>まえ</rt></ruby>に<ruby>進<rt>すす</rt></ruby>まないのです。<ruby>素早<rt>すばや</rt></ruby>く<ruby>腕<rt>うで</rt></ruby>を<ruby>回<rt>まわ</rt></ruby>すより、<ruby>一<rt>ひと</rt></ruby>かきをぐっと<ruby>長<rt>なが</rt></ruby>く<ruby>持続<rt>じぞく</rt></ruby>させるほうが<ruby>速<rt>はや</rt></ruby>い。<ruby>分<rt>わ</rt></ruby>かってからも、<ruby>体<rt>からだ</rt></ruby>が<ruby>覚<rt>おぼ</rt></ruby>えるまで<ruby>半年<rt>はんとし</rt></ruby>かかりました。<ruby>迅速<rt>じんそく</rt></ruby>であることが<ruby>常<rt>つね</rt></ruby>に<ruby>正<rt>ただ</rt></ruby>しいわけではないと、<ruby>水<rt>みず</rt></ruby>に<ruby>教<rt>おそ</rt></ruby>わった<ruby>気<rt>き</rt></ruby>がします。<ruby>呆気<rt>あっけ</rt></ruby>ないほど<ruby>静<rt>しず</rt></ruby>かに、<ruby>体<rt>からだ</rt></ruby>が<ruby>浮<rt>う</rt></ruby>くようになりました。",
+ "traduccion": "Cuando empecé a aprender a nadar no hacía más que agobiarme. Por avanzar rápido aceleraba los brazos y cada vez me quedaba sin aire y acababa haciendo pie. El entrenador me dijo: «el único que te mete prisa eres tú». Nunca he conseguido corregir mi carácter impaciente. Pero dentro del agua, si no aflojas, no avanzas. Más que girar los brazos deprisa, es más rápido sostener cada brazada bien larga. Aun habiéndolo entendido, el cuerpo tardó medio año en aprenderlo. Siento que el agua me enseñó que ser rápido no siempre es lo correcto. Con una calma casi decepcionante, el cuerpo empezó a flotar.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>最初<rt>さいしょ</rt></ruby>にしていた<ruby>失敗<rt>しっぱい</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>力<rt>ちから</rt></ruby>を<ruby>抜<rt>ぬ</rt></ruby>きすぎた",
+    "<ruby>速<rt>はや</rt></ruby>く<ruby>進<rt>すす</rt></ruby>もうとして<ruby>手<rt>て</rt></ruby>を<ruby>急<rt>いそ</rt></ruby>がせた",
+    "<ruby>練習<rt>れんしゅう</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかった",
+    "コーチの<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>かなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>水<rt>みず</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>速<rt>はや</rt></ruby>く<ruby>進<rt>すす</rt></ruby>むには、どうするといいですか。",
+   "opciones": [
+    "<ruby>素早<rt>すばや</rt></ruby>く<ruby>腕<rt>うで</rt></ruby>を<ruby>回<rt>まわ</rt></ruby>す",
+    "<ruby>一<rt>ひと</rt></ruby>かきを<ruby>長<rt>なが</rt></ruby>く<ruby>持続<rt>じぞく</rt></ruby>させる",
+    "<ruby>息<rt>いき</rt></ruby>を<ruby>止<rt>と</rt></ruby>める",
+    "<ruby>足<rt>あし</rt></ruby>をつく"
+   ],
+   "correcta": 1
+  }
+ ]
+}

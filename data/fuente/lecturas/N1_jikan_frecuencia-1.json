@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/jikan/frecuencia-1",
+ "titulo": "<ruby>時折<rt>ときおり</rt></ruby><ruby>会<rt>あ</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "<ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くの<ruby>店<rt>みせ</rt></ruby>で、<ruby>時折<rt>ときおり</rt></ruby><ruby>顔<rt>かお</rt></ruby>を<ruby>合<rt>あ</rt></ruby>わせる<ruby>人<rt>ひと</rt></ruby>がいます。レギュラーの<ruby>客<rt>きゃく</rt></ruby>というほどではなく、<ruby>月<rt>つき</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>か<ruby>二度<rt>にど</rt></ruby>。しょっちゅう<ruby>会<rt>あ</rt></ruby>うわけでもないのに、<ruby>席<rt>せき</rt></ruby>が<ruby>隣<rt>となり</rt></ruby>になると<ruby>自然<rt>しぜん</rt></ruby>に<ruby>話<rt>はな</rt></ruby>し<ruby>出<rt>だ</rt></ruby>します。<ruby>仕事<rt>しごと</rt></ruby>のトラブルの<ruby>話<rt>はなし</rt></ruby>をされたこともありました。<ruby>名前<rt>なまえ</rt></ruby>も<ruby>知<rt>し</rt></ruby>らない<em class=\"g\">というわけではない</em>のですが、こちらから<ruby>連絡<rt>れんらく</rt></ruby>を<ruby>取<rt>と</rt></ruby>ったことは<ruby>一度<rt>いちど</rt></ruby>もありません。そのくらいの<ruby>間<rt>あいだ</rt></ruby>が<ruby>心地<rt>ここち</rt></ruby>よいのだと<ruby>思<rt>おも</rt></ruby>います。<ruby>先月<rt>せんげつ</rt></ruby>、<ruby>店<rt>みせ</rt></ruby>が<ruby>閉<rt>し</rt></ruby>まると<ruby>知<rt>し</rt></ruby>らされました。「またどこかで」と<ruby>言<rt>い</rt></ruby>って<ruby>別<rt>わか</rt></ruby>れましたが、<ruby>再会<rt>さいかい</rt></ruby>できるかどうかは<ruby>分<rt>わ</rt></ruby>かりません。せめて<ruby>最後<rt>さいご</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>には<ruby>顔<rt>かお</rt></ruby>を<ruby>出<rt>だ</rt></ruby>し<em class=\"g\">てみせる</em>つもりです。ぼつぼつ<ruby>荷物<rt>にもつ</rt></ruby>をまとめている<ruby>店主<rt>てんしゅ</rt></ruby>に、<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>いたいのです。",
+ "traduccion": "En el local de al lado de la estación hay una persona con la que coincido de vez en cuando. No llega a ser cliente habitual: una o dos veces al mes. Aunque no nos vemos con frecuencia, si nos toca sentarnos al lado nos ponemos a hablar con naturalidad. Alguna vez me ha contado problemas de su trabajo. No es que no sepa su nombre, pero nunca he sido yo quien lo ha llamado. Creo que esa distancia es justo la cómoda. El mes pasado nos avisaron de que el local cierra. Nos despedimos con un «ya nos veremos», pero no sé si volveremos a encontrarnos. Al menos pienso pasarme el último día sin falta. Quiero darle las gracias al dueño, que ya va recogiendo poco a poco.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>と<ruby>相手<rt>あいて</rt></ruby>は、どのくらい<ruby>会<rt>あ</rt></ruby>いますか。",
+   "opciones": [
+    "<ruby>毎日<rt>まいにち</rt></ruby>",
+    "<ruby>月<rt>つき</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>か<ruby>二度<rt>にど</rt></ruby>",
+    "<ruby>年<rt>ねん</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>",
+    "はじめて<ruby>会<rt>あ</rt></ruby>った"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>店<rt>みせ</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>、この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をするつもりですか。",
+   "opciones": [
+    "<ruby>行<rt>い</rt></ruby>かない",
+    "<ruby>顔<rt>かお</rt></ruby>を<ruby>出<rt>だ</rt></ruby>して<ruby>店主<rt>てんしゅ</rt></ruby>に<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>う",
+    "<ruby>相手<rt>あいて</rt></ruby>に<ruby>連絡<rt>れんらく</rt></ruby>する",
+    "<ruby>写真<rt>しゃしん</rt></ruby>をとる"
+   ],
+   "correcta": 1
+  }
+ ]
+}
