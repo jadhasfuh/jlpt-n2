@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/kokoro/deseo-1",
+ "titulo": "<ruby>志<rt>こころざし</rt></ruby>のはじまり",
+ "cuerpo": "<ruby>高校<rt>こうこう</rt></ruby>の<ruby>図書室<rt>としょしつ</rt></ruby>で<ruby>一冊<rt>いっさつ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>に<ruby>出会<rt>であ</rt></ruby>った<ruby>日<rt>ひ</rt></ruby><em class=\"g\">を境に</em>、<ruby>進<rt>すす</rt></ruby>みたい<ruby>方向<rt>ほうこう</rt></ruby>がはっきりしました。<ruby>何<rt>なに</rt></ruby>しろ<ruby>当時<rt>とうじ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>の<ruby>当<rt>あ</rt></ruby>てもなく、ただ<ruby>漠然<rt>ばくぜん</rt></ruby>とした<ruby>憧<rt>あこが</rt></ruby>れがあるだけだったのです。<ruby>著者<rt>ちょしゃ</rt></ruby>を<ruby>慕<rt>した</rt></ruby>う<ruby>気持<rt>きも</rt></ruby>ちが<ruby>動機<rt>どうき</rt></ruby>になったのは<ruby>確<rt>たし</rt></ruby>かですが、<ruby>野心<rt>やしん</rt></ruby>というほど<ruby>強<rt>つよ</rt></ruby>いものではありませんでした。<ruby>両親<rt>りょうしん</rt></ruby>に<ruby>意向<rt>いこう</rt></ruby>を<ruby>伝<rt>つた</rt></ruby>えると、<ruby>下心<rt>したごころ</rt></ruby>があるのではないかと<ruby>疑<rt>うたが</rt></ruby>われたくらいです。<ruby>情熱<rt>じょうねつ</rt></ruby>だけで<ruby>続<rt>つづ</rt></ruby>くほど<ruby>甘<rt>あま</rt></ruby>くはなく、<ruby>意欲<rt>いよく</rt></ruby>が<ruby>切<rt>き</rt></ruby>れかけた<ruby>時期<rt>じき</rt></ruby>も<ruby>何度<rt>なんど</rt></ruby>かありました。それでも<ruby>目論見<rt>もくろみ</rt></ruby>どおりにいかないことのほうが、あとから<ruby>動力<rt>どうりょく</rt></ruby>になったように<ruby>思<rt>おも</rt></ruby>います。<ruby>願<rt>ねが</rt></ruby>いを<ruby>叶<rt>かな</rt></ruby>えるというより、<ruby>心掛<rt>こころが</rt></ruby>けを<ruby>変<rt>か</rt></ruby>えないでいることのほうが<ruby>難<rt>むずか</rt></ruby>しいのでした。",
+ "traduccion": "Desde el día en que me topé con un libro en la biblioteca del instituto, se me aclaró la dirección en la que quería avanzar. La verdad es que entonces no tenía ninguna perspectiva concreta, solo una admiración vaga. Es cierto que el motivo fue la devoción por aquel autor, pero no era nada tan fuerte como una ambición. Cuando les conté a mis padres lo que pretendía, hasta sospecharon que me traía algo entre manos. No es tan fácil como para sostenerse solo con entusiasmo, y hubo varias épocas en que las ganas estuvieron a punto de agotarse. Aun así, creo que lo que no salió según lo previsto fue justo lo que después me dio impulso. Más que cumplir un deseo, lo difícil era no cambiar la disposición con la que uno empieza.",
+ "preguntas": [
+  {
+   "p": "<ruby>進<rt>すす</rt></ruby>みたい<ruby>方向<rt>ほうこう</rt></ruby>がはっきりしたのは、いつですか。",
+   "opciones": [
+    "<ruby>両親<rt>りょうしん</rt></ruby>に<ruby>話<rt>はな</rt></ruby>したとき",
+    "<ruby>図書室<rt>としょしつ</rt></ruby>で<ruby>一冊<rt>いっさつ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>に<ruby>出会<rt>であ</rt></ruby>った<ruby>日<rt>ひ</rt></ruby>",
+    "<ruby>意欲<rt>いよく</rt></ruby>が<ruby>切<rt>き</rt></ruby>れたとき",
+    "<ruby>目論見<rt>もくろみ</rt></ruby>どおりにいったとき"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "あとから<ruby>動力<rt>どうりょく</rt></ruby>になったのは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>情熱<rt>じょうねつ</rt></ruby>",
+    "<ruby>目論見<rt>もくろみ</rt></ruby>どおりにいかなかったこと",
+    "<ruby>両親<rt>りょうしん</rt></ruby>の<ruby>支<rt>ささ</rt></ruby>え",
+    "<ruby>著者<rt>ちょしゃ</rt></ruby>への<ruby>憧<rt>あこが</rt></ruby>れ"
+   ],
+   "correcta": 1
+  }
+ ]
+}
