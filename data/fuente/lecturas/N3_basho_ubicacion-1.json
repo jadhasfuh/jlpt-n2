@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/basho/ubicacion-1",
+ "titulo": "<ruby>丘<rt>おか</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>から",
+ "cuerpo": "<ruby>町<rt>まち</rt></ruby>のはずれに<ruby>小<rt>ちい</rt></ruby>さい<ruby>丘<rt>おか</rt></ruby>があります。<ruby>幅<rt>はば</rt></ruby>のせまい<ruby>道<rt>みち</rt></ruby>をのぼると、<ruby>上<rt>うえ</rt></ruby>に<ruby>出<rt>で</rt></ruby>られます。そこから<ruby>見<rt>み</rt></ruby>ると、<ruby>町<rt>まち</rt></ruby>と<ruby>郡<rt>ぐん</rt></ruby>の<ruby>境<rt>さかい</rt></ruby>がよくわかります。<ruby>夕方<rt>ゆうがた</rt></ruby>は、<ruby>建物<rt>たてもの</rt></ruby>の<ruby>影<rt>かげ</rt></ruby>が<ruby>長<rt>なが</rt></ruby>くのびます。この<ruby>場所<rt>ばしょ</rt></ruby><em class=\"g\">について</em>、<ruby>昔<rt>むかし</rt></ruby>は<ruby>鳥<rt>とり</rt></ruby>の<ruby>巣<rt>す</rt></ruby>がたくさんあったと<ruby>聞<rt>き</rt></ruby>きました。いまはあまり<ruby>人<rt>ひと</rt></ruby>が<ruby>来<rt>き</rt></ruby>ません。<ruby>景色<rt>けしき</rt></ruby>は<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>劣<rt>おと</rt></ruby>りませんが、<ruby>知<rt>し</rt></ruby>られていないだけです。<ruby>帰<rt>かえ</rt></ruby>ろう<em class=\"g\">とする</em>と、うしろで<ruby>風<rt>かぜ</rt></ruby>が<ruby>鳴<rt>な</rt></ruby>りました。",
+ "traduccion": "A las afueras del pueblo hay una colina pequeña. Subiendo por un camino estrecho se llega arriba. Desde allí se distingue bien el límite entre el pueblo y el distrito. Al atardecer, las sombras de los edificios se alargan. Sobre este lugar me contaron que antiguamente había muchos nidos de pájaros. Ahora casi no viene nadie. El paisaje no tiene nada que envidiar a los sitios famosos: es solo que no se conoce. Cuando iba a volver, el viento sonó a mi espalda.",
+ "preguntas": [
+  {
+   "p": "<ruby>丘<rt>おか</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>から<ruby>何<rt>なに</rt></ruby>がよくわかりますか。",
+   "opciones": [
+    "<ruby>鳥<rt>とり</rt></ruby>の<ruby>巣<rt>す</rt></ruby>",
+    "<ruby>町<rt>まち</rt></ruby>と<ruby>郡<rt>ぐん</rt></ruby>の<ruby>境<rt>さかい</rt></ruby>",
+    "<ruby>建物<rt>たてもの</rt></ruby>の<ruby>数<rt>かず</rt></ruby>",
+    "<ruby>道<rt>みち</rt></ruby>の<ruby>幅<rt>はば</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>場所<rt>ばしょ</rt></ruby>について、どう<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>景色<rt>けしき</rt></ruby>がよくない",
+    "<ruby>景色<rt>けしき</rt></ruby>はいいが<ruby>知<rt>し</rt></ruby>られていない",
+    "<ruby>人<rt>ひと</rt></ruby>がおおい",
+    "<ruby>有名<rt>ゆうめい</rt></ruby>だ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

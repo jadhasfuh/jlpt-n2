@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/basho/ir_venir-1",
+ "titulo": "すれちがう<ruby>人<rt>ひと</rt></ruby>たち",
+ "cuerpo": "<ruby>朝<rt>あさ</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>では、たくさんの<ruby>人<rt>ひと</rt></ruby>とすれちがいます。<ruby>同<rt>おな</rt></ruby>じ<ruby>時間<rt>じかん</rt></ruby>に<ruby>同<rt>おな</rt></ruby>じ<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>通<rt>とお</rt></ruby>っているのに、だれとも<ruby>話<rt>はな</rt></ruby>しません。ある<ruby>日<rt>ひ</rt></ruby>、<ruby>切符<rt>きっぷ</rt></ruby>を<ruby>落<rt>お</rt></ruby>とした<ruby>人<rt>ひと</rt></ruby>を<ruby>追<rt>お</rt></ruby>いかけて<ruby>渡<rt>わた</rt></ruby>しました。おれいを<ruby>言<rt>い</rt></ruby>われただけですが、その<ruby>日<rt>ひ</rt></ruby>は<ruby>気分<rt>きぶん</rt></ruby>がよかったです。<ruby>人<rt>ひと</rt></ruby>とのつながりは、<ruby>時間<rt>じかん</rt></ruby>をかけて<ruby>作<rt>つく</rt></ruby>るものである<em class=\"g\">上に</em>、こういうみじかい<ruby>出<rt>で</rt></ruby>あいからも<ruby>生<rt>う</rt></ruby>まれます。<ruby>去<rt>さ</rt></ruby>っていく<ruby>人<rt>ひと</rt></ruby>のせなかを<ruby>見<rt>み</rt></ruby>ながら、<ruby>自分<rt>じぶん</rt></ruby>も<ruby>急<rt>いそ</rt></ruby>いで<ruby>人<rt>ひと</rt></ruby>のながれを<ruby>抜<rt>ぬ</rt></ruby>けました。",
+ "traduccion": "En la estación por la mañana te cruzas con muchísima gente. Pasamos por el mismo sitio a la misma hora y, sin embargo, no hablamos con nadie. Un día perseguí a alguien que se le había caído el billete y se lo di. Solo me dio las gracias, pero aquel día me quedé de buen humor. Los vínculos entre personas, además de construirse con tiempo, también nacen de encuentros tan breves como este. Mirando la espalda de quien se alejaba, yo también salí a toda prisa de la corriente de gente.",
+ "preguntas": [
+  {
+   "p": "ある<ruby>日<rt>ひ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>人<rt>ひと</rt></ruby>と<ruby>話<rt>はな</rt></ruby>した",
+    "<ruby>切符<rt>きっぷ</rt></ruby>を<ruby>落<rt>お</rt></ruby>とした<ruby>人<rt>ひと</rt></ruby>に<ruby>渡<rt>わた</rt></ruby>した",
+    "<ruby>駅<rt>えき</rt></ruby>をかえた",
+    "<ruby>急<rt>いそ</rt></ruby>いで<ruby>帰<rt>かえ</rt></ruby>った"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "つながりについて、どう<ruby>考<rt>かんが</rt></ruby>えていますか。",
+   "opciones": [
+    "<ruby>時間<rt>じかん</rt></ruby>をかけないと<ruby>生<rt>う</rt></ruby>まれない",
+    "みじかい<ruby>出<rt>で</rt></ruby>あいからも<ruby>生<rt>う</rt></ruby>まれる",
+    "<ruby>駅<rt>えき</rt></ruby>では<ruby>生<rt>う</rt></ruby>まれない",
+    "<ruby>話<rt>はな</rt></ruby>さないと<ruby>生<rt>う</rt></ruby>まれない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

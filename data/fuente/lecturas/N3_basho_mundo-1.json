@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/basho/mundo-1",
+ "titulo": "<ruby>世<rt>よ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>と<ruby>地球<rt>ちきゅう</rt></ruby>",
+ "cuerpo": "<ruby>国語<rt>こくご</rt></ruby>のじゅぎょうで、<ruby>世界<rt>せかい</rt></ruby>の<ruby>国<rt>くに</rt></ruby>のかずをならいました。<ruby>大陸<rt>たいりく</rt></ruby>によって、<ruby>国<rt>くに</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きさも<ruby>文化<rt>ぶんか</rt></ruby>もちがいます。<ruby>東洋<rt>とうよう</rt></ruby>と<ruby>西洋<rt>せいよう</rt></ruby>という<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>をしますが、<em class=\"g\">といっても</em>、じっさいにはその<ruby>間<rt>あいだ</rt></ruby>にもたくさんの<ruby>国<rt>くに</rt></ruby>があります。<ruby>日本<rt>にほん</rt></ruby>は<ruby>島<rt>しま</rt></ruby>の<ruby>国<rt>くに</rt></ruby>です。<em class=\"g\">ところが</em>、<ruby>昔<rt>むかし</rt></ruby>から<ruby>海<rt>うみ</rt></ruby>をこえていろいろなものが<ruby>入<rt>はい</rt></ruby>ってきました。<ruby>地球<rt>ちきゅう</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つの<ruby>家<rt>いえ</rt></ruby>のように<ruby>考<rt>かんが</rt></ruby>えると、<ruby>国家<rt>こっか</rt></ruby>のさかいめは、<ruby>人<rt>ひと</rt></ruby>が<ruby>引<rt>ひ</rt></ruby>いた<ruby>線<rt>せん</rt></ruby>にすぎません。",
+ "traduccion": "En la clase de lengua aprendimos cuántos países hay en el mundo. Según el continente, cambian tanto el tamaño de los países como la cultura. Decimos «Oriente» y «Occidente», pero, dicho esto, en realidad entre ambos hay muchísimos países. Japón es un país de islas. Sin embargo, desde antiguo han ido entrando cosas cruzando el mar. Si piensas en la Tierra como una sola casa, las fronteras entre estados no son más que líneas que trazó la gente.",
+ "preguntas": [
+  {
+   "p": "「<ruby>東洋<rt>とうよう</rt></ruby>と<ruby>西洋<rt>せいよう</rt></ruby>」という<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>について、どうですか。",
+   "opciones": [
+    "<ruby>正<rt>ただ</rt></ruby>しい",
+    "その<ruby>間<rt>あいだ</rt></ruby>にもたくさんの<ruby>国<rt>くに</rt></ruby>がある",
+    "<ruby>使<rt>つか</rt></ruby>わないほうがいい",
+    "<ruby>同<rt>おな</rt></ruby>じ<ruby>意味<rt>いみ</rt></ruby>だ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>国家<rt>こっか</rt></ruby>のさかいめについて、どう<ruby>考<rt>かんが</rt></ruby>えていますか。",
+   "opciones": [
+    "しぜんにできたもの",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>引<rt>ひ</rt></ruby>いた<ruby>線<rt>せん</rt></ruby>にすぎない",
+    "かえられない",
+    "<ruby>大陸<rt>たいりく</rt></ruby>できまる"
+   ],
+   "correcta": 1
+  }
+ ]
+}

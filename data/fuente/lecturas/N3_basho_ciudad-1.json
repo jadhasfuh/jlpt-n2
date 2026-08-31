@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/basho/ciudad-1",
+ "titulo": "<ruby>都会<rt>とかい</rt></ruby>の<ruby>歩道<rt>ほどう</rt></ruby>",
+ "cuerpo": "<ruby>首都<rt>しゅと</rt></ruby>の<ruby>中心<rt>ちゅうしん</rt></ruby>は、<ruby>道路<rt>どうろ</rt></ruby>が<ruby>広<rt>ひろ</rt></ruby>くて<ruby>信号<rt>しんごう</rt></ruby>がおおいです。はじめて<ruby>来<rt>き</rt></ruby>たとき、<ruby>横断<rt>おうだん</rt></ruby>するタイミングがわかりませんでした。<ruby>歩道<rt>ほどう</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>の<ruby>数<rt>かず</rt></ruby>にもおどろきました。<ruby>都会<rt>とかい</rt></ruby>は<ruby>便利<rt>べんり</rt></ruby><em class=\"g\">だけでなく</em>、<ruby>博物館<rt>はくぶつかん</rt></ruby>や<ruby>劇場<rt>げきじょう</rt></ruby>のような<ruby>場所<rt>ばしょ</rt></ruby>もたくさんあります。<em class=\"g\">だけど</em>、<ruby>建物<rt>たてもの</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>から<ruby>空<rt>そら</rt></ruby>がすこししか<ruby>見<rt>み</rt></ruby>えません。<ruby>四角<rt>しかく</rt></ruby>い<ruby>窓<rt>まど</rt></ruby>のむこうに、とおくの<ruby>塔<rt>とう</rt></ruby>が<ruby>見<rt>み</rt></ruby>えました。<ruby>人<rt>ひと</rt></ruby>のおおい<ruby>場所<rt>ばしょ</rt></ruby>にいると、かえって<ruby>一人<rt>ひとり</rt></ruby>になる<ruby>時間<rt>じかん</rt></ruby>がたいせつに<ruby>思<rt>おも</rt></ruby>えてきます。",
+ "traduccion": "El centro de la capital tiene calles anchas y muchos semáforos. La primera vez que vine no sabía en qué momento cruzar. También me sorprendió la cantidad de gente que camina por las aceras. La ciudad no solo es cómoda: además tiene sitios como museos y teatros. Pero entre los edificios solo se ve un trozo de cielo. Al otro lado de una ventana cuadrada se veía una torre a lo lejos. Cuando estás en un sitio con mucha gente, el tiempo a solas acaba pareciéndote más valioso.",
+ "preguntas": [
+  {
+   "p": "はじめて<ruby>来<rt>き</rt></ruby>たとき、<ruby>何<rt>なに</rt></ruby>がわかりませんでしたか。",
+   "opciones": [
+    "<ruby>道<rt>みち</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>",
+    "<ruby>横断<rt>おうだん</rt></ruby>するタイミング",
+    "<ruby>博物館<rt>はくぶつかん</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>",
+    "<ruby>信号<rt>しんごう</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>都会<rt>とかい</rt></ruby>にいて、<ruby>何<rt>なに</rt></ruby>がたいせつに<ruby>思<rt>おも</rt></ruby>えてきますか。",
+   "opciones": [
+    "<ruby>便利<rt>べんり</rt></ruby>さ",
+    "<ruby>一人<rt>ひとり</rt></ruby>になる<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>劇場<rt>げきじょう</rt></ruby>",
+    "<ruby>広<rt>ひろ</rt></ruby>い<ruby>道路<rt>どうろ</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

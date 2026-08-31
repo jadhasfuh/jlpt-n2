@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/basho/transporte-2",
+ "titulo": "<ruby>列車<rt>れっしゃ</rt></ruby>の<ruby>発車<rt>はっしゃ</rt></ruby>",
+ "cuerpo": "<ruby>鉄道<rt>てつどう</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>で、<ruby>列車<rt>れっしゃ</rt></ruby>の<ruby>発車<rt>はっしゃ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>っていました。<ruby>停留所<rt>ていりゅうじょ</rt></ruby>のバスとちがって、<ruby>時間<rt>じかん</rt></ruby>がきっちりしています。アナウンスは<ruby>日本語<rt>にほんご</rt></ruby>だけでしたが、となりの<ruby>人<rt>ひと</rt></ruby>が<ruby>外国<rt>がいこく</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>に<ruby>通訳<rt>つうやく</rt></ruby>していました。ことばが<ruby>通<rt>つう</rt></ruby>じない<ruby>人<rt>ひと</rt></ruby>にとって、<ruby>駅<rt>えき</rt></ruby>は<ruby>通行<rt>つうこう</rt></ruby>するだけでもたいへんな<ruby>場所<rt>ばしょ</rt></ruby>です。<ruby>自分<rt>じぶん</rt></ruby>にできることは<ruby>少<rt>すく</rt></ruby>ない<em class=\"g\">ながらも</em>、<ruby>地図<rt>ちず</rt></ruby>をゆびさして<ruby>教<rt>おし</rt></ruby>えました。<ruby>列車<rt>れっしゃ</rt></ruby>が<ruby>通過<rt>つうか</rt></ruby>するのを<ruby>待<rt>ま</rt></ruby>つ<em class=\"g\">しかない</em><ruby>時間<rt>じかん</rt></ruby>に、そんなやりとりがありました。",
+ "traduccion": "Estaba esperando la salida del tren en la estación de ferrocarril. A diferencia del autobús en su parada, aquí los horarios son exactos. Los avisos eran solo en japonés, pero la persona de al lado se los traducía a un extranjero. Para quien no entiende el idioma, una estación es un sitio difícil aunque solo sea para pasar por él. Aunque yo podía hacer poco, le señalé el mapa y se lo indiqué. Eso ocurrió en ese rato en el que no queda más remedio que esperar a que pase el tren.",
+ "preguntas": [
+  {
+   "p": "となりの<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていましたか。",
+   "opciones": [
+    "<ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby>ていた",
+    "<ruby>外国<rt>がいこく</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>に<ruby>通訳<rt>つうやく</rt></ruby>していた",
+    "アナウンスをしていた",
+    "バスを<ruby>待<rt>ま</rt></ruby>っていた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>何<rt>なに</rt></ruby>もしなかった",
+    "<ruby>地図<rt>ちず</rt></ruby>をゆびさして<ruby>教<rt>おし</rt></ruby>えた",
+    "<ruby>通訳<rt>つうやく</rt></ruby>した",
+    "<ruby>駅<rt>えき</rt></ruby>を<ruby>出<rt>で</rt></ruby>た"
+   ],
+   "correcta": 1
+  }
+ ]
+}

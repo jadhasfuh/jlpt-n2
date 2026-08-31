@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/basho/transporte-1",
+ "titulo": "エンジンの<ruby>音<rt>おと</rt></ruby>",
+ "cuerpo": "<ruby>子<rt>こ</rt></ruby>どものころ、<ruby>父<rt>ちち</rt></ruby>のくるまでドライブに<ruby>行<rt>い</rt></ruby>くのがすきでした。エンジンの<ruby>音<rt>おと</rt></ruby>を<ruby>聞<rt>き</rt></ruby>くだけで、どこかへ<ruby>行<rt>い</rt></ruby>ける<ruby>気<rt>き</rt></ruby>がしたのです。いまは<ruby>自分<rt>じぶん</rt></ruby>で<ruby>運転<rt>うんてん</rt></ruby>します。ブレーキのタイミングや、<ruby>乗客<rt>じょうきゃく</rt></ruby>の<ruby>機嫌<rt>きげん</rt></ruby>まで<ruby>気<rt>き</rt></ruby>にするようになりました。<ruby>父<rt>ちち</rt></ruby>はうまい<ruby>運転<rt>うんてん</rt></ruby>をする<ruby>人<rt>ひと</rt></ruby>でした。<ruby>自分<rt>じぶん</rt></ruby>では<ruby>何<rt>なに</rt></ruby>も<ruby>述<rt>の</rt></ruby>べなかった<em class=\"g\">くせに</em>、わたしがくるまを<ruby>運転<rt>うんてん</rt></ruby>できるようになった<ruby>日<rt>ひ</rt></ruby>は、うれしそうな<ruby>顔<rt>かお</rt></ruby>をしていました。しずかな<ruby>人<rt>ひと</rt></ruby>である<em class=\"g\">くせに</em>、その<ruby>日<rt>ひ</rt></ruby>だけはよく<ruby>話<rt>はな</rt></ruby>しました。",
+ "traduccion": "De niño me gustaba salir a dar una vuelta en el coche de mi padre. Solo con oír el motor me daba la sensación de que podía ir a cualquier parte. Ahora conduzco yo. He acabado pendiente del momento de frenar e incluso del humor de quien va de pasajero. Mi padre conducía muy bien. Aunque nunca comentaba nada sobre sí mismo, el día que aprendí a conducir puso cara de contento. Siendo una persona callada, solo aquel día habló mucho.",
+ "preguntas": [
+  {
+   "p": "<ruby>子<rt>こ</rt></ruby>どものころ、エンジンの<ruby>音<rt>おと</rt></ruby>を<ruby>聞<rt>き</rt></ruby>くとどう<ruby>感<rt>かん</rt></ruby>じましたか。",
+   "opciones": [
+    "うるさい",
+    "どこかへ<ruby>行<rt>い</rt></ruby>ける<ruby>気<rt>き</rt></ruby>がした",
+    "こわい",
+    "ねむくなる"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>父<rt>ちち</rt></ruby>はどんな<ruby>人<rt>ひと</rt></ruby>でしたか。",
+   "opciones": [
+    "よく<ruby>話<rt>はな</rt></ruby>す<ruby>人<rt>ひと</rt></ruby>",
+    "しずかで、<ruby>自分<rt>じぶん</rt></ruby>のことを<ruby>述<rt>の</rt></ruby>べない<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>運転<rt>うんてん</rt></ruby>がへたな<ruby>人<rt>ひと</rt></ruby>",
+    "きびしい<ruby>人<rt>ひと</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}
