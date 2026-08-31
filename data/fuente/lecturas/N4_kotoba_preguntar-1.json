@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kotoba/preguntar-1",
+ "titulo": "<ruby>相談<rt>そうだん</rt></ruby>してよかった",
+ "cuerpo": "ひとりで<ruby>考<rt>かんが</rt></ruby>えても<ruby>答<rt>こた</rt></ruby>えが<ruby>出<rt>で</rt></ruby>ないとき、だれかに<ruby>相談<rt>そうだん</rt></ruby>する<em class=\"g\">ことができます</em>。でも、それがなかなかできませんでした。「じぶんのことはじぶんで」と<ruby>思<rt>おも</rt></ruby>っていたからです。<ruby>先月<rt>せんげつ</rt></ruby>、はじめて<ruby>先<rt>せん</rt></ruby>ぱいに<ruby>尋<rt>たず</rt></ruby>ねました。すぐに<ruby>返事<rt>へんじ</rt></ruby>をくれて、「そんなことなら、いつでもきいて」と<ruby>言<rt>い</rt></ruby>われました。<ruby>答<rt>こた</rt></ruby>えそのものより、ひとりではないと<ruby>分<rt>わ</rt></ruby>かったことがたすけになりました。いまは、<ruby>早<rt>はや</rt></ruby>めに<ruby>聞<rt>き</rt></ruby>く<em class=\"g\">ことができる</em>ようになりました。",
+ "traduccion": "Cuando por mucho que le des vueltas no sale la respuesta, puedes consultarlo con alguien. Pero a mí eso me costaba mucho. Porque pensaba que lo mío tenía que resolverlo yo. El mes pasado le pregunté por primera vez a un compañero veterano. Me contestó enseguida y me dijo: «para eso, pregúntame cuando quieras». Más que la respuesta en sí, lo que me ayudó fue entender que no estaba solo. Ahora ya soy capaz de preguntar pronto.",
+ "preguntas": [
+  {
+   "p": "なぜ、<ruby>相談<rt>そうだん</rt></ruby>できませんでしたか。",
+   "opciones": [
+    "<ruby>時間<rt>じかん</rt></ruby>がないから",
+    "「じぶんのことはじぶんで」と<ruby>思<rt>おも</rt></ruby>っていたから",
+    "<ruby>先<rt>せん</rt></ruby>ぱいがこわいから",
+    "<ruby>答<rt>こた</rt></ruby>えを<ruby>知<rt>し</rt></ruby>っていたから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いちばんたすけになったのは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>答<rt>こた</rt></ruby>えそのもの",
+    "ひとりではないと<ruby>分<rt>わ</rt></ruby>かったこと",
+    "<ruby>返事<rt>へんじ</rt></ruby>のはやさ",
+    "<ruby>先<rt>せん</rt></ruby>ぱいのやさしさ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

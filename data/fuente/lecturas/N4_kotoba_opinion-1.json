@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kotoba/opinion-1",
+ "titulo": "<ruby>反対<rt>はんたい</rt></ruby>するゆうき",
+ "cuerpo": "かいぎで、みんながさんせいしていました。わたしだけが<ruby>反対<rt>はんたい</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>をもっていました。こういうとき、<ruby>言<rt>い</rt></ruby>い<ruby>出<rt>だ</rt></ruby>し<em class=\"g\">にくい</em>ものです。だまっていれば、その<ruby>場<rt>ば</rt></ruby>は<ruby>楽<rt>らく</rt></ruby>です。でも、あとでもんだいになると<ruby>知<rt>し</rt></ruby>っていました。「ひとつだけ、<ruby>気<rt>き</rt></ruby>になることがあります」と、できるだけしずかに<ruby>話<rt>はな</rt></ruby>しました。はじめは<ruby>答<rt>こた</rt></ruby>え<em class=\"g\">にくい</em>ようすでしたが、けっきょくみんなで<ruby>考<rt>かんが</rt></ruby>えなおすことになり、ぶちょうも<ruby>承知<rt>しょうち</rt></ruby>してくれました。",
+ "traduccion": "En la reunión todos estaban de acuerdo. Solo yo tenía una opinión contraria. En momentos así cuesta abrir la boca. Si te callas, en ese instante es más cómodo. Pero yo sabía que después acabaría siendo un problema. Dije, con toda la calma que pude: «solo hay una cosa que me preocupa». Al principio parecía difícil de responder, pero al final decidimos replanteárnoslo entre todos, y el jefe también dio su visto bueno.",
+ "preguntas": [
+  {
+   "p": "なぜ、だまっていませんでしたか。",
+   "opciones": [
+    "みんながさんせいしたから",
+    "あとでもんだいになると<ruby>知<rt>し</rt></ruby>っていたから",
+    "ぶちょうにきかれたから",
+    "<ruby>言<rt>い</rt></ruby>いやすかったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "けっきょく、どうなりましたか。",
+   "opciones": [
+    "だれも<ruby>聞<rt>き</rt></ruby>かなかった",
+    "みんなで<ruby>考<rt>かんが</rt></ruby>えなおすことになった",
+    "この<ruby>人<rt>ひと</rt></ruby>がまちがっていた",
+    "かいぎが<ruby>終<rt>お</rt></ruby>わった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

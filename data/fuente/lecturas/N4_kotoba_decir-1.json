@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kotoba/decir-1",
+ "titulo": "<ruby>申<rt>もう</rt></ruby>し<ruby>上<rt>あ</rt></ruby>げる",
+ "cuerpo": "しごとの<ruby>会話<rt>かいわ</rt></ruby>では、ことばをえらば<em class=\"g\">なければなりません</em>。「<ruby>言<rt>い</rt></ruby>います」ではなく「<ruby>申<rt>もう</rt></ruby>します」、「<ruby>言<rt>い</rt></ruby>いました」ではなく「<ruby>申<rt>もう</rt></ruby>し<ruby>上<rt>あ</rt></ruby>げました」。はじめのころは、どう<ruby>言<rt>い</rt></ruby>っ<em class=\"g\">たらいいですか</em>と、なんども<ruby>先<rt>せん</rt></ruby>ぱいにききました。「ぶちょうがおっしゃったこと」と「わたしが<ruby>申<rt>もう</rt></ruby>し<ruby>上<rt>あ</rt></ruby>げたこと」をまちがえると、<ruby>意味<rt>いみ</rt></ruby>がぎゃくになってしまいます。むずかしいですが、ていねいなことばは、あいてをたてるためのものです。だからこそ、おぼえ<em class=\"g\">なければなりません</em>。",
+ "traduccion": "En las conversaciones de trabajo hay que elegir las palabras. No «digo» sino «le digo», no «dije» sino «le expuse». Al principio preguntaba una y otra vez a los veteranos cómo debía decirlo. Si confundes «lo que dijo el jefe» con «lo que le expuse yo», el sentido queda al revés. Es difícil, pero el lenguaje formal está para poner por delante al otro. Precisamente por eso hay que aprendérselo.",
+ "preguntas": [
+  {
+   "p": "はじめのころ、どうしましたか。",
+   "opciones": [
+    "<ruby>自分<rt>じぶん</rt></ruby>で<ruby>考<rt>かんが</rt></ruby>えた",
+    "なんども<ruby>先<rt>せん</rt></ruby>ぱいにきいた",
+    "<ruby>使<rt>つか</rt></ruby>わなかった",
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "ていねいなことばは<ruby>何<rt>なに</rt></ruby>のためですか。",
+   "opciones": [
+    "じぶんをたてるため",
+    "あいてをたてるため",
+    "はやく<ruby>話<rt>はな</rt></ruby>すため",
+    "しごとのため"
+   ],
+   "correcta": 1
+  }
+ ]
+}

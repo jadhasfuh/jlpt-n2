@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kotoba/pensar-1",
+ "titulo": "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>せない<ruby>訳<rt>わけ</rt></ruby>",
+ "cuerpo": "<ruby>昨日<rt>きのう</rt></ruby>あった<ruby>人<rt>ひと</rt></ruby>のなまえが<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>せません。かおははっきりおぼえているのに、ふしぎです。わすれるはずがないと<ruby>思<rt>おも</rt></ruby>っていた<ruby>人<rt>ひと</rt></ruby>のなまえほど、<ruby>出<rt>で</rt></ruby>てこないものなのでしょうか。<ruby>構<rt>かま</rt></ruby>わずほかのことを<ruby>考<rt>かんが</rt></ruby>えていたら、<ruby>夜<rt>よる</rt></ruby>になって、ふっと<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>しました。<ruby>頭<rt>あたま</rt></ruby>は、<ruby>探<rt>さが</rt></ruby>すのをやめたころに<ruby>答<rt>こた</rt></ruby>えを<ruby>出<rt>だ</rt></ruby>すのかな。つぎからは、<ruby>無理<rt>むり</rt></ruby>に<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>そうとするのをやめてみようかな。",
+ "traduccion": "No consigo recordar el nombre de la persona con la que me vi ayer. Es raro, porque su cara la recuerdo perfectamente. ¿Será que precisamente los nombres que creías imposible olvidar son los que no salen? Estuve pensando en otras cosas sin darle importancia y, al llegar la noche, me vino de golpe. Me pregunto si la cabeza da la respuesta justo cuando dejas de buscarla. A partir de ahora, ¿probaré a dejar de esforzarme por recordar?",
+ "preguntas": [
+  {
+   "p": "いつ<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>しましたか。",
+   "opciones": [
+    "すぐ",
+    "<ruby>夜<rt>よる</rt></ruby>になって",
+    "<ruby>昨日<rt>きのう</rt></ruby>",
+    "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>せなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えましたか。",
+   "opciones": [
+    "もっと<ruby>探<rt>さが</rt></ruby>すべきだ",
+    "<ruby>探<rt>さが</rt></ruby>すのをやめたころに<ruby>答<rt>こた</rt></ruby>えが<ruby>出<rt>で</rt></ruby>るのかな",
+    "なまえはたいせつでない",
+    "かおをわすれた"
+   ],
+   "correcta": 1
+  }
+ ]
+}

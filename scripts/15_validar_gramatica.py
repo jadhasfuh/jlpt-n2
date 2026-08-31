@@ -13,6 +13,14 @@ g = {x["id"]: x for x in json.load(open("data/dist/gramatica.json", encoding="ut
 def limpio(html):
     return re.sub(r"<[^>]+>", "", re.sub(r"<rt>.*?</rt>", "", html))
 
+# Las formas corteses de los cierres más comunes. La conjugación japonesa de
+# ならない → なりません cambia la raíz (nar-anai → nar-imasen), así que recortar
+# la última letra no basta y una tabla corta es más honrada que adivinar.
+CORTESES = {
+    "ならない": "なりません", "いけない": "いけません", " いけない": " いけません",
+    "できない": "できません", "しれない": "しれません", "ない": "ません",
+}
+
 def variantes_te(parte):
     """La forma て se sonoriza tras ん/ん-bases: 休む → 休んで. Así que 〜ていては
     aparece de verdad como 〜でいては, y sigue siendo el mismo punto."""
@@ -40,6 +48,13 @@ def aparece(forma, texto):
                 if i >= 0: encontrada = v; break
             # La última pieza suele conjugarse (願う→願います, ない→なかった,
             # 済む→済んだ): se acepta también sin su okurigana final.
+            # ¿Está en su forma cortés? (〜なければならない → 〜なければなりません)
+            if i < 0:
+                for llano, cortes in CORTESES.items():
+                    if parte.endswith(llano):
+                        v = parte[:-len(llano)] + cortes
+                        j = texto.find(v, pos)
+                        if j >= 0: i, encontrada = j, v; break
             if i < 0 and k == len(partes) - 1 and len(parte) > 1:
                 # する y 来る son irregulares: cortar la última letra da «す» y
                 # «来», que no aparecen. Sus raíces de verdad son し y き.

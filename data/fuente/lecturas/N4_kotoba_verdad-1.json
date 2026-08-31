@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kotoba/verdad-1",
+ "titulo": "<ruby>嘘<rt>うそ</rt></ruby>をつかない",
+ "cuerpo": "ちいさい<ruby>嘘<rt>うそ</rt></ruby>なら、だれもこまらない<em class=\"g\">かもしれない</em>。でも、いちど<ruby>言<rt>い</rt></ruby>うと、つぎもその<ruby>事<rt>こと</rt></ruby>にあわせなければなりません。<ruby>確<rt>たし</rt></ruby>かに、<ruby>本当<rt>ほんとう</rt></ruby>のことは<ruby>言<rt>い</rt></ruby>い<em class=\"g\">づらい</em>ときがあります。<ruby>昨日<rt>きのう</rt></ruby>、しごとのミスを<ruby>報告<rt>ほうこく</rt></ruby>するとき、こわくて<ruby>言<rt>い</rt></ruby>い<em class=\"g\">づらかった</em>です。でも、はやく<ruby>言<rt>い</rt></ruby>ったので、<ruby>直<rt>なお</rt></ruby>すことができました。かくしていたら、もっと<ruby>大<rt>おお</rt></ruby>きなもんだいになっていた<em class=\"g\">かもしれない</em>です。",
+ "traduccion": "Puede que una mentira pequeña no le haga daño a nadie. Pero, una vez la dices, luego tienes que ajustarte a ella otra vez. Es cierto que a veces cuesta decir la verdad. Ayer, al informar de un error en el trabajo, me daba miedo y me costó decirlo. Pero como lo dije pronto, pudo arreglarse. Si lo hubiera escondido, quizá se habría convertido en un problema mucho mayor.",
+ "preguntas": [
+  {
+   "p": "<ruby>昨日<rt>きのう</rt></ruby>、なぜ<ruby>言<rt>い</rt></ruby>い<em class=\"g\">づらかった</em>ですか。",
+   "opciones": [
+    "<ruby>時間<rt>じかん</rt></ruby>がないから",
+    "こわかったから",
+    "わすれたから",
+    "ちいさいことだから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "はやく<ruby>言<rt>い</rt></ruby>って、どうなりましたか。",
+   "opciones": [
+    "おこられた",
+    "<ruby>直<rt>なお</rt></ruby>すことができた",
+    "もんだいになった",
+    "かくせた"
+   ],
+   "correcta": 1
+  }
+ ]
+}

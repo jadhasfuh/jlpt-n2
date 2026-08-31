@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kotoba/saber-1",
+ "titulo": "<ruby>経験<rt>けいけん</rt></ruby>から<ruby>知<rt>し</rt></ruby>る",
+ "cuerpo": "<ruby>本<rt>ほん</rt></ruby>で<ruby>読<rt>よ</rt></ruby>んだことと、じっさいに<ruby>経験<rt>けいけん</rt></ruby>したことは、おなじようでちがいます。りょうりも、<ruby>文<rt>ぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むだけではできません。かならず<ruby>一<rt>いち</rt></ruby><ruby>度<rt>ど</rt></ruby>は<ruby>手<rt>て</rt></ruby>をうごかさ<em class=\"g\">なければいけません</em>。<ruby>昨日<rt>きのう</rt></ruby>、はじめて<ruby>魚<rt>さかな</rt></ruby>をさばいてみて、<ruby>思<rt>おも</rt></ruby>ったよりむずかしいことに<ruby>驚<rt>おどろ</rt></ruby>きました。でも、そのおかげで、みせの<ruby>人<rt>ひと</rt></ruby>のはやさのすごさを<ruby>見<rt>み</rt></ruby><ruby>付<rt>つ</rt></ruby>けることができました。<ruby>知<rt>し</rt></ruby>っているつもりのことこそ、いちど<ruby>自分<rt>じぶん</rt></ruby>でやってみ<em class=\"g\">なければいけません</em>。",
+ "traduccion": "Lo que lees en un libro y lo que vives de verdad se parecen pero no son lo mismo. Cocinar tampoco se aprende solo leyendo textos. Hay que mover las manos al menos una vez. Ayer limpié un pescado por primera vez y me sorprendió lo difícil que era. Pero gracias a eso pude apreciar lo impresionante que es la rapidez de los del mercado. Precisamente lo que crees saber es lo que hay que probar a hacer uno mismo.",
+ "preguntas": [
+  {
+   "p": "<ruby>昨日<rt>きのう</rt></ruby>、<ruby>何<rt>なに</rt></ruby>に<ruby>驚<rt>おどろ</rt></ruby>きましたか。",
+   "opciones": [
+    "<ruby>魚<rt>さかな</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きいこと",
+    "<ruby>思<rt>おも</rt></ruby>ったよりむずかしいこと",
+    "みせの<ruby>人<rt>ひと</rt></ruby>がいないこと",
+    "<ruby>本<rt>ほん</rt></ruby>がまちがっていたこと"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えはどれですか。",
+   "opciones": [
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>めば<ruby>十分<rt>じゅうぶん</rt></ruby>だ",
+    "<ruby>知<rt>し</rt></ruby>っているつもりのことこそやってみるべきだ",
+    "りょうりはむずかしい",
+    "<ruby>経験<rt>けいけん</rt></ruby>はいらない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

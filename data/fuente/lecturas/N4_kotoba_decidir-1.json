@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kotoba/decidir-1",
+ "titulo": "<ruby>準備<rt>じゅんび</rt></ruby>をする<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "<ruby>来週<rt>らいしゅう</rt></ruby>、<ruby>会<rt>かい</rt></ruby>をひらきます。<ruby>番組<rt>ばんぐみ</rt></ruby>のように<ruby>時間<rt>じかん</rt></ruby>をきめて、<ruby>道具<rt>どうぐ</rt></ruby>も<ruby>用意<rt>ようい</rt></ruby>しました。みんなの<ruby>約束<rt>やくそく</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>にまにあうよう、<ruby>支度<rt>したく</rt></ruby>はまえの<ruby>日<rt>ひ</rt></ruby>にすませます。<ruby>天気<rt>てんき</rt></ruby>はあまりよくない<em class=\"g\">そうだ</em>と<ruby>聞<rt>き</rt></ruby>いたので、<ruby>中<rt>なか</rt></ruby>でできることも<ruby>選<rt>えら</rt></ruby>んでおきました。<ruby>準備<rt>じゅんび</rt></ruby>にかけた<ruby>時間<rt>じかん</rt></ruby>のぶんだけ、とうじつはらくになります。じつは、<ruby>準備<rt>じゅんび</rt></ruby>をしている<ruby>時間<rt>じかん</rt></ruby>がいちばん<ruby>楽<rt>たの</rt></ruby>しい<em class=\"g\">そうだ</em>と<ruby>言<rt>い</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>もおおいのです。わたしもそのひとりです。",
+ "traduccion": "La semana que viene organizo una reunión. Fijé el horario como si fuera una parrilla de televisión y preparé también el material. Para llegar a la hora acordada por todos, dejo los preparativos hechos el día anterior. Como oí que el tiempo no iba a ser muy bueno, escogí también actividades que se puedan hacer dentro. Cuanto más tiempo dedicas a preparar, más fácil resulta el día. De hecho, dicen que hay mucha gente para quien lo más divertido es justo el rato de la preparación. Yo soy de esos.",
+ "preguntas": [
+  {
+   "p": "なぜ、<ruby>中<rt>なか</rt></ruby>でできることも<ruby>選<rt>えら</rt></ruby>びましたか。",
+   "opciones": [
+    "<ruby>人<rt>ひと</rt></ruby>がおおいから",
+    "<ruby>天気<rt>てんき</rt></ruby>がよくないと<ruby>聞<rt>き</rt></ruby>いたから",
+    "<ruby>道具<rt>どうぐ</rt></ruby>がないから",
+    "<ruby>時間<rt>じかん</rt></ruby>がないから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>準備<rt>じゅんび</rt></ruby>についてどう<ruby>思<rt>おも</rt></ruby>っていますか。",
+   "opciones": [
+    "めんどうだ",
+    "している<ruby>時間<rt>じかん</rt></ruby>がいちばん<ruby>楽<rt>たの</rt></ruby>しい",
+    "いらない",
+    "みじかいほうがいい"
+   ],
+   "correcta": 1
+  }
+ ]
+}
