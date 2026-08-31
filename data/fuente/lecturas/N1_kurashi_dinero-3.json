@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/kurashi/dinero-3",
+ "titulo": "<ruby>募金<rt>ぼきん</rt></ruby><ruby>箱<rt>ばこ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で",
+ "cuerpo": "<ruby>土手<rt>どて</rt></ruby>の<ruby>工事<rt>こうじ</rt></ruby>のために<ruby>募金<rt>ぼきん</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まりました。<ruby>法案<rt>ほうあん</rt></ruby>が<ruby>通<rt>とお</rt></ruby>るのを<ruby>待<rt>ま</rt></ruby>っていては<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わないのだそうです。<ruby>行政<rt>ぎょうせい</rt></ruby>からの<ruby>融資<rt>ゆうし</rt></ruby>も<ruby>申請<rt>しんせい</rt></ruby>していますが、<ruby>下<rt>お</rt></ruby>りるのがいつになる<em class=\"g\">ことやら</em><ruby>誰<rt>だれ</rt></ruby>にも<ruby>分<rt>わ</rt></ruby>かりません。<ruby>預金<rt>よきん</rt></ruby>を<ruby>崩<rt>くず</rt></ruby>して<ruby>投入<rt>とうにゅう</rt></ruby>した<ruby>人<rt>ひと</rt></ruby>もいると<ruby>聞<rt>き</rt></ruby>きます。<ruby>負債<rt>ふさい</rt></ruby>を<ruby>抱<rt>かか</rt></ruby>えてまで<ruby>出<rt>だ</rt></ruby>すべきかどうかは、<ruby>一人<rt>ひとり</rt></ruby>ひとりが<ruby>決<rt>き</rt></ruby>めることでしょう。わたしは<ruby>保険<rt>ほけん</rt></ruby>の<ruby>利息<rt>りそく</rt></ruby>が<ruby>入<rt>はい</rt></ruby>った<ruby>月<rt>つき</rt></ruby><em class=\"g\">にして</em>、ようやく<ruby>少<rt>すこ</rt></ruby>しだけ<ruby>納入<rt>のうにゅう</rt></ruby>できました。<ruby>貧困<rt>ひんこん</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うほどではありませんが、<ruby>余裕<rt>よゆう</rt></ruby>が<ruby>貧弱<rt>ひんじゃく</rt></ruby>なのは<ruby>確<rt>たし</rt></ruby>かです。<ruby>利潤<rt>りじゅん</rt></ruby>を<ruby>求<rt>もと</rt></ruby>める<ruby>投資<rt>とうし</rt></ruby>とはちがって、<ruby>戻<rt>もど</rt></ruby>ってくるものは<ruby>何<rt>なに</rt></ruby>もありません。それでも、<ruby>川<rt>かわ</rt></ruby>があふれなければそれでいいのだと<ruby>思<rt>おも</rt></ruby>っています。",
+ "traduccion": "Han empezado una colecta para las obras del terraplén. Al parecer, esperar a que se apruebe la ley llegaría tarde. También han solicitado financiación pública, pero nadie sabe cuándo llegará. He oído que hay quien ha sacado dinero de sus ahorros para meterlo. Si conviene o no dar hasta el punto de endeudarse es algo que decide cada cual. Yo, precisamente el mes en que me entraron los intereses del seguro, por fin pude aportar un poco. No es que pueda hablar de pobreza, pero desde luego mi margen es escaso. A diferencia de una inversión que busca beneficio, aquí no vuelve nada. Aun así pienso que, si el río no se desborda, con eso basta.",
+ "preguntas": [
+  {
+   "p": "<ruby>募金<rt>ぼきん</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まったのは、なぜですか。",
+   "opciones": [
+    "<ruby>法案<rt>ほうあん</rt></ruby>が<ruby>通<rt>とお</rt></ruby>ったから",
+    "<ruby>法案<rt>ほうあん</rt></ruby>を<ruby>待<rt>ま</rt></ruby>っていては<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わないから",
+    "<ruby>融資<rt>ゆうし</rt></ruby>が<ruby>下<rt>お</rt></ruby>りたから",
+    "<ruby>川<rt>かわ</rt></ruby>があふれたから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>はいつ<ruby>納入<rt>のうにゅう</rt></ruby>できましたか。",
+   "opciones": [
+    "<ruby>預金<rt>よきん</rt></ruby>を<ruby>崩<rt>くず</rt></ruby>したとき",
+    "<ruby>保険<rt>ほけん</rt></ruby>の<ruby>利息<rt>りそく</rt></ruby>が<ruby>入<rt>はい</rt></ruby>った<ruby>月<rt>つき</rt></ruby>",
+    "<ruby>給料<rt>きゅうりょう</rt></ruby><ruby>日<rt>び</rt></ruby>",
+    "まだしていない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

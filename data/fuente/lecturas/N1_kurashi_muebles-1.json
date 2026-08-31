@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/kurashi/muebles-1",
+ "titulo": "<ruby>陶器<rt>とうき</rt></ruby>の<ruby>壷<rt>つぼ</rt></ruby>",
+ "cuerpo": "<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>を<ruby>片付<rt>かたづ</rt></ruby>けたとき、<ruby>茶<rt>ちゃ</rt></ruby>の<ruby>間<rt>ま</rt></ruby>の<ruby>棚<rt>たな</rt></ruby>から<ruby>陶器<rt>とうき</rt></ruby>の<ruby>壷<rt>つぼ</rt></ruby>が<ruby>出<rt>で</rt></ruby>てきました。とっての<ruby>欠<rt>か</rt></ruby>けた<ruby>古<rt>ふる</rt></ruby>いもので、<ruby>名札<rt>なふだ</rt></ruby>も<ruby>何<rt>なに</rt></ruby>も<ruby>付<rt>つ</rt></ruby>いていません。<ruby>家族<rt>かぞく</rt></ruby><em class=\"g\">ぐるみ</em>で<ruby>集<rt>あつ</rt></ruby>まって<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>いましたが、<ruby>誰<rt>だれ</rt></ruby>のものだったのか<ruby>手掛<rt>てが</rt></ruby>かりは<ruby>出<rt>で</rt></ruby>てきませんでした。<ruby>床<rt>ゆか</rt></ruby>のカーペットをはがすと<ruby>板<rt>いた</rt></ruby>がきしみ、<ruby>夜具<rt>やぐ</rt></ruby>を<ruby>寝<rt>ね</rt></ruby>かせていた<ruby>押<rt>お</rt></ruby>し<ruby>入<rt>い</rt></ruby>れからは<ruby>布巾<rt>ふきん</rt></ruby>の<ruby>束<rt>たば</rt></ruby>が<ruby>出<rt>で</rt></ruby>てきます。<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>いに<ruby>困<rt>こま</rt></ruby>るものばかりです。<ruby>捨<rt>す</rt></ruby>て<em class=\"g\"><ruby>放題<rt>ほうだい</rt></ruby></em>にしてしまえば<ruby>早<rt>はや</rt></ruby>いのでしょうが、そうもいきません。<ruby>花壇<rt>かだん</rt></ruby>のそばにあったランプだけは、わたしが<ruby>引<rt>ひ</rt></ruby>き<ruby>取<rt>と</rt></ruby>りました。<ruby>使<rt>つか</rt></ruby>うあてはありません。それでも、<ruby>祖母<rt>そぼ</rt></ruby>が<ruby>夜<rt>よる</rt></ruby>に<ruby>灯<rt>とも</rt></ruby>していた<ruby>明<rt>あ</rt></ruby>かりだと<ruby>思<rt>おも</rt></ruby>うと、<ruby>捨<rt>す</rt></ruby>てるという<ruby>選択<rt>せんたく</rt></ruby>が<ruby>出<rt>で</rt></ruby>てこないのです。",
+ "traduccion": "Al vaciar la casa de mi abuela, del estante de la sala salió una vasija de cerámica. Es vieja, tiene el asa desportillada y no lleva ni etiqueta ni nada. Nos juntamos toda la familia a hablarlo, pero no apareció ninguna pista de quién la tuvo. Al levantar la moqueta las tablas crujían, y del armario donde se guardaba la ropa de cama salió un fajo de paños de cocina. Todo son cosas que no sabes cómo manejar. Sería rápido ponerse a tirar sin freno, pero no se puede. La lámpara que estaba junto al arriate me la quedé yo. No tengo pensado usarla. Aun así, pensar que era la luz que mi abuela encendía de noche hace que la opción de tirarla no llegue a aparecer.",
+ "preguntas": [
+  {
+   "p": "<ruby>壷<rt>つぼ</rt></ruby>について、<ruby>何<rt>なに</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりましたか。",
+   "opciones": [
+    "<ruby>祖父<rt>そふ</rt></ruby>のものだった",
+    "<ruby>誰<rt>だれ</rt></ruby>のものだったか<ruby>手掛<rt>てが</rt></ruby>かりは<ruby>出<rt>で</rt></ruby>てこなかった",
+    "<ruby>高価<rt>こうか</rt></ruby>なものだった",
+    "<ruby>名札<rt>なふだ</rt></ruby>が<ruby>付<rt>つ</rt></ruby>いていた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "ランプを<ruby>捨<rt>す</rt></ruby>てなかったのは、なぜですか。",
+   "opciones": [
+    "<ruby>使<rt>つか</rt></ruby>う<ruby>予定<rt>よてい</rt></ruby>があるから",
+    "<ruby>祖母<rt>そぼ</rt></ruby>が<ruby>夜<rt>よる</rt></ruby>に<ruby>灯<rt>とも</rt></ruby>していた<ruby>明<rt>あ</rt></ruby>かりだから",
+    "<ruby>高<rt>たか</rt></ruby>く<ruby>売<rt>う</rt></ruby>れるから",
+    "<ruby>家族<rt>かぞく</rt></ruby>に<ruby>頼<rt>たの</rt></ruby>まれたから"
+   ],
+   "correcta": 1
+  }
+ ]
+}
