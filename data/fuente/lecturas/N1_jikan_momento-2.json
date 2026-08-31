@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/jikan/momento-2",
+ "titulo": "<ruby>言<rt>い</rt></ruby>い<em class=\"g\">そびれる</em>こと",
+ "cuerpo": "<ruby>先<rt>せん</rt></ruby>だって、<ruby>世話<rt>せわ</rt></ruby>になった<ruby>方<rt>かた</rt></ruby>の<ruby>送別会<rt>そうべつかい</rt></ruby>がありました。<ruby>一同<rt>いちどう</rt></ruby>が<ruby>集<rt>あつ</rt></ruby>まり、<ruby>仕事<rt>しごと</rt></ruby>の<ruby>仕上<rt>しあ</rt></ruby>げのように<ruby>一人<rt>ひとり</rt></ruby>ずつ<ruby>挨拶<rt>あいさつ</rt></ruby>をしていきます。わたしは<ruby>最後<rt>さいご</rt></ruby>まで<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>えませんでした。<ruby>緊急<rt>きんきゅう</rt></ruby>の<ruby>連絡<rt>れんらく</rt></ruby>が<ruby>入<rt>はい</rt></ruby>って<ruby>席<rt>せき</rt></ruby>を<ruby>外<rt>はず</rt></ruby>したのもありますが、つかの<ruby>間<rt>ま</rt></ruby>の<ruby>沈黙<rt>ちんもく</rt></ruby>がこわかったのだと<ruby>思<rt>おも</rt></ruby>います。<ruby>結局<rt>けっきょく</rt></ruby>、<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>い<em class=\"g\">そびれて</em>しまいました。<ruby>今更<rt>いまさら</rt></ruby><ruby>手紙<rt>てがみ</rt></ruby>を<ruby>書<rt>か</rt></ruby>くのも<ruby>妙<rt>みょう</rt></ruby>な<ruby>気<rt>き</rt></ruby>がして、<ruby>下書<rt>したが</rt></ruby>きを<ruby>何度<rt>なんど</rt></ruby>も<ruby>書<rt>か</rt></ruby>き<em class=\"g\"><ruby>損<rt>そこ</rt></ruby>なって</em>は<ruby>捨<rt>す</rt></ruby>てています。<ruby>究極<rt>きゅうきょく</rt></ruby>のところ、<ruby>伝<rt>つた</rt></ruby>えたいのは<ruby>一行<rt>いちぎょう</rt></ruby>だけなのです。<ruby>時差<rt>じさ</rt></ruby>のある<ruby>国<rt>くに</rt></ruby>へ<ruby>行<rt>い</rt></ruby>かれたので、<ruby>電話<rt>でんわ</rt></ruby>も<ruby>遅<rt>おく</rt></ruby>らすほかありません。<ruby>周期<rt>しゅうき</rt></ruby>のように<ruby>同<rt>おな</rt></ruby>じことを<ruby>考<rt>かんが</rt></ruby>えては、<ruby>夜<rt>よる</rt></ruby>が<ruby>果<rt>は</rt></ruby>てていきます。<ruby>敬具<rt>けいぐ</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>を<ruby>書<rt>か</rt></ruby>くところまでは、いつも<ruby>辿<rt>たど</rt></ruby>り<ruby>着<rt>つ</rt></ruby>けません。",
+ "traduccion": "El otro día hubo una despedida para alguien que me había ayudado mucho. Nos reunimos todos y, como quien da los últimos retoques a un trabajo, fuimos diciendo unas palabras uno a uno. Yo no fui capaz de decir nada hasta el final. También es cierto que me llamaron con una urgencia y salí de la sala, pero creo que lo que me daba miedo era el silencio de ese instante. Al final se me pasó la ocasión de darle las gracias. Escribirle una carta ahora me parece raro, y llevo varios borradores que empiezo mal y acabo tirando. En el fondo, lo que quiero transmitir cabe en una línea. Se ha ido a un país con otro huso horario, así que llamar también hay que retrasarlo. Doy vueltas a lo mismo como en un ciclo y la noche se me acaba. Nunca consigo llegar hasta donde se escribe la despedida formal.",
+ "preguntas": [
+  {
+   "p": "<ruby>送別会<rt>そうべつかい</rt></ruby>で、この<ruby>人<rt>ひと</rt></ruby>はどうしましたか。",
+   "opciones": [
+    "<ruby>長<rt>なが</rt></ruby>い<ruby>挨拶<rt>あいさつ</rt></ruby>をした",
+    "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>えなかった",
+    "<ruby>早<rt>はや</rt></ruby>く<ruby>帰<rt>かえ</rt></ruby>った",
+    "<ruby>手紙<rt>てがみ</rt></ruby>をわたした"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>手紙<rt>てがみ</rt></ruby>について、いまどうなっていますか。",
+   "opciones": [
+    "もう<ruby>送<rt>おく</rt></ruby>った",
+    "<ruby>下書<rt>したが</rt></ruby>きを<ruby>書<rt>か</rt></ruby>いては<ruby>捨<rt>す</rt></ruby>てている",
+    "<ruby>書<rt>か</rt></ruby>くのをやめた",
+    "<ruby>電話<rt>でんわ</rt></ruby>にした"
+   ],
+   "correcta": 1
+  }
+ ]
+}

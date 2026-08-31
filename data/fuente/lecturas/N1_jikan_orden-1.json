@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/jikan/orden-1",
+ "titulo": "<ruby>手順<rt>てじゅん</rt></ruby>をつくる",
+ "cuerpo": "<ruby>雑誌<rt>ざっし</rt></ruby>の<ruby>創刊<rt>そうかん</rt></ruby>に<ruby>従事<rt>じゅうじ</rt></ruby>したことがあります。<ruby>初版<rt>しょはん</rt></ruby>が<ruby>出<rt>で</rt></ruby>るまでの<ruby>半年<rt>はんとし</rt></ruby>は、<ruby>一連<rt>いちれん</rt></ruby>の<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>手探<rt>てさぐ</rt></ruby>りで<ruby>組<rt>く</rt></ruby>み<ruby>立<rt>た</rt></ruby>てていく<ruby>日々<rt>ひび</rt></ruby>でした。<ruby>出演<rt>しゅつえん</rt></ruby>を<ruby>頼<rt>たの</rt></ruby>む<ruby>方<rt>かた</rt></ruby>の<ruby>選<rt>えら</rt></ruby>び<ruby>方<rt>かた</rt></ruby>、<ruby>原稿<rt>げんこう</rt></ruby>が<ruby>届<rt>とど</rt></ruby>く<ruby>順番<rt>じゅんばん</rt></ruby>、<ruby>印刷<rt>いんさつ</rt></ruby><ruby>所<rt>じょ</rt></ruby>に<ruby>渡<rt>わた</rt></ruby>す<ruby>措置<rt>そち</rt></ruby>。<ruby>何<rt>なに</rt></ruby>を<ruby>優先<rt>ゆうせん</rt></ruby>するかで<ruby>全体<rt>ぜんたい</rt></ruby>の<ruby>歩<rt>あゆ</rt></ruby>みが<ruby>変<rt>か</rt></ruby>わります。<ruby>内容<rt>ないよう</rt></ruby>の<ruby>善<rt>よ</rt></ruby>し<ruby>悪<rt>あ</rt></ruby>し<em class=\"g\">はさておき</em>、まず<ruby>手順<rt>てじゅん</rt></ruby>が<ruby>決<rt>き</rt></ruby>まらないと<ruby>一歩<rt>いっぽ</rt></ruby>も<ruby>進<rt>すす</rt></ruby>めないのだと<ruby>知<rt>し</rt></ruby>りました。<ruby>同級<rt>どうきゅう</rt></ruby>だった<ruby>友人<rt>ゆうじん</rt></ruby>が<ruby>手伝<rt>てつだ</rt></ruby>いに<ruby>来<rt>き</rt></ruby>てくれて、<ruby>連休<rt>れんきゅう</rt></ruby>を<ruby>丸<rt>まる</rt></ruby>ごとつぶしたこともあります。<ruby>一見<rt>いっけん</rt></ruby><ruby>地味<rt>じみ</rt></ruby>な<ruby>段取<rt>だんど</rt></ruby>りの<ruby>仕事<rt>しごと</rt></ruby>ですが、そこに<ruby>踏<rt>ふ</rt></ruby>み<ruby>込<rt>こ</rt></ruby>まないかぎり<ruby>形<rt>かたち</rt></ruby>にはなりません。<ruby>始発<rt>しはつ</rt></ruby>で<ruby>帰<rt>かえ</rt></ruby>った<ruby>朝<rt>あさ</rt></ruby>の<ruby>空<rt>そら</rt></ruby>を、いまでも<ruby>覚<rt>おぼ</rt></ruby>えています。",
+ "traduccion": "Participé una vez en el lanzamiento de una revista. Hasta que salió el primer número, aquellos seis meses fueron días de ir montando a tientas toda la cadena de trabajo. Cómo elegir a quién invitar, en qué orden llegaban los textos, qué pasos seguir para entregarlo a la imprenta. Según lo que priorices, cambia la marcha del conjunto. Dejando de lado si el contenido era bueno o malo, aprendí que si no fijas primero el procedimiento no avanzas ni un paso. Un amigo de mi curso vino a echar una mano y hubo un puente entero que se nos fue en aquello. A primera vista es un trabajo de organización sin ningún brillo, pero mientras no te metas ahí, nada llega a tomar forma. Todavía recuerdo el cielo de la mañana en que volví a casa en el primer tren.",
+ "preguntas": [
+  {
+   "p": "<ruby>半年間<rt>はんとしかん</rt></ruby>、この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていましたか。",
+   "opciones": [
+    "<ruby>原稿<rt>げんこう</rt></ruby>を<ruby>書<rt>か</rt></ruby>いていた",
+    "<ruby>一連<rt>いちれん</rt></ruby>の<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>手探<rt>てさぐ</rt></ruby>りで<ruby>組<rt>く</rt></ruby>み<ruby>立<rt>た</rt></ruby>てていた",
+    "<ruby>印刷<rt>いんさつ</rt></ruby><ruby>所<rt>じょ</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いていた",
+    "<ruby>友人<rt>ゆうじん</rt></ruby>を<ruby>待<rt>ま</rt></ruby>っていた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>知<rt>し</rt></ruby>ったことは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>内容<rt>ないよう</rt></ruby>がいちばん<ruby>大事<rt>だいじ</rt></ruby>だ",
+    "<ruby>手順<rt>てじゅん</rt></ruby>が<ruby>決<rt>き</rt></ruby>まらないと<ruby>一歩<rt>いっぽ</rt></ruby>も<ruby>進<rt>すす</rt></ruby>めない",
+    "<ruby>連休<rt>れんきゅう</rt></ruby>は<ruby>休<rt>やす</rt></ruby>むべきだ",
+    "<ruby>段取<rt>だんど</rt></ruby>りは<ruby>地味<rt>じみ</rt></ruby>で<ruby>意味<rt>いみ</rt></ruby>がない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

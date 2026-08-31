@@ -93,9 +93,16 @@ for l in lecturas:
     for q in l.get("preguntas", []):
         trozos.append(q["p"]); trozos += q["opciones"]
     for t in trozos:
-        if any(c in m for m in _re.findall(r"<rt>([^<]*)</rt>", t) for c in "|{}") \
-           or _re.search(r"\{[^}]*\|", t):
-            print(f"  ✗ {l['unidad_id']}: marcado a medio convertir")
+        # Ninguna llave ni barra sobrevive a la conversión: el japonés no las
+        # usa, así que una suelta es marcado que rubi() no llegó a convertir.
+        # Pasaba con {ぶりに} escrito con llaves en vez de corchetes, que salía
+        # en pantalla con las llaves puestas, y con {漢字|かana} dentro de un
+        # [gramática], donde el ruby se quedaba a medias.
+        sueltas = sorted({c for c in "|{}" if c in t})
+        if sueltas:
+            ctx = _re.search(r".{0,20}[|{}].{0,20}", t)
+            print(f"  ✗ {l['unidad_id']}: marcado a medio convertir "
+                  f"({''.join(sueltas)}): …{ctx.group(0) if ctx else ''}…")
             rotas += 1
             break
 if rotas:
