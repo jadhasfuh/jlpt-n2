@@ -42,14 +42,14 @@ secciones = [{"id": sid, "ja": ja, "es": es, "orden": i + 1,
 gramatica = [{**g, "orden": i + 1} for i, g in enumerate(leer("gramatica"))]
 
 partes = [
-    "-- Contenido del curso N2. Generado por scripts/10_generar_sql.py — no editar a mano.",
+    "-- Contenido del curso, N5 a N1. Generado por scripts/10_generar_sql.py — no editar a mano.",
     "begin;",
     bloque("secciones", ["id", "ja", "es", "orden", "subgrupos"], secciones, "id"),
     bloque("vocabulario",
            ["id", "kana", "kanji", "escritura", "lectura", "pos", "en", "es",
             "registro", "seccion", "subgrupo", "jlpt"],
            leer("vocabulario"), "id"),
-    bloque("gramatica", ["id", "forma", "lectura", "en", "es", "tier", "cat", "orden"],
+    bloque("gramatica", ["id", "nivel", "forma", "lectura", "en", "es", "tier", "cat", "orden"],
            gramatica, "id"),
     bloque("unidades",
            ["id", "tipo", "nivel", "seccion", "subgrupo", "parte", "partes",
