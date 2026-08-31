@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kotoba/preguntar-1",
+ "titulo": "<ruby>答<rt>こた</rt></ruby>えられない<ruby>問題<rt>もんだい</rt></ruby>",
+ "cuerpo": "しごとで、こたえられない<ruby>問題<rt>もんだい</rt></ruby>にあいました。じぶんでかんがえてもわからないので、<ruby>先<rt>せん</rt></ruby>ぱいに<ruby>頼<rt>たの</rt></ruby>みました。「わからないときは、すぐにきか<em class=\"g\">ないといけない</em>」と<ruby>言<rt>い</rt></ruby>われました。<ruby>一人<rt>ひとり</rt></ruby>でなやんでいた<ruby>時間<rt>じかん</rt></ruby>が、もったいなかったのです。<ruby>三<rt>さん</rt></ruby><ruby>問<rt>もん</rt></ruby>のうち、ふたつはすぐに<ruby>答<rt>こた</rt></ruby>えがわかりました。のこりのひとつは、<ruby>二人<rt>ふたり</rt></ruby>でかんがえました。わからないことをかくさ<em class=\"g\">ないといけない</em>のではなく、<ruby>見<rt>み</rt></ruby>せるほうがはやいのだと<ruby>知<rt>し</rt></ruby>りました。",
+ "traduccion": "En el trabajo me topé con un problema que no sabía responder. Como por mucho que pensara no lo sacaba, se lo pedí a un compañero veterano. Me dijo: «cuando no lo sepas, tienes que preguntar enseguida». El tiempo que pasé dándole vueltas yo solo fue tiempo perdido. De las tres preguntas, dos las resolví al momento. La que quedaba la pensamos entre los dos. Aprendí que lo que no sabes no hay que esconderlo: se va más rápido enseñándolo.",
+ "preguntas": [
+  {
+   "p": "なぜ、<ruby>先<rt>せん</rt></ruby>ぱいに<ruby>頼<rt>たの</rt></ruby>みましたか。",
+   "opciones": [
+    "いそがしかったから",
+    "じぶんでかんがえてもわからなかったから",
+    "<ruby>時間<rt>じかん</rt></ruby>があったから",
+    "<ruby>問題<rt>もんだい</rt></ruby>がおおかったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>三<rt>さん</rt></ruby><ruby>問<rt>もん</rt></ruby>のうち、いくつすぐにわかりましたか。",
+   "opciones": [
+    "ひとつ",
+    "ふたつ",
+    "みっつ",
+    "ぜんぶわからなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

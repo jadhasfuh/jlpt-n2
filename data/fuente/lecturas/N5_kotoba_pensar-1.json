@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kotoba/pensar-1",
+ "titulo": "<ruby>覚<rt>おぼ</rt></ruby>えるということ",
+ "cuerpo": "ことばを<ruby>覚<rt>おぼ</rt></ruby>えるのに、いいほうほうをさがしていました。かいて<ruby>覚<rt>おぼ</rt></ruby>える<ruby>人<rt>ひと</rt></ruby>も、<ruby>聞<rt>き</rt></ruby>いて<ruby>覚<rt>おぼ</rt></ruby>える<ruby>人<rt>ひと</rt></ruby>もいます。わたしは、あるくときに<ruby>声<rt>こえ</rt></ruby>に<ruby>出<rt>だ</rt></ruby>すのがいちばんあうようです。うまくいかないとき、じぶんの<ruby>所為<rt>せい</rt></ruby>だとおもってしまいますが、たいていはほうほうがあっていないだけです。どうしておぼえられないのかとせめるより、どんなときにおぼえられたかをかんがえるほうがやくにたちます。じぶんにあう<ruby>所<rt>ところ</rt></ruby>をさがすのに、<ruby>時間<rt>じかん</rt></ruby>はかかってもいいのです。",
+ "traduccion": "Estuve buscando una buena manera de memorizar palabras. Hay quien memoriza escribiendo y quien lo hace escuchando. A mí lo que mejor me va parece ser decirlas en voz alta mientras camino. Cuando no sale, uno tiende a pensar que es culpa suya, pero normalmente es solo que el método no encaja. Más que reprocharte por qué no lo recuerdas, sirve más pensar en qué situaciones sí lo lograste. No pasa nada por tardar en encontrar el sitio que te encaja.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>にいちばんあうほうほうは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "かいて<ruby>覚<rt>おぼ</rt></ruby>える",
+    "あるくときに<ruby>声<rt>こえ</rt></ruby>に<ruby>出<rt>だ</rt></ruby>す",
+    "<ruby>聞<rt>き</rt></ruby>いて<ruby>覚<rt>おぼ</rt></ruby>える",
+    "<ruby>読<rt>よ</rt></ruby>む"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "うまくいかないとき、たいていのりゆうは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "じぶんの<ruby>所為<rt>せい</rt></ruby>",
+    "ほうほうがあっていない",
+    "<ruby>時間<rt>じかん</rt></ruby>がない",
+    "ことばがむずかしい"
+   ],
+   "correcta": 1
+  }
+ ]
+}

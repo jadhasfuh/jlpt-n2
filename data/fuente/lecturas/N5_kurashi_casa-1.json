@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kurashi/casa-1",
+ "titulo": "わたし<em class=\"g\">の</em>へや",
+ "cuerpo": "わたし<em class=\"g\">の</em>アパートは、<ruby>駅<rt>えき</rt></ruby>から<ruby>歩<rt>ある</rt></ruby>いて<ruby>五<rt>ご</rt></ruby>ふん<em class=\"g\">の</em>ところにあります。<ruby>玄関<rt>げんかん</rt></ruby>を<ruby>入<rt>はい</rt></ruby>ると、みじかい<ruby>廊下<rt>ろうか</rt></ruby>があって、そのおくが<ruby>居間<rt>いま</rt></ruby>です。<ruby>台所<rt>だいどころ</rt></ruby>は<ruby>小<rt>ちい</rt></ruby>さいですが、<ruby>窓<rt>まど</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きくて<ruby>明<rt>あか</rt></ruby>るいです。<ruby>部屋<rt>へや</rt></ruby>は<ruby>二<rt>ふた</rt></ruby>つだけです。<ruby>隣<rt>となり</rt></ruby><em class=\"g\">の</em><ruby>家<rt>いえ</rt></ruby>には<ruby>庭<rt>にわ</rt></ruby>があって、<ruby>門<rt>もん</rt></ruby>のよこにはながさいています。<ruby>階段<rt>かいだん</rt></ruby>をのぼると<ruby>屋<rt>や</rt></ruby>じょうに<ruby>出<rt>で</rt></ruby>られます。そこから<ruby>見<rt>み</rt></ruby>える<ruby>建物<rt>たてもの</rt></ruby>は、ぜんぶわたし<em class=\"g\">の</em>まちです。",
+ "traduccion": "Mi apartamento está a cinco minutos andando de la estación. Al entrar por el recibidor hay un pasillo corto y al fondo el salón. La cocina es pequeña, pero la ventana es grande y entra mucha luz. Solo tiene dos habitaciones. La casa de al lado tiene jardín, y junto a la verja hay flores. Subiendo las escaleras se sale a la azotea. Los edificios que se ven desde allí son todos de mi ciudad.",
+ "preguntas": [
+  {
+   "p": "<ruby>台所<rt>だいどころ</rt></ruby>はどうですか。",
+   "opciones": [
+    "<ruby>大<rt>おお</rt></ruby>きくてくらい",
+    "<ruby>小<rt>ちい</rt></ruby>さいが<ruby>明<rt>あか</rt></ruby>るい",
+    "<ruby>窓<rt>まど</rt></ruby>がない",
+    "<ruby>二<rt>ふた</rt></ruby>つある"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>階段<rt>かいだん</rt></ruby>をのぼると、どこに<ruby>出<rt>で</rt></ruby>られますか。",
+   "opciones": [
+    "<ruby>庭<rt>にわ</rt></ruby>",
+    "<ruby>屋<rt>や</rt></ruby>じょう",
+    "<ruby>廊下<rt>ろうか</rt></ruby>",
+    "<ruby>隣<rt>となり</rt></ruby><em class=\"g\">の</em><ruby>家<rt>いえ</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

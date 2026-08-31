@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kotoba/verdad-1",
+ "titulo": "<ruby>本当<rt>ほんとう</rt></ruby>のこと",
+ "cuerpo": "ちいさいころ、ガラスをわってしまいました。こわくて、「<ruby>知<rt>し</rt></ruby>らない」と<ruby>言<rt>い</rt></ruby>いました。<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>いませんでしたが、その<ruby>顔<rt>かお</rt></ruby>をいまでもおぼえています。よる、ふとんの<ruby>中<rt>なか</rt></ruby>で「<ruby>言<rt>い</rt></ruby>わ<em class=\"g\">なくちゃ</em>」とおもいました。つぎのあさ、「わたしがわりました」と<ruby>話<rt>はな</rt></ruby>しました。<ruby>父<rt>ちち</rt></ruby>は「<ruby>本当<rt>ほんとう</rt></ruby>のことを<ruby>言<rt>い</rt></ruby>うのは、わるいことをするより<ruby>大<rt>たい</rt></ruby>へんだね」と<ruby>言<rt>い</rt></ruby>いました。うそをつくと、じぶんが<ruby>一番<rt>いちばん</rt></ruby>くるしいのだと<ruby>分<rt>わ</rt></ruby>かりました。これからも、こわくても<ruby>言<rt>い</rt></ruby>わ<em class=\"g\">なくちゃ</em>いけません。",
+ "traduccion": "De pequeño rompí un cristal. Me dio miedo y dije «yo no he sido». Mi padre no dijo nada, pero todavía recuerdo la cara que puso. Por la noche, bajo el futón, pensé «tengo que decirlo». A la mañana siguiente le dije: «lo rompí yo». Mi padre me contestó: «decir la verdad cuesta más que hacer algo malo, ¿eh?». Entendí que cuando mientes, el que peor lo pasa eres tú. De aquí en adelante, aunque dé miedo, tengo que decirlo.",
+ "preguntas": [
+  {
+   "p": "なぜ、はじめ「<ruby>知<rt>し</rt></ruby>らない」と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "わすれたから",
+    "こわかったから",
+    "<ruby>父<rt>ちち</rt></ruby>がいなかったから",
+    "<ruby>本当<rt>ほんとう</rt></ruby>だから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "おこった",
+    "<ruby>本当<rt>ほんとう</rt></ruby>のことを<ruby>言<rt>い</rt></ruby>うのは<ruby>大<rt>たい</rt></ruby>へんだ",
+    "うそをつくな",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

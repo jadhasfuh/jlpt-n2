@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kurashi/compras-1",
+ "titulo": "<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>のならびかた",
+ "cuerpo": "<ruby>土<rt>ど</rt></ruby>よう<ruby>日<rt>び</rt></ruby>のデパートは<ruby>人<rt>ひと</rt></ruby>がおおいです。レジの<ruby>前<rt>まえ</rt></ruby>にみんなが<ruby>並<rt>なら</rt></ruby>んで<ruby>立<rt>た</rt></ruby>っています。わたしは、やさい<em class=\"g\">や</em>くだものをかいました。となりの<ruby>店<rt>みせ</rt></ruby>では<ruby>本<rt>ほん</rt></ruby><em class=\"g\">や</em>ノートを<ruby>売<rt>う</rt></ruby>っています。そこでも<ruby>十<rt>じゅっ</rt></ruby>ぷん<ruby>並<rt>なら</rt></ruby>びました。まっているあいだ、<ruby>勉強<rt>べんきょう</rt></ruby>のよていをかんがえました。<ruby>時間<rt>じかん</rt></ruby>はかかりましたが、ぼうっとするより、なにか<ruby>一<rt>ひと</rt></ruby>つかんがえるほうがいいとおもいます。",
+ "traduccion": "Los sábados los grandes almacenes están llenos. Todo el mundo hace cola de pie delante de la caja. Yo compré verdura y fruta. En la tienda de al lado venden libros y cuadernos. Allí también estuve diez minutos en la cola. Mientras esperaba, pensé el plan de estudio. Tardé mucho, pero creo que es mejor pensar en algo que quedarse en blanco.",
+ "preguntas": [
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>をかいましたか。",
+   "opciones": [
+    "<ruby>本<rt>ほん</rt></ruby><em class=\"g\">や</em>ノート",
+    "やさい<em class=\"g\">や</em>くだもの",
+    "<ruby>何<rt>なに</rt></ruby>もかわなかった",
+    "レジ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "まっているあいだ、<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだ",
+    "<ruby>勉強<rt>べんきょう</rt></ruby>のよていをかんがえた",
+    "<ruby>話<rt>はな</rt></ruby>した",
+    "ぼうっとした"
+   ],
+   "correcta": 1
+  }
+ ]
+}

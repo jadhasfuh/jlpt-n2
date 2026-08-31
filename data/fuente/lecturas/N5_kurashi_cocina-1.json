@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kurashi/cocina-1",
+ "titulo": "はじめての<ruby>料理<rt>りょうり</rt></ruby>",
+ "cuerpo": "きょう<em class=\"g\">は</em>、はじめて<ruby>一人<rt>ひとり</rt></ruby>で<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>りました。やさいを<ruby>揚<rt>あ</rt></ruby>げて、<ruby>辛<rt>から</rt></ruby>いたれを<ruby>漬<rt>つ</rt></ruby>けました。あじみをすると、<ruby>辛<rt>から</rt></ruby>すぎました。みずをすこし<ruby>入<rt>い</rt></ruby>れると、ちょうどよくなりました。<ruby>食堂<rt>しょくどう</rt></ruby>やレストランのりょうりはかんたんそうに<ruby>見<rt>み</rt></ruby>えますが、じっさい<em class=\"g\">は</em>たいへんです。おいしいものを<ruby>食<rt>た</rt></ruby>べるとき、これから<em class=\"g\">は</em><ruby>作<rt>つく</rt></ruby>った<ruby>人<rt>ひと</rt></ruby>のこともかんがえようとおもいました。",
+ "traduccion": "Hoy he cocinado solo por primera vez. Freí verdura y la dejé en una salsa picante. Al probarla, estaba demasiado picante. Le añadí un poco de agua y quedó en su punto. La comida de los comedores y los restaurantes parece fácil, pero en realidad cuesta. A partir de ahora, cuando coma algo rico, pensaré también en quien lo ha hecho.",
+ "preguntas": [
+  {
+   "p": "あじみをすると、どうでしたか。",
+   "opciones": [
+    "ちょうどよかった",
+    "<ruby>辛<rt>から</rt></ruby>すぎた",
+    "あまかった",
+    "つめたかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "どうやってなおしましたか。",
+   "opciones": [
+    "たれをすてた",
+    "みずをすこし<ruby>入<rt>い</rt></ruby>れた",
+    "もういちど<ruby>揚<rt>あ</rt></ruby>げた",
+    "しおを<ruby>入<rt>い</rt></ruby>れた"
+   ],
+   "correcta": 1
+  }
+ ]
+}
