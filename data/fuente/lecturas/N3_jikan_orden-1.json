@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/jikan/orden-1",
+ "titulo": "<ruby>順<rt>じゅん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>る",
+ "cuerpo": "<ruby>舞台<rt>ぶたい</rt></ruby>のじゅんびは、きまった<ruby>順<rt>じゅん</rt></ruby>でおこないます。てじゅんを<ruby>一<rt>ひと</rt></ruby>つとばすと、あとの<ruby>段<rt>だん</rt></ruby>かいでかならずこまります。<ruby>連続<rt>れんぞく</rt></ruby>で<ruby>三<rt>さん</rt></ruby>かい<ruby>同<rt>おな</rt></ruby>じミスをした<ruby>日<rt>ひ</rt></ruby>、<ruby>先輩<rt>せんぱい</rt></ruby>に「あわてないで、<ruby>次第<rt>しだい</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れればいい」と<ruby>言<rt>い</rt></ruby>われました。<ruby>数<rt>すう</rt></ruby><ruby>秒<rt>びょう</rt></ruby>のちがいで<ruby>音<rt>おと</rt></ruby>と<ruby>光<rt>ひかり</rt></ruby>がずれるので、<ruby>気<rt>き</rt></ruby>はぬけません。それでも、さいごまでやり<em class=\"g\">切る</em>と、まくが<ruby>上<rt>あ</rt></ruby>がる<ruby>瞬間<rt>しゅんかん</rt></ruby>は<ruby>上等<rt>じょうとう</rt></ruby>な<ruby>気分<rt>きぶん</rt></ruby>です。<ruby>一<rt>いち</rt></ruby><ruby>位<rt>い</rt></ruby>になるためではなく、<ruby>一<rt>ひと</rt></ruby>つの<ruby>舞台<rt>ぶたい</rt></ruby>をつくるためにいるのです。",
+ "traduccion": "Los preparativos del escenario se hacen en un orden fijado. Si te saltas un paso, en la fase siguiente siempre acabas en apuros. El día que cometí el mismo fallo tres veces seguidas, un veterano me dijo: «sin agobiarte, ya te irás acostumbrando». Unos segundos de diferencia descuadran el sonido y las luces, así que no puedes despistarte. Aun así, cuando lo llevas hasta el final, el instante en que se levanta el telón produce una sensación excelente. No estamos ahí para quedar primeros, sino para construir un espectáculo.",
+ "preguntas": [
+  {
+   "p": "てじゅんを<ruby>一<rt>ひと</rt></ruby>つとばすと、どうなりますか。",
+   "opciones": [
+    "はやく<ruby>終<rt>お</rt></ruby>わる",
+    "あとの<ruby>段<rt>だん</rt></ruby>かいでこまる",
+    "かわらない",
+    "らくになる"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>のためにそこにいますか。",
+   "opciones": [
+    "<ruby>一<rt>いち</rt></ruby><ruby>位<rt>い</rt></ruby>になるため",
+    "<ruby>一<rt>ひと</rt></ruby>つの<ruby>舞台<rt>ぶたい</rt></ruby>をつくるため",
+    "<ruby>先輩<rt>せんぱい</rt></ruby>のため",
+    "<ruby>音<rt>おと</rt></ruby>のため"
+   ],
+   "correcta": 1
+  }
+ ]
+}

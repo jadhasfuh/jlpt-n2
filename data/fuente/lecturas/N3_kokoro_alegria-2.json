@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kokoro/alegria-2",
+ "titulo": "<ruby>微笑<rt>ほほえ</rt></ruby>む<ruby>理由<rt>りゆう</rt></ruby>",
+ "cuerpo": "<ruby>年<rt>とし</rt></ruby>をとった<ruby>人<rt>ひと</rt></ruby>のなかには、いつも<ruby>微笑<rt>ほほえ</rt></ruby>んでいる<ruby>人<rt>ひと</rt></ruby>がいます。なぜあんなに<ruby>愉快<rt>ゆかい</rt></ruby>そうなの<em class=\"g\">でしょうか</em>。<ruby>幸運<rt>こううん</rt></ruby>だったからでしょうか。そうとはかぎりません。つらい<ruby>時<rt>とき</rt></ruby>をこえてきた<ruby>人<rt>ひと</rt></ruby>ほど、<ruby>小<rt>ちい</rt></ruby>さなことに<ruby>満足<rt>まんぞく</rt></ruby>できるようです。<ruby>他人<rt>たにん</rt></ruby>を<ruby>尊敬<rt>そんけい</rt></ruby>し、<ruby>相手<rt>あいて</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えを<ruby>尊重<rt>そんちょう</rt></ruby>する。そういう<ruby>態度<rt>たいど</rt></ruby>が、<ruby>敬意<rt>けいい</rt></ruby>をもって<ruby>返<rt>かえ</rt></ruby>ってくるのでしょう。「まず<ruby>一<rt>いち</rt></ruby><ruby>度<rt>ど</rt></ruby>やっ<em class=\"g\">てごらん</em>」と、その<ruby>人<rt>ひと</rt></ruby>はわたしに<ruby>言<rt>い</rt></ruby>いました。<ruby>幸福<rt>こうふく</rt></ruby>は、あとからついてくるものなの<em class=\"g\">でしょうか</em>。",
+ "traduccion": "Entre las personas mayores hay algunas que están siempre sonriendo. ¿Por qué parecerán tan contentas? ¿Será porque han tenido suerte? No necesariamente. Parece que cuanto más ha atravesado alguien tiempos duros, más capaz es de conformarse con cosas pequeñas. Respetar a los demás y valorar lo que piensan. Esa actitud debe de volver en forma de respeto. «Prueba a hacerlo una vez, anda», me dijo aquella persona. ¿Será la felicidad algo que viene después?",
+ "preguntas": [
+  {
+   "p": "つらい<ruby>時<rt>とき</rt></ruby>をこえてきた<ruby>人<rt>ひと</rt></ruby>は、どうですか。",
+   "opciones": [
+    "いつも<ruby>悲<rt>かな</rt></ruby>しい",
+    "<ruby>小<rt>ちい</rt></ruby>さなことに<ruby>満足<rt>まんぞく</rt></ruby>できる",
+    "<ruby>幸運<rt>こううん</rt></ruby>だ",
+    "<ruby>微笑<rt>ほほえ</rt></ruby>まない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "その<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "あきらめなさい",
+    "まず<ruby>一<rt>いち</rt></ruby><ruby>度<rt>ど</rt></ruby>やっ<em class=\"g\">てごらん</em>",
+    "<ruby>幸福<rt>こうふく</rt></ruby>になりなさい",
+    "<ruby>尊敬<rt>そんけい</rt></ruby>しなさい"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/jikan/momento-3",
+ "titulo": "<ruby>遅刻<rt>ちこく</rt></ruby>した<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "<ruby>今回<rt>こんかい</rt></ruby>は<ruby>渋滞<rt>じゅうたい</rt></ruby>で<ruby>遅刻<rt>ちこく</rt></ruby>しました。<ruby>出<rt>で</rt></ruby>る<ruby>時刻<rt>じこく</rt></ruby>は<ruby>同<rt>おな</rt></ruby>じだったのに、<ruby>突然<rt>とつぜん</rt></ruby><ruby>事態<rt>じたい</rt></ruby>がかわったのです。<ruby>現在<rt>げんざい</rt></ruby>のこの<ruby>町<rt>まち</rt></ruby>では、<ruby>近頃<rt>ちかごろ</rt></ruby>こういうことが<ruby>増<rt>ふ</rt></ruby>えています。<ruby>結局<rt>けっきょく</rt></ruby>、<ruby>最終<rt>さいしゅう</rt></ruby>のバスに<ruby>乗<rt>の</rt></ruby>りかえて<ruby>手間<rt>てま</rt></ruby>をかけてたどりつきました。<ruby>至急<rt>しきゅう</rt></ruby>と<ruby>書<rt>か</rt></ruby>かれたメールが<ruby>同時<rt>どうじ</rt></ruby>にとどき、<ruby>一度<rt>いちど</rt></ruby>に<ruby>三<rt>みっ</rt></ruby>つのことを<ruby>考<rt>かんが</rt></ruby>えるはめになりました。<em class=\"g\">しばらく</em>すわって<ruby>息<rt>いき</rt></ruby>をととのえてから、<em class=\"g\">さらに</em><ruby>一<rt>ひと</rt></ruby>つずつかたづけていきました。<ruby>今後<rt>こんご</rt></ruby>は、もっと<ruby>早<rt>はや</rt></ruby>く<ruby>出<rt>で</rt></ruby>ることにします。",
+ "traduccion": "Esta vez llegué tarde por un atasco. Salí a la misma hora de siempre, pero la situación cambió de repente. En esta ciudad, últimamente, esto pasa cada vez más. Al final hice transbordo al último autobús y llegué con mucho esfuerzo. A la vez me llegó un correo marcado como urgente y me vi pensando tres cosas al mismo tiempo. Estuve un rato sentado recuperando el aliento y luego fui resolviéndolo todo de una en una. De ahora en adelante saldré antes.",
+ "preguntas": [
+  {
+   "p": "なぜ<ruby>遅刻<rt>ちこく</rt></ruby>しましたか。",
+   "opciones": [
+    "<ruby>出<rt>で</rt></ruby>る<ruby>時刻<rt>じこく</rt></ruby>をまちがえたから",
+    "<ruby>渋滞<rt>じゅうたい</rt></ruby>のため",
+    "メールが<ruby>来<rt>き</rt></ruby>たから",
+    "バスがなかったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "すわって<ruby>息<rt>いき</rt></ruby>をととのえてから、<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>帰<rt>かえ</rt></ruby>った",
+    "<em class=\"g\">さらに</em><ruby>一<rt>ひと</rt></ruby>つずつかたづけた",
+    "<ruby>一度<rt>いちど</rt></ruby>にぜんぶやった",
+    "メールをけした"
+   ],
+   "correcta": 1
+  }
+ ]
+}

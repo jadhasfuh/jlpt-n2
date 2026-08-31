@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kokoro/actitud-1",
+ "titulo": "<ruby>冷静<rt>れいせい</rt></ruby>であること",
+ "cuerpo": "<ruby>深刻<rt>しんこく</rt></ruby>なもんだいが<ruby>起<rt>お</rt></ruby>きたとき、<ruby>激<rt>はげ</rt></ruby>しく<ruby>責<rt>せ</rt></ruby>めても<ruby>解決<rt>かいけつ</rt></ruby>はしません。<ruby>正直<rt>しょうじき</rt></ruby>に<ruby>言<rt>い</rt></ruby>えば、わたしも<ruby>以前<rt>いぜん</rt></ruby>は<ruby>態度<rt>たいど</rt></ruby>に<ruby>出<rt>で</rt></ruby>てしまうほうでした。<ruby>冗談<rt>じょうだん</rt></ruby>にまぎらすことも、<ruby>自慢<rt>じまん</rt></ruby>することもありました。<ruby>今<rt>いま</rt></ruby>は、まず<ruby>冷静<rt>れいせい</rt></ruby>になる<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>持<rt>も</rt></ruby>っています。<ruby>一<rt>いち</rt></ruby><ruby>分<rt>ぷん</rt></ruby>だまって、<ruby>夢中<rt>むちゅう</rt></ruby>になっているじぶんを<ruby>外<rt>そと</rt></ruby>から<ruby>見<rt>み</rt></ruby>るのです。うっかりミスなら、<ruby>責<rt>せ</rt></ruby>める<em class=\"g\">ことはない</em>。<ruby>用心<rt>ようじん</rt></ruby>して<ruby>慎重<rt>しんちょう</rt></ruby>に<ruby>直<rt>なお</rt></ruby>せばいいだけです。",
+ "traduccion": "Cuando surge un problema grave, echar broncas violentas no lo resuelve. Si soy sincero, yo antes era de los que lo dejaban ver en la actitud. También lo disimulaba con bromas o me ponía a presumir. Ahora tengo un método para serenarme primero. Callarme un minuto y mirarme desde fuera, absorto como estoy. Si es un despiste, no hace falta echar la bronca. Basta con corregirlo con cuidado y prudencia.",
+ "preguntas": [
+  {
+   "p": "<ruby>以前<rt>いぜん</rt></ruby>のこの<ruby>人<rt>ひと</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>冷静<rt>れいせい</rt></ruby>だった",
+    "<ruby>態度<rt>たいど</rt></ruby>に<ruby>出<rt>で</rt></ruby>てしまうほうだった",
+    "だまっていた",
+    "<ruby>慎重<rt>しんちょう</rt></ruby>だった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>今<rt>いま</rt></ruby>の<ruby>方法<rt>ほうほう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "すぐ<ruby>言<rt>い</rt></ruby>う",
+    "<ruby>一<rt>いち</rt></ruby><ruby>分<rt>ぷん</rt></ruby>だまってじぶんを<ruby>外<rt>そと</rt></ruby>から<ruby>見<rt>み</rt></ruby>る",
+    "<ruby>冗談<rt>じょうだん</rt></ruby>にする",
+    "<ruby>責<rt>せ</rt></ruby>める"
+   ],
+   "correcta": 1
+  }
+ ]
+}

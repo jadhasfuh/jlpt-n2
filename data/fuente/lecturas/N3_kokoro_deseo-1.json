@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kokoro/deseo-1",
+ "titulo": "<ruby>願<rt>ねが</rt></ruby>いと<ruby>目的<rt>もくてき</rt></ruby>",
+ "cuerpo": "<ruby>子<rt>こ</rt></ruby>どものころ、<ruby>将来<rt>しょうらい</rt></ruby>の<ruby>理想<rt>りそう</rt></ruby>を<ruby>作文<rt>さくぶん</rt></ruby>に<ruby>書<rt>か</rt></ruby>きました。いま<ruby>読<rt>よ</rt></ruby>み<ruby>返<rt>かえ</rt></ruby>すと、<ruby>目的<rt>もくてき</rt></ruby>と<ruby>願<rt>ねが</rt></ruby>いのくべつがついていなかったことが<ruby>分<rt>わ</rt></ruby>かります。「<ruby>有名<rt>ゆうめい</rt></ruby>になりたい」は<ruby>願<rt>ねが</rt></ruby>いですが、「<ruby>何<rt>なに</rt></ruby>をつくりたいか」が<ruby>目的<rt>もくてき</rt></ruby>です。もっとはやく<ruby>気<rt>き</rt></ruby>づけ<em class=\"g\">ばよかった</em>と<ruby>思<rt>おも</rt></ruby>います。<ruby>熱中<rt>ねっちゅう</rt></ruby>できることを<ruby>先<rt>さき</rt></ruby>に<ruby>見<rt>み</rt></ruby>つけていれ<em class=\"g\">ばよかった</em>。でも、まわり<ruby>道<rt>みち</rt></ruby>をしたぶんだけ、<ruby>考<rt>かんが</rt></ruby>えはふかくなりました。わざとえらんだ<ruby>道<rt>みち</rt></ruby>ではありませんが、<ruby>今<rt>いま</rt></ruby>はこの<ruby>道<rt>みち</rt></ruby>をのぞんでいます。",
+ "traduccion": "De niño escribí una redacción sobre mi ideal de futuro. Al releerla ahora, veo que no distinguía entre objetivo y deseo. «Quiero ser famoso» es un deseo; «qué quiero crear» es un objetivo. Ojalá me hubiera dado cuenta antes. Ojalá hubiera encontrado antes algo a lo que entregarme. Pero, en la misma medida en que di rodeos, mis ideas se hicieron más hondas. No es un camino que eligiera a propósito, pero ahora es el que deseo.",
+ "preguntas": [
+  {
+   "p": "<ruby>子<rt>こ</rt></ruby>どもの<ruby>作文<rt>さくぶん</rt></ruby>には、<ruby>何<rt>なに</rt></ruby>のくべつがついていませんでしたか。",
+   "opciones": [
+    "<ruby>現在<rt>げんざい</rt></ruby>と<ruby>将来<rt>しょうらい</rt></ruby>",
+    "<ruby>目的<rt>もくてき</rt></ruby>と<ruby>願<rt>ねが</rt></ruby>い",
+    "<ruby>仕事<rt>しごと</rt></ruby>と<ruby>趣味<rt>しゅみ</rt></ruby>",
+    "<ruby>理想<rt>りそう</rt></ruby>と<ruby>現<rt>げん</rt></ruby>じつ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "まわり<ruby>道<rt>みち</rt></ruby>について、どう<ruby>思<rt>おも</rt></ruby>っていますか。",
+   "opciones": [
+    "むだだった",
+    "そのぶん<ruby>考<rt>かんが</rt></ruby>えがふかくなった",
+    "こうかいしている",
+    "はやかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}
