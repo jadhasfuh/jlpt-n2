@@ -1,7 +1,12 @@
 import type { MetadataRoute } from "next";
-import { SITIO } from "@/lib/sitio";
+import { sitio } from "@/lib/sitio";
+
+// Se calcula en cada petición: el valor del dominio sólo existe al arrancar
+// el contenedor, no cuando se construye la imagen.
+export const dynamic = "force-dynamic";
 
 export default function robots(): MetadataRoute.Robots {
+  const SITIO = sitio();
   return {
     rules: {
       userAgent: "*",

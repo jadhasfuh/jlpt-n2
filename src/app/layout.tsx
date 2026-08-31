@@ -7,7 +7,7 @@ import { BarraInferior } from "@/components/BarraInferior";
 import { Lateral } from "@/components/Lateral";
 import { RegistrarSW } from "@/components/RegistrarSW";
 import { idiomaActual } from "@/lib/idioma-servidor";
-import { SITIO } from "@/lib/sitio";
+import { sitio } from "@/lib/sitio";
 
 // Inter va autoalojada: el subconjunto latino es pequeño y así no depende de
 // Google en tiempo de ejecución. Noto Sans JP no: sus glifos japoneses pesan
@@ -27,7 +27,7 @@ const DESCRIPCION =
 export const metadata: Metadata = {
   // Sin `metadataBase` Next deja las URL de Open Graph relativas y quien
   // comparta un enlace no ve tarjeta ninguna.
-  metadataBase: new URL(SITIO),
+  metadataBase: new URL(sitio()),
   title: TITULO,
   description: DESCRIPCION,
   applicationName: "jlptest",

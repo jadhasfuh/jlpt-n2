@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { NIVELES } from "@/lib/tipos";
-import { SITIO } from "@/lib/sitio";
+import { sitio } from "@/lib/sitio";
+
+export const dynamic = "force-dynamic";
 
 /**
  * Sólo las páginas que tienen sentido en un buscador: la portada, cada nivel
@@ -8,6 +10,7 @@ import { SITIO } from "@/lib/sitio";
  * nada suelto, así que se quedan fuera.
  */
 export default function sitemap(): MetadataRoute.Sitemap {
+  const SITIO = sitio();
   const ahora = new Date();
   const raiz = [
     { url: `${SITIO}/`, priority: 1 },
