@@ -5,6 +5,7 @@ import { ProveedorAjustes } from "@/components/Ajustes";
 import { Diccionario } from "@/components/Diccionario";
 import { BarraInferior } from "@/components/BarraInferior";
 import { Lateral } from "@/components/Lateral";
+import { RegistrarSW } from "@/components/RegistrarSW";
 import { idiomaActual } from "@/lib/idioma-servidor";
 import { SITIO } from "@/lib/sitio";
 
@@ -63,6 +64,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           <div className="con-lateral">{children}</div>
           <Diccionario />
           <BarraInferior />
+          <RegistrarSW />
         </ProveedorAjustes>
       </body>
     </html>
