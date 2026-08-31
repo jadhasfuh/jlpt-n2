@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/jikan/cantidad-2",
+ "titulo": "<ruby>集計<rt>しゅうけい</rt></ruby>の<ruby>終<rt>お</rt></ruby>わった<ruby>夜<rt>よる</rt></ruby>",
+ "cuerpo": "<ruby>村<rt>むら</rt></ruby>の<ruby>人口<rt>じんこう</rt></ruby>を<ruby>調<rt>しら</rt></ruby>べる<ruby>仕事<rt>しごと</rt></ruby>に<ruby>関与<rt>かんよ</rt></ruby>しました。<ruby>終日<rt>しゅうじつ</rt></ruby><ruby>数字<rt>すうじ</rt></ruby>と<ruby>向<rt>む</rt></ruby>き<ruby>合<rt>あ</rt></ruby>い、<ruby>集計<rt>しゅうけい</rt></ruby>を<ruby>一括<rt>いっかつ</rt></ruby>で<ruby>出<rt>だ</rt></ruby>します。<ruby>過疎<rt>かそ</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>が<ruby>現実<rt>げんじつ</rt></ruby>になっていくのが、<ruby>幾多<rt>いくた</rt></ruby>の<ruby>表<rt>ひょう</rt></ruby>のあいだから<ruby>見<rt>み</rt></ruby>えてきました。<ruby>若干<rt>じゃっかん</rt></ruby>の<ruby>増減<rt>ぞうげん</rt></ruby>はあっても、<ruby>大方<rt>おおかた</rt></ruby>の<ruby>傾向<rt>けいこう</rt></ruby>は<ruby>変<rt>か</rt></ruby>わりません。<ruby>天下<rt>てんか</rt></ruby>の<ruby>大<rt>だい</rt></ruby><ruby>問題<rt>もんだい</rt></ruby>だと<ruby>騒<rt>さわ</rt></ruby>がれていることが、この<ruby>村<rt>むら</rt></ruby>では<ruby>数字<rt>すうじ</rt></ruby><ruby>一<rt>ひと</rt></ruby>つで<ruby>片<rt>かた</rt></ruby>づけられてしまうのです。<ruby>窓<rt>まど</rt></ruby>の<ruby>外<rt>そと</rt></ruby>を<ruby>見<rt>み</rt></ruby>る<em class=\"g\">ともなく</em><ruby>見<rt>み</rt></ruby>ていると、<ruby>向<rt>む</rt></ruby>かいの<ruby>家<rt>いえ</rt></ruby>の<ruby>明<rt>あ</rt></ruby>かりが<ruby>消<rt>き</rt></ruby>えました。<ruby>欠乏<rt>けつぼう</rt></ruby>しているのは<ruby>人<rt>ひと</rt></ruby>ではなく、ここに<ruby>残<rt>のこ</rt></ruby>る<ruby>理由<rt>りゆう</rt></ruby>のほうなのかもしれません。<ruby>技能<rt>ぎのう</rt></ruby>のある<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>ほど<ruby>都会<rt>とかい</rt></ruby>へ<ruby>出<rt>で</rt></ruby>ていきます。<ruby>推測<rt>すいそく</rt></ruby>するのはたやすいけれど、<ruby>増強<rt>ぞうきょう</rt></ruby>する<ruby>手<rt>て</rt></ruby>だてはまだ<ruby>途上<rt>とじょう</rt></ruby>にあります。",
+ "traduccion": "Participé en el trabajo de contar la población del pueblo. Me pasaba el día entero frente a las cifras y saqué el recuento de una vez. Entre tantos y tantos cuadros se iba viendo cómo la palabra «despoblación» se volvía real. Con ligeras subidas y bajadas, la tendencia general no cambia. Lo que se agita como el gran problema del país aquí se despacha con una sola cifra. Mirando por la ventana sin mirar realmente, vi apagarse la luz de la casa de enfrente. Quizá lo que escasea no es la gente, sino las razones para quedarse. Cuanto más preparados están los jóvenes, antes se marchan a la ciudad. Especular es fácil, pero los medios para revertirlo siguen a medio camino.",
+ "preguntas": [
+  {
+   "p": "<ruby>数字<rt>すうじ</rt></ruby>から<ruby>何<rt>なに</rt></ruby>が<ruby>見<rt>み</rt></ruby>えてきましたか。",
+   "opciones": [
+    "<ruby>人口<rt>じんこう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えていること",
+    "<ruby>過疎<rt>かそ</rt></ruby>が<ruby>現実<rt>げんじつ</rt></ruby>になっていくこと",
+    "<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>が<ruby>戻<rt>もど</rt></ruby>ること",
+    "<ruby>村<rt>むら</rt></ruby>が<ruby>豊<rt>ゆた</rt></ruby>かなこと"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は、<ruby>欠乏<rt>けつぼう</rt></ruby>しているのは<ruby>何<rt>なに</rt></ruby>かもしれないと<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>人<rt>ひと</rt></ruby>",
+    "ここに<ruby>残<rt>のこ</rt></ruby>る<ruby>理由<rt>りゆう</rt></ruby>",
+    "<ruby>お金<rt>かね</rt></ruby>",
+    "<ruby>技能<rt>ぎのう</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

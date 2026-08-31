@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/jikan/calendario-1",
+ "titulo": "<ruby>暦<rt>こよみ</rt></ruby>のある<ruby>暮<rt>く</rt></ruby>らし",
+ "cuerpo": "<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>には、<ruby>紙<rt>かみ</rt></ruby>の<ruby>暦<rt>こよみ</rt></ruby>が<ruby>台所<rt>だいどころ</rt></ruby>にかかっていました。<ruby>年賀<rt>ねんが</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>、<ruby>雛祭<rt>ひなまつ</rt></ruby>り、<ruby>期末<rt>きまつ</rt></ruby>の<ruby>支払<rt>しはら</rt></ruby>い。<ruby>日取<rt>ひど</rt></ruby>りが<ruby>決<rt>き</rt></ruby>まると、そこに<ruby>赤<rt>あか</rt></ruby>い<ruby>丸<rt>まる</rt></ruby>をつけるのです。<ruby>隔週<rt>かくしゅう</rt></ruby>で<ruby>来<rt>く</rt></ruby>る<ruby>配達<rt>はいたつ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>も、<ruby>月賦<rt>げっぷ</rt></ruby>の<ruby>期日<rt>きじつ</rt></ruby>もその<ruby>一枚<rt>いちまい</rt></ruby>に<ruby>書<rt>か</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれていました。いまは<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>電話<rt>でんわ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>です。<ruby>便利<rt>べんり</rt></ruby>になったぶん、<ruby>一年<rt>いちねん</rt></ruby>を<ruby>見渡<rt>みわた</rt></ruby>すことをしなくなりました。<ruby>予定<rt>よてい</rt></ruby>を<ruby>入<rt>い</rt></ruby>れたら、それで<ruby>済<rt>す</rt></ruby>ませ<em class=\"g\">たことにして</em>しまうのです。<ruby>祖母<rt>そぼ</rt></ruby>をないがしろにし<em class=\"g\">たつもりはない</em>のですが、<ruby>夕暮<rt>ゆうぐ</rt></ruby>れに<ruby>台所<rt>だいどころ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くと、あの<ruby>暦<rt>こよみ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>立<rt>た</rt></ruby>っていた<ruby>後<rt>うし</rt></ruby>ろすがたを<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>します。<ruby>夜更<rt>よふ</rt></ruby>けまで<ruby>起<rt>お</rt></ruby>きている<ruby>生活<rt>せいかつ</rt></ruby>をしていると、<ruby>日<rt>ひ</rt></ruby>が<ruby>暮<rt>く</rt></ruby>れるのを<ruby>見<rt>み</rt></ruby>なくなるのだと<ruby>気<rt>き</rt></ruby>づきました。",
+ "traduccion": "En casa de mi abuela había un calendario de papel colgado en la cocina. Los preparativos de Año Nuevo, la fiesta de las muñecas, los pagos de fin de trimestre. Cuando quedaba fijada una fecha, le ponía un círculo rojo. El día del reparto que venía cada dos semanas y el vencimiento del plazo mensual estaban también anotados en aquella hoja. Ahora está todo dentro del teléfono. A cambio de la comodidad, he dejado de abarcar el año entero de un vistazo. En cuanto meto una cita, doy por hecho que con eso ya está resuelto. No es que quisiera desdeñar a mi abuela, pero cuando entro en la cocina al atardecer me acuerdo de su espalda, allí de pie frente a aquel calendario. Me he dado cuenta de que, viviendo despierto hasta muy tarde, uno deja de ver cómo cae el día.",
+ "preguntas": [
+  {
+   "p": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>日取<rt>ひど</rt></ruby>りが<ruby>決<rt>き</rt></ruby>まると、どうしていましたか。",
+   "opciones": [
+    "<ruby>手帳<rt>てちょう</rt></ruby>に<ruby>書<rt>か</rt></ruby>いた",
+    "<ruby>暦<rt>こよみ</rt></ruby>に<ruby>赤<rt>あか</rt></ruby>い<ruby>丸<rt>まる</rt></ruby>をつけた",
+    "<ruby>家族<rt>かぞく</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>した",
+    "<ruby>何<rt>なに</rt></ruby>もしなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>電話<rt>でんわ</rt></ruby>で<ruby>予定<rt>よてい</rt></ruby>を<ruby>管理<rt>かんり</rt></ruby>するようになって、<ruby>何<rt>なに</rt></ruby>をしなくなりましたか。",
+   "opciones": [
+    "<ruby>予定<rt>よてい</rt></ruby>を<ruby>入<rt>い</rt></ruby>れること",
+    "<ruby>一年<rt>いちねん</rt></ruby>を<ruby>見渡<rt>みわた</rt></ruby>すこと",
+    "<ruby>台所<rt>だいどころ</rt></ruby>に<ruby>行<rt>い</rt></ruby>くこと",
+    "<ruby>支払<rt>しはら</rt></ruby>いをすること"
+   ],
+   "correcta": 1
+  }
+ ]
+}
