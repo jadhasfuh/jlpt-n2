@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/seishitsu/dificultad-1",
+ "titulo": "<ruby>単純<rt>たんじゅん</rt></ruby>なほうがむずかしい",
+ "cuerpo": "<ruby>説明<rt>せつめい</rt></ruby>の<ruby>文<rt>ぶん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>くするのは、<ruby>長<rt>なが</rt></ruby>く<ruby>書<rt>か</rt></ruby>くよりむずかしいです。<ruby>可能<rt>かのう</rt></ruby>なかぎり<ruby>単純<rt>たんじゅん</rt></ruby>にすると、<ruby>何<rt>なに</rt></ruby>をけずるかを<ruby>決<rt>き</rt></ruby>めなければなりません。<ruby>器用<rt>きよう</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>ほど、つい<ruby>書<rt>か</rt></ruby>きすぎてしまうようです。<ruby>単<rt>たん</rt></ruby>なるみじかさではなく、つたわるみじかさが<ruby>必要<rt>ひつよう</rt></ruby>です。できれば<ruby>一<rt>ひと</rt></ruby>つの<ruby>文<rt>ぶん</rt></ruby>に<ruby>一<rt>ひと</rt></ruby>つのことだけ。<ruby>作業<rt>さぎょう</rt></ruby>の<em class=\"g\">途中で</em><ruby>読<rt>よ</rt></ruby>み<ruby>返<rt>かえ</rt></ruby>すと、いらない<ruby>言葉<rt>ことば</rt></ruby>が<ruby>見<rt>み</rt></ruby>えてきます。みじかいものがいつもいい<em class=\"g\">とは限らない</em>ですが、たいていはそうです。",
+ "traduccion": "Acortar un texto explicativo es más difícil que escribirlo largo. Si lo simplificas todo lo posible, tienes que decidir qué quitas. Parece que cuanto más hábil es alguien, más tiende a escribir de más. No hace falta brevedad sin más, sino una brevedad que llegue. Si se puede, una sola idea por frase. Cuando lo relees a mitad del trabajo, las palabras sobrantes se hacen visibles. Lo corto no siempre es lo mejor, pero suele serlo.",
+ "preguntas": [
+  {
+   "p": "<ruby>文<rt>ぶん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>くするとき、<ruby>何<rt>なに</rt></ruby>をしなければなりませんか。",
+   "opciones": [
+    "<ruby>長<rt>なが</rt></ruby>く<ruby>書<rt>か</rt></ruby>く",
+    "<ruby>何<rt>なに</rt></ruby>をけずるかを<ruby>決<rt>き</rt></ruby>める",
+    "<ruby>言葉<rt>ことば</rt></ruby>をふやす",
+    "<ruby>読<rt>よ</rt></ruby>み<ruby>返<rt>かえ</rt></ruby>さない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いらない<ruby>言葉<rt>ことば</rt></ruby>は、いつ<ruby>見<rt>み</rt></ruby>えてきますか。",
+   "opciones": [
+    "<ruby>書<rt>か</rt></ruby>く<ruby>前<rt>まえ</rt></ruby>",
+    "<ruby>作業<rt>さぎょう</rt></ruby>の<em class=\"g\">途中で</em><ruby>読<rt>よ</rt></ruby>み<ruby>返<rt>かえ</rt></ruby>したとき",
+    "<ruby>終<rt>お</rt></ruby>わってから",
+    "<ruby>見<rt>み</rt></ruby>えない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

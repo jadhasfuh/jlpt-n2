@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kurashi/rutina-1",
+ "titulo": "<ruby>睡眠<rt>すいみん</rt></ruby>という<ruby>習慣<rt>しゅうかん</rt></ruby>",
+ "cuerpo": "<ruby>年中<rt>ねんじゅう</rt></ruby>いそがしいと、<ruby>休息<rt>きゅうそく</rt></ruby>を<ruby>後<rt>あと</rt></ruby>まわしにしがちです。<ruby>日常<rt>にちじょう</rt></ruby>のなかで、<ruby>睡眠<rt>すいみん</rt></ruby>をけずるのはいちばんかんたんだからです。でも、<ruby>目<rt>め</rt></ruby>が<ruby>覚<rt>さ</rt></ruby>めたときに<ruby>疲<rt>つか</rt></ruby>れがのこっていると、その<ruby>日<rt>ひ</rt></ruby>ぜんぶがうまくいきません。<em class=\"g\">どうしても</em><ruby>終<rt>お</rt></ruby>わらせたい<ruby>仕事<rt>しごと</rt></ruby>があっても、<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>の<ruby>休憩<rt>きゅうけい</rt></ruby>をとるほうが<ruby>早<rt>はや</rt></ruby>いのです。<em class=\"g\">ふと</em>、<ruby>祖母<rt>そぼ</rt></ruby>が「はやくねなさい」とよく<ruby>言<rt>い</rt></ruby>っていたのを<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>しました。<ruby>礼儀<rt>れいぎ</rt></ruby>や<ruby>作法<rt>さほう</rt></ruby>とおなじで、ねる<ruby>時間<rt>じかん</rt></ruby>をまもるのも<ruby>一<rt>ひと</rt></ruby>つの<ruby>行儀<rt>ぎょうぎ</rt></ruby>なのでしょう。",
+ "traduccion": "Cuando estás ocupado todo el año, tiendes a dejar el descanso para después. Porque, dentro de la vida diaria, recortar el sueño es lo más fácil. Pero si al despertarte todavía arrastras cansancio, el día entero se tuerce. Aunque haya un trabajo que quieras terminar como sea, se va más rápido tomándose una hora de descanso. De repente me acordé de que mi abuela solía decir «acuéstate pronto». Igual que la cortesía y los buenos modos, respetar la hora de acostarse debe de ser también una forma de educación.",
+ "preguntas": [
+  {
+   "p": "<ruby>日常<rt>にちじょう</rt></ruby>のなかで、いちばんかんたんにけずられるのは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>食事<rt>しょくじ</rt></ruby>",
+    "<ruby>睡眠<rt>すいみん</rt></ruby>",
+    "<ruby>仕事<rt>しごと</rt></ruby>",
+    "<ruby>休憩<rt>きゅうけい</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<em class=\"g\">どうしても</em><ruby>終<rt>お</rt></ruby>わらせたい<ruby>仕事<rt>しごと</rt></ruby>があるとき、どうするほうが<ruby>早<rt>はや</rt></ruby>いですか。",
+   "opciones": [
+    "つづける",
+    "<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>の<ruby>休憩<rt>きゅうけい</rt></ruby>をとる",
+    "はやく<ruby>起<rt>お</rt></ruby>きる",
+    "たのむ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

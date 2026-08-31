@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/seishitsu/conceptos-1",
+ "titulo": "<ruby>価値<rt>かち</rt></ruby>と<ruby>効果<rt>こうか</rt></ruby>",
+ "cuerpo": "あたらしいやり<ruby>方<rt>かた</rt></ruby>を<ruby>試<rt>ため</rt></ruby>すとき、<ruby>効果<rt>こうか</rt></ruby>がすぐに<ruby>出<rt>で</rt></ruby>るとはかぎりません。<ruby>数<rt>すう</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>たってから<ruby>影響<rt>えいきょう</rt></ruby>が<ruby>現<rt>あらわ</rt></ruby>れることもあります。<ruby>確実<rt>かくじつ</rt></ruby>な<ruby>結果<rt>けっか</rt></ruby><em class=\"g\">に関して</em>は、だれも<ruby>約束<rt>やくそく</rt></ruby>できません。だからといって、<ruby>価値<rt>かち</rt></ruby>がないということにはなりません。<ruby>有効<rt>ゆうこう</rt></ruby>かどうかは、<ruby>一<rt>いち</rt></ruby><ruby>度<rt>ど</rt></ruby>でははかれないのです。<ruby>時間<rt>じかん</rt></ruby><em class=\"g\">に関する</em><ruby>判<rt>はん</rt></ruby>だんこそ、いちばんむずかしいと<ruby>感<rt>かん</rt></ruby>じます。",
+ "traduccion": "Cuando pruebas una manera nueva de hacer algo, el efecto no aparece necesariamente enseguida. A veces la influencia se manifiesta meses después. Sobre los resultados seguros, nadie puede prometer nada. Pero eso no significa que no tenga valor. Si algo es eficaz o no, no se puede medir en una sola vez. Siento que los juicios que tienen que ver con el tiempo son justamente los más difíciles.",
+ "preguntas": [
+  {
+   "p": "<ruby>効果<rt>こうか</rt></ruby>について、どう<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "すぐ<ruby>出<rt>で</rt></ruby>る",
+    "<ruby>数<rt>すう</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>たってから<ruby>現<rt>あらわ</rt></ruby>れることもある",
+    "<ruby>出<rt>で</rt></ruby>ない",
+    "<ruby>約束<rt>やくそく</rt></ruby>できる"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いちばんむずかしいと<ruby>感<rt>かん</rt></ruby>じるのは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>価値<rt>かち</rt></ruby>をきめること",
+    "<ruby>時間<rt>じかん</rt></ruby><em class=\"g\">に関する</em><ruby>判<rt>はん</rt></ruby>だん",
+    "<ruby>効果<rt>こうか</rt></ruby>をはかること",
+    "やり<ruby>方<rt>かた</rt></ruby>をえらぶこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

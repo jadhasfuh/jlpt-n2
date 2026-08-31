@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/seishitsu/estado-1",
+ "titulo": "<ruby>混乱<rt>こんらん</rt></ruby>のあとで",
+ "cuerpo": "システムの<ruby>修正<rt>しゅうせい</rt></ruby>をしている<em class=\"g\">最中に</em>、<ruby>別<rt>べつ</rt></ruby>のところで<ruby>問題<rt>もんだい</rt></ruby>が<ruby>起<rt>お</rt></ruby>きました。<ruby>現場<rt>げんば</rt></ruby>は<ruby>一時<rt>いちじ</rt></ruby><ruby>混乱<rt>こんらん</rt></ruby>しましたが、<ruby>担当<rt>たんとう</rt></ruby>をわけて<ruby>一<rt>ひと</rt></ruby>つずつ<ruby>進<rt>すす</rt></ruby>めました。<ruby>完成<rt>かんせい</rt></ruby>を<ruby>延期<rt>えんき</rt></ruby>するかどうかで<ruby>意見<rt>いけん</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かれ、<ruby>結局<rt>けっきょく</rt></ruby>、<ruby>安定<rt>あんてい</rt></ruby>を<ruby>優<rt>ゆう</rt></ruby>せんすることにしました。<ruby>拡大<rt>かくだい</rt></ruby>よりも<ruby>改善<rt>かいぜん</rt></ruby>。<ruby>混雑<rt>こんざつ</rt></ruby>した<ruby>時期<rt>じき</rt></ruby>をこえてみると、チームのバランスもよくなっていました。<ruby>基<rt>もと</rt></ruby>になる<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>がはっきりしていれば、<ruby>混乱<rt>こんらん</rt></ruby>もこわくありません。",
+ "traduccion": "Mientras hacíamos una corrección del sistema, surgió un problema en otro punto. Sobre el terreno hubo un momento de caos, pero repartimos responsables y fuimos avanzando de uno en uno. Las opiniones se dividieron sobre si aplazar la entrega y al final decidimos priorizar la estabilidad. Antes que ampliar, mejorar. Al superar el periodo de saturación, el equilibrio del equipo también había mejorado. Si el criterio de fondo está claro, el caos tampoco da miedo.",
+ "preguntas": [
+  {
+   "p": "<ruby>問題<rt>もんだい</rt></ruby>が<ruby>起<rt>お</rt></ruby>きたとき、どうしましたか。",
+   "opciones": [
+    "<ruby>中止<rt>ちゅうし</rt></ruby>した",
+    "<ruby>担当<rt>たんとう</rt></ruby>をわけて<ruby>一<rt>ひと</rt></ruby>つずつ<ruby>進<rt>すす</rt></ruby>めた",
+    "<ruby>延期<rt>えんき</rt></ruby>した",
+    "<ruby>拡大<rt>かくだい</rt></ruby>した"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>結局<rt>けっきょく</rt></ruby>、<ruby>何<rt>なに</rt></ruby>を<ruby>優<rt>ゆう</rt></ruby>せんしましたか。",
+   "opciones": [
+    "<ruby>完成<rt>かんせい</rt></ruby>",
+    "<ruby>安定<rt>あんてい</rt></ruby>",
+    "<ruby>拡大<rt>かくだい</rt></ruby>",
+    "<ruby>時期<rt>じき</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

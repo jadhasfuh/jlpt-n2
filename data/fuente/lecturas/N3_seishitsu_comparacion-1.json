@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/seishitsu/comparacion-1",
+ "titulo": "<ruby>違<rt>ちが</rt></ruby>いと<ruby>差<rt>さ</rt></ruby>",
+ "cuerpo": "ふたつのものを<ruby>比較<rt>ひかく</rt></ruby>するとき、<ruby>差<rt>さ</rt></ruby>を<ruby>数字<rt>すうじ</rt></ruby>であらわすとわかりやすくなります。でも、<ruby>異<rt>こと</rt></ruby>なる<ruby>性質<rt>せいしつ</rt></ruby>のものは、<ruby>同<rt>おな</rt></ruby>じものさしでははかれません。<ruby>値段<rt>ねだん</rt></ruby>が<ruby>等<rt>ひと</rt></ruby>しくても、<ruby>中身<rt>なかみ</rt></ruby>はまったく<ruby>別<rt>べつ</rt></ruby>のことがあります。<ruby>対照<rt>たいしょう</rt></ruby>してみると<ruby>同<rt>おな</rt></ruby>じ<em class=\"g\">ように見え</em>ますが、<ruby>使<rt>つか</rt></ruby>ってみるとすぐ<ruby>区別<rt>くべつ</rt></ruby>がつきます。<em class=\"g\">結局</em>、<ruby>比<rt>くら</rt></ruby>べることそのものより、<ruby>何<rt>なに</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べているのかをはっきりさせるほうがたいせつです。",
+ "traduccion": "Cuando comparas dos cosas, expresar la diferencia en números lo hace más claro. Pero cosas de naturaleza distinta no se miden con la misma vara. Aunque el precio sea igual, el contenido puede ser completamente otro. Puestas en contraste parecen iguales, pero al usarlas se distinguen enseguida. Al final, más que comparar en sí, lo importante es dejar claro qué es lo que estás comparando.",
+ "preguntas": [
+  {
+   "p": "<ruby>異<rt>こと</rt></ruby>なる<ruby>性質<rt>せいしつ</rt></ruby>のものは、どうですか。",
+   "opciones": [
+    "<ruby>同<rt>おな</rt></ruby>じものさしではかれる",
+    "<ruby>同<rt>おな</rt></ruby>じものさしでははかれない",
+    "<ruby>数字<rt>すうじ</rt></ruby>であらわせる",
+    "<ruby>等<rt>ひと</rt></ruby>しい"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いちばんたいせつなことは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>比<rt>くら</rt></ruby>べること",
+    "<ruby>何<rt>なに</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べているのかをはっきりさせること",
+    "<ruby>値段<rt>ねだん</rt></ruby>を<ruby>見<rt>み</rt></ruby>ること",
+    "<ruby>使<rt>つか</rt></ruby>ってみること"
+   ],
+   "correcta": 1
+  }
+ ]
+}

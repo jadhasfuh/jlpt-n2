@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/seishitsu/color-1",
+ "titulo": "<ruby>黒板<rt>こくばん</rt></ruby>の<ruby>文字<rt>もじ</rt></ruby>",
+ "cuerpo": "<ruby>教室<rt>きょうしつ</rt></ruby>の<ruby>黒板<rt>こくばん</rt></ruby>に、<ruby>先生<rt>せんせい</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きく<ruby>字<rt>じ</rt></ruby>を<ruby>書<rt>か</rt></ruby>きます。<ruby>白<rt>しろ</rt></ruby>いチョークの<ruby>線<rt>せん</rt></ruby>は、けすとうっすらあとがのこります。<ruby>一年<rt>いちねん</rt></ruby><ruby>間<rt>かん</rt></ruby>のじゅぎょう<em class=\"g\">を通して</em>、その<ruby>黒板<rt>こくばん</rt></ruby>には<ruby>何<rt>なん</rt></ruby><ruby>万<rt>まん</rt></ruby>という<ruby>字<rt>じ</rt></ruby>が<ruby>書<rt>か</rt></ruby>かれたはずです。けれど、のこっているのは<ruby>白<rt>しろ</rt></ruby>い<ruby>粉<rt>こな</rt></ruby>だけ。<ruby>先生<rt>せんせい</rt></ruby>は<ruby>心<rt>こころ</rt></ruby><em class=\"g\">を込めて</em><ruby>書<rt>か</rt></ruby>いていましたが、<ruby>字<rt>じ</rt></ruby>そのものはきえていきます。のこるのは、それを<ruby>見<rt>み</rt></ruby>ていた<ruby>人<rt>ひと</rt></ruby>の<ruby>中<rt>なか</rt></ruby>だけです。",
+ "traduccion": "En la pizarra del aula, el profesor escribe con letra grande. Las líneas de tiza blanca, al borrarlas, dejan un rastro tenue. A lo largo de un año de clases, en esa pizarra se habrán escrito decenas de miles de caracteres. Y sin embargo, lo único que queda es polvo blanco. El profesor escribía poniendo el corazón, pero las letras en sí desaparecen. Lo que queda está solo dentro de quienes las miraron.",
+ "preguntas": [
+  {
+   "p": "チョークの<ruby>線<rt>せん</rt></ruby>をけすと、どうなりますか。",
+   "opciones": [
+    "きえてしまう",
+    "うっすらあとがのこる",
+    "<ruby>黒<rt>くろ</rt></ruby>くなる",
+    "<ruby>白<rt>しろ</rt></ruby>くなる"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "のこるのはどこですか。",
+   "opciones": [
+    "<ruby>黒板<rt>こくばん</rt></ruby>",
+    "それを<ruby>見<rt>み</rt></ruby>ていた<ruby>人<rt>ひと</rt></ruby>の<ruby>中<rt>なか</rt></ruby>",
+    "<ruby>粉<rt>こな</rt></ruby>",
+    "<ruby>教室<rt>きょうしつ</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}
