@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/sonota/sustantivos-1",
+ "titulo": "テントとアルバム",
+ "cuerpo": "<ruby>天気<rt>てんき</rt></ruby>よほう<em class=\"g\">によると</em>、<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>晴<rt>は</rt></ruby>れるそうです。そこでグループのみんなでキャンプに<ruby>行<rt>い</rt></ruby>くことにしました。テントとクリームと、<ruby>小<rt>ちい</rt></ruby>さなビデオカメラをケースに<ruby>入<rt>い</rt></ruby>れます。<ruby>車<rt>くるま</rt></ruby>のかぎには、なくさないようにピンでメモをとめておきました。<em class=\"g\">どんなに</em><ruby>準備<rt>じゅんび</rt></ruby>をし<em class=\"g\">ても</em>、<ruby>一<rt>ひと</rt></ruby>つはわすれるものです。<ruby>去年<rt>きょねん</rt></ruby>はスキーの<ruby>道具<rt>どうぐ</rt></ruby>をぜんぶ<ruby>持<rt>も</rt></ruby>っていって、セットのうちの<ruby>一<rt>ひと</rt></ruby>つだけが<ruby>家<rt>いえ</rt></ruby>にのこっていました。<ruby>帰<rt>かえ</rt></ruby>ってきたら、<ruby>写真<rt>しゃしん</rt></ruby>をアルバムにはってサインを<ruby>入<rt>い</rt></ruby>れます。たのしかった<ruby>日<rt>ひ</rt></ruby>のことは、そうしておかないとすぐにわすれてしまうからです。",
+ "traduccion": "Según la previsión del tiempo, este fin de semana hará bueno. Así que hemos decidido ir de acampada con todo el grupo. Metemos en la funda la tienda, la crema y una cámara de vídeo pequeña. En la llave del coche dejé una nota sujeta con un alfiler para no perderla. Por mucho que uno se prepare, siempre se olvida de algo. El año pasado me llevé todo el equipo de esquí y una sola pieza del conjunto se quedó en casa. Cuando volvamos, pegaré las fotos en el álbum y les pondré la firma. Porque los días buenos, si no se hace eso, se olvidan enseguida.",
+ "preguntas": [
+  {
+   "p": "<ruby>週末<rt>しゅうまつ</rt></ruby>の<ruby>天気<rt>てんき</rt></ruby>はどうなりますか。",
+   "opciones": [
+    "<ruby>雨<rt>あめ</rt></ruby>がふる",
+    "<ruby>晴<rt>は</rt></ruby>れる",
+    "<ruby>雪<rt>ゆき</rt></ruby>がふる",
+    "わからない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>去年<rt>きょねん</rt></ruby>のキャンプで、どんなことがありましたか。",
+   "opciones": [
+    "テントをわすれた",
+    "スキーの<ruby>道具<rt>どうぐ</rt></ruby>の<ruby>一<rt>ひと</rt></ruby>つが<ruby>家<rt>いえ</rt></ruby>にのこっていた",
+    "カメラがこわれた",
+    "<ruby>道<rt>みち</rt></ruby>にまよった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

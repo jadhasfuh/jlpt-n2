@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/tsunagu/kosoado-1",
+ "titulo": "これらの<ruby>道具<rt>どうぐ</rt></ruby>",
+ "cuerpo": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に、はさみとのりとテープがならんでいます。これらはぜんぶ、<ruby>子<rt>こ</rt></ruby>どもが<ruby>学校<rt>がっこう</rt></ruby>で<ruby>使<rt>つか</rt></ruby>うものです。こんなに<ruby>小<rt>ちい</rt></ruby>さいのに、<ruby>一<rt>ひと</rt></ruby>つ<ruby>千円<rt>せんえん</rt></ruby><em class=\"g\">ぐらい</em>するものもあります。<em class=\"g\">一度に</em>ぜんぶそろえようとすると、けっこうな<ruby>金額<rt>きんがく</rt></ruby>になりました。そのとき<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が「<ruby>必要<rt>ひつよう</rt></ruby>なものから<ruby>買<rt>か</rt></ruby>えばいいですよ」と<ruby>言<rt>い</rt></ruby>ってくれました。すなわち、いそがなくてもいいということです。<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>って<ruby>数<rt>かぞ</rt></ruby>えてみると、<ruby>去年<rt>きょねん</rt></ruby>のものがまだ<ruby>使<rt>つか</rt></ruby>えることに<ruby>気<rt>き</rt></ruby>づきました。こんなに<ruby>買<rt>か</rt></ruby>う<ruby>必要<rt>ひつよう</rt></ruby>はなかったのかもしれません。",
+ "traduccion": "Sobre la mesa están alineadas las tijeras, el pegamento y la cinta. Todas estas cosas son las que usa el niño en el colegio. Aun siendo tan pequeñas, hay alguna que cuesta unos mil yenes. Cuando quise reunirlo todo de una vez, salió una cantidad considerable. Entonces el dependiente me dijo: «puede ir comprando lo que haga falta». Es decir, que no hay prisa. Al volver a casa y contarlo, me di cuenta de que lo del año pasado todavía sirve. Puede que no hiciera falta comprar tanto.",
+ "preguntas": [
+  {
+   "p": "<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "ぜんぶ<ruby>今日<rt>きょう</rt></ruby><ruby>買<rt>か</rt></ruby>ってください",
+    "<ruby>必要<rt>ひつよう</rt></ruby>なものから<ruby>買<rt>か</rt></ruby>えばいい",
+    "この<ruby>店<rt>みせ</rt></ruby>にはない",
+    "<ruby>来年<rt>らいねん</rt></ruby><ruby>来<rt>き</rt></ruby>てください"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>って、<ruby>何<rt>なに</rt></ruby>に<ruby>気<rt>き</rt></ruby>づきましたか。",
+   "opciones": [
+    "<ruby>道具<rt>どうぐ</rt></ruby>がたりない",
+    "<ruby>去年<rt>きょねん</rt></ruby>のものがまだ<ruby>使<rt>つか</rt></ruby>える",
+    "<ruby>値段<rt>ねだん</rt></ruby>がまちがっていた",
+    "<ruby>子<rt>こ</rt></ruby>どもがよろこんだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/shizen/plantas-1",
+ "titulo": "<ruby>桜<rt>さくら</rt></ruby>の<ruby>下<rt>した</rt></ruby>で",
+ "cuerpo": "<ruby>公園<rt>こうえん</rt></ruby>の<ruby>芝生<rt>しばふ</rt></ruby>にすわって、<ruby>桜<rt>さくら</rt></ruby>をながめていました。まいとし<ruby>同<rt>おな</rt></ruby>じ<ruby>木<rt>き</rt></ruby>が、<ruby>同<rt>おな</rt></ruby>じところで<ruby>花<rt>はな</rt></ruby>をひらきます。<ruby>土<rt>つち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>では<ruby>根<rt>ね</rt></ruby>が<ruby>一年<rt>いちねん</rt></ruby>じゅう<ruby>水<rt>みず</rt></ruby>をすいあげています。<em class=\"g\">そのために</em><ruby>春<rt>はる</rt></ruby>になると、あんなに<ruby>大<rt>おお</rt></ruby>きな<ruby>花<rt>はな</rt></ruby>がひらくのです。<ruby>去年<rt>きょねん</rt></ruby>、<ruby>庭<rt>にわ</rt></ruby>のすみに<ruby>植物<rt>しょくぶつ</rt></ruby>の<ruby>種<rt>たね</rt></ruby>をまきました。<ruby>芽<rt>め</rt></ruby>が<ruby>出<rt>で</rt></ruby>るまでの<ruby>二週間<rt>にしゅうかん</rt></ruby>、まいあさ<ruby>見<rt>み</rt></ruby>にいったのをおぼえています。<ruby>何<rt>なに</rt></ruby>かをそだてるというのは、<ruby>待<rt>ま</rt></ruby>つことなのだと<ruby>思<rt>おも</rt></ruby>いました。<ruby>小<rt>ちい</rt></ruby>さかったころの<ruby>夢<rt>ゆめ</rt></ruby>が<ruby>実現<rt>じつげん</rt></ruby>したわけではありませんが、<ruby>芝生<rt>しばふ</rt></ruby>にすわって<ruby>桜<rt>さくら</rt></ruby>を<ruby>見<rt>み</rt></ruby>ていられるいまが、わるくないと<ruby>感<rt>かん</rt></ruby>じます。",
+ "traduccion": "Estaba sentado en el césped del parque, mirando los cerezos. Cada año el mismo árbol abre sus flores en el mismo sitio. Bajo la tierra, las raíces absorben agua todo el año. Por eso, cuando llega la primavera, se abren flores tan grandes. El año pasado sembré unas semillas en un rincón del jardín. Recuerdo que durante las dos semanas que tardaron en brotar iba a mirarlas cada mañana. Pensé que criar algo consiste, sobre todo, en esperar. No es que se haya cumplido el sueño que tenía de pequeño, pero sentarme en el césped y poder mirar los cerezos no me parece poca cosa.",
+ "preguntas": [
+  {
+   "p": "<ruby>春<rt>はる</rt></ruby>に<ruby>大<rt>おお</rt></ruby>きな<ruby>花<rt>はな</rt></ruby>がひらくのは、なぜですか。",
+   "opciones": [
+    "<ruby>芝生<rt>しばふ</rt></ruby>が<ruby>広<rt>ひろ</rt></ruby>いから",
+    "<ruby>根<rt>ね</rt></ruby>が<ruby>一年<rt>いちねん</rt></ruby>じゅう<ruby>水<rt>みず</rt></ruby>をすいあげているから",
+    "<ruby>種<rt>たね</rt></ruby>を<ruby>毎年<rt>まいとし</rt></ruby>まくから",
+    "<ruby>公園<rt>こうえん</rt></ruby>が<ruby>静<rt>しず</rt></ruby>かだから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>種<rt>たね</rt></ruby>をまいたあと、この<ruby>人<rt>ひと</rt></ruby>はどうしましたか。",
+   "opciones": [
+    "まいあさ<ruby>見<rt>み</rt></ruby>にいった",
+    "<ruby>水<rt>みず</rt></ruby>をやらなかった",
+    "<ruby>土<rt>つち</rt></ruby>をほりかえした",
+    "<ruby>友<rt>とも</rt></ruby>だちにあげた"
+   ],
+   "correcta": 0
+  }
+ ]
+}

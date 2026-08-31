@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/tsunagu/adverbios-1",
+ "titulo": "じっと<ruby>見<rt>み</rt></ruby>ていた",
+ "cuerpo": "<ruby>駅<rt>えき</rt></ruby>のホームで、<ruby>子<rt>こ</rt></ruby>どもが<ruby>電車<rt>でんしゃ</rt></ruby>をじっと<ruby>見<rt>み</rt></ruby>ていました。ずっと<ruby>同<rt>おな</rt></ruby>じところに<ruby>立<rt>た</rt></ruby>ったまま、うごきません。<ruby>急<rt>きゅう</rt></ruby>に<ruby>風<rt>かぜ</rt></ruby>がふいて、<ruby>帽子<rt>ぼうし</rt></ruby>がとびそうになったとき、<ruby>思<rt>おも</rt></ruby>わず<ruby>手<rt>て</rt></ruby>が<ruby>出<rt>で</rt></ruby>てしまいました。その<ruby>子<rt>こ</rt></ruby>のお<ruby>母<rt>かあ</rt></ruby>さんは、わたし<em class=\"g\">に対して</em>きちんと<ruby>頭<rt>あたま</rt></ruby>を<ruby>下<rt>さ</rt></ruby>げてくれました。<ruby>直接<rt>ちょくせつ</rt></ruby><ruby>話<rt>はな</rt></ruby>したのはそれだけです。<ruby>絶対<rt>ぜったい</rt></ruby>にわすれないというほどのことではありませんが、いつのまにか、その<ruby>日<rt>ひ</rt></ruby>のことをときどき<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>すようになりました。<ruby>主<rt>おも</rt></ruby>に<ruby>自然<rt>しぜん</rt></ruby>なやりとりだったからかもしれません。<ruby>単<rt>たん</rt></ruby>に<ruby>親切<rt>しんせつ</rt></ruby>だったというより、<ruby>共<rt>とも</rt></ruby>に<ruby>同<rt>おな</rt></ruby>じ<ruby>時間<rt>じかん</rt></ruby>にいた、という<ruby>感<rt>かん</rt></ruby>じが<ruby>案外<rt>あんがい</rt></ruby><ruby>長<rt>なが</rt></ruby>くのこるものです。",
+ "traduccion": "En el andén de la estación, un niño miraba fijamente los trenes. Se quedaba de pie en el mismo sitio todo el rato, sin moverse. Cuando de pronto sopló el viento y estuvo a punto de volarle la gorra, mi mano salió sola. Su madre me hizo una inclinación de cabeza en condiciones. Eso fue todo lo que hablamos directamente. No es algo que vaya a recordar para siempre, pero sin darme cuenta he empezado a acordarme de aquel día de vez en cuando. Quizá porque fue, sobre todo, un intercambio natural. Más que simple amabilidad, la sensación de haber estado juntos en el mismo momento es lo que, inesperadamente, dura más.",
+ "preguntas": [
+  {
+   "p": "<ruby>風<rt>かぜ</rt></ruby>がふいたとき、この<ruby>人<rt>ひと</rt></ruby>はどうしましたか。",
+   "opciones": [
+    "<ruby>声<rt>こえ</rt></ruby>をかけた",
+    "<ruby>思<rt>おも</rt></ruby>わず<ruby>手<rt>て</rt></ruby>を<ruby>出<rt>だ</rt></ruby>した",
+    "<ruby>何<rt>なに</rt></ruby>もしなかった",
+    "<ruby>写真<rt>しゃしん</rt></ruby>をとった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>長<rt>なが</rt></ruby>くおぼえているのは、どんなことですか。",
+   "opciones": [
+    "<ruby>電車<rt>でんしゃ</rt></ruby>のかたち",
+    "<ruby>共<rt>とも</rt></ruby>に<ruby>同<rt>おな</rt></ruby>じ<ruby>時間<rt>じかん</rt></ruby>にいたという<ruby>感<rt>かん</rt></ruby>じ",
+    "<ruby>帽子<rt>ぼうし</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>",
+    "<ruby>駅<rt>えき</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

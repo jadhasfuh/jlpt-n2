@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/sonota/verbos-2",
+ "titulo": "<ruby>提出<rt>ていしゅつ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に",
+ "cuerpo": "<ruby>発表<rt>はっぴょう</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>が<ruby>延<rt>の</rt></ruby>びたので、もう<ruby>一度<rt>いちど</rt></ruby><ruby>内容<rt>ないよう</rt></ruby>を<ruby>確<rt>たし</rt></ruby>かめることにしました。<em class=\"g\">確かに</em>、はじめの<ruby>案<rt>あん</rt></ruby>にはむだが<ruby>多<rt>おお</rt></ruby>かったと<ruby>思<rt>おも</rt></ruby>います。<ruby>反省<rt>はんせい</rt></ruby>して、<ruby>大<rt>おお</rt></ruby>きく<ruby>二<rt>ふた</rt></ruby>つに<ruby>分<rt>わ</rt></ruby>けなおしました。<ruby>参加<rt>さんか</rt></ruby>する<ruby>人<rt>ひと</rt></ruby>の<ruby>数<rt>かず</rt></ruby>も<ruby>考慮<rt>こうりょ</rt></ruby>に<ruby>入<rt>い</rt></ruby>れて、<ruby>時間<rt>じかん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>くします。<ruby>先生<rt>せんせい</rt></ruby>に<ruby>推薦<rt>すいせん</rt></ruby>された<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んで、<ruby>知<rt>し</rt></ruby>らなかった<ruby>発見<rt>はっけん</rt></ruby>がいくつもありました。<ruby>新<rt>あたら</rt></ruby>しい<ruby>考<rt>かんが</rt></ruby>えを<ruby>吸収<rt>きゅうしゅう</rt></ruby>するのはたのしいことです。はじめは<ruby>抵抗<rt>ていこう</rt></ruby>がありましたが、いまは<ruby>成功<rt>せいこう</rt></ruby>するかどうかより、さいごまで<ruby>済<rt>す</rt></ruby>ませることのほうが<ruby>大切<rt>たいせつ</rt></ruby>だと<ruby>感<rt>かん</rt></ruby>じています。あさっての<ruby>朝<rt>あさ</rt></ruby>、<ruby>確認<rt>かくにん</rt></ruby>をしてから<ruby>提出<rt>ていしゅつ</rt></ruby>します。",
+ "traduccion": "Como se ha aplazado el día de la presentación, he decidido revisar el contenido otra vez. Ciertamente, en el primer borrador había mucho de sobra. Lo he repensado y lo he vuelto a dividir en dos partes grandes. Teniendo en cuenta también el número de participantes, voy a acortarlo. Leí el libro que me recomendó el profesor y encontré varios hallazgos que no conocía. Absorber ideas nuevas es algo agradable. Al principio me resistía, pero ahora siento que, más que si sale bien, lo importante es terminarlo hasta el final. Pasado mañana lo repaso y lo entrego.",
+ "preguntas": [
+  {
+   "p": "<ruby>発表<rt>はっぴょう</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>はどうなりましたか。",
+   "opciones": [
+    "<ruby>早<rt>はや</rt></ruby>くなった",
+    "<ruby>延<rt>の</rt></ruby>びた",
+    "なくなった",
+    "<ruby>決<rt>き</rt></ruby>まっていない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いま、この<ruby>人<rt>ひと</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>だと<ruby>感<rt>かん</rt></ruby>じていることは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>成功<rt>せいこう</rt></ruby>すること",
+    "さいごまで<ruby>済<rt>す</rt></ruby>ませること",
+    "<ruby>早<rt>はや</rt></ruby>く<ruby>出<rt>だ</rt></ruby>すこと",
+    "<ruby>人<rt>ひと</rt></ruby>に<ruby>見<rt>み</rt></ruby>せないこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

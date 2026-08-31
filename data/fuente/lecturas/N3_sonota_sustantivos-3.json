@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/sonota/sustantivos-3",
+ "titulo": "<ruby>舞台<rt>ぶたい</rt></ruby>の<ruby>順番<rt>じゅんばん</rt></ruby>",
+ "cuerpo": "<ruby>王様<rt>おうさま</rt></ruby>と<ruby>女王<rt>じょおう</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をする<ruby>芝居<rt>しばい</rt></ruby>を<ruby>見<rt>み</rt></ruby>にいきました。<ruby>座席<rt>ざせき</rt></ruby>は<ruby>後<rt>うし</rt></ruby>ろのほうでしたが、<ruby>観客<rt>かんきゃく</rt></ruby>の<ruby>感情<rt>かんじょう</rt></ruby>がよく<ruby>伝<rt>つた</rt></ruby>わってきます。<ruby>王子<rt>おうじ</rt></ruby>やくの<ruby>人<rt>ひと</rt></ruby>が<ruby>活躍<rt>かつやく</rt></ruby>する<ruby>場面<rt>ばめん</rt></ruby>では、<ruby>会場<rt>かいじょう</rt></ruby>が<ruby>静<rt>しず</rt></ruby>かになりました。<ruby>台本<rt>だいほん</rt></ruby>には<ruby>詩人<rt>しじん</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>が<ruby>引用<rt>いんよう</rt></ruby>されていて、その<ruby>一行<rt>いちぎょう</rt></ruby>だけを<ruby>何度<rt>なんど</rt></ruby>も<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>します。<ruby>前<rt>まえ</rt></ruby>の<ruby>席<rt>せき</rt></ruby>にすわれ<em class=\"g\">ば</em>もっとよく<ruby>見<rt>み</rt></ruby>えたのに、<ruby>順番<rt>じゅんばん</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つのがおそかったのです。でも、いまさら<ruby>後悔<rt>こうかい</rt></ruby>し<em class=\"g\">てもしょうがない</em>でしょう。<ruby>主婦<rt>しゅふ</rt></ruby>やがくせいや、いろいろな<ruby>人<rt>ひと</rt></ruby>が<ruby>同<rt>おな</rt></ruby>じ<ruby>方<rt>ほう</rt></ruby>を<ruby>向<rt>む</rt></ruby>いている。そういう<ruby>時間<rt>じかん</rt></ruby>に<ruby>関心<rt>かんしん</rt></ruby>をもつ<ruby>人<rt>ひと</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えている<ruby>傾向<rt>けいこう</rt></ruby>があるそうです。",
+ "traduccion": "Fui a ver una obra de teatro sobre un rey y una reina. Mi asiento estaba bastante atrás, pero la emoción del público llegaba igual. En las escenas donde brillaba el actor que hacía de príncipe, la sala se quedaba en silencio. En el texto se citaban palabras de un poeta, y hay una línea que recuerdo una y otra vez. Si me hubiera sentado más adelante habría visto mejor, pero tardé demasiado en guardar la cola. Aunque a estas alturas de nada sirve arrepentirse. Amas de casa, estudiantes, gente de todo tipo mirando en la misma dirección. Dicen que hay una tendencia creciente de gente que se interesa por ratos así.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>座席<rt>ざせき</rt></ruby>はどこでしたか。",
+   "opciones": [
+    "いちばん<ruby>前<rt>まえ</rt></ruby>",
+    "<ruby>後<rt>うし</rt></ruby>ろのほう",
+    "<ruby>右<rt>みぎ</rt></ruby>のはし",
+    "<ruby>立<rt>た</rt></ruby>っていた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>前<rt>まえ</rt></ruby>の<ruby>席<rt>せき</rt></ruby>にすわれなかったのは、なぜですか。",
+   "opciones": [
+    "お<ruby>金<rt>かね</rt></ruby>がなかったから",
+    "<ruby>順番<rt>じゅんばん</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つのがおそかったから",
+    "<ruby>友<rt>とも</rt></ruby>だちがいたから",
+    "<ruby>道<rt>みち</rt></ruby>にまよったから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

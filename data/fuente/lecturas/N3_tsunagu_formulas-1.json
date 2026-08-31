@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/tsunagu/formulas-1",
+ "titulo": "お<ruby>見舞<rt>みま</rt></ruby>いの<ruby>言葉<rt>ことば</rt></ruby>",
+ "cuerpo": "<ruby>入院<rt>にゅういん</rt></ruby>した<ruby>友<rt>とも</rt></ruby>だちのところへ、お<ruby>見舞<rt>みま</rt></ruby>いに<ruby>行<rt>い</rt></ruby>きました。<ruby>病院<rt>びょういん</rt></ruby>のような<ruby>場所<rt>ばしょ</rt></ruby><em class=\"g\">において</em>は、<ruby>何<rt>なに</rt></ruby>を<ruby>言<rt>い</rt></ruby>えばいいのかいつもまよいます。「おだいじに」も「よかったですね」も、そのときによって<ruby>正<rt>ただ</rt></ruby>しかったりそうでなかったりします。けっきょく、<ruby>天気<rt>てんき</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をして、<ruby>持<rt>も</rt></ruby>ってきた<ruby>本<rt>ほん</rt></ruby>をわたしただけでした。<ruby>帰<rt>かえ</rt></ruby>りぎわに<ruby>友<rt>とも</rt></ruby>だちが「また<ruby>来<rt>き</rt></ruby>てね」と<ruby>言<rt>い</rt></ruby>ったので、うまい<ruby>言葉<rt>ことば</rt></ruby>よりも、また<ruby>来<rt>く</rt></ruby>ることのほうが<ruby>大切<rt>たいせつ</rt></ruby>なのだとわかりました。<ruby>決<rt>き</rt></ruby>まった<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>は、<ruby>気持<rt>きも</rt></ruby>ちがつたわらないときの<ruby>助<rt>たす</rt></ruby>けになります。でも、それだけでは<ruby>足<rt>た</rt></ruby>りないこともあるのです。",
+ "traduccion": "Fui a visitar a un amigo que estaba ingresado. En un sitio como un hospital nunca sé muy bien qué hay que decir. Tanto «que te mejores» como «menos mal» pueden ser lo acertado o no, según el momento. Al final solo hablamos del tiempo y le di el libro que le había llevado. Al despedirme, mi amigo dijo «vuelve otro día», y entendí que volver importa más que dar con la frase adecuada. Las fórmulas hechas ayudan cuando los sentimientos no llegan a salir. Pero hay veces en que con eso no basta.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>病院<rt>びょういん</rt></ruby>で<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>長<rt>なが</rt></ruby>い<ruby>話<rt>はなし</rt></ruby>をした",
+    "<ruby>天気<rt>てんき</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をして<ruby>本<rt>ほん</rt></ruby>をわたした",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わずに<ruby>帰<rt>かえ</rt></ruby>った",
+    "<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>気<rt>き</rt></ruby>づいたことは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>言葉<rt>ことば</rt></ruby>をおぼえるべきだ",
+    "うまい<ruby>言葉<rt>ことば</rt></ruby>より、また<ruby>来<rt>く</rt></ruby>ることが<ruby>大切<rt>たいせつ</rt></ruby>だ",
+    "お<ruby>見舞<rt>みま</rt></ruby>いは<ruby>必要<rt>ひつよう</rt></ruby>ない",
+    "<ruby>病院<rt>びょういん</rt></ruby>はきらいだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/sonota/adjetivos-1",
+ "titulo": "まぶしい<ruby>朝<rt>あさ</rt></ruby>",
+ "cuerpo": "カーテンをあけると、<ruby>雪<rt>ゆき</rt></ruby>に<ruby>日<rt>ひ</rt></ruby>が<ruby>当<rt>あ</rt></ruby>たってまぶしいくらいでした。となりの<ruby>家<rt>いえ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はもう<ruby>出<rt>で</rt></ruby>かけた<em class=\"g\">とみえて</em>、<ruby>道<rt>みち</rt></ruby>に<ruby>足<rt>あし</rt></ruby>あとが<ruby>一本<rt>いっぽん</rt></ruby>だけ<ruby>残<rt>のこ</rt></ruby>っています。きのうの<ruby>夜<rt>よる</rt></ruby>から<ruby>急激<rt>きゅうげき</rt></ruby>に<ruby>冷<rt>ひ</rt></ruby>えたので、<ruby>残<rt>のこ</rt></ruby>りのパンがかたくなっていました。<ruby>朝<rt>あさ</rt></ruby>ごはんに<ruby>贅沢<rt>ぜいたく</rt></ruby>なものはいりません。あたたかい<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>が<ruby>一<rt>ひと</rt></ruby>つあれば、それで<ruby>完全<rt>かんぜん</rt></ruby>です。しあわせの<ruby>素<rt>もと</rt></ruby>は、そんなに<ruby>高<rt>たか</rt></ruby>いところにはないのだろうと<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "Al abrir la cortina, el sol daba en la nieve y casi deslumbraba. Al parecer el vecino ya había salido: en el camino quedaba una sola línea de pisadas. Como desde anoche había refrescado de golpe, el pan que sobraba se había puesto duro. Para desayunar no hace falta nada lujoso. Con una bebida caliente ya está completo. Me da la impresión de que el origen de la felicidad no está tan alto como creemos.",
+ "preguntas": [
+  {
+   "p": "となりの<ruby>家<rt>いえ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>について、<ruby>何<rt>なに</rt></ruby>がわかりますか。",
+   "opciones": [
+    "まだ<ruby>寝<rt>ね</rt></ruby>ている",
+    "もう<ruby>出<rt>で</rt></ruby>かけたらしい",
+    "<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>った",
+    "<ruby>雪<rt>ゆき</rt></ruby>をかいている"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>にとって<ruby>完全<rt>かんぜん</rt></ruby>な<ruby>朝<rt>あさ</rt></ruby>ごはんとは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>贅沢<rt>ぜいたく</rt></ruby>なりょうり",
+    "あたたかい<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>が<ruby>一<rt>ひと</rt></ruby>つあること",
+    "かたいパン",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べないこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

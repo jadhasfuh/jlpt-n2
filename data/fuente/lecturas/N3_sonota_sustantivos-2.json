@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/sonota/sustantivos-2",
+ "titulo": "トンネルのむこう",
+ "cuerpo": "<ruby>長<rt>なが</rt></ruby>いトンネルを<ruby>歩<rt>ある</rt></ruby>いてぬけたときのことです。<ruby>中<rt>なか</rt></ruby>は<ruby>暗<rt>くら</rt></ruby>く、<ruby>足<rt>あし</rt></ruby>もとは<ruby>泥<rt>どろ</rt></ruby>で、かべには<ruby>穴<rt>あな</rt></ruby>がいくつもあいていました。<ruby>出口<rt>でぐち</rt></ruby>の<ruby>明<rt>あ</rt></ruby>かりが<ruby>見<rt>み</rt></ruby>えたときは、<ruby>汗<rt>あせ</rt></ruby>が<ruby>背中<rt>せなか</rt></ruby>を<ruby>流<rt>なが</rt></ruby>れました。<em class=\"g\">いくら</em><ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby><em class=\"g\">ても</em>、<ruby>中<rt>なか</rt></ruby>の<ruby>長<rt>なが</rt></ruby>さまではわかりません。<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>ると、<ruby>人<rt>ひと</rt></ruby>が<ruby>列<rt>れつ</rt></ruby>をつくって<ruby>待<rt>ま</rt></ruby>っていました。みんなでお<ruby>互<rt>たが</rt></ruby>いのスタイルをわらいながら、<ruby>一束<rt>ひとたば</rt></ruby>のパンを<ruby>分<rt>わ</rt></ruby>けました。つかれた<ruby>顔<rt>かお</rt></ruby>にユーモアが<ruby>現<rt>あらわ</rt></ruby>れるというのは、ふしぎなものです。あのときの<ruby>時間<rt>じかん</rt></ruby>は、いまでも<ruby>宝<rt>たから</rt></ruby>のようにおぼえています。",
+ "traduccion": "Fue el día que crucé a pie un túnel muy largo. Dentro estaba oscuro, el suelo era de barro y en las paredes había varios agujeros. Cuando vi la luz de la salida, me corría el sudor por la espalda. Por mucho que mires el mapa, no llegas a saber lo largo que es por dentro. Al salir, había gente esperando en fila. Nos reímos unos de otros por la pinta que traíamos y repartimos un manojo de pan. Es curioso cómo aparece el humor en las caras cansadas. Aquel rato lo guardo todavía en la memoria como un tesoro.",
+ "preguntas": [
+  {
+   "p": "トンネルの<ruby>中<rt>なか</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>明<rt>あか</rt></ruby>るくてきれいだった",
+    "<ruby>暗<rt>くら</rt></ruby>くて<ruby>足<rt>あし</rt></ruby>もとが<ruby>泥<rt>どろ</rt></ruby>だった",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かった",
+    "<ruby>短<rt>みじか</rt></ruby>かった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>たあと、<ruby>人<rt>ひと</rt></ruby>たちは<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "すぐに<ruby>帰<rt>かえ</rt></ruby>った",
+    "わらいながらパンを<ruby>分<rt>わ</rt></ruby>けた",
+    "<ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby>た",
+    "<ruby>写真<rt>しゃしん</rt></ruby>をとった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

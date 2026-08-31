@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/shizen/tierra-1",
+ "titulo": "<ruby>土地<rt>とち</rt></ruby>のかたち",
+ "cuerpo": "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>夏<rt>なつ</rt></ruby>に<ruby>登山<rt>とざん</rt></ruby>をした<em class=\"g\">きり</em>、<ruby>山<rt>やま</rt></ruby>には<ruby>行<rt>い</rt></ruby>っていません。あのとき<ruby>歩<rt>ある</rt></ruby>いた<ruby>道<rt>みち</rt></ruby>のことを、いまでもときどき<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>します。<ruby>谷<rt>たに</rt></ruby>にそって<ruby>下<rt>くだ</rt></ruby>ると、<ruby>大<rt>おお</rt></ruby>きな<ruby>岩<rt>いわ</rt></ruby>が<ruby>川<rt>かわ</rt></ruby>のまん<ruby>中<rt>なか</rt></ruby>に<ruby>立<rt>た</rt></ruby>っていました。そこをすぎると<ruby>土地<rt>とち</rt></ruby>は<ruby>急<rt>きゅう</rt></ruby>に<ruby>平<rt>たい</rt></ruby>らになり、<ruby>野<rt>の</rt></ruby>が<ruby>遠<rt>とお</rt></ruby>くまで<ruby>続<rt>つづ</rt></ruby>きます。<ruby>原<rt>はら</rt></ruby>のむこうには<ruby>畑<rt>はたけ</rt></ruby>が<ruby>並<rt>なら</rt></ruby>び、<ruby>棒<rt>ぼう</rt></ruby>を<ruby>立<rt>た</rt></ruby>てただけのかんたんな<ruby>門<rt>もん</rt></ruby>が<ruby>見<rt>み</rt></ruby>えました。<ruby>地味<rt>じみ</rt></ruby>なけしきです。<ruby>写真<rt>しゃしん</rt></ruby>に<ruby>写<rt>うつ</rt></ruby>してもたぶんおもしろくないでしょう。でも、<ruby>砂漠<rt>さばく</rt></ruby>のような<ruby>何<rt>なに</rt></ruby>もない<ruby>場所<rt>ばしょ</rt></ruby>にも、<ruby>歩<rt>ある</rt></ruby>いてみないとわからない<ruby>分野<rt>ぶんや</rt></ruby>のたのしさがあります。<ruby>学校<rt>がっこう</rt></ruby>のグランドを<ruby>何周<rt>なんしゅう</rt></ruby><ruby>走<rt>はし</rt></ruby>るより、ずっと<ruby>足<rt>あし</rt></ruby>がおぼえています。",
+ "traduccion": "Desde que subí una montaña el verano pasado no he vuelto a ir. Todavía me acuerdo a veces del camino que recorrí aquel día. Bajando a lo largo del valle, había una roca enorme plantada en mitad del río. Pasado ese punto el terreno se vuelve llano de golpe y el campo se extiende a lo lejos. Al otro lado de la llanura se alineaban los huertos, y se veía una puerta hecha solo con un palo clavado. Es un paisaje sobrio. Seguramente en una foto no tendría ninguna gracia. Pero incluso en un lugar vacío como un desierto hay un placer que solo se entiende andando. Los pies lo recuerdan mucho mejor que dar vueltas al patio del colegio.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>去年<rt>きょねん</rt></ruby>の<ruby>夏<rt>なつ</rt></ruby>のあと、<ruby>山<rt>やま</rt></ruby>に<ruby>行<rt>い</rt></ruby>きましたか。",
+   "opciones": [
+    "<ruby>何度<rt>なんど</rt></ruby>も<ruby>行<rt>い</rt></ruby>った",
+    "<ruby>一度<rt>いちど</rt></ruby>も<ruby>行<rt>い</rt></ruby>っていない",
+    "<ruby>冬<rt>ふゆ</rt></ruby>に<ruby>行<rt>い</rt></ruby>った",
+    "<ruby>毎月<rt>まいつき</rt></ruby><ruby>行<rt>い</rt></ruby>っている"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>谷<rt>たに</rt></ruby>をすぎると、<ruby>土地<rt>とち</rt></ruby>はどうなりましたか。",
+   "opciones": [
+    "<ruby>高<rt>たか</rt></ruby>くなった",
+    "<ruby>急<rt>きゅう</rt></ruby>に<ruby>平<rt>たい</rt></ruby>らになった",
+    "<ruby>砂漠<rt>さばく</rt></ruby>になった",
+    "<ruby>海<rt>うみ</rt></ruby>になった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

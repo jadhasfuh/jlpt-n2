@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/sonota/sustantivos-4",
+ "titulo": "<ruby>双子<rt>ふたご</rt></ruby>の<ruby>兄弟<rt>きょうだい</rt></ruby>",
+ "cuerpo": "<ruby>同<rt>おな</rt></ruby>じ<ruby>顔<rt>かお</rt></ruby>をした<ruby>双子<rt>ふたご</rt></ruby>の<ruby>兄弟<rt>きょうだい</rt></ruby>を<ruby>知<rt>し</rt></ruby>っています。<ruby>一人<rt>ひとり</rt></ruby>は<ruby>博士<rt>はかせ</rt></ruby>になり、もう<ruby>一人<rt>ひとり</rt></ruby>は<ruby>飛行<rt>ひこう</rt></ruby><ruby>機<rt>き</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>をえらびました。<ruby>独身<rt>どくしん</rt></ruby>のまま<ruby>長<rt>なが</rt></ruby>く<ruby>働<rt>はたら</rt></ruby>いて、<ruby>定期<rt>ていき</rt></ruby><ruby>的<rt>てき</rt></ruby>に<ruby>二人<rt>ふたり</rt></ruby>で<ruby>食事<rt>しょくじ</rt></ruby>をするそうです。<ruby>顔<rt>かお</rt></ruby>は<ruby>同<rt>おな</rt></ruby>じでも、<ruby>表情<rt>ひょうじょう</rt></ruby>のうごき<ruby>方<rt>かた</rt></ruby>に<ruby>特徴<rt>とくちょう</rt></ruby>があって、しばらく<ruby>話<rt>はな</rt></ruby>していればどちらかすぐにわかります。<ruby>兄<rt>あに</rt></ruby>のほうは、<ruby>何<rt>なに</rt></ruby>かをきめるときに<ruby>徹底<rt>てってい</rt></ruby><ruby>的<rt>てき</rt></ruby>に<ruby>調<rt>しら</rt></ruby>べます。<ruby>弟<rt>おとうと</rt></ruby>のほうは、<ruby>要点<rt>ようてん</rt></ruby>だけをつかんですぐうごく。<ruby>同<rt>おな</rt></ruby>じルールを<ruby>適用<rt>てきよう</rt></ruby>しても、<ruby>二人<rt>ふたり</rt></ruby>のこたえはちがうのです。わたしもあんなふうに<ruby>話<rt>はな</rt></ruby>せる<ruby>相手<rt>あいて</rt></ruby>がい<em class=\"g\">たらいい</em>と<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "Conozco a dos hermanos gemelos con la misma cara. Uno se hizo doctor y el otro eligió trabajar en aviación. Los dos han trabajado mucho tiempo solteros y, al parecer, comen juntos con regularidad. Aunque la cara sea la misma, la manera de moverse de sus gestos tiene algo característico, y si hablas un rato con ellos distingues enseguida quién es quién. El mayor, cuando tiene que decidir algo, lo investiga a fondo. El pequeño capta lo esencial y actúa de inmediato. Aunque se les aplique la misma regla, la respuesta de cada uno es distinta. Ojalá yo tuviera a alguien con quien poder hablar así.",
+ "preguntas": [
+  {
+   "p": "<ruby>二人<rt>ふたり</rt></ruby>を<ruby>見分<rt>みわ</rt></ruby>けるには、どうすればいいですか。",
+   "opciones": [
+    "<ruby>服<rt>ふく</rt></ruby>を<ruby>見<rt>み</rt></ruby>る",
+    "しばらく<ruby>話<rt>はな</rt></ruby>して<ruby>表情<rt>ひょうじょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>る",
+    "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>く",
+    "<ruby>声<rt>こえ</rt></ruby>をくらべる"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>弟<rt>おとうと</rt></ruby>のほうは、どんな<ruby>人<rt>ひと</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>徹底<rt>てってい</rt></ruby><ruby>的<rt>てき</rt></ruby>に<ruby>調<rt>しら</rt></ruby>べる",
+    "<ruby>要点<rt>ようてん</rt></ruby>だけをつかんですぐうごく",
+    "<ruby>何<rt>なに</rt></ruby>もきめない",
+    "いつもまよう"
+   ],
+   "correcta": 1
+  }
+ ]
+}

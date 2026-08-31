@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/tsunagu/conjunciones-1",
+ "titulo": "<ruby>年月<rt>としつき</rt></ruby>の<ruby>数<rt>かぞ</rt></ruby>え<ruby>方<rt>かた</rt></ruby>",
+ "cuerpo": "この<ruby>町<rt>まち</rt></ruby>に<ruby>来<rt>き</rt></ruby>て、そろそろ<ruby>十<rt>じゅう</rt></ruby><ruby>年<rt>ねん</rt></ruby>になります。はじめは<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>だけのつもりでした。そして、<ruby>気<rt>き</rt></ruby>がついたらこんなに<ruby>長<rt>なが</rt></ruby>くなっていたのです。だって、<ruby>住<rt>す</rt></ruby>みやすかったのだから<em class=\"g\">しかたがない</em>でしょう。この<ruby>年月<rt>としつき</rt></ruby>をもう<ruby>一度<rt>いちど</rt></ruby>やりなおせる<em class=\"g\">とすれば</em>、たぶん<ruby>同<rt>おな</rt></ruby>じ<ruby>道<rt>みち</rt></ruby>をえらぶと<ruby>思<rt>おも</rt></ruby>います。あるいは、もっと<ruby>早<rt>はや</rt></ruby>くここに<ruby>来<rt>き</rt></ruby>ていたかもしれません。なぜなら、<ruby>他<rt>た</rt></ruby>の<ruby>町<rt>まち</rt></ruby>にいたころの<ruby>自分<rt>じぶん</rt></ruby>は、いつも<ruby>何<rt>なに</rt></ruby>かを<ruby>待<rt>ま</rt></ruby>っているだけだったからです。ところで、<ruby>来月<rt>らいげつ</rt></ruby>は<ruby>東京<rt>とうきょう</rt></ruby><ruby>経由<rt>けいゆ</rt></ruby>で<ruby>北<rt>きた</rt></ruby>のほうへ<ruby>行<rt>い</rt></ruby>きます。したがって、しばらくこの<ruby>部屋<rt>へや</rt></ruby>はからになります。もしも<ruby>何<rt>なに</rt></ruby>かあれば、となりの<ruby>人<rt>ひと</rt></ruby>に<ruby>声<rt>こえ</rt></ruby>をかけてください。",
+ "traduccion": "Pronto hará diez años que llegué a este pueblo. Al principio pensaba quedarme solo uno. Y, cuando me quise dar cuenta, se había alargado tanto. Es que se vivía bien, así que qué se le va a hacer. Si pudiera repetir todos estos años, creo que elegiría el mismo camino. O quizá habría venido aquí antes. Porque el que yo era cuando vivía en otros sitios no hacía más que esperar algo. Por cierto, el mes que viene voy al norte pasando por Tokio. Por lo tanto, esta habitación se quedará vacía un tiempo. Si pasara cualquier cosa, avisad al vecino.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は、はじめどのくらい<ruby>住<rt>す</rt></ruby>むつもりでしたか。",
+   "opciones": [
+    "<ruby>十<rt>じゅう</rt></ruby><ruby>年<rt>ねん</rt></ruby>",
+    "<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>だけ",
+    "ずっと",
+    "<ruby>半年<rt>はんとし</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>来月<rt>らいげつ</rt></ruby>、この<ruby>人<rt>ひと</rt></ruby>はどこへ<ruby>行<rt>い</rt></ruby>きますか。",
+   "opciones": [
+    "<ruby>東京<rt>とうきょう</rt></ruby>にのこる",
+    "<ruby>東京<rt>とうきょう</rt></ruby>を<ruby>通<rt>とお</rt></ruby>って<ruby>北<rt>きた</rt></ruby>のほうへ<ruby>行<rt>い</rt></ruby>く",
+    "<ruby>南<rt>みなみ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く",
+    "どこへも<ruby>行<rt>い</rt></ruby>かない"
+   ],
+   "correcta": 1
+  }
+ ]
+}
