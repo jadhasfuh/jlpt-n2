@@ -26,7 +26,14 @@ const TERMINOS: Record<"es" | "en", { titulo: string; intro: string; bloques: Bl
       { t: "Tu cuenta", p: [
         "Puedes estudiar sin cuenta. Si creas una, es para guardar tu progreso y llevarlo entre aparatos.",
         "Eres responsable de mantener el acceso a tu correo, que es la única vía de entrada.",
-        "Puedes borrar tu cuenta cuando quieras escribiendo a la dirección de contacto. Se borra también tu progreso.",
+        "Puedes borrar tu cuenta cuando quieras desde tu perfil, sin pedírnoslo. Se borra también tu progreso y tus resultados, y no hay vuelta atrás.",
+      ]},
+      { t: "Suscripción, cobro y reembolsos", p: [
+        "Parte de jlptest se usa gratis y sin cuenta. El acceso completo a los cinco niveles se vende como suscripción mensual, con el precio indicado en la página de suscripción antes de pagar. El precio se muestra en pesos mexicanos; si tu país aplica impuestos sobre el servicio, se añaden en el momento del pago.",
+        "El cobro lo gestiona Paddle.com, que actúa como vendedor autorizado (merchant of record) y emite la factura. No guardamos ni vemos los datos de tu tarjeta.",
+        "La suscripción se renueva automáticamente cada mes hasta que la canceles. Puedes cancelarla en cualquier momento desde tu perfil, en dos toques y sin dar explicaciones. Al cancelar conservas el acceso hasta el final del periodo que ya has pagado; no se cobra nada más después.",
+        "Si algo no funciona como esperabas, escríbenos dentro de los 14 días siguientes al cobro y te devolvemos el dinero de ese periodo, sin preguntas. Pasado ese plazo se estudia caso por caso. Las devoluciones las tramita Paddle y vuelven al mismo medio de pago.",
+        "Si borras tu cuenta, la suscripción NO se cancela sola: cancélala antes, o escríbenos y lo hacemos nosotros.",
       ]},
       { t: "Lo que no prometemos", p: [
         "jlptest no garantiza que apruebes el examen. Es material de estudio, no una preparación oficial.",
@@ -54,7 +61,14 @@ const TERMINOS: Record<"es" | "en", { titulo: string; intro: string; bloques: Bl
       { t: "Your account", p: [
         "You can study without an account. If you create one, it is to save your progress and carry it between devices.",
         "You are responsible for keeping access to your email, which is the only way in.",
-        "You can delete your account at any time by writing to the contact address. Your progress is deleted with it.",
+        "You can delete your account at any time from your profile, without asking us. Your progress and results go with it, and there is no undo.",
+      ]},
+      { t: "Subscription, billing and refunds", p: [
+        "Part of jlptest is free and needs no account. Full access to all five levels is sold as a monthly subscription, with the price shown on the subscription page before you pay. Prices are shown in Mexican pesos; if your country charges tax on the service, it is added at checkout.",
+        "Billing is handled by Paddle.com, acting as the authorised reseller (merchant of record) and issuing the invoice. We never store or see your card details.",
+        "The subscription renews automatically each month until you cancel. You can cancel at any time from your profile, in two taps and without giving a reason. When you cancel you keep access until the end of the period you already paid for; nothing is charged after that.",
+        "If it isn't what you expected, write to us within 14 days of the charge and we refund that period, no questions asked. After that we look at it case by case. Refunds are processed by Paddle and go back to the same payment method.",
+        "Deleting your account does NOT cancel the subscription: cancel it first, or write to us and we'll do it.",
       ]},
       { t: "What we don't promise", p: [
         "jlptest does not guarantee that you will pass the exam. It is study material, not official preparation.",
