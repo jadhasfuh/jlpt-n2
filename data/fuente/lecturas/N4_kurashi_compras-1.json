@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kurashi/compras-1",
+ "titulo": "<ruby>店員<rt>てんいん</rt></ruby>さんのことば",
+ "cuerpo": "<ruby>売<rt>う</rt></ruby>り<ruby>場<rt>ば</rt></ruby>で、どの<ruby>品物<rt>しなもの</rt></ruby>にするかまよっていました。<ruby>店員<rt>てんいん</rt></ruby>さんが<ruby>来<rt>き</rt></ruby>て、「おきゃくさま、ごゆっくりごらん<em class=\"g\">なさい</em>」と<ruby>言<rt>い</rt></ruby>ってくれました。すすめられるとかえって<ruby>買<rt>か</rt></ruby>いにくいので、ありがたかったです。けっきょく、ねだんではなく<ruby>長<rt>なが</rt></ruby>く<ruby>使<rt>つか</rt></ruby>えそうなほうをえらびました。<ruby>家<rt>いえ</rt></ruby>まで<ruby>届<rt>とど</rt></ruby>けてもらうこともできましたが、<ruby>自分<rt>じぶん</rt></ruby>で<ruby>持<rt>も</rt></ruby>ってかえりました。「<ruby>頑張<rt>がんば</rt></ruby>って<ruby>持<rt>も</rt></ruby>ちなさい」と、<ruby>店員<rt>てんいん</rt></ruby>さんがわらっていました。",
+ "traduccion": "En la sección de la tienda dudaba qué artículo llevarme. Vino un dependiente y me dijo: «mire con calma, por favor». Cuando te insisten cuesta más comprar, así que se lo agradecí. Al final elegí, no por el precio, sino el que parecía que iba a durar más. Podían habérmelo llevado a casa, pero me lo llevé yo. El dependiente me dijo riéndose: «¡ánimo con el peso!».",
+ "preguntas": [
+  {
+   "p": "<ruby>店員<rt>てんいん</rt></ruby>さんは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "これがいいですよ",
+    "ごゆっくりごらん<em class=\"g\">なさい</em>",
+    "ねだんはこちらです",
+    "<ruby>届<rt>とど</rt></ruby>けます"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>をえらびましたか。",
+   "opciones": [
+    "やすいほう",
+    "<ruby>長<rt>なが</rt></ruby>く<ruby>使<rt>つか</rt></ruby>えそうなほう",
+    "<ruby>大<rt>おお</rt></ruby>きいほう",
+    "えらばなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

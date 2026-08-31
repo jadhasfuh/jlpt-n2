@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kurashi/comida-1",
+ "titulo": "<ruby>食事<rt>しょくじ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>",
+ "cuerpo": "<ruby>来月<rt>らいげつ</rt></ruby>から、うちで<ruby>食事<rt>しょくじ</rt></ruby>をつくる<ruby>当<rt>とう</rt></ruby>ばんがかわる<em class=\"g\">ことになりました</em>。いままでは<ruby>母<rt>はは</rt></ruby>がぜんぶしていました。わたしは<ruby>米<rt>こめ</rt></ruby>をとぐことからならいます。サラダやサンドイッチなら<ruby>作<rt>つく</rt></ruby>れますが、まいにちとなるとべつです。「いただきます」と<ruby>言<rt>い</rt></ruby>うたびに、つくった<ruby>人<rt>ひと</rt></ruby>のことを<ruby>考<rt>かんが</rt></ruby>えるようになりました。<ruby>父<rt>ちち</rt></ruby>は<ruby>釣<rt>つ</rt></ruby>りにいって、<ruby>魚<rt>さかな</rt></ruby>をもってかえります。らいしゅうから、<ruby>三人<rt>さんにん</rt></ruby>でじゅんばんにする<em class=\"g\">ことになっています</em>。",
+ "traduccion": "A partir del mes que viene se ha decidido que cambie el turno de cocinar en casa. Hasta ahora lo hacía todo mi madre. Yo empiezo aprendiendo a lavar el arroz. Ensalada o sándwiches sé hacer, pero hacerlo a diario es otra cosa. Cada vez que digo «itadakimasu» me acuerdo de quien lo ha cocinado. Mi padre va a pescar y trae pescado a casa. A partir de la semana que viene, quedamos en turnarnos entre los tres.",
+ "preguntas": [
+  {
+   "p": "いままで、だれが<ruby>食事<rt>しょくじ</rt></ruby>をつくっていましたか。",
+   "opciones": [
+    "この<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>母<rt>はは</rt></ruby>",
+    "<ruby>父<rt>ちち</rt></ruby>",
+    "<ruby>三人<rt>さんにん</rt></ruby>で"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "これから、どうなりますか。",
+   "opciones": [
+    "<ruby>母<rt>はは</rt></ruby>がつづける",
+    "<ruby>三人<rt>さんにん</rt></ruby>でじゅんばんにする",
+    "<ruby>父<rt>ちち</rt></ruby>がつくる",
+    "つくらない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

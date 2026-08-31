@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kurashi/casa-1",
+ "titulo": "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しの<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "<ruby>来月<rt>らいげつ</rt></ruby>、あたらしい<ruby>下宿<rt>げしゅく</rt></ruby>に<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>します。いまのへやは<ruby>六<rt>ろく</rt></ruby><ruby>畳<rt>じょう</rt></ruby>で、<ruby>押<rt>お</rt></ruby>し<ruby>入<rt>い</rt></ruby>れがひとつだけです。<ruby>壁<rt>かべ</rt></ruby>がうすくて、となりの<ruby>音<rt>おと</rt></ruby>がよく<ruby>聞<rt>き</rt></ruby>こえます。つぎのへやは<ruby>屋上<rt>おくじょう</rt></ruby>に<ruby>出<rt>で</rt></ruby>られるそうです。<ruby>住所<rt>じゅうしょ</rt></ruby>をかえるてつづきや、<ruby>水道<rt>すいどう</rt></ruby>のれんらくもいります。<ruby>留守<rt>るす</rt></ruby>のあいだにとどく<ruby>物<rt>もの</rt></ruby>はどうする<em class=\"g\">かしら</em>。たいへんですが、<ruby>新<rt>あたら</rt></ruby>しい<ruby>場所<rt>ばしょ</rt></ruby>で<ruby>何<rt>なに</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まる<em class=\"g\">かしら</em>と<ruby>考<rt>かんが</rt></ruby>えると、たのしみです。",
+ "traduccion": "El mes que viene me mudo a una habitación alquilada nueva. La de ahora es de seis tatamis y solo tiene un armario empotrado. Las paredes son finas y se oye bien al vecino. Dicen que en la próxima se puede salir a la azotea. Hay que hacer el cambio de dirección y avisar del agua. Me pregunto qué pasará con lo que llegue mientras no esté. Es un lío, pero cuando pienso qué empezará en el sitio nuevo, me hace ilusión.",
+ "preguntas": [
+  {
+   "p": "いまのへやのもんだいは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "せまいこと",
+    "<ruby>壁<rt>かべ</rt></ruby>がうすくて<ruby>音<rt>おと</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえること",
+    "<ruby>押<rt>お</rt></ruby>し<ruby>入<rt>い</rt></ruby>れがないこと",
+    "<ruby>屋上<rt>おくじょう</rt></ruby>がないこと"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "つぎのへやのいいところは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "ひろいこと",
+    "<ruby>屋上<rt>おくじょう</rt></ruby>に<ruby>出<rt>で</rt></ruby>られること",
+    "<ruby>水道<rt>すいどう</rt></ruby>があること",
+    "<ruby>住所<rt>じゅうしょ</rt></ruby>がいいこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

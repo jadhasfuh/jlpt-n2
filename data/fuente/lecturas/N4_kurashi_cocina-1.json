@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kurashi/cocina-1",
+ "titulo": "<ruby>焼<rt>や</rt></ruby>くか<ruby>煮<rt>に</rt></ruby>るか",
+ "cuerpo": "おなじやさいでも、<ruby>焼<rt>や</rt></ruby>くのと<ruby>煮<rt>に</rt></ruby>るのとでは<ruby>味<rt>あじ</rt></ruby>がちがいます。<ruby>焼<rt>や</rt></ruby>くと<ruby>甘<rt>あま</rt></ruby>くなり、<ruby>煮<rt>に</rt></ruby>るとやわらかくなります。<ruby>苦<rt>にが</rt></ruby>いやさいは、<ruby>煮<rt>に</rt></ruby>てからあぶらをすこし<ruby>入<rt>い</rt></ruby>れると<ruby>食<rt>た</rt></ruby>べやすくなります。おゆが<ruby>沸<rt>わ</rt></ruby>くのを<ruby>待<rt>ま</rt></ruby>つあいだに、ほかのしたくをします。<ruby>昨日<rt>きのう</rt></ruby>は<ruby>御馳走<rt>ごちそう</rt></ruby>になりました。「うまい」と<ruby>言<rt>い</rt></ruby>うと、<ruby>作<rt>つく</rt></ruby>った<ruby>人<rt>ひと</rt></ruby>がうれしそうでした。よく<ruby>噛<rt>か</rt></ruby>んで<ruby>食<rt>た</rt></ruby>べると、<ruby>味<rt>あじ</rt></ruby>がもっと<ruby>分<rt>わ</rt></ruby>かります。<ruby>焼<rt>や</rt></ruby>く<em class=\"g\">または</em><ruby>煮<rt>に</rt></ruby>る、どちらでもいいのです。たいせつなのは、あわてないで、やさいをその<em class=\"g\">まま</em><ruby>生<rt>い</rt></ruby>かすことです。",
+ "traduccion": "Aunque sea la misma verdura, no sabe igual asada que hervida. Al asarla se vuelve dulce; al hervirla, tierna. Las verduras amargas se comen mejor si, después de hervirlas, les echas un poco de aceite. Mientras espero a que hierva el agua, adelanto otros preparativos. Ayer me invitaron a comer. Cuando dije «está buenísimo», la persona que lo había cocinado se puso contenta. Si masticas bien, notas mucho mejor el sabor. Asarla o hervirla: cualquiera de las dos vale. Lo importante es no ir con prisa y aprovechar la verdura tal cual es.",
+ "preguntas": [
+  {
+   "p": "<ruby>苦<rt>にが</rt></ruby>いやさいは、どうすると<ruby>食<rt>た</rt></ruby>べやすくなりますか。",
+   "opciones": [
+    "<ruby>焼<rt>や</rt></ruby>く",
+    "<ruby>煮<rt>に</rt></ruby>てからあぶらをすこし<ruby>入<rt>い</rt></ruby>れる",
+    "よく<ruby>噛<rt>か</rt></ruby>む",
+    "<ruby>甘<rt>あま</rt></ruby>くする"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いちばんたいせつなことは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>焼<rt>や</rt></ruby>くこと",
+    "あわてないで、やさいをその<em class=\"g\">まま</em><ruby>生<rt>い</rt></ruby>かすこと",
+    "<ruby>煮<rt>に</rt></ruby>ること",
+    "<ruby>御馳走<rt>ごちそう</rt></ruby>になること"
+   ],
+   "correcta": 1
+  }
+ ]
+}

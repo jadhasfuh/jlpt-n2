@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kurashi/dinero-1",
+ "titulo": "<ruby>払<rt>はら</rt></ruby>い<ruby>終<rt>お</rt></ruby>わって",
+ "cuerpo": "<ruby>三<rt>さん</rt></ruby><ruby>年<rt>ねん</rt></ruby>かけて、<ruby>学費<rt>がくひ</rt></ruby>を<ruby>払<rt>はら</rt></ruby>い<em class=\"g\">終わり</em>ました。<ruby>値段<rt>ねだん</rt></ruby>を<ruby>見<rt>み</rt></ruby>たときは、はらい<em class=\"g\">終わる</em><ruby>日<rt>ひ</rt></ruby>が<ruby>来<rt>く</rt></ruby>るとは<ruby>思<rt>おも</rt></ruby>えませんでした。まいつきすこしずつ、<ruby>経済<rt>けいざい</rt></ruby>のことを<ruby>考<rt>かんが</rt></ruby>えながらつづけました。とちゅう、<ruby>病気<rt>びょうき</rt></ruby>で<ruby>倒<rt>たお</rt></ruby>れそうになったこともあります。それでも、やめ<em class=\"g\">られ</em>ませんでした。さいごの<ruby>一<rt>いち</rt></ruby>かいをはらったとき、<ruby>勝<rt>か</rt></ruby>ったような<ruby>気持<rt>きも</rt></ruby>ちになりました。おかねのことは、<ruby>一<rt>いち</rt></ruby><ruby>度<rt>ど</rt></ruby>にはかたづけ<em class=\"g\">られ</em>ません。でも、<ruby>時間<rt>じかん</rt></ruby>をかければ、たいていは<ruby>終<rt>お</rt></ruby>わります。",
+ "traduccion": "Después de tres años, terminé de pagar la matrícula. Cuando vi el precio, no me parecía posible que llegara el día de acabar de pagarla. Fui pagando poco a poco cada mes, cuidando las cuentas. Por el camino incluso estuve a punto de caer enfermo. Aun así, no pude dejarlo. Cuando pagué el último plazo, sentí como si hubiera ganado algo. Los asuntos de dinero no se resuelven de una vez. Pero si le dedicas tiempo, casi siempre acaban.",
+ "preguntas": [
+  {
+   "p": "<ruby>学費<rt>がくひ</rt></ruby>をはらうのにどのくらいかかりましたか。",
+   "opciones": [
+    "<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>",
+    "<ruby>三<rt>さん</rt></ruby><ruby>年<rt>ねん</rt></ruby>",
+    "<ruby>五<rt>ご</rt></ruby><ruby>年<rt>ねん</rt></ruby>",
+    "まだ<ruby>終<rt>お</rt></ruby>わっていない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "さいごの<ruby>一<rt>いち</rt></ruby>かいをはらって、どう<ruby>感<rt>かん</rt></ruby>じましたか。",
+   "opciones": [
+    "さびしい",
+    "<ruby>勝<rt>か</rt></ruby>ったような<ruby>気持<rt>きも</rt></ruby>ち",
+    "こわい",
+    "つかれた"
+   ],
+   "correcta": 1
+  }
+ ]
+}

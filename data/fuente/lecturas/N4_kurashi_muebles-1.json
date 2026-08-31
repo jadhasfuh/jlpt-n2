@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/kurashi/muebles-1",
+ "titulo": "<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しの<ruby>中<rt>なか</rt></ruby>",
+ "cuerpo": "つくえの<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しをあけると、<ruby>糸<rt>いと</rt></ruby>やボタンがいっぱい<ruby>入<rt>はい</rt></ruby>っていました。いつからあるのか、<ruby>覚<rt>おぼ</rt></ruby>えていません。<ruby>表<rt>ひょう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>って、<ruby>分<rt>わ</rt></ruby>かれてしまったものをそろえてみました。<ruby>鏡<rt>かがみ</rt></ruby>のうしろから、なくしたと<ruby>思<rt>おも</rt></ruby>っていた<ruby>受付<rt>うけつけ</rt></ruby>のカードが<ruby>出<rt>で</rt></ruby>てきました。「もう<ruby>要<rt>い</rt></ruby>らないんじゃ<em class=\"g\">ないかい</em>?」と<ruby>母<rt>はは</rt></ruby>に<ruby>言<rt>い</rt></ruby>われましたが、とっておく<em class=\"g\">こと</em>にしました。すてるかどうかを<ruby>決<rt>き</rt></ruby>める<em class=\"g\">こと</em>も、そうじのうちなのです。",
+ "traduccion": "Al abrir el cajón del escritorio estaba lleno de hilos y botones. No recuerdo desde cuándo están ahí. Hice una tabla e intenté emparejar lo que se había separado. De detrás del espejo salió la tarjeta de recepción que creía perdida. Mi madre me dijo «¿eso ya no lo necesitas, no?», pero decidí guardarlo. Decidir si tirar algo o no también forma parte de limpiar.",
+ "preguntas": [
+  {
+   "p": "<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しには<ruby>何<rt>なに</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っていましたか。",
+   "opciones": [
+    "カードだけ",
+    "<ruby>糸<rt>いと</rt></ruby>やボタン",
+    "<ruby>鏡<rt>かがみ</rt></ruby>",
+    "<ruby>表<rt>ひょう</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "なくしたと<ruby>思<rt>おも</rt></ruby>っていたものはどこにありましたか。",
+   "opciones": [
+    "<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しの<ruby>中<rt>なか</rt></ruby>",
+    "<ruby>鏡<rt>かがみ</rt></ruby>のうしろ",
+    "つくえの<ruby>上<rt>うえ</rt></ruby>",
+    "<ruby>見<rt>み</rt></ruby>つからなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}
