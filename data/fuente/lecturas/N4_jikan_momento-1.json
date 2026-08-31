@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/jikan/momento-1",
+ "titulo": "<ruby>久<rt>ひさ</rt></ruby>しぶりの<ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "このあいだ、<ruby>学生<rt>がくせい</rt></ruby>のころの<ruby>友<rt>とも</rt></ruby>だちにあいました。<ruby>久<rt>ひさ</rt></ruby>しぶりです。<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>でしばらく<ruby>待<rt>ま</rt></ruby>っ<em class=\"g\">ていた</em>ら、むこうから<ruby>歩<rt>ある</rt></ruby>いてきました。かおはかわっていません。<ruby>昔<rt>むかし</rt></ruby>アルバイトをいっしょにしていたころの<ruby>話<rt>はなし</rt></ruby>をして、<ruby>楽<rt>たの</rt></ruby>しみました。<ruby>日<rt>ひ</rt></ruby>が<ruby>暮<rt>く</rt></ruby>れるまで<ruby>話<rt>はな</rt></ruby>し<ruby>続<rt>つづ</rt></ruby>けました。<ruby>別<rt>わか</rt></ruby>れるとき、しゃしんをとっ<em class=\"g\">てもらい</em>ました。「そろそろ<ruby>行<rt>い</rt></ruby>くね」と<ruby>言<rt>い</rt></ruby>って、<ruby>手<rt>て</rt></ruby>をふりました。つぎはいつになるか、たまにでいいから、またあいたいです。",
+ "traduccion": "El otro día me encontré con un amigo de la época de estudiante. Hacía mucho. Estuve esperando un rato delante de la estación y lo vi venir andando. Su cara no ha cambiado. Estuvimos hablando de cuando trabajábamos juntos a tiempo parcial y lo pasamos bien. Seguimos hablando hasta que anocheció. Al despedirnos, le pedí a alguien que nos hiciera una foto. Dijo «bueno, me voy ya» y agitó la mano. No sé cuándo será la próxima; aunque sea de vez en cuando, quiero volver a verlo.",
+ "preguntas": [
+  {
+   "p": "<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>何<rt>なに</rt></ruby>をしていましたか。",
+   "opciones": [
+    "<ruby>歩<rt>ある</rt></ruby>いていた",
+    "しばらく<ruby>待<rt>ま</rt></ruby>っていた",
+    "しゃしんをとっていた",
+    "<ruby>話<rt>はな</rt></ruby>していた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いつまで<ruby>話<rt>はな</rt></ruby>しましたか。",
+   "opciones": [
+    "<ruby>昼<rt>ひる</rt></ruby>まで",
+    "<ruby>日<rt>ひ</rt></ruby>が<ruby>暮<rt>く</rt></ruby>れるまで",
+    "<ruby>夜<rt>よる</rt></ruby>おそくまで",
+    "すぐ<ruby>別<rt>わか</rt></ruby>れた"
+   ],
+   "correcta": 1
+  }
+ ]
+}

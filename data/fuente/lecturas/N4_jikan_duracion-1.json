@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/jikan/duracion-1",
+ "titulo": "<ruby>急<rt>いそ</rt></ruby>がない<ruby>練習<rt>れんしゅう</rt></ruby>",
+ "cuerpo": "しめきりがちかいときほど、<ruby>急<rt>いそ</rt></ruby>いでしっぱいします。きょうは、わざとゆっくりやってみました。けっか、いつもより<ruby>早<rt>はや</rt></ruby>く<ruby>終<rt>お</rt></ruby>わりました。<ruby>後<rt>あと</rt></ruby>で、どうりょうが「たすかった」と<ruby>言<rt>い</rt></ruby>ってくれました。<ruby>手<rt>て</rt></ruby>つだっ<em class=\"g\">てやっ</em>たつもりはなく、ただ<ruby>自分<rt>じぶん</rt></ruby>のぶんをきちんとしただけです。でも、それがだれかのやくに<ruby>立<rt>た</rt></ruby>つのなら、ゆっくりやっ<em class=\"g\">てよかった</em>です。これからも、<ruby>続<rt>つづ</rt></ruby>けられるはやさでやっていきます。",
+ "traduccion": "Cuanto más cerca está la fecha límite, más me equivoco por ir con prisa. Hoy he probado a ir despacio a propósito. El resultado es que terminé antes que de costumbre. Después, un compañero me dijo que le había venido bien. No tenía intención de echarle una mano: simplemente hice bien mi parte. Pero si eso le sirve a alguien, me alegro de haber ido despacio. De aquí en adelante iré a la velocidad que pueda mantener.",
+ "preguntas": [
+  {
+   "p": "わざとゆっくりやって、どうなりましたか。",
+   "opciones": [
+    "おそくなった",
+    "いつもより<ruby>早<rt>はや</rt></ruby>く<ruby>終<rt>お</rt></ruby>わった",
+    "しっぱいした",
+    "かわらなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "どうりょうは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "おそい",
+    "たすかった",
+    "<ruby>急<rt>いそ</rt></ruby>いで",
+    "しっぱいだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

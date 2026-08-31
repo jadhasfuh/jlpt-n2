@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/jikan/momento-2",
+ "titulo": "<ruby>最初<rt>さいしょ</rt></ruby>と<ruby>最後<rt>さいご</rt></ruby>",
+ "cuerpo": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>将来<rt>しょうらい</rt></ruby>のことをよく<ruby>考<rt>かんが</rt></ruby>えます。<ruby>今度<rt>こんど</rt></ruby>の<ruby>機会<rt>きかい</rt></ruby>に、あたらしいしごとにうつるかもしれません。<ruby>最初<rt>さいしょ</rt></ruby>はこわかったのですが、<ruby>一度<rt>いちど</rt></ruby><ruby>話<rt>はな</rt></ruby>を<ruby>聞<rt>き</rt></ruby>い<em class=\"g\">ておく</em>と、すこしおちつきました。<ruby>途中<rt>とちゅう</rt></ruby>でやめることになっても、<ruby>聞<rt>き</rt></ruby>かないよりはいいと<ruby>思<rt>おも</rt></ruby>います。<ruby>最後<rt>さいご</rt></ruby>にきめるのは<ruby>自分<rt>じぶん</rt></ruby>です。そのために、いまできることをし<em class=\"g\">ておき</em>たいのです。<ruby>寝坊<rt>ねぼう</rt></ruby>しないように、はやくねます。",
+ "traduccion": "Últimamente pienso mucho en el futuro. Puede que en la próxima oportunidad cambie a un trabajo nuevo. Al principio me daba miedo, pero después de escuchar la propuesta una vez me quedé algo más tranquilo. Aunque acabe dejándolo a mitad, creo que es mejor que no haber escuchado. Quien decide al final soy yo. Y por eso quiero dejar hecho ahora lo que pueda. Me acuesto pronto para no quedarme dormido.",
+ "preguntas": [
+  {
+   "p": "<ruby>最初<rt>さいしょ</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "うれしかった",
+    "こわかった",
+    "おちついていた",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>思<rt>おも</rt></ruby>わなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>最後<rt>さいご</rt></ruby>にきめるのはだれですか。",
+   "opciones": [
+    "<ruby>会社<rt>かいしゃ</rt></ruby>",
+    "<ruby>自分<rt>じぶん</rt></ruby>",
+    "<ruby>友<rt>とも</rt></ruby>だち",
+    "きまっていない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

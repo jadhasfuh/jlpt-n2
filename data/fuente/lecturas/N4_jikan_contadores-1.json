@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/jikan/contadores-1",
+ "titulo": "<ruby>生活<rt>せいかつ</rt></ruby>のかぞえかた",
+ "cuerpo": "みなとには<ruby>船<rt>ふね</rt></ruby>が<ruby>三<rt>さん</rt></ruby><ruby>隻<rt>せき</rt></ruby>とまっています。<ruby>朝<rt>あさ</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>、そのうち<ruby>一<rt>いっ</rt></ruby><ruby>隻<rt>せき</rt></ruby>だけが<ruby>出<rt>で</rt></ruby>ていきます。<ruby>市場<rt>いちば</rt></ruby>では、りんごを<ruby>五<rt>ご</rt></ruby><ruby>個<rt>こ</rt></ruby><ruby>買<rt>か</rt></ruby>いました。かぞえられるものは、かぞえるとおちつきます。でも、<ruby>生活<rt>せいかつ</rt></ruby>そのものはかぞえられません。はたらいている<ruby>間<rt>あいだ</rt></ruby>に<ruby>過<rt>す</rt></ruby>ぎていく<ruby>時間<rt>じかん</rt></ruby>も、だれかを<ruby>待<rt>ま</rt></ruby>っている<ruby>間<rt>あいだ</rt></ruby>の<ruby>気持<rt>きも</rt></ruby>ちも、<ruby>数<rt>かず</rt></ruby>にはなりません。だからこそ、かぞえられるものをていねいにかぞえるのだと<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "En el puerto hay tres barcos amarrados. Durante la mañana solo uno de ellos sale. En el mercado compré cinco manzanas. Lo que se puede contar, contándolo, tranquiliza. Pero la vida misma no se cuenta. Ni el tiempo que pasa mientras trabajas ni lo que sientes mientras esperas a alguien se convierten en cifras. Precisamente por eso, creo, contamos con cuidado lo que sí se puede contar.",
+ "preguntas": [
+  {
+   "p": "<ruby>朝<rt>あさ</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>、<ruby>船<rt>ふね</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>隻<rt>せき</rt></ruby><ruby>出<rt>で</rt></ruby>ていきますか。",
+   "opciones": [
+    "<ruby>一<rt>いっ</rt></ruby><ruby>隻<rt>せき</rt></ruby>",
+    "<ruby>二<rt>に</rt></ruby><ruby>隻<rt>せき</rt></ruby>",
+    "<ruby>三<rt>さん</rt></ruby><ruby>隻<rt>せき</rt></ruby>",
+    "<ruby>出<rt>で</rt></ruby>ない"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "かぞえられないものは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "りんご",
+    "<ruby>生活<rt>せいかつ</rt></ruby>そのもの",
+    "<ruby>船<rt>ふね</rt></ruby>",
+    "<ruby>時間<rt>じかん</rt></ruby>のかず"
+   ],
+   "correcta": 1
+  }
+ ]
+}
