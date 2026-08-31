@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/hito/vida-1",
+ "titulo": "あかちゃんがきた<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "いもうとに<ruby>子<rt>こ</rt></ruby>どもが<ruby>生<rt>う</rt></ruby>まれました。<ruby>彼女<rt>かのじょ</rt></ruby>は「なまえをきめるのに<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>かかった」と<ruby>言<rt>い</rt></ruby>いました。はじめてだいたとき、こんなにかるいのかとおどろきました。<ruby>幼児<rt>ようじ</rt></ruby>になるとすぐ<ruby>走<rt>はし</rt></ruby>るようになる、と<ruby>母<rt>はは</rt></ruby>が<ruby>言<rt>い</rt></ruby>っていました。じっさい、<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>で<ruby>歩<rt>ある</rt></ruby>ける<em class=\"g\">ようになり</em>ました。おなじころ、そふが<ruby>亡<rt>な</rt></ruby>くなりました。<ruby>同<rt>おな</rt></ruby>じ<ruby>年<rt>とし</rt></ruby>に、<ruby>人<rt>ひと</rt></ruby>が<ruby>一人<rt>ひとり</rt></ruby>ふえて、<ruby>一人<rt>ひとり</rt></ruby>へりました。あかちゃんのにおい<em class=\"g\">がする</em>たびに、そのことを<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>します。",
+ "traduccion": "A mi hermana le nació un hijo. Ella dijo que tardaron un mes en decidir el nombre. La primera vez que lo cogí en brazos me sorprendió lo poco que pesaba. Mi madre decía que en cuanto se hacen niños pequeños enseguida echan a correr. Y en efecto, en un año llegó a andar. Por esas mismas fechas murió mi abuelo. En el mismo año, una persona se sumó y otra se fue. Cada vez que huelo a bebé, me acuerdo de eso.",
+ "preguntas": [
+  {
+   "p": "なまえをきめるのにどのくらいかかりましたか。",
+   "opciones": [
+    "<ruby>一<rt>いち</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby>",
+    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
+    "<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>",
+    "すぐ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>同<rt>おな</rt></ruby>じ<ruby>年<rt>とし</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "opciones": [
+    "<ruby>子<rt>こ</rt></ruby>どもが<ruby>二人<rt>ふたり</rt></ruby><ruby>生<rt>う</rt></ruby>まれた",
+    "<ruby>一人<rt>ひとり</rt></ruby>ふえて<ruby>一人<rt>ひとり</rt></ruby>へった",
+    "そふが<ruby>生<rt>う</rt></ruby>まれた",
+    "だれもいなくなった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

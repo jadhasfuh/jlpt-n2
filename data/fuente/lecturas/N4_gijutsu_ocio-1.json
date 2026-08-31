@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/gijutsu/ocio-1",
+ "titulo": "<ruby>趣味<rt>しゅみ</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>ける",
+ "cuerpo": "<ruby>趣味<rt>しゅみ</rt></ruby>は、はじめるより<ruby>続<rt>つづ</rt></ruby>けるほうがむずかしいです。わたしは<ruby>十<rt>じゅう</rt></ruby><ruby>年<rt>ねん</rt></ruby>まえから<ruby>遊<rt>あそ</rt></ruby>びで<ruby>絵<rt>え</rt></ruby>をかいています。うまくなりたいというより、かいている<ruby>時間<rt>じかん</rt></ruby>がすきなのです。<ruby>子<rt>こ</rt></ruby>どもがちいさいころは、おもちゃをかたづけながらすこしずつかきました。いまは<ruby>時間<rt>じかん</rt></ruby>がふえましたが、かえって<ruby>手<rt>て</rt></ruby>がとまることもあります。「まず<ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>だけ<em class=\"g\">お</em>かき<em class=\"g\">ください</em>」と、きょうしつの<ruby>先生<rt>せんせい</rt></ruby>がよく<ruby>言<rt>い</rt></ruby>います。<ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>かき<ruby>続<rt>つづ</rt></ruby>けると、たいてい<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>になります。",
+ "traduccion": "En una afición, seguir cuesta más que empezar. Yo llevo diez años dibujando por gusto. Más que querer mejorar, lo que me gusta es el rato que paso dibujando. Cuando mis hijos eran pequeños, dibujaba a ratitos mientras recogía los juguetes. Ahora tengo más tiempo y, sin embargo, a veces la mano se me para. La profesora del taller suele decir: «dibuje solo cinco minutos, por favor». Si sigues dibujando cinco minutos, normalmente acabas echando una hora.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>絵<rt>え</rt></ruby>をかくのはなぜですか。",
+   "opciones": [
+    "うまくなりたいから",
+    "かいている<ruby>時間<rt>じかん</rt></ruby>がすきだから",
+    "<ruby>先生<rt>せんせい</rt></ruby>に<ruby>言<rt>い</rt></ruby>われたから",
+    "<ruby>時間<rt>じかん</rt></ruby>があるから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>先生<rt>せんせい</rt></ruby>のことばのけっかはどうですか。",
+   "opciones": [
+    "<ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>でやめる",
+    "たいてい<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>になる",
+    "かけなくなる",
+    "かわらない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

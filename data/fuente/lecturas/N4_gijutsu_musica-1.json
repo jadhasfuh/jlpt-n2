@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/gijutsu/musica-1",
+ "titulo": "コンサートの<ruby>夜<rt>よる</rt></ruby>",
+ "cuerpo": "はじめてピアノのコンサートに<ruby>行<rt>い</rt></ruby>きました。<ruby>歌謡<rt>かよう</rt></ruby>きょくの<em class=\"g\">ような</em>しんきんかんはありませんが、しずかな<ruby>音<rt>おと</rt></ruby>が<ruby>水<rt>みず</rt></ruby>の<em class=\"g\">ような</em>ながれかたをします。かいじょうでは、けいたいのベル<em class=\"g\">とか</em><ruby>話<rt>はな</rt></ruby>し<ruby>声<rt>ごえ</rt></ruby><em class=\"g\">とか</em>がまったくしません。それがふしぎでした。みんなが<ruby>同<rt>おな</rt></ruby>じものを<ruby>聞<rt>き</rt></ruby>いている、というだけで、<ruby>知<rt>し</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>どうしがつながっている<em class=\"g\">ように</em><ruby>感<rt>かん</rt></ruby>じます。<ruby>終<rt>お</rt></ruby>わったあと、だれもすぐには<ruby>立<rt>た</rt></ruby>ちませんでした。",
+ "traduccion": "Fui por primera vez a un concierto de piano. No tiene la cercanía de una canción popular, pero los sonidos tranquilos fluyen como el agua. En la sala no se oye absolutamente nada: ni un móvil, ni voces. Eso me resultó extraño. Solo por el hecho de estar todos escuchando lo mismo, siento como si desconocidos quedaran unidos. Al terminar, nadie se levantó de inmediato.",
+ "preguntas": [
+  {
+   "p": "かいじょうでは<ruby>何<rt>なに</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえませんでしたか。",
+   "opciones": [
+    "ピアノの<ruby>音<rt>おと</rt></ruby>",
+    "ベルや<ruby>話<rt>はな</rt></ruby>し<ruby>声<rt>ごえ</rt></ruby>",
+    "<ruby>水<rt>みず</rt></ruby>の<ruby>音<rt>おと</rt></ruby>",
+    "<ruby>歌謡<rt>かよう</rt></ruby>きょく"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>終<rt>お</rt></ruby>わったあと、みんなはどうしましたか。",
+   "opciones": [
+    "すぐ<ruby>立<rt>た</rt></ruby>った",
+    "すぐには<ruby>立<rt>た</rt></ruby>たなかった",
+    "<ruby>話<rt>はな</rt></ruby>し<ruby>始<rt>はじ</rt></ruby>めた",
+    "<ruby>出<rt>で</rt></ruby>ていった"
+   ],
+   "correcta": 1
+  }
+ ]
+}
