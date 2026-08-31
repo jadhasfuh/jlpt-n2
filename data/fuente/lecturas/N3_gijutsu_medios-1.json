@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/gijutsu/medios-1",
+ "titulo": "<ruby>郵便<rt>ゆうびん</rt></ruby>のしらせ",
+ "cuerpo": "<ruby>掲示<rt>けいじ</rt></ruby>ばんに、<ruby>郵便<rt>ゆうびん</rt></ruby>の<ruby>知<rt>し</rt></ruby>らせがはってありました。<ruby>留守<rt>るす</rt></ruby>のあいだにとどいたそうです。でんしメールなら<ruby>一<rt>いっ</rt></ruby>しゅんですが、<ruby>手紙<rt>てがみ</rt></ruby>は<ruby>時間<rt>じかん</rt></ruby>がかかります。その<ruby>時間<rt>じかん</rt></ruby>が、かえっていいのだと<ruby>思<rt>おも</rt></ruby>うことがあります。<ruby>返事<rt>へんじ</rt></ruby>を<ruby>書<rt>か</rt></ruby>くまでに<ruby>考<rt>かんが</rt></ruby>える<ruby>時間<rt>じかん</rt></ruby>があるからです。はやいことがいつもいい<em class=\"g\">とは<ruby>限<rt>かぎ</rt></ruby>りません</em>。<ruby>電話<rt>でんわ</rt></ruby><em class=\"g\">も</em>あれ<em class=\"g\">ば</em>メール<em class=\"g\">も</em>ありますが、<ruby>年<rt>ねん</rt></ruby>に<ruby>一<rt>いち</rt></ruby><ruby>度<rt>ど</rt></ruby>くらいは<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>書<rt>か</rt></ruby>きます。<ruby>急<rt>いそ</rt></ruby>ぐ<ruby>話<rt>はなし</rt></ruby>を<ruby>避<rt>さ</rt></ruby>けて、ゆっくりした<ruby>話<rt>はなし</rt></ruby>だけを<ruby>書<rt>か</rt></ruby>きます。",
+ "traduccion": "En el tablón de anuncios había un aviso de correos. Al parecer llegó mientras no estaba. Un correo electrónico es instantáneo, pero una carta tarda. A veces pienso que ese tiempo es justamente lo bueno. Porque tienes tiempo de pensar antes de escribir la respuesta. Lo rápido no siempre es lo mejor. Hay teléfono y también hay correo electrónico, pero una vez al año escribo una carta. Evito los asuntos urgentes y escribo solo de cosas tranquilas.",
+ "preguntas": [
+  {
+   "p": "<ruby>手紙<rt>てがみ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>について、どう<ruby>思<rt>おも</rt></ruby>っていますか。",
+   "opciones": [
+    "むだだ",
+    "かえっていい",
+    "みじかすぎる",
+    "<ruby>必要<rt>ひつよう</rt></ruby>ない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>手紙<rt>てがみ</rt></ruby>には<ruby>何<rt>なに</rt></ruby>を<ruby>書<rt>か</rt></ruby>きますか。",
+   "opciones": [
+    "<ruby>急<rt>いそ</rt></ruby>ぐ<ruby>話<rt>はなし</rt></ruby>",
+    "ゆっくりした<ruby>話<rt>はなし</rt></ruby>",
+    "しごとの<ruby>話<rt>はなし</rt></ruby>",
+    "<ruby>知<rt>し</rt></ruby>らせ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

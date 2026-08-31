@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/gijutsu/maquinas-1",
+ "titulo": "<ruby>楽器<rt>がっき</rt></ruby>という<ruby>装置<rt>そうち</rt></ruby>",
+ "cuerpo": "<ruby>学校<rt>がっこう</rt></ruby>の<ruby>音楽<rt>おんがく</rt></ruby>しつには、ふるいピアノがあります。<ruby>設備<rt>せつび</rt></ruby>としては<ruby>新<rt>あたら</rt></ruby>しくありませんが、<ruby>音<rt>おと</rt></ruby>はよく<ruby>出<rt>で</rt></ruby>ます。<ruby>楽器<rt>がっき</rt></ruby>は<ruby>装置<rt>そうち</rt></ruby>でありながら、<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>によって<ruby>音<rt>おと</rt></ruby>がかわります。スイッチを<ruby>入<rt>い</rt></ruby>れればうごく<ruby>機械<rt>きかい</rt></ruby>とはちがうのです。そのピアノを<ruby>直<rt>なお</rt></ruby>せる<ruby>人<rt>ひと</rt></ruby>は、この<ruby>町<rt>まち</rt></ruby>には<ruby>見<rt>み</rt></ruby>つかり<em class=\"g\">そうにない</em>と<ruby>聞<rt>き</rt></ruby>きました。<ruby>置<rt>お</rt></ruby>きかえるお<ruby>金<rt>かね</rt></ruby>もありません。でも、<ruby>音<rt>おと</rt></ruby>が<ruby>出<rt>で</rt></ruby>るかぎり、だれかがひき<ruby>続<rt>つづ</rt></ruby>けるでしょう。こわれ<em class=\"g\">そうにない</em><ruby>機械<rt>きかい</rt></ruby>より、こういうもののほうが<ruby>長<rt>なが</rt></ruby>く<ruby>残<rt>のこ</rt></ruby>るのかもしれません。",
+ "traduccion": "En la sala de música del colegio hay un piano viejo. Como equipamiento no es nuevo, pero suena bien. Un instrumento, aun siendo un aparato, cambia de sonido según quién lo toque. No es como una máquina que funciona con solo darle al interruptor. Me dijeron que en este pueblo no parece que vaya a aparecer nadie capaz de repararlo. Tampoco hay dinero para sustituirlo. Pero mientras siga sonando, alguien seguirá tocándolo. Quizá estas cosas duren más que las máquinas que no parecen que vayan a romperse.",
+ "preguntas": [
+  {
+   "p": "<ruby>楽器<rt>がっき</rt></ruby>と<ruby>機械<rt>きかい</rt></ruby>のちがいは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>古<rt>ふる</rt></ruby>さ",
+    "<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>によって<ruby>音<rt>おと</rt></ruby>がかわること",
+    "<ruby>値段<rt>ねだん</rt></ruby>",
+    "スイッチがあること"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "そのピアノについて、どうなると<ruby>思<rt>おも</rt></ruby>っていますか。",
+   "opciones": [
+    "すぐすてられる",
+    "<ruby>音<rt>おと</rt></ruby>が<ruby>出<rt>で</rt></ruby>るかぎりだれかがひき<ruby>続<rt>つづ</rt></ruby>ける",
+    "<ruby>直<rt>なお</rt></ruby>される",
+    "<ruby>置<rt>お</rt></ruby>きかえられる"
+   ],
+   "correcta": 1
+  }
+ ]
+}

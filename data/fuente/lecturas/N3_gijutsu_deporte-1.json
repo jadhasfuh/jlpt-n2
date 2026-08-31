@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/gijutsu/deporte-1",
+ "titulo": "コーチのことば",
+ "cuerpo": "チームでいちばん<ruby>下手<rt>へた</rt></ruby>だったころ、コーチに「<em class=\"g\">たとえ</em><ruby>負<rt>ま</rt></ruby>け<em class=\"g\">ても</em>、さいごまで<ruby>走<rt>はし</rt></ruby>れ」と<ruby>言<rt>い</rt></ruby>われました。そのときは<ruby>意味<rt>いみ</rt></ruby>がわかりませんでした。<ruby>試合<rt>しあい</rt></ruby>に<ruby>勝<rt>か</rt></ruby>つために<ruby>練習<rt>れんしゅう</rt></ruby>しているのに、なぜ<ruby>負<rt>ま</rt></ruby>けたあとの<ruby>話<rt>はなし</rt></ruby>をするのか。いまはわかります。<em class=\"g\">たとえ</em><ruby>結果<rt>けっか</rt></ruby>がわるく<em class=\"g\">ても</em>、<ruby>最後<rt>さいご</rt></ruby>までやめなかった<ruby>人<rt>ひと</rt></ruby>だけが、<ruby>次<rt>つぎ</rt></ruby>の<ruby>試合<rt>しあい</rt></ruby>に<ruby>立<rt>た</rt></ruby>てるのです。スケートでも<ruby>同<rt>おな</rt></ruby>じでしょう。<ruby>転<rt>ころ</rt></ruby>んだあとに<ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がる<ruby>速<rt>はや</rt></ruby>さが、その<ruby>人<rt>ひと</rt></ruby>のちからです。",
+ "traduccion": "Cuando era el peor del equipo, el entrenador me dijo: «aunque pierdas, corre hasta el final». Entonces no entendí qué quería decir. Si entrenamos para ganar el partido, ¿por qué habla de después de perder? Ahora lo entiendo. Aunque el resultado sea malo, solo quien no lo dejó hasta el final puede presentarse al siguiente partido. Con el patinaje debe de pasar lo mismo. La rapidez con que te levantas tras caerte es la fuerza que tienes.",
+ "preguntas": [
+  {
+   "p": "コーチは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "かならず<ruby>勝<rt>か</rt></ruby>て",
+    "<em class=\"g\">たとえ</em><ruby>負<rt>ま</rt></ruby>け<em class=\"g\">ても</em>さいごまで<ruby>走<rt>はし</rt></ruby>れ",
+    "<ruby>練習<rt>れんしゅう</rt></ruby>をふやせ",
+    "やめてもいい"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "その<ruby>人<rt>ひと</rt></ruby>のちからとは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>勝<rt>か</rt></ruby>つこと",
+    "<ruby>転<rt>ころ</rt></ruby>んだあとに<ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がる<ruby>速<rt>はや</rt></ruby>さ",
+    "<ruby>走<rt>はし</rt></ruby>る<ruby>速<rt>はや</rt></ruby>さ",
+    "<ruby>練習<rt>れんしゅう</rt></ruby>のりょう"
+   ],
+   "correcta": 1
+  }
+ ]
+}

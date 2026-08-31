@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/gijutsu/musica-1",
+ "titulo": "<ruby>笛<rt>ふえ</rt></ruby>の<ruby>音<rt>ね</rt></ruby>",
+ "cuerpo": "まつりの<ruby>夜<rt>よる</rt></ruby>、とおくから<ruby>笛<rt>ふえ</rt></ruby>の<ruby>音<rt>ね</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえてきました。<ruby>鐘<rt>かね</rt></ruby>の<ruby>音<rt>おと</rt></ruby>とまじって、<ruby>風<rt>かぜ</rt></ruby><em class=\"g\">によって</em><ruby>強<rt>つよ</rt></ruby>くなったり<ruby>弱<rt>よわ</rt></ruby>くなったりします。ふく<ruby>人<rt>ひと</rt></ruby>の<ruby>息<rt>いき</rt></ruby>のながさで、<ruby>節<rt>ふし</rt></ruby>のかたちがきまります。<ruby>同<rt>おな</rt></ruby>じきょくでも、<ruby>人<rt>ひと</rt></ruby><em class=\"g\">によって</em>まるでちがいます。<ruby>子<rt>こ</rt></ruby>どものころ、<ruby>帯<rt>おび</rt></ruby>をしめてもらってまつりに<ruby>出<rt>で</rt></ruby>たことを<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>しました。あの<ruby>音<rt>ね</rt></ruby><em class=\"g\">さえ</em><ruby>聞<rt>き</rt></ruby>こえれ<em class=\"g\">ば</em>、どこにいても<ruby>夏<rt>なつ</rt></ruby>が<ruby>来<rt>き</rt></ruby>たとわかります。",
+ "traduccion": "La noche de la fiesta, desde lejos llegó el sonido de una flauta. Mezclado con el de la campana, según el viento sonaba más fuerte o más débil. La forma de la melodía la marca lo larga que sea la respiración de quien toca. Aunque sea la misma pieza, según la persona suena completamente distinta. Me acordé de cuando, de niño, me ataban el obi para ir a la fiesta. Con solo oír ese sonido, esté donde esté, sé que ha llegado el verano.",
+ "preguntas": [
+  {
+   "p": "<ruby>笛<rt>ふえ</rt></ruby>の<ruby>音<rt>ね</rt></ruby>は、なぜ<ruby>強<rt>つよ</rt></ruby>くなったり<ruby>弱<rt>よわ</rt></ruby>くなったりしますか。",
+   "opciones": [
+    "<ruby>鐘<rt>かね</rt></ruby>のせい",
+    "<ruby>風<rt>かぜ</rt></ruby><em class=\"g\">によって</em>",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>動<rt>うご</rt></ruby>くから",
+    "<ruby>夜<rt>よる</rt></ruby>だから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>節<rt>ふし</rt></ruby>のかたちは<ruby>何<rt>なに</rt></ruby>できまりますか。",
+   "opciones": [
+    "きょく",
+    "ふく<ruby>人<rt>ひと</rt></ruby>の<ruby>息<rt>いき</rt></ruby>のながさ",
+    "<ruby>鐘<rt>かね</rt></ruby>",
+    "まつり"
+   ],
+   "correcta": 1
+  }
+ ]
+}
