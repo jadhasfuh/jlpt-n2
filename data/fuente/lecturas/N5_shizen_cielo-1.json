@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/shizen/cielo-1",
+ "titulo": "<ruby>空<rt>そら</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>",
+ "cuerpo": "あさは<ruby>明<rt>あか</rt></ruby>るい<ruby>空<rt>そら</rt></ruby>が、ゆうがたには<ruby>赤<rt>あか</rt></ruby>くなり、よるは<ruby>黒<rt>くろ</rt></ruby>くなります。おなじ<ruby>空<rt>そら</rt></ruby>なのに、<ruby>時間<rt>じかん</rt></ruby>で<ruby>色<rt>いろ</rt></ruby>がかわります。<ruby>暗<rt>くら</rt></ruby>いよるに<ruby>空<rt>そら</rt></ruby>を<ruby>見<rt>み</rt></ruby>あげると、ほしが<ruby>見<rt>み</rt></ruby>えます。まちのなかでは<ruby>少<rt>すこ</rt></ruby>ししか<ruby>見<rt>み</rt></ruby>えませんが、やまへ<ruby>行<rt>い</rt></ruby>くと、かぞえられないほどあります。<ruby>空<rt>そら</rt></ruby>は<ruby>空<rt>から</rt></ruby>のようで、<ruby>何<rt>なに</rt></ruby>もないように<ruby>見<rt>み</rt></ruby>えますが、<ruby>本当<rt>ほんとう</rt></ruby>はたくさんのものがあるのです。",
+ "traduccion": "Por la mañana el cielo es claro, al atardecer se pone rojo y por la noche negro. Siendo el mismo cielo, cambia de color según la hora. Si miras el cielo en una noche oscura, se ven estrellas. En la ciudad solo se ven unas pocas, pero si vas a la montaña hay tantas que no se pueden contar. El cielo parece vacío, como si no hubiera nada, pero en realidad está lleno de cosas.",
+ "preguntas": [
+  {
+   "p": "ゆうがた、<ruby>空<rt>そら</rt></ruby>は<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>になりますか。",
+   "opciones": [
+    "<ruby>明<rt>あか</rt></ruby>るい",
+    "<ruby>赤<rt>あか</rt></ruby>い",
+    "<ruby>黒<rt>くろ</rt></ruby>い",
+    "<ruby>暗<rt>くら</rt></ruby>い"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "ほしがたくさん<ruby>見<rt>み</rt></ruby>えるのはどこですか。",
+   "opciones": [
+    "まちのなか",
+    "やま",
+    "うちのなか",
+    "<ruby>空<rt>から</rt></ruby>のところ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

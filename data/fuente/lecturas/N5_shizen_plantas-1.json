@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/shizen/plantas-1",
+ "titulo": "<ruby>花<rt>はな</rt></ruby>が<ruby>咲<rt>さ</rt></ruby>くまで",
+ "cuerpo": "はるに、にわの<ruby>木<rt>き</rt></ruby>に<ruby>芽<rt>め</rt></ruby>が<ruby>出<rt>で</rt></ruby>ました。ちいさくて、はじめは<ruby>葉<rt>は</rt></ruby>かどうかもわかりませんでした。まいあさ<ruby>見<rt>み</rt></ruby>ていました<em class=\"g\">けれども</em>、なかなか<ruby>大<rt>おお</rt></ruby>きくなりません。ある<ruby>日<rt>ひ</rt></ruby>、<ruby>一<rt>いち</rt></ruby>しゅうかん<ruby>見<rt>み</rt></ruby>なかった<em class=\"g\">けれども</em>、そのあいだに<ruby>花<rt>はな</rt></ruby>が<ruby>咲<rt>さ</rt></ruby>いていました。まっているときはながく<ruby>感<rt>かん</rt></ruby>じ、わすれているとはやいようです。<ruby>木<rt>き</rt></ruby>は、<ruby>見<rt>み</rt></ruby>られていなくてもそだつのだとおもいました。",
+ "traduccion": "En primavera brotó un yema en el árbol del jardín. Era tan pequeña que al principio ni sabía si era una hoja. La miraba todas las mañanas, pero no acababa de crecer. Un día pasé una semana sin mirarla y, en ese tiempo, había florecido. Cuando esperas se hace largo, y cuando te olvidas parece rápido. Pensé que el árbol crece aunque nadie lo mire.",
+ "preguntas": [
+  {
+   "p": "<ruby>花<rt>はな</rt></ruby>が<ruby>咲<rt>さ</rt></ruby>いたのはいつですか。",
+   "opciones": [
+    "まいあさ<ruby>見<rt>み</rt></ruby>ていたとき",
+    "<ruby>一<rt>いち</rt></ruby>しゅうかん<ruby>見<rt>み</rt></ruby>なかったあいだ",
+    "<ruby>芽<rt>め</rt></ruby>が<ruby>出<rt>で</rt></ruby>たとき",
+    "ふゆ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をおもいましたか。",
+   "opciones": [
+    "<ruby>木<rt>き</rt></ruby>はまいにち<ruby>見<rt>み</rt></ruby>るべきだ",
+    "<ruby>木<rt>き</rt></ruby>は<ruby>見<rt>み</rt></ruby>られていなくてもそだつ",
+    "はるはみじかい",
+    "<ruby>花<rt>はな</rt></ruby>はちいさい"
+   ],
+   "correcta": 1
+  }
+ ]
+}

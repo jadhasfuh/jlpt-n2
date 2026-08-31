@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/sonota/adjetivos-1",
+ "titulo": "<ruby>若<rt>わか</rt></ruby>いということ",
+ "cuerpo": "「<ruby>若<rt>わか</rt></ruby>いうちにいろいろやりなさい」と、よく<ruby>言<rt>い</rt></ruby>われます。でも、<ruby>若<rt>わか</rt></ruby>いときは、<ruby>何<rt>なに</rt></ruby>をやりたいかもわからないものです。いま、<ruby>年<rt>とし</rt></ruby>をとってから、やりたいことがはっきりしてきました。からだはむかしより<ruby>弱<rt>よわ</rt></ruby>いですが、きもちは<ruby>強<rt>つよ</rt></ruby>くなりました。<ruby>若<rt>わか</rt></ruby>いのは<ruby>年<rt>とし</rt></ruby>ではなく、あたらしいことをはじめられるかどうかだとおもいます。きょうも<ruby>一<rt>ひと</rt></ruby>つ、はじめてのことをしました。",
+ "traduccion": "Se oye mucho «haz muchas cosas mientras seas joven». Pero cuando eres joven ni siquiera sabes qué quieres hacer. Ahora que he cumplido años, lo que quiero hacer se ha ido aclarando. El cuerpo está más flojo que antes, pero el ánimo se ha vuelto más fuerte. Creo que ser joven no es la edad, sino si puedes empezar algo nuevo. Hoy también he hecho una cosa por primera vez.",
+ "preguntas": [
+  {
+   "p": "<ruby>若<rt>わか</rt></ruby>いときは、どうだと<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "やりたいことがはっきりしている",
+    "<ruby>何<rt>なに</rt></ruby>をやりたいかもわからない",
+    "からだが<ruby>弱<rt>よわ</rt></ruby>い",
+    "きもちが<ruby>強<rt>つよ</rt></ruby>い"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>にとって、<ruby>若<rt>わか</rt></ruby>いとは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>年<rt>とし</rt></ruby>がすくないこと",
+    "あたらしいことをはじめられること",
+    "からだが<ruby>強<rt>つよ</rt></ruby>いこと",
+    "しごとがあること"
+   ],
+   "correcta": 1
+  }
+ ]
+}

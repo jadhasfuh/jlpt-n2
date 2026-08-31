@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/shigoto/oficios-1",
+ "titulo": "まちの<ruby>警官<rt>けいかん</rt></ruby>",
+ "cuerpo": "<ruby>駅<rt>えき</rt></ruby>のまえに<ruby>交番<rt>こうばん</rt></ruby>があります。そこの<ruby>警官<rt>けいかん</rt></ruby>は、いつもおなじ<ruby>人<rt>ひと</rt></ruby>です。みちをきくと、かならずかみに<ruby>書<rt>か</rt></ruby>いておしえてくれます。せんしゅう、かさをわすれたとき、その<ruby>人<rt>ひと</rt></ruby>がとどけてくれました。「いっしょに<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>き<em class=\"g\">ませんか</em>」と<ruby>言<rt>い</rt></ruby>われて、わすれものがあつまるへやまで<ruby>行<rt>い</rt></ruby>きました。しごとはたくさんあるはずなのに、いやな<ruby>顔<rt>かお</rt></ruby>をしません。こんど、おかしをもっておれいに<ruby>行<rt>い</rt></ruby>き<em class=\"g\">ませんか</em>と、うちのははをさそうつもりです。",
+ "traduccion": "Delante de la estación hay una caseta de policía. El agente que está allí es siempre el mismo. Cuando le preguntas por una calle, siempre te lo apunta en un papel. La semana pasada, cuando me dejé el paraguas, fue él quien me lo llevó. Me dijo «¿vamos a mirarlo juntos?» y fuimos hasta la sala donde se juntan los objetos perdidos. Aunque debe de tener muchísimo trabajo, nunca pone mala cara. La próxima vez pienso proponerle a mi madre ir a darle las gracias con unos dulces.",
+ "preguntas": [
+  {
+   "p": "かさをわすれたとき、<ruby>警官<rt>けいかん</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "かみに<ruby>書<rt>か</rt></ruby>いた",
+    "とどけてくれた",
+    "<ruby>何<rt>なに</rt></ruby>もしなかった",
+    "みちをきいた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "こんど、<ruby>何<rt>なに</rt></ruby>をするつもりですか。",
+   "opciones": [
+    "かさをかう",
+    "ははとおれいに<ruby>行<rt>い</rt></ruby>く",
+    "<ruby>交番<rt>こうばん</rt></ruby>ではたらく",
+    "みちをきく"
+   ],
+   "correcta": 1
+  }
+ ]
+}

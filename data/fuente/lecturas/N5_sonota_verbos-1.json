@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/sonota/verbos-1",
+ "titulo": "まいにちの<ruby>散歩<rt>さんぽ</rt></ruby>",
+ "cuerpo": "まいあさ、うちのちかくを<ruby>散歩<rt>さんぽ</rt></ruby>します。<ruby>一<rt>いち</rt></ruby>じかんもかかりません。<ruby>建<rt>た</rt></ruby>ったばかりのたてものの<ruby>前<rt>まえ</rt></ruby>をとおると、きのうまでなかったかんばんが<ruby>付<rt>つ</rt></ruby>いていました。<ruby>待<rt>ま</rt></ruby>っていてもかわらないものもありますが、まちはすこしずつかわっています。あるかない<ruby>日<rt>ひ</rt></ruby>があると、からだのちょうしが<ruby>欠<rt>か</rt></ruby>けるようにかんじます。だから、あめでも<ruby>歩<rt>ある</rt></ruby>きます。ねぼうし<em class=\"g\">ちゃいけない</em>ので、よるははやく<ruby>寝<rt>ね</rt></ruby>ます。とちゅうでやめ<em class=\"g\">ちゃいけない</em>と、じぶんにやくそくしました。",
+ "traduccion": "Cada mañana doy un paseo cerca de casa. No llega ni a una hora. Al pasar por delante de un edificio recién construido, vi que le habían puesto un cartel que ayer no estaba. Hay cosas que no cambian por mucho que esperes, pero la ciudad va cambiando poco a poco. Los días que no ando, siento que algo le falta a mi cuerpo. Por eso camino aunque llueva. Como no puedo quedarme dormido, me acuesto pronto. Me he prometido a mí mismo que no puedo dejarlo a medias.",
+ "preguntas": [
+  {
+   "p": "<ruby>散歩<rt>さんぽ</rt></ruby>はどのくらいかかりますか。",
+   "opciones": [
+    "<ruby>一<rt>いち</rt></ruby>じかんより<ruby>少<rt>すく</rt></ruby>ない",
+    "<ruby>一<rt>いち</rt></ruby>じかん",
+    "<ruby>二<rt>に</rt></ruby>じかん",
+    "<ruby>三十分<rt>さんじゅっぷん</rt></ruby>ちょうど"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "あるかない<ruby>日<rt>ひ</rt></ruby>は、どうかんじますか。",
+   "opciones": [
+    "らくだ",
+    "からだのちょうしが<ruby>欠<rt>か</rt></ruby>けるようだ",
+    "うれしい",
+    "<ruby>何<rt>なに</rt></ruby>もかんじない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

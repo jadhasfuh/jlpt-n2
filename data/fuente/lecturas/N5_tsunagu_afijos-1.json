@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/tsunagu/afijos-1",
+ "titulo": "<ruby>古<rt>ふる</rt></ruby>いものと<ruby>新<rt>あたら</rt></ruby>しいもの",
+ "cuerpo": "そぼの<ruby>家<rt>いえ</rt></ruby>には、<ruby>古<rt>ふる</rt></ruby>いものがたくさんあります。<ruby>旧<rt>きゅう</rt></ruby>いとけいや、<ruby>上<rt>うわ</rt></ruby>ぎのボタンまでとってあります。「<ruby>反<rt>はん</rt></ruby>たいだね」と<ruby>母<rt>はは</rt></ruby>は<ruby>言<rt>い</rt></ruby>います。<ruby>母<rt>はは</rt></ruby>はすぐにすててしまう<ruby>人<rt>ひと</rt></ruby>だからです。わたしはそのあいだにいます。おきゃく<ruby>様<rt>さま</rt></ruby>にもらったコップは、<em class=\"g\">まだ</em>つかっ<em class=\"g\">ていません</em>。すてるかどうかも、<em class=\"g\">まだ</em>きめ<em class=\"g\">ていません</em>。きめられないのは、まようだけのねうちがあるからだとおもいます。",
+ "traduccion": "En casa de mi abuela hay muchas cosas viejas. Guarda hasta relojes antiguos y los botones de las chaquetas. Mi madre dice «sois opuestas». Es que ella tira las cosas enseguida. Yo estoy en medio. La taza que me regaló una visita todavía no la he usado. Tampoco he decidido aún si tirarla. Creo que si no consigo decidirme es porque merece la pena dudar.",
+ "preguntas": [
+  {
+   "p": "<ruby>母<rt>はは</rt></ruby>はどんな<ruby>人<rt>ひと</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>古<rt>ふる</rt></ruby>いものをとっておく",
+    "すぐにすててしまう",
+    "まよう",
+    "とけいがすき"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "コップはどうなっていますか。",
+   "opciones": [
+    "つかっている",
+    "<em class=\"g\">まだ</em>つかっ<em class=\"g\">ていません</em>",
+    "すてた",
+    "そぼにあげた"
+   ],
+   "correcta": 1
+  }
+ ]
+}

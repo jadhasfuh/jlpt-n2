@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/shigoto/trabajo-1",
+ "titulo": "<ruby>一緒<rt>いっしょ</rt></ruby>にはたらく",
+ "cuerpo": "あたらしい<ruby>仕事<rt>しごと</rt></ruby>で、はじめて<ruby>会<rt>あ</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>働<rt>はたら</rt></ruby>くことになりました。さいしょは、<ruby>何<rt>なに</rt></ruby>を<ruby>話<rt>はな</rt></ruby>せばいいかわかりませんでした。でも、おなじ<ruby>事<rt>こと</rt></ruby>をやっているうちに、しぜんにことばが<ruby>出<rt>で</rt></ruby>るようになりました。ひとりでやるより<ruby>時間<rt>じかん</rt></ruby>がかかることもありますが、<ruby>一人<rt>ひとり</rt></ruby>では<ruby>気<rt>き</rt></ruby>がつかないことをおしえてもらえます。<ruby>仕事<rt>しごと</rt></ruby>は、ものをつくるだけでなく、<ruby>人<rt>ひと</rt></ruby>と<ruby>会<rt>あ</rt></ruby>うことでもあるのだとおもいました。",
+ "traduccion": "En el trabajo nuevo me ha tocado trabajar con gente a la que veía por primera vez. Al principio no sabía de qué hablar. Pero, mientras hacíamos lo mismo, las palabras fueron saliendo solas. A veces se tarda más que haciéndolo solo, pero te enseñan cosas de las que uno solo no se da cuenta. Pensé que el trabajo no es solo hacer cosas, sino también encontrarse con personas.",
+ "preguntas": [
+  {
+   "p": "さいしょ、<ruby>何<rt>なに</rt></ruby>がわかりませんでしたか。",
+   "opciones": [
+    "<ruby>仕事<rt>しごと</rt></ruby>のやりかた",
+    "<ruby>何<rt>なに</rt></ruby>を<ruby>話<rt>はな</rt></ruby>せばいいか",
+    "<ruby>人<rt>ひと</rt></ruby>のなまえ",
+    "<ruby>時間<rt>じかん</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>一緒<rt>いっしょ</rt></ruby>にはたらくよいところは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "はやくおわる",
+    "<ruby>一人<rt>ひとり</rt></ruby>では<ruby>気<rt>き</rt></ruby>がつかないことをおしえてもらえる",
+    "<ruby>話<rt>はな</rt></ruby>さなくていい",
+    "らくだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

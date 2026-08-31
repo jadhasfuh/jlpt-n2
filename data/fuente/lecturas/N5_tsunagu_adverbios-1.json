@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/tsunagu/adverbios-1",
+ "titulo": "<ruby>独<rt>ひと</rt></ruby>りの<ruby>時間<rt>じかん</rt></ruby>",
+ "cuerpo": "わたしは<ruby>独<rt>ひと</rt></ruby>りでいるの<em class=\"g\">が好き</em>です。さびしいのではありません。<ruby>多分<rt>たぶん</rt></ruby>、あたまの<ruby>中<rt>なか</rt></ruby>をかたづける<ruby>時間<rt>じかん</rt></ruby>がひつようなのです。<ruby>人<rt>ひと</rt></ruby>と<ruby>話<rt>はな</rt></ruby>すのも<ruby>好<rt>す</rt></ruby>きですが、そのあとは<ruby>独<rt>ひと</rt></ruby>りになります。すぐに<ruby>分<rt>わ</rt></ruby>かることもあれば、<ruby>時間<rt>じかん</rt></ruby>がかかることもあります。しずかなところで<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むの<em class=\"g\">が好き</em>なのも、たぶんおなじりゆうです。",
+ "traduccion": "Me gusta estar solo. No es que me sienta solo. Seguramente necesito un rato para ordenar lo que tengo en la cabeza. También me gusta hablar con la gente, pero después me quedo solo. Hay cosas que entiendo enseguida y otras que me llevan tiempo. Que me guste leer en un sitio tranquilo seguramente es por la misma razón.",
+ "preguntas": [
+  {
+   "p": "なぜ、<ruby>独<rt>ひと</rt></ruby>りの<ruby>時間<rt>じかん</rt></ruby>がひつようですか。",
+   "opciones": [
+    "さびしいから",
+    "あたまの<ruby>中<rt>なか</rt></ruby>をかたづけるため",
+    "<ruby>人<rt>ひと</rt></ruby>がきらいだから",
+    "<ruby>本<rt>ほん</rt></ruby>をよむため"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>人<rt>ひと</rt></ruby>と<ruby>話<rt>はな</rt></ruby>すことについて、どうですか。",
+   "opciones": [
+    "きらい",
+    "<ruby>好<rt>す</rt></ruby>きだがそのあとは<ruby>独<rt>ひと</rt></ruby>りになる",
+    "しない",
+    "<ruby>多分<rt>たぶん</rt></ruby>できない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

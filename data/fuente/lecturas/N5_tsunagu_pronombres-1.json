@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/tsunagu/pronombres-1",
+ "titulo": "<ruby>誰<rt>だれ</rt></ruby>のもの",
+ "cuerpo": "きょうしつに、<ruby>名前<rt>なまえ</rt></ruby>のないノートがありました。「これは<ruby>誰<rt>だれ</rt></ruby>のですか」とみんなにききましたが、<ruby>誰<rt>だれ</rt></ruby>もこたえません。なぜ<ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>かないのだろうとおもいました。そのノート<em class=\"g\">は</em>わたしのもの<em class=\"g\">より</em>あついです。<ruby>中<rt>なか</rt></ruby>を<ruby>見<rt>み</rt></ruby>ると、<ruby>字<rt>じ</rt></ruby>がとてもきれいでした。つぎの<ruby>日<rt>ひ</rt></ruby>、となりのクラスの<ruby>人<rt>ひと</rt></ruby>がとりにきました。「いかがしましたか」ときくと、わらってあたまをさげました。<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなくても、うれしいのがわかりました。",
+ "traduccion": "En el aula había un cuaderno sin nombre. Pregunté a todos «¿de quién es esto?», pero nadie contestó. Me pregunté por qué no le pondrían el nombre. Aquel cuaderno era más grueso que el mío. Al mirar dentro, la letra era preciosa. Al día siguiente vino a recogerlo alguien de la clase de al lado. Le pregunté «¿qué tal ha ido?» y me hizo una reverencia riéndose. Aunque no dijo nada, se notaba que estaba contenta.",
+ "preguntas": [
+  {
+   "p": "ノートについて、<ruby>正<rt>ただ</rt></ruby>しいのはどれですか。",
+   "opciones": [
+    "<ruby>名前<rt>なまえ</rt></ruby>が<ruby>書<rt>か</rt></ruby>いてあった",
+    "わたしのもの<em class=\"g\">より</em>あつい",
+    "<ruby>字<rt>じ</rt></ruby>がきたない",
+    "<ruby>誰<rt>だれ</rt></ruby>のものかすぐわかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "つぎの<ruby>日<rt>ひ</rt></ruby>、<ruby>誰<rt>だれ</rt></ruby>がきましたか。",
+   "opciones": [
+    "おなじクラスの<ruby>人<rt>ひと</rt></ruby>",
+    "となりのクラスの<ruby>人<rt>ひと</rt></ruby>",
+    "せんせい",
+    "<ruby>誰<rt>だれ</rt></ruby>もこない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

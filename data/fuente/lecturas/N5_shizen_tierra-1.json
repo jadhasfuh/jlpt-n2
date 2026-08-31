@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/shizen/tierra-1",
+ "titulo": "<ruby>山<rt>やま</rt></ruby>のみち",
+ "cuerpo": "ちかくの<ruby>山<rt>やま</rt></ruby>にのぼりました。ちずでは<ruby>易<rt>やさ</rt></ruby>しそうに<ruby>見<rt>み</rt></ruby>えました。<em class=\"g\">でも</em>、じっさいはきゅうで、なんどもやすみました。うえまで<ruby>行<rt>い</rt></ruby>くと、<ruby>下<rt>した</rt></ruby>にまちがぜんぶ<ruby>見<rt>み</rt></ruby>えました。かえりはらくだとおもいました。<em class=\"g\">でも</em>、あしがつかれていて、のぼるときよりゆっくりでした。うちにかえってから、<ruby>碁<rt>ご</rt></ruby>をうちながら、きょうのみちをかんがえました。<ruby>山<rt>やま</rt></ruby>は、ちずより<ruby>大<rt>おお</rt></ruby>きいのです。",
+ "traduccion": "Subí a la montaña que hay cerca. En el mapa parecía fácil. Pero en realidad era empinada y paré muchas veces. Al llegar arriba se veía el pueblo entero abajo. Pensé que la bajada sería cómoda. Pero tenía las piernas cansadas y fui más despacio que subiendo. Al volver a casa, mientras jugaba al go, estuve pensando en el camino de hoy. La montaña es más grande que el mapa.",
+ "preguntas": [
+  {
+   "p": "ちずでは、みちはどう<ruby>見<rt>み</rt></ruby>えましたか。",
+   "opciones": [
+    "きゅう",
+    "<ruby>易<rt>やさ</rt></ruby>しそう",
+    "ながい",
+    "みじかい"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "かえりはどうでしたか。",
+   "opciones": [
+    "らくだった",
+    "のぼるときよりゆっくりだった",
+    "はやかった",
+    "やすまなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/tsunagu/kosoado-1",
+ "titulo": "これとそれとあれ",
+ "cuerpo": "みせで、ははが「これをください」と<ruby>言<rt>い</rt></ruby>いました。てんいんは「そのあかいのですか」とききました。ははは「いいえ、そのとなりのあおいの」とこたえました。おなじものを<ruby>見<rt>み</rt></ruby>ていても、ことばだけではつたわりません。ゆびでさして、「ああ、こんなかたちのものですね」とてんいんが<ruby>言<rt>い</rt></ruby>って、やっとわかりました。この、その、あの。みじかいことばですが、どこから<ruby>見<rt>み</rt></ruby>ているかでかわるのです。",
+ "traduccion": "En la tienda mi madre dijo «deme este». El dependiente preguntó «¿ese rojo?». Ella contestó «no, el azul de al lado». Aunque estén mirando lo mismo, con palabras solas no se entiende. Señaló con el dedo y el dependiente dijo «ah, uno con esta forma», y por fin quedó claro. Kono, sono, ano. Son palabras cortas, pero cambian según desde dónde estés mirando.",
+ "preguntas": [
+  {
+   "p": "ははがほしかったのはどれですか。",
+   "opciones": [
+    "あかいの",
+    "あおいの",
+    "てんいんのもの",
+    "となりのみせのもの"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いつ、やっとわかりましたか。",
+   "opciones": [
+    "ははが<ruby>言<rt>い</rt></ruby>ったとき",
+    "ゆびでさしたとき",
+    "てんいんがきいたとき",
+    "みせを<ruby>出<rt>で</rt></ruby>たとき"
+   ],
+   "correcta": 1
+  }
+ ]
+}

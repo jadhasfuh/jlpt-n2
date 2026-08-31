@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/shigoto/ley-1",
+ "titulo": "きまりのはなし",
+ "cuerpo": "こうえんに「ここでボールをつかってはいけません」とかいてあります。はじめは、なぜだろうとおもいました。でも、ちいさい<ruby>子<rt>こ</rt></ruby>どもがおおいのを<ruby>見<rt>み</rt></ruby>て、わかりました。きまりは、だれかをこまらせるためではなく、まもるためにあります。「いっしょにかたづけ<em class=\"g\">ましょうか</em>」と、しらない<ruby>人<rt>ひと</rt></ruby>に<ruby>声<rt>こえ</rt></ruby>をかけられました。ふたりでやると、すぐにおわりました。「つぎからは<ruby>手<rt>て</rt></ruby>つだい<em class=\"g\">ましょうか</em>」ときくのは、じぶんからでいいのだとおもいました。",
+ "traduccion": "En el parque hay un cartel que dice «no se puede jugar con la pelota aquí». Al principio pensé por qué. Pero al ver cuántos niños pequeños había, lo entendí. Las normas no están para fastidiar a nadie, sino para proteger. Un desconocido me dijo: «¿recogemos juntos?». Entre los dos acabamos enseguida. Pensé que ofrecerse con un «¿le echo una mano?» está bien hacerlo uno mismo.",
+ "preguntas": [
+  {
+   "p": "なぜ、ボールをつかってはいけないのですか。",
+   "opciones": [
+    "こうえんがせまいから",
+    "ちいさい<ruby>子<rt>こ</rt></ruby>どもがおおいから",
+    "ボールがないから",
+    "きまりだから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "しらない<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "ボールをかして",
+    "いっしょにかたづけ<em class=\"g\">ましょうか</em>",
+    "かえって",
+    "きまりをまもって"
+   ],
+   "correcta": 1
+  }
+ ]
+}
