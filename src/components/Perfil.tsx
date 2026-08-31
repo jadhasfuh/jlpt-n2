@@ -3,8 +3,13 @@ import { useEffect, useState } from "react";
 import { guardarTope, leerProgreso, resumen, topeDiario, type Progreso, type TopeRepaso } from "@/lib/progreso";
 import { BotonesRapidos, useAjustes } from "./Ajustes";
 import { ACCESO_ABIERTO } from "@/lib/acceso";
+import type { Perfil as Cuenta } from "@/lib/sesion";
+import { IcDerecha } from "./Iconos";
+import Link from "next/link";
 
-export function Perfil({ totalPalabras }: { totalPalabras: number }) {
+export function Perfil({ totalPalabras, cuenta, alDia }: {
+  totalPalabras: number; cuenta: Cuenta | null; alDia: boolean;
+}) {
   const [p, setP] = useState<Progreso | null>(null);
   const { tema, cambiarTema } = useAjustes();
 
@@ -74,14 +79,40 @@ export function Perfil({ totalPalabras }: { totalPalabras: number }) {
 
       <h2 className="enc-seccion" style={{ marginTop: 24 }}>Cuenta</h2>
       <section className="tarjeta">
-        <p style={{ marginTop: 0 }}>
-          Todavía no hay cuentas: tu avance se guarda en este dispositivo
-          {ACCESO_ABIERTO ? " y todo el contenido está abierto" : ""}.
-        </p>
-        <p className="tenue" style={{ marginBottom: 0 }}>
-          Cuando lleguen, servirán para sincronizar entre el móvil y el navegador. La
-          sección 人と体 de cada nivel seguirá siendo libre sin registrarse.
-        </p>
+        {cuenta ? (
+          <>
+            <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ fontSize: 14.5, fontWeight: 500 }}>{cuenta.nombre || "Tu cuenta"}</div>
+                <div className="tenue">{cuenta.email}</div>
+              </div>
+              <span className={`pastilla ${alDia ? "acento" : ""}`}>
+                {alDia ? "acceso completo" : "gratuita"}
+              </span>
+            </div>
+            {alDia && cuenta.vence_en && (
+              <p className="tenue" style={{ marginBottom: 0, marginTop: 10 }}>
+                {cuenta.membresia === "cancelada"
+                  ? `Cancelada; te dura hasta el ${fecha(cuenta.vence_en)}.`
+                  : `Se renueva el ${fecha(cuenta.vence_en)}.`}
+              </p>
+            )}
+            <form action="/auth/salir" method="post" style={{ marginTop: 14 }}>
+              <button className="btn" style={{ width: "100%" }}>Salir de la cuenta</button>
+            </form>
+          </>
+        ) : (
+          <>
+            <p style={{ marginTop: 0 }}>
+              Sin cuenta, tu avance se guarda sólo en este navegador
+              {ACCESO_ABIERTO ? " y todo el contenido está abierto" : ""}. Si lo borras
+              o cambias de aparato, se pierde.
+            </p>
+            <Link href="/entrar" className="btn primario" style={{ width: "100%" }}>
+              Entrar o crear cuenta <IcDerecha size={15} />
+            </Link>
+          </>
+        )}
       </section>
 
       <button className="btn" style={{ width: "100%", marginTop: 24 }}
@@ -96,3 +127,6 @@ export function Perfil({ totalPalabras }: { totalPalabras: number }) {
     </>
   );
 }
+
+const fecha = (iso: string) =>
+  new Date(iso).toLocaleDateString("es", { day: "numeric", month: "long", year: "numeric" });

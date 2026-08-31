@@ -78,5 +78,5 @@ export const NUMERAL_NIVEL: Record<Nivel, string> = {
 };
 export const DESC_NIVEL: Record<Nivel, string> = {
   N5: "Los primeros pasos", N4: "Base cotidiana", N3: "El salto intermedio",
-  N2: "Tu examen", N1: "El nivel más alto",
+  N2: "Nivel avanzado", N1: "El nivel más alto",
 };
