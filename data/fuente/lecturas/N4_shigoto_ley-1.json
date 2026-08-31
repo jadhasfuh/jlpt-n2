@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/shigoto/ley-1",
+ "titulo": "<ruby>規則<rt>きそく</rt></ruby>のりゆう",
+ "cuerpo": "<ruby>図書<rt>としょ</rt></ruby>かんには<ruby>細<rt>こま</rt></ruby>かい<ruby>規則<rt>きそく</rt></ruby>がたくさんあります。はじめは、なぜここまで、と<ruby>思<rt>おも</rt></ruby>っていました。でも、<ruby>本<rt>ほん</rt></ruby>が<ruby>盗<rt>ぬす</rt></ruby>まれたことがあると<ruby>聞<rt>き</rt></ruby>いて、<ruby>分<rt>わ</rt></ruby>かりました。<ruby>泥棒<rt>どろぼう</rt></ruby>を<ruby>捕<rt>つか</rt></ruby>まえるためではなく、みんなが<ruby>気持<rt>きも</rt></ruby>ちよく<ruby>使<rt>つか</rt></ruby>えるようにするためです。<ruby>法律<rt>ほうりつ</rt></ruby>も<ruby>同<rt>おな</rt></ruby>じでしょう。まもる<ruby>人<rt>ひと</rt></ruby>をしばるのではなく、まもられる<ruby>人<rt>ひと</rt></ruby>をふやす<em class=\"g\">ようにする</em>ものです。だから、わたしも<ruby>時間<rt>じかん</rt></ruby>どおりに<ruby>返<rt>かえ</rt></ruby>す<em class=\"g\">ようにして</em>います。",
+ "traduccion": "En la biblioteca hay muchísimas normas detalladas. Al principio pensaba que se pasaban. Pero al oír que una vez robaron libros, lo entendí. No están para atrapar ladrones, sino para que todos podamos usarla a gusto. Con las leyes debe de pasar lo mismo. No están para atar a quien las cumple, sino para que haya más gente protegida. Por eso yo procuro devolver los libros a tiempo.",
+ "preguntas": [
+  {
+   "p": "<ruby>規則<rt>きそく</rt></ruby>がおおい<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>泥棒<rt>どろぼう</rt></ruby>を<ruby>捕<rt>つか</rt></ruby>まえるため",
+    "みんなが<ruby>気持<rt>きも</rt></ruby>ちよく<ruby>使<rt>つか</rt></ruby>えるようにするため",
+    "<ruby>図書<rt>としょ</rt></ruby>かんがふるいから",
+    "<ruby>法律<rt>ほうりつ</rt></ruby>だから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていますか。",
+   "opciones": [
+    "<ruby>規則<rt>きそく</rt></ruby>をやぶる",
+    "<ruby>時間<rt>じかん</rt></ruby>どおりに<ruby>返<rt>かえ</rt></ruby>す<em class=\"g\">ようにして</em>いる",
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>盗<rt>ぬす</rt></ruby>む",
+    "<ruby>図書<rt>としょ</rt></ruby>かんへ<ruby>行<rt>い</rt></ruby>かない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

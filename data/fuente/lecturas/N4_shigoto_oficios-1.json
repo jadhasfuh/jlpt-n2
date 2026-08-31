@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/shigoto/oficios-1",
+ "titulo": "<ruby>記者<rt>きしゃ</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>",
+ "cuerpo": "<ruby>新聞<rt>しんぶん</rt></ruby>の<ruby>記者<rt>きしゃ</rt></ruby>をしている<ruby>友<rt>とも</rt></ruby>だちがいます。<ruby>事故<rt>じこ</rt></ruby><em class=\"g\">など</em>のニュースがあると、<ruby>夜<rt>よる</rt></ruby>でも<ruby>出<rt>で</rt></ruby>かけます。<ruby>警察<rt>けいさつ</rt></ruby>やびょういん<em class=\"g\">など</em>、いろいろな<ruby>場所<rt>ばしょ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くそうです。たいへん<em class=\"g\">らしい</em>ですが、やめるつもりはない<em class=\"g\">らしい</em>です。「<ruby>書<rt>か</rt></ruby>かなければ、なかったことになってしまう」と<ruby>言<rt>い</rt></ruby>っていました。アナウンサーのように<ruby>顔<rt>かお</rt></ruby>が<ruby>出<rt>で</rt></ruby>るわけではありませんが、だれかがきちんと<ruby>記<rt>しる</rt></ruby>しているから、わたしたちは<ruby>知<rt>し</rt></ruby>ることができるのです。",
+ "traduccion": "Tengo un amigo que trabaja de periodista en un diario. Cuando hay noticias de accidentes y cosas así, sale aunque sea de noche. Va a sitios de todo tipo: comisarías, hospitales. Parece que es duro, pero por lo visto no piensa dejarlo. Decía: «si no lo escribes, es como si no hubiera pasado». No sale su cara como la de los presentadores, pero es porque alguien lo anota bien por lo que nosotros podemos enterarnos.",
+ "preguntas": [
+  {
+   "p": "<ruby>事故<rt>じこ</rt></ruby>のニュースがあると、どうしますか。",
+   "opciones": [
+    "<ruby>朝<rt>あさ</rt></ruby>まで<ruby>待<rt>ま</rt></ruby>つ",
+    "<ruby>夜<rt>よる</rt></ruby>でも<ruby>出<rt>で</rt></ruby>かける",
+    "<ruby>電話<rt>でんわ</rt></ruby>する",
+    "<ruby>書<rt>か</rt></ruby>かない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>友<rt>とも</rt></ruby>だちは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。",
+   "opciones": [
+    "たいへんだからやめる",
+    "<ruby>書<rt>か</rt></ruby>かなければなかったことになる",
+    "アナウンサーになりたい",
+    "<ruby>警察<rt>けいさつ</rt></ruby>ではたらきたい"
+   ],
+   "correcta": 1
+  }
+ ]
+}

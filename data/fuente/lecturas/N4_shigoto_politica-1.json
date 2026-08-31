@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/shigoto/politica-1",
+ "titulo": "えらぶということ",
+ "cuerpo": "<ruby>政治<rt>せいじ</rt></ruby>のはなしは、<ruby>家<rt>いえ</rt></ruby>ではあまりしません。でも、<ruby>祖父<rt>そふ</rt></ruby>が<ruby>入院<rt>にゅういん</rt></ruby>したとき、びょういんのしくみについて<ruby>考<rt>かんが</rt></ruby>え<em class=\"g\">てみ</em>ました。だれがきめているのか、どうしてこうなっているのか。しらべると、<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>い</rt></ruby>う<em class=\"g\">より</em>、まず<ruby>知<rt>し</rt></ruby>るほうがさきだと<ruby>分<rt>わ</rt></ruby>かりました。<ruby>選<rt>えら</rt></ruby>ぶときに<ruby>何<rt>なに</rt></ruby>も<ruby>知<rt>し</rt></ruby>らないでいるのは、だれかにまかせるのと<ruby>同<rt>おな</rt></ruby>じです。<ruby>次<rt>つぎ</rt></ruby>は、じぶんで<ruby>読<rt>よ</rt></ruby>んでからきめ<em class=\"g\">てみ</em>ようと<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "De política en casa no hablamos mucho. Pero cuando mi abuelo ingresó en el hospital, probé a pensar en cómo funciona el sistema sanitario. Quién decide, por qué es así. Al informarme entendí que, antes que quejarse, lo primero es saber. Ir a elegir sin saber nada equivale a dejar que decida otro. La próxima vez pienso probar a leer yo antes de decidir.",
+ "preguntas": [
+  {
+   "p": "なぜ、しくみについて<ruby>考<rt>かんが</rt></ruby>えましたか。",
+   "opciones": [
+    "じゅぎょうがあったから",
+    "<ruby>祖父<rt>そふ</rt></ruby>が<ruby>入院<rt>にゅういん</rt></ruby>したから",
+    "<ruby>選<rt>えら</rt></ruby>ぶ<ruby>日<rt>ひ</rt></ruby>だから",
+    "<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>がさきだと<ruby>分<rt>わ</rt></ruby>かりましたか。",
+   "opciones": [
+    "<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>い</rt></ruby>うこと",
+    "まず<ruby>知<rt>し</rt></ruby>ること",
+    "まかせること",
+    "<ruby>選<rt>えら</rt></ruby>ばないこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/shigoto/economia-1",
+ "titulo": "<ruby>輸出<rt>ゆしゅつ</rt></ruby>と<ruby>輸入<rt>ゆにゅう</rt></ruby>",
+ "cuerpo": "この<ruby>都<rt>みやこ</rt></ruby>のまわりには、<ruby>工業<rt>こうぎょう</rt></ruby>の<ruby>町<rt>まち</rt></ruby>がいくつもあります。<ruby>生産<rt>せいさん</rt></ruby>したものを<ruby>輸出<rt>ゆしゅつ</rt></ruby>し、たりないものを<ruby>輸入<rt>ゆにゅう</rt></ruby>します。むかしは<ruby>産業<rt>さんぎょう</rt></ruby>のちゅうしんでしたが、いまは<ruby>競争<rt>きょうそう</rt></ruby>がきびしいそうです。「<ruby>昔<rt>むかし</rt></ruby>は<em class=\"g\">そんなに</em><ruby>苦<rt>くる</rt></ruby>しくなかった」と、<ruby>近所<rt>きんじょ</rt></ruby>のおじいさんが<ruby>話<rt>はな</rt></ruby>してくれました。それでも、<em class=\"g\">そんなに</em>わるいことばかりではありません。あたらしいしごとをはじめる<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>も<ruby>増<rt>ふ</rt></ruby>えています。",
+ "traduccion": "Alrededor de esta capital hay varias ciudades industriales. Exportan lo que producen e importan lo que les falta. Antes era el centro de la industria, pero ahora dicen que la competencia es dura. Un señor mayor del barrio me contó: «antes no se pasaba tan mal». Aun así, no es que todo sea tan malo. También está aumentando la gente joven que monta negocios nuevos.",
+ "preguntas": [
+  {
+   "p": "おじいさんは<ruby>何<rt>なに</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しましたか。",
+   "opciones": [
+    "いまのほうがいい",
+    "<ruby>昔<rt>むかし</rt></ruby>は<em class=\"g\">そんなに</em><ruby>苦<rt>くる</rt></ruby>しくなかった",
+    "<ruby>競争<rt>きょうそう</rt></ruby>がない",
+    "<ruby>輸出<rt>ゆしゅつ</rt></ruby>がおおい"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いま、<ruby>増<rt>ふ</rt></ruby>えているものは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>工業<rt>こうぎょう</rt></ruby>の<ruby>町<rt>まち</rt></ruby>",
+    "あたらしいしごとをはじめる<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>輸入<rt>ゆにゅう</rt></ruby>",
+    "<ruby>産業<rt>さんぎょう</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

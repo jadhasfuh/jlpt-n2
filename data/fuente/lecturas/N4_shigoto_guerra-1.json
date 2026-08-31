@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/shigoto/guerra-1",
+ "titulo": "<ruby>安心<rt>あんしん</rt></ruby>できる<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "そぼは<ruby>戦争<rt>せんそう</rt></ruby>を<ruby>知<rt>し</rt></ruby>っています。はなし<ruby>出<rt>だ</rt></ruby>すと、いつも<ruby>同<rt>おな</rt></ruby>じところで<ruby>止<rt>と</rt></ruby>まります。<ruby>撃<rt>う</rt></ruby>つ<ruby>音<rt>おと</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いた<ruby>夜<rt>よる</rt></ruby>のことは、<ruby>言<rt>い</rt></ruby>い<ruby>出<rt>だ</rt></ruby>せないようです。「<ruby>安心<rt>あんしん</rt></ruby>してねむれるのが、いちばんのしあわせだよ」と<ruby>言<rt>い</rt></ruby>います。わたしにはあたりまえのことですが、そぼにとってはそうではなかったのです。その<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いてから、よるふとんに<ruby>入<rt>はい</rt></ruby>るたびに、すこし<ruby>考<rt>かんが</rt></ruby>え<ruby>出<rt>だ</rt></ruby>すようになりました。",
+ "traduccion": "Mi abuela conoció la guerra. Cuando empieza a contarlo, siempre se para en el mismo punto. Parece que no consigue sacar lo de la noche en que oyó los disparos. Dice: «poder dormir tranquila es la mayor felicidad». Para mí es algo obvio, pero para ella no lo era. Desde que oí eso, cada vez que me meto en el futón me pongo a pensarlo un poco.",
+ "preguntas": [
+  {
+   "p": "そぼは、どこで<ruby>話<rt>はなし</rt></ruby>が<ruby>止<rt>と</rt></ruby>まりますか。",
+   "opciones": [
+    "はじめ",
+    "<ruby>撃<rt>う</rt></ruby>つ<ruby>音<rt>おと</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いた<ruby>夜<rt>よる</rt></ruby>のところ",
+    "さいご",
+    "<ruby>止<rt>と</rt></ruby>まらない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "そぼにとっていちばんのしあわせは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>戦争<rt>せんそう</rt></ruby>を<ruby>知<rt>し</rt></ruby>ること",
+    "<ruby>安心<rt>あんしん</rt></ruby>してねむれること",
+    "<ruby>話<rt>はな</rt></ruby>すこと",
+    "ふとんに<ruby>入<rt>はい</rt></ruby>ること"
+   ],
+   "correcta": 1
+  }
+ ]
+}
