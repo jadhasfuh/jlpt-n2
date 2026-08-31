@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/basho/ubicacion-2",
+ "titulo": "<ruby>積<rt>つ</rt></ruby>もっていくもの",
+ "cuerpo": "ひきこしのとき、はこを<ruby>積<rt>つ</rt></ruby>んでいるうちに、<ruby>重<rt>かさ</rt></ruby>なった<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>が<ruby>出<rt>で</rt></ruby>てきました。<ruby>学<rt>まな</rt></ruby>んだ<ruby>本<rt>ほん</rt></ruby>、<ruby>残<rt>のこ</rt></ruby>しておいた<ruby>手紙<rt>てがみ</rt></ruby>。ぜんぶ<ruby>持<rt>も</rt></ruby>っていくのは<em class=\"g\">あまりにも</em><ruby>重<rt>おも</rt></ruby>すぎます。でも、すてるのも<em class=\"g\">あまりにも</em>おしいです。けっきょく、<ruby>半分<rt>はんぶん</rt></ruby>だけ<ruby>箱<rt>はこ</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>して、のこりは<ruby>写真<rt>しゃしん</rt></ruby>にとってから<ruby>手<rt>て</rt></ruby>ばなしました。<ruby>物<rt>もの</rt></ruby>をへらすことは、<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>を<ruby>諦<rt>あきら</rt></ruby>めることではないと<ruby>信<rt>しん</rt></ruby>じています。かたちがかわっても、たいせつなことは<ruby>伝<rt>つた</rt></ruby>わるはずです。",
+ "traduccion": "Al mudarme, mientras apilaba las cajas, fueron saliendo recuerdos amontonados. Los libros con los que estudié, las cartas que había guardado. Llevármelo todo pesaba demasiado. Pero tirarlo daba demasiada pena. Al final devolví solo la mitad a las cajas y del resto me deshice después de fotografiarlo. Creo que reducir las cosas no es renunciar a los recuerdos. Aunque cambien de forma, lo que importa se transmite igual.",
+ "preguntas": [
+  {
+   "p": "けっきょく、どうしましたか。",
+   "opciones": [
+    "ぜんぶ<ruby>持<rt>も</rt></ruby>っていった",
+    "<ruby>半分<rt>はんぶん</rt></ruby>だけ<ruby>残<rt>のこ</rt></ruby>し、のこりは<ruby>写真<rt>しゃしん</rt></ruby>にとった",
+    "ぜんぶすてた",
+    "<ruby>何<rt>なに</rt></ruby>もしなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>物<rt>もの</rt></ruby>をへらすことについて、どう<ruby>信<rt>しん</rt></ruby>じていますか。",
+   "opciones": [
+    "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>を<ruby>諦<rt>あきら</rt></ruby>めることだ",
+    "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>を<ruby>諦<rt>あきら</rt></ruby>めることではない",
+    "よくないことだ",
+    "かんたんなことだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}
