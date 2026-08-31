@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kurashi/casa-2",
+ "titulo": "<ruby>屋根<rt>やね</rt></ruby>の<ruby>下<rt>した</rt></ruby>で",
+ "cuerpo": "<ruby>引越<rt>ひっこ</rt></ruby>しをするかどうか、まだ<ruby>決<rt>き</rt></ruby>めていません。<ruby>家賃<rt>やちん</rt></ruby>のやすい<ruby>地下<rt>ちか</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>にするか、<em class=\"g\">それとも</em><ruby>日<rt>ひ</rt></ruby>のあたる<ruby>二<rt>に</rt></ruby><ruby>階<rt>かい</rt></ruby>にするか。<ruby>余裕<rt>よゆう</rt></ruby>があれば<ruby>後者<rt>こうしゃ</rt></ruby>をえらびたいところです。<ruby>屋根<rt>やね</rt></ruby>のかたちや<ruby>窓<rt>まど</rt></ruby>の<ruby>向<rt>む</rt></ruby>きで、<ruby>同<rt>おな</rt></ruby>じひろさでも<ruby>住<rt>す</rt></ruby>み<ruby>心地<rt>ごこち</rt></ruby>はまるでちがいます。<ruby>今<rt>いま</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>は<ruby>故郷<rt>ふるさと</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>に<ruby>似<rt>に</rt></ruby>ていて、<ruby>雨<rt>あめ</rt></ruby>の<ruby>音<rt>おと</rt></ruby>のひびき<ruby>方<rt>かた</rt></ruby>まで<ruby>同<rt>おな</rt></ruby>じです。やすさをとるか、<em class=\"g\">それとも</em>その<ruby>音<rt>おと</rt></ruby>をとるか。まだ<ruby>答<rt>こた</rt></ruby>えは<ruby>出<rt>で</rt></ruby>ていません。",
+ "traduccion": "Todavía no he decidido si mudarme. ¿El piso barato del sótano, o el segundo, donde da el sol? Si tuviera margen elegiría el segundo. Según la forma del tejado y la orientación de las ventanas, con los mismos metros se vive de manera completamente distinta. Mi piso actual se parece a la casa de mi pueblo: hasta el modo en que resuena la lluvia es igual. ¿Me quedo con lo barato, o me quedo con ese sonido? Todavía no tengo respuesta.",
+ "preguntas": [
+  {
+   "p": "<ruby>余裕<rt>よゆう</rt></ruby>があれば、どちらをえらびたいですか。",
+   "opciones": [
+    "<ruby>地下<rt>ちか</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>",
+    "<ruby>日<rt>ひ</rt></ruby>のあたる<ruby>二<rt>に</rt></ruby><ruby>階<rt>かい</rt></ruby>",
+    "どちらでもいい",
+    "<ruby>故郷<rt>ふるさと</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>今<rt>いま</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>の<ruby>何<rt>なに</rt></ruby>が<ruby>故郷<rt>ふるさと</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じですか。",
+   "opciones": [
+    "ひろさ",
+    "<ruby>雨<rt>あめ</rt></ruby>の<ruby>音<rt>おと</rt></ruby>のひびき<ruby>方<rt>かた</rt></ruby>",
+    "<ruby>家賃<rt>やちん</rt></ruby>",
+    "<ruby>屋根<rt>やね</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

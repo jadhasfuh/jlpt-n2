@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kurashi/comida-1",
+ "titulo": "<ruby>田<rt>た</rt></ruby>んぼの<ruby>風景<rt>ふうけい</rt></ruby>",
+ "cuerpo": "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>のまわりは、ぜんぶ<ruby>田<rt>た</rt></ruby>んぼです。<ruby>稲<rt>いね</rt></ruby>がのびる<ruby>季節<rt>きせつ</rt></ruby>は、<ruby>緑<rt>みどり</rt></ruby>のなみのように<ruby>見<rt>み</rt></ruby>えます。<ruby>米<rt>こめ</rt></ruby>ができるまでには<ruby>一年<rt>いちねん</rt></ruby>かかります。<ruby>粉<rt>こな</rt></ruby>にする<ruby>麦<rt>むぎ</rt></ruby>とちがって、<ruby>米<rt>こめ</rt></ruby>はそのまま<ruby>飯<rt>めし</rt></ruby>になります。<ruby>油<rt>あぶら</rt></ruby>も<ruby>酒<rt>さけ</rt></ruby>も、もとははたけでとれた<ruby>実<rt>み</rt></ruby>からできています。<em class=\"g\">ところで</em>、<ruby>茶<rt>ちゃ</rt></ruby>の<ruby>葉<rt>は</rt></ruby>もこのあたりでとれるそうです。<ruby>品<rt>しな</rt></ruby>のよさは<ruby>土<rt>つち</rt></ruby>と<ruby>水<rt>みず</rt></ruby>できまると、<ruby>祖父<rt>そふ</rt></ruby>はよく<ruby>話<rt>はな</rt></ruby>していました。",
+ "traduccion": "Alrededor de la casa de mi abuelo es todo arrozales. En la estación en que crece el arroz, parece un oleaje verde. Hasta que se obtiene el arroz pasa un año. A diferencia del trigo, que hay que moler, el arroz se convierte directamente en comida. El aceite y el sake también salen, en origen, de frutos del campo. Por cierto, dicen que la hoja de té también se cultiva por aquí. Mi abuelo solía decir que la calidad la determinan la tierra y el agua.",
+ "preguntas": [
+  {
+   "p": "<ruby>米<rt>こめ</rt></ruby>ができるまでにどのくらいかかりますか。",
+   "opciones": [
+    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
+    "<ruby>半年<rt>はんとし</rt></ruby>",
+    "<ruby>一年<rt>いちねん</rt></ruby>",
+    "<ruby>二年<rt>にねん</rt></ruby>"
+   ],
+   "correcta": 2
+  },
+  {
+   "p": "<ruby>祖父<rt>そふ</rt></ruby>は<ruby>品<rt>しな</rt></ruby>のよさが<ruby>何<rt>なに</rt></ruby>できまると<ruby>話<rt>はな</rt></ruby>していましたか。",
+   "opciones": [
+    "<ruby>季節<rt>きせつ</rt></ruby>",
+    "<ruby>土<rt>つち</rt></ruby>と<ruby>水<rt>みず</rt></ruby>",
+    "<ruby>手<rt>て</rt></ruby>あて",
+    "<ruby>値段<rt>ねだん</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

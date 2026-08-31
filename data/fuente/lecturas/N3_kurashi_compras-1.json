@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kurashi/compras-1",
+ "titulo": "<ruby>市場<rt>いちば</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>",
+ "cuerpo": "<ruby>朝<rt>あさ</rt></ruby>の<ruby>市場<rt>いちば</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。<ruby>商人<rt>しょうにん</rt></ruby>たちが<ruby>声<rt>こえ</rt></ruby>をかけあいながら、<ruby>商品<rt>しょうひん</rt></ruby>を<ruby>包<rt>つつ</rt></ruby>んでならべています。<ruby>製品<rt>せいひん</rt></ruby>のはこには<ruby>注文<rt>ちゅうもん</rt></ruby>の<ruby>紙<rt>かみ</rt></ruby>がはってあり、<ruby>配達<rt>はいたつ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つ<ruby>小包<rt>こづつみ</rt></ruby>も<ruby>積<rt>つ</rt></ruby>まれていました。<ruby>販売<rt>はんばい</rt></ruby>のしごとは、ただ<ruby>売<rt>う</rt></ruby>ればいい<em class=\"g\">わけではない</em>ようです。<ruby>支店<rt>してん</rt></ruby>をふやすより、この<ruby>場<rt>ば</rt></ruby>をまもるほうがたいせつだと<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>話<rt>はな</rt></ruby>していました。ただ<ruby>安<rt>やす</rt></ruby>ければいい<em class=\"g\">わけではない</em>、と<ruby>客<rt>きゃく</rt></ruby>のほうも<ruby>分<rt>わ</rt></ruby>かっているのでしょう。",
+ "traduccion": "Fui al mercado por la mañana. Los comerciantes se llamaban unos a otros mientras envolvían y colocaban la mercancía. Las cajas de producto llevaban pegadas las hojas de pedido, y había apilados paquetes esperando el reparto. Parece que el trabajo de vender no consiste solo en vender. Un tendero decía que, más que abrir sucursales, lo importante es cuidar este sitio. Y los clientes también deben de saber que no todo consiste en que sea barato.",
+ "preguntas": [
+  {
+   "p": "<ruby>市場<rt>いちば</rt></ruby>では<ruby>何<rt>なに</rt></ruby>が<ruby>積<rt>つ</rt></ruby>まれていましたか。",
+   "opciones": [
+    "<ruby>野菜<rt>やさい</rt></ruby>だけ",
+    "<ruby>配達<rt>はいたつ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つ<ruby>小包<rt>こづつみ</rt></ruby>",
+    "<ruby>紙<rt>かみ</rt></ruby>",
+    "<ruby>支店<rt>してん</rt></ruby>のはこ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>がたいせつだと<ruby>話<rt>はな</rt></ruby>していましたか。",
+   "opciones": [
+    "<ruby>支店<rt>してん</rt></ruby>をふやすこと",
+    "この<ruby>場<rt>ば</rt></ruby>をまもること",
+    "<ruby>安<rt>やす</rt></ruby>く<ruby>売<rt>う</rt></ruby>ること",
+    "<ruby>注文<rt>ちゅうもん</rt></ruby>をふやすこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

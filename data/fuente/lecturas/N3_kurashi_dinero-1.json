@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kurashi/dinero-1",
+ "titulo": "<ruby>損<rt>そん</rt></ruby>と<ruby>得<rt>とく</rt></ruby>",
+ "cuerpo": "<ruby>値<rt>ね</rt></ruby>だんだけを<ruby>見<rt>み</rt></ruby>て<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>をすると、けっきょく<ruby>損<rt>そん</rt></ruby>をすることがあります。<ruby>安<rt>やす</rt></ruby>いものをかって、すぐこわれる。<ruby>結局<rt>けっきょく</rt></ruby>、もう<ruby>一度<rt>いちど</rt></ruby><ruby>買<rt>か</rt></ruby>うことになります。<em class=\"g\">わざわざ</em>とおくの<ruby>店<rt>みせ</rt></ruby>まで<ruby>行<rt>い</rt></ruby>って、<ruby>同<rt>おな</rt></ruby>じものを<ruby>十<rt>じゅう</rt></ruby><ruby>円<rt>えん</rt></ruby>やすく<ruby>買<rt>か</rt></ruby>ったこともあります。でも、そのぶん<ruby>時間<rt>じかん</rt></ruby>と<ruby>電車<rt>でんしゃ</rt></ruby><ruby>代<rt>だい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>いました。<em class=\"g\">わざと</em><ruby>高<rt>たか</rt></ruby>いものをえらぶ<ruby>必要<rt>ひつよう</rt></ruby>はありませんが、<ruby>長<rt>なが</rt></ruby>く<ruby>使<rt>つか</rt></ruby>えるかどうかで<ruby>考<rt>かんが</rt></ruby>えるようになりました。<ruby>豊<rt>ゆた</rt></ruby>かさとは、<ruby>持<rt>も</rt></ruby>っている<ruby>金<rt>かね</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>ではなく、<ruby>選<rt>えら</rt></ruby>び<ruby>方<rt>かた</rt></ruby>のことだと<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "Si compras mirando solo el precio, a veces acabas perdiendo. Compras lo barato y se rompe enseguida. Al final tienes que volver a comprarlo. También me ha pasado ir expresamente hasta una tienda lejana para comprar lo mismo diez yenes más barato. Pero a cambio gasté tiempo y el billete de tren. No hace falta elegir a propósito lo caro, pero he empezado a pensar en si va a durar. Creo que la riqueza no es la cantidad de dinero que tienes, sino tu manera de elegir.",
+ "preguntas": [
+  {
+   "p": "<ruby>安<rt>やす</rt></ruby>いものを<ruby>買<rt>か</rt></ruby>うと、どうなることがありますか。",
+   "opciones": [
+    "<ruby>得<rt>とく</rt></ruby>をする",
+    "すぐこわれてもう<ruby>一度<rt>いちど</rt></ruby><ruby>買<rt>か</rt></ruby>うことになる",
+    "<ruby>長<rt>なが</rt></ruby>く<ruby>使<rt>つか</rt></ruby>える",
+    "かわらない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>豊<rt>ゆた</rt></ruby>かさとは<ruby>何<rt>なに</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>持<rt>も</rt></ruby>っている<ruby>金<rt>かね</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
+    "<ruby>選<rt>えら</rt></ruby>び<ruby>方<rt>かた</rt></ruby>",
+    "<ruby>安<rt>やす</rt></ruby>く<ruby>買<rt>か</rt></ruby>うこと",
+    "とおくへ<ruby>行<rt>い</rt></ruby>くこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

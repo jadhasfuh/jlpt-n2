@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/kurashi/cocina-1",
+ "titulo": "<ruby>新鮮<rt>しんせん</rt></ruby>なうちに",
+ "cuerpo": "<ruby>祭<rt>まつり</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>に、<ruby>近所<rt>きんじょ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>から<ruby>野菜<rt>やさい</rt></ruby>をもらいました。とれたてで<ruby>新鮮<rt>しんせん</rt></ruby>です。すぐに<ruby>炊<rt>た</rt></ruby>いて、あまったぶんは<ruby>蒸<rt>む</rt></ruby>しておきました。<ruby>煮<rt>に</rt></ruby>えるまでの<ruby>時間<rt>じかん</rt></ruby>に、のこりをきざんで<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>に<ruby>入<rt>い</rt></ruby>れます。こうしておけば、<ruby>腐<rt>くさ</rt></ruby>らせずにすみます。<ruby>好<rt>この</rt></ruby>みで<ruby>塩<rt>しお</rt></ruby>をふるだけで、<ruby>味<rt>あじ</rt></ruby>は<ruby>十分<rt>じゅうぶん</rt></ruby>です。<em class=\"g\">つまり</em>、いいざいりょうにはあまり<ruby>手<rt>て</rt></ruby>を<ruby>加<rt>くわ</rt></ruby>えないほうがいいということです。<ruby>盛<rt>も</rt></ruby>りつけただけの<ruby>皿<rt>さら</rt></ruby>が、その<ruby>日<rt>ひ</rt></ruby>いちばんおいしかったです。",
+ "traduccion": "El día de la fiesta un vecino me dio verdura. Recién recogida y fresquísima. La cocí enseguida y lo que sobró lo dejé al vapor. Mientras se hacía, piqué el resto y lo metí en la nevera. Haciendo esto se evita que se eche a perder. Con echarle sal al gusto, el sabor ya basta. Es decir: a los buenos ingredientes conviene no tocarlos demasiado. El plato en el que solo emplaté fue el más rico de aquel día.",
+ "preguntas": [
+  {
+   "p": "あまった<ruby>野菜<rt>やさい</rt></ruby>をどうしましたか。",
+   "opciones": [
+    "すてた",
+    "<ruby>蒸<rt>む</rt></ruby>しておいた",
+    "そのままおいた",
+    "あげた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いいざいりょうについて、どう<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "たくさん<ruby>手<rt>て</rt></ruby>を<ruby>加<rt>くわ</rt></ruby>えるべきだ",
+    "あまり<ruby>手<rt>て</rt></ruby>を<ruby>加<rt>くわ</rt></ruby>えないほうがいい",
+    "<ruby>塩<rt>しお</rt></ruby>をたくさん<ruby>使<rt>つか</rt></ruby>う",
+    "すぐ<ruby>食<rt>た</rt></ruby>べるべきだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}
