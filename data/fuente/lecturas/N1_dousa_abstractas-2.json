@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/dousa/abstractas-2",
+ "titulo": "<ruby>昇進<rt>しょうしん</rt></ruby>のあとで",
+ "cuerpo": "<ruby>創立<rt>そうりつ</rt></ruby><ruby>五十年<rt>ごじゅうねん</rt></ruby>の<ruby>会社<rt>かいしゃ</rt></ruby>で、<ruby>課長<rt>かちょう</rt></ruby>に<ruby>任命<rt>にんめい</rt></ruby>されました。<ruby>昇進<rt>しょうしん</rt></ruby>はうれしいことのはずなのに、<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>直面<rt>ちょくめん</rt></ruby>したのは<ruby>古<rt>ふる</rt></ruby>い<ruby>規則<rt>きそく</rt></ruby>の<ruby>山<rt>やま</rt></ruby>でした。<ruby>制定<rt>せいてい</rt></ruby>された<ruby>当時<rt>とうじ</rt></ruby>は<ruby>意味<rt>いみ</rt></ruby>があったのでしょうが、いまでは<ruby>内容<rt>ないよう</rt></ruby>が<ruby>重複<rt>ちょうふく</rt></ruby>しているものばかりです。<ruby>統合<rt>とうごう</rt></ruby>しようとすると、かならず<ruby>反対<rt>はんたい</rt></ruby>が<ruby>出<rt>で</rt></ruby>ます。<ruby>相手<rt>あいて</rt></ruby>が<ruby>上司<rt>じょうし</rt></ruby><em class=\"g\">といえども</em>、<ruby>現場<rt>げんば</rt></ruby>が<ruby>困<rt>こま</rt></ruby>っている<ruby>以上<rt>いじょう</rt></ruby>は<ruby>引<rt>ひ</rt></ruby>き<ruby>下<rt>さ</rt></ruby>がれません。とはいえ<ruby>対決<rt>たいけつ</rt></ruby>してもいいことはないので、<ruby>折衷<rt>せっちゅう</rt></ruby><ruby>案<rt>あん</rt></ruby>を<ruby>三<rt>みっ</rt></ruby>つ<ruby>用意<rt>ようい</rt></ruby>して<ruby>持<rt>も</rt></ruby>っていきました。<ruby>譲歩<rt>じょうほ</rt></ruby>できる<ruby>線<rt>せん</rt></ruby>を<ruby>先<rt>さき</rt></ruby>に<ruby>決<rt>き</rt></ruby>めておくと、<ruby>妥協<rt>だきょう</rt></ruby>が<ruby>負<rt>ま</rt></ruby>けに<ruby>見<rt>み</rt></ruby>えなくなります。<ruby>目標<rt>もくひょう</rt></ruby>を<ruby>達成<rt>たっせい</rt></ruby>するというのは、<ruby>正<rt>ただ</rt></ruby>しさを<ruby>通<rt>とお</rt></ruby>すことではなく、<ruby>物事<rt>ものごと</rt></ruby>をうごかすことなのだと<ruby>学<rt>まな</rt></ruby>びました。",
+ "traduccion": "Me nombraron jefe de sección en una empresa con cincuenta años de historia. El ascenso debería ser motivo de alegría, pero lo primero con lo que me enfrenté fue una montaña de normas viejas. Cuando se promulgaron seguramente tenían sentido, pero hoy son todas contenidos que se solapan. En cuanto intentas unificarlas, aparece la oposición sin falta. Aunque el otro sea un superior, mientras la gente del taller lo esté pasando mal no puedo echarme atrás. Dicho eso, enfrentarse no trae nada bueno, así que preparé tres propuestas de compromiso y me presenté con ellas. Si decides de antemano hasta dónde puedes ceder, transigir deja de parecer una derrota. Aprendí que cumplir un objetivo no consiste en imponer lo correcto, sino en conseguir que las cosas se muevan.",
+ "preguntas": [
+  {
+   "p": "<ruby>昇進<rt>しょうしん</rt></ruby>して<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>直面<rt>ちょくめん</rt></ruby>したのは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>部下<rt>ぶか</rt></ruby>の<ruby>不満<rt>ふまん</rt></ruby>",
+    "<ruby>古<rt>ふる</rt></ruby>い<ruby>規則<rt>きそく</rt></ruby>の<ruby>山<rt>やま</rt></ruby>",
+    "<ruby>お金<rt>かね</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>",
+    "<ruby>仕事<rt>しごと</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>妥協<rt>だきょう</rt></ruby>が<ruby>負<rt>ま</rt></ruby>けに<ruby>見<rt>み</rt></ruby>えなくなるのは、どうしたときですか。",
+   "opciones": [
+    "<ruby>相手<rt>あいて</rt></ruby>が<ruby>上司<rt>じょうし</rt></ruby>のとき",
+    "<ruby>譲歩<rt>じょうほ</rt></ruby>できる<ruby>線<rt>せん</rt></ruby>を<ruby>先<rt>さき</rt></ruby>に<ruby>決<rt>き</rt></ruby>めておいたとき",
+    "<ruby>対決<rt>たいけつ</rt></ruby>したとき",
+    "<ruby>規則<rt>きそく</rt></ruby>を<ruby>廃止<rt>はいし</rt></ruby>したとき"
+   ],
+   "correcta": 1
+  }
+ ]
+}

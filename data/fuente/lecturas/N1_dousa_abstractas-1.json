@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/dousa/abstractas-1",
+ "titulo": "<ruby>交渉<rt>こうしょう</rt></ruby>の<ruby>席<rt>せき</rt></ruby>で",
+ "cuerpo": "<ruby>二<rt>ふた</rt></ruby>つの<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>合併<rt>がっぺい</rt></ruby>をめぐる<ruby>交渉<rt>こうしょう</rt></ruby>に、<ruby>記録<rt>きろく</rt></ruby><ruby>係<rt>がかり</rt></ruby>として<ruby>立<rt>た</rt></ruby>ち<ruby>会<rt>あ</rt></ruby>いました。<ruby>費用<rt>ひよう</rt></ruby>の<ruby>削減<rt>さくげん</rt></ruby>が<ruby>目的<rt>もくてき</rt></ruby>だと<ruby>説明<rt>せつめい</rt></ruby>されていましたが、<ruby>現場<rt>げんば</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>にとっては<ruby>仕事<rt>しごと</rt></ruby>がなくなるという<ruby>話<rt>はなし</rt></ruby>です。<ruby>相手<rt>あいて</rt></ruby>の<ruby>代表<rt>だいひょう</rt></ruby>は、<ruby>必要<rt>ひつよう</rt></ruby><em class=\"g\">とあれば</em><ruby>全<rt>ぜん</rt></ruby><ruby>部門<rt>ぶもん</rt></ruby>の<ruby>見直<rt>みなお</rt></ruby>しも<ruby>辞<rt>じ</rt></ruby>さないと<ruby>言<rt>い</rt></ruby>いました。こちらの<ruby>部長<rt>ぶちょう</rt></ruby>は<ruby>一歩<rt>いっぽ</rt></ruby>も<ruby>後退<rt>こうたい</rt></ruby>しないと<em class=\"g\">とばかりに</em><ruby>腕<rt>うで</rt></ruby>を<ruby>組<rt>く</rt></ruby>んだままです。<ruby>圧迫<rt>あっぱく</rt></ruby>のような<ruby>沈黙<rt>ちんもく</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>きました。<ruby>第三者<rt>だいさんしゃ</rt></ruby>が<ruby>介入<rt>かいにゅう</rt></ruby>して、ようやく<ruby>負担<rt>ふたん</rt></ruby>の<ruby>軽減<rt>けいげん</rt></ruby>という<ruby>案<rt>あん</rt></ruby>が<ruby>出<rt>で</rt></ruby>ます。だれかの<ruby>犠牲<rt>ぎせい</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>成<rt>な</rt></ruby>り<ruby>立<rt>た</rt></ruby>つ<ruby>合意<rt>ごうい</rt></ruby>は、<ruby>確立<rt>かくりつ</rt></ruby>したように<ruby>見<rt>み</rt></ruby>えても<ruby>長<rt>なが</rt></ruby>くは<ruby>続<rt>つづ</rt></ruby>きません。<ruby>共存<rt>きょうぞん</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>は<ruby>会議室<rt>かいぎしつ</rt></ruby>では<ruby>軽<rt>かる</rt></ruby>く<ruby>聞<rt>き</rt></ruby>こえますが、<ruby>孤立<rt>こりつ</rt></ruby>した<ruby>人<rt>ひと</rt></ruby>が<ruby>一人<rt>ひとり</rt></ruby>でも<ruby>出<rt>で</rt></ruby>れば、それは<ruby>失敗<rt>しっぱい</rt></ruby>なのだと<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "Asistí como encargado de actas a la negociación sobre la fusión de dos fábricas. Se explicaba que el objetivo era reducir costes, pero para la gente del taller la conversación iba de quedarse sin trabajo. El representante de la otra parte dijo que, si hacía falta, no descartaba revisar todos los departamentos. Nuestro jefe seguía de brazos cruzados, como diciendo que no iba a ceder ni un paso. Se hizo un silencio parecido a una presión física. Intervino un tercero y por fin salió la propuesta de aligerar la carga. Un acuerdo que se sostiene sobre el sacrificio de alguien no dura mucho, aunque parezca firmemente establecido. La palabra «convivencia» suena ligera en una sala de reuniones, pero creo que si sale de ahí una sola persona aislada, es un fracaso.",
+ "preguntas": [
+  {
+   "p": "<ruby>交渉<rt>こうしょう</rt></ruby>の<ruby>目的<rt>もくてき</rt></ruby>は<ruby>何<rt>なん</rt></ruby>だと<ruby>説明<rt>せつめい</rt></ruby>されていましたか。",
+   "opciones": [
+    "<ruby>工場<rt>こうじょう</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やすこと",
+    "<ruby>費用<rt>ひよう</rt></ruby>の<ruby>削減<rt>さくげん</rt></ruby>",
+    "<ruby>人<rt>ひと</rt></ruby>を<ruby>雇<rt>やと</rt></ruby>うこと",
+    "<ruby>機械<rt>きかい</rt></ruby>の<ruby>開発<rt>かいはつ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は、どんな<ruby>合意<rt>ごうい</rt></ruby>は<ruby>長<rt>なが</rt></ruby>く<ruby>続<rt>つづ</rt></ruby>かないと<ruby>考<rt>かんが</rt></ruby>えていますか。",
+   "opciones": [
+    "<ruby>時間<rt>じかん</rt></ruby>のかかった<ruby>合意<rt>ごうい</rt></ruby>",
+    "だれかの<ruby>犠牲<rt>ぎせい</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>成<rt>な</rt></ruby>り<ruby>立<rt>た</rt></ruby>つ<ruby>合意<rt>ごうい</rt></ruby>",
+    "<ruby>第三者<rt>だいさんしゃ</rt></ruby>が<ruby>作<rt>つく</rt></ruby>った<ruby>合意<rt>ごうい</rt></ruby>",
+    "<ruby>短<rt>みじか</rt></ruby>い<ruby>合意<rt>ごうい</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

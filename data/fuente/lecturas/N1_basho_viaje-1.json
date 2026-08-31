@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/basho/viaje-1",
+ "titulo": "ガイドのいない<ruby>旅<rt>たび</rt></ruby>",
+ "cuerpo": "<ruby>旅券<rt>りょけん</rt></ruby>を<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>った<ruby>日<rt>ひ</rt></ruby>のことをよく<ruby>覚<rt>おぼ</rt></ruby>えています。はじめての<ruby>海外<rt>かいがい</rt></ruby>で、<ruby>経路<rt>けいろ</rt></ruby>も<ruby>宿<rt>やど</rt></ruby>も<ruby>自分<rt>じぶん</rt></ruby>で<ruby>決<rt>き</rt></ruby>めました。ガイドを<ruby>頼<rt>たの</rt></ruby>まなかったのは、<ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>うことまで<ruby>旅<rt>たび</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>っていたからです。<ruby>現地<rt>げんち</rt></ruby>に<ruby>到達<rt>とうたつ</rt></ruby>してみると、<ruby>手引<rt>てび</rt></ruby>きの<ruby>本<rt>ほん</rt></ruby>に<ruby>書<rt>か</rt></ruby>かれていたことの<ruby>半分<rt>はんぶん</rt></ruby>はもう<ruby>古<rt>ふる</rt></ruby>くなっていました。<ruby>海路<rt>かいろ</rt></ruby>で<ruby>島<rt>しま</rt></ruby>へわたる<ruby>便<rt>びん</rt></ruby><em class=\"g\">に至っては</em>、<ruby>三年前<rt>さんねんまえ</rt></ruby>になくなっていたのです。<ruby>困<rt>こま</rt></ruby>っていると、<ruby>宿<rt>やど</rt></ruby>の<ruby>主人<rt>しゅじん</rt></ruby>が<ruby>車<rt>くるま</rt></ruby>を<ruby>出<rt>だ</rt></ruby>してくれました。<ruby>同<rt>おな</rt></ruby>じ<ruby>土地<rt>とち</rt></ruby>でも、そこに<ruby>住<rt>す</rt></ruby>む<ruby>人<rt>ひと</rt></ruby><em class=\"g\">にかかっては</em>、<ruby>地図<rt>ちず</rt></ruby>に<ruby>出<rt>で</rt></ruby>てこない<ruby>道<rt>みち</rt></ruby>がいくつも<ruby>現<rt>あらわ</rt></ruby>れます。ゲストとしてもてなされるのは<ruby>心地<rt>ここち</rt></ruby>よいけれど、<ruby>立<rt>た</rt></ruby>ち<ruby>去<rt>さ</rt></ruby>るときに<ruby>寂<rt>さび</rt></ruby>しくなるのは、<ruby>案内<rt>あんない</rt></ruby>された<ruby>風景<rt>ふうけい</rt></ruby>ではなく、<ruby>案内<rt>あんない</rt></ruby>してくれた<ruby>人<rt>ひと</rt></ruby>のほうなのだと<ruby>気<rt>き</rt></ruby>づきました。",
+ "traduccion": "Recuerdo bien el día que recogí el pasaporte. Era mi primer viaje al extranjero y decidí yo mismo la ruta y los alojamientos. Si no contraté guía fue porque pensaba que perderse también forma parte del viaje. Al llegar allí, la mitad de lo que decía la guía se había quedado anticuado. En cuanto al barco que cruzaba a la isla, había dejado de operar tres años antes. Viéndome en apuros, el dueño del hostal sacó el coche y me llevó. En la misma tierra, en manos de quien vive allí, aparecen un montón de caminos que no salen en ningún mapa. Que te traten como a un invitado sienta bien, pero al marcharme entendí que lo que da pena dejar no es el paisaje que te enseñaron, sino la persona que te lo enseñó.",
+ "preguntas": [
+  {
+   "p": "ガイドを<ruby>頼<rt>たの</rt></ruby>まなかった<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "お<ruby>金<rt>かね</rt></ruby>がなかったから",
+    "<ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>うことまで<ruby>旅<rt>たび</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>っていたから",
+    "<ruby>言葉<rt>ことば</rt></ruby>ができたから",
+    "<ruby>時間<rt>じかん</rt></ruby>がなかったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>立<rt>た</rt></ruby>ち<ruby>去<rt>さ</rt></ruby>るとき、<ruby>何<rt>なに</rt></ruby>が<ruby>寂<rt>さび</rt></ruby>しかったと<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>風景<rt>ふうけい</rt></ruby>",
+    "<ruby>案内<rt>あんない</rt></ruby>してくれた<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>宿<rt>やど</rt></ruby>",
+    "<ruby>島<rt>しま</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

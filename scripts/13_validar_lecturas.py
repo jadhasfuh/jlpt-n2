@@ -87,6 +87,23 @@ for l in lecturas:
 if rotas:
     print(f"  lecturas con marcado roto: {rotas}")
 
+# Escribiendo a mano se cuela alguna palabra en alfabeto latino dentro de la
+# base de un <ruby> ("<ruby>third<rt>だい</rt>"): en pantalla sale una palabra
+# inglesa con furigana japonés y no hay forma de verlo salvo leyéndolo entero.
+latinas = 0
+for l in lecturas:
+    trozos = [l["titulo"], l["cuerpo"]]
+    for q in l.get("preguntas", []):
+        trozos.append(q["p"]); trozos += q["opciones"]
+    for t in trozos:
+        malas = [b for b in _re.findall(r"<ruby>([^<]*)<rt>", t) if _re.search(r"[A-Za-z]", b)]
+        if malas:
+            print(f"  ✗ {l['unidad_id']}: alfabeto latino dentro de un ruby: {', '.join(malas)}")
+            latinas += 1
+            break
+if latinas:
+    print(f"  lecturas con letras latinas en el furigana: {latinas}")
+
 print(f"\nlecturas revisadas: {len(lecturas)}")
 print(f"  con kanji por encima del nivel (hay que corregir): {graves}")
 print(f"  sólo con kanji adelantados pero del nivel o menos:  {leves}")

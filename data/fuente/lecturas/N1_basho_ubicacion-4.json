@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/basho/ubicacion-4",
+ "titulo": "<ruby>中腹<rt>ちゅうふく</rt></ruby>の<ruby>日向<rt>ひなた</rt></ruby>",
+ "cuerpo": "<ruby>父<rt>ちち</rt></ruby>は<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>勤<rt>つと</rt></ruby>める<em class=\"g\">かたわら</em>、<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>山<rt>やま</rt></ruby>の<ruby>中腹<rt>ちゅうふく</rt></ruby>の<ruby>畑<rt>はたけ</rt></ruby>に<ruby>通<rt>かよ</rt></ruby>っていました。<em class=\"g\">かつて</em>その<ruby>一帯<rt>いったい</rt></ruby>は<ruby>未開<rt>みかい</rt></ruby>の<ruby>斜面<rt>しゃめん</rt></ruby>で、<ruby>石<rt>いし</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つずつどけて<ruby>土<rt>つち</rt></ruby>にしたのだと<ruby>聞<rt>き</rt></ruby>いています。<ruby>真上<rt>まうえ</rt></ruby>に<ruby>雲<rt>くも</rt></ruby>が<ruby>止<rt>と</rt></ruby>まる<ruby>日<rt>ひ</rt></ruby>もあれば、<ruby>真下<rt>ました</rt></ruby>の<ruby>町<rt>まち</rt></ruby>だけが<ruby>雨<rt>あめ</rt></ruby>に<ruby>沈<rt>しず</rt></ruby>んでいる<ruby>日<rt>ひ</rt></ruby>もありました。<ruby>日向<rt>ひなた</rt></ruby>にすわって<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>食<rt>た</rt></ruby>べていると、<ruby>背後<rt>はいご</rt></ruby>の<ruby>林<rt>はやし</rt></ruby>から<ruby>鳥<rt>とり</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>が<ruby>近<rt>ちか</rt></ruby>く<ruby>聞<rt>き</rt></ruby>こえます。<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>内部<rt>ないぶ</rt></ruby>では<ruby>意見<rt>いけん</rt></ruby>が<ruby>分裂<rt>ぶんれつ</rt></ruby>し、<ruby>父<rt>ちち</rt></ruby>の<ruby>案<rt>あん</rt></ruby>は<ruby>否決<rt>ひけつ</rt></ruby>されたばかりだったころです。それでも<ruby>畑<rt>はたけ</rt></ruby>に<ruby>来<rt>く</rt></ruby>ると、<ruby>手近<rt>てぢか</rt></ruby>な<ruby>仕事<rt>しごと</rt></ruby>から<ruby>順<rt>じゅん</rt></ruby>に<ruby>手<rt>て</rt></ruby>をつけていました。<ruby>停滞<rt>ていたい</rt></ruby>している<ruby>時<rt>とき</rt></ruby>ほど、<ruby>体<rt>からだ</rt></ruby>をうごかすほうがいいのだと。<ruby>鉄棒<rt>てつぼう</rt></ruby>のような<ruby>道具<rt>どうぐ</rt></ruby>で<ruby>土<rt>つち</rt></ruby>を<ruby>起<rt>お</rt></ruby>こす<ruby>音<rt>おと</rt></ruby>を、いまでも<ruby>覚<rt>おぼ</rt></ruby>えています。",
+ "traduccion": "Mi padre, además de trabajar en la empresa, subía los fines de semana al huerto de media ladera. Antaño aquella zona era una pendiente sin roturar, y me contaron que la convirtieron en tierra quitando las piedras una a una. Había días en que las nubes se paraban justo encima, y días en que solo el pueblo de justo debajo estaba hundido en la lluvia. Sentados al sol comiendo la fiambrera, las voces de los pájaros del bosque de detrás se oían muy cerca. Fue por la época en que dentro de la empresa las opiniones se habían dividido y acababan de rechazar la propuesta de mi padre. Aun así, al llegar al huerto empezaba por lo que tenía más a mano. Decía que cuanto más atascado está uno, mejor es mover el cuerpo. Todavía recuerdo el ruido de la tierra al removerla con una especie de barra de hierro.",
+ "preguntas": [
+  {
+   "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>週末<rt>しゅうまつ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をしていましたか。",
+   "opciones": [
+    "<ruby>会社<rt>かいしゃ</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いていた",
+    "<ruby>山<rt>やま</rt></ruby>の<ruby>中腹<rt>ちゅうふく</rt></ruby>の<ruby>畑<rt>はたけ</rt></ruby>に<ruby>通<rt>かよ</rt></ruby>っていた",
+    "<ruby>家<rt>いえ</rt></ruby>で<ruby>休<rt>やす</rt></ruby>んでいた",
+    "<ruby>町<rt>まち</rt></ruby>へ<ruby>降<rt>お</rt></ruby>りていた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>停滞<rt>ていたい</rt></ruby>している<ruby>時<rt>とき</rt></ruby>、どうするべきだと<ruby>考<rt>かんが</rt></ruby>えていましたか。",
+   "opciones": [
+    "<ruby>待<rt>ま</rt></ruby>つほうがいい",
+    "<ruby>体<rt>からだ</rt></ruby>をうごかすほうがいい",
+    "<ruby>人<rt>ひと</rt></ruby>に<ruby>相談<rt>そうだん</rt></ruby>する",
+    "<ruby>案<rt>あん</rt></ruby>を<ruby>変<rt>か</rt></ruby>える"
+   ],
+   "correcta": 1
+  }
+ ]
+}

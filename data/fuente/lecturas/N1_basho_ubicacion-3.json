@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/basho/ubicacion-3",
+ "titulo": "<ruby>城下<rt>じょうか</rt></ruby>の<ruby>式場<rt>しきじょう</rt></ruby>",
+ "cuerpo": "<ruby>友人<rt>ゆうじん</rt></ruby>の<ruby>結婚式<rt>けっこんしき</rt></ruby>が、<ruby>城下<rt>じょうか</rt></ruby><ruby>町<rt>まち</rt></ruby>の<ruby>古<rt>ふる</rt></ruby>い<ruby>式場<rt>しきじょう</rt></ruby>で<ruby>開<rt>ひら</rt></ruby>かれました。<ruby>外観<rt>がいかん</rt></ruby>は<ruby>神殿<rt>しんでん</rt></ruby>のような<ruby>造<rt>つく</rt></ruby>りで、<ruby>全盛<rt>ぜんせい</rt></ruby>のころには<ruby>遠方<rt>えんぽう</rt></ruby>からも<ruby>客<rt>きゃく</rt></ruby>が<ruby>集<rt>あつ</rt></ruby>まったそうです。<ruby>散歩<rt>さんぽ</rt></ruby><em class=\"g\">がてら</em><ruby>早<rt>はや</rt></ruby>めに<ruby>着<rt>つ</rt></ruby>いて、<ruby>建物<rt>たてもの</rt></ruby>の<ruby>側面<rt>そくめん</rt></ruby>を<ruby>一周<rt>いっしゅう</rt></ruby>してみました。<ruby>海抜<rt>かいばつ</rt></ruby>の<ruby>高<rt>たか</rt></ruby>い<ruby>区画<rt>くかく</rt></ruby>にあるので、<ruby>窓<rt>まど</rt></ruby>から<ruby>町<rt>まち</rt></ruby>が<ruby>大幅<rt>おおはば</rt></ruby>に<ruby>見渡<rt>みわた</rt></ruby>せます。<ruby>受付<rt>うけつけ</rt></ruby>で<ruby>名前<rt>なまえ</rt></ruby>が<ruby>該当<rt>がいとう</rt></ruby>する<ruby>列<rt>れつ</rt></ruby>をさがし、<ruby>案内<rt>あんない</rt></ruby>にしたがって<ruby>着席<rt>ちゃくせき</rt></ruby>しました。<ruby>演出<rt>えんしゅつ</rt></ruby>はごく<ruby>静<rt>しず</rt></ruby>かなものでした。<ruby>招<rt>まね</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>を<ruby>限定<rt>げんてい</rt></ruby>し、<ruby>建前<rt>たてまえ</rt></ruby>の<ruby>挨拶<rt>あいさつ</rt></ruby>をひとつも<ruby>入<rt>い</rt></ruby>れなかったのだそうです。<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>収集<rt>しゅうしゅう</rt></ruby>するのが<ruby>趣味<rt>しゅみ</rt></ruby>の<ruby>彼<rt>かれ</rt></ruby>が、<ruby>参列者<rt>さんれつしゃ</rt></ruby><ruby>一人<rt>ひとり</rt></ruby>ずつに<ruby>礼<rt>れい</rt></ruby>を<ruby>言<rt>い</rt></ruby>って<ruby>回<rt>まわ</rt></ruby>っていました。<ruby>形式<rt>けいしき</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らすと、<ruby>残<rt>のこ</rt></ruby>るものがよく<ruby>見<rt>み</rt></ruby>えるのだと<ruby>思<rt>おも</rt></ruby>いました。<ruby>帰<rt>かえ</rt></ruby>りに、お<ruby>礼<rt>れい</rt></ruby><em class=\"g\">かたがた</em><ruby>近<rt>ちか</rt></ruby>くの<ruby>神殿<rt>しんでん</rt></ruby>に<ruby>寄<rt>よ</rt></ruby>っていくことにしました。",
+ "traduccion": "La boda de un amigo se celebró en un salón antiguo del barrio del castillo. El exterior tenía la traza de un templo, y dicen que en sus años de esplendor venían invitados incluso de muy lejos. Aprovechando el paseo llegué pronto y di una vuelta entera por el lateral del edificio. Como está en una zona alta sobre el nivel del mar, desde las ventanas se ve el pueblo a lo ancho. En recepción busqué la fila que correspondía a mi nombre y me senté siguiendo las indicaciones. La puesta en escena fue de lo más sobria. Limitaron el número de invitados y no incluyeron ni un solo discurso de compromiso. Él, que colecciona fotografías, fue dando las gracias uno por uno a todos los asistentes. Pensé que, cuando se le quita formalidad, se ve mucho mejor lo que queda. De vuelta, y ya de paso para dar las gracias, decidí acercarme al santuario de al lado.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>式場<rt>しきじょう</rt></ruby>に<ruby>早<rt>はや</rt></ruby>く<ruby>着<rt>つ</rt></ruby>いて<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>受付<rt>うけつけ</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>った",
+    "<ruby>建物<rt>たてもの</rt></ruby>の<ruby>側面<rt>そくめん</rt></ruby>を<ruby>一周<rt>いっしゅう</rt></ruby>した",
+    "<ruby>写真<rt>しゃしん</rt></ruby>をとった",
+    "<ruby>町<rt>まち</rt></ruby>へ<ruby>降<rt>お</rt></ruby>りた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>結婚式<rt>けっこんしき</rt></ruby>の<ruby>特徴<rt>とくちょう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>客<rt>きゃく</rt></ruby>がとても<ruby>多<rt>おお</rt></ruby>かった",
+    "<ruby>招<rt>まね</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>を<ruby>限定<rt>げんてい</rt></ruby>し、<ruby>建前<rt>たてまえ</rt></ruby>の<ruby>挨拶<rt>あいさつ</rt></ruby>がなかった",
+    "<ruby>演出<rt>えんしゅつ</rt></ruby>がはなやかだった",
+    "<ruby>遠方<rt>えんぽう</rt></ruby>で<ruby>開<rt>ひら</rt></ruby>かれた"
+   ],
+   "correcta": 1
+  }
+ ]
+}
