@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/shigoto/sociedad-1",
+ "titulo": "<ruby>平等<rt>びょうどう</rt></ruby>をはかる",
+ "cuerpo": "<ruby>集団<rt>しゅうだん</rt></ruby>のなかで<ruby>差別<rt>さべつ</rt></ruby>をなくすのは、かんたんではありません。<ruby>共通<rt>きょうつう</rt></ruby>のルールをつくっても、<ruby>環境<rt>かんきょう</rt></ruby>のちがいまでは<ruby>消<rt>け</rt></ruby>せないからです。<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>のはじめから<ruby>夏<rt>なつ</rt></ruby><em class=\"g\">にかけて</em>、<ruby>学校<rt>がっこう</rt></ruby>でその<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>いをしました。<ruby>平等<rt>びょうどう</rt></ruby>とは、ぜんいんに<ruby>同<rt>おな</rt></ruby>じものを<ruby>配<rt>くば</rt></ruby>ることではありません。たりない<ruby>人<rt>ひと</rt></ruby>に<ruby>多<rt>おお</rt></ruby>く<ruby>配<rt>くば</rt></ruby>ることもあります。<ruby>文明<rt>ぶんめい</rt></ruby>が<ruby>進<rt>すす</rt></ruby>んでも、この<ruby>問題<rt>もんだい</rt></ruby>だけは<ruby>量<rt>はか</rt></ruby>りかたがむずかしいままです。",
+ "traduccion": "Eliminar la discriminación dentro de un grupo no es fácil. Aunque establezcas reglas comunes, no puedes borrar las diferencias de circunstancias. Desde principio de año hasta el verano estuvimos hablando de esto en el colegio. La igualdad no consiste en repartir lo mismo a todos. A veces significa dar más a quien le falta. Por mucho que avance la civilización, este problema sigue siendo difícil de medir.",
+ "preguntas": [
+  {
+   "p": "<ruby>共通<rt>きょうつう</rt></ruby>のルールをつくっても、<ruby>何<rt>なに</rt></ruby>が<ruby>消<rt>け</rt></ruby>せませんか。",
+   "opciones": [
+    "<ruby>差別<rt>さべつ</rt></ruby>",
+    "<ruby>環境<rt>かんきょう</rt></ruby>のちがい",
+    "<ruby>集団<rt>しゅうだん</rt></ruby>",
+    "<ruby>文明<rt>ぶんめい</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>平等<rt>びょうどう</rt></ruby>とは<ruby>何<rt>なに</rt></ruby>ではないと<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "たりない<ruby>人<rt>ひと</rt></ruby>に<ruby>多<rt>おお</rt></ruby>く<ruby>配<rt>くば</rt></ruby>ること",
+    "ぜんいんに<ruby>同<rt>おな</rt></ruby>じものを<ruby>配<rt>くば</rt></ruby>ること",
+    "ルールをつくること",
+    "<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>うこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

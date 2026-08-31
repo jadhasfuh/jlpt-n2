@@ -21,6 +21,16 @@ CORTESES = {
     "できない": "できません", "しれない": "しれません", "ない": "ません",
 }
 
+# La forma volitiva es よう sólo en los verbos ichidan (食べる→食べよう). En los
+# godan la terminación cambia con la vocal de la raíz: 行く→行こう, 知る→知ろう,
+# 待つ→待とう… Un patrón escrito como «ようとする» las cubre todas.
+VOLITIVAS = ["よう", "おう", "こう", "ごう", "そう", "とう", "のう", "ぼう", "もう", "ろう"]
+
+def variantes_volitiva(parte):
+    if not parte.startswith("よう"):
+        return [parte]
+    return [v + parte[2:] for v in VOLITIVAS]
+
 def variantes_te(parte):
     """La forma て se sonoriza tras ん/ん-bases: 休む → 休んで. Así que 〜ていては
     aparece de verdad como 〜でいては, y sigue siendo el mismo punto."""
@@ -50,7 +60,8 @@ def aparece(forma, texto):
         ok = True
         for k, parte in enumerate(partes):
             i, encontrada = -1, parte
-            for v in variantes_te(parte):
+            for v in [x for base in variantes_volitiva(parte)
+                        for x in variantes_te(base)]:
                 i = texto.find(v, pos)
                 if i >= 0: encontrada = v; break
             # La última pieza suele conjugarse (願う→願います, ない→なかった,
