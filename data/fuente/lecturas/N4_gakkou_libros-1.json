@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/gakkou/libros-1",
+ "titulo": "<ruby>日記<rt>にっき</rt></ruby>と<ruby>小説<rt>しょうせつ</rt></ruby>",
+ "cuerpo": "<ruby>中学<rt>ちゅうがく</rt></ruby>のころから<ruby>日記<rt>にっき</rt></ruby>を<ruby>書<rt>か</rt></ruby>いています。はじめは<ruby>漫画<rt>まんが</rt></ruby><em class=\"g\">みたいな</em><ruby>絵<rt>え</rt></ruby>ばかりでした。いまは<ruby>小説<rt>しょうせつ</rt></ruby><em class=\"g\">みたいだ</em>と<ruby>言<rt>い</rt></ruby>われるほどながく<ruby>書<rt>か</rt></ruby>く<ruby>日<rt>ひ</rt></ruby>もあります。<ruby>文学<rt>ぶんがく</rt></ruby>のじゅぎょうで、<ruby>先生<rt>せんせい</rt></ruby>が「よく<ruby>書<rt>か</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>は、よく<ruby>読<rt>よ</rt></ruby>む<ruby>人<rt>ひと</rt></ruby>だ」と<ruby>話<rt>はな</rt></ruby>しました。たしかに、<ruby>読<rt>よ</rt></ruby>んだ<ruby>本<rt>ほん</rt></ruby>のことばが、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>文<rt>ぶん</rt></ruby>に<ruby>出<rt>で</rt></ruby>てきます。<ruby>昨日<rt>きのう</rt></ruby>はテキストを<ruby>忘<rt>わす</rt></ruby>れて、<ruby>忘<rt>わす</rt></ruby>れ<ruby>物<rt>もの</rt></ruby>をとりに<ruby>戻<rt>もど</rt></ruby>りました。その<ruby>話<rt>はなし</rt></ruby>も<ruby>日記<rt>にっき</rt></ruby>に<ruby>書<rt>か</rt></ruby>きました。",
+ "traduccion": "Escribo un diario desde la época del instituto. Al principio eran solo dibujos que parecían un cómic. Ahora hay días en que escribo tanto que me dicen que parece una novela. En la clase de literatura el profesor dijo: «quien escribe mucho es quien lee mucho». Y es verdad: las palabras de los libros que he leído aparecen en mis textos. Ayer me dejé el libro de texto y tuve que volver a por lo olvidado. Eso también lo escribí en el diario.",
+ "preguntas": [
+  {
+   "p": "はじめの<ruby>日記<rt>にっき</rt></ruby>はどんなものでしたか。",
+   "opciones": [
+    "ながい<ruby>文<rt>ぶん</rt></ruby>",
+    "<ruby>漫画<rt>まんが</rt></ruby><em class=\"g\">みたいな</em><ruby>絵<rt>え</rt></ruby>ばかり",
+    "<ruby>小説<rt>しょうせつ</rt></ruby>",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>書<rt>か</rt></ruby>かなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しましたか。",
+   "opciones": [
+    "よく<ruby>書<rt>か</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>はよく<ruby>読<rt>よ</rt></ruby>む<ruby>人<rt>ひと</rt></ruby>だ",
+    "<ruby>日記<rt>にっき</rt></ruby>を<ruby>書<rt>か</rt></ruby>きなさい",
+    "<ruby>小説<rt>しょうせつ</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みなさい",
+    "<ruby>忘<rt>わす</rt></ruby>れ<ruby>物<rt>もの</rt></ruby>をするな"
+   ],
+   "correcta": 0
+  }
+ ]
+}

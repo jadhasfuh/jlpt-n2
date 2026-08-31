@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/gakkou/materias-1",
+ "titulo": "<ruby>歴史<rt>れきし</rt></ruby>と<ruby>数学<rt>すうがく</rt></ruby>",
+ "cuerpo": "<ruby>学校<rt>がっこう</rt></ruby>で、いちばんすきなのは<ruby>歴史<rt>れきし</rt></ruby>です。むかしの<ruby>人<rt>ひと</rt></ruby>もいまのわたしたち<em class=\"g\">みたいに</em>まよったり<ruby>失敗<rt>しっぱい</rt></ruby>したりしていた、とわかるからです。<ruby>数学<rt>すうがく</rt></ruby>はにがてでした。でも、<ruby>科学<rt>かがく</rt></ruby>のじゅぎょうで、<ruby>数<rt>かず</rt></ruby>をつかって<ruby>物<rt>もの</rt></ruby>の<ruby>動<rt>うご</rt></ruby>きを<ruby>説明<rt>せつめい</rt></ruby>するのを<ruby>見<rt>み</rt></ruby>て、<ruby>考<rt>かんが</rt></ruby>えがかわりました。<ruby>歴史<rt>れきし</rt></ruby><em class=\"g\">みたいに</em>、<ruby>数学<rt>すうがく</rt></ruby>にも<ruby>人<rt>ひと</rt></ruby>のかんがえた<ruby>道<rt>みち</rt></ruby>すじがあるのです。どのじゅぎょうも、だれかが<ruby>長<rt>なが</rt></ruby>い<ruby>間<rt>あいだ</rt></ruby>かけてつくったものです。",
+ "traduccion": "En el colegio, lo que más me gusta es la historia. Porque te hace ver que la gente de antes también dudaba y se equivocaba, igual que nosotros ahora. Las matemáticas se me daban mal. Pero en la clase de ciencias, al ver cómo se explica el movimiento de las cosas usando números, cambié de opinión. Igual que la historia, las matemáticas también tienen un recorrido pensado por personas. Cualquier asignatura es algo que alguien construyó a lo largo de mucho tiempo.",
+ "preguntas": [
+  {
+   "p": "なぜ<ruby>歴史<rt>れきし</rt></ruby>がすきですか。",
+   "opciones": [
+    "やさしいから",
+    "むかしの<ruby>人<rt>ひと</rt></ruby>もまよっていたとわかるから",
+    "<ruby>数<rt>かず</rt></ruby>をつかうから",
+    "<ruby>先生<rt>せんせい</rt></ruby>がいいから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>数学<rt>すうがく</rt></ruby>についての<ruby>考<rt>かんが</rt></ruby>えは、なぜかわりましたか。",
+   "opciones": [
+    "テストができたから",
+    "<ruby>科学<rt>かがく</rt></ruby>で<ruby>数<rt>かず</rt></ruby>が<ruby>物<rt>もの</rt></ruby>の<ruby>動<rt>うご</rt></ruby>きを<ruby>説明<rt>せつめい</rt></ruby>するのを<ruby>見<rt>み</rt></ruby>たから",
+    "<ruby>歴史<rt>れきし</rt></ruby>をならったから",
+    "ともだちにきいたから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

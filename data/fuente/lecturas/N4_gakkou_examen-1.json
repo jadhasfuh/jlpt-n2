@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/gakkou/examen-1",
+ "titulo": "<ruby>間違<rt>まちが</rt></ruby>えた<ruby>問題<rt>もんだい</rt></ruby>",
+ "cuerpo": "<ruby>試験<rt>しけん</rt></ruby>が<ruby>終<rt>お</rt></ruby>わっ<em class=\"g\">たところ</em>です。<ruby>出席<rt>しゅっせき</rt></ruby>は<ruby>全員<rt>ぜんいん</rt></ruby>そろっていました。かえりのでんしゃで、ともだちと<ruby>答<rt>こた</rt></ruby>えあわせをしました。<ruby>正<rt>ただ</rt></ruby>しいと<ruby>思<rt>おも</rt></ruby>っていた<ruby>三<rt>さん</rt></ruby>つが、じつは<ruby>間違<rt>まちが</rt></ruby>えていました。<ruby>失敗<rt>しっぱい</rt></ruby>すると、はずかしくて<ruby>顔<rt>かお</rt></ruby>があつくなります。でも、<ruby>間違<rt>まちが</rt></ruby>えたところこそ、いちばんよくおぼえるものです。うちに<ruby>帰<rt>かえ</rt></ruby>っ<em class=\"g\">たところ</em>で、すぐにノートを<ruby>開<rt>ひら</rt></ruby>きました。<ruby>是非<rt>ぜひ</rt></ruby>、<ruby>次<rt>つぎ</rt></ruby>は<ruby>同<rt>おな</rt></ruby>じところで<ruby>間違<rt>まちが</rt></ruby>えたくありません。",
+ "traduccion": "Acabo de terminar el examen. Habíamos venido todos, no faltó nadie. En el tren de vuelta comprobé las respuestas con un amigo. Tres que creía correctas resultaron estar mal. Cuando fallas te da vergüenza y te arde la cara. Pero es justo lo que fallas lo que mejor se te queda. Nada más llegar a casa abrí el cuaderno. La próxima vez, desde luego, no quiero equivocarme en lo mismo.",
+ "preguntas": [
+  {
+   "p": "かえりのでんしゃで<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "ねた",
+    "ともだちと<ruby>答<rt>こた</rt></ruby>えあわせをした",
+    "ノートを<ruby>開<rt>ひら</rt></ruby>いた",
+    "<ruby>話<rt>はな</rt></ruby>さなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>間違<rt>まちが</rt></ruby>えたところについて、どう<ruby>思<rt>おも</rt></ruby>っていますか。",
+   "opciones": [
+    "わすれたい",
+    "いちばんよくおぼえるものだ",
+    "はずかしいだけだ",
+    "<ruby>先生<rt>せんせい</rt></ruby>のせいだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

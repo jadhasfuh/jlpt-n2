@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/gakkou/lengua-1",
+ "titulo": "<ruby>発音<rt>はつおん</rt></ruby>と<ruby>文法<rt>ぶんぽう</rt></ruby>",
+ "cuerpo": "いま、<ruby>辞典<rt>じてん</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>いている<em class=\"g\">ところ</em>です。<ruby>意味<rt>いみ</rt></ruby>はわかっても、<ruby>発音<rt>はつおん</rt></ruby>がわからない<ruby>言葉<rt>ことば</rt></ruby>がおおいからです。<ruby>文法<rt>ぶんぽう</rt></ruby>は<ruby>本<rt>ほん</rt></ruby>で<ruby>学<rt>まな</rt></ruby>べますが、<ruby>音<rt>おと</rt></ruby>は<ruby>聞<rt>き</rt></ruby>かないとおぼえられません。<ruby>翻訳<rt>ほんやく</rt></ruby>のしごとをしている<ruby>人<rt>ひと</rt></ruby>に<ruby>聞<rt>き</rt></ruby>くと、「<ruby>書<rt>か</rt></ruby>くときも、<ruby>頭<rt>あたま</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>声<rt>こえ</rt></ruby>に<ruby>出<rt>だ</rt></ruby>している」と<ruby>言<rt>い</rt></ruby>っていました。これから<ruby>練習<rt>れんしゅう</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>める<em class=\"g\">ところ</em>です。まずは<ruby>一日<rt>いちにち</rt></ruby>に<ruby>五<rt>いつ</rt></ruby>つの<ruby>言葉<rt>ことば</rt></ruby>からにします。",
+ "traduccion": "Ahora mismo estoy consultando el diccionario. Porque hay muchas palabras cuyo significado entiendo pero cuya pronunciación no sé. La gramática se puede aprender en los libros, pero los sonidos no se aprenden si no los oyes. Le pregunté a alguien que trabaja traduciendo y me dijo: «incluso cuando escribo, las digo en voz alta dentro de la cabeza». Estoy a punto de empezar a practicar. Voy a empezar por cinco palabras al día.",
+ "preguntas": [
+  {
+   "p": "なぜ<ruby>辞典<rt>じてん</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>いていますか。",
+   "opciones": [
+    "<ruby>意味<rt>いみ</rt></ruby>がわからないから",
+    "<ruby>発音<rt>はつおん</rt></ruby>がわからないから",
+    "<ruby>文法<rt>ぶんぽう</rt></ruby>をならうため",
+    "<ruby>翻訳<rt>ほんやく</rt></ruby>のため"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>翻訳<rt>ほんやく</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "<ruby>辞典<rt>じてん</rt></ruby>をつかう",
+    "<ruby>書<rt>か</rt></ruby>くときも<ruby>頭<rt>あたま</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>声<rt>こえ</rt></ruby>に<ruby>出<rt>だ</rt></ruby>す",
+    "<ruby>文法<rt>ぶんぽう</rt></ruby>がたいせつだ",
+    "<ruby>毎日<rt>まいにち</rt></ruby><ruby>書<rt>か</rt></ruby>く"
+   ],
+   "correcta": 1
+  }
+ ]
+}

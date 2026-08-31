@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/gijutsu/arte-1",
+ "titulo": "<ruby>展覧会<rt>てんらんかい</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "<ruby>近<rt>ちか</rt></ruby>くの<ruby>会<rt>かい</rt></ruby>かんで<ruby>展覧会<rt>てんらんかい</rt></ruby>がありました。<ruby>入<rt>はい</rt></ruby>ってすぐ、<ruby>大<rt>おお</rt></ruby>きな<ruby>絵<rt>え</rt></ruby>が<ruby>飾<rt>かざ</rt></ruby>ってありました。<ruby>見<rt>み</rt></ruby>る<ruby>人<rt>ひと</rt></ruby>がみんな、うれし<em class=\"g\">そうな</em><ruby>顔<rt>かお</rt></ruby>をしています。となりの<ruby>人<rt>ひと</rt></ruby>が、しゃしんを<ruby>写<rt>うつ</rt></ruby>してもいいかとかかりの<ruby>人<rt>ひと</rt></ruby>にきいていました。だめ<em class=\"g\">そうに</em><ruby>見<rt>み</rt></ruby>えましたが、「フラッシュなしなら」とゆるされました。わたしはしゃしんをとらずに、ながめるだけにしました。<ruby>目<rt>め</rt></ruby>でおぼえたものは、あとで<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>すたびにすこしずつかわっていくからです。",
+ "traduccion": "En un centro cívico cercano hubo una exposición. Nada más entrar había un cuadro grande colgado. Todos los que lo miraban ponían cara de estar contentos. La persona de al lado preguntaba a un empleado si podía hacer fotos. Parecía que no iba a poder, pero le dijeron «sin flash, sí». Yo preferí no hacer fotos y limitarme a mirar. Porque lo que memorizas con los ojos va cambiando un poco cada vez que lo recuerdas.",
+ "preguntas": [
+  {
+   "p": "となりの<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をききましたか。",
+   "opciones": [
+    "<ruby>絵<rt>え</rt></ruby>のねだん",
+    "しゃしんを<ruby>写<rt>うつ</rt></ruby>してもいいか",
+    "<ruby>出口<rt>でぐち</rt></ruby>はどこか",
+    "だれの<ruby>絵<rt>え</rt></ruby>か"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>はなぜしゃしんをとりませんでしたか。",
+   "opciones": [
+    "だめだから",
+    "<ruby>目<rt>め</rt></ruby>でおぼえたものはあとでかわっていくから",
+    "カメラがないから",
+    "<ruby>人<rt>ひと</rt></ruby>がおおいから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

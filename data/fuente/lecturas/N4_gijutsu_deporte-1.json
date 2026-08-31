@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/gijutsu/deporte-1",
+ "titulo": "テニスを<ruby>始<rt>はじ</rt></ruby>める",
+ "cuerpo": "ことしからテニスを<ruby>習<rt>なら</rt></ruby>い<ruby>始<rt>はじ</rt></ruby>めました。からだを<ruby>動<rt>うご</rt></ruby>かすのは<ruby>十<rt>じゅう</rt></ruby><ruby>年<rt>ねん</rt></ruby>ぶりです。はじめの<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>は、ボールにあてることもできませんでした。<ruby>運<rt>うん</rt></ruby>がわるいのではなく、ただ<ruby>練習<rt>れんしゅう</rt></ruby>がたりなかったのです。<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>つづけると、すこしずつあたるようになりました。うまくなり<ruby>始<rt>はじ</rt></ruby>めると、たのしくなります。たのしくなると、もっと<ruby>練習<rt>れんしゅう</rt></ruby>し<ruby>始<rt>はじ</rt></ruby>めます。その<ruby>回<rt>まわ</rt></ruby>りかたにのるまでが、いちばんたいへんでした。",
+ "traduccion": "Este año he empezado a aprender tenis. Hacía diez años que no movía el cuerpo. El primer mes ni siquiera conseguía darle a la pelota. No era mala suerte: simplemente me faltaba práctica. Tras tres meses seguidos empecé a acertar poco a poco. Cuando empiezas a mejorar, se vuelve divertido. Y cuando se vuelve divertido, empiezas a practicar más. Lo más difícil fue justo llegar a entrar en esa rueda.",
+ "preguntas": [
+  {
+   "p": "はじめの<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "すぐうまくなった",
+    "ボールにあてられなかった",
+    "たのしかった",
+    "やめた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いちばんたいへんだったのは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>練習<rt>れんしゅう</rt></ruby>すること",
+    "たのしくなる<ruby>回<rt>まわ</rt></ruby>りかたにのるまで",
+    "<ruby>運<rt>うん</rt></ruby>がわるいこと",
+    "<ruby>十<rt>じゅう</rt></ruby><ruby>年<rt>ねん</rt></ruby>ぶりのこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}
