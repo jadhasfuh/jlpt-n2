@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kurashi/rutina-1",
+ "titulo": "まい<ruby>日<rt>にち</rt></ruby>のこと",
+ "cuerpo": "わたしのまいあさは、いつもおなじ<em class=\"g\">です</em>。<ruby>六<rt>ろく</rt></ruby>じに<ruby>起<rt>お</rt></ruby>きて、シャワーを<ruby>浴<rt>あ</rt></ruby>びます。<ruby>顔<rt>かお</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>って、はを<ruby>磨<rt>みが</rt></ruby>きます。それから、へやを<ruby>掃<rt>は</rt></ruby>きます。<ruby>時間<rt>じかん</rt></ruby>が<ruby>余<rt>あま</rt></ruby>ったら、そとを<ruby>見<rt>み</rt></ruby>ながらコーヒーを<ruby>飲<rt>の</rt></ruby>みます。<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>も、おなじようにします。<ruby>暇<rt>ひま</rt></ruby>な<ruby>日<rt>ひ</rt></ruby>こそ、じかんをきめるほうがいいの<em class=\"g\">です</em>。そうしないと、<ruby>一日<rt>いちにち</rt></ruby>がすぐにおわってしまうから<em class=\"g\">です</em>。",
+ "traduccion": "Mis mañanas son siempre iguales. Me levanto a las seis y me ducho. Me lavo la cara y me cepillo los dientes. Después barro la habitación. Si me sobra tiempo, me tomo un café mirando por la ventana. Los días libres hago lo mismo. Precisamente los días sin nada que hacer conviene fijar un horario. Porque si no, el día se acaba enseguida.",
+ "preguntas": [
+  {
+   "p": "<ruby>時間<rt>じかん</rt></ruby>が<ruby>余<rt>あま</rt></ruby>ったら、<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "もういちど<ruby>寝<rt>ね</rt></ruby>る",
+    "コーヒーを<ruby>飲<rt>の</rt></ruby>む",
+    "へやを<ruby>掃<rt>は</rt></ruby>く",
+    "そとへ<ruby>出<rt>で</rt></ruby>る"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>暇<rt>ひま</rt></ruby>な<ruby>日<rt>ひ</rt></ruby>について、どうかんがえていますか。",
+   "opciones": [
+    "<ruby>何<rt>なに</rt></ruby>もしなくていい",
+    "じかんをきめるほうがいい",
+    "はやく<ruby>起<rt>お</rt></ruby>きなくていい",
+    "<ruby>休<rt>やす</rt></ruby>むほうがいい"
+   ],
+   "correcta": 1
+  }
+ ]
+}

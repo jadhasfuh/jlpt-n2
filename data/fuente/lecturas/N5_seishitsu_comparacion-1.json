@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/seishitsu/comparacion-1",
+ "titulo": "<ruby>同<rt>おな</rt></ruby>じに<ruby>見<rt>み</rt></ruby>えて",
+ "cuerpo": "ふたごのともだちがいます。かおはほとんど<ruby>同<rt>おな</rt></ruby>じですが、よく<ruby>見<rt>み</rt></ruby>ると<ruby>違<rt>ちが</rt></ruby>います。<ruby>一人<rt>ひとり</rt></ruby>はよく<ruby>話<rt>はな</rt></ruby>し、もう<ruby>一人<rt>ひとり</rt></ruby>はしずかです。はじめてあったとき、なんどもまちがえてしまいました。「どうしてわかるの?」ときくと、「あるきかたが<ruby>違<rt>ちが</rt></ruby>うん<em class=\"g\">です</em>」とおしえてくれました。それからは、かおではなくうしろすがたで<ruby>見<rt>み</rt></ruby>るようにしています。にている<ruby>人<rt>ひと</rt></ruby>はいても、<ruby>同<rt>おな</rt></ruby>じ<ruby>人<rt>ひと</rt></ruby>はいないん<em class=\"g\">です</em>。",
+ "traduccion": "Tengo unos amigos gemelos. Sus caras son casi iguales, pero si te fijas bien son distintas. Uno habla mucho y el otro es callado. La primera vez que los conocí me equivoqué muchas veces. Cuando les pregunté cómo se distinguen, me explicaron: «es que andamos distinto». Desde entonces procuro mirar no la cara, sino la figura por detrás. Puede haber gente parecida, pero no hay dos personas iguales.",
+ "preguntas": [
+  {
+   "p": "ふたごをどうやってみわけますか。",
+   "opciones": [
+    "かお",
+    "あるきかたやうしろすがた",
+    "<ruby>声<rt>こえ</rt></ruby>",
+    "みわけられない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をおもっていますか。",
+   "opciones": [
+    "ふたごはぜんぶ<ruby>同<rt>おな</rt></ruby>じだ",
+    "にている<ruby>人<rt>ひと</rt></ruby>はいても<ruby>同<rt>おな</rt></ruby>じ<ruby>人<rt>ひと</rt></ruby>はいない",
+    "かおがたいせつだ",
+    "しずかなほうがいい"
+   ],
+   "correcta": 1
+  }
+ ]
+}

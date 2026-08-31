@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kurashi/muebles-2",
+ "titulo": "<ruby>眼鏡<rt>めがね</rt></ruby>をさがす",
+ "cuerpo": "あさ、<ruby>眼鏡<rt>めがね</rt></ruby><em class=\"g\">を</em>さがしました。<ruby>時計<rt>とけい</rt></ruby><em class=\"g\">を</em><ruby>見<rt>み</rt></ruby>ると、もう<ruby>出<rt>で</rt></ruby>る<ruby>時間<rt>じかん</rt></ruby>でした。<ruby>椅子<rt>いす</rt></ruby>の<ruby>下<rt>した</rt></ruby>にも、<ruby>茶碗<rt>ちゃわん</rt></ruby>のよこにもありません。<ruby>花瓶<rt>かびん</rt></ruby>の<ruby>石<rt>いし</rt></ruby>のあいだをのぞきましたが、そこにもありません。<ruby>危<rt>あぶ</rt></ruby>ないので、<ruby>石鹸<rt>せっけん</rt></ruby>の<ruby>皿<rt>さら</rt></ruby>まで<ruby>見<rt>み</rt></ruby>ました。さいごに、じぶんのあたま<em class=\"g\">を</em>さわると、そこにありました。<ruby>寝<rt>ね</rt></ruby>るまえに<ruby>上<rt>うえ</rt></ruby>にあげて、そのままわすれていたのです。",
+ "traduccion": "Por la mañana busqué las gafas. Miré el reloj y ya era hora de salir. No estaban debajo de la silla ni al lado del cuenco. Miré entre las piedras del jarrón y tampoco. Por si acaso, miré hasta el platito del jabón. Al final me toqué la cabeza y ahí estaban. Me las había subido antes de dormir y se me había olvidado.",
+ "preguntas": [
+  {
+   "p": "<ruby>眼鏡<rt>めがね</rt></ruby>はどこにありましたか。",
+   "opciones": [
+    "<ruby>椅子<rt>いす</rt></ruby>の<ruby>下<rt>した</rt></ruby>",
+    "<ruby>花瓶<rt>かびん</rt></ruby>のなか",
+    "あたまの<ruby>上<rt>うえ</rt></ruby>",
+    "<ruby>石鹸<rt>せっけん</rt></ruby>の<ruby>皿<rt>さら</rt></ruby>"
+   ],
+   "correcta": 2
+  },
+  {
+   "p": "なぜ、そこにありましたか。",
+   "opciones": [
+    "だれかがおいたから",
+    "<ruby>寝<rt>ね</rt></ruby>るまえに<ruby>上<rt>うえ</rt></ruby>にあげてわすれたから",
+    "<ruby>時計<rt>とけい</rt></ruby>のよこにおいたから",
+    "おとしたから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

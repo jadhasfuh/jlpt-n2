@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kurashi/limpieza-1",
+ "titulo": "<ruby>掃除<rt>そうじ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "<ruby>日<rt>にち</rt></ruby>よう<ruby>日<rt>び</rt></ruby>は<ruby>掃除<rt>そうじ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>です。まず<ruby>窓<rt>まど</rt></ruby>をあけます。そとに<ruby>小<rt>ちい</rt></ruby>さいねこ<em class=\"g\">がいます</em>。まいしゅう、おなじところにすわっています。<ruby>汚<rt>きたな</rt></ruby>くなったゆかをふいて、<ruby>洗濯<rt>せんたく</rt></ruby>をします。おなじ<ruby>型<rt>かた</rt></ruby>のシャツが<ruby>三<rt>さん</rt></ruby>まいあるので、いつもまちがえます。いらないものもすてます。ぜんぶおわると、へやがひろく<ruby>見<rt>み</rt></ruby>えます。そのころには、そとのねこはいなくなって、かわりにとりが<ruby>二<rt>に</rt></ruby>わ<em class=\"g\">がいます</em>。",
+ "traduccion": "El domingo es el día de limpiar. Lo primero, abro la ventana. Fuera hay un gato pequeño. Todas las semanas se sienta en el mismo sitio. Limpio el suelo que se ha ensuciado y pongo la lavadora. Como tengo tres camisas del mismo modelo, siempre me confundo. También tiro lo que no necesito. Cuando termino con todo, la habitación se ve más amplia. Para entonces el gato ya se ha ido y en su lugar hay dos pájaros.",
+ "preguntas": [
+  {
+   "p": "<ruby>掃除<rt>そうじ</rt></ruby>のとき、まずすることは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "ゆかをふく",
+    "<ruby>窓<rt>まど</rt></ruby>をあける",
+    "<ruby>洗濯<rt>せんたく</rt></ruby>をする",
+    "すてる"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "ぜんぶおわると、そとには<ruby>何<rt>なに</rt></ruby>が<em class=\"g\">がいます</em>か。",
+   "opciones": [
+    "ねこ",
+    "とり",
+    "<ruby>人<rt>ひと</rt></ruby>",
+    "なにもいない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

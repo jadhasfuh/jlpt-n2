@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/seishitsu/color-1",
+ "titulo": "<ruby>色<rt>いろ</rt></ruby>のはなし",
+ "cuerpo": "うちのかべは<ruby>白<rt>しろ</rt></ruby>です。まえは<ruby>青<rt>あお</rt></ruby>かったのですが、くらく<ruby>見<rt>み</rt></ruby>えたのでかえました。<ruby>白<rt>しろ</rt></ruby>いかべには、<ruby>赤<rt>あか</rt></ruby>いえも<ruby>緑<rt>みどり</rt></ruby>のえもあいます。そとの木は<ruby>春<rt>はる</rt></ruby>に<ruby>緑<rt>みどり</rt></ruby>になり、<ruby>秋<rt>あき</rt></ruby>には<ruby>黄色<rt>きいろ</rt></ruby>くなります。<ruby>茶色<rt>ちゃいろ</rt></ruby>のつくえのよこに<ruby>青<rt>あお</rt></ruby>いいすをおくと、へやがしずかに<ruby>見<rt>み</rt></ruby>えました。<ruby>色<rt>いろ</rt></ruby>をえらぶときは、いちどおいて<ruby>見<rt>み</rt></ruby>てからきめ<em class=\"g\">なくてはならない</em>とおもいます。かべをぜんぶぬってから、こうかいしたことがあるからです。",
+ "traduccion": "La pared de casa es blanca. Antes era azul, pero se veía oscura y la cambiamos. Con una pared blanca pegan tanto los cuadros rojos como los verdes. El árbol de fuera se pone verde en primavera y amarillo en otoño. Al poner una silla azul junto al escritorio marrón, la habitación se veía serena. Creo que al elegir un color hay que ponerlo y mirarlo antes de decidir. Porque ya me pasó arrepentirme después de pintar la pared entera.",
+ "preguntas": [
+  {
+   "p": "まえのかべは<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>白<rt>しろ</rt></ruby>",
+    "<ruby>青<rt>あお</rt></ruby>",
+    "<ruby>緑<rt>みどり</rt></ruby>",
+    "<ruby>茶色<rt>ちゃいろ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>色<rt>いろ</rt></ruby>をえらぶとき、どうするといいですか。",
+   "opciones": [
+    "すぐにきめる",
+    "いちどおいて<ruby>見<rt>み</rt></ruby>てからきめる",
+    "<ruby>人<rt>ひと</rt></ruby>にきく",
+    "<ruby>白<rt>しろ</rt></ruby>にする"
+   ],
+   "correcta": 1
+  }
+ ]
+}

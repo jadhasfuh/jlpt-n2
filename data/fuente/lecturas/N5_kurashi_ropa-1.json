@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/kurashi/ropa-1",
+ "titulo": "<ruby>背広<rt>せびろ</rt></ruby>と<ruby>靴<rt>くつ</rt></ruby>",
+ "cuerpo": "しごとの<ruby>一日<rt>いちにち</rt></ruby>めは、<ruby>背広<rt>せびろ</rt></ruby>をきました。<ruby>上着<rt>うわぎ</rt></ruby>のボタンをとめると、せなかがまっすぐになる<ruby>気<rt>き</rt></ruby>がします。<ruby>靴<rt>くつ</rt></ruby>は<ruby>革<rt>かわ</rt></ruby>のもので、あたらしいのであしがいたかったです。<ruby>靴下<rt>くつした</rt></ruby>をあついものにかえると、すこしよくなりました。<ruby>財布<rt>さいふ</rt></ruby>はポケットではなく、かばんに<ruby>入<rt>い</rt></ruby>れます。かえりに<ruby>雨<rt>あめ</rt></ruby>がふって、<ruby>洋服<rt>ようふく</rt></ruby>がぬれました。うちで<ruby>脱<rt>ぬ</rt></ruby>いで、かけておきました。あしたは<ruby>帽子<rt>ぼうし</rt></ruby>をもって<ruby>行<rt>い</rt></ruby>きます。",
+ "traduccion": "El primer día de trabajo me puse un traje. Cuando me abrocho el botón de la chaqueta, me da la sensación de que la espalda se pone recta. Los zapatos eran de piel y, como estaban nuevos, me dolían los pies. Cambié a unos calcetines más gruesos y mejoró un poco. La cartera no la llevo en el bolsillo, sino en la mochila. A la vuelta llovió y la ropa se me mojó. En casa me la quité y la dejé colgada. Mañana me llevo el sombrero.",
+ "preguntas": [
+  {
+   "p": "なぜ、あしがいたかったですか。",
+   "opciones": [
+    "<ruby>靴下<rt>くつした</rt></ruby>がうすいから",
+    "<ruby>靴<rt>くつ</rt></ruby>があたらしいから",
+    "あるいたから",
+    "<ruby>雨<rt>あめ</rt></ruby>がふったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>財布<rt>さいふ</rt></ruby>はどこに<ruby>入<rt>い</rt></ruby>れますか。",
+   "opciones": [
+    "ポケット",
+    "かばん",
+    "<ruby>上着<rt>うわぎ</rt></ruby>",
+    "<ruby>背広<rt>せびろ</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}
