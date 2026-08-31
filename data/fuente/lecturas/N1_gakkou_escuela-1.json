@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/gakkou/escuela-1",
+ "titulo": "<ruby>塾<rt>じゅく</rt></ruby>の<ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>",
+ "cuerpo": "<ruby>中学<rt>ちゅうがく</rt></ruby>のころ、<ruby>週<rt>しゅう</rt></ruby>に<ruby>三日<rt>みっか</rt></ruby><ruby>塾<rt>じゅく</rt></ruby>に<ruby>通<rt>かよ</rt></ruby>っていました。<ruby>授業<rt>じゅぎょう</rt></ruby><em class=\"g\">だの</em>テスト<em class=\"g\">だの</em>で<ruby>一日<rt>いちにち</rt></ruby>が<ruby>終<rt>お</rt></ruby>わり、<ruby>夜<rt>よる</rt></ruby>の<ruby>十時<rt>じゅうじ</rt></ruby>に<ruby>自転車<rt>じてんしゃ</rt></ruby>で<ruby>帰<rt>かえ</rt></ruby>るのが<ruby>当<rt>あ</rt></ruby>たり<ruby>前<rt>まえ</rt></ruby>でした。<ruby>体力<rt>たいりょく</rt></ruby>を<ruby>使<rt>つか</rt></ruby>い<ruby>尽<rt>つ</rt></ruby>くして、<ruby>登校<rt>とうこう</rt></ruby>するだけで<ruby>精一杯<rt>せいいっぱい</rt></ruby>の<ruby>時期<rt>じき</rt></ruby>もあります。<ruby>眼科<rt>がんか</rt></ruby>で<ruby>目<rt>め</rt></ruby>を<ruby>診<rt>み</rt></ruby>てもらったとき、<ruby>医者<rt>いしゃ</rt></ruby>に「<ruby>休<rt>やす</rt></ruby>むのも<ruby>勉強<rt>べんきょう</rt></ruby>のうちだ」と<ruby>言<rt>い</rt></ruby>われました。<ruby>同<rt>おな</rt></ruby>じ<ruby>学年<rt>がくねん</rt></ruby>に、<ruby>半年<rt>はんとし</rt></ruby><ruby>休学<rt>きゅうがく</rt></ruby>してから<ruby>戻<rt>もど</rt></ruby>ってきた<ruby>子<rt>こ</rt></ruby>がいます。その<ruby>子<rt>こ</rt></ruby>は<ruby>考古学<rt>こうこがく</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>ばかり<ruby>読<rt>よ</rt></ruby>んでいて、<ruby>将来<rt>しょうらい</rt></ruby>の<ruby>生計<rt>せいけい</rt></ruby>をどうするのかと<ruby>先生<rt>せんせい</rt></ruby>に<ruby>聞<rt>き</rt></ruby>かれても<ruby>平気<rt>へいき</rt></ruby>でした。いま<ruby>思<rt>おも</rt></ruby>えば、あのころ<ruby>教訓<rt>きょうくん</rt></ruby>を<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>っていたのは<ruby>教室<rt>きょうしつ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>ではなく、<ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>のほうだったのかもしれません。",
+ "traduccion": "En secundaria iba a la academia tres días por semana. El día se acababa entre clases y exámenes, y volver en bici a las diez de la noche era lo normal. Hubo temporadas en que gastaba todas las fuerzas y con ir a clase ya tenía bastante. Cuando fui al oculista a que me revisaran la vista, el médico me dijo: «descansar también es parte de estudiar». En mi curso había un chico que volvió después de medio año de baja. Solo leía libros de arqueología, y cuando el profesor le preguntaba de qué pensaba vivir, se quedaba tan tranquilo. Pensándolo ahora, puede que la lección de aquellos años no la recibiera dentro del aula, sino en el camino de vuelta.",
+ "preguntas": [
+  {
+   "p": "<ruby>医者<rt>いしゃ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "もっと<ruby>勉強<rt>べんきょう</rt></ruby>しなさい",
+    "<ruby>休<rt>やす</rt></ruby>むのも<ruby>勉強<rt>べんきょう</rt></ruby>のうちだ",
+    "<ruby>塾<rt>じゅく</rt></ruby>をやめなさい",
+    "<ruby>目<rt>め</rt></ruby>は<ruby>問題<rt>もんだい</rt></ruby>ない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>休学<rt>きゅうがく</rt></ruby>してから<ruby>戻<rt>もど</rt></ruby>ってきた<ruby>子<rt>こ</rt></ruby>は、どんな<ruby>子<rt>こ</rt></ruby>でしたか。",
+   "opciones": [
+    "いつも<ruby>心配<rt>しんぱい</rt></ruby>していた",
+    "<ruby>考古学<rt>こうこがく</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>ばかり<ruby>読<rt>よ</rt></ruby>んで<ruby>平気<rt>へいき</rt></ruby>だった",
+    "<ruby>成績<rt>せいせき</rt></ruby>がよかった",
+    "すぐにまた<ruby>休<rt>やす</rt></ruby>んだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

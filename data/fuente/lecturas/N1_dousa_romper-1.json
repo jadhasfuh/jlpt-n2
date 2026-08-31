@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/dousa/romper-1",
+ "titulo": "ごまかさないこと",
+ "cuerpo": "<ruby>工場<rt>こうじょう</rt></ruby>で<ruby>小<rt>ちい</rt></ruby>さな<ruby>傷<rt>きず</rt></ruby>のある<ruby>部品<rt>ぶひん</rt></ruby>が<ruby>見<rt>み</rt></ruby>つかりました。<ruby>不良<rt>ふりょう</rt></ruby><ruby>品<rt>ひん</rt></ruby>として<ruby>取<rt>と</rt></ruby>り<ruby>除<rt>のぞ</rt></ruby>けば、その<ruby>日<rt>ひ</rt></ruby>の<ruby>数<rt>かず</rt></ruby>が<ruby>足<rt>た</rt></ruby>りなくなります。<ruby>先輩<rt>せんぱい</rt></ruby>の<ruby>一人<rt>ひとり</rt></ruby>が、<ruby>見<rt>み</rt></ruby>なかったことにしようと<ruby>言<rt>い</rt></ruby>いました。<ruby>数字<rt>すうじ</rt></ruby>をごまかしたところで、だれも<ruby>気<rt>き</rt></ruby>づかないだろうと。けれども、<ruby>気<rt>き</rt></ruby>づかれない<em class=\"g\">にしたところで</em>、<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>のところでいつか<ruby>壊<rt>こわ</rt></ruby>れるのです。<ruby>相手<rt>あいて</rt></ruby>を<ruby>欺<rt>あざむ</rt></ruby>くというより、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>を<ruby>損<rt>そこ</rt></ruby>なう<ruby>行為<rt>こうい</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>いました。<ruby>結局<rt>けっきょく</rt></ruby>、その<ruby>日<rt>ひ</rt></ruby>は<ruby>数<rt>かず</rt></ruby>が<ruby>足<rt>た</rt></ruby>りないまま<ruby>報告<rt>ほうこく</rt></ruby>しました。<ruby>課長<rt>かちょう</rt></ruby>はおこりませんでした。<ruby>十年<rt>じゅうねん</rt></ruby>かけて<ruby>築<rt>きず</rt></ruby>いた<ruby>信用<rt>しんよう</rt></ruby>は、<ruby>一度<rt>いちど</rt></ruby>で<ruby>滅<rt>ほろ</rt></ruby>ぼせる。そう<ruby>言<rt>い</rt></ruby>って、その<ruby>部品<rt>ぶひん</rt></ruby>を<ruby>手<rt>て</rt></ruby>に<ruby>取<rt>と</rt></ruby>り、<ruby>棚<rt>たな</rt></ruby>にしまいました。",
+ "traduccion": "En la fábrica apareció una pieza con un rasguño pequeño. Si la apartábamos como defectuosa, no llegábamos al número del día. Uno de los veteranos dijo que hiciéramos como si no la hubiéramos visto. Que si maquillábamos la cifra, nadie se daría cuenta. Pero aunque no se den cuenta, algún día se romperá en manos de quien la use. Pensé que, más que engañar al otro, es un acto que estropea el propio trabajo. Al final informamos aquel día con el número incompleto. El jefe de sección no se enfadó. La confianza que cuesta diez años levantar se puede destruir de una sola vez. Eso dijo, cogió la pieza y la guardó en el estante.",
+ "preguntas": [
+  {
+   "p": "<ruby>先輩<rt>せんぱい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>提案<rt>ていあん</rt></ruby>しましたか。",
+   "opciones": [
+    "<ruby>部品<rt>ぶひん</rt></ruby>を<ruby>直<rt>なお</rt></ruby>すこと",
+    "<ruby>見<rt>み</rt></ruby>なかったことにすること",
+    "<ruby>課長<rt>かちょう</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>すること",
+    "<ruby>仕事<rt>しごと</rt></ruby>をやめること"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>課長<rt>かちょう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "<ruby>数<rt>かず</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>だ",
+    "<ruby>十年<rt>じゅうねん</rt></ruby>の<ruby>信用<rt>しんよう</rt></ruby>は<ruby>一度<rt>いちど</rt></ruby>で<ruby>滅<rt>ほろ</rt></ruby>ぼせる",
+    "<ruby>部品<rt>ぶひん</rt></ruby>を<ruby>捨<rt>す</rt></ruby>てろ",
+    "<ruby>先輩<rt>せんぱい</rt></ruby>が<ruby>正<rt>ただ</rt></ruby>しい"
+   ],
+   "correcta": 1
+  }
+ ]
+}

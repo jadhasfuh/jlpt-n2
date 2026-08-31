@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/gakkou/estudio-1",
+ "titulo": "<ruby>腕前<rt>うでまえ</rt></ruby>ができるまで",
+ "cuerpo": "<ruby>父<rt>ちち</rt></ruby>は<ruby>建具<rt>たてぐ</rt></ruby>の<ruby>職人<rt>しょくにん</rt></ruby>で、<ruby>修行<rt>しゅぎょう</rt></ruby>に<ruby>七年<rt>ななねん</rt></ruby>かかったそうです。<ruby>最初<rt>さいしょ</rt></ruby>の<ruby>二年<rt>にねん</rt></ruby>は<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>研<rt>と</rt></ruby>ぐだけで、<ruby>手際<rt>てぎわ</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いと<ruby>言<rt>い</rt></ruby>われつづけたと<ruby>聞<rt>き</rt></ruby>きました。<ruby>慣<rt>な</rt></ruby>れというのは<ruby>時間<rt>じかん</rt></ruby>が<ruby>授<rt>さず</rt></ruby>けてくれるもので、<ruby>労力<rt>ろうりょく</rt></ruby>をかけずに<ruby>手<rt>て</rt></ruby>に<ruby>入<rt>はい</rt></ruby>るものではありません。わたしは<ruby>講習<rt>こうしゅう</rt></ruby>に<ruby>申<rt>もう</rt></ruby>し<ruby>込<rt>こ</rt></ruby>んで<ruby>半年<rt>はんとし</rt></ruby>で<ruby>懲<rt>こ</rt></ruby>りました。うまくいかないと、すぐに<ruby>言<rt>い</rt></ruby>い<ruby>訳<rt>わけ</rt></ruby>を<ruby>探<rt>さが</rt></ruby>してしまうのです。<ruby>父<rt>ちち</rt></ruby>は<ruby>職人<rt>しょくにん</rt></ruby><em class=\"g\">でもあり</em>、<ruby>教<rt>おし</rt></ruby>える<ruby>立場<rt>たちば</rt></ruby><em class=\"g\">でもある</em><ruby>人<rt>ひと</rt></ruby>でした。<ruby>弟子<rt>でし</rt></ruby>の<ruby>育成<rt>いくせい</rt></ruby>については、<ruby>巧<rt>たく</rt></ruby>みさより<ruby>励<rt>はげ</rt></ruby>む<ruby>心<rt>こころ</rt></ruby>のほうを<ruby>先<rt>さき</rt></ruby>に<ruby>見<rt>み</rt></ruby>ると<ruby>言<rt>い</rt></ruby>っていました。<ruby>一息<rt>ひといき</rt></ruby>ついてから、もう<ruby>一度<rt>いちど</rt></ruby><ruby>実践<rt>じっせん</rt></ruby>してみようと<ruby>思<rt>おも</rt></ruby>います。<ruby>悟<rt>さと</rt></ruby>るような<ruby>瞬間<rt>しゅんかん</rt></ruby>は、たぶんずっと<ruby>先<rt>さき</rt></ruby>にしか<ruby>来<rt>き</rt></ruby>ません。",
+ "traduccion": "Mi padre era carpintero de puertas y ventanas, y dice que su aprendizaje duró siete años. Los dos primeros años se los pasó solo afilando herramientas, y me contó que le decían continuamente que era torpe. La soltura es algo que te concede el tiempo, no algo que se consigue sin esfuerzo. Yo me apunté a un curso y a los seis meses ya estaba escarmentado. En cuanto algo no me sale, me pongo a buscar excusas. Mi padre era a la vez artesano y alguien que enseñaba. Sobre formar aprendices decía que antes que la destreza miraba las ganas de esforzarse. Voy a tomar aire y volver a ponerlo en práctica. El momento en que uno lo entiende de golpe seguramente llega mucho más tarde.",
+ "preguntas": [
+  {
+   "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>修行<rt>しゅぎょう</rt></ruby>の<ruby>最初<rt>さいしょ</rt></ruby>の<ruby>二年<rt>にねん</rt></ruby>、<ruby>何<rt>なに</rt></ruby>をしていましたか。",
+   "opciones": [
+    "<ruby>建具<rt>たてぐ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>っていた",
+    "<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>研<rt>と</rt></ruby>いでいた",
+    "<ruby>弟子<rt>でし</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えていた",
+    "<ruby>店<rt>みせ</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>っていた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>弟子<rt>でし</rt></ruby>の<ruby>育成<rt>いくせい</rt></ruby>について、<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>先<rt>さき</rt></ruby>に<ruby>見<rt>み</rt></ruby>ると<ruby>言<rt>い</rt></ruby>っていましたか。",
+   "opciones": [
+    "<ruby>巧<rt>たく</rt></ruby>みさ",
+    "<ruby>励<rt>はげ</rt></ruby>む<ruby>心<rt>こころ</rt></ruby>",
+    "<ruby>年齢<rt>ねんれい</rt></ruby>",
+    "<ruby>手際<rt>てぎわ</rt></ruby>のよさ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

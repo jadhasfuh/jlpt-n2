@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/gakkou/examen-1",
+ "titulo": "<ruby>見落<rt>みお</rt></ruby>とした<ruby>一問<rt>いちもん</rt></ruby>",
+ "cuerpo": "<ruby>資格<rt>しかく</rt></ruby><ruby>試験<rt>しけん</rt></ruby>の<ruby>申込<rt>もうしこみ</rt></ruby>をしたのは<ruby>春<rt>はる</rt></ruby>のことでした。<ruby>参考書<rt>さんこうしょ</rt></ruby><em class=\"g\">に</em><ruby>問題集<rt>もんだいしゅう</rt></ruby>を<ruby>並<rt>なら</rt></ruby>べ、<ruby>毎晩<rt>まいばん</rt></ruby><ruby>机<rt>つくえ</rt></ruby>に<ruby>向<rt>む</rt></ruby>かいました。<ruby>当日<rt>とうじつ</rt></ruby>、<ruby>来場<rt>らいじょう</rt></ruby>した<ruby>人<rt>ひと</rt></ruby>の<ruby>数<rt>かず</rt></ruby>に<ruby>驚<rt>おどろ</rt></ruby>きながら<ruby>席<rt>せき</rt></ruby>に<ruby>着<rt>つ</rt></ruby>きます。<ruby>最後<rt>さいご</rt></ruby>の<ruby>見直<rt>みなお</rt></ruby>しで<ruby>一問<rt>いちもん</rt></ruby>を<ruby>見落<rt>みお</rt></ruby>としていたことに<ruby>気<rt>き</rt></ruby>づき、あわてて<ruby>書<rt>か</rt></ruby>いた<ruby>答<rt>こた</rt></ruby>えが<ruby>錯誤<rt>さくご</rt></ruby>のもとになりました。<ruby>得点<rt>とくてん</rt></ruby>は<ruby>合格<rt>ごうかく</rt></ruby><ruby>点<rt>てん</rt></ruby>に<ruby>三点<rt>さんてん</rt></ruby><ruby>足<rt>た</rt></ruby>りませんでした。<ruby>一問<rt>いちもん</rt></ruby>のせいだと<ruby>考<rt>かんが</rt></ruby>えるのは<ruby>楽<rt>らく</rt></ruby>ですが、<ruby>吟味<rt>ぎんみ</rt></ruby>してみれば<ruby>原因<rt>げんいん</rt></ruby>は<ruby>前<rt>まえ</rt></ruby>の<ruby>晩<rt>ばん</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>にあります。<ruby>点検<rt>てんけん</rt></ruby>をおろそかにしておいて<ruby>運<rt>うん</rt></ruby>のせいにするのは、<ruby>甘<rt>あま</rt></ruby>え<em class=\"g\">にもほどがある</em>でしょう。<ruby>過<rt>あやま</rt></ruby>ちを<ruby>正解<rt>せいかい</rt></ruby>に<ruby>変<rt>か</rt></ruby>えるには、<ruby>同<rt>おな</rt></ruby>じ<ruby>手順<rt>てじゅん</rt></ruby>をもう<ruby>一度<rt>いちど</rt></ruby><ruby>試<rt>こころ</rt></ruby>みるしかありません。<ruby>秋<rt>あき</rt></ruby>にもう<ruby>一度<rt>いちど</rt></ruby><ruby>申<rt>もう</rt></ruby>し<ruby>込<rt>こ</rt></ruby>みました。",
+ "traduccion": "Me inscribí al examen de certificación en primavera. Alineé el manual y los cuadernos de problemas y cada noche me sentaba a la mesa. El día señalado me senté sorprendido por la cantidad de gente que había venido. En el último repaso me di cuenta de que se me había pasado una pregunta, y la respuesta que escribí con prisas fue el origen del error. Me quedé a tres puntos del aprobado. Es cómodo pensar que fue por aquella pregunta, pero si lo examino bien, la causa está en cómo preparé la noche anterior. Descuidar la revisión y luego echarle la culpa a la suerte es pasarse de blando conmigo mismo. Para convertir un error en respuesta correcta no queda más que volver a intentar el mismo procedimiento. Me he vuelto a inscribir para el otoño.",
+ "preguntas": [
+  {
+   "p": "<ruby>試験<rt>しけん</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>合格<rt>ごうかく</rt></ruby>した",
+    "<ruby>合格<rt>ごうかく</rt></ruby><ruby>点<rt>てん</rt></ruby>に<ruby>三点<rt>さんてん</rt></ruby><ruby>足<rt>た</rt></ruby>りなかった",
+    "<ruby>受<rt>う</rt></ruby>けられなかった",
+    "まだわからない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>は、<ruby>本当<rt>ほんとう</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>はどこにあると<ruby>考<rt>かんが</rt></ruby>えていますか。",
+   "opciones": [
+    "<ruby>見落<rt>みお</rt></ruby>とした<ruby>一問<rt>いちもん</rt></ruby>",
+    "<ruby>前<rt>まえ</rt></ruby>の<ruby>晩<rt>ばん</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>",
+    "<ruby>会場<rt>かいじょう</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>の<ruby>多<rt>おお</rt></ruby>さ",
+    "<ruby>運<rt>うん</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}
