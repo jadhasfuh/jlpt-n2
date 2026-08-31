@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/seishitsu/grado-1",
+ "titulo": "<ruby>厳密<rt>げんみつ</rt></ruby>に<ruby>測<rt>はか</rt></ruby>る",
+ "cuerpo": "<ruby>部品<rt>ぶひん</rt></ruby>の<ruby>検査<rt>けんさ</rt></ruby>は、<ruby>規格<rt>きかく</rt></ruby>どおりかどうかを<ruby>厳密<rt>げんみつ</rt></ruby>に<ruby>測<rt>はか</rt></ruby>る<ruby>仕事<rt>しごと</rt></ruby>です。<ruby>機械<rt>きかい</rt></ruby><em class=\"g\">なしに</em>は<ruby>一<rt>ひと</rt></ruby>つも<ruby>判定<rt>はんてい</rt></ruby>できません。<ruby>目<rt>め</rt></ruby>で<ruby>見<rt>み</rt></ruby>てまるっきり<ruby>同<rt>おな</rt></ruby>じに<ruby>見<rt>み</rt></ruby>える<ruby>二<rt>ふた</rt></ruby>つが、<ruby>数値<rt>すうち</rt></ruby>では<ruby>断然<rt>だんぜん</rt></ruby>ちがうことがあります。<ruby>新人<rt>しんじん</rt></ruby>のころ、かろうじて<ruby>合格<rt>ごうかく</rt></ruby>の<ruby>範囲<rt>はんい</rt></ruby>に<ruby>入<rt>はい</rt></ruby>った<ruby>品<rt>しな</rt></ruby>を<ruby>通<rt>とお</rt></ruby>してしまったことがありました。<ruby>根拠<rt>こんきょ</rt></ruby>が<ruby>薄弱<rt>はくじゃく</rt></ruby>なまま、たぶん<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>ったのです。その<ruby>一件<rt>いっけん</rt></ruby>で、<ruby>甚<rt>はなは</rt></ruby>だしく<ruby>強烈<rt>きょうれつ</rt></ruby>な<ruby>叱<rt>しか</rt></ruby>られ<ruby>方<rt>かた</rt></ruby>をしました。つくづく<ruby>反省<rt>はんせい</rt></ruby>しましたが、<ruby>叱<rt>しか</rt></ruby>った<ruby>先輩<rt>せんぱい</rt></ruby>はそのあと<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>を<ruby>和<rt>やわ</rt></ruby>らげて<ruby>測<rt>はか</rt></ruby>り<ruby>方<rt>かた</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つずつ<ruby>教<rt>おし</rt></ruby>えてくれました。いまは<ruby>専<rt>もっぱ</rt></ruby>ら<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>に<ruby>教<rt>おし</rt></ruby>える<ruby>側<rt>がわ</rt></ruby>です。きちっとやることごとくを<ruby>伝<rt>つた</rt></ruby>えるのは<ruby>難<rt>むずか</rt></ruby>しいけれど、たくましく<ruby>育<rt>そだ</rt></ruby>っていくのを<ruby>見<rt>み</rt></ruby>るのは<ruby>悪<rt>わる</rt></ruby>くありません。",
+ "traduccion": "Inspeccionar piezas consiste en medir con rigor si cumplen la norma. Sin máquinas no se puede dictaminar ni una sola. Dos piezas que a simple vista parecen exactamente iguales pueden ser rotundamente distintas en las cifras. De novato dejé pasar una pieza que entraba en el margen aprobado por los pelos. Con un fundamento endeble, pensé que seguramente no pasaría nada. Por aquello me echaron una bronca tremenda. Me arrepentí de veras, pero el veterano que me riñó, después, suavizó el tono y me fue enseñando a medir paso a paso. Ahora soy yo quien enseña a los jóvenes casi todo el tiempo. Transmitir absolutamente todo lo que hay que hacer bien es difícil, pero ver cómo se van haciendo fuertes no está nada mal.",
+ "preguntas": [
+  {
+   "p": "<ruby>新人<rt>しんじん</rt></ruby>のころ、<ruby>何<rt>なに</rt></ruby>をしてしまいましたか。",
+   "opciones": [
+    "<ruby>機械<rt>きかい</rt></ruby>をこわした",
+    "かろうじて<ruby>合格<rt>ごうかく</rt></ruby>の<ruby>範囲<rt>はんい</rt></ruby>の<ruby>品<rt>しな</rt></ruby>を<ruby>通<rt>とお</rt></ruby>した",
+    "<ruby>測<rt>はか</rt></ruby>らずに<ruby>帰<rt>かえ</rt></ruby>った",
+    "<ruby>規格<rt>きかく</rt></ruby>を<ruby>変<rt>か</rt></ruby>えた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>叱<rt>しか</rt></ruby>った<ruby>先輩<rt>せんぱい</rt></ruby>は、そのあとどうしましたか。",
+   "opciones": [
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなくなった",
+    "<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>を<ruby>和<rt>やわ</rt></ruby>らげて<ruby>測<rt>はか</rt></ruby>り<ruby>方<rt>かた</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えた",
+    "<ruby>仕事<rt>しごと</rt></ruby>を<ruby>変<rt>か</rt></ruby>えた",
+    "もう<ruby>一度<rt>いちど</rt></ruby><ruby>叱<rt>しか</rt></ruby>った"
+   ],
+   "correcta": 1
+  }
+ ]
+}
