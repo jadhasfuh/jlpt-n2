@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/basho/transporte-1",
+ "titulo": "<ruby>事故<rt>じこ</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>",
+ "cuerpo": "<ruby>朝<rt>あさ</rt></ruby>、<ruby>特急<rt>とっきゅう</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るつもりでした。ところが<ruby>交通<rt>こうつう</rt></ruby><ruby>事故<rt>じこ</rt></ruby>があって、でんしゃがとまりました。<ruby>予定<rt>よてい</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>につけません。ホームで<ruby>待<rt>ま</rt></ruby>つ<ruby>人<rt>ひと</rt></ruby>がどんどんふえていきます。アナウンスがある<em class=\"g\">と</em>、みんないっせいにうごきました。わたしはバスに<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えて、とおいみちをえらびました。<em class=\"g\">やっと</em><ruby>会社<rt>かいしゃ</rt></ruby>についたのは、<ruby>予定<rt>よてい</rt></ruby>より<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>あとでした。<ruby>計画<rt>けいかく</rt></ruby>どおりにいかない<ruby>日<rt>ひ</rt></ruby>こそ、はやく<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>ておいてよかったと<ruby>思<rt>おも</rt></ruby>います。<ruby>運転<rt>うんてん</rt></ruby>する<ruby>人<rt>ひと</rt></ruby>も、きっと<ruby>同<rt>おな</rt></ruby>じ<ruby>気<rt>き</rt></ruby>もちでしょう。",
+ "traduccion": "Por la mañana pensaba coger el expreso. Pero hubo un accidente de tráfico y el tren se paró. No llegaba a la hora prevista. La gente que esperaba en el andén no paraba de aumentar. Cada vez que sonaba un aviso, todos se movían a la vez. Yo hice transbordo al autobús y elegí el camino largo. Por fin llegué a la oficina una hora más tarde de lo previsto. Precisamente los días en que nada sale según el plan, uno agradece haber salido pronto de casa. Seguro que quien conduce piensa lo mismo.",
+ "preguntas": [
+  {
+   "p": "なぜ、でんしゃがとまりましたか。",
+   "opciones": [
+    "<ruby>雨<rt>あめ</rt></ruby>がふったから",
+    "<ruby>交通<rt>こうつう</rt></ruby><ruby>事故<rt>じこ</rt></ruby>があったから",
+    "<ruby>人<rt>ひと</rt></ruby>がおおかったから",
+    "<ruby>特急<rt>とっきゅう</rt></ruby>だから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>会社<rt>かいしゃ</rt></ruby>についたのはいつですか。",
+   "opciones": [
+    "<ruby>予定<rt>よてい</rt></ruby>どおり",
+    "<ruby>予定<rt>よてい</rt></ruby>より<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>あと",
+    "<ruby>予定<rt>よてい</rt></ruby>より<ruby>早<rt>はや</rt></ruby>く",
+    "つかなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

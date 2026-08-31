@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/basho/mundo-1",
+ "titulo": "<ruby>世界<rt>せかい</rt></ruby>の<ruby>地図<rt>ちず</rt></ruby>",
+ "cuerpo": "<ruby>子<rt>こ</rt></ruby>どものころ、へやのかべに<ruby>世界<rt>せかい</rt></ruby>の<ruby>地図<rt>ちず</rt></ruby>をはっていました。アジアもアフリカもアメリカも、おなじ<ruby>紙<rt>かみ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>にありました。<ruby>島<rt>しま</rt></ruby>のかずをかぞえたこともあります。いまの<ruby>仕事<rt>しごと</rt></ruby>は<ruby>貿易<rt>ぼうえき</rt></ruby>にかんけいがあります<em class=\"g\">し</em>、<em class=\"g\">それに</em><ruby>国際<rt>こくさい</rt></ruby>てきな<ruby>会<rt>かい</rt></ruby>にも<ruby>出<rt>で</rt></ruby>ます。むかしゆびでさしていた<ruby>国<rt>くに</rt></ruby>に、<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>行<rt>い</rt></ruby>くことになりました。<ruby>地図<rt>ちず</rt></ruby>では<ruby>小<rt>ちい</rt></ruby>さく<ruby>見<rt>み</rt></ruby>えた<ruby>島<rt>しま</rt></ruby>が、<ruby>行<rt>い</rt></ruby>ってみると<ruby>一日<rt>いちにち</rt></ruby>ではまわれないほど<ruby>大<rt>おお</rt></ruby>きかったです。",
+ "traduccion": "De niño tenía un mapa del mundo pegado en la pared de mi habitación. Asia, África y América estaban todas en el mismo papel. Llegué a contar cuántas islas había. Mi trabajo de ahora tiene que ver con el comercio exterior, y además asisto a reuniones internacionales. Y he acabado yendo de verdad a un país que antes solo señalaba con el dedo. Una isla que en el mapa parecía pequeña resultó, al llegar, tan grande que no se podía recorrer en un día.",
+ "preguntas": [
+  {
+   "p": "<ruby>子<rt>こ</rt></ruby>どものころ、<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>島<rt>しま</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った",
+    "<ruby>地図<rt>ちず</rt></ruby>の<ruby>島<rt>しま</rt></ruby>をかぞえた",
+    "<ruby>貿易<rt>ぼうえき</rt></ruby>をした",
+    "<ruby>会<rt>かい</rt></ruby>に<ruby>出<rt>で</rt></ruby>た"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>島<rt>しま</rt></ruby>は<ruby>行<rt>い</rt></ruby>ってみてどうでしたか。",
+   "opciones": [
+    "<ruby>地図<rt>ちず</rt></ruby>どおり<ruby>小<rt>ちい</rt></ruby>さかった",
+    "<ruby>一日<rt>いちにち</rt></ruby>ではまわれないほど<ruby>大<rt>おお</rt></ruby>きかった",
+    "だれもいなかった",
+    "<ruby>近<rt>ちか</rt></ruby>かった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

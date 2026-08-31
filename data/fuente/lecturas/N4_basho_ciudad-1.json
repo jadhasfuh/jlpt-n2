@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/basho/ciudad-1",
+ "titulo": "<ruby>田舎<rt>いなか</rt></ruby>の<ruby>町<rt>まち</rt></ruby>",
+ "cuerpo": "そぼの<ruby>家<rt>いえ</rt></ruby>は<ruby>郊外<rt>こうがい</rt></ruby>にあります。<ruby>駅<rt>えき</rt></ruby>からバスで<ruby>三十分<rt>さんじゅっぷん</rt></ruby>、<ruby>通<rt>とお</rt></ruby>りを<ruby>一<rt>ひと</rt></ruby>つ<ruby>入<rt>はい</rt></ruby>ったところです。<ruby>近<rt>ちか</rt></ruby>くには<ruby>古<rt>ふる</rt></ruby>い<ruby>寺<rt>てら</rt></ruby>と<ruby>神社<rt>じんじゃ</rt></ruby>があって、<ruby>朝<rt>あさ</rt></ruby>は<ruby>鳥<rt>とり</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>しか<ruby>聞<rt>き</rt></ruby>こえません。むかしは<ruby>工場<rt>こうじょう</rt></ruby>がいくつもあったそうですが、いまはひとつだけです。そふは<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>き<em class=\"g\">ながら</em>、<ruby>庭<rt>にわ</rt></ruby>のしごとをします。<ruby>夏<rt>なつ</rt></ruby>にはお<ruby>寺<rt>てら</rt></ruby>の<ruby>講堂<rt>こうどう</rt></ruby>で<ruby>子<rt>こ</rt></ruby>どもの<ruby>会<rt>かい</rt></ruby>がひらかれます。<ruby>空港<rt>くうこう</rt></ruby>までは<ruby>車<rt>くるま</rt></ruby>で<ruby>二<rt>に</rt></ruby><ruby>時間<rt>じかん</rt></ruby>かかりますが、この<ruby>田舎<rt>いなか</rt></ruby>のしずかさは、どこへ<ruby>行<rt>い</rt></ruby>ってもかわりに<ruby>見<rt>み</rt></ruby>つかりません。",
+ "traduccion": "La casa de mi abuela está en las afueras. A treinta minutos en autobús desde la estación, metiéndote por una calle. Cerca hay un templo budista antiguo y un santuario sintoísta, y por la mañana solo se oye a los pájaros. Dicen que antes había varias fábricas, pero ahora solo queda una. Mi abuelo trabaja en el jardín mientras escucha música. En verano se celebra una reunión de niños en el auditorio del templo. Hasta el aeropuerto hay dos horas en coche, pero el silencio de este campo no lo encuentro en ninguna otra parte.",
+ "preguntas": [
+  {
+   "p": "そぼの<ruby>家<rt>いえ</rt></ruby>はどこにありますか。",
+   "opciones": [
+    "<ruby>町<rt>まち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>",
+    "<ruby>郊外<rt>こうがい</rt></ruby>",
+    "<ruby>空港<rt>くうこう</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>く",
+    "<ruby>工場<rt>こうじょう</rt></ruby>のとなり"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "そふは<ruby>何<rt>なに</rt></ruby>をし<em class=\"g\">ながら</em><ruby>庭<rt>にわ</rt></ruby>のしごとをしますか。",
+   "opciones": [
+    "<ruby>話<rt>はな</rt></ruby>し",
+    "<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>き",
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>み",
+    "テレビを<ruby>見<rt>み</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

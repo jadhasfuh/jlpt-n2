@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N4/basho/ir_venir-1",
+ "titulo": "<ruby>迎<rt>むか</rt></ruby>えに<ruby>行<rt>い</rt></ruby>く",
+ "cuerpo": "<ruby>父<rt>ちち</rt></ruby>が<ruby>海外<rt>かいがい</rt></ruby>から<ruby>帰<rt>かえ</rt></ruby>ってくるので、<ruby>空港<rt>くうこう</rt></ruby>まで<ruby>迎<rt>むか</rt></ruby>えに<ruby>行<rt>い</rt></ruby>きました。でんしゃを<ruby>乗<rt>の</rt></ruby>りかえて、<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby><ruby>半<rt>はん</rt></ruby>かかりました。とちゅうの<ruby>道<rt>みち</rt></ruby>を<ruby>通<rt>とお</rt></ruby>るとき、まどに<ruby>海<rt>うみ</rt></ruby>が<ruby>映<rt>うつ</rt></ruby>っていました。<ruby>父<rt>ちち</rt></ruby>はにもつ<em class=\"g\">ばかり</em><ruby>大<rt>おお</rt></ruby>きくて、<ruby>手<rt>て</rt></ruby>がふさがっていました。「<ruby>仕事<rt>しごと</rt></ruby>のことは<ruby>話<rt>はな</rt></ruby>さないよ」と<ruby>言<rt>い</rt></ruby>って、<ruby>家族<rt>かぞく</rt></ruby>のことを<em class=\"g\">ばかり</em>ききました。ちいさいころ、わたしは<ruby>父<rt>ちち</rt></ruby>から<ruby>逃<rt>に</rt></ruby>げてばかりいましたが、いまはこうして<ruby>迎<rt>むか</rt></ruby>えに<ruby>行<rt>い</rt></ruby>くようになりました。",
+ "traduccion": "Como mi padre volvía del extranjero, fui a recogerlo al aeropuerto. Con transbordo de tren, tardé una hora y media. Al pasar por un tramo del camino, el mar se reflejaba en la ventanilla. Mi padre traía un equipaje enorme y no le quedaban manos libres. Dijo «del trabajo no hablo» y solo preguntó por la familia. De pequeño yo no hacía más que huir de él, y ahora en cambio voy a recogerlo.",
+ "preguntas": [
+  {
+   "p": "<ruby>空港<rt>くうこう</rt></ruby>まで、どのくらいかかりましたか。",
+   "opciones": [
+    "<ruby>三十分<rt>さんじゅっぷん</rt></ruby>",
+    "<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby><ruby>半<rt>はん</rt></ruby>",
+    "<ruby>二<rt>に</rt></ruby><ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>半日<rt>はんにち</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>についてききましたか。",
+   "opciones": [
+    "<ruby>仕事<rt>しごと</rt></ruby>",
+    "<ruby>家族<rt>かぞく</rt></ruby>",
+    "<ruby>海<rt>うみ</rt></ruby>",
+    "にもつ"
+   ],
+   "correcta": 1
+  }
+ ]
+}
