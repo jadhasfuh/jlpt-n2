@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N3/shizen/animales-1",
+ "titulo": "<ruby>生<rt>い</rt></ruby>き<ruby>物<rt>もの</rt></ruby>のかたち",
+ "cuerpo": "<ruby>動物<rt>どうぶつ</rt></ruby>えんで、<ruby>象<rt>ぞう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>にながく<ruby>立<rt>た</rt></ruby>っていました。あの<ruby>大<rt>おお</rt></ruby>きなからだをささえる<ruby>足<rt>あし</rt></ruby>の<ruby>太<rt>ふと</rt></ruby>さ。<ruby>馬<rt>うま</rt></ruby>や<ruby>牛<rt>うし</rt></ruby>とはまるでちがいます。<ruby>鳥<rt>とり</rt></ruby>の<ruby>翼<rt>つばさ</rt></ruby>も、<ruby>貝<rt>かい</rt></ruby>の<ruby>殻<rt>から</rt></ruby>も、ぜんぶ<ruby>生<rt>い</rt></ruby>きのこる<em class=\"g\">ために</em>できたかたちです。<ruby>猿<rt>さる</rt></ruby>が<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うのを<ruby>見<rt>み</rt></ruby>て、<ruby>人間<rt>にんげん</rt></ruby>とのさかいめがどこにあるのかと<ruby>考<rt>かんが</rt></ruby>えました。<ruby>活動<rt>かつどう</rt></ruby>の<ruby>仕方<rt>しかた</rt></ruby>がちがうだけで、<ruby>生<rt>い</rt></ruby>き<ruby>物<rt>もの</rt></ruby><em class=\"g\">というのは</em>みな<ruby>同<rt>おな</rt></ruby>じことをしているのかもしれません。<ruby>蚊<rt>か</rt></ruby>にさされながら、そんなことを<ruby>思<rt>おも</rt></ruby>っていました。",
+ "traduccion": "En el zoo estuve mucho rato de pie delante del elefante. El grosor de las patas que sostienen ese cuerpo enorme. No se parece en nada al de un caballo o una vaca. Las alas de los pájaros y la concha de los moluscos son todas formas surgidas para sobrevivir. Al ver a un mono usando una herramienta, me pregunté dónde está la frontera con el ser humano. Puede que los seres vivos, cambiando solo la manera de actuar, estemos todos haciendo lo mismo. Eso pensaba mientras me picaban los mosquitos.",
+ "preguntas": [
+  {
+   "p": "<ruby>鳥<rt>とり</rt></ruby>の<ruby>翼<rt>つばさ</rt></ruby>や<ruby>貝<rt>かい</rt></ruby>の<ruby>殻<rt>から</rt></ruby>は、<ruby>何<rt>なに</rt></ruby>のためのかたちですか。",
+   "opciones": [
+    "きれいに<ruby>見<rt>み</rt></ruby>せるため",
+    "<ruby>生<rt>い</rt></ruby>きのこるため",
+    "うごくため",
+    "<ruby>人間<rt>にんげん</rt></ruby>のため"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>猿<rt>さる</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>何<rt>なに</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えましたか。",
+   "opciones": [
+    "<ruby>道具<rt>どうぐ</rt></ruby>のつくり<ruby>方<rt>かた</rt></ruby>",
+    "<ruby>人間<rt>にんげん</rt></ruby>とのさかいめがどこにあるか",
+    "<ruby>動物<rt>どうぶつ</rt></ruby>えんのひろさ",
+    "<ruby>蚊<rt>か</rt></ruby>のこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}
