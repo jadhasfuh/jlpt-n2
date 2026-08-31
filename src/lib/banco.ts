@@ -1,6 +1,22 @@
 import "server-only";
 import { supabaseServidor } from "./supabase-servidor";
 import { armarReparto, SECCION_DE, type Ajuste, type Item, type TipoItem } from "./examen";
+import { usuario } from "./sesion";
+
+/**
+ * Lo que ya ha visto esta persona según el servidor, de lo más reciente a lo
+ * más antiguo. Sin cuenta devuelve nada: la rotación se queda en el aparato.
+ */
+async function vistosDeLaNube(): Promise<string[]> {
+  const u = await usuario();
+  if (!u) return [];
+  const sb = supabaseServidor();
+  if (!sb) return [];
+  const { data } = await sb
+    .from("resultados").select("item_id")
+    .eq("perfil", u.id).order("creado", { ascending: false }).limit(800);
+  return (data ?? []).map((r) => r.item_id as string);
+}
 
 function mezclar<T>(a: T[]): T[] {
   const c = [...a];
@@ -26,6 +42,11 @@ type Bloque = { items: Item[]; visto: number };
 export async function armarExamen(a: Ajuste, vistos: string[]): Promise<Item[]> {
   const sb = supabaseServidor();
   if (!sb) return [];
+
+  // El aparato sabe lo de esta sesión; el servidor, lo de los demás aparatos.
+  // Los del aparato van delante porque son los más frescos de los dos.
+  const nube = await vistosDeLaNube();
+  vistos = [...new Set([...vistos, ...nube])].slice(0, 800);
 
   const reparto = armarReparto(a);
   const tipos = Object.keys(reparto) as TipoItem[];

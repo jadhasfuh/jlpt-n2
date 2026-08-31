@@ -44,6 +44,7 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
   const [fin, setFin] = useState<null | "tiempo" | "terminado">(null);
   const [queda, setQueda] = useState(ajuste.minutos * 60);
   const pedido = useRef(false);
+  const enviado = useRef(false);
 
   useEffect(() => {
     if (pedido.current) return;
@@ -62,6 +63,22 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
   }, [ajuste]);
 
   useEffect(() => () => { callar(); }, []);
+
+  // Al terminar, mandar lo contestado. Con cuenta se guarda y la rotación
+  // sigue funcionando en otro aparato; sin cuenta el servidor responde 204 y
+  // aquí no cambia nada. Se hace una sola vez, aunque el examen se re-pinte.
+  useEffect(() => {
+    if (!fin || !items || enviado.current) return;
+    enviado.current = true;
+    const lineas = items
+      .filter((x) => respuestas[x.id] !== undefined)
+      .map((x) => ({ item_id: x.id, acierto: respuestas[x.id] === x.respuesta }));
+    if (!lineas.length) return;
+    fetch("/api/examen/resultados", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ lineas }),
+    }).catch(() => { /* que no se pierda el examen por no poder guardarlo */ });
+  }, [fin, items, respuestas]);
 
   useEffect(() => {
     if (fin || !items) return;

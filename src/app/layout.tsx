@@ -6,6 +6,7 @@ import { Diccionario } from "@/components/Diccionario";
 import { BarraInferior } from "@/components/BarraInferior";
 import { Lateral } from "@/components/Lateral";
 import { idiomaActual } from "@/lib/idioma-servidor";
+import { SITIO } from "@/lib/sitio";
 
 // Inter va autoalojada: el subconjunto latino es pequeño y así no depende de
 // Google en tiempo de ejecución. Noto Sans JP no: sus glifos japoneses pesan
@@ -18,10 +19,23 @@ const inter = Inter({
   display: "swap",
 });
 
+const TITULO = "jlptest — japonés del N5 al N1";
+const DESCRIPCION =
+  "Vocabulario, kanji, gramática y mini exámenes del JLPT, del N5 al N1, en unidades de 20 palabras.";
+
 export const metadata: Metadata = {
-  title: "jlptest — japonés del N5 al N1",
-  description: "Vocabulario y gramática del JLPT, del N5 al N1, en unidades de 20 palabras.",
+  // Sin `metadataBase` Next deja las URL de Open Graph relativas y quien
+  // comparta un enlace no ve tarjeta ninguna.
+  metadataBase: new URL(SITIO),
+  title: TITULO,
+  description: DESCRIPCION,
+  applicationName: "jlptest",
+  manifest: "/manifest.webmanifest",
   appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "jlptest" },
+  openGraph: {
+    type: "website", siteName: "jlptest", title: TITULO, description: DESCRIPCION, url: "/",
+  },
+  twitter: { card: "summary", title: TITULO, description: DESCRIPCION },
 };
 export const viewport: Viewport = {
   width: "device-width", initialScale: 1, maximumScale: 5, viewportFit: "cover",
