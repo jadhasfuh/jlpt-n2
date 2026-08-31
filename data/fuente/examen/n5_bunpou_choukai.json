@@ -1,0 +1,667 @@
+[
+ {
+  "id": "n5-bunpou1-0001",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "わたしは まいにち 学校（　）行きます。",
+  "opciones": [
+   "へ",
+   "を",
+   "が",
+   "ね"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "を は目的語",
+   "が は主語",
+   "ね は文末"
+  ],
+  "explicacion": {
+   "es": "へ marca la dirección: 学校へ行く. を marcaría el complemento directo.",
+   "en": "へ marks direction: 学校へ行く. を would mark a direct object."
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-bunpou1-0002",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "ペン（　）名前を 書きます。",
+  "opciones": [
+   "で",
+   "に",
+   "を",
+   "も"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "に は場所や時間",
+   "を は目的語",
+   "も は「〜も」"
+  ],
+  "explicacion": {
+   "es": "で marca el medio o instrumento: con qué se hace algo.",
+   "en": "で marks the means or instrument: what you do something with."
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-bunpou1-0003",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "へやに だれ（　）いません。",
+  "opciones": [
+   "も",
+   "か",
+   "は",
+   "が"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "か は疑問",
+   "は は主題",
+   "が は主語"
+  ],
+  "explicacion": {
+   "es": "だれも＋negativo = «nadie». Con か sería «alguien», que pide frase afirmativa.",
+   "en": "だれも + negative = 'nobody'. With か it would be 'somebody', which needs an affirmative."
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-bunpou1-0004",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "あついです（　）、まどを あけましょう。",
+  "opciones": [
+   "から",
+   "まで",
+   "より",
+   "だけ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "まで は終点",
+   "より は比較",
+   "だけ は限定"
+  ],
+  "explicacion": {
+   "es": "から da la razón: «como hace calor, abramos la ventana».",
+   "en": "から gives the reason: 'since it's hot, let's open the window.'"
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-bunpou1-0005",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 本は おもしろ（　）です。",
+  "opciones": [
+   "そう",
+   "たい",
+   "ながら",
+   "ばかり"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "たい は願望",
+   "ながら は同時",
+   "ばかり は限定"
+  ],
+  "explicacion": {
+   "es": "〜そうです sobre la raíz del adjetivo = «parece». おもしろい → おもしろそう.",
+   "en": "〜そうです on the adjective stem = 'looks/seems'. おもしろい → おもしろそう."
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-bunpou1-0006",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "あした 雨が ふる（　）しれません。",
+  "opciones": [
+   "かも",
+   "ても",
+   "ので",
+   "のに"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ても は逆接",
+   "ので は理由",
+   "のに は逆接"
+  ],
+  "explicacion": {
+   "es": "〜かもしれません = «puede que». Va en bloque: かも＋しれません.",
+   "en": "〜かもしれません = 'it might'. It comes as one block: かも + しれません."
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-bunpou1-0007",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "ごはんを 食べた（　）、テレビを 見ます。",
+  "opciones": [
+   "あとで",
+   "まえに",
+   "ながら",
+   "うちに"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "まえに は辞書形",
+   "ながら は同時",
+   "うちに は期間"
+  ],
+  "explicacion": {
+   "es": "〜たあとで pide la forma た: 食べたあとで. 〜まえに pediría 食べる前に.",
+   "en": "〜たあとで takes the た-form: 食べたあとで. 〜まえに would take 食べる前に."
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-bunpou1-0008",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "しゅくだいは まだ して（　）。",
+  "opciones": [
+   "いません",
+   "います",
+   "おきます",
+   "あります"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "肯定になる",
+   "〜ておく",
+   "〜てある"
+  ],
+  "explicacion": {
+   "es": "まだ＋〜ていません = «todavía no». La negación va en いる.",
+   "en": "まだ + 〜ていません = 'not yet'. The negation lands on いる."
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-bunpou1-0009",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "山田さんは 先生（　）ありません。",
+  "opciones": [
+   "では",
+   "には",
+   "とは",
+   "からは"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "には は場所",
+   "とは は引用",
+   "からは は起点"
+  ],
+  "explicacion": {
+   "es": "N＋ではありません es la negación de です.",
+   "en": "N + ではありません is the negative of です."
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-bunpou2-0001",
+  "nivel": "N5",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "わたしは ＿＿ ＿★＿ ＿＿ ＿＿ 行きます。",
+  "opciones": [
+   "に",
+   "学校",
+   "じてんしゃ",
+   "で"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [],
+  "objetivo": "じてんしゃ で 学校 に",
+  "explicacion": {
+   "es": "El orden es じてんしゃで学校に («al colegio en bici»). En el ★, la segunda casilla, va で.",
+   "en": "The order is じてんしゃで学校に ('to school by bike'). で goes in the ★, the second slot."
+  },
+  "etiquetas": [
+   "orden"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunpou2-0002",
+  "nivel": "N5",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "へやの ＿＿ ＿★＿ ＿＿ ＿＿ あります。",
+  "opciones": [
+   "に",
+   "上",
+   "つくえの",
+   "本が"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [],
+  "objetivo": "つくえの 上 に 本が",
+  "explicacion": {
+   "es": "El orden es つくえの上に本が («encima de la mesa hay un libro»). En el ★ va 上.",
+   "en": "The order is つくえの上に本が ('on the desk there is a book'). 上 goes in the ★."
+  },
+  "etiquetas": [
+   "orden"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunpou2-0003",
+  "nivel": "N5",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "あした ＿＿ ＿★＿ ＿＿ ＿＿ つもりです。",
+  "opciones": [
+   "を",
+   "見る",
+   "えいが",
+   "ともだちと"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [],
+  "objetivo": "ともだちと えいが を 見る",
+  "explicacion": {
+   "es": "El orden es ともだちとえいがを見る («ver una peli con un amigo»). En el ★ va えいが.",
+   "en": "The order is ともだちとえいがを見る ('watch a film with a friend'). えいが goes in the ★."
+  },
+  "etiquetas": [
+   "orden"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunpou2-0004",
+  "nivel": "N5",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この ＿＿ ＿★＿ ＿＿ ＿＿ ください。",
+  "opciones": [
+   "を",
+   "読んで",
+   "本",
+   "ぜんぶ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [],
+  "objetivo": "本 を ぜんぶ 読んで",
+  "explicacion": {
+   "es": "El orden es 本をぜんぶ読んで («léete el libro entero»). En el ★ va を.",
+   "en": "The order is 本をぜんぶ読んで ('read the whole book'). を goes in the ★."
+  },
+  "etiquetas": [
+   "orden"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-sokuji-0001",
+  "nivel": "N5",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "おはようございます。",
+  "opciones": [
+   "おはようございます。",
+   "おやすみなさい。",
+   "さようなら。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "夜の挨拶",
+   "別れの挨拶"
+  ],
+  "explicacion": {
+   "es": "Al saludo de la mañana se responde con el mismo saludo.",
+   "en": "A morning greeting is answered with the same greeting."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "おはようございます。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-sokuji-0002",
+  "nivel": "N5",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "これ、いくらですか。",
+  "opciones": [
+   "五百円です。",
+   "三つです。",
+   "あそこです。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "数を答えている",
+   "場所を答えている"
+  ],
+  "explicacion": {
+   "es": "いくら pregunta el precio. 三つ contestaría a いくつ y あそこ a どこ.",
+   "en": "いくら asks the price. 三つ would answer いくつ and あそこ would answer どこ."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "これ、いくらですか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-sokuji-0003",
+  "nivel": "N5",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "すみません、トイレは どこですか。",
+  "opciones": [
+   "あちらです。",
+   "はい、そうです。",
+   "三じです。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "はい/いいえの質問ではない",
+   "時間を答えている"
+  ],
+  "explicacion": {
+   "es": "どこ pide un lugar: あちら. 三じ contestaría a なんじ.",
+   "en": "どこ asks for a place: あちら. 三じ would answer なんじ."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "すみません、トイレは どこですか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-sokuji-0004",
+  "nivel": "N5",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "いっしょに ごはんを 食べませんか。",
+  "opciones": [
+   "ええ、いいですね。",
+   "はい、食べました。",
+   "いいえ、ありません。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "過去形になっている",
+   "誘いの返事になっていない"
+  ],
+  "explicacion": {
+   "es": "〜ませんか es una invitación: se acepta con いいですね.",
+   "en": "〜ませんか is an invitation: you accept with いいですね."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "いっしょに ごはんを 食べませんか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-sokuji-0005",
+  "nivel": "N5",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "すみません、ちょっと 手つだって ください。",
+  "opciones": [
+   "はい、いいですよ。",
+   "はい、手つだいました。",
+   "いいえ、ちがいます。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "過去形になっている",
+   "訂正の返事"
+  ],
+  "explicacion": {
+   "es": "Te piden ayuda ahora: se acepta con いいですよ, no en pasado.",
+   "en": "They're asking for help now: accept with いいですよ, not in the past."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "すみません、ちょっと 手つだって ください。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-sokuji-0006",
+  "nivel": "N5",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "きのうの テスト、どうでしたか。",
+  "opciones": [
+   "むずかしかったです。",
+   "あしたです。",
+   "はい、します。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "日が違う",
+   "はい/いいえの質問ではない"
+  ],
+  "explicacion": {
+   "es": "どうでしたか pide una impresión en pasado.",
+   "en": "どうでしたか asks for an impression in the past tense."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "きのうの テスト、どうでしたか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-kadai-0001",
+  "nivel": "N5",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は これから 何を 買いますか。",
+  "opciones": [
+   "たまごと ぎゅうにゅう",
+   "ぎゅうにゅうと パン",
+   "たまごと パン",
+   "パンだけ"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "たまごは 家に ある",
+   "たまごは 買わない",
+   "パンだけでは 足りない"
+  ],
+  "explicacion": {
+   "es": "Los huevos ya los tiene en casa, así que solo compra leche y pan.",
+   "en": "She already has eggs at home, so she only buys milk and bread."
+  },
+  "puntos": [
+   "たまごは まだ あります → no hay que comprarlos",
+   "ぎゅうにゅうが ありません → sí",
+   "パンも おねがい → sí"
+  ],
+  "guion": {
+   "intro": "男の人と 女の人が 話しています。女の人は これから 何を 買いますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "これから かいものに 行くんだけど、何か いる?"
+    },
+    {
+     "quien": "F",
+     "texto": "そうね、たまごは まだ ありますか。"
+    },
+    {
+     "quien": "M",
+     "texto": "うん、五つ あるよ。"
+    },
+    {
+     "quien": "F",
+     "texto": "じゃあ、たまごは いいです。ぎゅうにゅうが ありませんから、それを おねがいします。"
+    },
+    {
+     "quien": "M",
+     "texto": "わかった。パンは?"
+    },
+    {
+     "quien": "F",
+     "texto": "あ、パンも おねがいします。"
+    }
+   ],
+   "pregunta": "女の人は これから 何を 買いますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [
+   "課題理解",
+   "買い物"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-kadai-0002",
+  "nivel": "N5",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の学生は はじめに 何を しますか。",
+  "opciones": [
+   "本を 読む",
+   "しゅくだいを 出す",
+   "先生に 電話する",
+   "うちへ 帰る"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "読むのは あとで",
+   "先生は 教室に いる",
+   "帰るのは さいご"
+  ],
+  "explicacion": {
+   "es": "El profesor está en el aula, así que primero entrega los deberes; leer es para después.",
+   "en": "The teacher is in the classroom, so first he hands in the homework; reading comes later."
+  },
+  "puntos": [
+   "先生は 教室に います → se le puede entregar ya",
+   "しゅくだいを 出してから → primero eso",
+   "本は うちで 読みます → después"
+  ],
+  "guion": {
+   "intro": "女の学生と 男の学生が 話しています。男の学生は はじめに 何を しますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "しゅくだい、もう 出しましたか。"
+    },
+    {
+     "quien": "M",
+     "texto": "いいえ、まだです。先生は どこですか。"
+    },
+    {
+     "quien": "F",
+     "texto": "先生は 教室に いますよ。"
+    },
+    {
+     "quien": "M",
+     "texto": "じゃあ、しゅくだいを 出してから、としょかんへ 行きます。"
+    },
+    {
+     "quien": "F",
+     "texto": "本を かりるんですか。"
+    },
+    {
+     "quien": "M",
+     "texto": "ええ。でも 読むのは うちです。"
+    }
+   ],
+   "pregunta": "男の学生は はじめに 何を しますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [
+   "課題理解",
+   "学校"
+  ],
+  "dificultad": 2
+ }
+]
