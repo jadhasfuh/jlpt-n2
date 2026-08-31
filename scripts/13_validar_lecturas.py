@@ -10,6 +10,20 @@ import json, re, pathlib, sys
 K = re.compile(r"[一-鿿]")
 ORDEN = ["N5", "N4", "N3", "N2", "N1"]
 
+# Antes que nada: que los archivos fuente se puedan leer. Editando el marcado
+# a mano es fácil meter una comilla sin escapar, y entonces el resto de
+# validadores se caen a mitad sin decir cuántas lecturas dejaron sin mirar.
+_ilegibles = []
+for _f in sorted(pathlib.Path("data/fuente/lecturas").glob("*.json")):
+    try:
+        json.loads(_f.read_text(encoding="utf-8"))
+    except Exception as _e:
+        _ilegibles.append(f"  ✗ {_f.name}: {_e}")
+if _ilegibles:
+    print("archivos fuente ilegibles:")
+    print("\n".join(_ilegibles))
+    sys.exit(1)
+
 unidades = json.load(open("data/dist/unidades.json", encoding="utf-8"))
 gram = {g["id"]: g for g in json.load(open("data/dist/gramatica.json", encoding="utf-8"))}
 kanji_cat = {k["char"]: k for k in json.load(open("data/dist/kanji.json", encoding="utf-8"))}
