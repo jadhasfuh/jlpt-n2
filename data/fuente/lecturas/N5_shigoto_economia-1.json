@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/shigoto/economia-1",
+ "titulo": "<ruby>都<rt>みやこ</rt></ruby>のもの",
+ "cuerpo": "この<ruby>町<rt>まち</rt></ruby>の<ruby>店<rt>みせ</rt></ruby>には、<ruby>都<rt>と</rt></ruby>からきたものがたくさんあります。うちの<ruby>近<rt>ちか</rt></ruby>くでつくったものは、あまりおいていません。でも、こめややさいは、ここでとれたもののほうがおいしいです。「じぶんのまちのものをかいましょう」というかみが、<ruby>駅<rt>えき</rt></ruby>にはってありました。とおくの<ruby>製<rt>せい</rt></ruby>ひんもいいですが、ちかくのものももっと<ruby>見<rt>み</rt></ruby><em class=\"g\">ましょう</em>。そうすれば、つくる<ruby>人<rt>ひと</rt></ruby>ものこるでしょう。",
+ "traduccion": "En las tiendas de este pueblo hay muchas cosas venidas de la capital. Lo que se produce cerca de casa casi no lo tienen. Pero el arroz y la verdura de aquí saben mejor. En la estación había un cartel que decía «compremos lo de nuestro pueblo». Los productos de lejos también están bien, pero miremos más lo de cerca. Si lo hacemos, también seguirán quedando quienes lo producen.",
+ "preguntas": [
+  {
+   "p": "この<ruby>町<rt>まち</rt></ruby>の<ruby>店<rt>みせ</rt></ruby>には<ruby>何<rt>なに</rt></ruby>がおおいですか。",
+   "opciones": [
+    "ちかくでつくったもの",
+    "<ruby>都<rt>と</rt></ruby>からきたもの",
+    "やさい",
+    "こめ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>駅<rt>えき</rt></ruby>のかみには<ruby>何<rt>なに</rt></ruby>と<ruby>書<rt>か</rt></ruby>いてありましたか。",
+   "opciones": [
+    "とおくのものをかおう",
+    "じぶんのまちのものをかおう",
+    "<ruby>店<rt>みせ</rt></ruby>をつくろう",
+    "こめを<ruby>食<rt>た</rt></ruby>べよう"
+   ],
+   "correcta": 1
+  }
+ ]
+}

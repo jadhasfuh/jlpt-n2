@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/seishitsu/conceptos-1",
+ "titulo": "<ruby>本<rt>もと</rt></ruby>のこたえ",
+ "cuerpo": "「なぜべんきょうするのか」と<ruby>子<rt>こ</rt></ruby>どもにきかれました。すぐにこたえられませんでした。しごとのためだけでは、<ruby>本<rt>もと</rt></ruby>のこたえにならない<em class=\"g\">のです</em>。かんがえてみると、わたしがべんきょうをつづけるのは、<ruby>知<rt>し</rt></ruby>らなかったことを<ruby>知<rt>し</rt></ruby>るときの<ruby>気<rt>き</rt></ruby>もちがすきだから<em class=\"g\">なのです</em>。その<ruby>気<rt>き</rt></ruby>もちには、<ruby>年<rt>とし</rt></ruby>もしごともかんけいありません。<ruby>子<rt>こ</rt></ruby>どもには「たのしいからだよ」とこたえました。みじかいことばですが、うそではありません。",
+ "traduccion": "Un niño me preguntó por qué estudiamos. No supe contestar en el momento. Es que decir «por el trabajo» no llega a ser la respuesta de fondo. Pensándolo, si yo sigo estudiando es porque me gusta la sensación de saber algo que no sabía. Esa sensación no tiene nada que ver con la edad ni con el trabajo. Al niño le contesté «porque es divertido». Son pocas palabras, pero no es mentira.",
+ "preguntas": [
+  {
+   "p": "なぜ、すぐにこたえられませんでしたか。",
+   "opciones": [
+    "しつもんがむずかしかったから",
+    "しごとのためだけでは<ruby>本<rt>もと</rt></ruby>のこたえにならないから",
+    "<ruby>子<rt>こ</rt></ruby>どもだったから",
+    "たのしくないから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>がべんきょうをつづけるりゆうは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "しごとのため",
+    "<ruby>知<rt>し</rt></ruby>るときの<ruby>気<rt>き</rt></ruby>もちがすきだから",
+    "<ruby>年<rt>とし</rt></ruby>をとったから",
+    "<ruby>子<rt>こ</rt></ruby>どものため"
+   ],
+   "correcta": 1
+  }
+ ]
+}

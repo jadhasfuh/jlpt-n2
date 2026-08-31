@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/seishitsu/estado-1",
+ "titulo": "しずかなへや、にぎやかなみち",
+ "cuerpo": "うちのへやは<ruby>静<rt>しず</rt></ruby>かです。まどをしめると、そとのおとがほとんど<ruby>聞<rt>き</rt></ruby>こえません。みちのむこうがわは<ruby>賑<rt>にぎ</rt></ruby>やかで、よるもうるさいです。なつは<ruby>熱<rt>あつ</rt></ruby>いおちゃより<ruby>冷<rt>つめ</rt></ruby>たいものがのみたくなります。ふゆは<ruby>涼<rt>すず</rt></ruby>しいへやより、あたたかいところがいいです。せんしゅうは<ruby>忙<rt>いそが</rt></ruby>しくて、へやが<ruby>湿<rt>しめ</rt></ruby>っているのにも<ruby>気<rt>き</rt></ruby>がつきませんでした。まどを<ruby>変<rt>か</rt></ruby>えるより、まいにちあけるほうが<ruby>安<rt>やす</rt></ruby>くていいと<ruby>知<rt>し</rt></ruby>りました。",
+ "traduccion": "Mi habitación es silenciosa. Si cierro la ventana, casi no se oye nada de fuera. El otro lado de la calle es animado y por la noche hay ruido. En verano me apetece más algo frío que un té caliente. En invierno prefiero un sitio cálido a una habitación fresca. La semana pasada estuve tan ocupado que ni me di cuenta de que la habitación estaba húmeda. Aprendí que, más que cambiar la ventana, sale más barato y mejor abrirla cada día.",
+ "preguntas": [
+  {
+   "p": "よる、うるさいのはどこですか。",
+   "opciones": [
+    "うちのへや",
+    "みちのむこうがわ",
+    "まどのそと",
+    "うちのなか"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "しめっているのに<ruby>気<rt>き</rt></ruby>がつかなかったのはなぜですか。",
+   "opciones": [
+    "まどをしめていたから",
+    "<ruby>忙<rt>いそが</rt></ruby>しかったから",
+    "<ruby>冷<rt>つめ</rt></ruby>たかったから",
+    "<ruby>静<rt>しず</rt></ruby>かだったから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

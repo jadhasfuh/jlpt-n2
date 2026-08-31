@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/shigoto/empresa-1",
+ "titulo": "はじめての<ruby>会社<rt>かいしゃ</rt></ruby>",
+ "cuerpo": "らいしゅうから、あたらしい<ruby>会社<rt>かいしゃ</rt></ruby>ではたらきます。きょうは、そのばしょを<ruby>見<rt>み</rt></ruby><em class=\"g\">に行く</em>ことにしました。<ruby>駅<rt>えき</rt></ruby>から<ruby>歩<rt>ある</rt></ruby>いて<ruby>十<rt>じゅっ</rt></ruby>ぷんでした。たてものはふるいですが、まえに<ruby>大<rt>おお</rt></ruby>きな木があって、しずかでした。<ruby>中<rt>なか</rt></ruby>にはいらず、そとから<ruby>見<rt>み</rt></ruby>ただけです。かえりに、<ruby>本<rt>ほん</rt></ruby>をかい<em class=\"g\">に行き</em>ました。しごとのまえに<ruby>読<rt>よ</rt></ruby>んでおきたいものがあったからです。あしたはもう<ruby>一<rt>いち</rt></ruby>ど、あさの<ruby>時間<rt>じかん</rt></ruby>に<ruby>行<rt>い</rt></ruby>ってみます。",
+ "traduccion": "La semana que viene empiezo a trabajar en una empresa nueva. Hoy he decidido ir a ver dónde está. Son diez minutos andando desde la estación. El edificio es viejo, pero delante hay un árbol grande y estaba tranquilo. No entré: solo lo miré desde fuera. A la vuelta fui a comprar un libro. Es que había algo que quería leer antes de empezar. Mañana iré otra vez, a la hora de la mañana.",
+ "preguntas": [
+  {
+   "p": "きょう、<ruby>何<rt>なに</rt></ruby>をしに<ruby>行<rt>い</rt></ruby>きましたか。",
+   "opciones": [
+    "はたらきに",
+    "<ruby>会社<rt>かいしゃ</rt></ruby>のばしょを<ruby>見<rt>み</rt></ruby>に",
+    "<ruby>本<rt>ほん</rt></ruby>をかいに",
+    "<ruby>人<rt>ひと</rt></ruby>にあいに"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>会社<rt>かいしゃ</rt></ruby>のたてものはどうでしたか。",
+   "opciones": [
+    "あたらしい",
+    "ふるいがしずか",
+    "<ruby>大<rt>おお</rt></ruby>きい",
+    "とおい"
+   ],
+   "correcta": 1
+  }
+ ]
+}

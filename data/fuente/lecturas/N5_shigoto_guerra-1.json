@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/shigoto/guerra-1",
+ "titulo": "そふの<ruby>話<rt>はなし</rt></ruby>",
+ "cuerpo": "そふは<ruby>戦<rt>せん</rt></ruby>そうのことをあまり<ruby>話<rt>はな</rt></ruby>しませんでした。いちどだけ、「<ruby>銃<rt>じゅう</rt></ruby>をもったことがある」と<ruby>言<rt>い</rt></ruby>いました。それから、「その<ruby>話<rt>はなし</rt></ruby>はし<em class=\"g\">ないでください</em>」とじぶんで<ruby>言<rt>い</rt></ruby>って、だまりました。こわかったのだとおもいます。いま、そふはもういません。<ruby>何<rt>なに</rt></ruby>があったのか、ぜんぶは<ruby>分<rt>わ</rt></ruby>かりません。でも、そのしずかな<ruby>顔<rt>かお</rt></ruby>をわすれ<em class=\"g\">ないでください</em>と、じぶんに<ruby>言<rt>い</rt></ruby>っています。",
+ "traduccion": "Mi abuelo casi no hablaba de la guerra. Solo una vez dijo: «llegué a tener un fusil en las manos». Y luego, él mismo dijo «por favor, no habléis de eso» y se calló. Creo que era miedo. Ahora mi abuelo ya no está. No sé todo lo que pasó. Pero me digo a mí mismo que no olvide aquella cara callada.",
+ "preguntas": [
+  {
+   "p": "そふは<ruby>戦<rt>せん</rt></ruby>そうについて、どうでしたか。",
+   "opciones": [
+    "よく<ruby>話<rt>はな</rt></ruby>した",
+    "あまり<ruby>話<rt>はな</rt></ruby>さなかった",
+    "わすれていた",
+    "たのしそうだった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>はじぶんに<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていますか。",
+   "opciones": [
+    "ぜんぶ<ruby>知<rt>し</rt></ruby>りたい",
+    "しずかな<ruby>顔<rt>かお</rt></ruby>をわすれないように",
+    "<ruby>話<rt>はな</rt></ruby>してほしい",
+    "<ruby>銃<rt>じゅう</rt></ruby>を<ruby>見<rt>み</rt></ruby>たい"
+   ],
+   "correcta": 1
+  }
+ ]
+}

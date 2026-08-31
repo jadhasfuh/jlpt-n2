@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/seishitsu/forma-1",
+ "titulo": "<ruby>狭<rt>せま</rt></ruby>いへやをひろくつかう",
+ "cuerpo": "わたしのへやは<ruby>狭<rt>せま</rt></ruby>いです。<ruby>長<rt>なが</rt></ruby>いつくえをおくと、あるくところがなくなりました。そこで、<ruby>短<rt>みじか</rt></ruby>いものに<ruby>変<rt>か</rt></ruby>えました。<ruby>丸<rt>まる</rt></ruby>いテーブルは、かどがないので<ruby>広<rt>ひろ</rt></ruby>く<ruby>見<rt>み</rt></ruby>えます。たかいたなをやめて、ひくいものにしました。ものは<ruby>真<rt>ま</rt></ruby>っすぐならべ<em class=\"g\">なくてはいけない</em>わけではありませんが、そうすると<ruby>気<rt>き</rt></ruby>もちがいいです。<ruby>大<rt>おお</rt></ruby>きい<ruby>家<rt>いえ</rt></ruby>にすまなくても、くふうすればくらしやすくなります。",
+ "traduccion": "Mi habitación es pequeña. Al poner un escritorio largo me quedé sin sitio para andar. Así que lo cambié por uno corto. La mesa redonda, como no tiene esquinas, hace que se vea más amplio. Quité la estantería alta y puse una baja. No es que haya que colocar las cosas perfectamente rectas, pero cuando lo haces da gusto. Aunque no vivas en una casa grande, con ingenio se vive mejor.",
+ "preguntas": [
+  {
+   "p": "<ruby>長<rt>なが</rt></ruby>いつくえをやめたのはなぜですか。",
+   "opciones": [
+    "たかかったから",
+    "あるくところがなくなったから",
+    "<ruby>丸<rt>まる</rt></ruby>くないから",
+    "ふるかったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>丸<rt>まる</rt></ruby>いテーブルのいいところは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "やすい",
+    "かどがないので<ruby>広<rt>ひろ</rt></ruby>く<ruby>見<rt>み</rt></ruby>える",
+    "<ruby>長<rt>なが</rt></ruby>い",
+    "たかい"
+   ],
+   "correcta": 1
+  }
+ ]
+}

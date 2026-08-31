@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/seishitsu/valoracion-1",
+ "titulo": "<ruby>便利<rt>べんり</rt></ruby>なものと<ruby>大切<rt>たいせつ</rt></ruby>なもの",
+ "cuerpo": "あたらしいきかいは<ruby>便利<rt>べんり</rt></ruby>です。でも、<ruby>便利<rt>べんり</rt></ruby>なものがふえるほど、<ruby>大切<rt>たいせつ</rt></ruby>なものが<ruby>見<rt>み</rt></ruby>えにくくなる<ruby>気<rt>き</rt></ruby>がします。<ruby>有名<rt>ゆうめい</rt></ruby>なみせのものだからといって、じぶんに<ruby>結構<rt>けっこう</rt></ruby>なものだとおもっ<em class=\"g\">てはいけない</em>。<ruby>新<rt>あたら</rt></ruby>しくても<ruby>悪<rt>わる</rt></ruby>いものはあるし、ふるくてもいいものはあります。<ruby>変<rt>へん</rt></ruby>な<ruby>顔<rt>かお</rt></ruby>をされても、じぶんでたしかめてからかいます。<ruby>人<rt>ひと</rt></ruby>のことばだけできめ<em class=\"g\">てはいけない</em>のです。",
+ "traduccion": "Las máquinas nuevas son cómodas. Pero tengo la sensación de que, cuantas más comodidades se acumulan, más cuesta ver lo que de verdad importa. Por mucho que algo sea de una tienda famosa, no hay que dar por hecho que a ti te vaya bien. Aunque sea nuevo puede ser malo, y aunque sea viejo puede ser bueno. Aunque me miren raro, compruebo yo antes de comprar. No hay que decidir solo por lo que dicen los demás.",
+ "preguntas": [
+  {
+   "p": "<ruby>有名<rt>ゆうめい</rt></ruby>なみせのものについて、どうかんがえていますか。",
+   "opciones": [
+    "いつもいい",
+    "じぶんに<ruby>結構<rt>けっこう</rt></ruby>だときめ<em class=\"g\">てはいけない</em>",
+    "たかい",
+    "かわないほうがいい"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "かうまえに<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "<ruby>人<rt>ひと</rt></ruby>にきく",
+    "じぶんでたしかめる",
+    "<ruby>新<rt>あたら</rt></ruby>しいものをえらぶ",
+    "<ruby>何<rt>なに</rt></ruby>もしない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

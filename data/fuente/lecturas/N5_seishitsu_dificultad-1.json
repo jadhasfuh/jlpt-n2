@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N5/seishitsu/dificultad-1",
+ "titulo": "むずかしいとかんたん",
+ "cuerpo": "はじめてやることは、たいてい<ruby>難<rt>むずか</rt></ruby>しく<ruby>見<rt>み</rt></ruby>えます。でも、<ruby>三<rt>さん</rt></ruby>かいやってみると、たいていできるようになる<em class=\"g\">だろう</em>とおもいます。きのう、あたらしいきかいのつかいかたをならいました。ボタンがおおくて、はじめはわかりませんでした。きょう、もういちどやると、おぼえやすいところとにくいところが<ruby>分<rt>わ</rt></ruby>かりました。あしたはもっとはやくできる<em class=\"g\">だろう</em>。むずかしいのではなく、まだなれていないだけなのです。",
+ "traduccion": "Lo que haces por primera vez casi siempre parece difícil. Pero creo que, si lo intentas tres veces, normalmente acabas pudiendo. Ayer aprendí a usar una máquina nueva. Tenía muchos botones y al principio no me enteraba. Hoy lo he vuelto a hacer y he distinguido qué partes son fáciles de recordar y cuáles no. Mañana seguramente lo haré más rápido. No es que sea difícil: es que todavía no me he acostumbrado.",
+ "preguntas": [
+  {
+   "p": "はじめてやることは、どう<ruby>見<rt>み</rt></ruby>えますか。",
+   "opciones": [
+    "かんたんに",
+    "<ruby>難<rt>むずか</rt></ruby>しく",
+    "たのしく",
+    "みじかく"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>のかんがえでは、りゆうは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>本当<rt>ほんとう</rt></ruby>にむずかしい",
+    "まだなれていないだけ",
+    "ボタンがおおい",
+    "<ruby>時間<rt>じかん</rt></ruby>がない"
+   ],
+   "correcta": 1
+  }
+ ]
+}
