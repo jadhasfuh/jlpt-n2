@@ -19,7 +19,7 @@ export function MuroDePago({ que, cerrar, nivel }: {
   /** En qué nivel estaba, para ofrecerle el test abierto que le toca. */
   nivel?: string;
 }) {
-  const { t } = useAjustes();
+  const { t, enApp } = useAjustes();
 
   return (
     <div style={{ textAlign: "center", maxWidth: 380, margin: "0 auto", position: "relative" }}>
@@ -56,10 +56,19 @@ export function MuroDePago({ que, cerrar, nivel }: {
         ))}
       </ul>
 
-      <Link href="/suscripcion" className="btn primario"
-            style={{ width: "100%", minHeight: 48 }}>
-        {t("muro.ver")} <IcDerecha size={15} />
-      </Link>
+      {/* Dentro de la app no hay botón ni enlace: la política de pagos de Play
+          prohíbe llevar al usuario a pagar fuera de su facturación, y aquí se
+          cobra en la web. Se dice qué hace falta, no dónde conseguirlo. */}
+      {enApp ? (
+        <p style={{ fontSize: 13.5, color: "var(--tinta-2)", lineHeight: 1.6, margin: "0 0 14px" }}>
+          {t("app.soloCuenta")}
+        </p>
+      ) : (
+        <Link href="/suscripcion" className="btn primario"
+              style={{ width: "100%", minHeight: 48 }}>
+          {t("muro.ver")} <IcDerecha size={15} />
+        </Link>
+      )}
 
       {cerrar ? (
         <button className="btn fantasma" style={{ width: "100%", marginTop: 8 }} onClick={cerrar}>

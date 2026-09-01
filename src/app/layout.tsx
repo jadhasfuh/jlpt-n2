@@ -9,6 +9,7 @@ import { RegistrarSW } from "@/components/RegistrarSW";
 import { idiomaActual } from "@/lib/idioma-servidor";
 import { sitio } from "@/lib/sitio";
 import { accesoAbierto } from "@/lib/acceso-servidor";
+import { enLaApp } from "@/lib/tienda";
 import { credencialesSupabase } from "@/lib/supabase-servidor";
 
 // Inter va autoalojada: el subconjunto latino es pequeño y así no depende de
@@ -64,6 +65,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <ProveedorAjustes
           idiomaInicial={idioma}
           accesoAbierto={accesoAbierto()}
+          enApp={await enLaApp()}
           supabase={credencialesSupabase()}
         >
           <Lateral />

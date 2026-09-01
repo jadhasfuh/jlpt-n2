@@ -167,6 +167,8 @@ muro inerte y el login roto— antes de fijar la regla.
 | `PADDLE_PRECIO_ANUAL` | no | Id del precio anual. Sin él no se ofrece plan anual |
 | `PADDLE_API_KEY` | **sí** | Llave de la API (`pdl_…`). Sólo Railway, nunca en el repo |
 | `PADDLE_WEBHOOK_SECRET` | **sí** | Secreto del destino de notificaciones (`pdl_ntfset_…`) |
+| `ANDROID_PAQUETE` | no | Nombre del paquete de la app de Play. Por defecto `org.jlptest.twa` |
+| `ANDROID_HUELLAS` | no | Huellas SHA-256 que firman la app, separadas por comas. Sin ellas, `assetlinks.json` sale vacío y la TWA arranca con la barra del navegador |
 
 Las tres secretas viven **sólo** en Railway. `CONTEXTO-PRIVADO.md` y `.env.local`
 están en `.gitignore` y ahí no va ninguna llave que sirva para cobrar.

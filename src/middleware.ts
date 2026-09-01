@@ -23,6 +23,26 @@ export async function middleware(req: NextRequest) {
   }
 
   const res = NextResponse.next({ request: req });
+
+  // ¿Venimos de dentro de la app de Google Play?
+  //
+  // La política de pagos de Play prohíbe que una app lleve al usuario a pagar
+  // fuera de su sistema de facturación, y lo dice incluyendo webviews y
+  // botones. Como aquí se cobra en la web —para no ceder el 15-30 %—, dentro
+  // de la app no puede verse nada de suscripción: ni precio, ni botón, ni
+  // explicación de dónde se paga.
+  //
+  // La TWA arranca por el `start_url` del manifiesto, que lleva `?app=1`. En
+  // esa primera navegación se deja una cookie, porque a partir de ahí el
+  // usuario navega por enlaces normales y el parámetro se pierde. El referer
+  // `android-app://` cubre el caso de que Android entre por otra dirección.
+  const deLaApp = req.nextUrl.searchParams.get("app") === "1"
+    || (req.headers.get("referer") ?? "").startsWith("android-app://");
+  if (deLaApp && req.cookies.get("jlpt.app")?.value !== "1") {
+    res.cookies.set("jlpt.app", "1", {
+      path: "/", maxAge: 60 * 60 * 24 * 365, sameSite: "lax", httpOnly: false,
+    });
+  }
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
            || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
@@ -42,5 +62,5 @@ export async function middleware(req: NextRequest) {
 
 export const config = {
   // Ni ficheros estáticos ni iconos: sólo páginas.
-  matcher: ["/((?!_next/static|_next/image|favicon.ico|icon.svg|apple-icon|.*\\.(?:svg|png|jpg|webp)$).*)"],
+  matcher: ["/((?!_next/static|_next/image|favicon.ico|icon.svg|apple-icon|icono|\\.well-known|.*\\.(?:svg|png|jpg|webp)$).*)"],
 };

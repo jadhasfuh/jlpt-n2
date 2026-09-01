@@ -25,7 +25,7 @@ const APRUEBA = 0.6;
  * que se enseña entera, también en las que se han acertado.
  */
 export function TestLibre({ nivel, items }: { nivel: string; items: Item[] }) {
-  const { t, idioma } = useAjustes();
+  const { t, idioma, enApp } = useAjustes();
   const router = useRouter();
   const [empezado, setEmpezado] = useState(false);
   const [nombre, setNombre] = useState("");
@@ -96,12 +96,14 @@ export function TestLibre({ nivel, items }: { nivel: string; items: Item[] }) {
             cuando alguien sabe qué le falta. Debajo, la corrección entera. */}
         <div className="tarjeta" style={{ marginTop: 14, padding: 20 }}>
           <p style={{ margin: "0 0 12px", fontSize: 14.5, lineHeight: 1.7 }}>
-            {t("lib.invitacion")}
+            {t(enApp ? "app.soloCuenta" : "lib.invitacion")}
           </p>
-          <Link className="btn primario" href="/suscripcion"
-                style={{ width: "100%", minHeight: 46 }}>
-            {t("lib.verPlanes")} <IcDerecha size={15} />
-          </Link>
+          {!enApp && (
+            <Link className="btn primario" href="/suscripcion"
+                  style={{ width: "100%", minHeight: 46 }}>
+              {t("lib.verPlanes")} <IcDerecha size={15} />
+            </Link>
+          )}
           <Link className="btn fantasma" href={`/n/${nivel}`}
                 style={{ width: "100%", minHeight: 42, marginTop: 8 }}>
             {t("lib.verNivel", { n: nivel })}

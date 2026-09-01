@@ -12,7 +12,7 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
 }) {
   const [borrando, setBorrando] = useState(false);
   const [p, setP] = useState<Progreso | null>(null);
-  const { tema, cambiarTema, idioma, t, accesoAbierto } = useAjustes();
+  const { tema, cambiarTema, idioma, t, accesoAbierto, enApp } = useAjustes();
 
   useEffect(() => {
     const f = () => setP(leerProgreso());
@@ -101,10 +101,19 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
                     { fecha: fecha(cuenta.vence_en, idioma) })}
               </p>
             )}
-            <Link href="/suscripcion" className="btn primario"
-                  style={{ width: "100%", marginTop: 14 }}>
-              {alDia ? t("sus.gestionar") : t("sus.suscribirse")} <IcDerecha size={15} />
-            </Link>
+            {/* En la app de Play, ni enlace ni botón: su política de pagos
+                prohíbe llevar a pagar fuera de su facturación, y aquí se cobra
+                en la web. Se dice dónde se gestiona, sin nombrar precios. */}
+            {enApp ? (
+              <p className="tenue" style={{ marginTop: 14, marginBottom: 0 }}>
+                {t("app.gestionFuera")}
+              </p>
+            ) : (
+              <Link href="/suscripcion" className="btn primario"
+                    style={{ width: "100%", marginTop: 14 }}>
+                {alDia ? t("sus.gestionar") : t("sus.suscribirse")} <IcDerecha size={15} />
+              </Link>
+            )}
             <form action="/auth/salir" method="post" style={{ marginTop: 8 }}>
               <button className="btn" style={{ width: "100%" }}>{t("per.salir")}</button>
             </form>

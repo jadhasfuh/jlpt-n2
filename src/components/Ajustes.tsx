@@ -16,6 +16,8 @@ type Ajustes = {
       una NEXT_PUBLIC_ no llega al navegador porque el Dockerfile no pasa
       variables al build, así que el interruptor no se puede leer aquí. */
   accesoAbierto: boolean;
+  /** Dentro de la app de Play no puede verse nada de suscripción. */
+  enApp: boolean;
   alternar: (k: "furigana" | "significado" | "colores") => void;
   cambiarTema: () => void;
   cambiarIdioma: (i: Idioma) => void;
@@ -38,13 +40,14 @@ const leer = <T,>(k: string, def: T): T => {
 };
 
 export function ProveedorAjustes({
-  children, idiomaInicial = IDIOMA_POR_DEFECTO, accesoAbierto = true, supabase,
+  children, idiomaInicial = IDIOMA_POR_DEFECTO, accesoAbierto = true, enApp = false, supabase,
 }: {
   children: React.ReactNode;
   /** Lo resuelve el servidor (cookie o Accept-Language) para que no parpadee. */
   idiomaInicial?: Idioma;
   /** También del servidor: ver el comentario del tipo Ajustes. */
   accesoAbierto?: boolean;
+  enApp?: boolean;
   /** Credenciales del cliente de Supabase, leídas por el servidor al arrancar.
       Se configura antes de pintar nada para que cualquier hijo que hable con
       Supabase ya encuentre el cliente montado. */
@@ -92,7 +95,7 @@ export function ProveedorAjustes({
     traducir(clave, idioma, vars);
 
   return (
-    <Ctx.Provider value={{ accesoAbierto,
+    <Ctx.Provider value={{ accesoAbierto, enApp,
       furigana, significado, colores, tema, idioma,
       alternar, cambiarTema, cambiarIdioma, t,
     }}>
