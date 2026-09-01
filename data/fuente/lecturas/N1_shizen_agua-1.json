@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shizen/agua-1",
+ "titulo": "<ruby>潮<rt>しお</rt></ruby>の<ruby>音<rt>おと</rt></ruby>",
+ "cuerpo": "<ruby>子<rt>こ</rt></ruby>どものころ、<ruby>夏<rt>なつ</rt></ruby>のあいだは<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>ですごしました。<ruby>浜辺<rt>はまべ</rt></ruby>まで<ruby>歩<rt>ある</rt></ruby>いて<ruby>五分<rt>ごふん</rt></ruby>、<ruby>朝<rt>あさ</rt></ruby><ruby>起<rt>お</rt></ruby>きる<em class=\"g\">や否や</em><ruby>海<rt>うみ</rt></ruby>へ<ruby>走<rt>はし</rt></ruby>っていったものです。<ruby>潮<rt>しお</rt></ruby>の<ruby>満<rt>み</rt></ruby>ち<ruby>引<rt>ひ</rt></ruby>きで<ruby>浜<rt>はま</rt></ruby>のかたちが<ruby>変<rt>か</rt></ruby>わるのがおもしろかった。<ruby>沿岸<rt>えんがん</rt></ruby>には<ruby>沼<rt>ぬま</rt></ruby>もあって、<ruby>海流<rt>かいりゅう</rt></ruby>とは<ruby>別<rt>べつ</rt></ruby>の<ruby>生<rt>い</rt></ruby>き<ruby>物<rt>もの</rt></ruby>がいます。<ruby>河川<rt>かせん</rt></ruby>の<ruby>水源<rt>すいげん</rt></ruby>まで<ruby>歩<rt>ある</rt></ruby>いたこともありました。<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>洪水<rt>こうずい</rt></ruby>の<ruby>年<rt>とし</rt></ruby>のことをよく<ruby>話<rt>はな</rt></ruby>しました。<ruby>大水<rt>おおみず</rt></ruby>が<ruby>出<rt>で</rt></ruby>て、<ruby>家<rt>いえ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>の<ruby>道<rt>みち</rt></ruby>が<ruby>氾濫<rt>はんらん</rt></ruby>した<ruby>川<rt>かわ</rt></ruby>になったのだと。「<ruby>海<rt>うみ</rt></ruby><em class=\"g\">ってば</em>きれいなだけじゃないんだよ」と<ruby>言<rt>い</rt></ruby>っていたのを<ruby>覚<rt>おぼ</rt></ruby>えています。<ruby>津波<rt>つなみ</rt></ruby>の<ruby>警報<rt>けいほう</rt></ruby>が<ruby>鳴<rt>な</rt></ruby>った<ruby>夜<rt>よる</rt></ruby>、<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>短波<rt>たんぱ</rt></ruby>のラジオを<ruby>離<rt>はな</rt></ruby>しませんでした。<ruby>熱湯<rt>ねっとう</rt></ruby>を<ruby>魔法瓶<rt>まほうびん</rt></ruby>に<ruby>入<rt>い</rt></ruby>れ、<ruby>荷物<rt>にもつ</rt></ruby>をまとめて<ruby>待<rt>ま</rt></ruby>っていたのです。<ruby>窓<rt>まど</rt></ruby>に<ruby>当<rt>あ</rt></ruby>たる<ruby>雨<rt>あめ</rt></ruby>の<ruby>雫<rt>しずく</rt></ruby>の<ruby>音<rt>おと</rt></ruby>を、いまでもときどき<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>します。",
+ "traduccion": "De niño pasaba los veranos en casa de mi abuela. La playa estaba a cinco minutos andando y, nada más levantarme, salía corriendo hacia el mar. Me fascinaba cómo cambiaba la forma de la playa con la marea. En la costa hay también una laguna, con bichos distintos a los de la corriente marina. Alguna vez llegamos andando hasta el nacimiento del río. Mi abuela hablaba a menudo del año de la inundación. Que subió el agua y el camino de delante de casa se convirtió en un río desbordado. Recuerdo que decía: «el mar, mira, no es solo bonito». La noche que sonó la alerta de tsunami, mi abuela no soltó la radio de onda corta. Llenó el termo de agua hirviendo, hizo el equipaje y se quedó esperando. Todavía me acuerdo a veces del sonido de las gotas de lluvia contra la ventana.",
+ "preguntas": [
+  {
+   "p": "<ruby>祖母<rt>そぼ</rt></ruby>が<ruby>洪水<rt>こうずい</rt></ruby>の<ruby>年<rt>とし</rt></ruby>について<ruby>話<rt>はな</rt></ruby>したことは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>海<rt>うみ</rt></ruby>が<ruby>美<rt>うつく</rt></ruby>しかった",
+    "<ruby>家<rt>いえ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>の<ruby>道<rt>みち</rt></ruby>が<ruby>氾濫<rt>はんらん</rt></ruby>した<ruby>川<rt>かわ</rt></ruby>になった",
+    "<ruby>浜<rt>はま</rt></ruby>が<ruby>消<rt>き</rt></ruby>えた",
+    "<ruby>沼<rt>ぬま</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>津波<rt>つなみ</rt></ruby>の<ruby>警報<rt>けいほう</rt></ruby>が<ruby>鳴<rt>な</rt></ruby>った<ruby>夜<rt>よる</rt></ruby>、<ruby>祖母<rt>そぼ</rt></ruby>はどうしましたか。",
+   "opciones": [
+    "すぐに<ruby>逃<rt>に</rt></ruby>げた",
+    "<ruby>短波<rt>たんぱ</rt></ruby>のラジオを<ruby>離<rt>はな</rt></ruby>さず、<ruby>荷物<rt>にもつ</rt></ruby>をまとめて<ruby>待<rt>ま</rt></ruby>った",
+    "<ruby>眠<rt>ねむ</rt></ruby>っていた",
+    "<ruby>海<rt>うみ</rt></ruby>を<ruby>見<rt>み</rt></ruby>にいった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shigoto/trabajo-3",
+ "titulo": "<ruby>受付<rt>うけつけ</rt></ruby>の<ruby>窓口<rt>まどぐち</rt></ruby>",
+ "cuerpo": "<ruby>不景気<rt>ふけいき</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>いた<ruby>年<rt>とし</rt></ruby>、<ruby>相談<rt>そうだん</rt></ruby>の<ruby>窓口<rt>まどぐち</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>っていました。<ruby>従業員<rt>じゅうぎょういん</rt></ruby>の<ruby>方<rt>かた</rt></ruby>が<ruby>面会<rt>めんかい</rt></ruby>を<ruby>申<rt>もう</rt></ruby>し<ruby>出<rt>で</rt></ruby>てくるのを<ruby>受<rt>う</rt></ruby>け<ruby>付<rt>つ</rt></ruby>ける<ruby>仕事<rt>しごと</rt></ruby>です。<ruby>用件<rt>ようけん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>き、<ruby>手分<rt>てわ</rt></ruby>けして<ruby>担当<rt>たんとう</rt></ruby>に<ruby>回<rt>まわ</rt></ruby>します。<ruby>要請<rt>ようせい</rt></ruby>の<ruby>内容<rt>ないよう</rt></ruby>は<ruby>人<rt>ひと</rt></ruby>によってまるでちがいました。<ruby>報道<rt>ほうどう</rt></ruby>で<ruby>見<rt>み</rt></ruby>るような<ruby>大<rt>おお</rt></ruby>きな<ruby>話<rt>はなし</rt></ruby>はほとんどありません。<ruby>差<rt>さ</rt></ruby><em class=\"g\">こそあれ</em>、どの<ruby>方<rt>かた</rt></ruby>も<ruby>困<rt>こま</rt></ruby>っているのは<ruby>同<rt>おな</rt></ruby>じです。<ruby>時間<rt>じかん</rt></ruby>を<ruby>仕切<rt>しき</rt></ruby>って<ruby>順番<rt>じゅんばん</rt></ruby>に<ruby>進<rt>すす</rt></ruby>めなければ、<ruby>一日<rt>いちにち</rt></ruby>が<ruby>終<rt>お</rt></ruby>わりません。それでも<ruby>急<rt>いそ</rt></ruby>がせると、<ruby>肝心<rt>かんじん</rt></ruby>のことを<ruby>話<rt>はな</rt></ruby>してもらえなくなります。<ruby>使用人<rt>しようにん</rt></ruby>のように<ruby>扱<rt>あつか</rt></ruby>われた<ruby>経験<rt>けいけん</rt></ruby>を<ruby>語<rt>かた</rt></ruby>る<ruby>方<rt>かた</rt></ruby>もいました。<ruby>聞<rt>き</rt></ruby>くだけで<ruby>解決<rt>かいけつ</rt></ruby>するわけではありません。けれども、<ruby>受<rt>う</rt></ruby>け<ruby>付<rt>つ</rt></ruby>けてもらえたという<ruby>事実<rt>じじつ</rt></ruby>が<ruby>次<rt>つぎ</rt></ruby>の<ruby>一歩<rt>いっぽ</rt></ruby>になることは<ruby>何度<rt>なんど</rt></ruby>も<ruby>見<rt>み</rt></ruby>ました。",
+ "traduccion": "El año en que la crisis se alargó estuve echando una mano en la ventanilla de atención. El trabajo consiste en recibir a los empleados que piden una cita. Escuchas el asunto y lo repartes entre los responsables. El contenido de las peticiones cambiaba por completo según la persona. Casi nunca eran los casos grandes que salen en las noticias. Con sus diferencias, todos estaban igualmente en apuros. Si no acotas los tiempos y avanzas por turnos, el día no se acaba. Y sin embargo, si metes prisa, dejan de contarte lo esencial. También hubo quien contó que lo habían tratado como a un criado. Escuchar no resuelve nada por sí solo. Pero vi muchas veces que el hecho de que alguien te reciba se convierte en el siguiente paso.",
+ "preguntas": [
+  {
+   "p": "この<ruby>仕事<rt>しごと</rt></ruby>の<ruby>内容<rt>ないよう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>報道<rt>ほうどう</rt></ruby>を<ruby>書<rt>か</rt></ruby>くこと",
+    "<ruby>面会<rt>めんかい</rt></ruby>の<ruby>申<rt>もう</rt></ruby>し<ruby>出<rt>で</rt></ruby>を<ruby>受<rt>う</rt></ruby>け<ruby>付<rt>つ</rt></ruby>け、<ruby>担当<rt>たんとう</rt></ruby>に<ruby>回<rt>まわ</rt></ruby>すこと",
+    "<ruby>従業員<rt>じゅうぎょういん</rt></ruby>を<ruby>雇<rt>やと</rt></ruby>うこと",
+    "<ruby>時間<rt>じかん</rt></ruby>を<ruby>計<rt>はか</rt></ruby>ること"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>急<rt>いそ</rt></ruby>がせると、どうなりますか。",
+   "opciones": [
+    "<ruby>早<rt>はや</rt></ruby>く<ruby>終<rt>お</rt></ruby>わる",
+    "<ruby>肝心<rt>かんじん</rt></ruby>のことを<ruby>話<rt>はな</rt></ruby>してもらえなくなる",
+    "<ruby>順番<rt>じゅんばん</rt></ruby>が<ruby>乱<rt>みだ</rt></ruby>れる",
+    "<ruby>担当<rt>たんとう</rt></ruby>が<ruby>困<rt>こま</rt></ruby>る"
+   ],
+   "correcta": 1
+  }
+ ]
+}
