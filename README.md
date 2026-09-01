@@ -140,10 +140,44 @@ Mientras tanto hay 10 lecturas escritas a mano
 Mismo patrón que Mercadito:
 
 1. Railway → **New Project → Deploy from GitHub repo**. Detecta el `Dockerfile`.
-2. Variables de entorno en el dashboard (las cuatro de arriba).
+2. Variables de entorno en el dashboard (la tabla de abajo).
 3. A partir de ahí, **cada push a `main` es un deploy**.
 4. Dominio: Settings → Domains → Custom Domain, y en el registrador un
    ALIAS/ANAME en la raíz (o CNAME en un subdominio).
+
+### Variables de entorno
+
+Ninguna que el navegador necesite lleva el prefijo `NEXT_PUBLIC_`. El
+`Dockerfile` no pasa variables al `npm run build`, así que una `NEXT_PUBLIC_`
+llegaría **vacía** al paquete del navegador: se leen en el servidor y bajan como
+props. Nos pasó tres veces —el sitemap apuntando a localhost, el interruptor del
+muro inerte y el login roto— antes de fijar la regla.
+
+| Variable | Secreta | Para qué |
+|---|---|---|
+| `NEXT_PUBLIC_SUPABASE_URL` | no | Dirección del proyecto de Supabase |
+| `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | no | Llave pública. Viaja igualmente en cada petición del navegador |
+| `SUPABASE_SECRET_KEY` | **sí** | Salta el RLS. Sólo servidor |
+| `SITIO_URL` | no | Origen público, para el sitemap y los correos |
+| `ACCESO_ABIERTO` | no | `0` enciende el muro de pago. Sin definir, todo abierto |
+| `CUENTAS_LIBRES` | no | Correos con acceso permanente, separados por comas. Para administración y pruebas |
+| `PADDLE_ENTORNO` | no | `production` o, sin definir, sandbox |
+| `PADDLE_TOKEN` | no | Token de cliente (`live_…`). Público por diseño |
+| `PADDLE_PRECIO` | no | Id del precio mensual (`pri_…`) |
+| `PADDLE_PRECIO_ANUAL` | no | Id del precio anual. Sin él no se ofrece plan anual |
+| `PADDLE_API_KEY` | **sí** | Llave de la API (`pdl_…`). Sólo Railway, nunca en el repo |
+| `PADDLE_WEBHOOK_SECRET` | **sí** | Secreto del destino de notificaciones (`pdl_ntfset_…`) |
+
+Las tres secretas viven **sólo** en Railway. `CONTEXTO-PRIVADO.md` y `.env.local`
+están en `.gitignore` y ahí no va ninguna llave que sirva para cobrar.
+
+En Paddle, el destino de notificaciones tiene que estar suscrito a los eventos
+`subscription.*` **y** a `adjustment.created` / `adjustment.updated`. Sin estos
+dos últimos no nos enteramos de los reembolsos, y devolver el dinero deja la
+cuenta con el acceso pagado.
+
+Las cuentas regaladas no son una variable: van en la tabla `cortesias`, con
+`scripts/24_cortesia.py`.
 
 `next.config.ts` usa `output: "standalone"` y el `Dockerfile` fija
 `HOSTNAME=0.0.0.0`: sin eso el contenedor escucha en localhost y Railway da la
