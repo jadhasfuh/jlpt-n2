@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/sustantivos-15",
+ "titulo": "<ruby>独自<rt>どくじ</rt></ruby>のやり<ruby>方<rt>かた</rt></ruby>",
+ "cuerpo": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>制度<rt>せいど</rt></ruby>を<ruby>導入<rt>どうにゅう</rt></ruby>するにあたり、<ruby>現場<rt>げんば</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>を<ruby>把握<rt>はあく</rt></ruby>することにしました。<ruby>登録<rt>とうろく</rt></ruby>の<ruby>手順<rt>てじゅん</rt></ruby>が<ruby>複雑<rt>ふくざつ</rt></ruby>すぎるという<ruby>意見<rt>いけん</rt></ruby>が<ruby>多<rt>おお</rt></ruby>く、<ruby>適応<rt>てきおう</rt></ruby>できない<ruby>人<rt>ひと</rt></ruby>が<ruby>出<rt>で</rt></ruby>る<em class=\"g\">ものと思われる</em><ruby>状況<rt>じょうきょう</rt></ruby>でした。<ruby>転換<rt>てんかん</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>だという<ruby>認識<rt>にんしき</rt></ruby>は<ruby>全員<rt>ぜんいん</rt></ruby>にあったのです。とはいえ、<ruby>独創<rt>どくそう</rt></ruby><ruby>的<rt>てき</rt></ruby>なやり<ruby>方<rt>かた</rt></ruby>を<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>めばいいわけではありません。<ruby>他社<rt>たしゃ</rt></ruby>の<ruby>特有<rt>とくゆう</rt></ruby>の<ruby>事情<rt>じじょう</rt></ruby>をそのまま<ruby>真似<rt>まね</rt></ruby>しても<ruby>合<rt>あ</rt></ruby>わない。<ruby>春<rt>はる</rt></ruby>めく<ruby>季節<rt>きせつ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ってから、<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>かけて<ruby>様式<rt>ようしき</rt></ruby>を<ruby>作<rt>つく</rt></ruby>りなおしました。<ruby>点線<rt>てんせん</rt></ruby>で<ruby>区切<rt>くぎ</rt></ruby>った<ruby>記入<rt>きにゅう</rt></ruby><ruby>欄<rt>らん</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らし、<ruby>同情<rt>どうじょう</rt></ruby>ではなく<ruby>実際<rt>じっさい</rt></ruby>の<ruby>手間<rt>てま</rt></ruby>を<ruby>基準<rt>きじゅん</rt></ruby>にして<ruby>並<rt>なら</rt></ruby>べ<ruby>替<rt>か</rt></ruby>えます。<ruby>鈍感<rt>どんかん</rt></ruby>だと<ruby>言<rt>い</rt></ruby>われても、<ruby>数<rt>かぞ</rt></ruby>えられる<ruby>指標<rt>しひょう</rt></ruby>で<ruby>判断<rt>はんだん</rt></ruby>するほうが<ruby>確<rt>たし</rt></ruby>かです。<ruby>申込<rt>もうしこみ</rt></ruby>の<ruby>数<rt>かず</rt></ruby>が<ruby>前年<rt>ぜんねん</rt></ruby>を<ruby>突破<rt>とっぱ</rt></ruby>したのは、その<ruby>翌月<rt>よくげつ</rt></ruby>でした。",
+ "traduccion": "Al introducir el nuevo sistema, decidimos entender primero qué decía la gente del terreno. Muchos opinaban que el trámite de registro era demasiado complicado, y se preveía una situación en la que habría quien no lograse adaptarse. Todos éramos conscientes de que hacía falta un cambio. Dicho eso, no basta con traer una forma de hacer original. Copiar tal cual las circunstancias propias de otra empresa no encaja. Cuando el tiempo empezó a tener aire primaveral, dedicamos tres meses a rehacer el formulario. Reducimos las casillas separadas por líneas de puntos y las reordenamos según el trabajo real que suponen, no según la lástima que dieran. Aunque digan que soy poco sensible, es más fiable decidir con indicadores que se cuentan. El número de solicitudes superó el del año anterior justo al mes siguiente.",
+ "preguntas": [
+  {
+   "p": "<ruby>現場<rt>げんば</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>で<ruby>多<rt>おお</rt></ruby>かったのは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>制度<rt>せいど</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>い",
+    "<ruby>登録<rt>とうろく</rt></ruby>の<ruby>手順<rt>てじゅん</rt></ruby>が<ruby>複雑<rt>ふくざつ</rt></ruby>すぎる",
+    "<ruby>人手<rt>ひとで</rt></ruby>が<ruby>足<rt>た</rt></ruby>りない",
+    "<ruby>他社<rt>たしゃ</rt></ruby>を<ruby>真似<rt>まね</rt></ruby>すべきだ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>記入<rt>きにゅう</rt></ruby><ruby>欄<rt>らん</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>基準<rt>きじゅん</rt></ruby>に<ruby>並<rt>なら</rt></ruby>べ<ruby>替<rt>か</rt></ruby>えましたか。",
+   "opciones": [
+    "<ruby>同情<rt>どうじょう</rt></ruby>",
+    "<ruby>実際<rt>じっさい</rt></ruby>の<ruby>手間<rt>てま</rt></ruby>",
+    "<ruby>他社<rt>たしゃ</rt></ruby>のやり<ruby>方<rt>かた</rt></ruby>",
+    "<ruby>申込<rt>もうしこみ</rt></ruby>の<ruby>数<rt>かず</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

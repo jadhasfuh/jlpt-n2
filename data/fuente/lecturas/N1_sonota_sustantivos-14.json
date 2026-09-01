@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/sustantivos-14",
+ "titulo": "<ruby>単独<rt>たんどく</rt></ruby>の<ruby>探検<rt>たんけん</rt></ruby>",
+ "cuerpo": "<ruby>友人<rt>ゆうじん</rt></ruby>が<ruby>単独<rt>たんどく</rt></ruby>で<ruby>山<rt>やま</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ると<ruby>言<rt>い</rt></ruby>い<ruby>出<rt>だ</rt></ruby>したときは、<ruby>反対<rt>はんたい</rt></ruby>しました。<ruby>探検<rt>たんけん</rt></ruby>というほど<ruby>大<rt>おお</rt></ruby>げさなものではないと<ruby>本人<rt>ほんにん</rt></ruby>は<ruby>言<rt>い</rt></ruby>います。でも、<ruby>一人<rt>ひとり</rt></ruby>で<ruby>沢<rt>さわ</rt></ruby>を<ruby>登<rt>のぼ</rt></ruby>るのは<ruby>危険<rt>きけん</rt></ruby>な<em class=\"g\">可能性がある</em>のです。<ruby>直感<rt>ちょっかん</rt></ruby>がいいから<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>だ、という<ruby>理屈<rt>りくつ</rt></ruby>は<ruby>通<rt>とお</rt></ruby>りません。<ruby>準備<rt>じゅんび</rt></ruby>を<ruby>怠<rt>おこた</rt></ruby>るのは<ruby>怠慢<rt>たいまん</rt></ruby>で、<ruby>大胆<rt>だいたん</rt></ruby>とは<ruby>別<rt>べつ</rt></ruby>のものです。<ruby>結局<rt>けっきょく</rt></ruby>、<ruby>二人<rt>ふたり</rt></ruby>で<ruby>行<rt>い</rt></ruby>くことになりました。<ruby>装備<rt>そうび</rt></ruby>を<ruby>並<rt>なら</rt></ruby>べて<ruby>提示<rt>ていじ</rt></ruby>し<ruby>合<rt>あ</rt></ruby>い、<ruby>予定<rt>よてい</rt></ruby>を<ruby>一時間<rt>いちじかん</rt></ruby>かけて<ruby>確<rt>たし</rt></ruby>かめます。<ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby>ただけでは<ruby>準備<rt>じゅんび</rt></ruby>の<em class=\"g\">うちに入らない</em>のだと、<ruby>山<rt>やま</rt></ruby>の<ruby>会<rt>かい</rt></ruby>の<ruby>先輩<rt>せんぱい</rt></ruby>に<ruby>何度<rt>なんど</rt></ruby>も<ruby>言<rt>い</rt></ruby>われていました。<ruby>当日<rt>とうじつ</rt></ruby>は<ruby>単調<rt>たんちょう</rt></ruby>なほど<ruby>静<rt>しず</rt></ruby>かな<ruby>道<rt>みち</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>きました。<ruby>沈黙<rt>ちんもく</rt></ruby>のなかを<ruby>歩<rt>ある</rt></ruby>きながら、<ruby>秩序<rt>ちつじょ</rt></ruby>のある<ruby>疲<rt>つか</rt></ruby>れというものを<ruby>感<rt>かん</rt></ruby>じたのです。<ruby>何事<rt>なにごと</rt></ruby>もなく<ruby>降<rt>お</rt></ruby>りてきたことが、いちばんの<ruby>成果<rt>せいか</rt></ruby>でした。",
+ "traduccion": "Cuando un amigo dijo que se metía solo en la montaña, me opuse. Él decía que no era nada tan grandilocuente como una expedición. Pero subir solo por un barranco puede ser peligroso. El argumento de que tiene buen instinto y por eso no pasa nada no se sostiene. Descuidar la preparación es negligencia, y eso es otra cosa que ser audaz. Al final fuimos los dos. Nos enseñamos el equipo el uno al otro y dedicamos una hora a repasar el plan. Un veterano del club de montaña me había repetido muchas veces que mirar el mapa no cuenta como preparación. El día señalado el camino fue tranquilo hasta resultar monótono. Caminando en silencio sentí lo que es un cansancio ordenado. Haber bajado sin que pasara nada fue el mejor resultado.",
+ "preguntas": [
+  {
+   "p": "<ruby>一人<rt>ひとり</rt></ruby>で<ruby>行<rt>い</rt></ruby>くことに<ruby>反対<rt>はんたい</rt></ruby>したのは、なぜですか。",
+   "opciones": [
+    "<ruby>時間<rt>じかん</rt></ruby>がないから",
+    "<ruby>一人<rt>ひとり</rt></ruby>で<ruby>沢<rt>さわ</rt></ruby>を<ruby>登<rt>のぼ</rt></ruby>るのは<ruby>危険<rt>きけん</rt></ruby>な<ruby>可能性<rt>かのうせい</rt></ruby>があるから",
+    "<ruby>装備<rt>そうび</rt></ruby>がないから",
+    "<ruby>道<rt>みち</rt></ruby>が<ruby>単調<rt>たんちょう</rt></ruby>だから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>先輩<rt>せんぱい</rt></ruby>は<ruby>準備<rt>じゅんび</rt></ruby>について<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。",
+   "opciones": [
+    "<ruby>地図<rt>ちず</rt></ruby>があれば<ruby>十分<rt>じゅうぶん</rt></ruby>",
+    "<ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby>ただけでは<ruby>準備<rt>じゅんび</rt></ruby>のうちに<ruby>入<rt>はい</rt></ruby>らない",
+    "<ruby>装備<rt>そうび</rt></ruby>は<ruby>要<rt>い</rt></ruby>らない",
+    "<ruby>時間<rt>じかん</rt></ruby>をかけるな"
+   ],
+   "correcta": 1
+  }
+ ]
+}
