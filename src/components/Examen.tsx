@@ -143,7 +143,7 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
         </div>
         <div className="escena-centro">
           {sinAcceso ? (
-            <MuroDePago que="examen" cerrar={cerrar} />
+            <MuroDePago que="examen" cerrar={cerrar} nivel={ajuste.nivel} />
           ) : (
             <p>{t("ex.sinPreguntas")}</p>
           )}

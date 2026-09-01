@@ -8,12 +8,17 @@ import {
 import { useAjustes } from "./Ajustes";
 import { Examen } from "./Examen";
 import { IcDerecha } from "./Iconos";
+import Link from "next/link";
 
 const SECCIONES: Seccion[] = ["moji_goi", "bunpou", "dokkai", "choukai"];
 const MINUTOS = [5, 10, 15, 30] as const;
 
 /** Elegir qué examen se quiere antes de empezar. */
-export function ExamenAjustes({ nivelInicial = "N2" }: { nivelInicial?: Nivel }) {
+export function ExamenAjustes({ nivelInicial = "N2", alDia = true }:
+  { nivelInicial?: Nivel;
+    /** Si la suscripción está al día. Sin ella se ofrece el test abierto, que
+        es lo único entero que esta persona puede hacer sin pagar. */
+    alDia?: boolean }) {
   const { idioma, t } = useAjustes();
   const [nivel, setNivel] = useState<Nivel>(nivelInicial);
   const [secciones, setSecciones] = useState<Seccion[]>([]);
@@ -104,6 +109,14 @@ export function ExamenAjustes({ nivelInicial = "N2" }: { nivelInicial?: Nivel })
       </button>
       {disponibles > 0 && disponibles < pedidas && (
         <p className="tenue" style={{ marginTop: 8 }}>{t("ex.bancoCorto", { n: enBanco })}</p>
+      )}
+      {/* Sin suscripción, el botón de arriba acaba en el muro. Mejor decirlo
+          antes y ofrecer lo que sí puede hacer entero. */}
+      {!alDia && (
+        <Link href={`/test/${nivel === "N4" ? "n4" : "n5"}`} className="btn fantasma"
+              style={{ width: "100%", minHeight: 44, marginTop: 10 }}>
+          {t("lib.enlaceMuro", { n: nivel === "N4" ? "N4" : "N5" })}
+        </Link>
       )}
     </>
   );

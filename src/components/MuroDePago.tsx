@@ -11,11 +11,13 @@ import { IcBien, IcCandado, IcDerecha } from "./Iconos";
  * había roto. Aquí hay un icono, se explica qué se abre al suscribirse y se
  * deja bien visible la salida: seguir estudiando con lo que ya es gratis.
  */
-export function MuroDePago({ que, cerrar }: {
+export function MuroDePago({ que, cerrar, nivel }: {
   /** Qué intentaba abrir, para nombrarlo en el texto. */
   que: "examen" | "contenido";
   /** Si viene, se ofrece volver en vez de ir a la portada. */
   cerrar?: () => void;
+  /** En qué nivel estaba, para ofrecerle el test abierto que le toca. */
+  nivel?: string;
 }) {
   const { t } = useAjustes();
 
@@ -68,6 +70,15 @@ export function MuroDePago({ que, cerrar }: {
           {t("muro.seguirGratis")}
         </Link>
       )}
+
+      {/* A quien topa con el muro y no se suscribe hay que darle algo que
+          hacer, o se va. El test abierto es lo único entero que puede usar sin
+          pagar, así que es la salida honesta. Sólo existe para N5 y N4; en los
+          demás niveles se ofrece el de N5, que es por donde se empieza. */}
+      <Link href={`/test/${(nivel === "N4" ? "n4" : "n5")}`} className="btn fantasma chico"
+            style={{ marginTop: 14 }}>
+        {t("lib.enlaceMuro", { n: nivel === "N4" ? "N4" : "N5" })}
+      </Link>
 
       <p className="tenue" style={{ marginTop: 14, fontSize: 12 }}>{t("muro.pie")}</p>
     </div>

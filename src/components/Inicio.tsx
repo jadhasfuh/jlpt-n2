@@ -9,9 +9,12 @@ import { useAjustes } from "./Ajustes";
 
 type Resumen = { id: Nivel; palabras: number; gramatica: number; unidades: number; secciones: number };
 
-export function Inicio({ niveles, totales }: {
+export function Inicio({ niveles, totales, dentro = true }: {
   niveles: Resumen[];
   totales: { palabras: number; gramatica: number; unidades: number };
+  /** Si hay sesión. Sin ella se ofrece el test abierto, que es la puerta de
+      entrada de quien todavía no nos conoce. */
+  dentro?: boolean;
 }) {
   const { t, accesoAbierto } = useAjustes();
   const [r, setR] = useState<ReturnType<typeof resumen> | null>(null);
@@ -127,6 +130,29 @@ export function Inicio({ niveles, totales }: {
           </Link>
         ))}
       </div>
+
+      {!dentro && (
+        <Link href="/test/n5" className="tarjeta" style={{
+          display: "flex", alignItems: "center", gap: 14, marginTop: 20,
+          padding: 18, textDecoration: "none",
+        }}>
+          <span style={{
+            flex: "0 0 auto", width: 44, height: 44, borderRadius: "50%",
+            display: "grid", placeItems: "center",
+            background: "color-mix(in srgb, var(--acento) 13%, transparent)",
+            border: "1px solid color-mix(in srgb, var(--acento) 28%, transparent)",
+          }}>
+            <IcExamen size={20} style={{ color: "var(--acento)" }} />
+          </span>
+          <span style={{ flex: 1, minWidth: 0 }}>
+            <span style={{ display: "block", fontSize: 15, marginBottom: 2 }}>
+              {t("lib.tarjetaTit")}
+            </span>
+            <span className="tenue" style={{ display: "block" }}>{t("lib.tarjetaSub")}</span>
+          </span>
+          <span className="flecha"><IcDerecha size={14} /></span>
+        </Link>
+      )}
 
       {!accesoAbierto && (
         <p className="tenue" style={{ marginTop: 18 }}>
