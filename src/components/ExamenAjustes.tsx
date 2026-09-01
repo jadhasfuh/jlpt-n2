@@ -55,7 +55,7 @@ export function ExamenAjustes({ nivelInicial = "N2", alDia = true }:
   return (
     <>
       <h1 style={{ fontSize: 24, fontWeight: 500, margin: "26px 0 4px" }}>{t("ex.titulo")}</h1>
-      <p style={{ margin: "0 0 18px", fontSize: 13, color: "var(--tinta-2)", maxWidth: "40ch" }}>
+      <p className="entradilla" style={{ margin: "0 0 18px", fontSize: 13, color: "var(--tinta-2)" }}>
         {t("ex.sub")}
       </p>
 

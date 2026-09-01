@@ -51,7 +51,7 @@ export function TestLibre({ nivel, items }: { nivel: string; items: Item[] }) {
         <h1 style={{ fontSize: 27, fontWeight: 600, margin: "12px 0 6px", lineHeight: 1.25 }}>
           {t("lib.titulo", { n: nivel })}
         </h1>
-        <p style={{ margin: 0, fontSize: 14.5, lineHeight: 1.7, color: "var(--tinta-2)", maxWidth: "48ch" }}>
+        <p className="entradilla" style={{ margin: 0, fontSize: 14.5, lineHeight: 1.7, color: "var(--tinta-2)" }}>
           {t("lib.entradilla", { c: String(items.length), n: nivel })}
         </p>
         <div className="tarjeta" style={{ marginTop: 22, padding: 20 }}>

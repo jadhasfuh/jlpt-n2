@@ -8,7 +8,7 @@ import { useAjustes } from "./Ajustes";
 import { JpEnLinea } from "./Jp";
 import { AyudaInstruccion } from "./AyudaInstruccion";
 import { MuroDePago } from "./MuroDePago";
-import { callar, decir } from "@/lib/voz";
+import { callar, decirTramos } from "@/lib/voz";
 import { IcBien, IcCerrar, IcDerecha, IcReproducir } from "./Iconos";
 
 const LETRAS = ["1", "2", "3", "4"];
@@ -116,9 +116,14 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
 
   const reproducir = useCallback(() => {
     if (!guion) return;
-    const texto = [guion.intro, ...guion.turnos.map((x) => x.texto), guion.pregunta]
-      .filter(Boolean).join("。");
-    decir(texto, { rate: 0.95 });
+    // La intro y la pregunta las dice el narrador, sin personaje; los turnos
+    // van con el suyo. Antes se juntaba todo en una cadena y lo leía una sola
+    // voz, así que el hombre y la mujer sonaban idénticos.
+    decirTramos([
+      ...(guion.intro ? [{ texto: guion.intro }] : []),
+      ...guion.turnos.map((x) => ({ texto: x.texto, quien: x.quien })),
+      ...(guion.pregunta ? [{ texto: guion.pregunta }] : []),
+    ], { rate: 0.95 });
   }, [guion]);
 
   // La escucha suena sola al entrar, como en el examen de verdad.

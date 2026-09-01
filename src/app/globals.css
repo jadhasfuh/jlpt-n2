@@ -339,6 +339,20 @@ rt { font-size: .5em; color: var(--tinta-3); font-family: var(--ui); opacity: .6
   width: 280px; height: 280px; border-radius: 50%; pointer-events: none;
   background: radial-gradient(circle, color-mix(in srgb, var(--acento) 16%, transparent) 0%, transparent 70%);
 }
+/* Medida de lectura.
+ *
+ * Había cinco topes distintos puestos a ojo —33ch, 40ch, 42ch, 48ch, 62ch— y
+ * ninguno se adaptaba: en un móvil no se notaban, pero en escritorio partían
+ * frases de noventa caracteres que cabían de sobra en el contenedor.
+ *
+ * `ch` va con el tamaño de la letra, así que el renglón mide siempre lo mismo
+ * en número de caracteres aunque la fuente suba o baje. Y el `min` con 100%
+ * evita lo contrario: que en una pantalla estrecha se imponga un ancho que no
+ * existe.
+ */
+.entradilla { max-width: min(100%, 96ch); }   /* una o dos frases bajo un título */
+.medida     { max-width: min(100%, 66ch); }   /* párrafos de leer seguido */
+
 .escena-centro > * { position: relative; }
 
 /* progreso segmentado: una barrita por tarjeta */

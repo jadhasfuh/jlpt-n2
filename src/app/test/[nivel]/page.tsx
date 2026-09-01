@@ -68,7 +68,7 @@ export default async function Pagina({ params }: { params: Promise<{ nivel: stri
           <h2 style={{ fontSize: 17, fontWeight: 500, margin: "0 0 8px" }}>
             {trad("lib.queEs", idioma, { n })}
           </h2>
-          <p style={{ fontSize: 14, lineHeight: 1.75, color: "var(--tinta-2)", margin: 0, maxWidth: "62ch" }}>
+          <p className="medida" style={{ fontSize: 14, lineHeight: 1.75, color: "var(--tinta-2)", margin: 0 }}>
             {trad(n === "N5" ? "lib.sobreN5" : "lib.sobreN4", idioma)}
           </p>
         </section>

@@ -31,7 +31,7 @@ export default async function Pagina(
         <h1 style={{ fontSize: 24, fontWeight: 500, margin: "26px 0 4px" }}>
           {trad("sus.titulo", idioma)}
         </h1>
-        <p style={{ margin: "0 0 6px", fontSize: 13, color: "var(--tinta-2)", maxWidth: "42ch" }}>
+        <p className="entradilla" style={{ margin: "0 0 6px", fontSize: 13, color: "var(--tinta-2)" }}>
           {trad("sus.sub", idioma)}
         </p>
         {desde === "contenido" && (

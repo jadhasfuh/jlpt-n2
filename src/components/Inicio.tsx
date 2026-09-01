@@ -45,7 +45,7 @@ export function Inicio({ niveles, totales, dentro = true }: {
         <h1 className="jp" style={{ fontSize: 26, fontWeight: 500, lineHeight: 1.25, margin: "0 0 6px" }}>
           日本語能力試験
         </h1>
-        <p style={{ margin: 0, fontSize: 13, lineHeight: 1.5, color: "var(--tinta-2)", maxWidth: "33ch" }}>
+        <p className="entradilla" style={{ margin: 0, fontSize: 13, lineHeight: 1.5, color: "var(--tinta-2)" }}>
           {t("inicio.sub", {
             palabras: totales.palabras.toLocaleString(),
             gramatica: totales.gramatica,
