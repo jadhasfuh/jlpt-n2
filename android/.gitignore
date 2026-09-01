@@ -1,0 +1,18 @@
+# El llavero de firma NO va al repositorio. Si se pierde, la app no se puede
+# volver a actualizar nunca: Play sólo acepta subidas firmadas con la misma
+# clave. Guárdalo aparte y con copia.
+*.keystore
+*.jks
+android.keystore
+# Lo que genera bubblewrap build
+app-release-*.aab
+app-release-*.apk
+*.idsig
+/app
+/gradle
+/gradlew
+/gradlew.bat
+/build.gradle
+/settings.gradle
+/gradle.properties
+/store_icon.png

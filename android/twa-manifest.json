@@ -1,0 +1,55 @@
+{
+  "packageId": "org.jlptest.twa",
+  "host": "jlptest.org",
+  "name": "jlptest — japonés del N5 al N1",
+  "launcherName": "jlptest",
+  "display": "standalone",
+  "orientation": "portrait",
+  "themeColor": "#161826",
+  "themeColorDark": "#161826",
+  "navigationColor": "#161826",
+  "navigationColorDark": "#161826",
+  "navigationDividerColor": "#161826",
+  "navigationDividerColorDark": "#161826",
+  "backgroundColor": "#161826",
+  "enableNotifications": false,
+  "startUrl": "/?app=1",
+  "iconUrl": "https://jlptest.org/icono/512",
+  "maskableIconUrl": "https://jlptest.org/icono/maskable",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "jlptest"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Repaso de hoy",
+      "shortName": "Repaso",
+      "url": "/repaso?app=1",
+      "chosenIconUrl": "https://jlptest.org/icono/192"
+    },
+    {
+      "name": "Mini examen",
+      "shortName": "Examen",
+      "url": "/examen?app=1",
+      "chosenIconUrl": "https://jlptest.org/icono/192"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://jlptest.org/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": { "enabled": false },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://jlptest.org/",
+  "minSdkVersion": 21,
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "auto"
+}
