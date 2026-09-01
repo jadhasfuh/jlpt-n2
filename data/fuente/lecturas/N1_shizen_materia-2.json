@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shizen/materia-2",
+ "titulo": "<ruby>焚火<rt>たきび</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で",
+ "cuerpo": "<ruby>河原<rt>かわら</rt></ruby>で<ruby>焚火<rt>たきび</rt></ruby>をしながら、<ruby>燃焼<rt>ねんしょう</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>になりました。<ruby>木<rt>き</rt></ruby>が<ruby>燃<rt>も</rt></ruby>えるのは<ruby>炭素<rt>たんそ</rt></ruby>が<ruby>酸素<rt>さんそ</rt></ruby>と<ruby>結<rt>むす</rt></ruby>びつくからだと、<ruby>理科<rt>りか</rt></ruby>の<ruby>教師<rt>きょうし</rt></ruby>をしている<ruby>友人<rt>ゆうじん</rt></ruby>が<ruby>説明<rt>せつめい</rt></ruby>します。<ruby>煙<rt>けむり</rt></ruby>の<ruby>中<rt>なか</rt></ruby>には<ruby>目<rt>め</rt></ruby>に<ruby>見<rt>み</rt></ruby>えない<ruby>微塵<rt>みじん</rt></ruby>が<ruby>混<rt>ま</rt></ruby>じっていて、<ruby>粉末<rt>ふんまつ</rt></ruby>のように<ruby>風<rt>かぜ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>って<ruby>飛<rt>と</rt></ruby>んでいくのだそうです。<ruby>寒<rt>さむ</rt></ruby>さ<em class=\"g\">をものともせずに</em><ruby>川<rt>かわ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>っていく<ruby>子<rt>こ</rt></ruby>どもたちを<ruby>見<rt>み</rt></ruby>ながら、<ruby>湯<rt>ゆ</rt></ruby>を<ruby>沸騰<rt>ふっとう</rt></ruby>させてお<ruby>茶<rt>ちゃ</rt></ruby>をいれました。<ruby>火<rt>ひ</rt></ruby>の<ruby>密度<rt>みつど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いところは<ruby>青<rt>あお</rt></ruby>く<ruby>見<rt>み</rt></ruby>えます。<ruby>分子<rt>ぶんし</rt></ruby>の<ruby>動<rt>うご</rt></ruby>きが<ruby>速<rt>はや</rt></ruby>いからだと<ruby>聞<rt>き</rt></ruby>いても、<ruby>目<rt>め</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>の<ruby>炎<rt>ほのお</rt></ruby>はやはり<ruby>不思議<rt>ふしぎ</rt></ruby>なままです。<ruby>防火<rt>ぼうか</rt></ruby>のために<ruby>周<rt>まわ</rt></ruby>りの<ruby>草<rt>くさ</rt></ruby>を<ruby>刈<rt>か</rt></ruby>り、<ruby>水<rt>みず</rt></ruby>を<ruby>用意<rt>ようい</rt></ruby>してから<ruby>始<rt>はじ</rt></ruby>めました。<ruby>放射<rt>ほうしゃ</rt></ruby>される<ruby>熱<rt>ねつ</rt></ruby>だけで<ruby>手<rt>て</rt></ruby>が<ruby>温<rt>あたた</rt></ruby>まるのが、いつも<ruby>少<rt>すこ</rt></ruby>し<ruby>意外<rt>いがい</rt></ruby>です。",
+ "traduccion": "Junto al río, mientras hacíamos una hoguera, salió el tema de la combustión. Un amigo que es profesor de ciencias explicó que la madera arde porque el carbono se une al oxígeno. Que en el humo van mezcladas partículas invisibles que vuelan con el viento como si fueran polvo. Mirando a los niños que se metían en el río desafiando el frío, puse agua a hervir y preparé té. Donde el fuego es más denso se ve azul. Aunque te digan que es porque las moléculas se mueven más rápido, la llama que tienes delante sigue pareciendo un misterio. Antes de empezar cortamos la hierba de alrededor y preparamos agua, por precaución. Que las manos se calienten solo con el calor irradiado siempre me sorprende un poco.",
+ "preguntas": [
+  {
+   "p": "<ruby>木<rt>き</rt></ruby>が<ruby>燃<rt>も</rt></ruby>えるのは、なぜですか。",
+   "opciones": [
+    "<ruby>風<rt>かぜ</rt></ruby>があるから",
+    "<ruby>炭素<rt>たんそ</rt></ruby>が<ruby>酸素<rt>さんそ</rt></ruby>と<ruby>結<rt>むす</rt></ruby>びつくから",
+    "<ruby>密度<rt>みつど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いから",
+    "<ruby>熱<rt>ねつ</rt></ruby>が<ruby>放射<rt>ほうしゃ</rt></ruby>されるから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>始<rt>はじ</rt></ruby>める<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "お<ruby>茶<rt>ちゃ</rt></ruby>をいれた",
+    "<ruby>周<rt>まわ</rt></ruby>りの<ruby>草<rt>くさ</rt></ruby>を<ruby>刈<rt>か</rt></ruby>り、<ruby>水<rt>みず</rt></ruby>を<ruby>用意<rt>ようい</rt></ruby>した",
+    "<ruby>川<rt>かわ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>った",
+    "<ruby>煙<rt>けむり</rt></ruby>を<ruby>調<rt>しら</rt></ruby>べた"
+   ],
+   "correcta": 1
+  }
+ ]
+}
