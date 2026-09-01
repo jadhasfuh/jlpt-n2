@@ -92,11 +92,23 @@ function siempreLibre(email: string | null): boolean {
   return lista.includes(email.trim().toLowerCase());
 }
 
+/**
+ * Por qué tiene acceso esta persona.
+ *
+ * Hace falta distinguirlo, no sólo saber si lo tiene: una cuenta libre veía
+ * «Suscripción activa» y «Se renueva el …» con una fecha ya pasada, y el botón
+ * de gestionar el pago la mandaba a Paddle a mirar suscripciones canceladas.
+ * Enseñar un cobro que no existe es peor que no enseñar nada.
+ */
+export function motivoAcceso(p: Perfil | null): "libre" | "cortesia" | "pago" | null {
+  if (!p) return null;
+  if (siempreLibre(p.email)) return "libre";
+  if (p.cortesia_hasta && new Date(p.cortesia_hasta) > new Date()) return "cortesia";
+  if (p.membresia !== "activa" && p.membresia !== "cancelada") return null;
+  return !p.vence_en || new Date(p.vence_en) > new Date() ? "pago" : null;
+}
+
 /** Cancelada sigue valiendo hasta que se acaba lo pagado: no se corta a media semana. */
 export function alDia(p: Perfil | null): boolean {
-  if (!p) return false;
-  if (siempreLibre(p.email)) return true;
-  if (p.cortesia_hasta && new Date(p.cortesia_hasta) > new Date()) return true;
-  if (p.membresia !== "activa" && p.membresia !== "cancelada") return false;
-  return !p.vence_en || new Date(p.vence_en) > new Date();
+  return motivoAcceso(p) !== null;
 }

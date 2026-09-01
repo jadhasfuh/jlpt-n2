@@ -45,7 +45,8 @@ export function Suscripcion({ ajustes, cuenta, tarifa }: {
   ajustes: { token: string; precio: string; precioAnual: string;
              entorno: string; listo: boolean };
   cuenta: { correo: string | null; id: string; alDia: boolean; membresia: string;
-            vence: string | null; tienePago: boolean; cortesia?: string | null } | null;
+            vence: string | null; tienePago: boolean; cortesia?: string | null;
+            motivo?: "libre" | "cortesia" | "pago" | null } | null;
   tarifa: { mensual: Tarifa | null; anual: Tarifa | null };
 }) {
   const { t, idioma, tema } = useAjustes();
@@ -125,6 +126,20 @@ export function Suscripcion({ ajustes, cuenta, tarifa }: {
     // cobrar; y que se lleve una sorpresa el día que se acabe.
     const regalo = cuenta.cortesia && new Date(cuenta.cortesia) > new Date()
                  ? cuenta.cortesia : null;
+    // Cuenta nuestra: acceso permanente y sin cobro detrás. No lleva fecha
+    // porque no se acaba, y no ofrece gestionar nada porque no hay nada que
+    // gestionar aquí.
+    if (cuenta.motivo === "libre") {
+      return (
+        <>
+          <div className="tarjeta" style={{ marginTop: 26, padding: 22 }}>
+            <span className="pastilla acento"><IcBien size={13} /> {t("sus.libre")}</span>
+            <p style={{ fontSize: 15, margin: "12px 0 2px" }}>{t("sus.libreTxt")}</p>
+          </div>
+          <Politicas t={t} />
+        </>
+      );
+    }
     if (regalo) {
       return (
         <>

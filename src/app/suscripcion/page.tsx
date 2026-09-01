@@ -1,6 +1,6 @@
 import { Cabecera } from "@/components/Cabecera";
 import { Suscripcion } from "@/components/Suscripcion";
-import { alDia, perfil } from "@/lib/sesion";
+import { alDia, motivoAcceso, perfil } from "@/lib/sesion";
 import { ajustesNavegador, tarifas } from "@/lib/paddle";
 import { idiomaActual } from "@/lib/idioma-servidor";
 import { t as trad } from "@/lib/idioma";
@@ -21,6 +21,7 @@ export default async function Pagina(
     correo: p.email, id: p.id, alDia: alDia(p), membresia: p.membresia,
     vence: p.vence_en, tienePago: Boolean(p.cliente_pago),
     cortesia: p.cortesia_hasta ?? null,
+    motivo: motivoAcceso(p),
   };
 
   return (
