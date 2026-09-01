@@ -4,6 +4,15 @@ import Link from "next/link";
 import { useAjustes } from "./Ajustes";
 import { IcBien, IcDerecha } from "./Iconos";
 
+/** «auto» sigue lo que tenga puesto el sistema, igual que el resto de la app. */
+function temaDePaddle(tema: "auto" | "claro" | "oscuro"): "light" | "dark" {
+  if (tema === "claro") return "light";
+  if (tema === "oscuro") return "dark";
+  return typeof window !== "undefined"
+      && window.matchMedia?.("(prefers-color-scheme: light)").matches
+    ? "light" : "dark";
+}
+
 type Paddle = {
   Environment: { set: (e: string) => void };
   Initialize: (o: { token: string; eventCallback?: (e: { name?: string }) => void }) => void;
@@ -25,7 +34,7 @@ export function Suscripcion({ ajustes, cuenta, tarifa }: {
             vence: string | null; tienePago: boolean } | null;
   tarifa: { texto: string; intervalo: string | null } | null;
 }) {
-  const { t } = useAjustes();
+  const { t, idioma, tema } = useAjustes();
   const [cargado, setCargado] = useState(false);
   const [ocupado, setOcupado] = useState(false);
   const [error, setError] = useState("");
@@ -62,7 +71,15 @@ export function Suscripcion({ ajustes, cuenta, tarifa }: {
       // El id del perfil viaja con la compra: es lo que ata el pago a la cuenta
       // cuando el webhook llega, sin depender de que el correo coincida.
       customData: { perfil: cuenta.id },
-      settings: { displayMode: "overlay", theme: "dark", locale: "es" },
+      settings: {
+        displayMode: "overlay",
+        // El checkout tenía el idioma y el tema fijos: alguien estudiando en
+        // inglés con la app en claro veía una ventana de pago en español y
+        // negra. Justo en el paso donde cualquier cosa que desentone hace
+        // dudar de si estás en el sitio correcto.
+        locale: idioma,
+        theme: temaDePaddle(tema),
+      },
     });
   };
 
