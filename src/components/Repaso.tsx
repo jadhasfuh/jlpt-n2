@@ -9,6 +9,7 @@ import {
 } from "@/lib/progreso";
 import { BotonesRapidos, useAjustes } from "./Ajustes";
 import { Jp, BotonVoz } from "./Jp";
+import { Reportar } from "./Reportar";
 import { IcBien, IcDerecha } from "./Iconos";
 import { significado as sig, significadoSecundario as sigSec } from "@/lib/idioma";
 
@@ -233,7 +234,11 @@ export function Repaso() {
           {significado || visible ? (
             <>
               <p style={{ fontSize: 17, marginBottom: 2 }}>{sig(p, idioma)}</p>
-              <p className="tenue" style={{ marginTop: 0 }}>{sigSec(p, idioma)}</p>
+              <p className="tenue" style={{ marginTop: 0 }}>
+                {sigSec(p, idioma)}
+                <Reportar tipo="vocabulario" ref_={p.id}
+                          visto={`${p.escritura} — ${sig(p, idioma)}`} />
+              </p>
               <div style={{ display: "flex", gap: 8, justifyContent: "center", marginTop: 18 }}>
                 <button className="btn" onClick={() => responder(false)}>{t("pra.noSabia")}</button>
                 <button className="btn primario" onClick={() => responder(true)}>{t("pra.siSabia")}</button>

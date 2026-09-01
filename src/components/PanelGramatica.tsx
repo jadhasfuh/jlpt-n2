@@ -3,6 +3,8 @@ import { useState } from "react";
 import type { Gramatica } from "@/lib/tipos";
 import { Jp } from "./Jp";
 import { useAjustes } from "./Ajustes";
+import { significado as sig, significadoSecundario as sigSec } from "@/lib/idioma";
+import { Reportar } from "./Reportar";
 
 const CAT: Record<string, { es: string; en: string }> = {
   conectores:   { es: "Conectores",                 en: "Connectors" },
@@ -26,7 +28,7 @@ const CAT: Record<string, { es: string; en: string }> = {
   estilo:       { es: "Registro y estilo",          en: "Register and style" },
 };
 export function PanelGramatica({ items, agrupar = false }: { items: Gramatica[]; agrupar?: boolean }) {
-  const { significado, idioma } = useAjustes();
+  const { significado, idioma, t } = useAjustes();
   const [abierto, setAbierto] = useState<Record<string, boolean>>({});
 
   const grupos = agrupar
@@ -52,15 +54,19 @@ export function PanelGramatica({ items, agrupar = false }: { items: Gramatica[];
                       </td>
                       <td>
                         {visible ? (
-                          <button className="revelado-td" disabled={significado}
-                                  onClick={() => setAbierto({ ...abierto, [g.id]: false })}>
-                            <span style={{ fontSize: 14 }}>{g.es}</span>
-                            <span className="tenue" style={{ display: "block" }}>{g.en}</span>
-                          </button>
+                          <>
+                            <button className="revelado-td" disabled={significado}
+                                    onClick={() => setAbierto({ ...abierto, [g.id]: false })}>
+                              <span style={{ fontSize: 14 }}>{sig(g, idioma)}</span>
+                              <span className="tenue" style={{ display: "block" }}>{sigSec(g, idioma)}</span>
+                            </button>
+                            <Reportar tipo="gramatica" ref_={g.id} compacto
+                                      visto={`${g.forma} — ${sig(g, idioma)}`} />
+                          </>
                         ) : (
                           <button className="btn fantasma" style={{ paddingLeft: 0 }}
                                   onClick={() => setAbierto({ ...abierto, [g.id]: true })}>
-                            ver significado
+                            {t("com.verSig")}
                           </button>
                         )}
                       </td>

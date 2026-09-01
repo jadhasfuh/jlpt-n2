@@ -517,3 +517,23 @@ em.g.n3 { border-color: color-mix(in srgb, var(--n3) 60%, transparent); }
   .rejilla-niveles .fila { padding: 16px; }
   .rejilla-niveles .numeral { font-size: 72px; }
 }
+
+/* Avisar de un error. Diminuto y sin color: tiene que estar donde se lee el
+   significado, pero no competir con él ni invitar a tocarlo por curiosidad.
+   Sólo se tiñe al pasar por encima o al enfocarlo con el teclado. */
+.reportar-btn {
+  background: none;
+  border: 0;
+  padding: 2px 4px;
+  cursor: pointer;
+  color: var(--tinta-4);
+  line-height: 0;
+  border-radius: 6px;
+  opacity: .55;
+  transition: opacity .15s, color .15s;
+}
+.reportar-btn:hover,
+.reportar-btn:focus-visible {
+  opacity: 1;
+  color: var(--acento);
+}

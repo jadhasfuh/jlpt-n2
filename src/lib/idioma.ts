@@ -363,6 +363,25 @@ const T = {
   "per.borrarConfirmar": { es: "Sí, borrarlo todo", en: "Yes, delete everything" },
   "per.borrando":   { es: "Borrando…", en: "Deleting…" },
 
+
+  // ------------------------------------------------------------ reportes
+  "com.verSig":    { es: "ver significado", en: "show meaning" },
+  "rep2.aria":     { es: "Avisar de un error", en: "Report a mistake" },
+  "rep2.titulo":   { es: "¿Hay algo mal aquí?", en: "Something wrong here?" },
+  "rep2.sub":      { es: "Lo revisamos y lo corregimos. No hace falta cuenta.",
+                     en: "We'll check it and fix it. No account needed." },
+  "rep2.m.traduccion": { es: "La traducción", en: "The translation" },
+  "rep2.m.lectura":    { es: "La lectura",    en: "The reading" },
+  "rep2.m.ejemplo":    { es: "El ejemplo",    en: "The example" },
+  "rep2.m.otro":       { es: "Otra cosa",     en: "Something else" },
+  "rep2.marcador": { es: "¿Qué debería decir? (opcional)",
+                     en: "What should it say? (optional)" },
+  "rep2.enviar":   { es: "Enviar el aviso", en: "Send report" },
+  "rep2.enviando": { es: "Enviando…", en: "Sending…" },
+  "rep2.gracias":  { es: "Gracias", en: "Thank you" },
+  "rep2.error":    { es: "No se ha podido enviar. Inténtalo otra vez.",
+                     en: "Couldn't send it. Please try again." },
+
   // ------------------------------------------------------------- diccionario
   "dic.marcador":  { es: "漢字, かな o español…", en: "漢字, かな or English…" },
   "dic.sinResultados": { es: "Sin resultados.", en: "No results." },

@@ -15,6 +15,7 @@ export {
   Timer as IcCronometro,
   X as IcCerrar,
   Check as IcBien,
+  Flag as IcAviso,
   CaretRight as IcDerecha,
   CaretLeft as IcIzquierda,
   Sun as IcSol,

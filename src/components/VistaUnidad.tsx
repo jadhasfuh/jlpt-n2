@@ -13,6 +13,7 @@ import { LecturaUnidad } from "./LecturaUnidad";
 import { estadoItem, leerProgreso, type Progreso } from "@/lib/progreso";
 import { IcDerecha, IcEscucha } from "./Iconos";
 import { significado as sig, significadoSecundario as sigSec } from "@/lib/idioma";
+import { Reportar } from "./Reportar";
 
 type Pestana = "vocabulario" | "kanji" | "gramatica" | "lectura";
 
@@ -127,6 +128,8 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
                             {w.registro.length > 0 && <em>{w.registro.join(" · ")} — </em>}
                             {sigSec(w, idioma)}
                           </span>
+                          <Reportar tipo="vocabulario" ref_={w.id} compacto
+                                    visto={`${w.escritura} — ${sig(w, idioma)}`} />
                         </button>
                       ) : (
                         <button className="btn fantasma chico" style={{ paddingLeft: 0 }}
