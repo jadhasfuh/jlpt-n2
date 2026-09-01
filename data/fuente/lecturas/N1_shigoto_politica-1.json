@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shigoto/politica-1",
+ "titulo": "<ruby>議決<rt>ぎけつ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "<ruby>住民<rt>じゅうみん</rt></ruby><ruby>投票<rt>とうひょう</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>が<ruby>出<rt>で</rt></ruby>た<ruby>日<rt>ひ</rt></ruby>、<ruby>会場<rt>かいじょう</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かでした。<ruby>改革<rt>かいかく</rt></ruby>を<ruby>求<rt>もと</rt></ruby>める<ruby>側<rt>がわ</rt></ruby><em class=\"g\">に引き換え</em>、<ruby>反対<rt>はんたい</rt></ruby>する<ruby>側<rt>がわ</rt></ruby>は<ruby>高齢<rt>こうれい</rt></ruby>の<ruby>方<rt>かた</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かったのです。<ruby>棄権<rt>きけん</rt></ruby>した<ruby>人<rt>ひと</rt></ruby>の<ruby>数<rt>かず</rt></ruby>も<ruby>少<rt>すく</rt></ruby>なくありませんでした。<ruby>採決<rt>さいけつ</rt></ruby>のあと、<ruby>異議<rt>いぎ</rt></ruby>を<ruby>唱<rt>とな</rt></ruby>える<ruby>声<rt>こえ</rt></ruby>が<ruby>何本<rt>なんぼん</rt></ruby>か<ruby>上<rt>あ</rt></ruby>がります。<ruby>抗議<rt>こうぎ</rt></ruby>は<ruby>会場<rt>かいじょう</rt></ruby><em class=\"g\">にとどまらず</em>、<ruby>翌日<rt>よくじつ</rt></ruby>の<ruby>新聞<rt>しんぶん</rt></ruby>にも<ruby>載<rt>の</rt></ruby>りました。<ruby>権限<rt>けんげん</rt></ruby>のある<ruby>人<rt>ひと</rt></ruby>が<ruby>決<rt>き</rt></ruby>めれば<ruby>済<rt>す</rt></ruby>む<ruby>話<rt>はなし</rt></ruby>ではないのです。<ruby>審議<rt>しんぎ</rt></ruby>に<ruby>半年<rt>はんとし</rt></ruby>かけたのは、<ruby>財政<rt>ざいせい</rt></ruby>の<ruby>数字<rt>すうじ</rt></ruby>を<ruby>全員<rt>ぜんいん</rt></ruby>が<ruby>読<rt>よ</rt></ruby>めるようにするためでした。<ruby>権威<rt>けんい</rt></ruby>のある<ruby>学者<rt>がくしゃ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>んで<ruby>説明<rt>せつめい</rt></ruby>させることもできたでしょう。でも<ruby>自主<rt>じしゅ</rt></ruby><ruby>的<rt>てき</rt></ruby>に<ruby>調<rt>しら</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>のほうが、<ruby>最後<rt>さいご</rt></ruby>まで<ruby>議論<rt>ぎろん</rt></ruby>に<ruby>残<rt>のこ</rt></ruby>っていました。<ruby>革命<rt>かくめい</rt></ruby>のような<ruby>変化<rt>へんか</rt></ruby>ではありません。<ruby>改良<rt>かいりょう</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>がふさわしい、<ruby>小<rt>ちい</rt></ruby>さな<ruby>前進<rt>ぜんしん</rt></ruby>でした。",
+ "traduccion": "El día que salió el resultado de la consulta vecinal, la sala estaba en silencio. Frente a quienes pedían la reforma, en el lado contrario había sobre todo gente mayor. Tampoco fue pequeño el número de quienes se abstuvieron. Después de la votación se alzaron varias voces de objeción. Las protestas no se quedaron en la sala: al día siguiente salieron en el periódico. No es un asunto que se resuelva porque lo decida quien tiene la autoridad. Si la deliberación duró medio año fue para que todos pudieran leer las cifras del presupuesto. Se podría haber traído a un experto con autoridad a explicarlo. Pero quienes se lo estudiaron por su cuenta fueron los que aguantaron hasta el final del debate. No fue un cambio revolucionario. Fue un avance pequeño, al que le cuadra mejor la palabra «mejora».",
+ "preguntas": [
+  {
+   "p": "<ruby>審議<rt>しんぎ</rt></ruby>に<ruby>半年<rt>はんとし</rt></ruby>かけたのは、なぜですか。",
+   "opciones": [
+    "<ruby>反対<rt>はんたい</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かったから",
+    "<ruby>財政<rt>ざいせい</rt></ruby>の<ruby>数字<rt>すうじ</rt></ruby>を<ruby>全員<rt>ぜんいん</rt></ruby>が<ruby>読<rt>よ</rt></ruby>めるようにするため",
+    "<ruby>学者<rt>がくしゃ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>っていたから",
+    "<ruby>新聞<rt>しんぶん</rt></ruby>に<ruby>載<rt>の</rt></ruby>ったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>議論<rt>ぎろん</rt></ruby>に<ruby>残<rt>のこ</rt></ruby>っていたのは、どんな<ruby>人<rt>ひと</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>権威<rt>けんい</rt></ruby>のある<ruby>学者<rt>がくしゃ</rt></ruby>",
+    "<ruby>自主<rt>じしゅ</rt></ruby><ruby>的<rt>てき</rt></ruby>に<ruby>調<rt>しら</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>棄権<rt>きけん</rt></ruby>した<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>高齢<rt>こうれい</rt></ruby>の<ruby>方<rt>かた</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}
