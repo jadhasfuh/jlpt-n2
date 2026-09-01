@@ -52,6 +52,33 @@ Ni un botón «Suscribirse», ni un enlace a la web de pago, ni un texto que
 explique dónde pagar. Sólo «Entrar». Es una regla incómoda pero clara, y
 saltársela cuesta el rechazo del envío.
 
+## Estado del cobro (1-sep-2026)
+
+Probado de punta a punta contra la cuenta live, con una compra real de 79 MXN:
+
+| | |
+|---|---|
+| ventana de pago | abre con el precio leído del catálogo de Paddle |
+| cobro | 79,00 MXN — 68,10 de base + 10,90 de IVA, calculado por Paddle |
+| extracto | `PADDLE.NET* JLPTEST` |
+| webhook | llega a Railway, firma HMAC verificada, evento guardado |
+| alta | `membresia: activa`, `vence_en` a un mes, ids de Paddle enganchados |
+| cancelación | `membresia: cancelada`, **`vence_en` intacto** |
+| reactivación | vuelve a `activa` |
+
+Las cuatro transiciones, sin eventos duplicados.
+
+Lo que Paddle se queda: su comisión es aproximadamente 5% + 0,50 USD por
+transacción. A 79 MXN ese medio dólar fijo pesa más del 12%, así que de cada
+79 llegan unos 55 netos. Si algún día importa, las dos palancas son un plan
+anual (se paga la parte fija una vez en lugar de doce) o subir a 99, donde la
+comisión fija pesa proporcionalmente menos.
+
+Detalle conocido y aceptado: los botones «gestionar» y «cancelar» abren la
+misma página del portal de Paddle, porque su API devuelve el mismo enlace para
+las dos acciones. Desde ahí se cancela sin problema; el paso intermedio hace de
+confirmación.
+
 ## Antes de cobrar a nadie
 
 - Proveedor de correo propio (Resend o similar). El de Supabase está limitado
