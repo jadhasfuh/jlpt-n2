@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shizen/cielo-1",
+ "titulo": "<ruby>星座<rt>せいざ</rt></ruby>をさがす",
+ "cuerpo": "<ruby>冬<rt>ふゆ</rt></ruby>の<ruby>空気<rt>くうき</rt></ruby>が<ruby>冴<rt>さ</rt></ruby>えた<ruby>夜<rt>よる</rt></ruby>、<ruby>屋上<rt>おくじょう</rt></ruby>に<ruby>上<rt>あ</rt></ruby>がって<ruby>空<rt>そら</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます。<ruby>街<rt>まち</rt></ruby>の<ruby>明<rt>あ</rt></ruby>かりが<ruby>強<rt>つよ</rt></ruby>いので、<ruby>見<rt>み</rt></ruby>える<ruby>星<rt>ほし</rt></ruby>はそう<ruby>多<rt>おお</rt></ruby>くありません。それでも<ruby>闇<rt>やみ</rt></ruby>に<ruby>目<rt>め</rt></ruby>が<ruby>慣<rt>な</rt></ruby>れてくる<em class=\"g\">とみると</em>、<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>星座<rt>せいざ</rt></ruby>のかたちが<ruby>浮<rt>う</rt></ruby>かんできます。<ruby>西日<rt>にしび</rt></ruby>が<ruby>沈<rt>しず</rt></ruby>んだ<ruby>直後<rt>ちょくご</rt></ruby>が、いちばん<ruby>色<rt>いろ</rt></ruby>のきれいな<ruby>時間<rt>じかん</rt></ruby>です。<ruby>満月<rt>まんげつ</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>は<ruby>明<rt>あか</rt></ruby>るすぎて、<ruby>惑星<rt>わくせい</rt></ruby>くらいしか<ruby>分<rt>わ</rt></ruby>かりません。<ruby>上空<rt>じょうくう</rt></ruby>を<ruby>通<rt>とお</rt></ruby>る<ruby>飛行機<rt>ひこうき</rt></ruby>の<ruby>光<rt>ひかり</rt></ruby>が<ruby>瞬<rt>まばた</rt></ruby>くのを、<ruby>子<rt>こ</rt></ruby>どものころは<ruby>星<rt>ほし</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>っていました。<ruby>軌道<rt>きどう</rt></ruby>を<ruby>回<rt>まわ</rt></ruby>る<ruby>人工<rt>じんこう</rt></ruby><ruby>衛星<rt>えいせい</rt></ruby>を<ruby>見分<rt>みわ</rt></ruby>けられるようになったのは<ruby>最近<rt>さいきん</rt></ruby>です。ゆっくり<ruby>動<rt>うご</rt></ruby>く<ruby>光<rt>ひかり</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つ<em class=\"g\">と見るや</em>、つい<ruby>目<rt>め</rt></ruby>で<ruby>追<rt>お</rt></ruby>ってしまいます。<ruby>天<rt>てん</rt></ruby>をながめていると、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>悩<rt>なや</rt></ruby>みの<ruby>比重<rt>ひじゅう</rt></ruby>が<ruby>変<rt>か</rt></ruby>わります。<ruby>明朗<rt>めいろう</rt></ruby>な<ruby>気持<rt>きも</rt></ruby>ちになる、というほど<ruby>単純<rt>たんじゅん</rt></ruby>ではありません。ただ、<ruby>大空<rt>おおぞら</rt></ruby>の<ruby>下<rt>した</rt></ruby>では<ruby>考<rt>かんが</rt></ruby>えごとの<ruby>形<rt>かたち</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>しゆるむのです。",
+ "traduccion": "Las noches de invierno en que el aire está limpio subo a la azotea a mirar el cielo. Como las luces de la ciudad son fuertes, no se ven demasiadas estrellas. Aun así, en cuanto los ojos se acostumbran a la oscuridad, van apareciendo poco a poco las formas de las constelaciones. El rato justo después de ponerse el sol es el de los colores más bonitos. Las noches de luna llena hay demasiada luz y apenas se distinguen los planetas. El parpadeo de las luces de los aviones que pasan por arriba de niño lo tomaba por estrellas. Distinguir los satélites en órbita es algo que he aprendido hace poco. En cuanto veo una luz que se mueve despacio, la sigo con la vista sin querer. Mirando el cielo, el peso de mis propias preocupaciones cambia. No es tan simple como decir que te pones alegre. Simplemente, bajo el cielo abierto la forma de lo que uno rumia se afloja un poco.",
+ "preguntas": [
+  {
+   "p": "<ruby>満月<rt>まんげつ</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>は、どうなりますか。",
+   "opciones": [
+    "<ruby>星<rt>ほし</rt></ruby>がよく<ruby>見<rt>み</rt></ruby>える",
+    "<ruby>明<rt>あか</rt></ruby>るすぎて<ruby>惑星<rt>わくせい</rt></ruby>くらいしか<ruby>分<rt>わ</rt></ruby>からない",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>見<rt>み</rt></ruby>えない",
+    "<ruby>色<rt>いろ</rt></ruby>がきれいだ"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>天<rt>てん</rt></ruby>をながめると、この<ruby>人<rt>ひと</rt></ruby>はどうなりますか。",
+   "opciones": [
+    "<ruby>明朗<rt>めいろう</rt></ruby>な<ruby>気持<rt>きも</rt></ruby>ちになる",
+    "<ruby>考<rt>かんが</rt></ruby>えごとの<ruby>形<rt>かたち</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>しゆるむ",
+    "<ruby>悩<rt>なや</rt></ruby>みが<ruby>消<rt>き</rt></ruby>える",
+    "<ruby>眠<rt>ねむ</rt></ruby>くなる"
+   ],
+   "correcta": 1
+  }
+ ]
+}

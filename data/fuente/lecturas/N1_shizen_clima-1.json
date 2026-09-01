@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shizen/clima-1",
+ "titulo": "<ruby>気<rt>き</rt></ruby>まぐれな<ruby>空<rt>そら</rt></ruby>",
+ "cuerpo": "<ruby>山<rt>やま</rt></ruby>の<ruby>天気<rt>てんき</rt></ruby>は<ruby>気<rt>き</rt></ruby>まぐれだと、はじめて<ruby>登<rt>のぼ</rt></ruby>った<ruby>日<rt>ひ</rt></ruby>に<ruby>教<rt>おそ</rt></ruby>わりました。<ruby>朝<rt>あさ</rt></ruby>は<ruby>晴天<rt>せいてん</rt></ruby>でも、<ruby>昼<rt>ひる</rt></ruby>には<ruby>暴風<rt>ぼうふう</rt></ruby>になることがあります。<ruby>雨具<rt>あまぐ</rt></ruby>を<ruby>出<rt>だ</rt></ruby>した<em class=\"g\">そばから</em><ruby>止<rt>や</rt></ruby>んでしまうこともある。<ruby>気象<rt>きしょう</rt></ruby>の<ruby>予報<rt>よほう</rt></ruby>を<ruby>信<rt>しん</rt></ruby>じすぎるなという<ruby>忠告<rt>ちゅうこく</rt></ruby>は、<ruby>何度<rt>なんど</rt></ruby>も<ruby>聞<rt>き</rt></ruby>いてようやく<ruby>身<rt>み</rt></ruby>についた<ruby>気<rt>き</rt></ruby>がします。<ruby>稲光<rt>いなびかり</rt></ruby>が<ruby>見<rt>み</rt></ruby>えたら、<ruby>何気<rt>なにげ</rt></ruby>なく<ruby>歩<rt>ある</rt></ruby>き<ruby>続<rt>つづ</rt></ruby>けてはいけません。<ruby>雪崩<rt>なだれ</rt></ruby>の<ruby>危険<rt>きけん</rt></ruby>がある<ruby>時期<rt>じき</rt></ruby>は、<ruby>陰気<rt>いんき</rt></ruby>な<ruby>空<rt>そら</rt></ruby>のほうがまだ<ruby>安全<rt>あんぜん</rt></ruby>だそうです。<ruby>保温<rt>ほおん</rt></ruby>のきく<ruby>服<rt>ふく</rt></ruby>を<ruby>一枚<rt>いちまい</rt></ruby><ruby>多<rt>おお</rt></ruby>く<ruby>持<rt>も</rt></ruby>っていく。<ruby>生温<rt>なまぬる</rt></ruby>い<ruby>判断<rt>はんだん</rt></ruby>が、いちばん<ruby>危<rt>あぶ</rt></ruby>ないのです。<ruby>先輩<rt>せんぱい</rt></ruby>に<ruby>連<rt>つ</rt></ruby>れていってもらっている<ruby>手前<rt>てまえ</rt></ruby>、<ruby>一気<rt>いっき</rt></ruby>に<ruby>登<rt>のぼ</rt></ruby>りたい<ruby>気持<rt>きも</rt></ruby>ちは<ruby>抑<rt>おさ</rt></ruby>えていました。<ruby>風土<rt>ふうど</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わせて<ruby>歩<rt>ある</rt></ruby>く<ruby>速<rt>はや</rt></ruby>さを<ruby>決<rt>き</rt></ruby>めるのだと、いまは<ruby>分<rt>わ</rt></ruby>かります。",
+ "traduccion": "El primer día que subí a la montaña me enseñaron que su tiempo es caprichoso. Aunque por la mañana haga sol, a mediodía puede haber un vendaval. Y a veces, justo después de sacar el chubasquero, para de llover. El consejo de no fiarse demasiado de la previsión siento que solo se me quedó después de oírlo muchas veces. Si ves un relámpago, no puedes seguir andando como si nada. En la época de riesgo de aludes, al parecer un cielo encapotado es incluso más seguro. Llevar una prenda de abrigo de más. Lo más peligroso es una decisión tibia. Como iba con un veterano que me había llevado, contenía las ganas de subir de un tirón. Ahora entiendo que la velocidad a la que caminas la decide el terreno.",
+ "preguntas": [
+  {
+   "p": "<ruby>雨具<rt>あまぐ</rt></ruby>について、どんなことが<ruby>起<rt>お</rt></ruby>きますか。",
+   "opciones": [
+    "<ruby>必要<rt>ひつよう</rt></ruby>ない",
+    "<ruby>出<rt>だ</rt></ruby>したそばから<ruby>雨<rt>あめ</rt></ruby>が<ruby>止<rt>や</rt></ruby>むこともある",
+    "<ruby>重<rt>おも</rt></ruby>すぎる",
+    "<ruby>使<rt>つか</rt></ruby>えない"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いちばん<ruby>危<rt>あぶ</rt></ruby>ないのは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>暴風<rt>ぼうふう</rt></ruby>",
+    "<ruby>生温<rt>なまぬる</rt></ruby>い<ruby>判断<rt>はんだん</rt></ruby>",
+    "<ruby>稲光<rt>いなびかり</rt></ruby>",
+    "<ruby>雪崩<rt>なだれ</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}
