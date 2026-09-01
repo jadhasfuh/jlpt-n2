@@ -46,6 +46,10 @@ CATEGORIAS = {"い-adjectives", "な-adjectives", "他動詞 & 自動詞", "受�
 
 def aparece(forma, texto):
     if forma in CATEGORIAS: return True
+    # En こそ「～が・けれど」 las comillas japonesas agrupan las alternativas: son
+    # notación, no texto. Dejarlas dentro hacía que se buscara la cadena
+    # literal «こそ「», que en una lectura no aparece jamás.
+    forma = forma.replace("「", "").replace("」", "")
     # Las alternativas vienen con «/» en las escritas a mano y con «・» en las
     # bajadas de jlptsensei (じゃない・ではない): basta con que aparezca una.
     for variante in re.split(r"\s*[/・]\s*", forma):
