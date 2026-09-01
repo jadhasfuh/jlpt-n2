@@ -1,0 +1,137 @@
+[
+ {
+  "id": "n3-kanji_yomi-0001",
+  "nivel": "N3",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この道路は工事中で、通行が<u>禁止</u>されている。",
+  "opciones": [
+   "きんし",
+   "きんじ",
+   "こんし",
+   "きんちし"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "濁点の誤り",
+   "こ／き の混同",
+   "促音の挿入"
+  ],
+  "explicacion": {
+   "es": "禁止 = きんし. El 止 aquí es し, no じ.",
+   "en": "禁止 = きんし. The 止 here reads し, not じ."
+  },
+  "etiquetas": [
+   "音読み"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-kanji_yomi-0002",
+  "nivel": "N3",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "アンケートの結果を<u>比較</u>してみた。",
+  "opciones": [
+   "ひこう",
+   "ひかく",
+   "ひきょう",
+   "ひがく"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "較をこうと読む誤り",
+   "きょうは別字",
+   "濁点の誤り"
+  ],
+  "explicacion": {
+   "es": "比較 = ひかく.",
+   "en": "比較 = ひかく."
+  },
+  "etiquetas": [
+   "音読み"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-kanji_yomi-0003",
+  "nivel": "N3",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "母は台所で野菜を<u>刻</u>んでいる。",
+  "opciones": [
+   "きざ",
+   "つか",
+   "はさ",
+   "くる"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "別の動詞",
+   "別の動詞",
+   "別の動詞"
+  ],
+  "explicacion": {
+   "es": "刻む = きざむ, «picar, cortar en trozos».",
+   "en": "刻む = きざむ, 'to chop'."
+  },
+  "etiquetas": [
+   "訓読み"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-hyouki-0001",
+  "nivel": "N3",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを1・2・3・4から一つ選びなさい。",
+  "enunciado": "友だちに旅行の<u>けいけん</u>を話した。",
+  "opciones": [
+   "経験",
+   "経検",
+   "径験",
+   "軽験"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "検は調べる",
+   "径は道すじ",
+   "軽は重さ"
+  ],
+  "explicacion": {
+   "es": "経験 «experiencia». 検 es «inspeccionar» y 軽 «ligero».",
+   "en": "経験 'experience'. 検 means 'inspect' and 軽 'light'."
+  },
+  "etiquetas": [
+   "同音異字"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-hyouki-0002",
+  "nivel": "N3",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを1・2・3・4から一つ選びなさい。",
+  "enunciado": "約束の時間に<u>おくれ</u>ないようにする。",
+  "opciones": [
+   "遅れ",
+   "送れ",
+   "贈れ",
+   "遅刻れ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "送るは別の意味",
+   "贈るは別の意味",
+   "漢字ではない"
+  ],
+  "explicacion": {
+   "es": "遅れる «llegar tarde». 送る es «enviar».",
+   "en": "遅れる 'to be late'. 送る is 'to send'."
+  },
+  "etiquetas": [
+   "同訓異字"
+  ],
+  "dificultad": 2
+ }
+]

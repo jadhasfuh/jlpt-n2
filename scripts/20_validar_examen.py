@@ -5,14 +5,20 @@ Las reglas salen de «Reglas de calidad» en docs/JLPT-EXAMEN.md. Se ejecuta
 siempre antes de sembrar: un ítem con dos respuestas válidas o con la respuesta
 fuera de rango es peor que no tener ítem.
 """
-import json, pathlib, sys, collections
+import json, pathlib, re, sys, collections
 
-TIPOS_3 = {"sokuji"}          # 即時応答 lleva tres opciones, no cuatro
+# 即時応答 y 発話表現 llevan tres opciones, no cuatro: en el examen real se
+# leen en voz alta y no hay nada impreso donde poner una cuarta.
+TIPOS_3 = {"sokuji", "hatsuwa"}
 SUBCADENA_PROHIBIDA = {"bunmyaku", "iikae", "youhou", "tanbun", "chuubun",
                        "chobun", "tougou", "shuchou", "jouhou",
                        "kadai", "point", "gaiyou", "sokuji", "tougou_choukai"}
+# Los largos salen de docs/JLPT-EXAMEN.md, que describe el N2. Un texto de
+# N5 o N3 es más corto por definición, así que el rango se escala por nivel:
+# exigirle a un 情報検索 de N3 los 550 caracteres del N2 era un aviso eterno.
 LARGOS = {"tanbun": (150, 260), "chuubun": (400, 620), "shuchou": (800, 1000),
           "jouhou": (550, 800)}
+ESCALA = {"N5": 0.45, "N4": 0.6, "N3": 0.75, "N2": 1.0, "N1": 1.15}
 
 fallos, avisos = [], []
 items, vistos = [], {}
@@ -59,7 +65,8 @@ for it in items:
 
     if it["tipo"] in LARGOS and it.get("pasaje"):
         n = len(it["pasaje"]["texto"])
-        lo, hi = LARGOS[it["tipo"]]
+        k = ESCALA.get(it["nivel"], 1.0)
+        lo, hi = round(LARGOS[it["tipo"]][0] * k), round(LARGOS[it["tipo"]][1] * k)
         if not (lo <= n <= hi):
             avisos.append(f'{d}: el pasaje tiene {n} caracteres (se esperan {lo}–{hi})')
 
@@ -68,6 +75,22 @@ for it in items:
             fallos.append(f'{d}: ítem de escucha sin guion')
 
 # Un grupo (lectura larga, audio compartido) necesita su texto en el primero.
+# Escribiendo a mano se cuelan palabras del idioma en el que uno está
+# pensando: un "late" entre las opciones, o peor, un trozo pegado de otro
+# sitio. En un examen de japonés no hay alfabeto latino ni cirílico fuera de
+# las etiquetas <u> del enunciado, así que cualquiera que aparezca es un error.
+_alfabeto = re.compile(r"[A-Za-z\u0400-\u04FF]")
+for it in items:
+    trozos = [("enunciado", it.get("enunciado", ""))]
+    trozos += [(f"opción {i+1}", o) for i, o in enumerate(it.get("opciones", []))]
+    if it.get("pasaje"): trozos.append(("pasaje", it["pasaje"].get("texto", "")))
+    for t in (it.get("guion", {}) or {}).get("turnos", []):
+        trozos.append(("guion", t.get("texto", "")))
+    for donde, texto in trozos:
+        limpio = re.sub(r"<[^>]+>", "", texto)
+        if _alfabeto.search(limpio):
+            fallos.append(f"{it['id']} ({donde}): letras no japonesas → {limpio[:40]}")
+
 grupos = collections.defaultdict(list)
 for it in items:
     if it.get("grupo"): grupos[it["grupo"]].append(it)

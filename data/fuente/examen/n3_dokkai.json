@@ -1,0 +1,258 @@
+[
+ {
+  "id": "n3-tanbun-0001",
+  "nivel": "N3",
+  "tipo": "tanbun",
+  "grupo": "n3-tanbun-g001",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "うちの近所の図書館は、毎週水曜日の午後だけ、館内で話をしてもよいことになっている。静かにするのが図書館のきまりだと思っていたので、最初は驚いた。しかし行ってみると、親子で絵本を読んだり、学生が声を出して問題を解いたりしていて、思ったよりずっと落ち着いた雰囲気だった。静かさは目的ではなく、集中するための手段にすぎないのだと気づかされた。",
+   "notas": [
+    {
+     "termino": "きまり",
+     "glosa": "ルール、規則"
+    }
+   ]
+  },
+  "enunciado": "筆者が気づいたことは何か。",
+  "opciones": [
+   "図書館は静かにするべきだということ",
+   "静かさは集中のための手段にすぎないということ",
+   "水曜日は図書館に行かないほうがいいということ",
+   "子どもは図書館に向かないということ"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "最初の思い込みで、気づきではない",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "La última frase lo dice: el silencio no es el fin, sino un medio para concentrarse.",
+   "en": "The last sentence says it: silence isn't the goal but a means to concentrate."
+  },
+  "etiquetas": [
+   "短文"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-tanbun-0002",
+  "nivel": "N3",
+  "tipo": "tanbun",
+  "grupo": "n3-tanbun-g002",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "料理がうまくなりたければ、レシピを増やすより、同じ料理を何度も作るほうがいい、と料理人の知り合いが言っていた。二回目からは、前回どこで失敗したかが分かる。三回目には、火加減や切り方を自分で変えられるようになる。新しい料理を次々に作っても、それは毎回一回目をくり返しているだけなのだそうだ。",
+   "notas": [
+    {
+     "termino": "火加減",
+     "glosa": "火の強さの調節"
+    }
+   ]
+  },
+  "enunciado": "知り合いの考えに合うものはどれか。",
+  "opciones": [
+   "レシピをたくさん覚えるべきだ",
+   "同じ料理をくり返し作るほうが上達する",
+   "料理は三回作れば完成する",
+   "新しい料理には挑戦しないほうがいい"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "本文と逆",
+   "三回は例で、完成とは言っていない",
+   "挑戦するなとは言っていない"
+  ],
+  "explicacion": {
+   "es": "Dice que repetir el mismo plato enseña más que sumar recetas, porque en la segunda vez ya ves el fallo.",
+   "en": "He says repeating the same dish teaches more than adding recipes, because the second time you see the mistake."
+  },
+  "etiquetas": [
+   "短文"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-chuubun-0001",
+  "nivel": "N3",
+  "tipo": "chuubun",
+  "grupo": "n3-chuubun-g001",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "引っ越しをするたびに、荷物の多さに驚く。押し入れの奥から出てくるのは、何年も使っていない道具ばかりだ。それなのに、なぜか捨てられない。\n先日、三度目の引っ越しでようやく気づいたことがある。捨てられないのは、そのものが必要だからではなく、それを買ったときの自分を否定したくないからだ。高かった道具ほど手放しにくいのは、値段のせいではない。あのとき選んだ自分が間違っていたと認めることになるからだろう。\nそう考えてから、少しずつ手放せるようになった。使わなかったという事実は変わらない。しかし、なぜ自分がそれを選んだのかを考えれば、次に選ぶときの助けになる。ものを捨てても、そこから学んだことまで捨てるわけではないと分かったからだ。",
+   "notas": [
+    {
+     "termino": "手放す",
+     "glosa": "持っていたものを捨てたり人にあげたりする"
+    }
+   ]
+  },
+  "enunciado": "筆者によると、ものが捨てられない理由は何か。",
+  "opciones": [
+   "まだ使う予定があるから",
+   "買ったときの自分を否定したくないから",
+   "値段が高かったから",
+   "置く場所があるから"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "本文は「使っていないものばかり」と言っている",
+   "値段のせいではないと本文が否定している",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "El texto dice expresamente que no es por el precio, sino por no querer admitir que quien lo compró se equivocó.",
+   "en": "The text says explicitly it isn't the price, but not wanting to admit the person who bought it was wrong."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 4
+ },
+ {
+  "id": "n3-chuubun-0002",
+  "nivel": "N3",
+  "tipo": "chuubun",
+  "grupo": "n3-chuubun-g001",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が少しずつ手放せるようになったのはなぜか。",
+  "opciones": [
+   "部屋が狭くなったから",
+   "ものを捨てても経験は残ると分かったから",
+   "家族に言われたから",
+   "三度目の引っ越しだったから"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "本文にない",
+   "本文にない",
+   "回数は理由ではなく機会"
+  ],
+  "explicacion": {
+   "es": "El último párrafo: tirar la cosa no tira lo aprendido con ella.",
+   "en": "The last paragraph: throwing out the object doesn't throw out what you learned from it."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 4
+ },
+ {
+  "id": "n3-chobun-0001",
+  "nivel": "N3",
+  "tipo": "chobun",
+  "grupo": "n3-chobun-g001",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "町の商店街に、四十年続いている小さなパン屋がある。店主は毎朝三時に起きて仕込みを始め、七時に店を開ける。売れ残ったパンは、その日のうちに近くの施設に届けているそうだ。\n数年前、大きなスーパーが近所にできたとき、この店ももう長くないだろうと誰もが思った。値段では勝てないし、品数も比べものにならない。ところが客足はほとんど減らなかった。\n理由を店主に聞くと、「うちは客の顔を覚えているから」と笑って答えた。誰がどのパンを好きか、いつ来る人が何を買うか、全部頭に入っている。だから朝の焼き上がりの数まで、その日に合わせて変えられるのだという。\nスーパーにできて、この店にできないことは多い。しかし、この店にできて、スーパーにできないことも確かにある。効率を上げれば強くなるとは限らないのだと、パンを買いながら考えた。",
+   "notas": [
+    {
+     "termino": "仕込み",
+     "glosa": "料理やパンを作る準備"
+    },
+    {
+     "termino": "客足",
+     "glosa": "店に来る客の数"
+    }
+   ]
+  },
+  "enunciado": "この店の客足が減らなかった理由として、店主が挙げているのは何か。",
+  "opciones": [
+   "値段がスーパーより安いから",
+   "品数が多いから",
+   "客の顔と好みを覚えているから",
+   "朝早くから開いているから"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "本文は値段では勝てないと言っている",
+   "本文は比べものにならないと言っている",
+   "開店時間は理由として挙げていない"
+  ],
+  "explicacion": {
+   "es": "El dueño lo dice: recuerda las caras y los gustos, y por eso ajusta cuánto hornea cada día.",
+   "en": "The owner says it: he remembers faces and preferences, so he adjusts how much he bakes each day."
+  },
+  "etiquetas": [
+   "長文"
+  ],
+  "dificultad": 4
+ },
+ {
+  "id": "n3-chobun-0002",
+  "nivel": "N3",
+  "tipo": "chobun",
+  "grupo": "n3-chobun-g001",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者がパンを買いながら考えたことは何か。",
+  "opciones": [
+   "効率を上げれば必ず強くなる",
+   "効率を上げれば強くなるとは限らない",
+   "小さな店は続けるべきではない",
+   "スーパーは町に必要ない"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "本文と逆",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "La última frase lo dice tal cual: ser más eficiente no garantiza ser más fuerte.",
+   "en": "The last sentence says it plainly: being more efficient doesn't guarantee being stronger."
+  },
+  "etiquetas": [
+   "長文"
+  ],
+  "dificultad": 4
+ },
+ {
+  "id": "n3-jouhou-0001",
+  "nivel": "N3",
+  "tipo": "jouhou",
+  "grupo": "n3-jouhou-g001",
+  "orden_grupo": 0,
+  "instruccion_ja": "右のページは、市民センターの講座の案内である。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "【市民センター 秋の講座 のご案内】\n■ 日本語で話そう（全8回）\n　日時：毎週火曜 19:00〜20:30\n　対象：市内に住んでいる方、または市内で働いている方\n　費用：2,000円（教材費は別に1,000円かかります）\n　定員：15名（申込が多い場合は抽選）\n　持ち物：筆記用具\n\n■ はじめての書道（全4回）\n　日時：毎週土曜 10:00〜11:30\n　対象：どなたでも参加できます\n　費用：3,500円（筆と紙の貸出があります）\n　定員：10名（先着順）\n　持ち物：汚れてもよい服装\n\n■ 親子でリズム体操（全6回）\n　日時：毎週日曜 10:00〜11:00\n　対象：3歳から6歳のお子さんと保護者\n　費用：無料\n　定員：8組（先着順）\n\n※ 申込は9月20日（金）までにお願いします。窓口またはホームページからお申し込みください。\n※ 費用は初回にお支払いください。一度お支払いいただいた費用はお返しできません。\n※ 抽選の結果は9月25日までに郵送でお知らせします。",
+   "notas": [
+    {
+     "termino": "抽選",
+     "glosa": "くじで決めること"
+    },
+    {
+     "termino": "先着順",
+     "glosa": "申し込んだ順番"
+    }
+   ]
+  },
+  "enunciado": "市外に住み、市外で働いているケンさんが申し込める講座と、その決まり方の組み合わせはどれか。",
+  "opciones": [
+   "「日本語で話そう」・抽選",
+   "「日本語で話そう」・先着順",
+   "「はじめての書道」・抽選",
+   "「はじめての書道」・先着順"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "対象外",
+   "対象外",
+   "書道は先着順"
+  ],
+  "explicacion": {
+   "es": "El curso de japonés exige vivir o trabajar en la ciudad, así que queda fuera. Caligrafía es «para cualquiera» y por orden de inscripción.",
+   "en": "The Japanese course requires living or working in the city, so it's out. Calligraphy is open to anyone and first-come, first-served."
+  },
+  "etiquetas": [
+   "情報検索"
+  ],
+  "dificultad": 3
+ }
+]

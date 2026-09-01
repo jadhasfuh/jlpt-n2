@@ -1,0 +1,362 @@
+[
+ {
+  "id": "n3-kadai-0001",
+  "nivel": "N3",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人はこの後まず何をしますか。",
+  "opciones": [
+   "本を返しに行く",
+   "レポートを書く",
+   "友だちに電話する",
+   "図書館で本を借りる"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "レポートは本を借りてから",
+   "電話は話に出ていない",
+   "返してからでないと借りられない"
+  ],
+  "explicacion": {
+   "es": "No puede sacar libros hasta devolver el que se le pasó de fecha, así que lo primero es ir a devolverlo.",
+   "en": "She can't borrow anything until she returns the overdue book, so returning it comes first."
+  },
+  "puntos": [
+   "返却が遅れている → まず返す",
+   "返さないと借りられない → 借りるのは後",
+   "レポートは借りた後で書く"
+  ],
+  "guion": {
+   "intro": "男の人と女の人が大学で話しています。女の人はこの後まず何をしますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "あれ、まだレポート書いてないの?"
+    },
+    {
+     "quien": "F",
+     "texto": "うん、図書館で資料を借りようと思ってるんだけど。"
+    },
+    {
+     "quien": "M",
+     "texto": "あ、この前借りた本、返した? 返却日、先週だったよね。"
+    },
+    {
+     "quien": "F",
+     "texto": "あ…忘れてた。"
+    },
+    {
+     "quien": "M",
+     "texto": "返さないと新しいのは借りられないよ。"
+    },
+    {
+     "quien": "F",
+     "texto": "そうだった。じゃあ先にそっちだね。"
+    }
+   ],
+   "pregunta": "女の人はこの後まず何をしますか。"
+  },
+  "etiquetas": [
+   "課題理解"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-kadai-0002",
+  "nivel": "N3",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は明日、何を持っていきますか。",
+  "opciones": [
+   "お弁当",
+   "水とうと帽子",
+   "帽子だけ",
+   "何も持っていかない"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "弁当はこちらで用意すると言っている",
+   "帽子だけでは水とうが抜ける",
+   "二つ持っていくと言っている"
+  ],
+  "explicacion": {
+   "es": "La comida la ponen ellos; hay que llevar cantimplora y gorra.",
+   "en": "Lunch is provided; he needs to bring a water bottle and a hat."
+  },
+  "puntos": [
+   "お弁当はこちらで用意します → 持っていかない",
+   "水とうは各自 → 持っていく",
+   "日差しが強い、帽子も → 持っていく"
+  ],
+  "guion": {
+   "intro": "男の人が電話で話しています。男の人は明日、何を持っていきますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "明日の見学ですが、お弁当はこちらで用意しますので、けっこうです。"
+    },
+    {
+     "quien": "M",
+     "texto": "分かりました。飲み物はどうしましょうか。"
+    },
+    {
+     "quien": "F",
+     "texto": "水とうは各自でお願いします。それから、外を歩きますので…"
+    },
+    {
+     "quien": "M",
+     "texto": "日差しが強いですね。"
+    },
+    {
+     "quien": "F",
+     "texto": "ええ、帽子もお持ちください。"
+    }
+   ],
+   "pregunta": "男の人は明日、何を持っていきますか。"
+  },
+  "etiquetas": [
+   "課題理解"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-point-0001",
+  "nivel": "N3",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人はどうして引っ越すことにしましたか。",
+  "opciones": [
+   "家賃が高いから",
+   "会社が遠いから",
+   "部屋が古いから",
+   "となりがうるさいから"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "家賃は安いと言っている",
+   "古さは気にしていない",
+   "音の話は出ていない"
+  ],
+  "explicacion": {
+   "es": "Dice que el alquiler está bien y que la antigüedad no le importa; el problema es la hora y media de trayecto.",
+   "en": "She says the rent is fine and the age doesn't bother her; the problem is the hour and a half commute."
+  },
+  "puntos": [
+   "家賃は安いほう → 理由ではない",
+   "古いのは気にならない → 理由ではない",
+   "通勤に一時間半 → これが理由"
+  ],
+  "guion": {
+   "intro": "男の人と女の人が話しています。女の人はどうして引っ越すことにしましたか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "え、引っ越すの? いい部屋だったのに。"
+    },
+    {
+     "quien": "F",
+     "texto": "うん、家賃も安いほうだし、古いのも別に気にならないんだけどね。"
+    },
+    {
+     "quien": "M",
+     "texto": "じゃあ、どうして?"
+    },
+    {
+     "quien": "F",
+     "texto": "通勤に一時間半かかるの。毎日だとさすがにきつくて。"
+    }
+   ],
+   "pregunta": "女の人はどうして引っ越すことにしましたか。"
+  },
+  "etiquetas": [
+   "ポイント理解"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-gaiyou-0001",
+  "nivel": "N3",
+  "tipo": "gaiyou",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "先生は何について話していますか。",
+  "opciones": [
+   "漢字の覚え方",
+   "辞書の選び方",
+   "作文の書き方",
+   "発音の直し方"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "辞書の話は出ていない",
+   "作文の話は出ていない",
+   "発音の話は出ていない"
+  ],
+  "explicacion": {
+   "es": "Todo el discurso va de cómo memorizar kanji: por partes y en palabras, no uno a uno.",
+   "en": "The whole talk is about memorising kanji: by parts and in words, not one by one."
+  },
+  "puntos": [
+   "一字ずつ覚えない",
+   "部分に分ける",
+   "言葉の中で覚える"
+  ],
+  "guion": {
+   "intro": "学校で先生が話しています。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "みなさん、一字ずつ書いて覚えようとしていませんか。それでは時間がかかります。漢字は部分に分けて見ると、同じ形が何度も出てきます。そして、一字だけで覚えるのではなく、言葉の中で覚えてください。読み方は、その言葉によって決まるからです。"
+    }
+   ],
+   "pregunta": "先生は何について話していますか。"
+  },
+  "etiquetas": [
+   "概要理解"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-sokuji-0001",
+  "nivel": "N3",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "すみません、この席、空いていますか。",
+  "opciones": [
+   "ええ、どうぞ。",
+   "ええ、空けてください。",
+   "いいえ、空いていました。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "相手に命令する形になる",
+   "時制が合わない"
+  ],
+  "explicacion": {
+   "es": "Preguntan si está libre: se responde ofreciéndolo, どうぞ.",
+   "en": "They're asking if the seat is free: you answer by offering it, どうぞ."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "すみません、この席、空いていますか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-sokuji-0002",
+  "nivel": "N3",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "明日の会議、何時からでしたっけ。",
+  "opciones": [
+   "十時からですよ。",
+   "十時にしましょうか。",
+   "十時でもいいですか。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "決まっていることを提案しなおしている",
+   "許可を求める形で答えになっていない"
+  ],
+  "explicacion": {
+   "es": "〜でしたっけ pregunta por algo ya decidido que no recuerda: se responde con el dato.",
+   "en": "〜でしたっけ asks about something already fixed that the speaker forgot: you answer with the fact."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "明日の会議、何時からでしたっけ。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-sokuji-0003",
+  "nivel": "N3",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "手伝いましょうか。",
+  "opciones": [
+   "はい、お願いします。",
+   "はい、手伝いました。",
+   "いいえ、手伝いましょう。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "過去形で答えになっていない",
+   "申し出た側に返す形が不自然"
+  ],
+  "explicacion": {
+   "es": "Te ofrecen ayuda: se acepta con お願いします.",
+   "en": "They're offering help: accept with お願いします."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "手伝いましょうか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-hatsuwa-0001",
+  "nivel": "N3",
+  "tipo": "hatsuwa",
+  "instruccion_ja": "問題では、絵を見ながら質問を聞いてください。矢印（→）の人は何と言いますか。1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "友だちの荷物が重そうです。何と言いますか。",
+  "opciones": [
+   "持ちましょうか。",
+   "持ってくれますか。",
+   "持ってもいいですか。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "相手に頼む形になっている",
+   "許可を求める形になっている"
+  ],
+  "explicacion": {
+   "es": "Te ofreces a llevarlo tú: 〜ましょうか. Las otras dos piden algo al otro.",
+   "en": "You're offering to carry it: 〜ましょうか. The other two ask something of the other person."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "友だちの荷物が重そうです。何と言いますか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "発話表現"
+  ],
+  "dificultad": 2
+ }
+]
