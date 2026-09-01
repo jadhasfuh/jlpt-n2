@@ -149,6 +149,7 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
       <div className="filtros" style={{ justifyContent: "center", margin: "22px 0 8px" }}>
         <Link href="/legal/terminos" className="btn fantasma chico">{t("per.terminos")}</Link>
         <Link href="/legal/privacidad" className="btn fantasma chico">{t("per.privacidad")}</Link>
+        <Link href="/legal/reembolsos" className="btn fantasma chico">{t("per.reembolsos")}</Link>
       </div>
     </>
   );

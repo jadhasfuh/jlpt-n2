@@ -126,10 +126,37 @@ type Precio = {
  * Se cachea una hora: el precio no cambia a diario y no tiene sentido llamar
  * a Paddle en cada visita.
  */
+/**
+ * Lo que cuesta, mientras Paddle no lo diga.
+ *
+ * Paddle no verifica el dominio si al entrar en la página de suscripción no
+ * encuentra una cifra, y esa página no puede consultar la API hasta que las
+ * credenciales existan — que es justo lo que no se tiene todavía. Así que
+ * mientras tanto se enseña el precio acordado, que además es el que dicen los
+ * términos y el que se declaró en la solicitud.
+ *
+ * En cuanto PADDLE_PRECIO y PADDLE_API_KEY estén puestas, manda Paddle y esto
+ * deja de usarse. Si algún día se sube el precio, se cambia en Paddle y aquí
+ * sólo hay que acordarse de tocar este número si se vuelve a quedar sin
+ * credenciales.
+ */
+const PRECIO_ANUNCIADO = { cantidad: 79, moneda: "MXN", intervalo: "month" };
+
+function formatear(cantidad: number, moneda: string, idioma: "es" | "en") {
+  return new Intl.NumberFormat(idioma === "es" ? "es-MX" : "en-US", {
+    style: "currency", currency: moneda, maximumFractionDigits: 0,
+  }).format(cantidad);
+}
+
 export async function precio(idioma: "es" | "en" = "es") {
   const id = process.env.PADDLE_PRECIO;
   const clave = process.env.PADDLE_API_KEY;
-  if (!id || !clave) return null;
+  if (!id || !clave) {
+    return {
+      texto: formatear(PRECIO_ANUNCIADO.cantidad, PRECIO_ANUNCIADO.moneda, idioma),
+      intervalo: PRECIO_ANUNCIADO.intervalo,
+    };
+  }
   try {
     const r = await fetch(`${API}/prices/${id}`, {
       headers: { Authorization: `Bearer ${clave}` },
@@ -139,12 +166,16 @@ export async function precio(idioma: "es" | "en" = "es") {
     const j = (await r.json()) as Precio;
     const cantidad = Number(j.data.unit_price.amount) / 100;
     const moneda = j.data.unit_price.currency_code;
-    const texto = new Intl.NumberFormat(idioma === "es" ? "es-MX" : "en-US", {
-      style: "currency", currency: moneda, maximumFractionDigits: 0,
-    }).format(cantidad);
-    return { texto, intervalo: j.data.billing_cycle?.interval ?? null };
+    return {
+      texto: formatear(cantidad, moneda, idioma),
+      intervalo: j.data.billing_cycle?.interval ?? null,
+    };
   } catch {
-    // Que no se caiga la pantalla de suscripción por no poder pintar el precio.
-    return null;
+    // Si Paddle no contesta, mejor el precio anunciado que un hueco: la página
+    // sin cifra es la que hace que rechacen la verificación del dominio.
+    return {
+      texto: formatear(PRECIO_ANUNCIADO.cantidad, PRECIO_ANUNCIADO.moneda, idioma),
+      intervalo: PRECIO_ANUNCIADO.intervalo,
+    };
   }
 }

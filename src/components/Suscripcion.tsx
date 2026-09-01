@@ -32,7 +32,7 @@ export function Suscripcion({ ajustes, cuenta, tarifa }: {
   const arrancado = useRef(false);
 
   useEffect(() => {
-    if (!ajustes.listo || arrancado.current) return;
+    if (!ajustes.listo || !cuenta || arrancado.current) return;
     arrancado.current = true;
     const s = document.createElement("script");
     s.src = "https://cdn.paddle.com/paddle/v2/paddle.js";
@@ -52,7 +52,7 @@ export function Suscripcion({ ajustes, cuenta, tarifa }: {
     };
     s.onerror = () => setError(t("sus.errorCarga"));
     document.head.appendChild(s);
-  }, [ajustes, t]);
+  }, [ajustes, cuenta, t]);
 
   const suscribirse = () => {
     if (!window.Paddle || !cuenta) return;
@@ -80,20 +80,8 @@ export function Suscripcion({ ajustes, cuenta, tarifa }: {
     }
   };
 
-  // ------------------------------------------------------------ sin cuenta
-  if (!cuenta) {
-    return (
-      <div className="tarjeta" style={{ marginTop: 32, textAlign: "center", padding: 32 }}>
-        <p style={{ fontSize: 16 }}>{t("sus.entraPrimero")}</p>
-        <Link className="btn primario" href="/entrar?next=/suscripcion">
-          {t("per.entrar")} <IcDerecha size={15} />
-        </Link>
-      </div>
-    );
-  }
-
   // ------------------------------------------------------ ya está suscrito
-  if (cuenta.alDia) {
+  if (cuenta?.alDia) {
     const cancelada = cuenta.membresia === "cancelada";
     return (
       <>
@@ -123,6 +111,7 @@ export function Suscripcion({ ajustes, cuenta, tarifa }: {
         )}
         <p className="tenue" style={{ marginTop: 10 }}>{t("sus.cancelarNota")}</p>
         {error && <p style={{ color: "var(--rojo)", fontSize: 13 }}>{error}</p>}
+        <Politicas t={t} />
       </>
     );
   }
@@ -150,7 +139,17 @@ export function Suscripcion({ ajustes, cuenta, tarifa }: {
         </ul>
       </div>
 
-      {ajustes.listo ? (
+      {!cuenta ? (
+        // Sin sesión el precio y lo que incluye se ven igual: esconderlos
+        // detrás de un login sólo consigue que la gente se vaya.
+        <>
+          <Link className="btn primario" href="/entrar?next=/suscripcion"
+                style={{ width: "100%", minHeight: 48, marginTop: 14 }}>
+            {t("per.entrar")} <IcDerecha size={15} />
+          </Link>
+          <p className="tenue" style={{ marginTop: 10 }}>{t("sus.entraPrimero")}</p>
+        </>
+      ) : ajustes.listo ? (
         <button className="btn primario" style={{ width: "100%", minHeight: 48, marginTop: 14 }}
                 disabled={!cargado} onClick={suscribirse}>
           {cargado ? <>{t("sus.suscribirse")} <IcDerecha size={15} /></> : t("com.cargando")}
@@ -161,6 +160,18 @@ export function Suscripcion({ ajustes, cuenta, tarifa }: {
 
       <p className="tenue" style={{ marginTop: 10 }}>{t("sus.letraPequena")}</p>
       {error && <p style={{ color: "var(--rojo)", fontSize: 13 }}>{error}</p>}
+      <Politicas t={t} />
     </>
+  );
+}
+
+/** Las tres políticas, donde las busca quien va a pagar. */
+function Politicas({ t }: { t: (c: never) => string }) {
+  return (
+    <div className="filtros" style={{ justifyContent: "center", margin: "20px 0 4px" }}>
+      <Link href="/legal/terminos" className="btn fantasma chico">{t("per.terminos" as never)}</Link>
+      <Link href="/legal/privacidad" className="btn fantasma chico">{t("per.privacidad" as never)}</Link>
+      <Link href="/legal/reembolsos" className="btn fantasma chico">{t("per.reembolsos" as never)}</Link>
+    </div>
   );
 }

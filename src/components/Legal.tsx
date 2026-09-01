@@ -139,11 +139,89 @@ const PRIVACIDAD: Record<"es" | "en", { titulo: string; intro: string; bloques: 
   },
 };
 
-export function Legal({ cual }: { cual: "terminos" | "privacidad" }) {
+
+/**
+ * Reembolsos, en página propia.
+ *
+ * Lo mismo está dentro de los términos, pero Paddle pide una URL separada para
+ * cada una de las tres políticas antes de verificar el dominio, y un enlace a
+ * un apartado en mitad de otro documento no siempre se lo dan por bueno. Al
+ * comprador tampoco le viene mal encontrarlo sin tener que leer los términos
+ * enteros: si busca esto, es porque ya tiene una duda concreta.
+ */
+const REEMBOLSOS: Record<"es" | "en", { titulo: string; intro: string; bloques: Bloque[] }> = {
+  es: {
+    titulo: "Reembolsos y cancelación",
+    intro: "Cómo se cobra, cómo se cancela y cómo se devuelve el dinero. En lenguaje llano.",
+    bloques: [
+      { t: "Qué se cobra", p: [
+        "El acceso completo a los cinco niveles cuesta 79 pesos mexicanos al mes. El precio aparece en la página de suscripción antes de pagar.",
+        "Si tu país aplica impuestos sobre el servicio, se añaden en el momento del pago y se ven antes de confirmar.",
+        "El cobro lo gestiona Paddle.com, que actúa como vendedor autorizado y emite la factura. No guardamos ni vemos los datos de tu tarjeta.",
+      ]},
+      { t: "Renovación", p: [
+        "La suscripción se renueva automáticamente cada mes hasta que la canceles. No hay permanencia mínima.",
+        "El cobro se hace el mismo día de cada mes. Paddle te envía la factura por correo.",
+      ]},
+      { t: "Cancelar", p: [
+        "Puedes cancelar en cualquier momento desde tu perfil, en dos toques y sin dar explicaciones. No hay que escribir a nadie ni esperar respuesta.",
+        "Al cancelar conservas el acceso hasta el final del periodo que ya has pagado. No se cobra nada después.",
+        "Si borras tu cuenta, la suscripción NO se cancela sola: cancélala antes, o escríbenos y lo hacemos nosotros.",
+      ]},
+      { t: "Devoluciones", p: [
+        "Si la app no es lo que esperabas, escríbenos dentro de los 14 días siguientes al cobro y te devolvemos el dinero de ese periodo, sin preguntas.",
+        "Pasado ese plazo lo estudiamos caso por caso. Si algo ha fallado por nuestra parte, se devuelve.",
+        "Las devoluciones las tramita Paddle y vuelven al mismo medio de pago. Suelen tardar entre 3 y 10 días hábiles según el banco.",
+      ]},
+      { t: "Cómo pedirlo", p: [
+        "Escríbenos a la dirección de contacto que aparece abajo, desde el mismo correo con el que tienes la cuenta. No hace falta más.",
+        "Contestamos en un plazo máximo de 48 horas.",
+      ]},
+    ],
+  },
+  en: {
+    titulo: "Refunds and cancellation",
+    intro: "How billing, cancellation and refunds work. In plain language.",
+    bloques: [
+      { t: "What you pay", p: [
+        "Full access to all five levels costs MX$79 per month. The price is shown on the subscription page before you pay.",
+        "If your country charges tax on the service, it is added at checkout and shown before you confirm.",
+        "Billing is handled by Paddle.com, acting as the authorised reseller and issuing the invoice. We never store or see your card details.",
+      ]},
+      { t: "Renewal", p: [
+        "The subscription renews automatically each month until you cancel. There is no minimum term.",
+        "You are charged on the same day each month. Paddle emails you the invoice.",
+      ]},
+      { t: "Cancelling", p: [
+        "You can cancel at any time from your profile, in two taps and without giving a reason. You don't have to write to anyone or wait for a reply.",
+        "When you cancel you keep access until the end of the period you already paid for. Nothing is charged after that.",
+        "Deleting your account does NOT cancel the subscription: cancel it first, or write to us and we'll do it.",
+      ]},
+      { t: "Refunds", p: [
+        "If the app isn't what you expected, write to us within 14 days of the charge and we refund that period, no questions asked.",
+        "After that we look at it case by case. If something went wrong on our side, we refund it.",
+        "Refunds are processed by Paddle and go back to the same payment method. They usually take 3 to 10 working days depending on your bank.",
+      ]},
+      { t: "How to ask", p: [
+        "Write to the contact address below, from the same email address your account uses. That's all we need.",
+        "We reply within 48 hours at the latest.",
+      ]},
+    ],
+  },
+};
+
+type Cual = "terminos" | "privacidad" | "reembolsos";
+const DOCS = { terminos: TERMINOS, privacidad: PRIVACIDAD, reembolsos: REEMBOLSOS };
+// Las tres se enlazan en rueda, para poder llegar a cualquiera desde cualquiera.
+const SIGUIENTE: Record<Cual, Cual> = {
+  terminos: "privacidad", privacidad: "reembolsos", reembolsos: "terminos",
+};
+
+export function Legal({ cual }: { cual: Cual }) {
   const { idioma } = useAjustes();
-  const d = (cual === "terminos" ? TERMINOS : PRIVACIDAD)[idioma];
-  const otra = cual === "terminos" ? "privacidad" : "terminos";
-  const nombreOtra = (cual === "terminos" ? PRIVACIDAD : TERMINOS)[idioma].titulo;
+  const d = DOCS[cual][idioma];
+  const otra = SIGUIENTE[cual];
+  const nombreOtra = DOCS[otra][idioma].titulo;
 
   return (
     <div style={{ maxWidth: 620, margin: "0 auto" }}>
