@@ -1,0 +1,272 @@
+[
+ {
+  "id": "n1-bunpou1-0007",
+  "nivel": "N1",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この結果は、長年の地道な努力（　）ものだ。",
+  "opciones": [
+   "あっての",
+   "ならではの",
+   "ながらの",
+   "かぎりの"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ならではは固有性",
+   "ながらは継続",
+   "かぎりは限定"
+  ],
+  "explicacion": {
+   "es": "〜あっての = «que solo existe gracias a». Sin ese esfuerzo no habría resultado.",
+   "en": "〜あっての = 'which exists only thanks to'. Without that effort there'd be no result."
+  },
+  "etiquetas": [
+   "前提"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n1-bunpou1-0008",
+  "nivel": "N1",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "周囲の反対（　）、彼は計画を進めた。",
+  "opciones": [
+   "をよそに",
+   "にそくして",
+   "にかかわって",
+   "をこめて"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "にそくしては基づく",
+   "にかかわっては関与",
+   "をこめては感情"
+  ],
+  "explicacion": {
+   "es": "〜をよそに = haciendo caso omiso de. Sigue adelante pese a la oposición.",
+   "en": "〜をよそに = disregarding. He pressed on despite the opposition."
+  },
+  "etiquetas": [
+   "無視"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n1-bunpou1-0009",
+  "nivel": "N1",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "締め切りが明日（　）、今から間に合わせるのは難しい。",
+  "opciones": [
+   "とあっては",
+   "とばかりに",
+   "といっては",
+   "ときたら"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "とばかりには様子",
+   "といってはは引用",
+   "ときたらは話題提示"
+  ],
+  "explicacion": {
+   "es": "〜とあっては = «siendo el caso que…, entonces». Introduce una consecuencia forzosa.",
+   "en": "〜とあっては = 'given that…, then'. It introduces an unavoidable consequence."
+  },
+  "etiquetas": [
+   "条件"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n1-bunpou1-0010",
+  "nivel": "N1",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼の実力なら、優勝も（　）。",
+  "opciones": [
+   "夢ではあるまい",
+   "夢ではあるまいし",
+   "夢どころではない",
+   "夢にすぎない"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ではあるまいしは理由の否定",
+   "どころではないは余裕がない",
+   "にすぎないは限定"
+  ],
+  "explicacion": {
+   "es": "〜まい niega con conjetura: «no será un sueño», o sea, es alcanzable.",
+   "en": "〜まい negates with conjecture: 'it likely isn't a dream', i.e. it's within reach."
+  },
+  "etiquetas": [
+   "推量"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n1-bunpou2-0003",
+  "nivel": "N1",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "その決断は　＿＿　＿★＿　＿＿　＿＿　ではない。",
+  "opciones": [
+   "容易に",
+   "下せるもの",
+   "立場でなければ",
+   "責任ある"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "語順が合わない",
+   "語順が合わない",
+   "語順が合わない"
+  ],
+  "explicacion": {
+   "es": "Orden: 責任ある 立場でなければ 容易に 下せるもの. La estrella está en la casilla 2, donde va 「立場でなければ」.",
+   "en": "Order: 責任ある 立場でなければ 容易に 下せるもの. The star is in slot 2, which takes 「立場でなければ」."
+  },
+  "etiquetas": [
+   "並べ替え"
+  ],
+  "dificultad": 5,
+  "orden": [
+   3,
+   2,
+   0,
+   1
+  ]
+ },
+ {
+  "id": "n1-bunpou2-0004",
+  "nivel": "N1",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "制度の見直しは　＿＿　＿＿　＿★＿　＿＿　進められた。",
+  "opciones": [
+   "現場の声を",
+   "反対を",
+   "踏まえつつ",
+   "押し切る形で"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "語順が合わない",
+   "語順が合わない",
+   "語順が合わない"
+  ],
+  "explicacion": {
+   "es": "Orden: 現場の声を 踏まえつつ 反対を 押し切る形で. La estrella está en la casilla 3, donde va 「反対を」.",
+   "en": "Order: 現場の声を 踏まえつつ 反対を 押し切る形で. The star is in slot 3, which takes 「反対を」."
+  },
+  "etiquetas": [
+   "並べ替え"
+  ],
+  "dificultad": 5,
+  "orden": [
+   0,
+   2,
+   1,
+   3
+  ]
+ },
+ {
+  "id": "n1-bunshou_bunpou-0001",
+  "nivel": "N1",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n1-bb-g001",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "「わかりやすく話してください」と頼まれることがある。ありがたい要望だが、応じるのは思うほど簡単ではない。わかりやすさとは、聞き手がすでに持っている枠組みに情報を収めることだからだ。枠組みそのものを変えてもらう必要がある場合、（　1　）。\nそれでも、話し手にできることはある。結論を先に置くこと、例を一つに絞ること、専門語を言い換えること。これらはいずれも、聞き手の負担を減らす工夫である。（　2　）、内容そのものを薄めることとは違う。\n難しい話をやさしく話すのと、やさしい話に置き換えてしまうのとは別である。前者は聞き手への敬意だが、後者は（　3　）。両者の境目を見失わないことが、話し手の責任なのだと思う。",
+   "notas": [
+    {
+     "termino": "枠組み",
+     "glosa": "ものごとを理解するときの下地となる考え方"
+    }
+   ]
+  },
+  "enunciado": "（　1　）",
+  "opciones": [
+   "わかりやすさはかえって妨げになりうる",
+   "わかりやすさこそが唯一の方法である",
+   "聞き手の枠組みは問題にならない",
+   "話し手の負担は軽くなる"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文の論旨と逆",
+   "枠組みが問題だと述べている",
+   "負担の話は次の段落"
+  ],
+  "explicacion": {
+   "es": "Si hay que cambiar el marco del oyente, encajar la información en ese mismo marco estorba.",
+   "en": "If the listener's framework itself must change, fitting information into that framework gets in the way."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n1-bunshou_bunpou-0002",
+  "nivel": "N1",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n1-bb-g001",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "（　2　）",
+  "opciones": [
+   "ただし",
+   "つまり",
+   "したがって",
+   "たとえば"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "言い換えではない",
+   "帰結ではない",
+   "例示ではない"
+  ],
+  "explicacion": {
+   "es": "Va a poner un límite a lo dicho: reducir la carga sí, diluir el contenido no. ただし.",
+   "en": "He's about to qualify what he said: lighten the load yes, dilute the content no. ただし."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 4
+ },
+ {
+  "id": "n1-bunshou_bunpou-0003",
+  "nivel": "N1",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n1-bb-g001",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "（　3　）",
+  "opciones": [
+   "聞き手を見くびることになりかねない",
+   "聞き手への配慮そのものである",
+   "話し手の実力を示している",
+   "内容を深めることにつながる"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "前者の説明",
+   "本文にない",
+   "本文と逆"
+  ],
+  "explicacion": {
+   "es": "El primero es respeto; el segundo, sustituir el tema por otro más fácil, subestima al oyente.",
+   "en": "The first is respect; the second — swapping the topic for an easier one — sells the listener short."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 5
+ }
+]

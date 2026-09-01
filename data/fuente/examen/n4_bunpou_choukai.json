@@ -311,17 +311,23 @@
    "難しい",
    "と"
   ],
-  "respuesta": 2,
+  "respuesta": 0,
   "logica_distractores": [],
   "objetivo": "日本語 が 難しい と",
   "explicacion": {
-   "es": "El orden es 日本語が難しいと思います. En el ★, segunda casilla, va 難しい.",
-   "en": "The order is 日本語が難しいと思います. 難しい goes in the ★, the second slot."
+   "es": "Orden: 日本語 が 難しい と. La estrella está en la casilla 2, donde va 「が」.",
+   "en": "Order: 日本語 が 難しい と. The star is in slot 2, which takes 「が」."
   },
   "etiquetas": [
    "orden"
   ],
-  "dificultad": 2
+  "dificultad": 2,
+  "orden": [
+   1,
+   0,
+   2,
+   3
+  ]
  },
  {
   "id": "n4-bunpou2-0002",
@@ -339,13 +345,19 @@
   "logica_distractores": [],
   "objetivo": "おいしい 料理 を 作って",
   "explicacion": {
-   "es": "El orden es おいしい料理を作ってもらいました. En el ★ va 料理.",
-   "en": "The order is おいしい料理を作ってもらいました. 料理 goes in the ★."
+   "es": "Orden: おいしい 料理 を 作って. La estrella está en la casilla 2, donde va 「料理」.",
+   "en": "Order: おいしい 料理 を 作って. The star is in slot 2, which takes 「料理」."
   },
   "etiquetas": [
    "orden"
   ],
-  "dificultad": 2
+  "dificultad": 2,
+  "orden": [
+   3,
+   2,
+   0,
+   1
+  ]
  },
  {
   "id": "n4-bunpou2-0003",
@@ -359,17 +371,23 @@
    "試合は",
    "明日の"
   ],
-  "respuesta": 2,
+  "respuesta": 0,
   "logica_distractores": [],
   "objetivo": "降れ ば 明日の 試合は",
   "explicacion": {
-   "es": "El orden es 降れば明日の試合は中止です. En el ★ va 明日の.",
-   "en": "The order is 降れば明日の試合は中止です. 明日の goes in the ★."
+   "es": "Orden: 降れ ば 明日の 試合は. La estrella está en la casilla 2, donde va 「ば」.",
+   "en": "Order: 降れ ば 明日の 試合は. The star is in slot 2, which takes 「ば」."
   },
   "etiquetas": [
    "orden"
   ],
-  "dificultad": 2
+  "dificultad": 2,
+  "orden": [
+   1,
+   0,
+   3,
+   2
+  ]
  },
  {
   "id": "n4-bunpou2-0004",
@@ -387,13 +405,19 @@
   "logica_distractores": [],
   "objetivo": "難しい 文法 を 教えて",
   "explicacion": {
-   "es": "El orden es 難しい文法を教えていただきました. En el ★ va 文法.",
-   "en": "The order is 難しい文法を教えていただきました. 文法 goes in the ★."
+   "es": "Orden: 難しい 文法 を 教えて. La estrella está en la casilla 2, donde va 「文法」.",
+   "en": "Order: 難しい 文法 を 教えて. The star is in slot 2, which takes 「文法」."
   },
   "etiquetas": [
    "orden"
   ],
-  "dificultad": 2
+  "dificultad": 2,
+  "orden": [
+   3,
+   2,
+   0,
+   1
+  ]
  },
  {
   "id": "n4-sokuji-0001",

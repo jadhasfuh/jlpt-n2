@@ -1,73 +1,230 @@
 [
- {"id":"n3-bunpou1-0001","nivel":"N3","tipo":"bunpou1",
-  "instruccion_ja":"次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"雨が降っている（　）、試合は予定どおり行われた。",
-  "opciones":["にもかかわらず","によって","にとって","にたいして"],"respuesta":0,
-  "logica_distractores":["によっては手段や原因","にとっては立場","にたいしては対象"],
-  "explicacion":{"es":"Llueve y aun así se juega: es concesivo, にもかかわらず. Los otros tres no marcan contraste.",
-                 "en":"It rains and the match happens anyway: concessive, にもかかわらず. The other three don't mark contrast."},
-  "etiquetas":["逆接"],"dificultad":3},
-
- {"id":"n3-bunpou1-0002","nivel":"N3","tipo":"bunpou1",
-  "instruccion_ja":"次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"先生に相談した（　）、気持ちが楽になった。",
-  "opciones":["おかげで","せいで","ばかりに","ために"],"respuesta":0,
-  "logica_distractores":["せいでは悪い結果","ばかりにも悪い結果","ためには中立だが感謝が出ない"],
-  "explicacion":{"es":"El resultado es bueno, así que おかげで. せいで y ばかりに marcan una consecuencia mala.",
-                 "en":"The outcome is good, so おかげで. せいで and ばかりに mark a bad consequence."},
-  "etiquetas":["原因"],"dificultad":2},
-
- {"id":"n3-bunpou1-0003","nivel":"N3","tipo":"bunpou1",
-  "instruccion_ja":"次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"この機械は子どもでも使える（　）、操作がとても簡単だ。",
-  "opciones":["ように","ために","ところ","わけで"],"respuesta":0,
-  "logica_distractores":["ためには目的だが後件と合わない","ところは場面","わけでは結論"],
-  "explicacion":{"es":"〜ように expresa el propósito: está hecho para que hasta un niño pueda usarlo.",
-                 "en":"〜ように expresses purpose: it's built so that even a child can use it."},
-  "etiquetas":["目的"],"dificultad":2},
-
- {"id":"n3-bunpou1-0004","nivel":"N3","tipo":"bunpou1",
-  "instruccion_ja":"次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"日本に来た（　）、一度は富士山に登ってみたい。",
-  "opciones":["からには","からといって","かわりに","うえに"],"respuesta":0,
-  "logica_distractores":["からといっては否定が続く","かわりには交換","うえには追加"],
-  "explicacion":{"es":"からには = «ya que…, entonces por fuerza…». Introduce una decisión firme.",
-                 "en":"からには = 'now that…, then naturally…'. It introduces a firm decision."},
-  "etiquetas":["条件"],"dificultad":3},
-
- {"id":"n3-bunpou1-0005","nivel":"N3","tipo":"bunpou1",
-  "instruccion_ja":"次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"部屋を出る（　）、電気を消してください。",
-  "opciones":["ときに","あいだに","うちに","までに"],"respuesta":0,
-  "logica_distractores":["あいだには継続中","うちには状態が変わる前","までには期限"],
-  "explicacion":{"es":"El momento puntual de salir: 出るときに. Los otros marcan duración o plazo.",
-                 "en":"The moment of leaving: 出るときに. The others mark duration or a deadline."},
-  "etiquetas":["時"],"dificultad":2},
-
- {"id":"n3-bunpou1-0006","nivel":"N3","tipo":"bunpou1",
-  "instruccion_ja":"次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"彼女は忙しい（　）、いつも人の相談にのっている。",
-  "opciones":["わりに","ように","ばかりに","とおりに"],"respuesta":0,
-  "logica_distractores":["ようには様子","ばかりには悪い結果","とおりには一致"],
-  "explicacion":{"es":"〜わりに = «para lo … que es». Está ocupada y aun así escucha a todos.",
-                 "en":"〜わりに = 'for how … it is'. She's busy and still listens to everyone."},
-  "etiquetas":["比較"],"dificultad":3},
-
- {"id":"n3-bunpou2-0001","nivel":"N3","tipo":"bunpou2",
-  "instruccion_ja":"次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"私は　＿＿　＿＿　＿★＿　＿＿　思っている。",
-  "opciones":["日本語で","話せるように","なりたいと","もっと"],"respuesta":1,
-  "logica_distractores":["語順が合わない","語順が合わない","語順が合わない"],
-  "explicacion":{"es":"Orden: もっと 日本語で 話せるように なりたいと. La estrella cae en 話せるように.",
-                 "en":"Order: もっと 日本語で 話せるように なりたいと. The star falls on 話せるように."},
-  "etiquetas":["並べ替え"],"dificultad":3},
-
- {"id":"n3-bunpou2-0002","nivel":"N3","tipo":"bunpou2",
-  "instruccion_ja":"次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"この本は　＿＿　＿★＿　＿＿　＿＿　役に立つ。",
-  "opciones":["初めて","にとって","日本語を","勉強する人"],"respuesta":3,
-  "logica_distractores":["語順が合わない","語順が合わない","語順が合わない"],
-  "explicacion":{"es":"Orden: 初めて 日本語を 勉強する人 にとって. La estrella cae en 勉強する人.",
-                 "en":"Order: 初めて 日本語を 勉強する人 にとって. The star falls on 勉強する人."},
-  "etiquetas":["並べ替え"],"dificultad":3}
+ {
+  "id": "n3-bunpou1-0001",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "雨が降っている（　）、試合は予定どおり行われた。",
+  "opciones": [
+   "にもかかわらず",
+   "によって",
+   "にとって",
+   "にたいして"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "によっては手段や原因",
+   "にとっては立場",
+   "にたいしては対象"
+  ],
+  "explicacion": {
+   "es": "Llueve y aun así se juega: es concesivo, にもかかわらず. Los otros tres no marcan contraste.",
+   "en": "It rains and the match happens anyway: concessive, にもかかわらず. The other three don't mark contrast."
+  },
+  "etiquetas": [
+   "逆接"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunpou1-0002",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "先生に相談した（　）、気持ちが楽になった。",
+  "opciones": [
+   "おかげで",
+   "せいで",
+   "ばかりに",
+   "ために"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "せいでは悪い結果",
+   "ばかりにも悪い結果",
+   "ためには中立だが感謝が出ない"
+  ],
+  "explicacion": {
+   "es": "El resultado es bueno, así que おかげで. せいで y ばかりに marcan una consecuencia mala.",
+   "en": "The outcome is good, so おかげで. せいで and ばかりに mark a bad consequence."
+  },
+  "etiquetas": [
+   "原因"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-bunpou1-0003",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この機械は子どもでも使える（　）、操作がとても簡単だ。",
+  "opciones": [
+   "ように",
+   "ために",
+   "ところ",
+   "わけで"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ためには目的だが後件と合わない",
+   "ところは場面",
+   "わけでは結論"
+  ],
+  "explicacion": {
+   "es": "〜ように expresa el propósito: está hecho para que hasta un niño pueda usarlo.",
+   "en": "〜ように expresses purpose: it's built so that even a child can use it."
+  },
+  "etiquetas": [
+   "目的"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-bunpou1-0004",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "日本に来た（　）、一度は富士山に登ってみたい。",
+  "opciones": [
+   "からには",
+   "からといって",
+   "かわりに",
+   "うえに"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "からといっては否定が続く",
+   "かわりには交換",
+   "うえには追加"
+  ],
+  "explicacion": {
+   "es": "からには = «ya que…, entonces por fuerza…». Introduce una decisión firme.",
+   "en": "からには = 'now that…, then naturally…'. It introduces a firm decision."
+  },
+  "etiquetas": [
+   "条件"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunpou1-0005",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "部屋を出る（　）、電気を消してください。",
+  "opciones": [
+   "ときに",
+   "あいだに",
+   "うちに",
+   "までに"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "あいだには継続中",
+   "うちには状態が変わる前",
+   "までには期限"
+  ],
+  "explicacion": {
+   "es": "El momento puntual de salir: 出るときに. Los otros marcan duración o plazo.",
+   "en": "The moment of leaving: 出るときに. The others mark duration or a deadline."
+  },
+  "etiquetas": [
+   "時"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-bunpou1-0006",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼女は忙しい（　）、いつも人の相談にのっている。",
+  "opciones": [
+   "わりに",
+   "ように",
+   "ばかりに",
+   "とおりに"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ようには様子",
+   "ばかりには悪い結果",
+   "とおりには一致"
+  ],
+  "explicacion": {
+   "es": "〜わりに = «para lo … que es». Está ocupada y aun así escucha a todos.",
+   "en": "〜わりに = 'for how … it is'. She's busy and still listens to everyone."
+  },
+  "etiquetas": [
+   "比較"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunpou2-0001",
+  "nivel": "N3",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "私は　＿＿　＿＿　＿★＿　＿＿　思っている。",
+  "opciones": [
+   "日本語で",
+   "話せるように",
+   "なりたいと",
+   "もっと"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "語順が合わない",
+   "語順が合わない",
+   "語順が合わない"
+  ],
+  "explicacion": {
+   "es": "Orden: もっと 日本語で 話せるように なりたいと. La estrella está en la casilla 3, donde va 「話せるように」.",
+   "en": "Order: もっと 日本語で 話せるように なりたいと. The star is in slot 3, which takes 「話せるように」."
+  },
+  "etiquetas": [
+   "並べ替え"
+  ],
+  "dificultad": 3,
+  "orden": [
+   3,
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "n3-bunpou2-0002",
+  "nivel": "N3",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この本は　＿＿　＿★＿　＿＿　＿＿　役に立つ。",
+  "opciones": [
+   "初めて",
+   "にとって",
+   "日本語を",
+   "勉強する人"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "語順が合わない",
+   "語順が合わない",
+   "語順が合わない"
+  ],
+  "explicacion": {
+   "es": "Orden: 初めて 日本語を 勉強する人 にとって. La estrella está en la casilla 2, donde va 「日本語を」.",
+   "en": "Order: 初めて 日本語を 勉強する人 にとって. The star is in slot 2, which takes 「日本語を」."
+  },
+  "etiquetas": [
+   "並べ替え"
+  ],
+  "dificultad": 3,
+  "orden": [
+   0,
+   2,
+   3,
+   1
+  ]
+ }
 ]

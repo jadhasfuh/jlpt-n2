@@ -314,14 +314,20 @@
   "respuesta": 0,
   "logica_distractores": [],
   "explicacion": {
-   "es": "El orden es 住民の反対により («por la oposición de los vecinos»). En el ★, segunda casilla, va の.",
-   "en": "The order is 住民の反対により ('because of the residents' opposition'). The ★, the second slot, takes の."
+   "es": "Orden: 住民 の 反対 により. La estrella está en la casilla 2, donde va 「の」.",
+   "en": "Order: 住民 の 反対 により. The star is in slot 2, which takes 「の」."
   },
   "etiquetas": [
    "orden"
   ],
   "objetivo": "住民 の 反対 により",
-  "dificultad": 3
+  "dificultad": 3,
+  "orden": [
+   2,
+   0,
+   1,
+   3
+  ]
  },
  {
   "id": "n2-bunpou2-0002",
@@ -338,14 +344,20 @@
   "respuesta": 2,
   "logica_distractores": [],
   "explicacion": {
-   "es": "El orden es 何度も失敗したのに («aunque falló muchas veces»). En el ★ va も.",
-   "en": "The order is 何度も失敗したのに ('even though he failed many times'). も goes in the ★."
+   "es": "Orden: 何度 も 失敗したの に. La estrella está en la casilla 2, donde va 「も」.",
+   "en": "Order: 何度 も 失敗したの に. The star is in slot 2, which takes 「も」."
   },
   "etiquetas": [
    "orden"
   ],
   "objetivo": "何度 も 失敗したの に",
-  "dificultad": 3
+  "dificultad": 3,
+  "orden": [
+   1,
+   2,
+   3,
+   0
+  ]
  },
  {
   "id": "n2-bunpou2-0003",
@@ -362,14 +374,20 @@
   "respuesta": 2,
   "logica_distractores": [],
   "explicacion": {
-   "es": "El orden es 勉強すればするほど («cuanto más estudias»). En el ★ va すれば.",
-   "en": "The order is 勉強すればするほど ('the more you study'). すれば goes in the ★."
+   "es": "Orden: 勉強 すれば する ほど. La estrella está en la casilla 2, donde va 「すれば」.",
+   "en": "Order: 勉強 すれば する ほど. The star is in slot 2, which takes 「すれば」."
   },
   "etiquetas": [
    "orden"
   ],
   "objetivo": "勉強 すれば する ほど",
-  "dificultad": 3
+  "dificultad": 3,
+  "orden": [
+   1,
+   2,
+   3,
+   0
+  ]
  },
  {
   "id": "n2-bunpou2-0004",
@@ -386,14 +404,20 @@
   "respuesta": 3,
   "logica_distractores": [],
   "explicacion": {
-   "es": "El orden es 助言のおかげで («gracias al consejo»). En el ★ va の.",
-   "en": "The order is 助言のおかげで ('thanks to the advice'). の goes in the ★."
+   "es": "Orden: 助言 の おかげ で. La estrella está en la casilla 2, donde va 「の」.",
+   "en": "Order: 助言 の おかげ で. The star is in slot 2, which takes 「の」."
   },
   "etiquetas": [
    "orden"
   ],
   "objetivo": "助言 の おかげ で",
-  "dificultad": 3
+  "dificultad": 3,
+  "orden": [
+   2,
+   3,
+   0,
+   1
+  ]
  },
  {
   "id": "n2-bunpou2-0005",
@@ -410,13 +434,19 @@
   "respuesta": 1,
   "logica_distractores": [],
   "explicacion": {
-   "es": "El orden es 値段が高いだけあって («como corresponde a lo caro que es»). En el ★ va 高い.",
-   "en": "The order is 値段が高いだけあって ('as befits how pricey it is'). 高い goes in the ★."
+   "es": "Orden: 値段が 高い だけ あって. La estrella está en la casilla 2, donde va 「高い」.",
+   "en": "Order: 値段が 高い だけ あって. The star is in slot 2, which takes 「高い」."
   },
   "etiquetas": [
    "orden"
   ],
   "objetivo": "値段が 高い だけ あって",
-  "dificultad": 3
+  "dificultad": 3,
+  "orden": [
+   3,
+   1,
+   0,
+   2
+  ]
  }
 ]

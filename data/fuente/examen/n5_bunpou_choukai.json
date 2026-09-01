@@ -240,13 +240,19 @@
   "logica_distractores": [],
   "objetivo": "じてんしゃ で 学校 に",
   "explicacion": {
-   "es": "El orden es じてんしゃで学校に («al colegio en bici»). En el ★, la segunda casilla, va で.",
-   "en": "The order is じてんしゃで学校に ('to school by bike'). で goes in the ★, the second slot."
+   "es": "Orden: じてんしゃ で 学校 に. La estrella está en la casilla 2, donde va 「で」.",
+   "en": "Order: じてんしゃ で 学校 に. The star is in slot 2, which takes 「で」."
   },
   "etiquetas": [
    "orden"
   ],
-  "dificultad": 2
+  "dificultad": 2,
+  "orden": [
+   2,
+   3,
+   1,
+   0
+  ]
  },
  {
   "id": "n5-bunpou2-0002",
@@ -264,13 +270,19 @@
   "logica_distractores": [],
   "objetivo": "つくえの 上 に 本が",
   "explicacion": {
-   "es": "El orden es つくえの上に本が («encima de la mesa hay un libro»). En el ★ va 上.",
-   "en": "The order is つくえの上に本が ('on the desk there is a book'). 上 goes in the ★."
+   "es": "Orden: つくえの 上 に 本が. La estrella está en la casilla 2, donde va 「上」.",
+   "en": "Order: つくえの 上 に 本が. The star is in slot 2, which takes 「上」."
   },
   "etiquetas": [
    "orden"
   ],
-  "dificultad": 2
+  "dificultad": 2,
+  "orden": [
+   2,
+   1,
+   0,
+   3
+  ]
  },
  {
   "id": "n5-bunpou2-0003",
@@ -288,13 +300,19 @@
   "logica_distractores": [],
   "objetivo": "ともだちと えいが を 見る",
   "explicacion": {
-   "es": "El orden es ともだちとえいがを見る («ver una peli con un amigo»). En el ★ va えいが.",
-   "en": "The order is ともだちとえいがを見る ('watch a film with a friend'). えいが goes in the ★."
+   "es": "Orden: ともだちと えいが を 見る. La estrella está en la casilla 2, donde va 「えいが」.",
+   "en": "Order: ともだちと えいが を 見る. The star is in slot 2, which takes 「えいが」."
   },
   "etiquetas": [
    "orden"
   ],
-  "dificultad": 2
+  "dificultad": 2,
+  "orden": [
+   3,
+   2,
+   0,
+   1
+  ]
  },
  {
   "id": "n5-bunpou2-0004",
@@ -312,13 +330,19 @@
   "logica_distractores": [],
   "objetivo": "本 を ぜんぶ 読んで",
   "explicacion": {
-   "es": "El orden es 本をぜんぶ読んで («léete el libro entero»). En el ★ va を.",
-   "en": "The order is 本をぜんぶ読んで ('read the whole book'). を goes in the ★."
+   "es": "Orden: 本 を ぜんぶ 読んで. La estrella está en la casilla 2, donde va 「を」.",
+   "en": "Order: 本 を ぜんぶ 読んで. The star is in slot 2, which takes 「を」."
   },
   "etiquetas": [
    "orden"
   ],
-  "dificultad": 2
+  "dificultad": 2,
+  "orden": [
+   2,
+   0,
+   3,
+   1
+  ]
  },
  {
   "id": "n5-sokuji-0001",

@@ -94,6 +94,35 @@ for it in items:
         if _alfabeto.search(limpio):
             fallos.append(f"{it['id']} ({donde}): letras no japonesas → {limpio[:40]}")
 
+# 並べ替え: la respuesta tiene que ser la pieza que cae en la casilla con ★.
+# Antes esto no se podía comprobar —el validador no sabe cuál es la frase que
+# el autor tenía en la cabeza—, así que cada ítem declara su `orden` como
+# índices de `opciones`. Con eso, una respuesta descolocada deja de ser
+# invisible: pasaba en cinco de los veintiún ítems que había.
+for it in items:
+    if it["tipo"] != "bunpou2": continue
+    d = f'{it["_archivo"]}:{it["id"]}'
+    orden = it.get("orden")
+    if not orden:
+        fallos.append(f"{d}: 並べ替え sin `orden`, no se puede comprobar la respuesta")
+        continue
+    if sorted(orden) != list(range(len(it["opciones"]))):
+        fallos.append(f"{d}: `orden` no usa cada opción exactamente una vez")
+        continue
+    huecos = re.findall(r"＿+★?＿+", it["enunciado"])
+    if len(huecos) != len(it["opciones"]):
+        fallos.append(f"{d}: {len(huecos)} casillas para {len(it['opciones'])} opciones")
+        continue
+    estrella = [i for i, h in enumerate(huecos) if "★" in h]
+    if len(estrella) != 1:
+        fallos.append(f"{d}: hay {len(estrella)} casillas con ★, debe haber una")
+        continue
+    esperada = orden[estrella[0]]
+    if it["respuesta"] != esperada:
+        fallos.append(f"{d}: la ★ está en la casilla {estrella[0]+1}, donde va "
+                      f"「{it['opciones'][esperada]}」, pero la respuesta apunta a "
+                      f"「{it['opciones'][it['respuesta']]}」")
+
 grupos = collections.defaultdict(list)
 for it in items:
     if it.get("grupo"): grupos[it["grupo"]].append(it)
