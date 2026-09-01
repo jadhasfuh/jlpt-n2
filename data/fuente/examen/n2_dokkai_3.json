@@ -1,0 +1,227 @@
+[
+ {
+  "id": "n2-tougou-0001",
+  "nivel": "N2",
+  "tipo": "tougou",
+  "grupo": "n2-tougou-g001",
+  "orden_grupo": 0,
+  "instruccion_ja": "次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "A\n大学の授業は録画して、いつでも見られるようにすべきだ。通学に往復二時間かけている学生にとって、その二時間はそのまま学習時間になりうる。理解の速さは人によって違うのだから、止めたり戻したりできることの価値は大きい。教室に集めることを当然としてきた制度のほうが、そろそろ説明を求められている。\n\nB\n録画を否定はしない。ただ、それを授業の代わりと呼ぶのは無理がある。授業の価値の一部は、分からない顔をした人が同じ部屋にいることにある。自分だけがつまずいているのではないと分かるから、手が挙がるのだ。一人で画面を見ていると、つまずきは個人の失敗として処理されてしまう。録画は補助であって、置き換えではない。",
+   "notas": []
+  },
+  "enunciado": "授業の 録画に ついて、AとBが 共通して 認めて いることは 何か。",
+  "opciones": [
+   "録画には学習上の利点があること",
+   "録画は授業の代わりになること",
+   "通学の時間はすべて無駄であること",
+   "教室に集まる必要はないこと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "Bは代わりにはならないと述べている",
+   "Bは通学時間について述べていない",
+   "Bは同じ部屋にいる価値を認めている"
+  ],
+  "explicacion": {
+   "es": "B empieza con «no lo niego»: los dos aceptan que grabar aporta algo; discrepan en si sustituye a la clase.",
+   "en": "B opens with 'I don't deny it': both accept recording has value; they differ on whether it replaces the class."
+  },
+  "etiquetas": [
+   "統合理解"
+  ],
+  "dificultad": 6
+ },
+ {
+  "id": "n2-tougou-0002",
+  "nivel": "N2",
+  "tipo": "tougou",
+  "grupo": "n2-tougou-g001",
+  "orden_grupo": 1,
+  "instruccion_ja": "次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "教室に 集まることに ついて、AとBの 立場は どう ちがうか。",
+  "opciones": [
+   "Aは説明が必要だとし、Bはつまずきを共有する場として価値を認めている",
+   "どちらも不要だとしている",
+   "Aは必要だとし、Bは不要だとしている",
+   "どちらも録画そのものに反対している"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "Bは価値を認めている",
+   "AとBの立場が逆",
+   "どちらも録画を否定していない"
+  ],
+  "explicacion": {
+   "es": "A pide justificar la asistencia presencial; B la defiende porque ver a otros atascados es lo que hace levantar la mano.",
+   "en": "A asks the in-person model to justify itself; B defends it because seeing others stuck is what makes hands go up."
+  },
+  "etiquetas": [
+   "統合理解"
+  ],
+  "dificultad": 6
+ },
+ {
+  "id": "n2-shuchou-0001",
+  "nivel": "N2",
+  "tipo": "shuchou",
+  "grupo": "n2-shuchou-g001",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "助言を求められたとき、私はできるだけ答えを言わないようにしている。冷たいと思われることもあるが、理由がある。\n助言というのは、こちらの経験を相手の状況に当てはめる作業である。ところが、当てはめる先の状況を、こちらは十分に知らない。相手が話してくれるのは、判断に必要な情報のうちのごく一部にすぎない。しかも、その一部を選んだのは相手自身である。つまり、こちらが受け取る材料は、すでに相手の見方で切り取られた後のものだ。何を話さないかという選択にこそ、その人の思い込みが表れる。\nそれでも助言はできてしまう。切り取られた材料でも、それらしい結論は組み立てられるからだ。そのうえ、助言する側には気持ちのよさがある。役に立った気になれるし、頼られたという感覚も残る。危ういのは、この気持ちのよさが、判断の質とはまったく無関係に発生することである。よく効いた助言と、ただ言い切っただけの助言とは、言った側からは区別がつかない。区別がつくのは、たいてい何年もあとになってからだ。\nでは何をするか。私は質問をすることにしている。「その選択をしなかったら、何が起きると思う?」「いちばん避けたいのはどれ?」。答えるのは相手だから、材料の不足はそのまま相手の側で補われる。うまくいけば、話しているうちに相手の中で順番が決まっていく。急がずに黙って待っていると、相手のほうから条件を並べ始めることも多い。\nこれは責任を逃れるための方法ではない。むしろ逆で、答えを渡してしまうほうが楽なのだ。渡された答えは、うまくいかなかったときに渡した人のせいにできる。自分で決めた答えは、そうはいかない。決めるまでの過程を覚えているから、次に似た場面が来たときにそれが使える。長い目で見れば、決める練習を重ねた人のほうが強い。\nもちろん、急いでいるときや、明らかに危険な選択をしようとしているときは別である。そういうときは、はっきり言う。原則は原則であって、規則ではない。",
+   "notas": [
+    {
+     "termino": "助言",
+     "glosa": "アドバイス、考えを言って助けること"
+    }
+   ]
+  },
+  "enunciado": "筆者が 答えを 言わないように しているのは、なぜか。",
+  "opciones": [
+   "相手に嫌われたくないから",
+   "判断に必要な材料が足りないから",
+   "責任を取りたくないから",
+   "助言する時間がないから"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "冷たいと思われることもあると認めている",
+   "責任逃れではないと述べている",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Sólo recibe una parte de la situación, y encima seleccionada por el otro.",
+   "en": "He only gets part of the situation, and a part the other person selected at that."
+  },
+  "etiquetas": [
+   "主張理解"
+  ],
+  "dificultad": 6
+ },
+ {
+  "id": "n2-shuchou-0002",
+  "nivel": "N2",
+  "tipo": "shuchou",
+  "grupo": "n2-shuchou-g001",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "「この 気持ちの よさ」が 危ういのは、なぜか。",
+  "opciones": [
+   "助言の質と関係なく生まれるから",
+   "相手を怒らせることがあるから",
+   "考える時間がかかるから",
+   "経験が足りないと感じるから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "怒りの話は出ていない",
+   "時間の話は出ていない",
+   "経験の不足ではなく情報の不足が問題"
+  ],
+  "explicacion": {
+   "es": "La satisfacción aparece igual si el consejo era bueno o si sólo sonaba rotundo.",
+   "en": "The good feeling arrives whether the advice was sound or merely delivered with conviction."
+  },
+  "etiquetas": [
+   "主張理解"
+  ],
+  "dificultad": 6
+ },
+ {
+  "id": "n2-shuchou-0003",
+  "nivel": "N2",
+  "tipo": "shuchou",
+  "grupo": "n2-shuchou-g001",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者の 考えに 合う ものは どれか。",
+  "opciones": [
+   "助言は絶対にすべきではない",
+   "質問は責任を逃れるための方法である",
+   "決める練習を重ねた人のほうが強い",
+   "危険なときでも黙っているべきだ"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "急ぐときや危険なときははっきり言うと述べている",
+   "むしろ逆だと述べている",
+   "そういうときは別だと述べている"
+  ],
+  "explicacion": {
+   "es": "Es su conclusión: dar la respuesta es lo cómodo; decidir uno mismo es lo que entrena.",
+   "en": "That's his conclusion: handing over the answer is the easy path; deciding for yourself is what trains you."
+  },
+  "etiquetas": [
+   "主張理解"
+  ],
+  "dificultad": 6
+ },
+ {
+  "id": "n2-jouhou-0001",
+  "nivel": "N2",
+  "tipo": "jouhou",
+  "grupo": "n2-jouhou-g001",
+  "orden_grupo": 0,
+  "instruccion_ja": "右のページは、会社の健康診断の案内である。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "【社員健康診断のお知らせ】\n\n■ 日程と会場\n　6月10日（火）〜6月13日（金）　本社3階　会議室\n　6月17日（火）　　　　　　　　　工場棟　医務室\n　いずれも 9:00〜16:00（12:00〜13:00は受付を行いません）\n\n■ 対象\n　全社員（契約社員・パート社員を含む）\n　※ 4月以降に入社した方は、入社時健診を受けているため今回は対象外です。\n\n■ 検査の内容\n　身長・体重・血圧・視力・聴力・血液検査・胸部レントゲン\n　※ 35歳以上の方は、胃の検査も含まれます。\n　※ 妊娠中の方はレントゲン検査を受けられません。事前にお申し出ください。\n\n■ 申し込み\n　5月25日までに、社内システムから希望の日時を登録してください。\n　登録がない場合は、こちらで日時を割り当てます。\n\n■ 当日の注意\n　・検査の10時間前から、水以外は口にしないでください。\n　・薬を飲んでいる方は、事前に医務室へご連絡ください。\n　・眼鏡やコンタクトレンズを使っている方は、当日お持ちください。\n\n■ 受けられなかった場合\n　社外の医療機関で受診し、9月末までに結果を提出してください。\n　費用は会社が負担しますが、事前に総務部の承認が必要です。\n\n※ 工場勤務の方は、6月17日の会場をご利用ください。本社の会場も利用できますが、その場合は上長の許可を得てください。",
+   "notas": [
+    {
+     "termino": "上長",
+     "glosa": "職場で自分より上の立場の人"
+    }
+   ]
+  },
+  "enunciado": "5月に 入社した 山田さんは、どう すれば よいか。",
+  "opciones": [
+   "6月の健康診断を必ず受ける",
+   "今回は受けなくてよい",
+   "社外の医療機関で受ける",
+   "総務部の承認を得てから受ける"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "4月以降の入社は対象外",
+   "受けられなかった場合の手続き",
+   "社外で受ける場合の手続き"
+  ],
+  "explicacion": {
+   "es": "Quien entró en abril o después ya pasó el reconocimiento de ingreso y queda fuera de esta ronda.",
+   "en": "Anyone who joined in April or later already had the entry check-up and is out of this round."
+  },
+  "etiquetas": [
+   "情報検索"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-jouhou-0002",
+  "nivel": "N2",
+  "tipo": "jouhou",
+  "grupo": "n2-jouhou-g001",
+  "orden_grupo": 1,
+  "instruccion_ja": "右のページは、会社の健康診断の案内である。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 案内から 分かることは どれか。",
+  "opciones": [
+   "昼休みにも受付をしている",
+   "工場勤務の人は本社では受けられない",
+   "受けられなかった場合の費用は自分で払う",
+   "申し込みをしなくても日時は決まる"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "12時から13時は受付を行わない",
+   "上長の許可があれば本社でも受けられる",
+   "費用は会社が負担する"
+  ],
+  "explicacion": {
+   "es": "«登録がない場合は、こちらで日時を割り当てます»: si no te apuntas, te asignan hora igualmente.",
+   "en": "«If you don't register, we will assign you a slot» — no sign-up still gets you a time."
+  },
+  "etiquetas": [
+   "情報検索"
+  ],
+  "dificultad": 5
+ }
+]

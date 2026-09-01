@@ -1,0 +1,181 @@
+[
+{
+ "id": "n3-kadai-0004", "nivel": "N3", "tipo": "kadai",
+ "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "女の人は この後 まず 何を しますか。",
+ "opciones": ["案内状を送る", "会場を予約する", "二社に電話する", "レイアウト図を作る"],
+ "respuesta": 2,
+ "logica_distractores": ["参加者が確定してから", "もう取ったと言っている", "電話の後でいいと言われた"],
+ "explicacion": { "es": "Él añade «その前に»: primero llamar a las dos empresas que no han contestado.", "en": "He adds «before that»: first call the two firms that haven't replied." },
+ "puntos": ["会場の予約はもう済んでいる", "案内状は参加者が確定してから", "その前に二社へ電話"],
+ "guion": {
+  "intro": "会社で 男の人と 女の人が 話して います。女の人は この後 まず 何を しますか。",
+  "turnos": [
+   { "quien": "M", "texto": "来週の展示会の件だけど、会場の予約は?" },
+   { "quien": "F", "texto": "もう取りました。あとは案内状を送るだけです。" },
+   { "quien": "M", "texto": "案内状は、参加者が確定してからにして。まだ二社返事が来ていないんだ。" },
+   { "quien": "F", "texto": "そうですか。じゃあ、先に会場のレイアウト図を作っておきます。" },
+   { "quien": "M", "texto": "助かるよ。あ、その前に、二社に電話して確認してくれる?" },
+   { "quien": "F", "texto": "分かりました。" }
+  ],
+  "pregunta": "女の人はこの後まず何をしますか。"
+ },
+ "etiquetas": ["課題理解"], "dificultad": 4
+},
+{
+ "id": "n3-kadai-0005", "nivel": "N3", "tipo": "kadai",
+ "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "学生は 発表の ために 何を 準備しますか。",
+ "opciones": ["十ページの資料と図を一つ", "三ページの資料と図を一つ", "三ページの資料と図をたくさん", "資料を作らず口だけで説明する"],
+ "respuesta": 1,
+ "logica_distractores": ["多すぎると言われた", "図は一つで十分と言われた", "資料はまとめて作る"],
+ "explicacion": { "es": "El profesor pide resumir a tres páginas y dejar una sola figura.", "en": "The teacher asks for three pages and just one figure." },
+ "puntos": ["十ページは多い", "三ページにまとめる", "図は一つで十分"],
+ "guion": {
+  "intro": "大学で 先生と 学生が 話して います。学生は 発表の ために 何を 準備しますか。",
+  "turnos": [
+   { "quien": "M", "texto": "来週の発表、資料は何ページくらい?" },
+   { "quien": "F", "texto": "十ページくらいを考えています。" },
+   { "quien": "M", "texto": "多いな。聞く人は読みきれないよ。三ページにまとめて、あとは口で説明したらどうかな。" },
+   { "quien": "F", "texto": "分かりました。じゃあ、図は入れたほうがいいですか。" },
+   { "quien": "M", "texto": "図は一つで十分。多いと、かえって分かりにくくなる。" }
+  ],
+  "pregunta": "学生は発表のために何を準備しますか。"
+ },
+ "etiquetas": ["課題理解"], "dificultad": 4
+},
+{
+ "id": "n3-kadai-0006", "nivel": "N3", "tipo": "kadai",
+ "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "荷物は 今日 どこに 置きますか。",
+ "opciones": ["倉庫", "会議室", "女の人の机の横", "男の人の机の上"],
+ "respuesta": 2,
+ "logica_distractores": ["床の工事をしている", "三時から会議で使う", "話に出ていない"],
+ "explicacion": { "es": "El almacén está en obras y la sala se usa a las tres: se queda junto a su mesa hasta mañana.", "en": "The storeroom is under repair and the meeting room is in use at three: it stays by her desk until tomorrow." },
+ "puntos": ["倉庫は床の工事中", "会議室は三時から使う", "明日 倉庫へ運ぶ"],
+ "guion": {
+  "intro": "会社で 男の人と 女の人が 話して います。荷物は 今日 どこに 置きますか。",
+  "turnos": [
+   { "quien": "F", "texto": "その箱、どこに運びましょうか。" },
+   { "quien": "M", "texto": "いつもは倉庫だけど、今日は床の工事をしているんだ。" },
+   { "quien": "F", "texto": "じゃあ、会議室は?" },
+   { "quien": "M", "texto": "三時から会議で使うから、それまでに出さないといけない。今は二時半だよ。" },
+   { "quien": "F", "texto": "それなら、私の机の横に置いておきます。" },
+   { "quien": "M", "texto": "そうしてくれる? 明日、倉庫に運ぼう。" }
+  ],
+  "pregunta": "荷物は今日どこに置きますか。"
+ },
+ "etiquetas": ["課題理解"], "dificultad": 4
+},
+{
+ "id": "n3-point-0004", "nivel": "N3", "tipo": "point",
+ "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "女の人は どうして この本を 選びましたか。",
+ "opciones": ["内容が難しいから", "有名な人が書いたから", "例がたくさん載っているから", "厚くて長く読めるから"],
+ "respuesta": 2,
+ "logica_distractores": ["そうではないと言っている", "関係ないと言っている", "厚さは選んだ理由ではない"],
+ "explicacion": { "es": "Descarta dificultad y autor: lo eligió por la cantidad de ejemplos.", "en": "She rules out difficulty and author: she chose it for the number of examples." },
+ "puntos": ["難しさで選んだのではない", "書いた人も関係ない", "例が多いのが良かった"],
+ "guion": {
+  "intro": "男の人と 女の人が 話して います。女の人は どうして この本を 選びましたか。",
+  "turnos": [
+   { "quien": "M", "texto": "その本、厚いね。" },
+   { "quien": "F", "texto": "うん。でも、内容が難しいから選んだんじゃないの。" },
+   { "quien": "M", "texto": "じゃあ、有名な人が書いたから?" },
+   { "quien": "F", "texto": "それも関係ない。例がたくさん載っているのが良くて。ほかの本は説明ばかりで、読んでも頭に入らなかったから。" }
+  ],
+  "pregunta": "女の人はどうしてこの本を選びましたか。"
+ },
+ "etiquetas": ["ポイント理解"], "dificultad": 4
+},
+{
+ "id": "n3-point-0005", "nivel": "N3", "tipo": "point",
+ "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "男の人は 今の 町の どこが いちばん いいと 言って いますか。",
+ "opciones": ["店が多いこと", "駅から近いこと", "家が広いこと", "人があいさつをすること"],
+ "respuesta": 3,
+ "logica_distractores": ["店は少ないと言っている", "駅から遠いと言っている", "話に出ていない"],
+ "explicacion": { "es": "Reconoce que el pueblo es peor en servicios, pero valora que la gente salude.", "en": "He admits the town is worse for amenities, but values that people greet each other." },
+ "puntos": ["今の町は駅から遠い", "店も少ない", "道で会う人があいさつをする"],
+ "guion": {
+  "intro": "男の人が 話して います。男の人は 今の 町の どこが いちばん いいと 言って いますか。",
+  "turnos": [
+   { "quien": "M", "texto": "前に住んでいた町は、店も多くて便利でした。今の町は駅から遠いし、店も少ない。でも、道で会う人がみんなあいさつをしてくれるんです。前の町では、となりに誰が住んでいるかも知りませんでした。" }
+  ],
+  "pregunta": "男の人は今の町のどこがいちばんいいと言っていますか。"
+ },
+ "etiquetas": ["ポイント理解"], "dificultad": 4
+},
+{
+ "id": "n3-point-0006", "nivel": "N3", "tipo": "point",
+ "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "女の人は 新しい やり方の 何が 問題だと 言って いますか。",
+ "opciones": ["通勤時間が長いこと", "小さな相談がしにくいこと", "仕事の時間が減ったこと", "メールが多すぎること"],
+ "respuesta": 1,
+ "logica_distractores": ["通勤時間はなくなった", "時間は増えたと言っている", "メールを書くほどでもない話が問題"],
+ "explicacion": { "es": "Gana tiempo, pero lo que no da para un correo se le va acumulando sin resolver.", "en": "She gains time, but what isn't worth an email piles up unresolved." },
+ "puntos": ["通勤時間はなくなった", "時間は増えた", "メールにするほどでもない相談がたまる"],
+ "guion": {
+  "intro": "会社で 男の人と 女の人が 話して います。女の人は 新しい やり方の 何が 問題だと 言って いますか。",
+  "turnos": [
+   { "quien": "M", "texto": "家で働くの、いいですよね。通勤時間がなくなって。" },
+   { "quien": "F", "texto": "そうですね。時間は増えました。ただ、短い相談ができなくなって。" },
+   { "quien": "M", "texto": "メールがありますよ。" },
+   { "quien": "F", "texto": "メールを書くほどでもないことって、あるじゃないですか。そういうのが全部たまってしまうんです。" }
+  ],
+  "pregunta": "女の人は新しいやり方の何が問題だと言っていますか。"
+ },
+ "etiquetas": ["ポイント理解"], "dificultad": 5
+},
+{
+ "id": "n3-gaiyou-0003", "nivel": "N3", "tipo": "gaiyou",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "女の人は 何に ついて 話して いますか。",
+ "opciones": ["食べ物を無駄にしない工夫", "冷蔵庫の選び方", "料理の作り方", "写真の撮り方"],
+ "respuesta": 0,
+ "logica_distractores": ["冷蔵庫を選ぶ話ではない", "作り方の話は出ていない", "写真は手段にすぎない"],
+ "explicacion": { "es": "Todo va de no comprar dos veces lo mismo ni tirar comida; la foto es sólo el truco.", "en": "It's all about not buying the same thing twice or throwing food away; the photo is just the trick." },
+ "puntos": ["買い物の前に冷蔵庫を撮る", "同じものを二度買わない", "捨てる量が減る"],
+ "guion": {
+  "intro": "ラジオで 女の人が 話して います。",
+  "turnos": [
+   { "quien": "F", "texto": "買い物に行く前に、冷蔵庫の中を写真に撮っておく。たったこれだけで、同じものを二度買うことがなくなります。メモを書くより早いですし、店で迷ったときにも見返せます。食べ物を捨てる量が減れば、お金も時間も助かります。特別な道具はいりません。今日から始められます。" }
+  ],
+  "pregunta": "女の人は何について話していますか。"
+ },
+ "etiquetas": ["概要理解"], "dificultad": 4
+},
+{
+ "id": "n3-hatsuwa-0004", "nivel": "N3", "tipo": "hatsuwa",
+ "instruccion_ja": "問題では、絵を見ながら質問を聞いてください。矢印（→）の人は何と言いますか。1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "先輩が 重い 荷物を 持って います。手伝いたいです。何と 言いますか。",
+ "opciones": ["お持ちしましょうか。", "持ってくださいませんか。", "お持ちになりますか。"],
+ "respuesta": 0,
+ "logica_distractores": ["相手に頼む言い方になる", "相手が持つかどうかを尋ねる尊敬語"],
+ "explicacion": { "es": "Te ofreces tú, así que va en humilde: お持ちしましょうか.", "en": "You're the one offering, so it takes the humble form: お持ちしましょうか." },
+ "guion": { "intro": "", "turnos": [{ "quien": "F", "texto": "先輩が重い荷物を持っています。手伝いたいです。何と言いますか。" }], "pregunta": "", "opciones_habladas": true },
+ "etiquetas": ["発話表現"], "dificultad": 4
+},
+{
+ "id": "n3-sokuji-0008", "nivel": "N3", "tipo": "sokuji",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "この書類、明日までにお願いできますか。",
+ "opciones": ["はい、何とかやってみます。", "はい、お願いします。", "いいえ、明日でした。"],
+ "respuesta": 0,
+ "logica_distractores": ["頼まれた側が頼み返している", "時間の説明になっていない"],
+ "explicacion": { "es": "Te lo piden a ti, así que aceptas: «何とかやってみます».", "en": "They're asking you, so you accept: «I'll see what I can do»." },
+ "guion": { "intro": "", "turnos": [{ "quien": "M", "texto": "この書類、明日までにお願いできますか。" }], "pregunta": "", "opciones_habladas": true },
+ "etiquetas": ["即時応答"], "dificultad": 3
+},
+{
+ "id": "n3-sokuji-0009", "nivel": "N3", "tipo": "sokuji",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "部長は もう お帰りに なりましたか。",
+ "opciones": ["ええ、もうすぐ来られます。", "ええ、さっき出られました。", "ええ、お帰りください。"],
+ "respuesta": 1,
+ "logica_distractores": ["帰ったかどうかの答えになっていない", "相手に帰れと言うことになる"],
+ "explicacion": { "es": "Preguntan si ya se ha marchado: «さっき出られました», hace un momento.", "en": "They ask whether he's left: «さっき出られました» — just now." },
+ "guion": { "intro": "", "turnos": [{ "quien": "F", "texto": "部長はもうお帰りになりましたか。" }], "pregunta": "", "opciones_habladas": true },
+ "etiquetas": ["即時応答"], "dificultad": 4
+}
+]

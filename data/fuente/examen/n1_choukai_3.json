@@ -1,0 +1,219 @@
+[
+{
+ "id": "n1-gaiyou-0002", "nivel": "N1", "tipo": "gaiyou",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "男の人は 何に ついて 話して いますか。",
+ "opciones": ["設計で最も時間をかけている点", "廊下の幅の決め方", "建築という仕事の歴史", "窓が果たす役割"],
+ "respuesta": 0,
+ "logica_distractores": ["幅は結果として決まると述べただけ", "歴史には触れていない", "窓は例として出ただけ"],
+ "explicacion": { "es": "Explica que lo que realmente diseña no es el movimiento sino los puntos donde la gente se detiene.", "en": "He explains that what he really designs isn't movement but the points where people stop." },
+ "puntos": ["立ち止まる場所を決めるのに時間をかける", "廊下や窓はそこから決まる", "設計しているのは止まる場所"],
+ "guion": {
+  "intro": "建築家が 話して います。",
+  "turnos": [{ "quien": "M", "texto": "私たちが設計するとき、いちばん時間をかけるのは、人が立ち止まる場所を決めることです。廊下の幅や窓の位置は、そこから決まっていきます。動線という言葉は移動を思わせますが、実際に設計しているのは、止まる場所のほうなんです。" }],
+  "pregunta": "男の人は何について話していますか。"
+ },
+ "etiquetas": ["概要理解"], "dificultad": 8
+},
+{
+ "id": "n1-gaiyou-0003", "nivel": "N1", "tipo": "gaiyou",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "女の人は 何に ついて 話して いますか。",
+ "opciones": ["文章の書き出しの重要性", "原稿を読むときに注目する点", "章の数の決め方", "編集者の一日の仕事"],
+ "respuesta": 1,
+ "logica_distractores": ["最初の一行より切り方を見ると述べている", "数ではなく位置の話", "仕事全体の話はしていない"],
+ "explicacion": { "es": "Lo que mira no es el arranque sino dónde el autor corta: ahí se ve lo que quiere decir.", "en": "What she looks at isn't the opening but where the writer cuts: that's where the intent shows." },
+ "puntos": ["最初の一行より切り方を見る", "段落と章の区切り位置", "区切った位置に意図が表れる"],
+ "guion": {
+  "intro": "編集者が 話して います。",
+  "turnos": [{ "quien": "F", "texto": "原稿を読むとき、私は最初の一行より、切り方を見ます。どこで段落を切り、どこで章を終えるか。書き手が何を言いたいかは、書いた内容よりも、どこで区切ったかに表れるからです。" }],
+  "pregunta": "女の人は何について話していますか。"
+ },
+ "etiquetas": ["概要理解"], "dificultad": 8
+},
+{
+ "id": "n1-gaiyou-0004", "nivel": "N1", "tipo": "gaiyou",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "男の人は 何に ついて 話して いますか。",
+ "opciones": ["病気の治し方", "分かりやすい話し方の技術", "患者の数の変化", "説明の目的についての考えの変化"],
+ "respuesta": 3,
+ "logica_distractores": ["治療そのものの話はしていない", "分かりやすさを最優先しなくなったと述べている", "人数の話は出ていない"],
+ "explicacion": { "es": "Antes priorizaba la claridad; ahora, marcar lo que no se sabe, para que el paciente vuelva a llamar.", "en": "He used to prioritise clarity; now, flagging what isn't known, so the patient calls back." },
+ "puntos": ["以前は分かりやすさが最優先", "今は分からない部分を伝える", "目的は納得ではなく次の連絡"],
+ "guion": {
+  "intro": "医師が 話して います。",
+  "turnos": [{ "quien": "M", "texto": "患者さんに説明するとき、以前は分かりやすさを最優先していました。今は、分からない部分を分からないと伝えることを優先しています。全部分かった気になって帰られると、途中で不安になったときに相談してもらえない。説明の目的は納得ではなく、次に連絡してもらうことなんです。" }],
+  "pregunta": "男の人は何について話していますか。"
+ },
+ "etiquetas": ["概要理解"], "dificultad": 9
+},
+{
+ "id": "n1-gaiyou-0005", "nivel": "N1", "tipo": "gaiyou",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "女の人は 何に ついて 話して いますか。",
+ "opciones": ["避難のときの持ち物", "天気を予測する技術", "空振りをどう考えるべきか", "過去の被害の大きさ"],
+ "respuesta": 2,
+ "logica_distractores": ["持ち物の話はしていない", "技術の説明はしていない", "被害は比較のために触れただけ"],
+ "explicacion": { "es": "Su tesis: evitar la falsa alarma obliga a avisar tarde, así que hay que explicar que fallar así no es fallar.", "en": "Her thesis: avoiding false alarms forces late warnings, so it must be explained that such a miss isn't a failure." },
+ "puntos": ["空振りへの批判は強い", "空振りを減らすと必ず出し遅れる", "空振りは失敗ではないと説明すべき"],
+ "guion": {
+  "intro": "防災の 担当者が 話して います。",
+  "turnos": [{ "quien": "F", "texto": "避難の呼びかけで難しいのは、空振りを恐れることです。出さなかった場合の被害は誰の目にも見えますが、出したのに何も起きなかった場合の批判も強い。しかし、空振りを減らそうとすると、必ず出し遅れます。私たちが説明すべきなのは、空振りは失敗ではないということのほうです。" }],
+  "pregunta": "女の人は何について話していますか。"
+ },
+ "etiquetas": ["概要理解"], "dificultad": 9
+},
+{
+ "id": "n1-sokuji-0004", "nivel": "N1", "tipo": "sokuji",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "先方へのご連絡、私のほうでやっておきましょうか。",
+ "opciones": ["助かります、お願いします。", "ええ、私が伺いました。", "いえ、こちらこそ失礼しました。"],
+ "respuesta": 0,
+ "logica_distractores": ["これからの申し出に過去形で答えている", "謝罪の返事になっている"],
+ "explicacion": { "es": "Te ofrecen encargarse: se acepta y se agradece.", "en": "They offer to handle it: you accept and thank them." },
+ "guion": { "intro": "", "turnos": [{ "quien": "F", "texto": "先方へのご連絡、私のほうでやっておきましょうか。" }], "pregunta": "", "opciones_habladas": true },
+ "etiquetas": ["即時応答"], "dificultad": 7
+},
+{
+ "id": "n1-sokuji-0005", "nivel": "N1", "tipo": "sokuji",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "この件、来週までお待ちいただくわけにはいきませんか。",
+ "opciones": ["はい、来週いただきました。", "事情は分かりました。何とかします。", "いいえ、お待ちしております。"],
+ "respuesta": 1,
+ "logica_distractores": ["受け取った話になっている", "待つのは相手ではなくこちら"],
+ "explicacion": { "es": "Piden aplazamiento: se responde aceptando la circunstancia.", "en": "They're asking for a delay: you answer by accepting the circumstance." },
+ "guion": { "intro": "", "turnos": [{ "quien": "M", "texto": "この件、来週までお待ちいただくわけにはいきませんか。" }], "pregunta": "", "opciones_habladas": true },
+ "etiquetas": ["即時応答"], "dificultad": 8
+},
+{
+ "id": "n1-sokuji-0006", "nivel": "N1", "tipo": "sokuji",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "部長がお呼びですが、今よろしいでしょうか。",
+ "opciones": ["はい、お呼びになります。", "いいえ、呼んでおきます。", "はい、すぐ伺います。"],
+ "respuesta": 2,
+ "logica_distractores": ["呼ぶのは部長で、答える側ではない", "呼ぶ立場が逆になっている"],
+ "explicacion": { "es": "Te llaman: se responde con el humilde 伺う, «voy enseguida».", "en": "You're being summoned: you answer with the humble 伺う, 'I'll come right away'." },
+ "guion": { "intro": "", "turnos": [{ "quien": "F", "texto": "部長がお呼びですが、今よろしいでしょうか。" }], "pregunta": "", "opciones_habladas": true },
+ "etiquetas": ["即時応答"], "dificultad": 7
+},
+{
+ "id": "n1-sokuji-0007", "nivel": "N1", "tipo": "sokuji",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "先日いただいた資料、大変参考になりました。",
+ "opciones": ["参考にさせていただきます。", "お役に立てて何よりです。", "まだ拝見しておりません。"],
+ "respuesta": 1,
+ "logica_distractores": ["これから読む側の言い方", "渡した側の返事になっていない"],
+ "explicacion": { "es": "Te dan las gracias por lo que enviaste: se responde alegrándose de que sirviera.", "en": "They thank you for what you sent: you answer glad it was of use." },
+ "guion": { "intro": "", "turnos": [{ "quien": "M", "texto": "先日いただいた資料、大変参考になりました。" }], "pregunta": "", "opciones_habladas": true },
+ "etiquetas": ["即時応答"], "dificultad": 7
+},
+{
+ "id": "n1-sokuji-0008", "nivel": "N1", "tipo": "sokuji",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "この案、通ると思いますか。",
+ "opciones": ["ええ、通していただきました。", "正直、五分五分でしょうね。", "いえ、まだ提出しておりません。"],
+ "respuesta": 1,
+ "logica_distractores": ["すでに決まった話になっている", "見通しを答えていない"],
+ "explicacion": { "es": "Preguntan una previsión, así que se responde con una estimación.", "en": "They ask for a forecast, so you answer with an estimate." },
+ "guion": { "intro": "", "turnos": [{ "quien": "F", "texto": "この案、通ると思いますか。" }], "pregunta": "", "opciones_habladas": true },
+ "etiquetas": ["即時応答"], "dificultad": 8
+},
+{
+ "id": "n1-sokuji-0009", "nivel": "N1", "tipo": "sokuji",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "お忙しいところ恐れ入りますが、少々お時間よろしいでしょうか。",
+ "opciones": ["ええ、恐れ入りました。", "ええ、五分ほどなら。", "いいえ、お忙しいですよ。"],
+ "respuesta": 1,
+ "logica_distractores": ["相手の前置きをそのまま返している", "忙しいのは答える側で、相手ではない"],
+ "explicacion": { "es": "Piden un momento: se concede acotándolo.", "en": "They ask for a moment: you grant it with a limit." },
+ "guion": { "intro": "", "turnos": [{ "quien": "M", "texto": "お忙しいところ恐れ入りますが、少々お時間よろしいでしょうか。" }], "pregunta": "", "opciones_habladas": true },
+ "etiquetas": ["即時応答"], "dificultad": 7
+},
+{
+ "id": "n1-sokuji-0010", "nivel": "N1", "tipo": "sokuji",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "上司に確認が取れ次第、こちらからご連絡いたします。",
+ "opciones": ["こちらこそ確認いたしました。", "もうご連絡は来ましたか。", "では、お待ちしております。"],
+ "respuesta": 2,
+ "logica_distractores": ["確認するのは相手の側", "これから連絡すると言われている"],
+ "explicacion": { "es": "Van a llamarte cuando lo confirmen: se responde quedando a la espera.", "en": "They'll call once confirmed: you answer that you'll wait." },
+ "guion": { "intro": "", "turnos": [{ "quien": "F", "texto": "上司に確認が取れ次第、こちらからご連絡いたします。" }], "pregunta": "", "opciones_habladas": true },
+ "etiquetas": ["即時応答"], "dificultad": 7
+},
+{
+ "id": "n1-sokuji-0011", "nivel": "N1", "tipo": "sokuji",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "その件でしたら、私では分かりかねます。",
+ "opciones": ["そうですか、では分かりました。", "分かりかねて申し訳ありません。", "では、どなたに伺えばよろしいでしょうか。"],
+ "respuesta": 2,
+ "logica_distractores": ["用件が解決していないまま終わる", "謝るのは分からないと言った側"],
+ "explicacion": { "es": "No lo sabe: lo natural es preguntar a quién dirigirse.", "en": "They don't know: the natural move is to ask who does." },
+ "guion": { "intro": "", "turnos": [{ "quien": "M", "texto": "その件でしたら、私では分かりかねます。" }], "pregunta": "", "opciones_habladas": true },
+ "etiquetas": ["即時応答"], "dificultad": 8
+},
+{
+ "id": "n1-tougou_choukai-0001", "nivel": "N1", "tipo": "tougou_choukai",
+ "instruccion_ja": "問題では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "二人は どの 対策を 選びましたか。",
+ "opciones": ["人を増やす", "工程を減らす", "納期を延ばす", "まだ決まっていない"],
+ "respuesta": 2,
+ "logica_distractores": ["来期まで採用ができない", "品質に手をつけるのは避けたいと言っている", "頭を下げに行くと決めている"],
+ "explicacion": { "es": "Calidad está vetada por el antecedente y contratar no llega a tiempo: queda pedir prórroga al cliente.", "en": "Quality is off-limits after last time and hiring can't arrive in time: asking the client for more time is what's left." },
+ "puntos": ["採用は来期まで不可", "品質検査を省くのは避けたい", "納期延長には取引先の了解が要る"],
+ "guion": {
+  "intro": "会社で 女の人が 三つの 対策を 説明して います。そのあと 男の人と 話して います。",
+  "turnos": [
+   { "quien": "F", "texto": "対策は三つ考えられます。一つ目は人を増やす案。効果は確実ですが、来期まで採用ができません。二つ目は工程を減らす案。今すぐ着手できますが、品質検査の一部を省くことになります。三つ目は納期を延ばす案。無理は生じませんが、取引先の了解が要ります。" },
+   { "quien": "M", "texto": "品質に手をつけるのは避けたい。前回それで信用を失いました。" },
+   { "quien": "F", "texto": "では、人を増やすか、納期を延ばすかですね。" },
+   { "quien": "M", "texto": "来期まで待てる状況ではありません。頭を下げに行きましょう。" }
+  ],
+  "pregunta": "二人はどの対策を選びましたか。"
+ },
+ "etiquetas": ["統合理解"], "dificultad": 8
+},
+{
+ "id": "n1-tougou_choukai-0002", "nivel": "N1", "tipo": "tougou_choukai",
+ "instruccion_ja": "問題では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "二人は どちらに 決めましたか。",
+ "opciones": ["駅から近い部屋", "歩いて十五分の部屋", "両方を見に行く", "まだ決めていない"],
+ "respuesta": 0,
+ "logica_distractores": ["階段しかないので荷物が大変", "見学の話は出ていない", "決めると述べている"],
+ "explicacion": { "es": "Los dos mil yenes pesaban hasta que aparecen las escaleras: eso es diario, y decide.", "en": "The two thousand yen mattered until the stairs came up: that's a daily cost, and it decides it." },
+ "puntos": ["近い部屋は二万円高い", "女の人は毎日通勤する", "遠いほうは階段しかない"],
+ "guion": {
+  "intro": "男の人と 女の人が 引っ越し先に ついて 話して います。",
+  "turnos": [
+   { "quien": "M", "texto": "駅から近い部屋は家賃が高いね。歩いて十五分のところなら二万円安い。" },
+   { "quien": "F", "texto": "私は毎日通勤だから、近いほうが助かる。" },
+   { "quien": "M", "texto": "僕は家で働く日が週三日だし、二万円は大きいよ。" },
+   { "quien": "F", "texto": "でも、遠いほうは階段しかないって書いてあった。荷物を運ぶのが大変。" },
+   { "quien": "M", "texto": "そうか。それは毎日のことだね。じゃあ、高くても近いほうにしよう。" }
+  ],
+  "pregunta": "二人はどちらに決めましたか。"
+ },
+ "etiquetas": ["統合理解"], "dificultad": 8
+},
+{
+ "id": "n1-tougou_choukai-0003", "nivel": "N1", "tipo": "tougou_choukai",
+ "instruccion_ja": "問題では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "二人が 最後に 意見の 一致を 見たのは どの点ですか。",
+ "opciones": ["結論が当たり前だったこと", "言い切らなかった態度を評価すること", "調査を十年続けたこと", "データが不十分だったこと"],
+ "respuesta": 1,
+ "logica_distractores": ["女の人は結論より途中を評価している", "続けたことは前段で触れた別の点", "不十分だとは述べていない"],
+ "explicacion": { "es": "Él acepta justo lo último que ella dice: no afirmar de más, sabiendo el límite, es lo que da confianza.", "en": "He agrees with her final point: not overclaiming, knowing the limit, is what earns trust." },
+ "puntos": ["男の人は結論が当たり前だと感じた", "女の人は途中のデータを評価", "限界を知りつつ言い切らない態度に同感"],
+ "guion": {
+  "intro": "講演を 聞いた あと、男の人と 女の人が 話して います。",
+  "turnos": [
+   { "quien": "M", "texto": "面白かったけど、結論は当たり前だったね。" },
+   { "quien": "F", "texto": "私は逆で、結論より途中のデータが良かった。あの調査、十年続けているんでしょう。" },
+   { "quien": "M", "texto": "続けたこと自体はすごい。ただ、そこから言えることは限られる。" },
+   { "quien": "F", "texto": "限られると分かったうえで言い切らなかったのが、私は信用できると思った。" },
+   { "quien": "M", "texto": "なるほど。そこは同感かな。" }
+  ],
+  "pregunta": "二人が最後に意見の一致を見たのはどの点ですか。"
+ },
+ "etiquetas": ["統合理解"], "dificultad": 9
+}
+]

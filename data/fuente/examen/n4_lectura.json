@@ -1,0 +1,306 @@
+[
+{
+ "id": "n4-bunmyaku-0007",
+ "nivel": "N4",
+ "tipo": "bunmyaku",
+ "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+ "enunciado": "電車が止まったので、約束の時間に（　）しまった。",
+ "opciones": ["急いで", "遅れて", "間に合って", "疲れて"],
+ "respuesta": 1,
+ "logica_distractores": ["電車が止まっても急ぐことにはならない", "間に合ったなら「しまった」と言わない", "時間の話ではない"],
+ "explicacion": {
+  "es": "Si el tren se para, llegas tarde: 遅れる. «〜てしまった» marca que salió mal.",
+  "en": "If the train stops you arrive late: 遅れる. «〜てしまった» marks that it went wrong."
+ },
+ "etiquetas": [],
+ "dificultad": 2
+},
+{
+ "id": "n4-bunmyaku-0008",
+ "nivel": "N4",
+ "tipo": "bunmyaku",
+ "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+ "enunciado": "友だちとの約束を（　）しまって、あとであやまった。",
+ "opciones": ["覚えて", "決めて", "忘れて", "守って"],
+ "respuesta": 2,
+ "logica_distractores": ["覚えていたならあやまらない", "約束を決めるのは前の段階", "守ったならあやまらない"],
+ "explicacion": {
+  "es": "Se disculpa después, así que lo que hizo fue olvidarla.",
+  "en": "He apologises afterwards, so what he did was forget it."
+ },
+ "etiquetas": [],
+ "dificultad": 2
+},
+{
+ "id": "n4-youhou-0004",
+ "nivel": "N4",
+ "tipo": "youhou",
+ "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+ "enunciado": "育てる",
+ "opciones": ["この料理は時間をかけて育てる。", "祖母は庭で野菜を育てている。", "暗くなったので電気を育てた。", "毎朝、庭に水を育てる。"],
+ "respuesta": 1,
+ "logica_distractores": ["料理は作るもので育てない", "電気はつけるもの", "水はやるもの"],
+ "explicacion": {
+  "es": "育てる es criar o cultivar algo vivo: verduras, animales, personas.",
+  "en": "育てる is to raise or grow something alive: vegetables, animals, people."
+ },
+ "etiquetas": [],
+ "dificultad": 3
+},
+{
+ "id": "n4-bunpou1-0013",
+ "nivel": "N4",
+ "tipo": "bunpou1",
+ "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+ "enunciado": "毎日練習して、日本語が話せる（　）なりました。",
+ "opciones": ["ことに", "ように", "そうに", "みたいに"],
+ "respuesta": 1,
+ "logica_distractores": ["ことになるは決定を表す", "そうには様子の推量", "みたいには例え"],
+ "explicacion": {
+  "es": "«〜ようになる» expresa un cambio de capacidad: antes no podía, ahora sí.",
+  "en": "«〜ようになる» expresses a change in ability: couldn't before, can now."
+ },
+ "etiquetas": [],
+ "dificultad": 2
+},
+{
+ "id": "n4-bunshou_bunpou-0001",
+ "nivel": "N4",
+ "tipo": "bunshou_bunpou",
+ "grupo": "n4-bb-g001",
+ "orden_grupo": 0,
+ "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+ "pasaje": {
+  "texto": "日本に来て、半年がたちました。最初は買い物に行くのも大変でした。店の人が何を言っているか（　1　）、いつも「はい、はい」と答えていました。\n三か月ぐらいたったころ、近所のパン屋でアルバイトを始めました。仕事を覚えるのは大変でしたが、毎日同じことばを聞いているうちに、（　2　）ようになりました。\n今は、お客さんと少し話すこともできます。日本語の教室に通うのも大切ですが、わたしにとっては、（　3　）ほうが役に立ちました。\n来月、国から母が来ます。母に、わたしが働いている店を（　4　）と思っています。",
+  "notas": [{ "termino": "アルバイト", "glosa": "学生などがする仕事" }]
+ },
+ "enunciado": "（　1　）",
+ "opciones": ["わからないで", "わかっても", "わからなくて", "わかるので"],
+ "respuesta": 2,
+ "logica_distractores": ["方法を表す言い方で、理由にならない", "逆接になり、後ろとつながらない", "本文と反対の意味"],
+ "explicacion": {
+  "es": "No entendía, y por eso contestaba «はい». La causa se marca con «〜なくて».",
+  "en": "He didn't understand, and that's why he answered «はい». The cause takes «〜なくて»."
+ },
+ "etiquetas": ["文章の文法"],
+ "dificultad": 3
+},
+{
+ "id": "n4-bunshou_bunpou-0002",
+ "nivel": "N4",
+ "tipo": "bunshou_bunpou",
+ "grupo": "n4-bb-g001",
+ "orden_grupo": 1,
+ "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+ "enunciado": "（　2　）",
+ "opciones": ["意味がわからない", "意味がわかる", "意味をわかった", "意味をわかりたい"],
+ "respuesta": 1,
+ "logica_distractores": ["本文と反対の意味", "「ようになる」には辞書形が続く", "希望を表す形は続かない"],
+ "explicacion": {
+  "es": "«〜ようになる» pide forma de diccionario y marca el cambio: pasó a entender.",
+  "en": "«〜ようになる» takes the dictionary form and marks the change: he came to understand."
+ },
+ "etiquetas": ["文章の文法"],
+ "dificultad": 3
+},
+{
+ "id": "n4-bunshou_bunpou-0003",
+ "nivel": "N4",
+ "tipo": "bunshou_bunpou",
+ "grupo": "n4-bb-g001",
+ "orden_grupo": 2,
+ "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+ "enunciado": "（　3　）",
+ "opciones": ["実際に働く", "教室で習う", "本を読む", "国へ帰る"],
+ "respuesta": 0,
+ "logica_distractores": ["前半で「教室も大切だが」と譲っている", "本文にない", "本文にない"],
+ "explicacion": {
+  "es": "«El aula también importa, pero…»: lo que le sirvió más fue trabajar de verdad.",
+  "en": "«Class matters too, but…» — what helped more was actually working."
+ },
+ "etiquetas": ["文章の文法"],
+ "dificultad": 3
+},
+{
+ "id": "n4-bunshou_bunpou-0004",
+ "nivel": "N4",
+ "tipo": "bunshou_bunpou",
+ "grupo": "n4-bb-g001",
+ "orden_grupo": 3,
+ "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+ "enunciado": "（　4　）",
+ "opciones": ["見よう", "見せられる", "見せた", "見せよう"],
+ "respuesta": 3,
+ "logica_distractores": ["母が見るのではなく、自分が見せる", "受け身になってしまう", "来月のことなので過去形は合わない"],
+ "explicacion": {
+  "es": "Él enseña la tienda a su madre, y es un plan: «見せようと思っています».",
+  "en": "He shows the shop to his mother, and it's a plan: «見せようと思っています»."
+ },
+ "etiquetas": ["文章の文法"],
+ "dificultad": 3
+},
+{
+ "id": "n4-tanbun-0001",
+ "nivel": "N4",
+ "tipo": "tanbun",
+ "grupo": "n4-tanbun-g001",
+ "orden_grupo": 0,
+ "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+ "pasaje": {
+  "texto": "先週、駅の前で財布を落としてしまった。すぐに交番へ行って届けを出したところ、二日後に連絡があった。中のお金は一円も減っていなかった。届けてくれた人にお礼が言いたかったが、名前を残していかなかったそうだ。",
+  "notas": [{ "termino": "交番", "glosa": "町にある小さい警察の建物" }]
+ },
+ "enunciado": "この人が残念に思っていることは何か。",
+ "opciones": ["お金が減っていたこと", "財布が見つからなかったこと", "お礼が言えなかったこと", "交番が遠かったこと"],
+ "respuesta": 2,
+ "logica_distractores": ["一円も減っていなかった", "二日後に連絡があった", "本文にない"],
+ "explicacion": {
+  "es": "Quería dar las gracias, pero quien lo entregó no dejó su nombre.",
+  "en": "He wanted to thank the finder, but they left no name."
+ },
+ "etiquetas": ["短文"],
+ "dificultad": 3
+},
+{
+ "id": "n4-tanbun-0002",
+ "nivel": "N4",
+ "tipo": "tanbun",
+ "grupo": "n4-tanbun-g002",
+ "orden_grupo": 0,
+ "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+ "pasaje": {
+  "texto": "わたしの父は、若いころから毎朝五時に起きて散歩をしている。雨の日も風の日も休まない。理由を聞いたら、「続けることが目的だから、天気は関係ない」と言った。何かを長く続けている人は、みんなこういう考え方をするのかもしれない。",
+  "notas": []
+ },
+ "enunciado": "父が散歩を休まないのは、なぜか。",
+ "opciones": ["天気がいいから", "続けること自体が目的だから", "医者に言われたから", "朝が好きだから"],
+ "respuesta": 1,
+ "logica_distractores": ["雨の日も風の日も休まない", "本文にない", "本文にない"],
+ "explicacion": {
+  "es": "Lo dice él mismo: el fin es continuar, así que el tiempo da igual.",
+  "en": "He says it himself: the goal is to keep going, so the weather is irrelevant."
+ },
+ "etiquetas": ["短文"],
+ "dificultad": 3
+},
+{
+ "id": "n4-tanbun-0003",
+ "nivel": "N4",
+ "tipo": "tanbun",
+ "grupo": "n4-tanbun-g003",
+ "orden_grupo": 0,
+ "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+ "pasaje": {
+  "texto": "引っ越しをして、駅から歩いて二十分の家に住むことになった。前は駅のすぐ近くだったので、最初は不便だと思った。しかし、毎日歩いているうちに体の調子がよくなり、今では二十分がちょうどいいと感じている。",
+  "notas": []
+ },
+ "enunciado": "この人は今、家について どう思っているか。",
+ "opciones": ["駅から近いほうがよかった", "二十分歩くのがちょうどいい", "引っ越しをしなければよかった", "体の調子が悪くなった"],
+ "respuesta": 1,
+ "logica_distractores": ["最初にそう思ったが、今は違う", "本文にない", "調子はよくなった"],
+ "explicacion": {
+  "es": "Al principio le pareció incómodo; ahora los veinte minutos le vienen bien.",
+  "en": "At first it seemed inconvenient; now the twenty minutes suit him."
+ },
+ "etiquetas": ["短文"],
+ "dificultad": 2
+},
+{
+ "id": "n4-chuubun-0001",
+ "nivel": "N4",
+ "tipo": "chuubun",
+ "grupo": "n4-chuubun-g001",
+ "orden_grupo": 0,
+ "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+ "pasaje": {
+  "texto": "わたしの働いている会社では、去年から水曜日に会議をしないことになった。会議が多すぎて、自分の仕事をする時間がないという声が出たからだ。\n最初は、水曜日以外の日に会議が集まってしまい、かえって忙しくなった。しかし半年ほどたつと、みんなが「この会議は本当に必要か」と考えるようになり、会議そのものが減っていった。\n今では、水曜日は静かに仕事ができる日として、多くの人が楽しみにしている。ある人は「会議をやめたのではなく、会議の意味を考えるようになったのだ」と言っていた。わたしもそう思う。",
+  "notas": []
+ },
+ "enunciado": "水曜日に会議をしないことにしたのは、なぜか。",
+ "opciones": ["自分の仕事をする時間がなかったから", "水曜日は休む人が多いから", "会議室が使えなかったから", "社長がそう決めたから"],
+ "respuesta": 0,
+ "logica_distractores": ["本文にない", "本文にない", "だれが決めたかは書かれていない"],
+ "explicacion": {
+  "es": "El primer párrafo lo dice: había tantas reuniones que no quedaba tiempo para el propio trabajo.",
+  "en": "The first paragraph says it: so many meetings that there was no time for one's own work."
+ },
+ "etiquetas": ["中文"],
+ "dificultad": 3
+},
+{
+ "id": "n4-chuubun-0002",
+ "nivel": "N4",
+ "tipo": "chuubun",
+ "grupo": "n4-chuubun-g001",
+ "orden_grupo": 1,
+ "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+ "enunciado": "始めたばかりのころは、どうなったか。",
+ "opciones": ["会議がすぐに減った", "ほかの曜日に会議が集まった", "だれも会議に来なくなった", "仕事が早く終わった"],
+ "respuesta": 1,
+ "logica_distractores": ["減ったのは半年ほどたってから", "本文にない", "かえって忙しくなった"],
+ "explicacion": {
+  "es": "«最初は…かえって忙しくなった»: las reuniones se amontonaron en los otros días.",
+  "en": "«At first… it actually got busier» — the meetings piled up on the other days."
+ },
+ "etiquetas": ["中文"],
+ "dificultad": 3
+},
+{
+ "id": "n4-chuubun-0003",
+ "nivel": "N4",
+ "tipo": "chuubun",
+ "grupo": "n4-chuubun-g001",
+ "orden_grupo": 2,
+ "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+ "enunciado": "筆者の考えに合うものは どれか。",
+ "opciones": ["会議は全部やめたほうがいい", "会議の必要性を考えるようになったことが大事だ", "水曜日は休みにするべきだ", "会議は多いほうがいい"],
+ "respuesta": 1,
+ "logica_distractores": ["会議をやめたのではないと書いてある", "休みではなく静かに仕事をする日", "多すぎることが問題だった"],
+ "explicacion": {
+  "es": "Cierra con la frase de un compañero y dice que piensa igual: lo valioso fue empezar a preguntarse si la reunión hace falta.",
+  "en": "He ends by quoting a colleague and agreeing: what mattered was starting to ask whether a meeting is needed."
+ },
+ "etiquetas": ["中文"],
+ "dificultad": 4
+},
+{
+ "id": "n4-jouhou-0001",
+ "nivel": "N4",
+ "tipo": "jouhou",
+ "grupo": "n4-jouhou-g001",
+ "orden_grupo": 0,
+ "instruccion_ja": "右のページは、スポーツセンターの案内である。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+ "pasaje": {
+  "texto": "【みどりスポーツセンター　春の教室のご案内】\n■ 水泳（初級）\n　日時：毎週月曜　19:00〜20:00　全10回\n　対象：16歳以上　定員：20名（先着順）\n　費用：5,000円\n\n■ ヨガ\n　日時：毎週水曜　10:00〜11:00　全8回\n　対象：どなたでも　定員：15名（申込が多い場合は抽選）\n　費用：4,000円（マットの貸出は無料）\n\n■ 親子体操\n　日時：毎週土曜　9:30〜10:30　全6回\n　対象：4歳〜6歳のお子さんと保護者\n　費用：無料　定員：10組（先着順）\n\n※ 申込は4月10日までに、窓口またはホームページでお願いします。\n※ 費用は初回にお支払いください。お支払い後の返金はできません。\n※ 水曜の教室のみ、駐車場が使えません。",
+  "notas": [{ "termino": "抽選", "glosa": "くじで決めること" }, { "termino": "保護者", "glosa": "親など、子どもの世話をする人" }]
+ },
+ "enunciado": "15歳のリンさんが一人で申し込める教室は どれか。",
+ "opciones": ["水泳（初級）", "ヨガ", "親子体操", "申し込める教室はない"],
+ "respuesta": 1,
+ "logica_distractores": ["16歳以上が対象", "4歳から6歳の子どもと保護者が対象", "ヨガはどなたでも参加できる"],
+ "explicacion": {
+  "es": "Natación pide 16 años o más y gimnasia es para niños con adulto. Yoga es «para cualquiera».",
+  "en": "Swimming needs 16 or over and the gym class is for small children with an adult. Yoga is open to anyone."
+ },
+ "etiquetas": ["情報検索"],
+ "dificultad": 3
+},
+{
+ "id": "n4-jouhou-0002",
+ "nivel": "N4",
+ "tipo": "jouhou",
+ "grupo": "n4-jouhou-g001",
+ "orden_grupo": 1,
+ "instruccion_ja": "右のページは、スポーツセンターの案内である。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+ "enunciado": "この案内から分かることは どれか。",
+ "opciones": ["ヨガは申し込めば必ず参加できる", "水曜日は車で行くことができない", "費用は教室が終わってから払う", "申込は窓口でしかできない"],
+ "respuesta": 1,
+ "logica_distractores": ["申込が多い場合は抽選", "初回に支払う", "ホームページでも申し込める"],
+ "explicacion": {
+  "es": "La última nota lo dice: sólo los miércoles no se puede usar el aparcamiento.",
+  "en": "The last note says it: on Wednesdays only, the car park is unavailable."
+ },
+ "etiquetas": ["情報検索"],
+ "dificultad": 3
+}
+]

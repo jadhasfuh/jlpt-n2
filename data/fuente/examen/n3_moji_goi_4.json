@@ -1,0 +1,285 @@
+[
+ {
+  "id": "n3-kanji_yomi-0007",
+  "nivel": "N3",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この道路は工事中で通れない。",
+  "opciones": [
+   "どうろ",
+   "とうろ",
+   "どうろう",
+   "どろ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "道は濁る",
+   "長音を足しすぎ",
+   "音を落としている"
+  ],
+  "explicacion": {
+   "es": "道路（どうろ）. 道 se lee どう en compuestos y 路 es ろ, sin alargar.",
+   "en": "道路 (dōro). 道 reads どう in compounds and 路 is ろ, with no extra length."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-kanji_yomi-0008",
+  "nivel": "N3",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "会場の入口で名前を確認された。",
+  "opciones": [
+   "かくにん",
+   "かくじん",
+   "がくにん",
+   "かくにい"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "認は濁らない",
+   "確は濁らない",
+   "長音にしない"
+  ],
+  "explicacion": {
+   "es": "確認（かくにん）. Ni 確 ni 認 se sonorizan aquí.",
+   "en": "確認 (kakunin). Neither 確 nor 認 voices here."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-hyouki-0005",
+  "nivel": "N3",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを1・2・3・4から一つ選びなさい。",
+  "enunciado": "毎日<u>きろく</u>をつけている。",
+  "opciones": [
+   "記録",
+   "記緑",
+   "紀録",
+   "記碌"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "緑は色のみどり",
+   "紀は年代の紀",
+   "碌はほとんど使わない字"
+  ],
+  "explicacion": {
+   "es": "記録 «registro». 緑 es el verde y 紀 el de las eras.",
+   "en": "記録 'record'. 緑 is the colour green and 紀 belongs to era names."
+  },
+  "etiquetas": [
+   "同音異字"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-hyouki-0006",
+  "nivel": "N3",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼の<u>いけん</u>に賛成した。",
+  "opciones": [
+   "異見",
+   "意見",
+   "意険",
+   "以見"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "異見はちがう考えという別の語",
+   "険は険しいの険",
+   "以は「〜以上」の以"
+  ],
+  "explicacion": {
+   "es": "意見 «opinión». 異見 existe pero significa «parecer discrepante».",
+   "en": "意見 'opinion'. 異見 exists but means 'a dissenting view'."
+  },
+  "etiquetas": [
+   "同音異字"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunmyaku-0008",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この薬は食事の後に（　）ください。",
+  "opciones": [
+   "飲んで",
+   "食べて",
+   "つけて",
+   "入れて"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "薬は食べるとは言わない",
+   "つけるのは塗り薬",
+   "入れる相手がない"
+  ],
+  "explicacion": {
+   "es": "El medicamento se «bebe» en japonés: 薬を飲む.",
+   "en": "Medicine is 'drunk' in Japanese: 薬を飲む."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-bunmyaku-0009",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "地図を見ながら歩いたが、（　）道に迷ってしまった。",
+  "opciones": [
+   "きっと",
+   "けっきょく",
+   "たぶん",
+   "そろそろ"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "推量の副詞で、起きたことに合わない",
+   "推量の副詞で、起きたことに合わない",
+   "時期を表す副詞"
+  ],
+  "explicacion": {
+   "es": "Ya ocurrió, así que toca «al final»: けっきょく. きっと y たぶん son conjeturas.",
+   "en": "It already happened, so «in the end»: けっきょく. きっと and たぶん are guesses."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunmyaku-0010",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "説明が長すぎて、（　）が分からなくなった。",
+  "opciones": [
+   "理由",
+   "要点",
+   "感想",
+   "結果"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "理由は説明の一部にすぎない",
+   "感想は聞き手が持つもの",
+   "結果は話の後に出るもの"
+  ],
+  "explicacion": {
+   "es": "Con una explicación larguísima lo que se pierde es el meollo: 要点.",
+   "en": "With an overlong explanation what gets lost is the main point: 要点."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunmyaku-0011",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "予定が急に（　）ので、旅行に行けなくなった。",
+  "opciones": [
+   "変わった",
+   "止まった",
+   "続いた",
+   "決まった"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "予定は止まるとは言わない",
+   "続いたなら行けるはず",
+   "決まったなら行けるはず"
+  ],
+  "explicacion": {
+   "es": "El plan cambió, y por eso ya no puede ir: 予定が変わる.",
+   "en": "The plan changed, which is why he can no longer go: 予定が変わる."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-iikae-0005",
+  "nivel": "N3",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼は<u>めったに</u>学校を休まない。",
+  "opciones": [
+   "ほとんど",
+   "ときどき",
+   "いつも",
+   "まったく"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "回数が多すぎる",
+   "頻度が反対になる",
+   "完全な否定になり意味が強すぎる"
+  ],
+  "explicacion": {
+   "es": "めったに〜ない = casi nunca. Con まったく sería «nunca en absoluto».",
+   "en": "めったに〜ない = hardly ever. まったく would be 'not at all'."
+  },
+  "etiquetas": [
+   "副詞"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-youhou-0004",
+  "nivel": "N3",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "解決する",
+  "opciones": [
+   "この問題は一人では解決できない。",
+   "彼は毎朝、体を解決している。",
+   "駅までの道を解決した。",
+   "この本を解決して読んだ。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "体には使わない",
+   "道は解決しない",
+   "本は読むもの"
+  ],
+  "explicacion": {
+   "es": "解決する se aplica a problemas y conflictos, no a objetos ni al cuerpo.",
+   "en": "解決する applies to problems and disputes, not to objects or the body."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-youhou-0005",
+  "nivel": "N3",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "うっかり",
+  "opciones": [
+   "うっかり練習を続けた。",
+   "うっかり財布を家に忘れた。",
+   "うっかり試験に合格した。",
+   "うっかり毎日走っている。"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "意図してすることには使わない",
+   "よい結果には使わない",
+   "習慣には使わない"
+  ],
+  "explicacion": {
+   "es": "うっかり es el descuido momentáneo: se te olvida algo sin querer.",
+   "en": "うっかり is a momentary lapse: you forget something without meaning to."
+  },
+  "etiquetas": [
+   "副詞"
+  ],
+  "dificultad": 3
+ }
+]

@@ -1,0 +1,202 @@
+[
+ {
+  "id": "n1-shuchou-0001",
+  "nivel": "N1",
+  "tipo": "shuchou",
+  "grupo": "n1-shuchou-g001",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "便利なサービスとは、本来こちらがしていたことを、誰かが代わりにするようにした仕組みである。運ぶ、選ぶ、待つ、比べる。これらの動作が私たちの手から離れていく速さは、ここ二十年で著しく上がった。\nこのこと自体を嘆くつもりはない。手放した動作の多くは、実際どうでもよかった。米を研ぐ時間が減って困った人はほとんどいないだろう。問題は、動作と一緒に、その動作が生んでいた情報まで手放してしまう場合があることだ。動作は目に見えるが、情報は見えない。だから、失われても気づかれない。手放してよかったかどうかは、手放してからでないと分からず、しかも比べる相手はもう存在しない。\nたとえば、自分で店を回って買い物をしていたころ、私たちは値段以外のものも見ていた。棚の減り方、店員の顔ぶれ、隣の客が何を手に取ったか。買う気のない商品の情報が、勝手に入ってきていたのである。それらは意識に上らないまま、判断の背景を静かにつくっていたはずだ。何を買わなかったかという記憶さえ、次の判断には効いている。\n代行が進むと、入ってくるのは頼んだものだけになる。効率としては正しい。しかし、頼まなかったものに触れないということは、自分の関心の外側に何があるかを知る機会を失うということでもある。関心の外側は、定義上、自分では要求できない。要求できないものを運んでくる回路が、便利さと引き換えに細くなっていく。検索という行為が象徴的である。検索は、探し方を知っている人にしか使えない。\n誤解を避けたい。昔に戻れという話ではない。私が言いたいのは、便利さを評価するとき、節約できた時間だけを数えるのは片手落ちだということである。何を見なくなったかは、時間のように数えられないので、家計簿にも決算書にも現れない。現れないものは、たいてい過小評価される。数えられる指標だけで意思決定をする組織が、数えられない資産をいつのまにか失っていく理由も、おそらくここにある。\n対策があるとすれば、意図的に非効率な回路を一つ残しておくことくらいだろう。私は本だけは店で買うことにしている。目当ての本の隣に何が置かれているかを見るためである。効率が悪いのは承知のうえだ。悪いからこそ、そこにまだ残っているものがある。",
+   "notas": [
+    {
+     "termino": "代行",
+     "glosa": "本人の代わりに行うこと"
+    },
+    {
+     "termino": "片手落ち",
+     "glosa": "一方だけを見ていて不十分なこと"
+    }
+   ]
+  },
+  "enunciado": "筆者は 便利な サービスを どう 定義して いるか。",
+  "opciones": [
+   "時間を節約する仕組み",
+   "こちらがしていた動作を誰かが代わりにする仕組み",
+   "費用を下げる仕組み",
+   "選択肢を増やす仕組み"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "節約は結果であって定義ではない",
+   "費用には触れていない",
+   "むしろ触れるものが減ると述べている"
+  ],
+  "explicacion": {
+   "es": "Abre con esa definición: lo que hacíamos nosotros pasa a hacerlo otro.",
+   "en": "It opens with that definition: what we used to do, someone else now does."
+  },
+  "etiquetas": [
+   "主張理解"
+  ],
+  "dificultad": 8
+ },
+ {
+  "id": "n1-shuchou-0002",
+  "nivel": "N1",
+  "tipo": "shuchou",
+  "grupo": "n1-shuchou-g001",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が 問題に して いるのは、どういう 場合か。",
+  "opciones": [
+   "動作と一緒に、その動作が生んでいた情報まで手放す場合",
+   "費用が予想より高くなる場合",
+   "自分でする動作が増えてしまう場合",
+   "店員の数が減ってしまう場合"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "費用の話はしていない",
+   "動作が減ることを前提にしている",
+   "店員の顔ぶれは例として出ただけ"
+  ],
+  "explicacion": {
+   "es": "No le molesta ceder el gesto, sino perder con él lo que el gesto traía consigo.",
+   "en": "He doesn't mind giving up the action, but losing what the action brought along with it."
+  },
+  "etiquetas": [
+   "主張理解"
+  ],
+  "dificultad": 8
+ },
+ {
+  "id": "n1-shuchou-0003",
+  "nivel": "N1",
+  "tipo": "shuchou",
+  "grupo": "n1-shuchou-g001",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "「関心の 外側」に ついて、筆者は どう 述べて いるか。",
+  "opciones": [
+   "努力すれば自分で要求できる",
+   "定義上、自分では要求できない",
+   "効率化によってむしろ広がる",
+   "家計簿に金額として現れる"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "要求できないと明記している",
+   "細くなると述べている",
+   "数えられないので現れないと述べている"
+  ],
+  "explicacion": {
+   "es": "Es la clave del texto: no puedes pedir lo que aún no sabes que existe.",
+   "en": "That's the hinge of the text: you cannot ask for what you don't yet know exists."
+  },
+  "etiquetas": [
+   "主張理解"
+  ],
+  "dificultad": 9
+ },
+ {
+  "id": "n1-shuchou-0004",
+  "nivel": "N1",
+  "tipo": "shuchou",
+  "grupo": "n1-shuchou-g001",
+  "orden_grupo": 3,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が 本だけは 店で 買うのは、なぜか。",
+  "opciones": [
+   "店のほうが値段が安いから",
+   "店員と話したいから",
+   "目当ての本の隣にあるものを見るため",
+   "そのほうが効率がよいから"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "値段には触れていない",
+   "店員と話す話は出ていない",
+   "効率が悪いのは承知だと述べている"
+  ],
+  "explicacion": {
+   "es": "Es su «circuito ineficiente» a propósito: el estante de al lado le trae lo que no pidió.",
+   "en": "It's his deliberate 'inefficient circuit': the neighbouring shelf brings him what he didn't ask for."
+  },
+  "etiquetas": [
+   "主張理解"
+  ],
+  "dificultad": 8
+ },
+ {
+  "id": "n1-jouhou-0001",
+  "nivel": "N1",
+  "tipo": "jouhou",
+  "grupo": "n1-jouhou-g001",
+  "orden_grupo": 0,
+  "instruccion_ja": "右のページは、市の助成金の案内である。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "【さくら市　商店リフォーム助成金のご案内】\n\n■ 対象となる方\n　市内で一年以上営業している事業者。ただし、次に当てはまる方は対象外です。\n　・市税を滞納している方\n　・過去三年以内に同じ助成金を受けた方\n　・従業員が二十一人以上の事業者\n\n■ 対象となる工事\n　店舗の外装・内装の改修、看板の設置、段差の解消など。\n　※ 住居部分のみの工事、機械や備品の購入は対象になりません。\n\n■ 助成額\n　工事費の三分の一（上限五十万円）\n　※ 段差の解消を含む工事は、二分の一（上限八十万円）となります。\n\n■ 申請に必要な書類\n　・申請書（市のホームページから入手できます）\n　・工事の見積書（二社以上のものを添えてください）\n　・店舗の現況写真\n　・市税の納税証明書（三か月以内に発行されたもの）\n　※ 見積書は、工事の内容ごとに金額が分かるようにしてください。\n\n■ 申請の流れ\n　1　事前相談（工事の契約前に必ず行ってください）\n　2　申請書の提出（4月1日〜6月30日）\n　3　交付決定通知の受け取り\n　4　工事の開始\n　5　完了報告書の提出（工事完了から三十日以内）\n\n※ 交付決定の前に契約または着工した工事は、対象外となります。\n※ 申請額の合計が予算を超えた場合は、事前相談の受付順で決定します。\n※ 完了報告書の提出が翌年2月末を過ぎる見込みの場合は、あらかじめご連絡ください。\n\n■ お問い合わせ\n　産業振興課　窓口受付は平日の午前八時三十分から午後五時まで。\n　電話でのご相談は、午後一時以降にお願いします。",
+   "notas": [
+    {
+     "termino": "滞納",
+     "glosa": "払うべきものを払っていないこと"
+    },
+    {
+     "termino": "交付決定",
+     "glosa": "お金を出すと市が正式に決めること"
+    }
+   ]
+  },
+  "enunciado": "従業員 十人の 飲食店が、店の 入口の 段差を なくす 工事を 九十万円で 行う。助成額は いくらか。",
+  "opciones": [
+   "三十万円",
+   "四十五万円",
+   "五十万円",
+   "八十万円"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "三分の一は段差を含まない工事の場合",
+   "五十万円は三分の一の場合の上限",
+   "八十万円は上限であって助成額ではない"
+  ],
+  "explicacion": {
+   "es": "Al incluir la eliminación del desnivel se aplica la mitad: 90 × 1/2 = 45, por debajo del tope de 80.",
+   "en": "Because it includes step removal, the half rate applies: 90 × 1/2 = 45, under the 80 cap."
+  },
+  "etiquetas": [
+   "情報検索"
+  ],
+  "dificultad": 8
+ },
+ {
+  "id": "n1-jouhou-0002",
+  "nivel": "N1",
+  "tipo": "jouhou",
+  "grupo": "n1-jouhou-g001",
+  "orden_grupo": 1,
+  "instruccion_ja": "右のページは、市の助成金の案内である。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 案内から 分かることは どれか。",
+  "opciones": [
+   "工事の契約後でも事前相談ができる",
+   "予算を超えた場合は申請書の提出順で決まる",
+   "交付決定の前に工事を始めると対象外になる",
+   "機械の購入も助成の対象になる"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "事前相談は契約前に必ず行う",
+   "事前相談の受付順で決定する",
+   "機械や備品の購入は対象外"
+  ],
+  "explicacion": {
+   "es": "La primera nota lo dice: contratar o empezar antes de la resolución deja la obra fuera.",
+   "en": "The first note says it: signing or starting before the decision puts the work out of scope."
+  },
+  "etiquetas": [
+   "情報検索"
+  ],
+  "dificultad": 7
+ }
+]

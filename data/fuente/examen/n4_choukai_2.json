@@ -1,0 +1,211 @@
+[
+{
+ "id": "n4-kadai-0003",
+ "nivel": "N4",
+ "tipo": "kadai",
+ "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "男の人は この後 まず 何を しますか。",
+ "opciones": ["部長に書類を見せる", "書類のコピーを取る", "出張に行く", "部長に電話する"],
+ "respuesta": 0,
+ "logica_distractores": ["コピーは後でいいと言われた", "出張に行くのは部長", "電話の話は出ていない"],
+ "explicacion": {
+  "es": "El jefe se va de viaje por la tarde, así que hay que enseñarle el documento antes. Las copias, al volver.",
+  "en": "The boss leaves on a trip in the afternoon, so the document must be shown first. Copies can wait."
+ },
+ "puntos": ["部長は午後いない", "コピーは戻ってからでいい", "先に見せてと言われた"],
+ "guion": {
+  "intro": "会社で 男の人と 女の人が 話して います。男の人は この後 まず 何を しますか。",
+  "turnos": [
+   { "quien": "F", "texto": "この書類、部長に見せましたか。" },
+   { "quien": "M", "texto": "いえ、まだです。今からコピーを取ろうと思って。" },
+   { "quien": "F", "texto": "あ、コピーは後でいいです。それより、先に部長に見せてください。今日の午後、出張でいませんから。" },
+   { "quien": "M", "texto": "分かりました。じゃあ、すぐ持って行きます。" },
+   { "quien": "F", "texto": "お願いします。コピーは戻ってからで大丈夫ですよ。" }
+  ],
+  "pregunta": "男の人はこの後まず何をしますか。"
+ },
+ "etiquetas": ["課題理解"],
+ "dificultad": 3
+},
+{
+ "id": "n4-kadai-0004",
+ "nivel": "N4",
+ "tipo": "kadai",
+ "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "女の人は 明日 何時に 会社へ 行きますか。",
+ "opciones": ["九時ちょうど", "九時四十五分", "十時ちょうど", "十時十五分"],
+ "respuesta": 0,
+ "logica_distractores": ["それは男の人が来る時間", "会議が始まる時間", "会議より後になってしまう"],
+ "explicacion": {
+  "es": "Ella va una hora antes de la reunión de las diez, o sea a las nueve. Los quince minutos antes son para él.",
+  "en": "She goes an hour before the ten o'clock meeting, so nine. The fifteen-minutes-before is for him."
+ },
+ "puntos": ["会議は十時から", "女の人は一時間早く行く", "十五分前でいいのは男の人"],
+ "guion": {
+  "intro": "電話で 男の人と 女の人が 話して います。女の人は 明日 何時に 会社へ 行きますか。",
+  "turnos": [
+   { "quien": "M", "texto": "明日の会議、十時からですよね。" },
+   { "quien": "F", "texto": "ええ。でも、その前に資料を準備しないといけないので、一時間早く行きます。" },
+   { "quien": "M", "texto": "そうですか。じゃあ、僕も同じ時間に行きます。" },
+   { "quien": "F", "texto": "あ、準備は一人で十分ですよ。会議の十五分前で大丈夫です。" }
+  ],
+  "pregunta": "女の人は明日何時に会社へ行きますか。"
+ },
+ "etiquetas": ["課題理解"],
+ "dificultad": 4
+},
+{
+ "id": "n4-kadai-0005",
+ "nivel": "N4",
+ "tipo": "kadai",
+ "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "二人は どこで 昼ごはんを 食べますか。",
+ "opciones": ["学食", "外のカフェ", "教室", "図書館"],
+ "respuesta": 2,
+ "logica_distractores": ["混んでいると言っている", "高いと言っている", "話に出ていない"],
+ "explicacion": {
+  "es": "El comedor está lleno y la cafetería sale cara; los dos traen comida, así que comen en el aula.",
+  "en": "The canteen is packed and the café is pricey; both brought food, so they eat in the classroom."
+ },
+ "puntos": ["学食は混んでいる", "カフェは高い", "二人とも食べ物を持ってきている"],
+ "guion": {
+  "intro": "大学で 男の学生と 女の学生が 話して います。二人は どこで 昼ごはんを 食べますか。",
+  "turnos": [
+   { "quien": "M", "texto": "お昼、学食に行かない?" },
+   { "quien": "F", "texto": "今日は混んでると思う。試験が終わったばかりだから。" },
+   { "quien": "M", "texto": "じゃあ、外のカフェは?" },
+   { "quien": "F", "texto": "あそこは高いなあ。教室で食べるのはどう? お弁当持ってきたし。" },
+   { "quien": "M", "texto": "いいね。僕もパンを買ってきたんだ。" }
+  ],
+  "pregunta": "二人はどこで昼ごはんを食べますか。"
+ },
+ "etiquetas": ["課題理解"],
+ "dificultad": 3
+},
+{
+ "id": "n4-kadai-0006",
+ "nivel": "N4",
+ "tipo": "kadai",
+ "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "学生は まず 何を しなければ なりませんか。",
+ "opciones": ["図書館で資料を借りる", "レポートを書く", "題を決めて先生に見せる", "月曜日まで待つ"],
+ "respuesta": 2,
+ "logica_distractores": ["題が決まらないと資料が選べない", "資料がまだそろっていない", "待っていても進まない"],
+ "explicacion": {
+  "es": "El profesor lo ordena: sin tema decidido no se pueden elegir los materiales.",
+  "en": "The teacher sets the order: without a decided topic you can't choose the sources."
+ },
+ "puntos": ["題が決まらないと資料も選べない", "先に題を見せてと言われた", "提出は来週の月曜"],
+ "guion": {
+  "intro": "学校で 先生と 学生が 話して います。学生は まず 何を しなければ なりませんか。",
+  "turnos": [
+   { "quien": "M", "texto": "レポート、来週の月曜日までに出してください。" },
+   { "quien": "F", "texto": "はい。あの、資料が足りないので、図書館で借りたいんですが。" },
+   { "quien": "M", "texto": "それはいいけど、その前に題を決めて、私に見せてください。題が決まらないと、資料も選べませんよ。" },
+   { "quien": "F", "texto": "分かりました。" }
+  ],
+  "pregunta": "学生はまず何をしなければなりませんか。"
+ },
+ "etiquetas": ["課題理解"],
+ "dificultad": 3
+},
+{
+ "id": "n4-kadai-0007",
+ "nivel": "N4",
+ "tipo": "kadai",
+ "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "子どもは 明日 何を 持って 行きますか。",
+ "opciones": ["お弁当と水筒とおかし", "お弁当と水筒とかさ", "水筒とかさとおかし", "お弁当とかさとおかし"],
+ "respuesta": 1,
+ "logica_distractores": ["おかしは学校が用意する", "お弁当が抜けている", "水筒が抜けている"],
+ "explicacion": {
+  "es": "Fiambrera y cantimplora, más el paraguas que pidió el profesor. Las golosinas las pone el colegio.",
+  "en": "Lunchbox and water bottle, plus the umbrella the teacher asked for. Snacks are provided by the school."
+ },
+ "puntos": ["お弁当と水筒は必要", "かさも持って行く", "おかしは学校が用意する"],
+ "guion": {
+  "intro": "家で 母親と 子どもが 話して います。子どもは 明日 何を 持って 行きますか。",
+  "turnos": [
+   { "quien": "F", "texto": "明日の遠足、お弁当と水筒でしょ?" },
+   { "quien": "M", "texto": "うん。あと、雨が降るかもしれないから、かさも持って行くって先生が言ってた。" },
+   { "quien": "F", "texto": "そう。おかしは?" },
+   { "quien": "M", "texto": "おかしは学校で用意してくれるって。" }
+  ],
+  "pregunta": "子どもは明日何を持って行きますか。"
+ },
+ "etiquetas": ["課題理解"],
+ "dificultad": 3
+},
+{
+ "id": "n4-kadai-0008",
+ "nivel": "N4",
+ "tipo": "kadai",
+ "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "男の人は 空港まで どうやって 行きますか。",
+ "opciones": ["電車", "バス", "タクシー", "自分の車"],
+ "respuesta": 2,
+ "logica_distractores": ["荷物が多くてやめた", "朝早いので走っていない", "話に出ていない"],
+ "explicacion": {
+  "es": "Descarta el tren por el equipaje y el autobús porque no circula tan temprano: taxi.",
+  "en": "He rules out the train because of luggage and the bus because it doesn't run that early: taxi."
+ },
+ "puntos": ["荷物が多い", "バスは朝早く走っていない", "高いけどしかたない"],
+ "guion": {
+  "intro": "男の人と 女の人が 話して います。男の人は 空港まで どうやって 行きますか。",
+  "turnos": [
+   { "quien": "F", "texto": "空港まで、電車で行くの?" },
+   { "quien": "M", "texto": "そのつもりだったんだけど、荷物が多くてね。" },
+   { "quien": "F", "texto": "じゃあ、バス? 駅前から出てるよ。" },
+   { "quien": "M", "texto": "バスは時間がかかるし、朝早いから走ってないんだ。タクシーにするよ。" },
+   { "quien": "F", "texto": "高いけど、しかたないね。" }
+  ],
+  "pregunta": "男の人は空港までどうやって行きますか。"
+ },
+ "etiquetas": ["課題理解"],
+ "dificultad": 3
+},
+{
+ "id": "n4-sokuji-0007",
+ "nivel": "N4",
+ "tipo": "sokuji",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "この資料、もう一部いただけますか。",
+ "opciones": ["はい、少々お待ちください。", "はい、いただきます。", "いいえ、もう一部です。"],
+ "respuesta": 0,
+ "logica_distractores": ["もらうのは相手の側", "数の説明になっていない"],
+ "explicacion": {
+  "es": "Te piden otra copia: se acepta y se pide un momento.",
+  "en": "They're asking for another copy: you accept and ask them to wait a moment."
+ },
+ "guion": {
+  "intro": "",
+  "turnos": [{ "quien": "M", "texto": "この資料、もう一部いただけますか。" }],
+  "pregunta": "",
+  "opciones_habladas": true
+ },
+ "etiquetas": ["即時応答"],
+ "dificultad": 3
+},
+{
+ "id": "n4-sokuji-0008",
+ "nivel": "N4",
+ "tipo": "sokuji",
+ "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "会議、何時からでしたっけ。",
+ "opciones": ["三時までです。", "三時からです。", "三時に終わりました。"],
+ "respuesta": 1,
+ "logica_distractores": ["終わる時間を答えている", "まだ始まっていない"],
+ "explicacion": {
+  "es": "Preguntan la hora de inicio («何時から»), así que se responde con «〜から».",
+  "en": "They ask when it starts («何時から»), so you answer with «〜から»."
+ },
+ "guion": {
+  "intro": "",
+  "turnos": [{ "quien": "F", "texto": "会議、何時からでしたっけ。" }],
+  "pregunta": "",
+  "opciones_habladas": true
+ },
+ "etiquetas": ["即時応答"],
+ "dificultad": 2
+}
+]

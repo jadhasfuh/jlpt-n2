@@ -1,0 +1,65 @@
+[
+{
+ "id": "n1-chobun-0001", "nivel": "N1", "tipo": "chobun",
+ "grupo": "n1-chobun-g001", "orden_grupo": 0,
+ "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+ "pasaje": {
+  "texto": "前任者から引き継いだ仕事に、意味の分からない手順が一つあった。毎週金曜に、ある数字を紙に書き写して保管する。誰も見ない。電子化された同じ数字が、別の場所にきちんと残っている。無駄だと判断して、私はそれをやめた。\n半年後、監査でその紙を求められた。電子の記録は改ざんの可能性を問われることがあり、手書きの控えがあれば説明が早いのだという。前任者は、その理由を引き継ぎ書に書いていなかった。おそらく本人も、誰かから受け取ったときに理由を聞いていない。手順だけが、理由を失ったまま十年以上動いていたことになる。\nこのとき私が学んだのは、無駄に見える手順を残せということではない。理由を書き残さなければ、次の人はそれを消す、ということだ。そして消えたあとで初めて、その手順が何を防いでいたのかが分かる。防いでいたものは、たいてい目に見えない。事故が起きなかった日は、記録に残らないからである。\n厄介なのは、理由のない手順も本当に存在することである。すべてを残していけば、組織はいずれ動かなくなる。だから判断は必要だ。ただ、判断の材料が「意味が分からない」だけでは足りない。分からないのが、こちらの知識不足なのか、相手の思考停止なのかを、区別する手間を惜しんではいけない。この二つは、外から見た形がまったく同じである。\n引き継ぎとは、作業の移動ではなく、判断の履歴の移動である。何をするかではなく、なぜそれを選んだか。書くのに時間はかかるが、書かなければ、次の人は同じ失敗をもう一度やり直すことになる。私が消した紙を、今は毎週書いている。理由も一緒に。",
+  "notas": [{ "termino": "改ざん", "glosa": "記録を勝手に書き変えること" }, { "termino": "監査", "glosa": "外から記録を調べること" }]
+ },
+ "enunciado": "筆者が その 手順を やめたのは、なぜか。",
+ "opciones": ["前任者にそう言われたから", "同じ数字が別の場所に残っていたから", "監査で不要だと言われたから", "作業に時間がかかりすぎたから"],
+ "respuesta": 1,
+ "logica_distractores": ["前任者は理由を書き残していない", "監査ではむしろ求められた", "時間の話は出ていない"],
+ "explicacion": { "es": "El dato ya estaba en formato electrónico y nadie miraba el papel: le pareció redundante.", "en": "The figure was already stored electronically and nobody looked at the paper: it seemed redundant." },
+ "etiquetas": ["長文"], "dificultad": 7
+},
+{
+ "id": "n1-chobun-0002", "nivel": "N1", "tipo": "chobun",
+ "grupo": "n1-chobun-g001", "orden_grupo": 1,
+ "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+ "enunciado": "「防いで いた もの」とは、この 場合 どういう ものか。",
+ "opciones": ["数字の書き間違い", "前任者からの苦情", "電子記録への疑いに説明できなくなること", "紙の保管にかかる費用"],
+ "respuesta": 2,
+ "logica_distractores": ["書き写しの正確さは問題になっていない", "苦情の話は出ていない", "費用の話は出ていない"],
+ "explicacion": { "es": "El papel servía para responder rápido cuando se pone en duda el registro electrónico.", "en": "The paper existed to answer quickly when the electronic record is questioned." },
+ "etiquetas": ["長文"], "dificultad": 8
+},
+{
+ "id": "n1-chobun-0003", "nivel": "N1", "tipo": "chobun",
+ "grupo": "n1-chobun-g001", "orden_grupo": 2,
+ "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+ "enunciado": "手順を 消すかどうかの 判断に ついて、筆者は 何が 必要だと 述べて いるか。",
+ "opciones": ["すべての手順を残すこと", "前任者に必ず確認すること", "監査の基準に従うこと", "分からない理由がどちら側にあるかを見分けること"],
+ "respuesta": 3,
+ "logica_distractores": ["組織が動かなくなると述べている", "確認できない場合を前提にしている", "監査は結果として出てきた例"],
+ "explicacion": { "es": "Hay que distinguir si la opacidad viene de mi ignorancia o de que el otro dejó de pensar.", "en": "You must tell whether the opacity comes from your own ignorance or from the other party having stopped thinking." },
+ "etiquetas": ["長文"], "dificultad": 8
+},
+{
+ "id": "n1-chobun-0004", "nivel": "N1", "tipo": "chobun",
+ "grupo": "n1-chobun-g001", "orden_grupo": 3,
+ "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+ "enunciado": "筆者の 考える「引き継ぎ」とは 何か。",
+ "opciones": ["判断の履歴を移すこと", "作業を正確に移すこと", "書類を整理すること", "失敗を隠さないこと"],
+ "respuesta": 0,
+ "logica_distractores": ["作業の移動ではないと述べている", "整理の話ではない", "隠す隠さないの話ではない"],
+ "explicacion": { "es": "Lo formula así: no se traspasa qué se hace, sino por qué se eligió hacerlo.", "en": "He puts it this way: what's handed over isn't what you do, but why it was chosen." },
+ "etiquetas": ["長文"], "dificultad": 8
+},
+{
+ "id": "n1-tougou-0003", "nivel": "N1", "tipo": "tougou",
+ "grupo": "n1-tougou-g002", "orden_grupo": 0,
+ "instruccion_ja": "次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+ "pasaje": {
+  "texto": "A\n若手にはまず失敗させるべきである。失敗の記憶は、成功の記憶よりはるかに長く残る。手厚く支えて成功だけを積ませても、支えを外した瞬間に崩れる。転ばせずに歩かせようとする指導は、歩き方ではなく支えられ方を教えているにすぎない。\n\nB\n失敗から学べるのは、失敗の原因を分析できる人だけである。分析の枠組みを持たない段階で失敗させても、残るのは「自分には向いていない」という結論だけだ。それは学習ではなく、単なる撤退である。順序としては、枠組みが先にくる。枠組みさえあれば、失敗は素材になる。",
+  "notas": []
+ },
+ "enunciado": "若手の 育て方に ついて、AとBが 共通して 前提に して いることは 何か。",
+ "opciones": ["失敗そのものに教育的な価値がありうること", "失敗はできるだけ避けるべきであること", "支える側の負担が問題であること", "若手には枠組みが不要であること"],
+ "respuesta": 0,
+ "logica_distractores": ["Aは失敗させるべきだと述べている", "どちらも負担については触れていない", "Bは枠組みが先だと述べている"],
+ "explicacion": { "es": "B no niega el valor del fallo: dice que hace falta un marco para aprovecharlo. Los dos parten de que el fallo puede enseñar.", "en": "B doesn't deny failure's value: it says a framework is needed to use it. Both start from failure being able to teach." },
+ "etiquetas": ["統合理解"], "dificultad": 8
+}
+]

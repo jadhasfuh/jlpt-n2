@@ -1,0 +1,298 @@
+[
+{
+ "id": "n4-point-0001",
+ "nivel": "N4",
+ "tipo": "point",
+ "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "女の人は どうして 引っ越すことに しましたか。",
+ "opciones": ["家賃が高いから", "駅から遠いから", "夜、音がうるさいから", "部屋が狭いから"],
+ "respuesta": 2,
+ "logica_distractores": ["それもあるが、いちばんの理由ではない", "駅から近くて便利だと言っている", "話に出ていない"],
+ "explicacion": {
+  "es": "Dice «いちばんは音かな»: los camiones de noche no la dejan dormir.",
+  "en": "She says «the main thing is the noise» — lorries at night keep her awake."
+ },
+ "puntos": ["駅から近くて便利", "家賃も理由の一つだが一番ではない", "夜、トラックの音で眠れない"],
+ "guion": {
+  "intro": "男の人と 女の人が 話して います。女の人は どうして 引っ越すことに しましたか。",
+  "turnos": [
+   { "quien": "M", "texto": "引っ越すんだって?" },
+   { "quien": "F", "texto": "うん。今のところ、駅から近くて便利なんだけどね。" },
+   { "quien": "M", "texto": "家賃が高い?" },
+   { "quien": "F", "texto": "それもあるけど、いちばんは音かな。前の道をトラックがたくさん通るから、夜眠れなくて。" },
+   { "quien": "M", "texto": "それはつらいね。" }
+  ],
+  "pregunta": "女の人はどうして引っ越すことにしましたか。"
+ },
+ "etiquetas": ["ポイント理解"],
+ "dificultad": 4
+},
+{
+ "id": "n4-point-0002",
+ "nivel": "N4",
+ "tipo": "point",
+ "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "男の人は 今の 仕事の どこが いちばん いいと 言って いますか。",
+ "opciones": ["給料が高いこと", "早く帰れること", "会社が近いこと", "仕事が簡単なこと"],
+ "respuesta": 1,
+ "logica_distractores": ["給料は下がったと言っている", "話に出ていない", "話に出ていない"],
+ "explicacion": {
+  "es": "Cobra menos, pero sale a las cinco y puede cenar con sus hijos: eso es lo primero.",
+  "en": "He earns less, but finishes at five and can have dinner with his children: that comes first."
+ },
+ "puntos": ["前の会社は給料がよかった", "今は五時に終わる", "子どもと晩ごはんが食べられる"],
+ "guion": {
+  "intro": "男の人が 話して います。男の人は 今の 仕事の どこが いちばん いいと 言って いますか。",
+  "turnos": [
+   { "quien": "M", "texto": "前の会社は給料はよかったんですが、毎日残業で、家に帰るのは夜中でした。今の会社は給料は下がりましたが、五時に終わります。おかげで子どもと晩ごはんが食べられる。これがいちばんです。" }
+  ],
+  "pregunta": "男の人は今の仕事のどこがいちばんいいと言っていますか。"
+ },
+ "etiquetas": ["ポイント理解"],
+ "dificultad": 3
+},
+{
+ "id": "n4-point-0003",
+ "nivel": "N4",
+ "tipo": "point",
+ "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "女の人は 何を 心配して いますか。",
+ "opciones": ["資料ができていないこと", "練習が足りないこと", "質問にうまく答えられるか", "時間が足りないこと"],
+ "respuesta": 2,
+ "logica_distractores": ["資料は作ったと言っている", "練習もしたと言っている", "話に出ていない"],
+ "explicacion": {
+  "es": "Materiales y ensayo, hechos. Lo que le inquieta es responder a las preguntas.",
+  "en": "Materials and rehearsal, done. What worries her is answering the questions."
+ },
+ "puntos": ["資料は作った", "練習もした", "質問への答えが心配"],
+ "guion": {
+  "intro": "男の人と 女の人が 話して います。女の人は 何を 心配して いますか。",
+  "turnos": [
+   { "quien": "M", "texto": "明日の発表、準備はできた?" },
+   { "quien": "F", "texto": "うん、資料は作った。練習もした。" },
+   { "quien": "M", "texto": "じゃあ大丈夫だね。" },
+   { "quien": "F", "texto": "でも、質問が来たときにうまく答えられるかな。" }
+  ],
+  "pregunta": "女の人は何を心配していますか。"
+ },
+ "etiquetas": ["ポイント理解"],
+ "dificultad": 3
+},
+{
+ "id": "n4-point-0004",
+ "nivel": "N4",
+ "tipo": "point",
+ "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "男の学生は どうして 今日 遅れましたか。",
+ "opciones": ["寝坊したから", "財布を取りに帰ったから", "バスが遅れたから", "道が混んでいたから"],
+ "respuesta": 1,
+ "logica_distractores": ["ちゃんと起きたと言っている", "バスが遅れたのではなく一本後になった", "話に出ていない"],
+ "explicacion": {
+  "es": "Se levantó bien, pero volvió a por la cartera y perdió el autobús.",
+  "en": "He got up fine, but went back for his wallet and missed the bus."
+ },
+ "puntos": ["寝坊はしていない", "財布を忘れて取りに帰った", "一本遅いバスになった"],
+ "guion": {
+  "intro": "男の学生と 女の学生が 話して います。男の学生は どうして 今日 遅れましたか。",
+  "turnos": [
+   { "quien": "F", "texto": "遅かったね。寝坊?" },
+   { "quien": "M", "texto": "ううん、ちゃんと起きたよ。バスに乗ろうとしたら、財布を忘れたのに気づいて。" },
+   { "quien": "F", "texto": "取りに帰ったの?" },
+   { "quien": "M", "texto": "うん。それで一本遅いバスになった。" }
+  ],
+  "pregunta": "男の学生はどうして今日遅れましたか。"
+ },
+ "etiquetas": ["ポイント理解"],
+ "dificultad": 3
+},
+{
+ "id": "n4-point-0005",
+ "nivel": "N4",
+ "tipo": "point",
+ "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "女の人は この店の 何が いちばん いいと 言って いますか。",
+ "opciones": ["値段が安いこと", "駅から近いこと", "店の人がよく知っていること", "品物が多いこと"],
+ "respuesta": 2,
+ "logica_distractores": ["安くないと言っている", "駅から遠いと言っている", "話に出ていない"],
+ "explicacion": {
+  "es": "Ni barato ni cerca: vuelve porque el tendero le explica hasta cómo se cultivan las verduras.",
+  "en": "Neither cheap nor close: she goes back because the shopkeeper even explains how the vegetables are grown."
+ },
+ "puntos": ["値段は安くない", "駅から遠い", "店の人が育て方まで教えてくれる"],
+ "guion": {
+  "intro": "女の人が 店に ついて 話して います。女の人は この店の 何が いちばん いいと 言って いますか。",
+  "turnos": [
+   { "quien": "F", "texto": "この店、値段は安くありません。場所も駅から遠いです。でも、店の人が野菜の育て方まで教えてくれるんです。だから、遠くても通っています。" }
+  ],
+  "pregunta": "女の人はこの店の何がいちばんいいと言っていますか。"
+ },
+ "etiquetas": ["ポイント理解"],
+ "dificultad": 4
+},
+{
+ "id": "n4-point-0006",
+ "nivel": "N4",
+ "tipo": "point",
+ "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "新しい 機械の 問題は 何ですか。",
+ "opciones": ["速さが足りないこと", "音が大きいこと", "値段が高いこと", "使い方が難しいこと"],
+ "respuesta": 1,
+ "logica_distractores": ["前の三倍くらい速いと言っている", "話に出ていない", "話に出ていない"],
+ "explicacion": {
+  "es": "Va tres veces más rápido, pero hace tanto ruido que la sala de al lado se ha quejado.",
+  "en": "It runs three times faster, but it's so loud the next room has complained."
+ },
+ "puntos": ["速さは前の三倍", "音が大きい", "となりの部屋から苦情が来た"],
+ "guion": {
+  "intro": "会社で 男の人と 女の人が 話して います。新しい 機械の 問題は 何ですか。",
+  "turnos": [
+   { "quien": "M", "texto": "新しい機械、どうですか。" },
+   { "quien": "F", "texto": "速いですよ。前の三倍くらい。" },
+   { "quien": "M", "texto": "それはいいですね。" },
+   { "quien": "F", "texto": "ただ、音が大きくて。となりの部屋から苦情が来ました。" }
+  ],
+  "pregunta": "新しい機械の問題は何ですか。"
+ },
+ "etiquetas": ["ポイント理解"],
+ "dificultad": 3
+},
+{
+ "id": "n4-point-0007",
+ "nivel": "N4",
+ "tipo": "point",
+ "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "二人は 土曜日に 何を しますか。",
+ "opciones": ["山に行く", "午後、映画を見る", "一日中 家に いる", "父の誕生日を祝う"],
+ "respuesta": 1,
+ "logica_distractores": ["午後だけでは無理だと言っている", "話に出ていない", "それは日曜日"],
+ "explicacion": {
+  "es": "El sábado por la mañana tiene dentista y el domingo es el cumpleaños del padre: queda ir al cine el sábado por la tarde.",
+  "en": "Saturday morning is the dentist and Sunday is his father's birthday: what's left is the cinema on Saturday afternoon."
+ },
+ "puntos": ["日曜は父の誕生日", "土曜の朝は歯医者", "午後だけでは山は無理"],
+ "guion": {
+  "intro": "男の人と 女の人が 話して います。二人は 土曜日に 何を しますか。",
+  "turnos": [
+   { "quien": "F", "texto": "週末、山に行かない?" },
+   { "quien": "M", "texto": "行きたいけど、日曜は父の誕生日なんだ。" },
+   { "quien": "F", "texto": "じゃあ土曜は?" },
+   { "quien": "M", "texto": "土曜は朝から歯医者。午後なら空いてるよ。" },
+   { "quien": "F", "texto": "午後だけじゃ山は無理ね。じゃあ映画にしよう。" },
+   { "quien": "M", "texto": "いいね。" }
+  ],
+  "pregunta": "二人は土曜日に何をしますか。"
+ },
+ "etiquetas": ["ポイント理解"],
+ "dificultad": 4
+},
+{
+ "id": "n4-hatsuwa-0001",
+ "nivel": "N4",
+ "tipo": "hatsuwa",
+ "instruccion_ja": "問題では、絵を見ながら質問を聞いてください。矢印（→）の人は何と言いますか。1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "先生に 借りた 本を 返します。何と 言いますか。",
+ "opciones": ["お借りします。", "お返しします。", "お貸しします。"],
+ "respuesta": 1,
+ "logica_distractores": ["借りるときの言い方", "自分が貸すときの言い方"],
+ "explicacion": {
+  "es": "Devuelves tú, así que 返す en forma humilde: «お返しします».",
+  "en": "You're the one giving it back, so 返す in the humble form: «お返しします»."
+ },
+ "guion": {
+  "intro": "",
+  "turnos": [{ "quien": "F", "texto": "先生に借りた本を返します。何と言いますか。" }],
+  "pregunta": "",
+  "opciones_habladas": true
+ },
+ "etiquetas": ["発話表現"],
+ "dificultad": 2
+},
+{
+ "id": "n4-hatsuwa-0002",
+ "nivel": "N4",
+ "tipo": "hatsuwa",
+ "instruccion_ja": "問題では、絵を見ながら質問を聞いてください。矢印（→）の人は何と言いますか。1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "まだ 働いて いる 人を 残して、先に 会社を 出ます。何と 言いますか。",
+ "opciones": ["お先に失礼します。", "ただいま帰りました。", "いらっしゃいませ。"],
+ "respuesta": 0,
+ "logica_distractores": ["家に帰り着いたときの言い方", "店の人が客に言う言い方"],
+ "explicacion": {
+  "es": "Al irte antes que los demás: «お先に失礼します».",
+  "en": "When you leave before the others: «お先に失礼します»."
+ },
+ "guion": {
+  "intro": "",
+  "turnos": [{ "quien": "M", "texto": "まだ働いている人を残して、先に会社を出ます。何と言いますか。" }],
+  "pregunta": "",
+  "opciones_habladas": true
+ },
+ "etiquetas": ["発話表現"],
+ "dificultad": 2
+},
+{
+ "id": "n4-hatsuwa-0003",
+ "nivel": "N4",
+ "tipo": "hatsuwa",
+ "instruccion_ja": "問題では、絵を見ながら質問を聞いてください。矢印（→）の人は何と言いますか。1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "友だちが 試験に 合格しました。何と 言いますか。",
+ "opciones": ["おだいじに。", "おかげさまで。", "おめでとうございます。"],
+ "respuesta": 2,
+ "logica_distractores": ["病気の人にかける言い方", "自分がお礼を言うときの言い方"],
+ "explicacion": {
+  "es": "Se felicita: «おめでとうございます».",
+  "en": "You congratulate them: «おめでとうございます»."
+ },
+ "guion": {
+  "intro": "",
+  "turnos": [{ "quien": "F", "texto": "友だちが試験に合格しました。何と言いますか。" }],
+  "pregunta": "",
+  "opciones_habladas": true
+ },
+ "etiquetas": ["発話表現"],
+ "dificultad": 1
+},
+{
+ "id": "n4-hatsuwa-0004",
+ "nivel": "N4",
+ "tipo": "hatsuwa",
+ "instruccion_ja": "問題では、絵を見ながら質問を聞いてください。矢印（→）の人は何と言いますか。1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "道が 分からなく なりました。近くの 人に 何と 言いますか。",
+ "opciones": ["すみません、駅へ行ってください。", "すみません、駅はどちらでしょうか。", "すみません、駅を教えました。"],
+ "respuesta": 1,
+ "logica_distractores": ["相手に命令する形になる", "自分が教えたことになる"],
+ "explicacion": {
+  "es": "Preguntas por el camino: «駅はどちらでしょうか».",
+  "en": "You're asking the way: «駅はどちらでしょうか»."
+ },
+ "guion": {
+  "intro": "",
+  "turnos": [{ "quien": "M", "texto": "道が分からなくなりました。近くの人に何と言いますか。" }],
+  "pregunta": "",
+  "opciones_habladas": true
+ },
+ "etiquetas": ["発話表現"],
+ "dificultad": 2
+},
+{
+ "id": "n4-hatsuwa-0005",
+ "nivel": "N4",
+ "tipo": "hatsuwa",
+ "instruccion_ja": "問題では、絵を見ながら質問を聞いてください。矢印（→）の人は何と言いますか。1から3の中から、最もよいものを一つ選んでください。",
+ "enunciado": "かぜで 休んで いる 友だちの 家から 帰ります。何と 言いますか。",
+ "opciones": ["おげんきで。", "おだいじに。", "ごくろうさま。"],
+ "respuesta": 1,
+ "logica_distractores": ["長く会わない人に言う言い方", "働いた人をねぎらう言い方"],
+ "explicacion": {
+  "es": "A quien está enfermo se le dice «おだいじに».",
+  "en": "To someone who is ill you say «おだいじに»."
+ },
+ "guion": {
+  "intro": "",
+  "turnos": [{ "quien": "F", "texto": "かぜで休んでいる友だちの家から帰ります。何と言いますか。" }],
+  "pregunta": "",
+  "opciones_habladas": true
+ },
+ "etiquetas": ["発話表現"],
+ "dificultad": 2
+}
+]

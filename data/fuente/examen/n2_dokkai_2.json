@@ -1,0 +1,292 @@
+[
+ {
+  "id": "n2-tanbun-0003",
+  "nivel": "N2",
+  "tipo": "tanbun",
+  "grupo": "n2-tanbun-g003",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "専門家の説明が分かりにくいのは、知識が多すぎるからではない。聞き手がどこでつまずくかを、もう思い出せなくなっているからだ。一度分かってしまったことは、分からなかったころの感覚ごと消えてしまう。だから、教えるのがうまい人は、たいてい自分も最近つまずいた人である。知識の量ではなく、記憶の新しさが、説明の質を決めている。",
+   "notas": []
+  },
+  "enunciado": "筆者は、専門家の説明が分かりにくい理由を どう 考えて いるか。",
+  "opciones": [
+   "知識が足りないから",
+   "聞き手のつまずきを思い出せないから",
+   "説明の練習をしていないから",
+   "専門用語が多いから"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "知識が多すぎるからではないと述べている",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "El que ya entendió pierde el recuerdo de no entender, y con él la brújula del oyente.",
+   "en": "Once you understand, you lose the memory of not understanding — and with it the listener's compass."
+  },
+  "etiquetas": [
+   "短文"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-tanbun-0004",
+  "nivel": "N2",
+  "tipo": "tanbun",
+  "grupo": "n2-tanbun-g004",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "便利さは、選択肢の多さと同じではない。むしろ、選ばなくてよくなることのほうが多い。毎朝同じ服を着る人がいるのは、服に関心がないからではなく、朝の判断を一つ減らすためだ。何を捨てるかを先に決めておけば、迷っていた時間はそのまま自由な時間になる。増やすことばかりが豊かさだと考えると、この単純な計算を見落とす。",
+   "notas": []
+  },
+  "enunciado": "筆者の 考えに 合う ものは どれか。",
+  "opciones": [
+   "選択肢は多いほうがよい",
+   "服に関心を持つべきだ",
+   "選ばずに済むことが便利さにつながる",
+   "朝は早く起きるべきだ"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "多さと便利さは同じではないと述べている",
+   "関心の有無は問題にしていない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Decidir de antemano qué se descarta convierte el tiempo de duda en tiempo libre.",
+   "en": "Deciding in advance what to drop turns hesitation time into free time."
+  },
+  "etiquetas": [
+   "短文"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-tanbun-0005",
+  "nivel": "N2",
+  "tipo": "tanbun",
+  "grupo": "n2-tanbun-g005",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "地図が読めない人がいるのではない。地図と目の前の景色を結びつける手順を、教わっていない人がいるだけだ。まず自分がどちらを向いているかを決める。次に、動かないものを一つ探す。この二つを飛ばして地図だけを見ても、線と記号の集まりにしか見えない。才能の問題にされてきたことの多くは、実は手順の問題である。順序を言葉にできる人が、教えられる人だ。",
+   "notas": []
+  },
+  "enunciado": "筆者は 何が 問題だと 言って いるか。",
+  "opciones": [
+   "地図の記号が多すぎること",
+   "景色が変わりやすいこと",
+   "地図を読む才能がないこと",
+   "結びつける手順を教わっていないこと"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "記号の数は問題にしていない",
+   "本文にない",
+   "才能の問題ではないと述べている"
+  ],
+  "explicacion": {
+   "es": "Cierra diciéndolo: lo que se atribuye al talento suele ser cuestión de procedimiento.",
+   "en": "He closes by saying it: what gets blamed on talent is usually a matter of procedure."
+  },
+  "etiquetas": [
+   "短文"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-chuubun-0004",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "grupo": "n2-chuubun-g002",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "観光地に行くと、まず写真を撮る人が増えた。景色を見る前に、画面ごしに景色を見ている。構図を整えているあいだにも、目の前の光は少しずつ変わっていく。\n写真を撮ること自体を悪いとは思わない。撮ることで注意が細かくなり、そこにある形や色に気づくこともある。問題は、撮った後に何も見ていない場合だ。撮影が「見た」ことの代わりになってしまうと、記録は残っても記憶は残らない。\nある調査では、展示物を撮影した人のほうが、撮らなかった人より内容を覚えていなかったという。機械に預けた記憶は、自分の中には残らないらしい。覚える必要がないと判断した瞬間に、頭は手を抜くのだろう。撮る前に一度、何を残したいのかを言葉にしてみるといい。目的のない一枚は、あとで見返しても何も語らない。\nとはいえ、写真を禁止すればよいという話でもない。撮ったあとに一度、機械を下ろして自分の目で見る。それだけで、記録と記憶の両方が手に入る。順番の問題にすぎないのだ。",
+   "notas": []
+  },
+  "enunciado": "筆者は 写真を 撮ることに ついて、どう 考えて いるか。",
+  "opciones": [
+   "観光地では禁止すべきだ",
+   "撮ること自体は悪くない",
+   "記録より記憶のほうが価値がある",
+   "調査の結果は信用できない"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "禁止すればよい話ではないと述べている",
+   "両方手に入ると述べている",
+   "調査を根拠として使っている"
+  ],
+  "explicacion": {
+   "es": "Lo dice explícitamente y hasta le encuentra ventajas: fotografiar afina la atención.",
+   "en": "He says so outright and even finds a benefit: photographing sharpens attention."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-chuubun-0005",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "grupo": "n2-chuubun-g002",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が 勧めて いるのは どういう ことか。",
+  "opciones": [
+   "写真を撮らずに景色を見ること",
+   "撮影の枚数を減らすこと",
+   "記録を残さないこと",
+   "撮った後に自分の目で見ること"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "撮ること自体は否定していない",
+   "枚数の話は出ていない",
+   "記録も手に入れたいと述べている"
+  ],
+  "explicacion": {
+   "es": "Su propuesta es de orden: dispara, baja la cámara y mira.",
+   "en": "His proposal is about order: shoot, lower the camera, and look."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-chuubun-0006",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "grupo": "n2-chuubun-g003",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "壊れたら直して使う、という言い方は美しいが、現実には直せないものが増えている。部品が手に入らない、開けると保証が切れる、そもそもねじが見えない。作る側が、直されることを想定していないのだ。\n一方で、直したい人は減っていない。町の修理店には、買い替えたほうが安いと分かっていても持ち込む客が来る。彼らが払っているのは修理代ではなく、その物と過ごした時間に対する代金だろう。ある店主は「直せるかどうかより、直したいかどうかで決めている」と言っていた。\n経済的に見れば不合理である。しかし、すべてを金額で比べる習慣は、案外新しいものだ。値段で測れないものまで値段で測ろうとすれば、答えはいつも「捨てろ」になる。祖母は割れた茶碗を継いで使っていたが、あれが安上がりだったとは思えない。継いだ跡のある茶碗は、割れる前とは別の物になっていた。\n物を大事にするとは、長く使うことではなく、手をかける相手を選ぶことなのかもしれない。",
+   "notas": [
+    {
+     "termino": "継ぐ",
+     "glosa": "割れたものをつなぎ合わせて直す"
+    }
+   ]
+  },
+  "enunciado": "直せない ものが 増えて いるのは、なぜだと 言って いるか。",
+  "opciones": [
+   "修理する人が減ったから",
+   "作る側が修理を想定していないから",
+   "部品の値段が上がったから",
+   "客が買い替えを望むから"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "直したい人は減っていないと述べている",
+   "手に入らないとは書いてあるが値段の話ではない",
+   "安いと分かっていても持ち込む客がいる"
+  ],
+  "explicacion": {
+   "es": "Piezas inhallables, garantía que se pierde, tornillos ocultos: el diseño no cuenta con la reparación.",
+   "en": "Unobtainable parts, voided warranties, hidden screws: the design doesn't allow for repair."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-chuubun-0007",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "grupo": "n2-chuubun-g003",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者の 考えに 最も 近い ものは どれか。",
+  "opciones": [
+   "何でも長く使うべきだ",
+   "修理は経済的に得である",
+   "手をかける相手を選ぶことが大切だ",
+   "昔の習慣に戻るべきだ"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "長く使うことではないと述べている",
+   "不合理だと認めている",
+   "習慣の新しさを指摘しただけ"
+  ],
+  "explicacion": {
+   "es": "La última frase: cuidar no es alargar, sino elegir a qué le dedicas trabajo.",
+   "en": "The last line: caring isn't making things last, it's choosing what you put work into."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 6
+ },
+ {
+  "id": "n2-chuubun-0008",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "grupo": "n2-chuubun-g004",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "静かな職場がよい職場だと、長いあいだ信じられてきた。私語がない、電話の声が小さい、誰も立ち歩かない。管理する側から見れば、たしかに整って見える。\nしかし、静けさには二種類ある。集中している静けさと、話しかけられない静けさだ。外から見ただけでは区別がつかない。後者の職場では、質問が生まれない。声を出さないことが評価される場所では、黙っているほうが安全になるからだ。分からないまま作業が進み、最後にまとめて事故になる。\n私が以前いた職場は、正直うるさかった。誰かが独り言のように「これ、変じゃない?」とつぶやくと、近くの人が顔を上げる。そこで止まった問題がいくつもあった。あの音は無駄ではなかったのだ。あとから大きな問題が出てきたのは、いつも静かにしろと言われた職場のほうだった。\n静けさを目標にするのはやめたほうがいい。目標は、必要なときに声が出ることである。結果として静かなら、それはよい静けさだ。",
+   "notas": []
+  },
+  "enunciado": "「二種類の 静けさ」とは、どういう ものか。",
+  "opciones": [
+   "集中している静けさと、話しかけられない静けさ",
+   "大きい音と小さい音",
+   "朝の静けさと夜の静けさ",
+   "よい職場と悪い職場"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "音の大きさの分類ではない",
+   "時間による分類ではない",
+   "静けさの分類であって職場の分類ではない"
+  ],
+  "explicacion": {
+   "es": "El texto las nombra: la del que se concentra y la del que no se atreve a hablar.",
+   "en": "The text names them: the quiet of concentration and the quiet of not daring to speak."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-chuubun-0009",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "grupo": "n2-chuubun-g004",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が 目標に すべきだと 言って いるのは 何か。",
+  "opciones": [
+   "職場を静かにすること",
+   "私語をなくすこと",
+   "必要なときに声が出ること",
+   "事故を完全になくすこと"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "静けさを目標にするなと述べている",
+   "つぶやきが問題を止めたと述べている",
+   "事故は結果として挙げた例"
+  ],
+  "explicacion": {
+   "es": "Lo dice al final: el objetivo es que salga la voz cuando hace falta; el silencio, si llega, es consecuencia.",
+   "en": "He says it at the end: the goal is that a voice comes out when needed; quiet, if it comes, is a by-product."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 6
+ }
+]

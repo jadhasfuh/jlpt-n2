@@ -1,0 +1,311 @@
+[
+ {
+  "id": "n3-tanbun-0003",
+  "nivel": "N3",
+  "tipo": "tanbun",
+  "grupo": "n3-tanbun-g003",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "日本語の教室で、先生が「間違えてもいいから話してください」と言った。頭では分かっていても、実際に口を開くのは難しい。しかし、間違えた回数だけ覚える言葉が増えるのだと気づいてから、少しずつ声が出るようになった。今では、直されることがうれしいとさえ感じている。",
+   "notas": []
+  },
+  "enunciado": "この人が話せるように なったのは、なぜか。",
+  "opciones": [
+   "先生が優しかったから",
+   "間違いが言葉を増やすと気づいたから",
+   "教室が静かだったから",
+   "文法を全部覚えたから"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "先生の言葉だけでは変わらなかった",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "El cambio llega al darse cuenta de que cada error añade una palabra nueva.",
+   "en": "The change comes from realising that each mistake adds a new word."
+  },
+  "etiquetas": [
+   "短文"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-tanbun-0004",
+  "nivel": "N3",
+  "tipo": "tanbun",
+  "grupo": "n3-tanbun-g004",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "駅前の本屋が閉店すると聞いて、久しぶりに寄ってみた。中は思ったより狭く、記憶より本も少なかった。子どものころは、大きな迷路のように感じていたのに。棚の高さも、通路の幅も、あのころのままだろう。変わったのは店ではなく、こちらのほうなのだろうと思った。",
+   "notas": []
+  },
+  "enunciado": "筆者は 何が 変わったと 考えて いるか。",
+  "opciones": [
+   "本屋の広さ",
+   "本の数",
+   "自分自身",
+   "駅前の様子"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "棚も通路も当時のままだと書いてある",
+   "少なく感じただけ",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "La última frase: lo que cambió no fue la tienda, sino él.",
+   "en": "The last sentence: what changed wasn't the shop but himself."
+  },
+  "etiquetas": [
+   "短文"
+  ],
+  "dificultad": 4
+ },
+ {
+  "id": "n3-chuubun-0003",
+  "nivel": "N3",
+  "tipo": "chuubun",
+  "grupo": "n3-chuubun-g002",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "「忙しい」という言葉を、私はできるだけ使わないようにしている。\n以前は口ぐせのように言っていた。誘いを断るときも、返事が遅れたときも、理由は「忙しくて」で済んだ。相手も納得するし、それ以上は聞かれない。便利な言葉だった。\nある日、友人に「忙しいって、何にどれだけ時間を使っているの」と聞かれ、答えられなかった。実際には、動画を見ていた時間も、迷っていた時間も、全部まとめて「忙しい」と呼んでいたのだ。本当に時間がなかった日もあるが、そうでない日のほうが多かった。\nそれからは、断るときに本当の理由を言うようにしている。言いにくいこともあるが、そのほうが相手にも自分にも正直でいられる。断られた側も、理由が分かれば次の誘い方を変えられるはずだ。",
+   "notas": [
+    {
+     "termino": "口ぐせ",
+     "glosa": "いつも言ってしまう言葉"
+    }
+   ]
+  },
+  "enunciado": "筆者が 以前「忙しい」を よく 使って いたのは、なぜか。",
+  "opciones": [
+   "実際に時間がなかったから",
+   "相手がそれ以上聞かないから",
+   "友人にそう言われたから",
+   "正直でいたかったから"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "動画を見ていた時間も含まれていた",
+   "友人の質問はあとの話",
+   "正直でなかったと書いてある"
+  ],
+  "explicacion": {
+   "es": "Era cómodo: el otro se conforma y no pregunta más.",
+   "en": "It was convenient: the other person accepts it and asks nothing further."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 4
+ },
+ {
+  "id": "n3-chuubun-0004",
+  "nivel": "N3",
+  "tipo": "chuubun",
+  "grupo": "n3-chuubun-g002",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が「忙しい」を 使わなく なったのは、なぜか。",
+  "opciones": [
+   "時間ができたから",
+   "友人に注意されて怒ったから",
+   "断るのをやめたから",
+   "中身を説明できないと気づいたから"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "時間が増えたとは書いていない",
+   "怒ったとは書いていない",
+   "断るときに本当の理由を言うようにしている"
+  ],
+  "explicacion": {
+   "es": "No supo responder a qué dedicaba el tiempo: la palabra tapaba el vacío.",
+   "en": "He couldn't say where the time went: the word was covering a blank."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 4
+ },
+ {
+  "id": "n3-chuubun-0005",
+  "nivel": "N3",
+  "tipo": "chuubun",
+  "grupo": "n3-chuubun-g003",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "道具は使う人を変える、とよく言われる。私はこれを、台所の包丁で実感した。\n長いあいだ、よく切れない包丁を使っていた。玉ねぎを切るたびに目が痛くなり、力を入れて押すので手も疲れる。だから料理そのものが面倒になり、外で買って帰る日が増えていた。そのころは包丁のせいだとは思わず、自分は料理に向いていないのだと考えていた。\n去年、思い切って包丁を研いでもらった。同じ包丁なのに、玉ねぎが音もなく切れる。それだけのことで、台所に立つ時間が自然に長くなった。\n腕が上がったわけではない。ただ、じゃまをするものが一つ減っただけだ。人がやる気を失うのは、多くの場合、気持ちの問題ではなく、こういう小さなじゃまが積み重なった結果なのだと思う。",
+   "notas": [
+    {
+     "termino": "研ぐ",
+     "glosa": "刃をするどくすること"
+    }
+   ]
+  },
+  "enunciado": "料理が 面倒に なって いたのは、なぜか。",
+  "opciones": [
+   "包丁がよく切れなかったから",
+   "料理が下手だったから",
+   "時間がなかったから",
+   "外の店がおいしかったから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "腕の問題ではないと書いてある",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "El cuchillo romo hacía llorar y cansaba las manos, y eso apartaba de la cocina.",
+   "en": "The blunt knife stung the eyes and tired the hands, which pushed her away from cooking."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-chuubun-0006",
+  "nivel": "N3",
+  "tipo": "chuubun",
+  "grupo": "n3-chuubun-g003",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者の 考えに 合う ものは どれか。",
+  "opciones": [
+   "やる気は気持ちの持ち方で決まる",
+   "小さなじゃまを減らすことが大切だ",
+   "高い道具を買うべきだ",
+   "料理は毎日するべきだ"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "気持ちの問題ではないと書いてある",
+   "同じ包丁を研いだだけ",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Cierra diciendo que perder las ganas suele ser la suma de estorbos pequeños, no un asunto de ánimo.",
+   "en": "He closes by saying that losing motivation is usually a pile-up of small obstacles, not a matter of spirit."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 4
+ },
+ {
+  "id": "n3-chobun-0003",
+  "nivel": "N3",
+  "tipo": "chobun",
+  "grupo": "n3-chobun-g002",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "子どものころ、祖父の家には時計が一つしかなかった。台所の壁にかかった古い時計で、しかも五分ほど進んでいた。祖父はそれを直そうとしなかった。\n理由を聞くと、「進んでいるほうが、人を待たせない」と言った。当時の私には、その意味がよく分からなかった。時計は正しいほうがいいに決まっている、と思っていたからだ。正しくない時計をそのままにしておくのは、ただの怠けに見えた。\n大人になって、待ち合わせに遅れるたびに、あの時計を思い出すようになった。祖父は正しさより、相手を待たせないことを選んでいたのだ。五分の誤差は間違いではなく、祖父なりの気配りだった。\n今、私の部屋の時計も少し進んでいる。直そうと思えばいつでも直せるが、そのままにしている。正確でないことが、いつも悪いとはかぎらない。大事なのは、その狂いが誰のためにあるのかということだと思う。",
+   "notas": [
+    {
+     "termino": "気配り",
+     "glosa": "相手のことを考えること"
+    },
+    {
+     "termino": "誤差",
+     "glosa": "正しい数との差"
+    }
+   ]
+  },
+  "enunciado": "祖父が 時計を 直さなかったのは、なぜか。",
+  "opciones": [
+   "直し方が分からなかったから",
+   "時計が古かったから",
+   "正確さに興味がなかったから",
+   "人を待たせたくなかったから"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "本文にない",
+   "古いことは理由として挙げていない",
+   "正しさより相手を選んだのであって、無関心ではない"
+  ],
+  "explicacion": {
+   "es": "Lo dice el abuelo: adelantado, no hace esperar a nadie.",
+   "en": "The grandfather says it: running fast, it makes no one wait."
+  },
+  "etiquetas": [
+   "長文"
+  ],
+  "dificultad": 4
+ },
+ {
+  "id": "n3-chobun-0004",
+  "nivel": "N3",
+  "tipo": "chobun",
+  "grupo": "n3-chobun-g002",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者の 考えに 合う ものは どれか。",
+  "opciones": [
+   "時計はいつも正確であるべきだ",
+   "狂いが誰のためにあるかが大事だ",
+   "古い時計は使わないほうがいい",
+   "待ち合わせには早く行くべきだ"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "正確でないことがいつも悪いとはかぎらないと書いてある",
+   "本文にない",
+   "時計の話であって行動の教えではない"
+  ],
+  "explicacion": {
+   "es": "La última frase: lo importante es para quién existe ese desfase.",
+   "en": "The last sentence: what matters is who the discrepancy is for."
+  },
+  "etiquetas": [
+   "長文"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n3-jouhou-0002",
+  "nivel": "N3",
+  "tipo": "jouhou",
+  "grupo": "n3-jouhou-g002",
+  "orden_grupo": 0,
+  "instruccion_ja": "右のページは、市の粗大ごみの案内である。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "【さくら市　粗大ごみの出し方】\n\n■ 申し込み\n　電話（月〜金　9:00〜17:00）またはホームページから。\n　当日の申し込みはできません。収集日の三日前までにお願いします。\n\n■ 料金\n　テーブル・いす　　400円\n　自転車　　　　　　600円\n　ふとん　　　　　　300円\n　※ 料金は、コンビニで「粗大ごみシール」を買い、品物にはってください。\n\n■ 一度に出せる数\n　一回の申し込みで五点までです。六点以上になるときは、二回に分けてお申し込みください。\n\n■ 出し方\n　申し込みのときにお伝えする収集日の朝8時までに、家の前に出してください。\n　雨の日も収集します。シールをはっていない品物は収集できませんので、ご注意ください。\n\n■ 自分で持ち込む場合\n　清掃センターへ直接持ち込むと、料金が半額になります。\n　受付は月曜から土曜まで。日曜・祝日は休みです。\n\n※ パソコン・テレビ・冷蔵庫は、粗大ごみとして出せません。買った店にご相談ください。",
+   "notas": [
+    {
+     "termino": "粗大ごみ",
+     "glosa": "大きくて普通のごみに出せないもの"
+    }
+   ]
+  },
+  "enunciado": "日曜日に 自転車を 自分で 清掃センターへ 持って 行きたい。どう なるか。",
+  "opciones": [
+   "300円で持ち込める",
+   "600円かかる",
+   "日曜日は受付が休みなので持ち込めない",
+   "申し込みが要らない"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "半額になるのは受付をしている日だけ",
+   "持ち込みなら半額",
+   "持ち込みでも申し込みは必要"
+  ],
+  "explicacion": {
+   "es": "Llevarlo uno mismo sale a mitad de precio, pero el centro no abre domingos ni festivos.",
+   "en": "Taking it yourself halves the fee, but the centre is closed on Sundays and holidays."
+  },
+  "etiquetas": [
+   "情報検索"
+  ],
+  "dificultad": 4
+ }
+]

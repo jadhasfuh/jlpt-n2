@@ -1,0 +1,145 @@
+[
+{
+ "id": "n5-kadai-0003",
+ "nivel": "N5",
+ "tipo": "kadai",
+ "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "学生は 明日 何を 持って 行きますか。",
+ "opciones": ["教科書と ノートと ペン", "ノートと えんぴつと じしょ", "教科書と ノートと えんぴつ", "教科書と じしょと ペン"],
+ "respuesta": 2,
+ "logica_distractores": ["ペンは使わないと言っている", "教科書がないし、じしょは いらない", "じしょは教室にある"],
+ "explicacion": {
+  "es": "Libro y cuaderno, y además lápiz. El bolígrafo no se usa y el diccionario ya está en el aula.",
+  "en": "Textbook and notebook, plus a pencil. Pens aren't used and the dictionary is already in the classroom."
+ },
+ "puntos": ["ペンは使わない", "じしょは教室にある", "えんぴつを追加でたのまれた"],
+ "guion": {
+  "intro": "学校で 先生と 学生が 話して います。学生は 明日 何を 持って 行きますか。",
+  "turnos": [
+   { "quien": "F", "texto": "先生、明日の じゅぎょうは 何を 持って 行きますか。" },
+   { "quien": "M", "texto": "教科書と ノートですね。" },
+   { "quien": "F", "texto": "はい。" },
+   { "quien": "M", "texto": "あ、それから えんぴつも おねがいします。ペンは 使いません。" },
+   { "quien": "F", "texto": "分かりました。じしょは どうですか。" },
+   { "quien": "M", "texto": "じしょは 教室に ありますから、いりませんよ。" }
+  ],
+  "pregunta": "学生は明日何を持って行きますか。"
+ },
+ "etiquetas": ["課題理解"],
+ "dificultad": 2
+},
+{
+ "id": "n5-kadai-0004",
+ "nivel": "N5",
+ "tipo": "kadai",
+ "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "女の人は この後 まず 何を しますか。",
+ "opciones": ["さいふを 取ります", "ごみを 出します", "ぎゅうにゅうを 買います", "そうじを します"],
+ "respuesta": 0,
+ "logica_distractores": ["ごみは男の人が出す", "買いものは家を出てから", "話に出ていない"],
+ "explicacion": {
+  "es": "Iba a salir sin la cartera. La basura la saca él, así que lo primero es coger la cartera de la mesa.",
+  "en": "She was about to leave without her wallet. He takes out the rubbish, so first she grabs the wallet."
+ },
+ "puntos": ["ごみは男の人がやると言った", "さいふを わすれる ところだった", "買いものは その後"],
+ "guion": {
+  "intro": "うちで 男の人と 女の人が 話して います。女の人は この後 まず 何を しますか。",
+  "turnos": [
+   { "quien": "F", "texto": "買いものに 行って きますね。" },
+   { "quien": "M", "texto": "あ、ぎゅうにゅう おねがい。" },
+   { "quien": "F", "texto": "うん。じゃあ、その まえに ごみを 出して くるね。" },
+   { "quien": "M", "texto": "ごみは ぼくが 出すよ。" },
+   { "quien": "F", "texto": "ほんと? じゃあ おねがい。" },
+   { "quien": "M", "texto": "うん。あ、さいふ、テーブルの 上に あるよ。" },
+   { "quien": "F", "texto": "あ、わすれる ところだった。" }
+  ],
+  "pregunta": "女の人はこの後まず何をしますか。"
+ },
+ "etiquetas": ["課題理解"],
+ "dificultad": 3
+},
+{
+ "id": "n5-kadai-0005",
+ "nivel": "N5",
+ "tipo": "kadai",
+ "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "二人は 何時に 会いますか。",
+ "opciones": ["二時三十分", "二時五十分", "二時二十分", "三時"],
+ "respuesta": 2,
+ "logica_distractores": ["十分早くすると言った後の時間ではない", "計算の向きが逆", "映画が始まる時間"],
+ "explicacion": {
+  "es": "La peli es a las tres. Quedan media hora antes (2:30) y luego adelantan diez minutos más: 2:20.",
+  "en": "The film is at three. They meet half an hour before (2:30), then move it ten minutes earlier: 2:20."
+ },
+ "puntos": ["映画は三時から", "その三十分前 → 二時三十分", "もう十分早く → 二時二十分"],
+ "guion": {
+  "intro": "電話で 男の人と 女の人が 話して います。二人は 何時に 会いますか。",
+  "turnos": [
+   { "quien": "M", "texto": "明日、映画に 行きませんか。" },
+   { "quien": "F", "texto": "いいですね。何時からですか。" },
+   { "quien": "M", "texto": "三時からです。" },
+   { "quien": "F", "texto": "じゃあ、その 三十分前に 駅で 会いましょう。" },
+   { "quien": "M", "texto": "はい。あ、切符を 買いますから、もう 十分 早く 会いませんか。" },
+   { "quien": "F", "texto": "分かりました。じゃあ そうしましょう。" }
+  ],
+  "pregunta": "二人は何時に会いますか。"
+ },
+ "etiquetas": ["課題理解"],
+ "dificultad": 3
+},
+{
+ "id": "n5-kadai-0006",
+ "nivel": "N5",
+ "tipo": "kadai",
+ "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "女の学生は この後 どこへ 行きますか。",
+ "opciones": ["図書館", "食堂", "教室", "駅"],
+ "respuesta": 1,
+ "logica_distractores": ["昼休みで閉まっている", "話に出ていない", "話に出ていない"],
+ "explicacion": {
+  "es": "La biblioteca está cerrada hasta la una, así que decide comer primero.",
+  "en": "The library is shut until one, so she decides to eat first."
+ },
+ "puntos": ["図書館は一時まで閉まっている", "先に食べようかな と言った", "本を返すのは その後"],
+ "guion": {
+  "intro": "大学で 男の学生と 女の学生が 話して います。女の学生は この後 どこへ 行きますか。",
+  "turnos": [
+   { "quien": "M", "texto": "これから 食堂に 行くけど、いっしょに どう?" },
+   { "quien": "F", "texto": "ありがとう。でも、その まえに 本を 返さないと。" },
+   { "quien": "M", "texto": "図書館、今 昼休みで 閉まってるよ。一時からだって。" },
+   { "quien": "F", "texto": "そうなんだ。じゃあ、先に 食べようかな。" }
+  ],
+  "pregunta": "女の学生はこの後どこへ行きますか。"
+ },
+ "etiquetas": ["課題理解"],
+ "dificultad": 2
+},
+{
+ "id": "n5-kadai-0007",
+ "nivel": "N5",
+ "tipo": "kadai",
+ "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+ "enunciado": "男の人は 何を 買いますか。",
+ "opciones": ["青い シャツ 一まい", "白い シャツ 一まい", "青い シャツ 二まい", "白い シャツ 二まい"],
+ "respuesta": 3,
+ "logica_distractores": ["青いのは やめると言った", "二まい ほしいと言っている", "青いのは やめると言った"],
+ "explicacion": {
+  "es": "Cambia de idea: deja la azul y se lleva dos blancas, que están rebajadas.",
+  "en": "He changes his mind: drops the blue one and takes two white ones, which are on offer."
+ },
+ "puntos": ["白いのは 安くなっている", "青いのは やめた", "二まい ください と言った"],
+ "guion": {
+  "intro": "店で 店の 人と 男の人が 話して います。男の人は 何を 買いますか。",
+  "turnos": [
+   { "quien": "F", "texto": "いらっしゃいませ。" },
+   { "quien": "M", "texto": "この 青い シャツを ください。" },
+   { "quien": "F", "texto": "ありがとうございます。こちらは 三千円です。白いのは 二千五百円で、今 安く なって います。" },
+   { "quien": "M", "texto": "そうですか。じゃあ、青いのは やめて、白いのを 二まい ください。" },
+   { "quien": "F", "texto": "はい、ありがとうございます。" }
+  ],
+  "pregunta": "男の人は何を買いますか。"
+ },
+ "etiquetas": ["課題理解"],
+ "dificultad": 2
+}
+]

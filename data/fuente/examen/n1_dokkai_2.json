@@ -1,0 +1,303 @@
+[
+ {
+  "id": "n1-tanbun-0003",
+  "nivel": "N1",
+  "tipo": "tanbun",
+  "grupo": "n1-tanbun-g003",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "制度を作るとき、私たちは例外を先に考えがちである。悪用する者が出たらどうするか、想定外の事態にどう備えるか。慎重さの表れではあるが、そうして積み上げた条文は、たいてい大多数の善意の利用者を疑う形になる。少数の逸脱を防ぐ代償として、多数に手間を課しているのだ。どちらを選ぶかは価値判断であって、技術的な最適化の問題ではない。設計者がこの二つを混同したとき、制度は誰のためのものか分からなくなる。",
+   "notas": [
+    {
+     "termino": "逸脱",
+     "glosa": "決まりから外れること"
+    }
+   ]
+  },
+  "enunciado": "筆者は 制度づくりの 何を 問題に して いるか。",
+  "opciones": [
+   "例外への備えが足りないこと",
+   "少数を防ぐために多数に負担をかけていること",
+   "条文が複雑になりすぎること",
+   "技術的な検討が不足していること"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "備えすぎることを問題にしている",
+   "複雑さそのものは論点ではない",
+   "技術の問題ではないと述べている"
+  ],
+  "explicacion": {
+   "es": "El coste de blindarse contra unos pocos lo pagan todos los demás en trámites.",
+   "en": "The cost of guarding against a few is paid by everyone else in paperwork."
+  },
+  "etiquetas": [
+   "短文"
+  ],
+  "dificultad": 7
+ },
+ {
+  "id": "n1-tanbun-0004",
+  "nivel": "N1",
+  "tipo": "tanbun",
+  "grupo": "n1-tanbun-g004",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "同じ話を二度聞かされるのは退屈だが、二度目に初めて気づくことは少なくない。一度目は筋を追うので精一杯で、語り手がどこで言いよどんだか、どの語を選び直したかまでは目に入らない。情報としては重複でも、経験としては別物である。効率を理由に反復を削っていくと、この二度目だけが与えてくれるものまで、気づかないうちに一緒に削れてしまう。削られたことにさえ気づかないところが、効率という基準のこわさである。",
+   "notas": [
+    {
+     "termino": "言いよどむ",
+     "glosa": "言葉に詰まって止まる"
+    }
+   ]
+  },
+  "enunciado": "筆者の 考えに 合う ものは どれか。",
+  "opciones": [
+   "同じ話は繰り返すべきではない",
+   "反復には一度目にないものがある",
+   "一度目のほうが正確に理解できる",
+   "効率を上げることが最も大切だ"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "反復の価値を認めている",
+   "一度目は筋を追うので精一杯だと述べている",
+   "効率を理由に削ることを批判している"
+  ],
+  "explicacion": {
+   "es": "La segunda vez muestra las vacilaciones y las correcciones que la primera tapa.",
+   "en": "The second time reveals the hesitations and corrections the first one hides."
+  },
+  "etiquetas": [
+   "短文"
+  ],
+  "dificultad": 7
+ },
+ {
+  "id": "n1-chuubun-0003",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g002",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "翻訳は言い換えではない、とよく言われる。しかし、では何なのかと問われると、答えは案外難しい。\n訳せない語がある、という言い方は少し不正確である。どんな語にも、近い意味の語はたいてい存在する。問題は語そのものではなく、その語が置かれている網の目のほうにある。ある言語で一語で済むことが、別の言語では三語を要する。そのとき増えた二語分の重さが、原文にはなかった強調として読者に届いてしまう。一語のまま置けば足りず、三語にすれば重い。訳者はその間で毎回選び直している。\nだから熟練した訳者ほど、語ではなく速度を訳そうとする。原文がさらりと通り過ぎた場所は、訳文でもさらりと通り過ぎなければならない。意味が正しくても、そこで読者を立ち止まらせてしまえば、訳としては失敗である。\nこれは文章に限った話ではないだろう。人の話を別の人に伝えるとき、私たちは無意識に語を補う。補ったぶんだけ、元の話にはなかった力点が生まれる。悪意はない。ただ、言葉は足したぶんだけ、必ず何かを主張してしまう。伝言が伝言でなくなるのは、たいていこの瞬間である。",
+   "notas": [
+    {
+     "termino": "網の目",
+     "glosa": "たがいにつながり合った関係"
+    }
+   ]
+  },
+  "enunciado": "「訳せない語が ある」という 言い方が 不正確なのは、なぜか。",
+  "opciones": [
+   "近い意味の語はたいてい存在するから",
+   "語の数が言語によって違うから",
+   "訳者の技術の問題にすぎないから",
+   "読者が立ち止まってしまうから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "語数の差はその後に述べる別の問題",
+   "技術の問題だとは述べていない",
+   "立ち止まるのは訳し方の結果"
+  ],
+  "explicacion": {
+   "es": "El texto lo dice: casi siempre hay una palabra próxima; el problema está en la red de relaciones, no en la palabra.",
+   "en": "The text says it: a near-equivalent almost always exists; the problem lies in the web of relations, not the word."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 7
+ },
+ {
+  "id": "n1-chuubun-0004",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g002",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "「速度を 訳す」とは どういう ことか。",
+  "opciones": [
+   "できるだけ短く訳すこと",
+   "原文と同じ場所で読者を立ち止まらせること",
+   "原文が軽く通る場所を訳文でも軽く通すこと",
+   "意味の正確さを最優先すること"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "長さの問題ではない",
+   "立ち止まらせないことが目的",
+   "意味が正しくても失敗はあると述べている"
+  ],
+  "explicacion": {
+   "es": "Se trata de reproducir dónde el texto corre y dónde pesa, no sólo qué dice.",
+   "en": "It's about reproducing where the text runs light and where it weighs, not only what it says."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 7
+ },
+ {
+  "id": "n1-chuubun-0005",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g003",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "町の古い写真を見せてもらう機会があった。今と同じ交差点が写っているのに、そこにいる人々の顔は、なぜかどれも似て見える。服装や髪型が揃っているせいだと最初は思った。しかし、よく見ると理由は別のところにある。誰もカメラを見ていないのだ。撮る側と撮られる側の距離も、今よりずっと遠かったのだろう。\n写真に撮られることが珍しかった時代、人はカメラの存在にそもそも気づかなかった。だから、そこに写っているのは、見られていない人間の顔である。今の写真に写るのは、見られていることを知っている人間の顔だ。この差は、服装の差よりはるかに大きい。撮られ慣れた顔には、どこかに構えがある。\n記録が増えれば、その時代がよく分かるとはかぎらない。撮られることを前提にした振る舞いばかりが残れば、記録の量に反比例して、素の姿は見えなくなっていく。情報としては、当時よりはるかに多くのものが残るはずだ。それでも、残らないものは残らない。百年後の人が私たちの写真を見て何を読み取るのかは分からない。ただ、私たちが古い写真から受け取っているものとは、おそらく別のものだろう。",
+   "notas": []
+  },
+  "enunciado": "古い 写真の 人々の 顔が 似て 見えるのは、なぜだと 述べて いるか。",
+  "opciones": [
+   "服装や髪型が揃っているから",
+   "誰もカメラを見ていないから",
+   "写真の技術が古いから",
+   "同じ交差点に立っているから"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "最初はそう思ったが理由は別だと述べている",
+   "技術の話は出ていない",
+   "場所は同じだが理由ではない"
+  ],
+  "explicacion": {
+   "es": "Descarta explícitamente la ropa: lo que iguala esos rostros es no saberse observados.",
+   "en": "He explicitly rules out clothing: what levels those faces is not knowing they're watched."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 7
+ },
+ {
+  "id": "n1-chuubun-0006",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g003",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者の 考えに 合う ものは どれか。",
+  "opciones": [
+   "記録が増えるほどその時代はよく分かる",
+   "記録が増えても素の姿は見えにくくなりうる",
+   "昔の写真のほうが技術的に優れている",
+   "写真は記録として信用できない"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "とはかぎらないと述べている",
+   "技術の比較はしていない",
+   "信用できないとまでは述べていない"
+  ],
+  "explicacion": {
+   "es": "Si sólo queda la conducta de quien se sabe fotografiado, más volumen no da más verdad.",
+   "en": "If only the behaviour of the photographed-aware survives, more volume doesn't mean more truth."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 8
+ },
+ {
+  "id": "n1-chuubun-0007",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g004",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "予測が当たったかどうかで予測の質を測るのは、直感的には正しく思えるが、実は乱暴である。\n一度きりの出来事について、七割の確率で起きると述べた予測を考えてみればよい。実際に起きなかったとしても、その予測が誤りだったとはかぎらない。三割のほうが実現しただけかもしれないからだ。結果だけを見て評価すると、確率を口にする人は損をし、言い切る人が得をする。当たれば称賛され、外れても「誰にも分からなかった」で済むからである。この非対称が、慎重な予測を少しずつ表から追い出していく。\nでは何を見るべきか。一つは、予測が外れたときに、その人が何を修正したかである。前提のどこが違っていたかを特定できる人は、次の予測を改善できる。もう一つは、外れ方の分布だ。何度も予測する人であれば、七割と言った出来事のうち、およそ七割が実際に起きているかを確かめられる。どちらも地味な作業で、外から見て華やかなところはない。\nこの二つはどちらも、一回の的中とは無関係である。にもかかわらず、私たちが記憶するのは、劇的に当たった一回のほうだ。予測を評価する能力は、予測する能力よりも育ちにくい。",
+   "notas": [
+    {
+     "termino": "分布",
+     "glosa": "数がどのように散らばっているか"
+    }
+   ]
+  },
+  "enunciado": "結果だけで 予測を 評価すると、どう なると 述べて いるか。",
+  "opciones": [
+   "確率を述べる人が不利になる",
+   "予測をする人が減る",
+   "予測が当たりやすくなる",
+   "前提の誤りが見つけやすくなる"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "人数の話は出ていない",
+   "評価の仕方は的中率を変えない",
+   "見つけにくくなるという流れ"
+  ],
+  "explicacion": {
+   "es": "El que dice «setenta por ciento» pierde siempre; el que afirma tajante gana si acierta y se excusa si falla.",
+   "en": "Whoever says 'seventy per cent' always loses; the flat asserter wins on a hit and is excused on a miss."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 8
+ },
+ {
+  "id": "n1-chuubun-0008",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g004",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が 見るべきだと して いるのは 何か。",
+  "opciones": [
+   "的中した回数",
+   "外れたときの修正と、外れ方の分布",
+   "予測した人の経験年数",
+   "予測の言い切り方"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "一回の的中とは無関係だと述べている",
+   "経験年数の話は出ていない",
+   "言い切る人が得をすることを批判している"
+  ],
+  "explicacion": {
+   "es": "Dos criterios: qué corrige tras fallar, y si sus «setenta por ciento» ocurren en torno al setenta por ciento.",
+   "en": "Two criteria: what he corrects after a miss, and whether his 'seventy per cents' happen about seventy per cent of the time."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 8
+ },
+ {
+  "id": "n1-chuubun-0009",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g004",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "最後の 段落で 筆者が 述べて いることは 何か。",
+  "opciones": [
+   "予測は誰にもできない",
+   "劇的な的中にこそ価値がある",
+   "評価する力のほうが身につきにくい",
+   "予測は何度も行うべきだ"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "予測そのものを否定していない",
+   "記憶に残るだけで価値があるとは述べていない",
+   "回数は判断材料の説明として出ただけ"
+  ],
+  "explicacion": {
+   "es": "Cierra ahí: cuesta más aprender a juzgar predicciones que a hacerlas.",
+   "en": "That's the closing line: learning to judge forecasts is harder than learning to make them."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 8
+ }
+]
