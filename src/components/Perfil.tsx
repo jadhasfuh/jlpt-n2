@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import { guardarTope, leerProgreso, resumen, topeDiario, type Progreso, type TopeRepaso } from "@/lib/progreso";
 import { BotonesRapidos, useAjustes } from "./Ajustes";
-import { ACCESO_ABIERTO } from "@/lib/acceso";
 import type { Perfil as Cuenta } from "@/lib/sesion";
 import { IcDerecha } from "./Iconos";
 import Link from "next/link";
@@ -13,7 +12,7 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
 }) {
   const [borrando, setBorrando] = useState(false);
   const [p, setP] = useState<Progreso | null>(null);
-  const { tema, cambiarTema, idioma, t } = useAjustes();
+  const { tema, cambiarTema, idioma, t, accesoAbierto } = useAjustes();
 
   useEffect(() => {
     const f = () => setP(leerProgreso());
@@ -113,7 +112,7 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
         ) : (
           <>
             <p style={{ marginTop: 0 }}>
-              {t("per.sinCuenta", { abierto: ACCESO_ABIERTO ? t("per.todoAbierto") : "" })}
+              {t("per.sinCuenta", { abierto: accesoAbierto ? t("per.todoAbierto") : "" })}
             </p>
             <Link href="/entrar" className="btn primario" style={{ width: "100%" }}>
               {t("per.entrar")} <IcDerecha size={15} />

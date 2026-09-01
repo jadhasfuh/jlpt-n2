@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { COLOR_NIVEL, NUMERAL_NIVEL, type Nivel } from "@/lib/tipos";
 import { contarPendientes, leerProgreso, resumen } from "@/lib/progreso";
 import { Anillo } from "./Anillo";
-import { ACCESO_ABIERTO } from "@/lib/acceso";
 import { IcCronometro, IcDerecha, IcExamen, IcRacha } from "./Iconos";
 import { useAjustes } from "./Ajustes";
 
@@ -14,7 +13,7 @@ export function Inicio({ niveles, totales }: {
   niveles: Resumen[];
   totales: { palabras: number; gramatica: number; unidades: number };
 }) {
-  const { t } = useAjustes();
+  const { t, accesoAbierto } = useAjustes();
   const [r, setR] = useState<ReturnType<typeof resumen> | null>(null);
   const [pend, setPend] = useState({ vencidas: 0, hoy: 0 });
   const [avance, setAvance] = useState<Record<string, number>>({});
@@ -129,7 +128,7 @@ export function Inicio({ niveles, totales }: {
         ))}
       </div>
 
-      {!ACCESO_ABIERTO && (
+      {!accesoAbierto && (
         <p className="tenue" style={{ marginTop: 18 }}>
           {t("inicio.libre")}
         </p>

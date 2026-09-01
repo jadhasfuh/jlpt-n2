@@ -4,14 +4,14 @@ import { useEffect, useState } from "react";
 import { COLOR_NIVEL, type Nivel } from "@/lib/tipos";
 import { leerProgreso } from "@/lib/progreso";
 import { Anillo } from "./Anillo";
-import { ACCESO_ABIERTO, esLibre } from "@/lib/acceso";
+import { esLibre } from "@/lib/acceso";
 import { IcCandado, IcDerecha } from "./Iconos";
 import { useAjustes } from "./Ajustes";
 
 type S = { id: string; ja: string; es: string; palabras: number; gramatica: number; unidades: number };
 
 export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones: S[] }) {
-  const { idioma } = useAjustes();
+  const { idioma, accesoAbierto } = useAjustes();
   const [avance, setAvance] = useState<Record<string, number>>({});
   useEffect(() => {
     const recalcular = () => {
@@ -32,7 +32,7 @@ export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones:
   return (
     <div className="lista">
       {secciones.map((s) => {
-        const bloqueada = !ACCESO_ABIERTO && !esLibre(s.id);
+        const bloqueada = !accesoAbierto && !esLibre(s.id);
         const contenido = (
           <>
             <Anillo pct={avance[s.id] ?? 0} tono={COLOR_NIVEL[nivel as Nivel]}
@@ -44,7 +44,7 @@ export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones:
               </div>
             </div>
             {bloqueada ? <span className="flecha"><IcCandado size={15} /></span>
-                       : !ACCESO_ABIERTO && esLibre(s.id) ? <span className="pastilla gratis">gratis</span>
+                       : !accesoAbierto && esLibre(s.id) ? <span className="pastilla gratis">gratis</span>
                        : <span className="flecha"><IcDerecha size={14} /></span>}
           </>
         );

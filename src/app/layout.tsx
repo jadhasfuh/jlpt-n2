@@ -8,6 +8,7 @@ import { Lateral } from "@/components/Lateral";
 import { RegistrarSW } from "@/components/RegistrarSW";
 import { idiomaActual } from "@/lib/idioma-servidor";
 import { sitio } from "@/lib/sitio";
+import { accesoAbierto } from "@/lib/acceso-servidor";
 
 // Inter va autoalojada: el subconjunto latino es pequeño y así no depende de
 // Google en tiempo de ejecución. Noto Sans JP no: sus glifos japoneses pesan
@@ -59,7 +60,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         />
       </head>
       <body>
-        <ProveedorAjustes idiomaInicial={idioma}>
+        <ProveedorAjustes idiomaInicial={idioma} accesoAbierto={accesoAbierto()}>
           <Lateral />
           <div className="con-lateral">{children}</div>
           <Diccionario />

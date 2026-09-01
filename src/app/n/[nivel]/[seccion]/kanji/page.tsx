@@ -1,5 +1,6 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { curso, kanjiDeSeccion, seccionCurso } from "@/lib/contenido";
+import { puedeVer } from "@/lib/acceso-servidor";
 import { Cabecera } from "@/components/Cabecera";
 import { PanelKanji } from "@/components/PanelKanji";
 import { BotonesRapidos } from "@/components/Ajustes";
@@ -10,6 +11,7 @@ export function generateStaticParams() {
 
 export default async function Pagina({ params }: { params: Promise<{ nivel: string; seccion: string }> }) {
   const { nivel, seccion } = await params;
+  if (!(await puedeVer(seccion))) redirect("/suscripcion");
   const s = seccionCurso(nivel, seccion);
   if (!s) notFound();
   const kanji = kanjiDeSeccion(nivel, seccion);

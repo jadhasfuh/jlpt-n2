@@ -1,5 +1,6 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { gramaticas, kanjis, palabras, seccionCurso, unidad, vecinas } from "@/lib/contenido";
+import { puedeVer } from "@/lib/acceso-servidor";
 import { Cabecera } from "@/components/Cabecera";
 import { VistaUnidad } from "@/components/VistaUnidad";
 
@@ -10,6 +11,7 @@ export default async function Pagina(
   { params }: { params: Promise<{ nivel: string; seccion: string; unidad: string }> },
 ) {
   const { nivel, seccion, unidad: parte } = await params;
+  if (!(await puedeVer(seccion))) redirect("/suscripcion");
   const u = unidad(`${nivel}/${seccion}/${parte}`);
   if (!u) notFound();
   const { siguiente, indice, total } = vecinas(u.id);

@@ -11,6 +11,10 @@ type Ajustes = {
   colores: boolean;
   tema: "auto" | "claro" | "oscuro";
   idioma: Idioma;
+  /** Si todo está abierto o hace falta suscripción. Lo decide el servidor:
+      una NEXT_PUBLIC_ no llega al navegador porque el Dockerfile no pasa
+      variables al build, así que el interruptor no se puede leer aquí. */
+  accesoAbierto: boolean;
   alternar: (k: "furigana" | "significado" | "colores") => void;
   cambiarTema: () => void;
   cambiarIdioma: (i: Idioma) => void;
@@ -32,10 +36,14 @@ const leer = <T,>(k: string, def: T): T => {
   } catch { return def; }
 };
 
-export function ProveedorAjustes({ children, idiomaInicial = IDIOMA_POR_DEFECTO }: {
+export function ProveedorAjustes({
+  children, idiomaInicial = IDIOMA_POR_DEFECTO, accesoAbierto = true,
+}: {
   children: React.ReactNode;
   /** Lo resuelve el servidor (cookie o Accept-Language) para que no parpadee. */
   idiomaInicial?: Idioma;
+  /** También del servidor: ver el comentario del tipo Ajustes. */
+  accesoAbierto?: boolean;
 }) {
   // El furigana empieza apagado a propósito: primero se intenta leer sin ayuda.
   const [furigana, setFurigana] = useState(false);
@@ -78,7 +86,7 @@ export function ProveedorAjustes({ children, idiomaInicial = IDIOMA_POR_DEFECTO 
     traducir(clave, idioma, vars);
 
   return (
-    <Ctx.Provider value={{
+    <Ctx.Provider value={{ accesoAbierto,
       furigana, significado, colores, tema, idioma,
       alternar, cambiarTema, cambiarIdioma, t,
     }}>

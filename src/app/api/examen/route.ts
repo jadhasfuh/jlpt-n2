@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { armarExamen } from "@/lib/banco";
 import type { Ajuste, Seccion } from "@/lib/examen";
 import { NIVELES, type Nivel } from "@/lib/tipos";
+import { puedeVerTodo } from "@/lib/acceso-servidor";
 
 const SECCIONES: Seccion[] = ["moji_goi", "bunpou", "dokkai", "choukai"];
 const MINUTOS = [5, 10, 15, 30, 105];
@@ -29,6 +30,12 @@ function sanear(x: unknown): Ajuste | null {
 
 /** Arma un mini examen. `vistos` va de lo más reciente a lo más antiguo. */
 export async function POST(req: Request) {
+  // El examen es contenido de pago. Sin esto, el candado de la interfaz se
+  // salta llamando a este endpoint a mano.
+  if (!(await puedeVerTodo())) {
+    return NextResponse.json({ error: "hace falta suscripción" }, { status: 402 });
+  }
+
   let cuerpo: { ajuste?: unknown; vistos?: unknown };
   try {
     cuerpo = await req.json();
