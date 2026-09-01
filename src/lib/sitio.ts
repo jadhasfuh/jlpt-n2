@@ -17,3 +17,22 @@ export function sitio(): string {
     "http://localhost:3000"
   );
 }
+
+/**
+ * A dónde devolver al usuario, visto desde fuera.
+ *
+ * `new URL(req.url).origin` NO sirve: detrás del proxy de Railway la petición
+ * llega a la dirección interna del contenedor, así que salía una redirección a
+ * https://0.0.0.0:8080 y el navegador se quedaba en blanco. Lo que hay que
+ * mirar es la cabecera Host, que es la dirección que el usuario tecleó.
+ *
+ * El esquema se fuerza a https salvo en local: el proxy habla http con el
+ * contenedor, y devolver http provocaría un salto extra o un aviso del
+ * navegador.
+ */
+export function origenPublico(req: Request): string {
+  const host = req.headers.get("host");
+  if (!host) return sitio();
+  const local = host.startsWith("localhost") || host.startsWith("127.0.0.1");
+  return `${local ? "http" : "https"}://${host}`;
+}
