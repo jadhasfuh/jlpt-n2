@@ -57,7 +57,7 @@ export function Reportar({ tipo, ref_, visto, compacto = false }: {
 
             {visto && (
               <p style={{
-                fontSize: 13, background: "var(--fondo-2)", borderRadius: "var(--radio)",
+                fontSize: 13, background: "var(--papel-2)", borderRadius: "var(--radio)",
                 padding: "8px 10px", margin: "0 0 12px", color: "var(--tinta-2)",
               }}>{visto}</p>
             )}
@@ -74,7 +74,7 @@ export function Reportar({ tipo, ref_, visto, compacto = false }: {
               placeholder={t("rep2.marcador")} rows={3} maxLength={300}
               aria-label={t("rep2.marcador")}
               style={{
-                width: "100%", background: "var(--fondo-2)", color: "var(--tinta)",
+                width: "100%", background: "var(--papel-2)", color: "var(--tinta)",
                 border: "1px solid var(--linea)", borderRadius: "var(--radio)",
                 padding: "9px 11px", fontSize: 14, fontFamily: "inherit", resize: "vertical",
               }}
