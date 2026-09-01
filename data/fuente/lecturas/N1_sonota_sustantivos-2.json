@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/sustantivos-2",
+ "titulo": "パンクした<ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "<ruby>旅行<rt>りょこう</rt></ruby>の<ruby>初日<rt>しょにち</rt></ruby>、<ruby>高速<rt>こうそく</rt></ruby>を<ruby>降<rt>お</rt></ruby>りたところでタイヤがパンクしました。スペアに<ruby>替<rt>か</rt></ruby>えようとしましたが、ボルトが<ruby>固<rt>かた</rt></ruby>くて<ruby>回<rt>まわ</rt></ruby>りません。<ruby>暑<rt>あつ</rt></ruby>いのなんのって、<ruby>汗<rt>あせ</rt></ruby>が<ruby>止<rt>と</rt></ruby>まらないのです。<ruby>近<rt>ちか</rt></ruby>くのスタンドまで<ruby>歩<rt>ある</rt></ruby>いて、ホースで<ruby>水<rt>みず</rt></ruby>を<ruby>分<rt>わ</rt></ruby>けてもらいました。<ruby>助<rt>たす</rt></ruby>けを<ruby>呼<rt>よ</rt></ruby>ぶ<em class=\"g\">には及ばない</em>と<ruby>言<rt>い</rt></ruby>い<ruby>張<rt>は</rt></ruby>っていた<ruby>友人<rt>ゆうじん</rt></ruby>も、<ruby>一時間<rt>いちじかん</rt></ruby><ruby>格闘<rt>かくとう</rt></ruby>したあとに<ruby>折<rt>お</rt></ruby>れました。<ruby>結局<rt>けっきょく</rt></ruby>、<ruby>通<rt>とお</rt></ruby>りかかった<ruby>年配<rt>ねんぱい</rt></ruby>の<ruby>方<rt>かた</rt></ruby>がバットのような<ruby>棒<rt>ぼう</rt></ruby>をてこにして<ruby>一発<rt>いっぱつ</rt></ruby>で<ruby>緩<rt>ゆる</rt></ruby>めてくれたのです。ムードが<ruby>一気<rt>いっき</rt></ruby>に<ruby>明<rt>あか</rt></ruby>るくなりました。お<ruby>礼<rt>れい</rt></ruby>にジャズの<ruby>流<rt>なが</rt></ruby>れる<ruby>喫茶<rt>きっさ</rt></ruby><ruby>店<rt>てん</rt></ruby>でコーヒーをおごろうとしましたが、<ruby>笑<rt>わら</rt></ruby>って<ruby>断<rt>ことわ</rt></ruby>られました。<ruby>旅<rt>たび</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>で<ruby>一番<rt>いちばん</rt></ruby>よく<ruby>撮<rt>と</rt></ruby>れているのは、あのとき<ruby>路肩<rt>ろかた</rt></ruby>でとった<ruby>一枚<rt>いちまい</rt></ruby>です。",
+ "traduccion": "El primer día del viaje, nada más salir de la autopista, se nos pinchó una rueda. Intenté poner la de repuesto, pero los tornillos estaban tan duros que no giraban. Y el calor era tal que no paraba de sudar. Fui andando hasta una gasolinera cercana y me dejaron agua con una manguera. Mi amigo, que insistía en que no hacía falta pedir ayuda, acabó cediendo después de una hora peleándose con aquello. Al final, un señor mayor que pasaba por allí hizo palanca con una especie de barra, como un bate, y lo aflojó al primer intento. El ambiente se animó de golpe. Quise invitarle a un café en un local donde sonaba jazz para agradecérselo, pero se rió y dijo que no. De todas las fotos del viaje, la que mejor ha salido es la que hicimos aquel rato en el arcén.",
+ "preguntas": [
+  {
+   "p": "タイヤを<ruby>替<rt>か</rt></ruby>えられなかったのは、なぜですか。",
+   "opciones": [
+    "スペアがなかったから",
+    "ボルトが<ruby>固<rt>かた</rt></ruby>くて<ruby>回<rt>まわ</rt></ruby>らなかったから",
+    "<ruby>道具<rt>どうぐ</rt></ruby>がなかったから",
+    "<ruby>暑<rt>あつ</rt></ruby>かったから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>年配<rt>ねんぱい</rt></ruby>の<ruby>方<rt>かた</rt></ruby>はどうしましたか。",
+   "opciones": [
+    "<ruby>車<rt>くるま</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>んだ",
+    "<ruby>棒<rt>ぼう</rt></ruby>をてこにして<ruby>一発<rt>いっぱつ</rt></ruby>で<ruby>緩<rt>ゆる</rt></ruby>めた",
+    "コーヒーをおごった",
+    "<ruby>助<rt>たす</rt></ruby>けを<ruby>呼<rt>よ</rt></ruby>んだ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

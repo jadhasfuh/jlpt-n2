@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shizen/tierra-1",
+ "titulo": "<ruby>郷土<rt>きょうど</rt></ruby>の<ruby>地形<rt>ちけい</rt></ruby>",
+ "cuerpo": "<ruby>地元<rt>じもと</rt></ruby>の<ruby>資料館<rt>しりょうかん</rt></ruby>で、<ruby>郷土<rt>きょうど</rt></ruby>の<ruby>地形<rt>ちけい</rt></ruby>の<ruby>展示<rt>てんじ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。<ruby>山脈<rt>さんみゃく</rt></ruby>が<ruby>海峡<rt>かいきょう</rt></ruby>まで<ruby>続<rt>つづ</rt></ruby>き、<ruby>斜面<rt>しゃめん</rt></ruby>のあいだに<ruby>水田<rt>すいでん</rt></ruby>が<ruby>並<rt>なら</rt></ruby>ぶ<ruby>土地<rt>とち</rt></ruby>です。<ruby>高原<rt>こうげん</rt></ruby>のあたりでは<ruby>岩石<rt>がんせき</rt></ruby>から<ruby>化石<rt>かせき</rt></ruby>が<ruby>出<rt>で</rt></ruby>ることもあるそうです。<ruby>子<rt>こ</rt></ruby>どものころ、<ruby>崖<rt>がけ</rt></ruby>の<ruby>下<rt>した</rt></ruby>の<ruby>原<rt>はら</rt></ruby>っぱでよく<ruby>遊<rt>あそ</rt></ruby>んでいました。<ruby>野生<rt>やせい</rt></ruby>の<ruby>動物<rt>どうぶつ</rt></ruby>が<ruby>出<rt>で</rt></ruby>ることもあり、<ruby>親<rt>おや</rt></ruby>には<ruby>禁<rt>きん</rt></ruby>じられていたのですが。<ruby>展示<rt>てんじ</rt></ruby>は<ruby>簡素<rt>かんそ</rt></ruby>なもので、<ruby>原典<rt>げんてん</rt></ruby>の<ruby>地図<rt>ちず</rt></ruby>が<ruby>数枚<rt>すうまい</rt></ruby>かかっているだけです。それでも、<ruby>傾斜<rt>けいしゃ</rt></ruby>のきつい<ruby>農地<rt>のうち</rt></ruby>をどう<ruby>使<rt>つか</rt></ruby>ってきたかがよく<ruby>分<rt>わ</rt></ruby>かりました。<ruby>領地<rt>りょうち</rt></ruby>の<ruby>境<rt>さかい</rt></ruby>が<ruby>何度<rt>なんど</rt></ruby>も<ruby>変<rt>か</rt></ruby>わった<ruby>記録<rt>きろく</rt></ruby>も<ruby>残<rt>のこ</rt></ruby>っています。<ruby>墓地<rt>ぼち</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>だけは、<ruby>下地<rt>したじ</rt></ruby>になる<ruby>岩<rt>いわ</rt></ruby>のせいで<ruby>昔<rt>むかし</rt></ruby>から<ruby>動<rt>うご</rt></ruby>いていません。<ruby>土地<rt>とち</rt></ruby>の<ruby>記憶<rt>きおく</rt></ruby><em class=\"g\">ときたら</em>、<ruby>人<rt>ひと</rt></ruby>の<ruby>記憶<rt>きおく</rt></ruby>よりずっと<ruby>長<rt>なが</rt></ruby>いものです。<ruby>視野<rt>しや</rt></ruby>が<ruby>広<rt>ひろ</rt></ruby>がるというのは、こういうことなのだと<ruby>思<rt>おも</rt></ruby>いました。",
+ "traduccion": "En el museo local vi una exposición sobre el relieve de mi tierra. Es un territorio donde la cordillera llega hasta el estrecho y entre las laderas se alinean los arrozales. Por la zona de la meseta, al parecer, a veces salen fósiles de las rocas. De niño jugaba mucho en el descampado que hay al pie del acantilado. A veces aparecían animales salvajes y mis padres me lo tenían prohibido. La exposición es sobria: apenas unos cuantos mapas originales colgados. Aun así, se entendía bien cómo se ha aprovechado siempre un terreno de pendiente tan pronunciada. También quedan registros de las muchas veces que cambiaron los límites de las tierras. Solo el lugar del cementerio no se ha movido nunca, por la roca que tiene debajo. La memoria de la tierra es mucho más larga que la de las personas. Pensé que a esto es a lo que llaman ensanchar la mirada.",
+ "preguntas": [
+  {
+   "p": "<ruby>子<rt>こ</rt></ruby>どものころ、なぜ<ruby>原<rt>はら</rt></ruby>っぱで<ruby>遊<rt>あそ</rt></ruby>ぶのを<ruby>禁<rt>きん</rt></ruby>じられていましたか。",
+   "opciones": [
+    "<ruby>危<rt>あぶ</rt></ruby>ない<ruby>崖<rt>がけ</rt></ruby>があるから",
+    "<ruby>野生<rt>やせい</rt></ruby>の<ruby>動物<rt>どうぶつ</rt></ruby>が<ruby>出<rt>で</rt></ruby>ることがあるから",
+    "<ruby>遠<rt>とお</rt></ruby>いから",
+    "<ruby>農地<rt>のうち</rt></ruby>だから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>墓地<rt>ぼち</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>が<ruby>動<rt>うご</rt></ruby>いていないのは、なぜですか。",
+   "opciones": [
+    "<ruby>法律<rt>ほうりつ</rt></ruby>のため",
+    "<ruby>下地<rt>したじ</rt></ruby>になる<ruby>岩<rt>いわ</rt></ruby>のため",
+    "<ruby>領地<rt>りょうち</rt></ruby>の<ruby>境<rt>さかい</rt></ruby>のため",
+    "<ruby>水田<rt>すいでん</rt></ruby>のため"
+   ],
+   "correcta": 1
+  }
+ ]
+}

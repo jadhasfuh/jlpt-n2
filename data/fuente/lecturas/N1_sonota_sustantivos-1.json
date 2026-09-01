@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/sustantivos-1",
+ "titulo": "ろくな<ruby>準備<rt>じゅんび</rt></ruby>もせずに",
+ "cuerpo": "<ruby>学園祭<rt>がくえんさい</rt></ruby>でショーをやることになりました。ソロで<ruby>歌<rt>うた</rt></ruby>う<ruby>子<rt>こ</rt></ruby>、ペアで<ruby>踊<rt>おど</rt></ruby>る<ruby>子<rt>こ</rt></ruby>、それぞれに<ruby>持<rt>も</rt></ruby>ち<ruby>時間<rt>じかん</rt></ruby>があります。ぼくは<ruby>照明<rt>しょうめい</rt></ruby>の<ruby>係<rt>かかり</rt></ruby>で、シートの<ruby>配置<rt>はいち</rt></ruby>から<ruby>任<rt>まか</rt></ruby>されました。びらを<ruby>刷<rt>す</rt></ruby>って<ruby>配<rt>くば</rt></ruby>る<ruby>仕事<rt>しごと</rt></ruby>もあり、<ruby>前<rt>まえ</rt></ruby>の<ruby>週<rt>しゅう</rt></ruby>はろくに<ruby>眠<rt>ねむ</rt></ruby>れません。いびきをかいて<ruby>教室<rt>きょうしつ</rt></ruby>で<ruby>寝<rt>ね</rt></ruby>ている<ruby>仲間<rt>なかま</rt></ruby>もいました。<ruby>当日<rt>とうじつ</rt></ruby>、ブザーが<ruby>鳴<rt>な</rt></ruby>る<ruby>直前<rt>ちょくぜん</rt></ruby>まで<ruby>幕<rt>まく</rt></ruby>の<ruby>裏<rt>うら</rt></ruby>で<ruby>走<rt>はし</rt></ruby>り<ruby>回<rt>まわ</rt></ruby>っていたのです。<ruby>結果<rt>けっか</rt></ruby>は<ruby>散々<rt>さんざん</rt></ruby>でした。<ruby>照明<rt>しょうめい</rt></ruby>のカットを<ruby>一<rt>ひと</rt></ruby>つ<ruby>間違<rt>まちが</rt></ruby>えて、<ruby>暗転<rt>あんてん</rt></ruby>が<ruby>長<rt>なが</rt></ruby>すぎたのです。<ruby>責<rt>せ</rt></ruby>めるに<em class=\"g\">足りない</em>ような<ruby>小<rt>ちい</rt></ruby>さな<ruby>失敗<rt>しっぱい</rt></ruby>だと<ruby>言<rt>い</rt></ruby>ってくれた<ruby>子<rt>こ</rt></ruby>もいました。<ruby>落<rt>お</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>む<em class=\"g\">には当たらない</em>、<ruby>来年<rt>らいねん</rt></ruby>があると。<ruby>腕<rt>うで</rt></ruby>にできたあざを<ruby>見<rt>み</rt></ruby>ながら、それでも<ruby>悔<rt>くや</rt></ruby>しかったのを<ruby>覚<rt>おぼ</rt></ruby>えています。",
+ "traduccion": "Nos tocó hacer un espectáculo en el festival del colegio. Uno cantaba en solitario, otras bailaban en pareja: cada cual tenía su tiempo. Yo estaba en iluminación y me encargaron hasta la colocación de las lonas. También había que imprimir y repartir octavillas, y la semana anterior apenas dormí. Alguno se quedaba dormido roncando en el aula. El día señalado estuve corriendo detrás del telón hasta justo antes de que sonara el timbre. El resultado fue un desastre. Me equivoqué en un corte de luces y el apagón se alargó demasiado. Alguna compañera me dijo que era un fallo tan pequeño que no merecía ni reproche. Que no había por qué hundirse, que había otro año. Recuerdo que, aun así, mirándome el moratón del brazo, me dio mucha rabia.",
+ "preguntas": [
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>はどんな<ruby>係<rt>かかり</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>歌<rt>うた</rt></ruby>う<ruby>係<rt>かかり</rt></ruby>",
+    "<ruby>照明<rt>しょうめい</rt></ruby>の<ruby>係<rt>かかり</rt></ruby>",
+    "<ruby>踊<rt>おど</rt></ruby>る<ruby>係<rt>かかり</rt></ruby>",
+    "びらだけの<ruby>係<rt>かかり</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>失敗<rt>しっぱい</rt></ruby>の<ruby>内容<rt>ないよう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>時間<rt>じかん</rt></ruby>に<ruby>遅<rt>おく</rt></ruby>れた",
+    "<ruby>照明<rt>しょうめい</rt></ruby>のカットを<ruby>間違<rt>まちが</rt></ruby>えて<ruby>暗転<rt>あんてん</rt></ruby>が<ruby>長<rt>なが</rt></ruby>すぎた",
+    "びらが<ruby>足<rt>た</rt></ruby>りなかった",
+    "ブザーが<ruby>鳴<rt>な</rt></ruby>らなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}
