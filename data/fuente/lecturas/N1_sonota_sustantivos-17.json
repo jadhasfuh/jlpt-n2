@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/sustantivos-17",
+ "titulo": "<ruby>分担<rt>ぶんたん</rt></ruby>を<ruby>決<rt>き</rt></ruby>める",
+ "cuerpo": "<ruby>不況<rt>ふきょう</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>き、<ruby>店<rt>みせ</rt></ruby>の<ruby>売上<rt>うりあげ</rt></ruby>が<ruby>不振<rt>ふしん</rt></ruby>のまま<ruby>半年<rt>はんとし</rt></ruby>がすぎました。<ruby>仕入<rt>しい</rt></ruby>れの<ruby>返済<rt>へんさい</rt></ruby>が<ruby>重<rt>おも</rt></ruby>く、<ruby>負担<rt>ふたん</rt></ruby>をどう<ruby>分担<rt>ぶんたん</rt></ruby>するかを<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>います。<ruby>天候<rt>てんこう</rt></ruby>が<ruby>不順<rt>ふじゅん</rt></ruby>で<ruby>材料<rt>ざいりょう</rt></ruby>の<ruby>値<rt>ね</rt></ruby>が<ruby>上<rt>あ</rt></ruby>がったことも<ruby>重<rt>かさ</rt></ruby>なりました。<ruby>閉鎖<rt>へいさ</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>が<ruby>出<rt>で</rt></ruby>たとき、<ruby>全員<rt>ぜんいん</rt></ruby>が<ruby>黙<rt>だま</rt></ruby>りました。<ruby>誰<rt>だれ</rt></ruby>かが<ruby>辞<rt>や</rt></ruby>めることになる<em class=\"g\">ものとして</em><ruby>話<rt>はな</rt></ruby>を<ruby>進<rt>すす</rt></ruby>めるのは<ruby>酷<rt>こく</rt></ruby>なことです。それでも、<ruby>数字<rt>すうじ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ずに<ruby>決<rt>き</rt></ruby>めれば<ruby>後<rt>あと</rt></ruby>で<ruby>憤慨<rt>ふんがい</rt></ruby>する<ruby>人<rt>ひと</rt></ruby>が<ruby>出<rt>で</rt></ruby>ます。<ruby>原因<rt>げんいん</rt></ruby>が<ruby>不明<rt>ふめい</rt></ruby>なまま<ruby>責<rt>せ</rt></ruby>め<ruby>合<rt>あ</rt></ruby>うと、<ruby>侮辱<rt>ぶじょく</rt></ruby>のような<ruby>言葉<rt>ことば</rt></ruby>が<ruby>噴出<rt>ふんしゅつ</rt></ruby>し<em class=\"g\">ないとも限らない</em>のです。<ruby>一人<rt>ひとり</rt></ruby>ずつ<ruby>働<rt>はたら</rt></ruby>ける<ruby>時間<rt>じかん</rt></ruby>を<ruby>出<rt>だ</rt></ruby>し<ruby>合<rt>あ</rt></ruby>い、<ruby>便宜<rt>べんぎ</rt></ruby>をはかれる<ruby>部分<rt>ぶぶん</rt></ruby>を<ruby>探<rt>さが</rt></ruby>しました。<ruby>結果<rt>けっか</rt></ruby>として、<ruby>全員<rt>ぜんいん</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>時間<rt>じかん</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らすことで<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>きました。<ruby>報酬<rt>ほうしゅう</rt></ruby>は<ruby>下<rt>さ</rt></ruby>がりましたが、<ruby>誰<rt>だれ</rt></ruby>も<ruby>欠<rt>か</rt></ruby>けずに<ruby>冬<rt>ふゆ</rt></ruby>を<ruby>越<rt>こ</rt></ruby>せたのです。",
+ "traduccion": "La crisis siguió y pasó medio año con las ventas de la tienda estancadas. Los pagos de los pedidos pesaban y nos sentamos a hablar de cómo repartir la carga. A eso se sumó que el tiempo irregular encareció las materias primas. Cuando salió la palabra «cierre», todo el mundo se quedó callado. Es duro llevar la conversación dando por hecho que alguien tendrá que irse. Pero si decides sin mirar las cifras, después hay quien acaba indignado. Si os echáis la culpa sin saber la causa, no es descartable que salten palabras que suenan a insulto. Pusimos en común cuántas horas podía hacer cada uno y buscamos dónde ceder. El resultado fue que la cosa se resolvió reduciendo todos un poco la jornada. El salario bajó, pero pasamos el invierno sin que faltara nadie.",
+ "preguntas": [
+  {
+   "p": "<ruby>売上<rt>うりあげ</rt></ruby>の<ruby>不振<rt>ふしん</rt></ruby>に<ruby>重<rt>かさ</rt></ruby>なった<ruby>問題<rt>もんだい</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>人手<rt>ひとで</rt></ruby>が<ruby>足<rt>た</rt></ruby>りない",
+    "<ruby>天候<rt>てんこう</rt></ruby>が<ruby>不順<rt>ふじゅん</rt></ruby>で<ruby>材料<rt>ざいりょう</rt></ruby>の<ruby>値<rt>ね</rt></ruby>が<ruby>上<rt>あ</rt></ruby>がった",
+    "<ruby>店<rt>みせ</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>い",
+    "<ruby>客<rt>きゃく</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>結果<rt>けっか</rt></ruby>はどうなりましたか。",
+   "opciones": [
+    "<ruby>一人<rt>ひとり</rt></ruby>が<ruby>辞<rt>や</rt></ruby>めた",
+    "<ruby>全員<rt>ぜんいん</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>時間<rt>じかん</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らした",
+    "<ruby>店<rt>みせ</rt></ruby>を<ruby>閉鎖<rt>へいさ</rt></ruby>した",
+    "<ruby>報酬<rt>ほうしゅう</rt></ruby>は<ruby>変<rt>か</rt></ruby>わらなかった"
+   ],
+   "correcta": 1
+  }
+ ]
+}

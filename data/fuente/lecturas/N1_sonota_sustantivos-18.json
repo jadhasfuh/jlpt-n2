@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/sustantivos-18",
+ "titulo": "<ruby>保管<rt>ほかん</rt></ruby>されていた<ruby>資料<rt>しりょう</rt></ruby>",
+ "cuerpo": "<ruby>郷土<rt>きょうど</rt></ruby><ruby>資料<rt>しりょう</rt></ruby>の<ruby>整理<rt>せいり</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>っています。<ruby>倉庫<rt>そうこ</rt></ruby>に<ruby>保管<rt>ほかん</rt></ruby>されたまま、<ruby>何十年<rt>なんじゅうねん</rt></ruby>も<ruby>誰<rt>だれ</rt></ruby>も<ruby>開<rt>あ</rt></ruby>けていない<ruby>箱<rt>はこ</rt></ruby>がありました。<ruby>中身<rt>なかみ</rt></ruby>は<ruby>紡績<rt>ぼうせき</rt></ruby><ruby>工場<rt>こうじょう</rt></ruby>の<ruby>記録<rt>きろく</rt></ruby>と、<ruby>捕鯨<rt>ほげい</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>です。<ruby>密集<rt>みっしゅう</rt></ruby>した<ruby>住宅<rt>じゅうたく</rt></ruby>のあいだに<ruby>煙突<rt>えんとつ</rt></ruby>が<ruby>写<rt>うつ</rt></ruby>っていて、この<ruby>町<rt>まち</rt></ruby>に<ruby>産業<rt>さんぎょう</rt></ruby>があったころの<ruby>様子<rt>ようす</rt></ruby>がよく<ruby>分<rt>わ</rt></ruby>かります。<ruby>名称<rt>めいしょう</rt></ruby>も<ruby>残<rt>のこ</rt></ruby>っていない<ruby>工場<rt>こうじょう</rt></ruby>が、<ruby>地図<rt>ちず</rt></ruby>には<ruby>三<rt>みっ</rt></ruby>つ<ruby>載<rt>の</rt></ruby>っていました。<ruby>呆然<rt>ぼうぜん</rt></ruby>としたのは、<ruby>従業員<rt>じゅうぎょういん</rt></ruby>の<ruby>名簿<rt>めいぼ</rt></ruby>を<ruby>見<rt>み</rt></ruby>たときです。<ruby>未熟<rt>みじゅく</rt></ruby>な<ruby>十代<rt>じゅうだい</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>がずらりと<ruby>並<rt>なら</rt></ruby>んでいました。<ruby>当時<rt>とうじ</rt></ruby>の<ruby>暮<rt>く</rt></ruby>らしはさぞ<ruby>厳<rt>きび</rt></ruby>しかったことでしょう。<ruby>保守<rt>ほしゅ</rt></ruby>のための<ruby>補強<rt>ほきょう</rt></ruby>をして、<ruby>資料<rt>しりょう</rt></ruby>は<ruby>新<rt>あたら</rt></ruby>しい<ruby>棚<rt>たな</rt></ruby>に<ruby>移<rt>うつ</rt></ruby>しました。<ruby>無知<rt>むち</rt></ruby>だったことを<ruby>恥<rt>は</rt></ruby>じるより、<ruby>知<rt>し</rt></ruby>った<ruby>以上<rt>いじょう</rt></ruby>は<ruby>伝<rt>つた</rt></ruby>えるほうが<ruby>大事<rt>だいじ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>っています。",
+ "traduccion": "Estoy ayudando a ordenar el archivo local. Había cajas guardadas en el almacén que nadie había abierto en décadas. Dentro estaban los registros de una hilandería y fotos de la caza de ballenas. Entre las casas apiñadas se ve una chimenea, y se entiende bien cómo era este pueblo cuando tenía industria. En el mapa aparecían tres fábricas de las que ni el nombre se conserva. Me quedé de piedra al ver la lista de empleados. Había una hilera de nombres de adolescentes sin experiencia. La vida de entonces debió de ser durísima. Reforzamos las cajas para conservarlas y pasamos el material a estanterías nuevas. Más que avergonzarme de mi ignorancia, creo que lo importante es que, una vez que lo sabes, lo cuentes.",
+ "preguntas": [
+  {
+   "p": "<ruby>箱<rt>はこ</rt></ruby>の<ruby>中身<rt>なかみ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>古<rt>ふる</rt></ruby>い<ruby>道具<rt>どうぐ</rt></ruby>",
+    "<ruby>紡績<rt>ぼうせき</rt></ruby><ruby>工場<rt>こうじょう</rt></ruby>の<ruby>記録<rt>きろく</rt></ruby>と<ruby>捕鯨<rt>ほげい</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>",
+    "<ruby>地図<rt>ちず</rt></ruby>だけ",
+    "<ruby>手紙<rt>てがみ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>呆然<rt>ぼうぜん</rt></ruby>としたのは、なぜですか。",
+   "opciones": [
+    "<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>数<rt>かず</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かったから",
+    "<ruby>名簿<rt>めいぼ</rt></ruby>に<ruby>十代<rt>じゅうだい</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>がずらりと<ruby>並<rt>なら</rt></ruby>んでいたから",
+    "<ruby>写真<rt>しゃしん</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>かったから",
+    "<ruby>棚<rt>たな</rt></ruby>が<ruby>足<rt>た</rt></ruby>りなかったから"
+   ],
+   "correcta": 1
+  }
+ ]
+}
