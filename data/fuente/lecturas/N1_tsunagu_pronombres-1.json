@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/tsunagu/pronombres-1",
+ "titulo": "なんなり<ruby>言<rt>い</rt></ruby>ってください",
+ "cuerpo": "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しの<ruby>当日<rt>とうじつ</rt></ruby>、<ruby>鍵<rt>かぎ</rt></ruby>を<ruby>紛失<rt>ふんしつ</rt></ruby>したことに<ruby>気<rt>き</rt></ruby>づきました。<ruby>荷物<rt>にもつ</rt></ruby>はすべて<ruby>運<rt>はこ</rt></ruby>び<ruby>出<rt>だ</rt></ruby>したあとで、<ruby>台無<rt>だいな</rt></ruby>しになるかと<ruby>思<rt>おも</rt></ruby>ったのです。<ruby>管理<rt>かんり</rt></ruby><ruby>会社<rt>がいしゃ</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>すると、<ruby>担当<rt>たんとう</rt></ruby>の<ruby>方<rt>かた</rt></ruby>が「なんなり<ruby>言<rt>い</rt></ruby>ってください」と<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>いた<ruby>声<rt>こえ</rt></ruby>で<ruby>答<rt>こた</rt></ruby>えてくれました。いかにあわてていたかを、その<ruby>一言<rt>ひとこと</rt></ruby>で<ruby>気<rt>き</rt></ruby>づかされたのです。<ruby>予備<rt>よび</rt></ruby>の<ruby>鍵<rt>かぎ</rt></ruby>を<ruby>持<rt>も</rt></ruby>ってきてくれるまで、<ruby>一時間<rt>いちじかん</rt></ruby>ほど<ruby>待<rt>ま</rt></ruby>ちました。<ruby>自分<rt>じぶん</rt></ruby>で<ruby>探<rt>さが</rt></ruby>していれば<ruby>見<rt>み</rt></ruby>つかった<em class=\"g\">だろうに</em>と、いまでも<ruby>思<rt>おも</rt></ruby>います。<ruby>結局<rt>けっきょく</rt></ruby>、<ruby>鍵<rt>かぎ</rt></ruby>は<ruby>段<rt>だん</rt></ruby>ボールの<ruby>隙間<rt>すきま</rt></ruby>に<ruby>落<rt>お</rt></ruby>ちていました。<ruby>何度<rt>なんど</rt></ruby>も<ruby>突<rt>つ</rt></ruby>っついて<ruby>確<rt>たし</rt></ruby>かめた<ruby>箱<rt>はこ</rt></ruby>です。<ruby>助<rt>たす</rt></ruby>けを<ruby>呼<rt>よ</rt></ruby>べる<ruby>相手<rt>あいて</rt></ruby>がいるというのは、<ruby>安心<rt>あんしん</rt></ruby><em class=\"g\">でなくてなんだろう</em>と<ruby>思<rt>おも</rt></ruby>います。<ruby>迷惑<rt>めいわく</rt></ruby>をかけた<ruby>分<rt>ぶん</rt></ruby>、<ruby>次<rt>つぎ</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>かの<ruby>番<rt>ばん</rt></ruby>に<ruby>応<rt>こた</rt></ruby>えたいのです。",
+ "traduccion": "El día de la mudanza me di cuenta de que había perdido la llave. Ya habíamos sacado todas las cajas y pensé que aquello se iba al traste. Al llamar a la administración de la finca, la persona que me atendió me respondió con voz tranquila: «pídame lo que necesite». Con esa sola frase me di cuenta de lo nervioso que estaba. Esperé como una hora hasta que trajeron la copia de la llave. Todavía hoy pienso que, si la hubiera buscado yo, seguramente la habría encontrado. Al final la llave estaba caída en una rendija de una caja de cartón. Una caja que había hurgado y comprobado muchas veces. Tener a alguien a quien poder pedir ayuda: si eso no es tranquilidad, ¿qué lo es? Por las molestias que causé, quiero responder yo la próxima vez que le toque a otro.",
+ "preguntas": [
+  {
+   "p": "<ruby>鍵<rt>かぎ</rt></ruby>はどこにありましたか。",
+   "opciones": [
+    "<ruby>管理<rt>かんり</rt></ruby><ruby>会社<rt>がいしゃ</rt></ruby>",
+    "<ruby>段<rt>だん</rt></ruby>ボールの<ruby>隙間<rt>すきま</rt></ruby>",
+    "<ruby>新<rt>あたら</rt></ruby>しい<ruby>家<rt>いえ</rt></ruby>",
+    "<ruby>見<rt>み</rt></ruby>つからなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>担当<rt>たんとう</rt></ruby>の<ruby>方<rt>かた</rt></ruby>の<ruby>一言<rt>ひとこと</rt></ruby>で、<ruby>何<rt>なに</rt></ruby>に<ruby>気<rt>き</rt></ruby>づきましたか。",
+   "opciones": [
+    "<ruby>鍵<rt>かぎ</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>",
+    "<ruby>自分<rt>じぶん</rt></ruby>がいかにあわてていたか",
+    "<ruby>荷物<rt>にもつ</rt></ruby>の<ruby>多<rt>おお</rt></ruby>さ",
+    "<ruby>時間<rt>じかん</rt></ruby>のなさ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

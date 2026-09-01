@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/tsunagu/afijos-1",
+ "titulo": "<ruby>我<rt>わ</rt></ruby>が<ruby>家<rt>や</rt></ruby>のひび",
+ "cuerpo": "<ruby>台所<rt>だいどころ</rt></ruby>の<ruby>壁<rt>かべ</rt></ruby>にひびが<ruby>入<rt>はい</rt></ruby>っているのに<ruby>気<rt>き</rt></ruby>づきました。<ruby>我<rt>わ</rt></ruby>が<ruby>家<rt>や</rt></ruby>は<ruby>築<rt>ちく</rt></ruby><ruby>四十年<rt>よんじゅうねん</rt></ruby>、<ruby>片<rt>かた</rt></ruby>すみの<ruby>柱<rt>はしら</rt></ruby>も<ruby>色<rt>いろ</rt></ruby>があせています。<ruby>直<rt>なお</rt></ruby>す<em class=\"g\">ほどのことではない</em>と<ruby>夫<rt>おっと</rt></ruby>は<ruby>言<rt>い</rt></ruby>いますが、<ruby>放<rt>ほう</rt></ruby>っておいて<ruby>広<rt>ひろ</rt></ruby>がるのもこわいのです。<ruby>知<rt>し</rt></ruby>り<ruby>合<rt>あ</rt></ruby>いの<ruby>大工<rt>だいく</rt></ruby>さんに<ruby>見<rt>み</rt></ruby>てもらったところ、「<ruby>心配<rt>しんぱい</rt></ruby>する<em class=\"g\">までもない</em>」と<ruby>言<rt>い</rt></ruby>われました。<ruby>建物<rt>たてもの</rt></ruby>が<ruby>乾<rt>かわ</rt></ruby>いて<ruby>縮<rt>ちぢ</rt></ruby>んだだけで、<ruby>構造<rt>こうぞう</rt></ruby>には<ruby>関係<rt>かんけい</rt></ruby>がないのだそうです。<ruby>一<rt>ひと</rt></ruby><ruby>歩<rt>ほ</rt></ruby><ruby>下<rt>さ</rt></ruby>がって<ruby>全体<rt>ぜんたい</rt></ruby>を<ruby>見<rt>み</rt></ruby>ると、たしかに<ruby>傾<rt>かたむ</rt></ruby>いてはいません。ついでに<ruby>屋根<rt>やね</rt></ruby>まで<ruby>上<rt>あ</rt></ruby>がって<ruby>干<rt>ほ</rt></ruby>し<ruby>物<rt>もの</rt></ruby><ruby>台<rt>だい</rt></ruby>の<ruby>金具<rt>かなぐ</rt></ruby>も<ruby>直<rt>なお</rt></ruby>してくれました。<ruby>光<rt>ひかり</rt></ruby>の<ruby>入<rt>はい</rt></ruby>り<ruby>方<rt>かた</rt></ruby>が<ruby>変<rt>か</rt></ruby>わるように<ruby>窓<rt>まど</rt></ruby>を<ruby>拭<rt>ふ</rt></ruby>き、<ruby>泥<rt>どろ</rt></ruby>まみれになった<ruby>手<rt>て</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>って<ruby>帰<rt>かえ</rt></ruby>っていったのです。<ruby>何<rt>なに</rt></ruby>も<ruby>起<rt>お</rt></ruby>きていないと<ruby>分<rt>わ</rt></ruby>かるだけで、<ruby>家<rt>いえ</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>し<ruby>明<rt>あか</rt></ruby>るく<ruby>見<rt>み</rt></ruby>えました。",
+ "traduccion": "Me di cuenta de que había una grieta en la pared de la cocina. Nuestra casa tiene cuarenta años y hasta la columna de un rincón ha perdido color. Mi marido dice que no es como para arreglarlo, pero también da miedo dejarlo y que se abra más. Al pedirle a un carpintero conocido que lo mirara, me dijo: «no hay ni que preocuparse». Al parecer es solo que el edificio se ha secado y encogido, y no afecta a la estructura. Dando un paso atrás y mirando el conjunto, es verdad que no está torcido. Ya de paso se subió al tejado y me arregló los herrajes del tendedero. Limpió las ventanas para que entrara mejor la luz, se lavó las manos, llenas de barro, y se marchó. Con solo saber que no pasaba nada, la casa se veía un poco más luminosa.",
+ "preguntas": [
+  {
+   "p": "ひびの<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>構造<rt>こうぞう</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>",
+    "<ruby>建物<rt>たてもの</rt></ruby>が<ruby>乾<rt>かわ</rt></ruby>いて<ruby>縮<rt>ちぢ</rt></ruby>んだだけ",
+    "<ruby>地震<rt>じしん</rt></ruby>",
+    "<ruby>屋根<rt>やね</rt></ruby>の<ruby>金具<rt>かなぐ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>大工<rt>だいく</rt></ruby>さんは、ついでに<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>壁<rt>かべ</rt></ruby>を<ruby>塗<rt>ぬ</rt></ruby>った",
+    "<ruby>屋根<rt>やね</rt></ruby>に<ruby>上<rt>あ</rt></ruby>がって<ruby>干<rt>ほ</rt></ruby>し<ruby>物<rt>もの</rt></ruby><ruby>台<rt>だい</rt></ruby>の<ruby>金具<rt>かなぐ</rt></ruby>を<ruby>直<rt>なお</rt></ruby>した",
+    "<ruby>柱<rt>はしら</rt></ruby>を<ruby>替<rt>か</rt></ruby>えた",
+    "<ruby>窓<rt>まど</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>替<rt>か</rt></ruby>えた"
+   ],
+   "correcta": 1
+  }
+ ]
+}
