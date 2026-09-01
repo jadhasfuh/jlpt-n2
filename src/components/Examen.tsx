@@ -42,6 +42,7 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
   const [respuestas, setRespuestas] = useState<Record<string, number>>({});
   const [revelada, setRevelada] = useState(false);
   const [fin, setFin] = useState<null | "tiempo" | "terminado">(null);
+  const [sinAcceso, setSinAcceso] = useState(false);
   const [queda, setQueda] = useState(ajuste.minutos * 60);
   const pedido = useRef(false);
   const enviado = useRef(false);
@@ -53,8 +54,12 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
       method: "POST", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ ajuste, vistos: leerVistos() }),
     })
-      .then((r) => r.json())
-      .then((d) => {
+      .then(async (r) => {
+        // 402 es «hace falta suscripción», no «no hay preguntas». Sin
+        // distinguirlos, quien no ha entrado ve un banco vacío y cree que la
+        // app no tiene contenido, que es justo lo contrario de lo que pasa.
+        if (r.status === 402) { setSinAcceso(true); setItems([]); return; }
+        const d = await r.json();
         const lista = (d.items ?? []) as Item[];
         setItems(lista);
         anotarVistos(lista.map((x) => x.id));
@@ -135,7 +140,18 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
         <div className="escena-cabeza">
           <button className="icono-btn" onClick={cerrar} aria-label={t("com.cerrar")}><IcCerrar size={16} /></button>
         </div>
-        <div className="escena-centro"><p>{t("ex.sinPreguntas")}</p></div>
+        <div className="escena-centro">
+          {sinAcceso ? (
+            <>
+              <p style={{ fontSize: 16 }}>{t("ex.hacefaltaCuenta")}</p>
+              <a className="btn primario" href="/suscripcion" style={{ marginTop: 10 }}>
+                {t("ex.verSuscripcion")} <IcDerecha size={15} />
+              </a>
+            </>
+          ) : (
+            <p>{t("ex.sinPreguntas")}</p>
+          )}
+        </div>
       </div>
     );
   }
