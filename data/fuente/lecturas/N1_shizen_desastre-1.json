@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shizen/desastre-1",
+ "titulo": "<ruby>応急<rt>おうきゅう</rt></ruby>の<ruby>訓練<rt>くんれん</rt></ruby>",
+ "cuerpo": "<ruby>町内<rt>ちょうない</rt></ruby>で<ruby>災害<rt>さいがい</rt></ruby>の<ruby>訓練<rt>くんれん</rt></ruby>がありました。<ruby>参加<rt>さんか</rt></ruby>したのはおよそ<ruby>五十人<rt>ごじゅうにん</rt></ruby>、<ruby>半分<rt>はんぶん</rt></ruby>は<ruby>高齢<rt>こうれい</rt></ruby>の<ruby>方<rt>かた</rt></ruby>です。<ruby>応急<rt>おうきゅう</rt></ruby>の<ruby>手当<rt>てあて</rt></ruby>と、<ruby>脱出<rt>だっしゅつ</rt></ruby>の<ruby>経路<rt>けいろ</rt></ruby>の<ruby>確認<rt>かくにん</rt></ruby>が<ruby>中心<rt>ちゅうしん</rt></ruby>でした。<ruby>消防<rt>しょうぼう</rt></ruby>の<ruby>方<rt>かた</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>は、<ruby>普段<rt>ふだん</rt></ruby>の<ruby>和<rt>なご</rt></ruby>やかな<ruby>様子<rt>ようす</rt></ruby><em class=\"g\">とは打って変わって</em><ruby>危機<rt>きき</rt></ruby>のときの<ruby>判断<rt>はんだん</rt></ruby>について<ruby>厳<rt>きび</rt></ruby>しいものでした。<ruby>逃<rt>に</rt></ruby>げる<ruby>機会<rt>きかい</rt></ruby>を<ruby>逃<rt>のが</rt></ruby>すのは、たいてい<ruby>様子<rt>ようす</rt></ruby>を<ruby>見<rt>み</rt></ruby>ようとしたときだと。<ruby>天災<rt>てんさい</rt></ruby>は<ruby>警戒<rt>けいかい</rt></ruby>していても<ruby>防<rt>ふせ</rt></ruby>げません。<ruby>建物<rt>たてもの</rt></ruby>の<ruby>破損<rt>はそん</rt></ruby>や<ruby>破壊<rt>はかい</rt></ruby>は<ruby>避<rt>さ</rt></ruby>けられないのだから、<ruby>危害<rt>きがい</rt></ruby>を<ruby>受<rt>う</rt></ruby>ける<ruby>前<rt>まえ</rt></ruby>に<ruby>動<rt>うご</rt></ruby>くしかないのです。<ruby>救援<rt>きゅうえん</rt></ruby>が<ruby>来<rt>く</rt></ruby>るまでの<ruby>三日<rt>みっか</rt></ruby>を<ruby>自分<rt>じぶん</rt></ruby>たちで<ruby>持<rt>も</rt></ruby>ちこたえる。<ruby>悲惨<rt>ひさん</rt></ruby>な<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>くためではなく、<ruby>無難<rt>ぶなん</rt></ruby>に<ruby>生<rt>い</rt></ruby>き<ruby>延<rt>の</rt></ruby>びるために<ruby>集<rt>あつ</rt></ruby>まったのだと<ruby>最後<rt>さいご</rt></ruby>に<ruby>言<rt>い</rt></ruby>われました。",
+ "traduccion": "Hubo un simulacro de catástrofe en el barrio. Participamos unas cincuenta personas, la mitad de ellas mayores. Se centró en los primeros auxilios y en revisar las rutas de evacuación. El bombero que nos habló, muy distinto de su tono habitualmente afable, fue severo al hablar de cómo decidir en una crisis. Que la ocasión de escapar se pierde, casi siempre, cuando uno se queda a ver qué pasa. Una catástrofe natural no se evita por mucho que estés alerta. Como los daños y la destrucción de los edificios son inevitables, no queda más que moverse antes de que te alcance. Aguantar por nuestros medios los tres días hasta que llegue el rescate. Al final nos dijo que no nos habíamos reunido para oír historias trágicas, sino para salir de esta sanos y salvos.",
+ "preguntas": [
+  {
+   "p": "<ruby>逃<rt>に</rt></ruby>げる<ruby>機会<rt>きかい</rt></ruby>を<ruby>逃<rt>のが</rt></ruby>すのは、どんなときですか。",
+   "opciones": [
+    "すぐに<ruby>動<rt>うご</rt></ruby>いたとき",
+    "<ruby>様子<rt>ようす</rt></ruby>を<ruby>見<rt>み</rt></ruby>ようとしたとき",
+    "<ruby>救援<rt>きゅうえん</rt></ruby>を<ruby>待<rt>ま</rt></ruby>ったとき",
+    "<ruby>訓練<rt>くんれん</rt></ruby>をしなかったとき"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>救援<rt>きゅうえん</rt></ruby>が<ruby>来<rt>く</rt></ruby>るまで、<ruby>何日<rt>なんにち</rt></ruby><ruby>持<rt>も</rt></ruby>ちこたえる<ruby>必要<rt>ひつよう</rt></ruby>がありますか。",
+   "opciones": [
+    "<ruby>一日<rt>いちにち</rt></ruby>",
+    "<ruby>三日<rt>みっか</rt></ruby>",
+    "<ruby>一週間<rt>いっしゅうかん</rt></ruby>",
+    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -403,5 +403,8 @@ export function significadoSecundario(
   idioma: Idioma,
 ): string {
   const en = Array.isArray(item.en) ? item.en.join(", ") : (item.en ?? "");
-  return idioma === "en" ? (item.es || "") : en;
+  const otro = idioma === "en" ? (item.es || "") : en;
+  // Si falta la traducción, `significado` cae al otro idioma y aquí saldría lo
+  // mismo dos veces, una debajo de otra. Mejor no enseñar nada.
+  return otro === significado(item, idioma) ? "" : otro;
 }

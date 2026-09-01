@@ -158,7 +158,18 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
                 )}
               </>
             ) : (
-              <div style={{ fontSize: 13 }}>{sigSec(q.palabra, idioma)}</div>
+              // Sin frase de ejemplo, aquí sólo salía sigSec — que por diseño
+              // es «el otro idioma». En español eso dejaba la explicación
+              // entera en inglés (見舞う y todas las que no tienen ejemplo).
+              // El significado va en el idioma elegido, y el otro debajo.
+              <>
+                <div style={{ fontSize: 13 }}>{sig(q.palabra, idioma)}</div>
+                {sigSec(q.palabra, idioma) && (
+                  <div style={{ fontSize: 11.5, color: "var(--tinta-3)", marginTop: 2 }}>
+                    {sigSec(q.palabra, idioma)}
+                  </div>
+                )}
+              </>
             )}
             {vuelve && (
               <div className="tenue" style={{ marginTop: 6 }}>
