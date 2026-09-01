@@ -15,6 +15,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const raiz = [
     { url: `${SITIO}/`, priority: 1 },
     { url: `${SITIO}/examen`, priority: 0.8 },
+    // Las dos únicas páginas que alguien de fuera puede usar entera sin cuenta,
+    // así que son las que tienen algo que hacer en un buscador.
+    { url: `${SITIO}/test/n5`, priority: 0.9 },
+    { url: `${SITIO}/test/n4`, priority: 0.9 },
     { url: `${SITIO}/repaso`, priority: 0.5 },
     { url: `${SITIO}/legal/terminos`, priority: 0.3 },
     { url: `${SITIO}/legal/privacidad`, priority: 0.3 },

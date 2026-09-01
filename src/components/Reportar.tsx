@@ -75,7 +75,7 @@ export function Reportar({ tipo, ref_, visto, compacto = false }: {
               aria-label={t("rep2.marcador")}
               style={{
                 width: "100%", background: "var(--fondo-2)", color: "var(--tinta)",
-                border: "1px solid var(--borde)", borderRadius: "var(--radio)",
+                border: "1px solid var(--linea)", borderRadius: "var(--radio)",
                 padding: "9px 11px", fontSize: 14, fontFamily: "inherit", resize: "vertical",
               }}
             />

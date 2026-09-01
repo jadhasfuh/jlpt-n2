@@ -24,7 +24,10 @@ const API = ENTORNO === "production" ? "https://api.paddle.com" : "https://sandb
 export function ajustesNavegador() {
   const token = process.env.PADDLE_TOKEN ?? "";
   const precio = process.env.PADDLE_PRECIO ?? "";
-  return { token, precio, entorno: ENTORNO, listo: Boolean(token && precio) };
+  // El anual es opcional a propósito: mientras no exista el precio en Paddle,
+  // la página se comporta exactamente como antes y sólo ofrece el mensual.
+  const precioAnual = process.env.PADDLE_PRECIO_ANUAL ?? "";
+  return { token, precio, precioAnual, entorno: ENTORNO, listo: Boolean(token && precio) };
 }
 
 export function hayPasarela(): boolean {
@@ -148,13 +151,14 @@ function formatear(cantidad: number, moneda: string, idioma: "es" | "en") {
   }).format(cantidad);
 }
 
-export async function precio(idioma: "es" | "en" = "es") {
-  const id = process.env.PADDLE_PRECIO;
+export async function precio(idioma: "es" | "en" = "es", idPrecio?: string) {
+  const id = idPrecio ?? process.env.PADDLE_PRECIO;
   const clave = process.env.PADDLE_API_KEY;
   if (!id || !clave) {
     return {
       texto: formatear(PRECIO_ANUNCIADO.cantidad, PRECIO_ANUNCIADO.moneda, idioma),
       intervalo: PRECIO_ANUNCIADO.intervalo,
+      cantidad: PRECIO_ANUNCIADO.cantidad, moneda: PRECIO_ANUNCIADO.moneda,
     };
   }
   try {
@@ -169,6 +173,7 @@ export async function precio(idioma: "es" | "en" = "es") {
     return {
       texto: formatear(cantidad, moneda, idioma),
       intervalo: j.data.billing_cycle?.interval ?? null,
+      cantidad, moneda,
     };
   } catch {
     // Si Paddle no contesta, mejor el precio anunciado que un hueco: la página
@@ -176,6 +181,50 @@ export async function precio(idioma: "es" | "en" = "es") {
     return {
       texto: formatear(PRECIO_ANUNCIADO.cantidad, PRECIO_ANUNCIADO.moneda, idioma),
       intervalo: PRECIO_ANUNCIADO.intervalo,
+      cantidad: PRECIO_ANUNCIADO.cantidad, moneda: PRECIO_ANUNCIADO.moneda,
     };
   }
+}
+
+export type Tarifa = {
+  texto: string; intervalo: string | null; cantidad: number; moneda: string;
+  /** Lo que sale al mes pagando el año entero, ya formateado. */
+  porMes?: string;
+  /** Cuánto se ahorra frente a doce mensualidades, en porcentaje entero. */
+  ahorro?: number;
+  /** Lo que costarían doce meses sueltos, para poder dibujar la comparación. */
+  doceMeses?: string;
+};
+
+/**
+ * Las dos tarifas, mensual y anual, con el ahorro ya calculado.
+ *
+ * El ahorro no se escribe a mano en ningún sitio: sale de comparar las dos
+ * cifras que Paddle devuelve. Si algún día se cambia uno de los dos precios,
+ * el «ahorras un X %» se corrige solo en vez de quedarse mintiendo.
+ *
+ * Si no hay precio anual configurado, `anual` viene a null y la página enseña
+ * el mensual tal cual, sin selector.
+ */
+export async function tarifas(idioma: "es" | "en" = "es") {
+  const idAnual = process.env.PADDLE_PRECIO_ANUAL;
+  const [mensual, anual] = await Promise.all([
+    precio(idioma),
+    idAnual && process.env.PADDLE_API_KEY ? precio(idioma, idAnual) : Promise.resolve(null),
+  ]);
+  if (!mensual || !anual) return { mensual, anual: null };
+
+  const doceMeses = mensual.cantidad * 12;
+  const ahorro = doceMeses > 0
+    ? Math.round(((doceMeses - anual.cantidad) / doceMeses) * 100) : 0;
+  return {
+    mensual,
+    anual: {
+      ...anual,
+      porMes: formatear(anual.cantidad / 12, anual.moneda, idioma),
+      doceMeses: formatear(doceMeses, mensual.moneda, idioma),
+      // Un ahorro de cero o negativo no se anuncia: sería ruido, o mentira.
+      ahorro: ahorro > 0 ? ahorro : undefined,
+    },
+  };
 }

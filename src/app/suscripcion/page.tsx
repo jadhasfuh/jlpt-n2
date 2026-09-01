@@ -1,7 +1,7 @@
 import { Cabecera } from "@/components/Cabecera";
 import { Suscripcion } from "@/components/Suscripcion";
 import { alDia, perfil } from "@/lib/sesion";
-import { ajustesNavegador, precio } from "@/lib/paddle";
+import { ajustesNavegador, tarifas } from "@/lib/paddle";
 import { idiomaActual } from "@/lib/idioma-servidor";
 import { t as trad } from "@/lib/idioma";
 
@@ -14,7 +14,7 @@ export default async function Pagina(
   // Quien llega redirigido desde una sección bloqueada necesita saber por qué
   // ha acabado aquí; si no, parece que la app le ha echado sin motivo.
   const { desde } = await searchParams;
-  const [p, tarifa] = await Promise.all([perfil(), precio(idioma)]);
+  const [p, tarifa] = await Promise.all([perfil(), tarifas(idioma)]);
   // Del perfil sólo baja lo que la pantalla necesita: los ids del proveedor de
   // pago se quedan en el servidor.
   const cuenta = p && {

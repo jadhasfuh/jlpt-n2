@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useAjustes } from "./Ajustes";
-import { IcBien, IcDerecha } from "./Iconos";
+import { IcBien, IcCurso, IcDerecha, IcExamen, IcRepaso } from "./Iconos";
 
 /** «auto» sigue lo que tenga puesto el sistema, igual que el resto de la app. */
 function temaDePaddle(tema: "auto" | "claro" | "oscuro"): "light" | "dark" {
@@ -28,13 +28,32 @@ declare global { interface Window { Paddle?: Paddle } }
  * webhook tarda un par de segundos en llegar: se recarga cuando Paddle avisa
  * de que la compra se completó.
  */
+type Tarifa = { texto: string; intervalo: string | null; porMes?: string;
+                ahorro?: number; doceMeses?: string };
+
+const NIVELES = ["N5", "N4", "N3", "N2", "N1"] as const;
+
+/** Cada ventaja con su icono: una lista de puntos no dice nada de un vistazo. */
+const VENTAJAS = [
+  { k: "sus.p1", Ic: IcCurso },
+  { k: "sus.p2", Ic: IcExamen },
+  { k: "sus.p3", Ic: IcRepaso },
+  { k: "sus.p4", Ic: IcBien },
+] as const;
+
 export function Suscripcion({ ajustes, cuenta, tarifa }: {
-  ajustes: { token: string; precio: string; entorno: string; listo: boolean };
+  ajustes: { token: string; precio: string; precioAnual: string;
+             entorno: string; listo: boolean };
   cuenta: { correo: string | null; id: string; alDia: boolean; membresia: string;
             vence: string | null; tienePago: boolean } | null;
-  tarifa: { texto: string; intervalo: string | null } | null;
+  tarifa: { mensual: Tarifa | null; anual: Tarifa | null };
 }) {
   const { t, idioma, tema } = useAjustes();
+  // El anual sale marcado cuando existe: es el que conviene a los dos, y así
+  // el descuento se ve sin tener que buscarlo.
+  const hayAnual = Boolean(tarifa.anual && ajustes.precioAnual);
+  const [plan, setPlan] = useState<"mes" | "ano">(hayAnual ? "ano" : "mes");
+  const elegida = plan === "ano" && hayAnual ? tarifa.anual! : tarifa.mensual;
   const [cargado, setCargado] = useState(false);
   const [ocupado, setOcupado] = useState(false);
   const [error, setError] = useState("");
@@ -66,7 +85,8 @@ export function Suscripcion({ ajustes, cuenta, tarifa }: {
   const suscribirse = () => {
     if (!window.Paddle || !cuenta) return;
     window.Paddle.Checkout.open({
-      items: [{ priceId: ajustes.precio, quantity: 1 }],
+      items: [{ priceId: plan === "ano" && hayAnual ? ajustes.precioAnual : ajustes.precio,
+                quantity: 1 }],
       ...(cuenta.correo ? { customer: { email: cuenta.correo } } : {}),
       // El id del perfil viaja con la compra: es lo que ata el pago a la cuenta
       // cuando el webhook llega, sin depender de que el correo coincida.
@@ -139,20 +159,98 @@ export function Suscripcion({ ajustes, cuenta, tarifa }: {
       <div className="tarjeta" style={{ marginTop: 26, padding: 22 }}>
         {/* El precio va antes que la lista: es lo primero que busca quien entra,
             y Paddle exige verlo en la web antes de aprobar la cuenta. */}
-        {tarifa && (
-          <p style={{ margin: "0 0 14px", display: "flex", alignItems: "baseline", gap: 6 }}>
-            <span style={{ fontSize: 30, fontWeight: 600, color: "var(--tinta)" }}>{tarifa.texto}</span>
-            <span style={{ fontSize: 13.5, color: "var(--tinta-2)" }}>
-              {t(tarifa.intervalo === "year" ? "sus.alAno" : "sus.alMes")}
-            </span>
-          </p>
+        {hayAnual && (
+          <div role="group" aria-label={t("sus.queIncluye")}
+               style={{ display: "flex", gap: 6, marginBottom: 16 }}>
+            {(["mes", "ano"] as const).map((cual) => {
+              const act = plan === cual;
+              return (
+                <button key={cual} type="button" onClick={() => setPlan(cual)}
+                  aria-pressed={act}
+                  style={{
+                    flex: 1, minHeight: 42, borderRadius: "var(--radio)", cursor: "pointer",
+                    fontSize: 14, fontWeight: act ? 600 : 400,
+                    display: "flex", alignItems: "center", justifyContent: "center", gap: 6,
+                    color: act ? "var(--tinta)" : "var(--tinta-2)",
+                    background: act
+                      ? "color-mix(in srgb, var(--acento) 14%, transparent)" : "transparent",
+                    border: `1px solid ${act
+                      ? "color-mix(in srgb, var(--acento) 46%, transparent)" : "var(--linea)"}`,
+                  }}>
+                  {t(cual === "mes" ? "sus.mensual" : "sus.anual")}
+                  {cual === "ano" && tarifa.anual?.ahorro && (
+                    <span className="pastilla acento" style={{ fontSize: 11, padding: "1px 7px" }}>
+                      {t("sus.ahorras", { n: String(tarifa.anual.ahorro) })}
+                    </span>
+                  )}
+                </button>
+              );
+            })}
+          </div>
         )}
-        <h2 style={{ fontSize: 17, fontWeight: 500, margin: "0 0 10px" }}>{t("sus.queIncluye")}</h2>
-        <ul style={{ margin: 0, paddingLeft: 18, fontSize: 14, lineHeight: 1.9, color: "var(--tinta-2)" }}>
-          <li>{t("sus.p1")}</li>
-          <li>{t("sus.p2")}</li>
-          <li>{t("sus.p3")}</li>
-          <li>{t("sus.p4")}</li>
+        {elegida && (
+          <>
+            <p style={{ margin: "0 0 4px", display: "flex", alignItems: "baseline", gap: 6 }}>
+              <span style={{ fontSize: 30, fontWeight: 600, color: "var(--tinta)" }}>{elegida.texto}</span>
+              <span style={{ fontSize: 13.5, color: "var(--tinta-2)" }}>
+                {t(elegida.intervalo === "year" ? "sus.alAno" : "sus.alMes")}
+              </span>
+            </p>
+            {/* Al año, la cifra grande asusta si no se dice a cuánto sale el
+                mes. Sin plan anual no hay nada que aclarar y la línea sobra. */}
+            {(elegida.porMes || hayAnual) && (
+              <p className="tenue" style={{ margin: "0 0 14px" }}>
+                {elegida.porMes ? t("sus.equivale", { p: elegida.porMes }) : t("sus.mismoTodo")}
+              </p>
+            )}
+          </>
+        )}
+        {/* Comparación en barras. Es la forma más honesta de enseñar el
+            descuento: se ve el tamaño de las dos cifras, no sólo el número. */}
+        {plan === "ano" && tarifa.anual?.doceMeses && tarifa.anual?.ahorro && (
+          <div style={{ margin: "0 0 18px" }}>
+            <Barra etiqueta={t("sus.doceSueltos")} valor={tarifa.anual.doceMeses}
+                   ancho={100} acento={false} />
+            <Barra etiqueta={t("sus.unAno")} valor={tarifa.anual.texto}
+                   ancho={100 - tarifa.anual.ahorro} acento />
+          </div>
+        )}
+
+        {/* Los cinco niveles, que es lo que de verdad se compra. */}
+        <p style={{ margin: "0 0 8px", fontSize: 13, color: "var(--tinta-2)" }}>
+          {t("sus.cincoNiveles")}
+        </p>
+        <div style={{ display: "flex", gap: 5, marginBottom: 20 }}>
+          {NIVELES.map((n, i) => (
+            <span key={n} style={{
+              flex: 1, textAlign: "center", padding: "7px 0", fontSize: 13, fontWeight: 600,
+              borderRadius: "var(--radio)", color: "var(--acento)",
+              // Cada nivel un poco más presente que el anterior: sugiere avance
+              // sin necesidad de una flecha ni de explicarlo.
+              background: `color-mix(in srgb, var(--acento) ${7 + i * 4}%, transparent)`,
+              border: `1px solid color-mix(in srgb, var(--acento) ${18 + i * 7}%, transparent)`,
+            }}>{n}</span>
+          ))}
+        </div>
+
+        <h2 style={{ fontSize: 17, fontWeight: 500, margin: "0 0 12px" }}>{t("sus.queIncluye")}</h2>
+        <ul style={{ listStyle: "none", margin: 0, padding: 0 }}>
+          {VENTAJAS.map(({ k, Ic }) => (
+            <li key={k} style={{
+              display: "flex", alignItems: "flex-start", gap: 11, marginBottom: 12,
+              fontSize: 14, lineHeight: 1.6, color: "var(--tinta-2)",
+            }}>
+              <span style={{
+                flex: "0 0 auto", width: 30, height: 30, borderRadius: "50%",
+                display: "grid", placeItems: "center",
+                background: "color-mix(in srgb, var(--acento) 13%, transparent)",
+                border: "1px solid color-mix(in srgb, var(--acento) 26%, transparent)",
+              }}>
+                <Ic size={15} style={{ color: "var(--acento)" }} />
+              </span>
+              <span style={{ paddingTop: 5 }}>{t(k)}</span>
+            </li>
+          ))}
         </ul>
       </div>
 
@@ -179,6 +277,31 @@ export function Suscripcion({ ajustes, cuenta, tarifa }: {
       {error && <p style={{ color: "var(--rojo)", fontSize: 13 }}>{error}</p>}
       <Politicas t={t} />
     </>
+  );
+}
+
+/** Una barra de la comparación anual: etiqueta, cifra y longitud proporcional. */
+function Barra({ etiqueta, valor, ancho, acento }: {
+  etiqueta: string; valor: string; ancho: number; acento: boolean;
+}) {
+  return (
+    <div style={{ marginBottom: 9 }}>
+      <div style={{ display: "flex", justifyContent: "space-between", fontSize: 12.5,
+                    color: acento ? "var(--tinta)" : "var(--tinta-2)", marginBottom: 4 }}>
+        <span>{etiqueta}</span>
+        <span style={{ fontWeight: acento ? 600 : 400,
+                       textDecoration: acento ? "none" : "line-through",
+                       opacity: acento ? 1 : 0.7 }}>{valor}</span>
+      </div>
+      <div style={{ height: 8, borderRadius: 4, background: "var(--pista)", overflow: "hidden" }}>
+        <div style={{
+          width: `${Math.max(8, ancho)}%`, height: "100%", borderRadius: 4,
+          background: acento
+            ? "var(--acento)" : "color-mix(in srgb, var(--tinta-2) 32%, transparent)",
+          transition: "width .3s ease-out",
+        }} />
+      </div>
+    </div>
   );
 }
 
