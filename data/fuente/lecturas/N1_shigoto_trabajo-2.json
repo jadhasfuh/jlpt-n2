@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shigoto/trabajo-2",
+ "titulo": "<ruby>辞職<rt>じしょく</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えた<ruby>年<rt>とし</rt></ruby>",
+ "cuerpo": "<ruby>転任<rt>てんにん</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>が<ruby>出<rt>で</rt></ruby>たとき、<ruby>喜<rt>よろこ</rt></ruby>ばれるものだと<ruby>思<rt>おも</rt></ruby>っていました。<ruby>出世<rt>しゅっせ</rt></ruby>だと<ruby>周<rt>まわ</rt></ruby>りに<ruby>言<rt>い</rt></ruby>われましたが、<ruby>職務<rt>しょくむ</rt></ruby>の<ruby>中身<rt>なかみ</rt></ruby>は<ruby>庶務<rt>しょむ</rt></ruby>に<ruby>近<rt>ちか</rt></ruby>いものに<ruby>変<rt>か</rt></ruby>わったのです。<ruby>喜<rt>よろこ</rt></ruby>んでいいのかと<ruby>思<rt>おも</rt></ruby>い<em class=\"g\">きや</em>、<ruby>同<rt>おな</rt></ruby>じ<ruby>部署<rt>ぶしょ</rt></ruby>の<ruby>職員<rt>しょくいん</rt></ruby>に<ruby>相談<rt>そうだん</rt></ruby>すると「<ruby>責務<rt>せきむ</rt></ruby>が<ruby>重<rt>おも</rt></ruby>くなるだけだ」と<ruby>言<rt>い</rt></ruby>われました。<ruby>総会<rt>そうかい</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>、<ruby>取引<rt>とりひき</rt></ruby><ruby>先<rt>さき</rt></ruby>との<ruby>対面<rt>たいめん</rt></ruby>、<ruby>合議<rt>ごうぎ</rt></ruby>の<ruby>記録<rt>きろく</rt></ruby>。<ruby>手数<rt>てかず</rt></ruby>のかかる<ruby>仕事<rt>しごと</rt></ruby>が<ruby>一気<rt>いっき</rt></ruby>に<ruby>増<rt>ふ</rt></ruby>えます。<ruby>辞職<rt>じしょく</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えた<ruby>夜<rt>よる</rt></ruby>も<ruby>何度<rt>なんど</rt></ruby>かありました。<ruby>就業<rt>しゅうぎょう</rt></ruby>してから<ruby>十年<rt>じゅうねん</rt></ruby>、はじめての<ruby>迷<rt>まよ</rt></ruby>いです。<ruby>相談<rt>そうだん</rt></ruby>した<em class=\"g\">甲斐もなく</em><ruby>結論<rt>けつろん</rt></ruby>は<ruby>出<rt>で</rt></ruby>ませんでしたが、<ruby>分業<rt>ぶんぎょう</rt></ruby>の<ruby>仕方<rt>しかた</rt></ruby>を<ruby>変<rt>か</rt></ruby>えてもらうことで<ruby>何<rt>なん</rt></ruby>とか<ruby>続<rt>つづ</rt></ruby>けています。<ruby>細工<rt>さいく</rt></ruby>のような<ruby>細<rt>こま</rt></ruby>かい<ruby>調整<rt>ちょうせい</rt></ruby>こそが、いまの<ruby>仕事<rt>しごと</rt></ruby>なのでしょう。",
+ "traduccion": "Cuando salió lo del traslado, pensaba que era algo que se celebra. La gente de alrededor decía que era un ascenso, pero el contenido del puesto pasó a parecerse a la administración general. Y justo cuando me preguntaba si debía alegrarme, al consultarlo con un compañero del departamento me dijo: «solo te van a pesar más las obligaciones». Preparar la junta general, reunirse con clientes, levantar acta de las deliberaciones. El trabajo engorroso se multiplica de golpe. Hubo varias noches en que pensé en dimitir. Diez años trabajando y era la primera vez que dudaba. Consultarlo no sirvió de nada y no salió ninguna conclusión, pero conseguí seguir cambiando el reparto de tareas. El trabajo de ahora debe de ser justamente ese ajuste fino, casi de artesanía.",
+ "preguntas": [
+  {
+   "p": "<ruby>転任<rt>てんにん</rt></ruby>で<ruby>職務<rt>しょくむ</rt></ruby>はどうなりましたか。",
+   "opciones": [
+    "<ruby>軽<rt>かる</rt></ruby>くなった",
+    "<ruby>庶務<rt>しょむ</rt></ruby>に<ruby>近<rt>ちか</rt></ruby>いものに<ruby>変<rt>か</rt></ruby>わった",
+    "<ruby>同<rt>おな</rt></ruby>じままだった",
+    "なくなった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いま、どうやって<ruby>続<rt>つづ</rt></ruby>けていますか。",
+   "opciones": [
+    "<ruby>辞職<rt>じしょく</rt></ruby>した",
+    "<ruby>分業<rt>ぶんぎょう</rt></ruby>の<ruby>仕方<rt>しかた</rt></ruby>を<ruby>変<rt>か</rt></ruby>えてもらって",
+    "<ruby>相談<rt>そうだん</rt></ruby>をやめて",
+    "<ruby>総会<rt>そうかい</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らして"
+   ],
+   "correcta": 1
+  }
+ ]
+}

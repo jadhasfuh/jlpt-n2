@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shigoto/trabajo-1",
+ "titulo": "<ruby>応募<rt>おうぼ</rt></ruby>の<ruby>季節<rt>きせつ</rt></ruby>",
+ "cuerpo": "<ruby>求人<rt>きゅうじん</rt></ruby>の<ruby>募集<rt>ぼしゅう</rt></ruby>が<ruby>開<rt>ひら</rt></ruby>かれ、<ruby>願書<rt>がんしょ</rt></ruby>を<ruby>出<rt>だ</rt></ruby>す<ruby>時期<rt>じき</rt></ruby>になりました。<ruby>経験<rt>けいけん</rt></ruby>の<em class=\"g\">いかんにかかわらず</em><ruby>応募<rt>おうぼ</rt></ruby>できると<ruby>書<rt>か</rt></ruby>いてあります。キャリアのある<ruby>人<rt>ひと</rt></ruby>が<ruby>有利<rt>ゆうり</rt></ruby>なのは<ruby>確<rt>たし</rt></ruby>かでしょう。それでも、<ruby>業績<rt>ぎょうせき</rt></ruby>の<ruby>数字<rt>すうじ</rt></ruby>だけで<ruby>選<rt>えら</rt></ruby>ばないところに<ruby>惹<rt>ひ</rt></ruby>かれました。<ruby>会見<rt>かいけん</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>、<ruby>勤務<rt>きんむ</rt></ruby>の<ruby>条件<rt>じょうけん</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つずつ<ruby>確<rt>たし</rt></ruby>かめました。<ruby>業務<rt>ぎょうむ</rt></ruby>の<ruby>中身<rt>なかみ</rt></ruby>よりも、<ruby>仕事<rt>しごと</rt></ruby>が<ruby>捗<rt>はかど</rt></ruby>らないときにどうするかを<ruby>長<rt>なが</rt></ruby>く<ruby>話<rt>はな</rt></ruby>したのです。<ruby>報<rt>ほう</rt></ruby>じられるような<ruby>大<rt>おお</rt></ruby>きな<ruby>事業<rt>じぎょう</rt></ruby>ではありません。<ruby>地味<rt>じみ</rt></ruby>な<ruby>運用<rt>うんよう</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>が<ruby>中心<rt>ちゅうしん</rt></ruby>だと、はっきり<ruby>言<rt>い</rt></ruby>われました。<ruby>隠<rt>かく</rt></ruby>さずに<ruby>言<rt>い</rt></ruby>ってくれたことが、いちばんの<ruby>決<rt>き</rt></ruby>め<ruby>手<rt>て</rt></ruby>になりました。<ruby>届<rt>とどけ</rt></ruby>を<ruby>出<rt>だ</rt></ruby>して<ruby>席<rt>せき</rt></ruby>を<ruby>移<rt>うつ</rt></ruby>すまで、あと<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>あります。<ruby>転<rt>てん</rt></ruby>じる<ruby>前<rt>まえ</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>を、きちんと<ruby>終<rt>お</rt></ruby>わらせておきたいと<ruby>思<rt>おも</rt></ruby>っています。",
+ "traduccion": "Se abrió la convocatoria de empleo y llegó el momento de presentar la solicitud. Pone que se puede optar con independencia de la experiencia. Está claro que quien tiene trayectoria lo tiene más fácil. Aun así, me atrajo que no seleccionen solo por cifras de resultados. El día de la entrevista repasé una por una las condiciones del puesto. Más que del contenido del trabajo, hablamos largo de qué hacer cuando las cosas no avanzan. No es un proyecto grande de los que salen en las noticias. Me dijeron con claridad que lo central es un trabajo de gestión sin brillo. Que me lo dijeran sin ocultarlo fue lo que más pesó en mi decisión. Queda un mes hasta presentar el aviso y cambiar de sitio. Quiero dejar bien terminado el trabajo de antes de irme.",
+ "preguntas": [
+  {
+   "p": "<ruby>募集<rt>ぼしゅう</rt></ruby>の<ruby>条件<rt>じょうけん</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>経験<rt>けいけん</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>だ",
+    "<ruby>経験<rt>けいけん</rt></ruby>に<ruby>関係<rt>かんけい</rt></ruby>なく<ruby>応募<rt>おうぼ</rt></ruby>できる",
+    "<ruby>業績<rt>ぎょうせき</rt></ruby>だけで<ruby>決<rt>き</rt></ruby>まる",
+    "<ruby>年齢<rt>ねんれい</rt></ruby>の<ruby>制限<rt>せいげん</rt></ruby>がある"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>決<rt>き</rt></ruby>め<ruby>手<rt>て</rt></ruby>になったのは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>給料<rt>きゅうりょう</rt></ruby>",
+    "<ruby>地味<rt>じみ</rt></ruby>な<ruby>仕事<rt>しごと</rt></ruby>だと<ruby>隠<rt>かく</rt></ruby>さずに<ruby>言<rt>い</rt></ruby>ってくれたこと",
+    "<ruby>大<rt>おお</rt></ruby>きな<ruby>事業<rt>じぎょう</rt></ruby>であること",
+    "<ruby>条件<rt>じょうけん</rt></ruby>のよさ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

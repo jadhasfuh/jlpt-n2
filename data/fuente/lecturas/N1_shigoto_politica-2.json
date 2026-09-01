@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shigoto/politica-2",
+ "titulo": "<ruby>方策<rt>ほうさく</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶ",
+ "cuerpo": "<ruby>町長<rt>ちょうちょう</rt></ruby>に<ruby>当選<rt>とうせん</rt></ruby>した<ruby>方<rt>かた</rt></ruby>は、<ruby>前<rt>まえ</rt></ruby>の<ruby>政策<rt>せいさく</rt></ruby>をすぐには<ruby>破棄<rt>はき</rt></ruby>しませんでした。<ruby>選挙<rt>せんきょ</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby><em class=\"g\">によらず</em>、<ruby>続<rt>つづ</rt></ruby>けるべきものはあると<ruby>言<rt>い</rt></ruby>うのです。<ruby>与党<rt>よとう</rt></ruby>も<ruby>野党<rt>やとう</rt></ruby>も<ruby>関係<rt>かんけい</rt></ruby>ないという<ruby>立場<rt>たちば</rt></ruby>でした。<ruby>変革<rt>へんかく</rt></ruby>を<ruby>期待<rt>きたい</rt></ruby>していた<ruby>人<rt>ひと</rt></ruby>からは<ruby>不満<rt>ふまん</rt></ruby>も<ruby>出<rt>で</rt></ruby>ます。それでも、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>評判<rt>ひょうばん</rt></ruby><em class=\"g\">を顧みず</em><ruby>数字<rt>すうじ</rt></ruby>のいい<ruby>事業<rt>じぎょう</rt></ruby>をそのまま<ruby>残<rt>のこ</rt></ruby>したのは<ruby>立派<rt>りっぱ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>いました。<ruby>条約<rt>じょうやく</rt></ruby>や<ruby>内閣<rt>ないかく</rt></ruby>のような<ruby>大<rt>おお</rt></ruby>きな<ruby>話<rt>はなし</rt></ruby>ではありません。<ruby>町<rt>まち</rt></ruby>の<ruby>道<rt>みち</rt></ruby>を<ruby>直<rt>なお</rt></ruby>すか、<ruby>保育<rt>ほいく</rt></ruby>に<ruby>回<rt>まわ</rt></ruby>すかという<ruby>方策<rt>ほうさく</rt></ruby>の<ruby>選<rt>えら</rt></ruby>び<ruby>方<rt>かた</rt></ruby>です。<ruby>転回<rt>てんかい</rt></ruby>を<ruby>見<rt>み</rt></ruby>せれば<ruby>目立<rt>めだ</rt></ruby>ちますが、<ruby>暮<rt>く</rt></ruby>らしはそんなに<ruby>急<rt>きゅう</rt></ruby>には<ruby>変<rt>か</rt></ruby>わりません。<ruby>牧師<rt>ぼくし</rt></ruby>をしていた<ruby>父親<rt>ちちおや</rt></ruby>の<ruby>影響<rt>えいきょう</rt></ruby>かもしれない、と<ruby>本人<rt>ほんにん</rt></ruby>は<ruby>笑<rt>わら</rt></ruby>っていました。",
+ "traduccion": "La persona que salió elegida alcaldesa no derogó de inmediato las políticas anteriores. Dice que, independientemente del resultado electoral, hay cosas que deben continuar. Su postura era que daba igual quién gobernara y quién estuviera en la oposición. De quienes esperaban un cambio salieron también quejas. Aun así, me pareció admirable que, sin mirar por su propia reputación, dejara tal cual los programas que daban buenos números. No hablamos de tratados ni de gabinetes. Es elegir entre arreglar las calles del pueblo o destinarlo a las guarderías. Dar un giro llama la atención, pero la vida de la gente no cambia tan deprisa. Ella se reía y decía que quizá sea la influencia de su padre, que fue pastor.",
+ "preguntas": [
+  {
+   "p": "<ruby>当選<rt>とうせん</rt></ruby>した<ruby>方<rt>かた</rt></ruby>は、<ruby>前<rt>まえ</rt></ruby>の<ruby>政策<rt>せいさく</rt></ruby>をどうしましたか。",
+   "opciones": [
+    "すぐに<ruby>破棄<rt>はき</rt></ruby>した",
+    "<ruby>続<rt>つづ</rt></ruby>けるべきものは<ruby>残<rt>のこ</rt></ruby>した",
+    "<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>変<rt>か</rt></ruby>えた",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>決<rt>き</rt></ruby>めなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>立派<rt>りっぱ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>ったのは、なぜですか。",
+   "opciones": [
+    "<ruby>目立<rt>めだ</rt></ruby>つ<ruby>転回<rt>てんかい</rt></ruby>を<ruby>見<rt>み</rt></ruby>せたから",
+    "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>評判<rt>ひょうばん</rt></ruby>を<ruby>顧<rt>かえり</rt></ruby>みず、いい<ruby>事業<rt>じぎょう</rt></ruby>を<ruby>残<rt>のこ</rt></ruby>したから",
+    "<ruby>与党<rt>よとう</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ったから",
+    "<ruby>条約<rt>じょうやく</rt></ruby>を<ruby>結<rt>むす</rt></ruby>んだから"
+   ],
+   "correcta": 1
+  }
+ ]
+}

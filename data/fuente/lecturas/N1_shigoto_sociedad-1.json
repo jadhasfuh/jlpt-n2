@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shigoto/sociedad-1",
+ "titulo": "<ruby>世論<rt>せろん</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>",
+ "cuerpo": "<ruby>図書館<rt>としょかん</rt></ruby>を<ruby>公立<rt>こうりつ</rt></ruby>のまま<ruby>残<rt>のこ</rt></ruby>すかどうかで、<ruby>町<rt>まち</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かれました。<ruby>設立<rt>せつりつ</rt></ruby>から<ruby>五十年<rt>ごじゅうねん</rt></ruby>、<ruby>土木<rt>どぼく</rt></ruby>の<ruby>予算<rt>よさん</rt></ruby>を<ruby>削<rt>けず</rt></ruby>ってでも<ruby>守<rt>まも</rt></ruby>ってきた<ruby>建物<rt>たてもの</rt></ruby>です。<ruby>公募<rt>こうぼ</rt></ruby>の<ruby>説明会<rt>せつめいかい</rt></ruby>には<ruby>群衆<rt>ぐんしゅう</rt></ruby>と<ruby>言<rt>い</rt></ruby>えるほどの<ruby>人<rt>ひと</rt></ruby>が<ruby>集<rt>あつ</rt></ruby>まりました。<ruby>世論<rt>せろん</rt></ruby><em class=\"g\">とはいえ</em>、<ruby>声<rt>こえ</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きい<ruby>人<rt>ひと</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>が<ruby>全体<rt>ぜんたい</rt></ruby>とは<ruby>限<rt>かぎ</rt></ruby>りません。<ruby>人目<rt>ひとめ</rt></ruby>を<ruby>気<rt>き</rt></ruby>にして<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった<ruby>人<rt>ひと</rt></ruby>も<ruby>多<rt>おお</rt></ruby>かったはずです。<ruby>結論<rt>けつろん</rt></ruby><em class=\"g\">はどうであれ</em>、<ruby>一度<rt>いちど</rt></ruby><ruby>全員<rt>ぜんいん</rt></ruby>の<ruby>境遇<rt>きょうぐう</rt></ruby>を<ruby>並<rt>なら</rt></ruby>べて<ruby>見渡<rt>みわた</rt></ruby>す<ruby>必要<rt>ひつよう</rt></ruby>がありました。<ruby>大衆<rt>たいしゅう</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>でひとまとめにすると、<ruby>通<rt>かよ</rt></ruby>っている<ruby>子<rt>こ</rt></ruby>どもの<ruby>顔<rt>かお</rt></ruby>が<ruby>見<rt>み</rt></ruby>えなくなります。<ruby>治安<rt>ちあん</rt></ruby>や<ruby>社交<rt>しゃこう</rt></ruby>の<ruby>場<rt>ば</rt></ruby>としての<ruby>役割<rt>やくわり</rt></ruby>も<ruby>物議<rt>ぶつぎ</rt></ruby>になりました。<ruby>固有<rt>こゆう</rt></ruby>の<ruby>事情<rt>じじょう</rt></ruby>がある<ruby>土地<rt>とち</rt></ruby>に、<ruby>伝説<rt>でんせつ</rt></ruby>のような<ruby>正解<rt>せいかい</rt></ruby>はありません。<ruby>設置<rt>せっち</rt></ruby>するのも<ruby>閉<rt>と</rt></ruby>じるのも、<ruby>最後<rt>さいご</rt></ruby>は<ruby>人<rt>ひと</rt></ruby>が<ruby>決<rt>き</rt></ruby>めることです。",
+ "traduccion": "El pueblo se dividió sobre si conservar la biblioteca como institución pública. Es un edificio que lleva cincuenta años en pie, y que se ha mantenido recortando incluso el presupuesto de obras. A la sesión informativa abierta vino tanta gente que se podía hablar de multitud. Aunque se hable de opinión pública, la voz de quien grita más no es necesariamente la del conjunto. Seguro que hubo mucha gente que, por miedo al qué dirán, no dijo nada. Fuera cual fuera la conclusión, hacía falta poner una vez sobre la mesa la situación de todos. Cuando lo metes todo en la palabra «el público», dejas de ver la cara de los niños que van allí. También se discutió su papel como lugar de convivencia y de seguridad. En un sitio con sus circunstancias propias no existe una respuesta correcta de leyenda. Abrir o cerrar: al final, es algo que decide la gente.",
+ "preguntas": [
+  {
+   "p": "<ruby>図書館<rt>としょかん</rt></ruby>はどうやって<ruby>守<rt>まも</rt></ruby>られてきましたか。",
+   "opciones": [
+    "<ruby>寄付<rt>きふ</rt></ruby>で",
+    "<ruby>土木<rt>どぼく</rt></ruby>の<ruby>予算<rt>よさん</rt></ruby>を<ruby>削<rt>けず</rt></ruby>ってでも",
+    "<ruby>国<rt>くに</rt></ruby>の<ruby>助<rt>たす</rt></ruby>けで",
+    "<ruby>閉<rt>と</rt></ruby>じずに<ruby>放<rt>ほう</rt></ruby>っておいて"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>世論<rt>せろん</rt></ruby>について、この<ruby>人<rt>ひと</rt></ruby>はどう<ruby>考<rt>かんが</rt></ruby>えていますか。",
+   "opciones": [
+    "<ruby>多数<rt>たすう</rt></ruby>が<ruby>正<rt>ただ</rt></ruby>しい",
+    "<ruby>声<rt>こえ</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きい<ruby>人<rt>ひと</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>が<ruby>全体<rt>ぜんたい</rt></ruby>とは<ruby>限<rt>かぎ</rt></ruby>らない",
+    "<ruby>意味<rt>いみ</rt></ruby>がない",
+    "<ruby>説明会<rt>せつめいかい</rt></ruby>で<ruby>分<rt>わ</rt></ruby>かる"
+   ],
+   "correcta": 1
+  }
+ ]
+}
