@@ -146,6 +146,16 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
         </button>
       )}
 
+      {/* Quien quiere un reembolso viene aquí, no a las páginas legales. Que
+          encuentre a quién escribir sin tener que buscarlo. */}
+      <section style={{ marginTop: 26 }}>
+        <h2 className="enc-seccion">{t("per.ayuda")}</h2>
+        <p className="tenue" style={{ marginTop: 0, marginBottom: 8 }}>{t("per.ayudaSub")}</p>
+        <a href="mailto:adriancar75@hotmail.com" className="btn fantasma chico">
+          adriancar75@hotmail.com
+        </a>
+      </section>
+
       <div className="filtros" style={{ justifyContent: "center", margin: "22px 0 8px" }}>
         <Link href="/legal/terminos" className="btn fantasma chico">{t("per.terminos")}</Link>
         <Link href="/legal/privacidad" className="btn fantasma chico">{t("per.privacidad")}</Link>

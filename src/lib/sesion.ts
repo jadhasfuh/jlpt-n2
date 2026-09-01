@@ -69,9 +69,25 @@ export async function perfil(): Promise<Perfil | null> {
   return (data as Perfil) ?? null;
 }
 
+/**
+ * Cuentas con acceso permanente, separadas por comas en CUENTAS_LIBRES.
+ *
+ * Para las nuestras: la de administración y las de prueba. Se resuelve por
+ * correo y fuera de la base a propósito — así ningún aviso de Paddle puede
+ * quitarlo por accidente, que es justo lo que pasaría si se marcara con una
+ * membresía o con una fecha lejana en `perfiles`.
+ */
+function siempreLibre(email: string | null): boolean {
+  if (!email) return false;
+  const lista = (process.env.CUENTAS_LIBRES ?? "")
+    .split(",").map((x) => x.trim().toLowerCase()).filter(Boolean);
+  return lista.includes(email.trim().toLowerCase());
+}
+
 /** Cancelada sigue valiendo hasta que se acaba lo pagado: no se corta a media semana. */
 export function alDia(p: Perfil | null): boolean {
   if (!p) return false;
+  if (siempreLibre(p.email)) return true;
   if (p.membresia !== "activa" && p.membresia !== "cancelada") return false;
   return !p.vence_en || new Date(p.vence_en) > new Date();
 }
