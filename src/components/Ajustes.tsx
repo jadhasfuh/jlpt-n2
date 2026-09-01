@@ -1,4 +1,5 @@
 "use client";
+import { configurarSupabase } from "@/lib/supabase";
 import { createContext, useContext, useEffect, useState } from "react";
 import {
   COOKIE_IDIOMA, IDIOMA_POR_DEFECTO, t as traducir,
@@ -37,14 +38,19 @@ const leer = <T,>(k: string, def: T): T => {
 };
 
 export function ProveedorAjustes({
-  children, idiomaInicial = IDIOMA_POR_DEFECTO, accesoAbierto = true,
+  children, idiomaInicial = IDIOMA_POR_DEFECTO, accesoAbierto = true, supabase,
 }: {
   children: React.ReactNode;
   /** Lo resuelve el servidor (cookie o Accept-Language) para que no parpadee. */
   idiomaInicial?: Idioma;
   /** También del servidor: ver el comentario del tipo Ajustes. */
   accesoAbierto?: boolean;
+  /** Credenciales del cliente de Supabase, leídas por el servidor al arrancar.
+      Se configura antes de pintar nada para que cualquier hijo que hable con
+      Supabase ya encuentre el cliente montado. */
+  supabase?: { url: string; key: string } | null;
 }) {
+  configurarSupabase(supabase?.url, supabase?.key);
   // El furigana empieza apagado a propósito: primero se intenta leer sin ayuda.
   const [furigana, setFurigana] = useState(false);
   const [significado, setSignificado] = useState(false);

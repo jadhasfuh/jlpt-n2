@@ -23,3 +23,17 @@ export function supabaseServidor(): SupabaseClient | null {
   cliente = url && key ? createClient(url, key, { auth: { persistSession: false } }) : null;
   return cliente;
 }
+
+/**
+ * Lo que el navegador necesita para hablar con Supabase, leído en el servidor.
+ *
+ * La llave publishable es pública por diseño —viaja igualmente en cada
+ * petición del navegador—, así que mandarla en el HTML no añade riesgo. La
+ * secreta no sale nunca de aquí.
+ */
+export function credencialesSupabase(): { url: string; key: string } | null {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
+           || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  return url && key ? { url, key } : null;
+}
