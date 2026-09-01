@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/sustantivos-12",
+ "titulo": "<ruby>取材<rt>しゅざい</rt></ruby>の<ruby>一日<rt>いちにち</rt></ruby>",
+ "cuerpo": "<ruby>地方<rt>ちほう</rt></ruby>の<ruby>小<rt>ちい</rt></ruby>さな<ruby>工房<rt>こうぼう</rt></ruby>に<ruby>取材<rt>しゅざい</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。<ruby>主題<rt>しゅだい</rt></ruby>は<ruby>職人<rt>しょくにん</rt></ruby>の<ruby>手仕事<rt>てしごと</rt></ruby>で、<ruby>柔軟<rt>じゅうなん</rt></ruby>な<ruby>構成<rt>こうせい</rt></ruby>でいいと<ruby>言<rt>い</rt></ruby>われていたのです。<ruby>到着<rt>とうちゃく</rt></ruby>すると<ruby>砂利<rt>じゃり</rt></ruby>の<ruby>道<rt>みち</rt></ruby>の<ruby>奥<rt>おく</rt></ruby>に<ruby>建物<rt>たてもの</rt></ruby>がありました。<ruby>新婚<rt>しんこん</rt></ruby>の<ruby>夫婦<rt>ふうふ</rt></ruby>が<ruby>主導<rt>しゅどう</rt></ruby>して<ruby>十年<rt>じゅうねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>に<ruby>樹立<rt>じゅりつ</rt></ruby>した<ruby>工房<rt>こうぼう</rt></ruby>だそうです。<ruby>出品<rt>しゅっぴん</rt></ruby>する<ruby>展示会<rt>てんじかい</rt></ruby>の<ruby>直前<rt>ちょくぜん</rt></ruby>で、<ruby>現場<rt>げんば</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しそうでした。<ruby>予定<rt>よてい</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>を<ruby>過<rt>す</rt></ruby>ぎても<ruby>手<rt>て</rt></ruby>が<ruby>空<rt>あ</rt></ruby>かず、<ruby>待<rt>ま</rt></ruby>っ<em class=\"g\">てもどうにもならない</em>ので、<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてもらうことにしました。<ruby>言葉<rt>ことば</rt></ruby>で<ruby>聞<rt>き</rt></ruby>くより、そのほうが<ruby>分<rt>わ</rt></ruby>かることが<ruby>多<rt>おお</rt></ruby>い。<ruby>手<rt>て</rt></ruby>の<ruby>動<rt>うご</rt></ruby>きは<ruby>速<rt>はや</rt></ruby>いとも<ruby>遅<rt>おそ</rt></ruby>いとも<ruby>言<rt>い</rt></ruby>えない<ruby>一定<rt>いってい</rt></ruby>のリズムでした。<ruby>衝撃<rt>しょうげき</rt></ruby>を<ruby>受<rt>う</rt></ruby>けたのは、<ruby>失敗<rt>しっぱい</rt></ruby>した<ruby>品<rt>しな</rt></ruby>をためらいなく<ruby>処分<rt>しょぶん</rt></ruby>したことです。<ruby>情緒<rt>じょうちょ</rt></ruby>で<ruby>残<rt>のこ</rt></ruby>してしまいそうなものを、<ruby>迷<rt>まよ</rt></ruby>わず<ruby>割<rt>わ</rt></ruby>る。その<ruby>一瞬<rt>いっしゅん</rt></ruby>が、<ruby>記事<rt>きじ</rt></ruby>のいちばん<ruby>大事<rt>だいじ</rt></ruby>な<ruby>場面<rt>ばめん</rt></ruby>になりました。",
+ "traduccion": "Fui a hacer un reportaje en un taller pequeño de provincias. El tema era el trabajo artesanal y me habían dicho que la estructura podía ser flexible. Al llegar, el edificio estaba al fondo de un camino de grava. Al parecer lo fundó hace diez años un matrimonio recién casado. Era justo antes de la exposición donde iban a presentar sus piezas y allí andaban ocupadísimos. Pasada la hora prevista seguían sin poder atenderme y, como esperar no iba a servir de nada, pedí que me dejaran ver cómo trabajaban. Se entienden más cosas así que oyéndolo explicado. El movimiento de las manos llevaba un ritmo constante que no era ni rápido ni lento. Lo que me impactó fue que desecharan sin vacilar las piezas que salían mal. Romper sin dudar algo que uno guardaría por apego. Ese instante acabó siendo la escena más importante del artículo.",
+ "preguntas": [
+  {
+   "p": "<ruby>予定<rt>よてい</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>を<ruby>過<rt>す</rt></ruby>ぎて、この<ruby>人<rt>ひと</rt></ruby>はどうしましたか。",
+   "opciones": [
+    "<ruby>帰<rt>かえ</rt></ruby>った",
+    "<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてもらった",
+    "<ruby>待<rt>ま</rt></ruby>ち<ruby>続<rt>つづ</rt></ruby>けた",
+    "<ruby>電話<rt>でんわ</rt></ruby>をかけた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>衝撃<rt>しょうげき</rt></ruby>を<ruby>受<rt>う</rt></ruby>けたのは、<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>手<rt>て</rt></ruby>の<ruby>速<rt>はや</rt></ruby>さ",
+    "<ruby>失敗<rt>しっぱい</rt></ruby>した<ruby>品<rt>しな</rt></ruby>をためらいなく<ruby>処分<rt>しょぶん</rt></ruby>したこと",
+    "<ruby>工房<rt>こうぼう</rt></ruby>の<ruby>広<rt>ひろ</rt></ruby>さ",
+    "<ruby>夫婦<rt>ふうふ</rt></ruby>の<ruby>若<rt>わか</rt></ruby>さ"
+   ],
+   "correcta": 1
+  }
+ ]
+}
