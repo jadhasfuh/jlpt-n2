@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/sustantivos-20",
+ "titulo": "<ruby>下調<rt>したしら</rt></ruby>べの<ruby>大切<rt>たいせつ</rt></ruby>さ",
+ "cuerpo": "<ruby>映画<rt>えいが</rt></ruby>の<ruby>主人公<rt>しゅじんこう</rt></ruby>を<ruby>演<rt>えん</rt></ruby>じることになった<ruby>知人<rt>ちじん</rt></ruby>が、<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>かけて<ruby>下調<rt>したしら</rt></ruby>べをしていました。<ruby>身振<rt>みぶ</rt></ruby>り<ruby>一<rt>ひと</rt></ruby>つにも<ruby>意味<rt>いみ</rt></ruby>があるのだと、<ruby>台本<rt>だいほん</rt></ruby>に<ruby>細<rt>こま</rt></ruby>かく<ruby>書<rt>か</rt></ruby>き<ruby>込<rt>こ</rt></ruby>んでいます。いい<ruby>加減<rt>かげん</rt></ruby>に<ruby>覚<rt>おぼ</rt></ruby>えるだけなら<ruby>一週間<rt>いっしゅうかん</rt></ruby>で<ruby>足<rt>た</rt></ruby>りるでしょう。でも、<ruby>無闇<rt>むやみ</rt></ruby>に<ruby>台詞<rt>せりふ</rt></ruby>を<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>しても<ruby>人物<rt>じんぶつ</rt></ruby>は<ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がらないのだそうです。<ruby>配偶者<rt>はいぐうしゃ</rt></ruby>の<ruby>方<rt>かた</rt></ruby>が<ruby>相手<rt>あいて</rt></ruby><ruby>役<rt>やく</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んで<ruby>付<rt>つ</rt></ruby>き<ruby>合<rt>あ</rt></ruby>っていたと<ruby>聞<rt>き</rt></ruby>きました。<ruby>玄人<rt>くろうと</rt></ruby><em class=\"g\">ならでは</em>の<ruby>準備<rt>じゅんび</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>います。<ruby>撮影<rt>さつえい</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まると、<ruby>監督<rt>かんとく</rt></ruby><em class=\"g\">すら</em><ruby>驚<rt>おどろ</rt></ruby>くほど<ruby>動<rt>うご</rt></ruby>きが<ruby>自然<rt>しぜん</rt></ruby>だったそうです。<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れられるかどうかは<ruby>分<rt>わ</rt></ruby>かりません。<ruby>申<rt>もう</rt></ruby>し<ruby>分<rt>ぶん</rt></ruby>のない<ruby>出来<rt>でき</rt></ruby>だと<ruby>周<rt>まわ</rt></ruby>りが<ruby>言<rt>い</rt></ruby>っても、<ruby>本人<rt>ほんにん</rt></ruby>は<ruby>御世辞<rt>おせじ</rt></ruby>だと<ruby>受<rt>う</rt></ruby>け<ruby>流<rt>なが</rt></ruby>しています。<ruby>情<rt>なさけ</rt></ruby><ruby>深<rt>ぶか</rt></ruby>い<ruby>役<rt>やく</rt></ruby>だったので、<ruby>顔付<rt>かおつ</rt></ruby>きまで<ruby>変<rt>か</rt></ruby>わって<ruby>見<rt>み</rt></ruby>えました。",
+ "traduccion": "Un conocido al que le tocó interpretar al protagonista de una película se pasó tres meses documentándose. Anotaba con detalle en el guion que hasta un solo gesto tiene su sentido. Para aprendérselo de cualquier manera bastaría con una semana. Pero dice que por mucho que repitas el texto sin criterio, el personaje no se levanta. Me contaron que su pareja le leía los papeles del otro para acompañarle. Me parece una preparación propia de un profesional. Cuando empezó el rodaje, al parecer sus movimientos eran tan naturales que hasta el director se sorprendió. No sabemos si la película gustará. Aunque a su alrededor digan que el trabajo es impecable, él lo deja pasar como si fueran cumplidos. Como era un papel compasivo, hasta la expresión de su cara parecía otra.",
+ "preguntas": [
+  {
+   "p": "<ruby>知人<rt>ちじん</rt></ruby>は<ruby>準備<rt>じゅんび</rt></ruby>にどのくらいかけましたか。",
+   "opciones": [
+    "<ruby>一週間<rt>いっしゅうかん</rt></ruby>",
+    "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
+    "<ruby>一年<rt>いちねん</rt></ruby>",
+    "<ruby>準備<rt>じゅんび</rt></ruby>しなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>周<rt>まわ</rt></ruby>りの<ruby>評価<rt>ひょうか</rt></ruby>を、<ruby>本人<rt>ほんにん</rt></ruby>はどう<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>っていますか。",
+   "opciones": [
+    "よろこんでいる",
+    "<ruby>御世辞<rt>おせじ</rt></ruby>だと<ruby>受<rt>う</rt></ruby>け<ruby>流<rt>なが</rt></ruby>している",
+    "<ruby>怒<rt>おこ</rt></ruby>っている",
+    "<ruby>気<rt>き</rt></ruby>にしていない"
+   ],
+   "correcta": 1
+  }
+ ]
+}

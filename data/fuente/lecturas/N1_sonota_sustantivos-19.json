@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/sustantivos-19",
+ "titulo": "<ruby>跡継<rt>あとつ</rt></ruby>ぎのいない<ruby>店<rt>みせ</rt></ruby>",
+ "cuerpo": "<ruby>商店街<rt>しょうてんがい</rt></ruby>の<ruby>豆腐<rt>とうふ</rt></ruby><ruby>屋<rt>や</rt></ruby>が<ruby>今月<rt>こんげつ</rt></ruby>で<ruby>閉<rt>し</rt></ruby>まります。<ruby>跡継<rt>あとつ</rt></ruby>ぎがおらず、<ruby>店主<rt>てんしゅ</rt></ruby>も<ruby>老衰<rt>ろうすい</rt></ruby>という<ruby>年<rt>とし</rt></ruby>に<ruby>近<rt>ちか</rt></ruby>づいてきたのです。<ruby>閉<rt>し</rt></ruby>めることを<ruby>考<rt>かんが</rt></ruby>え<em class=\"g\">だにしなかった</em>と、<ruby>奥<rt>おく</rt></ruby>さんが<ruby>言<rt>い</rt></ruby>っていました。<ruby>相談<rt>そうだん</rt></ruby><em class=\"g\">もしないで</em><ruby>決<rt>き</rt></ruby>めたわけではありません。<ruby>子<rt>こ</rt></ruby>どもたちに<ruby>何度<rt>なんど</rt></ruby>も<ruby>聞<rt>き</rt></ruby>き、<ruby>了承<rt>りょうしょう</rt></ruby>を<ruby>得<rt>え</rt></ruby>たうえでの<ruby>判断<rt>はんだん</rt></ruby>です。<ruby>良心<rt>りょうしん</rt></ruby><ruby>的<rt>てき</rt></ruby>な<ruby>値段<rt>ねだん</rt></ruby>で<ruby>続<rt>つづ</rt></ruby>けてきた<ruby>店<rt>みせ</rt></ruby>でした。<ruby>冷蔵<rt>れいぞう</rt></ruby>の<ruby>設備<rt>せつび</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>くなり、<ruby>入<rt>い</rt></ruby>れ<ruby>替<rt>か</rt></ruby>えるには<ruby>有益<rt>ゆうえき</rt></ruby>とは<ruby>言<rt>い</rt></ruby>えない<ruby>金額<rt>きんがく</rt></ruby>がかかります。<ruby>最後<rt>さいご</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>が<ruby>待<rt>ま</rt></ruby>ち<ruby>遠<rt>どお</rt></ruby>しいような、<ruby>心細<rt>こころぼそ</rt></ruby>いような<ruby>顔付<rt>かおつ</rt></ruby>きで、<ruby>常連<rt>じょうれん</rt></ruby>が<ruby>名簿<rt>めいぼ</rt></ruby>に<ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いていきました。<ruby>類似<rt>るいじ</rt></ruby>した<ruby>店<rt>みせ</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>の<ruby>向<rt>む</rt></ruby>こうにもあります。でも、あの<ruby>明瞭<rt>めいりょう</rt></ruby>な<ruby>豆<rt>まめ</rt></ruby>の<ruby>味<rt>あじ</rt></ruby>は<ruby>他<rt>ほか</rt></ruby>では<ruby>出<rt>で</rt></ruby>ないでしょう。<ruby>勇敢<rt>ゆうかん</rt></ruby>だとは<ruby>言<rt>い</rt></ruby>いませんが、<ruby>潔<rt>いさぎよ</rt></ruby>い<ruby>幕<rt>まく</rt></ruby>の<ruby>引<rt>ひ</rt></ruby>き<ruby>方<rt>かた</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "La tienda de tofu de la calle comercial cierra este mes. No hay quien la herede, y el dueño se acerca ya a una edad de decaimiento. Su mujer decía que ni se les había pasado por la cabeza cerrar. No es que lo decidieran sin consultarlo. Preguntaron a sus hijos muchas veces y decidieron con su consentimiento. Era una tienda que se mantuvo con precios honrados. El equipo de refrigeración se ha quedado viejo y renovarlo cuesta una cantidad que no sale rentable. Con una cara entre impaciente y desamparada por el último día, los clientes de siempre iban escribiendo su nombre en un libro. Tiendas parecidas hay también al otro lado de la estación. Pero ese sabor limpio a soja no lo saca nadie más. No diría que sea valiente, pero me parece una forma digna de bajar el telón.",
+ "preguntas": [
+  {
+   "p": "<ruby>店<rt>みせ</rt></ruby>が<ruby>閉<rt>し</rt></ruby>まる<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>客<rt>きゃく</rt></ruby>が<ruby>減<rt>へ</rt></ruby>ったから",
+    "<ruby>跡継<rt>あとつ</rt></ruby>ぎがおらず、<ruby>設備<rt>せつび</rt></ruby>も<ruby>古<rt>ふる</rt></ruby>くなったから",
+    "<ruby>値段<rt>ねだん</rt></ruby>が<ruby>安<rt>やす</rt></ruby>すぎたから",
+    "<ruby>駅<rt>えき</rt></ruby>の<ruby>向<rt>む</rt></ruby>こうに<ruby>店<rt>みせ</rt></ruby>ができたから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>閉<rt>し</rt></ruby>めることは、どうやって<ruby>決<rt>き</rt></ruby>めましたか。",
+   "opciones": [
+    "<ruby>相談<rt>そうだん</rt></ruby>せずに",
+    "<ruby>子<rt>こ</rt></ruby>どもたちに<ruby>聞<rt>き</rt></ruby>き、<ruby>了承<rt>りょうしょう</rt></ruby>を<ruby>得<rt>え</rt></ruby>たうえで",
+    "<ruby>常連<rt>じょうれん</rt></ruby>に<ruby>聞<rt>き</rt></ruby>いて",
+    "<ruby>急<rt>きゅう</rt></ruby>に"
+   ],
+   "correcta": 1
+  }
+ ]
+}
