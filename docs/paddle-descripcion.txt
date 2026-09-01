@@ -1,0 +1,22 @@
+jlptest is a web app for studying Japanese, aimed at learners preparing for
+the JLPT proficiency exam (levels N5 to N1). It provides vocabulary, kanji,
+grammar, graded reading passages and practice tests, together with a spaced
+repetition system that tracks each learner's own progress.
+
+Part of the app is free and needs no account. Full access to all five levels
+is sold as a monthly subscription of MX$79, billed in Mexican pesos and
+renewing automatically until the customer cancels. Customers can cancel at any
+time from their profile and keep access until the end of the period they have
+already paid for. If a customer is not satisfied we refund that period on
+request within 14 days.
+
+All study material is written by us. Delivery is instant and entirely on the
+web at https://jlptest.org — there is nothing to ship and no physical goods
+are involved.
+
+We are not affiliated with, sponsored by or endorsed by the organisers of the
+JLPT. The exam name is used only to describe which exam the material prepares
+learners for.
+
+The app carries no advertising and no third-party tracking, and we do not sell
+or share personal data.
