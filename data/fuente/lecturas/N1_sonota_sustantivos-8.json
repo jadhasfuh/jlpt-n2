@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/sustantivos-8",
+ "titulo": "<ruby>遺跡<rt>いせき</rt></ruby>の<ruby>発掘<rt>はっくつ</rt></ruby>",
+ "cuerpo": "<ruby>大学<rt>だいがく</rt></ruby>の<ruby>課外<rt>かがい</rt></ruby><ruby>活動<rt>かつどう</rt></ruby>で、<ruby>遺跡<rt>いせき</rt></ruby>の<ruby>発掘<rt>はっくつ</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>いました。<ruby>開拓<rt>かいたく</rt></ruby>が<ruby>進<rt>すす</rt></ruby>む<ruby>前<rt>まえ</rt></ruby>に<ruby>調査<rt>ちょうさ</rt></ruby>を<ruby>終<rt>お</rt></ruby>えなければならず、<ruby>夏<rt>なつ</rt></ruby>のあいだは<ruby>過密<rt>かみつ</rt></ruby>な<ruby>日程<rt>にってい</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>きます。<ruby>炎天下<rt>えんてんか</rt></ruby>の<ruby>作業<rt>さぎょう</rt></ruby>で、<ruby>過労<rt>かろう</rt></ruby>で<ruby>倒<rt>たお</rt></ruby>れる<ruby>人<rt>ひと</rt></ruby>も<ruby>出<rt>で</rt></ruby>ました。<ruby>土<rt>つち</rt></ruby>を<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>削<rt>けず</rt></ruby>り、<ruby>映像<rt>えいぞう</rt></ruby>に<ruby>記録<rt>きろく</rt></ruby>を<ruby>残<rt>のこ</rt></ruby>していきます。<ruby>確保<rt>かくほ</rt></ruby>できた<ruby>区画<rt>くかく</rt></ruby>は<ruby>全体<rt>ぜんたい</rt></ruby>のほんの<ruby>一部<rt>いちぶ</rt></ruby>です。<ruby>獲得<rt>かくとく</rt></ruby>した<ruby>資料<rt>しりょう</rt></ruby>を<ruby>解剖<rt>かいぼう</rt></ruby>するように<ruby>調<rt>しら</rt></ruby>べる<ruby>作業<rt>さぎょう</rt></ruby>は、<ruby>現場<rt>げんば</rt></ruby>よりも<ruby>時間<rt>じかん</rt></ruby>がかかると<ruby>聞<rt>き</rt></ruby>きました。<ruby>天気<rt>てんき</rt></ruby>が<ruby>悪化<rt>あっか</rt></ruby>して<ruby>中断<rt>ちゅうだん</rt></ruby>した<ruby>日<rt>ひ</rt></ruby>は、<ruby>合間<rt>あいま</rt></ruby>に<ruby>先輩<rt>せんぱい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いてすごしました。<ruby>地味<rt>じみ</rt></ruby>な<ruby>作業<rt>さぎょう</rt></ruby>の<ruby>積<rt>つ</rt></ruby>み<ruby>重<rt>かさ</rt></ruby>ねですが、<ruby>千年<rt>せんねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>の<ruby>暮<rt>く</rt></ruby>らしが<ruby>見<rt>み</rt></ruby>えてくることも<em class=\"g\">ないものでもない</em>のです。<ruby>土器<rt>どき</rt></ruby>のかけらを<ruby>一<rt>ひと</rt></ruby>つ<ruby>手<rt>て</rt></ruby>にしたとき、<ruby>圧倒<rt>あっとう</rt></ruby>される<ruby>気<rt>き</rt></ruby>がしました。",
+ "traduccion": "Como actividad extracurricular de la universidad, ayudé en la excavación de unas ruinas. Había que terminar el estudio antes de que avanzaran las obras de urbanización, así que durante el verano el calendario iba apretadísimo. Trabajando bajo un sol de justicia, hubo quien cayó por agotamiento. Se va raspando la tierra poco a poco y dejando registro en vídeo. La zona que se pudo asegurar es apenas una parte del conjunto. Me dijeron que analizar el material recuperado, casi como una disección, lleva más tiempo que el trabajo de campo. Los días en que el tiempo empeoraba y se interrumpía, aprovechaba los ratos para escuchar a los veteranos. Es la acumulación de un trabajo sin ningún brillo, pero no es del todo imposible que llegue a verse cómo se vivía hace mil años. Cuando tuve en la mano un fragmento de cerámica, sentí que aquello me superaba.",
+ "preguntas": [
+  {
+   "p": "なぜ<ruby>日程<rt>にってい</rt></ruby>が<ruby>過密<rt>かみつ</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>人手<rt>ひとで</rt></ruby>が<ruby>足<rt>た</rt></ruby>りないから",
+    "<ruby>開拓<rt>かいたく</rt></ruby>が<ruby>進<rt>すす</rt></ruby>む<ruby>前<rt>まえ</rt></ruby>に<ruby>調査<rt>ちょうさ</rt></ruby>を<ruby>終<rt>お</rt></ruby>えなければならないから",
+    "<ruby>夏<rt>なつ</rt></ruby>だから",
+    "<ruby>資料<rt>しりょう</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いから"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>現場<rt>げんば</rt></ruby>より<ruby>時間<rt>じかん</rt></ruby>がかかるのは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>土<rt>つち</rt></ruby>を<ruby>削<rt>けず</rt></ruby>る<ruby>作業<rt>さぎょう</rt></ruby>",
+    "<ruby>獲得<rt>かくとく</rt></ruby>した<ruby>資料<rt>しりょう</rt></ruby>を<ruby>調<rt>しら</rt></ruby>べる<ruby>作業<rt>さぎょう</rt></ruby>",
+    "<ruby>映像<rt>えいぞう</rt></ruby>の<ruby>記録<rt>きろく</rt></ruby>",
+    "<ruby>区画<rt>くかく</rt></ruby>の<ruby>確保<rt>かくほ</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}
