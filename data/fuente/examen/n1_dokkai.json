@@ -1,0 +1,202 @@
+[
+ {
+  "id": "n1-tanbun-0001",
+  "nivel": "N1",
+  "tipo": "tanbun",
+  "grupo": "n1-tanbun-g001",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "専門家の助言が役に立たないと感じられるとき、その原因は助言の中身ではなく、前提の共有にあることが多い。助言する側は問題をすでに整理し終えた地点から話す。一方、助言を求める側は、まだ何が問題なのかを言葉にできていない段階にいる。両者の間にあるのは知識の差というより、問題の輪郭がどこまで見えているかの差なのである。したがって、有効な助言はしばしば答えの形をとらず、問いの立て直しという形をとる。",
+   "notas": [
+    {
+     "termino": "輪郭",
+     "glosa": "だいたいの形、外側の線"
+    }
+   ]
+  },
+  "enunciado": "筆者によると、助言が役に立たないと感じられる主な原因は何か。",
+  "opciones": [
+   "専門家の知識が不足しているから",
+   "問題の輪郭がどこまで見えているかが両者で異なるから",
+   "助言する側の説明が長すぎるから",
+   "求める側に専門知識がないから"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "本文にない",
+   "本文にない",
+   "知識の差ではないと本文が否定している"
+  ],
+  "explicacion": {
+   "es": "El texto dice expresamente que no es una diferencia de conocimiento, sino de hasta dónde se ve el contorno del problema.",
+   "en": "The text says explicitly it isn't a knowledge gap but a difference in how far each side can see the shape of the problem."
+  },
+  "etiquetas": [
+   "短文"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n1-tanbun-0002",
+  "nivel": "N1",
+  "tipo": "tanbun",
+  "grupo": "n1-tanbun-g002",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "記録を残すことの価値は、後で読み返すことにあるとされがちだ。しかし実際に読み返される記録はごく一部にすぎない。それでも記録に意味があるのは、書く過程そのものが出来事を整理させるからである。何が起きたかを言葉にしようとした時点で、人はすでに一度その出来事を理解し直している。読まれない記録もまた、書かれた時点で確かに働いているのである。日記が続かないことを悔やむ人は多いが、悔やむ必要はない。続かなかった日々の分も、書いた日の理解は残っているからだ。",
+   "notas": []
+  },
+  "enunciado": "筆者は記録の意味をどこにあると考えているか。",
+  "opciones": [
+   "後で読み返せること",
+   "書く過程で出来事を整理し直すこと",
+   "他人に伝わること",
+   "正確さが保証されること"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "読み返されるのは一部だと本文が否定している",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "El valor está en el propio acto de escribir, que obliga a reordenar lo ocurrido, aunque nadie vuelva a leerlo.",
+   "en": "The value lies in the act of writing itself, which forces you to reorder what happened, even if nobody reads it again."
+  },
+  "etiquetas": [
+   "短文"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n1-chuubun-0001",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g001",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "新しい技術が現れるたびに、それが人間の能力を奪うのではないかという議論が起こる。計算機が普及したときには暗算の力が、地図の案内装置が広まったときには方向感覚が失われると言われた。実際、それらの能力は平均的には低下しているのかもしれない。\nしかし、失われたものだけを数えるのは公平ではない。道具は能力を奪うと同時に、注意を向ける先を移す。暗算に使っていた資源は別の思考に回され、地図を読むことに費やしていた注意は、目的地で何をするかに向けられる。問題は能力の総量ではなく、その配分なのである。\nもっとも、この配分が本人の選択によるものかどうかは別の話だ。道具が変えるのは可能性の形であって、それをどう使うかまでは決めてくれない。空いた資源が何にも向けられなければ、それは単に失われただけである。技術を批判するにせよ擁護するにせよ、この区別を曖昧にしたままでは議論は進まないだろう。\n私たちが問うべきなのは、その道具が何を肩代わりしてくれるかではない。肩代わりされた分の時間と注意を、自分が何に使うつもりでいるのかである。そこまで含めて考えたときにはじめて、道具は能力を奪うものではなく、選択を突きつけるものとして立ち現れてくる。",
+   "notas": [
+    {
+     "termino": "配分",
+     "glosa": "分け方、割りふり"
+    }
+   ]
+  },
+  "enunciado": "筆者は「問題は能力の総量ではなく、その配分なのである」と述べているが、どういうことか。",
+  "opciones": [
+   "道具によって能力の合計が増えるということ",
+   "道具は能力を奪うと同時に、注意の向け先を移すということ",
+   "道具を使えば誰でも能力が高まるということ",
+   "能力は測ることができないということ"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "総量の話ではないと本文が否定している",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "El segundo párrafo lo explica: la herramienta quita una capacidad y a la vez desplaza hacia dónde va la atención.",
+   "en": "The second paragraph explains it: the tool takes away one ability while shifting where attention goes."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n1-chuubun-0002",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g001",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が最後の段落で言いたいことは何か。",
+  "opciones": [
+   "技術は批判されるべきだ",
+   "技術は擁護されるべきだ",
+   "空いた資源をどう使うかは道具が決めてくれない",
+   "道具は使わないほうがよい"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "どちらの立場も取っていない",
+   "どちらの立場も取っていない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Dice que la herramienta cambia la forma de lo posible pero no decide el uso: si el recurso liberado no va a nada, simplemente se perdió.",
+   "en": "It says the tool changes what's possible but doesn't decide the use: if the freed resource goes nowhere, it's simply lost."
+  },
+  "etiquetas": [
+   "中文"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n1-tougou-0001",
+  "nivel": "N1",
+  "tipo": "tougou",
+  "grupo": "n1-tougou-g001",
+  "orden_grupo": 0,
+  "instruccion_ja": "次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "A\n会議の時間を短くするには、資料を事前に配ることだ。読めば分かることを読み上げる時間ほど無駄なものはない。参加者が目を通してきていれば、会議は判断の場になる。読んでこない人がいるという反論はあるだろうが、それは会議の問題ではなく参加者の問題である。\n\nB\n事前配布には限界がある。読んでくる人と読んでこない人がいれば、会議は前者の理解を前提に進み、後者は黙るしかない。結果として発言する人が固定され、決定の質はかえって下がる。短くすることだけを目的にすると、参加していない人を作り出してしまう。時間の長さより、誰が話せているかを見るべきだ。",
+   "notas": []
+  },
+  "enunciado": "会議について、AとBが共通して認めていることは何か。",
+  "opciones": [
+   "資料を事前に配ると会議の進み方が変わること",
+   "会議は短いほどよいということ",
+   "参加者全員が必ず資料を読むこと",
+   "会議は判断の場にすべきでないこと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "Bは短さを目的にすることを批判している",
+   "Bは読んでこない人がいると述べている",
+   "Aは判断の場になると肯定している"
+  ],
+  "explicacion": {
+   "es": "Los dos parten de que repartir el material antes cambia cómo transcurre la reunión; discrepan en si ese cambio es bueno.",
+   "en": "Both take it as given that handing out material beforehand changes how the meeting runs; they disagree on whether that change is good."
+  },
+  "etiquetas": [
+   "統合理解"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n1-tougou-0002",
+  "nivel": "N1",
+  "tipo": "tougou",
+  "grupo": "n1-tougou-g001",
+  "orden_grupo": 1,
+  "instruccion_ja": "次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "読んでこない参加者について、AとBの立場はどうちがうか。",
+  "opciones": [
+   "Aは参加者側の問題だとし、Bは会議の質が下がる原因になるとしている",
+   "AもBも参加者側の問題だとしている",
+   "Aは会議の問題だとし、Bは参加者側の問題だとしている",
+   "AもBも会議の運営の問題だとしている"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "Bは会議の側の問題として扱っている",
+   "AとBが逆",
+   "Aは参加者の問題だと明言している"
+  ],
+  "explicacion": {
+   "es": "A lo despacha como problema del participante; B dice que produce gente que no participa y baja la calidad de la decisión.",
+   "en": "A dismisses it as the participant's problem; B says it manufactures non-participants and lowers decision quality."
+  },
+  "etiquetas": [
+   "統合理解"
+  ],
+  "dificultad": 5
+ }
+]

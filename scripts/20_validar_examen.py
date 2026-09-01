@@ -79,7 +79,10 @@ for it in items:
 # pensando: un "late" entre las opciones, o peor, un trozo pegado de otro
 # sitio. En un examen de japonés no hay alfabeto latino ni cirílico fuera de
 # las etiquetas <u> del enunciado, así que cualquiera que aparezca es un error.
-_alfabeto = re.compile(r"[A-Za-z\u0400-\u04FF]")
+# Dos letras seguidas o más. Una sola no vale como señal: el 統合理解 rotula
+# sus dos textos como «A» y «B», y las opciones se refieren a ellos por esa
+# letra. Lo que no tiene excusa es una palabra entera.
+_alfabeto = re.compile(r"[A-Za-z\u0400-\u04FF]{2,}")
 for it in items:
     trozos = [("enunciado", it.get("enunciado", ""))]
     trozos += [(f"opción {i+1}", o) for i, o in enumerate(it.get("opciones", []))]
