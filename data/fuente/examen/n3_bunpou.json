@@ -33,15 +33,15 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "先生に相談した（　）、気持ちが楽になった。",
   "opciones": [
+   "ばかりに",
    "おかげで",
    "せいで",
-   "ばかりに",
    "ために"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "せいでは悪い結果",
    "ばかりにも悪い結果",
+   "せいでは悪い結果",
    "ためには中立だが感謝が出ない"
   ],
   "explicacion": {
@@ -60,16 +60,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この機械は子どもでも使える（　）、操作がとても簡単だ。",
   "opciones": [
-   "ように",
+   "わけで",
    "ために",
-   "ところ",
-   "わけで"
+   "ように",
+   "ところ"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
+   "わけでは結論",
    "ためには目的だが後件と合わない",
-   "ところは場面",
-   "わけでは結論"
+   "ところは場面"
   ],
   "explicacion": {
    "es": "〜ように expresa el propósito: está hecho para que hasta un niño pueda usarlo.",
@@ -87,12 +87,12 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "日本に来た（　）、一度は富士山に登ってみたい。",
   "opciones": [
-   "からには",
    "からといって",
    "かわりに",
-   "うえに"
+   "うえに",
+   "からには"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "からといっては否定が続く",
    "かわりには交換",
@@ -141,16 +141,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "彼女は忙しい（　）、いつも人の相談にのっている。",
   "opciones": [
-   "わりに",
-   "ように",
    "ばかりに",
-   "とおりに"
+   "わりに",
+   "とおりに",
+   "ように"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "ようには様子",
    "ばかりには悪い結果",
-   "とおりには一致"
+   "とおりには一致",
+   "ようには様子"
   ],
   "explicacion": {
    "es": "〜わりに = «para lo … que es». Está ocupada y aun así escucha a todos.",
@@ -168,12 +168,12 @@
   "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "私は　＿＿　＿＿　＿★＿　＿＿　思っている。",
   "opciones": [
-   "日本語で",
    "話せるように",
    "なりたいと",
+   "日本語で",
    "もっと"
   ],
-  "respuesta": 1,
+  "respuesta": 0,
   "logica_distractores": [
    "語順が合わない",
    "語順が合わない",
@@ -189,9 +189,9 @@
   "dificultad": 3,
   "orden": [
    3,
+   2,
    0,
-   1,
-   2
+   1
   ]
  },
  {
@@ -201,12 +201,12 @@
   "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この本は　＿＿　＿★＿　＿＿　＿＿　役に立つ。",
   "opciones": [
-   "初めて",
    "にとって",
    "日本語を",
+   "初めて",
    "勉強する人"
   ],
-  "respuesta": 2,
+  "respuesta": 1,
   "logica_distractores": [
    "語順が合わない",
    "語順が合わない",
@@ -221,10 +221,10 @@
   ],
   "dificultad": 3,
   "orden": [
-   0,
    2,
+   1,
    3,
-   1
+   0
   ]
  }
 ]

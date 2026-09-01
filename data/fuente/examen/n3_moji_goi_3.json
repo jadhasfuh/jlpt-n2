@@ -1,116 +1,353 @@
 [
- {"id":"n3-kanji_yomi-0004","nivel":"N3","tipo":"kanji_yomi",
-  "instruccion_ja":"＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"この薬は食後に<u>服用</u>してください。",
-  "opciones":["ふくよう","ふくもち","ぶくよう","ふくゆう"],"respuesta":0,
-  "logica_distractores":["用をもちと読む誤り","濁点の誤り","ゆうは別の読み"],
-  "explicacion":{"es":"服用 = ふくよう, «tomar (un medicamento)».","en":"服用 = ふくよう, 'to take (medicine)'."},
-  "etiquetas":["音読み"],"dificultad":3},
-
- {"id":"n3-kanji_yomi-0005","nivel":"N3","tipo":"kanji_yomi",
-  "instruccion_ja":"＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"橋の上から川を<u>眺</u>めた。",
-  "opciones":["なが","もと","たし","つと"],"respuesta":0,
-  "logica_distractores":["求めるの読み","確かめるの読み","努めるの読み"],
-  "explicacion":{"es":"眺める = ながめる, «contemplar».","en":"眺める = ながめる, 'to gaze at'."},
-  "etiquetas":["訓読み"],"dificultad":3},
-
- {"id":"n3-kanji_yomi-0006","nivel":"N3","tipo":"kanji_yomi",
-  "instruccion_ja":"＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"会議の<u>司会</u>をたのまれた。",
-  "opciones":["しかい","しがい","つかさかい","じかい"],"respuesta":0,
-  "logica_distractores":["濁点の誤り","訓読みとの混同","濁点の誤り"],
-  "explicacion":{"es":"司会 = しかい, «moderar, presentar».","en":"司会 = しかい, 'to chair, to host'."},
-  "etiquetas":["音読み"],"dificultad":2},
-
- {"id":"n3-hyouki-0003","nivel":"N3","tipo":"hyouki",
-  "instruccion_ja":"＿＿の言葉を漢字で書くとき、最もよいものを1・2・3・4から一つ選びなさい。",
-  "enunciado":"新しい仕事に<u>なれる</u>まで時間がかかった。",
-  "opciones":["慣れる","習れる","鳴れる","成れる"],"respuesta":0,
-  "logica_distractores":["習うは学ぶ","鳴るは音","成るは変化"],
-  "explicacion":{"es":"慣れる «acostumbrarse». 習う es «aprender» y 鳴る «sonar».",
-                 "en":"慣れる 'to get used to'. 習う is 'to learn' and 鳴る 'to sound'."},
-  "etiquetas":["同訓異字"],"dificultad":2},
-
- {"id":"n3-hyouki-0004","nivel":"N3","tipo":"hyouki",
-  "instruccion_ja":"＿＿の言葉を漢字で書くとき、最もよいものを1・2・3・4から一つ選びなさい。",
-  "enunciado":"駅前で友だちを<u>まって</u>いた。",
-  "opciones":["待って","持って","街って","侍って"],"respuesta":0,
-  "logica_distractores":["持つは手に取る","街はまち","侍はさむらい"],
-  "explicacion":{"es":"待つ «esperar». 持つ es «tener, sostener».","en":"待つ 'to wait'. 持つ is 'to hold'."},
-  "etiquetas":["同訓異字"],"dificultad":2},
-
- {"id":"n3-bunmyaku-0004","nivel":"N3","tipo":"bunmyaku",
-  "instruccion_ja":"（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"部屋が暗いので、電気を（　）ください。",
-  "opciones":["つけて","あけて","かけて","つづけて"],"respuesta":0,
-  "logica_distractores":["あけるは開く","かけるは掛ける","つづけるは継続"],
-  "explicacion":{"es":"電気をつける = encender la luz. Es la colocación fija.",
-                 "en":"電気をつける = to turn on the light. It's the fixed collocation."},
-  "etiquetas":["コロケーション"],"dificultad":2},
-
- {"id":"n3-bunmyaku-0005","nivel":"N3","tipo":"bunmyaku",
-  "instruccion_ja":"（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"この道は工事中なので、（　）道を通ってください。",
-  "opciones":["別の","他人の","反対の","次の"],"respuesta":0,
-  "logica_distractores":["他人のは所有","反対のは方向","次のは順番"],
-  "explicacion":{"es":"別の道 = otra calle distinta. 反対の道 sería «la de sentido contrario».",
-                 "en":"別の道 = a different street. 反対の道 would be 'the opposite direction'."},
-  "etiquetas":["文脈"],"dificultad":2},
-
- {"id":"n3-bunmyaku-0006","nivel":"N3","tipo":"bunmyaku",
-  "instruccion_ja":"（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"この計画には（　）が多く、まだ実行できない。",
-  "opciones":["問題点","注意点","出発点","共通点"],"respuesta":0,
-  "logica_distractores":["注意点は気をつけること","出発点は始まり","共通点は同じところ"],
-  "explicacion":{"es":"Si no se puede ejecutar es porque hay muchos 問題点 «puntos problemáticos».",
-                 "en":"If it can't be carried out, it's because there are many 問題点 'problem points'."},
-  "etiquetas":["文脈"],"dificultad":3},
-
- {"id":"n3-bunmyaku-0007","nivel":"N3","tipo":"bunmyaku",
-  "instruccion_ja":"（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"彼は約束を（　）ので、みんなに信用されている。",
-  "opciones":["守る","持つ","作る","出す"],"respuesta":0,
-  "logica_distractores":["持つは所有","作るは約束を取りつける","出すは提出"],
-  "explicacion":{"es":"約束を守る = cumplir una promesa. Es la colocación fija.",
-                 "en":"約束を守る = to keep a promise. It's the fixed collocation."},
-  "etiquetas":["コロケーション"],"dificultad":2},
-
- {"id":"n3-iikae-0003","nivel":"N3","tipo":"iikae",
-  "instruccion_ja":"＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"その説明は<u>ややこしくて</u>、一度では分からなかった。",
-  "opciones":["ふくざつで","つまらなくて","みじかくて","しずかで"],"respuesta":0,
-  "logica_distractores":["おもしろさの話ではない","長さの話ではない","音の話ではない"],
-  "explicacion":{"es":"ややこしい = enredado, complicado. Lo más cercano es 複雑.",
-                 "en":"ややこしい = tangled, convoluted. The closest is 複雑."},
-  "etiquetas":["形容詞"],"dificultad":3},
-
- {"id":"n3-iikae-0004","nivel":"N3","tipo":"iikae",
-  "instruccion_ja":"＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"今回の結果には<u>まあまあ</u>満足している。",
-  "opciones":["だいたい","ぜんぜん","とても","まったく"],"respuesta":0,
-  "logica_distractores":["否定と使う","程度が強すぎる","否定と使う"],
-  "explicacion":{"es":"まあまあ = pasable, más o menos. No es ni «nada» ni «muchísimo».",
-                 "en":"まあまあ = so-so, reasonably. Neither 'not at all' nor 'very'."},
-  "etiquetas":["副詞"],"dificultad":2},
-
- {"id":"n3-youhou-0002","nivel":"N3","tipo":"youhou",
-  "instruccion_ja":"次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"のんびり",
-  "opciones":["締め切りが近いのでのんびり働いた。","休みの日は家でのんびり過ごす。","この荷物はのんびり重い。","のんびり駅まで走った。"],
-  "respuesta":1,
-  "logica_distractores":["締め切りと合わない","重さには使わない","走ると合わない"],
-  "explicacion":{"es":"のんびり describe pasar el rato sin prisa. No modifica peso ni acompaña a «correr».",
-                 "en":"のんびり describes spending time unhurried. It doesn't modify weight or pair with 'run'."},
-  "etiquetas":["用法"],"dificultad":3},
-
- {"id":"n3-youhou-0003","nivel":"N3","tipo":"youhou",
-  "instruccion_ja":"次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado":"あきらめる",
-  "opciones":["夢をあきらめずに続けた。","部屋をあきらめてきれいにした。","時間をあきらめて待った。","本をあきらめて読んだ。"],
-  "respuesta":0,
-  "logica_distractores":["片づけるの誤用","待つの誤用","読むと合わない"],
-  "explicacion":{"es":"あきらめる = renunciar a algo que se deseaba. Va con 夢, 目標, 希望.",
-                 "en":"あきらめる = to give up on something wanted. It goes with 夢, 目標, 希望."},
-  "etiquetas":["用法"],"dificultad":3}
+ {
+  "id": "n3-kanji_yomi-0004",
+  "nivel": "N3",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この薬は食後に<u>服用</u>してください。",
+  "opciones": [
+   "ふくゆう",
+   "ふくもち",
+   "ぶくよう",
+   "ふくよう"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "ゆうは別の読み",
+   "用をもちと読む誤り",
+   "濁点の誤り"
+  ],
+  "explicacion": {
+   "es": "服用 = ふくよう, «tomar (un medicamento)».",
+   "en": "服用 = ふくよう, 'to take (medicine)'."
+  },
+  "etiquetas": [
+   "音読み"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-kanji_yomi-0005",
+  "nivel": "N3",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "橋の上から川を<u>眺</u>めた。",
+  "opciones": [
+   "なが",
+   "もと",
+   "たし",
+   "つと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "求めるの読み",
+   "確かめるの読み",
+   "努めるの読み"
+  ],
+  "explicacion": {
+   "es": "眺める = ながめる, «contemplar».",
+   "en": "眺める = ながめる, 'to gaze at'."
+  },
+  "etiquetas": [
+   "訓読み"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-kanji_yomi-0006",
+  "nivel": "N3",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "会議の<u>司会</u>をたのまれた。",
+  "opciones": [
+   "つかさかい",
+   "しかい",
+   "じかい",
+   "しがい"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "訓読みとの混同",
+   "濁点の誤り",
+   "濁点の誤り"
+  ],
+  "explicacion": {
+   "es": "司会 = しかい, «moderar, presentar».",
+   "en": "司会 = しかい, 'to chair, to host'."
+  },
+  "etiquetas": [
+   "音読み"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-hyouki-0003",
+  "nivel": "N3",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを1・2・3・4から一つ選びなさい。",
+  "enunciado": "新しい仕事に<u>なれる</u>まで時間がかかった。",
+  "opciones": [
+   "習れる",
+   "鳴れる",
+   "慣れる",
+   "成れる"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "習うは学ぶ",
+   "鳴るは音",
+   "成るは変化"
+  ],
+  "explicacion": {
+   "es": "慣れる «acostumbrarse». 習う es «aprender» y 鳴る «sonar».",
+   "en": "慣れる 'to get used to'. 習う is 'to learn' and 鳴る 'to sound'."
+  },
+  "etiquetas": [
+   "同訓異字"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-hyouki-0004",
+  "nivel": "N3",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを1・2・3・4から一つ選びなさい。",
+  "enunciado": "駅前で友だちを<u>まって</u>いた。",
+  "opciones": [
+   "侍って",
+   "街って",
+   "持って",
+   "待って"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "侍はさむらい",
+   "街はまち",
+   "持つは手に取る"
+  ],
+  "explicacion": {
+   "es": "待つ «esperar». 持つ es «tener, sostener».",
+   "en": "待つ 'to wait'. 持つ is 'to hold'."
+  },
+  "etiquetas": [
+   "同訓異字"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-bunmyaku-0004",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "部屋が暗いので、電気を（　）ください。",
+  "opciones": [
+   "あけて",
+   "かけて",
+   "つづけて",
+   "つけて"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "あけるは開く",
+   "かけるは掛ける",
+   "つづけるは継続"
+  ],
+  "explicacion": {
+   "es": "電気をつける = encender la luz. Es la colocación fija.",
+   "en": "電気をつける = to turn on the light. It's the fixed collocation."
+  },
+  "etiquetas": [
+   "コロケーション"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-bunmyaku-0005",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この道は工事中なので、（　）道を通ってください。",
+  "opciones": [
+   "別の",
+   "他人の",
+   "反対の",
+   "次の"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "他人のは所有",
+   "反対のは方向",
+   "次のは順番"
+  ],
+  "explicacion": {
+   "es": "別の道 = otra calle distinta. 反対の道 sería «la de sentido contrario».",
+   "en": "別の道 = a different street. 反対の道 would be 'the opposite direction'."
+  },
+  "etiquetas": [
+   "文脈"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-bunmyaku-0006",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この計画には（　）が多く、まだ実行できない。",
+  "opciones": [
+   "出発点",
+   "問題点",
+   "共通点",
+   "注意点"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "出発点は始まり",
+   "共通点は同じところ",
+   "注意点は気をつけること"
+  ],
+  "explicacion": {
+   "es": "Si no se puede ejecutar es porque hay muchos 問題点 «puntos problemáticos».",
+   "en": "If it can't be carried out, it's because there are many 問題点 'problem points'."
+  },
+  "etiquetas": [
+   "文脈"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunmyaku-0007",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼は約束を（　）ので、みんなに信用されている。",
+  "opciones": [
+   "出す",
+   "作る",
+   "守る",
+   "持つ"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "出すは提出",
+   "作るは約束を取りつける",
+   "持つは所有"
+  ],
+  "explicacion": {
+   "es": "約束を守る = cumplir una promesa. Es la colocación fija.",
+   "en": "約束を守る = to keep a promise. It's the fixed collocation."
+  },
+  "etiquetas": [
+   "コロケーション"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-iikae-0003",
+  "nivel": "N3",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "その説明は<u>ややこしくて</u>、一度では分からなかった。",
+  "opciones": [
+   "つまらなくて",
+   "みじかくて",
+   "ふくざつで",
+   "しずかで"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "おもしろさの話ではない",
+   "長さの話ではない",
+   "音の話ではない"
+  ],
+  "explicacion": {
+   "es": "ややこしい = enredado, complicado. Lo más cercano es 複雑.",
+   "en": "ややこしい = tangled, convoluted. The closest is 複雑."
+  },
+  "etiquetas": [
+   "形容詞"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-iikae-0004",
+  "nivel": "N3",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "今回の結果には<u>まあまあ</u>満足している。",
+  "opciones": [
+   "ぜんぜん",
+   "とても",
+   "まったく",
+   "だいたい"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "否定と使う",
+   "程度が強すぎる",
+   "否定と使う"
+  ],
+  "explicacion": {
+   "es": "まあまあ = pasable, más o menos. No es ni «nada» ni «muchísimo».",
+   "en": "まあまあ = so-so, reasonably. Neither 'not at all' nor 'very'."
+  },
+  "etiquetas": [
+   "副詞"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n3-youhou-0002",
+  "nivel": "N3",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "のんびり",
+  "opciones": [
+   "締め切りが近いのでのんびり働いた。",
+   "休みの日は家でのんびり過ごす。",
+   "この荷物はのんびり重い。",
+   "のんびり駅まで走った。"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "締め切りと合わない",
+   "重さには使わない",
+   "走ると合わない"
+  ],
+  "explicacion": {
+   "es": "のんびり describe pasar el rato sin prisa. No modifica peso ni acompaña a «correr».",
+   "en": "のんびり describes spending time unhurried. It doesn't modify weight or pair with 'run'."
+  },
+  "etiquetas": [
+   "用法"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-youhou-0003",
+  "nivel": "N3",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "あきらめる",
+  "opciones": [
+   "時間をあきらめて待った。",
+   "部屋をあきらめてきれいにした。",
+   "夢をあきらめずに続けた。",
+   "本をあきらめて読んだ。"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "待つの誤用",
+   "片づけるの誤用",
+   "読むと合わない"
+  ],
+  "explicacion": {
+   "es": "あきらめる = renunciar a algo que se deseaba. Va con 夢, 目標, 希望.",
+   "en": "あきらめる = to give up on something wanted. It goes with 夢, 目標, 希望."
+  },
+  "etiquetas": [
+   "用法"
+  ],
+  "dificultad": 3
+ }
 ]

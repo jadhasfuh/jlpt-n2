@@ -17,16 +17,16 @@
   },
   "enunciado": "筆者によると、助言が役に立たないと感じられる主な原因は何か。",
   "opciones": [
-   "専門家の知識が不足しているから",
    "問題の輪郭がどこまで見えているかが両者で異なるから",
+   "求める側に専門知識がないから",
    "助言する側の説明が長すぎるから",
-   "求める側に専門知識がないから"
+   "専門家の知識が不足しているから"
   ],
-  "respuesta": 1,
+  "respuesta": 0,
   "logica_distractores": [
+   "知識の差ではないと本文が否定している",
    "本文にない",
-   "本文にない",
-   "知識の差ではないと本文が否定している"
+   "本文にない"
   ],
   "explicacion": {
    "es": "El texto dice expresamente que no es una diferencia de conocimiento, sino de hasta dónde se ve el contorno del problema.",
@@ -88,15 +88,15 @@
   },
   "enunciado": "筆者は「問題は能力の総量ではなく、その配分なのである」と述べているが、どういうことか。",
   "opciones": [
-   "道具によって能力の合計が増えるということ",
    "道具は能力を奪うと同時に、注意の向け先を移すということ",
    "道具を使えば誰でも能力が高まるということ",
+   "道具によって能力の合計が増えるということ",
    "能力は測ることができないということ"
   ],
-  "respuesta": 1,
+  "respuesta": 0,
   "logica_distractores": [
-   "総量の話ではないと本文が否定している",
    "本文にない",
+   "総量の話ではないと本文が否定している",
    "本文にない"
   ],
   "explicacion": {
@@ -118,15 +118,15 @@
   "enunciado": "筆者が最後の段落で言いたいことは何か。",
   "opciones": [
    "技術は批判されるべきだ",
-   "技術は擁護されるべきだ",
    "空いた資源をどう使うかは道具が決めてくれない",
-   "道具は使わないほうがよい"
+   "道具は使わないほうがよい",
+   "技術は擁護されるべきだ"
   ],
-  "respuesta": 2,
+  "respuesta": 1,
   "logica_distractores": [
    "どちらの立場も取っていない",
-   "どちらの立場も取っていない",
-   "本文にない"
+   "本文にない",
+   "どちらの立場も取っていない"
   ],
   "explicacion": {
    "es": "Dice que la herramienta cambia la forma de lo posible pero no decide el uso: si el recurso liberado no va a nada, simplemente se perdió.",
@@ -179,15 +179,15 @@
   "instruccion_ja": "次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "読んでこない参加者について、AとBの立場はどうちがうか。",
   "opciones": [
+   "Aは会議の問題だとし、Bは参加者側の問題だとしている",
    "Aは参加者側の問題だとし、Bは会議の質が下がる原因になるとしている",
    "AもBも参加者側の問題だとしている",
-   "Aは会議の問題だとし、Bは参加者側の問題だとしている",
    "AもBも会議の運営の問題だとしている"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "Bは会議の側の問題として扱っている",
    "AとBが逆",
+   "Bは会議の側の問題として扱っている",
    "Aは参加者の問題だと明言している"
   ],
   "explicacion": {

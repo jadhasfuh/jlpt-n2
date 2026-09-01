@@ -31,16 +31,16 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "駅前の交番で道を聞いた。",
   "opciones": [
+   "こばん",
    "こうばん",
    "こうはん",
-   "ごうばん",
-   "こばん"
+   "ごうばん"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
+   "長音を落とした",
    "連濁なし",
-   "清音を濁音にした",
-   "長音を落とした"
+   "清音を濁音にした"
   ],
   "explicacion": {
    "es": "交番（こうばん）. 番 se sonoriza a ばん y 交 lleva vocal larga.",
@@ -56,16 +56,16 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "彼は毎日、日記をつけている。",
   "opciones": [
-   "にっき",
+   "じっき",
    "にちき",
-   "にっけ",
-   "じっき"
+   "にっき",
+   "にっけ"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
+   "日をじつと読んだ",
    "促音にしない",
-   "記をけと読んだ",
-   "日をじつと読んだ"
+   "記をけと読んだ"
   ],
   "explicacion": {
    "es": "日記（にっき）. 日 se acorta a にっ ante 記.",
@@ -81,15 +81,15 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この道具は使いやすい。",
   "opciones": [
-   "どうぐ",
-   "どうく",
    "とうぐ",
-   "どぐ"
+   "どうく",
+   "どぐ",
+   "どうぐ"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
-   "連濁なし",
    "清音にした",
+   "連濁なし",
    "長音を落とした"
   ],
   "explicacion": {
@@ -131,15 +131,15 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "彼女は教える経験がある。",
   "opciones": [
+   "きょうけん",
    "けいけん",
    "けいげん",
-   "きょうけん",
    "けいけ"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "験を濁音にした",
    "経をきょうと読んだ",
+   "験を濁音にした",
    "長音を落とした"
   ],
   "explicacion": {
@@ -156,15 +156,15 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この規則は守らなければならない。",
   "opciones": [
-   "きそく",
-   "ぎそく",
    "きぞく",
+   "ぎそく",
+   "きそく",
    "きそっく"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "清音を濁音にした",
    "則を濁音にした",
+   "清音を濁音にした",
    "促音を入れた"
   ],
   "explicacion": {
@@ -206,16 +206,16 @@
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "かいぎは三時からです。",
   "opciones": [
+   "開義",
    "会議",
    "会義",
-   "開議",
-   "開義"
+   "開議"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
+   "両方",
    "議と義の混同",
-   "会と開の混同",
-   "両方"
+   "会と開の混同"
   ],
   "explicacion": {
    "es": "会議 = reunión. 議 (deliberar) no 義 (justicia); 会 (reunirse) no 開 (abrir).",
@@ -231,16 +231,16 @@
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "あの人はとてもしんせつだ。",
   "opciones": [
-   "親切",
-   "新切",
    "親功",
-   "身切"
+   "身切",
+   "親切",
+   "新切"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "親と新の混同",
    "切と功の混同",
-   "親と身の混同"
+   "親と身の混同",
+   "親と新の混同"
   ],
   "explicacion": {
    "es": "親切 = amable. Lleva 親, el mismo de 親しい (íntimo).",
@@ -256,16 +256,16 @@
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "ちずを見て場所をたしかめた。",
   "opciones": [
-   "場所",
+   "湯所",
    "揚所",
    "場処",
-   "湯所"
+   "場所"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
+   "場と湯の混同",
    "場と揚の混同",
-   "所と処の混同",
-   "場と湯の混同"
+   "所と処の混同"
   ],
   "explicacion": {
    "es": "場所 = lugar. 揚 (freír) y 湯 (agua caliente) comparten forma con 場.",
@@ -331,12 +331,12 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "かぜをひいたので、会社を（　）ました。",
   "opciones": [
-   "休み",
    "終わり",
+   "休み",
    "始め",
    "続け"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "終わるのは仕事のほう",
    "始めるのは逆",
@@ -356,12 +356,12 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "電車が（　）ので、会議に遅れました。",
   "opciones": [
-   "遅れた",
    "急いだ",
    "乗った",
+   "遅れた",
    "降りた"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "急ぐのは人",
    "乗るのは人",
@@ -381,15 +381,15 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "このボタンを（　）と、ドアが開きます。",
   "opciones": [
-   "押す",
+   "投げる",
    "引く",
    "切る",
-   "投げる"
+   "押す"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
-   "ボタンは引かない",
    "共起しない",
+   "ボタンは引かない",
    "共起しない"
   ],
   "explicacion": {
@@ -431,16 +431,16 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "部屋が暗いので、電気を（　）ください。",
   "opciones": [
-   "つけて",
-   "消して",
    "閉めて",
-   "洗って"
+   "つけて",
+   "洗って",
+   "消して"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "反対の動作",
    "窓や戸に使う",
-   "共起しない"
+   "共起しない",
+   "反対の動作"
   ],
   "explicacion": {
    "es": "暗い → 電気をつける. 消す sería apagarla, lo contrario.",
@@ -481,12 +481,12 @@
   "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "彼はたいてい七時に起きます。",
   "opciones": [
-   "ほとんどいつも",
    "たまに",
+   "ほとんどいつも",
    "決して",
    "少しも"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "頻度が逆",
    "否定と使う",
@@ -506,16 +506,16 @@
   "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この店はいつも客でいっぱいだ。",
   "opciones": [
-   "とても混んでいる",
+   "静かだ",
    "すいている",
-   "閉まっている",
-   "静かだ"
+   "とても混んでいる",
+   "閉まっている"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
+   "音の話",
    "反対の意味",
-   "営業の話",
-   "音の話"
+   "営業の話"
   ],
   "explicacion": {
    "es": "客でいっぱい = está a rebosar. すいている sería justo lo contrario.",
@@ -531,15 +531,15 @@
   "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "彼の説明ははっきりしていた。",
   "opciones": [
-   "よく分かった",
-   "分かりにくかった",
    "長かった",
-   "短かった"
+   "分かりにくかった",
+   "短かった",
+   "よく分かった"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
-   "反対の意味",
    "長さの話",
+   "反対の意味",
    "長さの話"
   ],
   "explicacion": {
@@ -606,16 +606,16 @@
   "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "そろそろ",
   "opciones": [
-   "そろそろ出かけましょうか。",
    "彼はそろそろ走って行った。",
-   "この料理はそろそろおいしい。",
-   "そろそろ三年前のことです。"
+   "そろそろ三年前のことです。",
+   "そろそろ出かけましょうか。",
+   "この料理はそろそろおいしい。"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "速度の副詞ではない",
-   "味には使わない",
-   "過去の時点には使わない"
+   "過去の時点には使わない",
+   "味には使わない"
   ],
   "explicacion": {
    "es": "そろそろ = ya casi es hora de. Marca que se acerca el momento de hacer algo.",

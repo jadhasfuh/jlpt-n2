@@ -33,16 +33,16 @@
   "enunciado": "この道は工事のため通行止めになっている。",
   "objetivo": "通行",
   "opciones": [
+   "つうごう",
    "つうこう",
-   "つこう",
    "とうこう",
-   "つうごう"
+   "つこう"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "長音なし",
+   "行を濁音にした",
    "通をとうと読んだ",
-   "行を濁音にした"
+   "長音なし"
   ],
   "explicacion": {
    "es": "通行（つうこう）. 通 en compuestos es つう, no とう; y lleva vocal larga.",
@@ -59,12 +59,12 @@
   "enunciado": "彼女は毎日欠かさず日記をつけている。",
   "objetivo": "欠かさず",
   "opciones": [
-   "かかさず",
-   "なくさず",
    "きらさず",
+   "なくさず",
+   "かかさず",
    "たやさず"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "同じ活用の別動詞",
    "同じ活用の別動詞",
@@ -85,12 +85,12 @@
   "enunciado": "険しい山道を三時間かけて登った。",
   "objetivo": "険しい",
   "opciones": [
-   "けわしい",
    "きびしい",
    "はげしい",
-   "くやしい"
+   "くやしい",
+   "けわしい"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "厳しいと混同",
    "激しいと混同",
@@ -137,16 +137,16 @@
   "enunciado": "駅前の商店街は夕方になると賑わう。",
   "objetivo": "商店街",
   "opciones": [
-   "しょうてんがい",
-   "しょてんがい",
    "しょうてんかい",
-   "しょてんかい"
+   "しょうてんがい",
+   "しょてんかい",
+   "しょてんがい"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "長音なし",
    "連濁なし",
-   "両方"
+   "両方",
+   "長音なし"
   ],
   "explicacion": {
    "es": "商店街（しょうてんがい）. 商 lleva vocal larga y 街 se sonoriza a がい tras 店.",
@@ -189,16 +189,16 @@
   "enunciado": "先生のこうぎはとても分かりやすい。",
   "objetivo": "こうぎ",
   "opciones": [
-   "講義",
-   "構義",
    "購義",
-   "講議"
+   "講義",
+   "講議",
+   "構義"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "同じ部首の講/構",
    "同じ部首の購",
-   "義と議の混同"
+   "義と議の混同",
+   "同じ部首の講/構"
   ],
   "explicacion": {
    "es": "講義 = clase magistral. 講/構/購 comparten forma; 義 (sentido) no 議 (deliberar).",
@@ -215,16 +215,16 @@
   "enunciado": "書類の最後にしょめいをしてください。",
   "objetivo": "しょめい",
   "opciones": [
-   "署名",
    "暑名",
-   "諸名",
-   "署明"
+   "署明",
+   "署名",
+   "諸名"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "暑と署の混同",
-   "諸と署の混同",
-   "名と明の混同"
+   "名と明の混同",
+   "諸と署の混同"
   ],
   "explicacion": {
    "es": "署名 = firma. 署 (oficina, firmar) no 暑 (calor) ni 諸 (varios).",
@@ -241,16 +241,16 @@
   "enunciado": "彼がいがいにも早く着いたので驚いた。",
   "objetivo": "いがい",
   "opciones": [
-   "意外",
    "以外",
+   "異外",
    "意害",
-   "異外"
+   "意外"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "以外との混同",
-   "害と外の混同",
-   "異と意の混同"
+   "異と意の混同",
+   "害と外の混同"
   ],
   "explicacion": {
    "es": "意外 = inesperado. 以外 (いがい) existe pero significa «excepto»: es el fallo clásico del N2.",
@@ -319,12 +319,12 @@
   "enunciado": "アンケートの結果、利用者の満足（　）は九割を超えた。",
   "objetivo": "満足（　）",
   "opciones": [
-   "度",
    "率",
+   "度",
    "性",
    "化"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "率は割合",
    "性は性質",
@@ -345,16 +345,16 @@
   "enunciado": "工事は（　）完成のまま中断されている。",
   "objetivo": "（　）完成",
   "opciones": [
-   "未",
    "非",
-   "無",
-   "反"
+   "反",
+   "未",
+   "無"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "非は性質の否定",
-   "無は不在",
-   "反は反対"
+   "反は反対",
+   "無は不在"
   ],
   "explicacion": {
    "es": "未完成 = sin terminar. 未〜 dice que algo aún no ha llegado a ese estado.",
@@ -371,16 +371,16 @@
   "enunciado": "先月より電気（　）が高くなった。",
   "objetivo": "電気（　）",
   "opciones": [
-   "代",
-   "費",
    "料",
-   "賃"
+   "賃",
+   "費",
+   "代"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
-   "費は支出全般",
    "料は料金の語基",
-   "賃は労働や運送"
+   "賃は労働や運送",
+   "費は支出全般"
   ],
   "explicacion": {
    "es": "電気代 = la factura de la luz. 〜代 es lo que se paga por algo consumido; 〜賃 es por transporte o trabajo.",

@@ -1,11 +1,11 @@
 import { notFound } from "next/navigation";
 import { Cabecera } from "@/components/Cabecera";
 import { TestLibre } from "@/components/TestLibre";
-import { supabaseServidor } from "@/lib/supabase-servidor";
 import { idiomaActual } from "@/lib/idioma-servidor";
 import { t as trad } from "@/lib/idioma";
-import type { Item } from "@/lib/examen";
 import { sitio } from "@/lib/sitio";
+import { ABIERTOS, esAbierto, itemsDelTest } from "@/lib/test-libre";
+import { Marcador } from "@/components/Marcador";
 
 /**
  * El test de prueba: gratis, sin cuenta y sin pasar por el muro.
@@ -21,33 +21,7 @@ import { sitio } from "@/lib/sitio";
  */
 export const revalidate = 0;
 
-const ABIERTOS = ["N5", "N4"] as const;
-type Abierto = (typeof ABIERTOS)[number];
-
-/**
- * Sin pasajes ni audio: preguntas sueltas que se responden y se corrigen.
- *
- * La cuota es fija y las preguntas se toman siempre por id, de menor a mayor,
- * así que **el test es siempre el mismo**. No se barajan ni se rotan: si cada
- * visita sacara preguntas distintas, el banco entero de 文字・語彙 y 文法
- * quedaría abierto a base de recargar, y esto dejaría de ser una muestra para
- * convertirse en la versión gratis del producto.
- *
- * El reparto imita la proporción del examen real: pesa el vocabulario, y la
- * gramática va detrás.
- */
-const CUOTA: Record<Abierto, Record<string, number>> = {
-  // N5 no tiene 用法 en el banco, así que su cuota se reparte en el resto.
-  N5: { kanji_yomi: 6, hyouki: 4, bunmyaku: 5, iikae: 3, bunpou1: 5, bunpou2: 2 },
-  N4: { kanji_yomi: 5, hyouki: 4, bunmyaku: 5, iikae: 3, youhou: 3, bunpou1: 3, bunpou2: 2 },
-};
-/** El orden en que se presentan, como en el examen: primero léxico. */
-const ORDEN = ["kanji_yomi", "hyouki", "bunmyaku", "iikae", "youhou", "bunpou1", "bunpou2"];
 const CUANTAS = 25;
-
-function esAbierto(n: string): n is Abierto {
-  return (ABIERTOS as readonly string[]).includes(n);
-}
 
 export async function generateStaticParams() {
   return ABIERTOS.map((nivel) => ({ nivel: nivel.toLowerCase() }));
@@ -79,24 +53,14 @@ export default async function Pagina({ params }: { params: Promise<{ nivel: stri
   if (!esAbierto(n)) notFound();
 
   const idioma = await idiomaActual();
-  const sb = supabaseServidor();
-  const { data } = sb
-    ? await sb.from("items")
-        .select("id, tipo, instruccion_ja, enunciado, opciones, respuesta, explicacion, logica_distractores")
-        .eq("nivel", n).in("tipo", ORDEN).order("id")
-    : { data: null };
-
-  const todos = (data ?? []) as Item[];
-  const cuota = CUOTA[n];
-  const items = ORDEN.flatMap((tipo) =>
-    todos.filter((it) => it.tipo === tipo).slice(0, cuota[tipo] ?? 0),
-  );
+  const items = await itemsDelTest(n);
 
   return (
     <>
       <Cabecera />
       <main className="envoltorio">
         <TestLibre nivel={n} items={items} />
+        <Marcador nivel={n} idioma={idioma} />
         {/* Texto para quien llega de un buscador y aún no ha empezado. Va
             debajo del test, no encima: quien viene a medirse quiere el botón,
             no un párrafo. */}

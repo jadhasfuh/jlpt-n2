@@ -31,16 +31,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "ペン（　）名前を 書きます。",
   "opciones": [
-   "で",
    "に",
-   "を",
-   "も"
+   "で",
+   "も",
+   "を"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "に は場所や時間",
-   "を は目的語",
-   "も は「〜も」"
+   "も は「〜も」",
+   "を は目的語"
   ],
   "explicacion": {
    "es": "で marca el medio o instrumento: con qué se hace algo.",
@@ -56,16 +56,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "へやに だれ（　）いません。",
   "opciones": [
-   "も",
+   "が",
    "か",
-   "は",
-   "が"
+   "も",
+   "は"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
+   "が は主語",
    "か は疑問",
-   "は は主題",
-   "が は主語"
+   "は は主題"
   ],
   "explicacion": {
    "es": "だれも＋negativo = «nadie». Con か sería «alguien», que pide frase afirmativa.",
@@ -81,16 +81,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "あついです（　）、まどを あけましょう。",
   "opciones": [
-   "から",
-   "まで",
    "より",
-   "だけ"
+   "だけ",
+   "まで",
+   "から"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
-   "まで は終点",
    "より は比較",
-   "だけ は限定"
+   "だけ は限定",
+   "まで は終点"
   ],
   "explicacion": {
    "es": "から da la razón: «como hace calor, abramos la ventana».",
@@ -131,16 +131,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "あした 雨が ふる（　）しれません。",
   "opciones": [
-   "かも",
    "ても",
-   "ので",
-   "のに"
+   "かも",
+   "のに",
+   "ので"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "ても は逆接",
-   "ので は理由",
-   "のに は逆接"
+   "のに は逆接",
+   "ので は理由"
   ],
   "explicacion": {
    "es": "〜かもしれません = «puede que». Va en bloque: かも＋しれません.",
@@ -156,12 +156,12 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "ごはんを 食べた（　）、テレビを 見ます。",
   "opciones": [
-   "あとで",
    "まえに",
    "ながら",
+   "あとで",
    "うちに"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "まえに は辞書形",
    "ながら は同時",
@@ -181,16 +181,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "しゅくだいは まだ して（　）。",
   "opciones": [
-   "いません",
+   "あります",
    "います",
    "おきます",
-   "あります"
+   "いません"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
+   "〜てある",
    "肯定になる",
-   "〜ておく",
-   "〜てある"
+   "〜ておく"
   ],
   "explicacion": {
    "es": "まだ＋〜ていません = «todavía no». La negación va en いる.",
@@ -231,12 +231,12 @@
   "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "わたしは ＿＿ ＿★＿ ＿＿ ＿＿ 行きます。",
   "opciones": [
+   "で",
    "に",
-   "学校",
    "じてんしゃ",
-   "で"
+   "学校"
   ],
-  "respuesta": 3,
+  "respuesta": 0,
   "logica_distractores": [],
   "objetivo": "じてんしゃ で 学校 に",
   "explicacion": {
@@ -249,9 +249,9 @@
   "dificultad": 2,
   "orden": [
    2,
+   0,
    3,
-   1,
-   0
+   1
   ]
  },
  {
@@ -321,12 +321,12 @@
   "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この ＿＿ ＿★＿ ＿＿ ＿＿ ください。",
   "opciones": [
-   "を",
+   "ぜんぶ",
    "読んで",
    "本",
-   "ぜんぶ"
+   "を"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [],
   "objetivo": "本 を ぜんぶ 読んで",
   "explicacion": {
@@ -339,8 +339,8 @@
   "dificultad": 2,
   "orden": [
    2,
-   0,
    3,
+   0,
    1
   ]
  },
@@ -387,11 +387,11 @@
   "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
   "enunciado": "これ、いくらですか。",
   "opciones": [
-   "五百円です。",
    "三つです。",
+   "五百円です。",
    "あそこです。"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "数を答えている",
    "場所を答えている"
@@ -423,14 +423,14 @@
   "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
   "enunciado": "すみません、トイレは どこですか。",
   "opciones": [
-   "あちらです。",
+   "三じです。",
    "はい、そうです。",
-   "三じです。"
+   "あちらです。"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "はい/いいえの質問ではない",
-   "時間を答えている"
+   "時間を答えている",
+   "はい/いいえの質問ではない"
   ],
   "explicacion": {
    "es": "どこ pide un lugar: あちら. 三じ contestaría a なんじ.",
@@ -495,11 +495,11 @@
   "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
   "enunciado": "すみません、ちょっと 手つだって ください。",
   "opciones": [
-   "はい、いいですよ。",
    "はい、手つだいました。",
+   "はい、いいですよ。",
    "いいえ、ちがいます。"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "過去形になっている",
    "訂正の返事"
@@ -531,14 +531,14 @@
   "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
   "enunciado": "きのうの テスト、どうでしたか。",
   "opciones": [
-   "むずかしかったです。",
+   "はい、します。",
    "あしたです。",
-   "はい、します。"
+   "むずかしかったです。"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "日が違う",
-   "はい/いいえの質問ではない"
+   "はい/いいえの質問ではない",
+   "日が違う"
   ],
   "explicacion": {
    "es": "どうでしたか pide una impresión en pasado.",
@@ -567,15 +567,15 @@
   "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
   "enunciado": "女の人は これから 何を 買いますか。",
   "opciones": [
-   "たまごと ぎゅうにゅう",
    "ぎゅうにゅうと パン",
    "たまごと パン",
+   "たまごと ぎゅうにゅう",
    "パンだけ"
   ],
-  "respuesta": 1,
+  "respuesta": 0,
   "logica_distractores": [
-   "たまごは 家に ある",
    "たまごは 買わない",
+   "たまごは 家に ある",
    "パンだけでは 足りない"
   ],
   "explicacion": {

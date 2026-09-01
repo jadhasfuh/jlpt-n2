@@ -6,15 +6,15 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "天気予報（　）、明日は雪になるそうだ。",
   "opciones": [
-   "によると",
-   "にとって",
    "について",
+   "にとって",
+   "によると",
    "にたいして"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "にとっては立場",
    "についてはテーマ",
+   "にとっては立場",
    "にたいしては対象"
   ],
   "explicacion": {
@@ -33,16 +33,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "体の調子が悪いなら、無理を（　）ほうがいい。",
   "opciones": [
-   "しない",
-   "する",
+   "させる",
    "しよう",
-   "させる"
+   "する",
+   "しない"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
-   "逆の意味",
+   "使役は文脈に合わない",
    "意向形は使えない",
-   "使役は文脈に合わない"
+   "逆の意味"
   ],
   "explicacion": {
    "es": "Estás mal: el consejo es no forzarse. 〜ないほうがいい.",
@@ -87,16 +87,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この店のケーキは、おいしい（　）値段も安い。",
   "opciones": [
+   "くせに",
    "うえに",
-   "かわりに",
    "わりに",
-   "くせに"
+   "かわりに"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "かわりには交換",
+   "くせには非難",
    "わりには予想との差",
-   "くせには非難"
+   "かわりには交換"
   ],
   "explicacion": {
    "es": "〜うえに suma dos cosas buenas. 〜わりに marcaría contraste.",
@@ -114,16 +114,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "弟に部屋を（　）、勉強できなかった。",
   "opciones": [
-   "さわがれて",
    "さわいで",
-   "さわがせて",
-   "さわぐと"
+   "さわぐと",
+   "さわがれて",
+   "さわがせて"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "自分が騒いだことになる",
-   "使役は意味が変わる",
-   "接続が合わない"
+   "接続が合わない",
+   "使役は意味が変わる"
   ],
   "explicacion": {
    "es": "Pasivo de molestia: el hermano armó ruido y a mí me perjudicó. 〜れて.",
@@ -141,12 +141,12 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "先生が書かれた本を（　）。",
   "opciones": [
-   "拝見しました",
-   "ご覧になりました",
    "お読みになりました",
-   "見られました"
+   "見られました",
+   "ご覧になりました",
+   "拝見しました"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "尊敬語で自分には使えない",
    "尊敬語で自分には使えない",
@@ -201,12 +201,12 @@
   "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "一人で　＿＿　＿＿　＿★＿　＿＿　思います。",
   "opciones": [
-   "やって",
    "みようと",
    "最後まで",
-   "この仕事を"
+   "この仕事を",
+   "やって"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "語順が合わない",
    "語順が合わない",
@@ -221,10 +221,10 @@
   ],
   "dificultad": 3,
   "orden": [
-   3,
    2,
-   0,
-   1
+   1,
+   3,
+   0
   ]
  },
  {
@@ -298,16 +298,16 @@
   "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "（　3　）",
   "opciones": [
-   "その当時の私には",
    "日本人にとっては",
-   "店員さんには",
-   "今の私には"
+   "今の私には",
+   "その当時の私には",
+   "店員さんには"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "主語が変わる",
-   "主語が変わる",
-   "現在ならできる"
+   "現在ならできる",
+   "主語が変わる"
   ],
   "explicacion": {
    "es": "Habla de cuando acababa de llegar: para el yo de entonces era difícil. Ahora ya no.",

@@ -31,15 +31,15 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "一度引き受けた（　）、最後までやり遂げるつもりだ。",
   "opciones": [
+   "とはいえ",
    "からには",
    "ところで",
-   "とはいえ",
    "どころか"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "ところでは逆接",
    "とはいえは逆接",
+   "ところでは逆接",
    "どころかは否定強調"
   ],
   "explicacion": {
@@ -56,16 +56,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "今さら先生に言われた（　）、勉強する気にはなれない。",
   "opciones": [
-   "ところで",
+   "とともに",
    "からこそ",
-   "ばかりに",
-   "とともに"
+   "ところで",
+   "ばかりに"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
+   "とともには同時",
    "からこそは肯定的理由",
-   "ばかりにはbad cause",
-   "とともには同時"
+   "ばかりにはbad cause"
   ],
   "explicacion": {
    "es": "〜たところで = «aunque me lo digan, da igual». Siempre lleva un resultado negativo o inútil.",
@@ -81,16 +81,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "彼の実力（　）、優勝は当然の結果と言える。",
   "opciones": [
-   "からすれば",
-   "にしては",
    "どころか",
-   "において"
+   "において",
+   "にしては",
+   "からすれば"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
-   "にしてはは期待外れ",
    "どころかは否定強調",
-   "においては場面"
+   "においては場面",
+   "にしてはは期待外れ"
   ],
   "explicacion": {
    "es": "〜からすれば = «a juzgar por». にしては diría lo contrario: que el resultado no cuadra con su nivel.",
@@ -131,16 +131,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "彼は忙しい忙しいと言い（　）、毎晩飲みに行っている。",
   "opciones": [
-   "つつ",
    "ばかり",
-   "きり",
-   "がち"
+   "つつ",
+   "がち",
+   "きり"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "ばかりは限定",
-   "きりは以来",
-   "がちは傾向"
+   "がちは傾向",
+   "きりは以来"
   ],
   "explicacion": {
    "es": "〜つつ = «mientras dice…, en realidad». Marca contradicción entre lo que se dice y lo que se hace.",
@@ -156,16 +156,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "あの店は値段が高い（　）、味は確かだ。",
   "opciones": [
-   "だけあって",
    "どころか",
-   "ばかりか",
-   "にしては"
+   "にしては",
+   "だけあって",
+   "ばかりか"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "どころかは否定強調",
-   "ばかりかは追加",
-   "にしてはは期待外れ"
+   "にしてはは期待外れ",
+   "ばかりかは追加"
   ],
   "explicacion": {
    "es": "〜だけあって = «como corresponde a lo caro que es». El precio justifica la calidad.",
@@ -181,16 +181,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "連絡先が分からないので、知らせ（　）がない。",
   "opciones": [
-   "よう",
    "もの",
+   "ところ",
    "こと",
-   "ところ"
+   "よう"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "ものは物事",
-   "ことは事柄",
-   "ところは場所や場面"
+   "ところは場所や場面",
+   "ことは事柄"
   ],
   "explicacion": {
    "es": "〜ようがない = «no hay manera de». Se forma con la raíz masu: 知らせ＋ようがない.",
@@ -231,16 +231,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "試験に受かるかどうかは、これからの努力（　）だ。",
   "opciones": [
-   "次第",
-   "ばかり",
    "きり",
-   "まま"
+   "次第",
+   "まま",
+   "ばかり"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "ばかりは限定",
    "きりは以来",
-   "ままは状態の維持"
+   "ままは状態の維持",
+   "ばかりは限定"
   ],
   "explicacion": {
    "es": "〜次第だ = «depende de». Lo que va delante decide el resultado.",
@@ -256,12 +256,12 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "準備が終わらない（　）、始めるわけにはいかない。",
   "opciones": [
-   "ことには",
    "ものなら",
    "どころか",
+   "ことには",
    "かぎりで"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "ものならは仮定",
    "どころかは否定強調",
@@ -281,16 +281,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この本は読めば読む（　）、面白くなってくる。",
   "opciones": [
-   "ほど",
+   "きり",
    "だけ",
    "まま",
-   "きり"
+   "ほど"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
+   "きりは以来",
    "だけは限定",
-   "ままは維持",
-   "きりは以来"
+   "ままは維持"
   ],
   "explicacion": {
    "es": "〜ば〜ほど = «cuanto más…, más». La estructura pide 読めば読むほど.",
@@ -337,11 +337,11 @@
   "enunciado": "彼は ＿＿ ＿★＿ ＿＿ ＿＿ 諦めなかった。",
   "opciones": [
    "に",
-   "何度",
    "も",
+   "何度",
    "失敗したの"
   ],
-  "respuesta": 2,
+  "respuesta": 1,
   "logica_distractores": [],
   "explicacion": {
    "es": "Orden: 何度 も 失敗したの に. La estrella está en la casilla 2, donde va 「も」.",
@@ -353,8 +353,8 @@
   "objetivo": "何度 も 失敗したの に",
   "dificultad": 3,
   "orden": [
-   1,
    2,
+   1,
    3,
    0
   ]
@@ -426,12 +426,12 @@
   "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "あの店は ＿＿ ＿★＿ ＿＿ ＿＿ 味がいい。",
   "opciones": [
-   "だけ",
    "高い",
    "あって",
+   "だけ",
    "値段が"
   ],
-  "respuesta": 1,
+  "respuesta": 0,
   "logica_distractores": [],
   "explicacion": {
    "es": "Orden: 値段が 高い だけ あって. La estrella está en la casilla 2, donde va 「高い」.",
@@ -444,9 +444,9 @@
   "dificultad": 3,
   "orden": [
    3,
-   1,
    0,
-   2
+   2,
+   1
   ]
  }
 ]

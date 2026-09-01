@@ -1,49 +1,127 @@
 [
-{
- "id": "n3-bunpou1-0013", "nivel": "N3", "tipo": "bunpou1",
- "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
- "enunciado": "彼は忙しい（　）、いつも人の相談にのってくれる。",
- "opciones": ["ので", "のに", "から", "ように"],
- "respuesta": 1,
- "logica_distractores": ["理由を表すので前後が合わない", "理由を表すので前後が合わない", "様態を表す"],
- "explicacion": { "es": "«Aunque está ocupado, siempre escucha»: es contraste, y eso es 〜のに.", "en": "'Though he's busy, he always listens': that's contrast, so 〜のに." },
- "etiquetas": [], "dificultad": 3
-},
-{
- "id": "n3-bunpou2-0005", "nivel": "N3", "tipo": "bunpou2",
- "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
- "enunciado": "この店は　＿＿　＿★＿　＿＿　＿＿　人気がある。",
- "opciones": ["安い", "若い人に", "だけでなく", "味もいいので"],
- "respuesta": 2,
- "logica_distractores": ["語順が合わない", "語順が合わない", "語順が合わない"],
- "explicacion": { "es": "Orden: 安い だけでなく 味もいいので 若い人に. La estrella cae en la casilla 2, que lleva 「だけでなく」.", "en": "Order: 安い だけでなく 味もいいので 若い人に. The star is in slot 2, which takes 「だけでなく」." },
- "etiquetas": ["並べ替え"], "dificultad": 4,
- "orden": [0, 2, 3, 1]
-},
-{
- "id": "n3-bunshou_bunpou-0004", "nivel": "N3", "tipo": "bunshou_bunpou",
- "grupo": "n3-bb-g002", "orden_grupo": 0,
- "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
- "pasaje": {
-  "texto": "先月から、朝の三十分を読書の時間に決めた。前は電車の中で携帯を見ていたが、駅に着くころには何を見ていたか思い出せない。（　1　）、本なら一行でも残る。\n最初はうまくいかなかった。眠かったし、周りがうるさくて集中できない日もあった。それでも続けているうちに、乗った瞬間に本を開くのが自然になった。習慣というのは、意志の強さではなく、（　2　）でできているのだと思う。",
-  "notas": [{ "termino": "習慣", "glosa": "いつもすること" }]
+ {
+  "id": "n3-bunpou1-0013",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼は忙しい（　）、いつも人の相談にのってくれる。",
+  "opciones": [
+   "のに",
+   "ように",
+   "ので",
+   "から"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "様態を表す",
+   "理由を表すので前後が合わない",
+   "理由を表すので前後が合わない"
+  ],
+  "explicacion": {
+   "es": "«Aunque está ocupado, siempre escucha»: es contraste, y eso es 〜のに.",
+   "en": "'Though he's busy, he always listens': that's contrast, so 〜のに."
+  },
+  "etiquetas": [],
+  "dificultad": 3
  },
- "enunciado": "（　1　）",
- "opciones": ["それに", "そのうえ", "それに対して", "そのため"],
- "respuesta": 2,
- "logica_distractores": ["同じ方向に付け足す言い方", "同じ方向に付け足す言い方", "結果を導く言い方"],
- "explicacion": { "es": "El móvil no deja nada y el libro sí: son opuestos, y eso pide 「それに対して」.", "en": "The phone leaves nothing, the book does: they're opposites, which calls for 「それに対して」." },
- "etiquetas": ["文章の文法"], "dificultad": 4
-},
-{
- "id": "n3-bunshou_bunpou-0005", "nivel": "N3", "tipo": "bunshou_bunpou",
- "grupo": "n3-bb-g002", "orden_grupo": 1,
- "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
- "enunciado": "（　2　）",
- "opciones": ["読む本の多さ", "毎日くり返すこと", "強い気持ち", "周りの静かさ"],
- "respuesta": 1,
- "logica_distractores": ["冊数の話は出ていない", "意志の強さではないと書いてある", "うるさい日もあったと書いてある"],
- "explicacion": { "es": "«no es fuerza de voluntad, sino…»: lo que lo hizo natural fue repetirlo cada día.", "en": "'not willpower, but…': what made it natural was repeating it daily." },
- "etiquetas": ["文章の文法"], "dificultad": 4
-}
+ {
+  "id": "n3-bunpou2-0005",
+  "nivel": "N3",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この店は　＿＿　＿★＿　＿＿　＿＿　人気がある。",
+  "opciones": [
+   "だけでなく",
+   "安い",
+   "味もいいので",
+   "若い人に"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "語順が合わない",
+   "語順が合わない",
+   "語順が合わない"
+  ],
+  "explicacion": {
+   "es": "Orden: 安い だけでなく 味もいいので 若い人に. La estrella cae en la casilla 2, que lleva 「だけでなく」.",
+   "en": "Order: 安い だけでなく 味もいいので 若い人に. The star is in slot 2, which takes 「だけでなく」."
+  },
+  "etiquetas": [
+   "並べ替え"
+  ],
+  "dificultad": 4,
+  "orden": [
+   1,
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "n3-bunshou_bunpou-0004",
+  "nivel": "N3",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n3-bb-g002",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "先月から、朝の三十分を読書の時間に決めた。前は電車の中で携帯を見ていたが、駅に着くころには何を見ていたか思い出せない。（　1　）、本なら一行でも残る。\n最初はうまくいかなかった。眠かったし、周りがうるさくて集中できない日もあった。それでも続けているうちに、乗った瞬間に本を開くのが自然になった。習慣というのは、意志の強さではなく、（　2　）でできているのだと思う。",
+   "notas": [
+    {
+     "termino": "習慣",
+     "glosa": "いつもすること"
+    }
+   ]
+  },
+  "enunciado": "（　1　）",
+  "opciones": [
+   "そのため",
+   "それに",
+   "そのうえ",
+   "それに対して"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "結果を導く言い方",
+   "同じ方向に付け足す言い方",
+   "同じ方向に付け足す言い方"
+  ],
+  "explicacion": {
+   "es": "El móvil no deja nada y el libro sí: son opuestos, y eso pide 「それに対して」.",
+   "en": "The phone leaves nothing, the book does: they're opposites, which calls for 「それに対して」."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 4
+ },
+ {
+  "id": "n3-bunshou_bunpou-0005",
+  "nivel": "N3",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n3-bb-g002",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "（　2　）",
+  "opciones": [
+   "毎日くり返すこと",
+   "強い気持ち",
+   "読む本の多さ",
+   "周りの静かさ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "意志の強さではないと書いてある",
+   "冊数の話は出ていない",
+   "うるさい日もあったと書いてある"
+  ],
+  "explicacion": {
+   "es": "«no es fuerza de voluntad, sino…»: lo que lo hizo natural fue repetirlo cada día.",
+   "en": "'not willpower, but…': what made it natural was repeating it daily."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 4
+ }
 ]

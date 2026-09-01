@@ -60,12 +60,12 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "母は台所で野菜を<u>刻</u>んでいる。",
   "opciones": [
-   "きざ",
-   "つか",
    "はさ",
+   "つか",
+   "きざ",
    "くる"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "別の動詞",
    "別の動詞",
@@ -114,16 +114,16 @@
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを1・2・3・4から一つ選びなさい。",
   "enunciado": "約束の時間に<u>おくれ</u>ないようにする。",
   "opciones": [
+   "遅刻れ",
    "遅れ",
-   "送れ",
    "贈れ",
-   "遅刻れ"
+   "送れ"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "送るは別の意味",
+   "漢字ではない",
    "贈るは別の意味",
-   "漢字ではない"
+   "送るは別の意味"
   ],
   "explicacion": {
    "es": "遅れる «llegar tarde». 送る es «enviar».",

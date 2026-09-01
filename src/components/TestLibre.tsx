@@ -1,5 +1,6 @@
 "use client";
 import { useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { NOMBRE_TIPO, type Item } from "@/lib/examen";
 import { useAjustes } from "./Ajustes";
@@ -25,7 +26,10 @@ const APRUEBA = 0.6;
  */
 export function TestLibre({ nivel, items }: { nivel: string; items: Item[] }) {
   const { t, idioma } = useAjustes();
+  const router = useRouter();
   const [empezado, setEmpezado] = useState(false);
+  const [nombre, setNombre] = useState("");
+  const [envio, setEnvio] = useState<"no" | "yendo" | "hecho" | "saltado" | "fallo">("no");
   const [n, setN] = useState(0);
   const [respuestas, setRespuestas] = useState<Record<string, number>>({});
   const [fin, setFin] = useState(false);
@@ -103,6 +107,57 @@ export function TestLibre({ nivel, items }: { nivel: string; items: Item[] }) {
             {t("lib.verNivel", { n: nivel })}
           </Link>
         </div>
+
+        {/* Publicar la nota va después de la invitación y antes de la
+            corrección: es el momento en que se sabe el resultado y todavía no
+            se ha empezado a leer nada. */}
+        {envio !== "hecho" && envio !== "saltado" && (
+          <div className="tarjeta" style={{ marginTop: 14, padding: 20 }}>
+            <p style={{ margin: "0 0 4px", fontSize: 15 }}>{t("mar.apuntate")}</p>
+            <p className="tenue" style={{ margin: "0 0 12px" }}>{t("mar.publico")}</p>
+            <input
+              value={nombre} onChange={(e) => setNombre(e.target.value)}
+              maxLength={20} placeholder={t("mar.nombre")} aria-label={t("mar.nombre")}
+              style={{
+                width: "100%", padding: "11px 13px", fontSize: 15,
+                borderRadius: "var(--radio)", border: "1px solid var(--linea)",
+                background: "transparent", color: "var(--tinta)",
+              }} />
+            <button className="btn primario" style={{ width: "100%", minHeight: 44, marginTop: 10 }}
+              disabled={!nombre.trim() || envio === "yendo"}
+              onClick={async () => {
+                setEnvio("yendo");
+                try {
+                  const r = await fetch("/api/test/marcador", {
+                    method: "POST", headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ nivel, nombre, respuestas }),
+                  });
+                  if (!r.ok) throw new Error();
+                  setEnvio("hecho");
+                  // El marcador lo pinta el servidor, así que hay que pedirle
+                  // que lo vuelva a leer para que la fila nueva aparezca.
+                  router.refresh();
+                } catch { setEnvio("fallo"); }
+              }}>
+              {envio === "yendo" ? t("mar.enviando") : t("mar.enviar")}
+            </button>
+            <button className="btn fantasma" style={{ width: "100%", minHeight: 40, marginTop: 6 }}
+              onClick={() => setEnvio("saltado")}>
+              {t("mar.saltar")}
+            </button>
+            {envio === "fallo" && (
+              <p style={{ color: "var(--rojo)", fontSize: 13, marginBottom: 0 }}>{t("mar.fallo")}</p>
+            )}
+          </div>
+        )}
+        {envio === "hecho" && (
+          <p style={{
+            marginTop: 14, padding: "11px 14px", fontSize: 13.5, borderRadius: "var(--radio)",
+            color: "var(--tinta-2)",
+            background: "color-mix(in srgb, var(--acento) 10%, transparent)",
+            border: "1px solid color-mix(in srgb, var(--acento) 26%, transparent)",
+          }}>{t("mar.hecho")}</p>
+        )}
 
         <h2 style={{ fontSize: 17, fontWeight: 500, margin: "28px 0 10px" }}>{t("lib.correccion")}</h2>
         {items.map((it, i) => {

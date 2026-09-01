@@ -1,167 +1,432 @@
 [
-{
- "id": "n2-gaiyou-0001", "nivel": "N2", "tipo": "gaiyou",
- "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "女の人は 何に ついて 話して いますか。",
- "opciones": ["覚えることと理解することの違い", "効率のよい暗記の方法", "人前での説明の仕方", "記憶力の鍛え方"],
- "respuesta": 0,
- "logica_distractores": ["方法の説明はしていない", "話す技術の話ではない", "鍛え方には触れていない"],
- "explicacion": { "es": "Distingue las dos: lo memorizado no se puede explicar; sólo se explica lo que se ha conectado con otra cosa.", "en": "She separates the two: what's memorised can't be explained; only what's connected to something else can." },
- "puntos": ["覚えたものは説明できない", "説明できるのはつなげたもの", "暗記で止まることが問題"],
- "guion": {
-  "intro": "講演で 女の人が 話して います。",
-  "turnos": [{ "quien": "F", "texto": "私たちは、覚えることと理解することを同じものだと思いがちです。しかし、覚えただけのものは説明できません。説明できるのは、ほかの何かとつなげたものだけです。ですから、暗記が悪いのではなく、暗記で止まってしまうことが問題なのです。" }],
-  "pregunta": "女の人は何について話していますか。"
- },
- "etiquetas": ["概要理解"], "dificultad": 5
-},
-{
- "id": "n2-gaiyou-0002", "nivel": "N2", "tipo": "gaiyou",
- "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "男の人は 何に ついて 話して いますか。",
- "opciones": ["日曜日の売上の伸ばし方", "休むことの必要性", "料理の味の作り方", "店の場所の選び方"],
- "respuesta": 1,
- "logica_distractores": ["あえて閉めると述べている", "味は例として出ただけ", "場所の話はしていない"],
- "explicacion": { "es": "Cierra en domingo aun sabiendo que vendería: descansar es lo que le permite seguir el año próximo.", "en": "He closes on Sundays knowing he'd sell: resting is what lets him keep going next year." },
- "puntos": ["開ければ売れる", "休まないと同じ味を出せない", "続けるために稼げる日を閉める"],
- "guion": {
-  "intro": "ラジオで 店主が 話して います。",
-  "turnos": [{ "quien": "M", "texto": "うちの店は、日曜を休みにしています。開ければ売れます。でも、休まないと、来年も同じ味を出せるかどうか分かりません。長く続けることを選ぶなら、稼げる日をあえて閉めることも必要なんです。" }],
-  "pregunta": "男の人は何について話していますか。"
- },
- "etiquetas": ["概要理解"], "dificultad": 5
-},
-{
- "id": "n2-gaiyou-0003", "nivel": "N2", "tipo": "gaiyou",
- "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "女の人は 何に ついて 話して いますか。",
- "opciones": ["報告書の内容の質", "様式を決めた理由", "会議の進め方", "文章を速く書く方法"],
- "respuesta": 1,
- "logica_distractores": ["中身の質には触れていない", "会議の話はしていない", "速さではなく探す時間の話"],
- "explicacion": { "es": "Explica por qué fijó un formato: escribir cuesta un poco más, leer cuesta mucho menos.", "en": "She explains why she fixed a format: a little more effort writing, far less effort reading." },
- "puntos": ["以前は自由に書いてもらっていた", "読む側が探す時間が長かった", "全体としては早い"],
- "guion": {
-  "intro": "会議で 女の人が 話して います。",
-  "turnos": [{ "quien": "F", "texto": "報告書の様式を変えました。以前は自由に書いてもらっていましたが、読む側が探す時間のほうが長くなっていたんです。書く手間を少し増やして、読む手間を大きく減らす。全体としては、これが早いのです。" }],
-  "pregunta": "女の人は何について話していますか。"
- },
- "etiquetas": ["概要理解"], "dificultad": 5
-},
-{
- "id": "n2-gaiyou-0004", "nivel": "N2", "tipo": "gaiyou",
- "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "先生は 何に ついて 話して いますか。",
- "opciones": ["試験問題の作り方", "授業の時間の配分", "質問が出ないときの考え方", "学生の成績の付け方"],
- "respuesta": 2,
- "logica_distractores": ["試験の話はしていない", "時間配分の話はしていない", "成績の話はしていない"],
- "explicacion": { "es": "Sostiene que el silencio no prueba comprensión y que mover las manos es lo que produce preguntas.", "en": "He argues silence doesn't prove understanding, and that doing the work is what produces questions." },
- "puntos": ["質問がないのは分かった証拠ではない", "分からない場所が分からない段階がある", "手を動かすと詰まった所が質問になる"],
- "guion": {
-  "intro": "大学で 先生が 話して います。",
-  "turnos": [{ "quien": "M", "texto": "質問がないのは、分かった証拠ではありません。むしろ、どこが分からないかが分からない段階では、質問は作れないんです。ですから私は、まず手を動かしてもらいます。やってみて詰まったところが、そのまま質問になります。" }],
-  "pregunta": "先生は何について話していますか。"
- },
- "etiquetas": ["概要理解"], "dificultad": 6
-},
-{
- "id": "n2-gaiyou-0005", "nivel": "N2", "tipo": "gaiyou",
- "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "女の人は 何に ついて 話して いますか。",
- "opciones": ["本の貸し出しの手続き", "利用者を増やす方法", "読む本の選び方", "図書館の役目の変化"],
- "respuesta": 3,
- "logica_distractores": ["手続きの説明はしていない", "利用者はすでに増えている", "選び方の話はしていない"],
- "explicacion": { "es": "Los préstamos bajan pero los usuarios suben: la función pasa de prestar libros a prestar un sitio.", "en": "Loans fall while users rise: the role shifts from lending books to lending a place." },
- "puntos": ["利用者は増えている", "減ったのは貸出数", "本を貸すことから場所を貸すことへ"],
- "guion": {
-  "intro": "図書館で 職員が 話して います。",
-  "turnos": [{ "quien": "F", "texto": "本を借りる人が減ったと言われますが、この図書館では利用者は増えています。減ったのは貸出数です。皆さん、館内で調べて、必要なところだけ写して帰られる。図書館の役目は、本を貸すことから、場所を貸すことに移りつつあるのだと思います。" }],
-  "pregunta": "女の人は何について話していますか。"
- },
- "etiquetas": ["概要理解"], "dificultad": 6
-},
-{
- "id": "n2-tougou_choukai-0001", "nivel": "N2", "tipo": "tougou_choukai",
- "instruccion_ja": "問題では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "二人は どこへ 行くことに しましたか。",
- "opciones": ["海", "遠くの温泉", "近くの山の温泉", "まだ決まっていない"],
- "respuesta": 2,
- "logica_distractores": ["日焼けが心配だと言われた", "遠いと交通費がかかる", "見積もりを取ることまで決まった"],
- "explicacion": { "es": "Playa fuera por el sol, lejos fuera por el coste: el balneario cercano cumple las dos condiciones.", "en": "The beach is out for the sun, far is out for the cost: the nearby hot spring meets both conditions." },
- "puntos": ["海は日焼けが心配", "遠いと交通費がかかる", "近くて温泉なら山のほう"],
- "guion": {
-  "intro": "会社で 男の人と 女の人が 社員旅行の 行き先に ついて 話して います。",
-  "turnos": [
-   { "quien": "M", "texto": "社員旅行、海がいいと思うんですよ。夏ですし。" },
-   { "quien": "F", "texto": "私は温泉に一票です。海は日焼けが心配で。" },
-   { "quien": "M", "texto": "予算を考えると、遠いと交通費がかかりますね。" },
-   { "quien": "F", "texto": "近くて温泉なら、山のほうにありますよ。日帰りでも行けます。" },
-   { "quien": "M", "texto": "じゃあ、そこで見積もりを取りましょう。" }
+ {
+  "id": "n2-gaiyou-0001",
+  "nivel": "N2",
+  "tipo": "gaiyou",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は 何に ついて 話して いますか。",
+  "opciones": [
+   "覚えることと理解することの違い",
+   "効率のよい暗記の方法",
+   "人前での説明の仕方",
+   "記憶力の鍛え方"
   ],
-  "pregunta": "二人はどこへ行くことにしましたか。"
- },
- "etiquetas": ["統合理解"], "dificultad": 6
-},
-{
- "id": "n2-tougou_choukai-0002", "nivel": "N2", "tipo": "tougou_choukai",
- "instruccion_ja": "問題では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "男の人は どれを 買うことに しましたか。",
- "opciones": ["軽くて静かなもの", "吸う力が強いもの", "電池式のもの", "まだ決めていない"],
- "respuesta": 1,
- "logica_distractores": ["吸う力が普通では困ると言っている", "途中で切れるのは避けたいと言っている", "重くても力があるほうにすると言っている"],
- "explicacion": { "es": "El pelo del perro pesa más que la ligereza, y los veinte minutos le incomodan: se queda con la potente.", "en": "Dog hair outweighs lightness, and the twenty-minute limit bothers him: he takes the powerful one." },
- "puntos": ["階段があるので軽いほうがよかった", "犬の毛が取れないと困る", "途中で切れるのは避けたい"],
- "guion": {
-  "intro": "店で 店員が 三種類の 掃除機に ついて 説明して います。そのあと 客が 考えて います。",
-  "turnos": [
-   { "quien": "F", "texto": "こちらは軽くて静かですが、吸う力は普通です。こちらは吸う力が強い代わりに、少し重くなります。三つ目は電池式で、コードがいりませんが、使える時間が二十分です。" },
-   { "quien": "M", "texto": "家に階段があるから、軽いのがいいんですよね。でも、犬の毛が取れないと困るな。電池式は二十分か。うちは狭いから足りるけど、途中で切れるのは避けたい。重くても力があるほうにします。" }
+  "respuesta": 0,
+  "logica_distractores": [
+   "方法の説明はしていない",
+   "話す技術の話ではない",
+   "鍛え方には触れていない"
   ],
-  "pregunta": "男の人はどれを買うことにしましたか。"
- },
- "etiquetas": ["統合理解"], "dificultad": 6
-},
-{
- "id": "n2-tougou_choukai-0003", "nivel": "N2", "tipo": "tougou_choukai",
- "instruccion_ja": "問題では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "二人は どの 案を 選びましたか。",
- "opciones": ["広告を増やす案", "商品の説明を書き直す案", "値段を下げる案", "三つとも行う案"],
- "respuesta": 1,
- "logica_distractores": ["予算が厳しいと言っている", "利益が減るのは避けたいと言っている", "三つ行う話は出ていない"],
- "explicacion": { "es": "Sin presupuesto y sin margen para perder beneficio, sólo queda la vía lenta pero gratuita.", "en": "With no budget and no room to lose profit, only the slow but free option is left." },
- "puntos": ["広告は費用が高い", "予算は今期厳しい", "値下げは利益が減る"],
- "guion": {
-  "intro": "会社で 女の人が 三つの 案を 説明して います。そのあと 男の人と 話して います。",
-  "turnos": [
-   { "quien": "F", "texto": "案は三つです。一つ目は広告を増やす案。費用は高いですが、すぐ効果が出ます。二つ目は商品の説明を書き直す案。費用はほとんどかかりませんが、効果が出るまで時間がかかります。三つ目は値段を下げる案。すぐ売れますが、利益が減ります。" },
-   { "quien": "M", "texto": "すぐ効果がほしいところですが、予算は今期もう厳しくて。" },
-   { "quien": "F", "texto": "値下げなら費用はかかりませんよ。" },
-   { "quien": "M", "texto": "ただ、利益が減るのは避けたい。時間はかかりますが、説明を書き直す案でいきましょう。" },
-   { "quien": "F", "texto": "分かりました。" }
+  "explicacion": {
+   "es": "Distingue las dos: lo memorizado no se puede explicar; sólo se explica lo que se ha conectado con otra cosa.",
+   "en": "She separates the two: what's memorised can't be explained; only what's connected to something else can."
+  },
+  "puntos": [
+   "覚えたものは説明できない",
+   "説明できるのはつなげたもの",
+   "暗記で止まることが問題"
   ],
-  "pregunta": "二人はどの案を選びましたか。"
- },
- "etiquetas": ["統合理解"], "dificultad": 6
-},
-{
- "id": "n2-tougou_choukai-0004", "nivel": "N2", "tipo": "tougou_choukai",
- "instruccion_ja": "問題では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "女の学生は どちらの 授業を 取りますか。",
- "opciones": ["月曜の授業", "木曜の授業", "両方とも取る", "どちらも取らない"],
- "respuesta": 0,
- "logica_distractores": ["まとめて覚えるのは苦手だと言っている", "両方の話は出ていない", "取らない話は出ていない"],
- "explicacion": { "es": "Prefiere avanzar poco a poco, y el lunes son tres trabajos sin examen final.", "en": "She prefers steady progress, and Monday means three assignments and no final exam." },
- "puntos": ["月曜はレポート三回、試験なし", "木曜は試験一回だが範囲は全部", "女の学生は毎週少しずつが合っている"],
- "guion": {
-  "intro": "大学で 男の学生と 女の学生が 授業の 選び方に ついて 話して います。",
-  "turnos": [
-   { "quien": "M", "texto": "月曜の授業、レポートが三回もあるんだって。" },
-   { "quien": "F", "texto": "きついね。でも、試験がないのはいいな。" },
-   { "quien": "M", "texto": "木曜のほうは試験一回だけ。ただ、範囲が全部だって。" },
-   { "quien": "F", "texto": "私は毎週少しずつやるほうが合ってる。まとめて覚えるのは苦手だから。" },
-   { "quien": "M", "texto": "じゃあ月曜だね。僕は逆で、まとめてやるほうが楽だから木曜にするよ。" }
+  "guion": {
+   "intro": "講演で 女の人が 話して います。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "私たちは、覚えることと理解することを同じものだと思いがちです。しかし、覚えただけのものは説明できません。説明できるのは、ほかの何かとつなげたものだけです。ですから、暗記が悪いのではなく、暗記で止まってしまうことが問題なのです。"
+    }
+   ],
+   "pregunta": "女の人は何について話していますか。"
+  },
+  "etiquetas": [
+   "概要理解"
   ],
-  "pregunta": "女の学生はどちらの授業を取りますか。"
+  "dificultad": 5
  },
- "etiquetas": ["統合理解"], "dificultad": 6
-}
+ {
+  "id": "n2-gaiyou-0002",
+  "nivel": "N2",
+  "tipo": "gaiyou",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は 何に ついて 話して いますか。",
+  "opciones": [
+   "日曜日の売上の伸ばし方",
+   "休むことの必要性",
+   "料理の味の作り方",
+   "店の場所の選び方"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "あえて閉めると述べている",
+   "味は例として出ただけ",
+   "場所の話はしていない"
+  ],
+  "explicacion": {
+   "es": "Cierra en domingo aun sabiendo que vendería: descansar es lo que le permite seguir el año próximo.",
+   "en": "He closes on Sundays knowing he'd sell: resting is what lets him keep going next year."
+  },
+  "puntos": [
+   "開ければ売れる",
+   "休まないと同じ味を出せない",
+   "続けるために稼げる日を閉める"
+  ],
+  "guion": {
+   "intro": "ラジオで 店主が 話して います。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "うちの店は、日曜を休みにしています。開ければ売れます。でも、休まないと、来年も同じ味を出せるかどうか分かりません。長く続けることを選ぶなら、稼げる日をあえて閉めることも必要なんです。"
+    }
+   ],
+   "pregunta": "男の人は何について話していますか。"
+  },
+  "etiquetas": [
+   "概要理解"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-gaiyou-0003",
+  "nivel": "N2",
+  "tipo": "gaiyou",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は 何に ついて 話して いますか。",
+  "opciones": [
+   "会議の進め方",
+   "報告書の内容の質",
+   "様式を決めた理由",
+   "文章を速く書く方法"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "会議の話はしていない",
+   "中身の質には触れていない",
+   "速さではなく探す時間の話"
+  ],
+  "explicacion": {
+   "es": "Explica por qué fijó un formato: escribir cuesta un poco más, leer cuesta mucho menos.",
+   "en": "She explains why she fixed a format: a little more effort writing, far less effort reading."
+  },
+  "puntos": [
+   "以前は自由に書いてもらっていた",
+   "読む側が探す時間が長かった",
+   "全体としては早い"
+  ],
+  "guion": {
+   "intro": "会議で 女の人が 話して います。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "報告書の様式を変えました。以前は自由に書いてもらっていましたが、読む側が探す時間のほうが長くなっていたんです。書く手間を少し増やして、読む手間を大きく減らす。全体としては、これが早いのです。"
+    }
+   ],
+   "pregunta": "女の人は何について話していますか。"
+  },
+  "etiquetas": [
+   "概要理解"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-gaiyou-0004",
+  "nivel": "N2",
+  "tipo": "gaiyou",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "先生は 何に ついて 話して いますか。",
+  "opciones": [
+   "試験問題の作り方",
+   "授業の時間の配分",
+   "学生の成績の付け方",
+   "質問が出ないときの考え方"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "試験の話はしていない",
+   "時間配分の話はしていない",
+   "成績の話はしていない"
+  ],
+  "explicacion": {
+   "es": "Sostiene que el silencio no prueba comprensión y que mover las manos es lo que produce preguntas.",
+   "en": "He argues silence doesn't prove understanding, and that doing the work is what produces questions."
+  },
+  "puntos": [
+   "質問がないのは分かった証拠ではない",
+   "分からない場所が分からない段階がある",
+   "手を動かすと詰まった所が質問になる"
+  ],
+  "guion": {
+   "intro": "大学で 先生が 話して います。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "質問がないのは、分かった証拠ではありません。むしろ、どこが分からないかが分からない段階では、質問は作れないんです。ですから私は、まず手を動かしてもらいます。やってみて詰まったところが、そのまま質問になります。"
+    }
+   ],
+   "pregunta": "先生は何について話していますか。"
+  },
+  "etiquetas": [
+   "概要理解"
+  ],
+  "dificultad": 6
+ },
+ {
+  "id": "n2-gaiyou-0005",
+  "nivel": "N2",
+  "tipo": "gaiyou",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は 何に ついて 話して いますか。",
+  "opciones": [
+   "図書館の役目の変化",
+   "本の貸し出しの手続き",
+   "利用者を増やす方法",
+   "読む本の選び方"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "手続きの説明はしていない",
+   "利用者はすでに増えている",
+   "選び方の話はしていない"
+  ],
+  "explicacion": {
+   "es": "Los préstamos bajan pero los usuarios suben: la función pasa de prestar libros a prestar un sitio.",
+   "en": "Loans fall while users rise: the role shifts from lending books to lending a place."
+  },
+  "puntos": [
+   "利用者は増えている",
+   "減ったのは貸出数",
+   "本を貸すことから場所を貸すことへ"
+  ],
+  "guion": {
+   "intro": "図書館で 職員が 話して います。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "本を借りる人が減ったと言われますが、この図書館では利用者は増えています。減ったのは貸出数です。皆さん、館内で調べて、必要なところだけ写して帰られる。図書館の役目は、本を貸すことから、場所を貸すことに移りつつあるのだと思います。"
+    }
+   ],
+   "pregunta": "女の人は何について話していますか。"
+  },
+  "etiquetas": [
+   "概要理解"
+  ],
+  "dificultad": 6
+ },
+ {
+  "id": "n2-tougou_choukai-0001",
+  "nivel": "N2",
+  "tipo": "tougou_choukai",
+  "instruccion_ja": "問題では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "二人は どこへ 行くことに しましたか。",
+  "opciones": [
+   "近くの山の温泉",
+   "海",
+   "まだ決まっていない",
+   "遠くの温泉"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "日焼けが心配だと言われた",
+   "見積もりを取ることまで決まった",
+   "遠いと交通費がかかる"
+  ],
+  "explicacion": {
+   "es": "Playa fuera por el sol, lejos fuera por el coste: el balneario cercano cumple las dos condiciones.",
+   "en": "The beach is out for the sun, far is out for the cost: the nearby hot spring meets both conditions."
+  },
+  "puntos": [
+   "海は日焼けが心配",
+   "遠いと交通費がかかる",
+   "近くて温泉なら山のほう"
+  ],
+  "guion": {
+   "intro": "会社で 男の人と 女の人が 社員旅行の 行き先に ついて 話して います。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "社員旅行、海がいいと思うんですよ。夏ですし。"
+    },
+    {
+     "quien": "F",
+     "texto": "私は温泉に一票です。海は日焼けが心配で。"
+    },
+    {
+     "quien": "M",
+     "texto": "予算を考えると、遠いと交通費がかかりますね。"
+    },
+    {
+     "quien": "F",
+     "texto": "近くて温泉なら、山のほうにありますよ。日帰りでも行けます。"
+    },
+    {
+     "quien": "M",
+     "texto": "じゃあ、そこで見積もりを取りましょう。"
+    }
+   ],
+   "pregunta": "二人はどこへ行くことにしましたか。"
+  },
+  "etiquetas": [
+   "統合理解"
+  ],
+  "dificultad": 6
+ },
+ {
+  "id": "n2-tougou_choukai-0002",
+  "nivel": "N2",
+  "tipo": "tougou_choukai",
+  "instruccion_ja": "問題では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は どれを 買うことに しましたか。",
+  "opciones": [
+   "軽くて静かなもの",
+   "吸う力が強いもの",
+   "電池式のもの",
+   "まだ決めていない"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "吸う力が普通では困ると言っている",
+   "途中で切れるのは避けたいと言っている",
+   "重くても力があるほうにすると言っている"
+  ],
+  "explicacion": {
+   "es": "El pelo del perro pesa más que la ligereza, y los veinte minutos le incomodan: se queda con la potente.",
+   "en": "Dog hair outweighs lightness, and the twenty-minute limit bothers him: he takes the powerful one."
+  },
+  "puntos": [
+   "階段があるので軽いほうがよかった",
+   "犬の毛が取れないと困る",
+   "途中で切れるのは避けたい"
+  ],
+  "guion": {
+   "intro": "店で 店員が 三種類の 掃除機に ついて 説明して います。そのあと 客が 考えて います。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "こちらは軽くて静かですが、吸う力は普通です。こちらは吸う力が強い代わりに、少し重くなります。三つ目は電池式で、コードがいりませんが、使える時間が二十分です。"
+    },
+    {
+     "quien": "M",
+     "texto": "家に階段があるから、軽いのがいいんですよね。でも、犬の毛が取れないと困るな。電池式は二十分か。うちは狭いから足りるけど、途中で切れるのは避けたい。重くても力があるほうにします。"
+    }
+   ],
+   "pregunta": "男の人はどれを買うことにしましたか。"
+  },
+  "etiquetas": [
+   "統合理解"
+  ],
+  "dificultad": 6
+ },
+ {
+  "id": "n2-tougou_choukai-0003",
+  "nivel": "N2",
+  "tipo": "tougou_choukai",
+  "instruccion_ja": "問題では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "二人は どの 案を 選びましたか。",
+  "opciones": [
+   "三つとも行う案",
+   "値段を下げる案",
+   "商品の説明を書き直す案",
+   "広告を増やす案"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "三つ行う話は出ていない",
+   "利益が減るのは避けたいと言っている",
+   "予算が厳しいと言っている"
+  ],
+  "explicacion": {
+   "es": "Sin presupuesto y sin margen para perder beneficio, sólo queda la vía lenta pero gratuita.",
+   "en": "With no budget and no room to lose profit, only the slow but free option is left."
+  },
+  "puntos": [
+   "広告は費用が高い",
+   "予算は今期厳しい",
+   "値下げは利益が減る"
+  ],
+  "guion": {
+   "intro": "会社で 女の人が 三つの 案を 説明して います。そのあと 男の人と 話して います。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "案は三つです。一つ目は広告を増やす案。費用は高いですが、すぐ効果が出ます。二つ目は商品の説明を書き直す案。費用はほとんどかかりませんが、効果が出るまで時間がかかります。三つ目は値段を下げる案。すぐ売れますが、利益が減ります。"
+    },
+    {
+     "quien": "M",
+     "texto": "すぐ効果がほしいところですが、予算は今期もう厳しくて。"
+    },
+    {
+     "quien": "F",
+     "texto": "値下げなら費用はかかりませんよ。"
+    },
+    {
+     "quien": "M",
+     "texto": "ただ、利益が減るのは避けたい。時間はかかりますが、説明を書き直す案でいきましょう。"
+    },
+    {
+     "quien": "F",
+     "texto": "分かりました。"
+    }
+   ],
+   "pregunta": "二人はどの案を選びましたか。"
+  },
+  "etiquetas": [
+   "統合理解"
+  ],
+  "dificultad": 6
+ },
+ {
+  "id": "n2-tougou_choukai-0004",
+  "nivel": "N2",
+  "tipo": "tougou_choukai",
+  "instruccion_ja": "問題では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の学生は どちらの 授業を 取りますか。",
+  "opciones": [
+   "どちらも取らない",
+   "木曜の授業",
+   "両方とも取る",
+   "月曜の授業"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "取らない話は出ていない",
+   "まとめて覚えるのは苦手だと言っている",
+   "両方の話は出ていない"
+  ],
+  "explicacion": {
+   "es": "Prefiere avanzar poco a poco, y el lunes son tres trabajos sin examen final.",
+   "en": "She prefers steady progress, and Monday means three assignments and no final exam."
+  },
+  "puntos": [
+   "月曜はレポート三回、試験なし",
+   "木曜は試験一回だが範囲は全部",
+   "女の学生は毎週少しずつが合っている"
+  ],
+  "guion": {
+   "intro": "大学で 男の学生と 女の学生が 授業の 選び方に ついて 話して います。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "月曜の授業、レポートが三回もあるんだって。"
+    },
+    {
+     "quien": "F",
+     "texto": "きついね。でも、試験がないのはいいな。"
+    },
+    {
+     "quien": "M",
+     "texto": "木曜のほうは試験一回だけ。ただ、範囲が全部だって。"
+    },
+    {
+     "quien": "F",
+     "texto": "私は毎週少しずつやるほうが合ってる。まとめて覚えるのは苦手だから。"
+    },
+    {
+     "quien": "M",
+     "texto": "じゃあ月曜だね。僕は逆で、まとめてやるほうが楽だから木曜にするよ。"
+    }
+   ],
+   "pregunta": "女の学生はどちらの授業を取りますか。"
+  },
+  "etiquetas": [
+   "統合理解"
+  ],
+  "dificultad": 6
+ }
 ]

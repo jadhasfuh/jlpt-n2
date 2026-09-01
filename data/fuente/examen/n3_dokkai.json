@@ -17,16 +17,16 @@
   },
   "enunciado": "筆者が気づいたことは何か。",
   "opciones": [
-   "図書館は静かにするべきだということ",
    "静かさは集中のための手段にすぎないということ",
+   "子どもは図書館に向かないということ",
    "水曜日は図書館に行かないほうがいいということ",
-   "子どもは図書館に向かないということ"
+   "図書館は静かにするべきだということ"
   ],
-  "respuesta": 1,
+  "respuesta": 0,
   "logica_distractores": [
-   "最初の思い込みで、気づきではない",
    "本文にない",
-   "本文にない"
+   "本文にない",
+   "最初の思い込みで、気づきではない"
   ],
   "explicacion": {
    "es": "La última frase lo dice: el silencio no es el fin, sino un medio para concentrarse.",
@@ -93,16 +93,16 @@
   },
   "enunciado": "筆者によると、ものが捨てられない理由は何か。",
   "opciones": [
-   "まだ使う予定があるから",
    "買ったときの自分を否定したくないから",
    "値段が高かったから",
-   "置く場所があるから"
+   "置く場所があるから",
+   "まだ使う予定があるから"
   ],
-  "respuesta": 1,
+  "respuesta": 0,
   "logica_distractores": [
-   "本文は「使っていないものばかり」と言っている",
    "値段のせいではないと本文が否定している",
-   "本文にない"
+   "本文にない",
+   "本文は「使っていないものばかり」と言っている"
   ],
   "explicacion": {
    "es": "El texto dice expresamente que no es por el precio, sino por no querer admitir que quien lo compró se equivocó.",
@@ -164,12 +164,12 @@
   },
   "enunciado": "この店の客足が減らなかった理由として、店主が挙げているのは何か。",
   "opciones": [
+   "客の顔と好みを覚えているから",
    "値段がスーパーより安いから",
    "品数が多いから",
-   "客の顔と好みを覚えているから",
    "朝早くから開いているから"
   ],
-  "respuesta": 2,
+  "respuesta": 0,
   "logica_distractores": [
    "本文は値段では勝てないと言っている",
    "本文は比べものにならないと言っている",
@@ -235,16 +235,16 @@
   },
   "enunciado": "市外に住み、市外で働いているケンさんが申し込める講座と、その決まり方の組み合わせはどれか。",
   "opciones": [
-   "「日本語で話そう」・抽選",
-   "「日本語で話そう」・先着順",
+   "「はじめての書道」・先着順",
    "「はじめての書道」・抽選",
-   "「はじめての書道」・先着順"
+   "「日本語で話そう」・先着順",
+   "「日本語で話そう」・抽選"
   ],
-  "respuesta": 3,
+  "respuesta": 0,
   "logica_distractores": [
+   "書道は先着順",
    "対象外",
-   "対象外",
-   "書道は先着順"
+   "対象外"
   ],
   "explicacion": {
    "es": "El curso de japonés exige vivir o trabajar en la ciudad, así que queda fuera. Caligrafía es «para cualquiera» y por orden de inscripción.",

@@ -1,190 +1,484 @@
 [
-{
- "id": "n2-kadai-0003", "nivel": "N2", "tipo": "kadai",
- "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "女の人は この後 まず 何を しますか。",
- "opciones": ["資料を追加で印刷する", "参加者に会場の変更を知らせる", "会場を予約し直す", "参加者の数を数える"],
- "respuesta": 1,
- "logica_distractores": ["印刷は後でいいと言われた", "会場の変更はもう決まっている", "人数はもう分かっている"],
- "explicacion": { "es": "El aviso del cambio de sala tiene que salir hoy; la impresión puede esperar.", "en": "The room-change notice has to go out today; the printing can wait." },
- "puntos": ["参加者が百二十人に増えた", "印刷は後でいい", "会場変更の連絡は今日中"],
- "guion": {
-  "intro": "会社で 男の人と 女の人が 話して います。女の人は この後 まず 何を しますか。",
-  "turnos": [
-   { "quien": "M", "texto": "来週の説明会、資料の印刷は終わった?" },
-   { "quien": "F", "texto": "はい、百部刷りました。" },
-   { "quien": "M", "texto": "あ、参加者が増えて百二十人になったんだ。" },
-   { "quien": "F", "texto": "では、追加で刷ります。" },
-   { "quien": "M", "texto": "いや、印刷は後でいい。それより、会場が変更になったから、参加者に連絡してもらえる? 今日中じゃないと間に合わない。" },
-   { "quien": "F", "texto": "分かりました。すぐ知らせます。" }
+ {
+  "id": "n2-kadai-0003",
+  "nivel": "N2",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は この後 まず 何を しますか。",
+  "opciones": [
+   "会場を予約し直す",
+   "資料を追加で印刷する",
+   "参加者に会場の変更を知らせる",
+   "参加者の数を数える"
   ],
-  "pregunta": "女の人はこの後まず何をしますか。"
- },
- "etiquetas": ["課題理解"], "dificultad": 5
-},
-{
- "id": "n2-kadai-0004", "nivel": "N2", "tipo": "kadai",
- "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "男の人は まず 何を しなければ なりませんか。",
- "opciones": ["荷物をまとめる", "業者に頼む", "大家に知らせる", "契約書を読み直す"],
- "respuesta": 2,
- "logica_distractores": ["急ぐ順番としては後", "早めがいいが期限があるのは通知のほう", "契約の内容はもう確認できている"],
- "explicacion": { "es": "El contrato pide avisar con un mes, y hoy es justo el límite.", "en": "The contract requires a month's notice, and today is exactly the deadline." },
- "puntos": ["契約では一か月前まで", "今日がちょうど一か月前", "業者は早めだが期限はない"],
- "guion": {
-  "intro": "男の人と 女の人が 話して います。男の人は まず 何を しなければ なりませんか。",
-  "turnos": [
-   { "quien": "F", "texto": "引っ越し、来月だっけ。" },
-   { "quien": "M", "texto": "うん。荷物をまとめて、業者に頼んで。" },
-   { "quien": "F", "texto": "業者は早めに押さえたほうがいいよ。三月は混むから。" },
-   { "quien": "M", "texto": "そうだね。でも、その前に大家さんに知らせないと。契約では一か月前までって書いてあった。" },
-   { "quien": "F", "texto": "今日でちょうど一か月前じゃない?" },
-   { "quien": "M", "texto": "あ、本当だ。" }
+  "respuesta": 2,
+  "logica_distractores": [
+   "会場の変更はもう決まっている",
+   "印刷は後でいいと言われた",
+   "人数はもう分かっている"
   ],
-  "pregunta": "男の人はまず何をしなければなりませんか。"
- },
- "etiquetas": ["課題理解"], "dificultad": 5
-},
-{
- "id": "n2-kadai-0005", "nivel": "N2", "tipo": "kadai",
- "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "客は この後 まず 何を しますか。",
- "opciones": ["修理を頼む", "代わりの品を借りる", "買った日付を確認する", "商品を交換してもらう"],
- "respuesta": 2,
- "logica_distractores": ["一年以内なら交換になる可能性がある", "貸出はしていないと言われた", "日付が分からないと決まらない"],
- "explicacion": { "es": "Todo depende de si han pasado menos de doce meses, y eso lo dice el tique.", "en": "Everything hinges on whether it's under a year, and the receipt is what says so." },
- "puntos": ["修理は一か月かかる", "貸出はしていない", "一年以内なら交換の可能性"],
- "guion": {
-  "intro": "店で 店員と 客が 話して います。客は この後 まず 何を しますか。",
-  "turnos": [
-   { "quien": "F", "texto": "こちらの商品、修理は承れますが、一か月ほどかかります。" },
-   { "quien": "M", "texto": "一か月ですか。代わりの品を借りることはできますか。" },
-   { "quien": "F", "texto": "貸出はしておりません。ただ、ご購入から一年以内でしたら、交換になる場合がございます。" },
-   { "quien": "M", "texto": "一年以内かどうか、買ったときの紙を見ないと分からないな。" },
-   { "quien": "F", "texto": "では、まずご確認いただけますか。日付が分かれば、その場で決められます。" }
+  "explicacion": {
+   "es": "El aviso del cambio de sala tiene que salir hoy; la impresión puede esperar.",
+   "en": "The room-change notice has to go out today; the printing can wait."
+  },
+  "puntos": [
+   "参加者が百二十人に増えた",
+   "印刷は後でいい",
+   "会場変更の連絡は今日中"
   ],
-  "pregunta": "客はこの後まず何をしますか。"
- },
- "etiquetas": ["課題理解"], "dificultad": 5
-},
-{
- "id": "n2-point-0001", "nivel": "N2", "tipo": "point",
- "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "女の人は どうして 会社を 辞めますか。",
- "opciones": ["給料が低いから", "人間関係が悪いから", "仕事が変わらないから", "会社が遠いから"],
- "respuesta": 2,
- "logica_distractores": ["むしろよかったと言っている", "みんないい人だったと言っている", "話に出ていない"],
- "explicacion": { "es": "Cinco años haciendo lo mismo, y la proyección a diez le decide.", "en": "Five years doing the same thing, and picturing ten more decides it." },
- "puntos": ["給料はむしろよかった", "人間関係も悪くない", "去年と同じ仕事を今年もしている"],
- "guion": {
-  "intro": "男の人と 女の人が 話して います。女の人は どうして 会社を 辞めますか。",
-  "turnos": [
-   { "quien": "M", "texto": "辞めるって聞いたけど、給料の問題?" },
-   { "quien": "F", "texto": "それはむしろよかったくらい。" },
-   { "quien": "M", "texto": "じゃあ、人間関係?" },
-   { "quien": "F", "texto": "みんないい人だったよ。ただ、五年いて、去年と同じ仕事を今年もしていることに気づいて。このままだと十年後も同じだなと思ったの。" }
+  "guion": {
+   "intro": "会社で 男の人と 女の人が 話して います。女の人は この後 まず 何を しますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "来週の説明会、資料の印刷は終わった?"
+    },
+    {
+     "quien": "F",
+     "texto": "はい、百部刷りました。"
+    },
+    {
+     "quien": "M",
+     "texto": "あ、参加者が増えて百二十人になったんだ。"
+    },
+    {
+     "quien": "F",
+     "texto": "では、追加で刷ります。"
+    },
+    {
+     "quien": "M",
+     "texto": "いや、印刷は後でいい。それより、会場が変更になったから、参加者に連絡してもらえる? 今日中じゃないと間に合わない。"
+    },
+    {
+     "quien": "F",
+     "texto": "分かりました。すぐ知らせます。"
+    }
+   ],
+   "pregunta": "女の人はこの後まず何をしますか。"
+  },
+  "etiquetas": [
+   "課題理解"
   ],
-  "pregunta": "女の人はどうして会社を辞めますか。"
+  "dificultad": 5
  },
- "etiquetas": ["ポイント理解"], "dificultad": 5
-},
-{
- "id": "n2-point-0002", "nivel": "N2", "tipo": "point",
- "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "男の人は この本の どこが いいと 言って いますか。",
- "opciones": ["内容が新しいこと", "途中から読み直せること", "値段が安いこと", "全体が短いこと"],
- "respuesta": 1,
- "logica_distractores": ["特に新しくないと言っている", "話に出ていない", "話に出ていない"],
- "explicacion": { "es": "Su mérito no es el contenido sino la estructura: se puede retomar por cualquier punto.", "en": "Its merit isn't the content but the structure: you can pick it up anywhere." },
- "puntos": ["内容は特に新しくない", "似た本は何冊もある", "どこから再開しても分かる"],
- "guion": {
-  "intro": "男の人が 本に ついて 話して います。男の人は この本の どこが いいと 言って いますか。",
-  "turnos": [
-   { "quien": "M", "texto": "この本、内容は特に新しくありません。似た本は何冊もあります。ただ、途中で読むのをやめても、どこから再開しても分かるように書いてあるんです。忙しい人が最後まで読める本というのは、案外少ないですから。" }
+ {
+  "id": "n2-kadai-0004",
+  "nivel": "N2",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は まず 何を しなければ なりませんか。",
+  "opciones": [
+   "業者に頼む",
+   "荷物をまとめる",
+   "契約書を読み直す",
+   "大家に知らせる"
   ],
-  "pregunta": "男の人はこの本のどこがいいと言っていますか。"
- },
- "etiquetas": ["ポイント理解"], "dificultad": 5
-},
-{
- "id": "n2-point-0003", "nivel": "N2", "tipo": "point",
- "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "女の人は 何を 心配して いますか。",
- "opciones": ["作業時間が長いこと", "研修をしていないこと", "分からないときに聞ける相手がいないこと", "評判が悪いこと"],
- "respuesta": 2,
- "logica_distractores": ["半分になったと言っている", "研修はしたと言っている", "評判はいいと言っている"],
- "explicacion": { "es": "La formación ya se dio; el hueco está en el día a día, cuando alguien se atasca.", "en": "The training happened; the gap is day to day, when someone gets stuck." },
- "puntos": ["作業時間は半分になった", "研修は実施済み", "聞ける相手がいない"],
- "guion": {
-  "intro": "会社で 男の人と 女の人が 話して います。女の人は 何を 心配して いますか。",
-  "turnos": [
-   { "quien": "M", "texto": "新しいやり方、評判いいですよ。作業時間が半分になったって。" },
-   { "quien": "F", "texto": "そうなんです。ただ、慣れている人しか使えていなくて。" },
-   { "quien": "M", "texto": "研修をすればいいのでは。" },
-   { "quien": "F", "texto": "研修はしました。問題は、分からなくなったときに聞ける相手がいないことなんです。" }
+  "respuesta": 3,
+  "logica_distractores": [
+   "早めがいいが期限があるのは通知のほう",
+   "急ぐ順番としては後",
+   "契約の内容はもう確認できている"
   ],
-  "pregunta": "女の人は何を心配していますか。"
- },
- "etiquetas": ["ポイント理解"], "dificultad": 5
-},
-{
- "id": "n2-point-0004", "nivel": "N2", "tipo": "point",
- "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "男の人は どうして その 仕事を 引き受けませんでしたか。",
- "opciones": ["興味がなかったから", "時間がなかったから", "給料が安かったから", "自分より適した人がいたから"],
- "respuesta": 3,
- "logica_distractores": ["おもしろそうだったと言っている", "何とかなったと言っている", "話に出ていない"],
- "explicacion": { "es": "Aceptar habría sido quitarle la oportunidad a quien encajaba mejor.", "en": "Taking it would have taken the chance from someone better suited." },
- "puntos": ["おもしろそうだった", "時間は何とかなった", "適した人の機会を取ることになる"],
- "guion": {
-  "intro": "男の人と 女の人が 話して います。男の人は どうして その 仕事を 引き受けませんでしたか。",
-  "turnos": [
-   { "quien": "F", "texto": "あの仕事、断ったんですか。" },
-   { "quien": "M", "texto": "ええ。おもしろそうだったんですけどね。" },
-   { "quien": "F", "texto": "時間がなかったとか?" },
-   { "quien": "M", "texto": "時間は何とかなったと思います。ただ、自分より適した人がいるのに引き受けるのは、その人の機会を取ることになるでしょう。" }
+  "explicacion": {
+   "es": "El contrato pide avisar con un mes, y hoy es justo el límite.",
+   "en": "The contract requires a month's notice, and today is exactly the deadline."
+  },
+  "puntos": [
+   "契約では一か月前まで",
+   "今日がちょうど一か月前",
+   "業者は早めだが期限はない"
   ],
-  "pregunta": "男の人はどうしてその仕事を引き受けませんでしたか。"
- },
- "etiquetas": ["ポイント理解"], "dificultad": 6
-},
-{
- "id": "n2-point-0005", "nivel": "N2", "tipo": "point",
- "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "女の人は 運動を 続けられた 理由は 何だと 言って いますか。",
- "opciones": ["意志が強いから", "決める場面をなくしたから", "友だちと一緒にしているから", "記録をつけているから"],
- "respuesta": 1,
- "logica_distractores": ["意志が強いからではないと言っている", "話に出ていない", "話に出ていない"],
- "explicacion": { "es": "Deja la ropa en la entrada: si no hay momento de decidir, no hay momento de dudar.", "en": "She leaves the kit by the door: with no moment of deciding, there's no moment of hesitating." },
- "puntos": ["意志の強さではない", "着替えを玄関に置く", "決めなくていいことが続く理由"],
- "guion": {
-  "intro": "女の人が 話して います。女の人は 運動を 続けられた 理由は 何だと 言って いますか。",
-  "turnos": [
-   { "quien": "F", "texto": "三年続いています。意志が強いからではありません。着替えを玄関に置いておくだけです。やろうと決める場面をなくしてしまえば、迷う余地がないんです。決めなくていいことが、いちばん続く理由でした。" }
+  "guion": {
+   "intro": "男の人と 女の人が 話して います。男の人は まず 何を しなければ なりませんか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "引っ越し、来月だっけ。"
+    },
+    {
+     "quien": "M",
+     "texto": "うん。荷物をまとめて、業者に頼んで。"
+    },
+    {
+     "quien": "F",
+     "texto": "業者は早めに押さえたほうがいいよ。三月は混むから。"
+    },
+    {
+     "quien": "M",
+     "texto": "そうだね。でも、その前に大家さんに知らせないと。契約では一か月前までって書いてあった。"
+    },
+    {
+     "quien": "F",
+     "texto": "今日でちょうど一か月前じゃない?"
+    },
+    {
+     "quien": "M",
+     "texto": "あ、本当だ。"
+    }
+   ],
+   "pregunta": "男の人はまず何をしなければなりませんか。"
+  },
+  "etiquetas": [
+   "課題理解"
   ],
-  "pregunta": "女の人は運動を続けられた理由は何だと言っていますか。"
+  "dificultad": 5
  },
- "etiquetas": ["ポイント理解"], "dificultad": 6
-},
-{
- "id": "n2-point-0006", "nivel": "N2", "tipo": "point",
- "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "二人の 意見が 分かれて いるのは どの点ですか。",
- "opciones": ["商品を知ってもらう必要があるか", "値下げという方法がよいか", "客が離れるかどうか", "値下げすれば売れるかどうか"],
- "respuesta": 1,
- "logica_distractores": ["女の人も賛成だと言っている", "女の人だけが述べており対立点ではない", "女の人も売れるだろうと認めている"],
- "explicacion": { "es": "Coinciden en el fin y en que bajar el precio vende; discrepan sólo en si ese es el camino.", "en": "They agree on the goal and that cutting prices sells; they differ only on whether that's the way." },
- "puntos": ["売れることは女の人も認めている", "知ってもらうことにも賛成", "分かれるのは方法の是非"],
- "guion": {
-  "intro": "会社で 男の人と 女の人が 話して います。二人の 意見が 分かれて いるのは どの点ですか。",
-  "turnos": [
-   { "quien": "M", "texto": "値下げすれば売れると思うんです。" },
-   { "quien": "F", "texto": "売れるでしょうね。でも、値段を戻すときに客が離れます。" },
-   { "quien": "M", "texto": "一時的でも、まず知ってもらわないと。" },
-   { "quien": "F", "texto": "知ってもらうのは賛成です。その方法が値下げでいいのか、というだけで。" }
+ {
+  "id": "n2-kadai-0005",
+  "nivel": "N2",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "客は この後 まず 何を しますか。",
+  "opciones": [
+   "買った日付を確認する",
+   "商品を交換してもらう",
+   "代わりの品を借りる",
+   "修理を頼む"
   ],
-  "pregunta": "二人の意見が分かれているのはどの点ですか。"
+  "respuesta": 0,
+  "logica_distractores": [
+   "日付が分からないと決まらない",
+   "貸出はしていないと言われた",
+   "一年以内なら交換になる可能性がある"
+  ],
+  "explicacion": {
+   "es": "Todo depende de si han pasado menos de doce meses, y eso lo dice el tique.",
+   "en": "Everything hinges on whether it's under a year, and the receipt is what says so."
+  },
+  "puntos": [
+   "修理は一か月かかる",
+   "貸出はしていない",
+   "一年以内なら交換の可能性"
+  ],
+  "guion": {
+   "intro": "店で 店員と 客が 話して います。客は この後 まず 何を しますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "こちらの商品、修理は承れますが、一か月ほどかかります。"
+    },
+    {
+     "quien": "M",
+     "texto": "一か月ですか。代わりの品を借りることはできますか。"
+    },
+    {
+     "quien": "F",
+     "texto": "貸出はしておりません。ただ、ご購入から一年以内でしたら、交換になる場合がございます。"
+    },
+    {
+     "quien": "M",
+     "texto": "一年以内かどうか、買ったときの紙を見ないと分からないな。"
+    },
+    {
+     "quien": "F",
+     "texto": "では、まずご確認いただけますか。日付が分かれば、その場で決められます。"
+    }
+   ],
+   "pregunta": "客はこの後まず何をしますか。"
+  },
+  "etiquetas": [
+   "課題理解"
+  ],
+  "dificultad": 5
  },
- "etiquetas": ["ポイント理解"], "dificultad": 6
-}
+ {
+  "id": "n2-point-0001",
+  "nivel": "N2",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は どうして 会社を 辞めますか。",
+  "opciones": [
+   "仕事が変わらないから",
+   "人間関係が悪いから",
+   "給料が低いから",
+   "会社が遠いから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "みんないい人だったと言っている",
+   "むしろよかったと言っている",
+   "話に出ていない"
+  ],
+  "explicacion": {
+   "es": "Cinco años haciendo lo mismo, y la proyección a diez le decide.",
+   "en": "Five years doing the same thing, and picturing ten more decides it."
+  },
+  "puntos": [
+   "給料はむしろよかった",
+   "人間関係も悪くない",
+   "去年と同じ仕事を今年もしている"
+  ],
+  "guion": {
+   "intro": "男の人と 女の人が 話して います。女の人は どうして 会社を 辞めますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "辞めるって聞いたけど、給料の問題?"
+    },
+    {
+     "quien": "F",
+     "texto": "それはむしろよかったくらい。"
+    },
+    {
+     "quien": "M",
+     "texto": "じゃあ、人間関係?"
+    },
+    {
+     "quien": "F",
+     "texto": "みんないい人だったよ。ただ、五年いて、去年と同じ仕事を今年もしていることに気づいて。このままだと十年後も同じだなと思ったの。"
+    }
+   ],
+   "pregunta": "女の人はどうして会社を辞めますか。"
+  },
+  "etiquetas": [
+   "ポイント理解"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-point-0002",
+  "nivel": "N2",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は この本の どこが いいと 言って いますか。",
+  "opciones": [
+   "内容が新しいこと",
+   "途中から読み直せること",
+   "値段が安いこと",
+   "全体が短いこと"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "特に新しくないと言っている",
+   "話に出ていない",
+   "話に出ていない"
+  ],
+  "explicacion": {
+   "es": "Su mérito no es el contenido sino la estructura: se puede retomar por cualquier punto.",
+   "en": "Its merit isn't the content but the structure: you can pick it up anywhere."
+  },
+  "puntos": [
+   "内容は特に新しくない",
+   "似た本は何冊もある",
+   "どこから再開しても分かる"
+  ],
+  "guion": {
+   "intro": "男の人が 本に ついて 話して います。男の人は この本の どこが いいと 言って いますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "この本、内容は特に新しくありません。似た本は何冊もあります。ただ、途中で読むのをやめても、どこから再開しても分かるように書いてあるんです。忙しい人が最後まで読める本というのは、案外少ないですから。"
+    }
+   ],
+   "pregunta": "男の人はこの本のどこがいいと言っていますか。"
+  },
+  "etiquetas": [
+   "ポイント理解"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-point-0003",
+  "nivel": "N2",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は 何を 心配して いますか。",
+  "opciones": [
+   "作業時間が長いこと",
+   "研修をしていないこと",
+   "分からないときに聞ける相手がいないこと",
+   "評判が悪いこと"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "半分になったと言っている",
+   "研修はしたと言っている",
+   "評判はいいと言っている"
+  ],
+  "explicacion": {
+   "es": "La formación ya se dio; el hueco está en el día a día, cuando alguien se atasca.",
+   "en": "The training happened; the gap is day to day, when someone gets stuck."
+  },
+  "puntos": [
+   "作業時間は半分になった",
+   "研修は実施済み",
+   "聞ける相手がいない"
+  ],
+  "guion": {
+   "intro": "会社で 男の人と 女の人が 話して います。女の人は 何を 心配して いますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "新しいやり方、評判いいですよ。作業時間が半分になったって。"
+    },
+    {
+     "quien": "F",
+     "texto": "そうなんです。ただ、慣れている人しか使えていなくて。"
+    },
+    {
+     "quien": "M",
+     "texto": "研修をすればいいのでは。"
+    },
+    {
+     "quien": "F",
+     "texto": "研修はしました。問題は、分からなくなったときに聞ける相手がいないことなんです。"
+    }
+   ],
+   "pregunta": "女の人は何を心配していますか。"
+  },
+  "etiquetas": [
+   "ポイント理解"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-point-0004",
+  "nivel": "N2",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は どうして その 仕事を 引き受けませんでしたか。",
+  "opciones": [
+   "興味がなかったから",
+   "時間がなかったから",
+   "給料が安かったから",
+   "自分より適した人がいたから"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "おもしろそうだったと言っている",
+   "何とかなったと言っている",
+   "話に出ていない"
+  ],
+  "explicacion": {
+   "es": "Aceptar habría sido quitarle la oportunidad a quien encajaba mejor.",
+   "en": "Taking it would have taken the chance from someone better suited."
+  },
+  "puntos": [
+   "おもしろそうだった",
+   "時間は何とかなった",
+   "適した人の機会を取ることになる"
+  ],
+  "guion": {
+   "intro": "男の人と 女の人が 話して います。男の人は どうして その 仕事を 引き受けませんでしたか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "あの仕事、断ったんですか。"
+    },
+    {
+     "quien": "M",
+     "texto": "ええ。おもしろそうだったんですけどね。"
+    },
+    {
+     "quien": "F",
+     "texto": "時間がなかったとか?"
+    },
+    {
+     "quien": "M",
+     "texto": "時間は何とかなったと思います。ただ、自分より適した人がいるのに引き受けるのは、その人の機会を取ることになるでしょう。"
+    }
+   ],
+   "pregunta": "男の人はどうしてその仕事を引き受けませんでしたか。"
+  },
+  "etiquetas": [
+   "ポイント理解"
+  ],
+  "dificultad": 6
+ },
+ {
+  "id": "n2-point-0005",
+  "nivel": "N2",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は 運動を 続けられた 理由は 何だと 言って いますか。",
+  "opciones": [
+   "決める場面をなくしたから",
+   "友だちと一緒にしているから",
+   "記録をつけているから",
+   "意志が強いから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "話に出ていない",
+   "話に出ていない",
+   "意志が強いからではないと言っている"
+  ],
+  "explicacion": {
+   "es": "Deja la ropa en la entrada: si no hay momento de decidir, no hay momento de dudar.",
+   "en": "She leaves the kit by the door: with no moment of deciding, there's no moment of hesitating."
+  },
+  "puntos": [
+   "意志の強さではない",
+   "着替えを玄関に置く",
+   "決めなくていいことが続く理由"
+  ],
+  "guion": {
+   "intro": "女の人が 話して います。女の人は 運動を 続けられた 理由は 何だと 言って いますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "三年続いています。意志が強いからではありません。着替えを玄関に置いておくだけです。やろうと決める場面をなくしてしまえば、迷う余地がないんです。決めなくていいことが、いちばん続く理由でした。"
+    }
+   ],
+   "pregunta": "女の人は運動を続けられた理由は何だと言っていますか。"
+  },
+  "etiquetas": [
+   "ポイント理解"
+  ],
+  "dificultad": 6
+ },
+ {
+  "id": "n2-point-0006",
+  "nivel": "N2",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "二人の 意見が 分かれて いるのは どの点ですか。",
+  "opciones": [
+   "商品を知ってもらう必要があるか",
+   "値下げという方法がよいか",
+   "客が離れるかどうか",
+   "値下げすれば売れるかどうか"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "女の人も賛成だと言っている",
+   "女の人だけが述べており対立点ではない",
+   "女の人も売れるだろうと認めている"
+  ],
+  "explicacion": {
+   "es": "Coinciden en el fin y en que bajar el precio vende; discrepan sólo en si ese es el camino.",
+   "en": "They agree on the goal and that cutting prices sells; they differ only on whether that's the way."
+  },
+  "puntos": [
+   "売れることは女の人も認めている",
+   "知ってもらうことにも賛成",
+   "分かれるのは方法の是非"
+  ],
+  "guion": {
+   "intro": "会社で 男の人と 女の人が 話して います。二人の 意見が 分かれて いるのは どの点ですか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "値下げすれば売れると思うんです。"
+    },
+    {
+     "quien": "F",
+     "texto": "売れるでしょうね。でも、値段を戻すときに客が離れます。"
+    },
+    {
+     "quien": "M",
+     "texto": "一時的でも、まず知ってもらわないと。"
+    },
+    {
+     "quien": "F",
+     "texto": "知ってもらうのは賛成です。その方法が値下げでいいのか、というだけで。"
+    }
+   ],
+   "pregunta": "二人の意見が分かれているのはどの点ですか。"
+  },
+  "etiquetas": [
+   "ポイント理解"
+  ],
+  "dificultad": 6
+ }
 ]

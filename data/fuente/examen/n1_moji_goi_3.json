@@ -1,52 +1,133 @@
 [
-{
- "id": "n1-bunmyaku-0006", "nivel": "N1", "tipo": "bunmyaku",
- "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
- "enunciado": "十年に及ぶ交渉が、ようやく（　）を見た。",
- "opciones": ["決着", "決裂", "決断", "決意"],
- "respuesta": 0,
- "logica_distractores": ["物別れに終わることを指す", "自分が心を決めること", "自分が心を決めること"],
- "explicacion": { "es": "決着を見る = quedar zanjado. 決裂 es lo contrario, y 決断・決意 son actos de una sola parte.", "en": "決着を見る = to be settled. 決裂 is the opposite, and 決断/決意 are one-sided acts of will." },
- "etiquetas": [], "dificultad": 6
-},
-{
- "id": "n1-bunmyaku-0007", "nivel": "N1", "tipo": "bunmyaku",
- "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
- "enunciado": "彼の主張は最初と最後で食い違っており、（　）を欠いている。",
- "opciones": ["独創性", "一貫性", "具体性", "客観性"],
- "respuesta": 1,
- "logica_distractores": ["新しさの問題ではない", "細かさの問題ではない", "立場の偏りの問題ではない"],
- "explicacion": { "es": "Que el principio y el final se contradigan es falta de 一貫性, de coherencia.", "en": "Beginning and end contradicting each other is a lack of 一貫性 — consistency." },
- "etiquetas": [], "dificultad": 6
-},
-{
- "id": "n1-iikae-0006", "nivel": "N1", "tipo": "iikae",
- "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
- "enunciado": "彼は<u>やむを得ず</u>その案を受け入れた。",
- "opciones": ["ひそかに", "しかたなく", "ただちに", "喜んで"],
- "respuesta": 1,
- "logica_distractores": ["人に知られないようにという意味", "すぐという意味", "気持ちが逆になる"],
- "explicacion": { "es": "やむを得ず = sin más remedio. No hay voluntad detrás, sólo ausencia de alternativa.", "en": "やむを得ず = having no choice. There's no willingness behind it, just no alternative." },
- "etiquetas": ["副詞"], "dificultad": 6
-},
-{
- "id": "n1-youhou-0005", "nivel": "N1", "tipo": "youhou",
- "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
- "enunciado": "もっぱら",
- "opciones": ["もっぱら雨が降り出した。", "この道はもっぱら広い。", "彼は最近もっぱら研究に打ち込んでいる。", "彼女にはもっぱら三人の子どもがいる。"],
- "respuesta": 2,
- "logica_distractores": ["出来事の始まりには使わない", "程度を表す語ではない", "数を限る語ではない"],
- "explicacion": { "es": "もっぱら marca dedicación exclusiva a una actividad, no grado ni cantidad.", "en": "もっぱら marks exclusive devotion to an activity, not degree or quantity." },
- "etiquetas": ["副詞"], "dificultad": 6
-},
-{
- "id": "n1-youhou-0006", "nivel": "N1", "tipo": "youhou",
- "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
- "enunciado": "かねて",
- "opciones": ["かねてより計画していた旅行に出た。", "彼はかねて背が高い。", "この本はかねて面白い。", "かねて雨が激しくなった。"],
- "respuesta": 0,
- "logica_distractores": ["程度を表す語ではない", "程度を表す語ではない", "変化の始まりには使わない"],
- "explicacion": { "es": "かねて（より）= de antes, desde hace tiempo. Acompaña a lo que venía preparándose.", "en": "かねて(より) = beforehand, for some time. It goes with what had been building up." },
- "etiquetas": ["副詞"], "dificultad": 6
-}
+ {
+  "id": "n1-bunmyaku-0006",
+  "nivel": "N1",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "十年に及ぶ交渉が、ようやく（　）を見た。",
+  "opciones": [
+   "決裂",
+   "決着",
+   "決意",
+   "決断"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "物別れに終わることを指す",
+   "自分が心を決めること",
+   "自分が心を決めること"
+  ],
+  "explicacion": {
+   "es": "決着を見る = quedar zanjado. 決裂 es lo contrario, y 決断・決意 son actos de una sola parte.",
+   "en": "決着を見る = to be settled. 決裂 is the opposite, and 決断/決意 are one-sided acts of will."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-bunmyaku-0007",
+  "nivel": "N1",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼の主張は最初と最後で食い違っており、（　）を欠いている。",
+  "opciones": [
+   "客観性",
+   "独創性",
+   "一貫性",
+   "具体性"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "立場の偏りの問題ではない",
+   "新しさの問題ではない",
+   "細かさの問題ではない"
+  ],
+  "explicacion": {
+   "es": "Que el principio y el final se contradigan es falta de 一貫性, de coherencia.",
+   "en": "Beginning and end contradicting each other is a lack of 一貫性 — consistency."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-iikae-0006",
+  "nivel": "N1",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼は<u>やむを得ず</u>その案を受け入れた。",
+  "opciones": [
+   "ひそかに",
+   "しかたなく",
+   "ただちに",
+   "喜んで"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "人に知られないようにという意味",
+   "すぐという意味",
+   "気持ちが逆になる"
+  ],
+  "explicacion": {
+   "es": "やむを得ず = sin más remedio. No hay voluntad detrás, sólo ausencia de alternativa.",
+   "en": "やむを得ず = having no choice. There's no willingness behind it, just no alternative."
+  },
+  "etiquetas": [
+   "副詞"
+  ],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-youhou-0005",
+  "nivel": "N1",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "もっぱら",
+  "opciones": [
+   "彼は最近もっぱら研究に打ち込んでいる。",
+   "この道はもっぱら広い。",
+   "もっぱら雨が降り出した。",
+   "彼女にはもっぱら三人の子どもがいる。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "程度を表す語ではない",
+   "出来事の始まりには使わない",
+   "数を限る語ではない"
+  ],
+  "explicacion": {
+   "es": "もっぱら marca dedicación exclusiva a una actividad, no grado ni cantidad.",
+   "en": "もっぱら marks exclusive devotion to an activity, not degree or quantity."
+  },
+  "etiquetas": [
+   "副詞"
+  ],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-youhou-0006",
+  "nivel": "N1",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "かねて",
+  "opciones": [
+   "彼はかねて背が高い。",
+   "かねてより計画していた旅行に出た。",
+   "この本はかねて面白い。",
+   "かねて雨が激しくなった。"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "程度を表す語ではない",
+   "程度を表す語ではない",
+   "変化の始まりには使わない"
+  ],
+  "explicacion": {
+   "es": "かねて（より）= de antes, desde hace tiempo. Acompaña a lo que venía preparándose.",
+   "en": "かねて(より) = beforehand, for some time. It goes with what had been building up."
+  },
+  "etiquetas": [
+   "副詞"
+  ],
+  "dificultad": 6
+ }
 ]

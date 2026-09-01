@@ -1,71 +1,181 @@
 [
-{
- "id": "n2-youhou-0005", "nivel": "N2", "tipo": "youhou",
- "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
- "enunciado": "そなえる",
- "opciones": ["彼は毎朝、新聞をそなえて読む。", "この機械は音がそなえて動く。", "地震にそなえて水を用意しておく。", "田中さんは背がそなえて高い。"],
- "respuesta": 2,
- "logica_distractores": ["読み方の説明にならない", "機械の動作には使わない", "程度を表す語ではない"],
- "explicacion": { "es": "備える es prepararse ante algo que puede venir: un terremoto, una emergencia.", "en": "備える is to prepare for something that may come: an earthquake, an emergency." },
- "etiquetas": [], "dificultad": 4
-},
-{
- "id": "n2-bunshou_bunpou-0001", "nivel": "N2", "tipo": "bunshou_bunpou",
- "grupo": "n2-bb-g001", "orden_grupo": 0,
- "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
- "pasaje": {
-  "texto": "「失敗から学べ」とよく言われる。だが、失敗すれば自動的に何かを学べる（　1　）。同じ失敗を何度もくり返す人は、学んでいないのではなく、振り返る時間を持っていないだけのことが多い。\n振り返りには、事実と解釈を分ける作業が要る。「準備が足りなかった」は解釈であって、事実ではない。事実は「三日前に着手した」「資料を二度書き直した」といった、数えられる形をしている。（　2　）、次に何を変えるかが決まらない。\nもっとも、振り返りが常に有効（　3　）。うまくいかなかった直後は、感情が判断をゆがめる。少し時間を置いてからのほうが、同じできごとでも見え方が変わる。\n失敗を財産に変えるのは、失敗そのものではない。（　4　）である。そしてそれは、意欲ではなく手順の問題だ。手順にしてしまえば、（　5　）人でも続けられる。",
-  "notas": [{ "termino": "振り返る", "glosa": "終わったことを見直す" }]
+ {
+  "id": "n2-youhou-0005",
+  "nivel": "N2",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "そなえる",
+  "opciones": [
+   "地震にそなえて水を用意しておく。",
+   "彼は毎朝、新聞をそなえて読む。",
+   "この機械は音がそなえて動く。",
+   "田中さんは背がそなえて高い。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "読み方の説明にならない",
+   "機械の動作には使わない",
+   "程度を表す語ではない"
+  ],
+  "explicacion": {
+   "es": "備える es prepararse ante algo que puede venir: un terremoto, una emergencia.",
+   "en": "備える is to prepare for something that may come: an earthquake, an emergency."
+  },
+  "etiquetas": [],
+  "dificultad": 4
  },
- "enunciado": "（　1　）",
- "opciones": ["わけではない", "にちがいない", "ほかならない", "しかない"],
- "respuesta": 0,
- "logica_distractores": ["強い断定になり、後ろの説明と合わない", "断定を強める言い方", "選択肢がないという意味になる"],
- "explicacion": { "es": "Niega parcialmente el dicho: «no es que se aprenda automáticamente». Eso es 〜わけではない.", "en": "It partly denies the saying: 'it's not that you automatically learn'. That's 〜わけではない." },
- "etiquetas": ["文章の文法"], "dificultad": 5
-},
-{
- "id": "n2-bunshou_bunpou-0002", "nivel": "N2", "tipo": "bunshou_bunpou",
- "grupo": "n2-bb-g001", "orden_grupo": 1,
- "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
- "enunciado": "（　2　）",
- "opciones": ["事実に戻らないかぎり", "解釈を重ねるほど", "時間さえあれば", "事実が多すぎると"],
- "respuesta": 0,
- "logica_distractores": ["解釈を増やしても決まらないので後ろと合わない", "時間の問題として述べていない", "量の問題として述べていない"],
- "explicacion": { "es": "El párrafo separa hecho e interpretación: sin volver al hecho contable, no se decide qué cambiar.", "en": "The paragraph separates fact from interpretation: without going back to countable facts, you can't decide what to change." },
- "etiquetas": ["文章の文法"], "dificultad": 5
-},
-{
- "id": "n2-bunshou_bunpou-0003", "nivel": "N2", "tipo": "bunshou_bunpou",
- "grupo": "n2-bb-g001", "orden_grupo": 2,
- "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
- "enunciado": "（　3　）",
- "opciones": ["であるとはかぎらない", "であるとしか思えない", "であるべきだ", "でなければならない"],
- "respuesta": 0,
- "logica_distractores": ["直後に限界を述べているので断定と合わない", "義務の言い方", "義務の言い方"],
- "explicacion": { "es": "«もっとも» anuncia una salvedad: no siempre sirve. Eso pide 〜とはかぎらない.", "en": "«もっとも» flags a caveat: it isn't always useful. That calls for 〜とはかぎらない." },
- "etiquetas": ["文章の文法"], "dificultad": 5
-},
-{
- "id": "n2-bunshou_bunpou-0004", "nivel": "N2", "tipo": "bunshou_bunpou",
- "grupo": "n2-bb-g001", "orden_grupo": 3,
- "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
- "enunciado": "（　4　）",
- "opciones": ["失敗の大きさ", "その後の振り返り", "周りからの助言", "強い意欲"],
- "respuesta": 1,
- "logica_distractores": ["大きさの話は出ていない", "助言の話は出ていない", "意欲ではないと直後に書いてある"],
- "explicacion": { "es": "El texto entero defiende que lo que convierte el fallo en aprendizaje es revisarlo después.", "en": "The whole text argues that what turns failure into learning is reviewing it afterwards." },
- "etiquetas": ["文章の文法"], "dificultad": 5
-},
-{
- "id": "n2-bunshou_bunpou-0005", "nivel": "N2", "tipo": "bunshou_bunpou",
- "grupo": "n2-bb-g001", "orden_grupo": 4,
- "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
- "enunciado": "（　5　）",
- "opciones": ["才能のある", "意志の強くない", "失敗をしない", "時間の余っている"],
- "respuesta": 1,
- "logica_distractores": ["才能の話は出ていない", "失敗を前提にした文章である", "時間の話は前段の別の論点"],
- "explicacion": { "es": "Si es cuestión de procedimiento y no de ánimo, lo puede sostener quien no tiene voluntad de hierro.", "en": "If it's a matter of procedure rather than drive, someone without strong willpower can keep it up." },
- "etiquetas": ["文章の文法"], "dificultad": 5
-}
+ {
+  "id": "n2-bunshou_bunpou-0001",
+  "nivel": "N2",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n2-bb-g001",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "pasaje": {
+   "texto": "「失敗から学べ」とよく言われる。だが、失敗すれば自動的に何かを学べる（　1　）。同じ失敗を何度もくり返す人は、学んでいないのではなく、振り返る時間を持っていないだけのことが多い。\n振り返りには、事実と解釈を分ける作業が要る。「準備が足りなかった」は解釈であって、事実ではない。事実は「三日前に着手した」「資料を二度書き直した」といった、数えられる形をしている。（　2　）、次に何を変えるかが決まらない。\nもっとも、振り返りが常に有効（　3　）。うまくいかなかった直後は、感情が判断をゆがめる。少し時間を置いてからのほうが、同じできごとでも見え方が変わる。\n失敗を財産に変えるのは、失敗そのものではない。（　4　）である。そしてそれは、意欲ではなく手順の問題だ。手順にしてしまえば、（　5　）人でも続けられる。",
+   "notas": [
+    {
+     "termino": "振り返る",
+     "glosa": "終わったことを見直す"
+    }
+   ]
+  },
+  "enunciado": "（　1　）",
+  "opciones": [
+   "わけではない",
+   "にちがいない",
+   "ほかならない",
+   "しかない"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "強い断定になり、後ろの説明と合わない",
+   "断定を強める言い方",
+   "選択肢がないという意味になる"
+  ],
+  "explicacion": {
+   "es": "Niega parcialmente el dicho: «no es que se aprenda automáticamente». Eso es 〜わけではない.",
+   "en": "It partly denies the saying: 'it's not that you automatically learn'. That's 〜わけではない."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-bunshou_bunpou-0002",
+  "nivel": "N2",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n2-bb-g001",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "（　2　）",
+  "opciones": [
+   "解釈を重ねるほど",
+   "事実に戻らないかぎり",
+   "時間さえあれば",
+   "事実が多すぎると"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "解釈を増やしても決まらないので後ろと合わない",
+   "時間の問題として述べていない",
+   "量の問題として述べていない"
+  ],
+  "explicacion": {
+   "es": "El párrafo separa hecho e interpretación: sin volver al hecho contable, no se decide qué cambiar.",
+   "en": "The paragraph separates fact from interpretation: without going back to countable facts, you can't decide what to change."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-bunshou_bunpou-0003",
+  "nivel": "N2",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n2-bb-g001",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "（　3　）",
+  "opciones": [
+   "であるべきだ",
+   "であるとしか思えない",
+   "であるとはかぎらない",
+   "でなければならない"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "義務の言い方",
+   "直後に限界を述べているので断定と合わない",
+   "義務の言い方"
+  ],
+  "explicacion": {
+   "es": "«もっとも» anuncia una salvedad: no siempre sirve. Eso pide 〜とはかぎらない.",
+   "en": "«もっとも» flags a caveat: it isn't always useful. That calls for 〜とはかぎらない."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-bunshou_bunpou-0004",
+  "nivel": "N2",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n2-bb-g001",
+  "orden_grupo": 3,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "（　4　）",
+  "opciones": [
+   "失敗の大きさ",
+   "強い意欲",
+   "周りからの助言",
+   "その後の振り返り"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "大きさの話は出ていない",
+   "意欲ではないと直後に書いてある",
+   "助言の話は出ていない"
+  ],
+  "explicacion": {
+   "es": "El texto entero defiende que lo que convierte el fallo en aprendizaje es revisarlo después.",
+   "en": "The whole text argues that what turns failure into learning is reviewing it afterwards."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-bunshou_bunpou-0005",
+  "nivel": "N2",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n2-bb-g001",
+  "orden_grupo": 4,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "（　5　）",
+  "opciones": [
+   "意志の強くない",
+   "才能のある",
+   "失敗をしない",
+   "時間の余っている"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "才能の話は出ていない",
+   "失敗を前提にした文章である",
+   "時間の話は前段の別の論点"
+  ],
+  "explicacion": {
+   "es": "Si es cuestión de procedimiento y no de ánimo, lo puede sostener quien no tiene voluntad de hierro.",
+   "en": "If it's a matter of procedure rather than drive, someone without strong willpower can keep it up."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 5
+ }
 ]

@@ -1,187 +1,488 @@
 [
-{
- "id": "n1-kadai-0002", "nivel": "N1", "tipo": "kadai",
- "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "男の人は この後 まず 何を しますか。",
- "opciones": ["会場を押さえる", "招集通知の原稿を仕上げる", "想定問答を作る", "印刷会社に納期を確認する"],
- "respuesta": 1,
- "logica_distractores": ["すでに済んでいる", "後に回すと述べている", "納期はすでに伝えられている"],
- "explicacion": { "es": "El plazo real no es el legal sino el de la imprenta, que cierra esta semana.", "en": "The binding deadline isn't the legal one but the printer's, which closes this week." },
- "puntos": ["会場は押さえ済み", "法定期限より印刷会社の納期が先に来る", "想定問答は後回し"],
- "guion": {
-  "intro": "会社で 男の人と 女の人が 話して います。男の人は この後 まず 何を しますか。",
-  "turnos": [
-   { "quien": "F", "texto": "来月の株主総会の件、会場の押さえは?" },
-   { "quien": "M", "texto": "済んでいます。あとは招集通知の発送と、想定問答の作成ですね。" },
-   { "quien": "F", "texto": "通知には法定の期限があるでしょう。何日前まで?" },
-   { "quien": "M", "texto": "二週間前までです。まだ余裕があります。" },
-   { "quien": "F", "texto": "いえ、印刷会社の受付が今週いっぱいで締まると聞きました。原稿が間に合わないと、発送そのものが遅れます。" },
-   { "quien": "M", "texto": "では、想定問答は後に回して、先に原稿を仕上げます。" }
+ {
+  "id": "n1-kadai-0002",
+  "nivel": "N1",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は この後 まず 何を しますか。",
+  "opciones": [
+   "会場を押さえる",
+   "招集通知の原稿を仕上げる",
+   "想定問答を作る",
+   "印刷会社に納期を確認する"
   ],
-  "pregunta": "男の人はこの後まず何をしますか。"
- },
- "etiquetas": ["課題理解"], "dificultad": 7
-},
-{
- "id": "n1-kadai-0003", "nivel": "N1", "tipo": "kadai",
- "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "学生は この後 まず 何を しますか。",
- "opciones": ["図の解像度を上げる", "参考文献の書式を直す", "共著者に返事を督促する", "論文を投稿する"],
- "respuesta": 2,
- "logica_distractores": ["承諾を得たあとでよいと言われた", "掲載が決まってからでよいと言われた", "承諾がないと投稿できない"],
- "explicacion": { "es": "Sin el consentimiento de todos los coautores no se puede enviar nada.", "en": "Without every co-author's consent nothing can be submitted." },
- "puntos": ["書式は掲載決定後でよい", "共著者の承諾がないと投稿できない", "図はそのあと"],
- "guion": {
-  "intro": "大学で 教授と 学生が 話して います。学生は この後 まず 何を しますか。",
-  "turnos": [
-   { "quien": "M", "texto": "投稿の前に、図の解像度を上げておいてください。" },
-   { "quien": "F", "texto": "はい。あと、参考文献の書式も直します。" },
-   { "quien": "M", "texto": "それは掲載が決まってからで構いません。それより、共著者全員の承諾はもらいましたか。" },
-   { "quien": "F", "texto": "まだ二人から返事が来ていません。" },
-   { "quien": "M", "texto": "承諾がないと投稿そのものができません。督促してください。図はそのあとで結構です。" }
+  "respuesta": 1,
+  "logica_distractores": [
+   "すでに済んでいる",
+   "後に回すと述べている",
+   "納期はすでに伝えられている"
   ],
-  "pregunta": "学生はこの後まず何をしますか。"
- },
- "etiquetas": ["課題理解"], "dificultad": 7
-},
-{
- "id": "n1-kadai-0004", "nivel": "N1", "tipo": "kadai",
- "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "社員は この後 まず 何を しますか。",
- "opciones": ["数える用紙を印刷する", "商品を並べ替える", "レジの数字を合わせる", "商品を数える"],
- "respuesta": 2,
- "logica_distractores": ["すでに印刷してある", "開店前でよいと言われた", "数字が合ってからでないと原因が分からなくなる"],
- "explicacion": { "es": "Si se cuenta con la caja descuadrada, después no se sabrá de dónde viene la diferencia.", "en": "Counting with the till out of balance makes the discrepancy impossible to trace afterwards." },
- "puntos": ["用紙は印刷済み", "並べ替えは開店前でよい", "レジが合わないまま数えると原因が分からない"],
- "guion": {
-  "intro": "店で 店長と 社員が 話して います。社員は この後 まず 何を しますか。",
-  "turnos": [
-   { "quien": "F", "texto": "明日の棚卸し、準備はどう?" },
-   { "quien": "M", "texto": "数える用紙は印刷しました。あとは商品を並べ替えるだけです。" },
-   { "quien": "F", "texto": "並べ替えは開店前で構いません。それより、レジの締めの数字が合っていないと聞きましたが。" },
-   { "quien": "M", "texto": "あ、はい。千円ほど。" },
-   { "quien": "F", "texto": "棚卸しの前に、そこを合わせておいてください。合わないまま数えると、原因が分からなくなります。" }
+  "explicacion": {
+   "es": "El plazo real no es el legal sino el de la imprenta, que cierra esta semana.",
+   "en": "The binding deadline isn't the legal one but the printer's, which closes this week."
+  },
+  "puntos": [
+   "会場は押さえ済み",
+   "法定期限より印刷会社の納期が先に来る",
+   "想定問答は後回し"
   ],
-  "pregunta": "社員はこの後まず何をしますか。"
- },
- "etiquetas": ["課題理解"], "dificultad": 7
-},
-{
- "id": "n1-kadai-0005", "nivel": "N1", "tipo": "kadai",
- "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "男の人は この後 まず 何を しますか。",
- "opciones": ["保証会社の審査を受ける", "勤務先に書類を頼む", "契約書に署名する", "物件をもう一度見る"],
- "respuesta": 1,
- "logica_distractores": ["書類がそろってからになる", "審査の前には進めない", "見学の話は出ていない"],
- "explicacion": { "es": "El examen no arranca hasta tener los papeles, y el del ingreso lo emite la empresa.", "en": "The screening can't start until the papers are in, and the income one comes from his employer." },
- "puntos": ["審査は書類がそろってから", "収入を証明する書類が必要", "先に勤務先へ頼む"],
- "guion": {
-  "intro": "不動産屋で 男の人と 女の人が 話して います。男の人は この後 まず 何を しますか。",
-  "turnos": [
-   { "quien": "F", "texto": "こちらの物件でよろしければ、お申し込みに進みます。" },
-   { "quien": "M", "texto": "お願いします。手続きには何が必要ですか。" },
-   { "quien": "F", "texto": "身分を証明するものと、収入を証明する書類ですね。あと、保証会社の審査があります。" },
-   { "quien": "M", "texto": "審査はどのくらいかかりますか。" },
-   { "quien": "F", "texto": "二、三日です。ただ、書類がそろってからになりますので、先に勤務先へお願いされたほうがよろしいかと。" },
-   { "quien": "M", "texto": "分かりました。" }
+  "guion": {
+   "intro": "会社で 男の人と 女の人が 話して います。男の人は この後 まず 何を しますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "来月の株主総会の件、会場の押さえは?"
+    },
+    {
+     "quien": "M",
+     "texto": "済んでいます。あとは招集通知の発送と、想定問答の作成ですね。"
+    },
+    {
+     "quien": "F",
+     "texto": "通知には法定の期限があるでしょう。何日前まで?"
+    },
+    {
+     "quien": "M",
+     "texto": "二週間前までです。まだ余裕があります。"
+    },
+    {
+     "quien": "F",
+     "texto": "いえ、印刷会社の受付が今週いっぱいで締まると聞きました。原稿が間に合わないと、発送そのものが遅れます。"
+    },
+    {
+     "quien": "M",
+     "texto": "では、想定問答は後に回して、先に原稿を仕上げます。"
+    }
+   ],
+   "pregunta": "男の人はこの後まず何をしますか。"
+  },
+  "etiquetas": [
+   "課題理解"
   ],
-  "pregunta": "男の人はこの後まず何をしますか。"
+  "dificultad": 7
  },
- "etiquetas": ["課題理解"], "dificultad": 7
-},
-{
- "id": "n1-point-0002", "nivel": "N1", "tipo": "point",
- "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "女の人が 計画を 見直したのは なぜですか。",
- "opciones": ["数字が甘かったから", "上司の指示があったから", "法改正の施行時期がずれたから", "法改正の内容が変わったから"],
- "respuesta": 2,
- "logica_distractores": ["むしろ堅めに見ていたと言っている", "上からではないと言っている", "中身は変わっていないと言っている"],
- "explicacion": { "es": "Sólo se movió la fecha de entrada en vigor, y eso reordenó todo el flujo de caja.", "en": "Only the date of entry into force moved, and that reshuffled the whole cash-flow order." },
- "puntos": ["数字は堅めに見ていた", "上からの指示ではない", "施行時期だけが一年ずれた"],
- "guion": {
-  "intro": "会社で 男の人と 女の人が 話して います。女の人が 計画を 見直したのは なぜですか。",
-  "turnos": [
-   { "quien": "M", "texto": "計画、作り直したそうですね。数字が甘かったんですか。" },
-   { "quien": "F", "texto": "数字は問題なかったんです。むしろ堅めに見ていました。" },
-   { "quien": "M", "texto": "では、上から何か。" },
-   { "quien": "F", "texto": "いえ。前提にしていた法改正が、施行時期だけ一年ずれたんです。中身は変わっていません。ただ、それだけで収支の順番が全部入れ替わってしまって。" }
+ {
+  "id": "n1-kadai-0003",
+  "nivel": "N1",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "学生は この後 まず 何を しますか。",
+  "opciones": [
+   "図の解像度を上げる",
+   "参考文献の書式を直す",
+   "共著者に返事を督促する",
+   "論文を投稿する"
   ],
-  "pregunta": "女の人が計画を見直したのはなぜですか。"
- },
- "etiquetas": ["ポイント理解"], "dificultad": 8
-},
-{
- "id": "n1-point-0003", "nivel": "N1", "tipo": "point",
- "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "男の人が 評価して いる 点は 何ですか。",
- "opciones": ["利用件数が多いこと", "存在すること自体が判断を変えること", "効果を数字で示せること", "費用が安いこと"],
- "respuesta": 1,
- "logica_distractores": ["年に数件だと言っている", "数字で示せと言われると弱いと言っている", "費用の話はしていない"],
- "explicacion": { "es": "Casi no se usa, y ese es el punto: saber que existe impide decisiones forzadas sobre el terreno.", "en": "It's barely used, and that's the point: knowing it exists stops forced decisions on the ground." },
- "puntos": ["利用は年に数件", "数字で効果を示すのは難しい", "あると分かるだけで無理な判断が減る"],
- "guion": {
-  "intro": "男の人が 新しい 制度に ついて 話して います。男の人が 評価して いる 点は 何ですか。",
-  "turnos": [{ "quien": "M", "texto": "この制度、使う人は多くありません。年に数件でしょう。効果を数字で示せと言われると弱い。ただ、これがあると分かっているだけで、現場が無理な判断をしなくなるんです。使われないことに意味がある仕組みというのは、確かに存在します。" }],
-  "pregunta": "男の人が評価している点は何ですか。"
- },
- "etiquetas": ["ポイント理解"], "dificultad": 8
-},
-{
- "id": "n1-point-0004", "nivel": "N1", "tipo": "point",
- "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "女の人が 講演の 依頼を 断ったのは なぜですか。",
- "opciones": ["断定を求められたから", "専門外だったから", "日程が合わなかったから", "報酬が少なかったから"],
- "respuesta": 0,
- "logica_distractores": ["専門そのものだったと言っている", "日程は空いていたと言っている", "報酬の話は出ていない"],
- "explicacion": { "es": "Le pedían conclusiones tajantes sobre algo aún en verificación.", "en": "They wanted flat conclusions about something still under verification." },
- "puntos": ["内容は専門そのもの", "日程も空いていた", "求められたのは結論の言い切り"],
- "guion": {
-  "intro": "男の人と 女の人が 話して います。女の人が 講演の 依頼を 断ったのは なぜですか。",
-  "turnos": [
-   { "quien": "M", "texto": "断ったんですか。もったいない。" },
-   { "quien": "F", "texto": "内容は私の専門そのものでした。日程も空いていました。" },
-   { "quien": "M", "texto": "じゃあ、なぜ。" },
-   { "quien": "F", "texto": "主催者が求めていたのは、結論の言い切りだったんです。まだ検証中のことを、断定して話すわけにはいきません。" }
+  "respuesta": 2,
+  "logica_distractores": [
+   "承諾を得たあとでよいと言われた",
+   "掲載が決まってからでよいと言われた",
+   "承諾がないと投稿できない"
   ],
-  "pregunta": "女の人が講演の依頼を断ったのはなぜですか。"
- },
- "etiquetas": ["ポイント理解"], "dificultad": 8
-},
-{
- "id": "n1-point-0005", "nivel": "N1", "tipo": "point",
- "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "二人の 見解が 分かれて いるのは どの点ですか。",
- "opciones": ["撤退の判断を早くすべきかどうか", "何が記録に残っているかという認識", "撤退そのものの是非", "損失の大きさの見積もり"],
- "respuesta": 1,
- "logica_distractores": ["早さには賛成だと述べている", "どちらも撤退を否定していない", "損失額の話は出ていない"],
- "explicacion": { "es": "Él cree que ya se registra; ella dice que se guarda el resultado, no el razonamiento.", "en": "He thinks it's already recorded; she says what's kept is the outcome, not the reasoning." },
- "puntos": ["早さには両者とも賛成", "男の人は記録を残していると考えている", "女の人は根拠が残っていないと言う"],
- "guion": {
-  "intro": "会議で 男の人と 女の人が 話して います。二人の 見解が 分かれて いるのは どの点ですか。",
-  "turnos": [
-   { "quien": "M", "texto": "撤退の判断は早いほうがいい。傷が浅いうちに止めるべきです。" },
-   { "quien": "F", "texto": "早さには賛成です。ただ、早く止めた案件を、なぜ止めたのか残さないと、同じ判断を何度もやることになります。" },
-   { "quien": "M", "texto": "記録は残していますよ。" },
-   { "quien": "F", "texto": "結果は残っています。判断の根拠が残っていないんです。" }
+  "explicacion": {
+   "es": "Sin el consentimiento de todos los coautores no se puede enviar nada.",
+   "en": "Without every co-author's consent nothing can be submitted."
+  },
+  "puntos": [
+   "書式は掲載決定後でよい",
+   "共著者の承諾がないと投稿できない",
+   "図はそのあと"
   ],
-  "pregunta": "二人の見解が分かれているのはどの点ですか。"
+  "guion": {
+   "intro": "大学で 教授と 学生が 話して います。学生は この後 まず 何を しますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "投稿の前に、図の解像度を上げておいてください。"
+    },
+    {
+     "quien": "F",
+     "texto": "はい。あと、参考文献の書式も直します。"
+    },
+    {
+     "quien": "M",
+     "texto": "それは掲載が決まってからで構いません。それより、共著者全員の承諾はもらいましたか。"
+    },
+    {
+     "quien": "F",
+     "texto": "まだ二人から返事が来ていません。"
+    },
+    {
+     "quien": "M",
+     "texto": "承諾がないと投稿そのものができません。督促してください。図はそのあとで結構です。"
+    }
+   ],
+   "pregunta": "学生はこの後まず何をしますか。"
+  },
+  "etiquetas": [
+   "課題理解"
+  ],
+  "dificultad": 7
  },
- "etiquetas": ["ポイント理解"], "dificultad": 9
-},
-{
- "id": "n1-point-0006", "nivel": "N1", "tipo": "point",
- "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
- "enunciado": "男の人は 何を 問題だと 考えて いますか。",
- "opciones": ["満足度が低いこと", "参加者が少ないこと", "測る対象が適切でないこと", "研修の回数が多すぎること"],
- "respuesta": 2,
- "logica_distractores": ["九割を超えていると言っている", "人数の話は出ていない", "回数の話は出ていない"],
- "explicacion": { "es": "Con satisfacción altísima y conducta sin cambiar, el indicador elegido oculta el fallo.", "en": "With sky-high satisfaction and unchanged behaviour, the chosen metric hides the failure." },
- "puntos": ["満足度は毎回九割超", "三か月後の行動は変わっていない", "満足度を測る限り差が見えない"],
- "guion": {
-  "intro": "男の人が 研修に ついて 話して います。男の人は 何を 問題だと 考えて いますか。",
-  "turnos": [{ "quien": "M", "texto": "研修の満足度は毎回九割を超えています。参加者はよかったと言ってくださる。ただ、三か月後に行動が変わっているかを調べると、ほとんど変わっていない。満足度を測っている限り、この差は見えません。測る対象を変えないと、いつまでも成功しているように見えてしまうんです。" }],
-  "pregunta": "男の人は何を問題だと考えていますか。"
+ {
+  "id": "n1-kadai-0004",
+  "nivel": "N1",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "社員は この後 まず 何を しますか。",
+  "opciones": [
+   "商品を並べ替える",
+   "商品を数える",
+   "数える用紙を印刷する",
+   "レジの数字を合わせる"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "開店前でよいと言われた",
+   "数字が合ってからでないと原因が分からなくなる",
+   "すでに印刷してある"
+  ],
+  "explicacion": {
+   "es": "Si se cuenta con la caja descuadrada, después no se sabrá de dónde viene la diferencia.",
+   "en": "Counting with the till out of balance makes the discrepancy impossible to trace afterwards."
+  },
+  "puntos": [
+   "用紙は印刷済み",
+   "並べ替えは開店前でよい",
+   "レジが合わないまま数えると原因が分からない"
+  ],
+  "guion": {
+   "intro": "店で 店長と 社員が 話して います。社員は この後 まず 何を しますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "明日の棚卸し、準備はどう?"
+    },
+    {
+     "quien": "M",
+     "texto": "数える用紙は印刷しました。あとは商品を並べ替えるだけです。"
+    },
+    {
+     "quien": "F",
+     "texto": "並べ替えは開店前で構いません。それより、レジの締めの数字が合っていないと聞きましたが。"
+    },
+    {
+     "quien": "M",
+     "texto": "あ、はい。千円ほど。"
+    },
+    {
+     "quien": "F",
+     "texto": "棚卸しの前に、そこを合わせておいてください。合わないまま数えると、原因が分からなくなります。"
+    }
+   ],
+   "pregunta": "社員はこの後まず何をしますか。"
+  },
+  "etiquetas": [
+   "課題理解"
+  ],
+  "dificultad": 7
  },
- "etiquetas": ["ポイント理解"], "dificultad": 9
-}
+ {
+  "id": "n1-kadai-0005",
+  "nivel": "N1",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は この後 まず 何を しますか。",
+  "opciones": [
+   "勤務先に書類を頼む",
+   "契約書に署名する",
+   "物件をもう一度見る",
+   "保証会社の審査を受ける"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "審査の前には進めない",
+   "見学の話は出ていない",
+   "書類がそろってからになる"
+  ],
+  "explicacion": {
+   "es": "El examen no arranca hasta tener los papeles, y el del ingreso lo emite la empresa.",
+   "en": "The screening can't start until the papers are in, and the income one comes from his employer."
+  },
+  "puntos": [
+   "審査は書類がそろってから",
+   "収入を証明する書類が必要",
+   "先に勤務先へ頼む"
+  ],
+  "guion": {
+   "intro": "不動産屋で 男の人と 女の人が 話して います。男の人は この後 まず 何を しますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "こちらの物件でよろしければ、お申し込みに進みます。"
+    },
+    {
+     "quien": "M",
+     "texto": "お願いします。手続きには何が必要ですか。"
+    },
+    {
+     "quien": "F",
+     "texto": "身分を証明するものと、収入を証明する書類ですね。あと、保証会社の審査があります。"
+    },
+    {
+     "quien": "M",
+     "texto": "審査はどのくらいかかりますか。"
+    },
+    {
+     "quien": "F",
+     "texto": "二、三日です。ただ、書類がそろってからになりますので、先に勤務先へお願いされたほうがよろしいかと。"
+    },
+    {
+     "quien": "M",
+     "texto": "分かりました。"
+    }
+   ],
+   "pregunta": "男の人はこの後まず何をしますか。"
+  },
+  "etiquetas": [
+   "課題理解"
+  ],
+  "dificultad": 7
+ },
+ {
+  "id": "n1-point-0002",
+  "nivel": "N1",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人が 計画を 見直したのは なぜですか。",
+  "opciones": [
+   "上司の指示があったから",
+   "法改正の施行時期がずれたから",
+   "数字が甘かったから",
+   "法改正の内容が変わったから"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "上からではないと言っている",
+   "むしろ堅めに見ていたと言っている",
+   "中身は変わっていないと言っている"
+  ],
+  "explicacion": {
+   "es": "Sólo se movió la fecha de entrada en vigor, y eso reordenó todo el flujo de caja.",
+   "en": "Only the date of entry into force moved, and that reshuffled the whole cash-flow order."
+  },
+  "puntos": [
+   "数字は堅めに見ていた",
+   "上からの指示ではない",
+   "施行時期だけが一年ずれた"
+  ],
+  "guion": {
+   "intro": "会社で 男の人と 女の人が 話して います。女の人が 計画を 見直したのは なぜですか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "計画、作り直したそうですね。数字が甘かったんですか。"
+    },
+    {
+     "quien": "F",
+     "texto": "数字は問題なかったんです。むしろ堅めに見ていました。"
+    },
+    {
+     "quien": "M",
+     "texto": "では、上から何か。"
+    },
+    {
+     "quien": "F",
+     "texto": "いえ。前提にしていた法改正が、施行時期だけ一年ずれたんです。中身は変わっていません。ただ、それだけで収支の順番が全部入れ替わってしまって。"
+    }
+   ],
+   "pregunta": "女の人が計画を見直したのはなぜですか。"
+  },
+  "etiquetas": [
+   "ポイント理解"
+  ],
+  "dificultad": 8
+ },
+ {
+  "id": "n1-point-0003",
+  "nivel": "N1",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人が 評価して いる 点は 何ですか。",
+  "opciones": [
+   "効果を数字で示せること",
+   "費用が安いこと",
+   "存在すること自体が判断を変えること",
+   "利用件数が多いこと"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "数字で示せと言われると弱いと言っている",
+   "費用の話はしていない",
+   "年に数件だと言っている"
+  ],
+  "explicacion": {
+   "es": "Casi no se usa, y ese es el punto: saber que existe impide decisiones forzadas sobre el terreno.",
+   "en": "It's barely used, and that's the point: knowing it exists stops forced decisions on the ground."
+  },
+  "puntos": [
+   "利用は年に数件",
+   "数字で効果を示すのは難しい",
+   "あると分かるだけで無理な判断が減る"
+  ],
+  "guion": {
+   "intro": "男の人が 新しい 制度に ついて 話して います。男の人が 評価して いる 点は 何ですか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "この制度、使う人は多くありません。年に数件でしょう。効果を数字で示せと言われると弱い。ただ、これがあると分かっているだけで、現場が無理な判断をしなくなるんです。使われないことに意味がある仕組みというのは、確かに存在します。"
+    }
+   ],
+   "pregunta": "男の人が評価している点は何ですか。"
+  },
+  "etiquetas": [
+   "ポイント理解"
+  ],
+  "dificultad": 8
+ },
+ {
+  "id": "n1-point-0004",
+  "nivel": "N1",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人が 講演の 依頼を 断ったのは なぜですか。",
+  "opciones": [
+   "専門外だったから",
+   "日程が合わなかったから",
+   "報酬が少なかったから",
+   "断定を求められたから"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "専門そのものだったと言っている",
+   "日程は空いていたと言っている",
+   "報酬の話は出ていない"
+  ],
+  "explicacion": {
+   "es": "Le pedían conclusiones tajantes sobre algo aún en verificación.",
+   "en": "They wanted flat conclusions about something still under verification."
+  },
+  "puntos": [
+   "内容は専門そのもの",
+   "日程も空いていた",
+   "求められたのは結論の言い切り"
+  ],
+  "guion": {
+   "intro": "男の人と 女の人が 話して います。女の人が 講演の 依頼を 断ったのは なぜですか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "断ったんですか。もったいない。"
+    },
+    {
+     "quien": "F",
+     "texto": "内容は私の専門そのものでした。日程も空いていました。"
+    },
+    {
+     "quien": "M",
+     "texto": "じゃあ、なぜ。"
+    },
+    {
+     "quien": "F",
+     "texto": "主催者が求めていたのは、結論の言い切りだったんです。まだ検証中のことを、断定して話すわけにはいきません。"
+    }
+   ],
+   "pregunta": "女の人が講演の依頼を断ったのはなぜですか。"
+  },
+  "etiquetas": [
+   "ポイント理解"
+  ],
+  "dificultad": 8
+ },
+ {
+  "id": "n1-point-0005",
+  "nivel": "N1",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "二人の 見解が 分かれて いるのは どの点ですか。",
+  "opciones": [
+   "何が記録に残っているかという認識",
+   "撤退の判断を早くすべきかどうか",
+   "撤退そのものの是非",
+   "損失の大きさの見積もり"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "早さには賛成だと述べている",
+   "どちらも撤退を否定していない",
+   "損失額の話は出ていない"
+  ],
+  "explicacion": {
+   "es": "Él cree que ya se registra; ella dice que se guarda el resultado, no el razonamiento.",
+   "en": "He thinks it's already recorded; she says what's kept is the outcome, not the reasoning."
+  },
+  "puntos": [
+   "早さには両者とも賛成",
+   "男の人は記録を残していると考えている",
+   "女の人は根拠が残っていないと言う"
+  ],
+  "guion": {
+   "intro": "会議で 男の人と 女の人が 話して います。二人の 見解が 分かれて いるのは どの点ですか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "撤退の判断は早いほうがいい。傷が浅いうちに止めるべきです。"
+    },
+    {
+     "quien": "F",
+     "texto": "早さには賛成です。ただ、早く止めた案件を、なぜ止めたのか残さないと、同じ判断を何度もやることになります。"
+    },
+    {
+     "quien": "M",
+     "texto": "記録は残していますよ。"
+    },
+    {
+     "quien": "F",
+     "texto": "結果は残っています。判断の根拠が残っていないんです。"
+    }
+   ],
+   "pregunta": "二人の見解が分かれているのはどの点ですか。"
+  },
+  "etiquetas": [
+   "ポイント理解"
+  ],
+  "dificultad": 9
+ },
+ {
+  "id": "n1-point-0006",
+  "nivel": "N1",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は 何を 問題だと 考えて いますか。",
+  "opciones": [
+   "参加者が少ないこと",
+   "測る対象が適切でないこと",
+   "満足度が低いこと",
+   "研修の回数が多すぎること"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "人数の話は出ていない",
+   "九割を超えていると言っている",
+   "回数の話は出ていない"
+  ],
+  "explicacion": {
+   "es": "Con satisfacción altísima y conducta sin cambiar, el indicador elegido oculta el fallo.",
+   "en": "With sky-high satisfaction and unchanged behaviour, the chosen metric hides the failure."
+  },
+  "puntos": [
+   "満足度は毎回九割超",
+   "三か月後の行動は変わっていない",
+   "満足度を測る限り差が見えない"
+  ],
+  "guion": {
+   "intro": "男の人が 研修に ついて 話して います。男の人は 何を 問題だと 考えて いますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "研修の満足度は毎回九割を超えています。参加者はよかったと言ってくださる。ただ、三か月後に行動が変わっているかを調べると、ほとんど変わっていない。満足度を測っている限り、この差は見えません。測る対象を変えないと、いつまでも成功しているように見えてしまうんです。"
+    }
+   ],
+   "pregunta": "男の人は何を問題だと考えていますか。"
+  },
+  "etiquetas": [
+   "ポイント理解"
+  ],
+  "dificultad": 9
+ }
 ]

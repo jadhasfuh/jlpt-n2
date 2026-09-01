@@ -6,12 +6,12 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この道路は工事中で通れない。",
   "opciones": [
-   "どうろ",
    "とうろ",
    "どうろう",
+   "どうろ",
    "どろ"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "道は濁る",
    "長音を足しすぎ",
@@ -31,16 +31,16 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "会場の入口で名前を確認された。",
   "opciones": [
-   "かくにん",
-   "かくじん",
    "がくにん",
-   "かくにい"
+   "かくにい",
+   "かくじん",
+   "かくにん"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
-   "認は濁らない",
    "確は濁らない",
-   "長音にしない"
+   "長音にしない",
+   "認は濁らない"
   ],
   "explicacion": {
    "es": "確認（かくにん）. Ni 確 ni 認 se sonorizan aquí.",
@@ -110,16 +110,16 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この薬は食事の後に（　）ください。",
   "opciones": [
-   "飲んで",
    "食べて",
+   "入れて",
    "つけて",
-   "入れて"
+   "飲んで"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "薬は食べるとは言わない",
-   "つけるのは塗り薬",
-   "入れる相手がない"
+   "入れる相手がない",
+   "つけるのは塗り薬"
   ],
   "explicacion": {
    "es": "El medicamento se «bebe» en japonés: 薬を飲む.",
@@ -135,16 +135,16 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "地図を見ながら歩いたが、（　）道に迷ってしまった。",
   "opciones": [
-   "きっと",
    "けっきょく",
+   "そろそろ",
    "たぶん",
-   "そろそろ"
+   "きっと"
   ],
-  "respuesta": 1,
+  "respuesta": 0,
   "logica_distractores": [
+   "時期を表す副詞",
    "推量の副詞で、起きたことに合わない",
-   "推量の副詞で、起きたことに合わない",
-   "時期を表す副詞"
+   "推量の副詞で、起きたことに合わない"
   ],
   "explicacion": {
    "es": "Ya ocurrió, así que toca «al final»: けっきょく. きっと y たぶん son conjeturas.",
@@ -185,16 +185,16 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "予定が急に（　）ので、旅行に行けなくなった。",
   "opciones": [
-   "変わった",
-   "止まった",
    "続いた",
-   "決まった"
+   "決まった",
+   "変わった",
+   "止まった"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "予定は止まるとは言わない",
    "続いたなら行けるはず",
-   "決まったなら行けるはず"
+   "決まったなら行けるはず",
+   "予定は止まるとは言わない"
   ],
   "explicacion": {
    "es": "El plan cambió, y por eso ya no puede ir: 予定が変わる.",
@@ -237,16 +237,16 @@
   "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "解決する",
   "opciones": [
-   "この問題は一人では解決できない。",
    "彼は毎朝、体を解決している。",
+   "この本を解決して読んだ。",
    "駅までの道を解決した。",
-   "この本を解決して読んだ。"
+   "この問題は一人では解決できない。"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "体には使わない",
-   "道は解決しない",
-   "本は読むもの"
+   "本は読むもの",
+   "道は解決しない"
   ],
   "explicacion": {
    "es": "解決する se aplica a problemas y conflictos, no a objetos ni al cuerpo.",
@@ -262,12 +262,12 @@
   "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "うっかり",
   "opciones": [
-   "うっかり練習を続けた。",
    "うっかり財布を家に忘れた。",
+   "うっかり練習を続けた。",
    "うっかり試験に合格した。",
    "うっかり毎日走っている。"
   ],
-  "respuesta": 1,
+  "respuesta": 0,
   "logica_distractores": [
    "意図してすることには使わない",
    "よい結果には使わない",

@@ -31,16 +31,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "薬を飲んだ（　）、熱が下がらない。",
   "opciones": [
-   "のに",
    "ので",
-   "から",
-   "なら"
+   "のに",
+   "なら",
+   "から"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "ので は理由",
-   "から も理由",
-   "なら は仮定"
+   "なら は仮定",
+   "から も理由"
   ],
   "explicacion": {
    "es": "〜のに = «a pesar de que». Marca que el resultado esperado no llegó.",
@@ -56,16 +56,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "母に部屋を（　）られた。",
   "opciones": [
-   "片付け",
+   "片付ける",
    "片付く",
-   "片付いて",
-   "片付ける"
+   "片付け",
+   "片付いて"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
+   "辞書形",
    "自動詞",
-   "て形",
-   "辞書形"
+   "て形"
   ],
   "explicacion": {
    "es": "受身は ない形の語幹＋られる: 片付ける → 片付けられる.",
@@ -81,16 +81,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "日本語が話せる（　）なりました。",
   "opciones": [
-   "ように",
-   "そうに",
+   "はずに",
    "ことに",
-   "はずに"
+   "そうに",
+   "ように"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
-   "そうには様態",
+   "はずには使わない",
    "ことにはは決定",
-   "はずには使わない"
+   "そうには様態"
   ],
   "explicacion": {
    "es": "〜ようになる = «llegar a poder». Va con la forma potencial delante.",
@@ -131,16 +131,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "先生は今、教室に（　）ます。",
   "opciones": [
-   "いらっしゃい",
-   "おり",
    "まいり",
-   "いたし"
+   "いらっしゃい",
+   "いたし",
+   "おり"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "おるは謙譲",
    "まいるは謙譲",
-   "いたすは謙譲"
+   "いたすは謙譲",
+   "おるは謙譲"
   ],
   "explicacion": {
    "es": "Del profesor se habla en honorífico: いらっしゃる. おる y まいる son humildes, para uno mismo.",
@@ -156,16 +156,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "手伝って（　）ませんか。",
   "opciones": [
-   "いただけ",
-   "さしあげ",
+   "おっしゃい",
    "申し上げ",
-   "おっしゃい"
+   "いただけ",
+   "さしあげ"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "さしあげるは与える",
+   "おっしゃるは言う",
    "申し上げるは言う",
-   "おっしゃるは言う"
+   "さしあげるは与える"
   ],
   "explicacion": {
    "es": "〜ていただけませんか es la petición cortés. Los otros tres no piden un favor.",
@@ -181,12 +181,12 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "子どもに野菜を食べ（　）ました。",
   "opciones": [
-   "させ",
    "され",
    "られ",
-   "させられ"
+   "させられ",
+   "させ"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "受身",
    "受身",
@@ -231,16 +231,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "父にカメラを買って（　）。",
   "opciones": [
+   "やった",
    "もらった",
-   "あげた",
    "くれた",
-   "やった"
+   "あげた"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "あげるは与える側",
+   "やるは目下に与える",
    "くれるは主語が父",
-   "やるは目下に与える"
+   "あげるは与える側"
   ],
   "explicacion": {
    "es": "〜てもらう: yo recibo el favor. Con 父に, quien compra es el padre y yo recibo.",
@@ -256,16 +256,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "駅に着いたら、電話して（　）。",
   "opciones": [
-   "ください",
-   "いただく",
    "さしあげる",
-   "まいる"
+   "まいる",
+   "ください",
+   "いただく"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "いただくは受け手が自分",
    "さしあげるは与える",
-   "まいるは移動"
+   "まいるは移動",
+   "いただくは受け手が自分"
   ],
   "explicacion": {
    "es": "〜てください es la petición directa y cortés.",
@@ -281,16 +281,16 @@
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "漢字は覚え（　）が、忘れやすい。",
   "opciones": [
-   "やすい",
-   "にくい",
+   "がたい",
    "づらい",
-   "がたい"
+   "にくい",
+   "やすい"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
-   "にくい は「難しい」で逆",
+   "がたい も「難しい」",
    "づらい も「難しい」",
-   "がたい も「難しい」"
+   "にくい は「難しい」で逆"
   ],
   "explicacion": {
    "es": "El contraste con 忘れやすい pide 覚えやすい: «fácil de recordar, pero fácil de olvidar».",
@@ -336,17 +336,47 @@
   "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "母に ＿＿ ＿★＿ ＿＿ ＿＿ もらいました。",
   "opciones": [
-   "を",
    "作って",
    "料理",
+   "を",
    "おいしい"
   ],
-  "respuesta": 2,
+  "respuesta": 1,
   "logica_distractores": [],
   "objetivo": "おいしい 料理 を 作って",
   "explicacion": {
    "es": "Orden: おいしい 料理 を 作って. La estrella está en la casilla 2, donde va 「料理」.",
    "en": "Order: おいしい 料理 を 作って. The star is in slot 2, which takes 「料理」."
+  },
+  "etiquetas": [
+   "orden"
+  ],
+  "dificultad": 2,
+  "orden": [
+   3,
+   1,
+   2,
+   0
+  ]
+ },
+ {
+  "id": "n4-bunpou2-0003",
+  "nivel": "N4",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "雨が ＿＿ ＿★＿ ＿＿ ＿＿ 中止です。",
+  "opciones": [
+   "明日の",
+   "試合は",
+   "ば",
+   "降れ"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [],
+  "objetivo": "降れ ば 明日の 試合は",
+  "explicacion": {
+   "es": "Orden: 降れ ば 明日の 試合は. La estrella está en la casilla 2, donde va 「ば」.",
+   "en": "Order: 降れ ば 明日の 試合は. The star is in slot 2, which takes 「ば」."
   },
   "etiquetas": [
    "orden"
@@ -360,48 +390,18 @@
   ]
  },
  {
-  "id": "n4-bunpou2-0003",
-  "nivel": "N4",
-  "tipo": "bunpou2",
-  "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "雨が ＿＿ ＿★＿ ＿＿ ＿＿ 中止です。",
-  "opciones": [
-   "ば",
-   "降れ",
-   "試合は",
-   "明日の"
-  ],
-  "respuesta": 0,
-  "logica_distractores": [],
-  "objetivo": "降れ ば 明日の 試合は",
-  "explicacion": {
-   "es": "Orden: 降れ ば 明日の 試合は. La estrella está en la casilla 2, donde va 「ば」.",
-   "en": "Order: 降れ ば 明日の 試合は. The star is in slot 2, which takes 「ば」."
-  },
-  "etiquetas": [
-   "orden"
-  ],
-  "dificultad": 2,
-  "orden": [
-   1,
-   0,
-   3,
-   2
-  ]
- },
- {
   "id": "n4-bunpou2-0004",
   "nivel": "N4",
   "tipo": "bunpou2",
   "instruccion_ja": "次の文の ＿★＿ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "先生に ＿＿ ＿★＿ ＿＿ ＿＿ いただきました。",
   "opciones": [
-   "を",
+   "難しい",
    "教えて",
-   "文法",
-   "難しい"
+   "を",
+   "文法"
   ],
-  "respuesta": 2,
+  "respuesta": 3,
   "logica_distractores": [],
   "objetivo": "難しい 文法 を 教えて",
   "explicacion": {
@@ -413,9 +413,9 @@
   ],
   "dificultad": 2,
   "orden": [
+   0,
    3,
    2,
-   0,
    1
   ]
  },
@@ -462,14 +462,14 @@
   "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
   "enunciado": "この資料、コピーしておきましょうか。",
   "opciones": [
+   "いいえ、コピーです。",
    "ええ、お願いします。",
-   "ええ、しておきました。",
-   "いいえ、コピーです。"
+   "ええ、しておきました。"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "申し出に過去形で答えている",
-   "意味が通らない"
+   "意味が通らない",
+   "申し出に過去形で答えている"
   ],
   "explicacion": {
    "es": "Es un ofrecimiento: se acepta con お願いします.",
@@ -498,14 +498,14 @@
   "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
   "enunciado": "日本語がお上手ですね。",
   "opciones": [
-   "いいえ、まだまだです。",
+   "そうですね、下手です。",
    "はい、上手です。",
-   "そうですね、下手です。"
+   "いいえ、まだまだです。"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "自分をほめている",
-   "不自然な同意"
+   "不自然な同意",
+   "自分をほめている"
   ],
   "explicacion": {
    "es": "Ante un cumplido, lo natural en japonés es quitarse mérito con まだまだです.",
@@ -570,11 +570,11 @@
   "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
   "enunciado": "明日の会議、何時からでしたっけ。",
   "opciones": [
+   "いいえ、明日です。",
    "たしか十時からです。",
-   "はい、会議です。",
-   "いいえ、明日です。"
+   "はい、会議です。"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "時間を答えていない",
    "時間を答えていない"
@@ -606,14 +606,14 @@
   "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
   "enunciado": "先週の旅行、どうでしたか。",
   "opciones": [
-   "とても楽しかったです。",
+   "来週の予定です。",
    "はい、行きます。",
-   "来週の予定です。"
+   "とても楽しかったです。"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "これから行く言い方",
-   "時期が違う"
+   "時期が違う",
+   "これから行く言い方"
   ],
   "explicacion": {
    "es": "Preguntan por un viaje ya hecho: se contesta en pasado.",
@@ -642,15 +642,15 @@
   "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
   "enunciado": "女の人は これから 何を しますか。",
   "opciones": [
-   "部屋を 片付ける",
+   "友だちに 電話する",
    "買い物に 行く",
-   "料理を 作る",
-   "友だちに 電話する"
+   "部屋を 片付ける",
+   "料理を 作る"
   ],
-  "respuesta": 3,
+  "respuesta": 0,
   "logica_distractores": [
-   "片付けるのは 買い物の あと",
    "買い物は 人数が 決まってから",
+   "片付けるのは 買い物の あと",
    "料理は 最後"
   ],
   "explicacion": {

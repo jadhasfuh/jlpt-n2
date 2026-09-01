@@ -33,12 +33,12 @@
   "enunciado": "彼は約束の時間に（　）現れる。",
   "objetivo": "（　）",
   "opciones": [
+   "しっかり",
    "きっちり",
    "がっかり",
-   "うっかり",
-   "しっかり"
+   "うっかり"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "同じ形の副詞",
    "同じ形の副詞",
@@ -59,12 +59,12 @@
   "enunciado": "大雨のため、試合は（　）された。",
   "objetivo": "（　）",
   "opciones": [
-   "中止",
-   "禁止",
+   "廃止",
    "停止",
-   "廃止"
+   "中止",
+   "禁止"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "「止」を共有",
    "「止」を共有",
@@ -85,12 +85,12 @@
   "enunciado": "彼の話は（　）がなくて、何が言いたいのか分からない。",
   "objetivo": "（　）",
   "opciones": [
-   "まとまり",
-   "つながり",
+   "へだたり",
    "かかわり",
-   "へだたり"
+   "つながり",
+   "まとまり"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "同じ〜り名詞",
    "同じ〜り名詞",
@@ -137,12 +137,12 @@
   "enunciado": "新入社員は（　）した態度で質問に答えていた。",
   "objetivo": "（　）",
   "opciones": [
-   "はきはき",
-   "いきいき",
    "どきどき",
-   "ばらばら"
+   "はきはき",
+   "ばらばら",
+   "いきいき"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "同じ畳語の副詞",
    "同じ畳語の副詞",
@@ -163,12 +163,12 @@
   "enunciado": "先生に注意されて、彼は（　）していた。",
   "objetivo": "（　）",
   "opciones": [
-   "しょんぼり",
    "ゆっくり",
    "はっきり",
+   "しょんぼり",
    "ぴったり"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "同じ〜り副詞",
    "同じ〜り副詞",
@@ -189,12 +189,12 @@
   "enunciado": "その件については、おって連絡します。",
   "objetivo": "おって",
   "opciones": [
-   "すぐに",
    "あとで",
+   "すぐに",
    "直接",
    "必ず"
   ],
-  "respuesta": 1,
+  "respuesta": 0,
   "logica_distractores": [
    "時間の逆",
    "手段であって時期でない",
@@ -241,16 +241,16 @@
   "enunciado": "今年は予算がとぼしい。",
   "objetivo": "とぼしい",
   "opciones": [
-   "多い",
-   "少ない",
    "ちょうどいい",
-   "増えている"
+   "増えている",
+   "少ない",
+   "多い"
   ],
-  "respuesta": 1,
+  "respuesta": 2,
   "logica_distractores": [
-   "程度の尺度: 反対",
    "程度の尺度: 中間",
-   "方向が違う"
+   "方向が違う",
+   "程度の尺度: 反対"
   ],
   "explicacion": {
    "es": "とぼしい = escaso. Los distractores forman una escala de cantidad y sólo «少ない» coincide.",
@@ -267,16 +267,16 @@
   "enunciado": "彼女はたちまち有名になった。",
   "objetivo": "たちまち",
   "opciones": [
-   "だんだん",
-   "あっという間に",
+   "ようやく",
    "なかなか",
-   "ようやく"
+   "だんだん",
+   "あっという間に"
   ],
-  "respuesta": 1,
+  "respuesta": 3,
   "logica_distractores": [
-   "速度が逆",
    "時間がかかる含み",
-   "時間がかかる含み"
+   "時間がかかる含み",
+   "速度が逆"
   ],
   "explicacion": {
    "es": "たちまち = en un abrir y cerrar de ojos. だんだん sería poco a poco, lo contrario.",
@@ -371,15 +371,15 @@
   "enunciado": "そそっかしい",
   "objetivo": "そそっかしい",
   "opciones": [
-   "彼はそそっかしくて、よく忘れ物をする。",
-   "この部屋はそそっかしくて落ち着かない。",
    "彼女はそそっかしい性格で、誰にでも優しい。",
+   "この部屋はそそっかしくて落ち着かない。",
+   "彼はそそっかしくて、よく忘れ物をする。",
    "そそっかしい味の料理は苦手だ。"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "2は騒がしい",
    "3は内容が矛盾",
+   "2は騒がしい",
    "4は共起不可能"
   ],
   "explicacion": {
@@ -397,16 +397,16 @@
   "enunciado": "相次ぐ",
   "objetivo": "相次ぐ",
   "opciones": [
-   "今月に入って事故が相次いで起きている。",
-   "昨日は彼と相次いで食事をした。",
    "相次ぐ道をまっすぐ歩いた。",
-   "彼女は質問に相次いで返事をした。"
+   "彼女は質問に相次いで返事をした。",
+   "昨日は彼と相次いで食事をした。",
+   "今月に入って事故が相次いで起きている。"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
-   "2は一緒に",
    "3は共起不可能",
-   "4はすぐに"
+   "4はすぐに",
+   "2は一緒に"
   ],
   "explicacion": {
    "es": "相次ぐ = sucederse uno tras otro. Necesita varios sucesos del mismo tipo, no dos personas ni un camino.",

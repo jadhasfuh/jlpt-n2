@@ -1,86 +1,252 @@
 [
- {"id":"n1-kadai-0001","nivel":"N1","tipo":"kadai",
-  "instruccion_ja":"問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
-  "enunciado":"女の人はこの後まず何をしますか。",
-  "opciones":["見積もりを取り直す","仕様書を修正する","部長に報告する","業者に連絡する"],
-  "respuesta":1,
-  "logica_distractores":["見積もりは仕様が固まってから","報告は数字が出てから","連絡は修正の後"],
-  "explicacion":{"es":"El presupuesto no se puede rehacer hasta que el pliego refleje el cambio, así que lo primero es corregirlo.",
-                 "en":"The quote can't be redone until the spec reflects the change, so correcting it comes first."},
-  "puntos":["仕様が変わった → 仕様書の修正が先","見積もりは仕様書を送ってから","報告は数字が出そろってから"],
-  "guion":{"intro":"会社で男の人と女の人が話しています。女の人はこの後まず何をしますか。",
-   "turnos":[
-    {"quien":"M","texto":"例の件、先方から仕様の変更が入ったそうですね。"},
-    {"quien":"F","texto":"ええ。見積もりを取り直さないといけません。"},
-    {"quien":"M","texto":"でも、仕様書がまだ前のままでは、業者も出しようがないでしょう。"},
-    {"quien":"F","texto":"あ、たしかに。先に直しておかないと。"},
-    {"quien":"M","texto":"それができたら業者に送って、数字が出てから部長に報告しましょう。"}],
-   "pregunta":"女の人はこの後まず何をしますか。"},
-  "etiquetas":["課題理解"],"dificultad":5},
-
- {"id":"n1-point-0001","nivel":"N1","tipo":"point",
-  "instruccion_ja":"問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
-  "enunciado":"男の人が今回の企画で最も重視したのは何ですか。",
-  "opciones":["費用を抑えること","参加者が意見を言いやすいこと","参加者を増やすこと","時間を短くすること"],
-  "respuesta":1,
-  "logica_distractores":["費用は結果として下がっただけ","人数は増やさないと言っている","時間はむしろ長くなった"],
-  "explicacion":{"es":"Dice que lo primero fue que la gente pudiera hablar; por eso redujo el aforo aunque alargara la sesión.",
-                 "en":"He says the priority was that people could speak; that's why he cut attendance even though it lengthened the session."},
-  "puntos":["人数は絞った → 増やしていない","時間は長くなった → 短縮ではない","発言しやすさを最優先"],
-  "guion":{"intro":"男の人が企画について話しています。男の人が今回の企画で最も重視したのは何ですか。",
-   "turnos":[
-    {"quien":"M","texto":"今回は思い切って参加者を二十名に絞りました。人数を増やせば会は大きく見えますが、それでは黙る人が出ます。時間も予定より三十分長くなりましたが、最後まで全員が一度は発言していました。費用は結果的に下がりましたけれど、そこは狙いではありません。"}],
-   "pregunta":"男の人が今回の企画で最も重視したのは何ですか。"},
-  "etiquetas":["ポイント理解"],"dificultad":5},
-
- {"id":"n1-gaiyou-0001","nivel":"N1","tipo":"gaiyou",
-  "instruccion_ja":"問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
-  "enunciado":"この人は何について話していますか。",
-  "opciones":["失敗の記録を残すことの意味","会議の進め方","新人の教育方法","記録係の選び方"],
-  "respuesta":0,
-  "logica_distractores":["会議は例として出ただけ","教育の話ではない","係の話ではない"],
-  "explicacion":{"es":"Todo el discurso gira en torno a por qué conviene anotar los fallos: sin registro se repiten.",
-                 "en":"The whole talk is about why failures should be written down: without a record they repeat."},
-  "puntos":["うまくいった話は残る","失敗は忘れられる","同じ失敗をくり返す"],
-  "guion":{"intro":"会社で女の人が話しています。",
-   "turnos":[
-    {"quien":"F","texto":"うまくいったことは、放っておいても語り継がれます。問題は、うまくいかなかったことのほうです。誰も進んで書き残そうとしませんし、読み返すのも気が重い。ですが、記録がなければ、二年もすれば同じところで同じようにつまずきます。私たちが残すべきなのは成功例ではなく、どこで判断を誤ったかのほうなのです。"}],
-   "pregunta":"この人は何について話していますか。"},
-  "etiquetas":["概要理解"],"dificultad":5},
-
- {"id":"n1-sokuji-0001","nivel":"N1","tipo":"sokuji",
-  "instruccion_ja":"問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
-  "enunciado":"お忙しいところ恐れ入りますが、少々よろしいでしょうか。",
-  "opciones":["ええ、かまいませんよ。","ええ、恐れ入ります。","いえ、少々です。"],
-  "respuesta":0,
-  "logica_distractores":["謝る側の言葉を返している","答えになっていない"],
-  "explicacion":{"es":"Piden un momento con fórmula de disculpa: se concede con かまいません.",
-                 "en":"They're asking for a moment with an apologetic formula: grant it with かまいません."},
-  "guion":{"intro":"","turnos":[{"quien":"F","texto":"お忙しいところ恐れ入りますが、少々よろしいでしょうか。"}],
-   "pregunta":"","opciones_habladas":true},
-  "etiquetas":["即時応答"],"dificultad":4},
-
- {"id":"n1-sokuji-0002","nivel":"N1","tipo":"sokuji",
-  "instruccion_ja":"問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
-  "enunciado":"この案、私が言うのもなんですが、少し無理があるのでは。",
-  "opciones":["いえ、おっしゃるとおりです。","はい、無理を言いました。","では、私が言いましょう。"],
-  "respuesta":0,
-  "logica_distractores":["無理を言ったのは相手ではない","言う人の話ではない"],
-  "explicacion":{"es":"Señalan con reservas que el plan cojea: se acepta la crítica con おっしゃるとおりです.",
-                 "en":"They hedge a criticism of the plan: you accept it with おっしゃるとおりです."},
-  "guion":{"intro":"","turnos":[{"quien":"M","texto":"この案、私が言うのもなんですが、少し無理があるのでは。"}],
-   "pregunta":"","opciones_habladas":true},
-  "etiquetas":["即時応答"],"dificultad":5},
-
- {"id":"n1-sokuji-0003","nivel":"N1","tipo":"sokuji",
-  "instruccion_ja":"問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
-  "enunciado":"あの件、あれからどうなりましたっけ。",
-  "opciones":["先週、無事に片づきましたよ。","では、片づけておきます。","まだ聞いていないんですか。"],
-  "respuesta":0,
-  "logica_distractores":["これからの話にしている","質問に答えていない"],
-  "explicacion":{"es":"Preguntan por el desenlace de algo pasado: se responde contando cómo acabó.",
-                 "en":"They ask how something already under way turned out: you answer with the outcome."},
-  "guion":{"intro":"","turnos":[{"quien":"F","texto":"あの件、あれからどうなりましたっけ。"}],
-   "pregunta":"","opciones_habladas":true},
-  "etiquetas":["即時応答"],"dificultad":4}
+ {
+  "id": "n1-kadai-0001",
+  "nivel": "N1",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人はこの後まず何をしますか。",
+  "opciones": [
+   "仕様書を修正する",
+   "業者に連絡する",
+   "見積もりを取り直す",
+   "部長に報告する"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "連絡は修正の後",
+   "見積もりは仕様が固まってから",
+   "報告は数字が出てから"
+  ],
+  "explicacion": {
+   "es": "El presupuesto no se puede rehacer hasta que el pliego refleje el cambio, así que lo primero es corregirlo.",
+   "en": "The quote can't be redone until the spec reflects the change, so correcting it comes first."
+  },
+  "puntos": [
+   "仕様が変わった → 仕様書の修正が先",
+   "見積もりは仕様書を送ってから",
+   "報告は数字が出そろってから"
+  ],
+  "guion": {
+   "intro": "会社で男の人と女の人が話しています。女の人はこの後まず何をしますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "例の件、先方から仕様の変更が入ったそうですね。"
+    },
+    {
+     "quien": "F",
+     "texto": "ええ。見積もりを取り直さないといけません。"
+    },
+    {
+     "quien": "M",
+     "texto": "でも、仕様書がまだ前のままでは、業者も出しようがないでしょう。"
+    },
+    {
+     "quien": "F",
+     "texto": "あ、たしかに。先に直しておかないと。"
+    },
+    {
+     "quien": "M",
+     "texto": "それができたら業者に送って、数字が出てから部長に報告しましょう。"
+    }
+   ],
+   "pregunta": "女の人はこの後まず何をしますか。"
+  },
+  "etiquetas": [
+   "課題理解"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n1-point-0001",
+  "nivel": "N1",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人が今回の企画で最も重視したのは何ですか。",
+  "opciones": [
+   "参加者が意見を言いやすいこと",
+   "費用を抑えること",
+   "時間を短くすること",
+   "参加者を増やすこと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "費用は結果として下がっただけ",
+   "時間はむしろ長くなった",
+   "人数は増やさないと言っている"
+  ],
+  "explicacion": {
+   "es": "Dice que lo primero fue que la gente pudiera hablar; por eso redujo el aforo aunque alargara la sesión.",
+   "en": "He says the priority was that people could speak; that's why he cut attendance even though it lengthened the session."
+  },
+  "puntos": [
+   "人数は絞った → 増やしていない",
+   "時間は長くなった → 短縮ではない",
+   "発言しやすさを最優先"
+  ],
+  "guion": {
+   "intro": "男の人が企画について話しています。男の人が今回の企画で最も重視したのは何ですか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "今回は思い切って参加者を二十名に絞りました。人数を増やせば会は大きく見えますが、それでは黙る人が出ます。時間も予定より三十分長くなりましたが、最後まで全員が一度は発言していました。費用は結果的に下がりましたけれど、そこは狙いではありません。"
+    }
+   ],
+   "pregunta": "男の人が今回の企画で最も重視したのは何ですか。"
+  },
+  "etiquetas": [
+   "ポイント理解"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n1-gaiyou-0001",
+  "nivel": "N1",
+  "tipo": "gaiyou",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "この人は何について話していますか。",
+  "opciones": [
+   "失敗の記録を残すことの意味",
+   "会議の進め方",
+   "新人の教育方法",
+   "記録係の選び方"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "会議は例として出ただけ",
+   "教育の話ではない",
+   "係の話ではない"
+  ],
+  "explicacion": {
+   "es": "Todo el discurso gira en torno a por qué conviene anotar los fallos: sin registro se repiten.",
+   "en": "The whole talk is about why failures should be written down: without a record they repeat."
+  },
+  "puntos": [
+   "うまくいった話は残る",
+   "失敗は忘れられる",
+   "同じ失敗をくり返す"
+  ],
+  "guion": {
+   "intro": "会社で女の人が話しています。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "うまくいったことは、放っておいても語り継がれます。問題は、うまくいかなかったことのほうです。誰も進んで書き残そうとしませんし、読み返すのも気が重い。ですが、記録がなければ、二年もすれば同じところで同じようにつまずきます。私たちが残すべきなのは成功例ではなく、どこで判断を誤ったかのほうなのです。"
+    }
+   ],
+   "pregunta": "この人は何について話していますか。"
+  },
+  "etiquetas": [
+   "概要理解"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n1-sokuji-0001",
+  "nivel": "N1",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "お忙しいところ恐れ入りますが、少々よろしいでしょうか。",
+  "opciones": [
+   "ええ、かまいませんよ。",
+   "ええ、恐れ入ります。",
+   "いえ、少々です。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "謝る側の言葉を返している",
+   "答えになっていない"
+  ],
+  "explicacion": {
+   "es": "Piden un momento con fórmula de disculpa: se concede con かまいません.",
+   "en": "They're asking for a moment with an apologetic formula: grant it with かまいません."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "お忙しいところ恐れ入りますが、少々よろしいでしょうか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 4
+ },
+ {
+  "id": "n1-sokuji-0002",
+  "nivel": "N1",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "この案、私が言うのもなんですが、少し無理があるのでは。",
+  "opciones": [
+   "はい、無理を言いました。",
+   "いえ、おっしゃるとおりです。",
+   "では、私が言いましょう。"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "無理を言ったのは相手ではない",
+   "言う人の話ではない"
+  ],
+  "explicacion": {
+   "es": "Señalan con reservas que el plan cojea: se acepta la crítica con おっしゃるとおりです.",
+   "en": "They hedge a criticism of the plan: you accept it with おっしゃるとおりです."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "この案、私が言うのもなんですが、少し無理があるのでは。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 5
+ },
+ {
+  "id": "n1-sokuji-0003",
+  "nivel": "N1",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "あの件、あれからどうなりましたっけ。",
+  "opciones": [
+   "では、片づけておきます。",
+   "まだ聞いていないんですか。",
+   "先週、無事に片づきましたよ。"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "これからの話にしている",
+   "質問に答えていない"
+  ],
+  "explicacion": {
+   "es": "Preguntan por el desenlace de algo pasado: se responde contando cómo acabó.",
+   "en": "They ask how something already under way turned out: you answer with the outcome."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "あの件、あれからどうなりましたっけ。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [
+   "即時応答"
+  ],
+  "dificultad": 4
+ }
 ]
