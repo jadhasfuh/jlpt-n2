@@ -47,14 +47,57 @@ servicio recién creado. Hay que subirlo a mano en
 **Authentication → Rate Limits**. Con 30/hora, treinta personas entrando a la
 vez dejan fuera a la siguiente.
 
-**6. La plantilla.** En Authentication → Email Templates → *Magic Link*, pegar
-el contenido de `docs/correo/otp.html`. Es bilingüe (español primero) porque
-Supabase no sabe en qué idioma está la app cuando manda el correo, y lleva todo
-el estilo en línea porque los clientes de correo tiran las hojas de estilo.
+**6. Las plantillas — en plural.** En Authentication → Emails → Templates hay
+que pegar `docs/correo/otp.html` en **dos** sitios:
+
+- **Confirm signup** — el que recibe quien entra por primera vez
+- **Magic Link** — el de quien ya tiene cuenta
+
+Con una sola no basta, y es un error fácil de cometer: `signInWithOtp` manda la
+de *Confirm signup* cuando el usuario todavía no existe, o sea que es la que ve
+**todo el mundo** al empezar. Si sólo se cambia Magic Link, el primer correo de
+cada persona sigue siendo el de fábrica, en inglés y con un enlace en vez del
+código.
+
+Cambia también el **asunto** de las dos a algo que diga qué hay dentro:
+`Tu código de acceso a jlptest`. El de fábrica («Confirm your email address»)
+es literalmente el asunto que usan la mitad de los correos de phishing.
+
+La plantilla es bilingüe (español primero) porque Supabase no sabe en qué
+idioma está la app cuando manda el correo, y lleva todo el estilo en línea
+porque los clientes de correo tiran las hojas de estilo.
 
 **7. Probarlo de verdad**: entrar en la app con una dirección de Gmail y otra
 de Outlook, y mirar si cae en Recibidos o en Spam. Es la única prueba que
 cuenta.
+
+## Si cae en «no deseado»
+
+Es lo normal las primeras semanas y **no es cosmético**: si el código va a
+spam, la mayoría de la gente no lo busca y sencillamente no puede entrar. Con
+un login por correo, spam es lo mismo que la puerta cerrada.
+
+Cuando el DNS ya está bien —SPF, DKIM, DMARC y los MX de rebote— lo que queda
+es reputación, y la reputación se construye:
+
+- **Antigüedad.** Un dominio comprado esta semana no tiene historial. Hotmail
+  y Outlook son los más duros con eso; Gmail perdona más. Mejora solo en dos o
+  tres semanas de envíos normales.
+- **Forma del correo.** Un mensaje cuyo único contenido es un enlace tiene la
+  silueta exacta de un phishing. Por eso la plantilla pone el código grande y
+  no incluye ningún enlace: además de ser más cómodo en el móvil, es lo que
+  menos se parece a un fraude.
+- **Marcarlo como «no es spam»** en tu propia cuenta y responder al correo una
+  vez. Cuenta más de lo que parece: los filtros aprenden de las interacciones
+  del dominio.
+- **Reenvío en el dominio.** Que `hola@jlptest.org` reciba de verdad (reenviado
+  a tu buzón) ayuda: los filtros desconfían de los remitentes que nunca
+  reciben nada.
+- **DMARC en `p=none`** está bien ahora. Subirlo a `quarantine` antes de tener
+  historial hace más daño que bien.
+
+Lo que **no** hay que hacer: mandarte correos a ti mismo cincuenta veces para
+«calentar» el dominio. Eso lo detectan y penaliza.
 
 ## Los límites, para saber cuándo duele
 

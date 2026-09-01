@@ -1,5 +1,10 @@
 <!-- Plantilla del correo con el código de acceso.
-     Va en Supabase → Authentication → Email Templates → Magic Link.
+
+     Va en DOS sitios de Supabase → Authentication → Emails → Templates:
+       · «Confirm signup» — el que recibe quien entra por primera vez
+       · «Magic Link»     — el de quien ya tiene cuenta
+     Con una sola no basta: la primera vez sale siempre la de Confirm signup,
+     que es justo la que ve todo el mundo al empezar.
 
      Bilingüe a propósito: Supabase no sabe en qué idioma está la app cuando
      manda el correo, así que se ponen los dos, español primero. Es más honesto
@@ -22,7 +27,7 @@
 
         <tr>
           <td style="font-size:15px;color:#b2b6ca;line-height:1.6;padding-bottom:8px;">
-            Tu código para entrar:
+            Has pedido entrar en jlptest. Tu código es:
           </td>
         </tr>
         <tr>
