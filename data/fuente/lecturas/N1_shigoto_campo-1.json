@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shigoto/campo-1",
+ "titulo": "<ruby>耕<rt>たがや</rt></ruby>す<ruby>手<rt>て</rt></ruby>",
+ "cuerpo": "<ruby>祖父<rt>そふ</rt></ruby>は<ruby>農場<rt>のうじょう</rt></ruby>を<ruby>一人<rt>ひとり</rt></ruby>で<ruby>切<rt>き</rt></ruby>り<ruby>盛<rt>も</rt></ruby>りしていました。<ruby>耕作<rt>こうさく</rt></ruby>のできる<ruby>土地<rt>とち</rt></ruby>はそれほど<ruby>広<rt>ひろ</rt></ruby>くありません。<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ろ<em class=\"g\">うと</em><ruby>降<rt>ふ</rt></ruby>る<em class=\"g\">まいと</em>、<ruby>朝<rt>あさ</rt></ruby>の<ruby>五時<rt>ごじ</rt></ruby>には<ruby>畑<rt>はたけ</rt></ruby>に<ruby>出<rt>で</rt></ruby>ます。<ruby>山<rt>やま</rt></ruby>のむこうには<ruby>鉱山<rt>こうざん</rt></ruby>があって、<ruby>採掘<rt>さいくつ</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>に<ruby>移<rt>うつ</rt></ruby>った<ruby>同級生<rt>どうきゅうせい</rt></ruby>も<ruby>何人<rt>なんにん</rt></ruby>かいたそうです。<ruby>林業<rt>りんぎょう</rt></ruby>に<ruby>進<rt>すす</rt></ruby>んだ<ruby>人<rt>ひと</rt></ruby>も、<ruby>酪農<rt>らくのう</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めた<ruby>人<rt>ひと</rt></ruby>もいました。<ruby>農耕<rt>のうこう</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>けたのは、<ruby>祖父<rt>そふ</rt></ruby>のほかに<ruby>数人<rt>すうにん</rt></ruby>だけです。<ruby>儲<rt>もう</rt></ruby>かるからではありません。<ruby>土<rt>つち</rt></ruby>をさわっていないと<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>かないのだと<ruby>言<rt>い</rt></ruby>っていました。<ruby>夏<rt>なつ</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>、<ruby>畑<rt>はたけ</rt></ruby>のあいだを<ruby>歩<rt>ある</rt></ruby>くと<ruby>土<rt>つち</rt></ruby>のにおいがします。あの<ruby>手<rt>て</rt></ruby>のかたさを、いまでもはっきり<ruby>覚<rt>おぼ</rt></ruby>えています。",
+ "traduccion": "Mi abuelo llevaba la granja él solo. La tierra cultivable no era demasiado extensa. Lloviera o no lloviera, a las cinco de la mañana estaba en el campo. Al otro lado del monte había una mina, y al parecer varios compañeros suyos de clase se pasaron al trabajo de extracción. También hubo quien se metió en la explotación forestal y quien empezó con vacas de leche. Los que siguieron labrando fueron, además de mi abuelo, apenas unos pocos. No porque diera dinero. Decía que si no tocaba la tierra no se quedaba tranquilo. Las mañanas de verano, andando entre los surcos, huele a tierra. Todavía recuerdo con claridad la dureza de aquellas manos.",
+ "preguntas": [
+  {
+   "p": "<ruby>祖父<rt>そふ</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>、どうしていましたか。",
+   "opciones": [
+    "<ruby>休<rt>やす</rt></ruby>んでいた",
+    "<ruby>降<rt>ふ</rt></ruby>っても<ruby>降<rt>ふ</rt></ruby>らなくても<ruby>五時<rt>ごじ</rt></ruby>には<ruby>畑<rt>はたけ</rt></ruby>に<ruby>出<rt>で</rt></ruby>た",
+    "<ruby>鉱山<rt>こうざん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った",
+    "<ruby>林業<rt>りんぎょう</rt></ruby>をしていた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>祖父<rt>そふ</rt></ruby>が<ruby>農耕<rt>のうこう</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>けた<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>儲<rt>もう</rt></ruby>かるから",
+    "<ruby>土<rt>つち</rt></ruby>をさわっていないと<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>かないから",
+    "<ruby>土地<rt>とち</rt></ruby>が<ruby>広<rt>ひろ</rt></ruby>いから",
+    "ほかに<ruby>仕事<rt>しごと</rt></ruby>がないから"
+   ],
+   "correcta": 1
+  }
+ ]
+}
