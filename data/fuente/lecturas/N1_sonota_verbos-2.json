@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/verbos-2",
+ "titulo": "<ruby>懐<rt>なつ</rt></ruby>いた<ruby>犬<rt>いぬ</rt></ruby>",
+ "cuerpo": "<ruby>保護<rt>ほご</rt></ruby>された<ruby>犬<rt>いぬ</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>取<rt>と</rt></ruby>って、<ruby>一年<rt>いちねん</rt></ruby>が<ruby>過<rt>す</rt></ruby>ぎました。<ruby>来<rt>き</rt></ruby>たばかりのころは<ruby>怯<rt>おび</rt></ruby>えて、<ruby>隅<rt>すみ</rt></ruby>で<ruby>体<rt>からだ</rt></ruby>を<ruby>震<rt>ふる</rt></ruby>わせているだけでした。<ruby>手<rt>て</rt></ruby>を<ruby>出<rt>だ</rt></ruby>すと<ruby>歪<rt>ゆが</rt></ruby>んだ<ruby>顔<rt>かお</rt></ruby>をして<ruby>離<rt>はな</rt></ruby>れていくのです。<ruby>弱<rt>よわ</rt></ruby>っている<ruby>相手<rt>あいて</rt></ruby>に<ruby>急<rt>いそ</rt></ruby>いで<ruby>近<rt>ちか</rt></ruby>づいても<ruby>害<rt>がい</rt></ruby>するだけだと<ruby>教<rt>おそ</rt></ruby>わり、<ruby>食事<rt>しょくじ</rt></ruby>を<ruby>置<rt>お</rt></ruby>いて<ruby>離<rt>はな</rt></ruby>れる<ruby>日々<rt>ひび</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>きました。とりわけ<ruby>時間<rt>じかん</rt></ruby>がかかったのは、<ruby>名前<rt>なまえ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>んで<ruby>振<rt>ふ</rt></ruby>り<ruby>向<rt>む</rt></ruby>くようになるまでです。<ruby>半年<rt>はんとし</rt></ruby>かかって、ようやく<ruby>手<rt>て</rt></ruby>のひらに<ruby>鼻<rt>はな</rt></ruby>をつけてくれました。そこ<em class=\"g\">に至る</em>までの<ruby>一日<rt>いちにち</rt></ruby><ruby>一日<rt>いちにち</rt></ruby>は、<ruby>数<rt>かぞ</rt></ruby>えられるようなものではありません。いまでは<ruby>玄関<rt>げんかん</rt></ruby>で<ruby>待<rt>ま</rt></ruby>ち、<ruby>散歩<rt>さんぽ</rt></ruby>のときには<ruby>弾<rt>はず</rt></ruby>むように<ruby>歩<rt>ある</rt></ruby>きます。<ruby>養<rt>やしな</rt></ruby>うというより、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>暮<rt>く</rt></ruby>らしを<ruby>改<rt>あらた</rt></ruby>めてもらった<ruby>気<rt>き</rt></ruby>がしています。<ruby>値<rt>あたい</rt></ruby>するかどうかを<ruby>考<rt>かんが</rt></ruby>えずに<ruby>待<rt>ま</rt></ruby>てたのは、この<ruby>犬<rt>いぬ</rt></ruby>のおかげです。",
+ "traduccion": "Ha pasado un año desde que acogí a un perro rescatado. Al principio estaba asustado y se limitaba a temblar en un rincón. Si le tendías la mano, torcía el gesto y se apartaba. Me enseñaron que acercarse deprisa a alguien que está débil solo le hace daño, así que pasé días dejándole la comida y alejándome. Lo que más tiempo llevó fue que se girara al oír su nombre. Tardó medio año en llegar a acercarme el hocico a la palma de la mano. Los días que hubo hasta llegar ahí no son de los que se pueden contar. Ahora me espera en la entrada y, cuando salimos a pasear, camina dando saltos. Más que criarlo, siento que él me ha hecho corregir mi manera de vivir. Si pude esperar sin calcular si merecía la pena, fue gracias a este perro.",
+ "preguntas": [
+  {
+   "p": "<ruby>来<rt>き</rt></ruby>たばかりのころ、<ruby>犬<rt>いぬ</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "すぐに<ruby>懐<rt>なつ</rt></ruby>いた",
+    "<ruby>怯<rt>おび</rt></ruby>えて<ruby>隅<rt>すみ</rt></ruby>で<ruby>震<rt>ふる</rt></ruby>えていた",
+    "よく<ruby>食<rt>た</rt></ruby>べた",
+    "<ruby>散歩<rt>さんぽ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたがった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "いちばん<ruby>時間<rt>じかん</rt></ruby>がかかったのは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>食事<rt>しょくじ</rt></ruby>をとること",
+    "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>んで<ruby>振<rt>ふ</rt></ruby>り<ruby>向<rt>む</rt></ruby>くようになること",
+    "<ruby>散歩<rt>さんぽ</rt></ruby>に<ruby>行<rt>い</rt></ruby>くこと",
+    "<ruby>玄関<rt>げんかん</rt></ruby>で<ruby>待<rt>ま</rt></ruby>つこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

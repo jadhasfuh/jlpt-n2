@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/verbos-1",
+ "titulo": "<ruby>記録<rt>きろく</rt></ruby>に<ruby>挑<rt>いど</rt></ruby>む",
+ "cuerpo": "<ruby>陸上<rt>りくじょう</rt></ruby><ruby>部<rt>ぶ</rt></ruby>の<ruby>後輩<rt>こうはい</rt></ruby>が、<ruby>校内<rt>こうない</rt></ruby>の<ruby>記録<rt>きろく</rt></ruby>を<ruby>覆<rt>くつがえ</rt></ruby>そうと<ruby>練習<rt>れんしゅう</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>けています。<ruby>夏<rt>なつ</rt></ruby>の<ruby>合宿<rt>がっしゅく</rt></ruby>では<ruby>暑<rt>あつ</rt></ruby>さでばてる<ruby>日<rt>ひ</rt></ruby>もありました。<ruby>肩<rt>かた</rt></ruby>が<ruby>凝<rt>こ</rt></ruby>って<ruby>動<rt>うご</rt></ruby>かなくなり、まごついていた<ruby>時期<rt>じき</rt></ruby>もあります。<ruby>一日<rt>いちにち</rt></ruby><em class=\"g\">たりとも</em><ruby>休<rt>やす</rt></ruby>まないと<ruby>決<rt>き</rt></ruby>めていたのが、かえって<ruby>体<rt>からだ</rt></ruby>をこわす<ruby>原因<rt>げんいん</rt></ruby>になりかけたのです。<ruby>監督<rt>かんとく</rt></ruby>が<ruby>練習<rt>れんしゅう</rt></ruby>を<ruby>遮<rt>さえぎ</rt></ruby>って、<ruby>三日<rt>みっか</rt></ruby><ruby>休<rt>やす</rt></ruby>ませました。おだてるでもなく、いたわるでもなく、ただ<ruby>予定<rt>よてい</rt></ruby>を<ruby>組<rt>く</rt></ruby>みなおしたのです。<ruby>足<rt>あし</rt></ruby>の<ruby>痛<rt>いた</rt></ruby>みがぼやけて<ruby>消<rt>き</rt></ruby>えるまで<ruby>待<rt>ま</rt></ruby>ってから、また<ruby>走<rt>はし</rt></ruby>りはじめました。<ruby>記録<rt>きろく</rt></ruby>に<ruby>及<rt>およ</rt></ruby>ばなかった<ruby>日<rt>ひ</rt></ruby>も、とぎれずに<ruby>続<rt>つづ</rt></ruby>けています。<ruby>他<rt>ほか</rt></ruby>の<ruby>部<rt>ぶ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>が<ruby>絡<rt>から</rt></ruby>んできても<ruby>相手<rt>あいて</rt></ruby>にせず、やりとげることだけを<ruby>見<rt>み</rt></ruby>ているようです。",
+ "traduccion": "Un compañero más joven del club de atletismo sigue entrenando para batir el récord del centro. En el campamento de verano hubo días en que quedó agotado por el calor. También hubo una época en que se le agarrotaron los hombros y andaba desorientado. Se había prometido no descansar ni un solo día, y aquello estuvo a punto de acabar destrozándole el cuerpo. El entrenador cortó el entrenamiento y le hizo descansar tres días. Sin adularlo ni consolarlo: simplemente rehízo la planificación. Esperó a que el dolor de la pierna se difuminara y desapareciera, y volvió a correr. Incluso los días en que no llega al récord, sigue sin interrumpirse. Aunque chicos de otros clubes se metan con él, no les hace caso: parece que solo mira a terminar lo que empezó.",
+ "preguntas": [
+  {
+   "p": "<ruby>監督<rt>かんとく</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "おだてた",
+    "<ruby>練習<rt>れんしゅう</rt></ruby>を<ruby>遮<rt>さえぎ</rt></ruby>って<ruby>三日<rt>みっか</rt></ruby><ruby>休<rt>やす</rt></ruby>ませた",
+    "<ruby>記録<rt>きろく</rt></ruby>を<ruby>変<rt>か</rt></ruby>えた",
+    "<ruby>何<rt>なに</rt></ruby>もしなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>後輩<rt>こうはい</rt></ruby>が<ruby>見<rt>み</rt></ruby>ているのは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>他<rt>ほか</rt></ruby>の<ruby>部<rt>ぶ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>",
+    "やりとげること",
+    "<ruby>監督<rt>かんとく</rt></ruby>の<ruby>評価<rt>ひょうか</rt></ruby>",
+    "<ruby>夏<rt>なつ</rt></ruby>の<ruby>合宿<rt>がっしゅく</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}
