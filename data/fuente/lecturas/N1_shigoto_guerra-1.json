@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shigoto/guerra-1",
+ "titulo": "<ruby>祖父<rt>そふ</rt></ruby>が<ruby>話<rt>はな</rt></ruby>さなかったこと",
+ "cuerpo": "<ruby>祖父<rt>そふ</rt></ruby>は<ruby>戦争<rt>せんそう</rt></ruby>のことをほとんど<ruby>話<rt>はな</rt></ruby>しませんでした。<ruby>軍事<rt>ぐんじ</rt></ruby><ruby>教練<rt>きょうれん</rt></ruby>を<ruby>受<rt>う</rt></ruby>けた<ruby>年<rt>とし</rt></ruby>に<ruby>終戦<rt>しゅうせん</rt></ruby>を<ruby>迎<rt>むか</rt></ruby>えたと、<ruby>一度<rt>いちど</rt></ruby>だけ<ruby>短<rt>みじか</rt></ruby>く<ruby>聞<rt>き</rt></ruby>いたことがあります。<ruby>作戦<rt>さくせん</rt></ruby>も<ruby>戦術<rt>せんじゅつ</rt></ruby>も<ruby>知<rt>し</rt></ruby>らないまま<ruby>訓練<rt>くんれん</rt></ruby>させられ、<ruby>守備<rt>しゅび</rt></ruby>の<ruby>意味<rt>いみ</rt></ruby>も<ruby>分<rt>わ</rt></ruby>からずに<ruby>並<rt>なら</rt></ruby>ばされていたそうです。<ruby>勝利<rt>しょうり</rt></ruby>や<ruby>敗戦<rt>はいせん</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うのを<ruby>嫌<rt>きら</rt></ruby>っていました。<ruby>原爆<rt>げんばく</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>が<ruby>出<rt>で</rt></ruby>ると、<ruby>黙<rt>だま</rt></ruby>って<ruby>席<rt>せき</rt></ruby>を<ruby>立<rt>た</rt></ruby>ちます。<ruby>侵略<rt>しんりゃく</rt></ruby>も<ruby>征服<rt>せいふく</rt></ruby>も、<ruby>教科書<rt>きょうかしょ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>ではありません。<ruby>誰<rt>だれ</rt></ruby>かの<ruby>暮<rt>く</rt></ruby>らしが<ruby>襲<rt>おそ</rt></ruby>われたということです。<ruby>円満<rt>えんまん</rt></ruby>に<ruby>年<rt>とし</rt></ruby>を<ruby>取<rt>と</rt></ruby>ったように<ruby>見<rt>み</rt></ruby>えて、<ruby>内<rt>うち</rt></ruby>には<ruby>話<rt>はな</rt></ruby>せないものを<ruby>抱<rt>かか</rt></ruby>えていたのでしょう。<ruby>休戦<rt>きゅうせん</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>くことを<ruby>願<rt>ねが</rt></ruby>っ<em class=\"g\">てやまない</em>と、<ruby>晩年<rt>ばんねん</rt></ruby>に<ruby>一言<rt>ひとこと</rt></ruby>だけ<ruby>書<rt>か</rt></ruby>き<ruby>残<rt>のこ</rt></ruby>していました。",
+ "traduccion": "Mi abuelo casi nunca hablaba de la guerra. Una sola vez le oí decir, brevemente, que la guerra terminó el año en que le tocó la instrucción militar. Al parecer los entrenaban sin saber ni la estrategia ni las tácticas, y los ponían en fila sin entender qué significaba defender. Detestaba usar las palabras «victoria» o «derrota». Si salía el tema de la bomba atómica, se levantaba de la mesa en silencio. Invasión y conquista no son palabras de un libro de texto. Significan que la vida de alguien fue atacada. Aunque pareciera que había envejecido en paz, por dentro debía de cargar con algo que no podía contar. «No dejo de desear que la tregua siga»: eso fue lo único que dejó escrito en sus últimos años.",
+ "preguntas": [
+  {
+   "p": "<ruby>祖父<rt>そふ</rt></ruby>は<ruby>原爆<rt>げんばく</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>が<ruby>出<rt>で</rt></ruby>ると、どうしましたか。",
+   "opciones": [
+    "<ruby>説明<rt>せつめい</rt></ruby>した",
+    "<ruby>黙<rt>だま</rt></ruby>って<ruby>席<rt>せき</rt></ruby>を<ruby>立<rt>た</rt></ruby>った",
+    "<ruby>怒<rt>おこ</rt></ruby>った",
+    "<ruby>泣<rt>な</rt></ruby>いた"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>晩年<rt>ばんねん</rt></ruby>に<ruby>書<rt>か</rt></ruby>き<ruby>残<rt>のこ</rt></ruby>したのは、どんなことですか。",
+   "opciones": [
+    "<ruby>戦争<rt>せんそう</rt></ruby>の<ruby>記録<rt>きろく</rt></ruby>",
+    "<ruby>休戦<rt>きゅうせん</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>くことを<ruby>願<rt>ねが</rt></ruby>う<ruby>一言<rt>ひとこと</rt></ruby>",
+    "<ruby>家族<rt>かぞく</rt></ruby>への<ruby>手紙<rt>てがみ</rt></ruby>",
+    "<ruby>作戦<rt>さくせん</rt></ruby>の<ruby>説明<rt>せつめい</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ]
+}

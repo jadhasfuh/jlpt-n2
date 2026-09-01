@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shigoto/ley-1",
+ "titulo": "<ruby>証拠<rt>しょうこ</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>",
+ "cuerpo": "<ruby>裁判<rt>さいばん</rt></ruby>の<ruby>傍聴<rt>ぼうちょう</rt></ruby>にはじめて<ruby>行<rt>い</rt></ruby>ったのは、<ruby>大学<rt>だいがく</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>でした。<ruby>殺人<rt>さつじん</rt></ruby>のような<ruby>重<rt>おも</rt></ruby>い<ruby>事件<rt>じけん</rt></ruby>ではなく、<ruby>規約<rt>きやく</rt></ruby>をめぐる<ruby>争<rt>あらそ</rt></ruby>いです。<ruby>証言<rt>しょうげん</rt></ruby>する<ruby>人<rt>ひと</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>が<ruby>小<rt>ちい</rt></ruby>さくて、<ruby>何度<rt>なんど</rt></ruby>も<ruby>言<rt>い</rt></ruby>い<ruby>直<rt>なお</rt></ruby>すよう<ruby>求<rt>もと</rt></ruby>められていました。<ruby>推理<rt>すいり</rt></ruby><ruby>小説<rt>しょうせつ</rt></ruby>のような<ruby>場面<rt>ばめん</rt></ruby>は<ruby>一度<rt>いちど</rt></ruby>もありません。<ruby>証拠<rt>しょうこ</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つずつ<ruby>並<rt>なら</rt></ruby>べ、<ruby>記名<rt>きめい</rt></ruby>した<ruby>書類<rt>しょるい</rt></ruby>を<ruby>確<rt>たし</rt></ruby>かめる。<ruby>正義<rt>せいぎ</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>が<ruby>出<rt>で</rt></ruby>てくることもありませんでした。それでも、<ruby>罰<rt>ばつ</rt></ruby>を<ruby>与<rt>あた</rt></ruby>えるかどうかを<ruby>人<rt>ひと</rt></ruby>が<ruby>人<rt>ひと</rt></ruby>に<ruby>決<rt>き</rt></ruby>める<ruby>場<rt>ば</rt></ruby>です。<ruby>強制<rt>きょうせい</rt></ruby>される<ruby>側<rt>がわ</rt></ruby>の<ruby>顔<rt>かお</rt></ruby>を<ruby>見<rt>み</rt></ruby>ていると、<ruby>緊張<rt>きんちょう</rt></ruby><em class=\"g\">を禁じ得ない</em>ものがありました。<ruby>禁<rt>きん</rt></ruby>じられていることを<ruby>犯<rt>おか</rt></ruby>したかどうかだけが<ruby>問<rt>と</rt></ruby>われる。その<ruby>単純<rt>たんじゅん</rt></ruby>さこそが<ruby>怖<rt>こわ</rt></ruby>いのだと、<ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>で<ruby>考<rt>かんが</rt></ruby>えていました。",
+ "traduccion": "La primera vez que asistí a un juicio como público fue en una clase de la universidad. No era un caso grave como un homicidio, sino una disputa sobre un reglamento. El testigo hablaba tan bajo que le pidieron repetir varias veces. No hubo ni una escena de novela de detectives. Se alinean las pruebas una a una y se comprueban los documentos firmados. Tampoco apareció en ningún momento la palabra «justicia». Y aun así, es un lugar donde unas personas deciden si castigar a otra. Mirando la cara de quien iba a quedar obligado, no podía evitar sentir la tensión. Solo se pregunta si se hizo o no lo que está prohibido. De vuelta a casa pensaba que es justamente esa simpleza lo que da miedo.",
+ "preguntas": [
+  {
+   "p": "この<ruby>裁判<rt>さいばん</rt></ruby>はどんな<ruby>事件<rt>じけん</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>殺人<rt>さつじん</rt></ruby>",
+    "<ruby>規約<rt>きやく</rt></ruby>をめぐる<ruby>争<rt>あらそ</rt></ruby>い",
+    "<ruby>特許<rt>とっきょ</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>",
+    "<ruby>独裁<rt>どくさい</rt></ruby>の<ruby>事件<rt>じけん</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>怖<rt>こわ</rt></ruby>いと<ruby>感<rt>かん</rt></ruby>じたのは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>証言<rt>しょうげん</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>が<ruby>小<rt>ちい</rt></ruby>さいこと",
+    "<ruby>禁<rt>きん</rt></ruby>じられたことを<ruby>犯<rt>おか</rt></ruby>したかだけが<ruby>問<rt>と</rt></ruby>われる<ruby>単純<rt>たんじゅん</rt></ruby>さ",
+    "<ruby>正義<rt>せいぎ</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>",
+    "<ruby>書類<rt>しょるい</rt></ruby>の<ruby>多<rt>おお</rt></ruby>さ"
+   ],
+   "correcta": 1
+  }
+ ]
+}

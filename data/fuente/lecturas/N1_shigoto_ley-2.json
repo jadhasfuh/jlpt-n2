@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/shigoto/ley-2",
+ "titulo": "<ruby>無断<rt>むだん</rt></ruby>で<ruby>使<rt>つか</rt></ruby>われた<ruby>絵<rt>え</rt></ruby>",
+ "cuerpo": "<ruby>知<rt>し</rt></ruby>り<ruby>合<rt>あ</rt></ruby>いの<ruby>画家<rt>がか</rt></ruby>の<ruby>絵<rt>え</rt></ruby>が、<ruby>無断<rt>むだん</rt></ruby>で<ruby>広告<rt>こうこく</rt></ruby>に<ruby>使<rt>つか</rt></ruby>われていました。<ruby>本人<rt>ほんにん</rt></ruby>は<ruby>美術<rt>びじゅつ</rt></ruby>の<ruby>世界<rt>せかい</rt></ruby>に<ruby>長<rt>なが</rt></ruby>くいますが、<ruby>法学<rt>ほうがく</rt></ruby>のことはまるで<ruby>分<rt>わ</rt></ruby>かりません。<ruby>周<rt>まわ</rt></ruby>りの<ruby>心配<rt>しんぱい</rt></ruby><em class=\"g\">をよそに</em>、はじめは<ruby>放<rt>ほう</rt></ruby>っておこうとしていました。「<ruby>描<rt>か</rt></ruby>き<ruby>続<rt>つづ</rt></ruby>けることができれば、ただそれ<em class=\"g\">のみだ</em>」と<ruby>言<rt>い</rt></ruby>うのです。けれども<ruby>立法<rt>りっぽう</rt></ruby>の<ruby>目的<rt>もくてき</rt></ruby>は、まさにこういう<ruby>人<rt>ひと</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ることでしょう。<ruby>知人<rt>ちじん</rt></ruby>が<ruby>法廷<rt>ほうてい</rt></ruby>まで<ruby>付<rt>つ</rt></ruby>き<ruby>添<rt>そ</rt></ruby>い、<ruby>用法<rt>ようほう</rt></ruby>の<ruby>記録<rt>きろく</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めました。<ruby>結果<rt>けっか</rt></ruby>として<ruby>相手<rt>あいて</rt></ruby>は<ruby>取<rt>と</rt></ruby>り<ruby>下<rt>さ</rt></ruby>げ、<ruby>使用料<rt>しようりょう</rt></ruby>が<ruby>支払<rt>しはら</rt></ruby>われました。<ruby>略奪<rt>りゃくだつ</rt></ruby>という<ruby>強<rt>つよ</rt></ruby>い<ruby>言葉<rt>ことば</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>もいましたが、<ruby>画家<rt>がか</rt></ruby><ruby>本人<rt>ほんにん</rt></ruby>は<ruby>最後<rt>さいご</rt></ruby>まで<ruby>静<rt>しず</rt></ruby>かでした。<ruby>絵<rt>え</rt></ruby>が<ruby>戻<rt>もど</rt></ruby>ってきたわけではありません。それでも、<ruby>描<rt>か</rt></ruby>く<ruby>時間<rt>じかん</rt></ruby>が<ruby>守<rt>まも</rt></ruby>られたのなら<ruby>十分<rt>じゅうぶん</rt></ruby>なのだと<ruby>言<rt>い</rt></ruby>っていました。",
+ "traduccion": "Un cuadro de un pintor conocido mío apareció usado en un anuncio sin permiso. Él lleva mucho tiempo en el mundo del arte, pero de derecho no entiende absolutamente nada. Ignorando la preocupación de los demás, al principio quería dejarlo estar. Decía: «si puedo seguir pintando, con eso basta». Pero el propósito de legislar es precisamente proteger a gente así. Un conocido lo acompañó hasta el juzgado y reunió el registro de los usos. El resultado fue que la otra parte retiró el anuncio y pagó por el uso. Hubo quien usó una palabra tan fuerte como «expolio», pero el pintor estuvo tranquilo hasta el final. No es que le devolvieran el cuadro. Aun así decía que, si se había protegido su tiempo para pintar, con eso era suficiente.",
+ "preguntas": [
+  {
+   "p": "<ruby>画家<rt>がか</rt></ruby>は、はじめどうしようとしていましたか。",
+   "opciones": [
+    "すぐに<ruby>訴<rt>うった</rt></ruby>えた",
+    "<ruby>放<rt>ほう</rt></ruby>っておこうとしていた",
+    "<ruby>広告<rt>こうこく</rt></ruby><ruby>会社<rt>がいしゃ</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>した",
+    "<ruby>絵<rt>え</rt></ruby>を<ruby>描<rt>か</rt></ruby>き<ruby>直<rt>なお</rt></ruby>した"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>結果<rt>けっか</rt></ruby>はどうなりましたか。",
+   "opciones": [
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>変<rt>か</rt></ruby>わらなかった",
+    "<ruby>相手<rt>あいて</rt></ruby>が<ruby>取<rt>と</rt></ruby>り<ruby>下<rt>さ</rt></ruby>げ、<ruby>使用料<rt>しようりょう</rt></ruby>が<ruby>支払<rt>しはら</rt></ruby>われた",
+    "<ruby>絵<rt>え</rt></ruby>が<ruby>戻<rt>もど</rt></ruby>ってきた",
+    "<ruby>裁判<rt>さいばん</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>いている"
+   ],
+   "correcta": 1
+  }
+ ]
+}
