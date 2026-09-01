@@ -1,0 +1,63 @@
+<!-- Plantilla del correo con el código de acceso.
+     Va en Supabase → Authentication → Email Templates → Magic Link.
+
+     Bilingüe a propósito: Supabase no sabe en qué idioma está la app cuando
+     manda el correo, así que se ponen los dos, español primero. Es más honesto
+     que adivinar y más corto que montar dos plantillas.
+
+     Todo el estilo va en línea: los clientes de correo tiran las hojas de
+     estilo, y Outlook además ignora casi todo lo que no sea una tabla. -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+       style="background:#161826;padding:32px 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <tr>
+    <td align="center">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+             style="max-width:420px;background:#1d1f30;border-radius:16px;padding:32px 28px;">
+
+        <tr>
+          <td style="font-size:20px;font-weight:600;color:#e9e9ed;letter-spacing:-.01em;padding-bottom:24px;">
+            jlp<span style="color:#9184d9;">test</span>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="font-size:15px;color:#b2b6ca;line-height:1.6;padding-bottom:8px;">
+            Tu código para entrar:
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-bottom:20px;">
+            <div style="font-size:34px;font-weight:600;letter-spacing:.22em;color:#e9e9ed;
+                        background:#161826;border-radius:12px;padding:18px 12px;text-align:center;
+                        font-family:ui-monospace,SFMono-Regular,Menlo,monospace;">
+              {{ .Token }}
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="font-size:13.5px;color:#9397ab;line-height:1.6;padding-bottom:18px;">
+            Caduca en una hora. Si no has sido tú, puedes ignorar este correo:
+            sin el código nadie entra en tu cuenta.
+          </td>
+        </tr>
+
+        <tr>
+          <td style="border-top:1px solid #2b2741;padding-top:18px;font-size:13px;color:#75798c;line-height:1.6;">
+            <strong style="color:#9397ab;font-weight:500;">In English —</strong>
+            your sign-in code is above. It expires in one hour. If you didn't
+            ask for it, you can ignore this email: nobody gets into your
+            account without the code.
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding-top:22px;font-size:12px;color:#75798c;">
+            jlptest · <a href="https://jlptest.org" style="color:#9184d9;text-decoration:none;">jlptest.org</a>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
