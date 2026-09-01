@@ -12,7 +12,7 @@ export function generateStaticParams() {
 
 export default async function Pagina({ params }: { params: Promise<{ nivel: string; seccion: string }> }) {
   const { nivel, seccion } = await params;
-  if (!(await puedeVer(seccion))) redirect("/suscripcion");
+  if (!(await puedeVer(seccion))) redirect("/suscripcion?desde=contenido");
   const s = seccionCurso(nivel, seccion);
   if (!s) notFound();
   const gram = gramaticas(s.unidades.flatMap((m) => unidad(m.id)?.gramatica ?? []));

@@ -7,6 +7,7 @@ import {
 import { useAjustes } from "./Ajustes";
 import { JpEnLinea } from "./Jp";
 import { AyudaInstruccion } from "./AyudaInstruccion";
+import { MuroDePago } from "./MuroDePago";
 import { callar, decir } from "@/lib/voz";
 import { IcBien, IcCerrar, IcDerecha, IcReproducir } from "./Iconos";
 
@@ -142,12 +143,7 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
         </div>
         <div className="escena-centro">
           {sinAcceso ? (
-            <>
-              <p style={{ fontSize: 16 }}>{t("ex.hacefaltaCuenta")}</p>
-              <a className="btn primario" href="/suscripcion" style={{ marginTop: 10 }}>
-                {t("ex.verSuscripcion")} <IcDerecha size={15} />
-              </a>
-            </>
+            <MuroDePago que="examen" cerrar={cerrar} />
           ) : (
             <p>{t("ex.sinPreguntas")}</p>
           )}

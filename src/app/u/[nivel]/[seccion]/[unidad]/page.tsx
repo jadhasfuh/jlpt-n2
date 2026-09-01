@@ -11,7 +11,7 @@ export default async function Pagina(
   { params }: { params: Promise<{ nivel: string; seccion: string; unidad: string }> },
 ) {
   const { nivel, seccion, unidad: parte } = await params;
-  if (!(await puedeVer(seccion))) redirect("/suscripcion");
+  if (!(await puedeVer(seccion))) redirect("/suscripcion?desde=contenido");
   const u = unidad(`${nivel}/${seccion}/${parte}`);
   if (!u) notFound();
   const { siguiente, indice, total } = vecinas(u.id);
