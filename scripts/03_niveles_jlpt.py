@@ -29,6 +29,11 @@ for n in NIVELES:
     print(f"  {n}: {len(listas[n][0])} filas")
 
 vocab = json.load(open("data/build/vocab_raw.json", encoding="utf-8"))
+# Este script lee y escribe el mismo fichero, así que lo primero es tirar lo
+# que importó él en pasadas anteriores (id >= ID_N1). Sin esto, relanzarlo sin
+# repetir 01 y 07 antes hace que el pool crezca solo y que las palabras ya
+# importadas bloqueen, como duplicados, a las que tocaba rescatar.
+vocab = [r for r in vocab if r["id"] < ID_N1]
 print(f"\npool de partida: {len(vocab)}")
 
 def nivel_de(kana, kanji):
@@ -42,9 +47,38 @@ def nivel_de(kana, kanji):
 def limpio(s):
     return re.sub(r"^（[^）]*）\s*", "", s or "").replace("~", "").replace("～", "").strip()
 
+# El catálogo publicado manda sobre el nivel de lo que ya está dentro.
+#
+# Sin esto, cada pasada puede mover una palabra de nivel, y mover una palabra
+# de nivel la mueve de unidad. Las unidades no son un detalle interno: las
+# lecturas se escriben contra el vocabulario de su unidad, y el progreso de
+# cada usuario guarda ids de unidad. Recomponerlas silenciosamente rompe las
+# dos cosas.
+PUBLICADO, PUBLICADO_ID = {}, {}
+_dist = pathlib.Path("data/fuente/vocabulario_publicado.json")
+if _dist.exists():
+    for _p in json.loads(_dist.read_text(encoding="utf-8")):
+        # Lo que manda es el ID, no la escritura. El catálogo publicado trae
+        # la misma escritura en dos niveles —数 está como N3 y como N5, dos
+        # palabras con lecturas distintas— y un único mapa por escritura no
+        # puede acertar con las dos: le colgaba N3 a la N5 y la lectura de
+        # N5/jikan/cantidad-1 se quedaba con un kanji por encima de su nivel.
+        PUBLICADO_ID[_p["id"]] = _p["jlpt"]
+        # Por escritura sólo para lo que se importa, que aún no tiene id. Ante
+        # un empate gana el nivel más fácil, el criterio del resto del archivo.
+        _k = _p.get("escritura") or _p.get("kana")
+        if _k:
+            _c = limpio(_k)
+            if NIVELES.index(_p["jlpt"]) <= NIVELES.index(PUBLICADO.get(_c, "N1")):
+                PUBLICADO[_c] = _p["jlpt"]
+
 # --- 1) etiquetar lo que ya tenemos ---
 sin_match = 0
 for r in vocab:
+    ya_publicado = PUBLICADO_ID.get(r["id"]) or PUBLICADO.get(limpio(r.get("kanji") or r.get("kana")))
+    if ya_publicado:
+        r["jlpt"] = ya_publicado
+        continue
     n = nivel_de(limpio(r["kana"]), limpio(r["kanji"]))
     if n:
         r["jlpt"] = n
@@ -52,23 +86,68 @@ for r in vocab:
         r["jlpt"] = r.get("jlpt", "N2")   # partículas, prefijos, saludos…
         sin_match += 1
 
-# --- 2) importar el N1 que nos falta ---
+# --- 2) importar lo que falte de CUALQUIER nivel ---
+#
+# Antes esto sólo miraba la lista de N1, porque se escribió para tapar el hueco
+# de que la base venía de la especificación del N2 de 2004 y no traía N1. Pero
+# esa base tampoco trae todo lo de N5..N2: faltaban 518 palabras, y entre ellas
+# los siete días de la semana, 毎日, お金, 手紙, 図書館 y 誕生日. Un alumno de
+# N5 no aprendía a decir «lunes».
+#
+# Se recorre de N5 a N1 para que, si una palabra aparece en varias listas, se
+# quede con el nivel más fácil, que es el criterio del resto del archivo.
+# Los ids de lo importado tienen que ser ESTABLES entre pasadas.
+#
+# Antes salían de un contador, así que la misma palabra recibía un id distinto
+# cada vez. Y los ids son lo que guardan las unidades, de modo que todas
+# parecían haber perdido y ganado palabras aunque el contenido fuera idéntico.
+# Ahora una palabra ya publicada recupera su id de siempre; sólo lo realmente
+# nuevo estrena número, y por encima del máximo que ya exista.
+IDS_PUBLICADOS = {}
+if _dist.exists():
+    for _p in json.loads(_dist.read_text(encoding="utf-8")):
+        _k = _p.get("escritura") or _p.get("kanji") or _p.get("kana")
+        if _k: IDS_PUBLICADOS.setdefault(limpio(_k), _p["id"])
+
 ya = {limpio(r["kanji"]) for r in vocab if r["kanji"]} | {limpio(r["kana"]) for r in vocab}
-nuevas, sig = [], ID_N1
-for f in listas["N1"][0]:
-    exp = (f.get("expression") or "").strip()
-    lec = (f.get("reading") or "").strip()
-    sig_en = (f.get("meaning") or "").strip()
-    if not exp or exp in ya:
-        continue
-    ya.add(exp)
-    tiene_kanji = bool(KANJI.search(exp))
-    nuevas.append({
-        "id": sig, "kana": lec if tiene_kanji and lec else exp,
-        "kanji": exp if tiene_kanji else "",
-        "pos": "", "en": sig_en, "jlpt": "N1",
-    })
-    sig += 1
+nuevas = []
+sig = max([*IDS_PUBLICADOS.values(), ID_N1]) + 1
+# Los ids que ya están en uso en el pool base. Una palabra importada puede
+# tener el mismo id publicado que una del pool (la misma palabra llegó por las
+# dos vías), y dos entradas con el mismo id rompen el reparto de unidades.
+OCUPADOS = {r["id"] for r in vocab}
+por_nivel = {}
+for nivel in NIVELES:
+    for f in listas[nivel][0]:
+        exp = (f.get("expression") or "").strip()
+        lec = (f.get("reading") or "").strip()
+        sig_en = (f.get("meaning") or "").strip()
+        if not exp:
+            continue
+        # Las entradas con varias formas («いい; よい») y las que son plantillas
+        # de afijo («～円») se saltan: no son una palabra que estudiar tal cual,
+        # y el resto del pipeline no sabe qué hacer con ellas.
+        if ";" in exp or "；" in exp:
+            continue
+        clave = limpio(exp)
+        tiene_kanji = bool(KANJI.search(exp))
+        # La lectura sólo sirve para descartar duplicados cuando la entrada se
+        # escribe en kana. 乳 y 父 se leen las dos ちち y son dos palabras
+        # distintas: mirar la lectura tiraba 121 palabras ya publicadas.
+        if not clave or clave in ya or (not tiene_kanji and limpio(lec) in ya):
+            continue
+        ya.add(clave)
+        idp = IDS_PUBLICADOS.get(clave)
+        if idp is None or idp in OCUPADOS:
+            idp = sig
+            sig += 1
+        OCUPADOS.add(idp)
+        nuevas.append({
+            "id": idp, "kana": lec if tiene_kanji and lec else exp,
+            "kanji": exp if tiene_kanji else "",
+            "pos": "", "en": sig_en, "jlpt": PUBLICADO.get(clave) or nivel,
+        })
+        por_nivel[nivel] = por_nivel.get(nivel, 0) + 1
 
 vocab.extend(nuevas)
 pathlib.Path("data/build/vocab_raw.json").write_text(
@@ -76,7 +155,7 @@ pathlib.Path("data/build/vocab_raw.json").write_text(
 
 import collections
 c = collections.Counter(r["jlpt"] for r in vocab)
-print(f"importadas de N1: {len(nuevas)} | sin match en ninguna lista: {sin_match}")
+print(f"importadas: {len(nuevas)} {por_nivel} | sin match en ninguna lista: {sin_match}")
 print(f"pool final: {len(vocab)}")
 for n in NIVELES:
     print(f"  {n}: {c[n]}")

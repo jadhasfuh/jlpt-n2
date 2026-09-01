@@ -46,6 +46,28 @@ def traducir_lote(textos):
 vocab = json.load(open("data/build/vocab_clasificado.json", encoding="utf-8"))
 unicos = sorted({r["en"].strip() for r in vocab if r["en"].strip()})
 cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
+
+# La caché vive en data/build/, que está fuera del repositorio. Si falta —un
+# clon nuevo, o un borrado— se reconstruye desde lo ya exportado, que lleva el
+# inglés y el español de cada entrada. Sin esto habría que retraducir 7.400
+# definiciones contra un servicio público que bloquea por tandas.
+for _f in ("data/dist/vocabulario.json", "data/dist/gramatica.json"):
+    _p = pathlib.Path(_f)
+    if not _p.exists(): continue
+    for _r in json.loads(_p.read_text(encoding="utf-8")):
+        _en, _es = (_r.get("en") or "").strip(), (_r.get("es") or "").strip()
+        if _en and _es and not cache.get(_en): cache[_en] = _es
+
+# Las definiciones escritas a mano mandan sobre la máquina y sobre la caché,
+# que vive fuera del repositorio. Se cargan siempre, también en un clon nuevo.
+A_MANO = pathlib.Path("data/fuente/traducciones_es.tsv")
+if A_MANO.exists():
+    n = 0
+    for l in A_MANO.read_text(encoding="utf-8").splitlines():
+        if not l.strip() or l.startswith("#") or "\t" not in l: continue
+        en_, es_ = l.split("\t", 1)
+        if es_.strip(): cache[en_] = es_.strip(); n += 1
+    print(f"definiciones a mano: {n}")
 faltan = [t for t in unicos if t not in cache or not cache[t]]
 print(f"definiciones únicas: {len(unicos)} | ya en caché: {len(unicos)-len(faltan)} | por traducir: {len(faltan)}", flush=True)
 

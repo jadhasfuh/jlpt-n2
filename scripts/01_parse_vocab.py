@@ -38,6 +38,24 @@ for r in bad[:20]: print("   ", r)
 empty_en = [r for r in rows if not r["en"].strip()]
 print("sin definición:", len(empty_en))
 
+# Las correcciones a mano se aplican AQUÍ, no sólo al exportar. La lista
+# original trae mojibake ("Ͼ立" por 対立), y si el resto del pipeline lo ve
+# corrupto clasifica mal y, peor, vuelve a importar la palabra buena desde las
+# listas como si fuera otra distinta, con el id repetido.
+_c = pathlib.Path("data/fuente/correcciones.tsv")
+if _c.exists():
+    _por_id = {r["id"]: r for r in rows}
+    _n = 0
+    for _l in _c.read_text(encoding="utf-8").splitlines():
+        _l = re.sub(r"\s*#.*$", "", _l).rstrip()
+        if not _l or _l.startswith(("#", "id|")): continue
+        _campos = (_l.split("|") + [""] * 5)[:5]
+        _r = _por_id.get(int(_campos[0]))
+        if not _r: continue
+        for _k, _v in zip(("kana", "kanji", "en", "es"), _campos[1:]):
+            if _v.strip(): _r[_k] = _v.strip(); _n += 1
+    print("correcciones a mano aplicadas:", _n)
+
 OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
 print("->", OUT)
