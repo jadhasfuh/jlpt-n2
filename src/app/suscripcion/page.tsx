@@ -20,6 +20,7 @@ export default async function Pagina(
   const cuenta = p && {
     correo: p.email, id: p.id, alDia: alDia(p), membresia: p.membresia,
     vence: p.vence_en, tienePago: Boolean(p.cliente_pago),
+    cortesia: p.cortesia_hasta ?? null,
   };
 
   return (

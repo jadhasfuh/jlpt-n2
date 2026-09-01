@@ -15,6 +15,8 @@ export type Perfil = {
   /** Ids del proveedor de pago. Nunca llegan al navegador. */
   cliente_pago: string | null;
   suscripcion_id: string | null;
+  /** Cuenta regalada: hasta cuándo. No lo escribe Paddle, lo ponemos nosotros. */
+  cortesia_hasta?: string | null;
 };
 
 /**
@@ -61,12 +63,18 @@ export async function perfil(): Promise<Perfil | null> {
   const secreta = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_KEY;
   if (!url || !secreta) return null;
   const admin = createClient(url, secreta, { auth: { persistSession: false } });
-  const { data } = await admin
-    .from("perfiles")
-    .select("id, nombre, email, membresia, vence_en, origen, cliente_pago, suscripcion_id")
-    .eq("id", u.id)
-    .maybeSingle();
-  return (data as Perfil) ?? null;
+  const correo = u.email?.trim().toLowerCase() ?? null;
+  // Las dos consultas van a la vez: la cortesía no debe costar una espera más.
+  const [{ data }, cortesia] = await Promise.all([
+    admin.from("perfiles")
+      .select("id, nombre, email, membresia, vence_en, origen, cliente_pago, suscripcion_id")
+      .eq("id", u.id).maybeSingle(),
+    correo
+      ? admin.from("cortesias").select("hasta").eq("email", correo).maybeSingle()
+      : Promise.resolve({ data: null }),
+  ]);
+  if (!data) return null;
+  return { ...(data as Perfil), cortesia_hasta: cortesia.data?.hasta ?? null };
 }
 
 /**
@@ -88,6 +96,7 @@ function siempreLibre(email: string | null): boolean {
 export function alDia(p: Perfil | null): boolean {
   if (!p) return false;
   if (siempreLibre(p.email)) return true;
+  if (p.cortesia_hasta && new Date(p.cortesia_hasta) > new Date()) return true;
   if (p.membresia !== "activa" && p.membresia !== "cancelada") return false;
   return !p.vence_en || new Date(p.vence_en) > new Date();
 }

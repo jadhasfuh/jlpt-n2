@@ -28,6 +28,12 @@ export async function POST() {
   await admin.from("resultados").delete().eq("perfil", u.id);
   await admin.from("perfiles").delete().eq("id", u.id);
 
+  // La cortesía va por correo y no por id, así que no cae con el perfil. Se
+  // borra igual: la página de privacidad dice que al borrar la cuenta no
+  // queda nada, y un correo guardado en otra tabla es algo. Si esa persona
+  // vuelve, se le regala otra vez; es una línea de comando.
+  if (u.email) await admin.from("cortesias").delete().eq("email", u.email.toLowerCase());
+
   const { error } = await admin.auth.admin.deleteUser(u.id);
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
   return NextResponse.json({ ok: true });

@@ -45,7 +45,7 @@ export function Suscripcion({ ajustes, cuenta, tarifa }: {
   ajustes: { token: string; precio: string; precioAnual: string;
              entorno: string; listo: boolean };
   cuenta: { correo: string | null; id: string; alDia: boolean; membresia: string;
-            vence: string | null; tienePago: boolean } | null;
+            vence: string | null; tienePago: boolean; cortesia?: string | null } | null;
   tarifa: { mensual: Tarifa | null; anual: Tarifa | null };
 }) {
   const { t, idioma, tema } = useAjustes();
@@ -120,6 +120,25 @@ export function Suscripcion({ ajustes, cuenta, tarifa }: {
   // ------------------------------------------------------ ya está suscrito
   if (cuenta?.alDia) {
     const cancelada = cuenta.membresia === "cancelada";
+    // Una cuenta regalada no tiene cobro detrás. Decirlo evita que alguien
+    // busque una suscripción que no existe, o se asuste pensando que le van a
+    // cobrar; y que se lleve una sorpresa el día que se acabe.
+    const regalo = cuenta.cortesia && new Date(cuenta.cortesia) > new Date()
+                 ? cuenta.cortesia : null;
+    if (regalo) {
+      return (
+        <>
+          <div className="tarjeta" style={{ marginTop: 26, padding: 22 }}>
+            <span className="pastilla acento"><IcBien size={13} /> {t("sus.cortesia")}</span>
+            <p style={{ fontSize: 15, margin: "12px 0 2px" }}>{t("sus.cortesiaTxt")}</p>
+            <p className="tenue" style={{ marginTop: 0 }}>
+              {t("sus.cortesiaFin", { f: new Date(regalo).toLocaleDateString() })}
+            </p>
+          </div>
+          <Politicas t={t} />
+        </>
+      );
+    }
     return (
       <>
         <div className="tarjeta" style={{ marginTop: 26, padding: 22 }}>
