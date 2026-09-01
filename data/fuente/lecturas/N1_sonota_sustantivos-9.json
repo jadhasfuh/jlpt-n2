@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/sustantivos-9",
+ "titulo": "<ruby>郷愁<rt>きょうしゅう</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>",
+ "cuerpo": "<ruby>帰京<rt>ききょう</rt></ruby>する<ruby>新幹線<rt>しんかんせん</rt></ruby>の<ruby>窓<rt>まど</rt></ruby>から、<ruby>起伏<rt>きふく</rt></ruby>のある<ruby>景色<rt>けしき</rt></ruby>をながめていました。<ruby>年<rt>とし</rt></ruby>に<ruby>二度<rt>にど</rt></ruby>しか<ruby>帰<rt>かえ</rt></ruby>らない<ruby>土地<rt>とち</rt></ruby>なのに、<ruby>離<rt>はな</rt></ruby>れるときは<ruby>必<rt>かなら</rt></ruby>ず<ruby>胸<rt>むね</rt></ruby>のあたりが<ruby>重<rt>おも</rt></ruby>くなります。<ruby>郷愁<rt>きょうしゅう</rt></ruby>という<ruby>言葉<rt>ことば</rt></ruby>を、<ruby>辞書<rt>じしょ</rt></ruby>で<ruby>引<rt>ひ</rt></ruby>いたことがあります。<ruby>記述<rt>きじゅつ</rt></ruby>はごく<ruby>短<rt>みじか</rt></ruby>く、<ruby>概略<rt>がいりゃく</rt></ruby>しか<ruby>書<rt>か</rt></ruby>かれていませんでした。<ruby>説明<rt>せつめい</rt></ruby>しきれない<ruby>感情<rt>かんじょう</rt></ruby>なのだと<ruby>思<rt>おも</rt></ruby>います。<ruby>父<rt>ちち</rt></ruby>は<ruby>頑固<rt>がんこ</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>で、<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しの<ruby>話<rt>はなし</rt></ruby>を<ruby>何度<rt>なんど</rt></ruby>しても<ruby>拒絶<rt>きょぜつ</rt></ruby>します。<ruby>気持<rt>きも</rt></ruby>ちは<ruby>察<rt>さっ</rt></ruby>する<em class=\"g\">に難くない</em>のです。<ruby>生<rt>う</rt></ruby>まれた<ruby>家<rt>いえ</rt></ruby>を<ruby>離<rt>はな</rt></ruby>れるのは、<ruby>記憶<rt>きおく</rt></ruby>を<ruby>置<rt>お</rt></ruby>いていくようなものでしょう。<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>暮<rt>く</rt></ruby>らせる<ruby>方法<rt>ほうほう</rt></ruby>は<em class=\"g\">ないものか</em>と、いまも<ruby>考<rt>かんが</rt></ruby>えています。<ruby>窓<rt>まど</rt></ruby>の<ruby>外<rt>そと</rt></ruby>が<ruby>暗<rt>くら</rt></ruby>くなるころ、<ruby>車内<rt>しゃない</rt></ruby>の<ruby>明<rt>あ</rt></ruby>かりが<ruby>顔<rt>かお</rt></ruby>を<ruby>映<rt>うつ</rt></ruby>しました。<ruby>同<rt>おな</rt></ruby>じ<ruby>顔<rt>かお</rt></ruby>をした<ruby>人<rt>ひと</rt></ruby>が、<ruby>何人<rt>なんにん</rt></ruby>もそこに<ruby>座<rt>すわ</rt></ruby>っていました。",
+ "traduccion": "Desde la ventana del tren de vuelta a Tokio miraba un paisaje ondulado. Aunque solo vuelvo a esa tierra dos veces al año, al marcharme siempre se me pone algo pesado el pecho. Alguna vez he buscado en el diccionario la palabra «nostalgia». La entrada era muy breve y solo daba un resumen. Debe de ser una emoción que no se deja explicar del todo. Mi padre es testarudo y, por mucho que le hable de mudarse, se niega. No es difícil hacerse cargo de cómo se siente. Dejar la casa donde naciste debe de ser como dejar allí la memoria. Sigo pensando si no habrá alguna manera de que podamos vivir juntos. Cuando fuera empezó a oscurecer, la luz del vagón me devolvió mi cara reflejada. Había varias personas allí sentadas con esa misma cara.",
+ "preguntas": [
+  {
+   "p": "<ruby>辞書<rt>じしょ</rt></ruby>の「<ruby>郷愁<rt>きょうしゅう</rt></ruby>」の<ruby>記述<rt>きじゅつ</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "とても<ruby>長<rt>なが</rt></ruby>かった",
+    "ごく<ruby>短<rt>みじか</rt></ruby>く、<ruby>概略<rt>がいりゃく</rt></ruby>しかなかった",
+    "<ruby>分<rt>わ</rt></ruby>かりやすかった",
+    "<ruby>載<rt>の</rt></ruby>っていなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>父<rt>ちち</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。",
+   "opciones": [
+    "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しに<ruby>賛成<rt>さんせい</rt></ruby>している",
+    "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しの<ruby>話<rt>はなし</rt></ruby>を<ruby>拒絶<rt>きょぜつ</rt></ruby>する",
+    "<ruby>東京<rt>とうきょう</rt></ruby>に<ruby>住<rt>す</rt></ruby>んでいる",
+    "<ruby>年<rt>とし</rt></ruby>に<ruby>二度<rt>にど</rt></ruby><ruby>帰<rt>かえ</rt></ruby>る"
+   ],
+   "correcta": 1
+  }
+ ]
+}

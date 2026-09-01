@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/sustantivos-10",
+ "titulo": "<ruby>懸賞<rt>けんしょう</rt></ruby>に<ruby>応募<rt>おうぼ</rt></ruby>する",
+ "cuerpo": "<ruby>雑誌<rt>ざっし</rt></ruby>の<ruby>懸賞<rt>けんしょう</rt></ruby>に、<ruby>短<rt>みじか</rt></ruby>い<ruby>文章<rt>ぶんしょう</rt></ruby>を<ruby>送<rt>おく</rt></ruby>ってみました。<ruby>審査<rt>しんさ</rt></ruby>する<ruby>方<rt>かた</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>が、<ruby>応募<rt>おうぼ</rt></ruby>を<ruby>決<rt>き</rt></ruby>めた<ruby>理由<rt>りゆう</rt></ruby>です。<ruby>読<rt>よ</rt></ruby>む<em class=\"g\">に足る</em>ものが<ruby>書<rt>か</rt></ruby>けたかどうかは<ruby>分<rt>わ</rt></ruby>かりません。<ruby>誇張<rt>こちょう</rt></ruby>のない<ruby>文<rt>ぶん</rt></ruby>にしようと、<ruby>形容詞<rt>けいようし</rt></ruby>をずいぶん<ruby>削<rt>けず</rt></ruby>りました。<ruby>古代<rt>こだい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>から<ruby>始<rt>はじ</rt></ruby>めようとして、やめたのもよかったと<ruby>思<rt>おも</rt></ruby>います。<ruby>知<rt>し</rt></ruby>らないことを<ruby>知<rt>し</rt></ruby>っているように<ruby>書<rt>か</rt></ruby>くのは、<ruby>最初<rt>さいしょ</rt></ruby>から<em class=\"g\">には無理がある</em>のです。<ruby>結果<rt>けっか</rt></ruby>は<ruby>選外<rt>せんがい</rt></ruby>でした。<ruby>軽蔑<rt>けいべつ</rt></ruby>されるようなことは<ruby>何<rt>なに</rt></ruby>も<ruby>書<rt>か</rt></ruby>いていない、と<ruby>自分<rt>じぶん</rt></ruby>に<ruby>言<rt>い</rt></ruby>い<ruby>聞<rt>き</rt></ruby>かせています。<ruby>編集<rt>へんしゅう</rt></ruby>の<ruby>方<rt>かた</rt></ruby>から<ruby>短<rt>みじか</rt></ruby>い<ruby>激励<rt>げきれい</rt></ruby>の<ruby>葉書<rt>はがき</rt></ruby>が<ruby>届<rt>とど</rt></ruby>きました。<ruby>行進<rt>こうしん</rt></ruby>のように<ruby>一列<rt>いちれつ</rt></ruby>に<ruby>並<rt>なら</rt></ruby>んだ<ruby>文字<rt>もじ</rt></ruby>を<ruby>何度<rt>なんど</rt></ruby>も<ruby>読<rt>よ</rt></ruby>み<ruby>返<rt>かえ</rt></ruby>します。<ruby>倹約<rt>けんやく</rt></ruby>して<ruby>買<rt>か</rt></ruby>った<ruby>万年筆<rt>まんねんひつ</rt></ruby>で、<ruby>次<rt>つぎ</rt></ruby>の<ruby>一枚<rt>いちまい</rt></ruby>を<ruby>書<rt>か</rt></ruby>きはじめました。",
+ "traduccion": "Envié un texto breve a un concurso de una revista. El motivo de presentarme fue el nombre de quien iba a juzgarlo. No sé si escribí algo que mereciera la pena leer. Recorté bastantes adjetivos para que no quedara un texto exagerado. Creo que también acerté al descartar empezar hablando de la antigüedad. Escribir como si supieras lo que no sabes es algo inviable desde el principio. El resultado fue quedarme fuera. Me repito que no escribí nada que merezca desprecio. De la redacción me llegó una postal breve de ánimo. He releído muchas veces esas letras alineadas como en un desfile. Con la pluma que compré ahorrando, he empezado la página siguiente.",
+ "preguntas": [
+  {
+   "p": "<ruby>応募<rt>おうぼ</rt></ruby>を<ruby>決<rt>き</rt></ruby>めた<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>賞金<rt>しょうきん</rt></ruby>",
+    "<ruby>審査<rt>しんさ</rt></ruby>する<ruby>方<rt>かた</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>",
+    "<ruby>雑誌<rt>ざっし</rt></ruby>が<ruby>好<rt>す</rt></ruby>きだから",
+    "<ruby>友人<rt>ゆうじん</rt></ruby>の<ruby>勧<rt>すす</rt></ruby>め"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>結果<rt>けっか</rt></ruby>が<ruby>出<rt>で</rt></ruby>たあと、この<ruby>人<rt>ひと</rt></ruby>はどうしましたか。",
+   "opciones": [
+    "<ruby>書<rt>か</rt></ruby>くのをやめた",
+    "<ruby>次<rt>つぎ</rt></ruby>の<ruby>一枚<rt>いちまい</rt></ruby>を<ruby>書<rt>か</rt></ruby>きはじめた",
+    "<ruby>雑誌<rt>ざっし</rt></ruby>に<ruby>抗議<rt>こうぎ</rt></ruby>した",
+    "<ruby>編集<rt>へんしゅう</rt></ruby>の<ruby>方<rt>かた</rt></ruby>に<ruby>会<rt>あ</rt></ruby>いにいった"
+   ],
+   "correcta": 1
+  }
+ ]
+}
