@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/sustantivos-5",
+ "titulo": "<ruby>蔵<rt>くら</rt></ruby>のある<ruby>家<rt>いえ</rt></ruby>",
+ "cuerpo": "<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>には<ruby>古<rt>ふる</rt></ruby>い<ruby>蔵<rt>くら</rt></ruby>があります。<ruby>麻<rt>あさ</rt></ruby>の<ruby>袋<rt>ふくろ</rt></ruby>や<ruby>網<rt>あみ</rt></ruby>が<ruby>天井<rt>てんじょう</rt></ruby>から<ruby>下<rt>さ</rt></ruby>がり、<ruby>奥<rt>おく</rt></ruby>には<ruby>名前<rt>なまえ</rt></ruby>の<ruby>分<rt>わ</rt></ruby>からない<ruby>道具<rt>どうぐ</rt></ruby>がずらりと<ruby>並<rt>なら</rt></ruby>んでいました。<ruby>子<rt>こ</rt></ruby>どものころ、<ruby>入<rt>はい</rt></ruby>るのが<ruby>少<rt>すこ</rt></ruby>しこわかったのを<ruby>覚<rt>おぼ</rt></ruby>えています。<ruby>扉<rt>とびら</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けると<ruby>冷<rt>つめ</rt></ruby>たい<ruby>空気<rt>くうき</rt></ruby>が<ruby>顎<rt>あご</rt></ruby>のあたりに<ruby>当<rt>あ</rt></ruby>たるのです。<ruby>去年<rt>きょねん</rt></ruby>、<ruby>屋根<rt>やね</rt></ruby>が<ruby>傷<rt>いた</rt></ruby>んで<ruby>雨<rt>あめ</rt></ruby>が<ruby>漏<rt>も</rt></ruby>るようになりました。<ruby>修理<rt>しゅうり</rt></ruby>の<ruby>見積<rt>みつも</rt></ruby>りは<ruby>予想<rt>よそう</rt></ruby>よりずっと<ruby>高<rt>たか</rt></ruby>く、みすぼらしいままにしておくわけにもいきません。<ruby>壊<rt>こわ</rt></ruby>して<ruby>建<rt>た</rt></ruby>て<ruby>直<rt>なお</rt></ruby>すという<ruby>案<rt>あん</rt></ruby>も<ruby>出<rt>で</rt></ruby>ました。でも、<ruby>謝<rt>あやま</rt></ruby>っ<em class=\"g\">て済むことではない</em>という<ruby>気持<rt>きも</rt></ruby>ちが<ruby>家族<rt>かぞく</rt></ruby>のあいだにありました。<ruby>祖母<rt>そぼ</rt></ruby>が<ruby>守<rt>まも</rt></ruby>ってきたものを、<ruby>手<rt>て</rt></ruby>をかけずに<ruby>手放<rt>てばな</rt></ruby>すのは<ruby>違<rt>ちが</rt></ruby>うだろうと。<ruby>梢<rt>こずえ</rt></ruby>のむこうに<ruby>見<rt>み</rt></ruby>える<ruby>蔵<rt>くら</rt></ruby>の<ruby>屋根<rt>やね</rt></ruby>は、いまも<ruby>同<rt>おな</rt></ruby>じ<ruby>場所<rt>ばしょ</rt></ruby>にあります。",
+ "traduccion": "En casa de mi abuela hay un almacén antiguo. Del techo cuelgan sacos de cáñamo y redes, y al fondo se alineaban herramientas cuyo nombre nadie sabía. Recuerdo que de niño me daba algo de miedo entrar. Al abrir la puerta, el aire frío te daba a la altura de la barbilla. El año pasado el tejado se estropeó y empezó a entrar agua. El presupuesto de la reparación salió mucho más alto de lo previsto, y tampoco se puede dejar aquello con ese aspecto ruinoso. Salió también la propuesta de derribarlo y levantarlo de nuevo. Pero entre la familia había la sensación de que no basta con lamentarlo. Que soltar lo que mi abuela sostuvo, sin ni siquiera intentarlo, no estaría bien. El tejado del almacén, que se ve por encima de las copas de los árboles, sigue en el mismo sitio.",
+ "preguntas": [
+  {
+   "p": "<ruby>蔵<rt>くら</rt></ruby>に<ruby>入<rt>はい</rt></ruby>るとき、<ruby>子<rt>こ</rt></ruby>どものころどう<ruby>感<rt>かん</rt></ruby>じましたか。",
+   "opciones": [
+    "たのしかった",
+    "<ruby>少<rt>すこ</rt></ruby>しこわかった",
+    "<ruby>暑<rt>あつ</rt></ruby>かった",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>感<rt>かん</rt></ruby>じなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>家族<rt>かぞく</rt></ruby>はどう<ruby>考<rt>かんが</rt></ruby>えましたか。",
+   "opciones": [
+    "<ruby>壊<rt>こわ</rt></ruby>して<ruby>建<rt>た</rt></ruby>て<ruby>直<rt>なお</rt></ruby>す",
+    "<ruby>手<rt>て</rt></ruby>をかけずに<ruby>手放<rt>てばな</rt></ruby>すのは<ruby>違<rt>ちが</rt></ruby>う",
+    "そのままにしておく",
+    "<ruby>売<rt>う</rt></ruby>る"
+   ],
+   "correcta": 1
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/sustantivos-4",
+ "titulo": "アンコールのあとで",
+ "cuerpo": "<ruby>高校<rt>こうこう</rt></ruby>の<ruby>合唱<rt>がっしょう</rt></ruby><ruby>部<rt>ぶ</rt></ruby>が<ruby>全国<rt>ぜんこく</rt></ruby><ruby>大会<rt>たいかい</rt></ruby>に<ruby>出<rt>で</rt></ruby>ました。<ruby>制服<rt>せいふく</rt></ruby>のかわりにきらびやかな<ruby>衣装<rt>いしょう</rt></ruby>を<ruby>着<rt>き</rt></ruby>て、<ruby>舞台<rt>ぶたい</rt></ruby>に<ruby>並<rt>なら</rt></ruby>びます。カメラマンが<ruby>何人<rt>なんにん</rt></ruby>も<ruby>入<rt>はい</rt></ruby>り、オンラインでも<ruby>中継<rt>ちゅうけい</rt></ruby>されました。<ruby>結果<rt>けっか</rt></ruby>は<ruby>三位<rt>さんい</rt></ruby>。アンコールまで<ruby>呼<rt>よ</rt></ruby>ばれたのは<ruby>予想<rt>よそう</rt></ruby><ruby>外<rt>がい</rt></ruby>でした。<ruby>勝<rt>か</rt></ruby>っ<em class=\"g\">たら</em><ruby>勝<rt>か</rt></ruby>っ<em class=\"g\">たで</em><ruby>緊張<rt>きんちょう</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>くのだと、<ruby>顧問<rt>こもん</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>が<ruby>笑<rt>わら</rt></ruby>います。<ruby>準備<rt>じゅんび</rt></ruby>にかけた<ruby>時間<rt>じかん</rt></ruby>を<ruby>思<rt>おも</rt></ruby>えば、もっと<ruby>喜<rt>よろこ</rt></ruby>ばれ<em class=\"g\">てしかるべきだ</em>と<ruby>周<rt>まわ</rt></ruby>りは<ruby>言<rt>い</rt></ruby>っていました。でも<ruby>本人<rt>ほんにん</rt></ruby>たちは、<ruby>終<rt>お</rt></ruby>わったことより<ruby>次<rt>つぎ</rt></ruby>のポイントを<ruby>話<rt>はな</rt></ruby>しています。<ruby>声<rt>こえ</rt></ruby>のニュアンスをどうそろえるか、<ruby>息継<rt>いきつ</rt></ruby>ぎをどこに<ruby>置<rt>お</rt></ruby>くか。<ruby>一人<rt>ひとり</rt></ruby>がノイローゼになりかけた<ruby>時期<rt>じき</rt></ruby>もあったそうです。カムバックしてまた<ruby>歌<rt>うた</rt></ruby>っている<ruby>姿<rt>すがた</rt></ruby>を<ruby>見<rt>み</rt></ruby>ると、<ruby>順位<rt>じゅんい</rt></ruby>よりも<ruby>続<rt>つづ</rt></ruby>けられたことのほうが<ruby>大<rt>おお</rt></ruby>きいのだと<ruby>思<rt>おも</rt></ruby>います。",
+ "traduccion": "El coro del instituto llegó al campeonato nacional. En lugar del uniforme, salieron al escenario con trajes vistosos. Entraron varios fotógrafos y también se retransmitió en línea. Quedaron terceros. Que les pidieran un bis no se lo esperaba nadie. El profesor responsable se ríe y dice que, si ganas, precisamente por ganar la tensión continúa. Pensando en el tiempo que le dedicaron, la gente de alrededor decía que deberían habérselo celebrado más. Pero ellos, más que de lo ya hecho, hablan del siguiente objetivo. Cómo igualar los matices de la voz, dónde colocar las respiraciones. Al parecer hubo una época en que una de ellas estuvo al borde de venirse abajo. Viéndola de vuelta, cantando otra vez, pienso que pesa más haber podido seguir que el puesto en que quedaron.",
+ "preguntas": [
+  {
+   "p": "<ruby>大会<rt>たいかい</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>一位<rt>いちい</rt></ruby>",
+    "<ruby>三位<rt>さんい</rt></ruby>でアンコールも<ruby>呼<rt>よ</rt></ruby>ばれた",
+    "<ruby>予選<rt>よせん</rt></ruby>で<ruby>落<rt>お</rt></ruby>ちた",
+    "<ruby>出<rt>で</rt></ruby>られなかった"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きいと<ruby>思<rt>おも</rt></ruby>っていることは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>順位<rt>じゅんい</rt></ruby>",
+    "<ruby>続<rt>つづ</rt></ruby>けられたこと",
+    "アンコール",
+    "<ruby>中継<rt>ちゅうけい</rt></ruby>されたこと"
+   ],
+   "correcta": 1
+  }
+ ]
+}

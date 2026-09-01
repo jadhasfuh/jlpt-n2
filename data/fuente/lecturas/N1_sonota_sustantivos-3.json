@@ -1,0 +1,28 @@
+{
+ "unidad_id": "N1/sonota/sustantivos-3",
+ "titulo": "スタジオの<ruby>一日<rt>いちにち</rt></ruby>",
+ "cuerpo": "<ruby>友人<rt>ゆうじん</rt></ruby>が<ruby>働<rt>はたら</rt></ruby>くスタジオを<ruby>見学<rt>けんがく</rt></ruby>させてもらいました。<ruby>壁<rt>かべ</rt></ruby>にずらっと<ruby>機材<rt>きざい</rt></ruby>が<ruby>並<rt>なら</rt></ruby>び、システムの<ruby>説明<rt>せつめい</rt></ruby>を<ruby>受<rt>う</rt></ruby>けてもこちらには<ruby>何<rt>なに</rt></ruby>が<ruby>何<rt>なん</rt></ruby>だか<ruby>分<rt>わ</rt></ruby>かりません。シナリオを<ruby>片手<rt>かたて</rt></ruby>に、カメラの<ruby>位置<rt>いち</rt></ruby>を<ruby>何度<rt>なんど</rt></ruby>も<ruby>直<rt>なお</rt></ruby>していました。ジャンルによって<ruby>照明<rt>しょうめい</rt></ruby>の<ruby>当<rt>あ</rt></ruby>て<ruby>方<rt>かた</rt></ruby>がまるでちがうそうです。<ruby>音<rt>おと</rt></ruby>をキャッチするマイクの<ruby>向<rt>む</rt></ruby>きひとつで、<ruby>仕上<rt>しあ</rt></ruby>がりが<ruby>変<rt>か</rt></ruby>わる。おおげさに<ruby>褒<rt>ほ</rt></ruby>めると<ruby>嫌<rt>いや</rt></ruby>がられるので、<ruby>黙<rt>だま</rt></ruby>って<ruby>見<rt>み</rt></ruby>ていました。<ruby>休憩<rt>きゅうけい</rt></ruby>のとき、ストローでジュースを<ruby>飲<rt>の</rt></ruby>みながら<ruby>話<rt>はな</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きます。ちやほやされる<ruby>仕事<rt>しごと</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるけれど、<ruby>九割<rt>きゅうわり</rt></ruby>は<ruby>待<rt>ま</rt></ruby>つ<ruby>時間<rt>じかん</rt></ruby>なのだと<ruby>言<rt>い</rt></ruby>っていました。しなやかに<ruby>構<rt>かま</rt></ruby>えていないと<ruby>続<rt>つづ</rt></ruby>かない。<ruby>焦<rt>あせ</rt></ruby>っても、<ruby>時間<rt>じかん</rt></ruby>を<ruby>早<rt>はや</rt></ruby>める<em class=\"g\">術がない</em>のだから、と。",
+ "traduccion": "Me dejaron visitar el estudio donde trabaja un amigo. En la pared se alineaba el equipo y, aunque me explicaran el sistema, yo no me enteraba de nada. Con el guion en una mano, corregía una y otra vez la posición de la cámara. Al parecer, según el género, la forma de dirigir la luz cambia por completo. Con solo la orientación del micrófono que capta el sonido, cambia el resultado. Como le molesta que le elogien de forma exagerada, me quedé mirando en silencio. En el descanso, mientras tomaba un zumo con pajita, escuché lo que contaba. Parece un trabajo en el que te adulan, pero decía que el noventa por ciento es tiempo de espera. Que si no te lo tomas con flexibilidad, no aguantas. Que aunque te agobies, no hay manera de acelerar el tiempo.",
+ "preguntas": [
+  {
+   "p": "<ruby>照明<rt>しょうめい</rt></ruby>の<ruby>当<rt>あ</rt></ruby>て<ruby>方<rt>かた</rt></ruby>は、<ruby>何<rt>なに</rt></ruby>によってちがいますか。",
+   "opciones": [
+    "カメラの<ruby>種類<rt>しゅるい</rt></ruby>",
+    "ジャンル",
+    "<ruby>時間<rt>じかん</rt></ruby>",
+    "マイクの<ruby>向<rt>む</rt></ruby>き"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>友人<rt>ゆうじん</rt></ruby>によれば、この<ruby>仕事<rt>しごと</rt></ruby>の<ruby>九割<rt>きゅうわり</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>撮影<rt>さつえい</rt></ruby>",
+    "<ruby>待<rt>ま</rt></ruby>つ<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>準備<rt>じゅんび</rt></ruby>",
+    "<ruby>打<rt>う</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせ"
+   ],
+   "correcta": 1
+  }
+ ]
+}
