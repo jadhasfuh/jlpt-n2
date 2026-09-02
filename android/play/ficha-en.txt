@@ -1,0 +1,30 @@
+NAME (max 30)
+jlptest
+
+SHORT DESCRIPTION (max 80)
+Japanese for the JLPT: vocabulary, kanji, grammar and mock exams, N5 to N1.
+
+FULL DESCRIPTION (max 4000)
+Study Japanese for the JLPT with a course that runs in order from beginning to end, N5 through N1.
+
+WHAT'S INSIDE
+· 8,027 words arranged into 614 themed units, not loose lists.
+· 1,981 kanji with their readings, stroke counts and the words they appear in.
+· 846 grammar points, from the simplest to the most complex.
+· 614 reading passages written to level: each one uses only the vocabulary and kanji you have already seen.
+· Practice exams with the structure and the scoring of the real JLPT.
+
+HOW YOU STUDY
+· Spaced repetition flashcards: each word comes back just as you are about to forget it.
+· A test for every unit, with a medal for your best score.
+· Listening exercises: hear the sentence without seeing it, then answer.
+· Rebuild the sentence piece by piece, with the translation beside it.
+· Furigana you can switch on and off, and kanji coloured by level.
+
+IN YOUR LANGUAGE
+The whole interface and every translation is in English and Spanish. The definitions are our own, not copied.
+
+YOUR PROGRESS
+A day streak, XP, mastered words and a ring for each level and topic showing how far you have come. Progress is saved to your account and follows you from one device to another.
+
+You can start for free: the 人と体 section of every level is open.
