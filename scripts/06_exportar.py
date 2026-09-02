@@ -134,6 +134,21 @@ categorias = [{"id": k, "es": v} for k, v in CAT_ES.items()]
 
 # Mapa compacto kanji -> nivel, para colorear el texto en el navegador (~10 KB).
 mapa_nivel = {k["char"]: (k["nivel"] or k["curso"]) for k in kanji_cat}
+# Antes de escribir nada: si el español se ha caído, no se exporta.
+#
+# Pasó de verdad. La caché de traducción no llegó a escribirse en disco, este
+# script exportó con un 0,1 % de español y la app estuvo enseñando los
+# significados en inglés a quien la tenía puesta en español. La cifra salía
+# impresa al final y nadie la miró, así que ahora no es un aviso sino una
+# parada, y va antes de tocar data/dist/ para no dejar el destrozo hecho.
+_pct = sum(1 for w in salida_v if w["es"]) / len(salida_v) * 100
+if _pct < 95:
+    print(f"PARADA: sólo el {_pct:.1f} % del vocabulario tiene español.\n"
+          f"Casi seguro falta data/build/es_cache.json: ejecuta\n"
+          f"  python3 scripts/05_traducir.py\n"
+          f"y vuelve a exportar. No se ha escrito nada en data/dist/.", file=sys.stderr)
+    sys.exit(1)
+
 (DIST / "kanji_niveles.json").write_text(json.dumps(mapa_nivel, ensure_ascii=False), encoding="utf-8")
 print(f"{'kanji_niveles':<14} {len(mapa_nivel):5d} registros  "
       f"{(DIST/'kanji_niveles.json').stat().st_size/1024:8.1f} KB")

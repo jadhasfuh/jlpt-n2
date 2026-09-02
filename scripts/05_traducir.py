@@ -2,7 +2,7 @@
 """Traduce EN->ES las definiciones del vocabulario. Sin API key: usa el endpoint
 público de traducción. Cachea en data/build/es_cache.json y es reanudable.
 Cuando haya ANTHROPIC_API_KEY, scripts/05b_traducir_claude.py mejora esto."""
-import json, subprocess, urllib.parse, pathlib, sys, time, re
+import json, os, subprocess, urllib.parse, pathlib, sys, time, re
 
 CACHE = pathlib.Path("data/build/es_cache.json")
 LOTE = 30
@@ -48,9 +48,40 @@ unicos = sorted({r["en"].strip() for r in vocab if r["en"].strip()})
 cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
 
 # La caché vive en data/build/, que está fuera del repositorio. Si falta —un
-# clon nuevo, o un borrado— se reconstruye desde lo ya exportado, que lleva el
-# inglés y el español de cada entrada. Sin esto habría que retraducir 7.400
-# definiciones contra un servicio público que bloquea por tandas.
+# clon nuevo, o un borrado— se reconstruye sola. Sin esto habría que retraducir
+# 8.400 definiciones contra un servicio público que bloquea por tandas.
+#
+# Se recupera primero de **Supabase**, no de data/dist/. Reconstruir desde dist
+# parecía suficiente hasta que se comprobó el círculo: si lo que se rompe es
+# justo la exportación, dist no tiene español y la reconstrucción no recupera
+# nada. La base guarda lo último que se publicó, que es lo que de verdad hace
+# de copia.
+def _de_la_base():
+    import base64, subprocess
+    url = os.environ.get("DATABASE_URL") or (
+        "postgresql://postgres.nstpivbrojehlaghfwov@aws-0-us-west-2.pooler.supabase.com"
+        ":5432/postgres")
+    psql = os.environ.get("PSQL", "/opt/homebrew/opt/libpq/bin/psql")
+    consulta = ("select encode(convert_to(json_agg(json_build_object('en',en,'es',es))::text,"
+                "'UTF8'),'base64') from (select distinct en,es from vocabulario "
+                "where coalesce(es,'')<>'' and coalesce(en,'')<>'' union "
+                "select distinct en,es from gramatica "
+                "where coalesce(es,'')<>'' and coalesce(en,'')<>'') t;")
+    try:
+        r = subprocess.run([psql, url, "-tAqX", "-c", consulta],
+                           capture_output=True, text=True, timeout=120)
+        if r.returncode: return []
+        return json.loads(base64.b64decode(r.stdout.strip()).decode("utf-8")) or []
+    except Exception:
+        return []   # sin base a mano se sigue con lo que haya
+
+if sum(1 for v in cache.values() if v) < 1000:
+    _rec = _de_la_base()
+    for _r in _rec:
+        _en, _es = (_r.get("en") or "").strip(), (_r.get("es") or "").strip()
+        if _en and _es and not cache.get(_en): cache[_en] = _es
+    if _rec: print(f"recuperadas de la base: {len(_rec)}")
+
 for _f in ("data/dist/vocabulario.json", "data/dist/gramatica.json"):
     _p = pathlib.Path(_f)
     if not _p.exists(): continue
@@ -80,5 +111,14 @@ for i in range(0, len(faltan), LOTE):
     print(f"  {min(i+LOTE, len(faltan))}/{len(faltan)}", flush=True)
     time.sleep(0.25)
 
+# La caché se escribe SIEMPRE, no sólo dentro del bucle.
+#
+# Antes se guardaba únicamente al terminar cada lote, así que si no faltaba
+# nada por traducir el bucle no se ejecutaba y la reconstrucción de arriba se
+# quedaba en memoria. El fichero seguía sin existir, 06 exportaba sin español y
+# la app enseñaba los significados en inglés estando en español.
+CACHE.parent.mkdir(parents=True, exist_ok=True)
+CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=0), encoding="utf-8")
+
 vacias = sum(1 for t in unicos if not cache.get(t))
-print(f"listo. sin traducir: {vacias}")
+print(f"listo. sin traducir: {vacias} · caché guardada: {len(cache)} definiciones")
