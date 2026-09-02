@@ -1,0 +1,28 @@
+NOTAS DE LA VERSIÓN 1.0.1  ·  se pegan tal cual, con las etiquetas
+==================================================================
+Play las pide por idioma y entre etiquetas. Si sólo tienes es-419, pega el
+primer bloque; si añades la ficha en inglés, pega los dos.
+
+<es-419>
+Primera versión de jlptest.
+
+· Curso completo del N5 al N1: 8.027 palabras en 614 unidades, 1.981 kanji y
+  846 puntos de gramática.
+· 614 lecturas escritas para el nivel de cada unidad, con traducción y
+  preguntas de comprensión.
+· Tarjetas con repetición espaciada, tests por unidad y exámenes de práctica
+  con la puntuación del JLPT.
+· Interfaz y traducciones en español y en inglés.
+</es-419>
+
+<en-US>
+First release of jlptest.
+
+· The full course from N5 to N1: 8,027 words across 614 units, 1,981 kanji and
+  846 grammar points.
+· 614 reading passages written to the level of each unit, with translation and
+  comprehension questions.
+· Spaced repetition flashcards, a test for every unit, and practice exams that
+  use the JLPT scoring.
+· Interface and translations in English and Spanish.
+</en-US>
