@@ -1,0 +1,578 @@
+[
+ {
+  "id": "n1-tanbun-0005",
+  "nivel": "N1",
+  "tipo": "tanbun",
+  "grupo": "n1-tanbun-g005",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が 問題だと して いる ことは 何か。",
+  "opciones": [
+   "想定する 利用者を 決めないまま 設計する こと",
+   "初心者に 配慮しすぎる こと",
+   "熟練者を 無視する こと",
+   "わかりやすさを 基準に する こと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "どちらか一方の話ではない",
+   "無視の話ではない",
+   "基準自体は否定していない"
+  ],
+  "explicacion": {
+   "es": "El problema es no decidir para quién se diseña.",
+   "en": "The problem is not deciding whom you design for."
+  },
+  "etiquetas": [],
+  "dificultad": 6,
+  "pasaje": {
+   "texto": "道具が使いやすいかどうかを判断するとき、私たちはたいてい「わかりやすさ」を基準にする。だが、わかりやすさは慣れによっても得られる。初めて触れる人には難しく、毎日使う人には最短である設計というものが確かに存在する。問題は、どちらの利用者を想定するかを決めないまま、両方に配慮しようとすることだ。結果として、初心者には親切すぎ、熟練者には遠回りな道具ができあがる。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n1-tanbun-0006",
+  "nivel": "N1",
+  "tipo": "tanbun",
+  "grupo": "n1-tanbun-g006",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者の 記録の 書き方の 特徴は 何か。",
+  "opciones": [
+   "決まった ことと 決まらなかった ことに しぼる",
+   "できるだけ 詳しく 書く",
+   "発言者の 名前を 必ず 書く",
+   "参加者だけが 読む 前提で 書く"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "それは前者の目的",
+   "本文にない",
+   "反対の前提"
+  ],
+  "explicacion": {
+   "es": "Escribe pensando en quien no asistió, y eso lo reduce a decisiones.",
+   "en": "He writes for someone who wasn't there, which reduces it to decisions."
+  },
+  "etiquetas": [],
+  "dificultad": 6,
+  "pasaje": {
+   "texto": "記録を残すという行為には、二つの目的が混ざっている。一つは後で参照するため、もう一つは考えを整えるためだ。前者だけを目的にすると、記録は詳しくなる。後者を意識すると、記録は短くなる。書きながら捨てる作業が入るからだ。私は会議の記録を、参加していない人が読む前提で書くようにしている。そうすると、何が決まって何が決まらなかったかだけが残る。書くとは、残す作業であると同時に、捨てる作業でもある。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n1-tanbun-0007",
+  "nivel": "N1",
+  "tipo": "tanbun",
+  "grupo": "n1-tanbun-g007",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が 指摘する 逆説とは 何か。",
+  "opciones": [
+   "正確に 述べるほど 曖昧に 聞こえる こと",
+   "専門家ほど 説明が 下手だ という こと",
+   "一般の 人が 理解しようと しない こと",
+   "専門用語を 使うと 信用される こと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "下手だとは言っていない",
+   "理解不足だけではないと言っている",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Cuanto más preciso, más suena a evasiva.",
+   "en": "The more precise, the more it sounds evasive."
+  },
+  "etiquetas": [],
+  "dificultad": 6,
+  "pasaje": {
+   "texto": "専門家の説明が信用されない場面が増えている。理由を「一般の理解不足」に求める声もあるが、それだけではないだろう。専門家は、確からしさの程度を言葉で区別する訓練を受けている。「可能性は低い」と「起こらない」は別だと知っている。しかしその区別は、聞く側には慎重さではなく曖昧さとして届く。正確に話すほど、逃げているように聞こえるという逆説がある。信頼を得るのは、断定する力ではなく、区別を伝える工夫のほうだろう。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n1-tanbun-0008",
+  "nivel": "N1",
+  "tipo": "tanbun",
+  "grupo": "n1-tanbun-g008",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "「一日に 三枚」と 決める ねらいは 何か。",
+  "opciones": [
+   "撮る 前に 見るように する ため",
+   "写真の 質を 上げる ため",
+   "記録を 減らす ため",
+   "旅の 費用を 抑える ため"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "質の話ではない",
+   "記録は目的ではない",
+   "費用の話ではない"
+  ],
+  "explicacion": {
+   "es": "Limitar el número obliga a mirar antes de disparar.",
+   "en": "Limiting the number forces you to look before shooting."
+  },
+  "etiquetas": [],
+  "dificultad": 6,
+  "pasaje": {
+   "texto": "旅の記録を写真で残すようになってから、覚えている風景が減った気がする。撮ることに気を取られ、見ることが後回しになる。もっとも、写真がなければ思い出せない場面があるのも確かで、単純にどちらがよいとは言えない。私が最近やっているのは、一日に三枚だけと決めることだ。枚数を絞ると、撮る前に見るようになる。制限は不自由だが、注意の向け方を変える力がある。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n1-chuubun-0010",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g010",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者に よると、単位が 小さく なると 何が 起きるか。",
+  "opciones": [
+   "前後の 文脈が 失われる",
+   "作業の 速さが 落ちる",
+   "誤訳が すぐに 見つかる",
+   "訳す 量が 減る"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "効率は上がると書いてある",
+   "逆に気づきにくい",
+   "量の話ではない"
+  ],
+  "explicacion": {
+   "es": "Se puede procesar sin leer el entorno, y el contexto se pierde.",
+   "en": "You can process without reading around it, and context is lost."
+  },
+  "etiquetas": [],
+  "dificultad": 6,
+  "pasaje": {
+   "texto": "技術の進歩は、作業を速くするだけでなく、作業の単位を変えてしまう。かつて翻訳は、一冊という単位で引き受ける仕事だった。今は一段落、ときには一文が単位になる。単位が小さくなると、前後を読まずに処理できてしまう。効率は上がるが、文脈という情報は静かに失われる。\n私が気になるのは、失われたことに気づきにくい点だ。一文ごとに見れば、どの訳も間違っていない。全体を通して読んだときにだけ、呼び名が揺れていたり、語調が段落ごとに変わっていたりすることが分かる。部分の正しさの合計が、全体の正しさにならない例である。\nこの問題は、最後に通読すれば解決すると思われがちだ。しかし、単位が小さいまま最後まで進むと、通読の段階で直せる量を超える。順序を変えて、最初に全体を粗く通し、それから細部に入るほうがよい。粗い段階では間違いも多いが、その間違いは後で直せる種類のものだ。\n速さを求めるなら、速く進める順序を選ぶことのほうが、一つ一つの作業を速くすることより効く。\n付け加えれば、単位の大きさは道具が決めているのではない。画面に一文しか表示されない仕組みを選んだのは私たちの側であり、同じ道具で段落を表示させることもできる。順序と表示の設計は、いずれも選び直せる。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n1-chuubun-0011",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g010",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "「部分の 正しさの 合計が 全体の 正しさに ならない」とは どういう ことか。",
+  "opciones": [
+   "一文ずつは 正しくても 全体では ずれが 生じる",
+   "全体が 正しければ 部分も 正しい",
+   "部分を 直せば 全体も 直る",
+   "全体は 部分より 短い"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "逆の主張",
+   "本文と反対",
+   "内容が違う"
+  ],
+  "explicacion": {
+   "es": "Cada frase es correcta y aun así el conjunto no cuadra.",
+   "en": "Each sentence is right and yet the whole doesn't cohere."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-chuubun-0012",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g010",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が すすめる 進め方は どれか。",
+  "opciones": [
+   "まず 全体を 粗く 通し、その後 細部に 入る",
+   "細部を 完成させて から 通読する",
+   "一文ずつ 完璧に 仕上げる",
+   "通読を 省いて 速さを 優先する"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "それでは直せる量を超える",
+   "それが問題だと言っている",
+   "本文と反対"
+  ],
+  "explicacion": {
+   "es": "Primero una pasada gruesa por todo, luego el detalle.",
+   "en": "First a rough pass over everything, then the detail."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-chuubun-0013",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g011",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者に よると、学ぶ ために 必要なのは 何か。",
+  "opciones": [
+   "失敗の 直後に 得られる 細かい 情報",
+   "失敗そのものの 経験",
+   "落ち着いて から 書いた 報告",
+   "原因の 分析"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "失敗そのものではないと書いてある",
+   "そこでは細部が削られる",
+   "メモには書かせない"
+  ],
+  "explicacion": {
+   "es": "Lo que sirve es la información inmediata, no el relato posterior.",
+   "en": "What helps is the immediate information, not the later narrative."
+  },
+  "etiquetas": [],
+  "dificultad": 6,
+  "pasaje": {
+   "texto": "『失敗から学べ』という言葉は、ほとんど反論の余地がないように見える。しかし、学べるのは失敗そのものからではない。失敗の直後に得られる情報からだ。そして、その情報が最も豊富なのは、当事者が最も動揺している時間帯である。\n組織が報告を求めるのは、たいてい落ち着いてからだ。落ち着いた頃には、記憶は整理され、筋の通った物語に変わっている。物語は共有しやすいが、実際に何を見て何を見落としたかという細部はそこで削り落とされる。学習に必要なのは、削られたほうである。\nだから私は、失敗の直後にまず短いメモを取らせる。評価はしない、原因も書かない、見たものと順序だけを書く。後日の検討はそのメモを土台にする。土台がないと、検討は「なぜそうしたのか」という問い詰めになりやすい。\n失敗から学ぶ組織と、失敗を裁く組織を分けるのは、反省の深さではなく、記録を取る時刻である。\nもっとも、直後にメモを取らせる仕組みには抵抗が伴う。動揺しているときに書かせるのは酷だ、という声が必ず出る。だからこそ、書く項目を三つに限り、二分で終わる形にしてある。負担を減らすことと、情報を残すことは両立する。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n1-chuubun-0014",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g011",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "短い メモに 原因を 書かせないのは なぜだと 考えられるか。",
+  "opciones": [
+   "解釈が 入ると 見た ものが ゆがむから",
+   "書く 時間が 足りないから",
+   "原因は 後で 分かるから",
+   "責任者が 決まらないから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "時間の話ではない",
+   "分かる時期の話ではない",
+   "責任の話ではない"
+  ],
+  "explicacion": {
+   "es": "Escribir causas mete interpretación y deforma lo observado.",
+   "en": "Writing causes brings interpretation and warps what was seen."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-chuubun-0015",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g011",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 文章の 主張に 最も 近い ものは どれか。",
+  "opciones": [
+   "記録を 取る 時刻が 組織の 学び方を 決める",
+   "反省は 深いほど よい",
+   "失敗は 減らす べきだ",
+   "報告書は 詳しい ほど よい"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "深さではないと書いてある",
+   "本文にない",
+   "詳しさの話ではない"
+  ],
+  "explicacion": {
+   "es": "El cierre lo dice: lo decisivo es cuándo se registra.",
+   "en": "The ending says it: what matters is when you record."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-chuubun-0016",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g012",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "駅の 待合に 椅子が 少ない 理由として 挙げられて いるのは 何か。",
+  "opciones": [
+   "人が 長く 留まる ことを 想定して いないから",
+   "場所が 足りないから",
+   "費用が かかるから",
+   "掃除が 大変だから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文にない",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "El diseño busca rotación, no permanencia.",
+   "en": "The design aims at turnover, not staying."
+  },
+  "etiquetas": [],
+  "dificultad": 6,
+  "pasaje": {
+   "texto": "公共の場所に置かれた椅子の数は、その場所が何を歓迎しているかを示している。駅の待合に椅子が少ないのは、人が長く留まることを想定していないからだ。設計者は「回転を上げる」と言うだろうし、それは間違いではない。ただ、留まる人の中には、留まりたくて留まっているのではない人もいる。\n少し前、私は足を痛めて、十分に一度は座る必要があった。そのときはじめて、街には座れる場所がほとんどないことに気づいた。健康なときには存在しなかった障害物が、次々に現れた。設備は変わっていない。変わったのは私のほうだ。\nこの経験から言えるのは、使いやすさは利用者の状態によって定義が変わる、ということだ。平均的な利用者を想定した設計は、平均から外れた瞬間に機能しなくなる。しかも人は、生涯のうち何度も平均から外れる。子どもを連れているとき、荷物が多いとき、体調が悪いとき。\n椅子を増やせば解決する話ではない。だが、どんな状態の人を想定していないかを言語化することは、どの設計でもできるはずだ。\n設計の説明書に「想定利用者」を書く欄はあっても、「想定していない利用者」を書く欄はまずない。その欄を一つ足すだけで、議論の質は変わるはずだ。書けないなら、それは想定が甘いという合図である。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n1-chuubun-0017",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g012",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "「変わったのは 私の ほうだ」とは どういう 意味か。",
+  "opciones": [
+   "設備は 同じでも、体の 状態で 使い勝手が 変わった",
+   "自分の 考え方が 変わった",
+   "街の 設備が 新しく なった",
+   "足の けがが 治った"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "考えの変化ではなく状態の変化",
+   "設備は変わっていない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Las instalaciones son las mismas; cambió su cuerpo.",
+   "en": "The facilities are the same; his body changed."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-chuubun-0018",
+  "nivel": "N1",
+  "tipo": "chuubun",
+  "grupo": "n1-chuubun-g012",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が 現実的だと して いる 対応は どれか。",
+  "opciones": [
+   "想定して いない 利用者を 言葉に する こと",
+   "椅子を 大幅に 増やす こと",
+   "平均的な 利用者を 想定する こと",
+   "設計者を 変える こと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "解決ではないと書いてある",
+   "それが問題だと言っている",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Propone explicitar a quién no se está contemplando.",
+   "en": "He proposes spelling out who is not being considered."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-chobun-0005",
+  "nivel": "N1",
+  "tipo": "chobun",
+  "grupo": "n1-chobun-g002",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が 気づいた 「条件」とは 何か。",
+  "opciones": [
+   "聞く 前に どこまで 調べたかを 示す こと",
+   "質問を 短く する こと",
+   "相手の 都合を 確かめる こと",
+   "同じ 質問を くり返さない こと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "短さの話ではない",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "El requisito es mostrar hasta dónde llegaste solo.",
+   "en": "The condition is showing how far you got on your own."
+  },
+  "etiquetas": [],
+  "dificultad": 6,
+  "pasaje": {
+   "texto": "入社してしばらく、私は「わからないことがあれば聞いてください」という言葉を額面どおりに受け取っていた。実際に聞くと、たいていは答えてもらえる。しかし何度目かのとき、相手の表情がわずかに動いたのを見て、この制度には条件があるらしいと気づいた。\n条件とは、聞く前にどこまで自分で調べたかを示すことである。「わかりません」と「ここまで調べて、ここで止まりました」は、受け取る側にとってまったく違う問いだ。前者は相手に問題の輪郭を描く作業まで渡してしまう。後者は、渡すのは最後の一歩だけで済む。\nこの違いに気づいてから、私は質問の前に三行を書くようにした。何をしたいのか、何を試したのか、どこで詰まったのか。書いてみると、半分ほどは書いている途中で解決した。つまり、私が求めていたのは答えではなく、整理する場だったのである。\n残りの半分は、三行を見せながら聞いた。返ってくる答えは、以前より短く、そして正確になった。相手が推測しなくてよくなったからだ。同じ人に同じ量だけ時間をもらっているのに、得られるものが増えた。\n後輩ができてから、私はこの三行を強制しないことにしている。強制すると、書けない質問が消えてしまうからだ。本当に困っている人は、三行を書く余裕がないことがある。制度として求めるのではなく、自分がやってみせるにとどめている。\n「聞いてください」という言葉は、たしかに親切だ。ただ、その親切を最大限に使うには、聞く側の準備がいる。準備は相手のためでもあるが、半分は自分のためだった。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n1-chobun-0006",
+  "nivel": "N1",
+  "tipo": "chobun",
+  "grupo": "n1-chobun-g002",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "三行を 書くように した 結果、何が 起きたか。",
+  "opciones": [
+   "半分ほどは 書いて いる 途中で 解決した",
+   "質問の 数が 増えた",
+   "答えが 長く なった",
+   "相手の 時間が 増えた"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文にない",
+   "短く正確になった",
+   "同じ量だと書いてある"
+  ],
+  "explicacion": {
+   "es": "La mitad se resolvía mientras escribía las tres líneas.",
+   "en": "Half resolved themselves while writing the three lines."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-chobun-0007",
+  "nivel": "N1",
+  "tipo": "chobun",
+  "grupo": "n1-chobun-g002",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "後輩に 三行を 強制しない 理由は 何か。",
+  "opciones": [
+   "書けない ほど 困って いる 人の 質問が 消えるから",
+   "後輩に 嫌われたく ないから",
+   "自分も 書けない ことが あるから",
+   "制度に する 時間が ないから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文にない",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Quien está muy apurado no tiene margen para escribirlas.",
+   "en": "Someone truly stuck may have no room to write them."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-chobun-0008",
+  "nivel": "N1",
+  "tipo": "chobun",
+  "grupo": "n1-chobun-g002",
+  "orden_grupo": 3,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 文章で 筆者が 最も 言いたい ことは 何か。",
+  "opciones": [
+   "親切を 生かすには 聞く 側の 準備が いる",
+   "質問は しない ほうが よい",
+   "先輩は もっと 丁寧に 答える べきだ",
+   "制度は 強制しなければ 意味が ない"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文と反対",
+   "本文にない",
+   "本文と反対"
+  ],
+  "explicacion": {
+   "es": "El cierre: aprovechar el ofrecimiento exige preparación de quien pregunta.",
+   "en": "The ending: making use of the offer takes preparation from the asker."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-tougou-0004",
+  "nivel": "N1",
+  "tipo": "tougou",
+  "grupo": "n1-tougou-g003",
+  "orden_grupo": 0,
+  "instruccion_ja": "次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "研修に ついて、AとBが 共通して 認めて いる ことは 何か。",
+  "opciones": [
+   "現場で 教える ことには 意味が ある",
+   "研修は 長い ほど よい",
+   "研修は 不要である",
+   "質問は 中断で ある"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "Aは反対している",
+   "Bは仕組みとして評価している",
+   "Bの指摘にすぎない"
+  ],
+  "explicacion": {
+   "es": "Los dos aceptan que enseñar sobre el terreno vale; discrepan en las condiciones.",
+   "en": "Both accept on-the-job teaching has value; they differ on the conditions."
+  },
+  "etiquetas": [],
+  "dificultad": 6,
+  "pasaje": {
+   "texto": "A\n新人研修を 長く すべきだという 意見に 私は 賛成できない。研修で 教えられる ことは、教える 側が 言語化できた ものに 限られる。現場の 仕事の 多くは 言語化されて いない。研修を 延ばすほど、言語化できた 部分だけが 肥大し、現場との 差は 開く。早く 現場に 出し、詰まった ところで 教えるほうが、結果として 教える 量は 増える。\n\nB\n現場で 教えるのが よいというのは、教える 側に 余裕が ある 場合の 話だ。忙しい 現場では、質問は 中断として 扱われる。「あとで」と 言われた 質問は、たいてい 戻って こない。研修は 非効率に 見えるが、質問しても よい 時間を 確保する 仕組みでもある。その 時間を 削るなら、代わりの 仕組みが 要る。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n1-tougou-0005",
+  "nivel": "N1",
+  "tipo": "tougou",
+  "grupo": "n1-tougou-g003",
+  "orden_grupo": 1,
+  "instruccion_ja": "次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "Bが Aに 対して 指摘して いる 点は 何か。",
+  "opciones": [
+   "現場に 教える 余裕が あるとは 限らない",
+   "研修の 内容が 古い こと",
+   "新人の 能力が 足りない こと",
+   "言語化は 不可能で ある こと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文にない",
+   "本文にない",
+   "Aの主張の一部にすぎない"
+  ],
+  "explicacion": {
+   "es": "B señala que el terreno no siempre tiene margen para enseñar.",
+   "en": "B points out the workplace may lack the slack to teach."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-tougou-0006",
+  "nivel": "N1",
+  "tipo": "tougou",
+  "grupo": "n1-tougou-g003",
+  "orden_grupo": 2,
+  "instruccion_ja": "次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 二つの 文章から 言える ことは 何か。",
+  "opciones": [
+   "研修の 是非は 現場の 余裕に 左右される",
+   "研修は 廃止す べきだ",
+   "研修は 延長す べきだ",
+   "新人は 質問を 控える べきだ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "どちらもそこまで言っていない",
+   "Aが反対",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "El punto de fricción es si hay margen en el trabajo diario.",
+   "en": "The crux is whether day-to-day work has any slack."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ }
+]

@@ -1,0 +1,177 @@
+[
+ {
+  "id": "n1-shuchou-0005",
+  "nivel": "N1",
+  "tipo": "shuchou",
+  "grupo": "n1-shuchou-g002",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が 述べる 逆説とは 何か。",
+  "opciones": [
+   "多様性を 掲げた 場ほど 決定が 同質的に なる こと",
+   "多様な 意見ほど 決定が 遅く なる こと",
+   "参加者が 増えるほど 会議が 短く なる こと",
+   "経験の 長い 人ほど 発言しない こと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "速さの話ではない",
+   "本文と反対",
+   "本文と反対"
+  ],
+  "explicacion": {
+   "es": "Cuanto más se proclama la diversidad, más homogénea sale la decisión.",
+   "en": "The more diversity is proclaimed, the more homogeneous the decision."
+  },
+  "etiquetas": [],
+  "dificultad": 6,
+  "pasaje": {
+   "texto": "「多様な意見を取り入れる」という方針は、いまや反対しにくい。だが、意見を集めることと、意見が働くことは別である。私は十年ほど、複数の組織で会議の設計に関わってきたが、多様性を掲げた場ほど、決定が同質的になるという逆説をしばしば見てきた。\n理由の一つは、時間の配分にある。多様な参加者を招くと、説明に時間がかかる。前提の共有だけで前半が終わり、後半は「では、いつもの方針で」となる。多様性は入口で歓迎され、出口で切り捨てられる。招いた側に悪意はない。時間がないだけだ。\nもう一つは、発言の順序である。経験の長い人から話し始めると、後の発言はその枠組みの中で行われる。異なる枠組みを持つ人は、自分の見方を説明する労力を負う。労力を避ければ、枠に合わせて話すほうが早い。こうして、席の多様性は保たれたまま、議論の多様性だけが失われる。\n対策は、理念ではなく手順にある。私が採るのは二つだ。第一に、前提の説明を会議の外に出す。読めば分かるものは配って読ませ、会議は差異の検討から始める。第二に、発言の順序を経験の浅い順にする。枠組みが固まる前に、別の見方を場に置いてしまう。\nどちらも小さな工夫で、理念としては何も新しくない。しかし、多様性を掲げる文書を一枚増やすより、会議の進行表を一行変えるほうが、決定は確実に変わる。理念は方向を示すが、手順だけが実際の行動を変えるからだ。\n多様性を求めるなら、まず時計を見るべきである。誰を招いたかではなく、招いた人が話す時間が何分あるか。その数字が、方針の本気度をいちばん正直に表している。\n付け加えたい ことが ある。手順を 変える 提案は、理念を 掲げる 提案より 通りにくい。理念は 誰の 仕事も 増やさないが、手順は 誰かの 慣れた やり方を 崩すからだ。進行表の 一行を 変える ためには、その 一行で 何が 減るのかを 示す 必要が ある。前提の 説明を 外に 出せば、司会の 負担は 減る。発言順を 変えれば、経験者は 最後に 全体を 見て 話せる。どちらも 誰かにとっての 利点に なって いる。\n多様性の 議論が 理念の 応酬に なりやすいのは、利点を 分け合う 設計が 示されない ためだと 私は 思う。誰が 何を 失うのかを 曖昧に した まま 正しさだけを 唱えると、反対する 人は 反対の 理由を 言えなく なる。言えない 反対は 消えるのでは なく、実行の 段階で 静かに 現れる。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n1-shuchou-0006",
+  "nivel": "N1",
+  "tipo": "shuchou",
+  "grupo": "n1-shuchou-g002",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "前提の 説明を 会議の 外に 出すのは なぜか。",
+  "opciones": [
+   "差異の 検討に 時間を 使う ため",
+   "参加者を 減らす ため",
+   "会議の 回数を 増やす ため",
+   "資料を 減らす ため"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "人数の話ではない",
+   "回数の話ではない",
+   "資料は配ると書いてある"
+  ],
+  "explicacion": {
+   "es": "Para que el tiempo de reunión se dedique a las diferencias.",
+   "en": "So that meeting time goes to the differences."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-shuchou-0007",
+  "nivel": "N1",
+  "tipo": "shuchou",
+  "grupo": "n1-shuchou-g002",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "発言の 順序を 経験の 浅い 順に する ねらいは 何か。",
+  "opciones": [
+   "枠組みが 固まる 前に 別の 見方を 出す ため",
+   "若手を 育てる ため",
+   "会議を 早く 終える ため",
+   "経験者の 負担を 減らす ため"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "育成の話ではない",
+   "速さの話ではない",
+   "負担は逆に軽くなる側の話"
+  ],
+  "explicacion": {
+   "es": "Colocar otra mirada antes de que se fije el marco.",
+   "en": "Getting another view in before the frame sets."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-shuchou-0008",
+  "nivel": "N1",
+  "tipo": "shuchou",
+  "grupo": "n1-shuchou-g002",
+  "orden_grupo": 3,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 文章の 主張に 最も 近い ものは どれか。",
+  "opciones": [
+   "理念より 手順を 変える ほうが 決定は 変わる",
+   "多様性の 方針は 見直す べきだ",
+   "会議は 少人数で 行う べきだ",
+   "経験の 長い 人の 意見を 尊重す べきだ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "方針自体は否定していない",
+   "人数の話ではない",
+   "本文と反対"
+  ],
+  "explicacion": {
+   "es": "Lo dice al final: los procedimientos, no los principios, cambian la conducta.",
+   "en": "He says it at the end: procedure, not principle, changes behaviour."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ },
+ {
+  "id": "n1-jouhou-0003",
+  "nivel": "N1",
+  "tipo": "jouhou",
+  "grupo": "n1-jouhou-g003",
+  "orden_grupo": 0,
+  "instruccion_ja": "右のページは、あんないである。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "三年前に 本助成を 受け終えた 研究者が 応募する 場合、どう なるか。",
+  "opciones": [
+   "応募できる",
+   "応募できない",
+   "面接だけ 免除される",
+   "上限額が 半分に なる"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "三年を経過していれば応募できる",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Exigen tres años desde el último ejercicio: los cumple.",
+   "en": "Three years since the final year are required: he meets it."
+  },
+  "etiquetas": [],
+  "dificultad": 6,
+  "pasaje": {
+   "texto": "【研究助成金　応募のご案内（第十二期）】\n\n■ 対象\n　国内の 大学・研究機関に 所属する 研究者。年齢制限は ありません。\n　過去に 本助成を 受けた 方は、最終年度から 三年を 経過して いる ことが 必要です。\n\n■ 助成額と 期間\n　一件あたり 上限 三百万円、期間は 二年間。\n　設備費に 充てられるのは 総額の 三割までです。\n　人件費への 充当は 認められません。\n\n■ 応募方法\n　所定の 様式を ホームページから 取得し、電子申請システムで 提出。\n　紙での 提出は 受け付けません。\n　締切は 十月三十一日 午後五時（時間厳守）。\n\n■ 審査\n　書面審査（十一月）と 面接審査（十二月中旬）の 二段階。\n　面接は 対面のみ。遠方の 方も 会場まで お越しください。\n　結果は 一月末までに 電子メールで 通知します。\n\n■ 報告\n　各年度 終了後 二か月以内に 報告書を 提出。\n　最終報告書の 提出が ない 場合、次期以降の 応募は できません。\n\n■ 経費の 取り扱い\n　旅費は 国内に 限ります。国際会議への 参加費は 対象外です。\n　物品は 一件 五万円 未満の ものに 限り、五万円 以上の 物品は 設備費として 扱います。\n　購入した 物品は、期間 終了後も 所属機関で 管理して ください。\n\n■ よく ある お問い合わせ\n　共同研究者は 三名までです。所属機関は 問いません。\n　同一年度に 他の 助成と 併給する ことは できません。\n　採択後の 計画変更は、事前に 書面で ご相談ください。",
+   "notas": [
+    {
+     "termino": "充当",
+     "glosa": "その目的に当てること"
+    }
+   ]
+  }
+ },
+ {
+  "id": "n1-jouhou-0004",
+  "nivel": "N1",
+  "tipo": "jouhou",
+  "grupo": "n1-jouhou-g003",
+  "orden_grupo": 1,
+  "instruccion_ja": "右のページは、あんないである。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 案内の 内容と 合って いる ものは どれか。",
+  "opciones": [
+   "設備費に 使えるのは 総額の 三割までで ある",
+   "紙でも 電子でも 応募できる",
+   "面接は 遠方の 場合 オンラインで 受けられる",
+   "報告書を 出さなくても 次期に 応募できる"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "紙は受け付けないと書いてある",
+   "対面のみと書いてある",
+   "出さないと応募できない"
+  ],
+  "explicacion": {
+   "es": "El tope del 30 % para equipamiento es lo único que coincide.",
+   "en": "The 30 % cap on equipment is the only match."
+  },
+  "etiquetas": [],
+  "dificultad": 6
+ }
+]
