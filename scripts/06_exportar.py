@@ -44,7 +44,11 @@ vocab = [r for r in json.load(open("data/build/vocab_clasificado.json", encoding
          if r["id"] not in DESCARTAR]
 for r in vocab:
     for campo, valor in CORRECCIONES.get(r["id"], {}).items():
-        if valor.strip(): r[campo] = valor.strip()
+        valor = valor.strip()
+        # Un guion vacía el campo a propósito: hay entradas cuyo «kanji» es
+        # basura de la lista original y dejar el campo en blanco es el arreglo.
+        if valor == "-": r[campo] = ""
+        elif valor: r[campo] = valor
 
 salida_v = []
 for r in vocab:
