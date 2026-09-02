@@ -1,0 +1,36 @@
+{
+ "unidad_id": "N5/jikan/calendario-3",
+ "titulo": "<ruby>今週<rt>こんしゅう</rt></ruby>のよてい",
+ "cuerpo": "<ruby>月曜日<rt>げつようび</rt></ruby>と<ruby>水曜日<rt>すいようび</rt></ruby>は<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。<ruby>火曜日<rt>かようび</rt></ruby>と<ruby>木曜日<rt>もくようび</rt></ruby>はアルバイトです。<ruby>金曜日<rt>きんようび</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>は<ruby>友<rt>とも</rt></ruby>だちとあいます。<ruby>土曜日<rt>どようび</rt></ruby>はそうじをして、<ruby>日曜日<rt>にちようび</rt></ruby>はやすみます。<ruby>昨夜<rt>ゆうべ</rt></ruby>はおそくまでべんきょうしました。<ruby>来週<rt>らいしゅう</rt></ruby>はテストがあります。<ruby>来月<rt>らいげつ</rt></ruby>から<ruby>夏休<rt>なつやす</rt></ruby>みで、<ruby>来年<rt>らいねん</rt></ruby>も<ruby>毎年<rt>まいねん</rt></ruby>のようにうみへ<ruby>行<rt>い</rt></ruby>きたいです。<ruby>毎晩<rt>まいばん</rt></ruby>、つぎの<ruby>日<rt>ひ</rt></ruby>のよていを<ruby>見<rt>み</rt></ruby>ます。",
+ "traduccion": "Los lunes y los miércoles voy a la escuela. Los martes y los jueves trabajo. El viernes por la noche quedo con mis amigos. El sábado limpio y el domingo descanso. Anoche estudié hasta tarde. La semana que viene tengo un examen. Desde el mes que viene son las vacaciones de verano, y el año que viene quiero ir al mar, como todos los años. Todas las noches miro el plan del día siguiente.",
+ "preguntas": [
+  {
+   "p": "アルバイトは<ruby>何曜日<rt>なんようび</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>月曜日<rt>げつようび</rt></ruby>と<ruby>水曜日<rt>すいようび</rt></ruby>",
+    "<ruby>火曜日<rt>かようび</rt></ruby>と<ruby>木曜日<rt>もくようび</rt></ruby>",
+    "<ruby>土曜日<rt>どようび</rt></ruby>と<ruby>日曜日<rt>にちようび</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "テストはいつありますか。",
+   "opciones": [
+    "<ruby>今週<rt>こんしゅう</rt></ruby>",
+    "<ruby>来週<rt>らいしゅう</rt></ruby>",
+    "<ruby>来月<rt>らいげつ</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>日曜日<rt>にちようび</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "そうじをします",
+    "やすみます",
+    "<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます"
+   ],
+   "correcta": 1
+  }
+ ],
+ "traduccion_en": "On Mondays and Wednesdays I go to school. On Tuesdays and Thursdays I work part-time. On Friday evening I meet my friends. On Saturday I clean and on Sunday I rest. Last night I studied until late. Next week I have a test. From next month it's the summer holidays, and next year I want to go to the sea, as I do every year. Every night I look at the next day's plan."
+}

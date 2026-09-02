@@ -1,0 +1,36 @@
+{
+ "unidad_id": "N4/gijutsu/creencias-1",
+ "titulo": "そつぎょうの<ruby>お祝<rt>おいわ</rt></ruby>い",
+ "cuerpo": "いもうとが<ruby>大学<rt>だいがく</rt></ruby>をそつぎょうしたので、<ruby>家族<rt>かぞく</rt></ruby>で<ruby>お祝<rt>おいわ</rt></ruby>いをしました。そぼは<ruby>朝<rt>あさ</rt></ruby>からりょうりを<ruby>作<rt>つく</rt></ruby>って、テーブルにならべました。<ruby>父<rt>ちち</rt></ruby>は<ruby>写真<rt>しゃしん</rt></ruby>をたくさんとりました。<ruby>お祝<rt>おいわ</rt></ruby>いのことばを<ruby>言<rt>い</rt></ruby>うとき、いもうとはすこしないていました。プレゼントはあたらしいかばんです。<ruby>仕事<rt>しごと</rt></ruby>がはじまる<ruby>日<rt>ひ</rt></ruby>に、そのかばんを<ruby>持<rt>も</rt></ruby>って<ruby>行<rt>い</rt></ruby>くそうです。",
+ "traduccion": "Como mi hermana terminó la universidad, lo celebramos en familia. Mi abuela cocinó desde por la mañana y lo puso todo en la mesa. Mi padre hizo muchas fotos. Cuando le dimos la enhorabuena, mi hermana lloraba un poco. El regalo fue un bolso nuevo. Dice que el día que empiece a trabajar lo llevará.",
+ "preguntas": [
+  {
+   "p": "どうして<ruby>お祝<rt>おいわ</rt></ruby>いをしましたか。",
+   "opciones": [
+    "いもうとがそつぎょうしたから",
+    "たんじょうびだから",
+    "しごとがきまったから"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "そぼは<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "<ruby>写真<rt>しゃしん</rt></ruby>をとった",
+    "りょうりを<ruby>作<rt>つく</rt></ruby>った",
+    "プレゼントを<ruby>買<rt>か</rt></ruby>った"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "プレゼントは<ruby>何<rt>なん</rt></ruby>でしたか。",
+   "opciones": [
+    "かばん",
+    "とけい",
+    "<ruby>本<rt>ほん</rt></ruby>"
+   ],
+   "correcta": 0
+  }
+ ],
+ "traduccion_en": "As my sister finished university, we celebrated it as a family. My grandmother cooked from the morning and laid it all out on the table. My father took lots of photos. When we gave her our congratulations, my sister was crying a little. The present was a new bag. She says she'll take it with her the day she starts work."
+}

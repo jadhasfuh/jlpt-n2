@@ -1,0 +1,36 @@
+{
+ "unidad_id": "N5/shigoto/politica-1",
+ "titulo": "<ruby>町<rt>まち</rt></ruby>の<ruby>外国人<rt>がいこくじん</rt></ruby>",
+ "cuerpo": "わたしの<ruby>町<rt>まち</rt></ruby>には<ruby>外国人<rt>がいこくじん</rt></ruby>がたくさんすんでいます。となりのへやの<ruby>人<rt>ひと</rt></ruby>も<ruby>外国人<rt>がいこくじん</rt></ruby>です。にちようびに、<ruby>町<rt>まち</rt></ruby>のパーティーがありました。みんなでりょうりを<ruby>作<rt>つく</rt></ruby>って、いっしょに<ruby>食<rt>た</rt></ruby>べました。ことばは<ruby>少<rt>すこ</rt></ruby>しむずかしいですが、<ruby>顔<rt>かお</rt></ruby>を<ruby>見<rt>み</rt></ruby>てはなせばわかります。となりの<ruby>人<rt>ひと</rt></ruby>は「この<ruby>町<rt>まち</rt></ruby>がすきです」と<ruby>言<rt>い</rt></ruby>いました。",
+ "traduccion": "En mi ciudad viven muchos extranjeros. La persona del piso de al lado también es extranjera. El domingo hubo una fiesta del barrio. Cocinamos entre todos y comimos juntos. El idioma cuesta un poco, pero mirándose a la cara y hablando se entiende uno. Mi vecino dijo: «me gusta esta ciudad».",
+ "preguntas": [
+  {
+   "p": "パーティーはいつありましたか。",
+   "opciones": [
+    "<ruby>土曜日<rt>どようび</rt></ruby>",
+    "にちようび",
+    "<ruby>月曜日<rt>げつようび</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "パーティーで<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "opciones": [
+    "りょうりを<ruby>作<rt>つく</rt></ruby>って<ruby>食<rt>た</rt></ruby>べました",
+    "うたをうたいました",
+    "テレビを<ruby>見<rt>み</rt></ruby>ました"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "となりの<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "「<ruby>国<rt>くに</rt></ruby>へかえりたい」",
+    "「この<ruby>町<rt>まち</rt></ruby>がすきです」",
+    "「ことばがわかりません」"
+   ],
+   "correcta": 1
+  }
+ ],
+ "traduccion_en": "Many foreigners live in my town. The person in the flat next door is a foreigner too. On Sunday there was a neighbourhood party. We all cooked and ate together. The language is a little hard, but if you look at each other's faces and talk, you understand. My neighbour said: «I like this town»."
+}

@@ -1,0 +1,36 @@
+{
+ "unidad_id": "N5/kurashi/comida-2",
+ "titulo": "わたしの<ruby>一日<rt>いちにち</rt></ruby>の<ruby>食<rt>た</rt></ruby>べもの",
+ "cuerpo": "<ruby>朝御飯<rt>あさごはん</rt></ruby>はパンと<ruby>お茶<rt>おちゃ</rt></ruby>です。<ruby>昼御飯<rt>ひるごはん</rt></ruby>はかいしゃで<ruby>お弁当<rt>おべんとう</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。<ruby>母<rt>はは</rt></ruby>が<ruby>作<rt>つく</rt></ruby>った<ruby>お弁当<rt>おべんとう</rt></ruby>には、いつも<ruby>鶏肉<rt>とりにく</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っています。<ruby>三時<rt>さんじ</rt></ruby>ごろ、<ruby>喫茶店<rt>きっさてん</rt></ruby>で<ruby>お菓子<rt>おかし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。<ruby>夕飯<rt>ゆうはん</rt></ruby>はうちで<ruby>作<rt>つく</rt></ruby>ります。<ruby>晩御飯<rt>ばんごはん</rt></ruby>のときは、たまに<ruby>お酒<rt>おさけ</rt></ruby>をのみます。すきな<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>は<ruby>お茶<rt>おちゃ</rt></ruby>で、すきな<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>はカレーです。",
+ "traduccion": "El desayuno es pan y té. A mediodía como en la empresa la fiambrera. En la fiambrera que prepara mi madre siempre hay pollo. Sobre las tres tomo un dulce en la cafetería. La cena la hago en casa. En la cena, de vez en cuando bebo alcohol. Mi bebida favorita es el té y mi comida favorita es el curry.",
+ "preguntas": [
+  {
+   "p": "<ruby>お弁当<rt>おべんとう</rt></ruby>にはいつも<ruby>何<rt>なに</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っていますか。",
+   "opciones": [
+    "<ruby>鶏肉<rt>とりにく</rt></ruby>",
+    "<ruby>お菓子<rt>おかし</rt></ruby>",
+    "カレー"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>三時<rt>さんじ</rt></ruby>ごろ、どこで<ruby>お菓子<rt>おかし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
+   "opciones": [
+    "うち",
+    "かいしゃ",
+    "<ruby>喫茶店<rt>きっさてん</rt></ruby>"
+   ],
+   "correcta": 2
+  },
+  {
+   "p": "すきな<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "<ruby>お酒<rt>おさけ</rt></ruby>",
+    "<ruby>お茶<rt>おちゃ</rt></ruby>",
+    "コーヒー"
+   ],
+   "correcta": 1
+  }
+ ],
+ "traduccion_en": "Breakfast is bread and tea. At midday I eat my packed lunch at the company. In the lunchbox my mother makes there's always chicken. Around three I have something sweet at the café. Dinner I cook at home. With dinner, now and then I have a drink. My favourite drink is tea and my favourite food is curry."
+}

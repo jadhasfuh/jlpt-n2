@@ -1,0 +1,36 @@
+{
+ "unidad_id": "N5/hito/cuerpo-2",
+ "titulo": "<ruby>体<rt>からだ</rt></ruby>にいい<ruby>食<rt>た</rt></ruby>べもの",
+ "cuerpo": "<ruby>父<rt>ちち</rt></ruby>は<ruby>体<rt>からだ</rt></ruby>がつよいです。<ruby>毎日<rt>まいにち</rt></ruby>あるいて、やさいをたくさん<ruby>食<rt>た</rt></ruby>べます。<ruby>肉<rt>にく</rt></ruby>もすきです。<ruby>牛肉<rt>ぎゅうにく</rt></ruby>より<ruby>豚肉<rt>ぶたにく</rt></ruby>のほうがやすいので、うちでは<ruby>豚肉<rt>ぶたにく</rt></ruby>をよく<ruby>食<rt>た</rt></ruby>べます。<ruby>母<rt>はは</rt></ruby>は<ruby>豚肉<rt>ぶたにく</rt></ruby>とやさいのりょうりをつくります。あまいものはすこしだけです。げんきな<ruby>体<rt>からだ</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby>のごはんからできます。",
+ "traduccion": "Mi padre tiene un cuerpo fuerte. Camina todos los días y come muchas verduras. También le gusta la carne. Como la carne de cerdo es más barata que la de vaca, en casa comemos cerdo a menudo. Mi madre prepara un plato de cerdo con verduras. De dulces, sólo un poco. Un cuerpo sano se hace con la comida de cada día.",
+ "preguntas": [
+  {
+   "p": "うちでよく<ruby>食<rt>た</rt></ruby>べる<ruby>肉<rt>にく</rt></ruby>はどれですか。",
+   "opciones": [
+    "<ruby>牛肉<rt>ぎゅうにく</rt></ruby>",
+    "<ruby>豚肉<rt>ぶたにく</rt></ruby>",
+    "とりにく"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "どうしてその<ruby>肉<rt>にく</rt></ruby>をよく<ruby>食<rt>た</rt></ruby>べますか。",
+   "opciones": [
+    "やすいから",
+    "おおきいから",
+    "あたらしいから"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "およぎます",
+    "あるきます",
+    "はしります"
+   ],
+   "correcta": 1
+  }
+ ],
+ "traduccion_en": "My father has a strong body. He walks every day and eats plenty of vegetables. He likes meat too. As pork is cheaper than beef, at home we often eat pork. My mother makes a dish of pork with vegetables. Sweet things, only a little. A healthy body is made from what you eat each day."
+}

@@ -1,0 +1,36 @@
+{
+ "unidad_id": "N4/shigoto/empresa-1",
+ "titulo": "<ruby>社長<rt>しゃちょう</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>",
+ "cuerpo": "うちの<ruby>会社<rt>かいしゃ</rt></ruby>は<ruby>小<rt>ちい</rt></ruby>さくて、<ruby>全部<rt>ぜんぶ</rt></ruby>で<ruby>十五人<rt>じゅうごにん</rt></ruby>です。<ruby>社長<rt>しゃちょう</rt></ruby>はいつも<ruby>一番<rt>いちばん</rt></ruby>はやく<ruby>来<rt>き</rt></ruby>ます。<ruby>朝<rt>あさ</rt></ruby>、<ruby>事務所<rt>じむしょ</rt></ruby>のそうじをしているのは<ruby>社長<rt>しゃちょう</rt></ruby>です。「<ruby>社長<rt>しゃちょう</rt></ruby>がしなくてもいいですよ」と<ruby>言<rt>い</rt></ruby>うと、わらって「<ruby>体<rt>からだ</rt></ruby>をうごかすと<ruby>頭<rt>あたま</rt></ruby>がはたらく」と<ruby>答<rt>こた</rt></ruby>えました。<ruby>会議<rt>かいぎ</rt></ruby>のときも、まず<ruby>みんな<rt>みんな</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きます。それから<ruby>自分<rt>じぶん</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えを<ruby>言<rt>い</rt></ruby>います。だから、この<ruby>会社<rt>かいしゃ</rt></ruby>では<ruby>意見<rt>いけん</rt></ruby>が<ruby>言<rt>い</rt></ruby>いやすいです。",
+ "traduccion": "Nuestra empresa es pequeña: somos quince en total. El presidente es siempre el primero en llegar. Por la mañana, quien limpia la oficina es él. Cuando le dije «no hace falta que lo haga usted», se rió y contestó: «si mueves el cuerpo, la cabeza trabaja». En las reuniones también escucha primero lo que dicen los demás. Después dice lo que piensa. Por eso en esta empresa es fácil dar tu opinión.",
+ "preguntas": [
+  {
+   "p": "<ruby>朝<rt>あさ</rt></ruby>、<ruby>事務所<rt>じむしょ</rt></ruby>のそうじをするのはだれですか。",
+   "opciones": [
+    "<ruby>社長<rt>しゃちょう</rt></ruby>",
+    "あたらしい<ruby>人<rt>ひと</rt></ruby>",
+    "そうじの<ruby>会社<rt>かいしゃ</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>社長<rt>しゃちょう</rt></ruby>は<ruby>会議<rt>かいぎ</rt></ruby>でまず<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "opciones": [
+    "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えを<ruby>言<rt>い</rt></ruby>う",
+    "みんなの<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>く",
+    "けっかを<ruby>書<rt>か</rt></ruby>く"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "この<ruby>会社<rt>かいしゃ</rt></ruby>は<ruby>何人<rt>なんにん</rt></ruby>いますか。",
+   "opciones": [
+    "<ruby>五人<rt>ごにん</rt></ruby>",
+    "<ruby>十五人<rt>じゅうごにん</rt></ruby>",
+    "<ruby>五十人<rt>ごじゅうにん</rt></ruby>"
+   ],
+   "correcta": 1
+  }
+ ],
+ "traduccion_en": "Our company is small: fifteen of us in all. The president is always the first to arrive. In the morning, the one who cleans the office is him. When I said «you don't have to do that», he laughed and answered: «if you move your body, your head works». In meetings too he listens to what everyone says first. Then he says what he thinks. That's why in this company it's easy to give your opinion."
+}

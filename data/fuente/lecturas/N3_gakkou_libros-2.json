@@ -1,0 +1,36 @@
+{
+ "unidad_id": "N3/gakkou/libros-2",
+ "titulo": "<ruby>季刊<rt>きかん</rt></ruby>のざっし",
+ "cuerpo": "<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>季刊<rt>きかん</rt></ruby>のざっしを<ruby>読<rt>よ</rt></ruby>むのがたのしみです。<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>に<ruby>一<rt>いち</rt></ruby>どしか<ruby>出<rt>で</rt></ruby>ないので、<ruby>内容<rt>ないよう</rt></ruby>がこい<ruby>感<rt>かん</rt></ruby>じがします。<ruby>今回<rt>こんかい</rt></ruby>のとくしゅうは「<ruby>町<rt>まち</rt></ruby>の<ruby>本屋<rt>ほんや</rt></ruby>」でした。<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>のインタビューが<ruby>十<rt>じゅう</rt></ruby>ページもあって、<ruby>読<rt>よ</rt></ruby>みごたえがありました。<ruby>毎月<rt>まいつき</rt></ruby><ruby>出<rt>で</rt></ruby>るざっしは<ruby>新<rt>あたら</rt></ruby>しいことがわかりますが、<ruby>季刊<rt>きかん</rt></ruby>のほうはあとで<ruby>読<rt>よ</rt></ruby>んでもふるくなりません。<ruby>次<rt>つぎ</rt></ruby>の<ruby>号<rt>ごう</rt></ruby>が<ruby>出<rt>で</rt></ruby>るまで、また<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>まちます。",
+ "traduccion": "Me hace ilusión leer en la biblioteca una revista trimestral. Como sólo sale una vez cada tres meses, da la sensación de tener un contenido denso. El especial de esta vez era «las librerías del barrio». La entrevista con los libreros ocupaba diez páginas y valía la pena leerla. Las revistas mensuales sirven para enterarse de lo nuevo, pero la trimestral no envejece aunque la leas después. Hasta que salga el siguiente número, espero otros tres meses.",
+ "preguntas": [
+  {
+   "p": "<ruby>季刊<rt>きかん</rt></ruby>のざっしはどのくらい<ruby>出<rt>で</rt></ruby>ますか。",
+   "opciones": [
+    "<ruby>毎月<rt>まいつき</rt></ruby>",
+    "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>に<ruby>一<rt>いち</rt></ruby>ど",
+    "<ruby>一年<rt>いちねん</rt></ruby>に<ruby>一<rt>いち</rt></ruby>ど"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>今回<rt>こんかい</rt></ruby>のとくしゅうは<ruby>何<rt>なん</rt></ruby>でしたか。",
+   "opciones": [
+    "<ruby>図書館<rt>としょかん</rt></ruby>",
+    "<ruby>町<rt>まち</rt></ruby>の<ruby>本屋<rt>ほんや</rt></ruby>",
+    "<ruby>新聞<rt>しんぶん</rt></ruby>"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "<ruby>季刊<rt>きかん</rt></ruby>のざっしのいいところは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "やすいこと",
+    "あとで<ruby>読<rt>よ</rt></ruby>んでもふるくならないこと",
+    "うすいこと"
+   ],
+   "correcta": 1
+  }
+ ],
+ "traduccion_en": "I look forward to reading a quarterly magazine at the library. As it only comes out once every three months, it feels dense with content. This issue's feature was «the neighbourhood bookshop». The interview with the shopkeepers ran to ten pages and was well worth reading. Monthly magazines tell you what's new, but the quarterly doesn't go stale even if you read it later. Until the next issue comes out, I wait another three months."
+}

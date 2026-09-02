@@ -1,0 +1,36 @@
+{
+ "unidad_id": "N5/hito/familia-2",
+ "titulo": "<ruby>両親<rt>りょうしん</rt></ruby>のしゃしん",
+ "cuerpo": "つくえの<ruby>上<rt>うえ</rt></ruby>にしゃしんがあります。<ruby>両親<rt>りょうしん</rt></ruby>のしゃしんです。<ruby>父<rt>ちち</rt></ruby>は<ruby>五十<rt>ごじゅう</rt></ruby>さい、<ruby>母<rt>はは</rt></ruby>は<ruby>四十八<rt>よんじゅうはち</rt></ruby>さいです。ふたりは<ruby>今<rt>いま</rt></ruby>、とおい<ruby>町<rt>まち</rt></ruby>にすんでいます。わたしはまいしゅうでんわをします。<ruby>両親<rt>りょうしん</rt></ruby>はいつも「げんきですか」と<ruby>聞<rt>き</rt></ruby>きます。ことしのなつ、<ruby>家<rt>いえ</rt></ruby>にかえります。",
+ "traduccion": "Encima del escritorio hay una foto. Es una foto de mis padres. Mi padre tiene cincuenta años y mi madre cuarenta y ocho. Los dos viven ahora en una ciudad lejana. Yo los llamo por teléfono todas las semanas. Mis padres siempre me preguntan: «¿estás bien?». Este verano vuelvo a casa.",
+ "preguntas": [
+  {
+   "p": "しゃしんはどこにありますか。",
+   "opciones": [
+    "つくえの<ruby>上<rt>うえ</rt></ruby>",
+    "つくえの<ruby>下<rt>した</rt></ruby>",
+    "<ruby>外<rt>そと</rt></ruby>"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>母<rt>はは</rt></ruby>は<ruby>何<rt>なん</rt></ruby>さいですか。",
+   "opciones": [
+    "<ruby>五十<rt>ごじゅう</rt></ruby>さい",
+    "<ruby>四十八<rt>よんじゅうはち</rt></ruby>さい",
+    "<ruby>四十<rt>よんじゅう</rt></ruby>さい"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "でんわはどのくらいしますか。",
+   "opciones": [
+    "<ruby>毎日<rt>まいにち</rt></ruby>",
+    "まいしゅう",
+    "ことしにいっかい"
+   ],
+   "correcta": 1
+  }
+ ],
+ "traduccion_en": "There's a photo on the desk. It's a photo of my parents. My father is fifty and my mother forty-eight. The two of them now live in a faraway town. I phone them every week. My parents always ask: «are you well?». This summer I'm going home."
+}

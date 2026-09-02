@@ -26,6 +26,23 @@ def limpiar(s):
     return ", ".join(partes)
 
 kanji = json.load(open("data/build/kanji.json", encoding="utf-8"))
+
+# La caché se ha perdido más de una vez, y sin ella esto vuelve a pedirle a
+# Google 2.000 traducciones que ya teníamos: al primer 429 se queda a medias y
+# el catálogo pierde el español que ya estaba publicado. Así que primero se
+# recupera de lo ya exportado, que es lo que está sirviendo la web.
+publicado = pathlib.Path("data/dist/kanji.json")
+if publicado.exists():
+    recuperadas = 0
+    for k in json.loads(publicado.read_text(encoding="utf-8")):
+        clave = ", ".join(k.get("en") or [])
+        if clave and k.get("es") and clave not in cache:
+            cache[clave] = k["es"]; recuperadas += 1
+    if recuperadas:
+        CACHE.parent.mkdir(parents=True, exist_ok=True)
+        CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=0), encoding="utf-8")
+        print(f"recuperadas de data/dist/kanji.json: {recuperadas}")
+
 textos = sorted({", ".join(k["en"]) for k in kanji if k["en"]})
 faltan = [t for t in textos if t not in cache]
 print(f"significados únicos: {len(textos)} | por traducir: {len(faltan)}", flush=True)
