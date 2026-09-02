@@ -1,0 +1,1042 @@
+[
+ {
+  "id": "n5-kadai-0008",
+  "nivel": "N5",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は これから どこへ 行きますか。",
+  "opciones": [
+   "銀行",
+   "食堂",
+   "駅の 中の 店",
+   "うち"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "食堂は 銀行の あと",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Primero el banco, y después el comedor: lo dice ella al final.",
+   "en": "The bank first, the canteen after — she says so at the end."
+  },
+  "guion": {
+   "intro": "男の人と 女の人が 話して います。女の人は これから どこへ 行きますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "これから 昼ごはん?"
+    },
+    {
+     "quien": "F",
+     "texto": "その 前に 銀行へ 行きたいんです。お金が ないので。"
+    },
+    {
+     "quien": "M",
+     "texto": "銀行なら、駅の 前の ほうが 近いよ。"
+    },
+    {
+     "quien": "F",
+     "texto": "そうですか。じゃあ、そこへ 行って から 食堂に 行きます。"
+    }
+   ],
+   "pregunta": "女の人は これから どこへ 行きますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-kadai-0009",
+  "nivel": "N5",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の学生は あした 何を もって 行きますか。",
+  "opciones": [
+   "ぼうし",
+   "かさ",
+   "ノート",
+   "何も いりません"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "いらないと 言って いる",
+   "教室に おいて いいと 言って いる",
+   "ぼうしは かぶって きて と 言われた"
+  ],
+  "explicacion": {
+   "es": "Sólo el sombrero: el paraguas no hace falta y el cuaderno se queda en clase.",
+   "en": "Only the hat: no umbrella needed and the notebook stays in the classroom."
+  },
+  "guion": {
+   "intro": "先生と 男の学生が 話して います。男の学生は あした 何を もって 行きますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "あしたの じゅぎょうは 外で しますよ。"
+    },
+    {
+     "quien": "M",
+     "texto": "何か いりますか。"
+    },
+    {
+     "quien": "F",
+     "texto": "ぼうしを かぶって きて ください。かさは いりません。"
+    },
+    {
+     "quien": "M",
+     "texto": "ノートは?"
+    },
+    {
+     "quien": "F",
+     "texto": "ノートは 教室に おいて いいですよ。"
+    }
+   ],
+   "pregunta": "男の学生は あした 何を もって 行きますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-kadai-0010",
+  "nivel": "N5",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "二人は 何時に 会いますか。",
+  "opciones": [
+   "七時",
+   "六時半",
+   "八時",
+   "五時"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "しごとが おわる 時間",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Ella propone las siete y él acepta.",
+   "en": "She suggests seven and he accepts."
+  },
+  "guion": {
+   "intro": "女の人と 男の人が 電話で 話して います。二人は 何時に 会いますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "あした、六時半に 駅で いいですか。"
+    },
+    {
+     "quien": "M",
+     "texto": "すみません、しごとが 六時半に おわります。"
+    },
+    {
+     "quien": "F",
+     "texto": "じゃあ、七時に しましょうか。"
+    },
+    {
+     "quien": "M",
+     "texto": "はい、七時で おねがいします。"
+    }
+   ],
+   "pregunta": "二人は 何時に 会いますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-kadai-0011",
+  "nivel": "N5",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は 何を 買いますか。",
+  "opciones": [
+   "青い かばん",
+   "赤い かばん",
+   "青いのと 赤いの",
+   "何も 買いません"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "赤いのは 買わなかった",
+   "買ったのは 一つ",
+   "買って いる"
+  ],
+  "explicacion": {
+   "es": "Le rebajan el azul a cuatro mil y se lo lleva.",
+   "en": "The blue one is cut to four thousand and she takes it."
+  },
+  "guion": {
+   "intro": "店で 男の人と 女の人が 話して います。女の人は 何を 買いますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "この 青い かばん、いくらですか。"
+    },
+    {
+     "quien": "M",
+     "texto": "五千円です。こちらの 赤いのは 三千円ですよ。"
+    },
+    {
+     "quien": "F",
+     "texto": "うーん、青い ほうが すきですが、少し 高いですね。"
+    },
+    {
+     "quien": "M",
+     "texto": "きょうは 青いのも 四千円に します。"
+    },
+    {
+     "quien": "F",
+     "texto": "じゃあ、それを ください。"
+    }
+   ],
+   "pregunta": "女の人は 何を 買いますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-kadai-0012",
+  "nivel": "N5",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は はじめに 何を しますか。",
+  "opciones": [
+   "コピーします",
+   "郵便局へ 行きます",
+   "手紙を 書きます",
+   "電話を します"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "コピーの あと",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "«Cópialo y luego mándalo»: primero la copia.",
+   "en": "«Copy it and then send it»: the copy comes first."
+  },
+  "guion": {
+   "intro": "会社で 女の人と 男の人が 話して います。男の人は はじめに 何を しますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "この 手紙、コピーして から 出して ください。"
+    },
+    {
+     "quien": "M",
+     "texto": "はい。すぐ 郵便局へ 行きますか。"
+    },
+    {
+     "quien": "F",
+     "texto": "その 前に コピーですよ。"
+    },
+    {
+     "quien": "M",
+     "texto": "わかりました。"
+    }
+   ],
+   "pregunta": "男の人は はじめに 何を しますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-kadai-0013",
+  "nivel": "N5",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の学生は どの へやで べんきょうしますか。",
+  "opciones": [
+   "三階の 教室",
+   "二階の 教室",
+   "図書館",
+   "家"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "会議で つかって いる",
+   "きょうは 休み",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "La biblioteca está cerrada y la segunda planta ocupada: queda el aula de la tercera.",
+   "en": "The library is closed and the second floor is in use: the third-floor classroom is left."
+  },
+  "guion": {
+   "intro": "学校で 女の学生と 男の学生が 話して います。男の学生は どの へやで べんきょうしますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "図書館は きょう 休みですよ。"
+    },
+    {
+     "quien": "M",
+     "texto": "え、こまったな。しずかな ところが いいんだけど。"
+    },
+    {
+     "quien": "F",
+     "texto": "三階の 教室が あいて います。二階は 会議で つかって います。"
+    },
+    {
+     "quien": "M",
+     "texto": "じゃあ、そこに します。"
+    }
+   ],
+   "pregunta": "男の学生は どの へやで べんきょうしますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-kadai-0014",
+  "nivel": "N5",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は 何で 会社へ 行きますか。",
+  "opciones": [
+   "自転車",
+   "電車",
+   "バス",
+   "あるいて"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "雨の 日だけ",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Normalmente en bicicleta; el tren sólo los días de lluvia.",
+   "en": "Normally by bicycle; the train only on rainy days."
+  },
+  "guion": {
+   "intro": "女の人と 男の人が 話して います。女の人は 何で 会社へ 行きますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "毎朝、電車ですか。"
+    },
+    {
+     "quien": "F",
+     "texto": "いいえ、雨の 日だけです。"
+    },
+    {
+     "quien": "M",
+     "texto": "じゃあ、いつもは?"
+    },
+    {
+     "quien": "F",
+     "texto": "自転車で 行きます。三十分ぐらいです。"
+    },
+    {
+     "quien": "M",
+     "texto": "元気ですね。"
+    }
+   ],
+   "pregunta": "女の人は 何で 会社へ 行きますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-point-0007",
+  "nivel": "N5",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は どうして 京都へ 行きましたか。",
+  "opciones": [
+   "友だちの けっこんしきが あったから",
+   "お寺を 見たかったから",
+   "しごとが あったから",
+   "家族に 会うため"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "見る 時間は なかった",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Fue por la boda de una amiga; no le dio tiempo a ver los templos.",
+   "en": "She went for a friend's wedding; there was no time for temples."
+  },
+  "guion": {
+   "intro": "男の人と 女の人が 話して います。女の人は どうして 京都へ 行きましたか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "先週、京都に 行ったんですか。"
+    },
+    {
+     "quien": "F",
+     "texto": "ええ。友だちの けっこんしきが あって。"
+    },
+    {
+     "quien": "M",
+     "texto": "お寺も 見ましたか。"
+    },
+    {
+     "quien": "F",
+     "texto": "時間が なくて。つぎは ゆっくり 見たいです。"
+    }
+   ],
+   "pregunta": "女の人は どうして 京都へ 行きましたか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 2,
+  "puntos": [
+   "けっこんしきが あった",
+   "お寺は 見て いない"
+  ]
+ },
+ {
+  "id": "n5-point-0008",
+  "nivel": "N5",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は どうして この アパートを えらびましたか。",
+  "opciones": [
+   "しずかだから",
+   "駅に 近いから",
+   "やすいから",
+   "新しいから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "駅からは 遠い",
+   "前と 同じ ねだん",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Lo importante para él es el silencio, que le deja dormir bien.",
+   "en": "What matters to him is the quiet, which lets him sleep well."
+  },
+  "guion": {
+   "intro": "女の人と 男の人が 話して います。男の人は どうして この アパートを えらびましたか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "新しい へや、どうですか。"
+    },
+    {
+     "quien": "M",
+     "texto": "駅から 遠いですが、まわりが しずかです。"
+    },
+    {
+     "quien": "F",
+     "texto": "ねだんは?"
+    },
+    {
+     "quien": "M",
+     "texto": "前の ところと 同じです。それより、よく ねられるのが 一番です。"
+    }
+   ],
+   "pregunta": "男の人は どうして この アパートを えらびましたか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 2,
+  "puntos": [
+   "駅から 遠い",
+   "まわりが しずか",
+   "ねだんは 前と 同じ"
+  ]
+ },
+ {
+  "id": "n5-point-0009",
+  "nivel": "N5",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の学生は 何が 一番 むずかしいと 言って いますか。",
+  "opciones": [
+   "早い 話を 聞く こと",
+   "漢字を 書く こと",
+   "話す こと",
+   "本を 読む こと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "大変だが 一番ではない",
+   "できるように なった",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Dice que lo que más le cuesta es entender cuando hablan rápido.",
+   "en": "She says what troubles her most is following fast speech."
+  },
+  "guion": {
+   "intro": "先生と 女の学生が 話して います。女の学生は 何が 一番 むずかしいと 言って いますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "日本語、なれましたか。"
+    },
+    {
+     "quien": "F",
+     "texto": "話すのは 少し できるように なりました。"
+    },
+    {
+     "quien": "M",
+     "texto": "書くのは?"
+    },
+    {
+     "quien": "F",
+     "texto": "漢字は 大変ですが、いちばん こまるのは 早い 話を 聞く ことです。"
+    }
+   ],
+   "pregunta": "女の学生は 何が 一番 むずかしいと 言って いますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 2,
+  "puntos": [
+   "話すのは 少し できる",
+   "漢字は 大変",
+   "早い 話が 一番 こまる"
+  ]
+ },
+ {
+  "id": "n5-point-0010",
+  "nivel": "N5",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は あした 何を しますか。",
+  "opciones": [
+   "そうじを します",
+   "海へ 行きます",
+   "買い物に 行きます",
+   "友だちに 会います"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "雨で 行かない",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Se cancela la playa por la lluvia y decide limpiar la habitación.",
+   "en": "The beach is off because of rain, so he decides to clean his room."
+  },
+  "guion": {
+   "intro": "女の人と 男の人が 話して います。男の人は あした 何を しますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "あしたの 休み、どこかへ 行きますか。"
+    },
+    {
+     "quien": "M",
+     "texto": "海へ 行く つもりでしたが、雨が ふるそうです。"
+    },
+    {
+     "quien": "F",
+     "texto": "じゃあ、うちに いますか。"
+    },
+    {
+     "quien": "M",
+     "texto": "いえ、へやの そうじを します。ずっと して いないので。"
+    }
+   ],
+   "pregunta": "男の人は あした 何を しますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 2,
+  "puntos": [
+   "海は 雨で 行かない",
+   "そうじを する"
+  ]
+ },
+ {
+  "id": "n5-point-0011",
+  "nivel": "N5",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "二人は 何を 食べる ことに しましたか。",
+  "opciones": [
+   "そば",
+   "ラーメン",
+   "カレー",
+   "パン"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "きのう 食べた",
+   "えらばなかった",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Ramen ayer, hace frío: eligen soba caliente.",
+   "en": "Ramen was yesterday and it's cold: they pick hot soba."
+  },
+  "guion": {
+   "intro": "男の人と 女の人が 話して います。二人は 何を 食べる ことに しましたか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "おなかが すきましたね。ラーメンは どうですか。"
+    },
+    {
+     "quien": "F",
+     "texto": "きのう 食べました。ほかの ものが いいです。"
+    },
+    {
+     "quien": "M",
+     "texto": "じゃあ、そばか カレー?"
+    },
+    {
+     "quien": "F",
+     "texto": "さむいので、あたたかい そばに しましょう。"
+    }
+   ],
+   "pregunta": "二人は 何を 食べる ことに しましたか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 2,
+  "puntos": [
+   "ラーメンは きのう 食べた",
+   "さむいので あたたかい ものが いい"
+  ]
+ },
+ {
+  "id": "n5-point-0012",
+  "nivel": "N5",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は かばんを どこに わすれましたか。",
+  "opciones": [
+   "食堂",
+   "教室",
+   "トイレ",
+   "図書館"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "見たが なかった",
+   "行ったが なかった",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Al final recuerda que la dejó bajo la silla del comedor.",
+   "en": "She finally remembers leaving it under her chair in the canteen."
+  },
+  "guion": {
+   "intro": "女の人と 男の人が 話して います。女の人は かばんを どこに わすれましたか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "かばんが ないんです。"
+    },
+    {
+     "quien": "M",
+     "texto": "教室に ありましたか。"
+    },
+    {
+     "quien": "F",
+     "texto": "見ましたが、ありませんでした。トイレにも 行きましたが……。"
+    },
+    {
+     "quien": "M",
+     "texto": "食堂は?"
+    },
+    {
+     "quien": "F",
+     "texto": "あ、そうです。ひるごはんの とき、いすの 下に おきました。"
+    }
+   ],
+   "pregunta": "女の人は かばんを どこに わすれましたか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 2,
+  "puntos": [
+   "教室には なかった",
+   "食堂の いすの 下に おいた"
+  ]
+ },
+ {
+  "id": "n5-hatsuwa-0006",
+  "nivel": "N5",
+  "tipo": "hatsuwa",
+  "instruccion_ja": "問題では、絵を見ながら質問を聞いてください。矢印（→）の人は何と言いますか。1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "先生の へやに 入ります。何と 言いますか。",
+  "opciones": [
+   "しつれいします。",
+   "しつれいしました。",
+   "おげんきですか。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "出る ときの 言い方",
+   "あいさつで、入る ときには 使わない"
+  ],
+  "explicacion": {
+   "es": "Al entrar se dice しつれいします; la forma en pasado es para salir.",
+   "en": "On entering you say しつれいします; the past form is for leaving."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "先生の へやに 入ります。何と 言いますか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-hatsuwa-0007",
+  "nivel": "N5",
+  "tipo": "hatsuwa",
+  "instruccion_ja": "問題では、絵を見ながら質問を聞いてください。矢印（→）の人は何と言いますか。1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "道が わかりません。人に 聞きます。何と 言いますか。",
+  "opciones": [
+   "すみません、駅は どこですか。",
+   "すみません、駅は どうですか。",
+   "すみません、駅を ください。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ようすを 聞く 言い方",
+   "物を たのむ 言い方"
+  ],
+  "explicacion": {
+   "es": "Para preguntar por un sitio: どこですか.",
+   "en": "To ask where a place is: どこですか."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "道が わかりません。人に 聞きます。何と 言いますか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-hatsuwa-0008",
+  "nivel": "N5",
+  "tipo": "hatsuwa",
+  "instruccion_ja": "問題では、絵を見ながら質問を聞いてください。矢印（→）の人は何と言いますか。1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "ともだちが 病気です。何と 言いますか。",
+  "opciones": [
+   "お大事に。",
+   "おめでとう。",
+   "いただきます。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "いい ことが あった ときの 言い方",
+   "食べる 前の 言い方"
+  ],
+  "explicacion": {
+   "es": "A quien está enfermo se le dice お大事に.",
+   "en": "To someone who is ill you say お大事に."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "ともだちが 病気です。何と 言いますか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-hatsuwa-0009",
+  "nivel": "N5",
+  "tipo": "hatsuwa",
+  "instruccion_ja": "問題では、絵を見ながら質問を聞いてください。矢印（→）の人は何と言いますか。1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "店で 買いたい ものが あります。何と 言いますか。",
+  "opciones": [
+   "これを ください。",
+   "これが すきです。",
+   "これを どうぞ。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "気もちを 言う だけ",
+   "相手に わたす ときの 言い方"
+  ],
+  "explicacion": {
+   "es": "Para comprar: これを ください.",
+   "en": "To buy something: これを ください."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "店で 買いたい ものが あります。何と 言いますか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-hatsuwa-0010",
+  "nivel": "N5",
+  "tipo": "hatsuwa",
+  "instruccion_ja": "問題では、絵を見ながら質問を聞いてください。矢印（→）の人は何と言いますか。1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "後ろの 人に 道を あけて ほしいです。何と 言いますか。",
+  "opciones": [
+   "すみません、通ります。",
+   "すみません、通りません。",
+   "すみません、通って ください。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対の 意味",
+   "相手に たのむ 言い方で、ここでは 合わない"
+  ],
+  "explicacion": {
+   "es": "Al pasar entre gente se avisa: すみません、通ります.",
+   "en": "Squeezing past people you say: すみません、通ります."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "後ろの 人に 道を あけて ほしいです。何と 言いますか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-sokuji-0007",
+  "nivel": "N5",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "この 本、かりても いいですか。",
+  "opciones": [
+   "ええ、どうぞ。",
+   "ええ、かりました。",
+   "ええ、ありました。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "自分が かりた 話に なる",
+   "答えに なって いない"
+  ],
+  "explicacion": {
+   "es": "A una petición de permiso se responde con どうぞ.",
+   "en": "A request for permission is answered with どうぞ."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "この 本、かりても いいですか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-sokuji-0008",
+  "nivel": "N5",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "しゅくだいは もう おわりましたか。",
+  "opciones": [
+   "いいえ、まだです。",
+   "いいえ、けっこうです。",
+   "いいえ、そうです。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ことわる ときの 言い方",
+   "答えが ちぐはぐ"
+  ],
+  "explicacion": {
+   "es": "«¿Ya has terminado?» → «Todavía no»: まだです.",
+   "en": "«Have you finished?» → «Not yet»: まだです."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "しゅくだいは もう おわりましたか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-sokuji-0009",
+  "nivel": "N5",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "あしたは 何時に 来ますか。",
+  "opciones": [
+   "九時ごろ 来ます。",
+   "九時ごろ 行きました。",
+   "はい、来ます。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "過去の 話に なって いる",
+   "時間を 答えて いない"
+  ],
+  "explicacion": {
+   "es": "Preguntan la hora, hay que dar una hora.",
+   "en": "The question asks a time, so give a time."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "あしたは 何時に 来ますか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-sokuji-0010",
+  "nivel": "N5",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "すみません、ペンを かして ください。",
+  "opciones": [
+   "はい、どうぞ。",
+   "はい、かりました。",
+   "はい、かします。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "自分が かりた ことに なる",
+   "言い方として 不自然"
+  ],
+  "explicacion": {
+   "es": "Al prestar algo se entrega diciendo どうぞ.",
+   "en": "When lending something you hand it over with どうぞ."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "すみません、ペンを かして ください。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-sokuji-0011",
+  "nivel": "N5",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "おそく なって すみません。",
+  "opciones": [
+   "いいえ、だいじょうぶですよ。",
+   "いいえ、けっこうです。",
+   "いいえ、おそいです。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ことわる ときの 言い方",
+   "しかって いる ことに なる"
+  ],
+  "explicacion": {
+   "es": "Ante una disculpa se quita importancia: だいじょうぶですよ.",
+   "en": "An apology is waved away: だいじょうぶですよ."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "おそく なって すみません。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ },
+ {
+  "id": "n5-sokuji-0012",
+  "nivel": "N5",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "この へやは さむくないですか。",
+  "opciones": [
+   "ええ、少し さむいですね。",
+   "ええ、あたたかいです。",
+   "ええ、さむくないです。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ええと 内容が 合わない",
+   "ええと 内容が 合わない"
+  ],
+  "explicacion": {
+   "es": "Con ええ se confirma; entonces el resto tiene que decir que sí hace frío.",
+   "en": "ええ agrees, so the rest must confirm that it is cold."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "この へやは さむくないですか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 1
+ }
+]

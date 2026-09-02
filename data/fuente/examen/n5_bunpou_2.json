@@ -1,0 +1,502 @@
+[
+ {
+  "id": "n5-bunpou1-0010",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "わたしは まいあさ 六時（　）おきます。",
+  "opciones": [
+   "に",
+   "で",
+   "を",
+   "へ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "場所を示す助詞",
+   "目的語を示す助詞",
+   "方向を示す助詞"
+  ],
+  "explicacion": {
+   "es": "La hora del reloj lleva に: 六時に おきます.",
+   "en": "Clock times take に: 六時に おきます."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunpou1-0011",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "きのう ともだち（　）てがみを かきました。",
+  "opciones": [
+   "に",
+   "が",
+   "は",
+   "で"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "主語を示す助詞",
+   "主題を示す助詞",
+   "手段や場所の助詞"
+  ],
+  "explicacion": {
+   "es": "El destinatario va con に: ともだちに かく.",
+   "en": "The person written to takes に: ともだちに かく."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunpou1-0012",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この みせは やすい（　）、おいしいです。",
+  "opciones": [
+   "し",
+   "で",
+   "と",
+   "から"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "名詞をつなぐ形",
+   "名詞をつなぐ助詞",
+   "理由だけを言う"
+  ],
+  "explicacion": {
+   "es": "し enumera razones: «es barato y además está bueno».",
+   "en": "し lists reasons: cheap, and on top of that tasty."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunpou1-0013",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "あめが ふって いますから、かさを（　）ほうが いいですよ。",
+  "opciones": [
+   "もった",
+   "もつ",
+   "もって",
+   "もち"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "辞書形ではつながらない",
+   "て形ではつながらない",
+   "ます形ではつながらない"
+  ],
+  "explicacion": {
+   "es": "〜たほうがいい pide la forma た: もった ほうが いい.",
+   "en": "〜たほうがいい takes the た-form: もった ほうが いい."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunpou1-0014",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "へやの なかで しゃしんを（　）ないで ください。",
+  "opciones": [
+   "とら",
+   "とり",
+   "とって",
+   "とる"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ます形",
+   "て形",
+   "辞書形"
+  ],
+  "explicacion": {
+   "es": "〜ないでください se forma sobre la raíz negativa: とらないで.",
+   "en": "〜ないでください builds on the negative stem: とらないで."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunpou1-0015",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "わたしは にほんごが すこし（　）。",
+  "opciones": [
+   "できます",
+   "あります",
+   "います",
+   "します"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "存在の動詞",
+   "人や動物の存在",
+   "動作の動詞"
+  ],
+  "explicacion": {
+   "es": "«Poder hacer algo» con が es できる: にほんごが できます.",
+   "en": "Ability with が is できる: にほんごが できます."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunpou1-0016",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "つくえの うえに ねこ（　）います。",
+  "opciones": [
+   "が",
+   "を",
+   "に",
+   "へ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "目的語の助詞",
+   "場所の助詞がもう一つある",
+   "方向の助詞"
+  ],
+  "explicacion": {
+   "es": "El sujeto de いる va con が; el lugar ya lo marca に.",
+   "en": "The subject of いる takes が; the place is already marked by に."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunpou1-0017",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "しゅくだいを（　）から、テレビを 見ます。",
+  "opciones": [
+   "して",
+   "する",
+   "した",
+   "し"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "辞書形",
+   "た形",
+   "ます形の語幹"
+  ],
+  "explicacion": {
+   "es": "〜てから marca la secuencia: primero los deberes, luego la tele.",
+   "en": "〜てから marks the sequence: homework first, then television."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunpou1-0018",
+  "nivel": "N5",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この ケーキは いもうと（　）つくりました。",
+  "opciones": [
+   "が",
+   "を",
+   "に",
+   "で"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "目的語の助詞",
+   "相手を示す助詞",
+   "手段の助詞"
+  ],
+  "explicacion": {
+   "es": "Quien hace la acción va con が cuando se informa de quién fue.",
+   "en": "The doer takes が when you are reporting who did it."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunpou2-0005",
+  "nivel": "N5",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この へやは　＿＿　＿★＿　＿＿　＿＿　です。",
+  "opciones": [
+   "あかるくて",
+   "とても",
+   "ひろい",
+   "きれいで"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "語順が合わない",
+   "語順が合わない",
+   "語順が合わない"
+  ],
+  "explicacion": {
+   "es": "Orden: とても あかるくて きれいで ひろい. La ★ está en la casilla 2, donde va 「あかるくて」.",
+   "en": "Order: とても あかるくて きれいで ひろい. The star is slot 2, which takes 「あかるくて」."
+  },
+  "etiquetas": [
+   "並べ替え"
+  ],
+  "dificultad": 3,
+  "orden": [
+   1,
+   0,
+   3,
+   2
+  ]
+ },
+ {
+  "id": "n5-bunpou2-0006",
+  "nivel": "N5",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "わたしは　＿＿　＿＿　＿★＿　＿＿　あります。",
+  "opciones": [
+   "行った",
+   "に",
+   "ことが",
+   "きょうと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "語順が合わない",
+   "語順が合わない",
+   "語順が合わない"
+  ],
+  "explicacion": {
+   "es": "Orden: きょうと に 行った ことが. La ★ está en la casilla 3, donde va 「行った」.",
+   "en": "Order: きょうと に 行った ことが. The star is slot 3, which takes 「行った」."
+  },
+  "etiquetas": [
+   "並べ替え"
+  ],
+  "dificultad": 3,
+  "orden": [
+   3,
+   1,
+   0,
+   2
+  ]
+ },
+ {
+  "id": "n5-bunpou2-0007",
+  "nivel": "N5",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "あした　＿★＿　＿＿　＿＿　＿＿　つもりです。",
+  "opciones": [
+   "ともだちと",
+   "を",
+   "えいが",
+   "見る"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "語順が合わない",
+   "語順が合わない",
+   "語順が合わない"
+  ],
+  "explicacion": {
+   "es": "Orden: ともだちと えいが を 見る. La ★ está en la casilla 1, donde va 「ともだちと」.",
+   "en": "Order: ともだちと えいが を 見る. The star is slot 1, which takes 「ともだちと」."
+  },
+  "etiquetas": [
+   "並べ替え"
+  ],
+  "dificultad": 3,
+  "orden": [
+   0,
+   2,
+   1,
+   3
+  ]
+ },
+ {
+  "id": "n5-bunpou2-0008",
+  "nivel": "N5",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "でんきを　＿＿　＿＿　＿★＿　＿＿　ください。",
+  "opciones": [
+   "から",
+   "けして",
+   "でて",
+   "へやを"
+  ],
+  "respuesta": 3,
+  "logica_distractores": [
+   "語順が合わない",
+   "語順が合わない",
+   "語順が合わない"
+  ],
+  "explicacion": {
+   "es": "Orden: けして から へやを でて. La ★ está en la casilla 3, donde va 「へやを」.",
+   "en": "Order: けして から へやを でて. The star is slot 3, which takes 「へやを」."
+  },
+  "etiquetas": [
+   "並べ替え"
+  ],
+  "dificultad": 3,
+  "orden": [
+   1,
+   0,
+   3,
+   2
+  ]
+ },
+ {
+  "id": "n5-bunshou_bunpou-0005",
+  "nivel": "N5",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n5-bb-g002",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "（　1　）",
+  "opciones": [
+   "でも",
+   "だから",
+   "たとえば",
+   "それに"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "前と後ろが反対なので理由にならない",
+   "例ではない",
+   "話を足しているのではない"
+  ],
+  "explicacion": {
+   "es": "El profesor se entiende, pero el japonés rápido no: son cosas opuestas, va でも.",
+   "en": "The teacher is easy to follow, but fast Japanese isn't — opposites, so でも."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 2,
+  "pasaje": {
+   "texto": "わたしは 先月、日本語の きょうしつに 入りました。学校は 駅の 前に あって、うちから 二十分ぐらいです。クラスには いろいろな 国の 人が います。\n先生は ゆっくり 話しますから、よく わかります。（　1　）、まだ 早い 日本語は むずかしいです。毎日 少しずつ れんしゅうして います。\n先週、クラスの みんなで こうえんへ 行きました。おべんとうを 食べたり、しゃしんを （　2　） しました。とても 楽しかったです。\n来月、テストが あります。合かくしたいですから、今週から まいばん （　3　）と 思って います。\nいつか 日本の 友だちと 日本語だけで （　4　）なりたいです。",
+   "notas": [
+    {
+     "termino": "合かく",
+     "glosa": "テストに とおること"
+    }
+   ]
+  }
+ },
+ {
+  "id": "n5-bunshou_bunpou-0006",
+  "nivel": "N5",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n5-bb-g002",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "（　2　）",
+  "opciones": [
+   "とったり",
+   "とって",
+   "とる",
+   "とった"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "〜たり〜たりの形になっていない",
+   "〜たり〜たりの形になっていない",
+   "〜たり〜たりの形になっていない"
+  ],
+  "explicacion": {
+   "es": "La frase ya lleva 食べたり, así que el segundo verbo también va en 〜たり.",
+   "en": "The sentence already has 食べたり, so the second verb also takes 〜たり."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunshou_bunpou-0007",
+  "nivel": "N5",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n5-bb-g002",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "（　3　）",
+  "opciones": [
+   "べんきょうしよう",
+   "べんきょうした",
+   "べんきょうして",
+   "べんきょうします"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "〜と思うの前は意向形",
+   "〜と思うの前は意向形",
+   "〜と思うの前は意向形"
+  ],
+  "explicacion": {
+   "es": "〜ようと思う expresa la intención: べんきょうしようと 思って います.",
+   "en": "〜ようと思う expresses intent: べんきょうしようと 思って います."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunshou_bunpou-0008",
+  "nivel": "N5",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n5-bb-g002",
+  "orden_grupo": 3,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "（　4　）",
+  "opciones": [
+   "話せるように",
+   "話すために",
+   "話すことに",
+   "話すように"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "目的を言う形で、なりたいと合わない",
+   "決定を言う形",
+   "可能の形になっていない"
+  ],
+  "explicacion": {
+   "es": "«Llegar a poder hablar» es 話せるように なる, con la forma potencial.",
+   "en": "«Come to be able to speak» is 話せるように なる, with the potential form."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 2
+ }
+]

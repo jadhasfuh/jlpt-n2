@@ -1,0 +1,158 @@
+[
+ {
+  "id": "n5-tanbun-0003",
+  "nivel": "N5",
+  "tipo": "tanbun",
+  "grupo": "n5-tanbun-g003",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この人は さいふを ひろって、はじめに 何を しましたか。",
+  "opciones": [
+   "交番へ もって 行きました",
+   "電話を かけました",
+   "名前を 聞きました",
+   "お金を つかいました"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "電話は きょう かかって きた",
+   "書いたのは 自分の 名前",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Primero la llevó al puesto de policía; la llamada llegó al día siguiente.",
+   "en": "First he took it to the police box; the phone call came the next day."
+  },
+  "etiquetas": [],
+  "dificultad": 2,
+  "pasaje": {
+   "texto": "きのう、駅の 前で さいふを ひろいました。中に お金と カードが 入って いました。すぐ 交番へ もって 行きました。きょう、電話が ありました。さいふの 人が 見つかったそうです。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n5-tanbun-0004",
+  "nivel": "N5",
+  "tipo": "tanbun",
+  "grupo": "n5-tanbun-g004",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "町の人は どうして 紙を はりましたか。",
+  "opciones": [
+   "雨の あとの 川は あぶないから",
+   "子どもが あそばないから",
+   "川に 魚が いないから",
+   "夏が おわったから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "子どもは あそんで いる",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Tras la lluvia sube el agua y es peligroso: por eso el aviso.",
+   "en": "After rain the water rises and it is dangerous — hence the notice."
+  },
+  "etiquetas": [],
+  "dificultad": 2,
+  "pasaje": {
+   "texto": "わたしの町には 大きな 川が あります。夏に なると、子どもたちが 川の そばで あそびます。でも、雨の あとは 水が 多く なりますから、あぶないです。先週、町の 人が 川の そばに 「気を つけて」と 書いた 紙を はりました。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n5-chuubun-0003",
+  "nivel": "N5",
+  "tipo": "chuubun",
+  "grupo": "n5-chuubun-g003",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この人は どうして りょうりを ならおうと 思いましたか。",
+  "opciones": [
+   "母に 聞かれて はずかしく なったから",
+   "パンが きらいだから",
+   "友だちに たのまれたから",
+   "しごとで ひつようだから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文にない",
+   "友だちを よぶのは 来月の 話",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "La llamada de su madre le dio vergüenza, y ahí decidió aprender.",
+   "en": "His mother's call embarrassed him, and that is when he decided to learn."
+  },
+  "etiquetas": [],
+  "dificultad": 2,
+  "pasaje": {
+   "texto": "わたしは 去年から 一人で すんで います。はじめは りょうりが ぜんぜん できませんでした。毎日 パンと たまごだけ 食べて いました。\nある日、母から 電話が ありました。「ちゃんと 食べて いますか」と 聞かれて、少し はずかしく なりました。それから、日曜日に りょうりを ならう ことに しました。\n今は やさいの スープと さかなが 作れます。むずかしくても、自分で 作った ものは おいしいです。来月は 友だちを よんで、いっしょに 食べたいと 思って います。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n5-chuubun-0004",
+  "nivel": "N5",
+  "tipo": "chuubun",
+  "grupo": "n5-chuubun-g003",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "今、この人は 何が できますか。",
+  "opciones": [
+   "スープと さかなを 作る こと",
+   "パンを やく こと",
+   "友だちと 食べる こと",
+   "母に りょうりを おしえる こと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文にない",
+   "それは 来月 したい こと",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Dice que ya sabe hacer sopa de verduras y pescado.",
+   "en": "He says he can now make vegetable soup and fish."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-jouhou-0002",
+  "nivel": "N5",
+  "tipo": "jouhou",
+  "grupo": "n5-jouhou-g002",
+  "orden_grupo": 0,
+  "instruccion_ja": "右のページは、お知らせである。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "高校生が 二時間 つかう とき、お金は いくら はらいますか。",
+  "opciones": [
+   "四百円",
+   "二百円",
+   "八百円",
+   "六百円"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "一時間分の お金",
+   "おとな 二時間分の お金",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Doscientos yenes la hora para un estudiante de bachillerato: dos horas, cuatrocientos.",
+   "en": "Two hundred yen an hour for a high-school student: two hours is four hundred."
+  },
+  "etiquetas": [],
+  "dificultad": 2,
+  "pasaje": {
+   "texto": "【あおぞら公園　テニスコートの ごあんない】\n■ つかえる 時間\n　午前八時〜午後八時\n　毎週 水曜日は つかえません。\n\n■ お金\n　一時間　おとな 四百円　中学生・高校生 二百円\n　小学生以下の 方は、おとなと いっしょに つかって ください。\n\n■ もうしこみ\n　つかう 日の 一週間前から、公園の じむしょで もうしこめます。\n　電話では もうしこめません。\n\n■ そのほか\n　雨の 日は つかえません。\n　ボールと ラケットは 自分で もって きて ください。\n　コートの 中では、くつを はきかえて ください。\n　ごみは 自分で もって 帰って ください。",
+   "notas": [
+    {
+     "termino": "もうしこむ",
+     "glosa": "つかいたいと 言う こと"
+    }
+   ]
+  }
+ }
+]

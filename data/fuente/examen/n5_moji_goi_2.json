@@ -1,0 +1,527 @@
+[
+ {
+  "id": "n5-kanji_yomi-0008",
+  "nivel": "N5",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "まいにち <u>新聞</u>を よみます。",
+  "opciones": [
+   "しんぶん",
+   "しんふん",
+   "じんぶん",
+   "しんもん"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "濁音にしない",
+   "新をじんと読んだ",
+   "聞をもんと読んだ"
+  ],
+  "explicacion": {
+   "es": "新聞（しんぶん）. 聞 se sonoriza a ぶん dentro de la palabra.",
+   "en": "新聞 (shinbun). 聞 becomes ぶん inside the word."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-kanji_yomi-0009",
+  "nivel": "N5",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この <u>電車</u>は とうきょうへ 行きます。",
+  "opciones": [
+   "でんしゃ",
+   "でんしゃあ",
+   "てんしゃ",
+   "でんじゃ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ないはずの長音をつけた",
+   "濁音にしない",
+   "車をじゃと読んだ"
+  ],
+  "explicacion": {
+   "es": "電車（でんしゃ）. Sin alargamiento: no es でんしゃあ.",
+   "en": "電車 (densha). No long vowel: it is not でんしゃあ."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-kanji_yomi-0010",
+  "nivel": "N5",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "あねは <u>大学</u>の 学生です。",
+  "opciones": [
+   "だいがく",
+   "たいがく",
+   "だいかく",
+   "おおがく"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "濁音にしない",
+   "学をかくと読んだ",
+   "大をおおと読んだ"
+  ],
+  "explicacion": {
+   "es": "大学（だいがく）. Aquí 大 se lee だい, no おお.",
+   "en": "大学 (daigaku). Here 大 reads だい, not おお."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-kanji_yomi-0011",
+  "nivel": "N5",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この <u>時間</u>は みせが すいて います。",
+  "opciones": [
+   "じかん",
+   "しかん",
+   "じっかん",
+   "じかい"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "濁音にしない",
+   "ない促音をつけた",
+   "間をかいと読んだ"
+  ],
+  "explicacion": {
+   "es": "時間（じかん）. 時 se sonoriza a じ; no lleva pausa breve.",
+   "en": "時間 (jikan). 時 voices to じ, and there is no small pause."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-kanji_yomi-0012",
+  "nivel": "N5",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "きょうは <u>天気</u>が いいです。",
+  "opciones": [
+   "てんき",
+   "でんき",
+   "てんぎ",
+   "てんけ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "電気と混同",
+   "気をぎと読んだ",
+   "気をけと読んだ"
+  ],
+  "explicacion": {
+   "es": "天気（てんき）. Ojo con 電気（でんき）, «electricidad», que suena parecido.",
+   "en": "天気 (tenki), weather. Careful with 電気 (denki), electricity."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-kanji_yomi-0013",
+  "nivel": "N5",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "<u>午後</u>から あめが ふりました。",
+  "opciones": [
+   "ごご",
+   "ごこ",
+   "こご",
+   "ごうご"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "後をこと読んだ",
+   "午をこと読んだ",
+   "ないはずの長音をつけた"
+  ],
+  "explicacion": {
+   "es": "午後（ごご）. Las dos sílabas son cortas y sonoras.",
+   "en": "午後 (gogo), afternoon. Both syllables short and voiced."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-kanji_yomi-0014",
+  "nivel": "N5",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この みちは <u>安全</u>です。",
+  "opciones": [
+   "あんぜん",
+   "あんせん",
+   "やすぜん",
+   "あんぜ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "濁音にしない",
+   "安をやすと読んだ",
+   "んを落とした"
+  ],
+  "explicacion": {
+   "es": "安全（あんぜん）. 安 se lee あん en compuesto, no やす.",
+   "en": "安全 (anzen), safe. 安 reads あん in compounds, not やす."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-hyouki-0006",
+  "nivel": "N5",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "きょうは <u>あめ</u>が ふって います。",
+  "opciones": [
+   "雨",
+   "雪",
+   "電",
+   "雲"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ゆきと読む字",
+   "でんと読む字",
+   "くもと読む字"
+  ],
+  "explicacion": {
+   "es": "雨 (lluvia). 雪 es «nieve» y 雲 «nube».",
+   "en": "雨 (rain). 雪 is snow and 雲 is cloud."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-hyouki-0007",
+  "nivel": "N5",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "<u>みず</u>を のみたいです。",
+  "opciones": [
+   "水",
+   "氷",
+   "永",
+   "木"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "こおりと読む字",
+   "形が似ているだけ",
+   "きと読む字"
+  ],
+  "explicacion": {
+   "es": "水 (agua). 氷 es «hielo» y 木 «árbol»: se parecen pero no son.",
+   "en": "水 (water). 氷 is ice and 木 is tree — similar shapes, different words."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-hyouki-0008",
+  "nivel": "N5",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "あの <u>おとこ</u>の 人は だれですか。",
+  "opciones": [
+   "男",
+   "女",
+   "田",
+   "力"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "おんなと読む字",
+   "男の一部だけ",
+   "男の一部だけ"
+  ],
+  "explicacion": {
+   "es": "男 (hombre). 田 y 力 son las dos piezas de 男, pero solas no lo son.",
+   "en": "男 (man). 田 and 力 are the two parts of 男, but not the word."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-hyouki-0009",
+  "nivel": "N5",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "まいばん <u>ほん</u>を よみます。",
+  "opciones": [
+   "本",
+   "木",
+   "休",
+   "体"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "きと読む字",
+   "やすむと読む字",
+   "からだと読む字"
+  ],
+  "explicacion": {
+   "es": "本 (libro). 木 es «árbol»; la raya de abajo es lo que los separa.",
+   "en": "本 (book). 木 is tree; the lower stroke is what tells them apart."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-hyouki-0010",
+  "nivel": "N5",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "<u>ひがし</u>の そらが あかるいです。",
+  "opciones": [
+   "東",
+   "南",
+   "西",
+   "北"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "みなみと読む字",
+   "にしと読む字",
+   "きたと読む字"
+  ],
+  "explicacion": {
+   "es": "東 (este). Los otros tres son los otros puntos cardinales.",
+   "en": "東 (east). The other three are the other cardinal points."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunmyaku-0007",
+  "nivel": "N5",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "きっては ゆうびんきょくで（　）。",
+  "opciones": [
+   "かいます",
+   "のみます",
+   "あるきます",
+   "ねます"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "飲む対象ではない",
+   "場所と合わない",
+   "場所と合わない"
+  ],
+  "explicacion": {
+   "es": "Los sellos se compran: きってを かいます.",
+   "en": "Stamps are bought: きってを かいます."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunmyaku-0008",
+  "nivel": "N5",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "さむいですから、まどを（　）ください。",
+  "opciones": [
+   "しめて",
+   "あけて",
+   "つけて",
+   "けして"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対の動作",
+   "電気などに使う",
+   "電気などに使う"
+  ],
+  "explicacion": {
+   "es": "Hace frío → cerrar la ventana. あける sería abrirla.",
+   "en": "It's cold → close the window. あける would be to open it."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunmyaku-0009",
+  "nivel": "N5",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この ふくは（　）ですから、かいません。",
+  "opciones": [
+   "たかい",
+   "やすい",
+   "ひくい",
+   "おおい"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対の意味",
+   "高さの話",
+   "数の話"
+  ],
+  "explicacion": {
+   "es": "No lo compra porque es caro: たかい. やすい sería barato.",
+   "en": "He isn't buying it because it's expensive: たかい. やすい would be cheap."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunmyaku-0010",
+  "nivel": "N5",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "きのうは かぜを ひいて、（　）を のみました。",
+  "opciones": [
+   "くすり",
+   "みず",
+   "おかね",
+   "しんぶん"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "病気と関係ない",
+   "飲む物ではない",
+   "飲む物ではない"
+  ],
+  "explicacion": {
+   "es": "Con un resfriado se toma medicina: くすりを のむ.",
+   "en": "With a cold you take medicine: くすりを のむ."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunmyaku-0011",
+  "nivel": "N5",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "あしたは しごとが ないので、（　）です。",
+  "opciones": [
+   "ひま",
+   "いそがしい",
+   "げんき",
+   "しずか"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対の意味",
+   "体の話",
+   "音の話"
+  ],
+  "explicacion": {
+   "es": "Sin trabajo → libre: ひま. いそがしい es justo lo contrario.",
+   "en": "No work → free: ひま. いそがしい is the opposite."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-bunmyaku-0012",
+  "nivel": "N5",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "でんしゃに（　）、がっこうへ 行きます。",
+  "opciones": [
+   "のって",
+   "はいって",
+   "あがって",
+   "すわって"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "建物に使う",
+   "上に行く動き",
+   "いすの話"
+  ],
+  "explicacion": {
+   "es": "Al tren se sube con のる: でんしゃに のる.",
+   "en": "You board a train with のる: でんしゃに のる."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-iikae-0004",
+  "nivel": "N5",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の文とだいたい同じ意味の文があります。1・2・3・4から一つ選びなさい。",
+  "enunciado": "この へやは <u>きれい</u>です。",
+  "opciones": [
+   "この へやは そうじが して あります。",
+   "この へやは とても せまいです。",
+   "この へやは くらいです。",
+   "この へやは ふるいです。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "広さの話",
+   "明るさの話",
+   "古さの話"
+  ],
+  "explicacion": {
+   "es": "きれい con una habitación es «limpia»: está recogida.",
+   "en": "きれい about a room means clean and tidy."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-iikae-0005",
+  "nivel": "N5",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の文とだいたい同じ意味の文があります。1・2・3・4から一つ選びなさい。",
+  "enunciado": "きのうの テストは <u>むずかしかった</u>です。",
+  "opciones": [
+   "きのうの テストは かんたんでは ありませんでした。",
+   "きのうの テストは とても みじかかったです。",
+   "きのうの テストは とても ながかったです。",
+   "きのうの テストは たのしかったです。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "長さの話",
+   "長さの話",
+   "気持ちの話"
+  ],
+  "explicacion": {
+   "es": "むずかしい = no fácil: かんたんでは ありません.",
+   "en": "むずかしい means not easy: かんたんでは ありません."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n5-iikae-0006",
+  "nivel": "N5",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の文とだいたい同じ意味の文があります。1・2・3・4から一つ選びなさい。",
+  "enunciado": "ちちは <u>いしゃ</u>です。",
+  "opciones": [
+   "ちちは びょういんで はたらいて います。",
+   "ちちは がっこうで おしえて います。",
+   "ちちは みせで うって います。",
+   "ちちは くるまを つくって います。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "先生の仕事",
+   "店の仕事",
+   "工場の仕事"
+  ],
+  "explicacion": {
+   "es": "いしゃ (médico) trabaja en un hospital.",
+   "en": "いしゃ (doctor) works at a hospital."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ }
+]
