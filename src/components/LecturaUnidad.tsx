@@ -6,6 +6,7 @@ import { JpHtml, JpEnLinea, BotonVoz } from "./Jp";
 import { callar, decir, enFrases, pausar, reanudar, soloTexto } from "@/lib/voz";
 import { Ordenar } from "./Ordenar";
 import { IcDerecha, IcEscucha, IcIzquierda, IcParar, IcPausa, IcReproducir } from "./Iconos";
+import { anotarLectura } from "@/lib/progreso";
 
 /** Reproductor frase a frase, con el texto oculto. */
 function LectorCiego({ texto, frase, setFrase }: {
@@ -97,26 +98,28 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
     return () => { vivo = false; };
   }, [unidadId, onEncontrada]);
 
+  // Contestar cuenta como estudio: suma al día, a la racha y —al terminar
+  // todas— deja la unidad cubierta, igual que las tarjetas o el test.
+  const contestadas = Object.keys(resp).length;
+  const contestar = (i: number, j: number, correcta: number) => {
+    if (resp[i] !== undefined) return;
+    setResp({ ...resp, [i]: j });
+    anotarLectura(unidadId, j === correcta, contestadas + 1 === l?.preguntas?.length);
+  };
+
   if (cargando) return <div className="tarjeta" style={{ height: 140 }} />;
   if (!l) {
     return (
       <div className="tarjeta">
         <p style={{ margin: 0 }}>{t("lec.sinLectura")}</p>
-        <p className="tenue" style={{ marginBottom: 0 }}>
-          Las lecturas se escriben por tandas y usan sólo el vocabulario y la gramática
-          que ya viste hasta aquí.
-        </p>
+        <p className="tenue" style={{ marginBottom: 0 }}>{t("lec.porTandas")}</p>
       </div>
     );
   }
 
 
-  // La traducción de apoyo, en el idioma de la interfaz. El inglés se va
-
-  // añadiendo por niveles; mientras no exista, se cae a la española, que es
-
-  // mejor que no enseñar nada.
-
+  // La traducción de apoyo, en el idioma de la interfaz. Están las 602 en los
+  // dos idiomas; el respaldo al español sólo cubre una lectura recién escrita.
   const trad = (idioma === "en" && l.traduccion_en) ? l.traduccion_en : l.traduccion;
 
 
@@ -145,9 +148,7 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
       </article>
 
       {ciega && (
-        <p className="tenue" style={{ marginTop: 10 }}>
-          Contesta de oído; luego pulsa «Ver el texto» para comprobarlo.
-        </p>
+        <p className="tenue" style={{ marginTop: 10 }}>{t("lec.deOido")}</p>
       )}
 
       <Ordenar frases={enFrases(l.cuerpo)} traduccion={trad} />
@@ -164,7 +165,10 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
                   const clase = dada === undefined ? "" : j === q.correcta ? "bien" : dada === j ? "mal" : "";
                   return (
                     <button key={j} className={`opcion ${clase}`}
-                            onClick={() => setResp({ ...resp, [i]: j })}>
+                            // Una respuesta por pregunta: si se puede cambiar
+                            // después de ver el color, el ejercicio no mide nada.
+                            disabled={dada !== undefined}
+                            onClick={() => contestar(i, j, q.correcta)}>
                       <JpEnLinea html={o} />
                     </button>
                   );
@@ -172,6 +176,9 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
               </div>
             </div>
           ))}
+          {contestadas === l.preguntas.length && (
+            <p className="tenue" style={{ margin: "14px 0 0" }}>{t("lec.cubierta")}</p>
+          )}
         </div>
       ) : null}
     </>

@@ -4,6 +4,8 @@ import { puedeVer } from "@/lib/acceso-servidor";
 import { Cabecera } from "@/components/Cabecera";
 import { PanelKanji } from "@/components/PanelKanji";
 import { BotonesRapidos } from "@/components/Ajustes";
+import { idiomaActual } from "@/lib/idioma-servidor";
+import { t as trad, type Clave } from "@/lib/idioma";
 
 export function generateStaticParams() {
   return curso().flatMap((n) => n.secciones.map((s) => ({ nivel: n.id, seccion: s.id })));
@@ -15,17 +17,19 @@ export default async function Pagina({ params }: { params: Promise<{ nivel: stri
   const s = seccionCurso(nivel, seccion);
   if (!s) notFound();
   const kanji = kanjiDeSeccion(nivel, seccion);
+  const idioma = await idiomaActual();
+  const t = (k: Clave, v?: Record<string, string | number>) => trad(k, idioma, v);
 
   return (
     <>
-      <Cabecera atras={`/n/${nivel}/${seccion}`} titulo={s.es} />
+      <Cabecera atras={`/n/${nivel}/${seccion}`} titulo={idioma === "en" ? s.en : s.es} />
       <main className="envoltorio">
         <section style={{ padding: "18px 0 10px", display: "flex", alignItems: "flex-end", gap: 12, flexWrap: "wrap" }}>
           <div>
             <span className={`pastilla ${nivel.toLowerCase()}`}>{nivel}</span>
             <h1 className="jp" style={{ fontSize: 26, margin: "8px 0 0" }}>{s.ja} · 漢字</h1>
             <p className="silencio" style={{ margin: 0 }}>
-              Los {kanji.length} kanji que salen en esta sección
+              {t("cur.kanjiSecc", { n: kanji.length })}
             </p>
           </div>
           <div className="crecer" style={{ flex: 1 }} />

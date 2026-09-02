@@ -4,12 +4,14 @@ import { useEffect, useState } from "react";
 import type { Gramatica, Kanji, UnidadMeta } from "@/lib/tipos";
 import { leerProgreso, medalla, type Progreso } from "@/lib/progreso";
 import { IcDerecha } from "./Iconos";
+import { useAjustes } from "./Ajustes";
 
 
 export function ListaUnidades({ nivel, seccion, unidades, gramatica, kanji }: {
   nivel: string; seccion: string; unidades: UnidadMeta[];
   gramatica: Gramatica[]; kanji: Kanji[];
 }) {
+  const { t, idioma } = useAjustes();
   const [p, setP] = useState<Progreso | null>(null);
 
   useEffect(() => {
@@ -42,14 +44,19 @@ export function ListaUnidades({ nivel, seccion, unidades, gramatica, kanji }: {
             <Link key={u.id} href={`/u/${nivel}/${u.id.split("/")[1]}/${idCorto}`} className="fila">
               <div style={{ flex: 1, minWidth: 0 }}>
                 <div className="jp" style={{ fontSize: 19, lineHeight: 1.4 }}>{u.ja}</div>
+                {/* El nombre de la unidad va en japonés arriba; debajo, el
+                    del idioma de la interfaz y lo que trae dentro. */}
+                <div style={{ fontSize: 12.5, color: "var(--tinta-2)" }}>
+                  {idioma === "en" ? u.en : u.es}
+                </div>
                 <div className="tenue">
-                  {u.items} palabras · {u.kanji} kanji
-                  {u.gramatica ? ` · ${u.gramatica} gramática` : ""}
+                  {t("cur.unidadSub", { palabras: u.items, kanji: u.kanji })}
+                  {u.gramatica ? t("cur.masGramCorto", { n: u.gramatica }) : ""}
                 </div>
               </div>
               {est?.mejor ? (
                 <span className={`pastilla ${medalla(est.mejor) ? "acento" : ""}`}
-                      title={`mejor test: ${est.mejor}%`}>{est.mejor}%</span>
+                      title={t("cur.mejorTestTit", { n: est.mejor })}>{est.mejor}%</span>
               ) : null}
               {est?.practicada && !est.mejor ? <span className="punto dominada" /> : null}
               <span className="flecha"><IcDerecha size={14} /></span>

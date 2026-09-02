@@ -36,15 +36,16 @@ import sys; sys.path.insert(0, "scripts")
 from taxonomia import SECCIONES as TAX, SUBGRUPOS
 curso = leer("curso")
 vistas = {s["id"] for n in curso for s in n["secciones"]}
-secciones = [{"id": sid, "ja": ja, "es": es, "orden": i + 1,
-              "subgrupos": [{"id": g, "ja": gja, "es": ges} for g, gja, ges in SUBGRUPOS[sid]]}
-             for i, (sid, ja, es) in enumerate(TAX) if sid in vistas]
+secciones = [{"id": sid, "ja": ja, "es": es, "en": en, "orden": i + 1,
+              "subgrupos": [{"id": g, "ja": gja, "es": ges, "en": gen}
+                            for g, gja, ges, gen in SUBGRUPOS[sid]]}
+             for i, (sid, ja, es, en) in enumerate(TAX) if sid in vistas]
 gramatica = [{**g, "orden": i + 1} for i, g in enumerate(leer("gramatica"))]
 
 partes = [
     "-- Contenido del curso, N5 a N1. Generado por scripts/10_generar_sql.py — no editar a mano.",
     "begin;",
-    bloque("secciones", ["id", "ja", "es", "orden", "subgrupos"], secciones, "id"),
+    bloque("secciones", ["id", "ja", "es", "en", "orden", "subgrupos"], secciones, "id"),
     bloque("vocabulario",
            ["id", "kana", "kanji", "escritura", "lectura", "pos", "en", "es",
             "registro", "seccion", "subgrupo", "jlpt"],
@@ -53,7 +54,7 @@ partes = [
            gramatica, "id"),
     bloque("unidades",
            ["id", "tipo", "nivel", "seccion", "subgrupo", "parte", "partes",
-            "ja", "es", "palabras", "gramatica"],
+            "ja", "es", "en", "palabras", "gramatica"],
            leer("unidades"), "id"),
     bloque("lecturas", ["unidad_id", "titulo", "cuerpo", "traduccion", "traduccion_en", "preguntas"],
            leer("lecturas"), "unidad_id"),

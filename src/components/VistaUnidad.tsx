@@ -65,7 +65,7 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
                 {unidad.ja}
               </h1>
               <p style={{ margin: 0, fontSize: 13, color: "var(--tinta-2)" }}>
-                {unidad.es}
+                {idioma === "en" ? unidad.en : unidad.es}
                 {total > 1 && ` · ${t("uni.unidadDe", { i: indice, n: total })}`}
               </p>
             </div>

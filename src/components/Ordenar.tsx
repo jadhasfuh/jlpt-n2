@@ -98,7 +98,7 @@ export function Ordenar({ frases, traduccion }: { frases: string[]; traduccion: 
 
   return (
     <div className="tarjeta" style={{ marginTop: 12 }}>
-      <p className="etiqueta">Ordena la frase · {n + 1} de {frases.length}</p>
+      <p className="etiqueta">{t("ord.titulo", { i: n + 1, n: frases.length })}</p>
       {pista
         ? <p className="silencio" style={{ marginTop: 4 }}>{pista}</p>
         : <p className="tenue" style={{ marginTop: 4 }}>{t("ord.recons")}</p>}
@@ -128,7 +128,7 @@ export function Ordenar({ frases, traduccion }: { frases: string[]; traduccion: 
       <div style={{ display: "flex", gap: 8, marginTop: 14, flexWrap: "wrap" }}>
         {revisado === null ? (
           <button className="btn primario" disabled={banco.length > 0} onClick={revisar}>
-            Comprobar
+            {t("ord.comprobar")}
           </button>
         ) : (
           <>

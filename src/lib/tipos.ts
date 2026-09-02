@@ -27,18 +27,19 @@ export type Unidad = {
   nivel: Nivel;
   seccion: string; subgrupo: string;
   parte: number; partes: number;
-  ja: string; es: string;
+  /** El nombre de la unidad en los tres idiomas del sitio. */
+  ja: string; es: string; en: string;
   palabras: number[]; gramatica: string[]; kanji: string[];
 };
 
 export type UnidadMeta = {
-  id: string; ja: string; es: string; tipo: string;
+  id: string; ja: string; es: string; en: string; tipo: string;
   items: number;      // palabras
   gramatica: number;  // puntos de gramática que trae la unidad
   kanji: number;
 };
 export type SeccionCurso = {
-  id: string; ja: string; es: string;
+  id: string; ja: string; es: string; en: string;
   palabras: number; gramatica: number; kanji: number;
   unidades: UnidadMeta[];
 };

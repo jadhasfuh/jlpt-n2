@@ -34,7 +34,7 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
     }));
   }, [palabras, idioma]);
 
-  const frases = useFrases(unidad.id);
+  const frases = useFrases(unidad.id, idioma);
   const [n, setN] = useState(0);
   const [elegida, setElegida] = useState<number | null>(null);
   const [aciertos, setAciertos] = useState(0);

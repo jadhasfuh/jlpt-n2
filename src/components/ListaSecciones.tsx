@@ -8,7 +8,7 @@ import { esLibre } from "@/lib/acceso";
 import { IcCandado, IcDerecha } from "./Iconos";
 import { useAjustes } from "./Ajustes";
 
-type S = { id: string; ja: string; es: string; palabras: number; gramatica: number; unidades: number };
+type S = { id: string; ja: string; es: string; en: string; palabras: number; gramatica: number; unidades: number };
 
 export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones: S[] }) {
   const { idioma, tieneAcceso } = useAjustes();
@@ -41,8 +41,10 @@ export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones:
                     texto={`${Math.round((avance[s.id] ?? 0) * 100)}`} />
             <div style={{ flex: 1, minWidth: 0 }}>
               <div className="jp" style={{ fontSize: 19, fontWeight: 500, lineHeight: 1.4 }}>{s.ja}</div>
+              {/* El nombre del tema en el idioma de la interfaz: en inglés
+                  salía en español, que es de lo primero que se ve al entrar. */}
               <div className="tenue">
-                {s.es} · {s.palabras} · {s.unidades}
+                {idioma === "en" ? s.en : s.es} · {s.palabras} · {s.unidades}
               </div>
             </div>
             {bloqueada ? <span className="flecha"><IcCandado size={15} /></span>

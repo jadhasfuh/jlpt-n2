@@ -18,8 +18,8 @@ CIRCULOS = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳"
 KANJI = re.compile(r"[一-鿿]")
 
 vocab = json.load(open("data/build/vocab_clasificado.json", encoding="utf-8"))
-et_sec = {s[0]: {"ja": s[1], "es": s[2]} for s in SECCIONES}
-et_sub = {(s, g[0]): {"ja": g[1], "es": g[2]} for s in SUBGRUPOS for g in SUBGRUPOS[s]}
+et_sec = {s[0]: {"ja": s[1], "es": s[2], "en": s[3]} for s in SECCIONES}
+et_sub = {(s, g[0]): {"ja": g[1], "es": g[2], "en": g[3]} for s in SUBGRUPOS for g in SUBGRUPOS[s]}
 orden_sec = [s[0] for s in SECCIONES]
 
 def dificultad(p):
@@ -33,11 +33,11 @@ def partir(items, por, min_cola):
         trozos[-1].extend(cola)
     return trozos
 
-def numerar(base_ja, base_es, i, total):
+def numerar(base_ja, base_es, base_en, i, total):
     if total == 1:
-        return base_ja, base_es
+        return base_ja, base_es, base_en
     marca = CIRCULOS[i] if i < len(CIRCULOS) else f"（{i + 1}）"
-    return f"{base_ja} {marca}", f"{base_es} ({i + 1})"
+    return f"{base_ja} {marca}", f"{base_es} ({i + 1})", f"{base_en} ({i + 1})"
 
 # ---------------------------------------------------------------- vocabulario
 por_clave = collections.defaultdict(list)
@@ -73,7 +73,7 @@ TOPE_UNIDAD = 27   # el mismo que comprueba el aviso del final
 unidades = []
 for nivel in NIVELES:
     for sec in orden_sec:
-        for sub, _, _ in SUBGRUPOS[sec]:
+        for sub, *_ in SUBGRUPOS[sec]:
             palabras = sorted(por_clave.get((nivel, sec, sub), []), key=dificultad)
             if not palabras:
                 continue
@@ -122,12 +122,13 @@ for nivel in NIVELES:
                 trozos = [(f"{nivel}/{sec}/{sub}-{i + 1}", t)
                           for i, t in enumerate(partir(palabras, POR_UNIDAD, MIN_COLA))]
             for i, (uid, trozo) in enumerate(trozos):
-                ja, es = numerar(et_sub[(sec, sub)]["ja"], et_sub[(sec, sub)]["es"], i, len(trozos))
+                ja, es, en = numerar(et_sub[(sec, sub)]["ja"], et_sub[(sec, sub)]["es"],
+                                     et_sub[(sec, sub)]["en"], i, len(trozos))
                 unidades.append({
                     "id": uid,
                     "tipo": "vocabulario", "nivel": nivel, "seccion": sec,
                     "subgrupo": sub, "parte": i + 1, "partes": len(trozos),
-                    "ja": ja, "es": es,
+                    "ja": ja, "es": es, "en": en,
                     "palabras": [p["id"] for p in trozo], "gramatica": [],
                 })
 

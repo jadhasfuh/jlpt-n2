@@ -3,6 +3,8 @@ import { gramaticas, kanjis, palabras, seccionCurso, unidad, vecinas } from "@/l
 import { puedeVer } from "@/lib/acceso-servidor";
 import { Cabecera } from "@/components/Cabecera";
 import { VistaUnidad } from "@/components/VistaUnidad";
+import { idiomaActual } from "@/lib/idioma-servidor";
+import { t as trad } from "@/lib/idioma";
 
 // A propósito sin generateStaticParams: son 602 unidades y prerenderizarlas
 // dispara el coste del build. Se sirven bajo demanda desde el JSON empaquetado.
@@ -16,13 +18,14 @@ export default async function Pagina(
   if (!u) notFound();
   const { siguiente, indice, total } = vecinas(u.id);
   const sec = seccionCurso(nivel, seccion);
+  const idioma = await idiomaActual();
   const sig = siguiente
     ? `/u/${siguiente.split("/")[0]}/${siguiente.split("/")[1]}/${siguiente.split("/")[2]}`
     : null;
 
   return (
     <>
-      <Cabecera atras={`/n/${nivel}/${seccion}`} titulo={sec?.ja ?? "Sección"} />
+      <Cabecera atras={`/n/${nivel}/${seccion}`} titulo={sec?.ja ?? trad("cur.seccion", idioma)} />
       <VistaUnidad
         unidad={u}
         palabras={palabras(u.palabras)}

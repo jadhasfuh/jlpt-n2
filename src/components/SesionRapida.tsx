@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import type { Palabra } from "@/lib/tipos";
 import { anotar, estadoItem, leerProgreso, paraRepasar } from "@/lib/progreso";
 import { BotonFurigana, useAjustes } from "./Ajustes";
+import { significado as sig } from "@/lib/idioma";
 import { Jp, BotonVoz } from "./Jp";
 import { IcCerrar, IcCronometro, IcDerecha } from "./Iconos";
 
@@ -15,7 +16,7 @@ const MINUTOS = 5;
  * que está a medio aprender.
  */
 export function SesionRapida() {
-  const { t } = useAjustes();
+  const { t, idioma } = useAjustes();
   const [cola, setCola] = useState<Palabra[]>([]);
   const [cargando, setCargando] = useState(true);
   const [i, setI] = useState(0);
@@ -122,7 +123,7 @@ export function SesionRapida() {
         <div style={{ marginTop: 6 }}><BotonVoz texto={p.escritura} /></div>
         {visible ? (
           <>
-            <p style={{ fontSize: 17, marginBottom: 2 }}>{p.es || p.en}</p>
+            <p style={{ fontSize: 17, marginBottom: 2 }}>{sig(p, idioma)}</p>
             <div style={{ display: "flex", gap: 10, justifyContent: "center", marginTop: 16 }}>
               <button className="btn" onClick={() => responder(false)}>No</button>
               <button className="btn primario" onClick={() => responder(true)}>Sí</button>

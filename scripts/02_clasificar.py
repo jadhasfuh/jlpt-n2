@@ -106,7 +106,7 @@ pathlib.Path("data/build/vocab_clasificado.json").write_text(
 print("origen:", dict(fuente))
 fb = sum(c for (s, g), c in conteo.items() if s == "sonota")
 print(f"en その他: {fb} ({fb/len(vocab)*100:.1f}%)")
-vacios = [(s,g) for s,_,_ in SECCIONES for g,_,_ in SUBGRUPOS[s] if conteo.get((s,g),0)==0]
+vacios = [(s,g) for s,*_ in SECCIONES for g,*_ in SUBGRUPOS[s] if conteo.get((s,g),0)==0]
 print("subgrupos vacíos:", vacios or "ninguno")
 peq = sorted([(c,s,g) for (s,g),c in conteo.items() if c<20])
 print("subgrupos con <20 palabras (menos de un nivel):")

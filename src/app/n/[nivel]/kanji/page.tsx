@@ -3,6 +3,8 @@ import { curso, kanjiDeNivel, nivelCurso } from "@/lib/contenido";
 import { Cabecera } from "@/components/Cabecera";
 import { PanelKanji } from "@/components/PanelKanji";
 import { BotonesRapidos } from "@/components/Ajustes";
+import { idiomaActual } from "@/lib/idioma-servidor";
+import { t as trad, type Clave } from "@/lib/idioma";
 
 export function generateStaticParams() {
   return curso().map((n) => ({ nivel: n.id }));
@@ -13,6 +15,8 @@ export default async function Pagina({ params }: { params: Promise<{ nivel: stri
   const n = nivelCurso(nivel);
   if (!n) notFound();
   const kanji = kanjiDeNivel(nivel);
+  const idioma = await idiomaActual();
+  const t = (k: Clave, v?: Record<string, string | number>) => trad(k, idioma, v);
 
   return (
     <>
@@ -23,7 +27,7 @@ export default async function Pagina({ params }: { params: Promise<{ nivel: stri
             <span className={`pastilla ${nivel.toLowerCase()}`}>{nivel}</span>
             <h1 className="jp" style={{ fontSize: 27, margin: "8px 0 0" }}>漢字</h1>
             <p className="silencio" style={{ margin: 0 }}>
-              Los {kanji.length} kanji del nivel, de los más frecuentes a los más raros
+              {t("cur.kanjiNivel", { n: kanji.length })}
             </p>
           </div>
           <div className="crecer" style={{ flex: 1 }} />

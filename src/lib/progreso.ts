@@ -167,6 +167,16 @@ export function hechosHoy(p: Progreso): number {
   return p.hechosPorDia[hoy()] ?? 0;
 }
 
+/**
+ * Si un id de `unidades` es una unidad del curso de verdad.
+ *
+ * El test de kanji también guarda su nota aquí, con un id propio
+ * (`kanji:体の部分 · N5`), porque su medalla interesa igual. Pero esos no son
+ * unidades del temario: si se cuentan, el contador de la portada acaba
+ * diciendo que has cubierto más unidades de las que existen.
+ */
+export const esUnidadDelCurso = (id: string) => /^N[1-5]\//.test(id);
+
 export function terminarPractica(unidadId: string): Progreso {
   const p = leerProgreso();
   const u = p.unidades[unidadId] ?? { practicada: false, mejor: 0, tests: 0 };
@@ -194,6 +204,28 @@ export function registrarTest(unidadId: string, porcentaje: number): Progreso {
   // y lo bien que salió lo guardan `mejor` y la medalla.
   if (!u.practicada) { u.practicada = true; premiar(p, XP_UNIDAD); }
   p.unidades[unidadId] = u;
+  guardar(p);
+  return p;
+}
+
+/**
+ * Contestar la comprensión de una lectura.
+ *
+ * Antes no anotaba nada: leías la lectura de la unidad, respondías sus
+ * preguntas y ni la racha, ni los XP, ni el anillo del tema se movían. Y
+ * leer es tan lección como pasar las tarjetas, así que cuenta igual: cada
+ * respuesta suma al día, y al terminarlas la unidad queda cubierta.
+ */
+export function anotarLectura(unidadId: string, acierto: boolean, ultima = false): Progreso {
+  const p = leerProgreso();
+  p.hechosPorDia[hoy()] = (p.hechosPorDia[hoy()] ?? 0) + 1;
+  marcarDia(p);
+  if (acierto) p.xp += XP_REPASO;
+  if (ultima) {
+    const u = p.unidades[unidadId] ?? { practicada: false, mejor: 0, tests: 0 };
+    if (!u.practicada) { u.practicada = true; premiar(p, XP_UNIDAD); }
+    p.unidades[unidadId] = u;
+  }
   guardar(p);
   return p;
 }
@@ -245,7 +277,8 @@ export function resumen(p: Progreso) {
       ? p.racha.dias : 0,
     vistas: vals.length,
     dominadas: vals.filter((m) => ["dominada", "quemada"].includes(estadoItem(m))).length,
-    unidades: Object.values(p.unidades).filter((u) => u.practicada).length,
+    unidades: Object.entries(p.unidades)
+      .filter(([id, u]) => u.practicada && esUnidadDelCurso(id)).length,
   };
 }
 

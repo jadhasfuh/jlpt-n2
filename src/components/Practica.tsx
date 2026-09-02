@@ -30,7 +30,7 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
     })),
   ], [palabras, gramatica, idioma]);
 
-  const frases = useFrases(unidad.id);
+  const frases = useFrases(unidad.id, idioma);
   const [i, setI] = useState(0);
   const [visible, setVisible] = useState(false);
   const [ganado, setGanado] = useState(0);

@@ -91,7 +91,7 @@ for u in unidades:
     u["kanji"] = kanji_de(u["palabras"])
 
 # ------------------------------------------------------------- árbol del curso
-et_sec = {s[0]: {"ja": s[1], "es": s[2]} for s in SECCIONES}
+et_sec = {s[0]: {"ja": s[1], "es": s[2], "en": s[3]} for s in SECCIONES}
 orden_sec = [s[0] for s in SECCIONES]
 
 curso = []
@@ -102,11 +102,12 @@ for nivel in NIVELES:
         us = [u for u in del_nivel if u["seccion"] == sid]
         if not us: continue
         secs.append({
-            "id": sid, "ja": et_sec[sid]["ja"], "es": et_sec[sid]["es"],
+            "id": sid, "ja": et_sec[sid]["ja"], "es": et_sec[sid]["es"], "en": et_sec[sid]["en"],
             "palabras": sum(len(u["palabras"]) for u in us),
             "gramatica": sum(len(u["gramatica"]) for u in us),
             "kanji": len({c for u in us for c in u["kanji"]}),
-            "unidades": [{"id": u["id"], "ja": u["ja"], "es": u["es"], "tipo": u["tipo"],
+            "unidades": [{"id": u["id"], "ja": u["ja"], "es": u["es"], "en": u.get("en", ""),
+                          "tipo": u["tipo"],
                           "items": len(u["palabras"]), "gramatica": len(u["gramatica"]),
                           "kanji": len(u["kanji"])}
                          for u in us],

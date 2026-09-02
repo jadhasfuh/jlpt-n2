@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import type { Palabra } from "@/lib/tipos";
 import { useAjustes } from "./Ajustes";
+import { significado as sig, significadoSecundario as sigSec } from "@/lib/idioma";
 
 type Caja = { x: number; y: number; palabras: Palabra[]; consulta: string };
 
@@ -11,7 +12,7 @@ type Caja = { x: number; y: number; palabras: Palabra[]; consulta: string };
  */
 export function Diccionario() {
   const [caja, setCaja] = useState<Caja | null>(null);
-  const { significado } = useAjustes();
+  const { significado, idioma } = useAjustes();
 
   useEffect(() => {
     let cancelado = false;
@@ -60,9 +61,9 @@ export function Diccionario() {
             {p.escritura}
             {p.lectura !== p.escritura && <span className="tenue">　{p.lectura}</span>}
           </div>
-          <div style={{ fontSize: 13.5 }}>{p.es || p.en}</div>
+          <div style={{ fontSize: 13.5 }}>{sig(p, idioma)}</div>
           {p.registro.length > 0 && <div className="tenue"><em>{p.registro.join(" · ")}</em></div>}
-          {significado && p.es && p.en !== p.es && <div className="tenue">{p.en}</div>}
+          {significado && sigSec(p, idioma) && <div className="tenue">{sigSec(p, idioma)}</div>}
         </div>
       ))}
       <div className="tenue" style={{ marginTop: 10 }}>

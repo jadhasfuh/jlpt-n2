@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import type { Lectura } from "./tipos";
+import type { Idioma } from "./idioma";
 import { soloTexto } from "./voz";
 
 export type Frase = { html: string; texto: string; es?: string };
@@ -33,7 +34,7 @@ export function ejemploDe(frases: Frase[], escritura: string): Frase | null {
  * nunca traen kanji ni gramática por encima de su nivel. Si la unidad todavía
  * no tiene lectura, se devuelve una lista vacía y quien llama no enseña nada.
  */
-export function useFrases(unidadId: string): Frase[] {
+export function useFrases(unidadId: string, idioma: Idioma = "es"): Frase[] {
   const [frases, setFrases] = useState<Frase[]>([]);
   useEffect(() => {
     let vivo = true;
@@ -41,10 +42,14 @@ export function useFrases(unidadId: string): Frase[] {
       try {
         const r = await fetch(`/api/lectura/${unidadId}`);
         const { lectura } = (await r.json()) as { lectura: Lectura | null };
-        if (vivo && lectura) setFrases(frasesDeLectura(lectura.cuerpo, lectura.traduccion));
+        // La frase de ejemplo se traduce al idioma de la interfaz: con la
+        // interfaz en inglés, debajo del japonés salía español.
+        const trad = idioma === "en" ? (lectura?.traduccion_en || lectura?.traduccion)
+                                     : lectura?.traduccion;
+        if (vivo && lectura) setFrases(frasesDeLectura(lectura.cuerpo, trad));
       } catch { /* sin lectura, sin ejemplos */ }
     })();
     return () => { vivo = false; };
-  }, [unidadId]);
+  }, [unidadId, idioma]);
   return frases;
 }

@@ -3,6 +3,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import type { Kanji } from "@/lib/tipos";
 import { anotar, registrarTest } from "@/lib/progreso";
 import { BotonFurigana, useAjustes } from "./Ajustes";
+import { significado as sigIdioma } from "@/lib/idioma";
 import { IcCerrar, IcDerecha } from "./Iconos";
 
 const SEGUNDOS = 3;
@@ -30,9 +31,9 @@ const lecturas = (k: Kanji) => [...k.on, ...k.kun].map(limpiar).filter(Boolean);
 export function TestKanji({ kanji, titulo, cerrar }: {
   kanji: Kanji[]; titulo: string; cerrar: () => void;
 }) {
-  const { t } = useAjustes();
+  const { t, idioma } = useAjustes();
   const preguntas = useMemo(() => {
-    const utiles = kanji.filter((k) => (k.es || k.en.join(", ")).trim());
+    const utiles = kanji.filter((k) => (k.es || k.en.join(", ")).trim());   // hay significado en algún idioma
     const conLectura = utiles.filter((k) => lecturas(k).length);
     return mezclar(utiles).slice(0, 20).map((correcto) => ({
       correcto,
@@ -93,7 +94,7 @@ export function TestKanji({ kanji, titulo, cerrar }: {
           </span>
           <h2 style={{ margin: 0, fontSize: 30 }}>{pct}%</h2>
           <p className="silencio" style={{ margin: 0 }}>
-            {puntos} de {preguntas.length} puntos · medio por el significado, medio por la lectura
+            {t("kan.puntos", { a: puntos, n: preguntas.length })}
           </p>
           <button className="btn primario" style={{ marginTop: 14 }} onClick={cerrar}>{t("com.volver")}</button>
         </div>
@@ -101,7 +102,7 @@ export function TestKanji({ kanji, titulo, cerrar }: {
     );
   }
 
-  const sig = (k: Kanji) => k.es || k.en.join(", ");
+  const sig = (k: Kanji) => sigIdioma(k, idioma);
 
   const responderSignificado = (op: Kanji) => {
     if (elegido !== null) return;
