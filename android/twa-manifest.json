@@ -4,7 +4,6 @@
   "name": "jlptest — japonés del N5 al N1",
   "launcherName": "jlptest",
   "display": "standalone",
-  "orientation": "portrait",
   "themeColor": "#161826",
   "themeColorDark": "#161826",
   "navigationColor": "#161826",
@@ -21,8 +20,8 @@
     "path": "./android.keystore",
     "alias": "jlptest"
   },
-  "appVersionName": "1.0.0",
-  "appVersionCode": 1,
+  "appVersionName": "1.0.1",
+  "appVersionCode": 2,
   "shortcuts": [
     {
       "name": "Repaso de hoy",
@@ -41,15 +40,21 @@
   "webManifestUrl": "https://jlptest.org/manifest.webmanifest",
   "fallbackType": "customtabs",
   "features": {},
-  "alphaDependencies": { "enabled": false },
+  "alphaDependencies": {
+    "enabled": false
+  },
   "enableSiteSettingsShortcut": true,
   "isChromeOSOnly": false,
   "isMetaQuest": false,
   "fullScopeUrl": "https://jlptest.org/",
   "minSdkVersion": 21,
+  "orientation": "portrait",
+  "fingerprints": [],
   "additionalTrustedOrigins": [],
   "retainedBundles": [],
   "protocolHandlers": [],
   "fileHandlers": [],
-  "launchHandlerClientMode": "auto"
+  "launchHandlerClientMode": "auto",
+  "displayOverride": [],
+  "appVersion": "jlptest 1.0.1"
 }
