@@ -170,6 +170,16 @@ export function registrarTest(unidadId: string, porcentaje: number): Progreso {
   const mejoro = porcentaje > u.mejor;
   if (mejoro) u.mejor = porcentaje;
   if (porcentaje >= 80 && mejoro) premiar(p, XP_TEST);
+  // Hacer el test también cuenta como haber pasado por la unidad.
+  //
+  // Antes sólo la marcaba `terminarPractica`, o sea las tarjetas. Quien
+  // terminaba el test veía su nota y los anillos del tema y del nivel seguían
+  // clavados, como si no hubiera hecho nada. Y es al revés: contestar el test
+  // demuestra más que pasar las tarjetas.
+  //
+  // La nota no entra aquí: el porcentaje del anillo mide cuánto has recorrido,
+  // y lo bien que salió lo guardan `mejor` y la medalla.
+  if (!u.practicada) { u.practicada = true; premiar(p, XP_UNIDAD); }
   p.unidades[unidadId] = u;
   guardar(p);
   return p;
