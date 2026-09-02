@@ -17,7 +17,7 @@
    "p": "ミンさんは どのくらい <ruby>日本<rt>にほん</rt></ruby>に いますか。",
    "opciones": [
     "<ruby>二年<rt>にねん</rt></ruby>",
-    "<ruby>二<rt>ふつ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
+    "<ruby>二<rt>に</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
     "きょねんから"
    ],
    "correcta": 0
