@@ -16,7 +16,6 @@
     "validar": "python3 scripts/13_validar_lecturas.py && python3 scripts/15_validar_gramatica.py"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.122.0",
     "@phosphor-icons/react": "^2.1.10",
     "@supabase/ssr": "^0.12.5",
     "@supabase/supabase-js": "^2.112.4",
@@ -27,6 +26,7 @@
     "zod": "^4.5.1"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^0.122.0",
     "@types/node": "^22.10.0",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",

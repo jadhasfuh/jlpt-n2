@@ -1,0 +1,31 @@
+ACCESO A LA APP  ·  lo que se pega en Play Console
+==================================================
+
+¿Alguna parte de tu app está restringida?  →  SÍ
+
+Nombre de las instrucciones
+  Cuenta de demostración
+
+Nombre de usuario
+  revision.jlptest@gmail.com          ← cámbialo por el correo que crees
+
+Contraseña
+  (la contraseña de ESA cuenta de Gmail, no la de jlptest)
+
+Cualquier otra instrucción
+--------------------------
+jlptest no usa contraseña: se entra con un código de seis cifras que llega
+por correo.
+
+1. Abre la app y pulsa Perfil → Entrar.
+2. Escribe el correo revision.jlptest@gmail.com y pulsa enviar.
+3. Abre gmail.com en el navegador con ese mismo correo y la contraseña de
+   arriba. En unos segundos llega un mensaje de jlptest con el código.
+4. Escribe el código en la app. La sesión queda abierta.
+
+Esta cuenta tiene el curso completo abierto (los cinco niveles, exámenes y
+lecturas), así que no hace falta pagar nada para revisarla.
+
+La suscripción se contrata únicamente en el sitio web, fuera de la app.
+Dentro de la app no hay precios, ni botones de pago, ni enlaces a la
+suscripción, conforme a la política de pagos de Google Play.
