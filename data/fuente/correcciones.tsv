@@ -10,3 +10,33 @@ id|kana|kanji|en|es
 2557|||at least, if nothing else|al menos, siquiera
 4566|||already; (not) any more|ya; ya no
 2462|||to slip out of place, to be off, to deviate|desplazarse, quedar fuera de sitio, desviarse
+
+# --- Sentidos equivocados en la lista original -------------------------------
+# La fuente le pegó a varias entradas la glosa de la palabra vecina. Lo peor:
+# あなた («tú») salía como «el otro lado, allá», que es 彼方; y ~日, el sufijo
+# de los días, salía como «Sunday». Son de N5: alguien lo aprendería mal.
+102|||you (to an equal or someone younger)|tú, usted
+693|||counter for days|(contador) día, ~ días
+1948|||day, date (suffix)|día, fecha (sufijo)
+3551|||day, date (suffix)|día, fecha (sufijo)
+1812|||Mr, Mrs, Ms (respectful suffix)|(sufijo de respeto) señor, señora, don, doña
+1839|||Mr, Mrs, Ms (polite suffix)|(sufijo) señor, señora
+3265|||class, grade, rank (suffix)|(sufijo) clase, grado, rango
+4819|||and others, et cetera (plural suffix)|(sufijo de plural) y demás, etcétera
+2572|||before, previous (suffix)|(sufijo) antes de, anterior
+4318|||before, in front of (suffix)|(sufijo) antes de, delante de
+
+# --- Interrogativos sin tilde ------------------------------------------------
+# «que» y «qué» no son la misma palabra. Salía «何 → que», que es justo el error
+# que un hispanohablante no debe aprender de nosotros.
+3489|||what|qué
+3490|||what|qué
+3520|||what (prefix)|qué, cuánto
+2890|||who|quién
+3348|||where, what place|dónde, en qué lugar
+3369|||which (of two), who|cuál (de dos), quién
+231|||which, either; sometime, eventually|cuál, cualquiera de ellos; en algún momento
+208|||no matter how much|por mucho que, por más que
+3303|||thanks; somehow; really|gracias; de algún modo; realmente
+1134|||you (informal); -kun (suffix)|tú (informal); (sufijo) -kun
+3430|||no matter how (much)|por mucho que, por más que

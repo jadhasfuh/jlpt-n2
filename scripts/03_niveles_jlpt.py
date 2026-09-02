@@ -110,6 +110,25 @@ if _dist.exists():
         if _k: IDS_PUBLICADOS.setdefault(limpio(_k), _p["id"])
 
 ya = {limpio(r["kanji"]) for r in vocab if r["kanji"]} | {limpio(r["kana"]) for r in vocab}
+
+def _prim(sentido: str) -> str:
+    """El primer sentido, en minúsculas y sin adornos: «to slip out of place,
+    to be off» → «slip out of place». Es lo que permite reconocer que dos
+    entradas son la misma palabra sin exigir que el texto coincida entero."""
+    t = re.sub(r"\([^)]*\)", "", (sentido or "")).split(",")[0].strip().lower()
+    return re.sub(r"^(to|a|an|the)\s+", "", t).strip()
+
+# Lectura → sentidos que ya hay con esa lectura.
+SENTIDOS = {}
+for _r in vocab:
+    _k = limpio(_r.get("kana") or "")
+    if _k:
+        SENTIDOS.setdefault(_k, set()).add(_prim(_r.get("en") or ""))
+
+def mismo_sentido(lectura: str, sentido: str) -> bool:
+    """¿Ya existe una palabra con esa lectura Y ese significado?"""
+    p = _prim(sentido)
+    return bool(p) and p in SENTIDOS.get(lectura, set())
 nuevas = []
 sig = max([*IDS_PUBLICADOS.values(), ID_N1]) + 1
 # Los ids que ya están en uso en el pool base. Una palabra importada puede
@@ -134,9 +153,18 @@ for nivel in NIVELES:
         # La lectura sólo sirve para descartar duplicados cuando la entrada se
         # escribe en kana. 乳 y 父 se leen las dos ちち y son dos palabras
         # distintas: mirar la lectura tiraba 121 palabras ya publicadas.
+        #
+        # Pero mirar sólo la escritura coló el caso contrario: 美味しい entraba
+        # aunque おいしい ya estuviera, y el alumno veía la misma palabra dos
+        # veces en la misma unidad. La diferencia entre 乳/父 y おいしい/美味しい
+        # es el **significado**: los primeros son dos palabras que suenan
+        # igual, la segunda es una palabra con dos formas de escribirse.
         if not clave or clave in ya or (not tiene_kanji and limpio(lec) in ya):
             continue
+        if tiene_kanji and mismo_sentido(limpio(lec), sig_en):
+            continue
         ya.add(clave)
+        SENTIDOS.setdefault(limpio(lec) or clave, set()).add(_prim(sig_en))
         idp = IDS_PUBLICADOS.get(clave)
         if idp is None or idp in OCUPADOS:
             idp = sig
