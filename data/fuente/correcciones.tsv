@@ -40,3 +40,51 @@ id|kana|kanji|en|es
 3303|||thanks; somehow; really|gracias; de algún modo; realmente
 1134|||you (informal); -kun (suffix)|tú (informal); (sufijo) -kun
 3430|||no matter how (much)|por mucho que, por más que
+
+# --- Recuperar la forma en kanji ---------------------------------------------
+# Al quitar los duplicados me quedé con la versión en kana y tiré la del kanji,
+# y para un examen de JLPT eso es al revés: 赤ちゃん es lo que aparece en la
+# prueba, no あかちゃん.
+#
+# El criterio es qué escribe el japonés de hoy, no si el kanji existe. Se pasan
+# a kanji las de uso normal; se quedan en kana las que casi siempre van en kana
+# (おいしい, きれい, たくさん, おかげ, なかなか) y las de kanji fuera del 常用
+# (お洒落, 切っ掛け, 凭れる, 萎む, 茹でる). Cuatro parejas no eran la misma
+# palabra y no se tocan: で/出, どうか/銅貨, いち/市, どの/殿.
+94||当てはまる||
+95||当てはめる||
+160||慌ただしい||
+558||お先に||
+575||お邪魔します||
+578||お世話になりました||
+585||お大事に||
+598||脅かす||
+618||お願いします||
+634||お待たせしました||
+635||お待ちください||
+658||お休み||
+1881||仕方がない||
+3383||怒鳴る||
+3965||百科事典||
+4903||ローマ字||
+3||相変わらず||
+78||当たり前||
+161||慌てる||
+581||恐らく||
+607||大人しい||
+633||お前||
+2389||少なくとも||
+2461||すれ違う||
+3471||殴る||
+4189||減る||
+178||良い||
+25||赤ちゃん||
+29||赤ん坊||
+1330||暮れる||
+1648||この間||
+1650||この頃||
+56||明後日||
+61||明日||
+604||一昨日||
+650||面白い||
+543||奥さん||
