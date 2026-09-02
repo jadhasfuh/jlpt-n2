@@ -99,6 +99,14 @@ export function ProveedorAjustes({
     setIdioma(i);
     document.documentElement.lang = i;
     document.cookie = `${COOKIE_IDIOMA}=${i}; path=/; max-age=31536000; samesite=lax`;
+    // Y en la cuenta, para que la preferencia viaje al siguiente aparato. Si
+    // no hay sesión, el endpoint contesta que no hay nada que guardar; y si
+    // falla la red no pasa nada, porque la cookie ya está puesta.
+    void fetch("/api/cuenta/idioma", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ idioma: i }),
+    }).catch(() => {});
   };
 
   const t = (clave: Clave, vars?: Record<string, string | number>) =>

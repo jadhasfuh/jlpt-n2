@@ -92,7 +92,7 @@ const PRIVACIDAD: Record<"es" | "en", { titulo: string; intro: string; bloques: 
         "Si borras los datos del navegador o desinstalas la aplicación, ese progreso se pierde. No tenemos copia.",
       ]},
       { t: "Con cuenta", p: [
-        "Guardamos tu dirección de correo y tu progreso de estudio (qué palabras has visto, cuándo toca repasarlas, resultados de exámenes).",
+        "Guardamos tu dirección de correo, el idioma que elijas para la interfaz y tu progreso de estudio (qué palabras has visto, cuándo toca repasarlas, resultados de exámenes).",
         "El correo se usa para enviarte el código de acceso y, si hiciera falta, para avisarte de algo importante sobre tu cuenta. No enviamos publicidad.",
         "Los datos se guardan en Supabase (infraestructura sobre Amazon Web Services, región Oeste de EE. UU.).",
         "Si te suscribes, el pago lo procesa Paddle, que actúa como vendedor autorizado: ellos reciben tus datos de pago y de facturación, nosotros no los vemos ni los guardamos. Nos devuelven sólo tu correo y el estado de la suscripción.",
@@ -120,7 +120,7 @@ const PRIVACIDAD: Record<"es" | "en", { titulo: string; intro: string; bloques: 
         "If you clear your browser data or uninstall the app, that progress is lost. We have no copy.",
       ]},
       { t: "With an account", p: [
-        "We store your email address and your study progress (which words you've seen, when they are due, exam results).",
+        "We store your email address, the interface language you choose and your study progress (which words you've seen, when they are due, exam results).",
         "The email is used to send you the sign-in code and, if needed, to tell you something important about your account. We do not send marketing.",
         "Data is stored on Supabase (infrastructure on Amazon Web Services, US West region).",
         "If you subscribe, the payment is processed by Paddle, acting as the authorised reseller: they receive your payment and billing details, and we neither see nor store them. All they pass back to us is your email and the state of the subscription.",
