@@ -81,14 +81,26 @@ async function sincronizar(p: Progreso) {
 }
 
 /** Suma XP y mantiene la racha de días. */
+/**
+ * La racha cuenta los días que has estudiado, no los que has acertado.
+ *
+ * Estaba dentro de `premiar()`, y `premiar()` sólo se llama cuando aciertas.
+ * O sea que un día malo —sentarse a repasar y fallarlo todo— no contaba: se
+ * perdía la racha justo el día en que más falta hacía seguir. Ahora se marca
+ * al contestar, salga bien o mal.
+ */
+function marcarDia(p: Progreso) {
+  const d = hoy();
+  if (p.racha.ultimo === d) return;
+  const ayer = new Date(Date.now() - 864e5).toISOString().slice(0, 10);
+  p.racha.dias = p.racha.ultimo === ayer ? p.racha.dias + 1 : 1;
+  p.racha.ultimo = d;
+}
+
+/** Los XP sí van con el acierto: son la recompensa, no la asistencia. */
 function premiar(p: Progreso, xp: number) {
   p.xp += xp;
-  const d = hoy();
-  if (p.racha.ultimo !== d) {
-    const ayer = new Date(Date.now() - 864e5).toISOString().slice(0, 10);
-    p.racha.dias = p.racha.ultimo === ayer ? p.racha.dias + 1 : 1;
-    p.racha.ultimo = d;
-  }
+  marcarDia(p);
 }
 
 export function anotar(
@@ -115,6 +127,7 @@ export function anotar(
 
   const d = hoy();
   p.hechosPorDia[d] = (p.hechosPorDia[d] ?? 0) + 1;
+  marcarDia(p);
 
   if (acierto) premiar(p, !antes || antes.a === 0 ? XP_NUEVA : XP_REPASO);
   guardar(p);

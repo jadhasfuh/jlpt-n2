@@ -409,6 +409,21 @@ em.g {
 em.g.n1 { border-color: color-mix(in srgb, var(--n1) 60%, transparent); }
 em.g.n3 { border-color: color-mix(in srgb, var(--n3) 60%, transparent); }
 
+/* La palabra por la que pregunta el enunciado.
+ *
+ * Iba con el subrayado del navegador, y entre kanji de colores no se veía:
+ * cada carácter ya lleva el color de su nivel, así que una rayita más pasa
+ * desapercibida. Ahora es un fondo con el acento —un canal que los colores de
+ * nivel no usan— más una línea gruesa debajo, así que se distingue con los
+ * colores puestos y sin ellos, y también en el tema claro. */
+.jp u, .enunciado u {
+  text-decoration: none;
+  background: color-mix(in srgb, var(--acento) 17%, transparent);
+  box-shadow: inset 0 -2px 0 color-mix(in srgb, var(--acento) 65%, transparent);
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
 .sin-colores .k { color: inherit; font-weight: inherit; }
 .sin-colores em.g { border-bottom: none; font-weight: inherit; }
 

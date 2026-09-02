@@ -186,7 +186,7 @@
   "nivel": "N2",
   "tipo": "iikae",
   "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "その件については、おって連絡します。",
+  "enunciado": "その件については、<u>おって</u>連絡します。",
   "objetivo": "おって",
   "opciones": [
    "あとで",
@@ -212,7 +212,7 @@
   "nivel": "N2",
   "tipo": "iikae",
   "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "彼の説明はくどくて、聞いていて疲れる。",
+  "enunciado": "彼の説明は<u>くどくて</u>、聞いていて疲れる。",
   "objetivo": "くどくて",
   "opciones": [
    "あっさりしていて",
@@ -238,7 +238,7 @@
   "nivel": "N2",
   "tipo": "iikae",
   "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "今年は予算がとぼしい。",
+  "enunciado": "今年は予算が<u>とぼしい</u>。",
   "objetivo": "とぼしい",
   "opciones": [
    "ちょうどいい",
@@ -264,7 +264,7 @@
   "nivel": "N2",
   "tipo": "iikae",
   "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "彼女はたちまち有名になった。",
+  "enunciado": "彼女は<u>たちまち</u>有名になった。",
   "objetivo": "たちまち",
   "opciones": [
    "ようやく",
@@ -290,7 +290,7 @@
   "nivel": "N2",
   "tipo": "iikae",
   "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "その案はあっさり却下された。",
+  "enunciado": "その案は<u>あっさり</u>却下された。",
   "objetivo": "あっさり",
   "opciones": [
    "簡単に",

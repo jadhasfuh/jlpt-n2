@@ -4,7 +4,7 @@
   "nivel": "N3",
   "tipo": "kanji_yomi",
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "この道路は工事中で通れない。",
+  "enunciado": "この<u>道路</u>は工事中で通れない。",
   "opciones": [
    "とうろ",
    "どうろう",
@@ -29,7 +29,7 @@
   "nivel": "N3",
   "tipo": "kanji_yomi",
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "会場の入口で名前を確認された。",
+  "enunciado": "会場の入口で名前を<u>確認</u>された。",
   "opciones": [
    "がくにん",
    "かくにい",

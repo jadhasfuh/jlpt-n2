@@ -4,7 +4,7 @@
   "nivel": "N2",
   "tipo": "kanji_yomi",
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "彼の提案は会議で採用された。",
+  "enunciado": "彼の提案は会議で<u>採用</u>された。",
   "objetivo": "採用",
   "opciones": [
    "さいよう",
@@ -30,7 +30,7 @@
   "nivel": "N2",
   "tipo": "kanji_yomi",
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "この道は工事のため通行止めになっている。",
+  "enunciado": "この道は工事のため<u>通行</u>止めになっている。",
   "objetivo": "通行",
   "opciones": [
    "つうごう",
@@ -56,7 +56,7 @@
   "nivel": "N2",
   "tipo": "kanji_yomi",
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "彼女は毎日欠かさず日記をつけている。",
+  "enunciado": "彼女は毎日<u>欠かさず</u>日記をつけている。",
   "objetivo": "欠かさず",
   "opciones": [
    "きらさず",
@@ -82,7 +82,7 @@
   "nivel": "N2",
   "tipo": "kanji_yomi",
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "険しい山道を三時間かけて登った。",
+  "enunciado": "<u>険しい</u>山道を三時間かけて登った。",
   "objetivo": "険しい",
   "opciones": [
    "きびしい",
@@ -108,7 +108,7 @@
   "nivel": "N2",
   "tipo": "kanji_yomi",
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "新しい制度の導入が検討されている。",
+  "enunciado": "新しい制度の<u>導入</u>が検討されている。",
   "objetivo": "導入",
   "opciones": [
    "どうにゅう",
@@ -134,7 +134,7 @@
   "nivel": "N2",
   "tipo": "kanji_yomi",
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "駅前の商店街は夕方になると賑わう。",
+  "enunciado": "駅前の<u>商店街</u>は夕方になると賑わう。",
   "objetivo": "商店街",
   "opciones": [
    "しょうてんかい",
@@ -160,7 +160,7 @@
   "nivel": "N2",
   "tipo": "hyouki",
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "毎朝走るのはけんこうのためだ。",
+  "enunciado": "毎朝走るのは<u>けんこう</u>のためだ。",
   "objetivo": "けんこう",
   "opciones": [
    "健康",
@@ -186,7 +186,7 @@
   "nivel": "N2",
   "tipo": "hyouki",
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "先生のこうぎはとても分かりやすい。",
+  "enunciado": "先生の<u>こうぎ</u>はとても分かりやすい。",
   "objetivo": "こうぎ",
   "opciones": [
    "購義",
@@ -212,7 +212,7 @@
   "nivel": "N2",
   "tipo": "hyouki",
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "書類の最後にしょめいをしてください。",
+  "enunciado": "書類の最後に<u>しょめい</u>をしてください。",
   "objetivo": "しょめい",
   "opciones": [
    "暑名",
@@ -238,7 +238,7 @@
   "nivel": "N2",
   "tipo": "hyouki",
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "彼がいがいにも早く着いたので驚いた。",
+  "enunciado": "彼が<u>いがい</u>にも早く着いたので驚いた。",
   "objetivo": "いがい",
   "opciones": [
    "以外",
@@ -264,7 +264,7 @@
   "nivel": "N2",
   "tipo": "hyouki",
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "この機械はそうさが簡単だ。",
+  "enunciado": "この機械は<u>そうさ</u>が簡単だ。",
   "objetivo": "そうさ",
   "opciones": [
    "操作",
