@@ -106,6 +106,20 @@ export async function lectura(unidadId: string): Promise<Lectura | null> {
 }
 
 /**
+ * El orden en que se leen las unidades de un nivel: el mismo que recorre el
+ * curso. Es el índice del libro, porque cada capítulo es la lectura de su
+ * unidad y la historia sigue ese orden.
+ */
+export function capitulos(nivel: string): Unidad[] {
+  return UNIDADES
+    .filter((u) => u.nivel === nivel)
+    .sort((a, b) =>
+      a.seccion.localeCompare(b.seccion) ||
+      a.subgrupo.localeCompare(b.subgrupo) ||
+      a.parte - b.parte);
+}
+
+/**
  * Búsqueda libre para el buscador de la cabecera. `buscarDiccionario` sirve
  * para una selección exacta dentro de un texto; aquí se escribe a mano y hace
  * falta tolerar prefijos y buscar también por el significado en español.

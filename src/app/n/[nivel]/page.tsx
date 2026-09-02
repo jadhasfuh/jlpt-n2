@@ -31,6 +31,16 @@ export default async function Pagina({ params }: { params: Promise<{ nivel: stri
             })}
           </p>
         </section>
+        <Link href={`/libro/${n.id}`} className="fila" style={{ marginBottom: 12 }}>
+          <div className="anillo" style={{ ["--pct" as string]: 100, ["--tono" as string]: "var(--acento)" }}>
+            <span className="jp" style={{ fontSize: 15 }}>読</span>
+          </div>
+          <div style={{ flex: 1 }}>
+            <div style={{ fontWeight: 600 }}>{t("lib2.leer")}</div>
+            <div className="tenue">{t("lib2.leerSub")}</div>
+          </div>
+          <span className="flecha"><IcDerecha size={14} /></span>
+        </Link>
         <Link href={`/n/${n.id}/kanji`} className="fila" style={{ marginBottom: 12 }}>
           <div className="anillo" style={{ ["--pct" as string]: 100, ["--tono" as string]: "var(--tinta-3)" }}>
             <span className="jp" style={{ fontSize: 15 }}>漢</span>

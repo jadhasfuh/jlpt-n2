@@ -29,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
   const niveles = NIVELES.flatMap((n) => [
     { url: `${SITIO}/n/${n}`, priority: 0.9 },
+    { url: `${SITIO}/libro/${n}`, priority: 0.7 },
     { url: `${SITIO}/n/${n}/kanji`, priority: 0.6 },
     { url: `${SITIO}/n/${n}/gramatica`, priority: 0.6 },
   ]);
