@@ -126,6 +126,14 @@ export type Ajuste = {
    * fallaste.
    */
   cronometro: boolean;
+  /**
+   * Cuántas preguntas se piden. Es lo que decide el tamaño del examen.
+   *
+   * Con reloj, elegir una duración lo rellena solo con lo que cabe en ese
+   * tiempo; sin reloj, se elige a mano. Antes el tamaño salía del reloj y no
+   * había forma de pedir «veinte preguntas y las que tarde, tardo».
+   */
+  preguntas: number;
 };
 
 /**
@@ -154,9 +162,45 @@ export function armarReparto(a: Ajuste): Partial<Record<TipoItem, number>> {
   const completo = REPARTO[a.nivel];
   const quiere = (t: TipoItem) =>
     a.secciones.length === 0 || a.secciones.includes(SECCION_DE[t]);
-
   const tipos = (Object.keys(completo) as TipoItem[]).filter(quiere);
   if (!tipos.length) return {};
+
+  // Repartir un número de preguntas es el mismo problema que repartir tiempo,
+  // con el coste de todas a uno: proporción oficial y restos mayores.
+  const pedidas = Math.max(1, Math.round(a.preguntas));
+  const totalOficial = tipos.reduce((s, t) => s + (completo[t] ?? 0), 0);
+  const salida: Partial<Record<TipoItem, number>> = {};
+  const resto = new Map<TipoItem, number>();
+  let puestas = 0;
+  for (const t of tipos) {
+    const ideal = ((completo[t] ?? 0) / totalOficial) * pedidas;
+    const enteros = Math.floor(ideal);
+    if (enteros > 0) { salida[t] = enteros; puestas += enteros; }
+    resto.set(t, ideal - enteros);
+  }
+  for (const [t] of [...resto].sort((x, y) => y[1] - x[1])) {
+    if (puestas >= pedidas) break;
+    salida[t] = (salida[t] ?? 0) + 1;
+    puestas++;
+  }
+  if (cuantosItems(salida) === 0) salida[tipos[0]] = 1;
+  return salida;
+}
+
+/**
+ * Cuántas preguntas caben en un tiempo dado. Sirve para rellenar solo el
+ * número de preguntas cuando se elige una duración, y para nada más: el
+ * tamaño del examen lo decide `preguntas`.
+ *
+ * Los ritmos por sección son los del examen real: la lectura se come el
+ * tiempo y el vocabulario vuela, así que un promedio único engañaría.
+ */
+export function preguntasEn(a: Pick<Ajuste, "nivel" | "secciones" | "minutos">): number {
+  const completo = REPARTO[a.nivel];
+  const quiere = (t: TipoItem) =>
+    a.secciones.length === 0 || a.secciones.includes(SECCION_DE[t]);
+  const tipos = (Object.keys(completo) as TipoItem[]).filter(quiere);
+  if (!tipos.length) return 0;
 
   const segundos = (t: TipoItem) => SEGUNDOS_POR_ITEM[SECCION_DE[t]];
   const coste = (t: TipoItem) => (completo[t] ?? 0) * segundos(t);
@@ -168,7 +212,10 @@ export function armarReparto(a: Ajuste): Partial<Record<TipoItem, number>> {
   const cuota = new Map<TipoItem, number>();
   let gastado = 0;
   for (const t of tipos) {
-    const ideal = (completo[t] ?? 0) * factor;
+    // Ningún tipo pasa de lo que lleva el examen oficial. Sin este tope, con
+    // presupuesto de sobra la cuenta seguía creciendo: «Completo» de N5 pedía
+    // 131 preguntas cuando el examen entero son 67.
+    const ideal = Math.min((completo[t] ?? 0) * factor, completo[t] ?? 0);
     const enteros = Math.floor(ideal);
     if (enteros > 0) { salida[t] = enteros; gastado += enteros * segundos(t); }
     cuota.set(t, ideal - enteros);
@@ -177,16 +224,13 @@ export function armarReparto(a: Ajuste): Partial<Record<TipoItem, number>> {
   // El tiempo que sobra se rifa entre los que quedaron con más resto.
   for (const [t] of [...cuota].sort((x, y) => y[1] - x[1])) {
     if (gastado + segundos(t) > presupuesto) continue;
+    if ((salida[t] ?? 0) >= (completo[t] ?? 0)) continue;
     salida[t] = (salida[t] ?? 0) + 1;
     gastado += segundos(t);
   }
 
-  // Un examen vacío no sirve de nada: si ni el más barato cabe, uno y ya.
-  if (cuantosItems(salida) === 0) {
-    const barato = tipos.reduce((a2, b) => (segundos(a2) <= segundos(b) ? a2 : b));
-    salida[barato] = 1;
-  }
-  return salida;
+  // Un examen vacío no sirve de nada: si ni el más barato cabe, una y ya.
+  return Math.max(1, cuantosItems(salida));
 }
 
 export function cuantosItems(r: Partial<Record<TipoItem, number>>): number {

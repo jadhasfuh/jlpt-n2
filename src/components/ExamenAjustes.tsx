@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { NIVELES, type Nivel } from "@/lib/tipos";
 import {
-  armarReparto, cuantosItems, NOMBRE_SECCION, SECCION_DE,
+  armarReparto, cuantosItems, NOMBRE_SECCION, preguntasEn, SECCION_DE,
   type Ajuste, type Seccion, type TipoItem,
 } from "@/lib/examen";
 import { useAjustes } from "./Ajustes";
@@ -12,6 +12,8 @@ import Link from "next/link";
 
 const SECCIONES: Seccion[] = ["moji_goi", "bunpou", "dokkai", "choukai"];
 const MINUTOS = [5, 10, 15, 30] as const;
+/** Tamaños redondos para elegir a mano cuando no hay reloj. */
+const PREGUNTAS = [10, 20, 30, 45, 60] as const;
 
 /** Elegir qué examen se quiere antes de empezar. */
 export function ExamenAjustes({ nivelInicial = "N2", alDia = true }:
@@ -25,8 +27,15 @@ export function ExamenAjustes({ nivelInicial = "N2", alDia = true }:
   const [minutos, setMinutos] = useState<Ajuste["minutos"]>(10);
   const [correccion, setCorreccion] = useState<Ajuste["correccion"]>("al final");
   const [cronometro, setCronometro] = useState(true);
+  const [preguntas, setPreguntas] = useState(20);
   const [inventario, setInventario] = useState<Record<string, Record<string, number>>>({});
   const [corriendo, setCorriendo] = useState(false);
+
+  // Con reloj, el número de preguntas lo manda la duración: si cambias de
+  // nivel o de secciones, lo que cabe en esos minutos cambia con ellas.
+  useEffect(() => {
+    if (cronometro) setPreguntas(preguntasEn({ nivel, secciones, minutos }));
+  }, [cronometro, nivel, secciones, minutos]);
 
   useEffect(() => {
     fetch("/api/examen/inventario")
@@ -35,8 +44,18 @@ export function ExamenAjustes({ nivelInicial = "N2", alDia = true }:
       .catch(() => {});
   }, []);
 
-  const ajuste: Ajuste = { nivel, secciones, minutos, correccion, cronometro };
+  const ajuste: Ajuste = { nivel, secciones, minutos, correccion, cronometro, preguntas };
   if (corriendo) return <Examen ajuste={ajuste} cerrar={() => setCorriendo(false)} />;
+
+  // Elegir una duración rellena solo el número de preguntas: es lo que cabe
+  // en ese tiempo al ritmo del examen real.
+  const elegirMinutos = (m: Ajuste["minutos"]) => {
+    setMinutos(m);
+    setPreguntas(preguntasEn({ nivel, secciones, minutos: m }));
+  };
+  // Los tamaños redondos, más el que salga de la duración elegida, para que
+  // el botón que se marca solo exista siempre.
+  const bloques = [...new Set([...PREGUNTAS, preguntas])].sort((x, y) => x - y);
 
   const reparto = armarReparto(ajuste);
   const pedidas = cuantosItems(reparto);
@@ -81,25 +100,43 @@ export function ExamenAjustes({ nivelInicial = "N2", alDia = true }:
         ))}
       </div>
 
-      <h2 className="enc-seccion">{t("ex.duracion")}</h2>
-      <div className="filtros" style={{ marginBottom: 18 }}>
-        {MINUTOS.map((m) => (
-          <button key={m} className={`btn chico ${minutos === m ? "encendido" : ""}`}
-                  onClick={() => setMinutos(m)}>{t("ex.min", { n: m })}</button>
-        ))}
-        <button className={`btn chico ${minutos === 105 ? "encendido" : ""}`}
-                onClick={() => setMinutos(105)}>{t("ex.completo")}</button>
-      </div>
-
       <h2 className="enc-seccion">{t("ex.reloj")}</h2>
       <div className="filtros" style={{ marginBottom: 6 }}>
         <button className={`btn chico ${cronometro ? "encendido" : ""}`}
-                onClick={() => setCronometro(true)}>{t("ex.conReloj")}</button>
+                onClick={() => { setCronometro(true); elegirMinutos(minutos); }}>
+          {t("ex.conReloj")}
+        </button>
         <button className={`btn chico ${!cronometro ? "encendido" : ""}`}
                 onClick={() => setCronometro(false)}>{t("ex.sinReloj")}</button>
       </div>
       <p className="tenue" style={{ marginTop: 0, marginBottom: 18 }}>
         {t(cronometro ? "ex.conRelojAyuda" : "ex.sinRelojAyuda")}
+      </p>
+
+      {/* La duración sólo pinta si hay reloj: sin él no significa nada. */}
+      {cronometro && (
+        <>
+          <h2 className="enc-seccion">{t("ex.duracion")}</h2>
+          <div className="filtros" style={{ marginBottom: 18 }}>
+            {MINUTOS.map((m) => (
+              <button key={m} className={`btn chico ${minutos === m ? "encendido" : ""}`}
+                      onClick={() => elegirMinutos(m)}>{t("ex.min", { n: m })}</button>
+            ))}
+            <button className={`btn chico ${minutos === 105 ? "encendido" : ""}`}
+                    onClick={() => elegirMinutos(105)}>{t("ex.completo")}</button>
+          </div>
+        </>
+      )}
+
+      <h2 className="enc-seccion">{t("ex.preguntas")}</h2>
+      <div className="filtros" style={{ marginBottom: 6 }}>
+        {bloques.map((n) => (
+          <button key={n} className={`btn chico ${preguntas === n ? "encendido" : ""}`}
+                  onClick={() => setPreguntas(n)}>{n}</button>
+        ))}
+      </div>
+      <p className="tenue" style={{ marginTop: 0, marginBottom: 18 }}>
+        {t("ex.preguntasAyuda")}
       </p>
 
       <h2 className="enc-seccion">{t("ex.correccion")}</h2>

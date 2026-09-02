@@ -28,6 +28,9 @@ function sanear(x: unknown): Ajuste | null {
     // Sólo afecta a la interfaz, pero se sanea igual: el resto del ajuste
     // viaja por aquí y no quiero un booleano que en realidad sea otra cosa.
     cronometro: a.cronometro !== false,
+    // El tamaño del examen ya no sale del reloj, así que aquí está el tope:
+    // sin él, un `preguntas: 99999` pediría medio banco de una sentada.
+    preguntas: Math.min(120, Math.max(1, Math.round(Number(a.preguntas) || 10))),
   };
 }
 
