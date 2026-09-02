@@ -25,6 +25,9 @@ function sanear(x: unknown): Ajuste | null {
     secciones,
     minutos: a.minutos as Ajuste["minutos"],
     correccion: a.correccion === "al momento" ? "al momento" : "al final",
+    // Sólo afecta a la interfaz, pero se sanea igual: el resto del ajuste
+    // viaja por aquí y no quiero un booleano que en realidad sea otra cosa.
+    cronometro: a.cronometro !== false,
   };
 }
 

@@ -118,6 +118,14 @@ export type Ajuste = {
   minutos: 5 | 10 | 15 | 30 | 105;
   /** Ver la corrección al momento o guardarla toda para el final. */
   correccion: "al momento" | "al final";
+  /**
+   * Si corre el reloj. Los minutos siguen decidiendo **cuántas** preguntas
+   * entran —es lo que da un examen del tamaño de siempre—, pero sin
+   * cronómetro nadie te echa a mitad. Practicar y examinarse son dos cosas
+   * distintas, y con el reloj encima no se puede parar a pensar por qué
+   * fallaste.
+   */
+  cronometro: boolean;
 };
 
 /**

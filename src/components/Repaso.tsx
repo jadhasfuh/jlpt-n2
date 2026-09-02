@@ -13,6 +13,9 @@ import { Reportar } from "./Reportar";
 import { IcBien, IcDerecha } from "./Iconos";
 import { significado as sig, significadoSecundario as sigSec } from "@/lib/idioma";
 
+/** Alto de la zona de barras de la previsión, en píxeles. */
+const ALTO_GRAFICA = 56;
+
 export function Repaso() {
   const [cargando, setCargando] = useState(true);
   const [todas, setTodas] = useState<Palabra[]>([]);
@@ -147,17 +150,24 @@ export function Repaso() {
         </div>
 
         <h2 className="enc-seccion" style={{ marginTop: 22 }}>{t("rep.sieteDias")}</h2>
-        <div style={{ display: "flex", alignItems: "flex-end", gap: 6, height: 76 }}>
+        {/* La zona de barras tiene alto propio y las barras crecen dentro de
+            ella. Antes la columna entera medía barra + dos rótulos y se salía
+            por arriba del contenedor, encima del título. */}
+        <div style={{ display: "flex", alignItems: "flex-end", gap: 6 }}>
           {prevision.map((d, k) => (
-            <div key={k} style={{ flex: 1, textAlign: "center" }}>
-              <div style={{
-                height: Math.max(4, (d.n / alto) * 54), borderRadius: 5,
-                background: k === 0 ? "var(--acento)" : k <= 3 ? "var(--acento-700)" : "var(--acento-800)",
-              }} />
+            <div key={k} style={{ flex: 1, textAlign: "center", minWidth: 0 }}>
+              <div style={{ height: ALTO_GRAFICA, display: "flex", alignItems: "flex-end" }}>
+                <div style={{
+                  width: "100%",
+                  height: Math.max(3, Math.round((d.n / alto) * ALTO_GRAFICA)),
+                  borderRadius: 5,
+                  background: k === 0 ? "var(--acento)" : k <= 3 ? "var(--acento-700)" : "var(--acento-800)",
+                }} />
+              </div>
               <div style={{ fontSize: 10, color: "var(--tinta-3)", marginTop: 5 }}>
                 {k === 0 ? t("rep.hoy") : nombresDia[d.diaSemana]}
               </div>
-              <div style={{ fontSize: 10, color: "var(--tinta-4)" }}>{d.n || ""}</div>
+              <div style={{ fontSize: 10, color: "var(--tinta-4)", minHeight: 13 }}>{d.n || ""}</div>
             </div>
           ))}
         </div>

@@ -24,6 +24,7 @@ export function ExamenAjustes({ nivelInicial = "N2", alDia = true }:
   const [secciones, setSecciones] = useState<Seccion[]>([]);
   const [minutos, setMinutos] = useState<Ajuste["minutos"]>(10);
   const [correccion, setCorreccion] = useState<Ajuste["correccion"]>("al final");
+  const [cronometro, setCronometro] = useState(true);
   const [inventario, setInventario] = useState<Record<string, Record<string, number>>>({});
   const [corriendo, setCorriendo] = useState(false);
 
@@ -34,7 +35,7 @@ export function ExamenAjustes({ nivelInicial = "N2", alDia = true }:
       .catch(() => {});
   }, []);
 
-  const ajuste: Ajuste = { nivel, secciones, minutos, correccion };
+  const ajuste: Ajuste = { nivel, secciones, minutos, correccion, cronometro };
   if (corriendo) return <Examen ajuste={ajuste} cerrar={() => setCorriendo(false)} />;
 
   const reparto = armarReparto(ajuste);
@@ -89,6 +90,17 @@ export function ExamenAjustes({ nivelInicial = "N2", alDia = true }:
         <button className={`btn chico ${minutos === 105 ? "encendido" : ""}`}
                 onClick={() => setMinutos(105)}>{t("ex.completo")}</button>
       </div>
+
+      <h2 className="enc-seccion">{t("ex.reloj")}</h2>
+      <div className="filtros" style={{ marginBottom: 6 }}>
+        <button className={`btn chico ${cronometro ? "encendido" : ""}`}
+                onClick={() => setCronometro(true)}>{t("ex.conReloj")}</button>
+        <button className={`btn chico ${!cronometro ? "encendido" : ""}`}
+                onClick={() => setCronometro(false)}>{t("ex.sinReloj")}</button>
+      </div>
+      <p className="tenue" style={{ marginTop: 0, marginBottom: 18 }}>
+        {t(cronometro ? "ex.conRelojAyuda" : "ex.sinRelojAyuda")}
+      </p>
 
       <h2 className="enc-seccion">{t("ex.correccion")}</h2>
       <div className="filtros" style={{ marginBottom: 6 }}>

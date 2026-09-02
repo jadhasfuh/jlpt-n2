@@ -45,6 +45,7 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
   const [fin, setFin] = useState<null | "tiempo" | "terminado">(null);
   const [sinAcceso, setSinAcceso] = useState(false);
   const [queda, setQueda] = useState(ajuste.minutos * 60);
+  const [transcurrido, setTranscurrido] = useState(0);
   const pedido = useRef(false);
   const enviado = useRef(false);
 
@@ -86,16 +87,21 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
     }).catch(() => { /* que no se pierda el examen por no poder guardarlo */ });
   }, [fin, items, respuestas]);
 
+  // Con reloj cuenta hacia atrás y te echa al llegar a cero; sin reloj cuenta
+  // hacia arriba y no termina nada: es la diferencia entre examinarse y
+  // practicar. El tiempo se sigue viendo, porque saber cuánto tardas es útil
+  // aunque no haya límite.
   useEffect(() => {
     if (fin || !items) return;
     const id = setInterval(() => {
+      if (!ajuste.cronometro) { setTranscurrido((s) => s + 1); return; }
       setQueda((s) => {
         if (s <= 1) { clearInterval(id); setFin("tiempo"); return 0; }
         return s - 1;
       });
     }, 1000);
     return () => clearInterval(id);
-  }, [fin, items]);
+  }, [fin, items, ajuste.cronometro]);
 
   const item = items?.[n];
 
@@ -277,10 +283,14 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
         <span className="tenue" style={{ fontVariantNumeric: "tabular-nums" }}>
           {n + 1}/{items.length}
         </span>
-        <span className="pastilla" style={{ color: queda <= 30 ? "var(--rojo)" : undefined,
-                                            borderColor: queda <= 30 ? "var(--rojo)" : undefined }}>
-          {reloj(queda)}
-        </span>
+        {ajuste.cronometro ? (
+          <span className="pastilla" style={{ color: queda <= 30 ? "var(--rojo)" : undefined,
+                                              borderColor: queda <= 30 ? "var(--rojo)" : undefined }}>
+            {reloj(queda)}
+          </span>
+        ) : (
+          <span className="pastilla" title={t("ex.sinReloj")}>{reloj(transcurrido)}</span>
+        )}
       </div>
 
       <div style={{ flex: 1, overflowY: "auto", paddingBottom: 12 }}>
