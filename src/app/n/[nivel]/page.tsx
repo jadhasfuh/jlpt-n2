@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { curso, nivelCurso } from "@/lib/contenido";
 import { Cabecera } from "@/components/Cabecera";
 import { ListaSecciones } from "@/components/ListaSecciones";
-import { DESC_NIVEL, type Nivel } from "@/lib/tipos";
+import { DESC_NIVEL, NIVELES_CON_LIBRO, type Nivel } from "@/lib/tipos";
 import { IcDerecha } from "@/components/Iconos";
 import { idiomaActual } from "@/lib/idioma-servidor";
 import { t as trad, type Clave } from "@/lib/idioma";
@@ -31,6 +31,7 @@ export default async function Pagina({ params }: { params: Promise<{ nivel: stri
             })}
           </p>
         </section>
+        {NIVELES_CON_LIBRO.includes(n.id as Nivel) && (
         <Link href={`/libro/${n.id}`} className="fila" style={{ marginBottom: 12 }}>
           <div className="anillo" style={{ ["--pct" as string]: 100, ["--tono" as string]: "var(--acento)" }}>
             <span className="jp" style={{ fontSize: 15 }}>読</span>
@@ -41,6 +42,7 @@ export default async function Pagina({ params }: { params: Promise<{ nivel: stri
           </div>
           <span className="flecha"><IcDerecha size={14} /></span>
         </Link>
+        )}
         <Link href={`/n/${n.id}/kanji`} className="fila" style={{ marginBottom: 12 }}>
           <div className="anillo" style={{ ["--pct" as string]: 100, ["--tono" as string]: "var(--tinta-3)" }}>
             <span className="jp" style={{ fontSize: 15 }}>漢</span>

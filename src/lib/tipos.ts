@@ -1,6 +1,16 @@
 export type Nivel = "N5" | "N4" | "N3" | "N2" | "N1";
 export const NIVELES: Nivel[] = ["N5", "N4", "N3", "N2", "N1"];
 
+/**
+ * Niveles cuyas lecturas forman una historia continua y se pueden leer como
+ * libro.
+ *
+ * Los demás tienen lecturas sueltas: encadenarlas daría un «libro» que no
+ * cuenta nada, y eso decepciona más que no ofrecerlo. Se abre un nivel
+ * añadiéndolo aquí, cuando sus capítulos estén escritos.
+ */
+export const NIVELES_CON_LIBRO: Nivel[] = ["N5"];
+
 export type Palabra = {
   id: number;
   kana: string; kanji: string;

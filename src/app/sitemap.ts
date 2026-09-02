@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { NIVELES } from "@/lib/tipos";
+import { NIVELES, NIVELES_CON_LIBRO } from "@/lib/tipos";
 import { sitio } from "@/lib/sitio";
 
 export const dynamic = "force-dynamic";
@@ -27,11 +27,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITIO}/legal/borrar-cuenta`, priority: 0.3 },
     { url: `${SITIO}/legal/reembolsos`, priority: 0.3 },
   ];
+  // El libro sólo existe donde hay historia escrita.
+  const libros = NIVELES_CON_LIBRO.map((n) => ({ url: `${SITIO}/libro/${n}`, priority: 0.7 }));
   const niveles = NIVELES.flatMap((n) => [
     { url: `${SITIO}/n/${n}`, priority: 0.9 },
-    { url: `${SITIO}/libro/${n}`, priority: 0.7 },
+
     { url: `${SITIO}/n/${n}/kanji`, priority: 0.6 },
     { url: `${SITIO}/n/${n}/gramatica`, priority: 0.6 },
   ]);
-  return [...raiz, ...niveles].map((p) => ({ ...p, lastModified: ahora, changeFrequency: "weekly" as const }));
+  return [...raiz, ...libros, ...niveles].map((p) => ({ ...p, lastModified: ahora, changeFrequency: "weekly" as const }));
 }

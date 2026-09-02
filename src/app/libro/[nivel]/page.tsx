@@ -5,7 +5,7 @@ import { Cabecera } from "@/components/Cabecera";
 import { Libro } from "@/components/Libro";
 import { idiomaActual } from "@/lib/idioma-servidor";
 import { t as trad } from "@/lib/idioma";
-import { NIVELES, type Nivel } from "@/lib/tipos";
+import { NIVELES_CON_LIBRO, type Nivel } from "@/lib/tipos";
 
 /**
  * El libro: las lecturas del nivel, seguidas y en orden.
@@ -21,7 +21,9 @@ export default async function Pagina(
   },
 ) {
   const { nivel } = await params;
-  if (!NIVELES.includes(nivel as Nivel)) notFound();
+  // Sólo los niveles con historia escrita. En el resto no hay libro que
+  // leer, así que la página no existe en vez de existir vacía.
+  if (!NIVELES_CON_LIBRO.includes(nivel as Nivel)) notFound();
 
   const lista = capitulos(nivel);
   if (!lista.length) notFound();
