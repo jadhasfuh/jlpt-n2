@@ -1,0 +1,30 @@
+NOMBRE (máx. 30)
+jlptest
+
+DESCRIPCIÓN CORTA (máx. 80)
+Vocabulario, kanji, gramática y exámenes del JLPT, del N5 al N1.
+
+DESCRIPCIÓN COMPLETA (máx. 4000)
+Estudia japonés para el JLPT con un curso ordenado de principio a fin, del N5 al N1.
+
+QUÉ TRAE
+· 8.027 palabras repartidas en 614 unidades temáticas, no en listas sueltas.
+· 1.981 kanji con sus lecturas, sus trazos y las palabras donde aparecen.
+· 846 puntos de gramática, del más simple al más complejo.
+· 614 lecturas escritas para el nivel: cada una usa sólo el vocabulario y los kanji que ya has visto.
+· Exámenes de práctica con la estructura y la puntuación del JLPT real.
+
+CÓMO SE ESTUDIA
+· Tarjetas con repetición espaciada: cada palabra vuelve justo cuando estás a punto de olvidarla.
+· Test por unidad, con medalla según la nota.
+· Ejercicios de oído: se escucha la frase sin verla y se contesta.
+· Ordenar la frase pieza a pieza, con la traducción al lado.
+· Furigana que se enciende y se apaga, y kanji coloreados por nivel.
+
+EN TU IDIOMA
+Toda la interfaz y todas las traducciones están en español y en inglés. Las definiciones son propias, no copiadas.
+
+TU AVANCE
+Racha de días, XP, palabras dominadas y un anillo por nivel y por tema que te dice cuánto llevas. El progreso se guarda en tu cuenta y te sigue de un aparato a otro.
+
+Puedes empezar gratis: la sección 人と体 de cada nivel está abierta.
