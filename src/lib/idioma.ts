@@ -253,6 +253,8 @@ const T = {
   "per.terminos":  { es: "Términos de uso", en: "Terms of use" },
   "per.reembolsos":{ es: "Reembolsos", en: "Refunds" },
   "per.privacidad":{ es: "Privacidad", en: "Privacy" },
+  "per.borrarConfCuenta": { es: "¿Borrar todo tu avance, en este y en el resto de aparatos? La cuenta y la suscripción no se tocan.",
+                      en: "Delete all your progress, on this and every other device? Your account and subscription are left untouched." },
   "per.borrarConf":{ es: "¿Borrar todo tu avance en este dispositivo?",
                      en: "Delete all your progress on this device?" },
 

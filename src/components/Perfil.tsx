@@ -11,6 +11,7 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
   totalPalabras: number; cuenta: Cuenta | null; alDia: boolean;
 }) {
   const [borrando, setBorrando] = useState(false);
+  const [borrandoAvance, setBorrandoAvance] = useState(false);
   const [p, setP] = useState<Progreso | null>(null);
   const { tema, cambiarTema, idioma, t, accesoAbierto, enApp } = useAjustes();
 
@@ -130,14 +131,21 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
         )}
       </section>
 
+      {/* Con sesión hay dos copias del avance, la del aparato y la de la nube.
+          Borrar sólo la primera hacía que volviera entera al sincronizar. */}
       <button className="btn" style={{ width: "100%", marginTop: 24 }}
-              onClick={() => {
-                if (confirm(t("per.borrarConf"))) {
-                  localStorage.removeItem("jlpt.progreso");
-                  location.reload();
+              disabled={borrandoAvance}
+              onClick={async () => {
+                if (!confirm(t(cuenta ? "per.borrarConfCuenta" : "per.borrarConf"))) return;
+                if (cuenta) {
+                  setBorrandoAvance(true);
+                  const r = await fetch("/api/cuenta/progreso", { method: "POST" });
+                  if (!r.ok) { setBorrandoAvance(false); return alert(t("sus.errorPortal")); }
                 }
+                localStorage.removeItem("jlpt.progreso");
+                location.reload();
               }}>
-        {t("per.borrar")}
+        {borrandoAvance ? t("per.borrando") : t("per.borrar")}
       </button>
 
       {cuenta && (
