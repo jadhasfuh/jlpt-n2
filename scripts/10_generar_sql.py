@@ -55,7 +55,7 @@ partes = [
            ["id", "tipo", "nivel", "seccion", "subgrupo", "parte", "partes",
             "ja", "es", "palabras", "gramatica"],
            leer("unidades"), "id"),
-    bloque("lecturas", ["unidad_id", "titulo", "cuerpo", "traduccion", "preguntas"],
+    bloque("lecturas", ["unidad_id", "titulo", "cuerpo", "traduccion", "traduccion_en", "preguntas"],
            leer("lecturas"), "unidad_id"),
     "commit;",
 ]
@@ -64,7 +64,7 @@ lect = leer("lecturas")
 ids = ", ".join("'" + l["unidad_id"].replace("'", "''") + "'" for l in lect) or "''"
 (D / "seed_lecturas.sql").write_text(
     "begin;\n"
-    + bloque("lecturas", ["unidad_id", "titulo", "cuerpo", "traduccion", "preguntas"],
+    + bloque("lecturas", ["unidad_id", "titulo", "cuerpo", "traduccion", "traduccion_en", "preguntas"],
              lect, "unidad_id")
     + f"\ndelete from lecturas where unidad_id not in ({ids});\ncommit;\n",
     encoding="utf-8")

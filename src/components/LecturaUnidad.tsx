@@ -11,7 +11,7 @@ import { IcDerecha, IcEscucha, IcIzquierda, IcParar, IcPausa, IcReproducir } fro
 function LectorCiego({ texto, frase, setFrase }: {
   texto: string; frase: number; setFrase: (n: number) => void;
 }) {
-  const { t } = useAjustes();
+  const { t, idioma } = useAjustes();
   const frases = enFrases(texto);
   const [estado, setEstado] = useState<"parado" | "sonando" | "pausado">("parado");
 
@@ -76,7 +76,7 @@ function LectorCiego({ texto, frase, setFrase }: {
 export function LecturaUnidad({ unidadId, onEncontrada }: {
   unidadId: string; onEncontrada?: (hay: boolean) => void;
 }) {
-  const { t } = useAjustes();
+  const { t, idioma } = useAjustes();
   const [l, setL] = useState<Lectura | null>(null);
   const [cargando, setCargando] = useState(true);
   const [traducir, setTraducir] = useState(false);
@@ -110,6 +110,16 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
     );
   }
 
+
+  // La traducción de apoyo, en el idioma de la interfaz. El inglés se va
+
+  // añadiendo por niveles; mientras no exista, se cae a la española, que es
+
+  // mejor que no enseñar nada.
+
+  const trad = (idioma === "en" && l.traduccion_en) ? l.traduccion_en : l.traduccion;
+
+
   return (
     <>
       <article className="tarjeta">
@@ -131,7 +141,7 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
             </button>
           )}
         </div>
-        {traducir && <p className="silencio" style={{ marginBottom: 0 }}>{l.traduccion}</p>}
+        {traducir && <p className="silencio" style={{ marginBottom: 0 }}>{trad}</p>}
       </article>
 
       {ciega && (
@@ -140,7 +150,7 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
         </p>
       )}
 
-      <Ordenar frases={enFrases(l.cuerpo)} traduccion={l.traduccion} />
+      <Ordenar frases={enFrases(l.cuerpo)} traduccion={trad} />
 
       {l.preguntas?.length ? (
         <div className="tarjeta" style={{ marginTop: 12 }}>

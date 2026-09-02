@@ -63,7 +63,11 @@ export type Kanji = {
 
 export type Lectura = {
   unidad_id: string;
-  titulo: string; cuerpo: string; traduccion: string;
+  titulo: string; cuerpo: string;
+  /** La traducción de apoyo. `traduccion` es la española, que es la que se
+   *  escribió primero; `traduccion_en` se va añadiendo por niveles y, mientras
+   *  no exista, el inglés cae a la española. */
+  traduccion: string; traduccion_en?: string;
   preguntas?: { p: string; opciones: string[]; correcta: number }[];
 };
 
