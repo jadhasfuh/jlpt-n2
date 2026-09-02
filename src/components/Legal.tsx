@@ -222,10 +222,17 @@ const REEMBOLSOS: Record<"es" | "en", { titulo: string; intro: string; bloques: 
  */
 const BORRAR: Record<"es" | "en", { titulo: string; intro: string; bloques: Bloque[] }> = {
   es: {
-    titulo: "Borrar tu cuenta de jlptest",
-    intro: "Puedes borrar tu cuenta de jlptest tú mismo, en cualquier momento y sin pedir permiso a nadie.",
+    titulo: "Borrar tus datos o tu cuenta de jlptest",
+    intro: "Puedes borrar tu avance, o la cuenta entera, tú mismo y en cualquier momento. Son dos cosas distintas y aquí están las dos.",
     bloques: [
-      { t: "Desde la aplicación, en tres pasos", p: [
+      { t: "Borrar sólo tu avance, conservando la cuenta", p: [
+        "1. Abre jlptest y entra con tu correo.",
+        "2. Ve a Perfil y pulsa «Borrar mi avance».",
+        "3. Confirma. Se borra en éste y en el resto de tus aparatos, no sólo en el que estás usando.",
+        "Se borra todo tu historial de estudio: qué palabras y qué puntos de gramática has visto, la etapa de repaso de cada uno, la racha, los XP y los resultados de tus tests y exámenes. Es inmediato y no se puede deshacer.",
+        "Se conservan tu cuenta, tu dirección de correo y tu suscripción si la tienes. Vuelves a empezar de cero con la misma cuenta.",
+      ]},
+      { t: "Borrar la cuenta entera, desde la aplicación", p: [
         "1. Abre jlptest y entra con tu correo (recibirás un código de seis cifras; jlptest no usa contraseña).",
         "2. Ve a Perfil, abajo del todo.",
         "3. Pulsa «Borrar la cuenta» y confirma. El borrado es inmediato y no se puede deshacer.",
@@ -252,10 +259,17 @@ const BORRAR: Record<"es" | "en", { titulo: string; intro: string; bloques: Bloq
     ],
   },
   en: {
-    titulo: "Deleting your jlptest account",
-    intro: "You can delete your jlptest account yourself, at any time, without asking anyone.",
+    titulo: "Deleting your jlptest data or account",
+    intro: "You can delete your progress, or the whole account, yourself and at any time. They are two different things and both are covered here.",
     bloques: [
-      { t: "From the app, in three steps", p: [
+      { t: "Deleting only your progress, keeping the account", p: [
+        "1. Open jlptest and sign in with your email.",
+        "2. Go to Profile and tap «Delete my progress».",
+        "3. Confirm. It is deleted on this and on all your other devices, not just the one you are using.",
+        "Your whole study history goes: which words and grammar points you have seen, the review stage of each one, your streak, your XP and the results of your tests and exams. It is immediate and cannot be undone.",
+        "Your account, your email address and your subscription, if you have one, are kept. You start again from scratch with the same account.",
+      ]},
+      { t: "Deleting the whole account, from the app", p: [
         "1. Open jlptest and sign in with your email (you will get a six-digit code; jlptest has no passwords).",
         "2. Go to Profile, at the bottom.",
         "3. Tap «Delete account» and confirm. Deletion is immediate and cannot be undone.",
