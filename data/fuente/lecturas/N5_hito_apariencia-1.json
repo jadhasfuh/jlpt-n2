@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/hito/apariencia-1",
- "titulo": "<ruby>立派<rt>りっぱ</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>",
- "cuerpo": "そふは<ruby>背<rt>せ</rt></ruby>が<ruby>高<rt>たか</rt></ruby>くて、うでが<ruby>太<rt>ふと</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>でした。わかいころは<ruby>山<rt>やま</rt></ruby>のしごとをしていたそうです。いまのわたしは<ruby>背<rt>せ</rt></ruby>がひくくて、うでも<ruby>細<rt>ほそ</rt></ruby>いです。そふのしゃしんを<ruby>見<rt>み</rt></ruby>ると、<ruby>母<rt>はは</rt></ruby>はいつも「<ruby>立派<rt>りっぱ</rt></ruby>だ<em class=\"g\">ね</em>」と<ruby>話<rt>はな</rt></ruby>します。でも、そのあとで「みためより、まいにちのしごとのほうがたいせつだ<em class=\"g\">ね</em>」ともつけくわえます。わたしもそうおもいます。かみのけがうすくなっても、ふとっても、まいにちはたらく<ruby>人<rt>ひと</rt></ruby>はきれいです。",
- "traduccion": "Mi abuelo era un hombre alto y de brazos gruesos. Dicen que de joven trabajaba en el monte. Yo ahora soy bajo y de brazos delgados. Cuando mira la foto de mi abuelo, mi madre siempre dice «qué porte tenía, ¿eh?». Pero luego añade: «más que el aspecto, lo que importa es el trabajo de cada día, ¿verdad?». Yo pienso lo mismo. Aunque se te caiga el pelo o engordes, quien trabaja cada día resulta hermoso.",
+ "titulo": "クラスの みんな",
+ "cuerpo": "ジャンは <ruby>背<rt>せ</rt></ruby>が たかくて、ほそいです。ゴンサは ぼくより ひくいですが、こえが おおきいです。ミンさんは いつも きれいな シャツを きて います。その ひ、あたらしい <ruby>学生<rt>がくせい</rt></ruby>が きました。なまえは アンナさんで、にほんじんです。スペイン<ruby>語<rt>ご</rt></ruby>を ならって いるので、この クラスを てつだって いるそうです。「よろしく おねがいします」と、ぼくたちに 言いました。",
+ "traduccion": "Jean es alto y delgado. Gonza es más bajo que yo, pero tiene una voz enorme. Min lleva siempre camisas impecables. Ese día llegó una alumna nueva. Se llama Anna y es japonesa. Está aprendiendo español, así que ayuda en esta clase. «Encantada de conoceros», nos dijo.",
  "preguntas": [
   {
-   "p": "そふはどんな<ruby>人<rt>ひと</rt></ruby>でしたか。",
+   "p": "ジャンさんは どんな ひとですか。",
    "opciones": [
-    "<ruby>背<rt>せ</rt></ruby>がひくくてうでが<ruby>細<rt>ほそ</rt></ruby>い",
-    "<ruby>背<rt>せ</rt></ruby>が<ruby>高<rt>たか</rt></ruby>くてうでが<ruby>太<rt>ふと</rt></ruby>い",
-    "かみのけがうすい",
-    "ふとっていた"
+    "<ruby>背<rt>せ</rt></ruby>が たかくて ほそい",
+    "ひくくて こえが おおきい",
+    "きれいな シャツを きて いる"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>母<rt>はは</rt></ruby>は<ruby>何<rt>なに</rt></ruby>がたいせつだと<ruby>話<rt>はな</rt></ruby>しますか。",
+   "p": "アンナさんは どこの ひとですか。",
    "opciones": [
-    "みため",
-    "まいにちのしごと",
-    "<ruby>背<rt>せ</rt></ruby>の<ruby>高<rt>たか</rt></ruby>さ",
-    "しゃしん"
+    "にほんじん",
+    "ペルーじん",
+    "メキシコじん"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "アンナさんは どうして この クラスに いますか。",
+   "opciones": [
+    "スペイン<ruby>語<rt>ご</rt></ruby>を ならって いるから",
+    "<ruby>学生<rt>がくせい</rt></ruby>だから",
+    "せんせいだから"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "My grandfather was a tall man with thick arms. They say that when he was young he worked in the mountains. I'm short now and my arms are thin. When she looks at my grandfather's photo, my mother always says «what a presence he had, didn't he?». But then she adds: «more than looks, what matters is the work you do each day, isn't it?». I think the same. Even if your hair falls out or you put on weight, someone who works every day looks beautiful."
+ "traduccion_en": "Jean is tall and thin. Gonza is shorter than me, but he has a huge voice. Min always wears immaculate shirts. That day a new student arrived. Her name is Anna and she's Japanese. She's learning Spanish, so she helps out in this class. «Pleased to meet you», she said to us."
 }

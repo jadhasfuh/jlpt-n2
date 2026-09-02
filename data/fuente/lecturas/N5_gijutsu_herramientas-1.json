@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/gijutsu/herramientas-1",
- "titulo": "<ruby>鉛筆<rt>えんぴつ</rt></ruby>とボールペン",
- "cuerpo": "わたしは<ruby>字<rt>じ</rt></ruby>を<ruby>書<rt>か</rt></ruby>く<em class=\"g\">のが下手</em>です。とくにボールペンはにがてです。まちがえても<ruby>消<rt>け</rt></ruby>せないからです。<ruby>鉛筆<rt>えんぴつ</rt></ruby>なら、なんどでも<ruby>書<rt>か</rt></ruby>きなおせます。きのう、ノートに<ruby>大<rt>おお</rt></ruby>きなかみを<ruby>貼<rt>は</rt></ruby>って、<ruby>一<rt>いち</rt></ruby>しゅうかんのよていを<ruby>書<rt>か</rt></ruby>きました。<ruby>先生<rt>せんせい</rt></ruby>は、よめればいいのだとおしえてくれました。それを<ruby>聞<rt>き</rt></ruby>いて、<ruby>気<rt>き</rt></ruby>もちがかるくなりました。いまは、<ruby>字<rt>じ</rt></ruby>をならべる<em class=\"g\">のが下手</em>でも、まいにち<ruby>書<rt>か</rt></ruby>くようにしています。",
- "traduccion": "Se me da mal escribir. El bolígrafo sobre todo, porque si te equivocas no lo puedes borrar. Con el lápiz puedo reescribir las veces que haga falta. Ayer pegué un papel grande en el cuaderno y apunté el plan de la semana. El profesor me enseñó que basta con que se entienda. Al oírlo me quedé más tranquilo. Ahora, aunque se me dé mal alinear las letras, procuro escribir todos los días.",
+ "titulo": "かべに はる かみ",
+ "cuerpo": "へやの かべに、おぼえたい ことばを かいて はって います。えんぴつでは よわいので、ボールペンで かきます。あさ おきて さいしょに <ruby>見<rt>み</rt></ruby>えるのが その かみです。たなかさんが へやに きた とき、「これは べんきょうの へやですね」と わらいました。かべが しろく なくなって きました。ぼくは かみを はるのが <ruby>下手<rt>へた</rt></ruby>なので、まがって います。",
+ "traduccion": "En la pared de la habitación pego papeles con las palabras que quiero aprender. Con lápiz se borran, así que los escribo con bolígrafo. Es lo primero que veo al levantarme por la mañana. Cuando la señora Tanaka entró en el piso se rió: «esto es una sala de estudio». La pared ya casi no se ve blanca. Se me da fatal pegar papeles, así que están todos torcidos.",
  "preguntas": [
   {
-   "p": "ボールペンがにがてなのはなぜですか。",
+   "p": "どうして ボールペンで かきますか。",
    "opciones": [
-    "たかいから",
-    "まちがえても<ruby>消<rt>け</rt></ruby>せないから",
-    "ふといから",
-    "<ruby>書<rt>か</rt></ruby>きにくいから"
+    "えんぴつは よわいから",
+    "きれいだから",
+    "やすいから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をおしえてくれましたか。",
+   "p": "あさ さいしょに <ruby>見<rt>み</rt></ruby>えるのは なんですか。",
    "opciones": [
-    "まいにち<ruby>書<rt>か</rt></ruby>くこと",
-    "よめればいいこと",
-    "<ruby>鉛筆<rt>えんぴつ</rt></ruby>をつかうこと",
-    "かみを<ruby>貼<rt>は</rt></ruby>ること"
+    "かべの かみ",
+    "まど",
+    "とけい"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "かみは どう なって いますか。",
+   "opciones": [
+    "まがって います",
+    "きれいです",
+    "ありません"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "I'm bad at writing. Pens especially, because if you make a mistake you can't rub it out. With a pencil I can rewrite as many times as I need. Yesterday I stuck a big sheet of paper in my notebook and wrote down the plan for the week. My teacher taught me that it's enough for it to be understandable. Hearing that put me at ease. Now, even though I'm bad at keeping the letters in line, I try to write every day."
+ "traduccion_en": "On my bedroom wall I stick up notes with the words I want to learn. Pencil fades, so I write them with a ballpoint. It's the first thing I see when I wake up. When Mrs Tanaka came into the flat she laughed: «this is a study room». The wall is hardly white any more. I'm terrible at sticking things up, so they're all crooked."
 }

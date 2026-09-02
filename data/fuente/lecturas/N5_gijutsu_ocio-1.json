@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/gijutsu/ocio-1",
- "titulo": "パーティーの<ruby>日<rt>ひ</rt></ruby>",
- "cuerpo": "きのう、ともだちのうちでパーティーがありました。みんなで<em class=\"g\">一緒に</em>りょうりを<ruby>作<rt>つく</rt></ruby>りました。わたしはやさいを<ruby>切<rt>き</rt></ruby>るかかりでした。ごはんのあと、<em class=\"g\">一緒に</em><ruby>歌<rt>うた</rt></ruby>をうたいました。うたえない<ruby>人<rt>ひと</rt></ruby>もいましたが、だれも<ruby>気<rt>き</rt></ruby>にしませんでした。よるおそくまで<ruby>話<rt>はな</rt></ruby>して、そとに<ruby>出<rt>で</rt></ruby>ると、<ruby>雨<rt>あめ</rt></ruby>がやんでいました。みんなで<em class=\"g\">一緒に</em><ruby>駅<rt>えき</rt></ruby>まであるきました。ひとりでかえるより、ずっとたのしかったです。",
- "traduccion": "Ayer hubo una fiesta en casa de un amigo. Cocinamos todos juntos. Yo me encargué de cortar la verdura. Después de comer, cantamos juntos. Había quien no sabía cantar, pero a nadie le importó. Estuvimos hablando hasta tarde y, al salir, ya había parado de llover. Fuimos todos juntos andando hasta la estación. Fue mucho más divertido que volver solo.",
+ "titulo": "クラスの パーティー",
+ "cuerpo": "がっこうで パーティーが ありました。みんな じぶんの <ruby>国<rt>くに</rt></ruby>の りょうりを もって きました。ぼくは タコスを <ruby>作<rt>つく</rt></ruby>りました。かわが なくて、パンで しました。ミンさんの りょうりが <ruby>一番<rt>いちばん</rt></ruby> にんきでした。いっしょに たべると、ことばが へたでも はなせます。ジャンが ギターを ひいて、みんなで うたいました。",
+ "traduccion": "En la escuela hubo una fiesta. Cada uno trajo comida de su país. Yo hice tacos. No encontré tortillas y los hice con pan. Lo de Min fue lo que más éxito tuvo. Comiendo juntos se puede hablar aunque tu idioma sea malo. Jean tocó la guitarra y cantamos todos.",
  "preguntas": [
   {
-   "p": "この<ruby>人<rt>ひと</rt></ruby>はパーティーで<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "p": "カルロスさんは なにを <ruby>作<rt>つく</rt></ruby>りましたか。",
    "opciones": [
-    "ごはんを<ruby>作<rt>つく</rt></ruby>らなかった",
-    "やさいを<ruby>切<rt>き</rt></ruby>った",
-    "<ruby>歌<rt>うた</rt></ruby>をうたわなかった",
-    "はやくかえった"
+    "タコス",
+    "パン",
+    "スープ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "そとに<ruby>出<rt>で</rt></ruby>ると、どうでしたか。",
+   "p": "<ruby>一番<rt>いちばん</rt></ruby> にんきだったのは だれの りょうりですか。",
    "opciones": [
-    "<ruby>雨<rt>あめ</rt></ruby>がふっていた",
-    "<ruby>雨<rt>あめ</rt></ruby>がやんでいた",
-    "<ruby>人<rt>ひと</rt></ruby>がおおかった",
-    "くらくなかった"
+    "ミンさん",
+    "カルロスさん",
+    "ジャンさん"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "さいごに なにを しましたか。",
+   "opciones": [
+    "みんなで うたいました",
+    "かえりました",
+    "べんきょうしました"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Yesterday there was a party at a friend's house. We all cooked together. I was in charge of cutting the vegetables. After eating, we sang together. Some couldn't sing, but nobody minded. We talked until late and, when we came out, it had already stopped raining. We all walked to the station together. It was much more fun than going home alone."
+ "traduccion_en": "There was a party at school. Everyone brought food from their own country. I made tacos. I couldn't find tortillas, so I used bread. Min's dish was the most popular. Eating together you can talk even when your language is poor. Jean played the guitar and we all sang."
 }

@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/gijutsu/musica-1",
- "titulo": "ギターをひく",
- "cuerpo": "わたしは<ruby>歌<rt>うた</rt></ruby>をうたう<em class=\"g\">のが上手</em>ではありませんが、ギターを<ruby>弾<rt>ひ</rt></ruby>くのはすきです。<ruby>父<rt>ちち</rt></ruby>がわかいころにつかっていたギターをもらいました。まいばん、<ruby>十<rt>じゅう</rt></ruby>ぷんだけれんしゅうします。ちいさな<ruby>音<rt>おと</rt></ruby>でひくので、となりのへやにはきこえません。ともだちは<ruby>歌<rt>うた</rt></ruby>をうたう<em class=\"g\">のが上手</em>なので、いっしょにやると、とてもたのしいです。<ruby>音楽<rt>おんがく</rt></ruby>があると、つかれた<ruby>日<rt>ひ</rt></ruby>でも<ruby>気<rt>き</rt></ruby>もちがかるくなります。",
- "traduccion": "No se me da bien cantar, pero me gusta tocar la guitarra. Heredé la que usaba mi padre de joven. Cada noche practico solo diez minutos. Toco flojito, así que en la habitación de al lado no se oye. Un amigo mío canta muy bien, y cuando lo hacemos juntos es muy divertido. Con música, incluso los días de cansancio, el ánimo se aligera.",
+ "titulo": "ジャンの ギター",
+ "cuerpo": "ジャンは ギターを もって にほんへ きました。「ふくより たいせつだから」と 言って いました。よる、ジャンの へやから ちいさい おとが <ruby>聞<rt>き</rt></ruby>こえます。ゴンサは うたうのが とても <ruby>上手<rt>じょうず</rt></ruby>です。ぼくは <ruby>下手<rt>へた</rt></ruby>です。さんにんで ペルーの うたを うたいました。たなかさんが かべを たたきました。もう じゅういちじでした。",
+ "traduccion": "Jean se trajo la guitarra a Japón. Decía: «pesa menos que la ropa y me importa más». Por la noche se oye un ruidito desde su habitación. Gonza canta muy bien. Yo canto fatal. Los tres cantamos una canción peruana. La señora Tanaka golpeó la pared. Ya eran las once.",
  "preguntas": [
   {
-   "p": "この<ruby>人<rt>ひと</rt></ruby>がすきなことは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "p": "ジャンさんは なにを もって きましたか。",
    "opciones": [
-    "<ruby>歌<rt>うた</rt></ruby>をうたうこと",
-    "ギターを<ruby>弾<rt>ひ</rt></ruby>くこと",
-    "ともだちと<ruby>話<rt>はな</rt></ruby>すこと",
-    "ねること"
+    "ギター",
+    "ラジオ",
+    "しゃしん"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "まいばん、どのくらいれんしゅうしますか。",
+   "p": "うたうのが <ruby>上手<rt>じょうず</rt></ruby>なのは だれですか。",
    "opciones": [
-    "<ruby>五<rt>ご</rt></ruby>ふん",
-    "<ruby>十<rt>じゅう</rt></ruby>ぷん",
-    "<ruby>一<rt>いち</rt></ruby>じかん",
-    "<ruby>二<rt>に</rt></ruby>じかん"
+    "ゴンサ",
+    "ジャン",
+    "カルロス"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "たなかさんは どうして かべを たたきましたか。",
+   "opciones": [
+    "よるが おそかったから",
+    "うたが すきだから",
+    "でんきが ついて いたから"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "I'm not good at singing, but I like playing the guitar. I inherited the one my father used when he was young. Every evening I practise for just ten minutes. I play quietly, so it can't be heard in the next room. A friend of mine sings very well, and when we do it together it's great fun. With music, even on tiring days, the mood lifts."
+ "traduccion_en": "Jean brought his guitar to Japan. He said: «it weighs less than clothes and matters more». At night a small sound comes from his room. Gonza sings very well. I sing terribly. The three of us sang a Peruvian song. Mrs Tanaka banged on the wall. It was already eleven."
 }

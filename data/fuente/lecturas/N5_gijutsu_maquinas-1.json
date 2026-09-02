@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/gijutsu/maquinas-1",
- "titulo": "うちのきかい",
- "cuerpo": "うちには<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>とテレビとラジオがあります。<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きくて、しろくて、とてもふるいです。<ruby>父<rt>ちち</rt></ruby>がわかいときにかったものだそうです。テレビは<ruby>小<rt>ちい</rt></ruby>さいですが、<ruby>見<rt>み</rt></ruby>やすいです。ラジオはあさのニュースをきくのにつかいます。<ruby>電話<rt>でんわ</rt></ruby>は<ruby>一<rt>いち</rt></ruby>だいだけあります。あたらしいものはたかいので、うちのものはみんなふるいです。でも、こわれないので、それでいいと<ruby>父<rt>ちち</rt></ruby>は<ruby>話<rt>はな</rt></ruby>しています。エレベーターのないふるいたてものですが、<ruby>中<rt>なか</rt></ruby>はあかるくてあたたかいです。",
- "traduccion": "En casa tenemos nevera, televisión y radio. La nevera es grande, blanca y muy vieja. Dicen que la compró mi padre cuando era joven. La televisión es pequeña, pero se ve bien. La radio la usamos para escuchar las noticias por la mañana. Teléfono solo tenemos uno. Lo nuevo es caro, así que todo lo de casa es viejo. Pero como no se estropea, mi padre dice que así está bien. Es un edificio antiguo sin ascensor, pero por dentro es luminoso y cálido.",
+ "titulo": "れいぞうこの <ruby>中<rt>なか</rt></ruby>",
+ "cuerpo": "ぼくの れいぞうこは とても ちいさいです。ぎゅうにゅうと たまごと、たなかさんが くれた やさいが <ruby>入<rt>はい</rt></ruby>って います。テレビは ありませんが、ラジオが あります。あさ、ニュースを <ruby>聞<rt>き</rt></ruby>きながら パンを たべます。ことばは はやいですが、おなじ ことばが なんかいも <ruby>出<rt>で</rt></ruby>て きます。アパートに エレベーターは ありません。ぼくの へやは さんかいです。",
+ "traduccion": "Mi nevera es muy pequeña. Dentro hay leche, huevos y las verduras que me regala la señora Tanaka. Televisión no tengo, pero sí una radio. Por la mañana desayuno pan escuchando las noticias. Hablan rápido, pero las mismas palabras salen una y otra vez. En el edificio no hay ascensor. Mi piso está en el tercero.",
  "preguntas": [
   {
-   "p": "<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>はどんなものですか。",
+   "p": "れいぞうこに なにが ありますか。",
    "opciones": [
-    "ちいさくてあたらしい",
-    "<ruby>大<rt>おお</rt></ruby>きくてふるい",
-    "くろくてたかい",
-    "こわれやすい"
+    "ぎゅうにゅうと たまごと やさい",
+    "にくと さかな",
+    "なにも ありません"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "ラジオは<ruby>何<rt>なに</rt></ruby>につかいますか。",
+   "p": "あさ、なにを <ruby>聞<rt>き</rt></ruby>きますか。",
    "opciones": [
-    "おんがくをきく",
-    "あさのニュースをきく",
-    "<ruby>電話<rt>でんわ</rt></ruby>をかける",
-    "テレビを<ruby>見<rt>み</rt></ruby>る"
+    "ラジオの ニュース",
+    "テレビ",
+    "おんがく"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんの へやは なんがいですか。",
+   "opciones": [
+    "さんかい",
+    "<ruby>一<rt>いっ</rt></ruby>かい",
+    "ごかい"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "At home we have a fridge, a television and a radio. The fridge is big, white and very old. They say my father bought it when he was young. The television is small, but the picture is good. We use the radio to listen to the news in the morning. We only have one telephone. New things are expensive, so everything at home is old. But since nothing breaks, my father says it's fine this way. It's an old building with no lift, but inside it's bright and warm."
+ "traduccion_en": "My fridge is very small. Inside there's milk, eggs and the vegetables Mrs Tanaka gives me. I don't have a television, but I do have a radio. In the morning I eat bread while listening to the news. They speak fast, but the same words keep coming up. There's no lift in the building. My flat is on the third floor."
 }

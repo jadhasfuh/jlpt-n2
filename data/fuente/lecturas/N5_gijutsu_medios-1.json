@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/gijutsu/medios-1",
- "titulo": "はがきを<ruby>出<rt>だ</rt></ruby>す",
- "cuerpo": "そぼに<ruby>葉書<rt>はがき</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しました。そぼはでんわよりも、かいたものがすきだからです。しずかなよるに、つくえのまえにすわって、ゆっくり<ruby>書<rt>か</rt></ruby>きました。<ruby>切手<rt>きって</rt></ruby>をはって、<ruby>封筒<rt>ふうとう</rt></ruby>はつかわずに、そのままポストに<ruby>入<rt>い</rt></ruby>れました。きれいな<ruby>字<rt>じ</rt></ruby>ではありませんが、たいせつなことばをえらびました。<ruby>一<rt>いっ</rt></ruby>しゅうかんご、そぼからでんわがありました。とてもげんきなこえでした。",
- "traduccion": "Le envié una postal a mi abuela. Es que a ella le gustan más las cosas escritas que el teléfono. Una noche tranquila me senté ante la mesa y la escribí sin prisa. Pegué el sello y, sin usar sobre, la eché tal cual al buzón. Mi letra no es bonita, pero escogí palabras que importaban. Una semana después mi abuela me llamó. Tenía la voz muy animada.",
+ "titulo": "はじめての <ruby>手紙<rt>てがみ</rt></ruby>",
+ "cuerpo": "ははに <ruby>手紙<rt>てがみ</rt></ruby>を かきました。メールでは なく、かみの <ruby>手紙<rt>てがみ</rt></ruby>です。<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>で <ruby>切手<rt>きって</rt></ruby>を かって、<ruby>封筒<rt>ふうとう</rt></ruby>に はりました。「メキシコまで にしゅうかんぐらい かかります」と 言われました。さんしゅうかんご、ははから でんわが ありました。こえが すこし へんでした。ないて いたそうです。つぎは はがきに しようと おもいます。しゃしんが おくれるから。",
+ "traduccion": "Le escribí una carta a mi madre. No un correo. Una carta de papel. Compré el sello en la oficina de correos y lo pegué en el sobre. «A México tarda unas dos semanas», me dijeron. Tres semanas después me llamó mi madre. Tenía la voz rara. Dice que estaba llorando. La próxima vez mandaré una postal, que así puedo mandar foto.",
  "preguntas": [
   {
-   "p": "なぜ<ruby>葉書<rt>はがき</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しましたか。",
+   "p": "カルロスさんは なにを おくりましたか。",
    "opciones": [
-    "でんわがこわれたから",
-    "そぼがかいたものをすきだから",
-    "<ruby>切手<rt>きって</rt></ruby>があったから",
-    "<ruby>封筒<rt>ふうとう</rt></ruby>をつかいたかったから"
+    "かみの <ruby>手紙<rt>てがみ</rt></ruby>",
+    "メール",
+    "しゃしん"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>一<rt>いっ</rt></ruby>しゅうかんご、<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "p": "メキシコまで どのくらい かかると 言われましたか。",
    "opciones": [
-    "<ruby>葉書<rt>はがき</rt></ruby>がかえってきた",
-    "そぼからでんわがあった",
-    "<ruby>切手<rt>きって</rt></ruby>をもらった",
-    "そぼが<ruby>来<rt>き</rt></ruby>た"
+    "にしゅうかんぐらい",
+    "ふつか",
+    "<ruby>一<rt>いっ</rt></ruby>かげつ"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "つぎは なにを おくりますか。",
+   "opciones": [
+    "はがき",
+    "<ruby>手紙<rt>てがみ</rt></ruby>",
+    "でんわ"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "I sent my grandmother a postcard. The thing is, she likes written things more than the telephone. On a quiet evening I sat at the table and wrote it slowly. I stuck on the stamp and, without using an envelope, dropped it into the postbox just as it was. My handwriting isn't pretty, but I chose words that mattered. A week later my grandmother rang me. Her voice sounded very cheerful."
+ "traduccion_en": "I wrote my mother a letter. Not an email. A paper letter. I bought the stamp at the post office and stuck it on the envelope. «To Mexico it takes about two weeks», they told me. Three weeks later my mother rang. Her voice sounded odd. She says she had been crying. Next time I'll send a postcard, so I can send a photo too."
 }
