@@ -1,0 +1,44 @@
+LOS 12 PROBADORES  ·  cómo montarlo y qué mandarles
+====================================================
+
+EN PLAY CONSOLE
+---------------
+Prueba cerrada → pestaña «Verificadores» → «Crear lista de correo».
+Pega los correos de las cuentas de Google de tus probadores, uno por línea.
+Guarda, y copia el «Vínculo para participar en la prueba».
+
+Apunta a 15, no a 12. Alguno se dará de baja, cambiará de móvil o no aceptará
+nunca, y si bajas de 12 el contador de 14 días vuelve a empezar.
+
+REGÁLALES EL CURSO ANTES DE INVITARLOS
+--------------------------------------
+Google ya no cuenta sólo que estén apuntados: mira que hayan usado la app.
+Con el muro de pago sólo verían la sección 人と体, así que dales acceso:
+
+    python3 scripts/24_cortesia.py dar amigo@gmail.com 6 "probador de Play"
+
+Uno por cada probador. Seis meses sobra y se les puede quitar luego con
+`quitar`. Para ver a quién le has dado: `python3 scripts/24_cortesia.py lista`.
+
+EL MENSAJE PARA MANDARLES
+-------------------------
+Hola. Estoy publicando jlptest, una app para estudiar japonés para el examen
+JLPT, y para que Google me deje sacarla necesito 12 personas que la tengan
+instalada dos semanas. ¿Me echas una mano?
+
+Son tres cosas:
+
+1. Abre este enlace desde el móvil y pulsa aceptar:
+   <PEGA AQUÍ EL VÍNCULO DE PARTICIPACIÓN>
+2. Instala jlptest desde Play, con la MISMA cuenta de Google del enlace.
+3. Entra con tu correo (te llega un código de seis cifras, no hay contraseña)
+   y estudia un rato de vez en cuando: unas tarjetas, un test, lo que sea.
+
+Lo único importante: NO la desinstales ni salgas de la prueba hasta que yo te
+avise, aunque no la uses. Si te sales antes de dos semanas, la cuenta se
+reinicia para todos.
+
+Te dejé el curso completo abierto, así que no tienes que pagar nada. Y si ves
+algo raro o mal traducido, dímelo, que para eso es la prueba.
+
+Gracias.
