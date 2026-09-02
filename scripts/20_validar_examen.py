@@ -136,6 +136,23 @@ for g, lista in grupos.items():
     if [x.get("orden_grupo", 0) for x in lista] != list(range(len(lista))):
         fallos.append(f"grupo {g}: orden_grupo no es 0,1,2…")
 
+# Cuántos exámenes completos aguanta cada nivel. Esto está aquí porque una
+# vez se reutilizó el nombre de un archivo de este directorio y se perdieron
+# once preguntas sin que nada chillara: el recuento por tipo seguía siendo
+# grande y nadie lo miraba nivel a nivel.
+_src = pathlib.Path("src/lib/examen.ts").read_text(encoding="utf-8")
+_bloque = _src[_src.index("export const REPARTO"):_src.index("export type Item")]
+_banco = collections.Counter((it["nivel"], it["tipo"]) for it in items)
+print()
+for _m in re.finditer(r"(N[1-5]): \{(.*?)\},\n", _bloque, re.S):
+    _niv = _m.group(1)
+    _rep = {k: int(v) for k, v in re.findall(r"(\w+):\s*(\d+)", _m.group(2))}
+    _peor = min(((k, _banco.get((_niv, k), 0) / v) for k, v in _rep.items()), key=lambda x: x[1])
+    _aviso = "  ← no llega a un examen completo" if _peor[1] < 1 else ""
+    print(f"  {_niv}: {_peor[1]:.2f} exámenes completos, lo limita {_peor[0]}{_aviso}")
+    if _peor[1] < 1:
+        avisos.append(f"{_niv}: el banco no da para un examen completo ({_peor[0]})")
+
 por_tipo = collections.Counter(it["tipo"] for it in items)
 print(f"{len(items)} ítems en {len(list(pathlib.Path('data/fuente/examen').glob('*.json')))} archivos")
 for t, n in sorted(por_tipo.items(), key=lambda x: -x[1]):
