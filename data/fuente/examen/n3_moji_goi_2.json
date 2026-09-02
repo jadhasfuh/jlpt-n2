@@ -1,164 +1,877 @@
 [
  {
-  "id": "n3-bunmyaku-0001",
+  "id": "n3-kanji_yomi-0009",
   "nivel": "N3",
-  "tipo": "bunmyaku",
-  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "駅までの道を（　）もらったので、迷わずに着けた。",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 問題は <u>複雑</u>です。",
   "opciones": [
-   "教えて",
-   "習って",
-   "覚えて",
-   "調べて"
+   "ふくざつ",
+   "ふくさつ",
+   "ふくぞう",
+   "ふくじつ"
   ],
   "respuesta": 0,
   "logica_distractores": [
-   "習うは自分が学ぶ側",
-   "覚えるは自分の頭に入れる",
-   "調べるは自分でする"
+   "濁音にしない",
+   "雑をぞうと読んだ",
+   "雑をじつと読んだ"
   ],
   "explicacion": {
-   "es": "Con 〜てもらう la acción la hace el otro por ti: te la enseñan. 習う es aprenderlo tú.",
-   "en": "With 〜てもらう someone else does it for you: they show you. 習う is you learning it."
+   "es": "複雑（ふくざつ）, complicado.",
+   "en": "複雑 (fukuzatsu), complicated."
   },
-  "etiquetas": [
-   "授受"
-  ],
-  "dificultad": 2
- },
- {
-  "id": "n3-bunmyaku-0002",
-  "nivel": "N3",
-  "tipo": "bunmyaku",
-  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "準備が足りなかったので、発表は（　）終わってしまった。",
-  "opciones": [
-   "ちゃんと",
-   "中途半端に",
-   "しっかり",
-   "ていねいに"
-  ],
-  "respuesta": 1,
-  "logica_distractores": [
-   "準備不足と合わない",
-   "準備不足と合わない",
-   "準備不足と合わない"
-  ],
-  "explicacion": {
-   "es": "Faltó preparación, así que el resultado es negativo: 中途半端に «a medias».",
-   "en": "Preparation was lacking, so the outcome is negative: 中途半端に 'half-done'."
-  },
-  "etiquetas": [
-   "副詞"
-  ],
+  "etiquetas": [],
   "dificultad": 3
  },
  {
-  "id": "n3-bunmyaku-0003",
+  "id": "n3-kanji_yomi-0010",
+  "nivel": "N3",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "<u>経験</u>が ある 人を さがして います。",
+  "opciones": [
+   "けいけん",
+   "きょうけん",
+   "けいげん",
+   "けいえん"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "経をきょうと読んだ",
+   "濁音にした",
+   "験をえんと読んだ"
+  ],
+  "explicacion": {
+   "es": "経験（けいけん）, experiencia.",
+   "en": "経験 (keiken), experience."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-kanji_yomi-0011",
+  "nivel": "N3",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "荷物を <u>預ける</u>ことが できますか。",
+  "opciones": [
+   "あずける",
+   "うける",
+   "たすける",
+   "さける"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "受けると混同",
+   "助けると混同",
+   "避けると混同"
+  ],
+  "explicacion": {
+   "es": "預ける（あずける）, dejar algo en depósito.",
+   "en": "預ける (azukeru), to leave in someone's care."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-kanji_yomi-0012",
+  "nivel": "N3",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 薬は <u>効果</u>が あります。",
+  "opciones": [
+   "こうか",
+   "こうが",
+   "きこうか",
+   "こうけ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "濁音にした",
+   "効をきと読んだ",
+   "果をけと読んだ"
+  ],
+  "explicacion": {
+   "es": "効果（こうか）, efecto.",
+   "en": "効果 (kōka), effect."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-kanji_yomi-0013",
+  "nivel": "N3",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "駅前の 道が <u>混雑</u>して います。",
+  "opciones": [
+   "こんざつ",
+   "こんさつ",
+   "こんじゅう",
+   "まざつ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "濁音にしない",
+   "雑をじゅうと読んだ",
+   "混をまと読んだ"
+  ],
+  "explicacion": {
+   "es": "混雑（こんざつ）, aglomeración.",
+   "en": "混雑 (konzatsu), congestion."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-kanji_yomi-0014",
+  "nivel": "N3",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼の 意見に <u>賛成</u>です。",
+  "opciones": [
+   "さんせい",
+   "ざんせい",
+   "さんじょう",
+   "さんぜい"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "濁音にした",
+   "成をじょうと読んだ",
+   "成をぜいと読んだ"
+  ],
+  "explicacion": {
+   "es": "賛成（さんせい）, estar de acuerdo.",
+   "en": "賛成 (sansei), agreement."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-kanji_yomi-0015",
+  "nivel": "N3",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "ここに <u>署名</u>を おねがいします。",
+  "opciones": [
+   "しょめい",
+   "しょみょう",
+   "そめい",
+   "しょうめい"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "名をみょうと読んだ",
+   "署をそと読んだ",
+   "証明と混同"
+  ],
+  "explicacion": {
+   "es": "署名（しょめい）, firma. Ojo con 証明（しょうめい）.",
+   "en": "署名 (shomei), signature. Careful with 証明 (shōmei)."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-kanji_yomi-0016",
+  "nivel": "N3",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "会場の <u>周辺</u>は 車が 多いです。",
+  "opciones": [
+   "しゅうへん",
+   "しゅへん",
+   "しゅうべん",
+   "まわへん"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "長音を落とした",
+   "濁音にした",
+   "周をまわと読んだ"
+  ],
+  "explicacion": {
+   "es": "周辺（しゅうへん）, alrededores.",
+   "en": "周辺 (shūhen), surroundings."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-hyouki-0007",
+  "nivel": "N3",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "<u>こうつう</u>が べんりな 町です。",
+  "opciones": [
+   "交通",
+   "校通",
+   "交痛",
+   "校痛"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "交と校の混同",
+   "通と痛の混同",
+   "両方"
+  ],
+  "explicacion": {
+   "es": "交通. 交 (cruzarse) no 校 (escuela).",
+   "en": "交通. 交 not 校 (school)."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-hyouki-0008",
+  "nivel": "N3",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 話は <u>じじつ</u>です。",
+  "opciones": [
+   "事実",
+   "事実験",
+   "自実",
+   "事質"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "余計な字がついている",
+   "事と自の混同",
+   "実と質の混同"
+  ],
+  "explicacion": {
+   "es": "事実 (hecho).",
+   "en": "事実 (fact)."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-hyouki-0009",
+  "nivel": "N3",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "結果を <u>ほうこく</u>します。",
+  "opciones": [
+   "報告",
+   "報国",
+   "方告",
+   "方国"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "告と国の混同",
+   "報と方の混同",
+   "両方"
+  ],
+  "explicacion": {
+   "es": "報告 (informe). 告 (comunicar) no 国 (país).",
+   "en": "報告 (report). 告 (tell) not 国 (country)."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-hyouki-0010",
+  "nivel": "N3",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "<u>きかい</u>の 使い方を 習いました。",
+  "opciones": [
+   "機械",
+   "機会",
+   "器械",
+   "気会"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "同じ読みで意味が違う（チャンス）",
+   "医療などに使う別の語",
+   "機と気の混同"
+  ],
+  "explicacion": {
+   "es": "機械 (máquina). 機会 es «ocasión»: mismo sonido, otra palabra.",
+   "en": "機械 (machine). 機会 is «opportunity»: same sound, different word."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-hyouki-0011",
+  "nivel": "N3",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "<u>かんしん</u>が ある 分野です。",
+  "opciones": [
+   "関心",
+   "感心",
+   "関身",
+   "感身"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "ほめる意味の別の語",
+   "身は使わない",
+   "両方"
+  ],
+  "explicacion": {
+   "es": "関心 (interés). 感心 es «admirarse»: se confunden a menudo.",
+   "en": "関心 (interest). 感心 is «to be impressed» — a common mix-up."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-hyouki-0012",
+  "nivel": "N3",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "<u>せいかく</u>に 時間を 計ります。",
+  "opciones": [
+   "正確",
+   "性格",
+   "正格",
+   "性確"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "人の性質を言う別の語",
+   "字の組み合わせが違う",
+   "字の組み合わせが違う"
+  ],
+  "explicacion": {
+   "es": "正確 (exacto). 性格 es «carácter».",
+   "en": "正確 (accurate). 性格 is «personality»."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunmyaku-0012",
   "nivel": "N3",
   "tipo": "bunmyaku",
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "この店は値段が安いうえに味もいいので、いつも（　）いる。",
+  "enunciado": "会議の 日程が（　）変わりました。",
   "opciones": [
-   "減って",
-   "空いて",
-   "込んで",
-   "閉まって"
+   "急に",
+   "早めに",
+   "ゆっくり",
+   "たまに"
   ],
-  "respuesta": 2,
+  "respuesta": 0,
   "logica_distractores": [
-   "減るのは数量",
-   "安くて味がいい店は空かない",
-   "閉店の話ではない"
+   "前もっての意味",
+   "速さの話",
+   "頻度の話"
   ],
   "explicacion": {
-   "es": "Barato y bueno → siempre lleno: 込んでいる.",
-   "en": "Cheap and good → always full: 込んでいる."
+   "es": "Un cambio repentino: 急に.",
+   "en": "A sudden change: 急に."
   },
-  "etiquetas": [
-   "文脈"
-  ],
-  "dificultad": 2
+  "etiquetas": [],
+  "dificultad": 3
  },
  {
-  "id": "n3-iikae-0001",
+  "id": "n3-bunmyaku-0013",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 資料を 全員に（　）ください。",
+  "opciones": [
+   "配って",
+   "集めて",
+   "並べて",
+   "重ねて"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対の動作",
+   "置き方の話",
+   "置き方の話"
+  ],
+  "explicacion": {
+   "es": "Repartir a todos: 配る.",
+   "en": "Handing out to everyone: 配る."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunmyaku-0014",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "約束の 時間に（　）ように、早く 出ました。",
+  "opciones": [
+   "おくれない",
+   "まにあわない",
+   "つかない",
+   "こない"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "意味が反対になる",
+   "文がつながらない",
+   "文がつながらない"
+  ],
+  "explicacion": {
+   "es": "Salió pronto para no llegar tarde: おくれないように.",
+   "en": "He left early so as not to be late: おくれないように."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunmyaku-0015",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 店は 客の（　）が いい。",
+  "opciones": [
+   "評判",
+   "感想",
+   "意見",
+   "気分"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "個人の感じ方",
+   "個人の考え",
+   "その時の気持ち"
+  ],
+  "explicacion": {
+   "es": "La fama entre la gente es 評判.",
+   "en": "A place's reputation is 評判."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunmyaku-0016",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "雨が ふって いたので、試合は（　）に なった。",
+  "opciones": [
+   "中止",
+   "禁止",
+   "停止",
+   "休止"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "してはいけないという意味",
+   "動いていたものが止まる意味",
+   "しばらく休む意味"
+  ],
+  "explicacion": {
+   "es": "Un partido que no se celebra: 中止.",
+   "en": "A match called off: 中止."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunmyaku-0017",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼は 約束を（　）人だ。",
+  "opciones": [
+   "守る",
+   "持つ",
+   "取る",
+   "作る"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "共起しない",
+   "共起しない",
+   "約束をするという言い方はある"
+  ],
+  "explicacion": {
+   "es": "Cumplir una promesa: 約束を守る.",
+   "en": "Keeping a promise: 約束を守る."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunmyaku-0018",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 道具は（　）に 便利です。",
+  "opciones": [
+   "非常",
+   "大変",
+   "十分",
+   "相当"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "程度の副詞で名詞にはつきにくい",
+   "足りるという意味",
+   "かなりという意味"
+  ],
+  "explicacion": {
+   "es": "非常に便利 es la colocación fija.",
+   "en": "非常に便利 is the fixed collocation."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunmyaku-0019",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "先生の 説明で、やっと（　）した。",
+  "opciones": [
+   "納得",
+   "承知",
+   "了解",
+   "確認"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "目上に使う受け答え",
+   "同僚などへの返事",
+   "事実を調べる意味"
+  ],
+  "explicacion": {
+   "es": "Quedar convencido: 納得する.",
+   "en": "To be convinced: 納得する."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunmyaku-0020",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 川は 子どもには（　）です。",
+  "opciones": [
+   "危険",
+   "心配",
+   "不安",
+   "無理"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "気持ちの話",
+   "気持ちの話",
+   "できないという意味"
+  ],
+  "explicacion": {
+   "es": "Un sitio peligroso: 危険.",
+   "en": "A dangerous place: 危険."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunmyaku-0021",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼女は 医者に なる ことを（　）いる。",
+  "opciones": [
+   "目指して",
+   "向かって",
+   "決まって",
+   "望んで"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "方向の話",
+   "自分の意志では使いにくい",
+   "願う意味で少しずれる"
+  ],
+  "explicacion": {
+   "es": "Aspirar a algo: 〜を目指す.",
+   "en": "Aiming at something: 〜を目指す."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunmyaku-0022",
+  "nivel": "N3",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "時間が ないので、（　）話します。",
+  "opciones": [
+   "簡単に",
+   "詳しく",
+   "ゆっくり",
+   "静かに"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対の意味",
+   "速さの話",
+   "音の話"
+  ],
+  "explicacion": {
+   "es": "Sin tiempo, se cuenta brevemente: 簡単に.",
+   "en": "No time means telling it briefly: 簡単に."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-iikae-0006",
   "nivel": "N3",
   "tipo": "iikae",
   "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "彼の説明は<u>あいまい</u>で、よく分からなかった。",
+  "enunciado": "この 計画は <u>ほぼ</u>できあがった。",
+  "opciones": [
+   "だいたい",
+   "まったく",
+   "まだ",
+   "やっと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "否定と使う",
+   "反対の意味",
+   "時間の話"
+  ],
+  "explicacion": {
+   "es": "ほぼ = casi, aproximadamente: だいたい.",
+   "en": "ほぼ means roughly: だいたい."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-iikae-0007",
+  "nivel": "N3",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼の 話は <u>あいまい</u>だった。",
   "opciones": [
    "はっきりしない",
-   "おもしろくない",
-   "むずかしい",
-   "みじかい"
+   "とても長い",
+   "おもしろい",
+   "うそだ"
   ],
   "respuesta": 0,
   "logica_distractores": [
-   "意味がちがう",
-   "難しさの話ではない",
-   "長さの話ではない"
+   "長さの話",
+   "感想の話",
+   "強すぎる"
   ],
   "explicacion": {
-   "es": "あいまい = poco claro, ambiguo. No es que fuera difícil, sino impreciso.",
-   "en": "あいまい = vague, unclear. Not difficult — imprecise."
+   "es": "あいまい es «vago, poco claro».",
+   "en": "あいまい means vague, unclear."
   },
-  "etiquetas": [
-   "形容動詞"
-  ],
-  "dificultad": 2
- },
- {
-  "id": "n3-iikae-0002",
-  "nivel": "N3",
-  "tipo": "iikae",
-  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "急に予定が変わって、みんな<u>とまどった</u>。",
-  "opciones": [
-   "よろこんだ",
-   "こまった",
-   "おこった",
-   "わらった"
-  ],
-  "respuesta": 1,
-  "logica_distractores": [
-   "逆の感情",
-   "怒りとはちがう",
-   "場面に合わない"
-  ],
-  "explicacion": {
-   "es": "とまどう = quedarse desconcertado, sin saber qué hacer. Lo más cercano es こまる.",
-   "en": "とまどう = to be at a loss, thrown off. The closest is こまる."
-  },
-  "etiquetas": [
-   "動詞"
-  ],
+  "etiquetas": [],
   "dificultad": 3
  },
  {
-  "id": "n3-youhou-0001",
+  "id": "n3-iikae-0008",
+  "nivel": "N3",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "その 案には <u>反対</u>です。",
+  "opciones": [
+   "賛成しません",
+   "よく知りません",
+   "興味が あります",
+   "手伝います"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "知識の話",
+   "気持ちの話",
+   "行動の話"
+  ],
+  "explicacion": {
+   "es": "反対 = no estar de acuerdo.",
+   "en": "反対 = not in agreement."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-iikae-0009",
+  "nivel": "N3",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼は <u>めったに</u>来ない。",
+  "opciones": [
+   "ほとんど 来ない",
+   "よく 来る",
+   "たまに 来る",
+   "必ず 来る"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対の意味",
+   "頻度が高すぎる",
+   "反対の意味"
+  ],
+  "explicacion": {
+   "es": "めったに + negativo = casi nunca.",
+   "en": "めったに with a negative means hardly ever."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-iikae-0010",
+  "nivel": "N3",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 部屋は <u>せいけつ</u>だ。",
+  "opciones": [
+   "きれいだ",
+   "広い",
+   "明るい",
+   "新しい"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "広さの話",
+   "明るさの話",
+   "新しさの話"
+  ],
+  "explicacion": {
+   "es": "清潔 = limpio, higiénico.",
+   "en": "清潔 means clean and hygienic."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-youhou-0006",
   "nivel": "N3",
   "tipo": "youhou",
   "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "かまう",
+  "enunciado": "あきらめる",
   "opciones": [
-   "子どもをかまってやる時間がない。",
-   "この道はかまっている。",
-   "電車が来るのをかまっている。",
-   "荷物をかまって席に置いた。"
+   "何度も 失敗して、とうとう あきらめた。",
+   "この 荷物を あきらめて ください。",
+   "駅で 友だちを あきらめた。",
+   "時間が あきらめて しまった。"
   ],
   "respuesta": 0,
   "logica_distractores": [
-   "混むの誤用",
-   "待つの誤用",
-   "置くの誤用"
+   "物には使わない",
+   "人を待つ意味はない",
+   "時間には使わない"
   ],
   "explicacion": {
-   "es": "かまう = ocuparse de alguien, hacerle caso. No significa esperar ni colocar.",
-   "en": "かまう = to pay attention to / look after someone. It is not 'wait' or 'put'."
+   "es": "あきらめる es renunciar a algo que se intentaba.",
+   "en": "あきらめる means giving up on something you were attempting."
   },
-  "etiquetas": [
-   "用法"
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-youhou-0007",
+  "nivel": "N3",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "ぜひ",
+  "opciones": [
+   "今度 ぜひ 遊びに 来て ください。",
+   "きのう ぜひ 雨が ふった。",
+   "この 店は ぜひ 高い。",
+   "ぜひ 三人 来ました。"
   ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "過去の事実には使わない",
+   "程度を表さない",
+   "数には使わない"
+  ],
+  "explicacion": {
+   "es": "ぜひ acompaña deseos y peticiones, no hechos pasados.",
+   "en": "ぜひ goes with wishes and requests, not past facts."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-youhou-0008",
+  "nivel": "N3",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "そっくり",
+  "opciones": [
+   "兄は 父に そっくりだ。",
+   "この 部屋は そっくり きれいだ。",
+   "そっくり 走って 帰った。",
+   "料理を そっくり 作った。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "程度を表さない",
+   "速さを表さない",
+   "作り方には使わない"
+  ],
+  "explicacion": {
+   "es": "そっくり es «igualito, clavado» a alguien.",
+   "en": "そっくり means looking just like someone."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-youhou-0009",
+  "nivel": "N3",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "うっかり",
+  "opciones": [
+   "うっかり 財布を 家に 忘れた。",
+   "うっかり 毎日 走って いる。",
+   "この 問題は うっかり 難しい。",
+   "うっかり して 合格した。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "習慣には使わない",
+   "程度を表さない",
+   "いい結果には使わない"
+  ],
+  "explicacion": {
+   "es": "うっかり es un descuido que sale mal.",
+   "en": "うっかり is a slip that turns out badly."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-youhou-0010",
+  "nivel": "N3",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "済ませる",
+  "opciones": [
+   "昼ごはんは パンで 済ませた。",
+   "宿題が 済ませて うれしい。",
+   "電車が 駅を 済ませた。",
+   "彼に お金を 済ませた。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "自動詞の済むを使う場面",
+   "通過には使わない",
+   "支払いには使わない"
+  ],
+  "explicacion": {
+   "es": "済ませる es apañar algo con lo mínimo.",
+   "en": "済ませる means getting something over with, making do."
+  },
+  "etiquetas": [],
   "dificultad": 3
  }
 ]

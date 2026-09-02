@@ -1,288 +1,576 @@
 [
  {
-  "id": "n3-bunpou1-0007",
+  "id": "n3-bunpou1-0014",
   "nivel": "N3",
   "tipo": "bunpou1",
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "天気予報（　）、明日は雪になるそうだ。",
+  "enunciado": "彼は 忙しい（　）、必ず 手伝って くれる。",
   "opciones": [
-   "について",
+   "にもかかわらず",
+   "によって",
    "にとって",
-   "によると",
-   "にたいして"
-  ],
-  "respuesta": 2,
-  "logica_distractores": [
-   "についてはテーマ",
-   "にとっては立場",
-   "にたいしては対象"
-  ],
-  "explicacion": {
-   "es": "〜によると introduce la fuente de una información de oídas, y remata en 〜そうだ.",
-   "en": "〜によると introduces the source of hearsay, and pairs with 〜そうだ."
-  },
-  "etiquetas": [
-   "伝聞"
-  ],
-  "dificultad": 2
- },
- {
-  "id": "n3-bunpou1-0008",
-  "nivel": "N3",
-  "tipo": "bunpou1",
-  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "体の調子が悪いなら、無理を（　）ほうがいい。",
-  "opciones": [
-   "させる",
-   "しよう",
-   "する",
-   "しない"
-  ],
-  "respuesta": 3,
-  "logica_distractores": [
-   "使役は文脈に合わない",
-   "意向形は使えない",
-   "逆の意味"
-  ],
-  "explicacion": {
-   "es": "Estás mal: el consejo es no forzarse. 〜ないほうがいい.",
-   "en": "You feel bad: the advice is not to push yourself. 〜ないほうがいい."
-  },
-  "etiquetas": [
-   "助言"
-  ],
-  "dificultad": 2
- },
- {
-  "id": "n3-bunpou1-0009",
-  "nivel": "N3",
-  "tipo": "bunpou1",
-  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "駅に着いた（　）、電話をください。",
-  "opciones": [
-   "ら",
-   "なら",
-   "ば",
-   "と"
+   "に対して"
   ],
   "respuesta": 0,
   "logica_distractores": [
-   "なら",
-   "ばは依頼と使いにくい",
-   "とは自然な結果"
+   "手段や原因の言い方",
+   "立場を言う言い方",
+   "相手を示す言い方"
   ],
   "explicacion": {
-   "es": "〜たら + petición. 〜ば y 〜と no admiten una orden o ruego detrás.",
-   "en": "〜たら + request. 〜ば and 〜と can't be followed by a request."
+   "es": "«A pesar de»: 〜にもかかわらず.",
+   "en": "«In spite of»: 〜にもかかわらず."
   },
   "etiquetas": [
-   "条件"
+   "文の文法1"
   ],
   "dificultad": 3
  },
  {
-  "id": "n3-bunpou1-0010",
+  "id": "n3-bunpou1-0015",
   "nivel": "N3",
   "tipo": "bunpou1",
   "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "この店のケーキは、おいしい（　）値段も安い。",
+  "enunciado": "先生の 話に（　）、試験は 来週だそうだ。",
   "opciones": [
-   "くせに",
-   "うえに",
-   "わりに",
-   "かわりに"
-  ],
-  "respuesta": 1,
-  "logica_distractores": [
-   "くせには非難",
-   "わりには予想との差",
-   "かわりには交換"
-  ],
-  "explicacion": {
-   "es": "〜うえに suma dos cosas buenas. 〜わりに marcaría contraste.",
-   "en": "〜うえに adds two good things. 〜わりに would mark contrast."
-  },
-  "etiquetas": [
-   "添加"
-  ],
-  "dificultad": 2
- },
- {
-  "id": "n3-bunpou1-0011",
-  "nivel": "N3",
-  "tipo": "bunpou1",
-  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "弟に部屋を（　）、勉強できなかった。",
-  "opciones": [
-   "さわいで",
-   "さわぐと",
-   "さわがれて",
-   "さわがせて"
-  ],
-  "respuesta": 2,
-  "logica_distractores": [
-   "自分が騒いだことになる",
-   "接続が合わない",
-   "使役は意味が変わる"
-  ],
-  "explicacion": {
-   "es": "Pasivo de molestia: el hermano armó ruido y a mí me perjudicó. 〜れて.",
-   "en": "Adversative passive: the brother made noise and it affected me. 〜れて."
-  },
-  "etiquetas": [
-   "受身"
-  ],
-  "dificultad": 4
- },
- {
-  "id": "n3-bunpou1-0012",
-  "nivel": "N3",
-  "tipo": "bunpou1",
-  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "先生が書かれた本を（　）。",
-  "opciones": [
-   "お読みになりました",
-   "見られました",
-   "ご覧になりました",
-   "拝見しました"
-  ],
-  "respuesta": 3,
-  "logica_distractores": [
-   "尊敬語で自分には使えない",
-   "尊敬語で自分には使えない",
-   "尊敬語で自分には使えない"
-  ],
-  "explicacion": {
-   "es": "El sujeto soy yo: humilde 拝見する. Los otros tres son honoríficos, para el otro.",
-   "en": "The subject is me: humble 拝見する. The other three are honorific, for the other person."
-  },
-  "etiquetas": [
-   "敬語"
-  ],
-  "dificultad": 4
- },
- {
-  "id": "n3-bunpou2-0003",
-  "nivel": "N3",
-  "tipo": "bunpou2",
-  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "駅の　＿＿　＿★＿　＿＿　＿＿　教えてください。",
-  "opciones": [
-   "行き方を",
-   "近くの",
-   "銀行への",
-   "場所と"
-  ],
-  "respuesta": 2,
-  "logica_distractores": [
-   "語順が合わない",
-   "語順が合わない",
-   "語順が合わない"
-  ],
-  "explicacion": {
-   "es": "Orden: 近くの 銀行への 場所と 行き方を. La estrella está en la casilla 2, donde va 「銀行への」.",
-   "en": "Order: 近くの 銀行への 場所と 行き方を. The star is in slot 2, which takes 「銀行への」."
-  },
-  "etiquetas": [
-   "並べ替え"
-  ],
-  "dificultad": 3,
-  "orden": [
-   1,
-   2,
-   3,
-   0
-  ]
- },
- {
-  "id": "n3-bunpou2-0004",
-  "nivel": "N3",
-  "tipo": "bunpou2",
-  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
-  "enunciado": "一人で　＿＿　＿＿　＿★＿　＿＿　思います。",
-  "opciones": [
-   "みようと",
-   "最後まで",
-   "この仕事を",
-   "やって"
-  ],
-  "respuesta": 3,
-  "logica_distractores": [
-   "語順が合わない",
-   "語順が合わない",
-   "語順が合わない"
-  ],
-  "explicacion": {
-   "es": "Orden: この仕事を 最後まで やって みようと. La estrella está en la casilla 3, donde va 「やって」.",
-   "en": "Order: この仕事を 最後まで やって みようと. The star is in slot 3, which takes 「やって」."
-  },
-  "etiquetas": [
-   "並べ替え"
-  ],
-  "dificultad": 3,
-  "orden": [
-   2,
-   1,
-   3,
-   0
-  ]
- },
- {
-  "id": "n3-bunshou_bunpou-0001",
-  "nivel": "N3",
-  "tipo": "bunshou_bunpou",
-  "grupo": "n3-bb-g001",
-  "orden_grupo": 0,
-  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
-  "pasaje": {
-   "texto": "日本に来たばかりのころ、私はスーパーのレジがこわかった。値段は表示されるので分かるのだが、店員さんが最後に何か一言つけ加える。それが（　1　）、いつも「はい」とだけ答えていた。\nある日、思い切って聞き返してみた。「袋はご利用ですか」と言っていたのだ。分かってしまえば何でもない。（　2　）、聞き返すまでの三か月、私は毎回いらない袋を買っていたことになる。\n言葉が分からないときは、分かったふりをするより聞いたほうが早い。当たり前のことだが、（　3　）なかなかできなかった。",
-   "notas": []
-  },
-  "enunciado": "（　1　）",
-  "opciones": [
-   "聞き取れなくて",
-   "聞き取れて",
-   "聞こえなくて",
-   "聞かなくて"
+   "よると",
+   "ついて",
+   "とって",
+   "たいして"
   ],
   "respuesta": 0,
   "logica_distractores": [
-   "意味が逆",
-   "音は聞こえている",
-   "自分の意志ではない"
+   "話題を示す",
+   "立場を言う",
+   "相手を示す"
   ],
   "explicacion": {
-   "es": "Oír sí oía; lo que no lograba era distinguir qué decían: 聞き取れない.",
-   "en": "She could hear it; what she couldn't do was make out the words: 聞き取れない."
+   "es": "Fuente de información: 〜によると.",
+   "en": "Source of information: 〜によると."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunpou1-0016",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "宿題を する（　）、寝て しまった。",
+  "opciones": [
+   "どころか",
+   "だけで",
+   "ばかりで",
+   "しか"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "範囲を限る言い方",
+   "範囲を限る言い方",
+   "否定と使う"
+  ],
+  "explicacion": {
+   "es": "«Lejos de hacerlo»: 〜どころか.",
+   "en": "«Far from doing it»: 〜どころか."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunpou1-0017",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 問題は 難しくて、私（　）解けない。",
+  "opciones": [
+   "には",
+   "では",
+   "とは",
+   "へは"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "手段を示す",
+   "引用を示す",
+   "方向を示す"
+  ],
+  "explicacion": {
+   "es": "El sujeto de una posibilidad va con には.",
+   "en": "The person for whom something is possible takes には."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunpou1-0018",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼女は 泣き（　）話した。",
+  "opciones": [
+   "ながら",
+   "つつも",
+   "ように",
+   "ばかり"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "逆接の意味が入る",
+   "たとえの言い方",
+   "限定の言い方"
+  ],
+  "explicacion": {
+   "es": "Dos acciones a la vez: 〜ながら.",
+   "en": "Two actions at once: 〜ながら."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunpou1-0019",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "雨が ふった（　）、道が ぬれて いる。",
+  "opciones": [
+   "せいか",
+   "ためか",
+   "ものの",
+   "くせに"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "理由としては断定的すぎる",
+   "逆接",
+   "非難の意味"
+  ],
+  "explicacion": {
+   "es": "Causa supuesta: 〜せいか.",
+   "en": "A supposed cause: 〜せいか."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunpou1-0020",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 町は 昔（　）静かだ。",
+  "opciones": [
+   "に比べて",
+   "によって",
+   "に関して",
+   "にわたって"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "手段や原因",
+   "話題の提示",
+   "範囲の広さ"
+  ],
+  "explicacion": {
+   "es": "Comparación: 〜に比べて.",
+   "en": "Comparison: 〜に比べて."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunpou1-0021",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "父は 医者（　）、日曜も 働いて いる。",
+  "opciones": [
+   "だけあって",
+   "だけでなく",
+   "ばかりか",
+   "どころか"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "並列の言い方",
+   "並列の言い方",
+   "反対の内容が来る"
+  ],
+  "explicacion": {
+   "es": "«Como cabe esperar de»: 〜だけあって.",
+   "en": "«As you'd expect from»: 〜だけあって."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunpou1-0022",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 服は 洗濯する（　）、色が うすく なる。",
+  "opciones": [
+   "たびに",
+   "ながら",
+   "うちに",
+   "ところに"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "同時の動作",
+   "その間にという意味",
+   "場面を示す"
+  ],
+  "explicacion": {
+   "es": "«Cada vez que»: 〜たびに.",
+   "en": "«Every time»: 〜たびに."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunpou1-0023",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼は 来る（　）と 言って いたが、来なかった。",
+  "opciones": [
+   "はずだ",
+   "そうだ",
+   "らしい",
+   "ようだ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "伝聞の言い方",
+   "推量の言い方",
+   "推量の言い方"
+  ],
+  "explicacion": {
+   "es": "Expectativa fundada: 〜はずだ.",
+   "en": "A grounded expectation: 〜はずだ."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunpou1-0024",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "パソコンが こわれて、仕事が できない（　）。",
+  "opciones": [
+   "ままだ",
+   "ものだ",
+   "ことだ",
+   "はずだ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "感慨や一般論",
+   "助言の言い方",
+   "期待の言い方"
+  ],
+  "explicacion": {
+   "es": "Un estado que sigue igual: 〜ままだ.",
+   "en": "A state that stays unchanged: 〜ままだ."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunpou1-0025",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼の 意見に（　）、私は 反対だ。",
+  "opciones": [
+   "対して",
+   "ついて",
+   "よって",
+   "とって"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "話題の提示",
+   "手段や原因",
+   "立場の提示"
+  ],
+  "explicacion": {
+   "es": "Frente a algo: 〜に対して.",
+   "en": "Set against something: 〜に対して."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunpou1-0026",
+  "nivel": "N3",
+  "tipo": "bunpou1",
+  "instruccion_ja": "次の文の（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 本は 子ども（　）書かれて いる。",
+  "opciones": [
+   "向けに",
+   "向きに",
+   "ように",
+   "ために"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "性質が合うという意味",
+   "たとえの言い方",
+   "目的の言い方"
+  ],
+  "explicacion": {
+   "es": "Dirigido a un público: 〜向けに.",
+   "en": "Aimed at an audience: 〜向けに."
+  },
+  "etiquetas": [
+   "文の文法1"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunpou2-0006",
+  "nivel": "N3",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 料理は　＿＿　＿★＿　＿＿　＿＿　おいしい。",
+  "opciones": [
+   "見た目",
+   "が",
+   "は",
+   "よくないが"
+  ],
+  "respuesta": 2,
+  "logica_distractores": [
+   "語順が合わない",
+   "語順が合わない",
+   "語順が合わない"
+  ],
+  "explicacion": {
+   "es": "Orden: 見た目 は よくないが が… La ★ está en la casilla 2, donde va 「は」.",
+   "en": "Order puts 「は」 in slot 2, which is the star."
+  },
+  "etiquetas": [
+   "並べ替え"
+  ],
+  "dificultad": 4,
+  "orden": [
+   0,
+   2,
+   3,
+   1
+  ]
+ },
+ {
+  "id": "n3-bunpou2-0007",
+  "nivel": "N3",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼が　＿＿　＿＿　＿★＿　＿＿　だろう。",
+  "opciones": [
+   "ことは",
+   "来ない",
+   "ない",
+   "という"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "語順が合わない",
+   "語順が合わない",
+   "語順が合わない"
+  ],
+  "explicacion": {
+   "es": "Orden: 来ない という ことは ない. La ★ está en la casilla 3, donde va 「ことは」.",
+   "en": "Order: 来ない という ことは ない. The star is slot 3 → 「ことは」."
+  },
+  "etiquetas": [
+   "並べ替え"
+  ],
+  "dificultad": 4,
+  "orden": [
+   1,
+   3,
+   0,
+   2
+  ]
+ },
+ {
+  "id": "n3-bunpou2-0008",
+  "nivel": "N3",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 町は　＿★＿　＿＿　＿＿　＿＿　なった。",
+  "opciones": [
+   "前に",
+   "十年",
+   "比べて",
+   "静かに"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "語順が合わない",
+   "語順が合わない",
+   "語順が合わない"
+  ],
+  "explicacion": {
+   "es": "Orden: 十年 前に 比べて 静かに. La ★ está en la casilla 1, donde va 「十年」.",
+   "en": "Order: 十年 前に 比べて 静かに. The star is slot 1 → 「十年」."
+  },
+  "etiquetas": [
+   "並べ替え"
+  ],
+  "dificultad": 4,
+  "orden": [
+   1,
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "n3-bunpou2-0009",
+  "nivel": "N3",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "彼女は　＿＿　＿＿　＿＿　＿★＿　しまった。",
+  "opciones": [
+   "帰って",
+   "も",
+   "言わずに",
+   "何"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "語順が合わない",
+   "語順が合わない",
+   "語順が合わない"
+  ],
+  "explicacion": {
+   "es": "Orden: 何 も 言わずに 帰って. La ★ está en la casilla 4, donde va 「帰って」.",
+   "en": "Order: 何 も 言わずに 帰って. The star is slot 4 → 「帰って」."
+  },
+  "etiquetas": [
+   "並べ替え"
+  ],
+  "dificultad": 4,
+  "orden": [
+   3,
+   1,
+   2,
+   0
+  ]
+ },
+ {
+  "id": "n3-bunpou2-0010",
+  "nivel": "N3",
+  "tipo": "bunpou2",
+  "instruccion_ja": "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 仕事は　＿＿　＿★＿　＿＿　＿＿　ものだ。",
+  "opciones": [
+   "やって",
+   "みない",
+   "と",
+   "わからない"
+  ],
+  "respuesta": 1,
+  "logica_distractores": [
+   "語順が合わない",
+   "語順が合わない",
+   "語順が合わない"
+  ],
+  "explicacion": {
+   "es": "Orden: やって みない と わからない. La ★ está en la casilla 2, donde va 「みない」.",
+   "en": "Order: やって みない と わからない. The star is slot 2 → 「みない」."
+  },
+  "etiquetas": [
+   "並べ替え"
+  ],
+  "dificultad": 4,
+  "orden": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "n3-bunshou_bunpou-0006",
+  "nivel": "N3",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n3-bb-g004",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "（　1　）",
+  "opciones": [
+   "一方で",
+   "ばかりに",
+   "うえに",
+   "ために"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "原因を強く言う形",
+   "同じ方向の内容が続く",
+   "目的の言い方"
+  ],
+  "explicacion": {
+   "es": "Se contrapone lo cómodo y la preocupación: 一方で.",
+   "en": "Convenience is set against the worry: 一方で."
   },
   "etiquetas": [
    "文章の文法"
   ],
-  "dificultad": 3
+  "dificultad": 3,
+  "pasaje": {
+   "texto": "最近、ちょっとした 調べ物なら 家を 出なくても できるように なった。辞書を 引く かわりに、画面に 言葉を 入れれば 答えが 出て くる。便利に なった （　1　）、私は 少し 心配して いる。\n先日、学生に 「この 言葉の 意味は?」と 聞いたところ、すぐに 画面を 見て 答えた。答えは 合って いたが、その 言葉が どんな 場面で 使われるのかは （　2　）。\n調べる ことと 分かる ことは 同じでは ない。私は 学生に、辞書の 例文を 三つ 読む ように 言って いる。時間は かかる （　3　）、言葉の 使い方が 体に 残る。\n道具が よく なるほど、使う 側の 力が 問われる。便利さに 流されずに、自分の 頭で 考える 時間を （　4　）と 思う。",
+   "notas": []
+  }
  },
  {
-  "id": "n3-bunshou_bunpou-0002",
+  "id": "n3-bunshou_bunpou-0007",
   "nivel": "N3",
   "tipo": "bunshou_bunpou",
-  "grupo": "n3-bb-g001",
+  "grupo": "n3-bb-g004",
   "orden_grupo": 1,
   "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "（　2　）",
   "opciones": [
-   "つまり",
-   "しかし",
-   "たとえば",
-   "そのうえ"
+   "説明できなかった",
+   "説明した",
+   "説明して いた",
+   "説明できた"
   ],
-  "respuesta": 1,
+  "respuesta": 0,
   "logica_distractores": [
-   "言い換えではない",
-   "例ではない",
-   "追加ではない"
+   "前後がつながらない",
+   "前後がつながらない",
+   "話の流れと反対"
   ],
   "explicacion": {
-   "es": "«Una vez lo entiendes no es nada» y aun así perdió tres meses: es un contraste, しかし.",
-   "en": "'Once you get it, it's nothing' and yet she lost three months: that's a contrast, しかし."
+   "es": "La respuesta era correcta, pero no supo explicar el uso.",
+   "en": "The answer was right, but he couldn't explain the usage."
   },
   "etiquetas": [
    "文章の文法"
@@ -290,32 +578,90 @@
   "dificultad": 3
  },
  {
-  "id": "n3-bunshou_bunpou-0003",
+  "id": "n3-bunshou_bunpou-0008",
   "nivel": "N3",
   "tipo": "bunshou_bunpou",
-  "grupo": "n3-bb-g001",
+  "grupo": "n3-bb-g004",
   "orden_grupo": 2,
   "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "（　3　）",
   "opciones": [
-   "日本人にとっては",
-   "今の私には",
-   "その当時の私には",
-   "店員さんには"
+   "が",
+   "ので",
+   "から",
+   "ため"
   ],
-  "respuesta": 2,
+  "respuesta": 0,
   "logica_distractores": [
-   "主語が変わる",
-   "現在ならできる",
-   "主語が変わる"
+   "理由の言い方",
+   "理由の言い方",
+   "理由の言い方"
   ],
   "explicacion": {
-   "es": "Habla de cuando acababa de llegar: para el yo de entonces era difícil. Ahora ya no.",
-   "en": "She's talking about when she had just arrived: for her back then it was hard. Not now."
+   "es": "Lleva tiempo, pero queda: contraste con が.",
+   "en": "It takes time, but it sticks: contrast with が."
   },
   "etiquetas": [
    "文章の文法"
   ],
-  "dificultad": 4
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunshou_bunpou-0009",
+  "nivel": "N3",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n3-bb-g004",
+  "orden_grupo": 3,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "（　4　）",
+  "opciones": [
+   "大切に したい",
+   "大切に される",
+   "大切に なる",
+   "大切に する"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "受身の形",
+   "自動詞の形",
+   "意志が入っていない"
+  ],
+  "explicacion": {
+   "es": "El autor expresa su voluntad: 〜たいと思う.",
+   "en": "The writer states his intention: 〜たいと思う."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-bunshou_bunpou-0010",
+  "nivel": "N3",
+  "tipo": "bunshou_bunpou",
+  "grupo": "n3-bb-g004",
+  "orden_grupo": 4,
+  "instruccion_ja": "次の文章を読んで、文章全体の内容を考えて、（　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この文章で、筆者が 一番 言いたい ことは 何か。",
+  "opciones": [
+   "便利な 道具ほど、使う 人の 力が 必要だ",
+   "辞書は もう 必要では ない",
+   "学生は 言葉を 覚えるべきだ",
+   "調べ物は 家で する ほうが よい"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "辞書を勧めている",
+   "覚える話ではなく使い方の話",
+   "場所の話ではない"
+  ],
+  "explicacion": {
+   "es": "Lo dice al final: cuanto mejor la herramienta, más se exige a quien la usa.",
+   "en": "He says it at the end: the better the tool, the more is asked of the user."
+  },
+  "etiquetas": [
+   "文章の文法"
+  ],
+  "dificultad": 3
  }
 ]

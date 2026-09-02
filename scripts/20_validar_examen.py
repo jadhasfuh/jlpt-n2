@@ -82,7 +82,10 @@ for it in items:
 # Dos letras seguidas o más. Una sola no vale como señal: el 統合理解 rotula
 # sus dos textos como «A» y «B», y las opciones se refieren a ellos por esa
 # letra. Lo que no tiene excusa es una palabra entera.
-_alfabeto = re.compile(r"[A-Za-z\u0400-\u04FF]{2,}")
+# Latino y cirílico eran los dos que se colaban escribiendo; el hangul se
+# coló después, tecleando 안심 por 安心, y no lo veía nadie. Cualquier
+# escritura que no sea japonesa es un error en un examen de japonés.
+_alfabeto = re.compile(r"[A-Za-z\u0400-\u04FF]{2,}|[\uAC00-\uD7AF\u0E00-\u0E7F\u0600-\u06FF\u0590-\u05FF\u0370-\u03FF]")
 for it in items:
     trozos = [("enunciado", it.get("enunciado", ""))]
     trozos += [(f"opción {i+1}", o) for i, o in enumerate(it.get("opciones", []))]

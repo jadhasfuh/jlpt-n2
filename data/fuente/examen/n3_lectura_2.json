@@ -1,0 +1,481 @@
+[
+ {
+  "id": "n3-tanbun-0005",
+  "nivel": "N3",
+  "tipo": "tanbun",
+  "grupo": "n3-tanbun-g005",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "会社は なぜ 時間を のばしましたか。",
+  "opciones": [
+   "みんなが 同じ 時間に 来ないように するため",
+   "料理の 数を ふやすため",
+   "食堂を 大きく するため",
+   "料金を 安く するため"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "料理は少なくなる",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Quieren que la gente escalone la hora de comer.",
+   "en": "They want people to stagger their lunch times."
+  },
+  "etiquetas": [],
+  "dificultad": 3,
+  "pasaje": {
+   "texto": "会社の 食堂が 来月から 変わります。今までは 十一時半から 一時まででしたが、これからは 十一時から 二時まで 開いて います。ただし、注文できる 料理の 数は 少なく なります。時間を ずらして 使って ほしい、というのが 会社の 考えです。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n3-tanbun-0006",
+  "nivel": "N3",
+  "tipo": "tanbun",
+  "grupo": "n3-tanbun-g006",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "新しい 場所の いい ところは 何ですか。",
+  "opciones": [
+   "雨に ぬれない こと",
+   "お金が かからない こと",
+   "駅から 遠い こと",
+   "歩く 人が 少ない こと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "百円かかる",
+   "駅の前にある",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Tiene techo, así que no te mojas.",
+   "en": "It has a roof, so you don't get wet."
+  },
+  "etiquetas": [],
+  "dificultad": 3,
+  "pasaje": {
+   "texto": "先週、駅の 前に 自転車を 置く 場所が できた。今までは 道に 並んで いて、歩く 人が 通りにくかった。新しい 場所は 屋根が あるので、雨の 日も ぬれない。一日 百円 かかるが、使う 人は 多いようだ。夜は 明かりも つくので、暗く なってからでも 安心して 出し入れできる。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n3-tanbun-0007",
+  "nivel": "N3",
+  "tipo": "tanbun",
+  "grupo": "n3-tanbun-g007",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "母が 毎日 水を やるのは なぜですか。",
+  "opciones": [
+   "休むと 花の ようすが 悪く なるから",
+   "花が とても 好きだから",
+   "近所の 人に たのまれたから",
+   "旅行に 行きたいから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "理由はそれだと思っていただけ",
+   "たのむのは母のほう",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Ella misma lo explica: si se salta un día, al siguiente no florecen bien.",
+   "en": "She explains it herself: skip a day and they don't bloom well the next."
+  },
+  "etiquetas": [],
+  "dificultad": 3,
+  "pasaje": {
+   "texto": "私の 母は 毎朝、庭の 花に 水を やる。旅行に 行く ときも、近所の 人に たのんで 必ず 水を やって もらう。花が 好きだからだと 思って いたが、先日 聞いて みると、「一日 休むと、次の 日 きれいに 咲かないから」と 言った。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n3-tanbun-0008",
+  "nivel": "N3",
+  "tipo": "tanbun",
+  "grupo": "n3-tanbun-g008",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "カードを 作れるのは どんな 人ですか。",
+  "opciones": [
+   "市内で 働いて いる 人",
+   "市の 外に 住んで いる 学生",
+   "旅行で 来た 人",
+   "カードを なくした 人"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "条件に合わない",
+   "条件に合わない",
+   "作り直しの話"
+  ],
+  "explicacion": {
+   "es": "Vale con vivir o trabajar en el municipio.",
+   "en": "Living or working in the city is enough."
+  },
+  "etiquetas": [],
+  "dificultad": 3,
+  "pasaje": {
+   "texto": "この 図書館では、本を 借りる ときに カードが いる。カードは 一人 一まいで、市に 住んで いる 人か、市内で 働いて いる 人が 作れる。住所が 変わった ときは、まどぐちで 手続きが 必要だ。作るのに 十分ほど かかるので、時間に よゆうを 持って 来て ほしい。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n3-chuubun-0007",
+  "nivel": "N3",
+  "tipo": "chuubun",
+  "grupo": "n3-chuubun-g007",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "本屋の おじさんは どんな 人でしたか。",
+  "opciones": [
+   "客の ことを 覚えて いる 人",
+   "本を たくさん 置いて いる 人",
+   "むずかしい 本しか 売らない 人",
+   "話しかけない 人"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本の数は多くなかった",
+   "難しいと言っただけ",
+   "声をかけてくれた"
+  ],
+  "explicacion": {
+   "es": "Lo que lo define es que recordaba a los clientes.",
+   "en": "What defines him is that he remembered his customers."
+  },
+  "etiquetas": [],
+  "dificultad": 3,
+  "pasaje": {
+   "texto": "子どもの ころ、私の 家の 近くに 小さな 本屋が あった。店の 中は せまく、本の 数も 多く なかったが、店の おじさんは 客の 顔を 覚えて いて、「この 前の 本、おもしろかった?」と 声を かけて くれた。\n中学生の とき、私は はじめて 自分の おこづかいで 分厚い 本を 買った。レジで おじさんは 「これは 少し 難しいよ」と 言ったが、私が 「読んで みます」と 答えると、うれしそうに うなずいた。その 本を 読み終えるまでに 三か月 かかった。\n今、私は 大きな 書店で 働いて いる。一日に 何百人もの 客が 来るが、顔を 覚えられるのは ほんの 数人だ。それでも、迷って いる 人を 見ると、あの おじさんの 声を 思い出して、つい 話しかけて しまう。",
+   "notas": [
+    {
+     "termino": "分厚い",
+     "glosa": "とても あつい"
+    }
+   ]
+  }
+ },
+ {
+  "id": "n3-chuubun-0008",
+  "nivel": "N3",
+  "tipo": "chuubun",
+  "grupo": "n3-chuubun-g007",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "「これは 少し 難しいよ」と 言った とき、おじさんは どう 思ったと 考えられますか。",
+  "opciones": [
+   "読めるか 心配だが、読みたい 気持ちは うれしい",
+   "本を 売りたくない",
+   "子どもには 本を すすめたくない",
+   "お金が 足りないと 思った"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "売らないとは言っていない",
+   "うなずいている",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Advierte del nivel, pero asiente contento cuando el chico insiste.",
+   "en": "He warns about the level, but nods happily when the boy insists."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-chuubun-0009",
+  "nivel": "N3",
+  "tipo": "chuubun",
+  "grupo": "n3-chuubun-g007",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "今の 筆者に ついて、正しい ものは どれですか。",
+  "opciones": [
+   "昔の 店の やり方を 少し つづけて いる",
+   "小さな 本屋で 働いて いる",
+   "客の 顔を 全部 覚えて いる",
+   "本を 読まなく なった"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "大きな書店で働いている",
+   "数人しか覚えられない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Sigue hablando con quien duda, como hacía aquel librero.",
+   "en": "He still speaks to hesitant customers, as that bookseller did."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-chuubun-0010",
+  "nivel": "N3",
+  "tipo": "chuubun",
+  "grupo": "n3-chuubun-g008",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "一人用の 席が ある 店を 選ぶ 一番の 理由は 何ですか。",
+  "opciones": [
+   "人に 気を つかわなくて いいから",
+   "早く 食べられるから",
+   "値段が わかりやすいから",
+   "さびしくないから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "二位の理由",
+   "三位の理由",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "La encuesta lo pone primero: no tener que estar pendiente de nadie.",
+   "en": "The survey puts it first: not having to mind anyone else."
+  },
+  "etiquetas": [],
+  "dificultad": 3,
+  "pasaje": {
+   "texto": "「一人で 食事を するのは さびしい」と よく 言われる。しかし 最近は、一人用の 席を 用意する 店が ふえて いる。となりの 人と 顔が 合わないように 仕切りが あり、注文も 機械で できる。\nある 調査に よると、こうした 店を 選ぶ 理由の 一位は 「気を つかわなくて いい」だった。二位は 「早く 食べられる」、三位は 「値段が わかりやすい」である。さびしさを がまんして いるのでは なく、進んで 選んで いる 人が 多い ことが わかる。\nもちろん、だれかと 食べる 楽しさが なくなった わけでは ない。大切なのは、その 日の 気分で どちらも 選べる ことだろう。一人で 静かに 食べたい 日も あれば、だれかと 話しながら 食べたい 日も ある。どちらか 一方だけを 正しいと する 必要は ない。",
+   "notas": [
+    {
+     "termino": "仕切り",
+     "glosa": "間を 分ける もの"
+    }
+   ]
+  }
+ },
+ {
+  "id": "n3-chuubun-0011",
+  "nivel": "N3",
+  "tipo": "chuubun",
+  "grupo": "n3-chuubun-g008",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者は 一人で 食べる 人に ついて どう 考えて いますか。",
+  "opciones": [
+   "自分で 選んで そう して いる",
+   "本当は さびしいと 思って いる",
+   "店に 行くのを やめる べきだ",
+   "友だちが いない"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "がまんではないと書いてある",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Dice que no lo aguantan, lo eligen.",
+   "en": "He says they are not putting up with it: they choose it."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-chuubun-0012",
+  "nivel": "N3",
+  "tipo": "chuubun",
+  "grupo": "n3-chuubun-g008",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が 一番 言いたい ことは 何ですか。",
+  "opciones": [
+   "その日の 気分で 選べる ことが 大切だ",
+   "一人の 食事の ほうが よい",
+   "みんなで 食べる ほうが よい",
+   "店は 仕切りを ふやす べきだ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "どちらもと書いてある",
+   "どちらもと書いてある",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "El final lo dice: lo importante es poder elegir según el día.",
+   "en": "The ending says it: what matters is being able to choose."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-chobun-0005",
+  "nivel": "N3",
+  "tipo": "chobun",
+  "grupo": "n3-chobun-g003",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この人は どうして 川の そうじを はじめましたか。",
+  "opciones": [
+   "近所の 人に さそわれたから",
+   "川が とても きたなかったから",
+   "仕事で 必要だったから",
+   "友だちを ふやしたかったから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "理由として書かれていない",
+   "本文にない",
+   "結果として増えただけ"
+  ],
+  "explicacion": {
+   "es": "Lo dice al principio: le invitó un vecino.",
+   "en": "He says at the start: a neighbour invited him."
+  },
+  "etiquetas": [],
+  "dificultad": 3,
+  "pasaje": {
+   "texto": "私は 十年 前から、休みの 日に 川の そうじを して いる。はじめた きっかけは、近所の 人に さそわれた ことだった。正直に 言えば、最初は 気が 進まなかった。朝 早く 起きて、重い 手ぶくろを して、他人の 捨てた ごみを 拾う。得な ことは 何も ないように 思えた。\nところが、一年 ほど つづけた ころ、ふしぎな ことに 気が ついた。自分が 拾った 場所には、次の 月、ごみが 少ないのだ。きれいな 場所には、人は ごみを 捨てにくい。逆に、一つ 落ちて いると、その まわりに どんどん ふえて いく。\nこの ことに 気づいてから、私は そうじの しかたを 変えた。全部を きれいに しようと するのでは なく、人が よく 通る ところを 先に きれいに する。そこが きれいだと、少し 先の 場所も 自然に 保たれる。\n十年 たった 今、川の ごみは はじめの ころの 半分ぐらいに なった。参加する 人は 三人から 二十人に ふえた。だれかが 命令した わけでは ない。きれいな 場所を 見て、自分も 何か したく なった 人が 集まっただけだ。\n大きな 力で 一度に 変える ことは できなくても、小さく 続ければ、まわりの ほうが 変わって いく。そう 思うように なってから、私は 月曜日の 朝も 少し 楽しみに なった。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n3-chobun-0006",
+  "nivel": "N3",
+  "tipo": "chobun",
+  "grupo": "n3-chobun-g003",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "一年 ほど つづけて、何に 気が つきましたか。",
+  "opciones": [
+   "きれいな 場所には ごみが ふえにくい こと",
+   "ごみの 量は 変わらない こと",
+   "一人では できない こと",
+   "朝より 夕方が いい こと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "半分に減っている",
+   "人は増えたが気づきの内容ではない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Donde había recogido, al mes siguiente había menos basura.",
+   "en": "Where he had picked up, there was less rubbish the next month."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-chobun-0007",
+  "nivel": "N3",
+  "tipo": "chobun",
+  "grupo": "n3-chobun-g003",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "そうじの しかたを どう 変えましたか。",
+  "opciones": [
+   "人が よく 通る ところから きれいに する",
+   "全部を 一度に きれいに する",
+   "月に 一度だけ する",
+   "他の 人に たのむ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "それをやめたと書いてある",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Empezó por donde pasa la gente, no por todo a la vez.",
+   "en": "He started where people walk, not everywhere at once."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-chobun-0008",
+  "nivel": "N3",
+  "tipo": "chobun",
+  "grupo": "n3-chobun-g003",
+  "orden_grupo": 3,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 文章で 筆者が 一番 言いたい ことは 何ですか。",
+  "opciones": [
+   "小さく 続ける ことで まわりが 変わって いく",
+   "大きな 力が なければ 何も 変わらない",
+   "川の そうじは 市が する べきだ",
+   "人を 集めるには 命令が 必要だ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対のことを言っている",
+   "本文にない",
+   "命令ではないと書いてある"
+  ],
+  "explicacion": {
+   "es": "El cierre lo resume: constancia pequeña, cambio alrededor.",
+   "en": "The ending sums it up: small persistence changes the surroundings."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n3-jouhou-0003",
+  "nivel": "N3",
+  "tipo": "jouhou",
+  "grupo": "n3-jouhou-g003",
+  "orden_grupo": 0,
+  "instruccion_ja": "右のページは、あんないである。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "市の 外に 住んで いる おとなが プールを 二時間 使う とき、いくら はらいますか。",
+  "opciones": [
+   "五百円",
+   "四百円",
+   "六百円",
+   "百五十円"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "市内の人の料金",
+   "体育館の料金に近い",
+   "高校生以下の料金"
+  ],
+  "explicacion": {
+   "es": "Cuatrocientos más cien por ser de fuera: quinientos.",
+   "en": "Four hundred plus a hundred for non-residents: five hundred."
+  },
+  "etiquetas": [],
+  "dificultad": 3,
+  "pasaje": {
+   "texto": "【市民スポーツセンター　利用のごあんない】\n■ 開いて いる 時間\n　平日　午前九時〜午後九時\n　土・日・祝日　午前九時〜午後六時\n　毎月 第三月曜日は 休みです。\n\n■ 料金（二時間）\n　体育館　おとな 五百円　高校生以下 二百円\n　プール　おとな 四百円　高校生以下 百五十円\n　※ 市外に お住まいの 方は、それぞれ 百円 高く なります。\n\n■ 予約\n　体育館は 一か月前から、ホームページで 予約できます。\n　プールは 予約が いりません。直接 来て ください。\n\n■ お願い\n　運動ぐつは 中で はきかえて ください。外で はいた くつは 使えません。\n　ロッカーは 百円 いりますが、帰る ときに もどって きます。\n\n■ 見学\n　運動を しない 方は、二階の 席から 見学できます。料金は いりません。\n　写真を とる ときは、まわりの 方に ことわって ください。\n\n■ 駐車場\n　センターの 前に 三十台 止められます。いっぱいの ときは、近くの 有料駐車場を お使い ください。",
+   "notas": [
+    {
+     "termino": "祝日",
+     "glosa": "休みの 日"
+    }
+   ]
+  }
+ },
+ {
+  "id": "n3-jouhou-0004",
+  "nivel": "N3",
+  "tipo": "jouhou",
+  "grupo": "n3-jouhou-g003",
+  "orden_grupo": 1,
+  "instruccion_ja": "右のページは、あんないである。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "体育館を 使いたい とき、どう しますか。",
+  "opciones": [
+   "ホームページで 予約します",
+   "直接 行けば 使えます",
+   "電話で 予約します",
+   "第三月曜日に 行きます"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "それはプールの話",
+   "本文にない",
+   "その日は休み"
+  ],
+  "explicacion": {
+   "es": "El gimnasio se reserva por la web; la piscina no necesita reserva.",
+   "en": "The gym is booked online; the pool needs no booking."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ }
+]
