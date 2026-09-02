@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kokoro/tristeza-1",
- "titulo": "<ruby>泣<rt>な</rt></ruby>いた<ruby>日<rt>ひ</rt></ruby>",
- "cuerpo": "きのう、<ruby>大変<rt>たいへん</rt></ruby>なことがありました。かばんをなくして、<ruby>中<rt>なか</rt></ruby>にあったたいせつなノートもなくしました。<ruby>困<rt>こま</rt></ruby>って、こうえんで<ruby>泣<rt>な</rt></ruby>いてしまいました。<ruby>頭<rt>あたま</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>くなって、<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べられませんでした。よるおそく、<ruby>知<rt>し</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>からでんわがありました。かばんをひろってくれたそうです。うれしくて、また<ruby>泣<rt>な</rt></ruby>きました。つまらないことで<ruby>泣<rt>な</rt></ruby>くのは<ruby>嫌<rt>きら</rt></ruby>いですが、きのうだけはしかたがなかったとおもいます。",
- "traduccion": "Ayer me pasó algo terrible. Perdí la mochila y con ella el cuaderno importante que llevaba dentro. Me agobié y acabé llorando en el parque. Me empezó a doler la cabeza y no pude comer nada. Ya tarde por la noche me llamó un desconocido: había encontrado la mochila. De la alegría volví a llorar. Odio llorar por tonterías, pero creo que ayer no había otra.",
+ "titulo": "こまった <ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "ある <ruby>日<rt>ひ</rt></ruby>、みせで さらを わって しまいました。てんちょうは おこりませんでしたが、ぼくは とても こまりました。その あと、しゅくだいも わすれて、<ruby>学校<rt>がっこう</rt></ruby>で しかられました。<ruby>家<rt>いえ</rt></ruby>に かえって、ひとりで すわって いました。つまらない <ruby>一日<rt>いちにち</rt></ruby>でしたが、ないては いません。つぎの <ruby>日<rt>ひ</rt></ruby>、てんちょうが「だれでも わるよ」と 言って くれました。",
+ "traduccion": "Un día rompí un plato en la tienda. El encargado no se enfadó, pero yo me quedé fatal. Encima ese día olvidé los deberes y me riñeron en clase. Volví a casa y me quedé sentado, solo. Fue un día tonto, pero no lloré. Al día siguiente el encargado me dijo: «todo el mundo rompe alguno».",
  "preguntas": [
   {
-   "p": "なぜ<ruby>困<rt>こま</rt></ruby>りましたか。",
+   "p": "みせで なにが ありましたか。",
    "opciones": [
-    "<ruby>頭<rt>あたま</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>かったから",
-    "かばんとノートをなくしたから",
-    "でんわがなかったから",
-    "こうえんがとおかったから"
+    "さらを わりました",
+    "おくれました",
+    "やすみました"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "よるおそく、<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "p": "<ruby>学校<rt>がっこう</rt></ruby>で どうして しかられましたか。",
    "opciones": [
-    "また<ruby>泣<rt>な</rt></ruby>いた",
-    "<ruby>知<rt>し</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>からでんわがあった",
-    "ごはんを<ruby>食<rt>た</rt></ruby>べた",
-    "ノートを<ruby>書<rt>か</rt></ruby>いた"
+    "しゅくだいを わすれたから",
+    "おくれたから",
+    "はなしたから"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "てんちょうは つぎの <ruby>日<rt>ひ</rt></ruby> なんと 言いましたか。",
+   "opciones": [
+    "「だれでも わるよ」",
+    "「もう <ruby>来<rt>こ</rt></ruby>ないで」",
+    "「はらって ください」"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Something terrible happened to me yesterday. I lost my bag and with it the important notebook that was inside. I panicked and ended up crying in the park. My head started to ache and I couldn't eat anything. Late at night a stranger rang me: he had found the bag. Out of happiness I cried again. I hate crying over silly things, but I don't think there was any other way yesterday."
+ "traduccion_en": "One day I broke a plate at work. The manager didn't get angry, but I felt awful. On top of that I forgot my homework and got told off at school. I went home and sat there on my own. It was a miserable day, but I didn't cry. The next day the manager told me: «everyone breaks one»."
 }

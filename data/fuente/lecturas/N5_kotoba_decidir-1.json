@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kotoba/decidir-1",
- "titulo": "どちらを<ruby>選<rt>えら</rt></ruby>ぶか",
- "cuerpo": "しごとをかえるかどうか、<ruby>一<rt>いっ</rt></ruby>かげつかんがえました。<ruby>選択<rt>せんたく</rt></ruby>はふたつありました。いまのところにのこるか、あたらしいところへ<ruby>行<rt>い</rt></ruby>くかです。かみに、いいところとわるいところを<ruby>書<rt>か</rt></ruby>きました。どちらもおなじくらいでした。さいごは、「<ruby>十<rt>じゅう</rt></ruby>ねん<ruby>後<rt>ご</rt></ruby>にどちらをえらんでよかったとおもうか」でかんがえました。そうすると、こたえはすぐに<ruby>出<rt>で</rt></ruby>ました。<ruby>選択<rt>せんたく</rt></ruby>にこまったときは、いまではなく<ruby>先<rt>さき</rt></ruby>から<ruby>見<rt>み</rt></ruby>るといいのだと<ruby>知<rt>し</rt></ruby>りました。",
- "traduccion": "Estuve un mes pensando si cambiar de trabajo. Tenía dos opciones: quedarme donde estaba o irme a un sitio nuevo. Apunté en un papel lo bueno y lo malo de cada una. Salían más o menos iguales. Al final lo pensé así: «dentro de diez años, ¿cuál me alegraré de haber elegido?». Con eso la respuesta salió enseguida. Aprendí que cuando una elección te bloquea, conviene mirarla no desde el ahora, sino desde más adelante.",
+ "titulo": "<ruby>冬<rt>ふゆ</rt></ruby>やすみの そうだん",
+ "cuerpo": "<ruby>十二月<rt>じゅうにがつ</rt></ruby>に <ruby>学校<rt>がっこう</rt></ruby>が やすみに なります。ゴンサが「きたへ <ruby>行<rt>い</rt></ruby>こう」と 言いました。「ゆきを <ruby>見<rt>み</rt></ruby>た ことが ない」と ぼくが 言うと、ゴンサは 「ぼくもだ」と こたえました。ジャンは バイトが あるので <ruby>行<rt>い</rt></ruby>けません。アンナさんは かぞくと すごすそうです。ふたりで さっぽろへ <ruby>行<rt>い</rt></ruby>く ことに きめました。",
+ "traduccion": "En diciembre la escuela cierra por vacaciones. Gonza dijo: «vámonos al norte». Le dije «yo no he visto nunca la nieve» y él contestó: «yo tampoco». Jean no puede venir porque trabaja. Anna pasa esos días con su familia. Decidimos ir los dos a Sapporo.",
  "preguntas": [
   {
-   "p": "かみに<ruby>何<rt>なに</rt></ruby>を<ruby>書<rt>か</rt></ruby>きましたか。",
+   "p": "いつ <ruby>学校<rt>がっこう</rt></ruby>が やすみに なりますか。",
    "opciones": [
-    "こたえ",
-    "いいところとわるいところ",
-    "しごとのなまえ",
-    "<ruby>十<rt>じゅう</rt></ruby>ねんのよてい"
+    "<ruby>十二月<rt>じゅうにがつ</rt></ruby>",
+    "<ruby>一月<rt>いちがつ</rt></ruby>",
+    "<ruby>八月<rt>はちがつ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "さいご、どうやってきめましたか。",
+   "p": "ジャンさんは どうして <ruby>行<rt>い</rt></ruby>けませんか。",
    "opciones": [
-    "ともだちにきいた",
-    "<ruby>十<rt>じゅう</rt></ruby>ねん<ruby>後<rt>ご</rt></ruby>からかんがえた",
-    "かみをすてた",
-    "いまのところにのこった"
+    "バイトが あるから",
+    "おかねが ないから",
+    "かぜだから"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "どこへ <ruby>行<rt>い</rt></ruby>く ことに しましたか。",
+   "opciones": [
+    "さっぽろ",
+    "とうきょう",
+    "メキシコ"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "I spent a month thinking about whether to change jobs. I had two options: stay where I was or go somewhere new. I wrote down on paper the good and the bad of each. They came out more or less equal. In the end I thought of it this way: «ten years from now, which one will I be glad I chose?». With that the answer came straight away. I learnt that when a choice blocks you, it's worth looking at it not from now, but from further ahead."
+ "traduccion_en": "In December the school closes for the holidays. Gonza said: «let's go north». I said «I've never seen snow» and he answered: «me neither». Jean can't come because he's working. Anna is spending those days with her family. We decided the two of us would go to Sapporo."
 }

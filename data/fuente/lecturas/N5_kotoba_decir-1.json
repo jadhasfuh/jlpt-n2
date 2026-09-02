@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kotoba/decir-1",
- "titulo": "<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>",
- "cuerpo": "おなじことでも、<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>でつたわりかたがかわります。「はやくして」より「そろそろ<ruby>行<rt>い</rt></ruby>こう」と<ruby>話<rt>はな</rt></ruby>す<em class=\"g\">ほうがいい</em>です。こどものころ、<ruby>父<rt>ちち</rt></ruby>にそうおしえられました。せんじつ、ともだちの<ruby>絵<rt>え</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、「へただね」と<ruby>言<rt>い</rt></ruby>ってしまいました。すぐにあやまりましたが、「ここをこう<ruby>描<rt>か</rt></ruby>くともっとよくなるよ」と<ruby>言<rt>い</rt></ruby>う<em class=\"g\">ほうがいい</em>と、あとでおもいました。ことばは、あいてのこころにのこるからです。",
- "traduccion": "Aunque digas lo mismo, según cómo lo digas llega de una manera o de otra. Es mejor decir «venga, vámonos ya» que «date prisa». Me lo enseñó mi padre de niño. El otro día, viendo el dibujo de un amigo, se me escapó un «qué mal te ha salido». Le pedí perdón enseguida, pero luego pensé que habría sido mejor decir «si dibujas esta parte así, queda aún mejor». Porque las palabras se quedan en el corazón del otro.",
+ "titulo": "ひこうきの きっぷ",
+ "cuerpo": "やすい きっぷを さがすのに <ruby>三日<rt>みっか</rt></ruby>かかりました。「あさ はやい ひこうきの ほうが いい」と ゴンサが 言いました。ぼくは かえりの ひを まちがえそうに なって、<ruby>二<rt>に</rt></ruby>かい たしかめました。みせで はたらいた おかねの はんぶんが きえました。ミンさんに はなすと、「さむいから、くつしたを <ruby>二<rt>に</rt></ruby>まい はけ」と <ruby>教<rt>おし</rt></ruby>えて くれました。その ことばを、ぼくは あとで おもいだす ことに なります。",
+ "traduccion": "Encontrar billetes baratos me llevó tres días. Gonza dijo: «mejor el vuelo de primera hora». Yo estuve a punto de equivocarme con el día de vuelta y lo comprobé dos veces. Se me fue la mitad de lo que había ganado en la tienda. Se lo conté a Min y me aconsejó: «hace frío, ponte dos pares de calcetines». Esa frase la recordaría más adelante.",
  "preguntas": [
   {
-   "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をおしえましたか。",
+   "p": "きっぷを さがすのに どのくらい かかりましたか。",
    "opciones": [
-    "はやくすること",
-    "<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>でつたわりかたがかわること",
-    "<ruby>絵<rt>え</rt></ruby>を<ruby>描<rt>か</rt></ruby>くこと",
-    "あやまること"
+    "<ruby>三日<rt>みっか</rt></ruby>",
+    "<ruby>三時間<rt>さんじかん</rt></ruby>",
+    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "ともだちに、どう<ruby>言<rt>い</rt></ruby>えばよかったとおもいましたか。",
+   "p": "ミンさんは なんと <ruby>教<rt>おし</rt></ruby>えて くれましたか。",
    "opciones": [
-    "「へただね」",
-    "「ここをこう<ruby>描<rt>か</rt></ruby>くともっとよくなるよ」",
-    "「はやくして」",
-    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わない"
+    "くつしたを <ruby>二<rt>に</rt></ruby>まい はけ",
+    "コートを かえ",
+    "<ruby>行<rt>い</rt></ruby>くな"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "おかねは どう なりましたか。",
+   "opciones": [
+    "はんぶん きえました",
+    "ふえました",
+    "かわりませんでした"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Even if you say the same thing, depending on how you say it, it lands one way or another. It's better to say «come on, let's go» than «hurry up». My father taught me that as a child. The other day, looking at a friend's drawing, a «that came out badly» slipped out of me. I apologised straight away, but afterwards I thought it would have been better to say «if you draw this part like this, it comes out even better». Because words stay in the other person's heart."
+ "traduccion_en": "Finding cheap tickets took me three days. Gonza said: «better the early morning flight». I nearly got the return date wrong and checked it twice. Half of what I'd earned at the shop disappeared. I told Min and he advised me: «it's cold, wear two pairs of socks». I would remember that line later."
 }

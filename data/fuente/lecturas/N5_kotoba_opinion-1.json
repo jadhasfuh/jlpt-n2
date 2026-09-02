@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kotoba/opinion-1",
- "titulo": "だまっていた<ruby>日<rt>ひ</rt></ruby>",
- "cuerpo": "かいぎで、みんなが<ruby>話<rt>はな</rt></ruby>していました。わたしはひとつだけ、だれも<ruby>言<rt>い</rt></ruby>わないことに<ruby>気<rt>き</rt></ruby>がつきました。でも、「わたしが<ruby>言<rt>い</rt></ruby>わ<em class=\"g\">なくてもいい</em>だろう」とおもって、だまっていました。あとで、そのことがもんだいになりました。ちいさな<ruby>物<rt>もの</rt></ruby>でも、<ruby>気<rt>き</rt></ruby>がついた<ruby>人<rt>ひと</rt></ruby>が<ruby>言<rt>い</rt></ruby>えばよかったのです。ぜんぶの<ruby>人<rt>ひと</rt></ruby>が<ruby>話<rt>はな</rt></ruby>さ<em class=\"g\">なくてもいい</em>ですが、<ruby>気<rt>き</rt></ruby>がついた<ruby>人<rt>ひと</rt></ruby>はべつです。つぎのかいぎでは、みじかくてもいいから<ruby>言<rt>い</rt></ruby>おうときめました。",
- "traduccion": "En la reunión todos hablaban. Yo me di cuenta de una sola cosa que nadie decía. Pero pensé «no hace falta que lo diga yo» y me callé. Después, eso acabó siendo un problema. Aunque fuera una cosa pequeña, debía haberlo dicho quien se dio cuenta. No hace falta que hablen todos, pero quien se da cuenta es otra cosa. Decidí que en la próxima reunión lo diré, aunque sea con pocas palabras.",
+ "titulo": "ゴンサの けいかく",
+ "cuerpo": "ゴンサの けいかくは かんたんでした。「ホテルは たかいから、とまる ところは あとで かんがえよう」ぼくは いい かんがえだと おもいませんでした。「さむい <ruby>国<rt>くに</rt></ruby>だよ」と 言いましたが、ゴンサは わらって いました。「なんとか なる」と 言う <ruby>人<rt>ひと</rt></ruby>の はなしは、たいてい なんとか なりません。でも、ぼくも わかい ものが すきなので、なにも 言いませんでした。",
+ "traduccion": "El plan de Gonza era sencillo. «Los hoteles son caros; ya pensaremos dónde dormir cuando estemos allí.» A mí no me pareció buena idea. Le dije «es un sitio frío», pero él se reía. Cuando alguien dice «ya se arreglará», normalmente no se arregla. Aun así, a mí también me tira lo imprudente, y no dije nada más.",
  "preguntas": [
   {
-   "p": "なぜ、だまっていましたか。",
+   "p": "ゴンサさんの けいかくは どうでしたか。",
    "opciones": [
-    "わからなかったから",
-    "じぶんが<ruby>言<rt>い</rt></ruby>わ<em class=\"g\">なくてもいい</em>とおもったから",
-    "<ruby>時間<rt>じかん</rt></ruby>がなかったから",
-    "ほかの<ruby>人<rt>ひと</rt></ruby>が<ruby>言<rt>い</rt></ruby>ったから"
+    "かんたんでした",
+    "とても くわしかったです",
+    "ありませんでした"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "つぎのかいぎでは、どうすることにしましたか。",
+   "p": "カルロスさんは どう おもいましたか。",
    "opciones": [
-    "だまっている",
-    "みじかくても<ruby>言<rt>い</rt></ruby>う",
-    "ほかの<ruby>人<rt>ひと</rt></ruby>にたのむ",
-    "<ruby>行<rt>い</rt></ruby>かない"
+    "いい かんがえだと おもいませんでした",
+    "とても いいと おもいました",
+    "わかりませんでした"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "さいご、カルロスさんは どう しましたか。",
+   "opciones": [
+    "なにも 言いませんでした",
+    "けいかくを かえました",
+    "<ruby>行<rt>い</rt></ruby>かない ことに しました"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "At the meeting everyone was talking. I noticed one single thing that nobody was saying. But I thought «there's no need for me to say it» and kept quiet. Afterwards, that ended up being a problem. Even though it was a small thing, whoever noticed it should have said it. Not everyone needs to speak, but whoever notices something is another matter. I decided that at the next meeting I'll say it, even if it's in few words."
+ "traduccion_en": "Gonza's plan was simple. «Hotels are expensive; we'll work out where to sleep once we're there.» I didn't think it was a good idea. I said «it's a cold place», but he just laughed. When someone says «it'll be fine», it usually isn't. Even so, I like a bit of recklessness too, and I said nothing more."
 }

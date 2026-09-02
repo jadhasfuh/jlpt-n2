@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kokoro/saludos-1",
- "titulo": "もしもし",
- "cuerpo": "でんわに<ruby>出<rt>で</rt></ruby>るとき、わたしはいつも「もしもし」と<ruby>言<rt>い</rt></ruby>います。ちいさいころ、その<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>をおぼえるのに<ruby>時間<rt>じかん</rt></ruby>がかかりました。あいさつは、いちばんみじかいことばですが、いちばんたいせつだとおもいます。あさは「おはよう」、よるは「おやすみ」。それだけで、うちの<ruby>中<rt>なか</rt></ruby>があかるくなります。きょう、<ruby>知<rt>し</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>に「こんにちは」と<ruby>言<rt>い</rt></ruby>われました。わたしもすぐにこたえました。あたたかい<ruby>気<rt>き</rt></ruby>もち<em class=\"g\">がほしい</em>なら、まずこちらからあいさつをすればいいのです。",
- "traduccion": "Cuando cojo el teléfono siempre digo «moshi moshi». De pequeño tardé en aprender esa fórmula. Los saludos son las palabras más cortas, pero creo que las más importantes. Por la mañana «ohayō», por la noche «oyasumi». Solo con eso la casa se ilumina. Hoy un desconocido me dijo «konnichiwa». Yo le contesté enseguida. Si quieres un ambiente cálido, basta con saludar tú primero.",
+ "titulo": "でんわの あいさつ",
+ "cuerpo": "アンナさんの おかあさんから でんわが ありました。「もしもし」と 言う こえが、アンナさんに よく にて いました。ぼくは きんちょうして、じぶんの なまえを <ruby>二<rt>に</rt></ruby>かい 言って しまいました。「こんど、うちに <ruby>来<rt>き</rt></ruby>て ください」と さそわれました。でんわを きって から、ゴンサに はなしました。ゴンサは「おわりだ」と わらいましたが、ぼくは うれしかったです。",
+ "traduccion": "Me llamó la madre de Anna. Su «diga» sonaba igual que la voz de Anna. Me puse tan nervioso que dije mi nombre dos veces. Me invitó: «venga usted a casa un día de éstos». Al colgar se lo conté a Gonza. Gonza se rió y dijo «estás perdido», pero yo estaba contento.",
  "preguntas": [
   {
-   "p": "あいさつについて、この<ruby>人<rt>ひと</rt></ruby>はどうおもっていますか。",
+   "p": "だれから でんわが ありましたか。",
    "opciones": [
-    "ながいほうがいい",
-    "みじかいがたいせつだ",
-    "いらない",
-    "むずかしい"
+    "アンナさんの おかあさん",
+    "アンナさん",
+    "たなかさん"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "きょう、<ruby>何<rt>なに</rt></ruby>がありましたか。",
+   "p": "カルロスさんは なにを して しまいましたか。",
    "opciones": [
-    "でんわがあった",
-    "<ruby>知<rt>し</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>にあいさつされた",
-    "うちがあかるくなった",
-    "ことばをおぼえた"
+    "なまえを <ruby>二<rt>に</rt></ruby>かい 言いました",
+    "でんわを きりました",
+    "なにも 言えませんでした"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "ゴンサさんは なんと 言いましたか。",
+   "opciones": [
+    "「おわりだ」",
+    "「よかったね」",
+    "「<ruby>行<rt>い</rt></ruby>くな」"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "When I pick up the telephone I always say «moshi moshi». As a child it took me a while to learn that formula. Greetings are the shortest words, but I think they're the most important. In the morning «ohayō», at night «oyasumi». With just that the house lights up. Today a stranger said «konnichiwa» to me. I answered straight away. If you want a warm atmosphere, it's enough to greet people first."
+ "traduccion_en": "Anna's mother rang me. Her «hello» sounded just like Anna's voice. I got so nervous that I said my name twice. She invited me: «do come to the house one of these days». After hanging up I told Gonza. Gonza laughed and said «you're done for», but I was happy."
 }

@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kotoba/pensar-1",
- "titulo": "<ruby>覚<rt>おぼ</rt></ruby>えるということ",
- "cuerpo": "ことばを<ruby>覚<rt>おぼ</rt></ruby>えるのに、いいほうほうをさがしていました。かいて<ruby>覚<rt>おぼ</rt></ruby>える<ruby>人<rt>ひと</rt></ruby>も、<ruby>聞<rt>き</rt></ruby>いて<ruby>覚<rt>おぼ</rt></ruby>える<ruby>人<rt>ひと</rt></ruby>もいます。わたしは、あるくときに<ruby>声<rt>こえ</rt></ruby>に<ruby>出<rt>だ</rt></ruby>すのがいちばんあうようです。うまくいかないとき、じぶんの<ruby>所為<rt>せい</rt></ruby>だとおもってしまいますが、たいていはほうほうがあっていないだけです。どうしておぼえられないのかとせめるより、どんなときにおぼえられたかをかんがえるほうがやくにたちます。じぶんにあう<ruby>所<rt>ところ</rt></ruby>をさがすのに、<ruby>時間<rt>じかん</rt></ruby>はかかってもいいのです。",
- "traduccion": "Estuve buscando una buena manera de memorizar palabras. Hay quien memoriza escribiendo y quien lo hace escuchando. A mí lo que mejor me va parece ser decirlas en voz alta mientras camino. Cuando no sale, uno tiende a pensar que es culpa suya, pero normalmente es solo que el método no encaja. Más que reprocharte por qué no lo recuerdas, sirve más pensar en qué situaciones sí lo lograste. No pasa nada por tardar en encontrar el sitio que te encaja.",
+ "titulo": "はじめての ゆき",
+ "cuerpo": "さっぽろに <ruby>着<rt>つ</rt></ruby>いて、そとに <ruby>出<rt>で</rt></ruby>た とき、いきが しろく なりました。そらから ちいさい ものが おちて <ruby>来<rt>き</rt></ruby>ました。ぼくは しばらく うごきませんでした。「あれが ゆきだ」と ゴンサが 言いましたが、こえが すこし ふるえて いました。てを <ruby>出<rt>だ</rt></ruby>すと、すぐ きえました。この <ruby>日<rt>ひ</rt></ruby>の ことは、ぜったいに わすれないと おもいます。",
+ "traduccion": "Al llegar a Sapporo y salir a la calle, se me volvió blanco el aliento. Del cielo caían cosas pequeñas. Me quedé un rato sin moverme. «Eso es la nieve», dijo Gonza, con la voz un poco temblorosa. Saqué la mano y se deshizo al momento. Este día no se me va a olvidar nunca.",
  "preguntas": [
   {
-   "p": "この<ruby>人<rt>ひと</rt></ruby>にいちばんあうほうほうは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "p": "そとに <ruby>出<rt>で</rt></ruby>た とき、なにが おきましたか。",
    "opciones": [
-    "かいて<ruby>覚<rt>おぼ</rt></ruby>える",
-    "あるくときに<ruby>声<rt>こえ</rt></ruby>に<ruby>出<rt>だ</rt></ruby>す",
-    "<ruby>聞<rt>き</rt></ruby>いて<ruby>覚<rt>おぼ</rt></ruby>える",
-    "<ruby>読<rt>よ</rt></ruby>む"
+    "いきが しろく なりました",
+    "あめが ふりました",
+    "かぜが つよかったです"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "うまくいかないとき、たいていのりゆうは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "p": "ゴンサさんの こえは どうでしたか。",
    "opciones": [
-    "じぶんの<ruby>所為<rt>せい</rt></ruby>",
-    "ほうほうがあっていない",
-    "<ruby>時間<rt>じかん</rt></ruby>がない",
-    "ことばがむずかしい"
+    "すこし ふるえて いました",
+    "<ruby>大<rt>おお</rt></ruby>きかったです",
+    "しずかでした"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "てを <ruby>出<rt>だ</rt></ruby>すと ゆきは どう なりましたか。",
+   "opciones": [
+    "すぐ きえました",
+    "つめたく なりました",
+    "<ruby>大<rt>おお</rt></ruby>きく なりました"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "I spent a while looking for a good way to memorise words. Some people memorise by writing and some by listening. What seems to work best for me is saying them out loud while I walk. When it doesn't work, you tend to think it's your fault, but usually it's just that the method doesn't fit. Rather than blaming yourself for why you can't remember, it helps more to think about the situations where you did manage it. There's no harm in taking a while to find the place that fits you."
+ "traduccion_en": "When we got to Sapporo and stepped outside, my breath turned white. Small things were falling from the sky. I stood still for a while. «That's snow», said Gonza, his voice shaking slightly. I held out my hand and it vanished at once. I don't think I'll ever forget that day."
 }
