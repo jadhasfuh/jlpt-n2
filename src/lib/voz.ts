@@ -56,22 +56,62 @@ export type Tramo = { texto: string; quien?: "M" | "F" };
  * varios sistemas rotulan la voz con «male» o «female». Cuando no hay pista se
  * reparten por orden, que al menos las hace distintas entre sí.
  */
+/**
+ * Qué voz pone a cada personaje.
+ *
+ * La regla es no adivinar nunca el sexo de una voz. Antes, si no se
+ * reconocía ninguna por el nombre, se repartían las dos primeras de la lista
+ * como hombre y mujer — y en macOS la primera es Kyoko, que es voz de mujer.
+ * Resultado: los papeles salían cambiados, y encima sólo a veces, porque la
+ * lista de voces del navegador llega vacía en la primera llamada y llena en
+ * la segunda. La misma escucha sonaba distinta al darle otra vez a reproducir.
+ *
+ * Ahora, si no hay una pareja identificada, se usa una sola voz y se
+ * distinguen por tono. Suena peor, pero nunca al revés.
+ */
 function vocesJaponesas(s: SpeechSynthesis) {
   const ja = s.getVoices().filter((v) => v.lang?.toLowerCase().startsWith("ja"));
   if (!ja.length) return { M: null, F: null, unaSola: true };
 
   const nombre = (v: SpeechSynthesisVoice) => v.name.toLowerCase();
-  const esHombre = (v: SpeechSynthesisVoice) =>
-    /male|otoya|ichiro|hattori|keita|daichi/.test(nombre(v)) && !/female/.test(nombre(v));
   const esMujer = (v: SpeechSynthesisVoice) =>
-    /female|kyoko|o-ren|haruka|ayumi|nanami|mizuki|sayaka/.test(nombre(v));
+    /female|#female|kyoko|o-ren|haruka|ayumi|nanami|mizuki|sayaka|tomoko/.test(nombre(v));
+  const esHombre = (v: SpeechSynthesisVoice) =>
+    !esMujer(v) && /male|#male|otoya|ichiro|hattori|keita|daichi|takumi/.test(nombre(v));
 
-  const hombre = ja.find(esHombre) ?? null;
   const mujer = ja.find(esMujer) ?? null;
+  const hombre = ja.find(esHombre) ?? null;
   if (hombre && mujer) return { M: hombre, F: mujer, unaSola: false };
-  // Sin pista por el nombre: dos voces cualesquiera siguen siendo dos voces.
-  if (ja.length > 1) return { M: ja[0], F: ja[1], unaSola: false };
+
+  // Con una sola identificada, la pareja es cualquier otra: no sabremos su
+  // sexo, pero sabemos que no es la que ya tenemos.
+  if (mujer) {
+    const otra = ja.find((v) => v !== mujer);
+    if (otra) return { M: otra, F: mujer, unaSola: false };
+  }
+  if (hombre) {
+    const otra = ja.find((v) => v !== hombre);
+    if (otra) return { M: hombre, F: otra, unaSola: false };
+  }
+  // Ninguna identificada: una voz y dos tonos, que es honesto y estable.
   return { M: ja[0], F: ja[0], unaSola: true };
+}
+
+/**
+ * Espera a que el navegador cargue la lista de voces.
+ *
+ * `getVoices()` devuelve una lista vacía hasta que el motor termina de
+ * cargarlas y avisa por `voiceschanged`. Sin esperar, la primera
+ * reproducción de la página sonaba con el reparto de emergencia y la
+ * siguiente con otro distinto.
+ */
+function conVoces(s: SpeechSynthesis, seguir: () => void) {
+  if (s.getVoices().length) return seguir();
+  let hecho = false;
+  const una = () => { if (!hecho) { hecho = true; seguir(); } };
+  s.addEventListener("voiceschanged", una, { once: true });
+  // Hay navegadores que nunca lanzan el evento: no dejarlo colgado.
+  setTimeout(una, 500);
 }
 
 /**
@@ -89,6 +129,8 @@ export function decirTramos(
   if (!s) return;
   s.cancel();
   const mia = ++cadena;
+  conVoces(s, () => {
+  if (mia !== cadena) return;
   const voces = vocesJaponesas(s);
 
   // Se aplana a trozos sueltos, arrastrando quién habla en cada uno, para que
@@ -123,6 +165,7 @@ export function decirTramos(
     s.speak(u);
   };
   siguiente(0);
+  });
 }
 
 /** Un texto suelto, sin personajes. */
