@@ -11,7 +11,7 @@ import { useAjustes } from "./Ajustes";
 type S = { id: string; ja: string; es: string; palabras: number; gramatica: number; unidades: number };
 
 export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones: S[] }) {
-  const { idioma, accesoAbierto } = useAjustes();
+  const { idioma, tieneAcceso } = useAjustes();
   const [avance, setAvance] = useState<Record<string, number>>({});
   useEffect(() => {
     const recalcular = () => {
@@ -32,7 +32,9 @@ export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones:
   return (
     <div className="lista">
       {secciones.map((s) => {
-        const bloqueada = !accesoAbierto && !esLibre(s.id);
+        // Mira si ESTA persona tiene acceso, no si está abierto para todos.
+        // Con `accesoAbierto` a secas, quien pagaba seguía viendo candados.
+        const bloqueada = !tieneAcceso && !esLibre(s.id);
         const contenido = (
           <>
             <Anillo pct={avance[s.id] ?? 0} tono={COLOR_NIVEL[nivel as Nivel]}
@@ -44,7 +46,7 @@ export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones:
               </div>
             </div>
             {bloqueada ? <span className="flecha"><IcCandado size={15} /></span>
-                       : !accesoAbierto && esLibre(s.id) ? <span className="pastilla gratis">gratis</span>
+                       : !tieneAcceso && esLibre(s.id) ? <span className="pastilla gratis">gratis</span>
                        : <span className="flecha"><IcDerecha size={14} /></span>}
           </>
         );

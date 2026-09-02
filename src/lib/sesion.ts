@@ -1,4 +1,5 @@
 import "server-only";
+import { cache } from "react";
 import { cookies } from "next/headers";
 import { createServerClient } from "@supabase/ssr";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
@@ -47,16 +48,24 @@ export async function supabaseSesion(): Promise<SupabaseClient | null> {
 }
 
 /** Quién está dentro, o null. */
-export async function usuario() {
+/**
+ * Memorizado por petición.
+ *
+ * El layout consulta el acceso en cada navegación —hace falta para saber si
+ * poner candado a las secciones—, y varias páginas vuelven a pedir el perfil.
+ * Sin `cache()` eso son tres viajes a Supabase para responder lo mismo; con
+ * él, uno por petición.
+ */
+export const usuario = cache(async function usuario() {
   const sb = await supabaseSesion();
   if (!sb) return null;
   const { data } = await sb.auth.getUser();
   return data.user ?? null;
-}
+});
 
 /** El perfil con su membresía. Se lee con la llave secreta porque el perfil
  *  incluye campos que el usuario no debe poder tocar. */
-export async function perfil(): Promise<Perfil | null> {
+export const perfil = cache(async function perfil(): Promise<Perfil | null> {
   const u = await usuario();
   if (!u) return null;
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -75,7 +84,7 @@ export async function perfil(): Promise<Perfil | null> {
   ]);
   if (!data) return null;
   return { ...(data as Perfil), cortesia_hasta: cortesia.data?.hasta ?? null };
-}
+});
 
 /**
  * Cuentas con acceso permanente, separadas por comas en CUENTAS_LIBRES.

@@ -10,6 +10,7 @@ import { idiomaActual } from "@/lib/idioma-servidor";
 import { sitio } from "@/lib/sitio";
 import { accesoAbierto } from "@/lib/acceso-servidor";
 import { enLaApp } from "@/lib/tienda";
+import { puedeVerTodo } from "@/lib/acceso-servidor";
 import { credencialesSupabase } from "@/lib/supabase-servidor";
 
 // Inter va autoalojada: el subconjunto latino es pequeño y así no depende de
@@ -66,6 +67,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           idiomaInicial={idioma}
           accesoAbierto={accesoAbierto()}
           enApp={await enLaApp()}
+          tieneAcceso={await puedeVerTodo()}
           supabase={credencialesSupabase()}
         >
           <Lateral />

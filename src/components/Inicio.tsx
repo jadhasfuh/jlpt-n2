@@ -16,7 +16,7 @@ export function Inicio({ niveles, totales, dentro = true }: {
       entrada de quien todavía no nos conoce. */
   dentro?: boolean;
 }) {
-  const { t, accesoAbierto } = useAjustes();
+  const { t, tieneAcceso } = useAjustes();
   const [r, setR] = useState<ReturnType<typeof resumen> | null>(null);
   const [pend, setPend] = useState({ vencidas: 0, hoy: 0 });
   const [avance, setAvance] = useState<Record<string, number>>({});
@@ -154,7 +154,7 @@ export function Inicio({ niveles, totales, dentro = true }: {
         </Link>
       )}
 
-      {!accesoAbierto && (
+      {!tieneAcceso && (
         <p className="tenue" style={{ marginTop: 18 }}>
           {t("inicio.libre")}
         </p>

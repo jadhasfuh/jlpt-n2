@@ -18,6 +18,14 @@ type Ajustes = {
   accesoAbierto: boolean;
   /** Dentro de la app de Play no puede verse nada de suscripción. */
   enApp: boolean;
+  /**
+   * Si QUIEN ESTÁ MIRANDO puede abrir lo de pago: o porque el acceso está
+   * abierto para todos, o porque tiene suscripción, cortesía o cuenta libre.
+   *
+   * No es lo mismo que `accesoAbierto`, y confundirlos le ponía un candado a
+   * cada sección incluso a quien acababa de pagar.
+   */
+  tieneAcceso: boolean;
   alternar: (k: "furigana" | "significado" | "colores") => void;
   cambiarTema: () => void;
   cambiarIdioma: (i: Idioma) => void;
@@ -40,7 +48,8 @@ const leer = <T,>(k: string, def: T): T => {
 };
 
 export function ProveedorAjustes({
-  children, idiomaInicial = IDIOMA_POR_DEFECTO, accesoAbierto = true, enApp = false, supabase,
+  children, idiomaInicial = IDIOMA_POR_DEFECTO, accesoAbierto = true, enApp = false,
+  tieneAcceso = true, supabase,
 }: {
   children: React.ReactNode;
   /** Lo resuelve el servidor (cookie o Accept-Language) para que no parpadee. */
@@ -48,6 +57,7 @@ export function ProveedorAjustes({
   /** También del servidor: ver el comentario del tipo Ajustes. */
   accesoAbierto?: boolean;
   enApp?: boolean;
+  tieneAcceso?: boolean;
   /** Credenciales del cliente de Supabase, leídas por el servidor al arrancar.
       Se configura antes de pintar nada para que cualquier hijo que hable con
       Supabase ya encuentre el cliente montado. */
@@ -95,7 +105,7 @@ export function ProveedorAjustes({
     traducir(clave, idioma, vars);
 
   return (
-    <Ctx.Provider value={{ accesoAbierto, enApp,
+    <Ctx.Provider value={{ accesoAbierto, enApp, tieneAcceso,
       furigana, significado, colores, tema, idioma,
       alternar, cambiarTema, cambiarIdioma, t,
     }}>
