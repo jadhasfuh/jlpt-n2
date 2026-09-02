@@ -177,6 +177,17 @@ export function hechosHoy(p: Progreso): number {
  */
 export const esUnidadDelCurso = (id: string) => /^N[1-5]\//.test(id);
 
+/**
+ * Si una unidad cuenta como recorrida.
+ *
+ * La marca `practicada` la ponen las tarjetas, el test y la lectura, pero
+ * durante un tiempo el test no la ponía: quedaron unidades con nota de 93 %
+ * y `practicada: false`, que el anillo no contaba. Una nota es prueba de
+ * sobra de haber pasado por ahí, así que el criterio mira las dos cosas y
+ * el avance de esas unidades vuelve solo, sin migrar nada.
+ */
+export const cubierta = (u?: MemoriaUnidad) => !!u && (u.practicada || u.tests > 0);
+
 export function terminarPractica(unidadId: string): Progreso {
   const p = leerProgreso();
   const u = p.unidades[unidadId] ?? { practicada: false, mejor: 0, tests: 0 };
@@ -278,7 +289,7 @@ export function resumen(p: Progreso) {
     vistas: vals.length,
     dominadas: vals.filter((m) => ["dominada", "quemada"].includes(estadoItem(m))).length,
     unidades: Object.entries(p.unidades)
-      .filter(([id, u]) => u.practicada && esUnidadDelCurso(id)).length,
+      .filter(([id, u]) => cubierta(u) && esUnidadDelCurso(id)).length,
   };
 }
 

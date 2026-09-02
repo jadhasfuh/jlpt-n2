@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { COLOR_NIVEL, NUMERAL_NIVEL, type Nivel } from "@/lib/tipos";
-import { contarPendientes, leerProgreso, resumen } from "@/lib/progreso";
+import { contarPendientes, cubierta, leerProgreso, resumen } from "@/lib/progreso";
 import { Anillo } from "./Anillo";
 import { IcCronometro, IcDerecha, IcExamen, IcMovil, IcRacha } from "./Iconos";
 import { useAjustes } from "./Ajustes";
@@ -29,7 +29,7 @@ export function Inicio({ niveles, totales, dentro = true }: {
       const a: Record<string, number> = {};
       for (const n of niveles) {
         const hechas = Object.entries(p.unidades)
-          .filter(([id, u]) => u.practicada && id.startsWith(`${n.id}/`)).length;
+          .filter(([id, u]) => cubierta(u) && id.startsWith(`${n.id}/`)).length;
         a[n.id] = n.unidades ? hechas / n.unidades : 0;
       }
       setAvance(a);

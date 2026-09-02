@@ -10,7 +10,7 @@ import { Practica } from "./Practica";
 import { Test } from "./Test";
 import { Escucha } from "./Escucha";
 import { LecturaUnidad } from "./LecturaUnidad";
-import { estadoItem, leerProgreso, type Progreso } from "@/lib/progreso";
+import { cubierta, estadoItem, leerProgreso, type Progreso } from "@/lib/progreso";
 import { IcDerecha, IcEscucha } from "./Iconos";
 import { significado as sig, significadoSecundario as sigSec } from "@/lib/idioma";
 import { Reportar } from "./Reportar";
@@ -80,7 +80,7 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
             <i style={{ width: `${palabras.length ? (hechas / palabras.length) * 100 : 0}%` }} />
           </div>
           <span style={{ fontSize: 11, color: "var(--tinta-3)", flex: "0 0 auto" }}>
-            {est?.practicada ? t("uni.practicada") : `${hechas}/${palabras.length}`}
+            {cubierta(est) ? t("uni.practicada") : `${hechas}/${palabras.length}`}
             {est?.mejor ? t("uni.mejorTest", { n: est.mejor }) : ""}
           </span>
         </div>

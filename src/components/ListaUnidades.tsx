@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { Gramatica, Kanji, UnidadMeta } from "@/lib/tipos";
-import { leerProgreso, medalla, type Progreso } from "@/lib/progreso";
+import { cubierta, leerProgreso, medalla, type Progreso } from "@/lib/progreso";
 import { IcDerecha } from "./Iconos";
 import { useAjustes } from "./Ajustes";
 
@@ -58,7 +58,7 @@ export function ListaUnidades({ nivel, seccion, unidades, gramatica, kanji }: {
                 <span className={`pastilla ${medalla(est.mejor) ? "acento" : ""}`}
                       title={t("cur.mejorTestTit", { n: est.mejor })}>{est.mejor}%</span>
               ) : null}
-              {est?.practicada && !est.mejor ? <span className="punto dominada" /> : null}
+              {cubierta(est) && !est?.mejor ? <span className="punto dominada" /> : null}
               <span className="flecha"><IcDerecha size={14} /></span>
             </Link>
           );

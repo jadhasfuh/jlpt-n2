@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { COLOR_NIVEL, type Nivel } from "@/lib/tipos";
-import { leerProgreso } from "@/lib/progreso";
+import { cubierta, leerProgreso } from "@/lib/progreso";
 import { Anillo } from "./Anillo";
 import { esLibre } from "@/lib/acceso";
 import { IcCandado, IcDerecha } from "./Iconos";
@@ -19,7 +19,7 @@ export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones:
       const a: Record<string, number> = {};
       for (const s of secciones) {
         const hechas = Object.entries(p.unidades)
-          .filter(([id, u]) => u.practicada && id.startsWith(`${nivel}/${s.id}/`)).length;
+          .filter(([id, u]) => cubierta(u) && id.startsWith(`${nivel}/${s.id}/`)).length;
         a[s.id] = s.unidades ? hechas / s.unidades : 0;
       }
       setAvance(a);
