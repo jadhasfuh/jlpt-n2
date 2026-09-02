@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/gakkou/materias-1",
- "titulo": "<ruby>何<rt>なに</rt></ruby>をならうか",
- "cuerpo": "らいねんから、あたらしい<ruby>課程<rt>かてい</rt></ruby>がはじまります。わたしはまよわ<em class=\"g\">ないで</em>、ならいたいものをえらびました。にほんの<ruby>史<rt>し</rt></ruby>のじゅぎょうです。むかしの<ruby>人<rt>ひと</rt></ruby>がどんなものを<ruby>食<rt>た</rt></ruby>べ、どんなくらしをしていたかを<ruby>知<rt>し</rt></ruby>りたいからです。<ruby>先生<rt>せんせい</rt></ruby>は、「<ruby>名<rt>な</rt></ruby>まえだけおぼえ<em class=\"g\">ないで</em>、なぜそうなったかをかんがえなさい」と<ruby>話<rt>はな</rt></ruby>してくれました。むずかしそうですが、たのしみです。",
- "traduccion": "El año que viene empieza un plan de estudios nuevo. Elegí lo que quería estudiar sin dudarlo: las clases de historia de Japón. Porque quiero saber qué comía y cómo vivía la gente de antes. El profesor me dijo: «no te limites a memorizar nombres sin más, piensa por qué ocurrió así». Parece difícil, pero tengo ganas.",
+ "titulo": "にほんの れきしの じゅぎょう",
+ "cuerpo": "きょうの じゅぎょうは、ことばだけでは ありませんでした。せんせいが この まちの れきしを はなしました。こうべは ふるい みなとまちで、むかしから ふねが きました。だから、たべものも まちの かたちも、ほかの まちと ちがうそうです。ノートを <ruby>見<rt>み</rt></ruby>ないで <ruby>聞<rt>き</rt></ruby>きましたが、はんぶんぐらい わかりました。ことばを ならうと、まちの ことも すこしずつ わかって きます。",
+ "traduccion": "La clase de hoy no fue sólo de lengua. El profesor nos contó la historia de esta ciudad. Kobe es un puerto antiguo al que llegan barcos desde hace siglos. Por eso, dicen, la comida y hasta la forma de la ciudad son distintas de otras. Escuché sin mirar el cuaderno y entendí más o menos la mitad. Cuando aprendes el idioma, la ciudad también se te va aclarando.",
  "preguntas": [
   {
-   "p": "なぜ、この<ruby>課程<rt>かてい</rt></ruby>をえらびましたか。",
+   "p": "きょうの じゅぎょうは なにに ついてでしたか。",
    "opciones": [
-    "やさしそうだから",
-    "むかしの<ruby>人<rt>ひと</rt></ruby>のくらしを<ruby>知<rt>し</rt></ruby>りたいから",
-    "<ruby>先生<rt>せんせい</rt></ruby>がすすめたから",
-    "<ruby>名<rt>な</rt></ruby>まえがおぼえやすいから"
+    "まちの れきし",
+    "かんじ",
+    "テストの けっか"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしなさいと<ruby>話<rt>はな</rt></ruby>しましたか。",
+   "p": "こうべは どんな まちですか。",
    "opciones": [
-    "<ruby>名<rt>な</rt></ruby>まえをぜんぶおぼえる",
-    "なぜそうなったかをかんがえる",
-    "まいにち<ruby>書<rt>か</rt></ruby>く",
-    "<ruby>食<rt>た</rt></ruby>べものをしらべる"
+    "ふるい みなとまち",
+    "あたらしい まち",
+    "やまの まち"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんは どのくらい わかりましたか。",
+   "opciones": [
+    "はんぶんぐらい",
+    "ぜんぶ",
+    "ぜんぜん"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "A new study plan starts next year. I chose what I wanted to study without hesitating: the Japanese history classes. Because I want to know what people used to eat and how they lived. My teacher said to me: «don't just memorise names, think about why it happened that way». It sounds difficult, but I'm looking forward to it."
+ "traduccion_en": "Today's class wasn't only about the language. The teacher told us the history of this city. Kobe is an old port where ships have arrived for centuries. That's why, they say, the food and even the shape of the city are different from elsewhere. I listened without looking at my notebook and understood about half. As you learn the language, the city starts making sense too."
 }

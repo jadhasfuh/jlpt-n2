@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/gijutsu/deporte-1",
- "titulo": "スポーツの<ruby>日<rt>ひ</rt></ruby>",
- "cuerpo": "<ruby>日<rt>にち</rt></ruby>よう<ruby>日<rt>び</rt></ruby>は、こうえんでスポーツをします。ともだちと、はしっ<em class=\"g\">たり</em>なげ<em class=\"g\">たり</em>します。<ruby>今<rt>いま</rt></ruby>はサッカーが<ruby>一番<rt>いちばん</rt></ruby>すきです。ちいさいころは、およい<em class=\"g\">たり</em><ruby>山<rt>やま</rt></ruby>にのぼっ<em class=\"g\">たり</em>していました。からだをうごかすと、よるよくねむれます。<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は、うちで<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>ん<em class=\"g\">だり</em>おんがくを<ruby>聞<rt>き</rt></ruby>い<em class=\"g\">たり</em>します。それもたのしいですが、やはりそとのほうがすきです。",
- "traduccion": "Los domingos hago deporte en el parque. Con mis amigos corro, lanzo la pelota y cosas así. Ahora lo que más me gusta es el fútbol. De pequeño hacía cosas como nadar o subir a la montaña. Cuando muevo el cuerpo, por la noche duermo bien. Los días de lluvia me quedo en casa leyendo o escuchando música. Eso también está bien, pero prefiero estar fuera.",
+ "titulo": "スポーツの ひ",
+ "cuerpo": "たなかさんの まごの けんたくんは じゅうにさいです。サッカーが すきで、まいしゅう <ruby>公園<rt>こうえん</rt></ruby>で れんしゅうして います。にちようび、ぼくも さそわれました。はしったり、ボールを けったり して、にじかんあそびました。けんたくんは ぼくより ずっと <ruby>上手<rt>じょうず</rt></ruby>でした。つぎの ひ、あしが いたくて あるけませんでした。",
+ "traduccion": "Kenta, el nieto de la señora Tanaka, tiene doce años. Le gusta el fútbol y entrena en el parque todas las semanas. El domingo me invitaron a mí también. Estuvimos dos horas corriendo y dándole a la pelota. Kenta jugaba muchísimo mejor que yo. Al día siguiente me dolían tanto las piernas que no podía andar.",
  "preguntas": [
   {
-   "p": "<ruby>今<rt>いま</rt></ruby>、<ruby>一番<rt>いちばん</rt></ruby>すきなスポーツは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "p": "けんたくんは なんさいですか。",
    "opciones": [
-    "およぐこと",
-    "サッカー",
-    "<ruby>山<rt>やま</rt></ruby>にのぼること",
-    "はしること"
+    "じゅうにさい",
+    "にじゅうさい",
+    "じゅうさい"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "p": "にちようび、どのくらい あそびましたか。",
    "opciones": [
-    "こうえんへ<ruby>行<rt>い</rt></ruby>く",
-    "うちで<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだりする",
-    "およぐ",
-    "<ruby>山<rt>やま</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く"
+    "にじかん",
+    "じゅっぷん",
+    "いちにち"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "つぎの ひ、カルロスさんは どうでしたか。",
+   "opciones": [
+    "あしが いたかったです",
+    "げんきでした",
+    "また あそびました"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "On Sundays I do sport in the park. With my friends I run, throw the ball and so on. Right now what I like most is football. As a child I did things like swimming or climbing the mountain. When I move my body, I sleep well at night. On rainy days I stay at home reading or listening to music. That's fine too, but I'd rather be outside."
+ "traduccion_en": "Kenta, Mrs Tanaka's grandson, is twelve. He likes football and practises in the park every week. On Sunday they invited me along too. We spent two hours running about and kicking the ball. Kenta was far better than me. The next day my legs hurt so much I could hardly walk."
 }

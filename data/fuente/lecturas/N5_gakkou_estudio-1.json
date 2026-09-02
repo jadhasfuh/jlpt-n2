@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/gakkou/estudio-1",
- "titulo": "<ruby>練習<rt>れんしゅう</rt></ruby>のしかた",
- "cuerpo": "わたしは<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>習<rt>なら</rt></ruby>っています。はじめは、ことばをぜんぜん<ruby>知<rt>し</rt></ruby>らなかった<em class=\"g\">ので</em>、<ruby>話<rt>はな</rt></ruby>すのがこわかったです。<ruby>先生<rt>せんせい</rt></ruby>は、まいにちすこしずつ<ruby>練習<rt>れんしゅう</rt></ruby>しなさいとおしえてくれました。それで、あさとよる、ノートに<ruby>五<rt>いつ</rt></ruby>つずつことばを<ruby>書<rt>か</rt></ruby>くことにしました。はんとしつづけた<em class=\"g\">ので</em>、いまはすこし<ruby>上手<rt>じょうず</rt></ruby>になりました。ともだちにおしえることもできます。だれかに<ruby>教<rt>おし</rt></ruby>えると、じぶんもよく<ruby>知<rt>し</rt></ruby>ることができると<ruby>気<rt>き</rt></ruby>がつきました。",
- "traduccion": "Estoy aprendiendo japonés. Al principio no sabía nada de vocabulario, así que me daba miedo hablar. El profesor me enseñó que practicara un poco cada día. Así que decidí escribir cinco palabras en el cuaderno por la mañana y por la noche. Como llevo medio año haciéndolo, ahora se me da algo mejor. Incluso puedo enseñar a mis amigos. Me he dado cuenta de que, cuando enseñas a alguien, tú también acabas sabiéndolo mejor.",
+ "titulo": "ノートの とり<ruby>方<rt>かた</rt></ruby>",
+ "cuerpo": "ゴンサは じが とても きれいです。ぼくの ノートは きたないです。「<ruby>練習<rt>れんしゅう</rt></ruby>すれば できるよ」と ゴンサが いいました。ぼくは かんじを <ruby>書<rt>か</rt></ruby>くのが <ruby>上手<rt>じょうず</rt></ruby>では ありません。でも、まいばん さんじゅっぷんだけ <ruby>練習<rt>れんしゅう</rt></ruby>して います。せんせいは「<ruby>分<rt>わ</rt></ruby>からない ときは すぐ きいて ください」と <ruby>教<rt>おし</rt></ruby>えて くれます。<ruby>知<rt>し</rt></ruby>らない ことばが おおいので、じしょを いつも つくえの <ruby>上<rt>うえ</rt></ruby>に おいて います。",
+ "traduccion": "Gonza tiene una letra preciosa. La mía es un desastre. «Con práctica se consigue», me dijo. A mí escribir kanji no se me da bien. Pero practico media hora cada noche, sólo eso. El profesor nos repite: «si no entendéis algo, preguntad enseguida». Como hay muchas palabras que no conozco, tengo siempre el diccionario encima de la mesa.",
  "preguntas": [
   {
-   "p": "なぜ、はじめは<ruby>話<rt>はな</rt></ruby>すのがこわかったのですか。",
+   "p": "ゴンサさんの じは どうですか。",
    "opciones": [
-    "<ruby>先生<rt>せんせい</rt></ruby>がこわかったから",
-    "ことばを<ruby>知<rt>し</rt></ruby>らなかったから",
-    "ノートがなかったから",
-    "ともだちがいなかったから"
+    "とても きれいです",
+    "きたないです",
+    "<ruby>大<rt>おお</rt></ruby>きいです"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "だれかに<ruby>教<rt>おし</rt></ruby>えると、どうなると<ruby>気<rt>き</rt></ruby>がつきましたか。",
+   "p": "カルロスさんは まいばん どのくらい <ruby>練習<rt>れんしゅう</rt></ruby>しますか。",
    "opciones": [
-    "<ruby>時間<rt>じかん</rt></ruby>がなくなる",
-    "じぶんもよく<ruby>知<rt>し</rt></ruby>ることができる",
-    "<ruby>練習<rt>れんしゅう</rt></ruby>がいらなくなる",
-    "<ruby>上手<rt>じょうず</rt></ruby>になれない"
+    "さんじゅっぷん",
+    "さんじかん",
+    "しません"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "じしょは どこに ありますか。",
+   "opciones": [
+    "つくえの <ruby>上<rt>うえ</rt></ruby>",
+    "かばんの <ruby>中<rt>なか</rt></ruby>",
+    "<ruby>学校<rt>がっこう</rt></ruby>"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "I'm learning Japanese. At first I didn't know any vocabulary, so I was afraid to speak. My teacher taught me to practise a little every day. So I decided to write five words in my notebook in the morning and at night. Since I've been doing it for half a year, I'm a bit better at it now. I can even teach my friends. I've realised that when you teach someone, you end up understanding it better yourself."
+ "traduccion_en": "Gonza has beautiful handwriting. Mine is a mess. «With practice you'll get there», he told me. I'm not good at writing kanji. But I practise for half an hour every night, no more. The teacher keeps telling us: «if you don't understand, ask straight away». Since there are so many words I don't know, I keep the dictionary on my desk."
 }

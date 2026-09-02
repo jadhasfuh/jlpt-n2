@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/gijutsu/energia-1",
- "titulo": "<ruby>電気<rt>でんき</rt></ruby>をたいせつに",
- "cuerpo": "うちでは、だれもいないへやの<ruby>電気<rt>でんき</rt></ruby>をつけません。もったいないからです。でも、くらいへやはこわいので、げんかんの<ruby>電気<rt>でんき</rt></ruby><em class=\"g\">じゃない</em>と、よるはこまります。<ruby>父<rt>ちち</rt></ruby>は「あかるすぎるのはいいこと<em class=\"g\">ではない</em>」と<ruby>話<rt>はな</rt></ruby>します。せんげつ、<ruby>雨<rt>あめ</rt></ruby>のつよい<ruby>日<rt>ひ</rt></ruby>に<ruby>電気<rt>でんき</rt></ruby>がとまりました。<ruby>中<rt>なか</rt></ruby>が<ruby>見<rt>み</rt></ruby>えなくて、<ruby>何<rt>なに</rt></ruby>もできませんでした。あたりまえのものは、あたりまえ<em class=\"g\">ではない</em>のだとわかりました。",
- "traduccion": "En casa no encendemos la luz de las habitaciones donde no hay nadie, porque es un desperdicio. Pero las habitaciones a oscuras dan miedo, así que si no es la luz de la entrada, por la noche lo paso mal. Mi padre dice que tener demasiada luz tampoco es bueno. El mes pasado, un día de lluvia fuerte, se fue la luz. No se veía nada dentro y no pude hacer nada. Entendí que lo que se da por hecho no está garantizado.",
+ "titulo": "ふゆの まえの でんき",
+ "cuerpo": "じゅういちがつに なって、あさが さむく なりました。ぼくの へやには ストーブが ひとつだけ あります。でんきの ストーブは あたたかいですが、でんきだいが たかいです。たなかさんが「これは でんきじゃないから、やすいですよ」と こたつを <ruby>見<rt>み</rt></ruby>せてくれました。こたつに あしを <ruby>入<rt>い</rt></ruby>れると、もう <ruby>出<rt>で</rt></ruby>たく なくなります。ゴンサに はなしたら、「それは あぶない はつめいだ」と 言いました。",
+ "traduccion": "Con noviembre las mañanas se volvieron frías. En mi habitación sólo hay una estufa. La estufa eléctrica calienta bien, pero la luz sale cara. La señora Tanaka me enseñó un kotatsu: «esto no va con electricidad, sale barato». Cuando metes los pies en el kotatsu, ya no quieres sacarlos. Se lo conté a Gonza y me dijo: «ese invento es peligroso».",
  "preguntas": [
   {
-   "p": "うちで<ruby>電気<rt>でんき</rt></ruby>をつけないのはどんなときですか。",
+   "p": "じゅういちがつに なって、どう なりましたか。",
    "opciones": [
-    "よるのとき",
-    "だれもいないへやのとき",
-    "<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>",
-    "げんかんのとき"
+    "あさが さむく なりました",
+    "あつく なりました",
+    "あめが おおく なりました"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>電気<rt>でんき</rt></ruby>がとまって、<ruby>何<rt>なに</rt></ruby>がわかりましたか。",
+   "p": "こたつは どうして やすいですか。",
    "opciones": [
-    "よるはこわいこと",
-    "あたりまえのものはあたりまえ<em class=\"g\">ではない</em>こと",
-    "<ruby>父<rt>ちち</rt></ruby>がただしいこと",
-    "<ruby>雨<rt>あめ</rt></ruby>はつよいこと"
+    "でんきじゃないから",
+    "ちいさいから",
+    "ふるいから"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "ゴンサさんは こたつを どう 言いましたか。",
+   "opciones": [
+    "あぶない はつめいだ",
+    "いい はつめいだ",
+    "たかい"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "At home we don't turn on the light in rooms where nobody is, because it's a waste. But dark rooms are frightening, so if it isn't for the hall light I have a bad time at night. My father says that too much light isn't good either. Last month, on a day of heavy rain, the power went out. You couldn't see anything indoors and I couldn't do a thing. I understood that what we take for granted isn't guaranteed."
+ "traduccion_en": "With November the mornings turned cold. In my room there's only one heater. The electric heater warms up well, but the bill is expensive. Mrs Tanaka showed me a kotatsu: «this one isn't electric, it's cheap to run». Once you put your feet under the kotatsu, you don't want to take them out. I told Gonza and he said: «that invention is dangerous»."
 }

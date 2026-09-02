@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/gakkou/libros-1",
- "titulo": "<ruby>新聞<rt>しんぶん</rt></ruby>と<ruby>雑誌<rt>ざっし</rt></ruby>",
- "cuerpo": "<ruby>父<rt>ちち</rt></ruby>はまいあさ<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます。わたしは<ruby>雑誌<rt>ざっし</rt></ruby>のほうがすきです。しゃしんがおおくて、<ruby>見<rt>み</rt></ruby>ているだけでたのしいからです。せんしゅう、<ruby>雑誌<rt>ざっし</rt></ruby>にわたしの<ruby>学校<rt>がっこう</rt></ruby>のことが<ruby>載<rt>の</rt></ruby>っていました。<ruby>一番<rt>いちばん</rt></ruby>うれしかったのは、ともだちの<ruby>歌<rt>うた</rt></ruby>が<ruby>記<rt>しる</rt></ruby>されていたことです。かれは<ruby>詩<rt>し</rt></ruby>も<ruby>書<rt>か</rt></ruby>きます。いつか<ruby>本<rt>ほん</rt></ruby>を<ruby>出<rt>だ</rt></ruby>したいと<ruby>話<rt>はな</rt></ruby>していました。わたしは、その<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて、じぶんも<ruby>何<rt>なに</rt></ruby>か<ruby>書<rt>か</rt></ruby>いてみたくなりました。",
- "traduccion": "Mi padre lee el periódico todas las mañanas. Yo prefiero las revistas, porque tienen muchas fotos y solo con mirarlas ya me entretengo. La semana pasada salió mi colegio en una revista. Lo que más ilusión me hizo fue que apareciera recogida la canción de un amigo. Él también escribe poemas. Decía que algún día quiere publicar un libro. Al oírle, a mí también me entraron ganas de escribir algo.",
+ "titulo": "<ruby>図書館<rt>としょかん</rt></ruby>の <ruby>雑誌<rt>ざっし</rt></ruby>",
+ "cuerpo": "<ruby>学校<rt>がっこう</rt></ruby>の となりに ちいさい <ruby>図書館<rt>としょかん</rt></ruby>が あります。<ruby>授業<rt>じゅぎょう</rt></ruby>の あと、そこで <ruby>新聞<rt>しんぶん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>む ことに して います。<ruby>漢字<rt>かんじ</rt></ruby>が おおくて、<ruby>一<rt>いっ</rt></ruby>ページに さんじゅっぷんかかります。<ruby>雑誌<rt>ざっし</rt></ruby>の ほうが しゃしんが あって、わかりやすいです。にほんで <ruby>一番<rt>いちばん</rt></ruby> うれしかったのは、はじめて さいごまで <ruby>読<rt>よ</rt></ruby>めた ひです。みじかい <ruby>話<rt>はなし</rt></ruby>でしたが、じしょを <ruby>見<rt>み</rt></ruby>ませんでした。",
+ "traduccion": "Al lado de la escuela hay una biblioteca pequeña. Después de clase me he propuesto leer el periódico allí. Tiene tantos kanji que una página me lleva media hora. Las revistas son más fáciles porque llevan fotos. Lo que más ilusión me ha hecho en Japón fue el día que conseguí terminar algo. Era una historia corta, pero no miré el diccionario ni una vez.",
  "preguntas": [
   {
-   "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>雑誌<rt>ざっし</rt></ruby>をすきなのはなぜですか。",
+   "p": "<ruby>図書館<rt>としょかん</rt></ruby>は どこに ありますか。",
    "opciones": [
-    "<ruby>父<rt>ちち</rt></ruby>が<ruby>読<rt>よ</rt></ruby>むから",
-    "しゃしんがおおいから",
-    "<ruby>学校<rt>がっこう</rt></ruby>のことが<ruby>載<rt>の</rt></ruby>るから",
-    "<ruby>歌<rt>うた</rt></ruby>があるから"
+    "<ruby>学校<rt>がっこう</rt></ruby>の となり",
+    "<ruby>駅<rt>えき</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>",
+    "アパートの <ruby>下<rt>した</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>一番<rt>いちばん</rt></ruby>うれしかったことは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "p": "<ruby>一<rt>いっ</rt></ruby>ページ <ruby>読<rt>よ</rt></ruby>むのに どのくらい かかりますか。",
    "opciones": [
-    "<ruby>学校<rt>がっこう</rt></ruby>が<ruby>載<rt>の</rt></ruby>ったこと",
-    "ともだちの<ruby>歌<rt>うた</rt></ruby>が<ruby>記<rt>しる</rt></ruby>されていたこと",
-    "<ruby>父<rt>ちち</rt></ruby>が<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだこと",
-    "<ruby>本<rt>ほん</rt></ruby>を<ruby>出<rt>だ</rt></ruby>したこと"
+    "さんじゅっぷん",
+    "さんぷん",
+    "いちじかん"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>一番<rt>いちばん</rt></ruby> うれしかったのは いつですか。",
+   "opciones": [
+    "さいごまで <ruby>読<rt>よ</rt></ruby>めた ひ",
+    "<ruby>図書館<rt>としょかん</rt></ruby>が できた ひ",
+    "<ruby>雑誌<rt>ざっし</rt></ruby>を かった ひ"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "My father reads the newspaper every morning. I prefer magazines, because they have lots of photos and just looking at them keeps me entertained. Last week my school appeared in a magazine. What pleased me most was that a friend's song was printed there. He writes poems too. He said that one day he wants to publish a book. Hearing him, I felt like writing something myself."
+ "traduccion_en": "Next to the school there's a small library. After class I've made a habit of reading the newspaper there. There are so many kanji that one page takes me half an hour. Magazines are easier because they have photos. The happiest I've been in Japan was the day I got to the end of something. It was a short story, but I didn't look at the dictionary once."
 }

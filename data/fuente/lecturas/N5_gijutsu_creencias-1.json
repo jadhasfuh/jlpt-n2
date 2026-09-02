@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/gijutsu/creencias-1",
- "titulo": "むらのまつり",
- "cuerpo": "<ruby>年<rt>とし</rt></ruby>に<ruby>一<rt>いち</rt></ruby>ど、むらでまつりがあります。ちいさなおみやに<ruby>神<rt>かみ</rt></ruby>さまがいると、むかしからつたえられています。まつりの<ruby>日<rt>ひ</rt></ruby>は、あめ<em class=\"g\">か</em>はれ<em class=\"g\">か</em>わからないので、みんなすこししんぱいします。ことしははれました。<ruby>子<rt>こ</rt></ruby>どもも<ruby>大人<rt>おとな</rt></ruby>も、<ruby>気<rt>き</rt></ruby>もちよくあるきました。うちのそぼは、ぶっ<ruby>教<rt>きょう</rt></ruby>のおてらにも<ruby>行<rt>い</rt></ruby>きます。<ruby>神<rt>かみ</rt></ruby>さま<em class=\"g\">か</em>ほとけさま<em class=\"g\">か</em>、どちらかをえらばなくてもいいのだとおしえてくれました。",
- "traduccion": "Una vez al año hay una fiesta en la aldea. Se cuenta desde antiguo que en el pequeño santuario vive un dios. El día de la fiesta nadie sabe si lloverá o hará sol, así que todos andamos algo preocupados. Este año hizo sol. Niños y mayores caminamos a gusto. Mi abuela va también al templo budista. Me enseñó que no hace falta elegir entre el dios sintoísta o el Buda.",
+ "titulo": "はじめての じんじゃ",
+ "cuerpo": "<ruby>学校<rt>がっこう</rt></ruby>の みんなで じんじゃへ <ruby>行<rt>い</rt></ruby>きました。にほんの <ruby>神<rt>かみ</rt></ruby>さまの ところです。<ruby>手<rt>て</rt></ruby>を あらってから、なかへ <ruby>入<rt>はい</rt></ruby>ります。おかねを <ruby>入<rt>い</rt></ruby>れて、にかい <ruby>手<rt>て</rt></ruby>を たたいて、あたまを さげます。「<ruby>神<rt>かみ</rt></ruby>さまに おねがいするか、ありがとうを 言うか、どちらでも いいですよ」と せんせいが 言いました。ぼくは かぞくの ことを かんがえました。しずかで、きが おちつく ばしょでした。",
+ "traduccion": "Fuimos todos los de la escuela a un santuario. Es el sitio de los dioses japoneses. Primero te lavas las manos y luego entras. Echas una moneda, das dos palmadas y bajas la cabeza. «Puedes pedirle algo al dios o darle las gracias, lo que prefieras», dijo el profesor. Yo pensé en mi familia. Era un sitio silencioso, de esos donde se te calma el ánimo.",
  "preguntas": [
   {
-   "p": "まつりの<ruby>日<rt>ひ</rt></ruby>、みんながしんぱいするのはなぜですか。",
+   "p": "じんじゃに <ruby>入<rt>はい</rt></ruby>る <ruby>前<rt>まえ</rt></ruby>に なにを しますか。",
    "opciones": [
-    "<ruby>人<rt>ひと</rt></ruby>がすくないから",
-    "あめ<em class=\"g\">か</em>はれ<em class=\"g\">か</em>わからないから",
-    "おみやがちいさいから",
-    "<ruby>神<rt>かみ</rt></ruby>さまがいないから"
+    "<ruby>手<rt>て</rt></ruby>を あらいます",
+    "おかねを <ruby>入<rt>い</rt></ruby>れます",
+    "しゃしんを とります"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "そぼは<ruby>何<rt>なに</rt></ruby>をおしえてくれましたか。",
+   "p": "<ruby>手<rt>て</rt></ruby>を なんかい たたきますか。",
    "opciones": [
-    "おてらへ<ruby>行<rt>い</rt></ruby>くこと",
-    "どちらかをえらばなくてもいいこと",
-    "まつりに<ruby>出<rt>で</rt></ruby>ること",
-    "<ruby>気<rt>き</rt></ruby>もちをたいせつにすること"
+    "にかい",
+    "<ruby>一<rt>いっ</rt></ruby>かい",
+    "さんかい"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんは なにを かんがえましたか。",
+   "opciones": [
+    "かぞくの こと",
+    "テストの こと",
+    "しごとの こと"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Once a year there is a festival in the village. It has been said since long ago that a god lives in the little shrine. On the day of the festival nobody knows whether it will rain or be sunny, so we all go about a little worried. This year it was sunny. Children and grown-ups walked along happily. My grandmother goes to the Buddhist temple as well. She taught me that you don't have to choose between the Shinto god and the Buddha."
+ "traduccion_en": "The whole school went to a shrine. It's the place of the Japanese gods. First you wash your hands, then you go in. You put in a coin, clap twice and bow your head. «You can ask the god for something or thank him, whichever you like», said the teacher. I thought about my family. It was a quiet place, the kind where your mind settles."
 }

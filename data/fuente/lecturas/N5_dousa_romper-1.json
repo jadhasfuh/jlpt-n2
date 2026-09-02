@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/dousa/romper-1",
- "titulo": "けしてしまったしゅくだい",
- "cuerpo": "きのう、<ruby>学校<rt>がっこう</rt></ruby>のしゅくだいをパソコンで<ruby>書<rt>か</rt></ruby>きました。<ruby>三<rt>さん</rt></ruby>じかんかかりました。さいごに、まちがえてぜんぶ<ruby>消<rt>け</rt></ruby>してしまいました。<em class=\"g\">どうして</em>たいせつなものほど<ruby>消<rt>き</rt></ruby>えてしまうのでしょう。<ruby>先生<rt>せんせい</rt></ruby>に<ruby>話<rt>はな</rt></ruby>すと、わらって、もう<ruby>一<rt>いち</rt></ruby>ど<ruby>書<rt>か</rt></ruby>きなさいとおしえてくれました。つぎの<ruby>日<rt>ひ</rt></ruby>、もう<ruby>一<rt>いち</rt></ruby>ど<ruby>書<rt>か</rt></ruby>くと、はじめよりよくなりました。<em class=\"g\">どうして</em>か、にかいめのほうがはやく<ruby>書<rt>か</rt></ruby>けました。",
- "traduccion": "Ayer escribí los deberes del colegio en el ordenador. Tardé tres horas. Al final los borré todos por equivocación. ¿Por qué desaparecerá justo lo que más importa? Se lo conté al profesor y, riéndose, me dijo que lo escribiera otra vez. Al día siguiente lo escribí de nuevo y salió mejor que la primera vez. No sé por qué, pero la segunda vez lo escribí más deprisa.",
+ "titulo": "でんきを <ruby>消<rt>け</rt></ruby>す",
+ "cuerpo": "たなかさんが「どうして でんきを <ruby>消<rt>け</rt></ruby>さないんですか」と ききました。メキシコの うちでは、あまり きに しませんでした。にほんの でんきだいは たかいと ジャンが いって いました。その ひから、へやを <ruby>出<rt>で</rt></ruby>る とき かならず <ruby>消<rt>け</rt></ruby>します。はじめは わすれましたが、いまは てが かってに うごきます。ちいさい ことですが、ここの くらしを おぼえて いる きが します。",
+ "traduccion": "La señora Tanaka me preguntó: «¿por qué no apagas la luz?». En mi casa de México no le prestaba mucha atención. Jean decía que en Japón la luz es cara. Desde ese día, siempre la apago al salir de la habitación. Al principio se me olvidaba; ahora la mano va sola. Es una tontería, pero siento que estoy aprendiendo a vivir aquí.",
  "preguntas": [
   {
-   "p": "しゅくだいはどうなりましたか。",
+   "p": "たなかさんは なにを ききましたか。",
    "opciones": [
-    "<ruby>先生<rt>せんせい</rt></ruby>にわたした",
-    "ぜんぶ<ruby>消<rt>き</rt></ruby>えた",
-    "はんぶんのこった",
-    "<ruby>時間<rt>じかん</rt></ruby>がたりなかった"
+    "どうして でんきを <ruby>消<rt>け</rt></ruby>さないか",
+    "どこへ <ruby>行<rt>い</rt></ruby>くか",
+    "なにを たべるか"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "にかいめに<ruby>書<rt>か</rt></ruby>いたとき、どうでしたか。",
+   "p": "にほんの でんきだいは どうですか。",
    "opciones": [
-    "もっと<ruby>時間<rt>じかん</rt></ruby>がかかった",
-    "はじめよりよくなった",
-    "また<ruby>消<rt>け</rt></ruby>した",
-    "<ruby>書<rt>か</rt></ruby>けなかった"
+    "たかいです",
+    "やすいです",
+    "ただです"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "いま、へやを <ruby>出<rt>で</rt></ruby>る とき どう しますか。",
+   "opciones": [
+    "かならず <ruby>消<rt>け</rt></ruby>します",
+    "ときどき わすれます",
+    "つけたままです"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Yesterday I wrote my school homework on the computer. It took me three hours. In the end I deleted it all by mistake. Why is it always the important thing that disappears? I told my teacher and, laughing, he said I should write it again. The next day I wrote it once more and it came out better than the first time. I don't know why, but the second time I wrote it faster."
+ "traduccion_en": "Mrs Tanaka asked me: «why don't you turn the light off?». Back home in Mexico I never really thought about it. Jean said that electricity is expensive in Japan. Since that day I always switch it off when I leave the room. At first I forgot; now my hand does it by itself. It's a small thing, but it feels like learning to live here."
 }

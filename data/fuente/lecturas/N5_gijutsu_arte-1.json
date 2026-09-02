@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/gijutsu/arte-1",
- "titulo": "<ruby>映画<rt>えいが</rt></ruby>と<ruby>絵<rt>え</rt></ruby>",
- "cuerpo": "<ruby>土<rt>ど</rt></ruby>よう<ruby>日<rt>び</rt></ruby>、ともだちと<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。ふるいフィルムの<ruby>映画<rt>えいが</rt></ruby>で、おとがすこし<ruby>小<rt>ちい</rt></ruby>さかったです。でも、<ruby>画<rt>が</rt></ruby>めんの<ruby>中<rt>なか</rt></ruby>の<ruby>山<rt>やま</rt></ruby>や<ruby>川<rt>かわ</rt></ruby>が<ruby>絵<rt>え</rt></ruby>のようにきれいでした。<ruby>見<rt>み</rt></ruby>おわってから、そとで<ruby>写真<rt>しゃしん</rt></ruby>をとりました。ともだちは、その<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、「<ruby>絵<rt>え</rt></ruby>みたいだ」と<ruby>話<rt>はな</rt></ruby>しました。わたしは<ruby>絵<rt>え</rt></ruby>をかくのがへたですが、<ruby>写真<rt>しゃしん</rt></ruby>ならとれます。",
- "traduccion": "El sábado fui al cine con un amigo. Era una película de rollo antiguo y el sonido se oía un poco bajo. Pero las montañas y los ríos de la pantalla eran preciosos, como un cuadro. Al salir hicimos fotos fuera. Mi amigo miró la foto y dijo que parecía un cuadro. A mí se me da mal dibujar, pero fotos sí sé hacer.",
+ "titulo": "<ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>く",
+ "cuerpo": "どようびに、ゴンサと <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>きました。にほんごの <ruby>映画<rt>えいが</rt></ruby>で、<ruby>字<rt>じ</rt></ruby>まくは ありませんでした。はなしの はんぶんは わかりませんでしたが、<ruby>絵<rt>え</rt></ruby>が きれいでした。そとに <ruby>出<rt>で</rt></ruby>てから、ゴンサが「なにが おきたの?」と ききました。ぼくも わかりませんでした。ふたりで わらいました。かえりに、<ruby>映画<rt>えいが</rt></ruby>の ポスターの <ruby>前<rt>まえ</rt></ruby>で しゃしんを とりました。",
+ "traduccion": "El sábado fui al cine con Gonza. Era una película japonesa y no tenía subtítulos. La mitad de la historia se me escapó, pero la imagen era preciosa. Al salir, Gonza me preguntó: «¿qué ha pasado?». Yo tampoco lo sabía. Nos reímos los dos. De vuelta nos hicimos una foto delante del cartel.",
  "preguntas": [
   {
-   "p": "<ruby>映画<rt>えいが</rt></ruby>のどこがよかったですか。",
+   "p": "<ruby>映画<rt>えいが</rt></ruby>に <ruby>字<rt>じ</rt></ruby>まくは ありましたか。",
    "opciones": [
-    "おと",
-    "<ruby>山<rt>やま</rt></ruby>や<ruby>川<rt>かわ</rt></ruby>",
-    "フィルム",
-    "ともだち"
+    "ありませんでした",
+    "ありました",
+    "はんぶんだけ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "この<ruby>人<rt>ひと</rt></ruby>がへたなことは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "p": "ゴンサさんは そとで なにを ききましたか。",
    "opciones": [
-    "<ruby>写真<rt>しゃしん</rt></ruby>をとること",
-    "<ruby>絵<rt>え</rt></ruby>をかくこと",
-    "<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ること",
-    "<ruby>話<rt>はな</rt></ruby>すこと"
+    "「なにが おきたの?」",
+    "「また <ruby>行<rt>い</rt></ruby>く?」",
+    "「たかかった?」"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "かえりに なにを しましたか。",
+   "opciones": [
+    "しゃしんを とりました",
+    "ごはんを たべました",
+    "かいものを しました"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "On Saturday I went to the cinema with a friend. It was an old-fashioned film and the sound was a little quiet. But the mountains and rivers on the screen were beautiful, like a painting. On the way out we took photos outside. My friend looked at the photo and said it looked like a painting. I'm bad at drawing, but I can take photos."
+ "traduccion_en": "On Saturday I went to the cinema with Gonza. It was a Japanese film with no subtitles. Half the story went over my head, but it looked beautiful. As we came out, Gonza asked me: «what happened?». I didn't know either. We both laughed. On the way back we took a photo in front of the poster."
 }

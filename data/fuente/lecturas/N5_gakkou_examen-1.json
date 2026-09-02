@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/gakkou/examen-1",
- "titulo": "テストの<ruby>日<rt>ひ</rt></ruby>",
- "cuerpo": "きょうはテストの<ruby>日<rt>ひ</rt></ruby>でした。あさおきて、ごはんをたべました。<em class=\"g\">それから</em>、ノートをもう<ruby>一<rt>いち</rt></ruby>どよみました。<ruby>学校<rt>がっこう</rt></ruby>につくと、ともだちが「<ruby>質問<rt>しつもん</rt></ruby>がある」といいました。かれの<ruby>質問<rt>しつもん</rt></ruby>にこたえて、<em class=\"g\">それから</em>、<ruby>二人<rt>ふたり</rt></ruby>で<ruby>教室<rt>きょうしつ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りました。テストの<ruby>問題<rt>もんだい</rt></ruby>は<ruby>十<rt>じゅう</rt></ruby>ありました。むずかしいものもありましたが、ぜんぶこたえました。<em class=\"g\">それから</em>、そとに<ruby>出<rt>で</rt></ruby>て、そらを<ruby>見<rt>み</rt></ruby>ました。とてもあおかったです。",
- "traduccion": "Hoy era el día del examen. Me levanté por la mañana y desayuné. Después repasé el cuaderno una vez más. Al llegar al colegio, un amigo me dijo que tenía una pregunta. Le respondí y después entramos los dos en el aula. El examen tenía diez preguntas. Algunas eran difíciles, pero las contesté todas. Luego salí fuera y miré el cielo. Estaba muy azul.",
+ "titulo": "さいしょの テスト",
+ "cuerpo": "きょう、はじめての テストが ありました。せんせいが かみを くばって、それから とけいを <ruby>見<rt>み</rt></ruby>ました。<ruby>質問<rt>しつもん</rt></ruby>は にじゅうありました。ぼくは じゅうごまで はやく できましたが、あとの いつつで <ruby>止<rt>と</rt></ruby>まりました。ゴンサは さきに <ruby>出<rt>で</rt></ruby>て いきました。ジャンは さいごまで のこりました。けっかは あしただそうです。ゆうべは よく ねられませんでした。",
+ "traduccion": "Hoy tuvimos el primer examen. El profesor repartió las hojas y después miró el reloj. Había veinte preguntas. Las quince primeras las hice rápido, pero me atasqué en las cinco últimas. Gonza salió antes que nadie. Jean se quedó hasta el final. Dicen que los resultados son mañana. Anoche no dormí bien.",
  "preguntas": [
   {
-   "p": "<ruby>学校<rt>がっこう</rt></ruby>についたとき、ともだちは<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "p": "<ruby>質問<rt>しつもん</rt></ruby>は いくつ ありましたか。",
    "opciones": [
-    "ノートをかした",
-    "<ruby>質問<rt>しつもん</rt></ruby>をした",
-    "テストをうけた",
-    "そとへ<ruby>出<rt>で</rt></ruby>た"
+    "にじゅう",
+    "じゅうご",
+    "いつつ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "テストの<ruby>問題<rt>もんだい</rt></ruby>はいくつありましたか。",
+   "p": "ジャンさんは どう しましたか。",
    "opciones": [
-    "<ruby>五<rt>いつ</rt></ruby>つ",
-    "<ruby>十<rt>じゅう</rt></ruby>",
-    "<ruby>二十<rt>にじゅう</rt></ruby>",
-    "<ruby>一<rt>ひと</rt></ruby>つ"
+    "さいごまで のこりました",
+    "さきに <ruby>出<rt>で</rt></ruby>ました",
+    "きませんでした"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "けっかは いつですか。",
+   "opciones": [
+    "あした",
+    "きょう",
+    "らいしゅう"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Today was the day of the exam. I got up in the morning and had breakfast. Then I went over my notebook one more time. When I got to school, a friend told me he had a question. I answered him and then we both went into the classroom. The exam had ten questions. Some were difficult, but I answered them all. Afterwards I went outside and looked at the sky. It was very blue."
+ "traduccion_en": "Today we had our first test. The teacher handed out the papers and then looked at the clock. There were twenty questions. I did the first fifteen quickly, but I got stuck on the last five. Gonza left before anyone else. Jean stayed until the end. They say the results are tomorrow. I didn't sleep well last night."
 }
