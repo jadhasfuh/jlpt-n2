@@ -1,36 +1,36 @@
 {
  "unidad_id": "N5/hito/familia-1",
- "titulo": "わたしの<ruby>家族<rt>かぞく</rt></ruby>",
- "cuerpo": "わたしの<ruby>家族<rt>かぞく</rt></ruby>は<ruby>五人<rt>ごにん</rt></ruby>です。<ruby>父<rt>ちち</rt></ruby>と<ruby>母<rt>はは</rt></ruby>と<ruby>兄<rt>あに</rt></ruby>と<ruby>妹<rt>いもうと</rt></ruby>がいます。にちようびは、みんな<ruby>家<rt>いえ</rt></ruby>にいます。<ruby>兄<rt>あに</rt></ruby>はテレビを<ruby>見<rt>み</rt></ruby>ます。あるいは<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます。<ruby>妹<rt>いもうと</rt></ruby>は<ruby>母<rt>はは</rt></ruby>とりょうりをします。しずかで、いい<ruby>家庭<rt>かてい</rt></ruby>です。",
- "traduccion": "Mi familia somos cinco. Están mi padre, mi madre, mi hermano mayor y mi hermana menor. Los domingos todos estamos en casa. Mi hermano ve la tele, o si no, lee un libro. Mi hermana cocina con mi madre. Es un hogar tranquilo y agradable.",
+ "titulo": "たなかさんの <ruby>家族<rt>かぞく</rt></ruby>",
+ "cuerpo": "たなかさんの <ruby>家<rt>いえ</rt></ruby>の かべに、しゃしんが たくさん あります。「これは しゅじんです」と、ひとつを <ruby>見<rt>み</rt></ruby>せて くれました。ごしゅじんは ごねんまえに なくなったそうです。むすめさんは とうきょうに すんで いて、けんたくんは その こどもです。「<ruby>兄弟<rt>きょうだい</rt></ruby>は いますか」と きかれて、「<ruby>姉<rt>あね</rt></ruby>が ひとり」と こたえました。たなかさんは「<ruby>家族<rt>かぞく</rt></ruby>は とおくても <ruby>家族<rt>かぞく</rt></ruby>ですよ」と 言いました。",
+ "traduccion": "En la pared de casa de la señora Tanaka hay muchas fotos. «Éste es mi marido», me dijo enseñándome una. Su marido murió hace cinco años. Su hija vive en Tokio, y Kenta es su hijo. «¿Tienes hermanos?», me preguntó, y contesté: «una hermana mayor». La señora Tanaka dijo: «la familia, aunque esté lejos, es familia».",
  "preguntas": [
   {
-   "p": "この<ruby>家族<rt>かぞく</rt></ruby>は<ruby>何人<rt>なんにん</rt></ruby>ですか。",
+   "p": "ごしゅじんは いつ なくなりましたか。",
    "opciones": [
-    "<ruby>三人<rt>さんにん</rt></ruby>",
-    "<ruby>四人<rt>よにん</rt></ruby>",
-    "<ruby>五人<rt>ごにん</rt></ruby>"
-   ],
-   "correcta": 2
-  },
-  {
-   "p": "<ruby>兄<rt>あに</rt></ruby>はにちようびに<ruby>何<rt>なに</rt></ruby>をしますか。",
-   "opciones": [
-    "テレビを<ruby>見<rt>み</rt></ruby>るか、<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む",
-    "りょうりをする",
-    "<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く"
+    "ごねんまえ",
+    "きょねん",
+    "じゅうねんまえ"
    ],
    "correcta": 0
   },
   {
-   "p": "<ruby>妹<rt>いもうと</rt></ruby>はだれとりょうりをしますか。",
+   "p": "けんたくんは たなかさんの なんですか。",
    "opciones": [
-    "<ruby>父<rt>ちち</rt></ruby>",
-    "<ruby>母<rt>はは</rt></ruby>",
-    "<ruby>兄<rt>あに</rt></ruby>"
+    "まご",
+    "むすこ",
+    "おとうと"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんの <ruby>兄弟<rt>きょうだい</rt></ruby>は なんにんですか。",
+   "opciones": [
+    "<ruby>姉<rt>あね</rt></ruby>が ひとり",
+    "<ruby>兄<rt>あに</rt></ruby>が ふたり",
+    "いません"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "There are five of us in my family. There's my father, my mother, my older brother and my younger sister. On Sundays we're all at home. My brother watches television, or else he reads a book. My sister cooks with my mother. It's a quiet, pleasant home."
+ "traduccion_en": "On the wall of Mrs Tanaka's house there are lots of photos. «This is my husband», she said, showing me one. Her husband died five years ago. Her daughter lives in Tokyo, and Kenta is her son. «Do you have brothers or sisters?» she asked, and I said: «an older sister». Mrs Tanaka said: «family is family, however far away it is»."
 }

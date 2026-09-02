@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/hito/gente-1",
- "titulo": "いろいろな<ruby>人<rt>ひと</rt></ruby>",
- "cuerpo": "<ruby>私<rt>わたし</rt></ruby>のうちのそばに、<ruby>大勢<rt>おおぜい</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>があつまるこうえんがあります。<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>も<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>もいます。<ruby>古<rt>ふる</rt></ruby>くからすんでいる<ruby>者<rt>もの</rt></ruby>もいれば、きたばかりの<ruby>者<rt>もの</rt></ruby>もいます。<ruby>友達<rt>ともだち</rt></ruby>になるのに、<ruby>年<rt>とし</rt></ruby>はかんけいありません。<ruby>一人<rt>ひとり</rt></ruby>でくる<ruby>人<rt>ひと</rt></ruby>も、<ruby>二人<rt>ふたり</rt></ruby>でくる<ruby>人<rt>ひと</rt></ruby>もいます。<ruby>自分<rt>じぶん</rt></ruby>から<ruby>声<rt>こえ</rt></ruby>をかけると、たいていみんなこたえてくれます。<ruby>母<rt>はは</rt></ruby>は「こちらから<ruby>話<rt>はな</rt></ruby>しかけなさい」といつもおしえてくれました。",
- "traduccion": "Cerca de mi casa hay un parque donde se junta mucha gente. Hay hombres y mujeres. Hay quien lleva viviendo aquí desde antiguo y quien acaba de llegar. Para hacerse amigos, la edad no importa. Hay quien viene solo y quien viene en pareja. Si eres tú quien saluda primero, casi todos responden. Mi madre siempre me enseñó que fuera yo quien empezara a hablar.",
+ "titulo": "<ruby>友達<rt>ともだち</rt></ruby>に なる",
+ "cuerpo": "にほんに <ruby>来<rt>き</rt></ruby>て <ruby>二<rt>に</rt></ruby>かげつに なりました。はじめは、じぶんの ことを <ruby>話<rt>はな</rt></ruby>す ことばが ありませんでした。いまは、ジャンと ゴンサが いて、アンナさんも います。<ruby>大勢<rt>おおぜい</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>と <ruby>話<rt>はな</rt></ruby>す ひつようは ありません。さんにんか よにん、ほんとうに <ruby>話<rt>はな</rt></ruby>せる <ruby>人<rt>ひと</rt></ruby>が いれば じゅうぶんです。こちらの ことばで じょうだんが 言えた ひ、ほんとうに うれしかったです。",
+ "traduccion": "Ya llevo dos meses en Japón. Al principio no tenía palabras para hablar de mí mismo. Ahora están Jean y Gonza, y también Anna. No hace falta hablar con mucha gente. Con tres o cuatro personas con las que puedas hablar de verdad, basta. El día que conseguí hacer una broma en su idioma me puse contentísimo.",
  "preguntas": [
   {
-   "p": "こうえんにはどんな<ruby>人<rt>ひと</rt></ruby>がきますか。",
+   "p": "カルロスさんは どのくらい にほんに いますか。",
    "opciones": [
-    "<ruby>古<rt>ふる</rt></ruby>くからすんでいる<ruby>者<rt>もの</rt></ruby>だけ",
-    "いろいろな<ruby>人<rt>ひと</rt></ruby>",
-    "<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>だけ",
-    "<ruby>子<rt>こ</rt></ruby>どもだけ"
+    "<ruby>二<rt>に</rt></ruby>かげつ",
+    "にねん",
+    "<ruby>二<rt>に</rt></ruby>しゅうかん"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>母<rt>はは</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をおしえてくれましたか。",
+   "p": "なんにんぐらい いれば じゅうぶんだと 言って いますか。",
    "opciones": [
-    "<ruby>一人<rt>ひとり</rt></ruby>でいくこと",
-    "こちらから<ruby>話<rt>はな</rt></ruby>しかけること",
-    "<ruby>年<rt>とし</rt></ruby>をきくこと",
-    "<ruby>友達<rt>ともだち</rt></ruby>をえらぶこと"
+    "さんにんか よにん",
+    "<ruby>大勢<rt>おおぜい</rt></ruby>",
+    "<ruby>一人<rt>ひとり</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "いつ とても うれしかったですか。",
+   "opciones": [
+    "じょうだんが 言えた ひ",
+    "にほんに <ruby>着<rt>つ</rt></ruby>いた ひ",
+    "テストの ひ"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Near my house there's a park where a lot of people gather. There are men and women. There are those who have lived here for a long time and those who have just arrived. To make friends, age doesn't matter. Some come alone and some come as a couple. If you're the one who greets them first, almost everyone answers. My mother always taught me to be the one who starts talking."
+ "traduccion_en": "I've been in Japan two months now. At first I had no words to talk about myself. Now there are Jean and Gonza, and Anna too. You don't need to talk to lots of people. Three or four you can really talk to is enough. The day I managed a joke in their language I was over the moon."
 }

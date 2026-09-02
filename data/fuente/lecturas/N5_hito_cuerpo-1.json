@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/hito/cuerpo-1",
- "titulo": "からだのしごと",
- "cuerpo": "<ruby>目<rt>め</rt></ruby>は<ruby>見<rt>み</rt></ruby>て、<ruby>耳<rt>みみ</rt></ruby>は<ruby>聞<rt>き</rt></ruby>いて、<ruby>口<rt>くち</rt></ruby>は<ruby>話<rt>はな</rt></ruby>します。<ruby>手<rt>て</rt></ruby>はものをもち、<ruby>足<rt>あし</rt></ruby>はあるきます。あたりまえのことですが、かぜをひいて<ruby>頭<rt>あたま</rt></ruby>がいたくなったとき、はじめてありがたいとおもいました。<ruby>歯<rt>は</rt></ruby>がいたいと、<ruby>顔<rt>かお</rt></ruby>までいたくなります。<ruby>左<rt>ひだり</rt></ruby>の<ruby>肩<rt>かた</rt></ruby>がこったときは、<ruby>右<rt>みぎ</rt></ruby>の<ruby>手<rt>て</rt></ruby>もうごかしにくくなりました。からだはぜんぶつながっているのでしょう<em class=\"g\">か</em>。きょうはどんなちょうし<em class=\"g\">か</em>、あさおきたときの<ruby>足<rt>あし</rt></ruby>のかるさでわかります。",
- "traduccion": "Los ojos ven, los oídos oyen y la boca habla. Las manos sostienen cosas y los pies caminan. Son cosas obvias, pero solo cuando cogí un resfriado y me empezó a doler la cabeza pensé por primera vez que era de agradecer. Cuando duele una muela, duele hasta la cara. Cuando se me cargó el hombro izquierdo, también me costaba mover la mano derecha. ¿Será que el cuerpo está todo unido? En qué estado estoy hoy lo sé por lo ligeras que noto las piernas al levantarme.",
+ "titulo": "<ruby>頭<rt>あたま</rt></ruby>が いたい ひ",
+ "cuerpo": "あさ おきたら、<ruby>頭<rt>あたま</rt></ruby>が いたくて、<ruby>目<rt>め</rt></ruby>が あきませんでした。<ruby>顔<rt>かお</rt></ruby>を あらっても、よく なりませんでした。<ruby>足<rt>あし</rt></ruby>も おもくて、くつを <ruby>履<rt>は</rt></ruby>くのが たいへんでした。アンナさんに メッセージを おくると、「<ruby>学校<rt>がっこう</rt></ruby>を やすんで ください」と かえって <ruby>来<rt>き</rt></ruby>ました。ひるに ゴンサが パンと <ruby>牛肉<rt>ぎゅうにく</rt></ruby>の スープを <ruby>持<rt>も</rt></ruby>って <ruby>来<rt>き</rt></ruby>て くれました。「<ruby>口<rt>くち</rt></ruby>に あうか わからないけど」と 言って、<ruby>手<rt>て</rt></ruby>を あらいに <ruby>行<rt>い</rt></ruby>きました。",
+ "traduccion": "Al despertarme me dolía la cabeza y no podía abrir los ojos. Me lavé la cara y no mejoró. También tenía las piernas pesadas y me costó ponerme los zapatos. Le mandé un mensaje a Anna y me contestó: «quédate en casa, no vayas a clase». A mediodía Gonza me trajo pan y una sopa de ternera. «No sé si te gustará», dijo, y se fue a lavarse las manos.",
  "preguntas": [
   {
-   "p": "いつ、からだをありがたいとおもいましたか。",
+   "p": "あさ、どこが いたかったですか。",
    "opciones": [
-    "<ruby>歯<rt>は</rt></ruby>がいたいとき",
-    "かぜをひいて<ruby>頭<rt>あたま</rt></ruby>がいたくなったとき",
-    "<ruby>足<rt>あし</rt></ruby>がかるいとき",
-    "あさおきたとき"
+    "<ruby>頭<rt>あたま</rt></ruby>",
+    "<ruby>手<rt>て</rt></ruby>",
+    "<ruby>耳<rt>みみ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>左<rt>ひだり</rt></ruby>の<ruby>肩<rt>かた</rt></ruby>がこったとき、どうなりましたか。",
+   "p": "アンナさんは なんと こたえましたか。",
    "opciones": [
-    "<ruby>顔<rt>かお</rt></ruby>がいたくなった",
-    "<ruby>右<rt>みぎ</rt></ruby>の<ruby>手<rt>て</rt></ruby>もうごかしにくくなった",
-    "<ruby>目<rt>め</rt></ruby>が<ruby>見<rt>み</rt></ruby>えにくくなった",
-    "あるけなくなった"
+    "「<ruby>学校<rt>がっこう</rt></ruby>を やすんで ください」",
+    "「びょういんへ <ruby>行<rt>い</rt></ruby>って」",
+    "「だいじょうぶ」"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "ゴンサさんは なにを <ruby>持<rt>も</rt></ruby>って <ruby>来<rt>き</rt></ruby>ましたか。",
+   "opciones": [
+    "パンと スープ",
+    "くすり",
+    "ぎゅうにゅう"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Eyes see, ears hear and the mouth speaks. Hands hold things and feet walk. These are obvious things, but it was only when I caught a cold and my head started to ache that I first thought they were something to be grateful for. When a tooth hurts, even your face hurts. When my left shoulder got stiff, it was hard to move my right hand too. Is the body all connected? How I am today I can tell from how light my legs feel when I get up."
+ "traduccion_en": "When I woke up my head hurt and I couldn't open my eyes. I washed my face and it didn't help. My legs were heavy too and putting my shoes on was hard work. I sent Anna a message and she replied: «stay home, don't come to class». At midday Gonza brought me bread and a beef soup. «I don't know if it's to your taste», he said, and went to wash his hands."
 }

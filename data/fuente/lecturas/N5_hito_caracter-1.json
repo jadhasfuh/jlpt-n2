@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/hito/caracter-1",
- "titulo": "となりの<ruby>人<rt>ひと</rt></ruby>",
- "cuerpo": "となりのへや<em class=\"g\">に</em>、<ruby>年<rt>とし</rt></ruby>をとった<ruby>人<rt>ひと</rt></ruby>がすんでいます。とても<ruby>優<rt>やさ</rt></ruby>しくて、あうと、かならず<ruby>声<rt>こえ</rt></ruby>をかけてくれます。せんしゅう、おかしをくれました。とても<ruby>甘<rt>あま</rt></ruby>かったです。その<ruby>人<rt>ひと</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>ではなく、<ruby>低<rt>ひく</rt></ruby>い<ruby>声<rt>こえ</rt></ruby>でゆっくり<ruby>話<rt>はな</rt></ruby>します。「わたし<em class=\"g\">に</em>なんでも<ruby>聞<rt>き</rt></ruby>いてください」と<ruby>言<rt>い</rt></ruby>ってくれるので、こまったとき、いつもその<ruby>人<rt>ひと</rt></ruby>のところ<em class=\"g\">に</em><ruby>行<rt>い</rt></ruby>きます。うちの<ruby>父<rt>ちち</rt></ruby>より<ruby>厚<rt>あつ</rt></ruby>いこころをもった<ruby>人<rt>ひと</rt></ruby>だとおもいます。",
- "traduccion": "En la habitación de al lado vive una persona mayor. Es muy amable y siempre que nos cruzamos me saluda. La semana pasada me dio unos dulces. Estaban muy dulces. No habla con voz alta, sino con voz grave y despacio. Como me dice «pregúntame lo que sea», cuando tengo un problema siempre voy a verle. Creo que tiene un corazón más generoso incluso que el de mi padre.",
+ "titulo": "アンナさんの じゅぎょう",
+ "cuerpo": "アンナさんは <ruby>明<rt>あか</rt></ruby>るい ひとです。こえも わらいかたも <ruby>大<rt>おお</rt></ruby>きいです。でも、まちがえた ひとには とても <ruby>優<rt>やさ</rt></ruby>しいです。きょう、ぼくの はつおんを さんかい なおして くれました。「どんな ことばが むずかしいですか」と きかれて、「ぜんぶ」と こたえました。アンナさんは わらって、「わたしも スペイン<ruby>語<rt>ご</rt></ruby>は ぜんぶ むずかしい」と 言いました。コーヒーが あまくて、すこし のこしました。",
+ "traduccion": "Anna es una persona luminosa. Tiene la risa y la voz grandes. Pero con quien se equivoca es muy amable. Hoy me corrigió la pronunciación tres veces. «¿Qué palabras te resultan difíciles?», me preguntó, y contesté: «todas». Anna se rió y dijo: «a mí el español también me resulta difícil entero». El café estaba dulzón y dejé un poco.",
  "preguntas": [
   {
-   "p": "となりの<ruby>人<rt>ひと</rt></ruby>はどんな<ruby>声<rt>こえ</rt></ruby>で<ruby>話<rt>はな</rt></ruby>しますか。",
+   "p": "アンナさんは どんな ひとですか。",
    "opciones": [
-    "<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>",
-    "<ruby>低<rt>ひく</rt></ruby>い<ruby>声<rt>こえ</rt></ruby>",
-    "はやい<ruby>声<rt>こえ</rt></ruby>",
-    "<ruby>高<rt>たか</rt></ruby>い<ruby>声<rt>こえ</rt></ruby>"
+    "<ruby>明<rt>あか</rt></ruby>るくて <ruby>優<rt>やさ</rt></ruby>しい",
+    "しずかな ひと",
+    "こわい ひと"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "こまったとき、どうしますか。",
+   "p": "きょう、アンナさんは なにを しましたか。",
    "opciones": [
-    "<ruby>父<rt>ちち</rt></ruby>に<ruby>聞<rt>き</rt></ruby>く",
-    "となりの<ruby>人<rt>ひと</rt></ruby>のところ<em class=\"g\">に</em><ruby>行<rt>い</rt></ruby>く",
-    "おかしを<ruby>食<rt>た</rt></ruby>べる",
-    "ひとりでかんがえる"
+    "はつおんを なおしました",
+    "スペイン<ruby>語<rt>ご</rt></ruby>を ならいました",
+    "コーヒーを <ruby>作<rt>つく</rt></ruby>りました"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんは なんと こたえましたか。",
+   "opciones": [
+    "「ぜんぶ」",
+    "「かんじ」",
+    "「なにも」"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "An older person lives in the room next door. He is very kind and greets me whenever we pass each other. Last week he gave me some sweets. They were very sweet. He doesn't speak in a loud voice, but in a low voice and slowly. Since he tells me «ask me anything», whenever I have a problem I go to see him. I think he has an even more generous heart than my father's."
+ "traduccion_en": "Anna is a bright person. Her laugh and her voice are both big. But she's very kind to anyone who makes a mistake. Today she corrected my pronunciation three times. «Which words do you find hard?» she asked, and I answered: «all of them». Anna laughed and said: «I find the whole of Spanish hard too». The coffee was too sweet and I left some."
 }
