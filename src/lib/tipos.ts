@@ -64,9 +64,10 @@ export type Kanji = {
 export type Lectura = {
   unidad_id: string;
   titulo: string; cuerpo: string;
-  /** La traducción de apoyo. `traduccion` es la española, que es la que se
-   *  escribió primero; `traduccion_en` se va añadiendo por niveles y, mientras
-   *  no exista, el inglés cae a la española. */
+  /** La traducción de apoyo, frase a frase: `Ordenar` empareja cada oración
+   *  del cuerpo con la suya, así que ambas versiones tienen que llevar el
+   *  mismo número de frases. Están las 602 en los dos idiomas; el opcional
+   *  sólo cubre el hueco de una lectura recién escrita. */
   traduccion: string; traduccion_en?: string;
   preguntas?: { p: string; opciones: string[]; correcta: number }[];
 };
