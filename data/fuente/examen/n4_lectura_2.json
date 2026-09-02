@@ -1,0 +1,248 @@
+[
+ {
+  "id": "n4-tanbun-0004",
+  "nivel": "N4",
+  "tipo": "tanbun",
+  "grupo": "n4-tanbun-g004",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 図書室では、雑誌を どう しますか。",
+  "opciones": [
+   "中で 読みます",
+   "三さつまで 借ります",
+   "一週間 借ります",
+   "昼休みに 借ります"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "雑誌は借りられない",
+   "雑誌は借りられない",
+   "雑誌は借りられない"
+  ],
+  "explicacion": {
+   "es": "Las revistas sólo se leen dentro; el préstamo es para los libros.",
+   "en": "Magazines are read on site; borrowing applies to books."
+  },
+  "etiquetas": [],
+  "dificultad": 2,
+  "pasaje": {
+   "texto": "会社の 中に 小さい 図書室が できました。だれでも 昼休みに 使えます。本は 三さつまで、一週間 借りられます。ただし、雑誌は 中でしか 読めません。しずかに して ください、と 紙に 書いて あります。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n4-tanbun-0005",
+  "nivel": "N4",
+  "tipo": "tanbun",
+  "grupo": "n4-tanbun-g005",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "新しい 店に なって、かわらなかった ことは 何ですか。",
+  "opciones": [
+   "パンの ねだん",
+   "店の 場所",
+   "店の 広さ",
+   "開く 時間"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "引っこして遠くなった",
+   "広くなった",
+   "本文からは前と比べられない"
+  ],
+  "explicacion": {
+   "es": "El precio es lo único que dice que sigue igual.",
+   "en": "The price is the one thing it says stayed the same."
+  },
+  "etiquetas": [],
+  "dificultad": 2,
+  "pasaje": {
+   "texto": "先週、駅前の パン屋が 引っこしました。新しい 店は 前より 少し 遠いですが、中が 広く なりました。朝七時から 開いて いるので、会社へ 行く 前に 買えます。パンの ねだんは 前と 同じです。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n4-tanbun-0006",
+  "nivel": "N4",
+  "tipo": "tanbun",
+  "grupo": "n4-tanbun-g006",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "去年から どんな ことが かわりましたか。",
+  "opciones": [
+   "野菜の ほかに パンなども 売るように なった",
+   "朝市が 毎週 開かれるように なった",
+   "値段が 店より 高く なった",
+   "農家が 来なく なった"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "第一日曜日だけ",
+   "店より安いと書いてある",
+   "農家が売っている"
+  ],
+  "explicacion": {
+   "es": "Desde el año pasado también vienen a vender pan y queso.",
+   "en": "Since last year people selling bread and cheese come too."
+  },
+  "etiquetas": [],
+  "dificultad": 2,
+  "pasaje": {
+   "texto": "この まちでは、毎月 第一日曜日に 朝市が あります。近くの 農家が 作った 野菜や くだものを 売って います。値段は 店より 安いです。去年から、パンや チーズを 売る 人も 来るように なりました。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n4-chuubun-0004",
+  "nivel": "N4",
+  "tipo": "chuubun",
+  "grupo": "n4-chuubun-g004",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "はじめて 山に のぼった とき、どうでしたか。",
+  "opciones": [
+   "じゅんびが 足りなくて 大変だった",
+   "天気が 悪くて 帰った",
+   "友だちが 来なくて 一人で のぼった",
+   "写真を たくさん とった"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文にない",
+   "友だちにさそわれて行った",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Zapatos normales y poca agua: le acabó doliendo el pie.",
+   "en": "Ordinary shoes and little water: his foot ended up hurting."
+  },
+  "etiquetas": [],
+  "dificultad": 2,
+  "pasaje": {
+   "texto": "わたしの しゅみは 山に のぼる ことです。はじめたのは 大学生の ときで、友だちに さそわれて 近くの 山へ 行きました。その 日は くつも ふつうの ものでしたし、水も 少ししか 持って いきませんでした。とちゅうで 足が いたく なって、とても 大変でした。\nそれから、山の 本を 読んで、じゅんびの しかたを 勉強しました。今は 出かける 前に、天気を しらべて、水と 食べ物を じゅうぶん 用意します。重く なりますが、あんぜんの ほうが 大切です。\n山の 上から 見る けしきは、写真では わかりません。つかれても また 行きたく なるのは、その ためだと 思います。",
+   "notas": [
+    {
+     "termino": "じゅんび",
+     "glosa": "前から 用意する こと"
+    }
+   ]
+  }
+ },
+ {
+  "id": "n4-chuubun-0005",
+  "nivel": "N4",
+  "tipo": "chuubun",
+  "grupo": "n4-chuubun-g004",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "今、出かける 前に する ことは 何ですか。",
+  "opciones": [
+   "天気を しらべて、水と 食べ物を 用意する",
+   "友だちを さそう",
+   "山の 本を 買う",
+   "写真の じゅんびを する"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文にない",
+   "勉強したのは 前の 話",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Ahora mira el tiempo y prepara agua y comida de sobra.",
+   "en": "Now he checks the weather and packs plenty of water and food."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-chuubun-0006",
+  "nivel": "N4",
+  "tipo": "chuubun",
+  "grupo": "n4-chuubun-g004",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この人が また 山へ 行きたく なるのは どうしてですか。",
+  "opciones": [
+   "上から 見る けしきが すばらしいから",
+   "友だちに 会えるから",
+   "写真が よく とれるから",
+   "じゅんびが 楽しいから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文にない",
+   "写真ではわからないと書いてある",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Lo dice al final: el paisaje desde arriba no sale en las fotos.",
+   "en": "He says it at the end: the view from the top doesn't come out in photos."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-jouhou-0003",
+  "nivel": "N4",
+  "tipo": "jouhou",
+  "grupo": "n4-jouhou-g003",
+  "orden_grupo": 0,
+  "instruccion_ja": "右のページは、お知らせである。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "はじめて 中級の 教室に 行く 人は、その日 いくら はらいますか。",
+  "opciones": [
+   "千五百円",
+   "三百円",
+   "千八百円",
+   "はらいません"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "一回目は無料なので授業料はいらない",
+   "テキスト代が入っていない",
+   "テキスト代は必要"
+  ],
+  "explicacion": {
+   "es": "La primera clase es gratis, pero el libro se paga: mil quinientos.",
+   "en": "The first class is free, but the textbook is paid: fifteen hundred."
+  },
+  "etiquetas": [],
+  "dificultad": 2,
+  "pasaje": {
+   "texto": "【みどり市　日本語教室の ごあんない】\n■ 曜日と 時間\n　水曜日　午後六時〜八時（初級）\n　土曜日　午前十時〜十二時（中級）\n\n■ 場所\n　市民センター 二階\n\n■ お金\n　一回 三百円（テキスト代は べつに 千五百円）\n　はじめての 方は、一回目は 無料です。\n\n■ もうしこみ\n　ホームページか、市民センターの まどぐちで もうしこんで ください。\n　電話では うけつけて いません。\n\n■ お願い\n　休む ときは、前の 日までに れんらくして ください。\n　教室には 子どもを つれて 来ないで ください。\n\n■ 教室で つかう もの\n　ノートと えんぴつを もって きて ください。\n　じしょは かして います。\n\n■ そのほか\n　八月は 休みです。九月から また はじまります。\n　くわしい ことは、市民センターの まどぐちで 聞いて ください。",
+   "notas": [
+    {
+     "termino": "無料",
+     "glosa": "お金が いらない こと"
+    }
+   ]
+  }
+ },
+ {
+  "id": "n4-jouhou-0004",
+  "nivel": "N4",
+  "tipo": "jouhou",
+  "grupo": "n4-jouhou-g003",
+  "orden_grupo": 1,
+  "instruccion_ja": "右のページは、お知らせである。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "休みたい とき、どう しますか。",
+  "opciones": [
+   "前の 日までに れんらくします",
+   "当日の 朝 電話します",
+   "まどぐちで もうしこみます",
+   "何も しなくて いいです"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "電話はうけつけていない",
+   "もうしこみの話",
+   "れんらくが必要"
+  ],
+  "explicacion": {
+   "es": "Hay que avisar el día antes; el teléfono no se usa.",
+   "en": "You must let them know the day before; the phone isn't used."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ }
+]

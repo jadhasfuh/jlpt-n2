@@ -1,0 +1,702 @@
+[
+ {
+  "id": "n4-kanji_yomi-0008",
+  "nivel": "N4",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "父は 毎日 <u>運転</u>して 会社へ 行きます。",
+  "opciones": [
+   "うんてん",
+   "うんでん",
+   "うんてい",
+   "はこてん"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "濁音にしない",
+   "転をていと読んだ",
+   "運をはこと読んだ"
+  ],
+  "explicacion": {
+   "es": "運転（うんてん）. 運 se lee うん en compuesto, no はこ.",
+   "en": "運転 (unten). 運 reads うん in compounds, not はこ."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-kanji_yomi-0009",
+  "nivel": "N4",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 店は <u>親切</u>な 人が 多いです。",
+  "opciones": [
+   "しんせつ",
+   "しんせち",
+   "おやせつ",
+   "しんぜつ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "切をせちと読んだ",
+   "親をおやと読んだ",
+   "濁音にした"
+  ],
+  "explicacion": {
+   "es": "親切（しんせつ）, amable. Aquí 親 no se lee おや.",
+   "en": "親切 (shinsetsu), kind. Here 親 is not read おや."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-kanji_yomi-0010",
+  "nivel": "N4",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "あしたの <u>予定</u>を 教えて ください。",
+  "opciones": [
+   "よてい",
+   "よじょう",
+   "ようてい",
+   "よてん"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "定をじょうと読んだ",
+   "ない長音をつけた",
+   "定をてんと読んだ"
+  ],
+  "explicacion": {
+   "es": "予定（よてい）, plan.",
+   "en": "予定 (yotei), plan."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-kanji_yomi-0011",
+  "nivel": "N4",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この へやは <u>使用</u>できません。",
+  "opciones": [
+   "しよう",
+   "しよ",
+   "つかよう",
+   "じよう"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "長音を落とした",
+   "使をつかと読んだ",
+   "濁音にした"
+  ],
+  "explicacion": {
+   "es": "使用（しよう）, uso. Ojo con el alargamiento final.",
+   "en": "使用 (shiyō), use. Mind the long final vowel."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-kanji_yomi-0012",
+  "nivel": "N4",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "<u>病院</u>は 駅の 近くに あります。",
+  "opciones": [
+   "びょういん",
+   "びょいん",
+   "へいいん",
+   "びょうえん"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "拗音の長音を落とした",
+   "病をへいと読んだ",
+   "院をえんと読んだ"
+  ],
+  "explicacion": {
+   "es": "病院（びょういん）. No confundir con 美容院（びよういん）, la peluquería.",
+   "en": "病院 (byōin). Don't mix it up with 美容院 (biyōin), the hair salon."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-kanji_yomi-0013",
+  "nivel": "N4",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "かれは <u>特別</u>な 人です。",
+  "opciones": [
+   "とくべつ",
+   "とくべち",
+   "どくべつ",
+   "とくへつ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "別をべちと読んだ",
+   "濁音にした",
+   "濁音にしない"
+  ],
+  "explicacion": {
+   "es": "特別（とくべつ）, especial.",
+   "en": "特別 (tokubetsu), special."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-kanji_yomi-0014",
+  "nivel": "N4",
+  "tipo": "kanji_yomi",
+  "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "<u>都合</u>が わるい 日は 言って ください。",
+  "opciones": [
+   "つごう",
+   "とごう",
+   "つあい",
+   "とあい"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "都をとと読んだ",
+   "合をあいと読んだ",
+   "両方"
+  ],
+  "explicacion": {
+   "es": "都合（つごう）, conveniencia. Es una lectura que hay que memorizar.",
+   "en": "都合 (tsugō), convenience. A reading you simply have to learn."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-hyouki-0006",
+  "nivel": "N4",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "<u>あんぜん</u>な 場所で 待って ください。",
+  "opciones": [
+   "安全",
+   "安金",
+   "案全",
+   "案金"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "全と金の混同",
+   "安と案の混同",
+   "両方"
+  ],
+  "explicacion": {
+   "es": "安全. 全 (entero) no 金 (dinero); 安 (barato, tranquilo) no 案 (idea).",
+   "en": "安全. 全 (whole) not 金 (money); 安 not 案 (plan)."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-hyouki-0007",
+  "nivel": "N4",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "<u>りょこう</u>の しゃしんを 見せます。",
+  "opciones": [
+   "旅行",
+   "族行",
+   "旅工",
+   "族工"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "旅と族の混同",
+   "行と工の混同",
+   "両方"
+  ],
+  "explicacion": {
+   "es": "旅行. 旅 (viaje) no 族 (familia, tribu).",
+   "en": "旅行. 旅 (travel) not 族 (clan)."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-hyouki-0008",
+  "nivel": "N4",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 本は <u>やくにたつ</u>と 思います。",
+  "opciones": [
+   "役に立つ",
+   "約に立つ",
+   "役に建つ",
+   "約に建つ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "役と約の混同",
+   "立と建の混同",
+   "両方"
+  ],
+  "explicacion": {
+   "es": "役に立つ. 役 (función) no 約 (promesa); 立つ (ponerse en pie) no 建つ (construirse).",
+   "en": "役に立つ. 役 (role) not 約 (promise); 立つ not 建つ (to be built)."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-hyouki-0009",
+  "nivel": "N4",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "<u>かいぎ</u>は 三時からです。",
+  "opciones": [
+   "会議",
+   "会義",
+   "合議",
+   "合義"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "議と義の混同",
+   "会と合の混同",
+   "両方"
+  ],
+  "explicacion": {
+   "es": "会議. 議 (deliberar) no 義 (justicia).",
+   "en": "会議. 議 (deliberate) not 義 (justice)."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-hyouki-0010",
+  "nivel": "N4",
+  "tipo": "hyouki",
+  "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 料理は <u>あじ</u>が いいです。",
+  "opciones": [
+   "味",
+   "未",
+   "末",
+   "妹"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "形が似ているだけ",
+   "形が似ているだけ",
+   "いもうとと読む字"
+  ],
+  "explicacion": {
+   "es": "味 (sabor). 未 y 末 se le parecen pero son otras palabras.",
+   "en": "味 (taste). 未 and 末 look similar but are other words."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunmyaku-0009",
+  "nivel": "N4",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "かぜを ひいたので、しごとを（　）。",
+  "opciones": [
+   "休みました",
+   "やめました",
+   "おくれました",
+   "こわしました"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "仕事そのものを辞めること",
+   "時間に関する言葉",
+   "物に使う言葉"
+  ],
+  "explicacion": {
+   "es": "Faltar un día es 休む; やめる sería dejar el trabajo del todo.",
+   "en": "Missing a day is 休む; やめる would mean quitting the job."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunmyaku-0010",
+  "nivel": "N4",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "じしょで ことばの いみを（　）。",
+  "opciones": [
+   "しらべました",
+   "さがしました",
+   "みつけました",
+   "おぼえました"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "物を探すときに使う",
+   "結果だけを言う言葉",
+   "記憶する意味"
+  ],
+  "explicacion": {
+   "es": "Consultar el diccionario es 調べる.",
+   "en": "Looking something up in a dictionary is 調べる."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunmyaku-0011",
+  "nivel": "N4",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 電車は 東京（　）行きます。",
+  "opciones": [
+   "まで",
+   "から",
+   "ばかり",
+   "しか"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "出発点を示す",
+   "限定の意味",
+   "否定と一緒に使う"
+  ],
+  "explicacion": {
+   "es": "El punto de llegada va con まで.",
+   "en": "The end point of a journey takes まで."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunmyaku-0012",
+  "nivel": "N4",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "あの 人は 日本語（　）英語も 話せます。",
+  "opciones": [
+   "だけでなく",
+   "しか",
+   "ばかり",
+   "ほど"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "否定と一緒に使う",
+   "意味が合わない",
+   "程度を比べる言葉"
+  ],
+  "explicacion": {
+   "es": "«No sólo… sino también»: 〜だけでなく〜も.",
+   "en": "«Not only… but also»: 〜だけでなく〜も."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunmyaku-0013",
+  "nivel": "N4",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "へやが きたないので、（　）ください。",
+  "opciones": [
+   "そうじして",
+   "せんたくして",
+   "よういして",
+   "うんてんして"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "服を洗うこと",
+   "準備すること",
+   "車の話"
+  ],
+  "explicacion": {
+   "es": "Una habitación sucia se limpia: そうじする.",
+   "en": "A dirty room gets cleaned: そうじする."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunmyaku-0014",
+  "nivel": "N4",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "時間が ありませんから、（　）しましょう。",
+  "opciones": [
+   "いそいで",
+   "ゆっくり",
+   "しずかに",
+   "きれいに"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対の意味",
+   "音の話",
+   "見た目の話"
+  ],
+  "explicacion": {
+   "es": "Sin tiempo, hay que darse prisa: いそぐ.",
+   "en": "No time means hurrying: いそぐ."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunmyaku-0015",
+  "nivel": "N4",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "かれは 医者に なる（　）、まいにち べんきょうして います。",
+  "opciones": [
+   "ために",
+   "のに",
+   "ように",
+   "ことに"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "逆接になってしまう",
+   "意志動詞では使いにくい",
+   "決定の言い方"
+  ],
+  "explicacion": {
+   "es": "Un propósito con verbo volitivo va con ために.",
+   "en": "A purpose with a volitional verb takes ために."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-bunmyaku-0016",
+  "nivel": "N4",
+  "tipo": "bunmyaku",
+  "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この みせの ケーキは（　）おいしいです。",
+  "opciones": [
+   "とても",
+   "あまり",
+   "ぜんぜん",
+   "けっして"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "否定と一緒に使う",
+   "否定と一緒に使う",
+   "否定と一緒に使う"
+  ],
+  "explicacion": {
+   "es": "あまり, ぜんぜん y けっして piden negación; con afirmativo va とても.",
+   "en": "あまり, ぜんぜん and けっして need a negative; the positive takes とても."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-iikae-0005",
+  "nivel": "N4",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の文とだいたい同じ意味の文があります。1・2・3・4から一つ選びなさい。",
+  "enunciado": "この しごとは <u>らく</u>です。",
+  "opciones": [
+   "この しごとは 大変では ありません。",
+   "この しごとは とても いそがしいです。",
+   "この しごとは おもしろいです。",
+   "この しごとは あぶないです。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対の意味",
+   "気持ちの話",
+   "危険の話"
+  ],
+  "explicacion": {
+   "es": "らく = no cuesta, no es 大変.",
+   "en": "らく means easy going, i.e. not 大変."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-iikae-0006",
+  "nivel": "N4",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の文とだいたい同じ意味の文があります。1・2・3・4から一つ選びなさい。",
+  "enunciado": "かれは <u>まじめ</u>な 学生です。",
+  "opciones": [
+   "かれは よく べんきょうする 学生です。",
+   "かれは よく わらう 学生です。",
+   "かれは とても 元気な 学生です。",
+   "かれは しずかな 学生です。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "性格の別の面",
+   "元気さの話",
+   "音の話"
+  ],
+  "explicacion": {
+   "es": "まじめ, dicho de un estudiante, es que se aplica.",
+   "en": "まじめ, said of a student, means hard-working."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-iikae-0007",
+  "nivel": "N4",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の文とだいたい同じ意味の文があります。1・2・3・4から一つ選びなさい。",
+  "enunciado": "<u>そろそろ</u>帰りましょう。",
+  "opciones": [
+   "もう 帰る 時間です。",
+   "まだ 帰りません。",
+   "はやく 帰りました。",
+   "帰りたく ありません。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対の意味",
+   "過去の話",
+   "気持ちの話"
+  ],
+  "explicacion": {
+   "es": "そろそろ marca que ya va siendo hora.",
+   "en": "そろそろ marks that it is about time."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-iikae-0008",
+  "nivel": "N4",
+  "tipo": "iikae",
+  "instruccion_ja": "＿＿の文とだいたい同じ意味の文があります。1・2・3・4から一つ選びなさい。",
+  "enunciado": "この へやは <u>じゅうぶん</u>広いです。",
+  "opciones": [
+   "この へやの 広さで 足ります。",
+   "この へやは せますぎます。",
+   "この へやは 少し くらいです。",
+   "この へやは 新しいです。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "反対の意味",
+   "明るさの話",
+   "新しさの話"
+  ],
+  "explicacion": {
+   "es": "じゅうぶん = basta, es suficiente.",
+   "en": "じゅうぶん means enough, sufficient."
+  },
+  "etiquetas": [],
+  "dificultad": 2
+ },
+ {
+  "id": "n4-youhou-0005",
+  "nivel": "N4",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "届く",
+  "opciones": [
+   "きのう 国から 荷物が 届いた。",
+   "友だちに 手紙を 届いた。",
+   "この 本を 図書館に 届いて ください。",
+   "駅まで 十分で 届く。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "自動詞なので を は取らない",
+   "他動詞の届けるを使う場面",
+   "所要時間には使わない"
+  ],
+  "explicacion": {
+   "es": "届く es intransitivo: algo llega. Enviarlo es 届ける.",
+   "en": "届く is intransitive: something arrives. To deliver it is 届ける."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n4-youhou-0006",
+  "nivel": "N4",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "さっそく",
+  "opciones": [
+   "買った 本を さっそく 読んで みた。",
+   "毎日 さっそく 学校へ 行く。",
+   "さっそく 大きい 犬が いる。",
+   "この 店は さっそく 安い。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "習慣には使わない",
+   "様子を表す言葉ではない",
+   "程度を表す言葉ではない"
+  ],
+  "explicacion": {
+   "es": "さっそく es «sin tardar», justo después de algo, no una costumbre.",
+   "en": "さっそく means right away after something, not a habit."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n4-youhou-0007",
+  "nivel": "N4",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "苦手",
+  "opciones": [
+   "わたしは 人の 前で 話すのが 苦手だ。",
+   "この 料理は 苦手に 作った。",
+   "きょうは 苦手な 天気だ。",
+   "苦手な 人が 来て うれしい。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "作り方には使わない",
+   "天気には使わない",
+   "意味が反対になる"
+  ],
+  "explicacion": {
+   "es": "苦手 es que algo se te da mal o no te gusta hacerlo.",
+   "en": "苦手 means you are bad at something or dislike doing it."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ },
+ {
+  "id": "n4-youhou-0008",
+  "nivel": "N4",
+  "tipo": "youhou",
+  "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "たしか",
+  "opciones": [
+   "たしか 会議は 三時からだったと 思う。",
+   "この 答えは たしかです。",
+   "たしか 雨が ふって います。",
+   "彼は たしかに 行きました か。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "確かだという意味の形容動詞と混同",
+   "今見えることには使わない",
+   "疑問文には使いにくい"
+  ],
+  "explicacion": {
+   "es": "たしか, como adverbio, es «si no recuerdo mal».",
+   "en": "たしか as an adverb means «if I remember rightly»."
+  },
+  "etiquetas": [],
+  "dificultad": 3
+ }
+]
