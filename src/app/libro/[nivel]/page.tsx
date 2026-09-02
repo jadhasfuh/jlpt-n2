@@ -1,5 +1,5 @@
 import { notFound, redirect } from "next/navigation";
-import { capitulos, lectura, palabras } from "@/lib/contenido";
+import { capitulos, gramaticas, lectura, palabras } from "@/lib/contenido";
 import { puedeVer } from "@/lib/acceso-servidor";
 import { Cabecera } from "@/components/Cabecera";
 import { Libro } from "@/components/Libro";
@@ -50,6 +50,9 @@ export default async function Pagina(
           unidad={{ id: u.id, ja: u.ja, es: u.es, en: u.en, seccion: u.seccion }}
           vocabulario={palabras(u.palabras).map((w) => ({
             id: w.id, escritura: w.escritura, lectura: w.lectura, es: w.es, en: w.en,
+          }))}
+          gramatica={gramaticas(u.gramatica).map((g) => ({
+            id: g.id, forma: g.forma, lectura: g.lectura, es: g.es, en: g.en,
           }))}
           lectura={l}
         />

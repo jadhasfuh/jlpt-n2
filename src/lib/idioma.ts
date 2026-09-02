@@ -400,6 +400,8 @@ const T = {
   "lib2.capitulo":  { es: "capítulo {i} de {n}", en: "chapter {i} of {n}" },
   "lib2.antes":     { es: "Las palabras de este capítulo",
                       en: "The words in this chapter" },
+  "lib2.gramatica": { es: "La gramática de este capítulo",
+                      en: "The grammar in this chapter" },
   "lib2.anterior":  { es: "Anterior", en: "Previous" },
   "lib2.siguiente": { es: "Siguiente capítulo", en: "Next chapter" },
   "lib2.irUnidad":  { es: "Estudiar esta unidad", en: "Study this unit" },

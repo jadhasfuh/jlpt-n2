@@ -11,6 +11,7 @@ import { anotarLectura } from "@/lib/progreso";
 import { significado as sig } from "@/lib/idioma";
 
 type Palabra = { id: number; escritura: string; lectura: string; es: string; en: string };
+type Punto = { id: string; forma: string; lectura: string; es: string; en: string };
 
 /**
  * Un capítulo del libro: primero las palabras, después la historia.
@@ -19,10 +20,11 @@ type Palabra = { id: number; escritura: string; lectura: string; es: string; en:
  * anexo: es lo que hace que el capítulo siguiente se entienda sin diccionario,
  * que es exactamente lo que separa leer de descifrar.
  */
-export function Libro({ nivel, n, total, unidad, vocabulario, lectura }: {
+export function Libro({ nivel, n, total, unidad, vocabulario, gramatica, lectura }: {
   nivel: string; n: number; total: number;
   unidad: { id: string; ja: string; es: string; en: string; seccion: string };
   vocabulario: Palabra[];
+  gramatica: Punto[];
   lectura: Lectura | null;
 }) {
   const { t, idioma } = useAjustes();
@@ -70,6 +72,23 @@ export function Libro({ nivel, n, total, unidad, vocabulario, lectura }: {
             </div>
           ))}
         </div>
+
+        {/* La gramática va en la misma página que las palabras: en papel serán
+            la hoja de la izquierda, y la lectura la de la derecha. */}
+        {gramatica.length > 0 && (
+          <>
+            <p className="etiqueta" style={{ marginTop: 18 }}>{t("lib2.gramatica")}</p>
+            <div style={{ display: "grid", gap: 8 }}>
+              {gramatica.map((g) => (
+                <div key={g.id} style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
+                  <span className="jp" style={{ fontSize: 16, minWidth: 104 }}>{g.forma}</span>
+                  <span className="tenue" style={{ minWidth: 88 }}>{g.lectura}</span>
+                  <span style={{ fontSize: 13, color: "var(--tinta-2)" }}>{sig(g, idioma)}</span>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
       </section>
 
       {lectura ? (
