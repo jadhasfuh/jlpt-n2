@@ -20,8 +20,8 @@
     "path": "./android.keystore",
     "alias": "jlptest"
   },
-  "appVersionName": "1.0.1",
-  "appVersionCode": 3,
+  "appVersionName": "1.0.2",
+  "appVersionCode": 4,
   "shortcuts": [
     {
       "name": "Repaso de hoy",
@@ -56,5 +56,5 @@
   "fileHandlers": [],
   "launchHandlerClientMode": "auto",
   "displayOverride": [],
-  "appVersion": "1.0.1"
+  "appVersion": "1.0.2"
 }
