@@ -1,0 +1,734 @@
+[
+ {
+  "id": "n2-kadai-0006",
+  "nivel": "N2",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "部下は このあと まず 何を しますか。",
+  "opciones": [
+   "経理に 金額を 確認します",
+   "上司に 見せます",
+   "先方に 送ります",
+   "見積もりを 作り直します"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "確認のあと",
+   "最後の手順",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Primero contabilidad, luego enseñárselo al jefe.",
+   "en": "Accounts first, then show the boss."
+  },
+  "guion": {
+   "intro": "会社で 上司と 部下が 話しています。部下は このあと まず 何を しますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "例の 見積もり、先方に 送りましたか。"
+    },
+    {
+     "quien": "M",
+     "texto": "いえ、金額の 確認が まだで。"
+    },
+    {
+     "quien": "F",
+     "texto": "では 経理に 確認して から、私に 一度 見せて ください。"
+    },
+    {
+     "quien": "M",
+     "texto": "承知しました。"
+    }
+   ],
+   "pregunta": "部下は このあと まず 何を しますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-kadai-0007",
+  "nivel": "N2",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "客は どう することに しましたか。",
+  "opciones": [
+   "二脚 そろって から 届けて もらう",
+   "今 一脚だけ 買う",
+   "注文を やめる",
+   "二週間後に 店に 取りに 行く"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "そろってからと言った",
+   "注文している",
+   "届けてもらう"
+  ],
+  "explicacion": {
+   "es": "Prefiere esperar y recibir las dos juntas.",
+   "en": "He prefers to wait and get both together."
+  },
+  "guion": {
+   "intro": "店で 客と 店員が 話しています。客は どう することに しましたか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "この 椅子、二脚 欲しいんですが。"
+    },
+    {
+     "quien": "F",
+     "texto": "在庫は 一脚で、あとは 取り寄せに なります。"
+    },
+    {
+     "quien": "M",
+     "texto": "どのくらい かかりますか。"
+    },
+    {
+     "quien": "F",
+     "texto": "二週間ほど。まとめて お届けも できますが。"
+    },
+    {
+     "quien": "M",
+     "texto": "ばらばらだと 困るので、そろってからで。"
+    }
+   ],
+   "pregunta": "客は どう することに しましたか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-kadai-0008",
+  "nivel": "N2",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の学生は このあと どこへ 行きますか。",
+  "opciones": [
+   "事務室",
+   "三階",
+   "図書館",
+   "家"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "故障中",
+   "学生証がない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Sin carné y con la copiadora rota, va a secretaría.",
+   "en": "No card and a broken copier: she goes to the office."
+  },
+  "guion": {
+   "intro": "大学で 学生 二人が 話しています。女の学生は このあと どこへ 行きますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "発表の 資料、印刷しないと。"
+    },
+    {
+     "quien": "M",
+     "texto": "三階の コピー機、故障中だよ。"
+    },
+    {
+     "quien": "F",
+     "texto": "えっ、じゃあ 図書館?"
+    },
+    {
+     "quien": "M",
+     "texto": "図書館のは 学生証が 要る。持ってる?"
+    },
+    {
+     "quien": "F",
+     "texto": "あ、今日 忘れた。じゃあ 事務室で 頼んで みる。"
+    }
+   ],
+   "pregunta": "女の学生は このあと どこへ 行きますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-kadai-0009",
+  "nivel": "N2",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "二人は 週末 何を しますか。",
+  "opciones": [
+   "押し入れを 片づけます",
+   "山に 行きます",
+   "映画を 見ます",
+   "買い物に 行きます"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "雨で無理",
+   "提案されたが選ばれなかった",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Aprovechan la lluvia para ordenar el armario.",
+   "en": "They use the rain to sort out the cupboard."
+  },
+  "guion": {
+   "intro": "家で 夫婦が 話しています。二人は 週末 何を しますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "週末、ずっと 雨みたいだよ。"
+    },
+    {
+     "quien": "F",
+     "texto": "じゃあ 山は 無理ね。"
+    },
+    {
+     "quien": "M",
+     "texto": "映画でも 見る?"
+    },
+    {
+     "quien": "F",
+     "texto": "それも いいけど、この 機会に 押し入れを 片づけない?"
+    },
+    {
+     "quien": "M",
+     "texto": "うん、そうしよう。"
+    }
+   ],
+   "pregunta": "二人は 週末 何を しますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-kadai-0010",
+  "nivel": "N2",
+  "tipo": "kadai",
+  "instruccion_ja": "問題では、まず質問を聞いてください。それから話を聞いて、問題用紙の1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "次の 会議は いつに なりますか。",
+  "opciones": [
+   "水曜の 午後",
+   "火曜の 午後",
+   "水曜の 午前",
+   "木曜の 午前"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "出張",
+   "田中さんが会議",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Miércoles por la tarde: es la única franja libre para los tres.",
+   "en": "Wednesday afternoon: the only slot free for all three."
+  },
+  "guion": {
+   "intro": "会議で 三人が 話しています。次の 会議は いつに なりますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "来週の 火曜、午後は どうですか。"
+    },
+    {
+     "quien": "F",
+     "texto": "火曜は 出張です。"
+    },
+    {
+     "quien": "M",
+     "texto": "では 水曜の 午前。"
+    },
+    {
+     "quien": "F",
+     "texto": "私は 大丈夫ですが、田中さんが 午前は 会議で。"
+    },
+    {
+     "quien": "M",
+     "texto": "じゃあ 水曜の 午後で。"
+    }
+   ],
+   "pregunta": "次の 会議は いつに なりますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-point-0007",
+  "nivel": "N2",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は 転職の 理由を 何だと 言っていますか。",
+  "opciones": [
+   "先の 見通しが 持てないから",
+   "給料が 低いから",
+   "人間関係が 悪いから",
+   "家が 遠いから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "下がると言っている",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "No es el sueldo: no se ve dentro de cinco años.",
+   "en": "Not the pay: he can't picture himself in five years."
+  },
+  "guion": {
+   "intro": "男の人と 女の人が 話しています。男の人は 転職の 理由を 何だと 言っていますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "転職、決めたんですね。"
+    },
+    {
+     "quien": "M",
+     "texto": "ええ。給料は 少し 下がるんですが。"
+    },
+    {
+     "quien": "F",
+     "texto": "では なぜ?"
+    },
+    {
+     "quien": "M",
+     "texto": "今の 仕事は、五年後の 自分が 想像できなくて。"
+    }
+   ],
+   "pregunta": "男の人は 転職の 理由を 何だと 言っていますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 4,
+  "puntos": [
+   "給料は下がる",
+   "五年後が想像できない"
+  ]
+ },
+ {
+  "id": "n2-point-0008",
+  "nivel": "N2",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "店長は 何を 一番 心配して いますか。",
+  "opciones": [
+   "待ち時間が 長く なる こと",
+   "味が 落ちる こと",
+   "材料が 足りない こと",
+   "人手が 足りない こと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "評判はいいと言っている",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Le preocupa que la espera aleje a los clientes.",
+   "en": "He worries the wait will drive customers away."
+  },
+  "guion": {
+   "intro": "店長と 店員が 話しています。店長は 何を 一番 心配して いますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "新メニュー、評判は いいですね。"
+    },
+    {
+     "quien": "F",
+     "texto": "ええ、注文も 増えました。"
+    },
+    {
+     "quien": "M",
+     "texto": "ただ、提供までの 時間が 延びて いて。待たされた お客様が 減らないか。"
+    },
+    {
+     "quien": "F",
+     "texto": "調理の 順番を 見直します。"
+    }
+   ],
+   "pregunta": "店長は 何を 一番 心配して いますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-point-0009",
+  "nivel": "N2",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は 何が よかったと 言っていますか。",
+  "opciones": [
+   "ほかの 受講者の 質問が 聞けた こと",
+   "内容が 高度だった こと",
+   "講師が 有名だった こと",
+   "教材が 多かった こと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "易しかったと言っている",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Lo bueno fueron las preguntas de los demás.",
+   "en": "The good part was the other students' questions."
+  },
+  "guion": {
+   "intro": "女の人と 男の人が 話しています。女の人は 何が よかったと 言っていますか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "講座、どうでした?"
+    },
+    {
+     "quien": "F",
+     "texto": "内容は 少し 易しかったんですが。"
+    },
+    {
+     "quien": "M",
+     "texto": "では?"
+    },
+    {
+     "quien": "F",
+     "texto": "毎回 質問の 時間が 長くて。ほかの 人の 疑問が 参考に なりました。"
+    }
+   ],
+   "pregunta": "女の人は 何が よかったと 言っていますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-point-0010",
+  "nivel": "N2",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "二人は 何を 変える ことに しましたか。",
+  "opciones": [
+   "質問の 数と 案内の 書き方",
+   "配る 場所",
+   "集める 期間",
+   "回答の 方法"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文にない",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Reducen a diez preguntas y anuncian el tiempo necesario.",
+   "en": "They cut to ten questions and state how long it takes."
+  },
+  "guion": {
+   "intro": "男の人と 女の人が 話しています。二人は 何を 変える ことに しましたか。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "アンケートの 回収率が 低くて。"
+    },
+    {
+     "quien": "F",
+     "texto": "質問の 数は?"
+    },
+    {
+     "quien": "M",
+     "texto": "二十問。"
+    },
+    {
+     "quien": "F",
+     "texto": "多いですね。十問に して、記入時間を 書いて おきましょう。"
+    },
+    {
+     "quien": "M",
+     "texto": "そうしましょう。"
+    }
+   ],
+   "pregunta": "二人は 何を 変える ことに しましたか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-point-0011",
+  "nivel": "N2",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "先生は 論文の 何を 直すように 言っていますか。",
+  "opciones": [
+   "結論の 言い方",
+   "データの 集め方",
+   "文章の 長さ",
+   "参考文献の 数"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "よく集まっていると言っている",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "La conclusión excede lo que los datos permiten afirmar.",
+   "en": "The conclusion goes beyond what the data support."
+  },
+  "guion": {
+   "intro": "先生と 学生が 話しています。先生は 論文の 何を 直すように 言っていますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "データは よく 集まって いますね。"
+    },
+    {
+     "quien": "M",
+     "texto": "ありがとうございます。"
+    },
+    {
+     "quien": "F",
+     "texto": "ただ、結論が データより 大きい。言える 範囲に そろえて ください。"
+    },
+    {
+     "quien": "M",
+     "texto": "はい、書き直します。"
+    }
+   ],
+   "pregunta": "先生は 論文の 何を 直すように 言っていますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-point-0012",
+  "nivel": "N2",
+  "tipo": "point",
+  "instruccion_ja": "問題では、まず質問を聞いてください。そのあと、問題用紙のせんたくしを読んでください。読む時間があります。それから話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は 何が 大変だと 言っていますか。",
+  "opciones": [
+   "通信の 工事が 終わって いない こと",
+   "部屋が せまい こと",
+   "家賃が 高い こと",
+   "駅から 遠い こと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "部屋はいいと言っている",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Sin conexión durante tres semanas no puede trabajar.",
+   "en": "Three weeks without a connection means he can't work."
+  },
+  "guion": {
+   "intro": "女の人と 男の人が 話しています。男の人は 引っ越しの 何が 大変だったと 言っていますか。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "新居、どうですか。"
+    },
+    {
+     "quien": "M",
+     "texto": "部屋は いいんですが、ネットが まだで。"
+    },
+    {
+     "quien": "F",
+     "texto": "工事待ちですか。"
+    },
+    {
+     "quien": "M",
+     "texto": "ええ、三週間。仕事に ならなくて。"
+    }
+   ],
+   "pregunta": "男の人は 何が 大変だと 言っていますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-gaiyou-0006",
+  "nivel": "N2",
+  "tipo": "gaiyou",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は 何に ついて 話して いますか。",
+  "opciones": [
+   "仕事の 終わりを 自分で 決める 工夫",
+   "在宅勤務の 効率の 高さ",
+   "通勤時間の 使い方",
+   "運動不足の 解消法"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "効率の話ではない",
+   "通勤はなくなった",
+   "散歩は手段にすぎない"
+  ],
+  "explicacion": {
+   "es": "Habla de fabricarse una señal de fin de jornada.",
+   "en": "She talks about making her own end-of-day signal."
+  },
+  "guion": {
+   "intro": "会社で 女の人が 話しています。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "在宅勤務を 始めて 一年に なります。通勤が なくなった 分、時間は 増えました。ただ、増えた 時間が そのまま 仕事に 流れ込む。終わりの 合図が ないからです。私は 今、夕方に 十分だけ 散歩を します。戻って きたら もう 仕事は しない。合図を 自分で 作る、という ことです。"
+    }
+   ],
+   "pregunta": "女の人は 何に ついて 話して いますか。",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-gaiyou-0007",
+  "nivel": "N2",
+  "tipo": "gaiyou",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は 何に ついて 話して いますか。",
+  "opciones": [
+   "古い 建物を 残す ときの 考え方",
+   "建物の 修理の 方法",
+   "町の 歴史の 調べ方",
+   "観光客の 集め方"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "方法の話ではない",
+   "歴史の話ではない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Defiende decidir primero quién lo usará.",
+   "en": "He argues for deciding first who will use it."
+  },
+  "guion": {
+   "intro": "ラジオで 男の人が 話しています。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "古い 建物を 残すかどうかで、よく 意見が 分かれます。私は、残すか 壊すかの 前に、だれが 使うのかを 決めた ほうが よいと 考えます。使う 人が いない まま 残した 建物は、十年 後に もっと 大きな 問題に なる。保存とは、形を 残す ことでは なく、使い方を 引き継ぐ ことです。"
+    }
+   ],
+   "pregunta": "男の人は 何に ついて 話して いますか。",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-gaiyou-0008",
+  "nivel": "N2",
+  "tipo": "gaiyou",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の人は 何に ついて 話して いますか。",
+  "opciones": [
+   "研修の やり方を 変えた 理由",
+   "新入社員の 数の 変化",
+   "先輩社員の 評価の しかた",
+   "研修の 費用の 削減"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "人数の話はしていない",
+   "評価の話ではない",
+   "費用の話ではない"
+  ],
+  "explicacion": {
+   "es": "Explica por qué cambió el formato de la formación.",
+   "en": "He explains why he changed how training works."
+  },
+  "guion": {
+   "intro": "会議で 男の人が 話しています。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "新入社員の 研修を 三日 短く しました。代わりに、配属後 三か月間、週に 一度 先輩と 話す 時間を 作りました。研修で 覚えた ことは 忘れますが、困った ときに 聞ける 相手が いれば、覚え直せます。教える 量より、聞ける 関係を 先に 作る という 考えです。"
+    }
+   ],
+   "pregunta": "男の人は 何に ついて 話して いますか。",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-gaiyou-0009",
+  "nivel": "N2",
+  "tipo": "gaiyou",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "女の人は 何に ついて 話して いますか。",
+  "opciones": [
+   "品数を 減らした 結果",
+   "新しい 商品の 説明",
+   "店員の 教育の 方法",
+   "開店の 時間の 変更"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "商品の説明ではない",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Cuenta qué pasó al reducir el surtido a la mitad.",
+   "en": "She reports what happened when the range was halved."
+  },
+  "guion": {
+   "intro": "店で 女の人が 話しています。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "品ぞろえを 半分に 減らしました。売り上げは 落ちると 思って いましたが、実際には 上がりました。選ぶのに 疲れて、何も 買わずに 帰る お客様が 多かったのだと 思います。少ない ほうが 選びやすい。置く ことより、置かない ことを 考えるように なりました。"
+    }
+   ],
+   "pregunta": "女の人は 何に ついて 話して いますか。",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-gaiyou-0010",
+  "nivel": "N2",
+  "tipo": "gaiyou",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。この問題は、全体としてどんな内容かを聞く問題です。話の前に質問はありません。まず話を聞いてください。それから、質問とせんたくしを聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "男の先生は 何に ついて 話して いますか。",
+  "opciones": [
+   "レポートで 引用が 必要な 理由",
+   "文章を 書く 速さ",
+   "本の 選び方",
+   "試験の 採点の 基準"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "速さの話ではない",
+   "本の選び方ではない",
+   "採点の話ではない"
+  ],
+  "explicacion": {
+   "es": "Explica para qué sirve citar en un trabajo.",
+   "en": "He explains what citation is for."
+  },
+  "guion": {
+   "intro": "大学で 男の先生が 話しています。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "レポートに 引用が 一つも ない 学生が います。自分の 言葉で 書いた、というのが 理由です。しかし、だれの 考えと 違うのかを 示さなければ、その 主張が 新しいのかどうか 分かりません。引用は 借り物では なく、自分の 位置を 示す ための 地図です。"
+    }
+   ],
+   "pregunta": "男の先生は 何に ついて 話して いますか。",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ }
+]

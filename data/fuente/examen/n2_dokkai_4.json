@@ -1,0 +1,412 @@
+[
+ {
+  "id": "n2-tanbun-0006",
+  "nivel": "N2",
+  "tipo": "tanbun",
+  "grupo": "n2-tanbun-g006",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者の 考えに 合う ものは どれか。",
+  "opciones": [
+   "説明書は 途中から 読まれる ことを 前提に すべきだ",
+   "説明書は 使う 前に 全部 読む べきだ",
+   "説明書を 読まない 人は 不真面目だ",
+   "説明書は 短い ほうが よい"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "筆者は自然な順序だと言っている",
+   "責める声には同意していない",
+   "長さの話はしていない"
+  ],
+  "explicacion": {
+   "es": "Concluye que un buen manual se entiende abriéndolo por la mitad.",
+   "en": "He concludes a good manual can be opened halfway and still make sense."
+  },
+  "etiquetas": [],
+  "dificultad": 4,
+  "pasaje": {
+   "texto": "新しい道具を使い始めたとき、人は説明書を読まない。まず触って、動かなくなってから読む。これを「不真面目だ」と責める声もあるが、私はむしろ自然な順序だと思う。説明書は、困っている人にとってだけ意味のある文章である。困る前に読んでも、どの記述が自分に関係するのか分からない。よい説明書とは、最初から読ませる文章ではなく、途中から開いても分かる文章のことだ。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n2-tanbun-0007",
+  "nivel": "N2",
+  "tipo": "tanbun",
+  "grupo": "n2-tanbun-g007",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "上司の 指摘の 要点は 何か。",
+  "opciones": [
+   "結論を 先に 言えば 聞く 側が 楽に なる",
+   "報告は 短く する べきだ",
+   "説明を くわしく する べきだ",
+   "順を 追った 説明は 親切だ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "長さの話ではない",
+   "くわしさの話ではない",
+   "筆者が改めた考え方"
+  ],
+  "explicacion": {
+   "es": "El orden, no la extensión: la conclusión primero alivia a quien escucha.",
+   "en": "Order, not length: putting the conclusion first eases the listener."
+  },
+  "etiquetas": [],
+  "dificultad": 4,
+  "pasaje": {
+   "texto": "会社に入って三年目のころ、上司に「君の報告は結論が最後にある」と言われた。私は順を追って説明するのが親切だと思っていたが、聞く側は結論を待つ間、何を判断すればよいか分からない。結論を先に置くと、その後の説明は「なぜそう言えるか」の材料として聞いてもらえる。同じ内容でも、順序を変えるだけで相手の負担は減る。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n2-tanbun-0008",
+  "nivel": "N2",
+  "tipo": "tanbun",
+  "grupo": "n2-tanbun-g008",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が 言いたい ことは 何か。",
+  "opciones": [
+   "終わりが 見えると 負担の 感じ方が 変わる",
+   "階段には 表示を つける べきだ",
+   "仕事の 量は 減らす べきだ",
+   "十段は 短い 距離だ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "例として出しただけ",
+   "量ではなく見せ方の話",
+   "本文の要点ではない"
+  ],
+  "explicacion": {
+   "es": "El ejemplo de la escalera sirve para hablar de mostrar el final.",
+   "en": "The stairs example is about showing where the end is."
+  },
+  "etiquetas": [],
+  "dificultad": 4,
+  "pasaje": {
+   "texto": "駅の階段に「あと十段」と書かれた紙が貼ってあった。数えてみると、確かに十段だった。たったそれだけのことだが、上りきるまでの感じ方が変わった。終わりが見えると、同じ距離でも短く感じる。仕事でも同じで、いつ終わるか分からない作業ほど重い。工程を区切って見せるのは、量を減らすことと同じくらいの効果がある。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n2-tanbun-0009",
+  "nivel": "N2",
+  "tipo": "tanbun",
+  "grupo": "n2-tanbun-g009",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者は 星の 評価に ついて どう 考えて いるか。",
+  "opciones": [
+   "平均だけでは 店の 性格は 分からない",
+   "星の 評価は 役に 立たない",
+   "評価は 数字で 表す べきでは ない",
+   "点数の 高い 店を 選ぶ べきだ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "入り口としては認めている",
+   "数字自体は否定していない",
+   "選び方の助言ではない"
+  ],
+  "explicacion": {
+   "es": "Admite el número como entrada, pero pide leer por qué se reparte.",
+   "en": "He accepts the score as a starting point but asks why it splits."
+  },
+  "etiquetas": [],
+  "dificultad": 4,
+  "pasaje": {
+   "texto": "店の評価を星の数で表す仕組みが広まった。便利だが、平均点は多くを隠す。五と一が半々の店と、三ばかりの店は同じ三になる。前者は好みが割れる店で、後者は特徴のない店だ。客として知りたいのは平均ではなく、どんな理由で分かれているのかである。数字は入り口にすぎず、そこから先を読む手間を省いてはいけない。数字は、考えるのをやめる口実にもなりうる。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n2-tanbun-0010",
+  "nivel": "N2",
+  "tipo": "tanbun",
+  "grupo": "n2-tanbun-g010",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "「棒を 立てる」とは、ここでは どういう ことか。",
+  "opciones": [
+   "その日の 終わりを 先に 決める こと",
+   "畑の 真ん中に 目印を 置く こと",
+   "作業を 早く 終わらせる こと",
+   "祖父の やり方を まねる こと"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "文字どおりの意味にすぎない",
+   "速さの話ではない",
+   "行為の由来にすぎない"
+  ],
+  "explicacion": {
+   "es": "La metáfora es fijar de antemano dónde acaba el día.",
+   "en": "The metaphor is deciding in advance where the day ends."
+  },
+  "etiquetas": [],
+  "dificultad": 4,
+  "pasaje": {
+   "texto": "子どものころ、祖父の畑を手伝わされるのが嫌いだった。夏の朝は暑く、草はいくら抜いてもまた生える。ある日、祖父が「今日はここまで」と言って、畑の真ん中に棒を立てた。翌日はその棒から始めた。終わりを決めると、作業は急に手に負えるものになった。今、私が仕事で最初にするのは、その日の棒を立てることである。量は変わらないのに、終わりがあるだけで気持ちは軽くなる。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n2-chuubun-0011",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "grupo": "n2-chuubun-g010",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "先生の 指導に ついて、筆者は はじめ どう 思ったか。",
+  "opciones": [
+   "答えを 教えて くれず 不親切だと 思った",
+   "自由で ありがたいと 思った",
+   "むずかしすぎると 思った",
+   "分量は 必要ないと 思った"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "あとで考えが変わった",
+   "内容が違う",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Al principio le pareció poco servicial: quería la respuesta correcta.",
+   "en": "At first it seemed unhelpful: he wanted the right answer."
+  },
+  "etiquetas": [],
+  "dificultad": 4,
+  "pasaje": {
+   "texto": "料理教室に通い始めて分かったのは、レシピの分量が「正解」ではないということだった。同じ分量で作っても、鍋の大きさや火の強さで結果は変わる。先生はよく「一度そのとおりに作って、次に自分の台所に合わせて直しなさい」と言った。\n最初は不親切な指導だと思った。正しい答えを教えてほしかったからだ。しかし三か月ほど通ううちに、直すためには一度そのとおりに作る必要があると気づいた。基準がなければ、どこをどう変えたのかも分からない。\n今、私は分量を量りながらも、味見のたびに少しずつ変える。レシピは命令ではなく、出発点だった。そう思えるようになってから、料理は失敗しても楽しくなった。\n最近は、家にある調味料の量まで書いてあるレシピも見かける。親切だとは思うが、そこまで決められると、自分の台所と向き合う機会は減る。少し足りないくらいの説明のほうが、結局は身につくのかもしれない。料理に限らず、手順書というものは、そういうものなのだろう。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n2-chuubun-0012",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "grupo": "n2-chuubun-g010",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "「一度そのとおりに作る」ことが 必要なのは なぜか。",
+  "opciones": [
+   "変えた ところが 分かる 基準に なるから",
+   "先生に ほめられるから",
+   "失敗しないで すむから",
+   "分量を 覚えられるから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文にない",
+   "失敗の話は最後だけ",
+   "覚えることが目的ではない"
+  ],
+  "explicacion": {
+   "es": "Sin una referencia no se sabe qué se ha cambiado.",
+   "en": "Without a baseline you can't tell what you changed."
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-chuubun-0013",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "grupo": "n2-chuubun-g010",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者に とって レシピとは 何か。",
+  "opciones": [
+   "直して いく ための 出発点",
+   "守る べき 命令",
+   "先生の 好みの 記録",
+   "台所の 大きさの 目安"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "命令ではないと書いてある",
+   "本文にない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Lo dice literalmente: no es una orden, es un punto de partida.",
+   "en": "He says it outright: not a command but a starting point."
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-chuubun-0014",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "grupo": "n2-chuubun-g011",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "最も 長く 働いて いる 人が 反対したのは なぜか。",
+  "opciones": [
+   "自分が 作り上げた 手順が 無効に なるから",
+   "新しい ものが きらいだから",
+   "仕事を 減らしたかったから",
+   "説明が なかったから"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "筆者はその見方を退けている",
+   "本文にない",
+   "説明はあとで変えた"
+  ],
+  "explicacion": {
+   "es": "Defendía la eficiencia que había construido en veinte años.",
+   "en": "He was defending the efficiency he had built over twenty years."
+  },
+  "etiquetas": [],
+  "dificultad": 4,
+  "pasaje": {
+   "texto": "職場に新しい記録システムが入ったとき、最も強く反対したのは、最も長く働いている人だった。理由を聞くと「今のやり方で困っていない」と言う。困っていないのは、その人が二十年かけて自分の手順を作り上げたからだ。新しい仕組みは、その二十年をいったん無効にする。\n私は反対を「変化を嫌う気持ち」と片づけそうになった。しかし、その人が守ろうとしていたのは習慣ではなく、積み上げた効率だった。そう考え直してから、説明のしかたを変えた。新しい手順がその人の工夫をどう引き継ぐのかを、具体的に示したのである。\n導入から半年、いま一番うまく使っているのはその人だ。反対する人は、たいてい一番よく考えている人でもある。\nもう一つ気づいたことがある。反対の理由を最後まで聞かずに「慣れの問題です」と答えてしまうと、そこで会話は終わる。理由を言葉にしてもらうこと自体が、導入の一部なのだと今は思う。反対は障害ではなく、情報だったのだと今になって思う。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n2-chuubun-0015",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "grupo": "n2-chuubun-g011",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者は 説明の しかたを どう 変えたか。",
+  "opciones": [
+   "その人の 工夫を どう 引き継ぐか 具体的に 示した",
+   "何度も くり返し 説明した",
+   "上司から 話して もらった",
+   "反対を 聞かない ことに した"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "回数の話ではない",
+   "本文にない",
+   "本文と反対"
+  ],
+  "explicacion": {
+   "es": "Mostró en concreto cómo el nuevo sistema recogía sus mañas.",
+   "en": "He showed concretely how the new system carried his methods over."
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-chuubun-0016",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "grupo": "n2-chuubun-g011",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 文章の 主張に 近い ものは どれか。",
+  "opciones": [
+   "反対する 人は よく 考えて いる ことが 多い",
+   "変化を 嫌う 人は 説得できない",
+   "新しい 仕組みは 若い 人向けだ",
+   "長く 働く 人ほど 効率が 悪い"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文と反対",
+   "本文にない",
+   "本文と反対"
+  ],
+  "explicacion": {
+   "es": "La última frase lo dice: quien se opone suele ser quien más ha pensado.",
+   "en": "The last line says it: the objector is often the one who has thought most."
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-chuubun-0017",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "grupo": "n2-chuubun-g012",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者は 発音の 練習に ついて どう 考えて いるか。",
+  "opciones": [
+   "聞き分ける 力を 育てる 練習に なる",
+   "聞き取りとは 関係が ない",
+   "発音は 後回しで よい",
+   "音を まねる だけで 十分だ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文と反対",
+   "本文と反対",
+   "最後で否定している"
+  ],
+  "explicacion": {
+   "es": "Pronunciar enseña al oído dónde está la diferencia.",
+   "en": "Speaking teaches the ear where the difference lies."
+  },
+  "etiquetas": [],
+  "dificultad": 4,
+  "pasaje": {
+   "texto": "外国語を学ぶとき、聞き取れない音は発音もできないとよく言われる。私の経験では、その逆も正しい。発音してみて初めて、聞き分けるべき差がどこにあるかが分かる。口を動かすことは、耳の使い方を教える練習でもある。\nある研究では、単語を声に出して覚えた場合と、目で読んで覚えた場合を比べ、前者のほうが後から思い出しやすいという結果が出た。声に出すと、音の情報と体の動きの情報が同時に残るためだと考えられている。\nもっとも、声に出せばよいというものでもない。意味を思い浮かべずに音だけをくり返しても、記憶には残りにくい。動かすのは口だけではなく、頭も同時でなければならない。\nさらに言えば、聞き取りの練習と発音の練習を別々の時間に行う必要もない。聞こえた音をその場でまねる。それだけで、耳と口は同じ方向を向き始める。遠回りに見えて、いちばん短い道である。学び方を決めるのは方法ではなく、続けられるかどうかである。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n2-chuubun-0018",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "grupo": "n2-chuubun-g012",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "研究の 結果は 何を 示して いるか。",
+  "opciones": [
+   "声に 出して 覚えた ほうが 思い出しやすい",
+   "目で 読んだ ほうが 速く 覚えられる",
+   "覚え方に 差は ない",
+   "意味を 考えると 忘れやすい"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "本文と反対",
+   "差が出ている",
+   "本文と反対"
+  ],
+  "explicacion": {
+   "es": "Lo aprendido en voz alta se recuerda mejor después.",
+   "en": "What is learned aloud is recalled better afterwards."
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-chuubun-0019",
+  "nivel": "N2",
+  "tipo": "chuubun",
+  "grupo": "n2-chuubun-g012",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "筆者が 最後に 注意して いる ことは 何か。",
+  "opciones": [
+   "意味を 思い浮かべずに 音だけ くり返しても 残らない",
+   "大きな 声で 言う 必要が ある",
+   "毎日 練習する 必要が ある",
+   "研究の 結果は 信じられない"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "声の大きさの話ではない",
+   "頻度の話ではない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Advierte de repetir sonidos sin pensar en el significado.",
+   "en": "He warns against repeating sounds without thinking of meaning."
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ }
+]

@@ -1,0 +1,208 @@
+[
+ {
+  "id": "n2-tougou-0003",
+  "nivel": "N2",
+  "tipo": "tougou",
+  "grupo": "n2-tougou-g003",
+  "orden_grupo": 0,
+  "instruccion_ja": "次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "服装の 自由化に ついて、AとBの 考えが 共通して いる ところは 何か。",
+  "opciones": [
+   "服装を 選ぶ ことには 手間が かかると 見て いる",
+   "自由化には 反対で ある",
+   "制服の ほうが よいと 考えて いる",
+   "新入社員には 制服が 必要だと 考えて いる"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "Aは賛成している",
+   "どちらも制服を勧めてはいない",
+   "Bは基準の話をしている"
+  ],
+  "explicacion": {
+   "es": "Los dos parten de que elegir ropa cuesta esfuerzo; discrepan en la solución.",
+   "en": "Both start from the effort of choosing; they differ on the remedy."
+  },
+  "etiquetas": [],
+  "dificultad": 5,
+  "pasaje": {
+   "texto": "A\n社員の服装を自由にする会社が増えている。私は賛成だ。何を着るかを毎朝考える手間は、思っているより大きい。制服や決まりがあれば、その分の判断を仕事に回せるという意見もあるが、実際には「浮かないこと」を考えて選ぶほうが疲れる。自由であれば、いずれ各自の定番が決まり、判断そのものが消える。\n\nB\n服装の自由化には条件がある。何を着てもよい、とだけ伝えて放り出すのは不親切だ。客に会う日と会わない日で基準は違うし、新しく入った人には比べる相手がいない。自由とは、判断を各自に渡すことである。渡すのなら、判断の材料も一緒に渡さなければ、結局は周りの様子をうかがう時間が増えるだけになる。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n2-tougou-0004",
+  "nivel": "N2",
+  "tipo": "tougou",
+  "grupo": "n2-tougou-g003",
+  "orden_grupo": 1,
+  "instruccion_ja": "次のAとBの文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "Bが Aと 違う 点は 何か。",
+  "opciones": [
+   "自由には 判断の 材料が 必要だと 考えて いる",
+   "自由化そのものに 反対して いる",
+   "服装は 会社が 決める べきだと 考えて いる",
+   "手間は 小さいと 考えて いる"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "否定はしていない",
+   "会社が決めるとは言っていない",
+   "手間の大きさは争点ではない"
+  ],
+  "explicacion": {
+   "es": "B no niega la libertad: pide que se entreguen también los criterios.",
+   "en": "B doesn't reject freedom: it asks that criteria be handed over too."
+  },
+  "etiquetas": [],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-shuchou-0004",
+  "nivel": "N2",
+  "tipo": "shuchou",
+  "grupo": "n2-shuchou-g002",
+  "orden_grupo": 0,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "会議の 例で 筆者が 言いたい ことは 何か。",
+  "opciones": [
+   "見る 範囲を 変えると 効率の 評価は 逆に なる",
+   "会議は 短い ほうが よい",
+   "個別の やり取りは 避ける べきだ",
+   "参加者の 満足が 一番 大切だ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "それが問題だと言っている",
+   "手段の話にすぎない",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Con la reunión sola es eficiente; con la organización entera, no.",
+   "en": "Efficient within the meeting; not within the organisation."
+  },
+  "etiquetas": [],
+  "dificultad": 5,
+  "pasaje": {
+   "texto": "「効率」という言葉を、私たちは少し雑に使いすぎているのではないか。同じ時間で多くのことを終えれば効率がよい、と考えるのが普通だろう。だが、その「多く」を数えているのは誰かという点を、私たちはあまり問わない。\nたとえば、会議を三十分で終える。参加者は満足する。しかし、その場で言えなかった疑問が持ち帰られ、後から個別のやり取りが十回発生したとすれば、全体としては時間が増えている。会議という枠の中だけを見れば効率的で、組織という枠で見れば非効率だ。どこに線を引くかで、同じ行為の評価は逆になる。\n私は以前、書類の確認を二人で行う手順を「無駄だ」と考え、一人に減らしたことがある。確認にかかる時間は半分になった。ところが半年後、見落としによるやり直しが増えていることに気づいた。減らしたのは確認の時間であって、仕事の総量ではなかった。むしろ、やり直しという最も費用の高い作業を増やしていたのである。\nこの経験から学んだのは、効率を測るなら、測る範囲を先に決めなければならない、ということだ。範囲を狭く取れば、たいていの省略は改善に見える。広く取れば、省略の代償が姿を現す。そして厄介なことに、狭い範囲の数字のほうが、いつも早く手に入る。\n早く手に入る数字を根拠に判断を重ねていくと、組織はゆっくりと「測りやすいことだけをする集団」になっていく。測りにくいもの――教える時間、確かめる時間、迷っている人に声をかける時間――は、最初に削られる。それらは効果が遅れて現れるので、削っても当面は何も起きない。何も起きないことが、削ってよかった証拠のように見えてしまう。\n効率を否定したいのではない。順序を変えたいのだ。何を減らすかを決める前に、何を守るかを決めておく。守るものが先にあれば、効率化は道具として役に立つ。先に効率だけがあると、守るものは静かに消えていく。\n私たちが本当に節約したいのは時間ではなく、後で払うことになる代償のほうだ。それを見積もらない効率化は、支払いを先送りしているだけである。",
+   "notas": []
+  }
+ },
+ {
+  "id": "n2-shuchou-0005",
+  "nivel": "N2",
+  "tipo": "shuchou",
+  "grupo": "n2-shuchou-g002",
+  "orden_grupo": 1,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "書類の 確認を 一人に した 結果、何が 起きたか。",
+  "opciones": [
+   "やり直しが ふえ、全体の 仕事は 減らなかった",
+   "確認の 時間だけが ふえた",
+   "見落としが 減った",
+   "半年で もとに もどした"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "確認の時間は半分になった",
+   "本文と反対",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "El tiempo de revisión bajó, pero subieron las repeticiones.",
+   "en": "Checking time fell, but rework rose."
+  },
+  "etiquetas": [],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-shuchou-0006",
+  "nivel": "N2",
+  "tipo": "shuchou",
+  "grupo": "n2-shuchou-g002",
+  "orden_grupo": 2,
+  "instruccion_ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 文章で 筆者が 最も 言いたい ことは 何か。",
+  "opciones": [
+   "何を 守るかを 決めて から 効率化を すべきだ",
+   "効率を 求めるのは まちがいだ",
+   "測りやすい 数字ほど 正しい",
+   "会議は 減らす べきだ"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "否定はしていないと書いてある",
+   "本文と反対",
+   "例にすぎない"
+  ],
+  "explicacion": {
+   "es": "El cierre lo dice: primero qué se protege, después qué se recorta.",
+   "en": "The ending says it: first what you protect, then what you cut."
+  },
+  "etiquetas": [],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-jouhou-0003",
+  "nivel": "N2",
+  "tipo": "jouhou",
+  "grupo": "n2-jouhou-g003",
+  "orden_grupo": 0,
+  "instruccion_ja": "右のページは、あんないである。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "市内で 働いて いる 人が 会議室を 三時間 使う とき、料金は いくらか。",
+  "opciones": [
+   "一千円",
+   "二千円",
+   "無料",
+   "四千円"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "市外の人の料金",
+   "学習室の話",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Trabaja en la ciudad: mitad de precio, mil yenes.",
+   "en": "He works in the city: half price, a thousand yen."
+  },
+  "etiquetas": [],
+  "dificultad": 5,
+  "pasaje": {
+   "texto": "【市立図書館　会議室・学習室のご利用案内】\n\n■ 会議室（定員二十名）\n　平日　午前九時〜午後八時／土日祝　午前九時〜午後五時\n　三時間まで　二千円（市内在住・在勤の方は半額）\n　利用日の 二か月前から、窓口またはホームページで予約できます。\n\n■ 学習室（三十席）\n　平日・土日祝ともに 午前九時〜午後八時\n　無料・予約不要\n　※ 席の取り置きはできません。三十分以上離れる場合は、荷物をお持ちください。\n\n■ 共通のきまり\n　飲食は一階のロビーのみ。ふた付きの飲み物は持ち込めます。\n　通話は廊下でお願いします。\n　毎月第二水曜日と年末年始は休館です。\n\n■ キャンセル\n　会議室のキャンセルは、前日までにご連絡ください。\n　当日のキャンセルは、料金の半額をいただきます。\n\n■ 設備\n　会議室には、机・いす・ホワイトボードが あります。\n　プロジェクターの 貸し出しは、予約の ときに お申し出ください。台数に 限りが あります。\n　学習室には 電源つきの 席が 六席 あります。先着順です。\n\n■ お問い合わせ\n　一階 総合窓口、または 図書館の ホームページの 問い合わせ欄から どうぞ。\n\n■ ご利用にあたって\n　室内での 撮影は、ほかの 利用者が 写らないよう ご配慮ください。\n　会議室を 使い終えたら、机と いすを もとの 位置に もどして ください。\n　ごみは お持ち帰りください。館内に ごみ箱は ありません。",
+   "notas": [
+    {
+     "termino": "在勤",
+     "glosa": "そこで働いていること"
+    }
+   ]
+  }
+ },
+ {
+  "id": "n2-jouhou-0004",
+  "nivel": "N2",
+  "tipo": "jouhou",
+  "grupo": "n2-jouhou-g003",
+  "orden_grupo": 1,
+  "instruccion_ja": "右のページは、あんないである。これを読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+  "enunciado": "この 案内の 内容と 合って いる ものは どれか。",
+  "opciones": [
+   "学習室は 予約が いらない",
+   "学習室は 席を 取り置きできる",
+   "会議室は 当日でも 無料で キャンセルできる",
+   "飲み物は どこでも 飲める"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "取り置きはできないと書いてある",
+   "当日は半額かかる",
+   "飲食はロビーのみ"
+  ],
+  "explicacion": {
+   "es": "La sala de estudio es gratuita y sin reserva.",
+   "en": "The study room is free and needs no booking."
+  },
+  "etiquetas": [],
+  "dificultad": 5
+ }
+]

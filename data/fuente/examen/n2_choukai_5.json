@@ -1,0 +1,664 @@
+[
+ {
+  "id": "n2-sokuji-0013",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "その件、私から 伝えて おきましょうか。",
+  "opciones": [
+   "助かります。お願いします。",
+   "もう 伝えました か。",
+   "伝えて いただけます か。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "相手の申し出に答えていない",
+   "たのみ返している"
+  ],
+  "explicacion": {
+   "es": "Aceptar el ofrecimiento.",
+   "en": "Accepting the offer."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "その件、私から 伝えて おきましょうか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-sokuji-0014",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "会議、来週に ずらせないかな。",
+  "opciones": [
+   "調整して みます。",
+   "ずらしました。",
+   "ずらしましょう か。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "まだ調整していない",
+   "相手が提案済み"
+  ],
+  "explicacion": {
+   "es": "Se responde con la gestión.",
+   "en": "Answer with the action you'll take."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "会議、来週に ずらせないかな。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-sokuji-0015",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "この 書き方だと 誤解されかねないよ。",
+  "opciones": [
+   "直しておきます。",
+   "誤解されました。",
+   "誤解しても いいです か。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "まだ起きていない",
+   "意味が通らない"
+  ],
+  "explicacion": {
+   "es": "Advertencia → corregirlo.",
+   "en": "A warning → fix it."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "この 書き方だと 誤解されかねないよ。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-sokuji-0016",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "予約、いっぱいだそうですよ。",
+  "opciones": [
+   "じゃあ、別の 日に しましょう。",
+   "予約しました。",
+   "いっぱいに しましょう。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "予約できていない",
+   "意味が通らない"
+  ],
+  "explicacion": {
+   "es": "Si está lleno, se cambia de día.",
+   "en": "If it's full, change the day."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "予約、いっぱいだそうですよ。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-sokuji-0017",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "この 資料、目を 通して いただけましたか。",
+  "opciones": [
+   "すみません、まだなんです。",
+   "はい、通します。",
+   "はい、通しましょう か。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "これからの話になる",
+   "申し出になっている"
+  ],
+  "explicacion": {
+   "es": "Se responde por el estado actual.",
+   "en": "Answer about the current state."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "この 資料、目を 通して いただけましたか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-sokuji-0018",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "先方、そろそろ 返事が 来る ころですね。",
+  "opciones": [
+   "ええ、今日中には 来ると 思います。",
+   "ええ、返事しました。",
+   "ええ、来て ください。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "自分が返事する話ではない",
+   "相手を呼んでいる"
+  ],
+  "explicacion": {
+   "es": "Se habla de la respuesta esperada.",
+   "en": "You speak about the expected reply."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "先方、そろそろ 返事が 来る ころですね。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-sokuji-0019",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "この 時期は 込みますから、早めに 出た ほうが。",
+  "opciones": [
+   "そうですね、一本 早い 電車に します。",
+   "そうですね、込みました。",
+   "そうですね、出ましょう か。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "過去の話になる",
+   "相手を誘っている"
+  ],
+  "explicacion": {
+   "es": "Consejo → se concreta.",
+   "en": "Advice → make it concrete."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "この 時期は 込みますから、早めに 出た ほうが。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-sokuji-0020",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "数字が 前回と 合わないんですが。",
+  "opciones": [
+   "確認して、折り返します。",
+   "合わせました。",
+   "合いません でした か。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "まだ確認していない",
+   "聞き返しになっている"
+  ],
+  "explicacion": {
+   "es": "Se ofrece comprobar y responder.",
+   "en": "You offer to check and get back."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "数字が 前回と 合わないんですが。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-sokuji-0021",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "そちらの ご都合は いかがですか。",
+  "opciones": [
+   "午後でしたら 空いて います。",
+   "はい、都合です。",
+   "いかがでしょう か。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "答えになっていない",
+   "質問を返している"
+  ],
+  "explicacion": {
+   "es": "Se responde con la disponibilidad.",
+   "en": "Answer with your availability."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "そちらの ご都合は いかがですか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-sokuji-0022",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "この 件、部長には もう?",
+  "opciones": [
+   "まだ 報告して いません。",
+   "はい、部長です。",
+   "もう 一度 お願いします。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "答えになっていない",
+   "聞き返しになっている"
+  ],
+  "explicacion": {
+   "es": "Preguntan si ya se informó.",
+   "en": "They ask whether you have reported it."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "この 件、部長には もう?"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-sokuji-0023",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "説明が 長く なって しまって。",
+  "opciones": [
+   "いえ、よく 分かりました。",
+   "いえ、短かったです。",
+   "いえ、長く しましょう。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "否定と内容が合わない",
+   "意味が通らない"
+  ],
+  "explicacion": {
+   "es": "Se quita importancia y se valora.",
+   "en": "You wave it off and give feedback."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "説明が 長く なって しまって。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-sokuji-0024",
+  "nivel": "N2",
+  "tipo": "sokuji",
+  "instruccion_ja": "問題では、問題用紙に何も印刷されていません。まず文を聞いてください。それから、それに対する返事を聞いて、1から3の中から、最もよいものを一つ選んでください。",
+  "enunciado": "あの 案、通ると 思いますか。",
+  "opciones": [
+   "条件しだいだと 思います。",
+   "はい、通しました。",
+   "通っても いいです か。"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "自分が通す話ではない",
+   "許可を求めている"
+  ],
+  "explicacion": {
+   "es": "Se da una previsión con matiz.",
+   "en": "Give a qualified prediction."
+  },
+  "guion": {
+   "intro": "",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "あの 案、通ると 思いますか。"
+    }
+   ],
+   "pregunta": "",
+   "opciones_habladas": true
+  },
+  "etiquetas": [],
+  "dificultad": 4
+ },
+ {
+  "id": "n2-tougou_choukai-0005",
+  "nivel": "N2",
+  "tipo": "tougou_choukai",
+  "instruccion_ja": "問題では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "三人は どこへ 行く ことに しましたか。",
+  "opciones": [
+   "温泉街",
+   "海",
+   "山",
+   "まだ 決まって いない"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "乗りかえが二回",
+   "バスの本数が少ない",
+   "決まっている"
+  ],
+  "explicacion": {
+   "es": "Eligen el balneario por el directo de hora y media.",
+   "en": "They pick the spa town for the direct hour-and-a-half service."
+  },
+  "puntos": [
+   "海は乗りかえ二回",
+   "山はバスの本数が少ない",
+   "温泉街は直通"
+  ],
+  "guion": {
+   "intro": "旅行の 計画に ついて、三人が 話して います。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "候補は 三つ。海、山、それから 温泉街。"
+    },
+    {
+     "quien": "F",
+     "texto": "私は 荷物を 減らしたいので、移動が 少ない ところが。"
+    },
+    {
+     "quien": "M",
+     "texto": "海は 電車を 二回 乗りかえる。"
+    },
+    {
+     "quien": "F",
+     "texto": "山は?"
+    },
+    {
+     "quien": "M",
+     "texto": "バスが 一本。ただ 本数が 少ない。"
+    },
+    {
+     "quien": "F",
+     "texto": "温泉街は 直通が あるって 聞いた。"
+    },
+    {
+     "quien": "M",
+     "texto": "そう、一時間半で 着く。"
+    },
+    {
+     "quien": "F",
+     "texto": "じゃあ、そこに しましょう。"
+    }
+   ],
+   "pregunta": "三人は どこへ 行く ことに しましたか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-tougou_choukai-0006",
+  "nivel": "N2",
+  "tipo": "tougou_choukai",
+  "instruccion_ja": "問題では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "在宅を 選べない 曜日は いつですか。",
+  "opciones": [
+   "火曜",
+   "水曜",
+   "金曜",
+   "月曜"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "男の人が選んだ",
+   "女の人が選んだ",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "El martes hay reunión y toca ir a la oficina.",
+   "en": "Tuesday has the meeting, so it's an office day."
+  },
+  "puntos": [
+   "会議の日は出社",
+   "会議は火曜"
+  ],
+  "guion": {
+   "intro": "会社で 新しい 制度に ついて 三人が 話して います。",
+   "turnos": [
+    {
+     "quien": "F",
+     "texto": "来月から 週に 一日、在宅が 選べます。"
+    },
+    {
+     "quien": "M",
+     "texto": "全員 同じ 曜日ですか。"
+    },
+    {
+     "quien": "F",
+     "texto": "いえ、各自で。ただ 会議の 日は 出社です。"
+    },
+    {
+     "quien": "M",
+     "texto": "会議は 火曜でしたね。"
+    },
+    {
+     "quien": "F",
+     "texto": "ええ。それ以外なら いつでも。"
+    },
+    {
+     "quien": "M",
+     "texto": "水曜に します。"
+    },
+    {
+     "quien": "F",
+     "texto": "私は 金曜に します。"
+    }
+   ],
+   "pregunta": "在宅を 選べない 曜日は いつですか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-tougou_choukai-0007",
+  "nivel": "N2",
+  "tipo": "tougou_choukai",
+  "instruccion_ja": "問題では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "客は どちらを 買いますか。",
+  "opciones": [
+   "安い ほうの カメラ",
+   "二万円 高い ほうの カメラ",
+   "両方",
+   "買わない"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "暗い場所用",
+   "一台だけ",
+   "買っている"
+  ],
+  "explicacion": {
+   "es": "Como fotografía de día, le basta la primera.",
+   "en": "As he shoots in daylight, the first one is enough."
+  },
+  "puntos": [
+   "暗い場所なら高いほう",
+   "使うのは昼間"
+  ],
+  "guion": {
+   "intro": "店で 二人の 客と 店員が 話して います。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "この カメラ、初心者にも 使えますか。"
+    },
+    {
+     "quien": "F",
+     "texto": "はい。ただ、暗い 場所を よく 撮るなら、こちらの 方が。"
+    },
+    {
+     "quien": "M",
+     "texto": "値段は?"
+    },
+    {
+     "quien": "F",
+     "texto": "二万円 高く なります。"
+    },
+    {
+     "quien": "M",
+     "texto": "うーん。使うのは 昼間が ほとんどだね。"
+    },
+    {
+     "quien": "F",
+     "texto": "それでしたら 最初の もので 十分です。"
+    },
+    {
+     "quien": "M",
+     "texto": "じゃあ そちらで。"
+    }
+   ],
+   "pregunta": "客は どちらを 買いますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 5
+ },
+ {
+  "id": "n2-tougou_choukai-0008",
+  "nivel": "N2",
+  "tipo": "tougou_choukai",
+  "instruccion_ja": "問題では、長めの話を聞きます。この問題には練習はありません。メモをとってもかまいません。話を聞いて、1から4の中から、最もよいものを一つ選んでください。",
+  "enunciado": "質疑応答は だれが 担当しますか。",
+  "opciones": [
+   "二人で 受ける",
+   "男の学生だけ",
+   "女の学生だけ",
+   "先生が 受ける"
+  ],
+  "respuesta": 0,
+  "logica_distractores": [
+   "一人では答えきれないと言った",
+   "一人では答えきれないと言った",
+   "本文にない"
+  ],
+  "explicacion": {
+   "es": "Deciden que las preguntas las cojan entre los dos.",
+   "en": "They decide to field questions together."
+  },
+  "puntos": [
+   "資料は女の学生",
+   "発表は男の学生",
+   "質疑は二人で"
+  ],
+  "guion": {
+   "intro": "大学で 学生 三人が 発表の 分担を 決めて います。",
+   "turnos": [
+    {
+     "quien": "M",
+     "texto": "資料作りと 発表と 質疑応答。"
+    },
+    {
+     "quien": "F",
+     "texto": "私は 資料を。図を 作るのが 好きなので。"
+    },
+    {
+     "quien": "M",
+     "texto": "じゃあ 発表は 僕が。"
+    },
+    {
+     "quien": "F",
+     "texto": "質疑は 二人で 受けましょう。一人だと 答えきれない。"
+    },
+    {
+     "quien": "M",
+     "texto": "そうしよう。"
+    }
+   ],
+   "pregunta": "質疑応答は だれが 担当しますか。",
+   "opciones_habladas": false
+  },
+  "etiquetas": [],
+  "dificultad": 5
+ }
+]
