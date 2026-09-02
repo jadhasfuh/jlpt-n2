@@ -1,15 +1,24 @@
 {
  "unidad_id": "N5/basho/mundo-1",
- "titulo": "<ruby>留学生<rt>りゅうがくせい</rt></ruby>のクラス",
- "cuerpo": "ぼくは<ruby>留学生<rt>りゅうがくせい</rt></ruby>です。クラスには いろいろな<ruby>国<rt>くに</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がいます。みなみさんは<ruby>日本人<rt>にほんじん</rt></ruby>で、<ruby>先生<rt>せんせい</rt></ruby>のてつだいをしています。「<ruby>英語<rt>えいご</rt></ruby>ができますか」と<ruby>聞<rt>き</rt></ruby>かれました。「すこしだけです」とこたえました。<ruby>外国<rt>がいこく</rt></ruby>にいると、じぶんの<ruby>国<rt>くに</rt></ruby>のことをよくかんがえます。",
- "traduccion": "Soy estudiante extranjero. En clase hay gente de países muy distintos. Minami es japonesa y ayuda al profesor. Me preguntó: «¿sabes inglés?». Contesté: «sólo un poco». Cuando estás en el extranjero, piensas mucho en tu propio país.",
+ "titulo": "<ruby>留学生<rt>りゅうがくせい</rt></ruby>の クラス",
+ "cuerpo": "ぼくは <ruby>留学生<rt>りゅうがくせい</rt></ruby>です。クラスには いろいろな <ruby>国<rt>くに</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>が います。ジャンと ゴンサは ペルーから <ruby>来<rt>き</rt></ruby>ました。ぼくたちは スペインごで はなします。ミンさんは ミャンマーから <ruby>来<rt>き</rt></ruby>ました。もう <ruby>二年<rt>にねん</rt></ruby> ここに います。せんせいが「<ruby>英語<rt>えいご</rt></ruby>が できますか」と ききました。ぼくは「すこしだけです」と こたえました。<ruby>外国<rt>がいこく</rt></ruby>に いると、じぶんの <ruby>国<rt>くに</rt></ruby>のことを よく かんがえます。",
+ "traduccion": "Soy estudiante extranjero. En clase hay gente de países muy distintos. Jean y Gonza vienen de Perú. Entre nosotros hablamos en español. Min vino de Myanmar. Lleva ya dos años aquí. El profesor me preguntó: «¿sabes inglés?». Contesté: «sólo un poco». Cuando estás en el extranjero, piensas mucho en tu propio país.",
  "preguntas": [
   {
-   "p": "みなみさんは <ruby>何<rt>なに</rt></ruby>を していますか。",
+   "p": "ジャンさんと ゴンサさんは どこから <ruby>来<rt>き</rt></ruby>ましたか。",
    "opciones": [
-    "<ruby>先生<rt>せんせい</rt></ruby>のてつだい",
-    "<ruby>英語<rt>えいご</rt></ruby>をおしえること",
-    "<ruby>留学生<rt>りゅうがくせい</rt></ruby>"
+    "ペルー",
+    "メキシコ",
+    "ミャンマー"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "ミンさんは どのくらい <ruby>日本<rt>にほん</rt></ruby>に いますか。",
+   "opciones": [
+    "<ruby>二年<rt>にねん</rt></ruby>",
+    "<ruby>二<rt>ふつ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
+    "きょねんから"
    ],
    "correcta": 0
   },
@@ -21,16 +30,7 @@
     "ぜんぜん"
    ],
    "correcta": 0
-  },
-  {
-   "p": "カルロスさんは <ruby>外国<rt>がいこく</rt></ruby>で <ruby>何<rt>なに</rt></ruby>を よくかんがえますか。",
-   "opciones": [
-    "じぶんの<ruby>国<rt>くに</rt></ruby>のこと",
-    "クラスのこと",
-    "<ruby>英語<rt>えいご</rt></ruby>のこと"
-   ],
-   "correcta": 0
   }
  ],
- "traduccion_en": "I'm an international student. In class there are people from all sorts of countries. Minami is Japanese and helps the teacher. She asked me: «can you speak English?». I answered: «only a little». When you're abroad, you think about your own country a lot."
+ "traduccion_en": "I'm an international student. In class there are people from all sorts of countries. Jean and Gonza come from Peru. Among ourselves we speak Spanish. Min came from Myanmar. He has been here two years already. The teacher asked me: «can you speak English?». I answered: «only a little». When you're abroad, you think about your own country a lot."
 }

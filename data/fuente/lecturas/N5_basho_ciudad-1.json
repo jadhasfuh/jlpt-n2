@@ -1,36 +1,36 @@
 {
  "unidad_id": "N5/basho/ciudad-1",
- "titulo": "カルロスの<ruby>町<rt>まち</rt></ruby>",
- "cuerpo": "ぼくの<ruby>名前<rt>なまえ</rt></ruby>はカルロスです。メキシコから<ruby>来<rt>き</rt></ruby>ました。きのう、この<ruby>町<rt>まち</rt></ruby>につきました。<ruby>町<rt>まち</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きくありません。<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>交差点<rt>こうさてん</rt></ruby>があって、その<ruby>道<rt>みち</rt></ruby>を<ruby>右<rt>みぎ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くと<ruby>公園<rt>こうえん</rt></ruby>があります。<ruby>公園<rt>こうえん</rt></ruby>のとなりに<ruby>図書館<rt>としょかん</rt></ruby>と<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>があります。ぼくのアパートは<ruby>橋<rt>はし</rt></ruby>のちかくです。<ruby>大<rt>おお</rt></ruby>きい<ruby>都市<rt>とし</rt></ruby>もいいですが、ぼくはこの<ruby>町<rt>まち</rt></ruby>がすきです。",
- "traduccion": "Me llamo Carlos. Vengo de México. Ayer llegué a este pueblo. El pueblo no es grande. Delante de la estación hay un cruce, y si sigues esa calle a la derecha hay un parque. Al lado del parque están la biblioteca y la oficina de correos. Mi piso está cerca del puente. Las ciudades grandes también están bien, pero a mí este pueblo me gusta.",
+ "titulo": "こうべに つきました",
+ "cuerpo": "ぼくの<ruby>名前<rt>なまえ</rt></ruby>はカルロスです。メキシコから<ruby>来<rt>き</rt></ruby>ました。インターネットのエージェントで がっこうを きめました。こうべは <ruby>大<rt>おお</rt></ruby>きい<ruby>都市<rt>とし</rt></ruby>です。うみと<ruby>山<rt>やま</rt></ruby>が とても ちかいです。<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に <ruby>交差点<rt>こうさてん</rt></ruby>と <ruby>図書館<rt>としょかん</rt></ruby>が あります。その<ruby>道<rt>みち</rt></ruby>を <ruby>右<rt>みぎ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>くと、<ruby>公園<rt>こうえん</rt></ruby>と <ruby>郵便局<rt>ゆうびんきょく</rt></ruby>が あります。ぼくの アパートは <ruby>橋<rt>はし</rt></ruby>の ちかくです。メキシコの<ruby>町<rt>まち</rt></ruby>とは ぜんぜん ちがいますが、ここが すきに なりました。",
+ "traduccion": "Me llamo Carlos. Vengo de México. Elegí la escuela a través de una agencia por internet. Kobe es una ciudad grande. El mar y las montañas están muy cerca. Delante de la estación hay un cruce y una biblioteca. Si sigues esa calle a la derecha, están el parque y la oficina de correos. Mi piso está cerca del puente. No se parece en nada a mi ciudad de México, pero le he cogido cariño.",
  "preguntas": [
   {
-   "p": "カルロスさんは どこから <ruby>来<rt>き</rt></ruby>ましたか。",
+   "p": "カルロスさんは どうやって がっこうを きめましたか。",
    "opciones": [
-    "メキシコ",
-    "スペイン",
-    "アメリカ"
+    "インターネットの エージェントで",
+    "ともだちに ききました",
+    "がっこうへ 行きました"
    ],
    "correcta": 0
   },
   {
-   "p": "<ruby>公園<rt>こうえん</rt></ruby>のとなりに <ruby>何<rt>なに</rt></ruby>が ありますか。",
+   "p": "こうべの ちかくに <ruby>何<rt>なに</rt></ruby>が ありますか。",
    "opciones": [
-    "<ruby>図書館<rt>としょかん</rt></ruby>と<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>",
-    "<ruby>駅<rt>えき</rt></ruby>とホテル",
-    "<ruby>橋<rt>はし</rt></ruby>と<ruby>川<rt>かわ</rt></ruby>"
+    "うみと<ruby>山<rt>やま</rt></ruby>",
+    "<ruby>川<rt>かわ</rt></ruby>だけ",
+    "<ruby>何<rt>なに</rt></ruby>も ありません"
    ],
    "correcta": 0
   },
   {
-   "p": "カルロスさんの アパートは どこですか。",
+   "p": "<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に あるのは どれですか。",
    "opciones": [
-    "<ruby>橋<rt>はし</rt></ruby>のちかく",
-    "<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>",
-    "<ruby>公園<rt>こうえん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>"
+    "<ruby>交差点<rt>こうさてん</rt></ruby>と<ruby>図書館<rt>としょかん</rt></ruby>",
+    "<ruby>公園<rt>こうえん</rt></ruby>と<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>",
+    "アパートと<ruby>橋<rt>はし</rt></ruby>"
    ],
    "correcta": 0
   }
  ],
- "traduccion_en": "My name is Carlos. I come from Mexico. Yesterday I arrived in this town. The town isn't big. In front of the station there's a crossing, and if you follow that street to the right there's a park. Next to the park are the library and the post office. My flat is near the bridge. Big cities are fine too, but I like this town."
+ "traduccion_en": "My name is Carlos. I come from Mexico. I chose the school through an agency on the internet. Kobe is a big city. The sea and the mountains are very close. In front of the station there's a crossing and a library. If you follow that street to the right, there's the park and the post office. My flat is near the bridge. It's nothing like my city back in Mexico, but I've grown fond of it."
 }

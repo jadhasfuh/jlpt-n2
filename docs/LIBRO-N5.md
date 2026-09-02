@@ -48,7 +48,25 @@ libro cuenta y lo que hace que este sirva de guía además de lectura.
 | 67–83 | 暮らし | Casa, comida, compras, dinero contado |
 | 84–95 | 性質・仕事 | El baito en la pizzería. Los compañeros de Bangladesh, que se lo toman muy en serio. Min como senpai |
 | 96–103 | 自然 | Sapporo con Gonza, sin plan. La nieve por primera vez. El café internet. El centro que de fuera parece vacío y por dentro está lleno de bares. Pierden el vuelo |
-| 104–106 | つなぐ言葉 | El festival de la escuela: tres canciones con Jean y Gonza, ensayadas en un parque para perder la vergüenza |
+| 104–106 | つなぐ言葉 | El festival de la escuela: tres canciones con Jean y Gonza, ensayadas en un parque para perder la vergüenza. Y la mudanza: devolver el piso, limpiarlo y pelearse con la basura |
+
+## La basura de Kobe, que es un capítulo entero
+
+Devolver el piso es lo último que hace y es de lo que ningún libro avisa. Los
+datos son los del ayuntamiento de Kobe, no inventados:
+
+- **燃えるごみ** — dos veces por semana, en la **bolsa designada** de la ciudad,
+  bien atada, sacada a la クリーンステーション entre las **cinco y las ocho de
+  la mañana** del día que toca. No la noche antes.
+- **缶・びん・ペットボトル** — los miércoles.
+- **容器包装プラスチック** — una vez por semana.
+- **燃えないごみ** — dos veces al mes.
+- **大型ごみ** — recogida individual: hay que **pedir cita**, y eso es lo que
+  pilla a todo el que se va. El colchón no se saca a la calle y ya.
+- El calendario del barrio se llama **ワケトンカレンダー**, por la mascota.
+
+El capítulo se escribe con eso: Carlos descubre que su colchón necesita cita
+con dos semanas de antelación y que se va en una que ya no tiene.
 
 ## Dos cosas que se cuentan de otra manera
 
@@ -73,3 +91,19 @@ Así que:
    ejercicio de ordenar.
 4. **Continuidad real**: lo que pasa en un capítulo se nota en los siguientes.
 5. **Nada de moralejas.**
+
+## Lo que queda para N4 y arriba
+
+La historia de N5 acaba cuando termina el año de escuela. Lo que no cabe aquí
+—porque el vocabulario no da— se guarda para los niveles siguientes:
+
+- **N4**: la búsqueda de piso sin agencia, con garante y 礼金. El examen de
+  japonés de verdad. La relación con Anna cuando ya se pueden decir cosas
+  difíciles. Cambiar de baito.
+- **N3**: el visado de trabajo, la entrevista, el primer contrato. La distancia
+  con los de casa cuando llevas dos años fuera.
+- **N2 y N1**: eso ya no es un libro de aventuras: son los textos de opinión que
+  el examen pide, y ahí el protagonista sobra.
+
+O sea que Carlos vive N5 y N4 completos, se profesionaliza en N3 y desaparece
+cuando el examen deja de contar historias.
