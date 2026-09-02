@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/basho/ciudad-1",
- "titulo": "わたしの<ruby>町<rt>まち</rt></ruby>",
- "cuerpo": "わたしの<ruby>町<rt>まち</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きくありません。<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>交差点<rt>こうさてん</rt></ruby>があります。その<ruby>道<rt>みち</rt></ruby>を<ruby>右<rt>みぎ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くと、<ruby>公園<rt>こうえん</rt></ruby>があります。<ruby>公園<rt>こうえん</rt></ruby>の<ruby>北<rt>きた</rt></ruby>に<ruby>川<rt>かわ</rt></ruby>と<ruby>橋<rt>はし</rt></ruby>があります。<ruby>橋<rt>はし</rt></ruby>をわたると、<ruby>小<rt>ちい</rt></ruby>さい<ruby>村<rt>むら</rt></ruby>です。<ruby>村<rt>むら</rt></ruby>には<ruby>道<rt>みち</rt></ruby>が<ruby>一<rt>いっ</rt></ruby><ruby>本<rt>ぽん</rt></ruby>だけあります。なつになると、<ruby>外国<rt>がいこく</rt></ruby>から<ruby>人<rt>ひと</rt></ruby>が<ruby>来<rt>き</rt></ruby>て、<ruby>町<rt>まち</rt></ruby>のホテルに<ruby>泊<rt>と</rt></ruby>まります。<ruby>大<rt>おお</rt></ruby>きい<ruby>都市<rt>とし</rt></ruby>もいいですが、わたしはこの<ruby>町<rt>まち</rt></ruby>がすきです。",
- "traduccion": "Mi pueblo no es grande. Delante de la estación hay un cruce. Si sigues esa calle a la derecha, hay un parque. Al norte del parque están el río y el puente. Cruzando el puente hay una aldea pequeña. En la aldea solo hay un camino. En verano viene gente del extranjero y se aloja en el hotel del pueblo. Las ciudades grandes también están bien, pero a mí me gusta este pueblo.",
+ "titulo": "カルロスの<ruby>町<rt>まち</rt></ruby>",
+ "cuerpo": "ぼくの<ruby>名前<rt>なまえ</rt></ruby>はカルロスです。メキシコから<ruby>来<rt>き</rt></ruby>ました。きのう、この<ruby>町<rt>まち</rt></ruby>につきました。<ruby>町<rt>まち</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きくありません。<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>交差点<rt>こうさてん</rt></ruby>があって、その<ruby>道<rt>みち</rt></ruby>を<ruby>右<rt>みぎ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くと<ruby>公園<rt>こうえん</rt></ruby>があります。<ruby>公園<rt>こうえん</rt></ruby>のとなりに<ruby>図書館<rt>としょかん</rt></ruby>と<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>があります。ぼくのアパートは<ruby>橋<rt>はし</rt></ruby>のちかくです。<ruby>大<rt>おお</rt></ruby>きい<ruby>都市<rt>とし</rt></ruby>もいいですが、ぼくはこの<ruby>町<rt>まち</rt></ruby>がすきです。",
+ "traduccion": "Me llamo Carlos. Vengo de México. Ayer llegué a este pueblo. El pueblo no es grande. Delante de la estación hay un cruce, y si sigues esa calle a la derecha hay un parque. Al lado del parque están la biblioteca y la oficina de correos. Mi piso está cerca del puente. Las ciudades grandes también están bien, pero a mí este pueblo me gusta.",
  "preguntas": [
   {
-   "p": "<ruby>公園<rt>こうえん</rt></ruby>はどこにありますか。",
+   "p": "カルロスさんは どこから <ruby>来<rt>き</rt></ruby>ましたか。",
    "opciones": [
-    "<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>",
-    "<ruby>交差点<rt>こうさてん</rt></ruby>を<ruby>右<rt>みぎ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>ったところ",
-    "<ruby>橋<rt>はし</rt></ruby>のむこう",
-    "<ruby>村<rt>むら</rt></ruby>の<ruby>中<rt>なか</rt></ruby>"
+    "メキシコ",
+    "スペイン",
+    "アメリカ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "なつ、<ruby>外国<rt>がいこく</rt></ruby>から<ruby>来<rt>き</rt></ruby>た<ruby>人<rt>ひと</rt></ruby>はどこにとまりますか。",
+   "p": "<ruby>公園<rt>こうえん</rt></ruby>のとなりに <ruby>何<rt>なに</rt></ruby>が ありますか。",
    "opciones": [
-    "<ruby>村<rt>むら</rt></ruby>のうち",
-    "<ruby>城<rt>しろ</rt></ruby>",
-    "<ruby>町<rt>まち</rt></ruby>のホテル",
-    "<ruby>公園<rt>こうえん</rt></ruby>"
+    "<ruby>図書館<rt>としょかん</rt></ruby>と<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>",
+    "<ruby>駅<rt>えき</rt></ruby>とホテル",
+    "<ruby>橋<rt>はし</rt></ruby>と<ruby>川<rt>かわ</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんの アパートは どこですか。",
+   "opciones": [
+    "<ruby>橋<rt>はし</rt></ruby>のちかく",
+    "<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>",
+    "<ruby>公園<rt>こうえん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "My town isn't big. In front of the station there's a crossroads. If you follow that street to the right, there's a park. North of the park are the river and the bridge. Across the bridge there's a small village. In the village there's only one road. In summer people come from abroad and stay at the town's hotel. Big cities are fine too, but I like this town."
+ "traduccion_en": "My name is Carlos. I come from Mexico. Yesterday I arrived in this town. The town isn't big. In front of the station there's a crossing, and if you follow that street to the right there's a park. Next to the park are the library and the post office. My flat is near the bridge. Big cities are fine too, but I like this town."
 }

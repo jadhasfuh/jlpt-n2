@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/basho/mundo-1",
- "titulo": "<ruby>外国<rt>がいこく</rt></ruby>のことば",
- "cuerpo": "わたしは<ruby>外国<rt>がいこく</rt></ruby>のことばをならうのがすきです。<ruby>今<rt>いま</rt></ruby>、<ruby>英語<rt>えいご</rt></ruby>をべんきょうしています。<ruby>英語<rt>えいご</rt></ruby>はいろいろな<ruby>国<rt>くに</rt></ruby>でつかわれています。<ruby>日本語<rt>にほんご</rt></ruby><em class=\"g\">も</em>ならいたいです。ちきゅうには<ruby>百<rt>ひゃく</rt></ruby><ruby>九十<rt>きゅうじゅう</rt></ruby>よりおおくの<ruby>国<rt>くに</rt></ruby>があります。ぜんぶの<ruby>国<rt>くに</rt></ruby>のことばはならえませんが、ふたつ、みっつならできるとおもいます。ことばがわかると、その<ruby>国<rt>くに</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>話<rt>はな</rt></ruby>せます。それがいちばんたのしいです。",
- "traduccion": "Me gusta aprender lenguas extranjeras. Ahora estudio inglés. El inglés se usa en muchos países. También quiero aprender japonés. En la Tierra hay más de ciento noventa países. No puedo aprender las lenguas de todos, pero creo que sí dos o tres. Cuando entiendes la lengua, puedes hablar con la gente de ese país. Eso es lo más divertido.",
+ "titulo": "<ruby>留学生<rt>りゅうがくせい</rt></ruby>のクラス",
+ "cuerpo": "ぼくは<ruby>留学生<rt>りゅうがくせい</rt></ruby>です。クラスには いろいろな<ruby>国<rt>くに</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がいます。みなみさんは<ruby>日本人<rt>にほんじん</rt></ruby>で、<ruby>先生<rt>せんせい</rt></ruby>のてつだいをしています。「<ruby>英語<rt>えいご</rt></ruby>ができますか」と<ruby>聞<rt>き</rt></ruby>かれました。「すこしだけです」とこたえました。<ruby>外国<rt>がいこく</rt></ruby>にいると、じぶんの<ruby>国<rt>くに</rt></ruby>のことをよくかんがえます。",
+ "traduccion": "Soy estudiante extranjero. En clase hay gente de países muy distintos. Minami es japonesa y ayuda al profesor. Me preguntó: «¿sabes inglés?». Contesté: «sólo un poco». Cuando estás en el extranjero, piensas mucho en tu propio país.",
  "preguntas": [
   {
-   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>今<rt>いま</rt></ruby>、<ruby>何<rt>なに</rt></ruby>をべんきょうしていますか。",
+   "p": "みなみさんは <ruby>何<rt>なに</rt></ruby>を していますか。",
    "opciones": [
-    "<ruby>日本語<rt>にほんご</rt></ruby>",
-    "<ruby>英語<rt>えいご</rt></ruby>",
-    "ぜんぶのことば",
-    "なにも"
+    "<ruby>先生<rt>せんせい</rt></ruby>のてつだい",
+    "<ruby>英語<rt>えいご</rt></ruby>をおしえること",
+    "<ruby>留学生<rt>りゅうがくせい</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "ことばがわかると、<ruby>何<rt>なに</rt></ruby>がいちばんたのしいですか。",
+   "p": "カルロスさんは <ruby>英語<rt>えいご</rt></ruby>が できますか。",
    "opciones": [
-    "<ruby>外国<rt>がいこく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くこと",
-    "その<ruby>国<rt>くに</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>話<rt>はな</rt></ruby>すこと",
-    "<ruby>国<rt>くに</rt></ruby>のかずをかぞえること",
-    "ことばをみっつならうこと"
+    "すこしだけ",
+    "とても よく",
+    "ぜんぜん"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんは <ruby>外国<rt>がいこく</rt></ruby>で <ruby>何<rt>なに</rt></ruby>を よくかんがえますか。",
+   "opciones": [
+    "じぶんの<ruby>国<rt>くに</rt></ruby>のこと",
+    "クラスのこと",
+    "<ruby>英語<rt>えいご</rt></ruby>のこと"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "I like learning foreign languages. Right now I'm studying English. English is used in many countries. I want to learn Japanese too. There are more than a hundred and ninety countries on Earth. I can't learn all their languages, but I think I can manage two or three. When you understand the language, you can talk to people from that country. That's the best part."
+ "traduccion_en": "I'm an international student. In class there are people from all sorts of countries. Minami is Japanese and helps the teacher. She asked me: «can you speak English?». I answered: «only a little». When you're abroad, you think about your own country a lot."
 }

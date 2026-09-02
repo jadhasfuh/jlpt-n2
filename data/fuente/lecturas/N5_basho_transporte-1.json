@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/basho/transporte-1",
- "titulo": "まい<ruby>日<rt>にち</rt></ruby>ののりもの",
- "cuerpo": "わたしはまい<ruby>日<rt>にち</rt></ruby><ruby>自転車<rt>じてんしゃ</rt></ruby>で<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。<ruby>雨<rt>あめ</rt></ruby>の<em class=\"g\">とき</em>は<ruby>自転車<rt>じてんしゃ</rt></ruby>にのりません。えきまであるいて、<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ります。えきで<ruby>切符<rt>きっぷ</rt></ruby>をかいます。あさの<ruby>電車<rt>でんしゃ</rt></ruby>は<ruby>人<rt>ひと</rt></ruby>がおおくて、とても<ruby>疲<rt>つか</rt></ruby>れます。<ruby>学校<rt>がっこう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>のえきで<ruby>降<rt>お</rt></ruby>ります。かえりに<ruby>荷物<rt>にもつ</rt></ruby>がおもい<em class=\"g\">とき</em>は、タクシーに<ruby>乗<rt>の</rt></ruby>ることもあります。<ruby>地下鉄<rt>ちかてつ</rt></ruby>はやすいですが、うちからとおいので、あまりつかいません。",
- "traduccion": "Todos los días voy al colegio en bicicleta. Cuando llueve no la uso. Voy andando a la estación y cojo el tren. Compro el billete en la estación. El tren de la mañana va lleno de gente y cansa mucho. Me bajo en la estación que está delante del colegio. A la vuelta, cuando llevo mucho peso, a veces cojo un taxi. El metro es más barato, pero me pilla lejos de casa y casi no lo uso.",
+ "titulo": "<ruby>電車<rt>でんしゃ</rt></ruby>と<ruby>切符<rt>きっぷ</rt></ruby>",
+ "cuerpo": "<ruby>学校<rt>がっこう</rt></ruby>までは<ruby>電車<rt>でんしゃ</rt></ruby>でにじゅっぷんです。はじめの<ruby>日<rt>ひ</rt></ruby>、<ruby>切符<rt>きっぷ</rt></ruby>のかいかたがわかりませんでした。<ruby>自転車<rt>じてんしゃ</rt></ruby>のほうがやすいですが、あさは<ruby>雨<rt>あめ</rt></ruby>でした。<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>って、<ruby>三<rt>みっ</rt></ruby>つめで<ruby>降<rt>お</rt></ruby>りました。<ruby>荷物<rt>にもつ</rt></ruby>がおもくて、すこし<ruby>疲<rt>つか</rt></ruby>れました。でも、まどからうみが<ruby>見<rt>み</rt></ruby>えて、うれしかったです。",
+ "traduccion": "Hasta la escuela son veinte minutos en tren. El primer día no supe cómo comprar el billete. La bicicleta sale más barata, pero esa mañana llovía. Me subí al tren y me bajé en la tercera parada. La mochila pesaba y acabé un poco cansado. Pero por la ventana se veía el mar, y eso me alegró.",
  "preguntas": [
   {
-   "p": "<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>で<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きますか。",
+   "p": "はじめの<ruby>日<rt>ひ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>が わかりませんでしたか。",
    "opciones": [
-    "<ruby>自転車<rt>じてんしゃ</rt></ruby>",
-    "<ruby>電車<rt>でんしゃ</rt></ruby>",
-    "タクシー",
-    "<ruby>地下鉄<rt>ちかてつ</rt></ruby>"
+    "<ruby>切符<rt>きっぷ</rt></ruby>のかいかた",
+    "<ruby>学校<rt>がっこう</rt></ruby>のばしょ",
+    "<ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>地下鉄<rt>ちかてつ</rt></ruby>をあまりつかわないのはなぜですか。",
+   "p": "どうして <ruby>自転車<rt>じてんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きませんでしたか。",
    "opciones": [
-    "たかいから",
-    "うちからとおいから",
-    "<ruby>人<rt>ひと</rt></ruby>がおおいから",
-    "<ruby>切符<rt>きっぷ</rt></ruby>がないから"
+    "<ruby>雨<rt>あめ</rt></ruby>だったから",
+    "<ruby>自転車<rt>じてんしゃ</rt></ruby>がないから",
+    "とおいから"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "まどから <ruby>何<rt>なに</rt></ruby>が <ruby>見<rt>み</rt></ruby>えましたか。",
+   "opciones": [
+    "うみ",
+    "<ruby>山<rt>やま</rt></ruby>",
+    "<ruby>町<rt>まち</rt></ruby>"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Every day I go to school by bicycle. When it rains I don't use it. I walk to the station and take the train. I buy the ticket at the station. The morning train is packed and it's tiring. I get off at the station in front of the school. On the way back, when I'm carrying a lot, I sometimes take a taxi. The underground is cheaper, but it's far from my house so I hardly use it."
+ "traduccion_en": "It's twenty minutes to school by train. On the first day I couldn't work out how to buy a ticket. The bicycle is cheaper, but that morning it was raining. I got on the train and got off at the third stop. My bag was heavy and I ended up a bit tired. But the sea was visible through the window, and that cheered me up."
 }

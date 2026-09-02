@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/basho/ir_venir-1",
- "titulo": "やまに<ruby>登<rt>のぼ</rt></ruby>った<ruby>日<rt>ひ</rt></ruby>",
- "cuerpo": "<ruby>日<rt>にち</rt></ruby>よう<ruby>日<rt>び</rt></ruby>、わたしはやまに<ruby>登<rt>のぼ</rt></ruby>りました。あさはやくうちを<ruby>出<rt>で</rt></ruby>て、えきまで<ruby>歩<rt>ある</rt></ruby>きました。<em class=\"g\">そして</em>、<ruby>電車<rt>でんしゃ</rt></ruby>でやまの<ruby>入口<rt>いりぐち</rt></ruby>まで<ruby>行<rt>い</rt></ruby>きました。やまのみちは<ruby>長<rt>なが</rt></ruby>くて、なんかいも<ruby>止<rt>と</rt></ruby>まりました。<ruby>上<rt>うえ</rt></ruby>まで<ruby>行<rt>い</rt></ruby>くと、<ruby>下<rt>した</rt></ruby>にまちが<ruby>小<rt>ちい</rt></ruby>さく<ruby>見<rt>み</rt></ruby>えました。とりが<ruby>飛<rt>と</rt></ruby>んでいました。かえりに<ruby>友<rt>とも</rt></ruby>だちのうちに<ruby>寄<rt>よ</rt></ruby>りました。<em class=\"g\">そして</em>、かりていた<ruby>本<rt>ほん</rt></ruby>を<ruby>返<rt>かえ</rt></ruby>しました。",
- "traduccion": "El domingo subí a la montaña. Salí de casa temprano por la mañana y fui andando hasta la estación. Y luego fui en tren hasta la entrada del monte. El camino era largo y me paré muchas veces. Al llegar arriba, el pueblo se veía pequeño allá abajo. Volaban pájaros. A la vuelta pasé por casa de un amigo. Y le devolví el libro que me había prestado.",
+ "titulo": "はじめてのあさ",
+ "cuerpo": "けさ、はやくおきました。アパートを<ruby>出<rt>で</rt></ruby>て、<ruby>駅<rt>えき</rt></ruby>まで<ruby>歩<rt>ある</rt></ruby>きました。<ruby>出口<rt>でぐち</rt></ruby>が<ruby>三<rt>みっ</rt></ruby>つあって、ぼくはまちがえました。<ruby>道<rt>みち</rt></ruby>で<ruby>止<rt>と</rt></ruby>まって、ちずを<ruby>見<rt>み</rt></ruby>ました。そのとき、となりの<ruby>人<rt>ひと</rt></ruby>が「どこへ<ruby>行<rt>い</rt></ruby>きますか」と<ruby>聞<rt>き</rt></ruby>きました。たなかさんでした。「ここから<ruby>左<rt>ひだり</rt></ruby>です」とおしえてくれました。ぼくは<ruby>走<rt>はし</rt></ruby>りました。まだ<ruby>時間<rt>じかん</rt></ruby>がありました。",
+ "traduccion": "Esta mañana me levanté temprano. Salí del piso y fui andando hasta la estación. Había tres salidas y me equivoqué. Me paré en la calle y miré el mapa. En eso, la vecina me preguntó: «¿adónde va?». Era la señora Tanaka. Me indicó: «desde aquí, a la izquierda». Eché a correr. Todavía tenía tiempo.",
  "preguntas": [
   {
-   "p": "やまのみちで、なんかいも<ruby>止<rt>と</rt></ruby>まったのはなぜですか。",
+   "p": "カルロスさんは どうして まちがえましたか。",
    "opciones": [
-    "とりを<ruby>見<rt>み</rt></ruby>たから",
-    "みちが<ruby>長<rt>なが</rt></ruby>かったから",
-    "<ruby>友<rt>とも</rt></ruby>だちがいたから",
-    "<ruby>電車<rt>でんしゃ</rt></ruby>がなかったから"
+    "<ruby>出口<rt>でぐち</rt></ruby>が<ruby>三<rt>みっ</rt></ruby>つ あったから",
+    "ちずが なかったから",
+    "はやくおきなかったから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>友<rt>とも</rt></ruby>だちのうちで<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "p": "たなかさんは <ruby>何<rt>なに</rt></ruby>を しましたか。",
    "opciones": [
-    "<ruby>本<rt>ほん</rt></ruby>をかりた",
-    "<ruby>本<rt>ほん</rt></ruby>を<ruby>返<rt>かえ</rt></ruby>した",
-    "ごはんを<ruby>食<rt>た</rt></ruby>べた",
-    "とりを<ruby>見<rt>み</rt></ruby>た"
+    "<ruby>道<rt>みち</rt></ruby>をおしえました",
+    "いっしょに<ruby>走<rt>はし</rt></ruby>りました",
+    "ちずをかいました"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんは <ruby>時間<rt>じかん</rt></ruby>に まにあいましたか。",
+   "opciones": [
+    "はい、まだ<ruby>時間<rt>じかん</rt></ruby>が ありました",
+    "いいえ、おくれました",
+    "わかりません"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "On Sunday I climbed the mountain. I left home early in the morning and walked to the station. Then I took the train to the foot of the mountain. The path was long and I stopped many times. When I reached the top, the town looked small far below. Birds were flying. On the way back I stopped by a friend's house. And I returned the book he had lent me."
+ "traduccion_en": "This morning I got up early. I left the flat and walked to the station. There were three exits and I took the wrong one. I stopped in the street and looked at the map. Just then the neighbour asked me: «where are you going?». It was Mrs Tanaka. She told me: «from here, to the left». I broke into a run. There was still time."
 }
