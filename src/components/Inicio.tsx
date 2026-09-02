@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { COLOR_NIVEL, NUMERAL_NIVEL, type Nivel } from "@/lib/tipos";
 import { contarPendientes, leerProgreso, resumen } from "@/lib/progreso";
 import { Anillo } from "./Anillo";
-import { IcCronometro, IcDerecha, IcExamen, IcRacha } from "./Iconos";
+import { IcCronometro, IcDerecha, IcExamen, IcMovil, IcRacha } from "./Iconos";
 import { useAjustes } from "./Ajustes";
 
 type Resumen = { id: Nivel; palabras: number; gramatica: number; unidades: number; secciones: number };
@@ -16,7 +16,7 @@ export function Inicio({ niveles, totales, dentro = true }: {
       entrada de quien todavía no nos conoce. */
   dentro?: boolean;
 }) {
-  const { t, tieneAcceso } = useAjustes();
+  const { t, tieneAcceso, enApp } = useAjustes();
   const [r, setR] = useState<ReturnType<typeof resumen> | null>(null);
   const [pend, setPend] = useState({ vencidas: 0, hoy: 0 });
   const [avance, setAvance] = useState<Record<string, number>>({});
@@ -155,6 +155,23 @@ export function Inicio({ niveles, totales, dentro = true }: {
           </span>
           <span className="flecha"><IcDerecha size={14} /></span>
         </Link>
+      )}
+
+      {/* Dentro de la app esto sobra: ya la tienen instalada. Y anunciar la
+          tienda desde la propia tienda es ruido. */}
+      {!enApp && (
+        <section className="tarjeta" style={{
+          display: "flex", alignItems: "flex-start", gap: 13, marginTop: 20, padding: 16,
+        }}>
+          <span className="disco" style={{ flex: "0 0 auto" }}><IcMovil size={19} /></span>
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
+              <span style={{ fontSize: 15 }}>{t("inicio.appTit")}</span>
+              <span className="pastilla">{t("inicio.appPronto")}</span>
+            </div>
+            <p className="tenue" style={{ margin: "4px 0 0" }}>{t("inicio.appSub")}</p>
+          </div>
+        </section>
       )}
 
       {!tieneAcceso && (

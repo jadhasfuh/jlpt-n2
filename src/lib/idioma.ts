@@ -92,6 +92,11 @@ const T = {
                           en: "A short review of your weakest words" },
   "inicio.resumenNivel": { es: "{palabras} palabras · {secciones} secciones",
                            en: "{palabras} words · {secciones} sections" },
+  "inicio.appTit": { es: "La app de Android, en camino",
+                     en: "The Android app is on its way" },
+  "inicio.appSub": { es: "Está en pruebas y se publica en Google Play en unas semanas. Mientras tanto, jlptest funciona en el navegador y puedes instalarlo en la pantalla de inicio desde el menú del navegador.",
+                     en: "It is in testing and goes live on Google Play in a few weeks. In the meantime jlptest runs in the browser, and you can add it to your home screen from the browser menu." },
+  "inicio.appPronto": { es: "próximamente", en: "coming soon" },
   "inicio.libre": { es: "La sección 人と体 de cada nivel es libre. Para el resto hará falta una cuenta.",
                     en: "The 人と体 section of every level is free. The rest needs an account." },
 

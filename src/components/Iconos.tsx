@@ -28,6 +28,7 @@ export {
   MagnifyingGlass as IcBuscar,
   ArrowCounterClockwise as IcOtraVez,
   BookOpen as IcDiccionario,
+  DeviceMobile as IcMovil,
   Translate as IcSignificado,
   Lock as IcCandado,
   Exam as IcExamen,
