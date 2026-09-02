@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/basho/ubicacion-1",
- "titulo": "わたしのへや",
- "cuerpo": "わたしのへやは<ruby>大<rt>おお</rt></ruby>きくありませんが、しずかです。つくえの<ruby>上<rt>うえ</rt></ruby>に<ruby>本<rt>ほん</rt></ruby>が<ruby>三<rt>さん</rt></ruby>さつあります。ねる<em class=\"g\">前に</em>、いつも<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます。つくえの<ruby>下<rt>した</rt></ruby>にかばんをおいています。きのう、かぎがどこにもなくて、こまりました。うちの<ruby>中<rt>なか</rt></ruby>をぜんぶさがしました。あとで、かばんの<ruby>底<rt>そこ</rt></ruby>にありました。まどは<ruby>北<rt>きた</rt></ruby>の<ruby>方<rt>ほう</rt></ruby>にあるので、へやはあまりあつくなりません。",
- "traduccion": "Mi habitación no es grande, pero es tranquila. Encima del escritorio tengo tres libros. Antes de dormir siempre leo. Debajo del escritorio dejo la mochila. Ayer la llave no aparecía por ningún sitio y me agobié. Busqué por toda la casa. Luego apareció en el fondo de la mochila. La ventana da al norte, así que la habitación no se calienta mucho.",
+ "titulo": "へやの なか",
+ "cuerpo": "ぼくの へやは ひろくありません。ベッドの <ruby>上<rt>うえ</rt></ruby>に にもつが あります。つくえは まどの そばです。そこから <ruby>下<rt>した</rt></ruby>を 見ると、ちいさい こうえんが あります。「あれは なんですか」と たなかさんに ききました。「あそこは こどもの こうえんです」と こたえました。「あなたの くには あついですか」と たなかさんが ききました。ぼくの うちは メキシコの <ruby>北<rt>きた</rt></ruby>です。ふゆは さむいです。たなかさんは とても おどろきました。",
+ "traduccion": "Mi habitación no es grande. Encima de la cama está mi equipaje. La mesa está junto a la ventana. Si miras hacia abajo desde ahí, hay un parque pequeño. «¿Qué es aquello?», le pregunté a la señora Tanaka. «Eso de allá es un parque infantil», contestó. «¿Hace calor en tu país?», me preguntó ella. Mi casa está en el norte de México. En invierno hace frío. La señora Tanaka se quedó muy sorprendida.",
  "preguntas": [
   {
-   "p": "かぎはどこにありましたか。",
+   "p": "にもつは どこに ありますか。",
    "opciones": [
-    "つくえの<ruby>上<rt>うえ</rt></ruby>",
-    "つくえの<ruby>下<rt>した</rt></ruby>",
-    "かばんの<ruby>底<rt>そこ</rt></ruby>",
-    "まどの<ruby>方<rt>ほう</rt></ruby>"
+    "ベッドの <ruby>上<rt>うえ</rt></ruby>",
+    "つくえの <ruby>下<rt>した</rt></ruby>",
+    "まどの そば"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
-   "p": "ねる<em class=\"g\">前に</em>、この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "p": "まどから なにが 見えますか。",
    "opciones": [
-    "かばんをおく",
-    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む",
-    "まどをあける",
-    "うちをさがす"
+    "ちいさい こうえん",
+    "がっこう",
+    "<ruby>駅<rt>えき</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "メキシコの <ruby>北<rt>きた</rt></ruby>の ふゆは どうですか。",
+   "opciones": [
+    "さむいです",
+    "あついです",
+    "あたたかいです"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "My room isn't big, but it's quiet. On the desk I have three books. I always read before going to sleep. I leave my bag under the desk. Yesterday my key was nowhere to be found and I got worried. I searched the whole house. Then it turned up at the bottom of my bag. The window faces north, so the room doesn't get very warm."
+ "traduccion_en": "My room isn't big. My luggage is on the bed. The desk is by the window. If you look down from there, there's a small park. «What's that over there?» I asked Mrs Tanaka. «That place is a children's park», she answered. «Is it hot in your country?» she asked me. My home is in the north of Mexico. In winter it's cold. Mrs Tanaka was very surprised."
 }

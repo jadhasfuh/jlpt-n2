@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/basho/ubicacion-2",
- "titulo": "<ruby>友<rt>とも</rt></ruby>だちのうちまで",
- "cuerpo": "<ruby>友<rt>とも</rt></ruby>だちのうちは<ruby>町<rt>まち</rt></ruby>の<ruby>東<rt>ひがし</rt></ruby>にあります。わたしのうちは<ruby>南<rt>みなみ</rt></ruby>です。きょうは、はじめてあるいて<ruby>行<rt>い</rt></ruby>きました。<ruby>中<rt>なか</rt></ruby>ほどで<ruby>道<rt>みち</rt></ruby>がふたつにわかれていて、<ruby>西<rt>にし</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くか<ruby>東<rt>ひがし</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くか、まよいました。ちずをかばんの<ruby>中<rt>なか</rt></ruby>からだして、<ruby>見<rt>み</rt></ruby>ました。<em class=\"g\">もう</em><ruby>一<rt>いち</rt></ruby>どちずを<ruby>見<rt>み</rt></ruby>て、<ruby>右<rt>みぎ</rt></ruby>の<ruby>道<rt>みち</rt></ruby>をえらびました。<ruby>道<rt>みち</rt></ruby>の<ruby>横<rt>よこ</rt></ruby>に<ruby>大<rt>おお</rt></ruby>きな<ruby>木<rt>き</rt></ruby>があって、そこがめじるしでした。",
- "traduccion": "La casa de mi amigo está al este del pueblo. La mía, al sur. Hoy he ido andando por primera vez. A mitad de camino la calle se partía en dos y no sabía si tirar al oeste o al este. Saqué el mapa de la mochila y lo miré. Lo miré una vez más y escogí la calle de la derecha. Junto a la calle había un árbol grande, y ese era el punto de referencia.",
+ "titulo": "<ruby>道<rt>みち</rt></ruby>を おぼえる",
+ "cuerpo": "がっこうは <ruby>駅<rt>えき</rt></ruby>の <ruby>東<rt>ひがし</rt></ruby>に あります。ぼくの アパートは <ruby>西<rt>にし</rt></ruby>です。まいあさ、<ruby>道<rt>みち</rt></ruby>を <ruby>渡<rt>わた</rt></ruby>って、<ruby>南<rt>みなみ</rt></ruby>へ あるきます。<ruby>中<rt>なか</rt></ruby>に <ruby>大<rt>おお</rt></ruby>きい ビルが あって、その <ruby>横<rt>よこ</rt></ruby>が がっこうです。はじめは よく まちがえましたが、いまは ちずを みません。この <ruby>町<rt>まち</rt></ruby>の <ruby>所<rt>ところ</rt></ruby>を すこしずつ おぼえて います。じぶんの <ruby>町<rt>まち</rt></ruby>に なって きた かんじが します。",
+ "traduccion": "La escuela está al este de la estación. Mi piso está al oeste. Cada mañana cruzo la calle y camino hacia el sur. Por el medio hay un edificio grande, y al lado está la escuela. Al principio me equivocaba mucho, pero ya no miro el mapa. Poco a poco me voy aprendiendo los sitios de esta ciudad. Tengo la sensación de que se va volviendo mi ciudad.",
  "preguntas": [
   {
-   "p": "<ruby>友<rt>とも</rt></ruby>だちのうちは<ruby>町<rt>まち</rt></ruby>のどこにありますか。",
+   "p": "がっこうは <ruby>駅<rt>えき</rt></ruby>の どちらですか。",
    "opciones": [
-    "<ruby>北<rt>きた</rt></ruby>",
-    "<ruby>南<rt>みなみ</rt></ruby>",
     "<ruby>東<rt>ひがし</rt></ruby>",
-    "<ruby>西<rt>にし</rt></ruby>"
+    "<ruby>西<rt>にし</rt></ruby>",
+    "<ruby>南<rt>みなみ</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
-   "p": "めじるしになったのは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "p": "いま、カルロスさんは ちずを みますか。",
    "opciones": [
-    "ちず",
-    "<ruby>大<rt>おお</rt></ruby>きな<ruby>木<rt>き</rt></ruby>",
-    "<ruby>道<rt>みち</rt></ruby>のかず",
-    "かばん"
+    "みません",
+    "まいにち みます",
+    "ときどき みます"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "がっこうは なにの <ruby>横<rt>よこ</rt></ruby>に ありますか。",
+   "opciones": [
+    "<ruby>大<rt>おお</rt></ruby>きい ビル",
+    "<ruby>駅<rt>えき</rt></ruby>",
+    "こうえん"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "My friend's house is east of the town. Mine is south. Today I walked there for the first time. Halfway along, the street split in two and I didn't know whether to go west or east. I took the map out of my bag and looked at it. I looked once more and chose the street on the right. Next to the street there was a big tree, and that was the landmark."
+ "traduccion_en": "The school is east of the station. My flat is to the west. Every morning I cross the road and walk south. Along the way there's a big building, and next to it is the school. At first I got it wrong a lot, but now I don't look at the map. Little by little I'm learning the places in this city. It feels like it's becoming my city."
 }

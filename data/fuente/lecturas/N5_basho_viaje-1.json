@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/basho/viaje-1",
- "titulo": "なつの<ruby>旅行<rt>りょこう</rt></ruby>",
- "cuerpo": "きょねんのなつ、<ruby>友<rt>とも</rt></ruby>だちと<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。あさはやくうちを<ruby>出<rt>で</rt></ruby>て、バスに<ruby>三<rt>さん</rt></ruby>じかんのりました。バスのなかで、ずっと<ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby>ていました。うみのちかくのまちに<ruby>着<rt>つ</rt></ruby>いたとき、そらが<em class=\"g\">とても</em>あおくて、みんなでこえをあげました。かえりのバスでは、みんなつかれてねてしまい、おりるときにボタンを<ruby>押<rt>お</rt></ruby>すのをわすれました。それでも<em class=\"g\">とても</em>たのしい<ruby>旅行<rt>りょこう</rt></ruby>でした。",
- "traduccion": "El verano pasado hice un viaje con unos amigos. Salimos de casa temprano y estuvimos tres horas en el autobús. Durante el trayecto no paré de mirar el mapa. Cuando llegamos al pueblo, cerca del mar, el cielo estaba tan azul que gritamos todos a la vez. En el autobús de vuelta nos quedamos dormidos del cansancio y se nos olvidó pulsar el botón para bajar. Aun así fue un viaje muy bonito.",
+ "titulo": "<ruby>飛行機<rt>ひこうき</rt></ruby>の <ruby>中<rt>なか</rt></ruby>の ひと",
+ "cuerpo": "にほんへ くる ひ、ぼくは ながい <ruby>旅行<rt>りょこう</rt></ruby>を しました。うちを <ruby>出<rt>で</rt></ruby>かけたのは あさの よじでした。となりの せきの おんなの ひとは、とけいを みて ノートに なにか <ruby>書<rt>か</rt></ruby>いて いました。「これは ひこうきの じかんです」と おしえてくれました。ひざの <ruby>上<rt>うえ</rt></ruby>に、その かいしゃの ぬいぐるみが ありました。ぼくは <ruby>地図<rt>ちず</rt></ruby>を <ruby>出<rt>だ</rt></ruby>して、こうべの ばしょを ゆびで <ruby>押<rt>お</rt></ruby>さえました。ひこうきが <ruby>着<rt>つ</rt></ruby>いた とき、その ひとは また とけいを みて いました。",
+ "traduccion": "El día que vine a Japón hice un viaje largo. Salí de casa a las cuatro de la mañana. La chica del asiento de al lado miraba el reloj y anotaba algo en un cuaderno. «Son los tiempos del vuelo», me explicó. Sobre las rodillas tenía el peluche oficial de la aerolínea. Yo saqué el mapa y apreté con el dedo el sitio donde está Kobe. Cuando el avión aterrizó, ella volvía a estar mirando el reloj.",
  "preguntas": [
   {
-   "p": "バスにどのくらいのりましたか。",
+   "p": "となりの ひとは なにを して いましたか。",
    "opciones": [
-    "<ruby>一<rt>いち</rt></ruby>じかん",
-    "<ruby>二<rt>に</rt></ruby>じかん",
-    "<ruby>三<rt>さん</rt></ruby>じかん",
-    "<ruby>四<rt>よ</rt></ruby>じかん"
+    "ひこうきの じかんを <ruby>書<rt>か</rt></ruby>いて いました",
+    "ねて いました",
+    "ほんを よんで いました"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
-   "p": "かえりのバスで、<ruby>何<rt>なに</rt></ruby>をわすれましたか。",
+   "p": "その ひとは ひざの <ruby>上<rt>うえ</rt></ruby>に なにを もって いましたか。",
    "opciones": [
+    "かいしゃの ぬいぐるみ",
     "<ruby>地図<rt>ちず</rt></ruby>",
-    "ボタンを<ruby>押<rt>お</rt></ruby>すこと",
-    "きっぷ",
-    "かばん"
+    "とけいだけ"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんは <ruby>地図<rt>ちず</rt></ruby>で なにを しましたか。",
+   "opciones": [
+    "こうべを ゆびで <ruby>押<rt>お</rt></ruby>さえました",
+    "<ruby>道<rt>みち</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました",
+    "なにも しませんでした"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Last summer I went on a trip with some friends. We left home early and spent three hours on the bus. During the journey I kept looking at the map. When we reached the town, near the sea, the sky was so blue that we all shouted at once. On the bus back we fell asleep from tiredness and forgot to press the button to get off. Even so, it was a lovely trip."
+ "traduccion_en": "The day I came to Japan I made a long journey. I left home at four in the morning. The young woman in the next seat kept looking at her watch and writing something in a notebook. «These are the flight times», she explained. On her lap she had the airline's official plush toy. I got out the map and pressed my finger on the spot where Kobe is. When the plane landed, she was looking at her watch again."
 }
