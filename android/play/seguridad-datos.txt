@@ -1,44 +1,42 @@
-SEGURIDAD DE LOS DATOS  ·  lo que hay que declarar en Play Console
-==================================================================
+SEGURIDAD DE LOS DATOS  ·  qué marcar en Play Console
+=====================================================
 Tiene que cuadrar con https://jlptest.org/legal/privacidad
 
 ¿Recopila o comparte datos?  →  SÍ
+¿Se cifra todo en tránsito?  →  SÍ  (HTTPS en todo el sitio)
+¿Se pueden borrar los datos? →  SÍ  (Perfil → Borrar la cuenta / Borrar mi avance,
+                                     y https://jlptest.org/legal/borrar-cuenta)
 
-TIPOS DE DATOS
---------------
-1) Información personal → Dirección de correo electrónico
-     Recopilado: sí   ·   Compartido: no
-     Obligatorio: no (se puede estudiar sin cuenta)
-     Finalidad: funciones de la app · administración de la cuenta
-     Motivo: es lo único que se pide para entrar; llega ahí el código de acceso.
+TIPOS DE DATOS QUE SE MARCAN  (ninguno se comparte con terceros)
+---------------------------------------------------------------
+Información personal
+  · Nombre .................. el apodo que se escribe en el marcador del test
+                              gratuito, que se ve en público. Opcional.
+  · Dirección de correo ..... lo único que se pide para entrar. Opcional.
+  · ID de usuario ........... `progreso` y `resultados` cuelgan del id de la
+                              cuenta. Opcional.
 
-2) Información personal → ID de usuario
-     Recopilado: sí   ·   Compartido: no
-     Obligatorio: no
-     Finalidad: funciones de la app
-     Motivo: la tabla `progreso` guarda el progreso bajo el id de la cuenta.
+Actividad en la app
+  · Otras acciones .......... el avance: palabras vistas, etapa de repaso,
+                              racha, XP y notas de los exámenes. Opcional.
+  · Otro contenido generado
+    por el usuario .......... el texto de los avisos de errata («esta
+                              traducción está mal, debería decir…»). Opcional.
 
-3) Actividad de la app → Otras acciones del usuario
-     Recopilado: sí   ·   Compartido: no
-     Obligatorio: no
-     Finalidad: funciones de la app · personalización
-     Motivo: qué palabras se han visto, cuándo toca repasarlas, notas de los
-     exámenes. Sin cuenta esto no sale del aparato.
+En los cinco: recopilado SÍ, compartido NO, opcional SÍ.
+Finalidad: funciones de la app. En el correo, además, administración de la
+cuenta. En el avance, además, personalización.
 
-LO QUE **NO** SE DECLARA, Y POR QUÉ
+LO QUE SE DEJA EN BLANCO, Y POR QUÉ
 -----------------------------------
+· Ubicación (aproximada y precisa): no se pide ni se deduce.
 · Información financiera: dentro de la app no se puede pagar. El cobro ocurre
-  en el sitio web y lo procesa Paddle; la app no ve ni guarda esos datos.
-· Ubicación, contactos, fotos, archivos, calendario, SMS: no se tocan.
-· Diagnósticos y registros de fallos: no hay ninguna herramienta de análisis
-  ni de informes de errores.
-· Historial de navegación o de búsqueda: el buscador consulta el diccionario
-  propio y no se guarda lo que se escribe.
-
-PRÁCTICAS DE SEGURIDAD
-----------------------
-· ¿Se cifran los datos en tránsito?            SÍ (HTTPS en todo el sitio)
-· ¿Se pueden pedir la eliminación de datos?    SÍ
-    - Dentro de la app: Perfil → Borrar la cuenta (inmediato)
-    - Por correo: adriancar75@hotmail.com
-· ¿Sigues las Play Families Policy?            No aplica (público 18+)
+  en la web y lo procesa Paddle; la app no ve ni guarda esos datos.
+· Salud y fitness, Mensajes, Fotos y videos, Archivos de audio, Archivos y
+  documentos, Calendario, Contactos: no se tocan. La app habla en japonés con
+  la voz del sistema, pero no enciende el micrófono ni graba nada.
+· Navegación web: no hay navegador; la app sólo abre jlptest.org.
+· Información y rendimiento de la app (fallos, diagnósticos): no hay ninguna
+  herramienta de análisis ni de informes de errores instalada.
+· ID del dispositivo: sin cuenta, el avance se queda en el aparato y no llega
+  al servidor (la regla de seguridad de la tabla lo impide).
