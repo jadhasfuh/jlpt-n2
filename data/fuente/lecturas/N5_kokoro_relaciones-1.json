@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kokoro/relaciones-1",
- "titulo": "ともだちの<ruby>結婚<rt>けっこん</rt></ruby>",
- "cuerpo": "こどものころから<ruby>仲<rt>なか</rt></ruby>のいいともだちが<ruby>結婚<rt>けっこん</rt></ruby>しました。しきに<ruby>呼<rt>よ</rt></ruby>ばれて、とおくのまちまで<ruby>行<rt>い</rt></ruby>きました。ひさしぶりに<ruby>遇<rt>あ</rt></ruby>うと、かおはおなじでしたが、はなしかたがすこし<ruby>大人<rt>おとな</rt></ruby>になっていました。「しゃしんをとっ<em class=\"g\">てもいいです</em>か」ときくと、わらってうなずいてくれました。かえるまえに、「またいっしょに<ruby>遊<rt>あそ</rt></ruby>ぼう」とやくそくしました。となりのせきの<ruby>人<rt>ひと</rt></ruby>にも「ここにすわっ<em class=\"g\">てもいいです</em>か」ときかれ、あたらしいともだちができました。",
- "traduccion": "Un amigo con el que me llevo bien desde niño se ha casado. Me invitó a la ceremonia y fui hasta una ciudad lejana. Al reencontrarnos después de tanto, su cara era la misma, pero su forma de hablar se había hecho un poco más adulta. Le pregunté «¿puedo hacer una foto?» y asintió riéndose. Antes de volver, quedamos en jugar juntos otra vez. Alguien del asiento de al lado me preguntó «¿puedo sentarme aquí?», y así hice un amigo nuevo.",
+ "titulo": "<ruby>公園<rt>こうえん</rt></ruby>で",
+ "cuerpo": "にちようび、アンナさんと <ruby>公園<rt>こうえん</rt></ruby>で あいました。<ruby>子<rt>こ</rt></ruby>どもたちが あそんで いて、とても にぎやかでした。ベンチに すわって、ぼくは じしょで しらべた ことばを 言いました。アンナさんは しばらく なにも 言いませんでした。それから、「わたしも おなじ きもちです」と、ゆっくり こたえました。ぼくは その <ruby>日<rt>ひ</rt></ruby>、<ruby>日本語<rt>にほんご</rt></ruby>が ぜんぶ わかる きが しました。",
+ "traduccion": "El domingo quedé con Anna en el parque. Había niños jugando y estaba todo muy animado. Nos sentamos en un banco y le dije las palabras que había buscado en el diccionario. Anna se quedó un rato callada. Después contestó despacio: «yo siento lo mismo». Aquel día tuve la sensación de entender el japonés entero.",
  "preguntas": [
   {
-   "p": "ともだちの<ruby>何<rt>なに</rt></ruby>がかわっていましたか。",
+   "p": "どこで あいましたか。",
    "opciones": [
-    "かお",
-    "はなしかた",
-    "なまえ",
-    "まち"
+    "<ruby>公園<rt>こうえん</rt></ruby>",
+    "<ruby>学校<rt>がっこう</rt></ruby>",
+    "みせ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "となりのせきの<ruby>人<rt>ひと</rt></ruby>とはどうなりましたか。",
+   "p": "アンナさんは なんと こたえましたか。",
    "opciones": [
-    "<ruby>話<rt>はな</rt></ruby>さなかった",
-    "あたらしいともだちになった",
-    "しゃしんをとった",
-    "さきにかえった"
+    "「わたしも おなじ きもちです」",
+    "「ごめんなさい」",
+    "「わかりません」"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんは その <ruby>日<rt>ひ</rt></ruby>、どう かんじましたか。",
+   "opciones": [
+    "<ruby>日本語<rt>にほんご</rt></ruby>が ぜんぶ わかる きが しました",
+    "かなしかったです",
+    "つかれました"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "A friend I've got on well with since childhood has got married. He invited me to the ceremony and I travelled to a far-off city. Meeting again after so long, his face was the same, but the way he spoke had become a little more grown-up. I asked him «may I take a photo?» and he nodded with a laugh. Before going home, we agreed to play together again. Someone in the next seat asked me «may I sit here?», and that's how I made a new friend."
+ "traduccion_en": "On Sunday I met Anna in the park. There were children playing and it was very lively. We sat on a bench and I said the words I had looked up in the dictionary. Anna said nothing for a while. Then she answered slowly: «I feel the same». That day I felt as though I understood the whole of Japanese."
 }

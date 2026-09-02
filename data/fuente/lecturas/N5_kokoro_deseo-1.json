@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kokoro/deseo-1",
- "titulo": "<ruby>欲<rt>ほ</rt></ruby>しいもの",
- "cuerpo": "こどものころ、<ruby>欲<rt>ほ</rt></ruby>しいものがたくさんありました。いまは、あまりありません。ものより、しずかな<ruby>時間<rt>じかん</rt></ruby>のほうが<ruby>欲<rt>ほ</rt></ruby>しいです。ともだちに「すこしまっ<em class=\"g\">てください</em>」とたのんで、こうえんのベンチにすわりました。「そこにすわっ<em class=\"g\">てください</em>」と、そのともだちもとなりにきました。<ruby>二人<rt>ふたり</rt></ruby>で<ruby>何<rt>なに</rt></ruby>も<ruby>話<rt>はな</rt></ruby>さずに、そらを<ruby>見<rt>み</rt></ruby>ていました。<ruby>欲<rt>ほ</rt></ruby>しかったものは、たぶんこれだったのだとおもいます。",
- "traduccion": "De niño tenía muchas cosas que quería. Ahora casi ninguna. Más que cosas, lo que quiero es tiempo tranquilo. Le pedí a un amigo «espera un poco, por favor» y me senté en un banco del parque. «Siéntate ahí, por favor», le dije, y se puso a mi lado. Los dos nos quedamos mirando el cielo sin decir nada. Creo que lo que quería era justamente esto.",
+ "titulo": "アンナさんに 言いたい こと",
+ "cuerpo": "アンナさんに ほんとうの ことを 言いたく なりました。でも、ぼくの <ruby>日本語<rt>にほんご</rt></ruby>では むずかしいです。「すきです」だけでは、<ruby>子<rt>こ</rt></ruby>どもの ことばみたいです。ジャンに そうだんすると、「ことばが へたでも かおで わかるよ」と 言いました。ゴンサは 「はやく 言え」と 言うだけでした。その よる、ぼくは じしょを <ruby>開<rt>あ</rt></ruby>きました。",
+ "traduccion": "Me entraron ganas de decirle a Anna lo que siento de verdad. Pero con mi japonés eso es difícil. Un «me gustas» a secas suena a lenguaje de niño. Se lo consulté a Jean y me dijo: «aunque hables mal, se te ve en la cara». Gonza sólo dijo: «díselo ya». Esa noche abrí el diccionario.",
  "preguntas": [
   {
-   "p": "いま、この<ruby>人<rt>ひと</rt></ruby>が<ruby>欲<rt>ほ</rt></ruby>しいものは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "p": "カルロスさんは だれに なにを 言いたいですか。",
    "opciones": [
-    "たくさんのもの",
-    "しずかな<ruby>時間<rt>じかん</rt></ruby>",
-    "あたらしいベンチ",
-    "ともだち"
+    "アンナさんに ほんとうの きもち",
+    "ジャンに しごとの こと",
+    "ゴンサに おかねの こと"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "こうえんで<ruby>二人<rt>ふたり</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "p": "ジャンさんは なんと 言いましたか。",
    "opciones": [
-    "たくさん<ruby>話<rt>はな</rt></ruby>した",
-    "<ruby>何<rt>なに</rt></ruby>も<ruby>話<rt>はな</rt></ruby>さずそらを<ruby>見<rt>み</rt></ruby>ていた",
-    "あるいた",
-    "かえった"
+    "「かおで わかるよ」",
+    "「言わない ほうが いい」",
+    "「まだ はやい」"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "その よる、なにを しましたか。",
+   "opciones": [
+    "じしょを <ruby>開<rt>あ</rt></ruby>きました",
+    "でんわを しました",
+    "ねました"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "As a child there were many things I wanted. Now there's hardly anything. More than things, what I want is quiet time. I asked a friend «wait a moment, please» and sat down on a bench in the park. «Sit there, please», I said, and he sat beside me. The two of us stayed looking at the sky without saying anything. I think this was exactly what I wanted."
+ "traduccion_en": "I felt like telling Anna what I really feel. But with my Japanese that's hard. Just saying «I like you» sounds like a child talking. I asked Jean and he said: «even if you speak badly, it shows on your face». Gonza only said: «just tell her». That night I opened the dictionary."
 }

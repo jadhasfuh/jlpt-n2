@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kokoro/actitud-1",
- "titulo": "<ruby>軽<rt>かる</rt></ruby>いかばん",
- "cuerpo": "あさ、かばんが<ruby>重<rt>おも</rt></ruby>いと、<ruby>気<rt>き</rt></ruby>もちまで<ruby>重<rt>おも</rt></ruby>くなります。きょうは<ruby>中<rt>なか</rt></ruby>のものをはんぶんにして、<ruby>軽<rt>かる</rt></ruby>くしました。すると、おなじみちなのに、あるくのがずっとらくでした。じゅぎょうのあと、ともだちに「どちらの<ruby>本<rt>ほん</rt></ruby>をかりる?」ときかれて、うすいほう<em class=\"g\">にする</em>ことにしました。おもいものをもつのが<ruby>嫌<rt>いや</rt></ruby>なのではありません。ただ、そのぶん<ruby>風<rt>かぜ</rt></ruby>をきもちよく<ruby>感<rt>かん</rt></ruby>じられるのです。あしたも<ruby>軽<rt>かる</rt></ruby>いかばんで<ruby>出<rt>で</rt></ruby>ること<em class=\"g\">にする</em>つもりです。",
- "traduccion": "Por la mañana, si la mochila pesa, hasta el ánimo se vuelve pesado. Hoy he dejado la mitad de las cosas y la he aligerado. Y entonces, siendo el mismo camino, andar se me ha hecho mucho más fácil. Después de clase, un amigo me preguntó cuál de los dos libros quería, y me decidí por el más fino. No es que me moleste llevar peso. Es solo que así siento mejor el viento. Mañana también pienso decidirme por salir con la mochila ligera.",
+ "titulo": "アプリの はなし",
+ "cuerpo": "ゴンサが「これ、やって みない?」と、けいたいの アプリを <ruby>見<rt>み</rt></ruby>せました。<ruby>日本人<rt>にほんじん</rt></ruby>と はなせる アプリです。ぼくは あまり すきでは ありませんでしたが、ことばの れんしゅうには なります。さいしょの <ruby>人<rt>ひと</rt></ruby>は、ぼくの ことばを ゆっくり <ruby>聞<rt>き</rt></ruby>いて くれました。しつもんが かるくて、はなしやすかったです。でも、<ruby>家<rt>いえ</rt></ruby>に かえる みちで、なんだか きもちが <ruby>重<rt>おも</rt></ruby>く なりました。",
+ "traduccion": "Gonza me enseñó una aplicación del móvil: «¿no la pruebas?». Es una app para hablar con japoneses. A mí no me hacía mucha gracia, pero para practicar el idioma sirve. La primera persona escuchó mi japonés con paciencia. Preguntaba cosas ligeras y era fácil hablar con ella. Pero de vuelta a casa se me quedó un peso raro.",
  "preguntas": [
   {
-   "p": "かばんを<ruby>軽<rt>かる</rt></ruby>くすると、どうなりましたか。",
+   "p": "ゴンサさんは なにを <ruby>見<rt>み</rt></ruby>せましたか。",
    "opciones": [
-    "みちがみじかくなった",
-    "あるくのがらくになった",
-    "<ruby>気<rt>き</rt></ruby>もちが<ruby>重<rt>おも</rt></ruby>くなった",
-    "ともだちがふえた"
+    "けいたいの アプリ",
+    "しゃしん",
+    "ほん"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "どちらの<ruby>本<rt>ほん</rt></ruby>をえらびましたか。",
+   "p": "さいしょの <ruby>人<rt>ひと</rt></ruby>は どうでしたか。",
    "opciones": [
-    "<ruby>重<rt>おも</rt></ruby>いほう",
-    "うすいほう",
-    "<ruby>大<rt>おお</rt></ruby>きいほう",
-    "えらばなかった"
+    "ゆっくり <ruby>聞<rt>き</rt></ruby>いて くれました",
+    "はやく はなしました",
+    "<ruby>来<rt>き</rt></ruby>ませんでした"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "かえりみち、カルロスさんは どう かんじましたか。",
+   "opciones": [
+    "きもちが <ruby>重<rt>おも</rt></ruby>く なりました",
+    "とても うれしかったです",
+    "なにも かんじませんでした"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "In the morning, if the bag is heavy, even your mood turns heavy. Today I left half the things behind and made it lighter. And then, on the same road, walking became much easier. After class, a friend asked me which of the two books I wanted, and I settled on the thinner one. It isn't that carrying weight bothers me. It's just that this way I feel the wind better. Tomorrow I intend to settle on going out with a light bag too."
+ "traduccion_en": "Gonza showed me an app on his phone: «why don't you try it?». It's an app for talking to Japanese people. I wasn't keen, but it is practice for the language. The first person listened to my Japanese patiently. Her questions were light and it was easy to talk. But on the way home something felt heavy."
 }

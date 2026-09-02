@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kokoro/alegria-1",
- "titulo": "おれいのことば",
- "cuerpo": "たんじょうびに、ともだちが<ruby>本<rt>ほん</rt></ruby>をくれました。わたしが<ruby>好<rt>す</rt></ruby>きなさっかのものでした。「これ<em class=\"g\">をください</em>」といちど<ruby>話<rt>はな</rt></ruby>したのをおぼえていてくれたのです。とてもうれしくて、その<ruby>日<rt>ひ</rt></ruby>のうちにはんぶん<ruby>読<rt>よ</rt></ruby>みました。おもしろくて、<ruby>楽<rt>たの</rt></ruby>しい<ruby>時間<rt>じかん</rt></ruby>でした。つぎの<ruby>日<rt>ひ</rt></ruby>、おみせで「おなじものをもう<ruby>一<rt>いっ</rt></ruby>さつ<em class=\"g\">をください</em>」とたのみました。ともだちにおかえしをするためです。おれいは、ことばだけでなく、かたちにもしたいのです。",
- "traduccion": "Por mi cumpleaños un amigo me regaló un libro. Era de una autora que me gusta. Se acordaba de que una vez había dicho «dame este». Me hizo tanta ilusión que ese mismo día leí la mitad. Fue interesante y pasé un rato muy agradable. Al día siguiente fui a la tienda y pedí «deme otro ejemplar igual, por favor». Era para devolverle el detalle a mi amigo. El agradecimiento no quiero que sea solo palabras, sino que tome forma.",
+ "titulo": "<ruby>楽<rt>たの</rt></ruby>しい <ruby>人<rt>ひと</rt></ruby>",
+ "cuerpo": "アプリで あう <ruby>人<rt>ひと</rt></ruby>たちは、みんな しんせつでした。まちの ことを <ruby>教<rt>おし</rt></ruby>えて くれて、おいしい みせにも つれて <ruby>行<rt>い</rt></ruby>って くれます。ごはんの おかねを はらうだけで、いい <ruby>一日<rt>いちにち</rt></ruby>に なります。でも、<ruby>楽<rt>たの</rt></ruby>しいのと うれしいのは ちがうと きが つきました。アンナさんと はなす とき、ぼくは じぶんの ことを はなして います。ほかの <ruby>人<rt>ひと</rt></ruby>とは、<ruby>日本<rt>にほん</rt></ruby>の ことしか はなして いませんでした。",
+ "traduccion": "La gente que conocía por la app era toda amable. Te enseñan la ciudad y te llevan a sitios donde se come bien. Pagando la cena te sale un buen día. Pero me di cuenta de que pasarlo bien y estar contento no son lo mismo. Cuando hablo con Anna, hablo de mí. Con las demás sólo hablaba de Japón.",
  "preguntas": [
   {
-   "p": "なぜ、ともだちはその<ruby>本<rt>ほん</rt></ruby>をえらびましたか。",
+   "p": "アプリで あう <ruby>人<rt>ひと</rt></ruby>たちは どうでしたか。",
    "opciones": [
-    "やすかったから",
-    "わたしが<ruby>好<rt>す</rt></ruby>きなさっかのものだから",
-    "あたらしいから",
-    "おもしろいから"
+    "みんな しんせつでした",
+    "こわかったです",
+    "はなしませんでした"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "つぎの<ruby>日<rt>ひ</rt></ruby>、おみせで<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "p": "カルロスさんは なにに きが つきましたか。",
    "opciones": [
-    "<ruby>本<rt>ほん</rt></ruby>をかえした",
-    "おなじ<ruby>本<rt>ほん</rt></ruby>をもう<ruby>一<rt>いっ</rt></ruby>さつたのんだ",
-    "ともだちにあった",
-    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだ"
+    "<ruby>楽<rt>たの</rt></ruby>しいのと うれしいのは ちがう こと",
+    "おかねが ない こと",
+    "ことばが へたな こと"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "アンナさんと はなす とき、なにを はなしますか。",
+   "opciones": [
+    "じぶんの こと",
+    "<ruby>日本<rt>にほん</rt></ruby>の こと",
+    "しごとの こと"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "For my birthday a friend gave me a book. It was by an author I like. He remembered that I'd once said «give me this one». It made me so happy that I read half of it that same day. It was interesting and I had a very pleasant time. The next day I went to the shop and asked «one more copy of the same, please». It was to return the gesture to my friend. I don't want thanks to be only words, but to take a shape."
+ "traduccion_en": "The people I met through the app were all kind. They show you the city and take you to places where you eat well. Paying for dinner buys you a good day. But I realised that having fun and being happy aren't the same thing. When I talk to Anna, I talk about myself. With the others I only ever talked about Japan."
 }

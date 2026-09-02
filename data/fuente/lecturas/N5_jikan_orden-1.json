@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/jikan/orden-1",
- "titulo": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>一<rt>ひと</rt></ruby>つ",
- "cuerpo": "しごとにはじゅんじょがあります。わたしは<ruby>目<rt>め</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>のことをぜんぶいちどにやろうとして、いつもしっぱいしていました。<ruby>先生<rt>せんせい</rt></ruby>は「<ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><ruby>目<rt>め</rt></ruby>が<ruby>終<rt>お</rt></ruby>わる<em class=\"g\">まで</em>、<ruby>二<rt>に</rt></ruby><ruby>番<rt>ばん</rt></ruby><ruby>目<rt>め</rt></ruby>にてをつけるな」とおしえてくれました。それからは、<ruby>次<rt>つぎ</rt></ruby>の<ruby>一<rt>ひと</rt></ruby>つだけをかんがえます。<ruby>過程<rt>かてい</rt></ruby>をとばさないほうが、けっきょくはやいのです。<ruby>翌<rt>よく</rt></ruby>じつまでのこることも、<ruby>少<rt>すく</rt></ruby>なくなりました。いまは<ruby>上<rt>じょう</rt></ruby>の<ruby>級<rt>きゅう</rt></ruby>のしごともまかされています。",
- "traduccion": "El trabajo tiene un orden. Yo intentaba hacer todo lo que tenía delante de una vez y siempre me salía mal. El profesor me enseñó: «hasta que no termines lo primero, no toques lo segundo». Desde entonces solo pienso en la siguiente cosa. Al final se va más rápido si no te saltas el proceso. También me quedan menos cosas para el día siguiente. Ahora incluso me encargan trabajo de nivel superior.",
+ "titulo": "つぎの クラスへ",
+ "cuerpo": "<ruby>学校<rt>がっこう</rt></ruby>には クラスが <ruby>五<rt>いつ</rt></ruby>つ あります。ぼくは いちばん <ruby>下<rt>した</rt></ruby>の クラスから はじめました。<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>めの テストで、つぎの クラスに あがりました。ジャンは おなじ クラスに のこりました。「<ruby>次<rt>つぎ</rt></ruby>は ぼくが あがる ばんだ」と、わらって 言って いました。あたらしい <ruby>教室<rt>きょうしつ</rt></ruby>まで、ろうかを あるく じかんが とても ながく かんじました。",
+ "traduccion": "En la escuela hay cinco clases. Yo empecé en la más baja de todas. En el examen del tercer mes subí a la siguiente. Jean se quedó en la misma. «La próxima vez me toca a mí», dijo riéndose. El paseo por el pasillo hasta el aula nueva se me hizo larguísimo.",
  "preguntas": [
   {
-   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をおしえてくれましたか。",
+   "p": "<ruby>学校<rt>がっこう</rt></ruby>に クラスは いくつ ありますか。",
    "opciones": [
-    "ぜんぶいちどにやること",
-    "<ruby>一<rt>いち</rt></ruby><ruby>番<rt>ばん</rt></ruby><ruby>目<rt>め</rt></ruby>が<ruby>終<rt>お</rt></ruby>わる<em class=\"g\">まで</em>、<ruby>二<rt>に</rt></ruby><ruby>番<rt>ばん</rt></ruby><ruby>目<rt>め</rt></ruby>にてをつけないこと",
-    "はやくやること",
-    "<ruby>翌<rt>よく</rt></ruby>じつにのこすこと"
+    "<ruby>五<rt>いつ</rt></ruby>つ",
+    "<ruby>三<rt>みっ</rt></ruby>つ",
+    "<ruby>十<rt>とお</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "いま、どうなりましたか。",
+   "p": "いつ クラスが あがりましたか。",
    "opciones": [
-    "しっぱいがふえた",
-    "<ruby>上<rt>じょう</rt></ruby>の<ruby>級<rt>きゅう</rt></ruby>のしごともまかされている",
-    "しごとがへった",
-    "<ruby>時間<rt>じかん</rt></ruby>がかかる"
+    "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>めの テスト",
+    "さいしょの テスト",
+    "<ruby>一年<rt>いちねん</rt></ruby>め"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "ジャンさんは どう しましたか。",
+   "opciones": [
+    "おなじ クラスに のこりました",
+    "あがりました",
+    "やめました"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Work has an order to it. I used to try to do everything in front of me at once and it always went badly. My teacher taught me: «until you finish the first thing, don't touch the second». Since then I only think about the next thing. In the end it goes faster if you don't skip the steps. I'm also left with fewer things for the next day. Now they even give me work of a higher level."
+ "traduccion_en": "The school has five classes. I started in the lowest one. In the third-month test I moved up to the next. Jean stayed where he was. «Next time it's my turn», he said, laughing. The walk down the corridor to the new classroom felt very long."
 }
