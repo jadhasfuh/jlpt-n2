@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/jikan/frecuencia-1",
- "titulo": "<ruby>時々<rt>ときどき</rt></ruby>のてがみ",
- "cuerpo": "そぼは<ruby>時々<rt>ときどき</rt></ruby>てがみをくれます。でんわ<em class=\"g\">で</em><ruby>話<rt>はな</rt></ruby>すより、かいたもののほうがいいそうです。わたしのへんじは<ruby>少<rt>すく</rt></ruby>ないですが、<ruby>又<rt>また</rt></ruby>かならず<ruby>書<rt>か</rt></ruby>きます。ことしは<ruby>三<rt>さん</rt></ruby><ruby>遍<rt>べん</rt></ruby>だけでした。<ruby>正<rt>ただ</rt></ruby>しいことばがわからなくて、<ruby>時間<rt>じかん</rt></ruby>がかかるからです。でも、そぼは「<ruby>少<rt>すこ</rt></ruby>しずつでいい」とこたえてくれました。だんだん<ruby>書<rt>か</rt></ruby>くのがはやくなっています。らいねんは<ruby>十<rt>じゅっ</rt></ruby><ruby>遍<rt>ぺん</rt></ruby>をめざします。",
- "traduccion": "Mi abuela me manda cartas de vez en cuando. Dice que prefiere lo escrito a hablar por teléfono. Mis respuestas son pocas, pero siempre acabo escribiendo otra vez. Este año solo han sido tres veces. Es que no doy con las palabras correctas y tardo mucho. Pero mi abuela me contestó que poco a poco está bien. Poco a poco escribo más deprisa. El año que viene voy a por diez veces.",
+ "titulo": "だんだん なれる",
+ "cuerpo": "しごとは <ruby>一<rt>いっ</rt></ruby>しゅうかんに <ruby>三<rt>さん</rt></ruby>かいです。はじめは まいかい つかれて、<ruby>家<rt>いえ</rt></ruby>で すぐ ねて いました。だんだん、かえってから べんきょうする じかんが できました。<ruby>時々<rt>ときどき</rt></ruby>、みせの まかないで ピザを もらいます。ゴンサは 「おまえ、ピザの においが する」と 言います。しごとの ある <ruby>日<rt>ひ</rt></ruby>は、じかんが すくないですが、<ruby>一日<rt>いちにち</rt></ruby>が こい かんじが します。",
+ "traduccion": "Trabajo tres veces por semana. Al principio acababa reventado cada vez y me dormía nada más llegar a casa. Poco a poco he ido sacando tiempo para estudiar al volver. De vez en cuando me dan una pizza de la comida del personal. Gonza me dice: «tío, hueles a pizza». Los días que trabajo tengo menos tiempo, pero el día se siente más lleno.",
  "preguntas": [
   {
-   "p": "ことし、<ruby>何<rt>なん</rt></ruby><ruby>遍<rt>べん</rt></ruby>てがみを<ruby>書<rt>か</rt></ruby>きましたか。",
+   "p": "しごとは <ruby>一<rt>いっ</rt></ruby>しゅうかんに なんかいですか。",
    "opciones": [
-    "<ruby>一<rt>いっ</rt></ruby><ruby>遍<rt>ぺん</rt></ruby>",
-    "<ruby>三<rt>さん</rt></ruby><ruby>遍<rt>べん</rt></ruby>",
-    "<ruby>十<rt>じゅっ</rt></ruby><ruby>遍<rt>ぺん</rt></ruby>",
-    "<ruby>時々<rt>ときどき</rt></ruby>"
+    "<ruby>三<rt>さん</rt></ruby>かい",
+    "<ruby>毎日<rt>まいにち</rt></ruby>",
+    "<ruby>一<rt>いっ</rt></ruby>かい"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "てがみに<ruby>時間<rt>じかん</rt></ruby>がかかるのはなぜですか。",
+   "p": "かえってから なにが できるように なりましたか。",
    "opciones": [
-    "<ruby>少<rt>すく</rt></ruby>ないから",
-    "<ruby>正<rt>ただ</rt></ruby>しいことばがわからないから",
-    "でんわがすきだから",
-    "そぼがとおいから"
+    "べんきょう",
+    "りょうり",
+    "そうじ"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "ゴンサさんは なんと 言いますか。",
+   "opciones": [
+    "「ピザの においが する」",
+    "「つかれて いる」",
+    "「おかねが ある」"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "My grandmother sends me letters now and then. She says she prefers writing to talking on the telephone. My replies are few, but I always end up writing again. This year it's only been three times. The thing is I can't find the right words and it takes me a long time. But my grandmother wrote back that little by little is fine. Little by little I write faster. Next year I'm going for ten times."
+ "traduccion_en": "I work three times a week. At first I was wrecked every time and fell asleep the moment I got home. Little by little I've found time to study after getting back. Now and then they give me a pizza from the staff meal. Gonza says: «mate, you smell of pizza». On working days I have less time, but the day feels fuller."
 }

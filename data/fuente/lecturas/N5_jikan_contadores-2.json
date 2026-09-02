@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/jikan/contadores-2",
- "titulo": "みかんを<ruby>分<rt>わ</rt></ruby>ける",
- "cuerpo": "つくえの<ruby>上<rt>うえ</rt></ruby>にみかんが<ruby>九<rt>ここの</rt></ruby>つあります。かぞくは<ruby>四<rt>よ</rt></ruby>にんです。<ruby>二<rt>ふた</rt></ruby>つずつわけると、<ruby>一<rt>ひと</rt></ruby>つのこります。「のこりはだれのもの?」ときくと、だれもこたえません。<em class=\"g\">まだ</em>きめられないので、はんぶんに<ruby>切<rt>き</rt></ruby>って、<ruby>四<rt>よっ</rt></ruby>つにしました。それでも<ruby>三<rt>みっ</rt></ruby>つあまりました。かぞえかたが<em class=\"g\">まだ</em>へたなようです。あしたは<ruby>五<rt>いつ</rt></ruby>つだけかって、ひとり<ruby>一<rt>ひと</rt></ruby>つにします。",
- "traduccion": "Encima de la mesa hay nueve mandarinas. En casa somos cuatro. Si repartimos dos a cada uno, sobra una. Pregunté de quién era la que sobraba y nadie contestó. Como todavía no lo podíamos decidir, la corté por la mitad y salieron cuatro trozos. Aun así sobraron tres. Parece que todavía se me da mal contar. Mañana compraré solo cinco, una para cada uno.",
+ "titulo": "さらを あらう",
+ "cuerpo": "さいしょの <ruby>日<rt>ひ</rt></ruby>、さらを <ruby>二百<rt>にひゃく</rt></ruby>まい あらいました。みずが つめたくて、てが あかく なりました。ミンさんが「<ruby>一<rt>ひと</rt></ruby>つずつ おなじ ばしょに おくと はやい」と <ruby>教<rt>おし</rt></ruby>えて くれました。そのとおりに すると、ほんとうに はやく なりました。<ruby>三日<rt>みっか</rt></ruby>めには、だれよりも はやく なりました。てんちょうが なにも 言わないで、ぼくの かたを たたいて いきました。",
+ "traduccion": "El primer día lavé doscientos platos. El agua estaba helada y se me pusieron las manos rojas. Min me enseñó: «si los pones de uno en uno siempre en el mismo sitio, vas más rápido». Lo hice así y, en efecto, gané velocidad. Al tercer día era el más rápido de todos. El encargado no dijo nada: me dio una palmada en el hombro y siguió.",
  "preguntas": [
   {
-   "p": "みかんはいくつありましたか。",
+   "p": "さいしょの <ruby>日<rt>ひ</rt></ruby>、さらを なんまい あらいましたか。",
    "opciones": [
-    "<ruby>四<rt>よっ</rt></ruby>つ",
-    "<ruby>五<rt>いつ</rt></ruby>つ",
-    "<ruby>九<rt>ここの</rt></ruby>つ",
-    "<ruby>三<rt>みっ</rt></ruby>つ"
+    "<ruby>二百<rt>にひゃく</rt></ruby>まい",
+    "<ruby>十<rt>じゅう</rt></ruby>まい",
+    "<ruby>二十<rt>にじゅう</rt></ruby>まい"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
-   "p": "あした、いくつかいますか。",
+   "p": "ミンさんは なにを <ruby>教<rt>おし</rt></ruby>えて くれましたか。",
    "opciones": [
-    "<ruby>四<rt>よっ</rt></ruby>つ",
-    "<ruby>五<rt>いつ</rt></ruby>つ",
-    "<ruby>九<rt>ここの</rt></ruby>つ",
-    "<ruby>二<rt>ふた</rt></ruby>つ"
+    "おなじ ばしょに おく こと",
+    "みずを あつく する こと",
+    "やすむ こと"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "てんちょうは なにを しましたか。",
+   "opciones": [
+    "かたを たたきました",
+    "なにか 言いました",
+    "おこりました"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "There are nine mandarins on the table. There are four of us at home. If we hand out two each, one is left over. I asked whose the leftover one was and nobody answered. Since we still couldn't decide, I cut it in half and got four pieces. Even so, three were left over. It seems I'm still bad at counting. Tomorrow I'll buy only five, one for each of us."
+ "traduccion_en": "On my first day I washed two hundred plates. The water was freezing and my hands turned red. Min taught me: «if you set them down one at a time in the same place, you go faster». I did it that way and I really did speed up. By the third day I was the fastest of the lot. The manager said nothing: he patted my shoulder and walked on."
 }

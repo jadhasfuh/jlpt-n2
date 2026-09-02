@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/jikan/duracion-1",
- "titulo": "<ruby>速<rt>はや</rt></ruby>くあるく<ruby>人<rt>ひと</rt></ruby>",
- "cuerpo": "まいあさ、おなじみちであう<ruby>人<rt>ひと</rt></ruby>がいます。とても<ruby>速<rt>はや</rt></ruby>くあるい<em class=\"g\">ている</em>ので、すぐにわたしをぬいていきます。きょう、その<ruby>人<rt>ひと</rt></ruby>がとまっ<em class=\"g\">ている</em>のを<ruby>見<rt>み</rt></ruby>ました。ちいさないぬを<ruby>見<rt>み</rt></ruby><em class=\"g\">ている</em>ようでした。<ruby>声<rt>こえ</rt></ruby>をかけると、「まいにち<ruby>速<rt>はや</rt></ruby>くあるくのは、あるくのがすきだからではなく、しごとにおくれるからです」とわらいました。あしたからは、わたしももうすこしはやくうちを<ruby>出<rt>で</rt></ruby>ようとおもいます。",
- "traduccion": "Cada mañana me cruzo con una persona en el mismo camino. Camina tan rápido que enseguida me adelanta. Hoy la he visto parada. Parecía estar mirando a un perrito. Le dije algo y me contestó riéndose: «camino rápido todos los días no porque me guste andar, sino porque llego tarde al trabajo». A partir de mañana yo también voy a salir de casa un poco antes.",
+ "titulo": "<ruby>速<rt>はや</rt></ruby>く なる",
+ "cuerpo": "しごとに なれると、じかんが <ruby>速<rt>はや</rt></ruby>く すすみます。はじめの ひは よじかんが とても ながかったです。いまは、きが つくと おわる じかんに なって います。ミンさんは ピザを やくのも <ruby>教<rt>おし</rt></ruby>えて くれて います。「ぼくの せんぱいは この みせの <ruby>人<rt>ひと</rt></ruby>たちです」と ミンさんが 言いました。ぼくの せんぱいは ミンさんです。",
+ "traduccion": "Cuando te acostumbras al trabajo, el tiempo pasa rápido. El primer día, cuatro horas se me hicieron larguísimas. Ahora, cuando quiero darme cuenta, ya es la hora de salir. Min me está enseñando también a hornear las pizzas. «Mis senpai son la gente de esta tienda», me dijo Min. El mío es Min.",
  "preguntas": [
   {
-   "p": "きょう、その<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をし<em class=\"g\">ている</em>ましたか。",
+   "p": "はじめの ひ、よじかんは どうでしたか。",
    "opciones": [
-    "<ruby>速<rt>はや</rt></ruby>くあるいていた",
-    "とまっていた",
-    "はしっていた",
-    "<ruby>話<rt>はな</rt></ruby>していた"
+    "とても ながかったです",
+    "みじかかったです",
+    "たのしかったです"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "その<ruby>人<rt>ひと</rt></ruby>が<ruby>速<rt>はや</rt></ruby>くあるくのはなぜですか。",
+   "p": "ミンさんは なにを <ruby>教<rt>おし</rt></ruby>えて いますか。",
    "opciones": [
-    "あるくのがすきだから",
-    "しごとにおくれるから",
-    "いぬがいるから",
-    "みちがながいから"
+    "ピザの やき<ruby>方<rt>かた</rt></ruby>",
+    "さらの あらい<ruby>方<rt>かた</rt></ruby>",
+    "<ruby>日本語<rt>にほんご</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんの せんぱいは だれですか。",
+   "opciones": [
+    "ミンさん",
+    "てんちょう",
+    "ゴンサ"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Every morning I pass the same person on the same road. She walks so fast that she overtakes me straight away. Today I saw her standing still. She seemed to be looking at a puppy. I said something to her and she answered with a laugh: «I walk fast every day not because I like walking, but because I'm late for work». From tomorrow I'm going to leave home a little earlier too."
+ "traduccion_en": "Once you get used to the work, time goes fast. On the first day, four hours felt endless. Now, before I know it, it's time to leave. Min is also teaching me how to bake the pizzas. «My senpai are the people in this shop», Min told me. Mine is Min."
 }

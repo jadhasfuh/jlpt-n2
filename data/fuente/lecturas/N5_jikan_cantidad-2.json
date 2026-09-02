@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/jikan/cantidad-2",
- "titulo": "<ruby>半分<rt>はんぶん</rt></ruby>ずつ",
- "cuerpo": "ケーキを<ruby>一<rt>ひと</rt></ruby>つかって、いもうとと<ruby>半分<rt>はんぶん</rt></ruby>ずつ<ruby>食<rt>た</rt></ruby>べました。<ruby>全部<rt>ぜんぶ</rt></ruby>で<ruby>八<rt>はっ</rt></ruby>つに<ruby>切<rt>き</rt></ruby>って、<ruby>四<rt>よっ</rt></ruby>つずつです。いもうとは「<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>、<ruby>小<rt>ちい</rt></ruby>さいほうでいい」と<ruby>言<rt>い</rt></ruby>いましたが、わたしは<ruby>多<rt>おお</rt></ruby>いほうをわたしました。<ruby>一番<rt>いちばん</rt></ruby>うれしそうな<ruby>顔<rt>かお</rt></ruby>をしていました。<ruby>本<rt>ほん</rt></ruby>やノートも、いつも<ruby>二人<rt>ふたり</rt></ruby>で<ruby>付<rt>つ</rt></ruby>けたしるしを<ruby>見<rt>み</rt></ruby>て、<ruby>各<rt>かく</rt></ruby>じぶんのものをわけています。それでけんかになったことは、いくつもありません。",
- "traduccion": "Compré una tarta y me la comí a medias con mi hermana. La corté en ocho trozos en total, cuatro para cada una. Ella dijo «tranquila, a mí me vale el trozo pequeño», pero yo le di el más grande. Puso la cara más contenta del mundo. Los libros y los cuadernos también los repartimos mirando la marca que cada una pone. Por eso no hemos discutido apenas ninguna vez.",
+ "titulo": "バイトの でんわ",
+ "cuerpo": "みせの まえに はって ある かみに、でんわばんごうが ありました。「アルバイト ぼしゅう」と かいて あります。でんわを かける まえに、言う ことを ぜんぶ かみに かきました。「もしもし、かみを <ruby>見<rt>み</rt></ruby>ました」と 言うと、あいてが はやく はなしはじめました。はんぶんしか わかりませんでしたが、「あした <ruby>来<rt>き</rt></ruby>て ください」だけは <ruby>聞<rt>き</rt></ruby>こえました。でんわを きって、ぼくは いすに すわりました。てが つめたかったです。",
+ "traduccion": "En un papel pegado delante de una tienda había un número de teléfono. Ponía: «se busca personal». Antes de llamar me escribí en un papel todo lo que iba a decir. Dije «hola, he visto el anuncio» y el otro empezó a hablar muy rápido. Sólo entendí la mitad, pero el «venga usted mañana» sí lo pillé. Colgué y me senté en una silla. Tenía las manos frías.",
  "preguntas": [
   {
-   "p": "ケーキはいくつに<ruby>切<rt>き</rt></ruby>りましたか。",
+   "p": "かみには なにが かいて ありましたか。",
    "opciones": [
-    "<ruby>四<rt>よっ</rt></ruby>つ",
-    "<ruby>六<rt>むっ</rt></ruby>つ",
-    "<ruby>八<rt>はっ</rt></ruby>つ",
-    "<ruby>十<rt>じゅう</rt></ruby>"
+    "アルバイト ぼしゅう",
+    "みせの なまえ",
+    "やすみの <ruby>日<rt>ひ</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
-   "p": "いもうとに、どちらをわたしましたか。",
+   "p": "でんわの まえに なにを しましたか。",
    "opciones": [
-    "<ruby>小<rt>ちい</rt></ruby>さいほう",
-    "<ruby>多<rt>おお</rt></ruby>いほう",
-    "<ruby>半分<rt>はんぶん</rt></ruby>",
-    "わたさなかった"
+    "言う ことを かみに かきました",
+    "ともだちに ききました",
+    "なにも しませんでした"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "あいては なんと 言いましたか。",
+   "opciones": [
+    "「あした <ruby>来<rt>き</rt></ruby>て ください」",
+    "「もう いっぱいです」",
+    "「でんわを ください」"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "I bought a cake and shared it with my sister. I cut it into eight pieces in all, four each. She said «don't worry, the small piece is fine for me», but I gave her the biggest one. She made the happiest face in the world. We also share out books and notebooks by looking at the mark each of us puts on them. That's why we've hardly ever argued."
+ "traduccion_en": "On a sheet stuck up in front of a shop there was a phone number. It said: «staff wanted». Before calling I wrote out everything I was going to say. I said «hello, I saw the notice» and the other person started talking very fast. I only caught half of it, but I did hear «come tomorrow». I hung up and sat down on a chair. My hands were cold."
 }

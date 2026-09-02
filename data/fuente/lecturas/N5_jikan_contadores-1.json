@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/jikan/contadores-1",
- "titulo": "<ruby>松<rt>まつ</rt></ruby>の<ruby>木<rt>き</rt></ruby>を<ruby>数<rt>かぞ</rt></ruby>える",
- "cuerpo": "うちのうらに<ruby>松<rt>まつ</rt></ruby>の<ruby>木<rt>き</rt></ruby>が<ruby>十<rt>じゅう</rt></ruby><ruby>本<rt>ぽん</rt></ruby>あります。そふが<ruby>百<rt>ひゃく</rt></ruby>ねんまえにうえたそうです。わたしは<em class=\"g\">いつも</em>、あさそこをとおるとき、<ruby>何<rt>なん</rt></ruby><ruby>本<rt>ぼん</rt></ruby>あるか<ruby>数<rt>かぞ</rt></ruby>えます。<ruby>七<rt>なな</rt></ruby><ruby>本<rt>ほん</rt></ruby>めの<ruby>木<rt>き</rt></ruby>が<em class=\"g\">いつも</em>いちばん<ruby>大<rt>おお</rt></ruby>きく<ruby>見<rt>み</rt></ruby>えます。きょねん、<ruby>二<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby>がかぜでたおれました。いまは<ruby>八<rt>はち</rt></ruby><ruby>本<rt>ほん</rt></ruby>です。<ruby>三<rt>さん</rt></ruby><ruby>泊<rt>ぱく</rt></ruby>の<ruby>旅行<rt>りょこう</rt></ruby>からかえったとき、まずこの<ruby>木<rt>き</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。",
- "traduccion": "Detrás de casa hay diez pinos. Dicen que los plantó mi abuelo hace cien años. Yo siempre los cuento cuando paso por ahí por la mañana. El séptimo siempre me parece el más grande. El año pasado el viento tiró dos. Ahora quedan ocho. Cuando volví de un viaje de tres noches, lo primero que miré fueron estos árboles.",
+ "titulo": "ピザやの さいしょの <ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "みせは ピザやでした。てんちょうは バングラデシュの <ruby>人<rt>ひと</rt></ruby>です。「<ruby>一<rt>いち</rt></ruby>、<ruby>二<rt>に</rt></ruby>、<ruby>三<rt>さん</rt></ruby>」と かぞえながら、しごとの じゅんばんを <ruby>教<rt>おし</rt></ruby>えて くれました。さらを あらう、テーブルを ふく、ピザの はこを <ruby>作<rt>つく</rt></ruby>る。はこは <ruby>十<rt>じゅう</rt></ruby>まいで <ruby>一<rt>ひと</rt></ruby>セットです。はやく うごく <ruby>人<rt>ひと</rt></ruby>たちで、みんな しごとを とても まじめに して います。そして、おどろいた ことに、ミンさんも そこで はたらいて いました。",
+ "traduccion": "El sitio era una pizzería. El encargado es de Bangladesh. Contando «uno, dos, tres» me fue enseñando el orden del trabajo. Lavar los platos, limpiar las mesas, montar las cajas de pizza. Las cajas van de diez en diez. Es gente que se mueve rápido y se toma el trabajo muy en serio. Y, para mi sorpresa, Min también trabajaba allí.",
  "preguntas": [
   {
-   "p": "いま、<ruby>松<rt>まつ</rt></ruby>の<ruby>木<rt>き</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>本<rt>ぼん</rt></ruby>ありますか。",
+   "p": "てんちょうは どこの <ruby>人<rt>ひと</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>七<rt>なな</rt></ruby><ruby>本<rt>ほん</rt></ruby>",
-    "<ruby>八<rt>はち</rt></ruby><ruby>本<rt>ほん</rt></ruby>",
-    "<ruby>十<rt>じゅう</rt></ruby><ruby>本<rt>ぽん</rt></ruby>",
-    "<ruby>二<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby>"
+    "バングラデシュ",
+    "ミャンマー",
+    "<ruby>日本<rt>にほん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<em class=\"g\">いつも</em>いちばん<ruby>大<rt>おお</rt></ruby>きく<ruby>見<rt>み</rt></ruby>えるのはどれですか。",
+   "p": "はこは なんまいで <ruby>一<rt>ひと</rt></ruby>セットですか。",
    "opciones": [
-    "<ruby>一<rt>いっ</rt></ruby><ruby>本<rt>ぽん</rt></ruby>め",
-    "<ruby>七<rt>なな</rt></ruby><ruby>本<rt>ほん</rt></ruby>め",
-    "<ruby>十<rt>じゅう</rt></ruby><ruby>本<rt>ぽん</rt></ruby>め",
-    "ぜんぶおなじ"
+    "<ruby>十<rt>じゅう</rt></ruby>まい",
+    "<ruby>五<rt>ご</rt></ruby>まい",
+    "<ruby>百<rt>ひゃく</rt></ruby>まい"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "だれが そこで はたらいて いましたか。",
+   "opciones": [
+    "ミンさん",
+    "ジャン",
+    "ゴンサ"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Behind the house there are ten pine trees. They say my grandfather planted them a hundred years ago. I always count them when I go past in the morning. The seventh always looks the biggest to me. Last year the wind brought two of them down. Now eight are left. When I came back from a three-night trip, the first thing I looked at was these trees."
+ "traduccion_en": "The place was a pizzeria. The manager is from Bangladesh. Counting «one, two, three», he taught me the order of the work. Wash the dishes, wipe the tables, fold the pizza boxes. The boxes go in sets of ten. They're people who move fast and take the work very seriously. And, to my surprise, Min worked there too."
 }

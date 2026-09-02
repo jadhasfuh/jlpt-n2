@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/jikan/momento-1",
- "titulo": "<ruby>終<rt>お</rt></ruby>わりと<ruby>先<rt>さき</rt></ruby>",
- "cuerpo": "<ruby>今<rt>いま</rt></ruby>のしごとは<ruby>先<rt>せん</rt></ruby>げつはじまりました。<ruby>前<rt>まえ</rt></ruby>のしごとが<ruby>終<rt>お</rt></ruby>わったあと、すこしやすんでから<ruby>来<rt>き</rt></ruby>ました。はじめは<ruby>何<rt>なに</rt></ruby>もわからず、<ruby>遅<rt>おそ</rt></ruby>くまでのこっていました。<ruby>後<rt>うし</rt></ruby>ろのせきの<ruby>人<rt>ひと</rt></ruby>が、「わからないことは<ruby>先<rt>さき</rt></ruby>にきいたほうがいい」とおしえてくれました。それからすこしずつはやく<ruby>終<rt>お</rt></ruby>わるように<em class=\"g\">なり</em>ました。いつかわたしも、あたらしい<ruby>人<rt>ひと</rt></ruby>におしえられるように<em class=\"g\">なり</em>たいです。",
- "traduccion": "Mi trabajo actual empezó el mes pasado. Vine después de que terminara el anterior y de descansar un poco. Al principio no entendía nada y me quedaba hasta tarde. La persona del asiento de detrás me enseñó que lo que no entiendes conviene preguntarlo cuanto antes. Desde entonces he ido acabando cada vez más pronto. Algún día quiero llegar a poder enseñarle yo a los que llegan nuevos.",
+ "titulo": "しごとの <ruby>後<rt>あと</rt></ruby>で",
+ "cuerpo": "しごとが <ruby>終<rt>お</rt></ruby>わるのは <ruby>夜<rt>よる</rt></ruby> <ruby>十時<rt>じゅうじ</rt></ruby>です。<ruby>後<rt>あと</rt></ruby>かたづけを して、みんなで みせを <ruby>出<rt>で</rt></ruby>ます。ミンさんは いつも さいごまで のこります。「<ruby>先<rt>さき</rt></ruby>に かえって いいよ」と 言われますが、ぼくも のこる ことに して います。かえりの みちは くらくて、しずかです。つかれて いますが、この じかんが すきに なりました。",
+ "traduccion": "El trabajo termina a las diez de la noche. Recogemos y salimos todos juntos de la tienda. Min siempre se queda hasta el final. Me dicen «puedes irte antes», pero yo también me quedo. El camino de vuelta está oscuro y silencioso. Estoy cansado, pero le he cogido cariño a esa hora.",
  "preguntas": [
   {
-   "p": "はじめ、どうして<ruby>遅<rt>おそ</rt></ruby>くまでのこっていましたか。",
+   "p": "しごとは なんじに <ruby>終<rt>お</rt></ruby>わりますか。",
    "opciones": [
-    "しごとがおおかったから",
-    "<ruby>何<rt>なに</rt></ruby>もわからなかったから",
-    "<ruby>後<rt>うし</rt></ruby>ろの<ruby>人<rt>ひと</rt></ruby>をまっていたから",
-    "やすみたかったから"
+    "<ruby>十時<rt>じゅうじ</rt></ruby>",
+    "<ruby>八時<rt>はちじ</rt></ruby>",
+    "<ruby>十二時<rt>じゅうにじ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>後<rt>うし</rt></ruby>ろのせきの<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をおしえてくれましたか。",
+   "p": "ミンさんは どう しますか。",
    "opciones": [
-    "はやくかえること",
-    "わからないことは<ruby>先<rt>さき</rt></ruby>にきくこと",
-    "<ruby>遅<rt>おそ</rt></ruby>くまでのこること",
-    "しごとをかえること"
+    "さいごまで のこります",
+    "さきに かえります",
+    "<ruby>来<rt>き</rt></ruby>ません"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "かえりの みちは どうですか。",
+   "opciones": [
+    "くらくて しずかです",
+    "あかるいです",
+    "にぎやかです"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "My current job started last month. I came after the previous one ended and I'd had a little rest. At first I didn't understand anything and stayed late. The person at the desk behind me taught me that what you don't understand is best asked about as soon as possible. Since then I've been finishing earlier and earlier. One day I want to be able to teach the newcomers myself."
+ "traduccion_en": "Work finishes at ten at night. We clear up and leave the shop together. Min always stays until the very end. They tell me «you can go on ahead», but I stay too. The walk home is dark and quiet. I'm tired, but I've grown fond of that hour."
 }
