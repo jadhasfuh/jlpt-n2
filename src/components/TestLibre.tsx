@@ -1,12 +1,13 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { NOMBRE_TIPO, type Item } from "@/lib/examen";
+import { NOMBRE_TIPO, marcarHuecos, type Item } from "@/lib/examen";
 import { useAjustes } from "./Ajustes";
 import { JpEnLinea } from "./Jp";
 import { AyudaInstruccion } from "./AyudaInstruccion";
-import { IcBien, IcCerrar, IcDerecha } from "./Iconos";
+import { IcBien, IcCerrar, IcDerecha, IcReproducir } from "./Iconos";
+import { callar, decirTramos } from "@/lib/voz";
 
 const LETRAS = ["1", "2", "3", "4"];
 
@@ -32,12 +33,31 @@ export function TestLibre({ nivel, items }: { nivel: string; items: Item[] }) {
   const [envio, setEnvio] = useState<"no" | "yendo" | "hecho" | "saltado" | "fallo">("no");
   const [n, setN] = useState(0);
   const [respuestas, setRespuestas] = useState<Record<string, number>>({});
+  // Cuál se ha oído ya, para que el botón diga «otra vez» y no mienta.
+  const [sonado, setSonado] = useState<Record<string, boolean>>({});
   const [fin, setFin] = useState(false);
 
   const aciertos = useMemo(
     () => items.filter((it) => respuestas[it.id] === it.respuesta).length,
     [items, respuestas],
   );
+
+  // Los hooks van antes de cualquier return, así que la pregunta actual se
+  // resuelve aquí aunque la lista venga vacía.
+  const actual = items[n] as Item | undefined;
+  const reproducir = useCallback(() => {
+    const g = actual?.guion;
+    if (!g || !actual) return;
+    setSonado((s) => ({ ...s, [actual.id]: true }));
+    // La intro y la pregunta las dice el narrador; cada turno, su personaje.
+    decirTramos([
+      ...(g.intro ? [{ texto: g.intro }] : []),
+      ...g.turnos.map((x) => ({ texto: x.texto, quien: x.quien })),
+      ...(g.pregunta ? [{ texto: g.pregunta }] : []),
+    ], { rate: 0.95 });
+  }, [actual]);
+  // Al salir de la pregunta o de la página, que no siga hablando sola.
+  useEffect(() => callar, [n]);
 
   if (!items.length) {
     return <p className="tenue" style={{ marginTop: 30 }}>{t("lib.vacio")}</p>;
@@ -176,7 +196,7 @@ export function TestLibre({ nivel, items }: { nivel: string; items: Item[] }) {
                 </span>
               </div>
               <p style={{ margin: "0 0 10px", fontSize: 15.5, lineHeight: 1.8 }}>
-                <JpEnLinea html={it.enunciado} />
+                <JpEnLinea html={marcarHuecos(it.enunciado)} />
               </p>
               {it.opciones.map((o, j) => {
                 const correcta = j === it.respuesta;
@@ -229,8 +249,29 @@ export function TestLibre({ nivel, items }: { nivel: string; items: Item[] }) {
         <AyudaInstruccion tipo={item.tipo} texto={item.instruccion_ja} />
       </p>
 
+      {/* La de escucha no se lee: se oye. El guion lo dice la voz del sistema,
+          con voz distinta para cada personaje. */}
+      {item.guion && (
+        <div style={{ textAlign: "center", margin: "18px 0 6px" }}>
+          <button type="button" onClick={reproducir} aria-label={t("lib.escuchar")}
+                  style={{
+                    width: 92, height: 92, borderRadius: "50%", display: "grid", placeItems: "center",
+                    border: "1px solid var(--acento)", color: "var(--acento)",
+                    background: "color-mix(in srgb, var(--acento) 12%, transparent)",
+                  }}>
+            <IcReproducir size={32} weight="fill" />
+          </button>
+          <div className="tenue" style={{ marginTop: 6 }}>
+            {sonado[item.id] ? t("lib.otraVez") : t("lib.escuchar")}
+          </div>
+          <p className="tenue" style={{ margin: "8px auto 0", maxWidth: 320 }}>
+            {t("lib.escuchaNota")}
+          </p>
+        </div>
+      )}
+
       <p style={{ margin: "14px 0 16px", fontSize: 18, lineHeight: 1.9 }}>
-        <JpEnLinea html={item.enunciado} />
+        <JpEnLinea html={marcarHuecos(item.enunciado)} />
       </p>
 
       {item.opciones.map((o, j) => {

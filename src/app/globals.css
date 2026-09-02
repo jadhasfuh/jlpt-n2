@@ -566,3 +566,19 @@ em.g.n3 { border-color: color-mix(in srgb, var(--n3) 60%, transparent); }
   opacity: 1;
   color: var(--acento);
 }
+
+/* Las casillas del ejercicio de ordenar (文の組み立て). Cada una es un hueco
+   donde va un fragmento; la de la estrella es la que se contesta. */
+.hueco {
+  display: inline-block;
+  min-width: 3.4em;
+  border-bottom: 2px solid var(--linea);
+  margin: 0 .18em;
+  vertical-align: baseline;
+}
+.hueco.estrella {
+  border-bottom-color: var(--acento);
+  color: var(--acento);
+  text-align: center;
+  font-size: .9em;
+}

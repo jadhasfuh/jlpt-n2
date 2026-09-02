@@ -30,15 +30,23 @@ export function esAbierto(n: string): n is Abierto {
  * reparte en el resto.
  */
 const CUOTA: Record<Abierto, Record<string, number>> = {
-  N5: { kanji_yomi: 6, hyouki: 4, bunmyaku: 5, iikae: 3, bunpou1: 5, bunpou2: 2 },
-  N4: { kanji_yomi: 5, hyouki: 4, bunmyaku: 5, iikae: 3, youhou: 3, bunpou1: 3, bunpou2: 2 },
+  N5: { kanji_yomi: 6, hyouki: 4, bunmyaku: 5, iikae: 3, bunpou1: 5, bunpou2: 2, kadai: 1 },
+  N4: { kanji_yomi: 5, hyouki: 4, bunmyaku: 5, iikae: 3, youhou: 3, bunpou1: 3, bunpou2: 2, kadai: 1 },
 };
 
-/** El orden en que se presentan, como en el examen: primero léxico. */
-export const ORDEN = ["kanji_yomi", "hyouki", "bunmyaku", "iikae", "youhou", "bunpou1", "bunpou2"];
+/**
+ * El orden en que se presentan, como en el examen: primero léxico, después
+ * gramática y la escucha al final.
+ *
+ * La de escucha entra aunque sea una sola. El 聴解 es la mitad del examen y la
+ * parte que más gente suspende, y una muestra que no lo enseña deja fuera
+ * justo lo que hace falta probar antes de pagar.
+ */
+export const ORDEN = ["kanji_yomi", "hyouki", "bunmyaku", "iikae", "youhou",
+                      "bunpou1", "bunpou2", "kadai"];
 
-/** Sin pasajes ni audio: preguntas sueltas que se responden y se corrigen. */
-const CAMPOS = "id, tipo, instruccion_ja, enunciado, opciones, respuesta, explicacion, logica_distractores";
+/** Sin pasajes largos: preguntas sueltas, más el guion de la de escucha. */
+const CAMPOS = "id, tipo, instruccion_ja, enunciado, opciones, respuesta, explicacion, logica_distractores, guion";
 
 export async function itemsDelTest(nivel: Abierto): Promise<Item[]> {
   const sb = supabaseServidor();

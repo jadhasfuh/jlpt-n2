@@ -1,7 +1,7 @@
 "use client";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
-  NOMBRE_SECCION, NOMBRE_TIPO, SECCION_DE,
+  NOMBRE_SECCION, NOMBRE_TIPO, SECCION_DE, marcarHuecos,
   type Ajuste, type Item, type Seccion,
 } from "@/lib/examen";
 import { useAjustes } from "./Ajustes";
@@ -323,7 +323,7 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
         )}
 
         <div className="jp" style={{ fontSize: 16, lineHeight: 1.9, marginBottom: 12 }}>
-          <JpEnLinea html={item.enunciado} />
+          <JpEnLinea html={marcarHuecos(item.enunciado)} />
         </div>
 
         <div className="opciones">

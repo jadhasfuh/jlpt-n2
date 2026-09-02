@@ -240,6 +240,24 @@ export const AYUDA_INSTRUCCION: Partial<Record<TipoItem, { ja: string; es: strin
     en: "Listen to the question first. Then hear the conversation and choose the best of the four options." },
 };
 
+/**
+ * Convierte los guiones bajos del ejercicio de ordenar en casillas de verdad.
+ *
+ * El enunciado viene como `その決断は　＿＿　＿★＿　＿＿　＿＿　ではない。`: cuatro
+ * casillas para cuatro fragmentos, con la estrella en la que hay que
+ * contestar. Pintado tal cual se lee como una fila de guiones —hay quien
+ * cuenta cinco— y no se entiende que cada hueco es un fragmento.
+ *
+ * Sólo los ejercicios de ordenar usan ＿, así que se puede aplicar a todo sin
+ * mirar el tipo.
+ */
+export function marcarHuecos(html: string): string {
+  return html.replace(/＿+★?＿*/g, (m) =>
+    m.includes("★")
+      ? '<span class="hueco estrella" aria-label="casilla de la estrella">★</span>'
+      : '<span class="hueco"></span>');
+}
+
 // 中文 y 長文 comparten la instrucción de 短文.
 for (const t of ["chuubun", "chobun", "shuchou"] as TipoItem[]) {
   AYUDA_INSTRUCCION[t] = AYUDA_INSTRUCCION.tanbun;
