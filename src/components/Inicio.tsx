@@ -124,6 +124,9 @@ export function Inicio({ niveles, totales, dentro = true }: {
                 {t("inicio.resumenNivel", {
                   palabras: n.palabras.toLocaleString(), secciones: n.secciones,
                 })}
+                {/* El anillo ya lo dibuja, pero medio anillo a medio pintar no
+                    dice si vas por el 40 % o por el 60 %. */}
+                {avance[n.id] ? t("cur.avanceNivel", { n: Math.round(avance[n.id] * 100) }) : ""}
               </div>
             </div>
             <span className="flecha"><IcDerecha size={14} /></span>

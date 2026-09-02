@@ -11,7 +11,7 @@ import { useAjustes } from "./Ajustes";
 type S = { id: string; ja: string; es: string; en: string; palabras: number; gramatica: number; unidades: number };
 
 export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones: S[] }) {
-  const { idioma, tieneAcceso } = useAjustes();
+  const { idioma, tieneAcceso, t } = useAjustes();
   const [avance, setAvance] = useState<Record<string, number>>({});
   useEffect(() => {
     const recalcular = () => {
@@ -43,8 +43,10 @@ export function ListaSecciones({ nivel, secciones }: { nivel: string; secciones:
               <div className="jp" style={{ fontSize: 19, fontWeight: 500, lineHeight: 1.4 }}>{s.ja}</div>
               {/* El nombre del tema en el idioma de la interfaz: en inglés
                   salía en español, que es de lo primero que se ve al entrar. */}
-              <div className="tenue">
-                {idioma === "en" ? s.en : s.es} · {s.palabras} · {s.unidades}
+              <div className="tenue" style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+                {idioma === "en" ? s.en : s.es}
+                {" · "}
+                {t("cur.temaSub", { palabras: s.palabras, unidades: s.unidades })}
               </div>
             </div>
             {bloqueada ? <span className="flecha"><IcCandado size={15} /></span>

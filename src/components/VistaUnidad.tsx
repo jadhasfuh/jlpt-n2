@@ -23,7 +23,6 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
 }) {
   const { significado, idioma, t } = useAjustes();
   const [pestana, setPestana] = useState<Pestana>("vocabulario");
-  const [hayLectura, setHayLectura] = useState(false);
   const [abierto, setAbierto] = useState<Record<number, boolean>>({});
   const [escena, setEscena] = useState<null | "practica" | "test" | "escucha">(null);
   const [p, setP] = useState<Progreso | null>(null);
@@ -51,7 +50,9 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
     { id: "vocabulario", ja: "語彙", n: palabras.length },
     ...(kanji.length ? [{ id: "kanji" as const, ja: "漢字", n: kanji.length }] : []),
     ...(gramatica.length ? [{ id: "gramatica" as const, ja: "文法", n: gramatica.length }] : []),
-    { id: "lectura", ja: "読解", n: hayLectura ? "✓" : undefined },
+    // Sin número: el ✓ decía «esta unidad tiene lectura» y se leía como
+    // «hecho». Ahora todas las unidades tienen, así que no informaba de nada.
+    { id: "lectura", ja: "読解" },
   ];
 
   return (
@@ -99,7 +100,7 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
         {pestana === "kanji" ? (
           <PanelKanji kanji={kanji} titulo={`${unidad.ja} · ${unidad.nivel}`} />
         ) : pestana === "lectura" ? (
-          <LecturaUnidad unidadId={unidad.id} onEncontrada={setHayLectura} />
+          <LecturaUnidad unidadId={unidad.id} />
         ) : pestana === "gramatica" ? (
           <PanelGramatica items={gramatica} />
         ) : (

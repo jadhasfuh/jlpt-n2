@@ -74,9 +74,7 @@ function LectorCiego({ texto, frase, setFrase }: {
   );
 }
 
-export function LecturaUnidad({ unidadId, onEncontrada }: {
-  unidadId: string; onEncontrada?: (hay: boolean) => void;
-}) {
+export function LecturaUnidad({ unidadId }: { unidadId: string }) {
   const { t, idioma } = useAjustes();
   const [l, setL] = useState<Lectura | null>(null);
   const [cargando, setCargando] = useState(true);
@@ -92,11 +90,11 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
     let vivo = true;
     fetch(`/api/lectura/${unidadId}`)
       .then((r) => r.json())
-      .then((d) => { if (vivo) { setL(d.lectura); onEncontrada?.(!!d.lectura); } })
+      .then((d) => { if (vivo) setL(d.lectura); })
       .catch(() => {})
       .finally(() => { if (vivo) setCargando(false); });
     return () => { vivo = false; };
-  }, [unidadId, onEncontrada]);
+  }, [unidadId]);
 
   // Contestar cuenta como estudio: suma al día, a la racha y —al terminar
   // todas— deja la unidad cubierta, igual que las tarjetas o el test.
@@ -177,7 +175,12 @@ export function LecturaUnidad({ unidadId, onEncontrada }: {
             </div>
           ))}
           {contestadas === l.preguntas.length && (
-            <p className="tenue" style={{ margin: "14px 0 0" }}>{t("lec.cubierta")}</p>
+            <p className="tenue" style={{ margin: "14px 0 0" }}>
+              {t("lec.aciertos", {
+                a: l.preguntas.filter((q, i) => resp[i] === q.correcta).length,
+                n: l.preguntas.length,
+              })}
+            </p>
           )}
         </div>
       ) : null}
