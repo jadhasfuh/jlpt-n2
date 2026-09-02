@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/dousa/mano-1",
- "titulo": "はじめてのりょうり",
- "cuerpo": "わたしはりょうりをならい<em class=\"g\">たい</em>です。でも、<ruby>切<rt>き</rt></ruby>るのがへたで、いつも<ruby>時間<rt>じかん</rt></ruby>がかかります。せんせいは、はじめはゆっくりでいいとおしえてくれました。きのうは、やさいを<ruby>切<rt>き</rt></ruby>って、なべのふたを<ruby>閉<rt>し</rt></ruby>めて、じっぷんまちました。そのあいだに、てをあらって、つくえをふきました。<ruby>空<rt>あ</rt></ruby>いたはこもかたづけました。ぜんぶひとりでできたので、うれしかったです。はやくじょうずになり<em class=\"g\">たい</em>です。",
- "traduccion": "Quiero aprender a cocinar. Pero se me da mal cortar y siempre tardo mucho. La profesora me dijo que al principio está bien ir despacio. Ayer corté la verdura, tapé la olla y esperé diez minutos. Mientras tanto me lavé las manos y limpié la mesa. También recogí las cajas que habían quedado vacías. Como lo hice todo yo sola, me puse contenta. Tengo ganas de que se me dé bien pronto.",
+ "titulo": "ガスの ひとが きた ひ",
+ "cuerpo": "ガスは じぶんで <ruby>開<rt>あ</rt></ruby>ける ことが できません。かいしゃの ひとが きます。ぼくは ごぜんちゅう、へやで まって いました。その ひとは くつを ぬいで、だいどころの したを みました。「ここを <ruby>閉<rt>し</rt></ruby>めて ください」と ぼくに みせてくれました。そうじの ぬので、ゆかを ふきました。「おゆが つかいたいです」と いうと、その ひとは わらいました。その ひの よる、はじめて あたたかい おふろに <ruby>入<rt>はい</rt></ruby>りました。",
+ "traduccion": "El gas no lo puedes abrir tú. Viene alguien de la compañía. Yo estuve toda la mañana esperando en el piso. El técnico se quitó los zapatos y miró debajo de la cocina. «Esto se cierra así», me enseñó. Con un trapo de limpiar, secó el suelo. Cuando le dije «quiero poder usar agua caliente», se rió. Esa noche me di el primer baño caliente.",
  "preguntas": [
   {
-   "p": "なべのふたを<ruby>閉<rt>し</rt></ruby>めたあと、どのくらいまちましたか。",
+   "p": "ガスは だれが <ruby>開<rt>あ</rt></ruby>けますか。",
    "opciones": [
-    "ごふん",
-    "じっぷん",
-    "じゅうごふん",
-    "さんじゅっぷん"
+    "かいしゃの ひと",
+    "じぶんで",
+    "たなかさん"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "うれしかったのはなぜですか。",
+   "p": "その ひとは なにを みましたか。",
    "opciones": [
-    "せんせいがほめたから",
-    "ぜんぶひとりでできたから",
-    "はやく<ruby>切<rt>き</rt></ruby>れたから",
-    "はこがかたづいたから"
+    "だいどころの した",
+    "まどの そと",
+    "おふろの <ruby>中<rt>なか</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "その ひの よる、カルロスさんは なにを しましたか。",
+   "opciones": [
+    "あたたかい おふろに <ruby>入<rt>はい</rt></ruby>りました",
+    "そとで たべました",
+    "はやく ねました"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "I want to learn to cook. But I'm bad at cutting and I always take a long time. My teacher told me that going slowly is fine at first. Yesterday I cut the vegetables, put the lid on the pot and waited ten minutes. In the meantime I washed my hands and cleaned the table. I also put away the boxes that had been left empty. Since I did it all by myself, I was pleased. I hope I get good at it soon."
+ "traduccion_en": "You can't turn the gas on yourself. Someone from the company comes. I spent the whole morning waiting in the flat. The technician took his shoes off and looked under the kitchen unit. «You close this like so», he showed me. With a cleaning cloth, he wiped the floor dry. When I said «I want to be able to use hot water», he laughed. That night I had my first hot bath."
 }

@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/dousa/movimiento-1",
- "titulo": "からだをうごかす",
- "cuerpo": "まいあさ、こうえんでたいそうをします。まず、いすに<ruby>座<rt>すわ</rt></ruby>って、あしをのばします。つぎに、たって、からだを<ruby>前<rt>まえ</rt></ruby>に<ruby>曲<rt>ま</rt></ruby>げます。はじめのころは、てがゆかにとどきませんでした。いまは、すこしずつとどくようになりました。おなじこうえんに、まい<ruby>日<rt>にち</rt></ruby>くるおじいさんがいます。その<ruby>人<rt>ひと</rt></ruby>は、わたしよりじょうずにからだを<ruby>曲<rt>ま</rt></ruby>げます。<ruby>年<rt>とし</rt></ruby>をとっても、まい<ruby>日<rt>にち</rt></ruby>つづければできるのだとおしえてもらいました。",
- "traduccion": "Cada mañana hago gimnasia en el parque. Primero me siento en un banco y estiro las piernas. Después me pongo de pie y doblo el cuerpo hacia delante. Al principio no llegaba al suelo con las manos. Ahora, poco a poco, ya llego. Al mismo parque viene un señor mayor todos los días. Él dobla el cuerpo mejor que yo. Me ha enseñado que, aunque cumplas años, si sigues cada día se consigue.",
+ "titulo": "まつ じかん",
+ "cuerpo": "やくしょでは、ばんごうを とって <ruby>座<rt>すわ</rt></ruby>ります。ぼくの まえに にじゅうにんも いました。いすは かたくて、こしが いたく なりました。ろうかを <ruby>曲<rt>ま</rt></ruby>がった ところに、じどうはんばいきが ありました。つめたい おちゃを かって、また <ruby>座<rt>すわ</rt></ruby>りました。にほんでは、まつのも しごとの うちだと おもいました。",
+ "traduccion": "En las oficinas coges un número y te sientas. Delante de mí había veinte personas. El asiento era duro y acabó doliéndome la espalda. Doblando el pasillo había una máquina expendedora. Compré un té frío y me volví a sentar. Pensé que en Japón esperar también forma parte del trámite.",
  "preguntas": [
   {
-   "p": "はじめのころ、できなかったことは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "p": "やくしょでは はじめに なにを しますか。",
    "opciones": [
-    "いすに<ruby>座<rt>すわ</rt></ruby>ること",
-    "てがゆかにとどくこと",
-    "こうえんへ<ruby>行<rt>い</rt></ruby>くこと",
-    "あしをのばすこと"
+    "ばんごうを とります",
+    "まどぐちへ <ruby>行<rt>い</rt></ruby>きます",
+    "でんわを します"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "おじいさんから<ruby>何<rt>なに</rt></ruby>をおしえてもらいましたか。",
+   "p": "カルロスさんの まえに なんにん いましたか。",
    "opciones": [
-    "たいそうはあさがいいこと",
-    "まい<ruby>日<rt>にち</rt></ruby>つづければできること",
-    "こうえんはひろいほうがいいこと",
-    "<ruby>年<rt>とし</rt></ruby>をとるとできないこと"
+    "にじゅうにん",
+    "ふたり",
+    "だれも いません"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "じどうはんばいきは どこに ありましたか。",
+   "opciones": [
+    "ろうかを <ruby>曲<rt>ま</rt></ruby>がった ところ",
+    "そと",
+    "まどぐちの となり"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Every morning I do exercises in the park. First I sit on a bench and stretch my legs. Then I stand up and bend my body forward. At first I couldn't reach the ground with my hands. Now, little by little, I can. An older man comes to the same park every day. He bends better than I do. He has taught me that even as you get older, if you keep at it every day you get there."
+ "traduccion_en": "At those offices you take a number and sit down. There were twenty people ahead of me. The seat was hard and my back started to ache. Round the corner of the corridor there was a vending machine. I bought a cold tea and sat down again. I thought that in Japan waiting is part of the paperwork too."
 }

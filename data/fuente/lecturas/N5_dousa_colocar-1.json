@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/dousa/colocar-1",
- "titulo": "とりがにげた<ruby>日<rt>ひ</rt></ruby>",
- "cuerpo": "うちに<ruby>小<rt>ちい</rt></ruby>さいとりがいます。まいあさ、はこのなかにえさを<ruby>入<rt>い</rt></ruby>れます。せんしゅう、まどをあけたとき、とりがそとへ<ruby>放<rt>はな</rt></ruby>れてしまいました。わたしは<em class=\"g\">どうやって</em>さがしたらいいか、わかりませんでした。<ruby>父<rt>ちち</rt></ruby>が、なまえをよんでみなさいとおしえてくれました。そとでなまえをよぶと、とりはすぐにもどってきました。<em class=\"g\">どうやって</em>わたしのこえがわかったのでしょう。ふしぎですが、うれしかったです。",
- "traduccion": "En casa tenemos un pajarito. Cada mañana le pongo comida dentro de la caja. La semana pasada, al abrir la ventana, se escapó fuera. No sabía cómo buscarlo. Mi padre me dijo que probara a llamarlo por su nombre. Lo llamé desde fuera y volvió enseguida. ¿Cómo reconocería mi voz? Es un misterio, pero me hizo mucha ilusión.",
+ "titulo": "<ruby>市<rt>し</rt></ruby>やくしょへ <ruby>行<rt>い</rt></ruby>く",
+ "cuerpo": "にほんに <ruby>着<rt>つ</rt></ruby>いて ふつかめ、<ruby>市<rt>し</rt></ruby>やくしょへ <ruby>行<rt>い</rt></ruby>きました。じゅうしょの とうろくを しなければ なりません。かみを ふうとうに <ruby>入<rt>い</rt></ruby>れて、まどぐちに <ruby>出<rt>だ</rt></ruby>しました。「どうやって <ruby>書<rt>か</rt></ruby>きますか」と ぼくは ききました。かかりの ひとは ゆっくり おしえてくれました。ペンを <ruby>放<rt>はな</rt></ruby>さないで、さいごまで <ruby>書<rt>か</rt></ruby>きました。いちじかんかかりましたが、これで ここに すめます。",
+ "traduccion": "El segundo día en Japón fui al ayuntamiento. Hay que registrar el domicilio. Metí los papeles en un sobre y los entregué en la ventanilla. «¿Cómo se escribe esto?», pregunté. El funcionario me lo explicó despacio. Sin soltar el bolígrafo, lo rellené hasta el final. Tardé una hora, pero ya puedo vivir aquí.",
  "preguntas": [
   {
-   "p": "とりはどうしてそとへ<ruby>出<rt>で</rt></ruby>ましたか。",
+   "p": "カルロスさんは なにを しに <ruby>行<rt>い</rt></ruby>きましたか。",
    "opciones": [
-    "はこがこわれたから",
-    "まどがあいていたから",
-    "えさがなかったから",
-    "<ruby>父<rt>ちち</rt></ruby>がだしたから"
+    "じゅうしょの とうろく",
+    "かいものに",
+    "がっこうの てつづき"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "とりはどうやってもどってきましたか。",
+   "p": "かかりの ひとは どうでしたか。",
    "opciones": [
-    "えさを<ruby>見<rt>み</rt></ruby>て",
-    "なまえをよばれて",
-    "はこの<ruby>中<rt>なか</rt></ruby>へ<ruby>入<rt>い</rt></ruby>って",
-    "<ruby>父<rt>ちち</rt></ruby>がつかまえて"
+    "ゆっくり おしえてくれました",
+    "はやく はなしました",
+    "なにも いいませんでした"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "どのくらい かかりましたか。",
+   "opciones": [
+    "いちじかん",
+    "じゅっぷん",
+    "いちにち"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "We have a little bird at home. Every morning I put food inside the box. Last week, when I opened the window, it got out. I had no idea how to look for it. My father told me to try calling it by its name. I called it from outside and it came straight back. How did it know my voice? It's a mystery, but it made me very happy."
+ "traduccion_en": "On my second day in Japan I went to the city office. You have to register your address. I put the papers in an envelope and handed them in at the counter. «How do I write this?» I asked. The clerk explained it to me slowly. Without letting go of the pen, I filled it in to the end. It took an hour, but now I can live here."
 }

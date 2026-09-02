@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/dousa/dar_recibir-1",
- "titulo": "<ruby>本<rt>ほん</rt></ruby>を<ruby>貸<rt>か</rt></ruby>す",
- "cuerpo": "せんしゅう、<ruby>友<rt>とも</rt></ruby>だちに<ruby>本<rt>ほん</rt></ruby>を<ruby>貸<rt>か</rt></ruby>しました。その<ruby>友<rt>とも</rt></ruby>だちはよくものを<ruby>無<rt>な</rt></ruby>くすので、すこししんぱいでした。でも、きょう、かれはかばんから<ruby>本<rt>ほん</rt></ruby>を<ruby>出<rt>だ</rt></ruby>して、わたしにかえしてくれました。「よかったら、これも<ruby>読<rt>よ</rt></ruby>んで」と、べつの<ruby>本<rt>ほん</rt></ruby>を<ruby>上<rt>あ</rt></ruby>げると、かれはとてもよろこびました。らいしゅう、また<ruby>本<rt>ほん</rt></ruby>を<ruby>貸<rt>か</rt></ruby>す<em class=\"g\">つもり</em>です。",
- "traduccion": "La semana pasada le presté un libro a un amigo. Ese amigo pierde las cosas a menudo, así que estaba un poco preocupado. Pero hoy ha sacado el libro de la mochila y me lo ha devuelto. Le di otro libro diciéndole «si te apetece, léete este también», y se puso muy contento. La semana que viene pienso prestarle otro.",
+ "titulo": "ざいりゅうカード",
+ "cuerpo": "くうこうで ざいりゅうカードを もらいました。この カードは いつも もって いなければ なりません。まどぐちで しょるいを <ruby>出<rt>だ</rt></ruby>す とき、ペンが ありませんでした。うしろの ひとが ペンを <ruby>貸<rt>か</rt></ruby>してくれました。「いちねん、ここに いる つもりです」と かかりの ひとに いいました。じゅうしょが かわったら、また <ruby>書<rt>か</rt></ruby>きかえます。カードを <ruby>無<rt>な</rt></ruby>くしたら たいへんなので、いつも かばんの おなじ ところに <ruby>入<rt>い</rt></ruby>れて います。",
+ "traduccion": "En el aeropuerto me dieron la tarjeta de residencia. Hay que llevarla encima siempre. Cuando fui a entregar los papeles en la ventanilla, no tenía bolígrafo. El señor de detrás me prestó el suyo. «Pienso quedarme aquí un año», le dije al funcionario. Si cambio de domicilio, hay que volver a cambiarla. Perderla es un problema serio, así que la llevo siempre en el mismo sitio del bolso.",
  "preguntas": [
   {
-   "p": "どうしてしんぱいでしたか。",
+   "p": "ざいりゅうカードは どこで もらいましたか。",
    "opciones": [
-    "<ruby>友<rt>とも</rt></ruby>だちが<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>まないから",
-    "<ruby>友<rt>とも</rt></ruby>だちがよくものを<ruby>無<rt>な</rt></ruby>くすから",
-    "<ruby>本<rt>ほん</rt></ruby>が<ruby>高<rt>たか</rt></ruby>かったから",
-    "らいしゅうまでかかるから"
+    "くうこう",
+    "<ruby>市<rt>し</rt></ruby>やくしょ",
+    "がっこう"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "きょう、<ruby>友<rt>とも</rt></ruby>だちに<ruby>何<rt>なに</rt></ruby>を<ruby>上<rt>あ</rt></ruby>げましたか。",
+   "p": "ペンは だれが <ruby>貸<rt>か</rt></ruby>してくれましたか。",
    "opciones": [
-    "かばん",
-    "べつの<ruby>本<rt>ほん</rt></ruby>",
-    "えさ",
-    "ちず"
+    "うしろの ひと",
+    "かかりの ひと",
+    "たなかさん"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんは どのくらい にほんに いる つもりですか。",
+   "opciones": [
+    "いちねん",
+    "いっかげつ",
+    "じゅうねん"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Last week I lent a book to a friend. That friend often loses things, so I was a little worried. But today he took the book out of his bag and gave it back to me. I gave him another book, saying «read this one too if you feel like it», and he was delighted. Next week I plan to lend him another one."
+ "traduccion_en": "At the airport they gave me my residence card. You have to carry it with you at all times. When I went to hand in the papers at the counter, I had no pen. The man behind me lent me his. «I intend to stay here for a year», I told the clerk. If I move, it has to be changed again. Losing it is a serious problem, so I always keep it in the same place in my bag."
 }
