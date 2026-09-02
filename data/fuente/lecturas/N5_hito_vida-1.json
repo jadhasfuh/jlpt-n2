@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/hito/vida-1",
- "titulo": "<ruby>子供<rt>こども</rt></ruby>から<ruby>大人<rt>おとな</rt></ruby>へ",
- "cuerpo": "うちのいもうとは<ruby>二十歳<rt>はたち</rt></ruby>になりました。<ruby>生<rt>う</rt></ruby>まれたときのことを、<ruby>母<rt>はは</rt></ruby>がよく<ruby>話<rt>はな</rt></ruby>してくれます。ちいさな<ruby>女<rt>おんな</rt></ruby>の<ruby>子<rt>こ</rt></ruby>でしたが、いまはわたしよりせが<ruby>高<rt>たか</rt></ruby>いです。らいげつ、あたらしいまち<em class=\"g\">へ</em><ruby>行<rt>い</rt></ruby>きます。しごとがきまったからです。<ruby>父<rt>ちち</rt></ruby>はさびしそうですが、「じぶんのあしであるきなさい」と<ruby>話<rt>はな</rt></ruby>していました。<ruby>年<rt>とし</rt></ruby>をとって<ruby>死<rt>し</rt></ruby>ぬまで、<ruby>人<rt>ひと</rt></ruby>はなんどもあたらしいところ<em class=\"g\">へ</em><ruby>行<rt>い</rt></ruby>くのでしょう。",
- "traduccion": "Mi hermana pequeña ha cumplido veinte años. Mi madre me cuenta a menudo cómo fue cuando nació. Era una niña pequeñita y ahora es más alta que yo. El mes que viene se va a una ciudad nueva, porque ha encontrado trabajo. Mi padre parece triste, pero le decía: «camina con tus propios pies». Hasta que envejecemos y morimos, las personas iremos muchas veces a sitios nuevos.",
+ "titulo": "けんたくんの <ruby>誕生日<rt>たんじょうび</rt></ruby>",
+ "cuerpo": "けんたくんが じゅうさんさいに なりました。たなかさんの <ruby>家<rt>いえ</rt></ruby>で、ちいさい パーティーを しました。<ruby>子供<rt>こども</rt></ruby>は はやく <ruby>大<rt>おお</rt></ruby>きく なると、たなかさんが 言いました。「<ruby>二十歳<rt>はたち</rt></ruby>に なったら、いっしょに おさけを のみましょう」と けんたくんが 言いました。みんなで わらいました。まだ ななねんあります。ぼくが にほんに <ruby>来<rt>き</rt></ruby>た <ruby>年<rt>とし</rt></ruby>の ことを、その <ruby>子<rt>こ</rt></ruby>は おぼえて いるでしょうか。",
+ "traduccion": "Kenta ha cumplido trece años. Hicimos una fiesta pequeña en casa de la señora Tanaka. Los niños crecen deprisa, dijo ella. «Cuando cumpla veinte, nos tomamos una copa juntos», dijo Kenta. Nos reímos todos. Todavía faltan siete años. Me pregunto si ese chaval se acordará del año en que yo llegué a Japón.",
  "preguntas": [
   {
-   "p": "いもうとはなぜ、あたらしいまち<em class=\"g\">へ</em><ruby>行<rt>い</rt></ruby>きますか。",
+   "p": "けんたくんは なんさいに なりましたか。",
    "opciones": [
-    "<ruby>学校<rt>がっこう</rt></ruby>があるから",
-    "しごとがきまったから",
-    "<ruby>父<rt>ちち</rt></ruby>がいるから",
-    "せが<ruby>高<rt>たか</rt></ruby>くなったから"
+    "じゅうさんさい",
+    "<ruby>十二<rt>じゅうに</rt></ruby>さい",
+    "<ruby>二十歳<rt>はたち</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しましたか。",
+   "p": "けんたくんは なんと 言いましたか。",
    "opciones": [
-    "さびしいから<ruby>行<rt>い</rt></ruby>くな",
-    "じぶんのあしであるきなさい",
-    "<ruby>母<rt>はは</rt></ruby>と<ruby>行<rt>い</rt></ruby>きなさい",
-    "<ruby>二十歳<rt>はたち</rt></ruby>までまちなさい"
+    "<ruby>二十歳<rt>はたち</rt></ruby>に なったら いっしょに のもう",
+    "サッカーを しよう",
+    "メキシコへ <ruby>行<rt>い</rt></ruby>きたい"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "パーティーは どこで しましたか。",
+   "opciones": [
+    "たなかさんの <ruby>家<rt>いえ</rt></ruby>",
+    "<ruby>学校<rt>がっこう</rt></ruby>",
+    "こうえん"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "My little sister has turned twenty. My mother often tells me what it was like when she was born. She was a tiny child and now she's taller than me. Next month she's moving to a new city, because she's found work. My father seems sad, but he told her: «walk on your own two feet». Until we grow old and die, we will go to new places many times."
+ "traduccion_en": "Kenta has turned thirteen. We had a small party at Mrs Tanaka's house. Children grow up fast, she said. «When I turn twenty, we'll have a drink together», said Kenta. We all laughed. There are still seven years to go. I wonder whether that boy will remember the year I arrived in Japan."
 }

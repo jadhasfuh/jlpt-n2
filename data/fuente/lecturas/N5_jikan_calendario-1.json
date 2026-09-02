@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/jikan/calendario-1",
- "titulo": "<ruby>四<rt>よっ</rt></ruby>つのきせつ",
- "cuerpo": "にほんには<ruby>春<rt>はる</rt></ruby>、<ruby>夏<rt>なつ</rt></ruby>、<ruby>秋<rt>あき</rt></ruby>、<ruby>冬<rt>ふゆ</rt></ruby>があります。わたしは<ruby>秋<rt>あき</rt></ruby>がいちばんすきです。<ruby>朝<rt>あさ</rt></ruby>はすずしくて、<ruby>昼<rt>ひる</rt></ruby>はあたたかく、<ruby>夕<rt>ゆう</rt></ruby>がたにはそらがあかくなります。<ruby>夏<rt>なつ</rt></ruby>は<ruby>夜<rt>よる</rt></ruby>もあつくて、あまりねむれません。<ruby>冬<rt>ふゆ</rt></ruby>の<ruby>晩<rt>ばん</rt></ruby>に、あたたかいものを<ruby>食<rt>た</rt></ruby>べるのもいいものです。<ruby>春<rt>はる</rt></ruby>、<ruby>山<rt>やま</rt></ruby>のはなが<ruby>開<rt>ひら</rt></ruby>くのを<ruby>見<rt>み</rt></ruby><em class=\"g\">たことがある</em>ひとは、きっとわすれないでしょう。<ruby>昨<rt>さく</rt></ruby>ねんはいそがしくて<ruby>見<rt>み</rt></ruby>られませんでした。ことしはかならず<ruby>行<rt>い</rt></ruby>くつもりです。",
- "traduccion": "En Japón hay primavera, verano, otoño e invierno. A mí el que más me gusta es el otoño. Por la mañana refresca, al mediodía hace bueno y al atardecer el cielo se pone rojo. En verano también hace calor de noche y no duermo bien. En las noches de invierno está bien comer algo caliente. Quien haya visto abrirse las flores del monte en primavera seguro que no lo olvida. El año pasado estuve ocupado y no pude verlas. Este año pienso ir sin falta.",
+ "titulo": "<ruby>秋<rt>あき</rt></ruby>が <ruby>来<rt>き</rt></ruby>た",
+ "cuerpo": "<ruby>夏<rt>なつ</rt></ruby>が おわって、<ruby>朝<rt>あさ</rt></ruby>と <ruby>晩<rt>ばん</rt></ruby>が すずしく なりました。こうべの <ruby>秋<rt>あき</rt></ruby>は みじかいと たなかさんが 言って います。<ruby>昼<rt>ひる</rt></ruby>は まだ あついですが、<ruby>夜<rt>よる</rt></ruby>は まどを <ruby>閉<rt>し</rt></ruby>めます。やまの きの いろが すこしずつ かわって います。にほんの <ruby>秋<rt>あき</rt></ruby>を <ruby>見<rt>み</rt></ruby>たのは、これが はじめてです。<ruby>冬<rt>ふゆ</rt></ruby>は もっと さむいと みんなが 言うので、すこし こわいです。",
+ "traduccion": "Se acabó el verano y las mañanas y las noches se han vuelto frescas. La señora Tanaka dice que el otoño en Kobe es corto. A mediodía todavía hace calor, pero por la noche cierro la ventana. El color de los árboles de la montaña va cambiando poco a poco. Es la primera vez que veo un otoño japonés. Todo el mundo dice que el invierno es mucho más frío, así que me da un poco de miedo.",
  "preguntas": [
   {
-   "p": "この<ruby>人<rt>ひと</rt></ruby>がいちばんすきなきせつはどれですか。",
+   "p": "こうべの <ruby>秋<rt>あき</rt></ruby>は どうですか。",
    "opciones": [
-    "<ruby>春<rt>はる</rt></ruby>",
-    "<ruby>夏<rt>なつ</rt></ruby>",
-    "<ruby>秋<rt>あき</rt></ruby>",
-    "<ruby>冬<rt>ふゆ</rt></ruby>"
+    "みじかいです",
+    "ながいです",
+    "あついです"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
-   "p": "<ruby>昨<rt>さく</rt></ruby>ねん、なぜ<ruby>山<rt>やま</rt></ruby>のはなを<ruby>見<rt>み</rt></ruby>られませんでしたか。",
+   "p": "<ruby>夜<rt>よる</rt></ruby>は なにを しますか。",
    "opciones": [
-    "あつかったから",
-    "いそがしかったから",
-    "<ruby>雨<rt>あめ</rt></ruby>だったから",
-    "とおかったから"
+    "まどを <ruby>閉<rt>し</rt></ruby>めます",
+    "まどを <ruby>開<rt>あ</rt></ruby>けます",
+    "そとへ <ruby>出<rt>で</rt></ruby>ます"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんは <ruby>冬<rt>ふゆ</rt></ruby>を どう おもって いますか。",
+   "opciones": [
+    "すこし こわいです",
+    "たのしみです",
+    "なにも おもいません"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Japan has spring, summer, autumn and winter. The one I like most is autumn. In the morning it's cool, at midday the weather is fine and at dusk the sky turns red. In summer it's hot at night too and I don't sleep well. On winter nights it's good to eat something warm. Anyone who has seen the mountain flowers open in spring surely doesn't forget it. Last year I was busy and couldn't see them. This year I intend to go without fail."
+ "traduccion_en": "Summer is over and the mornings and evenings have turned cool. Mrs Tanaka says autumn in Kobe is short. At midday it's still hot, but at night I close the window. The colour of the trees on the mountain is changing little by little. This is the first Japanese autumn I've seen. Everyone says winter is much colder, so I'm a bit scared."
 }

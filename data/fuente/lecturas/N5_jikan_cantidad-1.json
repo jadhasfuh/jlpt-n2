@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/jikan/cantidad-1",
- "titulo": "はこの<ruby>中<rt>なか</rt></ruby>の<ruby>数<rt>かず</rt></ruby>",
- "cuerpo": "<ruby>奥<rt>おく</rt></ruby>のへやに、ふるいはこ<em class=\"g\">があります</em>。<ruby>中<rt>なか</rt></ruby>には、そふののこしたかみがたくさん<ruby>入<rt>はい</rt></ruby>っています。<ruby>皆<rt>みんな</rt></ruby>で<ruby>数<rt>かぞ</rt></ruby>えてみたら、<ruby>千<rt>せん</rt></ruby>まいちかくありました。<ruby>半<rt>はん</rt></ruby>ぶんはてがみで、のこりはしゃしんです。<ruby>一<rt>いち</rt></ruby>まいずつ<ruby>見<rt>み</rt></ruby>ていくと、<ruby>時間<rt>じかん</rt></ruby>がいくらあってもたりません。それでも、あまった<ruby>時間<rt>じかん</rt></ruby>にすこしずつ<ruby>見<rt>み</rt></ruby>ています。おなじへやには、<ruby>番<rt>ばん</rt></ruby>ごうのついたちいさいはこも<em class=\"g\">があります</em>。それはまだ<ruby>開<rt>あ</rt></ruby>けていません。",
- "traduccion": "En la habitación del fondo hay una caja vieja. Dentro hay muchísimos papeles que dejó mi abuelo. Los contamos entre todos y había casi mil. La mitad son cartas y el resto fotos. Si los voy mirando de uno en uno, no hay tiempo que alcance. Aun así, los voy mirando poco a poco en los ratos sueltos. En la misma habitación hay también una caja pequeña con un número. Esa todavía no la he abierto.",
+ "titulo": "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>の おかね",
+ "cuerpo": "やちんは <ruby>四万<rt>よんまん</rt></ruby>えんです。ぼくには すくない おかねでは ありません。でんきと ガスと <ruby>水<rt>みず</rt></ruby>で、<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby> <ruby>一万<rt>いちまん</rt></ruby>えんぐらい かかります。たべものは、じぶんで <ruby>作<rt>つく</rt></ruby>れば <ruby>半分<rt>はんぶん</rt></ruby>に なります。<ruby>学校<rt>がっこう</rt></ruby>の おかねは <ruby>両親<rt>りょうしん</rt></ruby>が はらって います。だから、のこりは ぜんぶ じぶんで なんとか しなければ なりません。ぜろから はじめて、いま さいふには <ruby>三千<rt>さんぜん</rt></ruby>えん あります。",
+ "traduccion": "El alquiler son cuarenta mil yenes. Para mí no es poco dinero. Entre luz, gas y agua se me van unos diez mil al mes. La comida, si cocino yo, cuesta la mitad. La escuela la pagan mis padres. Así que todo lo demás tengo que apañármelo yo. Empecé de cero y ahora tengo tres mil yenes en la cartera.",
  "preguntas": [
   {
-   "p": "かみは<ruby>何<rt>なん</rt></ruby>まいくらいありましたか。",
+   "p": "やちんは いくらですか。",
    "opciones": [
-    "<ruby>百<rt>ひゃく</rt></ruby>まい",
-    "<ruby>千<rt>せん</rt></ruby>まいちかく",
-    "<ruby>万<rt>まん</rt></ruby>まい",
-    "<ruby>十<rt>じゅう</rt></ruby>まい"
+    "<ruby>四万<rt>よんまん</rt></ruby>えん",
+    "<ruby>一万<rt>いちまん</rt></ruby>えん",
+    "<ruby>三千<rt>さんぜん</rt></ruby>えん"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>番<rt>ばん</rt></ruby>ごうのついたはこはどうしましたか。",
+   "p": "<ruby>学校<rt>がっこう</rt></ruby>の おかねは だれが はらいますか。",
    "opciones": [
-    "<ruby>皆<rt>みんな</rt></ruby>で<ruby>開<rt>あ</rt></ruby>けた",
-    "まだ<ruby>開<rt>あ</rt></ruby>けていない",
-    "すてた",
-    "<ruby>数<rt>かぞ</rt></ruby>えた"
+    "<ruby>両親<rt>りょうしん</rt></ruby>",
+    "じぶん",
+    "<ruby>学校<rt>がっこう</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "いま さいふに いくら ありますか。",
+   "opciones": [
+    "<ruby>三千<rt>さんぜん</rt></ruby>えん",
+    "<ruby>四万<rt>よんまん</rt></ruby>えん",
+    "ぜろ"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "In the back room there's an old box. Inside there are a great many papers my grandfather left. We counted them all together and there were almost a thousand. Half are letters and the rest photos. If I look at them one by one, there isn't enough time. Even so, I look at them little by little in odd moments. In the same room there's also a small box with a number on it. That one I still haven't opened."
+ "traduccion_en": "The rent is forty thousand yen. For me that isn't a small amount. Electricity, gas and water come to about ten thousand a month. Food costs half as much if I cook it myself. My parents pay for the school. So everything else I have to work out on my own. I started from zero and right now I have three thousand yen in my wallet."
 }

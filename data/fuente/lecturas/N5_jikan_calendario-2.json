@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/jikan/calendario-2",
- "titulo": "カレンダーに<ruby>書<rt>か</rt></ruby>い<em class=\"g\">てある</em>こと",
- "cuerpo": "つくえの<ruby>前<rt>まえ</rt></ruby>のカレンダーには、たいせつな<ruby>日<rt>ひ</rt></ruby>が<ruby>書<rt>か</rt></ruby>い<em class=\"g\">てある</em>。<ruby>三日<rt>みっか</rt></ruby>はともだちのたんじょうび、<ruby>七日<rt>なのか</rt></ruby>は<ruby>学校<rt>がっこう</rt></ruby>のしけん、<ruby>二十日<rt>はつか</rt></ruby>はははのたんじょうびだ。<ruby>今日<rt>きょう</rt></ruby>は<ruby>五日<rt>いつか</rt></ruby>で、<ruby>午前<rt>ごぜん</rt></ruby>にじゅぎょうがあり、<ruby>午後<rt>ごご</rt></ruby>はやすみだ。<ruby>昨日<rt>きのう</rt></ruby>は<ruby>一日<rt>ついたち</rt></ruby>からのしゅくだいをぜんぶおえた。<ruby>明日<rt>あす</rt></ruby>からは、あたらしい<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みはじめる。カレンダーにそう<ruby>書<rt>か</rt></ruby>い<em class=\"g\">てある</em>から、きっとできるだろう。",
- "traduccion": "En el calendario que tengo delante del escritorio están apuntados los días importantes. El día 3 es el cumpleaños de un amigo, el 7 el examen del colegio y el 20 el cumpleaños de mi madre. Hoy es 5: por la mañana tengo clase y por la tarde libre. Ayer terminé todos los deberes que llevaba desde el día 1. A partir de mañana empiezo un libro nuevo. Como está apuntado en el calendario, seguro que lo consigo.",
+ "titulo": "<ruby>一日<rt>いちにち</rt></ruby>の じかん",
+ "cuerpo": "<ruby>毎朝<rt>まいあさ</rt></ruby> ろくじに おきて、しちじに <ruby>家<rt>いえ</rt></ruby>を <ruby>出<rt>で</rt></ruby>ます。<ruby>午前<rt>ごぜん</rt></ruby>は じゅぎょう、<ruby>午後<rt>ごご</rt></ruby>は しゅくだいか アルバイトを さがします。<ruby>昨日<rt>きのう</rt></ruby>は <ruby>夕方<rt>ゆうがた</rt></ruby>に アンナさんと コーヒーを のみました。<ruby>今日<rt>きょう</rt></ruby>は <ruby>一昨日<rt>おととい</rt></ruby>の しゅくだいを やっと <ruby>出<rt>だ</rt></ruby>しました。<ruby>今朝<rt>けさ</rt></ruby>、カレンダーを <ruby>見<rt>み</rt></ruby>て おどろきました。<ruby>三日<rt>みっか</rt></ruby>まえに <ruby>来<rt>き</rt></ruby>たような きが しますが、もう <ruby>十月<rt>じゅうがつ</rt></ruby>です。",
+ "traduccion": "Me levanto todas las mañanas a las seis y salgo de casa a las siete. Por la mañana, clase; por la tarde, deberes o buscar trabajo. Ayer al atardecer me tomé un café con Anna. Hoy por fin he entregado los deberes de anteayer. Esta mañana miré el calendario y me llevé un susto. Tengo la sensación de haber llegado hace tres días, y ya estamos en octubre.",
  "preguntas": [
   {
-   "p": "<ruby>学校<rt>がっこう</rt></ruby>のしけんはいつですか。",
+   "p": "なんじに <ruby>家<rt>いえ</rt></ruby>を <ruby>出<rt>で</rt></ruby>ますか。",
    "opciones": [
-    "<ruby>三日<rt>みっか</rt></ruby>",
-    "<ruby>五日<rt>いつか</rt></ruby>",
-    "<ruby>七日<rt>なのか</rt></ruby>",
-    "<ruby>二十日<rt>はつか</rt></ruby>"
+    "しちじ",
+    "ろくじ",
+    "はちじ"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
-   "p": "<ruby>今日<rt>きょう</rt></ruby>の<ruby>午後<rt>ごご</rt></ruby>はどうですか。",
+   "p": "<ruby>昨日<rt>きのう</rt></ruby>の <ruby>夕方<rt>ゆうがた</rt></ruby>、なにを しましたか。",
    "opciones": [
-    "じゅぎょうがある",
-    "やすみだ",
-    "しけんがある",
-    "しゅくだいがある"
+    "アンナさんと コーヒーを のみました",
+    "しゅくだいを しました",
+    "アルバイトを さがしました"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>今<rt>いま</rt></ruby>は なんがつですか。",
+   "opciones": [
+    "<ruby>十月<rt>じゅうがつ</rt></ruby>",
+    "<ruby>三月<rt>さんがつ</rt></ruby>",
+    "<ruby>十二月<rt>じゅうにがつ</rt></ruby>"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "On the calendar in front of my desk the important days are written down. The 3rd is a friend's birthday, the 7th the school exam and the 20th my mother's birthday. Today is the 5th: I have class in the morning and the afternoon free. Yesterday I finished all the homework I'd had since the 1st. From tomorrow I'm starting a new book. Since it's written on the calendar, I'm sure I'll manage it."
+ "traduccion_en": "I get up at six every morning and leave the house at seven. Mornings are class; afternoons are homework or job-hunting. Yesterday at dusk I had a coffee with Anna. Today I finally handed in the homework from the day before yesterday. This morning I looked at the calendar and got a shock. It feels like I arrived three days ago, and it's already October."
 }

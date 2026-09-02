@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/hito/salud-1",
- "titulo": "<ruby>風邪<rt>かぜ</rt></ruby>をひいた<ruby>日<rt>ひ</rt></ruby>",
- "cuerpo": "せんしゅう、<ruby>風邪<rt>かぜ</rt></ruby>をひきました。<ruby>気<rt>き</rt></ruby>もちがわるくて、<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べられませんでした。<ruby>母<rt>はは</rt></ruby>が<ruby>病院<rt>びょういん</rt></ruby>につれていってくれました。<ruby>医者<rt>いしゃ</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>は「よくやすんでください」と<ruby>話<rt>はな</rt></ruby>して、<ruby>薬<rt>くすり</rt></ruby>をくれました。<ruby>三<rt>みっ</rt></ruby>か<ruby>後<rt>ご</rt></ruby>、<ruby>元気<rt>げんき</rt></ruby>になりました。あたりまえにあるいて、あたりまえに<ruby>食<rt>た</rt></ruby>べられるのは、いいものだ<em class=\"g\">なあ</em>とおもいました。<ruby>丈夫<rt>じょうぶ</rt></ruby>なからだをつくりたい<em class=\"g\">なあ</em>と、いまはまいにちあるいています。",
- "traduccion": "La semana pasada cogí un resfriado. Me encontraba mal y no podía comer nada. Mi madre me llevó al hospital. El médico me dijo que descansara bien y me dio medicinas. Tres días después ya estaba bien. Pensé qué bien está poder andar y comer con normalidad. Ahora ando todos los días, con ganas de tener un cuerpo resistente.",
+ "titulo": "<ruby>病院<rt>びょういん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>く",
+ "cuerpo": "かぜが なおらないので、<ruby>病院<rt>びょういん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。ほけんしょうを <ruby>見<rt>み</rt></ruby>せると、さんわりだけ はらえば いいそうです。<ruby>医者<rt>いしゃ</rt></ruby>は ぼくの のどを <ruby>見<rt>み</rt></ruby>て、「たいした ことは ありません」と 言いました。くすりは みっかぶんで、ごひゃくえんでした。アンナさんに はなすと、「にほんの ほけんは <ruby>大丈夫<rt>だいじょうぶ</rt></ruby>でしょう」と わらいました。げんきに なった とき、はじめて この <ruby>国<rt>くに</rt></ruby>に すこし まもられて いると かんじました。",
+ "traduccion": "Como el resfriado no se me iba, fui al hospital. Enseñé la tarjeta del seguro y resulta que sólo pago el treinta por ciento. El médico me miró la garganta y dijo: «no es nada». La medicina para tres días me costó quinientos yenes. Se lo conté a Anna y se rió: «el seguro japonés no falla, ¿eh?». Cuando me puse bueno sentí por primera vez que este país me cuidaba un poco.",
  "preguntas": [
   {
-   "p": "<ruby>病院<rt>びょういん</rt></ruby>で<ruby>医者<rt>いしゃ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をくれましたか。",
+   "p": "ほけんしょうを <ruby>見<rt>み</rt></ruby>せると、いくら はらいますか。",
    "opciones": [
-    "ごはん",
-    "<ruby>薬<rt>くすり</rt></ruby>",
-    "<ruby>本<rt>ほん</rt></ruby>",
-    "<ruby>水<rt>みず</rt></ruby>"
+    "さんわりだけ",
+    "ぜんぶ",
+    "はらいません"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "いま、まいにち<ruby>何<rt>なに</rt></ruby>をしていますか。",
+   "p": "<ruby>医者<rt>いしゃ</rt></ruby>は なんと 言いましたか。",
    "opciones": [
-    "やすんでいる",
-    "あるいている",
-    "<ruby>食<rt>た</rt></ruby>べている",
-    "<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>っている"
+    "「たいした ことは ありません」",
+    "「<ruby>入<rt>にゅう</rt></ruby>いんして ください」",
+    "「<ruby>薬<rt>くすり</rt></ruby>は いりません」"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "くすりは いくらでしたか。",
+   "opciones": [
+    "ごひゃくえん",
+    "ごせんえん",
+    "ただ"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Last week I caught a cold. I felt unwell and couldn't eat anything. My mother took me to the hospital. The doctor told me to rest properly and gave me medicine. Three days later I was fine. I thought how good it is to be able to walk and eat normally. Now I walk every day, hoping to have a body that holds up."
+ "traduccion_en": "As my cold wasn't going away, I went to the hospital. I showed my insurance card and it turns out I only pay thirty per cent. The doctor looked at my throat and said: «it's nothing serious». Three days' medicine cost five hundred yen. I told Anna and she laughed: «Japanese insurance doesn't let you down, does it?». When I got better I felt for the first time that this country was looking after me a little."
 }
