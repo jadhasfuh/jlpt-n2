@@ -46,7 +46,8 @@ export async function GET(_req: Request, { params }: { params: Promise<{ medida:
     (
       <div style={{
         width: "100%", height: "100%", display: "flex", position: "relative",
-        background: "#292b31", color: "#e4e7f5",
+        // Fondo del icono es el mismo que el del splash y el de la app (--papel, #161826). Con otro tono se veía el cuadrado del icono recortado sobre la pantalla de arranque de Android.
+        background: "#161826", color: "#e4e7f5",
       }}>
         <div style={{
           position: "absolute", left: 0, top: c(36) - t(22), width: lado,

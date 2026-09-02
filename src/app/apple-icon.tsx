@@ -14,7 +14,7 @@ export default function AppleIcon() {
         style={{
           width: "100%", height: "100%", display: "flex",
           alignItems: "center", justifyContent: "center", position: "relative",
-          background: "#292b31", color: "#e4e7f5",
+          background: "#161826", color: "#e4e7f5",
         }}
       >
         <div style={{ fontSize: 71, fontWeight: 600, letterSpacing: -3.5, lineHeight: 1 }}>jt</div>
