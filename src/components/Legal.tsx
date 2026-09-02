@@ -95,6 +95,7 @@ const PRIVACIDAD: Record<"es" | "en", { titulo: string; intro: string; bloques: 
         "Guardamos tu dirección de correo y tu progreso de estudio (qué palabras has visto, cuándo toca repasarlas, resultados de exámenes).",
         "El correo se usa para enviarte el código de acceso y, si hiciera falta, para avisarte de algo importante sobre tu cuenta. No enviamos publicidad.",
         "Los datos se guardan en Supabase (infraestructura sobre Amazon Web Services, región Oeste de EE. UU.).",
+        "Si te suscribes, el pago lo procesa Paddle, que actúa como vendedor autorizado: ellos reciben tus datos de pago y de facturación, nosotros no los vemos ni los guardamos. Nos devuelven sólo tu correo y el estado de la suscripción.",
       ]},
       { t: "Qué NO recogemos", p: [
         "No usamos Google Analytics ni ningún rastreador publicitario.",
@@ -102,8 +103,8 @@ const PRIVACIDAD: Record<"es" | "en", { titulo: string; intro: string; bloques: 
         "No hay perfilado publicitario ni venta de datos a terceros. Nunca.",
       ]},
       { t: "Tus derechos", p: [
-        "Puedes pedir una copia de tus datos, corregirlos o borrarlos escribiendo a la dirección de contacto.",
-        "Borrar la cuenta borra el correo y todo el progreso asociado. Es inmediato y no se puede deshacer.",
+        "Puedes borrar tu cuenta tú mismo, sin pedir permiso a nadie: entra en Perfil y pulsa «Borrar la cuenta». Borra el correo y todo el progreso asociado, es inmediato y no se puede deshacer.",
+        "Si prefieres que lo hagamos nosotros, o quieres una copia de tus datos o corregirlos, escribe a la dirección de contacto y lo resolvemos.",
       ]},
       { t: "Menores", p: [
         "jlptest no está dirigido a menores de 13 años y no recogemos datos de forma consciente de esa edad.",
@@ -122,6 +123,7 @@ const PRIVACIDAD: Record<"es" | "en", { titulo: string; intro: string; bloques: 
         "We store your email address and your study progress (which words you've seen, when they are due, exam results).",
         "The email is used to send you the sign-in code and, if needed, to tell you something important about your account. We do not send marketing.",
         "Data is stored on Supabase (infrastructure on Amazon Web Services, US West region).",
+        "If you subscribe, the payment is processed by Paddle, acting as the authorised reseller: they receive your payment and billing details, and we neither see nor store them. All they pass back to us is your email and the state of the subscription.",
       ]},
       { t: "What we do NOT collect", p: [
         "We don't use Google Analytics or any advertising tracker.",
@@ -129,8 +131,8 @@ const PRIVACIDAD: Record<"es" | "en", { titulo: string; intro: string; bloques: 
         "There is no advertising profiling and no selling of data to third parties. Ever.",
       ]},
       { t: "Your rights", p: [
-        "You can request a copy of your data, correct it or delete it by writing to the contact address.",
-        "Deleting your account deletes the email and all associated progress. It is immediate and cannot be undone.",
+        "You can delete your account yourself, without asking anyone: go to Profile and tap «Delete account». It deletes the email and all associated progress, it is immediate and cannot be undone.",
+        "If you would rather we did it, or you want a copy of your data or a correction, write to the contact address and we will sort it out.",
       ]},
       { t: "Minors", p: [
         "jlptest is not aimed at children under 13 and we do not knowingly collect data from that age group.",
