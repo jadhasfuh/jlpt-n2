@@ -22,6 +22,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITIO}/repaso`, priority: 0.5 },
     { url: `${SITIO}/legal/terminos`, priority: 0.3 },
     { url: `${SITIO}/legal/privacidad`, priority: 0.3 },
+    // Google Play enlaza ésta desde la ficha de la tienda y comprueba que
+    // se abra sin instalar la app ni iniciar sesión.
+    { url: `${SITIO}/legal/borrar-cuenta`, priority: 0.3 },
+    { url: `${SITIO}/legal/reembolsos`, priority: 0.3 },
   ];
   const niveles = NIVELES.flatMap((n) => [
     { url: `${SITIO}/n/${n}`, priority: 0.9 },

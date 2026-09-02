@@ -34,6 +34,17 @@ export async function POST() {
   // vuelve, se le regala otra vez; es una línea de comando.
   if (u.email) await admin.from("cortesias").delete().eq("email", u.email.toLowerCase());
 
+  // El aviso de errata sirve para corregir el contenido, así que se queda;
+  // lo que se va es el rastro de quién lo mandó. Borrarlo entero castigaría
+  // al resto de estudiantes por un error que ya está señalado.
+  await admin.from("reportes").update({ perfil: null }).eq("perfil", u.id);
+
+  // El registro del webhook de Paddle lleva dentro el correo y la dirección de
+  // facturación, así que es una copia de datos personales y no puede sobrevivir
+  // al borrado. La factura la conserva Paddle, que es quien la emitió y a quien
+  // obliga la ley fiscal; nuestra copia no hace falta para nada.
+  await admin.from("eventos_pago").delete().eq("perfil", u.id);
+
   const { error } = await admin.auth.admin.deleteUser(u.id);
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
   return NextResponse.json({ ok: true });

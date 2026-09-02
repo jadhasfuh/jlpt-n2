@@ -212,11 +212,84 @@ const REEMBOLSOS: Record<"es" | "en", { titulo: string; intro: string; bloques: 
   },
 };
 
-type Cual = "terminos" | "privacidad" | "reembolsos";
-const DOCS = { terminos: TERMINOS, privacidad: PRIVACIDAD, reembolsos: REEMBOLSOS };
-// Las tres se enlazan en rueda, para poder llegar a cualquiera desde cualquiera.
+/**
+ * Cómo borrar la cuenta, en página propia.
+ *
+ * Google Play exige un enlace público, alcanzable sin instalar la app y sin
+ * iniciar sesión, que nombre la app, enumere los pasos y diga qué se borra y
+ * qué se conserva. Esa lista de requisitos es la que manda aquí: por eso está
+ * separada de la política de privacidad, aunque se repitan cosas.
+ */
+const BORRAR: Record<"es" | "en", { titulo: string; intro: string; bloques: Bloque[] }> = {
+  es: {
+    titulo: "Borrar tu cuenta de jlptest",
+    intro: "Puedes borrar tu cuenta de jlptest tú mismo, en cualquier momento y sin pedir permiso a nadie.",
+    bloques: [
+      { t: "Desde la aplicación, en tres pasos", p: [
+        "1. Abre jlptest y entra con tu correo (recibirás un código de seis cifras; jlptest no usa contraseña).",
+        "2. Ve a Perfil, abajo del todo.",
+        "3. Pulsa «Borrar la cuenta» y confirma. El borrado es inmediato y no se puede deshacer.",
+      ]},
+      { t: "Si prefieres que lo hagamos nosotros", p: [
+        "Escribe a adriancar75@hotmail.com desde la misma dirección de correo con la que abriste la cuenta, pidiendo que la borremos. Lo hacemos en un plazo máximo de 30 días y te contestamos cuando esté hecho.",
+        "Pedimos que escribas desde esa dirección porque es la única forma que tenemos de saber que la cuenta es tuya.",
+      ]},
+      { t: "Qué se borra", p: [
+        "Tu dirección de correo y tu cuenta de acceso.",
+        "Todo tu progreso de estudio: qué palabras y qué puntos de gramática has visto, en qué etapa de repaso está cada uno, tu racha y tus XP.",
+        "Los resultados de todos tus tests y exámenes.",
+        "Cualquier acceso de cortesía asociado a tu correo.",
+        "Los avisos de errata que hayas enviado se conservan sin tu identificador, porque sirven para corregir el contenido y, una vez desligados de ti, no dicen quién los mandó.",
+      ]},
+      { t: "Qué se conserva, y por cuánto tiempo", p: [
+        "Si alguna vez pagaste una suscripción, la factura la conserva Paddle.com, que es quien la emitió como vendedor autorizado. La ley fiscal obliga a guardar las facturas —del orden de cinco años según el país—, así que ese registro no se puede borrar a petición. Nosotros no guardamos datos de tu tarjeta: nunca los hemos visto.",
+        "En nuestros servidores no queda ninguna copia de tu cuenta ni de tu progreso después del borrado.",
+        "El nombre que hayas escrito en el marcador del test gratuito no está ligado a ninguna cuenta, porque ese test se hace sin registrarse. Si quieres que lo quitemos, dinos qué nombre es y lo borramos.",
+      ]},
+      { t: "Antes de borrar, si tienes suscripción", p: [
+        "Cancela primero la suscripción desde tu perfil, o pídenoslo. Borrar la cuenta no cancela el cobro por sí solo, y no queremos cobrarte por algo que ya no puedes usar.",
+      ]},
+    ],
+  },
+  en: {
+    titulo: "Deleting your jlptest account",
+    intro: "You can delete your jlptest account yourself, at any time, without asking anyone.",
+    bloques: [
+      { t: "From the app, in three steps", p: [
+        "1. Open jlptest and sign in with your email (you will get a six-digit code; jlptest has no passwords).",
+        "2. Go to Profile, at the bottom.",
+        "3. Tap «Delete account» and confirm. Deletion is immediate and cannot be undone.",
+      ]},
+      { t: "If you would rather we did it", p: [
+        "Write to adriancar75@hotmail.com from the same email address you signed up with, asking us to delete it. We do it within 30 days at the latest and reply when it is done.",
+        "We ask you to write from that address because it is the only way we have of knowing the account is yours.",
+      ]},
+      { t: "What gets deleted", p: [
+        "Your email address and your sign-in account.",
+        "All your study progress: which words and grammar points you have seen, what review stage each one is at, your streak and your XP.",
+        "The results of all your tests and exams.",
+        "Any courtesy access attached to your email.",
+        "Any content-error reports you sent are kept without your identifier, because they are used to fix the content and, once detached from you, they say nothing about who sent them.",
+      ]},
+      { t: "What is kept, and for how long", p: [
+        "If you ever paid for a subscription, the invoice is kept by Paddle.com, who issued it as the merchant of record. Tax law requires invoices to be kept — around five years depending on the country — so that record cannot be deleted on request. We do not store your card details: we have never seen them.",
+        "No copy of your account or your progress remains on our servers after deletion.",
+        "The name you may have typed into the free test leaderboard is not attached to any account, because that test is taken without signing up. If you want it removed, tell us which name it is and we will delete it.",
+      ]},
+      { t: "Before deleting, if you have a subscription", p: [
+        "Cancel the subscription first from your profile, or ask us to. Deleting the account does not cancel the billing by itself, and we do not want to charge you for something you can no longer use.",
+      ]},
+    ],
+  },
+};
+
+type Cual = "terminos" | "privacidad" | "reembolsos" | "borrar-cuenta";
+const DOCS = { terminos: TERMINOS, privacidad: PRIVACIDAD, reembolsos: REEMBOLSOS,
+               "borrar-cuenta": BORRAR };
+// Se enlazan en rueda, para poder llegar a cualquiera desde cualquiera.
 const SIGUIENTE: Record<Cual, Cual> = {
-  terminos: "privacidad", privacidad: "reembolsos", reembolsos: "terminos",
+  terminos: "privacidad", privacidad: "borrar-cuenta",
+  "borrar-cuenta": "reembolsos", reembolsos: "terminos",
 };
 
 export function Legal({ cual }: { cual: Cual }) {
