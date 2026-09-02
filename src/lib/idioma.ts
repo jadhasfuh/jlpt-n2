@@ -22,13 +22,37 @@ export function esIdioma(v: unknown): v is Idioma {
   return typeof v === "string" && IDIOMAS.some((i) => i.id === v);
 }
 
-/** Del encabezado Accept-Language del navegador al idioma que tengamos. */
+/**
+ * Del encabezado Accept-Language del navegador al idioma que tengamos.
+ *
+ * Se detecta por el idioma que la persona ha elegido en su navegador, no por
+ * el país desde el que entra. Es mejor señal: media España pone el navegador
+ * en inglés y, sobre todo, hay millones de hispanohablantes en Estados Unidos
+ * a los que un mapa les serviría la web en inglés.
+ *
+ * El encabezado trae pesos (`es;q=0.9`) y no siempre vienen ordenados, así que
+ * hay que ordenarlos: con `de,en;q=0.7,es;q=0.9` el navegador está pidiendo
+ * español antes que inglés, aunque el inglés aparezca antes en la lista.
+ */
 export function idiomaDeCabecera(accept: string | null | undefined): Idioma {
   if (!accept) return IDIOMA_POR_DEFECTO;
-  for (const trozo of accept.split(",")) {
-    const cod = trozo.split(";")[0].trim().toLowerCase();
-    if (cod.startsWith("es")) return "es";
-    if (cod.startsWith("en")) return "en";
+  const preferencias = accept.split(",")
+    .map((trozo) => {
+      const [cod, ...params] = trozo.split(";");
+      const q = params.map((p) => p.trim())
+        .find((p) => p.startsWith("q="))?.slice(2);
+      const peso = q === undefined ? 1 : Number(q);
+      return { cod: cod.trim().toLowerCase(), peso: Number.isFinite(peso) ? peso : 0 };
+    })
+    .filter((x) => x.cod && x.peso > 0)
+    // Orden estable: a igual peso manda el que venía antes, que es lo que
+    // dice la norma y lo que hacen los navegadores.
+    .map((x, i) => ({ ...x, i }))
+    .sort((a, b) => b.peso - a.peso || a.i - b.i);
+
+  for (const { cod } of preferencias) {
+    if (cod === "es" || cod.startsWith("es-")) return "es";
+    if (cod === "en" || cod.startsWith("en-")) return "en";
   }
   // Un japonés estudiando japonés no quiere la app en español: al inglés.
   return "en";
