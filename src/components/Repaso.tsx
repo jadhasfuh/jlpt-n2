@@ -7,7 +7,7 @@ import {
   anotar, contarPendientes, cuandoToca, hechosHoy, leerProgreso, masFlojas,
   paraRepasar, prevision7dias, topeDiario, vivas, type Progreso,
 } from "@/lib/progreso";
-import { useAjustes } from "./Ajustes";
+import { ConmutadoresJp, useAjustes } from "./Ajustes";
 import { Jp, BotonVoz } from "./Jp";
 import { Reportar } from "./Reportar";
 import { IcBien, IcDerecha } from "./Iconos";
@@ -222,10 +222,14 @@ export function Repaso() {
 
   return (
     <>
+      {/* Misma fila que la sesión de cinco minutos y que la cabecera de un
+          test: progreso, interruptores y el contador. En una pantalla de
+          estudio los interruptores van arriba, siempre en el mismo sitio. */}
       <div style={{ display: "flex", alignItems: "center", gap: 10, margin: "26px 0 10px" }}>
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(i / cola.length) * 100}%` }} />
         </div>
+        <ConmutadoresJp conSignificado={false} />
         <span className="tenue" style={{ fontVariantNumeric: "tabular-nums" }}>
           {i + 1} / {cola.length}
         </span>

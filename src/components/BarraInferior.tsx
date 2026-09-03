@@ -13,10 +13,15 @@ const ENLACES = [
   { href: "/perfil", Icono: IcPerfil, clave: "nav.perfil" },
 ] as const;
 
-/** Las pantallas donde hay japonés en la página y los interruptores sirven. */
+/** Dónde van los interruptores.
+ *
+ *  En las pantallas de estudio —tests, repaso, sesión de cinco minutos— van
+ *  arriba, en la fila del progreso, que es donde está la mano. Aquí abajo van
+ *  en las de navegar y leer, que no tienen esa fila. Estar en los dos sitios
+ *  a la vez es lo que hacía que en una pantalla salieran arriba y en la de al
+ *  lado abajo. */
 const conJapones = (ruta: string) =>
-  ruta.startsWith("/u/") || ruta.startsWith("/n/") ||
-  ruta.startsWith("/libro") || ruta.startsWith("/repaso");
+  ruta.startsWith("/u/") || ruta.startsWith("/n/") || ruta.startsWith("/libro");
 
 export function BarraInferior() {
   const { t } = useAjustes();
@@ -45,7 +50,7 @@ export function BarraInferior() {
 
   return (
     <nav className={`barra-inferior ${jp ? "con-jp" : ""}`}>
-      {jp && <ConmutadoresJp conSignificado={!ruta.startsWith("/repaso")} />}
+      {jp && <ConmutadoresJp />}
       {ENLACES.map(({ href, Icono, clave }) => (
         <Link key={href} href={href} className={activo(href) ? "activo" : ""}>
           <Icono size={22} />

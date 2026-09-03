@@ -154,33 +154,30 @@ h1, h2, h3 { font-weight: 500; }
 :root[data-jp="1"] { --barra: 104px; }
 
 /* --------------------- interruptores あ 意 色 --------------------- */
-.conmutadores-jp {
-  flex: 0 0 100%; display: flex; gap: 6px; justify-content: center;
+/* Por defecto son tres botones en línea, que es como van en la fila de
+   progreso de un test, del repaso y de la sesión de cinco minutos. Sólo dentro
+   de la barra de abajo ocupan su propia fila. */
+.conmutadores-jp { display: flex; gap: 4px; flex: none; }
+.barra-inferior .conmutadores-jp {
+  flex: 0 0 100%; gap: 6px; justify-content: center;
   padding-bottom: 6px; margin-bottom: 2px;
   border-bottom: 1px solid color-mix(in srgb, var(--linea) 60%, transparent);
 }
 .conmutador-jp {
-  min-width: 46px; min-height: 30px; padding: 0 12px;
+  min-width: 34px; min-height: 28px; padding: 0 8px;
   display: inline-flex; align-items: center; justify-content: center;
   border: 1px solid var(--linea); border-radius: var(--radio-sm);
-  background: transparent; color: var(--tinta-3); font-size: 14px; line-height: 1;
+  background: transparent; color: var(--tinta-3); font-size: 13px; line-height: 1;
   transition: background .14s ease-out, border-color .14s ease-out, color .14s ease-out;
 }
 .conmutador-jp:active { background: color-mix(in srgb, var(--acento) 18%, transparent); }
+.barra-inferior .conmutador-jp { min-width: 46px; min-height: 30px; padding: 0 12px; font-size: 14px; }
 .conmutador-jp.encendido {
   background: color-mix(in srgb, var(--acento) 14%, transparent);
   border-color: var(--acento); color: var(--acento);
 }
-.lateral .conmutadores-jp {
-  flex: none; justify-content: flex-start; border-bottom: 0;
-  padding: 0; margin: 16px 0 0;
-}
-/* Dentro de un test la barra de abajo queda tapada por la escena, así que los
-   interruptores van en su cabecera, junto al progreso. */
-.escena-cabeza .conmutadores-jp {
-  flex: none; border-bottom: 0; padding: 0; margin: 0; gap: 4px;
-}
-.escena-cabeza .conmutador-jp { min-width: 34px; min-height: 28px; padding: 0 8px; font-size: 13px; }
+.lateral .conmutadores-jp { margin: 16px 0 0; }
+
 .barra-inferior a {
   flex: 1; display: flex; flex-direction: column; align-items: center;
   justify-content: center; gap: 3px; position: relative;
