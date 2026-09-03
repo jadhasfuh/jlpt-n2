@@ -119,11 +119,17 @@ export async function lectura(unidadId: string): Promise<Lectura | null> {
  * Se busca de más largo a más corto, como el diccionario: así 大通り se
  * encuentra entera en vez de saltar sobre 大 y 通り por separado.
  */
-export function palabrasDeFuera(html: string, propias: number[]): Palabra[] {
+export function palabrasDeFuera(
+  html: string, nivel: string, propias: number[],
+): { palabra: Palabra; capitulo: number }[] {
   const texto = html.replace(/<rt>.*?<\/rt>/g, "").replace(/<[^>]+>/g, "");
   const suyas = new Set(propias);
-  const fuera: Palabra[] = [];
+  const fuera: { palabra: Palabra; capitulo: number }[] = [];
   const vistas = new Set<number>();
+  // En qué capítulo del libro se estudia cada palabra. Sin esto, 名前 salía en
+  // el capítulo 2 —Carlos se presenta— sin decir que no llega hasta el 99.
+  const dondeSeVe = new Map<number, number>();
+  capitulos(nivel).forEach((u, i) => u.palabras.forEach((w) => dondeSeVe.set(w, i + 1)));
   const KATA = (c: string) => /[ァ-ヶー]/.test(c ?? "");
   const KAN  = (c: string) => /[一-鿿]/.test(c ?? "");
   const KANA = (c: string) => /[ぁ-ゖ]/.test(c ?? "");
@@ -152,11 +158,15 @@ export function palabrasDeFuera(html: string, propias: number[]): Palabra[] {
       else if (/[一-鿿]/.test(trozo) && KANA(trozo[trozo.length - 1])) vale = !KANA(sig);
       else vale = /[一-鿿]/.test(trozo) || trozo.length >= 3;
 
-      if (p && vale) { fuera.push(p); vistas.add(p.id); i += n - 1; }
+      if (p && vale) {
+        fuera.push({ palabra: p, capitulo: dondeSeVe.get(p.id) ?? 0 });
+        vistas.add(p.id); i += n - 1;
+      }
       break;
     }
   }
-  return fuera;
+  // Lo que ya se ha visto primero: es lo que el lector puede recordar.
+  return fuera.sort((a, b) => a.capitulo - b.capitulo);
 }
 
 /**

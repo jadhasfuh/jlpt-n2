@@ -59,9 +59,10 @@ export default async function Pagina(
           // Las que salen en el texto pero se estudian en otro capítulo: sin
           // esto, 山 aparece en el capítulo 1 y no está en ninguna lista hasta
           // el 95.
-          deFuera={l ? palabrasDeFuera(l.cuerpo, u.palabras).map((w) => ({
-            id: w.id, escritura: w.escritura, lectura: w.lectura,
-            es: w.es, en: w.en, jlpt: w.jlpt,
+          deFuera={l ? palabrasDeFuera(l.cuerpo, nivel, u.palabras).map((x) => ({
+            id: x.palabra.id, escritura: x.palabra.escritura,
+            lectura: x.palabra.lectura, es: x.palabra.es, en: x.palabra.en,
+            jlpt: x.palabra.jlpt, capitulo: x.capitulo,
           })) : []}
           // N5 tiene 84 puntos de gramática y 103 capítulos: 19 se quedaban
           // sin nada que enseñar. Ninguno está limpio de gramática, sólo que

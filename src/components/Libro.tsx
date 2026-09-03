@@ -11,7 +11,7 @@ import { anotarLectura } from "@/lib/progreso";
 import { significado as sig } from "@/lib/idioma";
 
 type Palabra = { id: number; escritura: string; lectura: string; es: string; en: string };
-type Fuera = Palabra & { jlpt: string };
+type Fuera = Palabra & { jlpt: string; capitulo: number };
 type PuntoFuera = Punto & { capitulo: number };
 type Punto = { id: string; forma: string; lectura: string; es: string; en: string };
 
@@ -100,7 +100,12 @@ export function Libro({
                     <span className={`pastilla ${w.jlpt.toLowerCase()}`}
                           style={{ fontSize: 10.5, padding: "1px 6px" }}>{w.jlpt}</span>
                   )}
-                  <span style={{ color: "var(--tinta-2)" }}>{sig(w, idioma)}</span>
+                  <span style={{ color: "var(--tinta-2)", flex: 1 }}>{sig(w, idioma)}</span>
+                  {w.capitulo > 0 && (
+                    <span className="tenue" style={{ whiteSpace: "nowrap" }}>
+                      {t("lib2.visto", { i: w.capitulo })}
+                    </span>
+                  )}
                 </div>
               ))}
             </div>
