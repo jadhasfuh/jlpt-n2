@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/seishitsu/forma-1",
- "titulo": "<ruby>狭<rt>せま</rt></ruby>いへやをひろくつかう",
- "cuerpo": "わたしのへやは<ruby>狭<rt>せま</rt></ruby>いです。<ruby>長<rt>なが</rt></ruby>いつくえをおくと、あるくところがなくなりました。そこで、<ruby>短<rt>みじか</rt></ruby>いものに<ruby>変<rt>か</rt></ruby>えました。<ruby>丸<rt>まる</rt></ruby>いテーブルは、かどがないので<ruby>広<rt>ひろ</rt></ruby>く<ruby>見<rt>み</rt></ruby>えます。たかいたなをやめて、ひくいものにしました。ものは<ruby>真<rt>ま</rt></ruby>っすぐならべ<em class=\"g\">なくてはいけない</em>わけではありませんが、そうすると<ruby>気<rt>き</rt></ruby>もちがいいです。<ruby>大<rt>おお</rt></ruby>きい<ruby>家<rt>いえ</rt></ruby>にすまなくても、くふうすればくらしやすくなります。",
- "traduccion": "Mi habitación es pequeña. Al poner un escritorio largo me quedé sin sitio para andar. Así que lo cambié por uno corto. La mesa redonda, como no tiene esquinas, hace que se vea más amplio. Quité la estantería alta y puse una baja. No es que haya que colocar las cosas perfectamente rectas, pero cuando lo haces da gusto. Aunque no vivas en una casa grande, con ingenio se vive mejor.",
+ "titulo": "ながい さかみち",
+ "cuerpo": "こうべの みちは、やまに むかって ながく つづいて います。<ruby>学校<rt>がっこう</rt></ruby>から アパートまで、まっすぐな みちが <ruby>一<rt>いっ</rt></ruby>ぽん あります。<ruby>狭<rt>せま</rt></ruby>い みちですが、りょうがわに ちいさい みせが ならんで います。そこを あるくと、<ruby>一<rt>いち</rt></ruby>キロが <ruby>短<rt>みじか</rt></ruby>く かんじます。うみの ほうを <ruby>見<rt>み</rt></ruby>ると、そらが <ruby>広<rt>ひろ</rt></ruby>いです。<ruby>高<rt>たか</rt></ruby>い ビルは あまり ありません。",
+ "traduccion": "Las calles de Kobe se alargan subiendo hacia la montaña. De la escuela a mi piso hay una calle recta. Es estrecha, pero a ambos lados se alinean tiendas pequeñas. Andando por ahí, un kilómetro se hace corto. Si miras hacia el mar, el cielo es ancho. Edificios altos no hay muchos.",
  "preguntas": [
   {
-   "p": "<ruby>長<rt>なが</rt></ruby>いつくえをやめたのはなぜですか。",
+   "p": "<ruby>学校<rt>がっこう</rt></ruby>から アパートまでの みちは どうですか。",
    "opciones": [
-    "たかかったから",
-    "あるくところがなくなったから",
-    "<ruby>丸<rt>まる</rt></ruby>くないから",
-    "ふるかったから"
+    "まっすぐです",
+    "まがって います",
+    "とても ひろいです"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>丸<rt>まる</rt></ruby>いテーブルのいいところは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "p": "みちの りょうがわに なにが ありますか。",
    "opciones": [
-    "やすい",
-    "かどがないので<ruby>広<rt>ひろ</rt></ruby>く<ruby>見<rt>み</rt></ruby>える",
-    "<ruby>長<rt>なが</rt></ruby>い",
-    "たかい"
+    "ちいさい みせ",
+    "<ruby>高<rt>たか</rt></ruby>い ビル",
+    "<ruby>木<rt>き</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "うみの ほうを <ruby>見<rt>み</rt></ruby>ると どうですか。",
+   "opciones": [
+    "そらが <ruby>広<rt>ひろ</rt></ruby>いです",
+    "なにも <ruby>見<rt>み</rt></ruby>えません",
+    "くらいです"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "My room is small. When I put in a long desk I was left with no room to walk. So I swapped it for a short one. The round table, since it has no corners, makes it look bigger. I took out the tall shelf and put in a low one. It isn't that things have to be lined up perfectly straight, but when you do it, it feels good. Even if you don't live in a big house, with a bit of ingenuity you live better."
+ "traduccion_en": "The streets of Kobe run long, up towards the mountain. From the school to my flat there's one straight street. It's narrow, but small shops line both sides. Walking along it, a kilometre feels short. If you look towards the sea, the sky is wide. There aren't many tall buildings."
 }

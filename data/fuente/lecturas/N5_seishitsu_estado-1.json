@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/seishitsu/estado-1",
- "titulo": "しずかなへや、にぎやかなみち",
- "cuerpo": "うちのへやは<ruby>静<rt>しず</rt></ruby>かです。まどをしめると、そとのおとがほとんど<ruby>聞<rt>き</rt></ruby>こえません。みちのむこうがわは<ruby>賑<rt>にぎ</rt></ruby>やかで、よるもうるさいです。なつは<ruby>熱<rt>あつ</rt></ruby>いおちゃより<ruby>冷<rt>つめ</rt></ruby>たいものがのみたくなります。ふゆは<ruby>涼<rt>すず</rt></ruby>しいへやより、あたたかいところがいいです。せんしゅうは<ruby>忙<rt>いそが</rt></ruby>しくて、へやが<ruby>湿<rt>しめ</rt></ruby>っているのにも<ruby>気<rt>き</rt></ruby>がつきませんでした。まどを<ruby>変<rt>か</rt></ruby>えるより、まいにちあけるほうが<ruby>安<rt>やす</rt></ruby>くていいと<ruby>知<rt>し</rt></ruby>りました。",
- "traduccion": "Mi habitación es silenciosa. Si cierro la ventana, casi no se oye nada de fuera. El otro lado de la calle es animado y por la noche hay ruido. En verano me apetece más algo frío que un té caliente. En invierno prefiero un sitio cálido a una habitación fresca. La semana pasada estuve tan ocupado que ni me di cuenta de que la habitación estaba húmeda. Aprendí que, más que cambiar la ventana, sale más barato y mejor abrirla cada día.",
+ "titulo": "みせの <ruby>夜<rt>よる</rt></ruby>",
+ "cuerpo": "きんようびの <ruby>夜<rt>よる</rt></ruby>、みせは とても <ruby>忙<rt>いそが</rt></ruby>しいです。でんわが なって、<ruby>中<rt>なか</rt></ruby>は <ruby>賑<rt>にぎ</rt></ruby>やかで、すこし うるさいです。オーブンの まえは <ruby>熱<rt>あつ</rt></ruby>くて、<ruby>外<rt>そと</rt></ruby>は <ruby>冷<rt>つめ</rt></ruby>たいです。しごとが おわると、みせは きゅうに <ruby>静<rt>しず</rt></ruby>かに なります。その とき、ミンさんが つめたい みずを くれます。「<ruby>安<rt>やす</rt></ruby>い しごとだけど、わるくない」と ミンさんが 言いました。",
+ "traduccion": "Los viernes por la noche la tienda va a tope. Suena el teléfono, dentro hay barullo y algo de ruido. Delante del horno hace un calor terrible y fuera está helado. Cuando acaba el turno, la tienda se queda de golpe en silencio. Entonces Min me da un vaso de agua fría. «Es un trabajo mal pagado, pero no está mal», dijo Min.",
  "preguntas": [
   {
-   "p": "よる、うるさいのはどこですか。",
+   "p": "きんようびの <ruby>夜<rt>よる</rt></ruby>、みせは どうですか。",
    "opciones": [
-    "うちのへや",
-    "みちのむこうがわ",
-    "まどのそと",
-    "うちのなか"
+    "とても <ruby>忙<rt>いそが</rt></ruby>しいです",
+    "しずかです",
+    "しまって います"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "しめっているのに<ruby>気<rt>き</rt></ruby>がつかなかったのはなぜですか。",
+   "p": "しごとが おわると どう なりますか。",
    "opciones": [
-    "まどをしめていたから",
-    "<ruby>忙<rt>いそが</rt></ruby>しかったから",
-    "<ruby>冷<rt>つめ</rt></ruby>たかったから",
-    "<ruby>静<rt>しず</rt></ruby>かだったから"
+    "きゅうに <ruby>静<rt>しず</rt></ruby>かに なります",
+    "うるさく なります",
+    "かわりません"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "ミンさんは なにを くれますか。",
+   "opciones": [
+    "つめたい みず",
+    "ピザ",
+    "おかね"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "My room is silent. If I close the window, you can hardly hear anything from outside. The other side of the street is lively and at night there's noise. In summer I fancy something cold more than hot tea. In winter I prefer a warm place to a cool room. Last week I was so busy that I didn't even notice the room was damp. I learnt that, rather than changing the window, it's cheaper and better to open it every day."
+ "traduccion_en": "On Friday nights the shop is flat out. The phone rings, inside it's lively and a bit loud. In front of the oven it's baking hot and outside it's freezing. When the shift ends, the shop goes suddenly quiet. That's when Min hands me a glass of cold water. «It's badly paid work, but it isn't bad», said Min."
 }

@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/seishitsu/valoracion-1",
- "titulo": "<ruby>便利<rt>べんり</rt></ruby>なものと<ruby>大切<rt>たいせつ</rt></ruby>なもの",
- "cuerpo": "あたらしいきかいは<ruby>便利<rt>べんり</rt></ruby>です。でも、<ruby>便利<rt>べんり</rt></ruby>なものがふえるほど、<ruby>大切<rt>たいせつ</rt></ruby>なものが<ruby>見<rt>み</rt></ruby>えにくくなる<ruby>気<rt>き</rt></ruby>がします。<ruby>有名<rt>ゆうめい</rt></ruby>なみせのものだからといって、じぶんに<ruby>結構<rt>けっこう</rt></ruby>なものだとおもっ<em class=\"g\">てはいけない</em>。<ruby>新<rt>あたら</rt></ruby>しくても<ruby>悪<rt>わる</rt></ruby>いものはあるし、ふるくてもいいものはあります。<ruby>変<rt>へん</rt></ruby>な<ruby>顔<rt>かお</rt></ruby>をされても、じぶんでたしかめてからかいます。<ruby>人<rt>ひと</rt></ruby>のことばだけできめ<em class=\"g\">てはいけない</em>のです。",
- "traduccion": "Las máquinas nuevas son cómodas. Pero tengo la sensación de que, cuantas más comodidades se acumulan, más cuesta ver lo que de verdad importa. Por mucho que algo sea de una tienda famosa, no hay que dar por hecho que a ti te vaya bien. Aunque sea nuevo puede ser malo, y aunque sea viejo puede ser bueno. Aunque me miren raro, compruebo yo antes de comprar. No hay que decidir solo por lo que dicen los demás.",
+ "titulo": "<ruby>便利<rt>べんり</rt></ruby>な <ruby>国<rt>くに</rt></ruby>",
+ "cuerpo": "<ruby>日本<rt>にほん</rt></ruby>は とても <ruby>便利<rt>べんり</rt></ruby>です。でんしゃは 時間どおりに <ruby>来<rt>き</rt></ruby>ます。コンビニは <ruby>一日<rt>いちにち</rt></ruby>じゅう <ruby>開<rt>あ</rt></ruby>いて います。でも、<ruby>新<rt>あたら</rt></ruby>しい ものが ぜんぶ いいとは かぎりません。たなかさんの ふるい こたつは、<ruby>大切<rt>たいせつ</rt></ruby>な ものです。<ruby>有名<rt>ゆうめい</rt></ruby>な みせより、<ruby>駅<rt>えき</rt></ruby>の うらの ちいさい みせの ほうが おいしいです。「<ruby>結構<rt>けっこう</rt></ruby>です」の <ruby>意味<rt>いみ</rt></ruby>が <ruby>二<rt>ふた</rt></ruby>つ ある ことは、まだ <ruby>変<rt>へん</rt></ruby>だと おもいます。",
+ "traduccion": "Japón es comodísimo. Los trenes llegan a su hora. Los konbini están abiertos las veinticuatro horas. Pero no todo lo nuevo es mejor. El kotatsu viejo de la señora Tanaka es una cosa valiosa. Se come mejor en el local pequeño de detrás de la estación que en los famosos. Que «kekkō desu» signifique dos cosas contrarias me sigue pareciendo rarísimo.",
  "preguntas": [
   {
-   "p": "<ruby>有名<rt>ゆうめい</rt></ruby>なみせのものについて、どうかんがえていますか。",
+   "p": "でんしゃは どうですか。",
    "opciones": [
-    "いつもいい",
-    "じぶんに<ruby>結構<rt>けっこう</rt></ruby>だときめ<em class=\"g\">てはいけない</em>",
-    "たかい",
-    "かわないほうがいい"
+    "時間どおりに <ruby>来<rt>き</rt></ruby>ます",
+    "おそいです",
+    "たかいです"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "かうまえに<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "p": "どこの みせが おいしいですか。",
    "opciones": [
-    "<ruby>人<rt>ひと</rt></ruby>にきく",
-    "じぶんでたしかめる",
-    "<ruby>新<rt>あたら</rt></ruby>しいものをえらぶ",
-    "<ruby>何<rt>なに</rt></ruby>もしない"
+    "<ruby>駅<rt>えき</rt></ruby>の うらの ちいさい みせ",
+    "<ruby>有名<rt>ゆうめい</rt></ruby>な みせ",
+    "コンビニ"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんが まだ <ruby>変<rt>へん</rt></ruby>だと おもう ことは なんですか。",
+   "opciones": [
+    "「<ruby>結構<rt>けっこう</rt></ruby>です」の <ruby>意味<rt>いみ</rt></ruby>",
+    "でんしゃの じかん",
+    "コンビニ"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "New machines are convenient. But I have the feeling that the more conveniences pile up, the harder it is to see what really matters. However much something comes from a famous shop, you shouldn't take for granted that it suits you. Something new can be bad, and something old can be good. Even if people look at me oddly, I check for myself before buying. You shouldn't decide only by what others say."
+ "traduccion_en": "Japan is extremely convenient. The trains arrive on time. The convenience stores are open around the clock. But not everything new is better. Mrs Tanaka's old kotatsu is a precious thing. The small place behind the station is better than the famous ones. That «kekkō desu» means two opposite things still strikes me as very odd."
 }

@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/seishitsu/grado-1",
- "titulo": "もっと<ruby>暖<rt>あたた</rt></ruby>かく",
- "cuerpo": "ことしのふゆはとてもさむいです。かぜが<ruby>強<rt>つよ</rt></ruby>い<ruby>日<rt>ひ</rt></ruby>は、そとに<ruby>出<rt>で</rt></ruby>たくありません。うちの中を、もっと<ruby>暖<rt>あたた</rt></ruby>かくしたいとおもいました。まどにあついカーテンをかけると、ずいぶん<ruby>変<rt>か</rt></ruby>わりました。でんきだいもあまりあがらない<em class=\"g\">でしょう</em>。あさ、あたたかいへやで<ruby>目<rt>め</rt></ruby>をあけると、<ruby>気<rt>き</rt></ruby>もちが<ruby>強<rt>つよ</rt></ruby>くなります。さむい<ruby>日<rt>ひ</rt></ruby>こそ、うちのなかを<ruby>大切<rt>たいせつ</rt></ruby>にするといいの<em class=\"g\">でしょう</em>。",
- "traduccion": "Este invierno hace mucho frío. Los días de viento fuerte no me apetece salir. Pensé en calentar más el interior de casa. Al poner cortinas gruesas en las ventanas cambió bastante. Y seguramente la factura de la luz tampoco subirá mucho. Por la mañana, cuando abro los ojos en una habitación cálida, me siento con más fuerza. Quizá sea precisamente en los días de frío cuando conviene cuidar el interior de casa.",
+ "titulo": "はるが <ruby>近<rt>ちか</rt></ruby>い",
+ "cuerpo": "<ruby>二月<rt>にがつ</rt></ruby>の おわりに、かぜが すこし <ruby>暖<rt>あたた</rt></ruby>かく なりました。<ruby>冬<rt>ふゆ</rt></ruby>より、はるの ほうが ずっと すきです。アンナさんは「もっと あたたかく なったら、<ruby>花<rt>はな</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>きましょう」と 言いました。<ruby>日本<rt>にほん</rt></ruby>の はるは とても みじかいそうです。ぼくの <ruby>国<rt>くに</rt></ruby>では、<ruby>一年<rt>いちねん</rt></ruby>じゅう おなじような てんきです。きせつが かわる ことが、こんなに うれしいとは <ruby>知<rt>し</rt></ruby>りませんでした。",
+ "traduccion": "A finales de febrero el viento se volvió un poco más templado. Me gusta mucho más la primavera que el invierno. Anna me dijo: «cuando haga más calor vamos a ver las flores». Dicen que la primavera japonesa es muy corta. En mi país hace más o menos el mismo tiempo todo el año. No sabía que el cambio de estación pudiera dar tanta alegría.",
  "preguntas": [
   {
-   "p": "まどに<ruby>何<rt>なに</rt></ruby>をかけましたか。",
+   "p": "<ruby>二月<rt>にがつ</rt></ruby>の おわりに なにが かわりましたか。",
    "opciones": [
-    "あついカーテン",
-    "あたらしいまど",
-    "たかいたな",
-    "でんき"
+    "かぜが <ruby>暖<rt>あたた</rt></ruby>かく なりました",
+    "ゆきが ふりました",
+    "あつく なりました"
    ],
    "correcta": 0
   },
   {
-   "p": "あたたかいへやで<ruby>目<rt>め</rt></ruby>をあけると、どうなりますか。",
+   "p": "アンナさんは なにを さそいましたか。",
    "opciones": [
-    "さむくなる",
-    "<ruby>気<rt>き</rt></ruby>もちが<ruby>強<rt>つよ</rt></ruby>くなる",
-    "でんきだいがあがる",
-    "そとに<ruby>出<rt>で</rt></ruby>たくなる"
+    "<ruby>花<rt>はな</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>く こと",
+    "うみへ <ruby>行<rt>い</rt></ruby>く こと",
+    "りょうりを する こと"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんの <ruby>国<rt>くに</rt></ruby>の てんきは どうですか。",
+   "opciones": [
+    "<ruby>一年<rt>いちねん</rt></ruby>じゅう おなじような てんき",
+    "とても さむいです",
+    "きせつが <ruby>四<rt>よっ</rt></ruby>つ あります"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "This winter it's very cold. On days with a strong wind I don't feel like going out. I thought about making the inside of the house warmer. Putting thick curtains on the windows changed things quite a bit. And the electricity bill probably won't go up much either. In the morning, when I open my eyes in a warm room, I feel stronger. Perhaps it's precisely on cold days that it's worth looking after the inside of the house."
+ "traduccion_en": "At the end of February the wind turned a little warmer. I like spring far more than winter. Anna said: «when it gets warmer, let's go and see the blossom». They say the Japanese spring is very short. In my country the weather is much the same all year round. I didn't know the changing of the seasons could be such a pleasure."
 }
