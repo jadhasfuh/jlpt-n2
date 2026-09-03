@@ -72,3 +72,4 @@
 103078  # はい — se queda la 3680: はい es de N5, no de N2
 4816    # よろしく — se queda la 102817, que además está en «saludos»
 103085  # ミリ — idéntica a la 4473
+3761    # 二十(はたち) — 二十 solo se lee にじゅう; はたち es 二十歳, que ya es la 3760

@@ -369,3 +369,65 @@ id|kana|kanji|en|es
 103037|||the most ~ in Japan, the best ~ (suffix)|el mejor ~, el número uno de ~ (sufijo)
 103043|||the ~ side, the one that is ~ (in comparisons)|el lado de ~, el más ~ (en comparaciones)
 3676|||yes, indeed, well; (a sigh)|sí, ya; vaya (también un suspiro)
+
+# --- «Counter» no es un mostrador ---------------------------------------------
+# En japonés un «counter» es un contador —本, 匹, 枚—, no el mueble de la tienda.
+# El traductor eligió el mueble en once fichas. De paso se unifica el formato:
+# «(contador) x», que es como ya estaban las demás.
+1472|||counter for small things or pieces|(contador) cosas pequeñas, unidades
+2528|||counter for ships|(contador) barcos
+2611|||counter for small boats|(contador) embarcaciones pequeñas
+2967|||counter for suits and garments|(contador) trajes y prendas
+3804|||counter for birds and rabbits|(contador) pájaros y conejos
+3883|||counter for small animals|(contador) animales pequeños
+4916|||counter for birds and rabbits|(contador) pájaros y conejos
+1987|||thing, article, goods; dignity; counter for courses of a meal|cosa, artículo, género; clase, categoría; (contador) platos de un menú
+3999|||thing, article, goods; dignity; counter for courses of a meal|cosa, artículo, género; clase, categoría; (contador) platos de un menú
+
+# --- Modismos ingleses traducidos al pie de la letra --------------------------
+# 貸間 «room to let» salió como «espacio para dejar»: el traductor leyó «let»
+# como el verbo dejar, cuando ahí significa alquilar. Cuando el significado no
+# se entiende solo, la glosa lleva la aclaración entre paréntesis.
+844|||room for rent, room to let|habitación de alquiler, cuarto que se alquila
+245|||market, fair|mercado, feria
+100107|||the knack, the trick (of doing something)|el truco, el quid (de hacer algo)
+4369|||match (for lighting)|cerilla, fósforo
+4363|||pitch black, jet black|negro azabache, completamente negro
+100725|||cage, pen, jail cell|jaula, corral, celda
+101059|||beak, bill|pico (de un ave)
+102130|||ear of grain, head (of a plant)|espiga
+19|||blue; green (of a traffic light)|azul; verde (del semáforo)
+102510|||lead (in a race); reed (of an instrument)|ventaja, delantera; lengüeta (de un instrumento)
+973|||to wither, to dry up (of a plant)|marchitarse, secarse (una planta)
+101963|||attack, assault, raid|ataque, asalto, incursión
+3926|||to pull, to drag, to stretch|tirar de, arrastrar, estirar
+2113|||subject (of a sentence)|sujeto (de la oración)
+2749|||very much, greatly, exceedingly|muchísimo, enormemente
+100677|||to treat someone (to a meal or a drink)|invitar (a alguien a comer o beber)
+100788|||to be humiliated, to lose face|pasar vergüenza, quedar en ridículo
+100096|||to be, there is (polite)|haber, ser, estar (cortés)
+52|||to do (something) for someone|hacer (algo) por alguien
+101397|||to scoop up (water), to ladle|sacar con las manos, coger (agua)
+
+# --- Glosas que se habían ido al homófono equivocado ---------------------------
+# Mismo accidente que con はい: la ficha lleva una palabra y la definición es de
+# otra que se lee igual. ~おき decía «mar abierto», que es 沖; ~くらい decía
+# «oscuro», que es 暗い; ちょうど decía «muebles», que es 調度.
+180|||no (variant of いいえ)|no (variante de いいえ)
+535|||every other ~, at intervals of ~|cada ~, uno sí y otro no (一日おき: un día sí y otro no)
+1212|||to do ~ completely, to finish ~ing|hacer ~ del todo, terminar de ~ (auxiliar)
+1308|||about ~, approximately ~|más o menos ~, unos ~
+3014|||just, exactly, precisely|justo, exactamente
+3385|||which one (of several)|cuál, qué (de entre varios)
+3386|||Mr., Ms. ~ (formal suffix in writing)|Sr./Sra. ~ (sufijo formal, en escritos)
+4806|||than ~ (comparative); from|que ~ (comparativo); desde
+2457|||to do, to make|hacer
+2647|||there, that place|ahí, ese sitio
+2673|||besides that, apart from that|además, aparte de eso
+275|||have a good day, see you|que te vaya bien, hasta luego
+550|||take care, all the best|cuídate, que te vaya bien
+2836|たった|-|only, just, no more than|sólo, nada más que (たった一つ: sólo uno)
+103036|~しき|~式|~ style, in the ~ manner|estilo ~, al modo de ~ (日本式: al estilo japonés)
+# Los contadores que ya estaban bien, con el mismo formato que los demás.
+100173|||counter for cupfuls|(contador) tazas y vasos
+102998|||counter for defeats|(contador) derrotas
