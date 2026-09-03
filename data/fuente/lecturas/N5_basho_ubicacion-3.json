@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/basho/ubicacion-3",
  "titulo": "<ruby>近<rt>ちか</rt></ruby>い ところ、<ruby>遠<rt>とお</rt></ruby>い ところ",
- "cuerpo": "コンビニは アパートから とても <ruby>近<rt>ちか</rt></ruby>いです。あるいて にふんです。でも、やすい スーパーは <ruby>遠<rt>とお</rt></ruby>いです。ジャンは やすい ほうが いいと いって、いつも <ruby>遠<rt>とお</rt></ruby>い ほうへ <ruby>行<rt>い</rt></ruby>きます。ぼくは よる おそく <ruby>帰<rt>かえ</rt></ruby>るので、<ruby>近<rt>ちか</rt></ruby>い ほうが いいです。きのう、まどを <ruby>開<rt>あ</rt></ruby>けたまま <ruby>出<rt>で</rt></ruby>かけました。<ruby>帰<rt>かえ</rt></ruby>ったら へやが とても さむくて、ストーブを <ruby>点<rt>つ</rt></ruby>けました。こんな ことは にどと しません。",
- "traduccion": "El konbini está muy cerca del piso. Andando son dos minutos. Pero el supermercado barato queda lejos. Jean dice que mejor lo barato y siempre va al de lejos. Yo vuelvo tarde por la noche, así que prefiero el de cerca. Ayer salí de casa dejándome la ventana abierta. Al volver, la habitación estaba helada y tuve que encender la estufa. Esto no lo vuelvo a hacer.",
+ "cuerpo": "コンビニは アパートから とても <ruby>近<rt>ちか</rt></ruby>いです。あるいて にふんです。でも、やすい スーパーは <ruby>遠<rt>とお</rt></ruby>いです。ジャンは やすい ほうが いいと いって、いつも <ruby>遠<rt>とお</rt></ruby>い ほうへ <ruby>行<rt>い</rt></ruby>きます。ぼくは よる おそく <ruby>帰<rt>かえ</rt></ruby>るので、<ruby>近<rt>ちか</rt></ruby>い ほうが いいです。きのう、まどを <ruby>開<rt>あ</rt></ruby>けたまま <ruby>出<rt>で</rt></ruby>かけました。<ruby>帰<rt>かえ</rt></ruby>っ<em class=\"g\">てから</em> へやが とても さむくて、ストーブを <ruby>点<rt>つ</rt></ruby>けました。こんな ことは にどと しません。<ruby>水曜日<rt>すいようび</rt></ruby>に メキシコから <ruby>手紙<rt>てがみ</rt></ruby>が <ruby>届<rt>とど</rt></ruby>きました。<ruby>向<rt>む</rt></ruby>こうの <ruby>位置<rt>いち</rt></ruby>が わかる ちずも <ruby>入<rt>はい</rt></ruby>って いました。",
+ "traduccion": "El konbini está muy cerca del piso. Andando son dos minutos. Pero el supermercado barato queda lejos. Jean dice que mejor lo barato y siempre va al de lejos. Yo vuelvo tarde por la noche, así que prefiero el de cerca. Ayer salí de casa con la ventana abierta. Después de volver, la habitación estaba helada y encendí la estufa. Esto no lo hago dos veces. El miércoles me llegó una carta de México. Venía con un mapa donde se veía la situación de allá.",
  "preguntas": [
   {
    "p": "コンビニまで どのくらい かかりますか。",
@@ -35,5 +35,5 @@
    "correcta": 0
   }
  ],
- "traduccion_en": "The convenience store is very close to the flat. On foot it's two minutes. But the cheap supermarket is far away. Jean says cheaper is better and always goes to the far one. I get home late at night, so I prefer the near one. Yesterday I went out and left the window open. When I got back the room was freezing and I had to put the heater on. I'm not doing that again."
+ "traduccion_en": "The konbini is very close to my flat. Two minutes on foot. But the cheap supermarket is far away. Jean says cheaper is better and always goes to the far one. I get home late at night, so I prefer the near one. Yesterday I went out and left the window open. After getting back the room was freezing and I turned on the heater. I am not doing that twice. On Wednesday a letter arrived from Mexico. It came with a map showing where everything is back there."
 }

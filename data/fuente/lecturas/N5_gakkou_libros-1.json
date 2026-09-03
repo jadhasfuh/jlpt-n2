@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/gakkou/libros-1",
  "titulo": "<ruby>図書館<rt>としょかん</rt></ruby>の <ruby>雑誌<rt>ざっし</rt></ruby>",
- "cuerpo": "<ruby>学校<rt>がっこう</rt></ruby>の となりに ちいさい <ruby>図書館<rt>としょかん</rt></ruby>が あります。<ruby>授業<rt>じゅぎょう</rt></ruby>の あと、そこで <ruby>新聞<rt>しんぶん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>む ことに して います。<ruby>漢字<rt>かんじ</rt></ruby>が おおくて、<ruby>一<rt>いっ</rt></ruby>ページに さんじゅっぷんかかります。<ruby>雑誌<rt>ざっし</rt></ruby>の ほうが しゃしんが あって、わかりやすいです。にほんで <ruby>一番<rt>いちばん</rt></ruby> うれしかったのは、はじめて さいごまで <ruby>読<rt>よ</rt></ruby>めた ひです。みじかい <ruby>話<rt>はなし</rt></ruby>でしたが、じしょを <ruby>見<rt>み</rt></ruby>ませんでした。",
- "traduccion": "Al lado de la escuela hay una biblioteca pequeña. Después de clase me he propuesto leer el periódico allí. Tiene tantos kanji que una página me lleva media hora. Las revistas son más fáciles porque llevan fotos. Lo que más ilusión me ha hecho en Japón fue el día que conseguí terminar algo. Era una historia corta, pero no miré el diccionario ni una vez.",
+ "cuerpo": "<ruby>学校<rt>がっこう</rt></ruby>の となりに ちいさい <ruby>図書館<rt>としょかん</rt></ruby>が あります。<ruby>授業<rt>じゅぎょう</rt></ruby>の あと、そこで <ruby>新聞<rt>しんぶん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>む ことに して います。<ruby>漢字<rt>かんじ</rt></ruby>が おおくて、<ruby>一<rt>いち</rt></ruby>ページに さんじゅっぷん かかります。<ruby>雑誌<rt>ざっし</rt></ruby>の ほうが しゃしんが あって、わかりやすいです。にほんで <em class=\"g\"><ruby>一番<rt>いちばん</rt></ruby></em> うれしかったのは、はじめて さいごまで <ruby>読<rt>よ</rt></ruby>めた <ruby>日<rt>ひ</rt></ruby>です。みじかい <ruby>話<rt>はなし</rt></ruby>でしたが、じしょを <ruby>見<rt>み</rt></ruby>ませんでした。もとまちの ふるほんやでは、<ruby>歌<rt>うた</rt></ruby>の ほんや ひとの <ruby>伝記<rt>でんき</rt></ruby>が ひゃくえんです。ふるく <ruby>刷<rt>す</rt></ruby>った ほんほど かみが きいろいです。",
+ "traduccion": "Al lado de la escuela hay una biblioteca pequeña. Después de clase me he propuesto leer el periódico allí. Tiene tantos kanji que una página me lleva media hora. Las revistas son más fáciles porque llevan fotos. Lo que más ilusión me ha hecho en Japón fue el día en que por fin pude leer algo hasta el final. Era una historia corta, pero no miré el diccionario. En la librería de viejo de Motomachi, los cancioneros y las biografías cuestan cien yenes. Cuanto más antigua es la impresión, más amarillo está el papel.",
  "preguntas": [
   {
    "p": "<ruby>図書館<rt>としょかん</rt></ruby>は どこに ありますか。",
@@ -35,5 +35,5 @@
    "correcta": 3
   }
  ],
- "traduccion_en": "Next to the school there's a small library. After class I've made a habit of reading the newspaper there. There are so many kanji that one page takes me half an hour. Magazines are easier because they have photos. The happiest I've been in Japan was the day I got to the end of something. It was a short story, but I didn't look at the dictionary once."
+ "traduccion_en": "Next to the school there is a small library. After class I make a point of reading the newspaper there. There are so many kanji that one page takes me half an hour. Magazines are easier because they have photos. The happiest I have been in Japan was the day I finally read something all the way to the end. It was a short story, but I didn't look at the dictionary. At the second-hand bookshop in Motomachi, songbooks and biographies cost a hundred yen. The older the printing, the yellower the paper."
 }

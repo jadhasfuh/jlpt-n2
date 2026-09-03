@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/gakkou/examen-1",
  "titulo": "さいしょの テスト",
- "cuerpo": "きょう、はじめての テストが ありました。せんせいが かみを くばって、それから とけいを <ruby>見<rt>み</rt></ruby>ました。<ruby>質問<rt>しつもん</rt></ruby>は にじゅうありました。ぼくは じゅうごまで はやく できましたが、あとの いつつで <ruby>止<rt>と</rt></ruby>まりました。ゴンサは さきに <ruby>出<rt>で</rt></ruby>て いきました。ジャンは さいごまで のこりました。けっかは あしただそうです。ゆうべは よく ねられませんでした。",
- "traduccion": "Hoy tuvimos el primer examen. El profesor repartió las hojas y después miró el reloj. Había veinte preguntas. Las quince primeras las hice rápido, pero me atasqué en las cinco últimas. Gonza salió antes que nadie. Jean se quedó hasta el final. Dicen que los resultados son mañana. Anoche no dormí bien.",
+ "cuerpo": "きょう、はじめての テストが ありました。せんせいが かみを くばって、<em class=\"g\">それから</em> とけいを <ruby>見<rt>み</rt></ruby>ました。<ruby>質問<rt>しつもん</rt></ruby>は にじゅう ありました。ぼくは じゅうごまで はやく できましたが、あとの いつつで <ruby>止<rt>と</rt></ruby>まりました。ゴンサは さきに <ruby>出<rt>で</rt></ruby>て いきました。ジャンは さいごまで のこりました。けっかは あしただそうです。ゆうべは よく <ruby>寝<rt>ね</rt></ruby>られませんでした。かえりに ミンさんが「テストの あとは カラオケだ」と いいました。ぼくたちは さんのみやまで あるきました。",
+ "traduccion": "Hoy tuvimos el primer examen. El profesor repartió las hojas y después miró el reloj. Había veinte preguntas. Las quince primeras las hice rápido, pero me atasqué en las cinco últimas. Gonza salió antes que nadie. Jean se quedó hasta el final. Los resultados son mañana, según dicen. Anoche no pude dormir bien. A la vuelta, Min dijo: «después de un examen toca karaoke». Nos fuimos andando hasta Sannomiya.",
  "preguntas": [
   {
    "p": "<ruby>質問<rt>しつもん</rt></ruby>は いくつ ありましたか。",
@@ -35,5 +35,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "Today we had our first test. The teacher handed out the papers and then looked at the clock. There were twenty questions. I did the first fifteen quickly, but I got stuck on the last five. Gonza left before anyone else. Jean stayed until the end. They say the results are tomorrow. I didn't sleep well last night."
+ "traduccion_en": "Today we had our first test. The teacher handed out the papers and then looked at the clock. There were twenty questions. I got through the first fifteen quickly, but I got stuck on the last five. Gonsa left before anyone else. Jean stayed until the end. The results are tomorrow, apparently. Last night I couldn't sleep well. On the way back Min said, «after a test it's karaoke.» We walked all the way to Sannomiya."
 }

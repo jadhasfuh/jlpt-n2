@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/basho/ubicacion-2",
  "titulo": "<ruby>道<rt>みち</rt></ruby>を おぼえる",
- "cuerpo": "がっこうは <ruby>駅<rt>えき</rt></ruby>の <ruby>東<rt>ひがし</rt></ruby>に あります。ぼくの アパートは <ruby>西<rt>にし</rt></ruby>です。まいあさ、<ruby>道<rt>みち</rt></ruby>を <ruby>渡<rt>わた</rt></ruby>って、<ruby>南<rt>みなみ</rt></ruby>へ あるきます。<ruby>中<rt>なか</rt></ruby>に <ruby>大<rt>おお</rt></ruby>きい ビルが あって、その <ruby>横<rt>よこ</rt></ruby>が がっこうです。はじめは よく まちがえましたが、いまは ちずを みません。この <ruby>町<rt>まち</rt></ruby>の <ruby>所<rt>ところ</rt></ruby>を すこしずつ おぼえて います。じぶんの <ruby>町<rt>まち</rt></ruby>に なって きた かんじが します。",
- "traduccion": "La escuela está al este de la estación. Mi piso está al oeste. Cada mañana cruzo la calle y camino hacia el sur. Por el medio hay un edificio grande, y al lado está la escuela. Al principio me equivocaba mucho, pero ya no miro el mapa. Poco a poco me voy aprendiendo los sitios de esta ciudad. Tengo la sensación de que se va volviendo mi ciudad.",
+ "cuerpo": "がっこうは <ruby>駅<rt>えき</rt></ruby>の <ruby>東<rt>ひがし</rt></ruby>に あります。ぼくの アパートは <ruby>西<rt>にし</rt></ruby>です。まいあさ、<ruby>道<rt>みち</rt></ruby>を <ruby>渡<rt>わた</rt></ruby>って、<ruby>南<rt>みなみ</rt></ruby>へ あるきます。<ruby>中<rt>なか</rt></ruby>に <ruby>大<rt>おお</rt></ruby>きい ビルが あって、その <ruby>横<rt>よこ</rt></ruby>が がっこうです。はじめは よく まちがえましたが、いま<em class=\"g\">もう</em> ちずを <ruby>見<rt>み</rt></ruby>ません。この <ruby>町<rt>まち</rt></ruby>の <ruby>辺<rt>へん</rt></ruby>を すこしずつ おぼえて います。じぶんの <ruby>町<rt>まち</rt></ruby>に なって きた かんじが します。ぼくが すんで いるのは はなくまと いう <ruby>方<rt>ほう</rt></ruby>です。<ruby>縦<rt>たて</rt></ruby>に ながい <ruby>道<rt>みち</rt></ruby>が <ruby>一<rt>いっ</rt></ruby>ぽん あって、そこに かばんを <ruby>置<rt>お</rt></ruby>く ベンチが あります。",
+ "traduccion": "La escuela está al este de la estación. Mi piso está al oeste. Cada mañana cruzo la calle y camino hacia el sur. Por el medio hay un edificio grande, y al lado está la escuela. Al principio me equivocaba mucho, pero ya no miro el mapa. Poco a poco me voy aprendiendo esta zona del barrio. Empieza a darme la sensación de que es mi ciudad. Yo vivo por la parte que llaman Hanakuma. Hay una calle larga en vertical y allí hay un banco donde dejar la bolsa.",
  "preguntas": [
   {
    "p": "がっこうは <ruby>駅<rt>えき</rt></ruby>の どちらですか。",
@@ -35,5 +35,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "The school is east of the station. My flat is to the west. Every morning I cross the road and walk south. Along the way there's a big building, and next to it is the school. At first I got it wrong a lot, but now I don't look at the map. Little by little I'm learning the places in this city. It feels like it's becoming my city."
+ "traduccion_en": "The school is east of the station. My flat is to the west. Every morning I cross the road and walk south. In between there is a big building, and next to it is the school. At first I got it wrong a lot, but now I don't look at the map any more. Little by little I am learning this part of town. It is starting to feel like my own city. I live in the part they call Hanakuma. There is one long street running lengthways, and on it a bench where you can put your bag down."
 }

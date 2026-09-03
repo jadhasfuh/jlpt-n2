@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/basho/transporte-1",
  "titulo": "<ruby>電車<rt>でんしゃ</rt></ruby>と <ruby>切符<rt>きっぷ</rt></ruby>",
- "cuerpo": "がっこうまでは <ruby>電車<rt>でんしゃ</rt></ruby>で にじゅっぷんです。はじめの <ruby>日<rt>ひ</rt></ruby>、<ruby>切符<rt>きっぷ</rt></ruby>の かいかたが わかりませんでした。うしろに <ruby>人<rt>ひと</rt></ruby>が ならんでいて、とても はずかしかったです。<ruby>自転車<rt>じてんしゃ</rt></ruby>の ほうが やすいですが、あさは <ruby>雨<rt>あめ</rt></ruby>でした。<ruby>電車<rt>でんしゃ</rt></ruby>に <ruby>乗<rt>の</rt></ruby>って、<ruby>三<rt>みっ</rt></ruby>つめで <ruby>降<rt>お</rt></ruby>りました。<ruby>荷物<rt>にもつ</rt></ruby>が おもくて、すこし <ruby>疲<rt>つか</rt></ruby>れました。でも、まどから うみが <ruby>見<rt>み</rt></ruby>えて、うれしかったです。",
- "traduccion": "Hasta la escuela son veinte minutos en tren. El primer día no supe cómo comprar el billete. Detrás de mí había gente haciendo cola y me dio muchísima vergüenza. La bicicleta sale más barata, pero esa mañana llovía. Me subí al tren y me bajé en la tercera parada. La mochila pesaba y acabé un poco cansado. Pero por la ventana se veía el mar, y eso me alegró.",
+ "cuerpo": "がっこうまでは <ruby>電車<rt>でんしゃ</rt></ruby>で にじゅっぷんです。はじめの <ruby>日<rt>ひ</rt></ruby>、<ruby>切符<rt>きっぷ</rt></ruby>の かいかたが わかりませんでした。うしろに <ruby>人<rt>ひと</rt></ruby>が ならんでいて、とても はずかしかったです。<ruby>自転車<rt>じてんしゃ</rt></ruby>の ほうが やすいですが、あさは <ruby>雨<rt>あめ</rt></ruby>でした。<ruby>電車<rt>でんしゃ</rt></ruby>に <ruby>乗<rt>の</rt></ruby>って、<ruby>三<rt>みっ</rt></ruby>つめで <ruby>降<rt>お</rt></ruby>りました。<ruby>荷物<rt>にもつ</rt></ruby>が おもくて、すこし <ruby>疲<rt>つか</rt></ruby>れました。でも、まどから うみが <ruby>見<rt>み</rt></ruby>えて、うれしかったです。さんのみやでは <ruby>地下鉄<rt>ちかてつ</rt></ruby>に のりかえます。かいだんを <ruby>下<rt>お</rt></ruby>りる <em class=\"g\">とき</em>は、いつも ひとが おおいです。タクシーは たかいので のりません。",
+ "traduccion": "Hasta la escuela son veinte minutos en tren. El primer día no supe cómo comprar el billete. Detrás de mí había gente haciendo cola y me dio muchísima vergüenza. La bicicleta sale más barata, pero esa mañana llovía. Me subí al tren y me bajé en la tercera parada. El equipaje pesaba y acabé algo cansado. Pero por la ventana se veía el mar y me puse contento. En Sannomiya hago transbordo al metro. Cuando bajo las escaleras siempre hay mucha gente. El taxi es caro, así que no lo cojo.",
  "preguntas": [
   {
    "p": "はじめの <ruby>日<rt>ひ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>が わかりませんでしたか。",
@@ -35,5 +35,5 @@
    "correcta": 3
   }
  ],
- "traduccion_en": "It's twenty minutes to school by train. On the first day I couldn't work out how to buy a ticket. There were people queuing behind me and I was terribly embarrassed. The bicycle is cheaper, but that morning it was raining. I got on the train and got off at the third stop. My bag was heavy and I ended up a bit tired. But the sea was visible through the window, and that cheered me up."
+ "traduccion_en": "It is twenty minutes by train to school. On the first day I could not work out how to buy a ticket. There were people queuing behind me and I was terribly embarrassed. A bicycle is cheaper, but that morning it was raining. I got on the train and got off at the third stop. My bag was heavy and I got a little tired. But I could see the sea from the window and it made me happy. At Sannomiya I change to the subway. When I go down the stairs there are always a lot of people. Taxis are expensive, so I don't take them."
 }

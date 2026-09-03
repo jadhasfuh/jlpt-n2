@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/gakkou/lengua-1",
  "titulo": "<ruby>漢字<rt>かんじ</rt></ruby>と かなの はなし",
- "cuerpo": "にほんごには <ruby>文字<rt>もじ</rt></ruby>が みっつ あります。<ruby>平仮名<rt>ひらがな</rt></ruby>と <ruby>片仮名<rt>かたかな</rt></ruby>と <ruby>漢字<rt>かんじ</rt></ruby>です。<ruby>平仮名<rt>ひらがな</rt></ruby>は いっしゅうかんで おぼえました。<ruby>片仮名<rt>かたかな</rt></ruby>は もっと かかりました。<ruby>漢字<rt>かんじ</rt></ruby>は <ruby>言葉<rt>ことば</rt></ruby>の <ruby>意味<rt>いみ</rt></ruby>が <ruby>見<rt>み</rt></ruby>えるので、おもしろいです。でも、おなじ <ruby>字<rt>じ</rt></ruby>に よみ<ruby>方<rt>かた</rt></ruby>が いくつも あります。<ruby>辞書<rt>じしょ</rt></ruby>を ひくと、いつも あたらしい ことを ひとつだけ おぼえます。",
- "traduccion": "El japonés tiene tres escrituras. El hiragana, el katakana y los kanji. El hiragana lo aprendí en una semana. El katakana me costó más. Los kanji son interesantes porque en ellos se ve el significado de la palabra. Pero un mismo carácter tiene varias lecturas. Cada vez que abro el diccionario aprendo una cosa nueva, sólo una.",
+ "cuerpo": "にほんごには <ruby>文字<rt>もじ</rt></ruby>が みっつ あります。<ruby>平仮名<rt>ひらがな</rt></ruby>と <ruby>片仮名<rt>かたかな</rt></ruby>と <ruby>漢字<rt>かんじ</rt></ruby>です。<ruby>平仮名<rt>ひらがな</rt></ruby>は いっしゅうかんで おぼえました。<ruby>片仮名<rt>かたかな</rt></ruby>は もっと かかりました。<ruby>漢字<rt>かんじ</rt></ruby>は <ruby>言葉<rt>ことば</rt></ruby>の <ruby>意味<rt>いみ</rt></ruby>が <ruby>見<rt>み</rt></ruby>えるので、おもしろいです。でも、おなじ <ruby>字<rt>じ</rt></ruby>に よみ<ruby>方<rt>かた</rt></ruby>が いくつも あります。<ruby>辞書<rt>じしょ</rt></ruby>を ひくと、いつも あたらしい ことを ひとつ<em class=\"g\">だけ</em> おぼえます。ゆうがた、こえを <ruby>出<rt>だ</rt></ruby>して <ruby>読<rt>よ</rt></ruby>む れんしゅうを します。となりの へやに きこえて いないか、すこし しんぱいです。",
+ "traduccion": "El japonés tiene tres escrituras. El hiragana, el katakana y los kanji. El hiragana lo aprendí en una semana. El katakana me costó más. Los kanji son interesantes porque en ellos se ve el significado de la palabra. Pero un mismo carácter tiene varias lecturas. Cada vez que busco en el diccionario aprendo una cosa nueva, sólo una. Por la tarde practico leyendo en voz alta. Me preocupa un poco que se oiga en la habitación de al lado.",
  "preguntas": [
   {
    "p": "にほんごの <ruby>文字<rt>もじ</rt></ruby>は いくつ ありますか。",
@@ -35,5 +35,5 @@
    "correcta": 0
   }
  ],
- "traduccion_en": "Japanese has three writing systems. Hiragana, katakana and kanji. Hiragana I learned in a week. Katakana took me longer. Kanji are interesting because you can see the meaning of the word in them. But the same character has several readings. Every time I open the dictionary I learn one new thing, just one."
+ "traduccion_en": "Japanese has three scripts. Hiragana, katakana and kanji. I learnt hiragana in a week. Katakana took me longer. Kanji are interesting because you can see the meaning of the word in them. But the same character has several readings. Every time I look something up in the dictionary I learn one new thing, just one. In the evening I practise reading out loud. I worry a little that they can hear me in the next room."
 }

@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/gakkou/estudio-1",
  "titulo": "ノートの とり<ruby>方<rt>かた</rt></ruby>",
- "cuerpo": "ゴンサは じが とても きれいです。ぼくの ノートは きたないです。「<ruby>練習<rt>れんしゅう</rt></ruby>すれば できるよ」と ゴンサが いいました。ぼくは かんじを <ruby>書<rt>か</rt></ruby>くのが <ruby>上手<rt>じょうず</rt></ruby>では ありません。でも、まいばん さんじゅっぷんだけ <ruby>練習<rt>れんしゅう</rt></ruby>して います。せんせいは「<ruby>分<rt>わ</rt></ruby>からない ときは すぐ きいて ください」と <ruby>教<rt>おし</rt></ruby>えて くれます。<ruby>知<rt>し</rt></ruby>らない ことばが おおいので、じしょを いつも つくえの <ruby>上<rt>うえ</rt></ruby>に おいて います。",
- "traduccion": "Gonza tiene una letra preciosa. La mía es un desastre. «Con práctica se consigue», me dijo. A mí escribir kanji no se me da bien. Pero practico media hora cada noche, sólo eso. El profesor nos repite: «si no entendéis algo, preguntad enseguida». Como hay muchas palabras que no conozco, tengo siempre el diccionario encima de la mesa.",
+ "cuerpo": "ゴンサは じが とても きれいです。ぼくの ノートは きたないです。「<ruby>練習<rt>れんしゅう</rt></ruby>すれば できるよ」と ゴンサが いいました。ぼくは かんじを <ruby>書<rt>か</rt></ruby>くのが <ruby>上手<rt>じょうず</rt></ruby>では ありません。でも、まいばん さんじゅっぷんだけ <ruby>練習<rt>れんしゅう</rt></ruby>して います。せんせいは「<ruby>分<rt>わ</rt></ruby>からない ときは すぐ きいて ください」と <ruby>教<rt>おし</rt></ruby>えて くれます。<ruby>知<rt>し</rt></ruby>らない ことばが おおい<em class=\"g\">ので</em>、じしょを いつも つくえの <ruby>上<rt>うえ</rt></ruby>に おいて います。よるは がっこうの まえの <ruby>道<rt>みち</rt></ruby>を <ruby>渡<rt>わた</rt></ruby>って、コンビニで ノートを かいます。",
+ "traduccion": "Gonza tiene una letra preciosa. La mía es un desastre. «Con práctica se consigue», me dijo. A mí escribir kanji no se me da bien. Pero practico media hora cada noche, sólo eso. El profesor nos repite: «si no entendéis algo, preguntad enseguida». Como hay muchas palabras que no conozco, tengo siempre el diccionario encima de la mesa. Por la noche cruzo la calle de delante de la escuela y compro cuadernos en el konbini.",
  "preguntas": [
   {
    "p": "ゴンサさんの じは どうですか。",
@@ -35,5 +35,5 @@
    "correcta": 2
   }
  ],
- "traduccion_en": "Gonza has beautiful handwriting. Mine is a mess. «With practice you'll get there», he told me. I'm not good at writing kanji. But I practise for half an hour every night, no more. The teacher keeps telling us: «if you don't understand, ask straight away». Since there are so many words I don't know, I keep the dictionary on my desk."
+ "traduccion_en": "Gonsa has beautiful handwriting. Mine is a mess. «If you practise you'll get there,» he said. I am not good at writing kanji. But I practise for just thirty minutes every night. The teacher tells us, «when you don't understand, ask straight away.» Since there are many words I don't know, I keep the dictionary on my desk at all times. In the evening I cross the road in front of the school and buy notebooks at the konbini."
 }
