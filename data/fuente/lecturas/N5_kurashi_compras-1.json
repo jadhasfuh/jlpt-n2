@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/kurashi/compras-1",
  "titulo": "<ruby>三十分<rt>さんじゅっぷん</rt></ruby>の みせ",
- "cuerpo": "その みせでは、<ruby>三十分<rt>さんじゅっぷん</rt></ruby>で のみものが ぜんぶ おなじ ねだんでした。ぼくたちは おかねが すくなかったので、たくさん のみました。ほかの きゃくは ゆっくり はなして いて、こちらを <ruby>見<rt>み</rt></ruby>て わらいました。みせの <ruby>人<rt>ひと</rt></ruby>が 「そんなに いそがなくても いいですよ」と 言いました。ぼくたちの <ruby>日本語<rt>にほんご</rt></ruby>では、うまく こたえられませんでした。「ありがとう」と 「おいしい」だけを、なんかいも 言いました。",
+ "cuerpo": "その みせでは、<ruby>三十分<rt>さんじゅっぷん</rt></ruby>で のみものが ぜんぶ おなじ ねだんでした。ぼくたちは おかねが すくなかったので、たくさん のみました。ほかの きゃくは ゆっくり はなして いて、こちらを <ruby>見<rt>み</rt></ruby>て わらいました。みせの <ruby>人<rt>ひと</rt></ruby>が 「そんなに いそがなくても いいですよ」と <ruby>言<rt>い</rt></ruby>いました。ぼくたちの <ruby>日本語<rt>にほんご</rt></ruby>では、うまく こたえられませんでした。「ありがとう」と 「おいしい」だけを、なんかいも <ruby>言<rt>い</rt></ruby>いました。",
  "traduccion": "En ese local, por treinta minutos las bebidas costaban todas lo mismo. Como andábamos justos de dinero, bebimos muchísimo. Los demás clientes charlaban tranquilos y nos miraban riéndose. Alguien del local nos dijo: «no hace falta que corráis tanto». Con nuestro japonés no supimos contestar bien. Repetimos «gracias» y «está bueno» un montón de veces.",
  "preguntas": [
   {
@@ -25,9 +25,9 @@
    "correcta": 0
   },
   {
-   "p": "ぼくたちは なんと 言いましたか。",
+   "p": "ぼくたちは なんと <ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
-    "なにも 言いませんでした",
+    "なにも <ruby>言<rt>い</rt></ruby>いませんでした",
     "「ありがとう」と 「おいしい」",
     "「もう <ruby>一<rt>いっ</rt></ruby>ぱい」",
     "「そんなに いそがなくても いい」"

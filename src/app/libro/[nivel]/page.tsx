@@ -57,8 +57,9 @@ export default async function Pagina(
           // Las que salen en el texto pero se estudian en otro capítulo: sin
           // esto, 山 aparece en el capítulo 1 y no está en ninguna lista hasta
           // el 95.
-          deFuera={l ? palabrasDeFuera(l.cuerpo, nivel, u.palabras).map((w) => ({
-            id: w.id, escritura: w.escritura, lectura: w.lectura, es: w.es, en: w.en,
+          deFuera={l ? palabrasDeFuera(l.cuerpo, u.palabras).map((w) => ({
+            id: w.id, escritura: w.escritura, lectura: w.lectura,
+            es: w.es, en: w.en, jlpt: w.jlpt,
           })) : []}
           lectura={l}
         />

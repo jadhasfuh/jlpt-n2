@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/shizen/animales-1",
  "titulo": "みせの まえの ねこ",
- "cuerpo": "バイトの みせの まえに、いつも おなじ <ruby>猫<rt>ねこ</rt></ruby>が います。だれの <ruby>猫<rt>ねこ</rt></ruby>か わかりません。しごとが おわると、<ruby>鳴<rt>な</rt></ruby>いて ぼくの ほうへ <ruby>来<rt>き</rt></ruby>ます。ミンさんが ときどき たべものを あげて います。「ペットじゃ ない。ここの <ruby>人<rt>ひと</rt></ruby>だ」と ミンさんが 言いました。<ruby>犬<rt>いぬ</rt></ruby>が すきな ぼくも、この <ruby>猫<rt>ねこ</rt></ruby>だけは とくべつです。",
+ "cuerpo": "バイトの みせの まえに、いつも おなじ <ruby>猫<rt>ねこ</rt></ruby>が います。だれの <ruby>猫<rt>ねこ</rt></ruby>か わかりません。しごとが おわると、<ruby>鳴<rt>な</rt></ruby>いて ぼくの ほうへ <ruby>来<rt>き</rt></ruby>ます。ミンさんが ときどき たべものを あげて います。「ペットじゃ ない。ここの <ruby>人<rt>ひと</rt></ruby>だ」と ミンさんが <ruby>言<rt>い</rt></ruby>いました。<ruby>犬<rt>いぬ</rt></ruby>が すきな ぼくも、この <ruby>猫<rt>ねこ</rt></ruby>だけは とくべつです。",
  "traduccion": "Delante de la pizzería hay siempre el mismo gato. No se sabe de quién es. Cuando acabo el turno, maúlla y se me acerca. Min le da de comer de vez en cuando. «No es una mascota. Es del barrio», dijo Min. A mí me gustan más los perros, pero ese gato es aparte.",
  "preguntas": [
   {
@@ -25,7 +25,7 @@
    "correcta": 1
   },
   {
-   "p": "ミンさんは <ruby>猫<rt>ねこ</rt></ruby>を なんと 言いましたか。",
+   "p": "ミンさんは <ruby>猫<rt>ねこ</rt></ruby>を なんと <ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "あぶない",
     "ペットだ",

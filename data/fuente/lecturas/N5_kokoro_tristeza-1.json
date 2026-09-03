@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/kokoro/tristeza-1",
  "titulo": "こまった <ruby>日<rt>ひ</rt></ruby>",
- "cuerpo": "ある <ruby>日<rt>ひ</rt></ruby>、みせで さらを わって しまいました。てんちょうは おこりませんでしたが、ぼくは とても こまりました。その あと、しゅくだいも わすれて、<ruby>学校<rt>がっこう</rt></ruby>で しかられました。<ruby>家<rt>いえ</rt></ruby>に かえって、ひとりで すわって いました。つまらない <ruby>一日<rt>いちにち</rt></ruby>でしたが、ないては いません。つぎの <ruby>日<rt>ひ</rt></ruby>、てんちょうが「だれでも わるよ」と 言って くれました。",
+ "cuerpo": "ある <ruby>日<rt>ひ</rt></ruby>、みせで さらを わって しまいました。てんちょうは おこりませんでしたが、ぼくは とても こまりました。その あと、しゅくだいも わすれて、<ruby>学校<rt>がっこう</rt></ruby>で しかられました。<ruby>家<rt>いえ</rt></ruby>に かえって、ひとりで すわって いました。つまらない <ruby>一日<rt>いちにち</rt></ruby>でしたが、ないては いません。つぎの <ruby>日<rt>ひ</rt></ruby>、てんちょうが「だれでも わるよ」と <ruby>言<rt>い</rt></ruby>って くれました。",
  "traduccion": "Un día rompí un plato en la tienda. El encargado no se enfadó, pero yo me quedé fatal. Encima ese día olvidé los deberes y me riñeron en clase. Volví a casa y me quedé sentado, solo. Fue un día tonto, pero no lloré. Al día siguiente el encargado me dijo: «todo el mundo rompe alguno».",
  "preguntas": [
   {
@@ -25,7 +25,7 @@
    "correcta": 1
   },
   {
-   "p": "てんちょうは つぎの <ruby>日<rt>ひ</rt></ruby> なんと 言いましたか。",
+   "p": "てんちょうは つぎの <ruby>日<rt>ひ</rt></ruby> なんと <ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "「もう <ruby>来<rt>こ</rt></ruby>ないで」",
     "「はらって ください」",

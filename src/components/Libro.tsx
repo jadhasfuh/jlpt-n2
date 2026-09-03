@@ -11,6 +11,7 @@ import { anotarLectura } from "@/lib/progreso";
 import { significado as sig } from "@/lib/idioma";
 
 type Palabra = { id: number; escritura: string; lectura: string; es: string; en: string };
+type Fuera = Palabra & { jlpt: string };
 type Punto = { id: string; forma: string; lectura: string; es: string; en: string };
 
 /**
@@ -25,8 +26,8 @@ export function Libro({ nivel, n, total, unidad, vocabulario, gramatica, deFuera
   unidad: { id: string; ja: string; es: string; en: string; seccion: string };
   vocabulario: Palabra[];
   gramatica: Punto[];
-  /** Palabras del texto que se estudian en otro capítulo. */
-  deFuera: Palabra[];
+  /** Palabras del texto que se estudian en otro capítulo, con su nivel. */
+  deFuera: Fuera[];
   lectura: Lectura | null;
 }) {
   const { t, idioma } = useAjustes();
@@ -80,13 +81,22 @@ export function Libro({ nivel, n, total, unidad, vocabulario, gramatica, deFuera
         {deFuera.length > 0 && (
           <>
             <p className="etiqueta" style={{ marginTop: 18 }}>{t("lib2.deFuera")}</p>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: "4px 14px" }}>
+            <div style={{ display: "grid", gap: 6 }}>
               {deFuera.map((w) => (
-                <span key={w.id} style={{ fontSize: 12.5, color: "var(--tinta-2)" }}>
-                  <span className="jp" style={{ fontSize: 14 }}>{w.escritura}</span>
-                  {w.lectura !== w.escritura && <span className="tenue">　{w.lectura}</span>}
-                  {" "}{sig(w, idioma)}
-                </span>
+                <div key={w.id} style={{ display: "flex", alignItems: "baseline", gap: 8, fontSize: 12.5 }}>
+                  <span className="jp" style={{ fontSize: 14, minWidth: 96 }}>{w.escritura}</span>
+                  <span className="tenue" style={{ minWidth: 80 }}>
+                    {w.lectura !== w.escritura ? w.lectura : ""}
+                  </span>
+                  {/* El nivel sólo se marca si NO es el del libro: dentro del
+                      libro de N5, ver «N5» en cada línea no dice nada; ver
+                      «N1» junto a こたつ sí. */}
+                  {w.jlpt !== nivel && (
+                    <span className={`pastilla ${w.jlpt.toLowerCase()}`}
+                          style={{ fontSize: 10.5, padding: "1px 6px" }}>{w.jlpt}</span>
+                  )}
+                  <span style={{ color: "var(--tinta-2)" }}>{sig(w, idioma)}</span>
+                </div>
               ))}
             </div>
           </>

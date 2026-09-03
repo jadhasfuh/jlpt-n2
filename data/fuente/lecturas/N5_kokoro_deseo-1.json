@@ -1,11 +1,11 @@
 {
  "unidad_id": "N5/kokoro/deseo-1",
- "titulo": "アンナさんに 言いたい こと",
- "cuerpo": "アンナさんに ほんとうの ことを 言いたく なりました。でも、ぼくの <ruby>日本語<rt>にほんご</rt></ruby>では むずかしいです。「すきです」だけでは、<ruby>子<rt>こ</rt></ruby>どもの ことばみたいです。ジャンに そうだんすると、「ことばが へたでも かおで わかるよ」と 言いました。ゴンサは 「はやく 言え」と 言うだけでした。その よる、ぼくは じしょを <ruby>開<rt>あ</rt></ruby>きました。",
+ "titulo": "アンナさんに <ruby>言<rt>い</rt></ruby>いたい こと",
+ "cuerpo": "アンナさんに ほんとうの ことを <ruby>言<rt>い</rt></ruby>いたく なりました。でも、ぼくの <ruby>日本語<rt>にほんご</rt></ruby>では むずかしいです。「すきです」だけでは、<ruby>子<rt>こ</rt></ruby>どもの ことばみたいです。ジャンに そうだんすると、「ことばが へたでも かおで わかるよ」と <ruby>言<rt>い</rt></ruby>いました。ゴンサは 「はやく <ruby>言<rt>い</rt></ruby>え」と <ruby>言<rt>い</rt></ruby>うだけでした。その よる、ぼくは じしょを <ruby>開<rt>あ</rt></ruby>きました。",
  "traduccion": "Me entraron ganas de decirle a Anna lo que siento de verdad. Pero con mi japonés eso es difícil. Un «me gustas» a secas suena a lenguaje de niño. Se lo consulté a Jean y me dijo: «aunque hables mal, se te ve en la cara». Gonza sólo dijo: «díselo ya». Esa noche abrí el diccionario.",
  "preguntas": [
   {
-   "p": "カルロスさんは だれに なにを 言いたいですか。",
+   "p": "カルロスさんは だれに なにを <ruby>言<rt>い</rt></ruby>いたいですか。",
    "opciones": [
     "ゴンサに おかねの こと",
     "ジャンに <ruby>日本語<rt>にほんご</rt></ruby>の こと",
@@ -15,10 +15,10 @@
    "correcta": 3
   },
   {
-   "p": "ジャンさんは なんと 言いましたか。",
+   "p": "ジャンさんは なんと <ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "「かおで わかるよ」",
-    "「言わない ほうが いい」",
+    "「<ruby>言<rt>い</rt></ruby>わない ほうが いい」",
     "「まだ はやい」",
     "「はやく <ruby>言<rt>い</rt></ruby>え」"
    ],

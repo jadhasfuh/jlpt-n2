@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/kurashi/limpieza-1",
  "titulo": "こうべに かえって",
- "cuerpo": "こうべに かえると、へやが つめたくて、ほこりが ありました。まず まどを <ruby>開<rt>あ</rt></ruby>けて、そうじを しました。せんたくものが たまって いて、<ruby>三<rt>さん</rt></ruby>かい あらいました。アンナさんに 「かえりました」と メッセージを おくりました。「ゆきは どうでしたか」と きかれたので、しゃしんを おくりました。ひこうきの ことは、まだ 言って いません。",
+ "cuerpo": "こうべに かえると、へやが つめたくて、ほこりが ありました。まず まどを <ruby>開<rt>あ</rt></ruby>けて、そうじを しました。せんたくものが たまって いて、<ruby>三<rt>さん</rt></ruby>かい あらいました。アンナさんに 「かえりました」と メッセージを おくりました。「ゆきは どうでしたか」と きかれたので、しゃしんを おくりました。ひこうきの ことは、まだ <ruby>言<rt>い</rt></ruby>って いません。",
  "traduccion": "Al volver a Kobe la habitación estaba fría y llena de polvo. Lo primero fue abrir la ventana y limpiar. Tenía la ropa sucia acumulada y puse tres lavadoras. Le mandé un mensaje a Anna: «ya he vuelto». Me preguntó «¿qué tal la nieve?» y le mandé fotos. Lo del avión todavía no se lo he contado.",
  "preguntas": [
   {
@@ -25,7 +25,7 @@
    "correcta": 2
   },
   {
-   "p": "アンナさんに 言って いない ことは なんですか。",
+   "p": "アンナさんに <ruby>言<rt>い</rt></ruby>って いない ことは なんですか。",
    "opciones": [
     "ゆきの こと",
     "しごとの こと",

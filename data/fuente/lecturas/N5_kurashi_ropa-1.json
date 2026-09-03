@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/kurashi/ropa-1",
  "titulo": "<ruby>冬<rt>ふゆ</rt></ruby>の ふく",
- "cuerpo": "メキシコから <ruby>持<rt>も</rt></ruby>って <ruby>来<rt>き</rt></ruby>た <ruby>服<rt>ふく</rt></ruby>では、<ruby>冬<rt>ふゆ</rt></ruby>は さむすぎました。やすい みせで コートを <ruby>買<rt>か</rt></ruby>いました。<ruby>靴下<rt>くつした</rt></ruby>を <ruby>二<rt>に</rt></ruby>まい はくと、ほんとうに あたたかいです。ミンさんの ことばは 正しかったです。<ruby>家<rt>いえ</rt></ruby>に <ruby>入<rt>はい</rt></ruby>る とき、<ruby>靴<rt>くつ</rt></ruby>を <ruby>脱<rt>ぬ</rt></ruby>ぐのは もう しぜんです。さいふには、いつも バイトの ふくが <ruby>入<rt>はい</rt></ruby>って います。",
+ "cuerpo": "メキシコから <ruby>持<rt>も</rt></ruby>って <ruby>来<rt>き</rt></ruby>た <ruby>服<rt>ふく</rt></ruby>では、<ruby>冬<rt>ふゆ</rt></ruby>は さむすぎました。やすい みせで コートを <ruby>買<rt>か</rt></ruby>いました。<ruby>靴下<rt>くつした</rt></ruby>を <ruby>二<rt>に</rt></ruby>まい はくと、ほんとうに あたたかいです。ミンさんの ことばは <ruby>正<rt>ただ</rt></ruby>しかったです。<ruby>家<rt>いえ</rt></ruby>に <ruby>入<rt>はい</rt></ruby>る とき、<ruby>靴<rt>くつ</rt></ruby>を <ruby>脱<rt>ぬ</rt></ruby>ぐのは もう しぜんです。かばんには、いつも バイトの ふくが <ruby>入<rt>はい</rt></ruby>って います。",
  "traduccion": "Con la ropa que me traje de México el invierno era demasiado frío. Me compré un abrigo en una tienda barata. Con dos pares de calcetines se está de verdad caliente. Min tenía razón. Quitarme los zapatos al entrar en casa ya me sale solo. En la mochila llevo siempre la ropa del trabajo.",
  "preguntas": [
   {
@@ -25,7 +25,7 @@
    "correcta": 3
   },
   {
-   "p": "だれの ことばが 正しかったですか。",
+   "p": "だれの ことばが <ruby>正<rt>ただ</rt></ruby>しかったですか。",
    "opciones": [
     "ミンさん",
     "ゴンサ",

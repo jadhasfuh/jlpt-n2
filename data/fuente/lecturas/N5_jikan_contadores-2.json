@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/jikan/contadores-2",
  "titulo": "さらを あらう",
- "cuerpo": "さいしょの <ruby>日<rt>ひ</rt></ruby>、さらを <ruby>二百<rt>にひゃく</rt></ruby>まい あらいました。みずが つめたくて、てが あかく なりました。ミンさんが「<ruby>一<rt>ひと</rt></ruby>つずつ おなじ ばしょに おくと はやい」と <ruby>教<rt>おし</rt></ruby>えて くれました。そのとおりに すると、ほんとうに はやく なりました。<ruby>三日<rt>みっか</rt></ruby>めには、だれよりも はやく なりました。てんちょうが なにも 言わないで、ぼくの かたを たたいて いきました。",
+ "cuerpo": "さいしょの <ruby>日<rt>ひ</rt></ruby>、さらを <ruby>二百<rt>にひゃく</rt></ruby>まい あらいました。みずが つめたくて、てが あかく なりました。ミンさんが「<ruby>一<rt>ひと</rt></ruby>つずつ おなじ ばしょに おくと はやい」と <ruby>教<rt>おし</rt></ruby>えて くれました。そのとおりに すると、ほんとうに はやく なりました。<ruby>三日<rt>みっか</rt></ruby>めには、だれよりも はやく なりました。てんちょうが なにも <ruby>言<rt>い</rt></ruby>わないで、ぼくの かたを たたいて いきました。",
  "traduccion": "El primer día lavé doscientos platos. El agua estaba helada y se me pusieron las manos rojas. Min me enseñó: «si los pones de uno en uno siempre en el mismo sitio, vas más rápido». Lo hice así y, en efecto, gané velocidad. Al tercer día era el más rápido de todos. El encargado no dijo nada: me dio una palmada en el hombro y siguió.",
  "preguntas": [
   {
@@ -27,7 +27,7 @@
   {
    "p": "てんちょうは なにを しましたか。",
    "opciones": [
-    "なにか 言いました",
+    "なにか <ruby>言<rt>い</rt></ruby>いました",
     "かたを たたきました",
     "おこりました",
     "なにも しませんでした"

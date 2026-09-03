@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/tsunagu/kosoado-1",
  "titulo": "からっぽの へや",
- "cuerpo": "さいごの <ruby>日<rt>ひ</rt></ruby>、へやを そうじしました。かべの かみを ぜんぶ とると、あとが のこって いました。この つくえ、この まど、この ゆか。ぜんぶ おぼえて います。こんな ちいさい へやが、<ruby>一年<rt>いちねん</rt></ruby>の ぜんぶでした。たなかさんが <ruby>来<rt>き</rt></ruby>て、「また いつでも いらっしゃい」と 言いました。ああ、と こたえるのが やっとでした。",
+ "cuerpo": "さいごの <ruby>日<rt>ひ</rt></ruby>、へやを そうじしました。かべの かみを ぜんぶ とると、あとが のこって いました。この つくえ、この まど、この ゆか。ぜんぶ おぼえて います。こんな ちいさい へやが、<ruby>一年<rt>いちねん</rt></ruby>の ぜんぶでした。たなかさんが <ruby>来<rt>き</rt></ruby>て、「また いつでも いらっしゃい」と <ruby>言<rt>い</rt></ruby>いました。ああ、と こたえるのが やっとでした。",
  "traduccion": "El último día limpié la habitación. Al quitar todos los papeles de la pared quedaron las marcas. Esta mesa, esta ventana, este suelo. Me acuerdo de todo. Una habitación tan pequeña ha sido un año entero. Vino la señora Tanaka y me dijo: «vuelve cuando quieras». No me salió más que un «ya».",
  "preguntas": [
   {
@@ -15,7 +15,7 @@
    "correcta": 0
   },
   {
-   "p": "たなかさんは なんと 言いましたか。",
+   "p": "たなかさんは なんと <ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "「さようなら」",
     "「また いつでも いらっしゃい」",
@@ -28,8 +28,8 @@
    "p": "カルロスさんは どう こたえましたか。",
    "opciones": [
     "ながく はなしました",
-    "なにも 言いませんでした",
-    "「ああ」と 言うのが やっとでした",
+    "なにも <ruby>言<rt>い</rt></ruby>いませんでした",
+    "「ああ」と <ruby>言<rt>い</rt></ruby>うのが やっとでした",
     "「また <ruby>来<rt>き</rt></ruby>ます」と <ruby>言<rt>い</rt></ruby>いました"
    ],
    "correcta": 2

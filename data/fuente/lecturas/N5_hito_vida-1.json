@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/hito/vida-1",
  "titulo": "けんたくんの <ruby>誕生日<rt>たんじょうび</rt></ruby>",
- "cuerpo": "けんたくんが じゅうさんさいに なりました。たなかさんの <ruby>家<rt>いえ</rt></ruby>で、ちいさい パーティーを しました。<ruby>子供<rt>こども</rt></ruby>は はやく <ruby>大<rt>おお</rt></ruby>きく なると、たなかさんが 言いました。「<ruby>二十歳<rt>はたち</rt></ruby>に なったら、いっしょに おさけを のみましょう」と けんたくんが 言いました。みんなで わらいました。まだ ななねんあります。ぼくが にほんに <ruby>来<rt>き</rt></ruby>た <ruby>年<rt>とし</rt></ruby>の ことを、その <ruby>子<rt>こ</rt></ruby>は おぼえて いるでしょうか。",
+ "cuerpo": "けんたくんが じゅうさんさいに なりました。たなかさんの <ruby>家<rt>いえ</rt></ruby>で、ちいさい パーティーを しました。<ruby>子供<rt>こども</rt></ruby>は はやく <ruby>大<rt>おお</rt></ruby>きく なると、たなかさんが <ruby>言<rt>い</rt></ruby>いました。「<ruby>二十歳<rt>はたち</rt></ruby>に なったら、いっしょに おさけを のみましょう」と けんたくんが <ruby>言<rt>い</rt></ruby>いました。みんなで わらいました。まだ ななねんあります。ぼくが にほんに <ruby>来<rt>き</rt></ruby>た <ruby>年<rt>とし</rt></ruby>の ことを、その <ruby>子<rt>こ</rt></ruby>は おぼえて いるでしょうか。",
  "traduccion": "Kenta ha cumplido trece años. Hicimos una fiesta pequeña en casa de la señora Tanaka. Los niños crecen deprisa, dijo ella. «Cuando cumpla veinte, nos tomamos una copa juntos», dijo Kenta. Nos reímos todos. Todavía faltan siete años. Me pregunto si ese chaval se acordará del año en que yo llegué a Japón.",
  "preguntas": [
   {
@@ -15,7 +15,7 @@
    "correcta": 2
   },
   {
-   "p": "けんたくんは なんと 言いましたか。",
+   "p": "けんたくんは なんと <ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "サッカーを しよう",
     "メキシコへ <ruby>行<rt>い</rt></ruby>きたい",

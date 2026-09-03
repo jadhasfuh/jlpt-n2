@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/hito/salud-1",
  "titulo": "<ruby>病院<rt>びょういん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>く",
- "cuerpo": "かぜが なおらないので、<ruby>病院<rt>びょういん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。ほけんしょうを <ruby>見<rt>み</rt></ruby>せると、さんわりだけ はらえば いいそうです。<ruby>医者<rt>いしゃ</rt></ruby>は ぼくの のどを <ruby>見<rt>み</rt></ruby>て、「たいした ことは ありません」と 言いました。くすりは みっかぶんで、ごひゃくえんでした。アンナさんに はなすと、「にほんの ほけんは <ruby>大丈夫<rt>だいじょうぶ</rt></ruby>でしょう」と わらいました。げんきに なった とき、はじめて この <ruby>国<rt>くに</rt></ruby>に すこし まもられて いると かんじました。",
+ "cuerpo": "かぜが なおらないので、<ruby>病院<rt>びょういん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。ほけんしょうを <ruby>見<rt>み</rt></ruby>せると、さんわりだけ はらえば いいそうです。<ruby>医者<rt>いしゃ</rt></ruby>は ぼくの のどを <ruby>見<rt>み</rt></ruby>て、「たいした ことは ありません」と <ruby>言<rt>い</rt></ruby>いました。くすりは みっかぶんで、ごひゃくえんでした。アンナさんに はなすと、「にほんの ほけんは <ruby>大丈夫<rt>だいじょうぶ</rt></ruby>でしょう」と わらいました。げんきに なった とき、はじめて この <ruby>国<rt>くに</rt></ruby>に すこし まもられて いると かんじました。",
  "traduccion": "Como el resfriado no se me iba, fui al hospital. Enseñé la tarjeta del seguro y resulta que sólo pago el treinta por ciento. El médico me miró la garganta y dijo: «no es nada». La medicina para tres días me costó quinientos yenes. Se lo conté a Anna y se rió: «el seguro japonés no falla, ¿eh?». Cuando me puse bueno sentí por primera vez que este país me cuidaba un poco.",
  "preguntas": [
   {
@@ -15,7 +15,7 @@
    "correcta": 3
   },
   {
-   "p": "<ruby>医者<rt>いしゃ</rt></ruby>は なんと 言いましたか。",
+   "p": "<ruby>医者<rt>いしゃ</rt></ruby>は なんと <ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "「たいした ことは ありません」",
     "「<ruby>入<rt>にゅう</rt></ruby>いんして ください」",

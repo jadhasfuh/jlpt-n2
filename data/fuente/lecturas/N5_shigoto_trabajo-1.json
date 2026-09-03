@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/shigoto/trabajo-1",
  "titulo": "<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>働<rt>はたら</rt></ruby>く",
- "cuerpo": "みせの <ruby>人<rt>ひと</rt></ruby>たちは、みんな ほかの <ruby>国<rt>くに</rt></ruby>から <ruby>来<rt>き</rt></ruby>ました。バングラデシュ、ミャンマー、ベトナム、そして ぼく。ことばは じょうずじゃ ありませんが、<ruby>仕事<rt>しごと</rt></ruby>は とまりません。だれかが おくれたら、ほかの <ruby>人<rt>ひと</rt></ruby>が その ぶんを します。だれも 「ありがとう」を 言いませんが、みんな <ruby>見<rt>み</rt></ruby>て います。<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>働<rt>はたら</rt></ruby>くと、ことばより はやく わかる ことが あります。",
+ "cuerpo": "みせの <ruby>人<rt>ひと</rt></ruby>たちは、みんな ほかの <ruby>国<rt>くに</rt></ruby>から <ruby>来<rt>き</rt></ruby>ました。バングラデシュ、ミャンマー、ベトナム、そして ぼく。ことばは じょうずじゃ ありませんが、<ruby>仕事<rt>しごと</rt></ruby>は とまりません。だれかが おくれたら、ほかの <ruby>人<rt>ひと</rt></ruby>が その ぶんを します。だれも 「ありがとう」を <ruby>言<rt>い</rt></ruby>いませんが、みんな <ruby>見<rt>み</rt></ruby>て います。<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>働<rt>はたら</rt></ruby>くと、ことばより はやく わかる ことが あります。",
  "traduccion": "La gente de la tienda viene toda de otros países. Bangladesh, Myanmar, Vietnam y yo. Nadie habla bien el idioma, pero el trabajo no se para. Si alguien llega tarde, otro hace su parte. Nadie dice «gracias», pero todos se dan cuenta. Trabajando codo con codo hay cosas que se entienden antes que con palabras.",
  "preguntas": [
   {
@@ -25,10 +25,10 @@
    "correcta": 3
   },
   {
-   "p": "みんなは 「ありがとう」を 言いますか。",
+   "p": "みんなは 「ありがとう」を <ruby>言<rt>い</rt></ruby>いますか。",
    "opciones": [
-    "言いませんが、<ruby>見<rt>み</rt></ruby>て います",
-    "いつも 言います",
+    "<ruby>言<rt>い</rt></ruby>いませんが、<ruby>見<rt>み</rt></ruby>て います",
+    "いつも <ruby>言<rt>い</rt></ruby>います",
     "だれも <ruby>見<rt>み</rt></ruby>て いません",
     "<ruby>言<rt>い</rt></ruby>いますが、<ruby>見<rt>み</rt></ruby>て いません"
    ],

@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/basho/ubicacion-1",
  "titulo": "へやの なか",
- "cuerpo": "ぼくの へやは ひろくありません。ベッドの <ruby>上<rt>うえ</rt></ruby>に にもつが あります。つくえは まどの そばです。そこから <ruby>下<rt>した</rt></ruby>を 見ると、ちいさい こうえんが あります。「あれは なんですか」と たなかさんに ききました。「あそこは こどもの こうえんです」と こたえました。「あなたの くには あついですか」と たなかさんが ききました。ぼくの うちは メキシコの <ruby>北<rt>きた</rt></ruby>です。ふゆは さむいです。たなかさんは とても おどろきました。",
+ "cuerpo": "ぼくの へやは ひろくありません。ベッドの <ruby>上<rt>うえ</rt></ruby>に にもつが あります。つくえは まどの そばです。そこから <ruby>下<rt>した</rt></ruby>を <ruby>見<rt>み</rt></ruby>ると、ちいさい こうえんが あります。「あれは なんですか」と たなかさんに ききました。「あそこは こどもの こうえんです」と こたえました。「あなたの くには あついですか」と たなかさんが ききました。ぼくの うちは メキシコの <ruby>北<rt>きた</rt></ruby>です。ふゆは さむいです。たなかさんは とても おどろきました。",
  "traduccion": "Mi habitación no es grande. Encima de la cama está mi equipaje. La mesa está junto a la ventana. Si miras hacia abajo desde ahí, hay un parque pequeño. «¿Qué es aquello?», le pregunté a la señora Tanaka. «Eso de allá es un parque infantil», contestó. «¿Hace calor en tu país?», me preguntó ella. Mi casa está en el norte de México. En invierno hace frío. La señora Tanaka se quedó muy sorprendida.",
  "preguntas": [
   {
@@ -15,7 +15,7 @@
    "correcta": 0
   },
   {
-   "p": "まどから なにが 見えますか。",
+   "p": "まどから なにが <ruby>見<rt>み</rt></ruby>えますか。",
    "opciones": [
     "がっこう",
     "ちいさい こうえん",

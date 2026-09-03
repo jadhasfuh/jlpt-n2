@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/hito/gente-1",
  "titulo": "<ruby>友達<rt>ともだち</rt></ruby>に なる",
- "cuerpo": "にほんに <ruby>来<rt>き</rt></ruby>て <ruby>二<rt>に</rt></ruby>かげつに なりました。はじめは、じぶんの ことを <ruby>話<rt>はな</rt></ruby>す ことばが ありませんでした。いまは、ジャンと ゴンサが いて、アンナさんも います。<ruby>大勢<rt>おおぜい</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>と <ruby>話<rt>はな</rt></ruby>す ひつようは ありません。さんにんか よにん、ほんとうに <ruby>話<rt>はな</rt></ruby>せる <ruby>人<rt>ひと</rt></ruby>が いれば じゅうぶんです。こちらの ことばで じょうだんが 言えた ひ、ほんとうに うれしかったです。",
+ "cuerpo": "にほんに <ruby>来<rt>き</rt></ruby>て <ruby>二<rt>に</rt></ruby>かげつに なりました。はじめは、じぶんの ことを <ruby>話<rt>はな</rt></ruby>す ことばが ありませんでした。いまは、ジャンと ゴンサが いて、アンナさんも います。<ruby>大勢<rt>おおぜい</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>と <ruby>話<rt>はな</rt></ruby>す ひつようは ありません。さんにんか よにん、ほんとうに <ruby>話<rt>はな</rt></ruby>せる <ruby>人<rt>ひと</rt></ruby>が いれば じゅうぶんです。こちらの ことばで じょうだんが <ruby>言<rt>い</rt></ruby>えた ひ、ほんとうに うれしかったです。",
  "traduccion": "Ya llevo dos meses en Japón. Al principio no tenía palabras para hablar de mí mismo. Ahora están Jean y Gonza, y también Anna. No hace falta hablar con mucha gente. Con tres o cuatro personas con las que puedas hablar de verdad, basta. El día que conseguí hacer una broma en su idioma me puse contentísimo.",
  "preguntas": [
   {
@@ -15,7 +15,7 @@
    "correcta": 0
   },
   {
-   "p": "なんにんぐらい いれば じゅうぶんだと 言って いますか。",
+   "p": "なんにんぐらい いれば じゅうぶんだと <ruby>言<rt>い</rt></ruby>って いますか。",
    "opciones": [
     "<ruby>大勢<rt>おおぜい</rt></ruby>",
     "さんにんか よにん",
@@ -29,7 +29,7 @@
    "opciones": [
     "にほんに <ruby>着<rt>つ</rt></ruby>いた ひ",
     "テストの ひ",
-    "じょうだんが 言えた ひ",
+    "じょうだんが <ruby>言<rt>い</rt></ruby>えた ひ",
     "アンナさんが <ruby>来<rt>き</rt></ruby>た ひ"
    ],
    "correcta": 2

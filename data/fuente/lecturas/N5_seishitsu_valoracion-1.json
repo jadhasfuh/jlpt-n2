@@ -1,14 +1,14 @@
 {
  "unidad_id": "N5/seishitsu/valoracion-1",
  "titulo": "<ruby>便利<rt>べんり</rt></ruby>な <ruby>国<rt>くに</rt></ruby>",
- "cuerpo": "<ruby>日本<rt>にほん</rt></ruby>は とても <ruby>便利<rt>べんり</rt></ruby>です。でんしゃは 時間どおりに <ruby>来<rt>き</rt></ruby>ます。コンビニは <ruby>一日<rt>いちにち</rt></ruby>じゅう <ruby>開<rt>あ</rt></ruby>いて います。でも、<ruby>新<rt>あたら</rt></ruby>しい ものが ぜんぶ いいとは かぎりません。たなかさんの ふるい こたつは、<ruby>大切<rt>たいせつ</rt></ruby>な ものです。<ruby>有名<rt>ゆうめい</rt></ruby>な みせより、<ruby>駅<rt>えき</rt></ruby>の うらの ちいさい みせの ほうが おいしいです。「<ruby>結構<rt>けっこう</rt></ruby>です」の <ruby>意味<rt>いみ</rt></ruby>が <ruby>二<rt>ふた</rt></ruby>つ ある ことは、まだ <ruby>変<rt>へん</rt></ruby>だと おもいます。",
+ "cuerpo": "<ruby>日本<rt>にほん</rt></ruby>は とても <ruby>便利<rt>べんり</rt></ruby>です。でんしゃは <ruby>時間<rt>じかん</rt></ruby>どおりに <ruby>来<rt>き</rt></ruby>ます。コンビニは <ruby>一日<rt>いちにち</rt></ruby>じゅう <ruby>開<rt>あ</rt></ruby>いて います。でも、<ruby>新<rt>あたら</rt></ruby>しい ものが ぜんぶ いいとは かぎりません。たなかさんの ふるい こたつは、<ruby>大切<rt>たいせつ</rt></ruby>な ものです。<ruby>有名<rt>ゆうめい</rt></ruby>な みせより、<ruby>駅<rt>えき</rt></ruby>の うらの ちいさい みせの ほうが おいしいです。「<ruby>結構<rt>けっこう</rt></ruby>です」の <ruby>意味<rt>いみ</rt></ruby>が <ruby>二<rt>ふた</rt></ruby>つ ある ことは、まだ <ruby>変<rt>へん</rt></ruby>だと おもいます。",
  "traduccion": "Japón es comodísimo. Los trenes llegan a su hora. Los konbini están abiertos las veinticuatro horas. Pero no todo lo nuevo es mejor. El kotatsu viejo de la señora Tanaka es una cosa valiosa. Se come mejor en el local pequeño de detrás de la estación que en los famosos. Que «kekkō desu» signifique dos cosas contrarias me sigue pareciendo rarísimo.",
  "preguntas": [
   {
    "p": "でんしゃは どうですか。",
    "opciones": [
     "<ruby>一日<rt>いちにち</rt></ruby>じゅう <ruby>開<rt>あ</rt></ruby>いて います",
-    "時間どおりに <ruby>来<rt>き</rt></ruby>ます",
+    "<ruby>時間<rt>じかん</rt></ruby>どおりに <ruby>来<rt>き</rt></ruby>ます",
     "おそいです",
     "たかいです"
    ],

@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/gijutsu/medios-1",
  "titulo": "はじめての <ruby>手紙<rt>てがみ</rt></ruby>",
- "cuerpo": "ははに <ruby>手紙<rt>てがみ</rt></ruby>を かきました。メールでは なく、かみの <ruby>手紙<rt>てがみ</rt></ruby>です。<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>で <ruby>切手<rt>きって</rt></ruby>を かって、<ruby>封筒<rt>ふうとう</rt></ruby>に はりました。「メキシコまで にしゅうかんぐらい かかります」と 言われました。さんしゅうかんご、ははから でんわが ありました。こえが すこし へんでした。ないて いたそうです。つぎは はがきに しようと おもいます。しゃしんが おくれるから。",
+ "cuerpo": "ははに <ruby>手紙<rt>てがみ</rt></ruby>を かきました。メールでは なく、かみの <ruby>手紙<rt>てがみ</rt></ruby>です。<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>で <ruby>切手<rt>きって</rt></ruby>を かって、<ruby>封筒<rt>ふうとう</rt></ruby>に はりました。「メキシコまで にしゅうかんぐらい かかります」と <ruby>言<rt>い</rt></ruby>われました。さんしゅうかんご、ははから でんわが ありました。こえが すこし へんでした。ないて いたそうです。つぎは はがきに しようと おもいます。しゃしんが おくれるから。",
  "traduccion": "Le escribí una carta a mi madre. No un correo. Una carta de papel. Compré el sello en la oficina de correos y lo pegué en el sobre. «A México tarda unas dos semanas», me dijeron. Tres semanas después me llamó mi madre. Tenía la voz rara. Dice que estaba llorando. La próxima vez mandaré una postal, que así puedo mandar foto.",
  "preguntas": [
   {
@@ -15,7 +15,7 @@
    "correcta": 1
   },
   {
-   "p": "メキシコまで どのくらい かかると 言われましたか。",
+   "p": "メキシコまで どのくらい かかると <ruby>言<rt>い</rt></ruby>われましたか。",
    "opciones": [
     "さんしゅうかん",
     "ふつか",

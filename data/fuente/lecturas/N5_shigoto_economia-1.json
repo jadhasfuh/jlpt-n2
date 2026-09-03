@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/shigoto/economia-1",
  "titulo": "メキシコ<ruby>製<rt>せい</rt></ruby>の コーヒー",
- "cuerpo": "スーパーで、メキシコ<ruby>製<rt>せい</rt></ruby>の コーヒーを <ruby>見<rt>み</rt></ruby>つけました。ねだんは、メキシコの <ruby>三<rt>さん</rt></ruby>ばいでした。それでも <ruby>買<rt>か</rt></ruby>って、うちで ゆっくり のみました。アンナさんに <ruby>一<rt>いっ</rt></ruby>ぱい あげると、「これは のうこうですね」と 言いました。とかいの みせには、せかいじゅうの ものが あります。でも、<ruby>国<rt>くに</rt></ruby>を <ruby>出<rt>で</rt></ruby>てから、じぶんの <ruby>国<rt>くに</rt></ruby>の ものが <ruby>一番<rt>いちばん</rt></ruby> たかく かんじます。",
+ "cuerpo": "スーパーで、メキシコ<ruby>製<rt>せい</rt></ruby>の コーヒーを <ruby>見<rt>み</rt></ruby>つけました。ねだんは、メキシコの <ruby>三<rt>さん</rt></ruby>ばいでした。それでも <ruby>買<rt>か</rt></ruby>って、うちで ゆっくり のみました。アンナさんに <ruby>一<rt>いっ</rt></ruby>ぱい あげると、「これは のうこうですね」と <ruby>言<rt>い</rt></ruby>いました。とかいの みせには、せかいじゅうの ものが あります。でも、<ruby>国<rt>くに</rt></ruby>を <ruby>出<rt>で</rt></ruby>てから、じぶんの <ruby>国<rt>くに</rt></ruby>の ものが <ruby>一番<rt>いちばん</rt></ruby> たかく かんじます。",
  "traduccion": "En el supermercado encontré café hecho en México. Costaba el triple que en México. Aun así lo compré y me lo tomé tranquilo en casa. Le di una taza a Anna y dijo: «qué intenso». En las tiendas de la ciudad hay cosas de todo el mundo. Pero desde que salí de mi país, lo de mi país es lo que más caro me parece.",
  "preguntas": [
   {
@@ -15,7 +15,7 @@
    "correcta": 0
   },
   {
-   "p": "アンナさんは なんと 言いましたか。",
+   "p": "アンナさんは なんと <ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "「あまいですね」",
     "「のうこうですね」",

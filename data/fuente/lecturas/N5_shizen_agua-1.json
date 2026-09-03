@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/shizen/agua-1",
  "titulo": "はるの うみ",
- "cuerpo": "<ruby>四月<rt>しがつ</rt></ruby>の にちようび、アンナさんと けんたくんと うみへ <ruby>行<rt>い</rt></ruby>きました。まだ <ruby>泳<rt>およ</rt></ruby>ぐには つめたいです。けんたくんは くつを ぬいで、<ruby>水<rt>みず</rt></ruby>に あしを <ruby>入<rt>い</rt></ruby>れて さけびました。とおくに ふねが <ruby>見<rt>み</rt></ruby>えます。ぼくが <ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>き</rt></ruby>た とき、あの ほうこうから <ruby>来<rt>き</rt></ruby>ました。<ruby>一年<rt>いちねん</rt></ruby>まえの じぶんに、なにも しんぱいするなと 言いたいです。",
+ "cuerpo": "<ruby>四月<rt>しがつ</rt></ruby>の にちようび、アンナさんと けんたくんと うみへ <ruby>行<rt>い</rt></ruby>きました。まだ <ruby>泳<rt>およ</rt></ruby>ぐには つめたいです。けんたくんは くつを ぬいで、<ruby>水<rt>みず</rt></ruby>に あしを <ruby>入<rt>い</rt></ruby>れて さけびました。とおくに ふねが <ruby>見<rt>み</rt></ruby>えます。ぼくが <ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>き</rt></ruby>た とき、あの ほうこうから <ruby>来<rt>き</rt></ruby>ました。<ruby>一年<rt>いちねん</rt></ruby>まえの じぶんに、なにも しんぱいするなと <ruby>言<rt>い</rt></ruby>いたいです。",
  "traduccion": "Un domingo de abril fui al mar con Anna y con Kenta. Todavía está demasiado frío para nadar. Kenta se quitó los zapatos, metió los pies en el agua y pegó un grito. A lo lejos se ven barcos. Cuando llegué a Japón, vine desde aquella dirección. Al yo de hace un año me gustaría decirle que no se preocupara por nada.",
  "preguntas": [
   {
@@ -25,7 +25,7 @@
    "correcta": 2
   },
   {
-   "p": "カルロスさんは <ruby>一年<rt>いちねん</rt></ruby>まえの じぶんに なにを 言いたいですか。",
+   "p": "カルロスさんは <ruby>一年<rt>いちねん</rt></ruby>まえの じぶんに なにを <ruby>言<rt>い</rt></ruby>いたいですか。",
    "opciones": [
     "はやく かえれ",
     "うみへ <ruby>行<rt>い</rt></ruby>け",

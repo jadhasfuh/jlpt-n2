@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/shigoto/guerra-1",
  "titulo": "テレビの ふるい えいが",
- "cuerpo": "たなかさんの <ruby>家<rt>いえ</rt></ruby>で、ふるい えいがを <ruby>見<rt>み</rt></ruby>ました。むかしの さむらいの はなしで、ことばが とても むずかしかったです。「これは <ruby>今<rt>いま</rt></ruby>の <ruby>日本語<rt>にほんご</rt></ruby>じゃ ないから、わからなくても いいですよ」と たなかさんが 言いました。せんそうの ばめんは、<ruby>音<rt>おと</rt></ruby>が <ruby>大<rt>おお</rt></ruby>きくて こわかったです。たなかさんは しずかに <ruby>見<rt>み</rt></ruby>て いました。「わたしの ちちは、この じだいの はなしを あまり しませんでした」と 言いました。",
+ "cuerpo": "たなかさんの <ruby>家<rt>いえ</rt></ruby>で、ふるい えいがを <ruby>見<rt>み</rt></ruby>ました。むかしの さむらいの はなしで、ことばが とても むずかしかったです。「これは <ruby>今<rt>いま</rt></ruby>の <ruby>日本語<rt>にほんご</rt></ruby>じゃ ないから、わからなくても いいですよ」と たなかさんが <ruby>言<rt>い</rt></ruby>いました。せんそうの ばめんは、<ruby>音<rt>おと</rt></ruby>が <ruby>大<rt>おお</rt></ruby>きくて こわかったです。たなかさんは しずかに <ruby>見<rt>み</rt></ruby>て いました。「わたしの ちちは、この じだいの はなしを あまり しませんでした」と <ruby>言<rt>い</rt></ruby>いました。",
  "traduccion": "En casa de la señora Tanaka vimos una película antigua. Era una historia de samuráis y el lenguaje era dificilísimo. «Esto no es el japonés de ahora, no pasa nada si no lo entiendes», me dijo ella. Las escenas de guerra sonaban muy fuerte y daban miedo. La señora Tanaka la miraba en silencio. «Mi padre no hablaba mucho de aquella época», dijo.",
  "preguntas": [
   {
@@ -15,7 +15,7 @@
    "correcta": 2
   },
   {
-   "p": "たなかさんは なんと 言いましたか。",
+   "p": "たなかさんは なんと <ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "よく <ruby>聞<rt>き</rt></ruby>いて",
     "<ruby>音<rt>おと</rt></ruby>が <ruby>大<rt>おお</rt></ruby>きい",

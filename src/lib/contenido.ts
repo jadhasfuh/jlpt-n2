@@ -111,33 +111,52 @@ export async function lectura(unidadId: string): Promise<Lectura | null> {
  * unidad y la historia sigue ese orden.
  */
 /**
- * Las palabras del capítulo que se estudian en OTRO capítulo.
+ * Las palabras del capítulo que se estudian en OTRO capítulo, de cualquier nivel.
  *
  * La página de vocabulario enseña las de su unidad, y sólo ésas. Pero un
  * capítulo usa además palabras que se estudian mucho después —山 sale en el
- * primero y se estudia en el 95— y el lector se queda mirando un kanji que no
- * está en su lista. Aquí se sacan del propio texto, para que estén a mano sin
- * romper el orden del curso.
+ * primero y se estudia en el 95— y otras que ni siquiera son de su nivel:
+ * こたつ es N1 y sale en el libro de N5. El lector se queda mirando algo que
+ * no está en ninguna lista. Aquí se sacan del propio texto, con su nivel a la
+ * vista, para que estén a mano sin romper el orden del curso.
  *
  * Se busca de más largo a más corto, como el diccionario: así 大通り se
  * encuentra entera en vez de saltar sobre 大 y 通り por separado.
  */
-export function palabrasDeFuera(html: string, nivel: string, propias: number[]): Palabra[] {
+export function palabrasDeFuera(html: string, propias: number[]): Palabra[] {
   const texto = html.replace(/<rt>.*?<\/rt>/g, "").replace(/<[^>]+>/g, "");
   const suyas = new Set(propias);
   const fuera: Palabra[] = [];
   const vistas = new Set<number>();
+  const KATA = (c: string) => /[ァ-ヶー]/.test(c ?? "");
+  const KAN  = (c: string) => /[一-鿿]/.test(c ?? "");
+  const KANA = (c: string) => /[ぁ-ゖ]/.test(c ?? "");
+
   for (let i = 0; i < texto.length; i++) {
     for (let n = Math.min(8, texto.length - i); n >= 1; n--) {
-      const cand = indice.get(texto.slice(i, i + n));
+      const trozo = texto.slice(i, i + n);
+      const cand = indice.get(trozo);
       if (!cand) continue;
-      const p = cand.find((w) => w.jlpt === nivel && !suyas.has(w.id) && !vistas.has(w.id));
-      // Sin analizador morfológico, buscar de largo a corto parte mal algunas
-      // palabras: en ちかく sale かく («rascar») y en ではなく sale では. Un
-      // trozo de dos kana casi nunca es la palabra que hay ahí, así que sólo
-      // entra si lleva kanji o katakana, o si tiene tres kana o más.
-      const fiable = p && (/[一-鿿ァ-ヿ]/.test(p.escritura) || p.escritura.length >= 3);
-      if (p && fiable) { fuera.push(p); vistas.add(p.id); i += n - 1; }
+      const p = cand.find((w) => !suyas.has(w.id) && !vistas.has(w.id));
+      const ant = texto[i - 1] ?? "";
+      const sig = texto[i + n] ?? "";
+
+      // Sin analizador morfológico, buscar de largo a corto parte mal las
+      // palabras. Tres reglas cazan casi todo lo que se colaba:
+      //   · una palabra en katakana ocupa TODA la racha: de アパート salía
+      //     パート, y de テーブル, ブル;
+      //   · un kanji suelto con otro kanji al lado es parte de un compuesto
+      //     —de 毎日 salía 日— y con kana detrás es la raíz de un verbo;
+      //   · una raíz con okurigana seguida de más kana está a medias: de
+      //     教えて salía 教え.
+      const soloKata = [...trozo].every(KATA);
+      let vale: boolean;
+      if (soloKata) vale = !KATA(ant) && !KATA(sig);
+      else if (n === 1 && KAN(trozo)) vale = !KAN(ant) && !KAN(sig) && !KANA(sig);
+      else if (/[一-鿿]/.test(trozo) && KANA(trozo[trozo.length - 1])) vale = !KANA(sig);
+      else vale = /[一-鿿]/.test(trozo) || trozo.length >= 3;
+
+      if (p && vale) { fuera.push(p); vistas.add(p.id); i += n - 1; }
       break;
     }
   }

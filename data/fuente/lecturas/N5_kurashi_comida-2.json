@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/kurashi/comida-2",
  "titulo": "ビルの <ruby>中<rt>なか</rt></ruby>の みせ",
- "cuerpo": "<ruby>夜<rt>よる</rt></ruby>、まちを あるきました。そとは くらくて、<ruby>人<rt>ひと</rt></ruby>が いません。でも、<ruby>大<rt>おお</rt></ruby>きい ビルに <ruby>入<rt>はい</rt></ruby>ると、<ruby>中<rt>なか</rt></ruby>に みせが たくさん ありました。<ruby>一<rt>いっ</rt></ruby>かいも <ruby>二<rt>に</rt></ruby>かいも <ruby>三<rt>さん</rt></ruby>がいも、ぜんぶ みせです。ぼくの <ruby>国<rt>くに</rt></ruby>には、こんな ビルは ありません。ひとつの <ruby>建物<rt>たてもの</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に、まちが もう ひとつ ある みたいでした。ゴンサが 「<ruby>三十分<rt>さんじゅっぷん</rt></ruby>だけ」と 言って、ある みせの <ruby>戸<rt>と</rt></ruby>を <ruby>開<rt>あ</rt></ruby>けました。",
+ "cuerpo": "<ruby>夜<rt>よる</rt></ruby>、まちを あるきました。そとは くらくて、<ruby>人<rt>ひと</rt></ruby>が いません。でも、<ruby>大<rt>おお</rt></ruby>きい ビルに <ruby>入<rt>はい</rt></ruby>ると、<ruby>中<rt>なか</rt></ruby>に みせが たくさん ありました。<ruby>一<rt>いっ</rt></ruby>かいも <ruby>二<rt>に</rt></ruby>かいも <ruby>三<rt>さん</rt></ruby>がいも、ぜんぶ みせです。ぼくの <ruby>国<rt>くに</rt></ruby>には、こんな ビルは ありません。ひとつの <ruby>建物<rt>たてもの</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に、まちが もう ひとつ ある みたいでした。ゴンサが 「<ruby>三十分<rt>さんじゅっぷん</rt></ruby>だけ」と <ruby>言<rt>い</rt></ruby>って、ある みせの <ruby>戸<rt>と</rt></ruby>を <ruby>開<rt>あ</rt></ruby>けました。",
  "traduccion": "Por la noche paseamos por el centro. Fuera estaba oscuro y no había nadie. Pero al entrar en un edificio grande resultó que dentro había un montón de locales. La primera planta, la segunda, la tercera: todas locales. En mi país no existen edificios así. Era como si dentro de un solo edificio hubiera otra ciudad. Gonza dijo «sólo treinta minutos» y abrió la puerta de uno.",
  "preguntas": [
   {
@@ -25,7 +25,7 @@
    "correcta": 1
   },
   {
-   "p": "ゴンサさんは なんと 言いましたか。",
+   "p": "ゴンサさんは なんと <ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "「たかい」",
     "「かえろう」",

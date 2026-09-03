@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/jikan/cantidad-2",
  "titulo": "バイトの でんわ",
- "cuerpo": "みせの まえに はって ある かみに、でんわばんごうが ありました。「アルバイト ぼしゅう」と かいて あります。でんわを かける まえに、言う ことを ぜんぶ かみに かきました。「もしもし、かみを <ruby>見<rt>み</rt></ruby>ました」と 言うと、あいてが はやく はなしはじめました。はんぶんしか わかりませんでしたが、「あした <ruby>来<rt>き</rt></ruby>て ください」だけは <ruby>聞<rt>き</rt></ruby>こえました。でんわを きって、ぼくは いすに すわりました。てが つめたかったです。",
+ "cuerpo": "みせの まえに はって ある かみに、でんわばんごうが ありました。「アルバイト ぼしゅう」と かいて あります。でんわを かける まえに、<ruby>言<rt>い</rt></ruby>う ことを ぜんぶ かみに かきました。「もしもし、かみを <ruby>見<rt>み</rt></ruby>ました」と <ruby>言<rt>い</rt></ruby>うと、あいてが はやく はなしはじめました。はんぶんしか わかりませんでしたが、「あした <ruby>来<rt>き</rt></ruby>て ください」だけは <ruby>聞<rt>き</rt></ruby>こえました。でんわを きって、ぼくは いすに すわりました。てが つめたかったです。",
  "traduccion": "En un papel pegado delante de una tienda había un número de teléfono. Ponía: «se busca personal». Antes de llamar me escribí en un papel todo lo que iba a decir. Dije «hola, he visto el anuncio» y el otro empezó a hablar muy rápido. Sólo entendí la mitad, pero el «venga usted mañana» sí lo pillé. Colgué y me senté en una silla. Tenía las manos frías.",
  "preguntas": [
   {
@@ -19,13 +19,13 @@
    "opciones": [
     "ともだちに ききました",
     "なにも しませんでした",
-    "言う ことを かみに かきました",
+    "<ruby>言<rt>い</rt></ruby>う ことを かみに かきました",
     "いすに すわりました"
    ],
    "correcta": 2
   },
   {
-   "p": "あいては なんと 言いましたか。",
+   "p": "あいては なんと <ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "「もう いっぱいです」",
     "「もう いちど かけて ください」",

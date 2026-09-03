@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/tsunagu/afijos-1",
  "titulo": "ぶんかさいの <ruby>日<rt>ひ</rt></ruby>",
- "cuerpo": "ぶんかさいの <ruby>日<rt>ひ</rt></ruby>、<ruby>教室<rt>きょうしつ</rt></ruby>は <ruby>人<rt>ひと</rt></ruby>で いっぱいでした。ぼくたちの <ruby>前<rt>まえ</rt></ruby>に、ダンスの グループが <ruby>出<rt>で</rt></ruby>ました。ぼくは てが つめたく なって、ずっと ポケットに <ruby>入<rt>い</rt></ruby>れて いました。アンナさんが 「だいじょうぶ」と、こえだけで 言いました。ジャンが ギターを ひきはじめると、きゅうに おちつきました。<ruby>三<rt>さん</rt></ruby>きょく うたいました。さいごの きょくで、みんなが てを たたきました。",
+ "cuerpo": "ぶんかさいの <ruby>日<rt>ひ</rt></ruby>、<ruby>教室<rt>きょうしつ</rt></ruby>は <ruby>人<rt>ひと</rt></ruby>で いっぱいでした。ぼくたちの <ruby>前<rt>まえ</rt></ruby>に、ダンスの グループが <ruby>出<rt>で</rt></ruby>ました。ぼくは てが つめたく なって、ずっと ポケットに <ruby>入<rt>い</rt></ruby>れて いました。アンナさんが 「だいじょうぶ」と、こえだけで <ruby>言<rt>い</rt></ruby>いました。ジャンが ギターを ひきはじめると、きゅうに おちつきました。<ruby>三<rt>さん</rt></ruby>きょく うたいました。さいごの きょくで、みんなが てを たたきました。",
  "traduccion": "El día del festival el aula estaba a reventar. Antes de nosotros salió un grupo de baile. A mí se me quedaron las manos heladas y las tenía metidas en los bolsillos. Anna me dijo «tranquilo» sólo moviendo los labios. En cuanto Jean empezó a tocar, me calmé de golpe. Cantamos tres canciones. En la última, todo el mundo aplaudió.",
  "preguntas": [
   {
@@ -15,7 +15,7 @@
    "correcta": 2
   },
   {
-   "p": "アンナさんは なんと 言いましたか。",
+   "p": "アンナさんは なんと <ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "「がんばって」",
     "てを にぎりました",

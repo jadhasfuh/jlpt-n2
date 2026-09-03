@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/kotoba/opinion-1",
  "titulo": "ゴンサの けいかく",
- "cuerpo": "ゴンサの けいかくは かんたんでした。「ホテルは たかいから、とまる ところは あとで かんがえよう」ぼくは いい かんがえだと おもいませんでした。「さむい <ruby>国<rt>くに</rt></ruby>だよ」と 言いましたが、ゴンサは わらって いました。「なんとか なる」と 言う <ruby>人<rt>ひと</rt></ruby>の はなしは、たいてい なんとか なりません。でも、ぼくも わかい ものが すきなので、なにも 言いませんでした。",
+ "cuerpo": "ゴンサの けいかくは かんたんでした。「ホテルは たかいから、とまる ところは あとで かんがえよう」ぼくは いい かんがえだと おもいませんでした。「さむい <ruby>国<rt>くに</rt></ruby>だよ」と <ruby>言<rt>い</rt></ruby>いましたが、ゴンサは わらって いました。「なんとか なる」と <ruby>言<rt>い</rt></ruby>う <ruby>人<rt>ひと</rt></ruby>の はなしは、たいてい なんとか なりません。でも、ぼくも わかいので、なにも <ruby>言<rt>い</rt></ruby>いませんでした。",
  "traduccion": "El plan de Gonza era sencillo. «Los hoteles son caros; ya pensaremos dónde dormir cuando estemos allí.» A mí no me pareció buena idea. Le dije «es un sitio frío», pero él se reía. Cuando alguien dice «ya se arreglará», normalmente no se arregla. Aun así, a mí también me tira lo imprudente, y no dije nada más.",
  "preguntas": [
   {
@@ -30,7 +30,7 @@
     "けいかくを かえました",
     "<ruby>行<rt>い</rt></ruby>かない ことに しました",
     "「なんとか なる」と <ruby>言<rt>い</rt></ruby>いました",
-    "なにも 言いませんでした"
+    "なにも <ruby>言<rt>い</rt></ruby>いませんでした"
    ],
    "correcta": 3
   }

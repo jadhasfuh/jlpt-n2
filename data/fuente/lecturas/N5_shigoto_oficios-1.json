@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/shigoto/oficios-1",
  "titulo": "<ruby>交番<rt>こうばん</rt></ruby>の おまわりさん",
- "cuerpo": "ある よる、かえりみちで じてんしゃを とめられました。おまわりさんが「これは あなたの じてんしゃですか」と ききました。ぼくは ざいりゅうカードを <ruby>見<rt>み</rt></ruby>せました。<ruby>三分<rt>さんぷん</rt></ruby>ぐらいで おわりましたが、こころが はやく なりました。「きを つけて かえって ください」と 言われました。わるい ことは して いませんが、こういう ときは いつも すこし こわいです。",
+ "cuerpo": "ある よる、かえりみちで じてんしゃを とめられました。おまわりさんが「これは あなたの じてんしゃですか」と ききました。ぼくは ざいりゅうカードを <ruby>見<rt>み</rt></ruby>せました。<ruby>三分<rt>さんぷん</rt></ruby>ぐらいで おわりましたが、こころが はやく なりました。「きを つけて かえって ください」と <ruby>言<rt>い</rt></ruby>われました。わるい ことは して いませんが、こういう ときは いつも すこし こわいです。",
  "traduccion": "Una noche, volviendo a casa, me pararon con la bicicleta. El policía me preguntó: «¿esta bicicleta es suya?». Le enseñé la tarjeta de residencia. Duró unos tres minutos, pero se me aceleró el pulso. Me dijo: «vuelva con cuidado». No he hecho nada malo, pero en esos momentos siempre paso un poco de miedo.",
  "preguntas": [
   {
@@ -25,7 +25,7 @@
    "correcta": 1
   },
   {
-   "p": "おまわりさんは なんと 言いましたか。",
+   "p": "おまわりさんは なんと <ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "「<ruby>来<rt>き</rt></ruby>て ください」",
     "「だめです」",
