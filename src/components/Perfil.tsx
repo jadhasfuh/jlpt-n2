@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { guardarTope, leerProgreso, resumen, topeDiario, type Progreso, type TopeRepaso } from "@/lib/progreso";
 import { BotonesRapidos, useAjustes } from "./Ajustes";
+import { Avisos } from "./Avisos";
 import type { Perfil as Cuenta } from "@/lib/sesion";
 import { IcDerecha } from "./Iconos";
 import Link from "next/link";
@@ -58,6 +59,10 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
           {t("com.tema", { v: t(tema === "claro" ? "tema.claro" : tema === "oscuro" ? "tema.oscuro" : "tema.auto") })}
         </button>
       </section>
+
+      {/* Los avisos van justo debajo de los ajustes de pantalla: es un ajuste
+          más, no una campaña. Si el navegador no los soporta, no se pinta. */}
+      <Avisos />
 
       <h2 className="enc-seccion" style={{ marginTop: 24 }}>{t("per.idioma")}</h2>
       <section className="tarjeta">

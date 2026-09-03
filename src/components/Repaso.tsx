@@ -8,6 +8,7 @@ import {
   paraRepasar, prevision7dias, topeDiario, vivas, type Progreso,
 } from "@/lib/progreso";
 import { ConmutadoresJp, useAjustes } from "./Ajustes";
+import { Avisos } from "./Avisos";
 import { Jp, BotonVoz } from "./Jp";
 import { Reportar } from "./Reportar";
 import { IcBien, IcDerecha } from "./Iconos";
@@ -199,6 +200,7 @@ export function Repaso() {
   if (i >= cola.length) {
     const quedan = todas.length - cola.length;
     return (
+      <>
       <div className="tarjeta" style={{ marginTop: 48, textAlign: "center", padding: 40 }}>
         <IcBien size={30} style={{ color: "var(--acento)" }} />
         <p style={{ fontSize: 16 }}>{t("rep.terminado", { n: cola.length })}</p>
@@ -209,6 +211,11 @@ export function Repaso() {
         )}
         <Link className="btn primario" href="/">{t("com.volver")}</Link>
       </div>
+      {/* El único momento decente para pedir el permiso de avisos: acaba de
+          terminar un repaso, ya sabe para qué sirve, y el navegador sólo deja
+          preguntar una vez en la vida. */}
+      <Avisos />
+      </>
     );
   }
 

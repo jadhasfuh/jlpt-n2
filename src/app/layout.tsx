@@ -53,7 +53,10 @@ export const viewport: Viewport = {
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const idioma = await idiomaActual();
   return (
-    <html lang={idioma} className={inter.variable}>
+    // La clave pública de VAPID es pública por definición —viaja en cada
+    // suscripción— y el navegador la necesita antes de poder suscribirse.
+    <html lang={idioma} className={inter.variable}
+          data-vapid={process.env.NEXT_PUBLIC_VAPID_PUBLICA || undefined}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />

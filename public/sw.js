@@ -9,7 +9,7 @@
 //   · páginas y API → red primero, y si no hay red, lo último que se guardó.
 //   · fuentes de Google → cache primero: el japonés sin fuente es ilegible.
 
-const VERSION = "v1";
+const VERSION = "v2";   // v2: avisos
 const CAPARAZON = `jlptest-shell-${VERSION}`;
 const PAGINAS = `jlptest-pag-${VERSION}`;
 
@@ -45,6 +45,46 @@ const redPrimero = async (req, almacen) => {
     throw err;
   }
 };
+
+// ------------------------------------------------------------------ avisos
+//
+// El aviso llega con su texto ya hecho desde el servidor: el service worker no
+// sabe cuántas palabras te tocan ni tiene por qué saberlo.
+self.addEventListener("push", (e) => {
+  let d = { titulo: "jlptest", cuerpo: "Tienes repaso esperando.", url: "/repaso" };
+  try { if (e.data) d = { ...d, ...e.data.json() }; } catch {}
+  e.waitUntil(
+    self.registration.showNotification(d.titulo, {
+      body: d.cuerpo,
+      icon: "/icono/192",
+      badge: "/icono/192",
+      lang: d.idioma || "es",
+      // Una sola notificación viva por tipo: si no se abrió la de ayer, la de
+      // hoy la sustituye en vez de amontonarse en la bandeja.
+      tag: d.tipo || "repaso",
+      renotify: true,
+      data: { url: d.url || "/repaso" },
+    })
+  );
+});
+
+// Al tocarla: si la app ya está abierta en alguna pestaña, se usa esa; abrir
+// una segunda copia de la misma app es de las cosas que más molestan.
+self.addEventListener("notificationclick", (e) => {
+  e.notification.close();
+  const destino = e.notification.data?.url || "/repaso";
+  e.waitUntil((async () => {
+    const abiertas = await self.clients.matchAll({ type: "window", includeUncontrolled: true });
+    for (const c of abiertas) {
+      if (new URL(c.url).origin === self.location.origin) {
+        await c.focus();
+        if ("navigate" in c) await c.navigate(destino);
+        return;
+      }
+    }
+    await self.clients.openWindow(destino);
+  })());
+});
 
 self.addEventListener("fetch", (e) => {
   const req = e.request;

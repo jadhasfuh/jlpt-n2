@@ -18,3 +18,7 @@ JLPTest app design.zip
 # Caché incremental de tsc: cambia en cada compilación y no le sirve
 # a nadie más que a esta máquina.
 tsconfig.tsbuildinfo
+
+# Los genera `next dev` para los asistentes; no son documentación del proyecto.
+AGENTS.md
+CLAUDE.md
