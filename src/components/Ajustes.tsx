@@ -10,6 +10,9 @@ type Ajustes = {
   furigana: boolean;
   significado: boolean;
   colores: boolean;
+  /** 縦書き: el texto japonés de arriba abajo y las columnas de derecha a
+      izquierda, como en un libro japonés. Sólo afecta a la prosa larga. */
+  vertical: boolean;
   tema: "auto" | "claro" | "oscuro";
   idioma: Idioma;
   /** Si todo está abierto o hace falta suscripción. Lo decide el servidor:
@@ -26,7 +29,7 @@ type Ajustes = {
    * cada sección incluso a quien acababa de pagar.
    */
   tieneAcceso: boolean;
-  alternar: (k: "furigana" | "significado" | "colores") => void;
+  alternar: (k: "furigana" | "significado" | "colores" | "vertical") => void;
   cambiarTema: () => void;
   cambiarIdioma: (i: Idioma) => void;
   t: (clave: Clave, vars?: Record<string, string | number>) => string;
@@ -68,6 +71,9 @@ export function ProveedorAjustes({
   const [furigana, setFurigana] = useState(false);
   const [significado, setSignificado] = useState(false);
   const [colores, setColores] = useState(true);   // los kanji entran coloreados
+  // El horizontal es lo que espera quien viene de estudiar con la app, así que
+  // el vertical se enciende a mano.
+  const [vertical, setVertical] = useState(false);
   const [tema, setTema] = useState<"auto" | "claro" | "oscuro">("auto");
   const [idioma, setIdioma] = useState<Idioma>(idiomaInicial);
 
@@ -75,6 +81,7 @@ export function ProveedorAjustes({
     setFurigana(leer("jlpt.furigana", false));
     setSignificado(leer("jlpt.significado", false));
     setColores(leer("jlpt.colores", true));
+    setVertical(leer("jlpt.vertical", false));
     setTema(leer("jlpt.tema", "auto"));
   }, []);
 
@@ -83,10 +90,12 @@ export function ProveedorAjustes({
     try { localStorage.setItem("jlpt.tema", JSON.stringify(tema)); } catch {}
   }, [tema]);
 
-  const alternar = (k: "furigana" | "significado" | "colores") => {
-    const set = k === "furigana" ? setFurigana : k === "significado" ? setSignificado : setColores;
-    const valor = !(k === "furigana" ? furigana : k === "significado" ? significado : colores);
-    set(valor);
+  const alternar = (k: "furigana" | "significado" | "colores" | "vertical") => {
+    const sets = { furigana: setFurigana, significado: setSignificado,
+                   colores: setColores, vertical: setVertical };
+    const valores = { furigana, significado, colores, vertical };
+    const valor = !valores[k];
+    sets[k](valor);
     try { localStorage.setItem(`jlpt.${k}`, JSON.stringify(valor)); } catch {}
   };
 
@@ -114,7 +123,7 @@ export function ProveedorAjustes({
 
   return (
     <Ctx.Provider value={{ accesoAbierto, enApp, tieneAcceso,
-      furigana, significado, colores, tema, idioma,
+      furigana, significado, colores, vertical, tema, idioma,
       alternar, cambiarTema, cambiarIdioma, t,
     }}>
       {children}
@@ -132,16 +141,24 @@ export function ProveedorAjustes({
  * y no cambiando la letra: si あ se convirtiera en 字 al activarse, la letra
  * pasaría a decir lo contrario de lo que hace el botón.
  *
+ * `conVertical` enciende 縦, que pone la lectura de arriba abajo y de derecha
+ * a izquierda. Va sólo donde hay prosa larga —la lectura de la unidad y el
+ * libro—: en una lista de vocabulario o en las opciones de un test no hay nada
+ * que poner en columnas, y el botón sólo estorbaría.
+ *
  * `conSignificado={false}` quita 意 donde estorba. En un test y en la sesión
  * de cinco minutos no hace nada visible, y en el repaso hace justo lo que no
  * debe: enseña el significado, que es la respuesta que se está intentando
  * recordar. Un botón que no hace nada confunde; uno que resuelve el ejercicio
  * por ti, más.
  */
-export function ConmutadoresJp({ conSignificado = true }: { conSignificado?: boolean }) {
-  const { furigana, significado, colores, alternar, t } = useAjustes();
+export function ConmutadoresJp(
+  { conSignificado = true, conVertical = false }:
+  { conSignificado?: boolean; conVertical?: boolean },
+) {
+  const { furigana, significado, colores, vertical, alternar, t } = useAjustes();
   const uno = (
-    k: "furigana" | "significado" | "colores",
+    k: "furigana" | "significado" | "colores" | "vertical",
     encendido: boolean,
     letra: string,
     titulo: string,
@@ -161,6 +178,7 @@ export function ConmutadoresJp({ conSignificado = true }: { conSignificado?: boo
       {uno("furigana", furigana, "あ", t("aj.furigana"))}
       {conSignificado && uno("significado", significado, "意", t("aj.significado"))}
       {uno("colores", colores, "色", t("aj.colores"))}
+      {conVertical && uno("vertical", vertical, "縦", t("aj.vertical"))}
     </div>
   );
 }

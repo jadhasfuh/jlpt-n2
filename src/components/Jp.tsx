@@ -32,15 +32,26 @@ export function Jp({
   );
 }
 
-/** Bloque de texto que ya trae <ruby> y <em class="g"> dentro (las lecturas). */
-export function JpHtml({ html, clase = "" }: { html: string; clase?: string }) {
-  const { furigana, colores } = useAjustes();
-  return (
+/** Bloque de texto que ya trae <ruby> y <em class="g"> dentro (las lecturas).
+ *
+ *  `permiteVertical` deja que este bloque obedezca al interruptor 縦. Va sólo
+ *  en el cuerpo de la lectura: un título de dos palabras puesto en columna no
+ *  se lee mejor, se lee peor. */
+export function JpHtml(
+  { html, clase = "", permiteVertical = false }:
+  { html: string; clase?: string; permiteVertical?: boolean },
+) {
+  const { furigana, colores, vertical } = useAjustes();
+  const enColumnas = permiteVertical && vertical;
+  const bloque = (
     <div
       className={`jp ${clase} ${furigana ? "" : "sin-furigana"} ${colores ? "" : "sin-colores"}`}
       dangerouslySetInnerHTML={{ __html: colorearHtml(html) }}
     />
   );
+  // El envoltorio es el que scrollea: en vertical el texto crece hacia la
+  // izquierda, así que quien se mueve es la caja, no la página.
+  return enColumnas ? <div className="jp-tategaki">{bloque}</div> : bloque;
 }
 
 /** Igual pero en línea: títulos, preguntas y opciones. */

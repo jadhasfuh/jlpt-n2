@@ -156,7 +156,7 @@ export function Libro({
               <h2 style={{ fontSize: 20, margin: 0 }}><JpEnLinea html={lectura.titulo} /></h2>
               <BotonVoz texto={soloTexto(lectura.cuerpo)} />
             </div>
-            <JpHtml html={lectura.cuerpo} clase="jp-medio" />
+            <JpHtml html={lectura.cuerpo} clase="jp-medio" permiteVertical />
             <button className="btn chico" style={{ marginTop: 10 }}
                     onClick={() => setTraducir(!traducir)}>
               {traducir ? t("lec.ocultarTrad") : t("lec.verTrad")}

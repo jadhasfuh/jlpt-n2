@@ -50,7 +50,7 @@ export function BarraInferior() {
 
   return (
     <nav className={`barra-inferior ${jp ? "con-jp" : ""}`}>
-      {jp && <ConmutadoresJp />}
+      {jp && <ConmutadoresJp conVertical={ruta.startsWith("/u/") || ruta.startsWith("/libro")} />}
       {ENLACES.map(({ href, Icono, clave }) => (
         <Link key={href} href={href} className={activo(href) ? "activo" : ""}>
           <Icono size={22} />

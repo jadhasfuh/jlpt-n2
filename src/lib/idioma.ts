@@ -622,6 +622,8 @@ const T = {
   "aj.significado": { es: "Mostrar u ocultar el significado", en: "Show or hide the meaning" },
   "aj.colores":  { es: "Colorear los kanji según su nivel JLPT",
                    en: "Colour kanji by their JLPT level" },
+  "aj.vertical": { es: "Leer en vertical, como un libro japonés",
+                   en: "Read vertically, like a Japanese book" },
   "aj.significadoLargo": { es: "significado", en: "meaning" },
   "aj.nivelKanji": { es: "nivel de cada kanji", en: "each kanji's level" },
 } satisfies Record<string, Entrada>;

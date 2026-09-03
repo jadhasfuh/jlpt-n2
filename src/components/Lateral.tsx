@@ -79,8 +79,12 @@ export function Lateral() {
           </div>
         )}
 
-        {/* en el repaso y en la sesión rápida, 意 enseñaría la respuesta */}
-        <ConmutadoresJp conSignificado={!(ruta.startsWith("/repaso") || ruta.startsWith("/rapido"))} />
+        {/* en el repaso y en la sesión rápida, 意 enseñaría la respuesta.
+            縦 sólo donde hay prosa larga que poner en columnas. */}
+        <ConmutadoresJp
+          conSignificado={!(ruta.startsWith("/repaso") || ruta.startsWith("/rapido"))}
+          conVertical={ruta.startsWith("/u/") || ruta.startsWith("/libro")}
+        />
 
         <div style={{ flex: 1 }} />
         <button className="icono-btn" onClick={cambiarTema} aria-label={nombreTema} title={nombreTema}>

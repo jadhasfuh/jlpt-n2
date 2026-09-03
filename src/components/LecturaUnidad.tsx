@@ -129,7 +129,7 @@ export function LecturaUnidad({ unidadId }: { unidadId: string }) {
           <BotonVoz texto={soloTexto(l.cuerpo)} />
         </div>
         {ciega ? <LectorCiego texto={soloTexto(l.cuerpo)} frase={frase} setFrase={setFrase} />
-               : <JpHtml html={l.cuerpo} clase="jp-medio" />}
+               : <JpHtml html={l.cuerpo} clase="jp-medio" permiteVertical />}
 
         <div style={{ display: "flex", gap: 8, marginTop: 10, flexWrap: "wrap" }}>
           <button className={`btn chico ${ciega ? "encendido" : ""}`}

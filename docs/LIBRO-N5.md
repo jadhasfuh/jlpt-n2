@@ -225,6 +225,67 @@ Min, Anna, la señora Tanaka y Kenta— y una veintena de escenarios que vuelven
 | Casa de Anna | 3 |
 | El hospital | 1 |
 
+### 縦書き: la edición vertical
+
+`python3 scripts/30_libro_pdf.py --vertical` saca
+**docs/libro-n5-maqueta-vertical.pdf**: la historia de arriba abajo y las
+columnas de derecha a izquierda, como un libro japonés. Las páginas de
+vocabulario y gramática se quedan en horizontal, que es donde se consultan.
+
+Reportlab no sabe componer en vertical, así que se dibuja carácter a carácter
+—igual que ya se hacía con el furigana—. Lo que no es «lo mismo girado», y se
+nota en cuanto falla:
+
+- **。、** no van centradas: se suben a la esquina de arriba a la derecha del
+  cuadratín. Centradas parecen un lunar en mitad de la columna.
+- **ー「」（）…** giran 90°. El alargamiento vocálico tumbado es lo que más
+  delata a un vertical mal hecho.
+- Las **kana pequeñas** (ゃゅょっ) se corren un poco a la derecha y arriba.
+- El **furigana** deja de ir encima y pasa al lado derecho de su kanji.
+
+El ancho de columna es 2,15 × el cuerpo: el cuerpo más el furigana al lado.
+
+**El dibujo cambia de sitio.** En horizontal el hueco que sobra es una banda
+apaisada debajo del texto; en vertical sería una tira alta y estrecha —43 × 168
+mm en el capítulo 1—, y los 103 dibujos son 3:2 apaisados. Redibujarlos en
+vertical costaría otra tanda entera, así que en esta edición la ilustración va
+en una **banda apaisada arriba** y las columnas debajo, que además es como lo
+resuelve media literatura infantil japonesa.
+
+La banda se queda con lo que sobre, no al revés: se prueban alturas de 2/3 del
+ancho hacia abajo y se coge la primera que deja sitio a todas las columnas. Con
+altura fija había 14 capítulos a los que ya no les cabía el texto. Así entran
+los 103: 101 con dibujo (75 mm de alto de media) y los dos largos —el 32 y el
+35— sin banda, que son los mismos que en horizontal se quedaban sin dibujo
+grande.
+
+**Ojo con la encuadernación:** un libro en vertical se cose por la **derecha**
+y se lee de atrás hacia delante. El margen ancho —el que se come la costura—
+cambia de lado, y eso ya lo hace el script. Pero si algún día se manda a
+imprenta hay que decírselo a la imprenta explícitamente (右綴じ), porque por
+defecto montan a la occidental.
+
+### En la app
+
+El interruptor **縦** vive en la misma botonera que あ, 意 y 色, y sale sólo
+donde hay prosa larga que poner en columnas: la lectura de la unidad y el
+libro. En una lista de vocabulario o en las opciones de un test no hay nada que
+apilar y el botón sólo estorbaría.
+
+Ahí no hay que dibujar nada a mano: el navegador ya sabe hacerlo con
+`writing-mode: vertical-rl`, que coloca 。 y 、 en su sitio, gira lo que hay que
+girar y manda el furigana al lado derecho. Dos cosas que sí hay que darle:
+
+- Una **altura**. Sin ella el texto sale en una sola columna infinita hacia
+  abajo en vez de repartirse.
+- `direction: rtl` en el contenedor que scrollea, que es lo que hace que el
+  navegador empiece por la derecha, donde está el principio del texto. El
+  bloque de dentro vuelve a `ltr` para que no se den la vuelta los números ni
+  el español intercalado.
+
+Y `line-height` en vertical no es el alto del renglón sino el **ancho de la
+columna**: con el 1.9 de horizontal las columnas se pegan cuando hay furigana.
+
 ### El estilo de los dibujos (decidido el 2026-09-03)
 
 **Masaaki Yuasa**, tomando el diseño de 四畳半神話大系, けものづめ, ピンポン y
