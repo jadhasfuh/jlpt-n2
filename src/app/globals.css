@@ -651,3 +651,15 @@ em.g.n3 { border-color: color-mix(in srgb, var(--n3) 60%, transparent); }
   text-align: center;
   font-size: .9em;
 }
+
+/* La escena de 発話表現. Los dibujos son 3:2 en blanco y negro; en oscuro se
+   invierten para que no sea un foco de luz en mitad de la pantalla. */
+.escena-examen {
+  display: block; width: 100%; height: auto; margin: 4px 0 14px;
+  border: 1px solid var(--linea); border-radius: var(--radio-sm);
+  background: #fff;
+}
+:root[data-tema="oscuro"] .escena-examen { filter: invert(1); background: #000; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) .escena-examen { filter: invert(1); background: #000; }
+}

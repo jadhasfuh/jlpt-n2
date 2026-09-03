@@ -189,3 +189,29 @@ Para 聴解: `guion` = {intro, turnos:[{quien:"M|F", texto}], pregunta, opciones
    las opciones) → 8–10 s de silencio.
 4. Velocidad natural (1,0×); 0,9× en modo aprendizaje.
 5. Modo dictado: el mismo guion con huecos donde están las frases clave.
+
+## Las escenas de 発話表現
+
+Los 28 ítems de este tipo (N3, N4 y N5) llevan la instrucción 「絵を見ながら
+質問を聞いてください。矢印（→）の人は何と言いますか」. Sin dibujo, el ejercicio
+pedía mirar algo que no existía.
+
+`python3 scripts/33_ilustrar_examen.py` los dibuja en
+`public/examen/escenas/<id>.png` y salta los que ya están. La escena sale del
+propio enunciado, quitándole la última frase, que es la pregunta y no se dibuja.
+
+Dos decisiones:
+
+- **No se usan los personajes del libro.** Carlos y compañía son de la historia;
+  verlos en un examen despistaría. Aquí son desconocidos.
+- **El estilo baja de revoluciones.** El del libro es deliberadamente deformado,
+  y en un examen lo que tiene que llamar la atención es la escena, no el dibujo.
+  Estos son línea negra plana y calmada, como los del examen de verdad.
+
+La flecha se le pide al modelo como parte del dibujo, igual que en el examen
+oficial: entra por el borde vacío y señala la cabeza de quien va a hablar.
+
+En la app salen **antes del botón de escuchar**, como en el papel: primero se
+mira la escena, luego suena el audio. En tema oscuro se invierten, para que no
+sean un foco de luz en mitad de la pantalla.
+

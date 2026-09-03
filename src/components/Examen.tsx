@@ -318,6 +318,20 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
           </div>
         )}
 
+        {/* 発話表現: la instrucción dice 「絵を見ながら…矢印（→）の人は何と
+            言いますか」, así que sin dibujo el ejercicio pide mirar algo que no
+            existe. Va ANTES del botón de escuchar, como en el examen de verdad:
+            primero se mira la escena, luego suena el audio. */}
+        {item.tipo === "hatsuwa" && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={`/examen/escenas/${item.id}.png`}
+            alt=""
+            className="escena-examen"
+            onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }}
+          />
+        )}
+
         {guion && (
           <div style={{ textAlign: "center", margin: "6px 0 14px" }}>
             <button onClick={reproducir} aria-label={t("ex.escuchar")}
