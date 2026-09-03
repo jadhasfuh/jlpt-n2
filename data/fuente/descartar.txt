@@ -27,9 +27,7 @@
 1420    # 下品 — la 103057 está en N2/seishitsu/valoracion-2, con 4 palabras;
         # ésta estaba en sonota/adjetivos-1, con 14
 118     # 余り — la 119 trae también el sentido de «resto»
-3171    # 出かける — la 102698 está en N5/basho/viaje-1, que sólo tiene 5
         # palabras; ésta estaba en momento-2, que tiene 11
-78      # 当たり前 — la 103047 está en N2/seishitsu/valoracion-2, que sólo
         # tiene 4 palabras; ésta estaba en una unidad de 20
 102816  # 慌てる — la 161 está en N3/kotoba/saber-1, con 3 palabras; ésta
         # estaba en kokoro/tristeza-2, con 18
@@ -58,7 +56,7 @@
 # de la unidad MÁS LLENA, y la definición buena pasa a la que se queda.
 246     # ~いち — se queda la 103037 (afijos, 19 palabras)
 4213    # ~ほう — se queda la 103043, que está en una unidad de 6
-103055  # かび — idéntica a la 929
+103052  # かび — idéntica a la 929
 103060  # しいんと — idéntica a la 1870
 103063  # しつれいしました — idéntica a la 1975
 2012    # しまった — se queda la 102812, que está en una unidad de 9
@@ -68,10 +66,10 @@
 2445    # すみません — se queda la 102813, que está en una unidad de 9
 2720    # だいいち — se queda la 103071, con mejor definición
 103074  # どういたしまして — idéntica a la 3272
-102901  # はあ — se queda la 3676, que está en una unidad de 19 frente a 27
+102900  # はあ — se queda la 3676, que está en una unidad de 19 frente a 27
 103078  # はい — se queda la 3680: はい es de N5, no de N2
 4816    # よろしく — se queda la 102817, que además está en «saludos»
-103085  # ミリ — idéntica a la 4473
+103086  # ミリ — idéntica a la 4473
 3761    # 二十(はたち) — 二十 solo se lee にじゅう; はたち es 二十歳, que ya es la 3760
 
 # --- La misma palabra escrita de dos maneras (2026-09-02) ---------------------
@@ -105,7 +103,7 @@
 102488  # よし — se queda 良し
 102675  # 可愛い — かわいい se escribe en kana (可愛い es ateji)
 102778  # 凄い — すごい se escribe en kana
-103058  # こうよう — se queda 紅葉
+103055  # こうよう — se queda 紅葉
 36      # あきれる — se queda 呆れる
 
 # --- Idénticas: misma escritura y misma lectura -------------------------------
@@ -114,3 +112,8 @@
 # ficha dos veces, así que los dos sentidos van juntos en la que se queda.
 150     # ある「或る」 — el sentido «un cierto…» pasa a la 148
 324     # いる「煎る」 — tostar no es vocabulario de N5; いる es «estar»
+28      # 明い: okurigana antigua de 明るい, misma palabra y misma lectura
+101606  # 断える: no es palabra; たえる con ese sentido se escribe 絶える
+103062  # しかく — la misma palabra que la 1877 「四角」, y en la misma
+        # subsección (basho/ciudad); se queda la que lleva kanji
+

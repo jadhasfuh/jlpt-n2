@@ -122,27 +122,27 @@ id|kana|kanji|en|es
 102488|よし|||
 102493|よって|||
 102644|ひび|||
-102718|まいげつ|||
-102721|まいねん|||
-102746|パート|||
-102755|~てしまう|||
-102787|おかねもち|||
-102788|~によると|||
-102802|スーパー|||
-102804|~について|||
+102717|まいげつ|||
+102720|まいねん|||
+102745|パート|||
+102754|~てしまう|||
+102786|おかねもち|||
+102787|~によると|||
+102801|スーパー|||
+102803|~について|||
 102812|しまった|||
 102813|すみません|||
 102817|よろしく|||
-102901|はあ|||
-103034|まるごと|-||
-103035|さす|||
-103036|~しき|〜日本式||
-103037|~いち|||
-103038|~おしまい|||
+102900|はあ|||
+103033|まるごと|-||
+103034|さす|||
+103035|~しき|〜日本式||
+103036|~いち|||
+103037|~おしまい|||
 103043|~ほう|||
-103055|かび|||
-103057|げひん|下品||
-103058|こうよう|-||
+103052|かび|||
+103054|げひん|下品||
+103055|こうよう|-||
 103060|しいんと|||
 103062|しかく|-||
 103063|しつれいしました|||
@@ -153,8 +153,8 @@ id|kana|kanji|en|es
 103071|だいいち|||
 103074|どういたしまして|||
 103078|はい|||
-103082|ほがらか|朗らか||
-103085|ミリ|||
+103083|ほがらか|朗らか||
+103086|ミリ|||
 
 # --- Lecturas que no eran de esa palabra. Salieron de comprobar, kanji a
 # kanji, que cada lectura sea posible (scripts/25_validar_furigana.py).
@@ -283,20 +283,20 @@ id|kana|kanji|en|es
 100687||お世辞|flattery, compliment|halago, cumplido
 484|お|-|honourable (prefix)|prefijo de cortesía
 # Fichas que se quedan de un par repetido, con la definición arreglada.
-102746|||part-time work, part-time employee|trabajo a tiempo parcial; empleado a tiempo parcial
+102745|||part-time work, part-time employee|trabajo a tiempo parcial; empleado a tiempo parcial
 161|||to become flustered, to panic, to lose one's head|aturullarse, entrar en pánico, perder los nervios
-103082|||cheerful, merry, bright (sky, weather)|alegre, jovial; despejado (cielo, tiempo)
-103057|||vulgarity, coarseness, indecency|vulgaridad, ordinariez, indecencia
+103083|||cheerful, merry, bright (sky, weather)|alegre, jovial; despejado (cielo, tiempo)
+103054|||vulgarity, coarseness, indecency|vulgaridad, ordinariez, indecencia
 # 当たり前 y 出かける: la ficha que se queda es la de la unidad corta.
-103047|||natural, obvious, reasonable, usual, common|natural, lógico, obvio, lo normal
-102698|||to go out, to depart, to set off|salir, partir, ponerse en camino
+78|||natural, obvious, reasonable, usual, common|natural, lógico, obvio, lo normal
+3171|||to go out, to depart, to set off|salir, partir, ponerse en camino
 # Las fichas que vienen de los mazos de anki traen a veces el paréntesis del
 # tipo de adjetivo o una variante dentro de la palabra: «下品(な)», «パート
 # (タイム)». Eso rompe el furigana y la búsqueda en el diccionario.
 161|あわてる|慌てる||
-103057|げひん|下品||
-103082|ほがらか|朗らか||
-102746|パート|-||
+103054|げひん|下品||
+103083|ほがらか|朗らか||
+102745|パート|-||
 
 # --- El paréntesis de la fuente decía QUÉ homófono era ------------------------
 # La lista original pone en la columna de la lectura una nota entre paréntesis
@@ -335,7 +335,7 @@ id|kana|kanji|en|es
 4937|||to forget; to leave (something) behind|olvidar; dejarse (algo) olvidado
 3599|||screw|tornillo
 551|||your child, someone else's child (polite)|su hijo, el hijo de usted (cortés)
-102740|||your house (polite); you|su casa (cortés); usted
+102739|||your house (polite); you|su casa (cortés); usted
 640|||to meet someone of higher status (humble)|conocer a alguien de más rango (humilde)
 100271|||to kick away; to kick someone|echar de una patada; dar una patada a alguien
 100378|||to act as intermediary; to announce someone; to pass on (a message)|hacer de intermediario; anunciar a alguien; transmitir (un recado)
@@ -366,7 +366,7 @@ id|kana|kanji|en|es
 254|||market (as an economic concept)|mercado (como concepto económico)
 2477|||daily life, livelihood|vida diaria, sustento
 # Las definiciones buenas, en la ficha que se queda de cada par.
-103037|||the most ~ in Japan, the best ~ (suffix)|el mejor ~, el número uno de ~ (sufijo)
+103036|||the most ~ in Japan, the best ~ (suffix)|el mejor ~, el número uno de ~ (sufijo)
 103043|||the ~ side, the one that is ~ (in comparisons)|el lado de ~, el más ~ (en comparaciones)
 3676|||yes, indeed, well; (a sigh)|sí, ya; vaya (también un suspiro)
 
@@ -427,10 +427,10 @@ id|kana|kanji|en|es
 275|||have a good day, see you|que te vaya bien, hasta luego
 550|||take care, all the best|cuídate, que te vaya bien
 2836|たった|-|only, just, no more than|sólo, nada más que (たった一つ: sólo uno)
-103036|~しき|~式|~ style, in the ~ manner|estilo ~, al modo de ~ (日本式: al estilo japonés)
+103035|~しき|~式|~ style, in the ~ manner|estilo ~, al modo de ~ (日本式: al estilo japonés)
 # Los contadores que ya estaban bien, con el mismo formato que los demás.
 100173|||counter for cupfuls|(contador) tazas y vasos
-102998|||counter for defeats|(contador) derrotas
+102997|||counter for defeats|(contador) derrotas
 # ある lleva ahora sus dos sentidos, que en kana se escriben igual.
 148|||to be, to exist, to have; a certain ~, some ~|haber, estar, existir; cierto ~, un tal ~ (ある日: cierto día)
 
@@ -476,7 +476,130 @@ id|kana|kanji|en|es
 3177|||precise, accurate (variant of 的確)|preciso, exacto (variante de 的確)
 3610|||nightclothes, sleepwear|ropa de dormir, pijama
 3611|||nightclothes (variant of 寝間着)|ropa de dormir (variante de 寝間着)
-103054|||place, spot, passage|lugar, punto, pasaje
-847|||place, spot (variant of 箇所)|lugar, punto (variante de 箇所)
+847|||place, spot, passage (also written 箇所)|lugar, punto, pasaje (también se escribe 箇所)
 976|||river|río
 977|||river, large river|río (grande), corriente
+
+# ── homófonos: glosas que digan CUÁL de los kanji es ────────────────────
+# Sin esto la tarjeta no se puede contestar: tres palabras distintas
+# compartían literalmente la misma traducción.
+# つとめる
+3102|||to work for (a company), to be employed at|trabajar en (una empresa), estar empleado en
+3103|||to serve as, to fill (a role or post)|desempeñar (un cargo, un papel)
+3104|||to strive, to make an effort to|esforzarse por, empeñarse en
+3100|||one's job, going in to work|el trabajo, el empleo (ir a trabajar)
+3101|||one's duty, the role one is given|el deber, la función que a uno le toca
+# のせる
+3644|||to give a ride, to take on board|subir a bordo, llevar (a alguien) en el coche
+3645|||to place on top; to publish, to run (an article)|poner encima; publicar (en un periódico, una web)
+# おさめる
+560|||to put away, to store; to obtain (a result)|guardar, meter dentro; obtener (un resultado)
+561|||to pay (taxes), to deliver (goods)|pagar (impuestos), entregar (mercancía)
+# なおす
+3442|||to fix, to repair, to correct (a thing)|arreglar, reparar, corregir (una cosa)
+3443|||to cure, to heal (an illness or wound)|curar, sanar (una enfermedad, una herida)
+# のばす
+3653|||to stretch, to extend (something physical)|estirar, alargar (algo físico: el pelo, la mano)
+3654|||to postpone, to extend (a deadline)|aplazar, prolongar (un plazo, una fecha)
+# おりる
+665|||to go down (stairs, a slope); to be granted (a permit)|bajar (una escalera, una cuesta); concederse (un permiso)
+666|||to get off (a vehicle); to fall (dew, frost)|bajarse (de un vehículo); caer (rocío, escarcha)
+# つける
+3083|||to attach, to affix (one thing onto another)|pegar, adherir, poner (algo sobre otra cosa)
+3084|||to put on (an accessory); to pull up (a vehicle)|llevar puesto (un accesorio); atracar (un vehículo)
+# わく
+4930|||to boil (water); to be roused (a crowd)|hervir (agua); enardecerse (el público)
+4931|||to gush forth, to well up (water, feelings, doubts)|brotar, manar (agua, ánimo, dudas)
+# かげ
+815|||shadow cast by something, silhouette|sombra proyectada, silueta
+816|||the shade; behind something, out of sight|lo que queda a la sombra; detrás de algo, a escondidas
+# はかる
+3707|||to measure (time), to count|medir (tiempo), contar
+3708|||to weigh, to measure (weight, volume)|pesar, medir (peso, volumen)
+3709|||to measure (length, height, depth)|medir (longitud, altura, profundidad)
+# まち
+4352|||town, neighbourhood (administrative unit)|pueblo, barrio (unidad administrativa)
+4353|||city street, the busy shopping quarter|calle comercial, la zona de tiendas y gente
+# まわり
+4398|||turning, rotation; a round, a circuit|vuelta, giro; recorrido
+4399|||surroundings, the area around something|alrededores, lo que rodea a algo
+# かえる
+759|||to substitute (something else doing the same job)|sustituir por otro que hace lo mismo
+760|||to replace with a new one (clothes, batteries)|reemplazar por uno nuevo (ropa, pilas)
+761|||to exchange, to convert (money, goods)|canjear, cambiar (dinero, cosas)
+# こえる
+1565|||to cross over (a mountain, a border)|cruzar, pasar al otro lado (una montaña, una frontera)
+1566|||to exceed, to go beyond (a number, a limit)|superar, rebasar (una cifra, un límite)
+# とぶ
+3390|||to fly; to be sent flying|volar; salir despedido
+3391|||to jump, to leap|saltar, brincar
+# のぼる
+3659|||to go up (a slope, stairs); to amount to (a figure)|subir (una cuesta, una escalera); ascender a (una cifra)
+3660|||to rise (the sun, smoke); to be promoted|elevarse (el sol, el humo); ascender de rango
+# まじる
+4337|||to be mixed in (blending until indistinguishable)|mezclarse hasta no distinguirse
+4338|||to be mixed in (while staying distinct)|estar mezclado sin dejar de distinguirse
+# ふね
+4095|||small boat, rowing boat|barca, bote pequeño (de remos)
+4096|||ship, large vessel|barco, buque (grande)
+# あげる
+49|||to raise, to lift; to give (to someone)|subir, levantar; dar (a alguien)
+50|||to deep-fry; to hoist (a flag)|freír (en aceite); izar (una bandera)
+51|||to cite, to name; to hold (a ceremony); to raise (a hand)|citar, mencionar; celebrar (una boda); levantar (la mano)
+# あつい
+84|||thick (in thickness); cordial, warm-hearted|grueso (de grosor); cordial, sincero
+85|||hot (weather, the air around you)|caluroso (el tiempo, el ambiente)
+86|||hot to the touch (a thing)|caliente al tacto (una cosa)
+# あらわす
+141|||to express, to represent (in words or signs)|expresar, representar (con palabras o signos)
+142|||to reveal, to bring into view (something hidden)|hacer aparecer, dejar ver (algo oculto)
+# おくる
+547|||to send, to dispatch; to see (someone) off|enviar, mandar; acompañar (a alguien)
+548|||to give as a gift; to award, to confer|regalar, obsequiar; conceder (un premio)
+# かわ
+978|||skin, peel, bark, untanned hide|piel, cáscara, corteza (piel sin curtir)
+979|||leather (tanned hide)|cuero (piel curtida)
+# はなす
+3796|||to separate, to keep apart (two things)|separar, apartar (dos cosas)
+3797|||to let go, to set free|soltar, dejar libre
+# はる
+3831|||to stick, to paste (paper, a sticker)|pegar, adherir (un papel, una pegatina)
+3832|||to stretch, to spread; to fill up; to swell|tensar, extender; llenarse (de agua); hincharse
+# まく
+4322|||to sow (seeds)|sembrar (semillas)
+4323|||to scatter, to sprinkle (water, salt); to hand out|esparcir, rociar (agua, sal); repartir (folletos)
+# やわらかい
+4689|||soft and supple to the touch (cloth, the body)|blando y flexible al tacto (tela, cuerpo)
+4690|||tender, not hard (food, ground)|tierno, poco duro (comida, terreno)
+# かたい
+869|||firm, solid (not loose); stubborn|firme, sólido (que no se afloja); terco
+870|||hard and sturdy (esp. wood); formal, stiff (writing)|duro y resistente (madera); serio, formal (estilo)
+871|||hard to the touch (metal, stone); rigid, tense|duro al tacto (metal, piedra); rígido, tenso
+# さす
+1782|||to hold up (an umbrella); to shine in (light)|sostener en alto (un paraguas); entrar (la luz)
+1783|||to point at (with a finger), to indicate|señalar (con el dedo), indicar
+# とる
+3416|||to take, to pick up, to remove (general use)|coger, tomar, quitar (uso general)
+3418|||to catch, to capture (an animal, a ball)|atrapar, capturar (un animal, una pelota)
+# うつ
+383|||to attack in revenge, to slay (historical use)|atacar para vengarse, dar muerte a (uso histórico)
+384|||to shoot (a gun)|disparar (un arma)
+# はなれる
+3802|||to leave, to be separated from (a place or person)|alejarse, separarse (de un sitio o de una persona)
+3803|||to break loose, to come free (an animal, a rope)|soltarse, quedar suelto (un animal, una cuerda)
+# ふるさと
+4130|||hometown (literary spelling of 故郷)|pueblo natal (grafía literaria de 故郷)
+# variantes poco usadas: que se vea que lo normal es la otra grafía
+2448|||to become clear (rare spelling of 澄む)|volverse claro (grafía poco usada de 澄む)
+2421|||to abandon, to discard (formal spelling of 捨てる)|abandonar, desechar (grafía formal de 捨てる)
+17|||to run into, to come across (rare spelling)|encontrarse por casualidad (grafía poco usada)
+# otras parejas que se confunden
+72|||mild, warm (weather, a room, clothing)|templado, cálido (el tiempo, una habitación, la ropa)
+103088|||warm (food, drink, a person's manner)|caliente, tibio (comida, bebida, trato)
+131|||rough, violent (the sea, a temper)|violento, bravo (el mar, el carácter)
+132|||coarse, coarse-grained (a surface, a job)|basto, de grano grueso (una superficie, un trabajo)
+73|||to warm up (a room, the air)|calentarse (una habitación, el ambiente)
+102814|||to warm up (food, the body, the heart)|calentarse (la comida, el cuerpo, el corazón)
+# 508 traía kanji y kana al revés: salía «おお~【大~】».
+508|おお~|大~|large ~, big ~ (prefix)|gran~, macro~ (prefijo)
+

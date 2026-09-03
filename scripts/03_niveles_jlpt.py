@@ -103,11 +103,23 @@ for r in vocab:
 # parecían haber perdido y ganado palabras aunque el contenido fuera idéntico.
 # Ahora una palabra ya publicada recupera su id de siempre; sólo lo realmente
 # nuevo estrena número, y por encima del máximo que ya exista.
+#
+# Leer el id de la pasada anterior (data/dist) no bastaba: si una pasada se
+# equivoca, la siguiente hereda el error. El mapa de verdad vive en
+# data/fuente/ids_importados.tsv, que sólo crece, y manda sobre todo lo demás.
+_MAPA = pathlib.Path("data/fuente/ids_importados.tsv")
 IDS_PUBLICADOS = {}
 if _dist.exists():
     for _p in json.loads(_dist.read_text(encoding="utf-8")):
         _k = _p.get("escritura") or _p.get("kanji") or _p.get("kana")
         if _k: IDS_PUBLICADOS.setdefault(limpio(_k), _p["id"])
+FIJOS = {}
+if _MAPA.exists():
+    for _l in _MAPA.read_text(encoding="utf-8").splitlines():
+        if not _l.strip() or _l.startswith(("#", "escritura\t")): continue
+        _e, _i = _l.rsplit("\t", 1)
+        FIJOS[limpio(_e)] = int(_i)
+    IDS_PUBLICADOS.update(FIJOS)   # el fichero gana
 
 ya = {limpio(r["kanji"]) for r in vocab if r["kanji"]} | {limpio(r["kana"]) for r in vocab}
 
@@ -119,6 +131,12 @@ def _prim(sentido: str) -> str:
     return re.sub(r"^(to|a|an|the)\s+", "", t).strip()
 
 # Lectura → sentidos que ya hay con esa lectura.
+#
+# Ojo al tocar esto: el filtro decide qué se importa, y lo que se importa mueve
+# el contador de ids nuevos. Aflojarlo reasigna los ids 1028xx y las líneas de
+# correcciones.tsv, que van por id, caen sobre otra palabra. Si hay que dejar
+# pasar una pareja concreta (暖かい/温かい), se hace en correcciones.tsv
+# separando el primer sentido inglés, no aquí.
 SENTIDOS = {}
 for _r in vocab:
     _k = limpio(_r.get("kana") or "")
@@ -176,6 +194,15 @@ for nivel in NIVELES:
             "pos": "", "en": sig_en, "jlpt": PUBLICADO.get(clave) or nivel,
         })
         por_nivel[nivel] = por_nivel.get(nivel, 0) + 1
+
+# Lo que ha estrenado id se apunta, para que la próxima pasada lo respete.
+_estrenados = [(n["kanji"] or n["kana"], n["id"]) for n in nuevas
+               if limpio(n["kanji"] or n["kana"]) not in FIJOS]
+if _estrenados:
+    with _MAPA.open("a", encoding="utf-8") as _f:
+        for _e, _i in sorted(_estrenados, key=lambda x: x[1]):
+            _f.write(f"{_e}\t{_i}\n")
+    print("ids nuevos apuntados en ids_importados.tsv:", len(_estrenados))
 
 vocab.extend(nuevas)
 pathlib.Path("data/build/vocab_raw.json").write_text(

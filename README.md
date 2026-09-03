@@ -191,15 +191,40 @@ app por caída.
 ## Mapa del repo
 
 ```
-data/fuente/     gramatica.tsv (las 197, a mano), lecturas/, correcciones.tsv
+data/fuente/     gramatica.tsv (las 197, a mano), lecturas/, correcciones.tsv,
+                 descartar.txt, secciones.tsv, ids_importados.tsv
 data/raw/        HTML original de las listas (gitignored, se vuelve a bajar)
 data/build/      pasos intermedios y cachés (gitignored)
 data/dist/       el contenido final que consume la app
-scripts/         01→07 pipeline de datos; 08 seed; 09 lecturas; 10 seed.sql
+scripts/         pipeline de datos; 08 seed; 09 lecturas; 10 seed.sql
 src/lib/         contenido, tipos, progreso, cliente de Supabase
 src/components/  VistaUnidad, Practica, Test, Jp/furigana, Diccionario, Perfil
 supabase/        config.toml y migrations/ (el esquema)
 ```
+
+### El orden del pipeline no es el de los números
+
+Hay que correrlo **01 → 03 → 02 → 04 → 05 → 06**, no 01→06.
+
+`03_niveles_jlpt.py` no sólo etiqueta el nivel: reescribe `vocab_raw.json`
+añadiendo el campo `jlpt` y las palabras que faltaban de las listas. `02` lee
+ese fichero, así que si va antes, clasifica sin nivel y `04` revienta con
+`KeyError: 'jlpt'`.
+
+### Los ids de las palabras importadas están congelados
+
+Las palabras que `03` trae de las listas JLPT llevan id ≥ 100000, y ese id lo
+manda `data/fuente/ids_importados.tsv`, que **sólo se añade, nunca se edita**.
+
+Antes el id salía de un contador, así que dependía de *cuántas* palabras se
+importaran. Y como las unidades, `descartar.txt` y `correcciones.tsv` van por
+id, bastaba tocar una glosa inglesa —que cambia el filtro de duplicados— para
+que todas las correcciones de más abajo cayeran sobre otra palabra. Así es como
+apareció `柔道【~てしまう】` y como 出かける, 当たり前 y 箇所 se borraron del
+curso sin que nadie lo pidiera.
+
+Si tocas una glosa en inglés de `correcciones.tsv`, reconstruye y comprueba que
+ninguna ficha quedó con una lectura que no es suya.
 
 ### Integración de GitHub / branching
 
