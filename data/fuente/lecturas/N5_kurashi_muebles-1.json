@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kurashi/muebles-1",
- "titulo": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>",
- "cuerpo": "おきゃくさんが<ruby>来<rt>く</rt></ruby>るので、<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>をかたづけました。<ruby>箱<rt>はこ</rt></ruby>のなかに、<ruby>鍵<rt>かぎ</rt></ruby>やテープを<ruby>入<rt>い</rt></ruby>れました。<ruby>箸<rt>はし</rt></ruby>とスプーンは<ruby>台所<rt>だいどころ</rt></ruby>にもどしました。<ruby>傘<rt>かさ</rt></ruby>は<ruby>玄関<rt>げんかん</rt></ruby>にかけました。<ruby>線<rt>せん</rt></ruby>のついたノートだけ、<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>にのこしました。ごあいさつのあいだに<ruby>書<rt>か</rt></ruby>くことがあるかもしれないからです。<ruby>何<rt>なに</rt></ruby>もないつくえは、すこしさびしく<ruby>見<rt>み</rt></ruby>えました。",
- "traduccion": "Como venía una visita, recogí lo que había encima del escritorio. Metí las llaves y la cinta adhesiva en una caja. Los palillos y la cuchara los devolví a la cocina. El paraguas lo colgué en el recibidor. Solo dejé encima del escritorio el cuaderno de rayas. Por si acaso tenía que apuntar algo durante el saludo. Un escritorio sin nada encima se veía un poco triste.",
+ "titulo": "こたつを もらう",
+ "cuerpo": "たなかさんが「つかわない こたつが ある」と 言って、くれました。ふるいですが、まだ つかえます。テーブルの <ruby>下<rt>した</rt></ruby>に あしを <ruby>入<rt>い</rt></ruby>れると、すぐ あたたかく なります。ゴンサが あそびに <ruby>来<rt>き</rt></ruby>て、こたつから <ruby>出<rt>で</rt></ruby>なく なりました。「これは <ruby>日本<rt>にほん</rt></ruby>の いちばん あぶない もの<ruby>二<rt>に</rt></ruby>ばんめだ」と 言いました。<ruby>一<rt>いち</rt></ruby>ばんめは ネットカフェだそうです。",
+ "traduccion": "La señora Tanaka me dijo «tengo un kotatsu que no uso» y me lo regaló. Es viejo, pero funciona. Metes los pies debajo de la mesa y enseguida entras en calor. Gonza vino de visita y ya no hubo forma de sacarlo de ahí. «Esto es la segunda cosa más peligrosa de Japón», dijo. La primera, según él, es el cibercafé.",
  "preguntas": [
   {
-   "p": "<ruby>傘<rt>かさ</rt></ruby>はどこにおきましたか。",
+   "p": "こたつは だれが くれましたか。",
    "opciones": [
-    "<ruby>箱<rt>はこ</rt></ruby>のなか",
-    "<ruby>台所<rt>だいどころ</rt></ruby>",
-    "<ruby>玄関<rt>げんかん</rt></ruby>",
-    "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>"
+    "たなかさん",
+    "アンナさん",
+    "ゴンサ"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
-   "p": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をのこしましたか。",
+   "p": "こたつに あしを <ruby>入<rt>い</rt></ruby>れると どう なりますか。",
    "opciones": [
-    "<ruby>鍵<rt>かぎ</rt></ruby>",
-    "<ruby>線<rt>せん</rt></ruby>のついたノート",
-    "<ruby>箸<rt>はし</rt></ruby>",
-    "テープ"
+    "すぐ あたたかく なります",
+    "さむく なります",
+    "ねむく なりません"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "ゴンサさんに とって <ruby>一<rt>いち</rt></ruby>ばん あぶない ものは なんですか。",
+   "opciones": [
+    "ネットカフェ",
+    "こたつ",
+    "ラーメン"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Since a visitor was coming, I tidied up what was on the desk. I put the keys and the sticky tape in a box. I took the chopsticks and the spoon back to the kitchen. I hung the umbrella in the entrance. On the desk I left only the lined notebook. Just in case I had to write something down during the greeting. A desk with nothing on it looked a little sad."
+ "traduccion_en": "Mrs Tanaka said «I have a kotatsu I don't use» and gave it to me. It's old, but it works. You put your feet under the table and warm up straight away. Gonza came over and there was no getting him out of it. «This is the second most dangerous thing in Japan», he said. The first, according to him, is the internet café."
 }

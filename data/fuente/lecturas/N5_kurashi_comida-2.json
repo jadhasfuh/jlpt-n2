@@ -1,36 +1,36 @@
 {
  "unidad_id": "N5/kurashi/comida-2",
- "titulo": "わたしの<ruby>一日<rt>いちにち</rt></ruby>の<ruby>食<rt>た</rt></ruby>べもの",
- "cuerpo": "<ruby>朝御飯<rt>あさごはん</rt></ruby>はパンと<ruby>お茶<rt>おちゃ</rt></ruby>です。<ruby>昼御飯<rt>ひるごはん</rt></ruby>はかいしゃで<ruby>お弁当<rt>おべんとう</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。<ruby>母<rt>はは</rt></ruby>が<ruby>作<rt>つく</rt></ruby>った<ruby>お弁当<rt>おべんとう</rt></ruby>には、いつも<ruby>鶏肉<rt>とりにく</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っています。<ruby>三時<rt>さんじ</rt></ruby>ごろ、<ruby>喫茶店<rt>きっさてん</rt></ruby>で<ruby>お菓子<rt>おかし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。<ruby>夕飯<rt>ゆうはん</rt></ruby>はうちで<ruby>作<rt>つく</rt></ruby>ります。<ruby>晩御飯<rt>ばんごはん</rt></ruby>のときは、たまに<ruby>お酒<rt>おさけ</rt></ruby>をのみます。すきな<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>は<ruby>お茶<rt>おちゃ</rt></ruby>で、すきな<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>はカレーです。",
- "traduccion": "El desayuno es pan y té. A mediodía como en la empresa la fiambrera. En la fiambrera que prepara mi madre siempre hay pollo. Sobre las tres tomo un dulce en la cafetería. La cena la hago en casa. En la cena, de vez en cuando bebo alcohol. Mi bebida favorita es el té y mi comida favorita es el curry.",
+ "titulo": "ビルの <ruby>中<rt>なか</rt></ruby>の みせ",
+ "cuerpo": "<ruby>夜<rt>よる</rt></ruby>、まちを あるきました。そとは くらくて、<ruby>人<rt>ひと</rt></ruby>が いません。でも、<ruby>大<rt>おお</rt></ruby>きい ビルに <ruby>入<rt>はい</rt></ruby>ると、<ruby>中<rt>なか</rt></ruby>に みせが たくさん ありました。<ruby>一<rt>いっ</rt></ruby>かいも <ruby>二<rt>に</rt></ruby>かいも <ruby>三<rt>さん</rt></ruby>がいも、ぜんぶ みせです。ぼくの <ruby>国<rt>くに</rt></ruby>には、こんな ビルは ありません。ひとつの <ruby>建物<rt>たてもの</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に、まちが もう ひとつ ある みたいでした。ゴンサが 「<ruby>三十分<rt>さんじゅっぷん</rt></ruby>だけ」と 言って、ある みせの <ruby>戸<rt>と</rt></ruby>を <ruby>開<rt>あ</rt></ruby>けました。",
+ "traduccion": "Por la noche paseamos por el centro. Fuera estaba oscuro y no había nadie. Pero al entrar en un edificio grande resultó que dentro había un montón de locales. La primera planta, la segunda, la tercera: todas locales. En mi país no existen edificios así. Era como si dentro de un solo edificio hubiera otra ciudad. Gonza dijo «sólo treinta minutos» y abrió la puerta de uno.",
  "preguntas": [
   {
-   "p": "<ruby>お弁当<rt>おべんとう</rt></ruby>にはいつも<ruby>何<rt>なに</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っていますか。",
+   "p": "そとは どうでしたか。",
    "opciones": [
-    "<ruby>鶏肉<rt>とりにく</rt></ruby>",
-    "<ruby>お菓子<rt>おかし</rt></ruby>",
-    "カレー"
+    "くらくて <ruby>人<rt>ひと</rt></ruby>が いません",
+    "にぎやかでした",
+    "あかるかったです"
    ],
    "correcta": 0
   },
   {
-   "p": "<ruby>三時<rt>さんじ</rt></ruby>ごろ、どこで<ruby>お菓子<rt>おかし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
+   "p": "ビルの <ruby>中<rt>なか</rt></ruby>は どうでしたか。",
    "opciones": [
-    "うち",
-    "かいしゃ",
-    "<ruby>喫茶店<rt>きっさてん</rt></ruby>"
+    "みせが たくさん ありました",
+    "だれも いませんでした",
+    "しずかでした"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
-   "p": "すきな<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
+   "p": "ゴンサさんは なんと 言いましたか。",
    "opciones": [
-    "<ruby>お酒<rt>おさけ</rt></ruby>",
-    "<ruby>お茶<rt>おちゃ</rt></ruby>",
-    "コーヒー"
+    "「<ruby>三十分<rt>さんじゅっぷん</rt></ruby>だけ」",
+    "「かえろう」",
+    "「たかい」"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
- "traduccion_en": "Breakfast is bread and tea. At midday I eat my packed lunch at the company. In the lunchbox my mother makes there's always chicken. Around three I have something sweet at the café. Dinner I cook at home. With dinner, now and then I have a drink. My favourite drink is tea and my favourite food is curry."
+ "traduccion_en": "At night we walked through the centre. Outside it was dark and empty. But when we went into a big building, inside there were dozens of places. First floor, second, third: all of them bars and shops. In my country there are no buildings like that. It was as if inside one building there was another city. Gonza said «just thirty minutes» and opened the door of one."
 }

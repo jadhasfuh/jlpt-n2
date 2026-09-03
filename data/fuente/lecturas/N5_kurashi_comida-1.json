@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kurashi/comida-1",
- "titulo": "あさごはん",
- "cuerpo": "わたしのあさごはんは、<ruby>御飯<rt>ごはん</rt></ruby><em class=\"g\">と</em><ruby>魚<rt>さかな</rt></ruby><em class=\"g\">と</em>みそ<ruby>汁<rt>しる</rt></ruby>です。たまに<ruby>卵<rt>たまご</rt></ruby>をやきます。<ruby>牛乳<rt>ぎゅうにゅう</rt></ruby><em class=\"g\">と</em><ruby>紅茶<rt>こうちゃ</rt></ruby>、どちらかを<ruby>飲<rt>の</rt></ruby>みます。<ruby>野菜<rt>やさい</rt></ruby>は<ruby>昼<rt>ひる</rt></ruby>にたくさん<ruby>食<rt>た</rt></ruby>べるので、あさは<ruby>少<rt>すこ</rt></ruby>しです。<ruby>果物<rt>くだもの</rt></ruby>はよるです。<ruby>塩<rt>しお</rt></ruby><em class=\"g\">と</em><ruby>砂糖<rt>さとう</rt></ruby>をつかいすぎないように<ruby>気<rt>き</rt></ruby>をつけています。からだが<ruby>弱<rt>よわ</rt></ruby>いとき、あたたかい<ruby>汁<rt>しる</rt></ruby>をのむと<ruby>元気<rt>げんき</rt></ruby>になります。",
- "traduccion": "Mi desayuno es arroz, pescado y sopa de miso. De vez en cuando hago huevo. Bebo leche o té negro, una de las dos. La verdura la como en cantidad al mediodía, así que por la mañana tomo poca. La fruta la dejo para la noche. Procuro no pasarme con la sal y el azúcar. Cuando estoy flojo, si tomo sopa caliente me repongo.",
+ "titulo": "ゆきの <ruby>中<rt>なか</rt></ruby>の いちば",
+ "cuerpo": "<ruby>朝<rt>あさ</rt></ruby>、いちばへ <ruby>行<rt>い</rt></ruby>きました。<ruby>魚<rt>さかな</rt></ruby>が こおりの <ruby>上<rt>うえ</rt></ruby>に ならんで います。みせの <ruby>人<rt>ひと</rt></ruby>が「<ruby>食<rt>た</rt></ruby>べて みて」と、ちいさい <ruby>魚<rt>さかな</rt></ruby>を くれました。しおだけの あじで、とても あまく かんじました。ゴンサは <ruby>紅茶<rt>こうちゃ</rt></ruby>を かって、りょうてで <ruby>持<rt>も</rt></ruby>って いました。<ruby>野菜<rt>やさい</rt></ruby>も <ruby>果物<rt>くだもの</rt></ruby>も、こうべより <ruby>大<rt>おお</rt></ruby>きく <ruby>見<rt>み</rt></ruby>えました。",
+ "traduccion": "Por la mañana fuimos al mercado. Los pescados están puestos en fila sobre el hielo. Un vendedor me dio un pescadito: «pruébalo». Sólo llevaba sal y me supo dulcísimo. Gonza se compró un té y lo llevaba con las dos manos. Las verduras y la fruta parecían más grandes que en Kobe.",
  "preguntas": [
   {
-   "p": "あさ、<ruby>野菜<rt>やさい</rt></ruby>はどのくらい<ruby>食<rt>た</rt></ruby>べますか。",
+   "p": "<ruby>魚<rt>さかな</rt></ruby>は どこに ならんで いましたか。",
    "opciones": [
-    "たくさん",
-    "<ruby>少<rt>すこ</rt></ruby>し",
-    "<ruby>食<rt>た</rt></ruby>べない",
-    "<ruby>昼<rt>ひる</rt></ruby>とおなじ"
+    "こおりの <ruby>上<rt>うえ</rt></ruby>",
+    "テーブルの <ruby>上<rt>うえ</rt></ruby>",
+    "はこの <ruby>中<rt>なか</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "からだが<ruby>弱<rt>よわ</rt></ruby>いとき、<ruby>何<rt>なに</rt></ruby>をのみますか。",
+   "p": "みせの <ruby>人<rt>ひと</rt></ruby>は なにを しましたか。",
    "opciones": [
-    "<ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>",
-    "あたたかい<ruby>汁<rt>しる</rt></ruby>",
-    "<ruby>紅茶<rt>こうちゃ</rt></ruby>",
-    "みず"
+    "<ruby>魚<rt>さかな</rt></ruby>を くれました",
+    "おかねを とりました",
+    "なにも しませんでした"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "ゴンサさんは なにを かいましたか。",
+   "opciones": [
+    "<ruby>紅茶<rt>こうちゃ</rt></ruby>",
+    "<ruby>魚<rt>さかな</rt></ruby>",
+    "<ruby>果物<rt>くだもの</rt></ruby>"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "My breakfast is rice, fish and miso soup. Now and then I make an egg. I drink either milk or black tea, one of the two. I eat plenty of vegetables at midday, so in the morning I have few. Fruit I leave for the evening. I try not to overdo the salt and the sugar. When I'm run down, hot soup picks me up."
+ "traduccion_en": "In the morning we went to the market. The fish are lined up on the ice. A seller handed me a small fish: «try it». It had nothing but salt on it and tasted incredibly sweet. Gonza bought a tea and carried it with both hands. The vegetables and fruit looked bigger than in Kobe."
 }

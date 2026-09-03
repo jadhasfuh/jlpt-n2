@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kurashi/dinero-1",
- "titulo": "<ruby>銀行<rt>ぎんこう</rt></ruby>まで",
- "cuerpo": "はじめて<ruby>一人<rt>ひとり</rt></ruby>で<ruby>銀行<rt>ぎんこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。かみに<ruby>書<rt>か</rt></ruby>くのが<ruby>下手<rt>へた</rt></ruby>で、<ruby>三<rt>さん</rt></ruby>かいまちがえました。まどぐちの<ruby>人<rt>ひと</rt></ruby>は「ゆっくりでいいです<em class=\"g\">よ</em>」と<ruby>言<rt>い</rt></ruby>ってくれました。おかねのことは、<ruby>時間<rt>じかん</rt></ruby>が<ruby>掛<rt>か</rt></ruby>かってもきちんとするほうがいいです。かえりに<ruby>父<rt>ちち</rt></ruby>に<ruby>話<rt>はな</rt></ruby>すと、「はじめはみんなそうだ<em class=\"g\">よ</em>」とわらいました。しごとをして<ruby>得<rt>え</rt></ruby>たおかねだから、たいせつにしたいとおもいます。",
- "traduccion": "Fui al banco solo por primera vez. Se me da mal rellenar papeles y me equivoqué tres veces. La persona de la ventanilla me dijo «puede ir despacio, ¿eh?». Con el dinero, aunque lleve tiempo, es mejor hacerlo bien. Al volver se lo conté a mi padre y me dijo riéndose «al principio todos somos así». Como es dinero ganado trabajando, quiero cuidarlo.",
+ "titulo": "つぎの <ruby>朝<rt>あさ</rt></ruby>",
+ "cuerpo": "つぎの <ruby>朝<rt>あさ</rt></ruby>、<ruby>目<rt>め</rt></ruby>が さめたのは <ruby>十時<rt>じゅうじ</rt></ruby>でした。ひこうきは <ruby>九時<rt>くじ</rt></ruby>でした。ぼくは しばらく てんじょうを <ruby>見<rt>み</rt></ruby>て いました。ゴンサも おきて、なにも 言いませんでした。あたらしい きっぷは、ぼくの <ruby>二<rt>ふつ</rt></ruby>か<ruby>分<rt>ぶん</rt></ruby>の しごとの おかねでした。「たのしかったな」と ゴンサが 言いましたが、ぼくは こたえませんでした。",
+ "traduccion": "A la mañana siguiente me desperté a las diez. El avión salía a las nueve. Me quedé un rato mirando el techo. Gonza se despertó y tampoco dijo nada. El billete nuevo me costó lo que gano en dos días de trabajo. «Ha estado bien, ¿eh?», dijo Gonza, pero yo no contesté.",
  "preguntas": [
   {
-   "p": "かみに<ruby>書<rt>か</rt></ruby>くのを<ruby>何<rt>なん</rt></ruby>かいまちがえましたか。",
+   "p": "なんじに おきましたか。",
    "opciones": [
-    "<ruby>一<rt>いっ</rt></ruby>かい",
-    "<ruby>二<rt>に</rt></ruby>かい",
-    "<ruby>三<rt>さん</rt></ruby>かい",
-    "まちがえなかった"
+    "<ruby>十時<rt>じゅうじ</rt></ruby>",
+    "<ruby>九時<rt>くじ</rt></ruby>",
+    "<ruby>六時<rt>ろくじ</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
-   "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "p": "ひこうきは なんじでしたか。",
    "opciones": [
-    "きをつけろ",
-    "はじめはみんなそうだ",
-    "はやくしろ",
-    "<ruby>行<rt>い</rt></ruby>くな"
+    "<ruby>九時<rt>くじ</rt></ruby>",
+    "<ruby>十時<rt>じゅうじ</rt></ruby>",
+    "<ruby>十二時<rt>じゅうにじ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "あたらしい きっぷは いくらでしたか。",
+   "opciones": [
+    "<ruby>二<rt>ふつ</rt></ruby>か<ruby>分<rt>ぶん</rt></ruby>の しごとの おかね",
+    "ただ",
+    "はんぶんの ねだん"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "I went to the bank on my own for the first time. I'm bad at filling in forms and I made three mistakes. The person at the counter told me «you can take your time, you know». With money, even if it takes a while, it's better to do it properly. When I got back I told my father and he laughed and said «we're all like that at first». Since it's money earned by working, I want to look after it."
+ "traduccion_en": "The next morning I woke up at ten. The plane had left at nine. I lay looking at the ceiling for a while. Gonza woke up and said nothing either. The new ticket cost me two days' wages. «It was fun though, wasn't it?» said Gonza, but I didn't answer."
 }

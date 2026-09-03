@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kurashi/limpieza-1",
- "titulo": "<ruby>掃除<rt>そうじ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>",
- "cuerpo": "<ruby>日<rt>にち</rt></ruby>よう<ruby>日<rt>び</rt></ruby>は<ruby>掃除<rt>そうじ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>です。まず<ruby>窓<rt>まど</rt></ruby>をあけます。そとに<ruby>小<rt>ちい</rt></ruby>さいねこ<em class=\"g\">がいます</em>。まいしゅう、おなじところにすわっています。<ruby>汚<rt>きたな</rt></ruby>くなったゆかをふいて、<ruby>洗濯<rt>せんたく</rt></ruby>をします。おなじ<ruby>型<rt>かた</rt></ruby>のシャツが<ruby>三<rt>さん</rt></ruby>まいあるので、いつもまちがえます。いらないものもすてます。ぜんぶおわると、へやがひろく<ruby>見<rt>み</rt></ruby>えます。そのころには、そとのねこはいなくなって、かわりにとりが<ruby>二<rt>に</rt></ruby>わ<em class=\"g\">がいます</em>。",
- "traduccion": "El domingo es el día de limpiar. Lo primero, abro la ventana. Fuera hay un gato pequeño. Todas las semanas se sienta en el mismo sitio. Limpio el suelo que se ha ensuciado y pongo la lavadora. Como tengo tres camisas del mismo modelo, siempre me confundo. También tiro lo que no necesito. Cuando termino con todo, la habitación se ve más amplia. Para entonces el gato ya se ha ido y en su lugar hay dos pájaros.",
+ "titulo": "こうべに かえって",
+ "cuerpo": "こうべに かえると、へやが つめたくて、ほこりが ありました。まず まどを <ruby>開<rt>あ</rt></ruby>けて、そうじを しました。せんたくものが たまって いて、<ruby>三<rt>さん</rt></ruby>かい あらいました。アンナさんに 「かえりました」と メッセージを おくりました。「ゆきは どうでしたか」と きかれたので、しゃしんを おくりました。ひこうきの ことは、まだ 言って いません。",
+ "traduccion": "Al volver a Kobe la habitación estaba fría y llena de polvo. Lo primero fue abrir la ventana y limpiar. Tenía la ropa sucia acumulada y puse tres lavadoras. Le mandé un mensaje a Anna: «ya he vuelto». Me preguntó «¿qué tal la nieve?» y le mandé fotos. Lo del avión todavía no se lo he contado.",
  "preguntas": [
   {
-   "p": "<ruby>掃除<rt>そうじ</rt></ruby>のとき、まずすることは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "p": "へやは どうでしたか。",
    "opciones": [
-    "ゆかをふく",
-    "<ruby>窓<rt>まど</rt></ruby>をあける",
-    "<ruby>洗濯<rt>せんたく</rt></ruby>をする",
-    "すてる"
+    "つめたくて ほこりが ありました",
+    "きれいでした",
+    "あたたかかったです"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "ぜんぶおわると、そとには<ruby>何<rt>なに</rt></ruby>が<em class=\"g\">がいます</em>か。",
+   "p": "せんたくは なんかい しましたか。",
    "opciones": [
-    "ねこ",
-    "とり",
-    "<ruby>人<rt>ひと</rt></ruby>",
-    "なにもいない"
+    "<ruby>三<rt>さん</rt></ruby>かい",
+    "<ruby>一<rt>いっ</rt></ruby>かい",
+    "しませんでした"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "アンナさんに 言って いない ことは なんですか。",
+   "opciones": [
+    "ひこうきの こと",
+    "ゆきの こと",
+    "しごとの こと"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Sunday is cleaning day. First of all, I open the window. Outside there's a small cat. Every week it sits in the same spot. I clean the floor that has got dirty and put the washing on. Since I have three shirts of the same design, I always get them mixed up. I also throw out what I don't need. When I've finished everything, the room looks bigger. By then the cat has gone and in its place there are two birds."
+ "traduccion_en": "Back in Kobe the room was cold and dusty. The first thing I did was open the window and clean. The washing had piled up and I ran three loads. I messaged Anna: «I'm back». She asked «how was the snow?» and I sent her photos. About the plane I still haven't told her."
 }
