@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/hito/gente-1",
  "titulo": "<ruby>友達<rt>ともだち</rt></ruby>に なる",
- "cuerpo": "にほんに <ruby>来<rt>き</rt></ruby>て <ruby>二<rt>に</rt></ruby>かげつに なりました。はじめは、じぶんの ことを <ruby>話<rt>はな</rt></ruby>す ことばが ありませんでした。いまは、ジャンと ゴンサが いて、アンナさんも います。<ruby>大勢<rt>おおぜい</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>と <ruby>話<rt>はな</rt></ruby>す ひつようは ありません。さんにんか よにん、ほんとうに <ruby>話<rt>はな</rt></ruby>せる <ruby>人<rt>ひと</rt></ruby>が いれば じゅうぶんです。こちらの ことばで じょうだんが <ruby>言<rt>い</rt></ruby>えた ひ、ほんとうに うれしかったです。",
- "traduccion": "Ya llevo dos meses en Japón. Al principio no tenía palabras para hablar de mí mismo. Ahora están Jean y Gonza, y también Anna. No hace falta hablar con mucha gente. Con tres o cuatro personas con las que puedas hablar de verdad, basta. El día que conseguí hacer una broma en su idioma me puse contentísimo.",
+ "cuerpo": "にほんに <ruby>来<rt>き</rt></ruby>て <ruby>二<rt>に</rt></ruby>かげつに なりました。はじめは、じぶんの ことを <ruby>話<rt>はな</rt></ruby>す ことばが ありませんでした。いまは、ジャンと ゴンサが いて、アンナさんも います。<ruby>大勢<rt>おおぜい</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>と <ruby>話<rt>はな</rt></ruby>す ひつようは ありません。さんにんか よにん、ほんとうに <ruby>話<rt>はな</rt></ruby>せる <ruby>人<rt>ひと</rt></ruby>が いれば じゅうぶんです。こちらの ことばで じょうだんが <ruby>言<rt>い</rt></ruby>えた <ruby>日<rt>ひ</rt></ruby>、ほんとうに うれしかったです。<ruby>一人<rt>ひとり</rt></ruby>で コンビニに <ruby>行<rt>い</rt></ruby>く ときも、こっちの ほうが らくに なりました。となりの おばさんは いつも こえを かけてくれます。かいだんの <ruby>側<rt>そば</rt></ruby>で あう <ruby>男<rt>おとこ</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>も、いまは かるく あたまを さげます。",
+ "traduccion": "Ya llevo dos meses en Japón. Al principio no tenía palabras para hablar de mí mismo. Ahora están Jean y Gonza, y también Anna. No hace falta hablar con mucha gente. Con tres o cuatro personas con las que puedas hablar de verdad, basta. El día que conseguí hacer una broma en esta lengua me puse muy contento. Incluso cuando voy solo al konbini, por aquí ya me resulta más cómodo. La señora del piso de al lado siempre me saluda. Y el hombre con el que me cruzo junto a la escalera también me hace ya un gesto con la cabeza.",
  "preguntas": [
   {
    "p": "カルロスさんは どのくらい にほんに いますか。",
@@ -35,5 +35,5 @@
    "correcta": 2
   }
  ],
- "traduccion_en": "I've been in Japan two months now. At first I had no words to talk about myself. Now there are Jean and Gonza, and Anna too. You don't need to talk to lots of people. Three or four you can really talk to is enough. The day I managed a joke in their language I was over the moon."
+ "traduccion_en": "It has been two months since I came to Japan. At first I had no words to talk about myself. Now there are Jean and Gonsa, and Anna too. You don't need to talk to a lot of people. Three or four people you can really talk to is enough. The day I managed to make a joke in this language I was truly happy. Even going to the konbini on my own, things feel easier on this side now. The lady next door always says hello. And the man I pass by the stairs now gives me a small nod too."
 }

@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/gakkou/materias-1",
  "titulo": "にほんの れきしの じゅぎょう",
- "cuerpo": "きょうの じゅぎょうは、ことばだけでは ありませんでした。せんせいが この まちの れきしを はなしました。こうべは ふるい みなとまちで、むかしから ふねが きました。だから、たべものも まちの かたちも、ほかの まちと ちがうそうです。ノートを <ruby>見<rt>み</rt></ruby>ないで <ruby>聞<rt>き</rt></ruby>きましたが、はんぶんぐらい わかりました。ことばを ならうと、まちの ことも すこしずつ わかって きます。",
- "traduccion": "La clase de hoy no fue sólo de lengua. El profesor nos contó la historia de esta ciudad. Kobe es un puerto antiguo al que llegan barcos desde hace siglos. Por eso, dicen, la comida y hasta la forma de la ciudad son distintas de otras. Escuché sin mirar el cuaderno y entendí más o menos la mitad. Cuando aprendes el idioma, la ciudad también se te va aclarando.",
+ "cuerpo": "きょうの じゅぎょうは、ことばだけでは ありませんでした。せんせいが この まちの れきしを はなしました。こうべは ふるい みなとまちで、むかしから ふねが きました。だから、たべものも まちの かたちも、ほかの まちと ちがうそうです。ノートを <ruby>見<rt>み</rt></ruby><em class=\"g\">ないで</em> <ruby>聞<rt>き</rt></ruby>きましたが、はんぶんぐらい わかりました。ことばを ならうと、まちの ことも すこしずつ わかって きます。この <ruby>課程<rt>かてい</rt></ruby>では、まいつき まちの どこかへ <ruby>行<rt>い</rt></ruby>くそうです。らいげつは じしんの はくぶつかんです。",
+ "traduccion": "La clase de hoy no fue sólo de lengua. El profesor nos contó la historia de esta ciudad. Kobe es un puerto antiguo al que llegan barcos desde hace siglos. Por eso, dicen, la comida y hasta la forma de la ciudad son distintas de otras ciudades. Escuché sin mirar el cuaderno y entendí más o menos la mitad. Cuando aprendes la lengua, la ciudad también se te va aclarando poco a poco. En este curso, según parece, salimos cada mes a algún sitio de la ciudad. El mes que viene es el museo del terremoto.",
  "preguntas": [
   {
    "p": "きょうの じゅぎょうは なにに ついてでしたか。",
@@ -35,5 +35,5 @@
    "correcta": 2
   }
  ],
- "traduccion_en": "Today's class wasn't only about the language. The teacher told us the history of this city. Kobe is an old port where ships have arrived for centuries. That's why, they say, the food and even the shape of the city are different from elsewhere. I listened without looking at my notebook and understood about half. As you learn the language, the city starts making sense too."
+ "traduccion_en": "Today's lesson was not only about language. The teacher told us the history of this city. Kobe is an old port town where ships have been arriving for centuries. That is why, they say, the food and even the shape of the city are different from other places. I listened without looking at my notebook and understood about half. When you learn the language, the city slowly becomes clearer too. On this course, apparently, we go somewhere in the city every month. Next month it is the earthquake museum."
 }

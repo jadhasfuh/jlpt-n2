@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/hito/caracter-1",
  "titulo": "アンナさんの じゅぎょう",
- "cuerpo": "アンナさんは <ruby>明<rt>あか</rt></ruby>るい ひとです。こえも わらいかたも <ruby>大<rt>おお</rt></ruby>きいです。でも、まちがえた ひとには とても <ruby>優<rt>やさ</rt></ruby>しいです。きょう、ぼくの はつおんを さんかい なおして くれました。「どんな ことばが むずかしいですか」と きかれて、「ぜんぶ」と こたえました。アンナさんは わらって、「わたしも スペイン<ruby>語<rt>ご</rt></ruby>は ぜんぶ むずかしい」と <ruby>言<rt>い</rt></ruby>いました。コーヒーが あまくて、すこし のこしました。",
- "traduccion": "Anna es una persona luminosa. Tiene la risa y la voz grandes. Pero con quien se equivoca es muy amable. Hoy me corrigió la pronunciación tres veces. «¿Qué palabras te resultan difíciles?», me preguntó, y contesté: «todas». Anna se rió y dijo: «a mí el español también me resulta difícil entero». El café estaba dulzón y dejé un poco.",
+ "cuerpo": "アンナさんは <ruby>明<rt>あか</rt></ruby>るい ひとです。こえも わらいかたも <ruby>大<rt>おお</rt></ruby>きいです。でも、まちがえた ひと<em class=\"g\">に</em>は とても <ruby>優<rt>やさ</rt></ruby>しいです。きょう、ぼくの はつおんを さんかい なおして くれました。「どんな ことばが むずかしいですか」と きかれて、「ぜんぶ」と こたえました。アンナさんは わらって、「わたしも スペイン<ruby>語<rt>ご</rt></ruby>は ぜんぶ むずかしい」と <ruby>言<rt>い</rt></ruby>いました。コーヒーが あまくて、すこし のこしました。さむいので、<ruby>厚<rt>あつ</rt></ruby>い コートを かりました。かえりみち、こうべの かぜは つめたかったです。",
+ "traduccion": "Anna es una persona luminosa. Tiene la risa y la voz grandes. Pero con quien se equivoca es muy amable. Hoy me corrigió la pronunciación tres veces. «¿Qué palabras te resultan difíciles?», me preguntó, y contesté: «todas». Anna se rio y dijo: «a mí el español también me resulta difícil entero». El café estaba dulce y dejé un poco. Como hacía frío, me prestó un abrigo grueso. De vuelta a casa, el viento de Kobe estaba helado.",
  "preguntas": [
   {
    "p": "アンナさんは どんな ひとですか。",
@@ -35,5 +35,5 @@
    "correcta": 3
   }
  ],
- "traduccion_en": "Anna is a bright person. Her laugh and her voice are both big. But she's very kind to anyone who makes a mistake. Today she corrected my pronunciation three times. «Which words do you find hard?» she asked, and I answered: «all of them». Anna laughed and said: «I find the whole of Spanish hard too». The coffee was too sweet and I left some."
+ "traduccion_en": "Anna is a bright person. Her voice and her laugh are both big. But with anyone who makes a mistake she is very kind. Today she corrected my pronunciation three times. «Which words are difficult for you?» she asked, and I answered, «all of them.» Anna laughed and said, «Spanish is all difficult for me too.» The coffee was sweet and I left a little. Since it was cold, she lent me a thick coat. On the way home the Kobe wind was freezing."
 }

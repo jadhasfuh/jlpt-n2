@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/gijutsu/arte-1",
  "titulo": "<ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>く",
- "cuerpo": "どようびに、ゴンサと <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>きました。にほんごの <ruby>映画<rt>えいが</rt></ruby>で、<ruby>字<rt>じ</rt></ruby>まくは ありませんでした。はなしの はんぶんは わかりませんでしたが、<ruby>絵<rt>え</rt></ruby>が きれいでした。そとに <ruby>出<rt>で</rt></ruby>てから、ゴンサが「なにが おきたの?」と ききました。ぼくも わかりませんでした。ふたりで わらいました。かえりに、<ruby>映画<rt>えいが</rt></ruby>の ポスターの <ruby>前<rt>まえ</rt></ruby>で しゃしんを とりました。",
- "traduccion": "El sábado fui al cine con Gonza. Era una película japonesa y no tenía subtítulos. La mitad de la historia se me escapó, pero la imagen era preciosa. Al salir, Gonza me preguntó: «¿qué ha pasado?». Yo tampoco lo sabía. Nos reímos los dos. De vuelta nos hicimos una foto delante del cartel.",
+ "cuerpo": "どようびに、ゴンサと <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>きました。にほんごの <ruby>映画<rt>えいが</rt></ruby>で、<ruby>字<rt>じ</rt></ruby>まくは ありませんでした。はなしの はんぶんは わかりませんでしたが、<ruby>絵<rt>え</rt></ruby>が きれいでした。そとに <ruby>出<rt>で</rt></ruby>てから、ゴンサが「なにが おきたの?」と ききました。ぼくも わかりませんでした。ふたりで わらいました。かえりに、<ruby>映画<rt>えいが</rt></ruby>の ポスターの <ruby>前<rt>まえ</rt></ruby>で しゃしんを とりました。ふるい フィルムの <ruby>映画<rt>えいが</rt></ruby>だったので、おとも すこし とおかったです。もとまちの きっさてんで、はなしの さいごを ふたりで かんがえました。",
+ "traduccion": "El sábado fui al cine con Gonza. Era una película japonesa y no tenía subtítulos. La mitad de la historia se me escapó, pero la imagen era preciosa. Al salir, Gonza me preguntó: «¿qué ha pasado?». Yo tampoco lo sabía. Nos reímos los dos. A la vuelta nos hicimos una foto delante del cartel. Era una película en película antigua, así que el sonido también se oía algo lejano. En una cafetería de Motomachi nos inventamos entre los dos el final de la historia.",
  "preguntas": [
   {
    "p": "<ruby>映画<rt>えいが</rt></ruby>に <ruby>字<rt>じ</rt></ruby>まくは ありましたか。",
@@ -35,5 +35,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "On Saturday I went to the cinema with Gonza. It was a Japanese film with no subtitles. Half the story went over my head, but it looked beautiful. As we came out, Gonza asked me: «what happened?». I didn't know either. We both laughed. On the way back we took a photo in front of the poster."
+ "traduccion_en": "On Saturday I went to the cinema with Gonsa. It was a Japanese film with no subtitles. Half the story went over my head, but the images were beautiful. When we came out, Gonsa asked, «what happened?» I didn't know either. We both laughed. On the way back we took a photo in front of the poster. It was an old film print, so the sound was a little distant too. In a coffee shop in Motomachi the two of us worked out the ending between us."
 }

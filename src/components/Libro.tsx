@@ -4,7 +4,7 @@ import { capituloLibre } from "@/lib/acceso";
 import { useState } from "react";
 import type { Lectura } from "@/lib/tipos";
 import { useAjustes } from "./Ajustes";
-import { JpHtml, JpEnLinea, BotonVoz } from "./Jp";
+import { Jp, JpHtml, JpEnLinea, BotonVoz } from "./Jp";
 import { Ordenar } from "./Ordenar";
 import { enFrases, soloTexto } from "@/lib/voz";
 import { IcDerecha, IcIzquierda } from "./Iconos";
@@ -76,12 +76,16 @@ export function Libro({
       {/* La página de antes: las palabras que va a usar el capítulo. */}
       <section className="tarjeta" style={{ padding: 18, marginBottom: 14 }}>
         <p className="etiqueta" style={{ marginTop: 0 }}>{t("lib2.antes")}</p>
-        <div style={{ display: "grid", gap: 8 }}>
+        {/* Antes eran tres columnas de ancho fijo con la palabra, la lectura
+            y el significado al mismo peso: se leía como una hoja de cálculo.
+            Ahora usa la misma ficha que las subsecciones —<Jp> pinta el
+            furigana encima y colorea los kanji por nivel—, así que la palabra
+            manda y la lectura deja de ocupar una columna propia. */}
+        <div className="lista-vocab">
           {vocabulario.map((w) => (
-            <div key={w.id} style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
-              <span className="jp" style={{ fontSize: 16, minWidth: 104 }}>{w.escritura}</span>
-              <span className="tenue" style={{ minWidth: 88 }}>{w.lectura}</span>
-              <span style={{ fontSize: 13, color: "var(--tinta-2)" }}>{sig(w, idioma)}</span>
+            <div key={w.id} className="fila-libro">
+              <Jp escritura={w.escritura} lectura={w.lectura} clase="jp-medio" revelar />
+              <span className="glosa">{sig(w, idioma)}</span>
             </div>
           ))}
         </div>
@@ -91,13 +95,12 @@ export function Libro({
         {deFuera.length > 0 && (
           <>
             <p className="etiqueta" style={{ marginTop: 18 }}>{t("lib2.deFuera")}</p>
-            <div style={{ display: "grid", gap: 6 }}>
+            <div className="lista-vocab compacta">
               {deFuera.map((w) => (
-                <div key={w.id} style={{ display: "flex", alignItems: "baseline", gap: 8, fontSize: 12.5 }}>
-                  <span className="jp" style={{ fontSize: 14, minWidth: 96 }}>{w.escritura}</span>
-                  <span className="tenue" style={{ minWidth: 80 }}>
-                    {w.lectura !== w.escritura ? w.lectura : ""}
-                  </span>
+                <div key={w.id} className="fila-libro">
+                  <Jp escritura={w.escritura}
+                      lectura={w.lectura !== w.escritura ? w.lectura : undefined}
+                      revelar />
                   {/* El nivel sólo se marca si NO es el del libro: dentro del
                       libro de N5, ver «N5» en cada línea no dice nada; ver
                       «N1» junto a こたつ sí. */}
@@ -122,12 +125,16 @@ export function Libro({
         {gramatica.length > 0 && (
           <>
             <p className="etiqueta" style={{ marginTop: 18 }}>{t("lib2.gramatica")}</p>
+            {/* El patrón es lo que hay que reconocer al leer, así que va en su
+                propia superficie y no en una columna más. */}
             <div style={{ display: "grid", gap: 8 }}>
               {gramatica.map((g) => (
-                <div key={g.id} style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
-                  <span className="jp" style={{ fontSize: 16, minWidth: 104 }}>{g.forma}</span>
-                  <span className="tenue" style={{ minWidth: 88 }}>{g.lectura}</span>
-                  <span style={{ fontSize: 13, color: "var(--tinta-2)" }}>{sig(g, idioma)}</span>
+                <div key={g.id} className="ficha-gram">
+                  <span className="jp patron">{g.forma}</span>
+                  {g.lectura && g.lectura !== g.forma && (
+                    <span className="tenue lectura-gram">{g.lectura}</span>
+                  )}
+                  <span className="glosa">{sig(g, idioma)}</span>
                 </div>
               ))}
             </div>
@@ -138,9 +145,9 @@ export function Libro({
             <p className="etiqueta" style={{ marginTop: 18 }}>{t("lib2.gramFuera")}</p>
             <div style={{ display: "grid", gap: 6 }}>
               {gramaticaFuera.map((g) => (
-                <div key={g.id} style={{ display: "flex", alignItems: "baseline", gap: 8, fontSize: 12.5 }}>
-                  <span className="jp" style={{ fontSize: 14, minWidth: 96 }}>{g.forma}</span>
-                  <span className="tenue" style={{ minWidth: 80 }}>{g.lectura}</span>
+                <div key={g.id} className="fila-libro" style={{ fontSize: 12.5 }}>
+                  <span className="jp" style={{ fontSize: 14 }}>{g.forma}</span>
+                  <span className="tenue">{g.lectura}</span>
                   <span style={{ color: "var(--tinta-2)", flex: 1 }}>{sig(g, idioma)}</span>
                   {g.capitulo > 0 && (
                     <span className="tenue" style={{ whiteSpace: "nowrap" }}>
@@ -157,6 +164,11 @@ export function Libro({
       {lectura ? (
         <>
           <article className="tarjeta">
+            {/* La misma ilustración que lleva el capítulo en papel. */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={`/libro/${unidad.id.replace(/\//g, "_")}.png`} alt=""
+                 className="dibujo-capitulo"
+                 onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }} />
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
               <h2 style={{ fontSize: 20, margin: 0 }}><JpEnLinea html={lectura.titulo} /></h2>
               <BotonVoz texto={soloTexto(lectura.cuerpo)} />
