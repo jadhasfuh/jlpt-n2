@@ -175,6 +175,12 @@ h1, h2, h3 { font-weight: 500; }
   flex: none; justify-content: flex-start; border-bottom: 0;
   padding: 0; margin: 16px 0 0;
 }
+/* Dentro de un test la barra de abajo queda tapada por la escena, así que los
+   interruptores van en su cabecera, junto al progreso. */
+.escena-cabeza .conmutadores-jp {
+  flex: none; border-bottom: 0; padding: 0; margin: 0; gap: 4px;
+}
+.escena-cabeza .conmutador-jp { min-width: 34px; min-height: 28px; padding: 0 8px; font-size: 13px; }
 .barra-inferior a {
   flex: 1; display: flex; flex-direction: column; align-items: center;
   justify-content: center; gap: 3px; position: relative;

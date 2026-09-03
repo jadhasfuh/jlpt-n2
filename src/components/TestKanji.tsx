@@ -2,7 +2,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { Kanji } from "@/lib/tipos";
 import { anotar, registrarTest } from "@/lib/progreso";
-import { BotonFurigana, useAjustes } from "./Ajustes";
+import { ConmutadoresJp, useAjustes } from "./Ajustes";
 import { significado as sigIdioma } from "@/lib/idioma";
 import { IcCerrar, IcDerecha } from "./Iconos";
 
@@ -135,7 +135,7 @@ export function TestKanji({ kanji, titulo, cerrar }: {
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(n / preguntas.length) * 100}%` }} />
         </div>
-        <BotonFurigana />
+        <ConmutadoresJp />
         <span className="tenue">{puntos} pt · {n + 1}/{preguntas.length}</span>
       </div>
 

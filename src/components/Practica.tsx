@@ -2,7 +2,7 @@
 import { useMemo, useState } from "react";
 import type { Gramatica, Palabra, Unidad } from "@/lib/tipos";
 import { Jp, JpEnLinea, BotonVoz } from "./Jp";
-import { BotonFurigana } from "./Ajustes";
+import { ConmutadoresJp } from "./Ajustes";
 import { anotar, terminarPractica, XP_NUEVA, XP_UNIDAD } from "@/lib/progreso";
 import { ejemploDe, useFrases } from "@/lib/frases";
 import { IcBien, IcCerrar, IcRepaso } from "./Iconos";
@@ -112,7 +112,7 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
             <i key={n} className={marcas[n] === true ? "bien" : marcas[n] === false ? "mal" : ""} />
           ))}
         </div>
-        <BotonFurigana />
+        <ConmutadoresJp />
         <span className="tenue" style={{ fontVariantNumeric: "tabular-nums" }}>
           {i + 1}/{mazo.length}
         </span>

@@ -7,7 +7,7 @@ La gramática es una sección propia dentro de N2, por categorías.
 """
 import json, csv, re, sys, pathlib, collections
 sys.path.insert(0, "scripts")
-from taxonomia import SECCIONES, SUBGRUPOS
+from taxonomia import SECCIONES, SUBGRUPOS, aplicar_secciones
 
 POR_UNIDAD = 20        # palabras por unidad
 MIN_COLA = 8           # si la última parte queda con menos, se funde con la anterior
@@ -18,6 +18,7 @@ CIRCULOS = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳"
 KANJI = re.compile(r"[一-鿿]")
 
 vocab = json.load(open("data/build/vocab_clasificado.json", encoding="utf-8"))
+print("secciones corregidas a mano:", aplicar_secciones(vocab))
 et_sec = {s[0]: {"ja": s[1], "es": s[2], "en": s[3]} for s in SECCIONES}
 et_sub = {(s, g[0]): {"ja": g[1], "es": g[2], "en": g[3]} for s in SUBGRUPOS for g in SUBGRUPOS[s]}
 orden_sec = [s[0] for s in SECCIONES]

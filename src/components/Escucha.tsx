@@ -2,7 +2,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { Palabra, Unidad } from "@/lib/tipos";
 import { anotar } from "@/lib/progreso";
-import { BotonFurigana } from "./Ajustes";
+import { ConmutadoresJp } from "./Ajustes";
 import { alCargarVoces, callar, decir, hayVozJaponesa } from "@/lib/voz";
 import { IcCerrar, IcDerecha, IcOtraVez, IcReproducir } from "./Iconos";
 import { useAjustes } from "./Ajustes";
@@ -138,7 +138,7 @@ export function Escucha({ unidad, palabras, cerrar }: {
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(n / preguntas.length) * 100}%` }} />
         </div>
-        <BotonFurigana />
+        <ConmutadoresJp />
         <span className="tenue" style={{ fontVariantNumeric: "tabular-nums" }}>{n + 1}/{preguntas.length}</span>
         <span className="pastilla"><span className="jp">聴解</span></span>
       </div>

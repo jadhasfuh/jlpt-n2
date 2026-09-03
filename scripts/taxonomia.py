@@ -1,3 +1,5 @@
+import re as _re, pathlib as _pathlib
+
 # -*- coding: utf-8 -*-
 """Taxonomía temática del vocabulario: secciones -> subgrupos.
 
@@ -156,3 +158,34 @@ SUBGRUPOS = {
    ("varios",      "そのほか",     "Varios", "Miscellaneous"),
  ],
 }
+
+
+# --------------------------------------------------- secciones a mano
+# El clasificador acierta en el 90 %; para el resto está este archivo, que
+# manda sobre él. Lo leen 04_curso (para colocar la palabra en su unidad) y
+# 06_exportar (para la ficha).
+def _cargar_secciones():
+    f = _pathlib.Path("data/fuente/secciones.tsv")
+    fuera = {}
+    if not f.exists():
+        return fuera
+    for l in f.read_text(encoding="utf-8").splitlines():
+        l = _re.sub(r"\s*#.*$", "", l).strip()
+        if not l or l.startswith("id|"):
+            continue
+        campos = l.split("|")
+        if len(campos) >= 3:
+            fuera[int(campos[0])] = (campos[1].strip(), campos[2].strip())
+    return fuera
+
+SECCION_A_MANO = _cargar_secciones()
+
+def aplicar_secciones(vocab):
+    """Pone la sección de secciones.tsv en las entradas que la lleven."""
+    n = 0
+    for r in vocab:
+        par = SECCION_A_MANO.get(r["id"])
+        if par and (r.get("seccion"), r.get("subgrupo")) != par:
+            r["seccion"], r["subgrupo"] = par
+            n += 1
+    return n

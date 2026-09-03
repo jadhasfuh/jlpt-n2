@@ -2,7 +2,7 @@
 """Exporta a data/dist/ lo que consumen la app y la carga a Supabase."""
 import json, csv, re, sys, pathlib, collections
 sys.path.insert(0, "scripts")
-from taxonomia import SECCIONES, SUBGRUPOS
+from taxonomia import SECCIONES, SUBGRUPOS, aplicar_secciones
 from tipos_cat import CAT_ES
 
 DIST = pathlib.Path("data/dist"); DIST.mkdir(parents=True, exist_ok=True)
@@ -48,6 +48,7 @@ def partir_gramatica(ja):
 # ---------------------------------------------------------------- vocabulario
 vocab = [r for r in json.load(open("data/build/vocab_clasificado.json", encoding="utf-8"))
          if r["id"] not in DESCARTAR]
+aplicar_secciones(vocab)
 for r in vocab:
     for campo, valor in CORRECCIONES.get(r["id"], {}).items():
         valor = valor.strip()

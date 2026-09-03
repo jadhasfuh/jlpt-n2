@@ -1,0 +1,13 @@
+# Palabras cuya sección puso mal el clasificador y se corrige a mano.
+# Columnas: id|seccion|subgrupo
+#
+# El clasificador va por la definición inglesa, así que cuando una entrada
+# trae dos sentidos elige el que aparece primero. コック llevaba «cook; tap,
+# spigot, faucet» y se quedó con el grifo: acabó en «Casa y vivienda». Ahora
+# que la ficha dice sólo «cocinero», su sitio es Oficios.
+#
+# Ojo: mover una palabra de sección la saca de su unidad publicada y la
+# coloca en una del grupo nuevo. Sólo para errores de verdad, no para
+# afinar matices.
+id|seccion|subgrupo
+1627|shigoto|oficios     # コック — es el cocinero, no la llave de paso

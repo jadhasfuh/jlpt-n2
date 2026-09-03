@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Palabra, Unidad } from "@/lib/tipos";
 import { Jp, JpEnLinea } from "./Jp";
-import { BotonFurigana } from "./Ajustes";
+import { ConmutadoresJp } from "./Ajustes";
 import { anotar, cuandoToca, leerProgreso, medalla, registrarTest } from "@/lib/progreso";
 import { ejemploDe, useFrases } from "@/lib/frases";
 import { IcBien, IcCerrar, IcDerecha } from "./Iconos";
@@ -112,7 +112,7 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(n / preguntas.length) * 100}%` }} />
         </div>
-        <BotonFurigana />
+        <ConmutadoresJp />
         <span className="tenue" style={{ fontVariantNumeric: "tabular-nums" }}>{n + 1}/{preguntas.length}</span>
         <span style={{ display: "inline-flex", alignItems: "center", gap: 3, fontSize: 11.5,
                        color: "var(--acento-300)", fontVariantNumeric: "tabular-nums" }}>

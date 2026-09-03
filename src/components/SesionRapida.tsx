@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { Palabra } from "@/lib/tipos";
 import { anotar, estadoItem, leerProgreso, paraRepasar } from "@/lib/progreso";
-import { BotonFurigana, useAjustes } from "./Ajustes";
+import { ConmutadoresJp, useAjustes } from "./Ajustes";
 import { significado as sig } from "@/lib/idioma";
 import { Jp, BotonVoz } from "./Jp";
 import { IcCerrar, IcCronometro, IcDerecha } from "./Iconos";
@@ -115,7 +115,7 @@ export function SesionRapida() {
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(restante / (MINUTOS * 60)) * 100}%` }} />
         </div>
-        <BotonFurigana />
+        <ConmutadoresJp />
       </div>
 
       <div className="tarjeta" style={{ textAlign: "center", padding: "44px 20px" }}>

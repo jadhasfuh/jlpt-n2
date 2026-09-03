@@ -123,22 +123,6 @@ export function ProveedorAjustes({
 }
 
 /**
- * Sólo el interruptor de furigana, para las pantallas a pantalla completa:
- * dentro de un test no se puede ir al menú a activarlo, y quedarse atascado
- * en una palabra por no ver la lectura no enseña nada.
- */
-export function BotonFurigana() {
-  const { furigana, alternar, t } = useAjustes();
-  return (
-    <button className={`btn chico ${furigana ? "encendido" : ""}`}
-            onClick={() => alternar("furigana")}
-            title={t("aj.furigana")}>
-      <span className="jp">ふりがな</span>
-    </button>
-  );
-}
-
-/**
  * Los tres interruptores, en una sola letra cada uno, para meterlos en la
  * navegación: あ (furigana), 意 (significado) y 色 (color de los kanji).
  *
