@@ -16,20 +16,20 @@
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていましたか。",
    "opciones": [
-    "<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>背負<rt>せお</rt></ruby>っていた",
     "<ruby>走<rt>はし</rt></ruby>っていた",
+    "<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>背負<rt>せお</rt></ruby>っていた",
     "<ruby>座<rt>すわ</rt></ruby>っていた"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>走<rt>はし</rt></ruby>ったあと、どうなりましたか。",
    "opciones": [
-    "<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>がした",
     "<ruby>眠<rt>ねむ</rt></ruby>くなった",
-    "<ruby>笑<rt>わら</rt></ruby>った"
+    "<ruby>笑<rt>わら</rt></ruby>った",
+    "<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>がした"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "In the morning the teacher suddenly called my name. When I turned round, he was standing there carrying a bundle on his back. I washed my hands at the basin, borrowed a towel and helped him. A child ran off on his own and I was the first out after him. I ran out of breath and felt sick, but again I ran with all my strength to the place I was going."

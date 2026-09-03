@@ -7,12 +7,12 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていますか。",
    "opciones": [
-    "りょうりを<ruby>作<rt>つく</rt></ruby>る",
     "<ruby>毎月<rt>まいつき</rt></ruby>すこしずつ<ruby>寄付<rt>きふ</rt></ruby>する",
-    "<ruby>子<rt>こ</rt></ruby>どもをあずかる",
-    "<ruby>時間<rt>じかん</rt></ruby>をあげる"
+    "りょうりを<ruby>作<rt>つく</rt></ruby>る",
+    "<ruby>時間<rt>じかん</rt></ruby>をあげる",
+    "<ruby>子<rt>こ</rt></ruby>どもをあずかる"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>時間<rt>じかん</rt></ruby>のある<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていますか。",

@@ -16,20 +16,20 @@
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どものころはどうでしたか。",
    "opciones": [
+    "<ruby>仲<rt>なか</rt></ruby>がよかった",
     "よくけんかをした",
-    "<ruby>会<rt>あ</rt></ruby>わなかった",
-    "<ruby>仲<rt>なか</rt></ruby>がよかった"
+    "<ruby>会<rt>あ</rt></ruby>わなかった"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "どこを<ruby>歩<rt>ある</rt></ruby>きましたか。",
    "opciones": [
-    "<ruby>川<rt>かわ</rt></ruby>に<ruby>沿<rt>そ</rt></ruby>って",
     "<ruby>山<rt>やま</rt></ruby>",
-    "<ruby>町<rt>まち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>"
+    "<ruby>町<rt>まち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>",
+    "<ruby>川<rt>かわ</rt></ruby>に<ruby>沿<rt>そ</rt></ruby>って"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I went to the station to meet relatives I hadn't seen for a long time. As children we often fought, but now we look after the bond. Depending on what suited them, I changed the plans several times. Walking along the river, we laughed as we answered one another's old stories. As we said goodbye, we arranged to meet next year."

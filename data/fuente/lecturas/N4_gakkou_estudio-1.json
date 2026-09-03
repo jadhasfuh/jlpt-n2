@@ -7,22 +7,22 @@
   {
    "p": "<ruby>研究<rt>けんきゅう</rt></ruby>によると、いつ<ruby>復習<rt>ふくしゅう</rt></ruby>するとのこりやすいですか。",
    "opciones": [
+    "<ruby>運動<rt>うんどう</rt></ruby>のまえ",
     "<ruby>試験<rt>しけん</rt></ruby>のまえ",
     "ならったその<ruby>日<rt>ひ</rt></ruby>のうち",
-    "<ruby>一<rt>いっ</rt></ruby>しゅうかん<ruby>後<rt>ご</rt></ruby>",
-    "<ruby>運動<rt>うんどう</rt></ruby>のまえ"
+    "<ruby>一<rt>いっ</rt></ruby>しゅうかん<ruby>後<rt>ご</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>今日<rt>きょう</rt></ruby>から、いつ<ruby>見<rt>み</rt></ruby>なおしますか。",
    "opciones": [
     "<ruby>朝<rt>あさ</rt></ruby>",
-    "うちに<ruby>帰<rt>かえ</rt></ruby>ったばかりの<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>学校<rt>がっこう</rt></ruby>で",
     "<ruby>試験<rt>しけん</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>",
-    "<ruby>学校<rt>がっこう</rt></ruby>で"
+    "うちに<ruby>帰<rt>かえ</rt></ruby>ったばかりの<ruby>時間<rt>じかん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I finished the exam a little while ago. I thought I'd listened to the explanation properly, but there were questions I couldn't answer. According to studies, what you've just learnt sticks better if you go over it that same day. My field is more the technical side, but I think how you memorise is part of studying too. From today I'm going to revise for ten minutes as soon as I get home. Doing it after exercise seems the most sustainable."

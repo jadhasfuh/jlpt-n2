@@ -7,12 +7,12 @@
   {
    "p": "なぜ、しくみについて<ruby>考<rt>かんが</rt></ruby>えましたか。",
    "opciones": [
-    "じゅぎょうがあったから",
     "<ruby>祖父<rt>そふ</rt></ruby>が<ruby>入院<rt>にゅういん</rt></ruby>したから",
     "<ruby>選<rt>えら</rt></ruby>ぶ<ruby>日<rt>ひ</rt></ruby>だから",
-    "<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだから"
+    "<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだから",
+    "じゅぎょうがあったから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>がさきだと<ruby>分<rt>わ</rt></ruby>かりましたか。",

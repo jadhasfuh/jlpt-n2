@@ -7,12 +7,12 @@
   {
    "p": "<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
-    "ぜんぶ<ruby>今日<rt>きょう</rt></ruby><ruby>買<rt>か</rt></ruby>ってください",
     "<ruby>必要<rt>ひつよう</rt></ruby>なものから<ruby>買<rt>か</rt></ruby>えばいい",
+    "<ruby>来年<rt>らいねん</rt></ruby><ruby>来<rt>き</rt></ruby>てください",
     "この<ruby>店<rt>みせ</rt></ruby>にはない",
-    "<ruby>来年<rt>らいねん</rt></ruby><ruby>来<rt>き</rt></ruby>てください"
+    "ぜんぶ<ruby>今日<rt>きょう</rt></ruby><ruby>買<rt>か</rt></ruby>ってください"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>って、<ruby>何<rt>なに</rt></ruby>に<ruby>気<rt>き</rt></ruby>づきましたか。",

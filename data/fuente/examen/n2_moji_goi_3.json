@@ -6,16 +6,16 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "契約の <u>詳細</u>は 別紙の とおりです。",
   "opciones": [
-   "しょうさい",
-   "しょうざい",
    "そうさい",
-   "しょさい"
+   "しょさい",
+   "しょうさい",
+   "しょうざい"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "濁音にした",
    "詳をそうと読んだ",
-   "長音を落とした"
+   "長音を落とした",
+   "濁音にした"
   ],
   "explicacion": {
    "es": "詳細（しょうさい）, detalles.",
@@ -31,16 +31,16 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "両者の 意見が <u>一致</u>した。",
   "opciones": [
-   "いっち",
-   "いちち",
    "いっし",
-   "いちじ"
+   "いちじ",
+   "いちち",
+   "いっち"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
-   "促音にしない",
    "致をしと読んだ",
-   "一を いちじ と読んだ"
+   "一を いちじ と読んだ",
+   "促音にしない"
   ],
   "explicacion": {
    "es": "一致（いっち）, coincidir.",
@@ -81,16 +81,16 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "彼は 責任を <u>負う</u>立場に ある。",
   "opciones": [
-   "おう",
    "まける",
-   "かつぐ",
-   "になう"
+   "おう",
+   "になう",
+   "かつぐ"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "負けるの読み",
-   "担ぐと混同",
-   "担うと混同"
+   "担うと混同",
+   "担ぐと混同"
   ],
   "explicacion": {
    "es": "負う（おう）, cargar con algo.",
@@ -106,16 +106,16 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "会社の <u>方針</u>が 変わった。",
   "opciones": [
-   "ほうしん",
-   "ほうはり",
    "ぼうしん",
-   "かたしん"
+   "かたしん",
+   "ほうしん",
+   "ほうはり"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "針をはりと読んだ",
    "濁音にした",
-   "方をかたと読んだ"
+   "方をかたと読んだ",
+   "針をはりと読んだ"
   ],
   "explicacion": {
    "es": "方針（ほうしん）, línea de actuación.",
@@ -131,16 +131,16 @@
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この 問題の <u>かいけつ</u>を 急ぐ。",
   "opciones": [
+   "回結",
    "解決",
-   "解結",
    "回決",
-   "回結"
+   "解結"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "決と結の混同",
+   "両方",
    "解と回の混同",
-   "両方"
+   "決と結の混同"
   ],
   "explicacion": {
    "es": "解決 (resolución). 決 (decidir) no 結 (atar).",
@@ -156,12 +156,12 @@
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "<u>けいけん</u>を 生かした 仕事だ。",
   "opciones": [
-   "経験",
    "経検",
    "軽験",
+   "経験",
    "軽検"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "験と検の混同",
    "経と軽の混同",
@@ -181,15 +181,15 @@
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "<u>しげん</u>を 大切に 使う。",
   "opciones": [
-   "資源",
-   "資原",
    "詩源",
-   "詩原"
+   "資原",
+   "詩原",
+   "資源"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
-   "源と原の混同",
    "資と詩の混同",
+   "源と原の混同",
    "両方"
   ],
   "explicacion": {
@@ -231,12 +231,12 @@
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "<u>こうりつ</u>を 上げる 工夫。",
   "opciones": [
-   "効率",
    "効律",
+   "効率",
    "高率",
    "高律"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "率と律の混同",
    "効と高の混同",
@@ -256,16 +256,16 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この 計画は 実現（　）が 高いと 言われて いる。",
   "opciones": [
-   "性",
-   "力",
    "化",
-   "感"
+   "性",
+   "感",
+   "力"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "能力を表す",
    "変化を表す",
-   "感じ方を表す"
+   "感じ方を表す",
+   "能力を表す"
   ],
   "explicacion": {
    "es": "実現性 = grado de viabilidad. 〜性 expresa la propiedad.",
@@ -282,16 +282,16 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "経済（　）な 理由で 進学を あきらめた。",
   "opciones": [
-   "的",
-   "性",
    "化",
-   "上"
+   "上",
+   "的",
+   "性"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "性質そのものを表す",
    "変化を表す",
-   "観点を表すが名詞につく形が違う"
+   "観点を表すが名詞につく形が違う",
+   "性質そのものを表す"
   ],
   "explicacion": {
    "es": "経済的 = de índole económica. 〜的 hace adjetivo.",
@@ -308,16 +308,16 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "（　）常識な 発言が 問題に なった。",
   "opciones": [
-   "非",
    "未",
+   "不",
    "無",
-   "不"
+   "非"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "まだ〜していない",
-   "〜がない",
-   "否定一般だが慣用ではない"
+   "否定一般だが慣用ではない",
+   "〜がない"
   ],
   "explicacion": {
    "es": "非常識 = falta de sentido común. 非〜 niega la naturaleza.",
@@ -360,16 +360,16 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "再（　）を 防ぐ ために 記録を 残す。",
   "opciones": [
-   "発",
    "度",
-   "回",
-   "化"
+   "発",
+   "化",
+   "回"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "回数を数える語",
-   "回数を数える語",
-   "変化を表す"
+   "変化を表す",
+   "回数を数える語"
   ],
   "explicacion": {
    "es": "再発 = que vuelva a ocurrir.",
@@ -386,16 +386,16 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "会議は 予定より 三十分 （　）した。",
   "opciones": [
-   "延長",
    "延期",
+   "増加",
    "拡大",
-   "増加"
+   "延長"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "日をずらすこと",
-   "面積や規模の話",
-   "数量の話"
+   "数量の話",
+   "面積や規模の話"
   ],
   "explicacion": {
    "es": "Alargar la duración: 延長. 延期 sería aplazar a otro día.",
@@ -436,12 +436,12 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "彼の 説明は 論理が （　）いて、納得できた。",
   "opciones": [
-   "通って",
    "回って",
+   "通って",
    "流れて",
    "続いて"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "共起しない",
    "共起しない",
@@ -461,16 +461,16 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "台風の 影響で、電車の ダイヤが （　）した。",
   "opciones": [
-   "乱れ",
-   "崩れ",
+   "破れ",
    "壊れ",
-   "破れ"
+   "乱れ",
+   "崩れ"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "形が崩れること",
+   "紙や布が破れること",
    "物が壊れること",
-   "紙や布が破れること"
+   "形が崩れること"
   ],
   "explicacion": {
    "es": "Horarios desbaratados: ダイヤが乱れる.",
@@ -486,16 +486,16 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この 制度には まだ （　）の 余地が ある。",
   "opciones": [
-   "改善",
-   "改札",
    "改造",
-   "改名"
+   "改名",
+   "改札",
+   "改善"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
-   "駅の改札のこと",
    "物を作りかえること",
-   "名前を変えること"
+   "名前を変えること",
+   "駅の改札のこと"
   ],
   "explicacion": {
    "es": "Margen de mejora: 改善の余地.",
@@ -536,12 +536,12 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "その 話は 事実に （　）いない。",
   "opciones": [
-   "基づいて",
    "沿って",
+   "基づいて",
    "従って",
    "応じて"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "方針などに沿う",
    "指示に従う",
@@ -561,16 +561,16 @@
   "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この 案は <u>妥当</u>だと 思う。",
   "opciones": [
+   "まったく だめだ",
    "ちょうど よい",
    "とても 新しい",
-   "少し 古い",
-   "まったく だめだ"
+   "少し 古い"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
+   "評価が反対",
    "新しさの話",
-   "古さの話",
-   "評価が反対"
+   "古さの話"
   ],
   "explicacion": {
    "es": "妥当 = razonable, ajustado.",
@@ -586,16 +586,16 @@
   "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "彼は <u>あいにく</u>留守だった。",
   "opciones": [
-   "都合が 悪い ことに",
+   "やはり",
    "思った とおり",
-   "うれしい ことに",
-   "やはり"
+   "都合が 悪い ことに",
+   "うれしい ことに"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
+   "確認の意味",
    "予想どおりの意味",
-   "感情が反対",
-   "確認の意味"
+   "感情が反対"
   ],
   "explicacion": {
    "es": "あいにく = por desgracia, en mal momento.",
@@ -611,16 +611,16 @@
   "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "説明を <u>省く</u>。",
   "opciones": [
-   "しない ことに する",
    "くり返す",
+   "書き直す",
    "長く する",
-   "書き直す"
+   "しない ことに する"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "反対の動作",
-   "反対の動作",
-   "別の動作"
+   "別の動作",
+   "反対の動作"
   ],
   "explicacion": {
    "es": "省く = omitir, ahorrarse.",
@@ -661,16 +661,16 @@
   "instruccion_ja": "＿＿の言葉に意味が最も近いものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "彼は <u>とっさに</u>手を 出した。",
   "opciones": [
+   "やっと",
    "すぐに",
    "ゆっくり",
-   "毎回",
-   "やっと"
+   "毎回"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
+   "時間がかかった意味",
    "速さが反対",
-   "頻度の話",
-   "時間がかかった意味"
+   "頻度の話"
   ],
   "explicacion": {
    "es": "とっさに = en el acto, por reflejo.",
@@ -686,12 +686,12 @@
   "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "見直す",
   "opciones": [
-   "計画を 一から 見直す ことに した。",
    "その 本を 見直して 買った。",
+   "計画を 一から 見直す ことに した。",
    "彼の 顔を 見直して 話した。",
    "時計を 見直すと 三時だった。"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "買う場面には使わない",
    "単に見る意味では使わない",
@@ -711,16 +711,16 @@
   "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "引き受ける",
   "opciones": [
-   "その 仕事は 私が 引き受けます。",
+   "駅で 友だちを 引き受けた。",
    "電話を 引き受けました。",
-   "荷物を 引き受けて 帰った。",
-   "駅で 友だちを 引き受けた。"
+   "その 仕事は 私が 引き受けます。",
+   "荷物を 引き受けて 帰った。"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
+   "人を迎えるのは出迎える",
    "電話は受けるを使う",
-   "荷物は受け取るを使う",
-   "人を迎えるのは出迎える"
+   "荷物は受け取るを使う"
   ],
   "explicacion": {
    "es": "引き受ける = hacerse cargo de una tarea.",
@@ -736,16 +736,16 @@
   "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "目立つ",
   "opciones": [
-   "赤い 服は 遠くからでも 目立つ。",
    "この 問題は 目立って 難しい。",
+   "時間が 目立って きた。",
    "彼は 目立って 会社を 休んだ。",
-   "時間が 目立って きた。"
+   "赤い 服は 遠くからでも 目立つ。"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "程度の副詞としては不自然",
-   "頻度には使わない",
-   "時間には使わない"
+   "時間には使わない",
+   "頻度には使わない"
   ],
   "explicacion": {
    "es": "目立つ = destacar a la vista.",
@@ -786,12 +786,12 @@
   "instruccion_ja": "次の言葉の使い方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "つながる",
   "opciones": [
+   "ひもを つながって 結ぶ。",
    "努力が 結果に つながった。",
    "電話を つながって ください。",
-   "彼と 手を つながって 歩いた。",
-   "ひもを つながって 結ぶ。"
+   "彼と 手を つながって 歩いた。"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "他動詞のつなぐを使う",
    "他動詞のつなぐを使う",

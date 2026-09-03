@@ -7,29 +7,29 @@
   {
    "p": "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>にないものはどれですか。",
    "opciones": [
-    "<ruby>顕微鏡<rt>けんびきょう</rt></ruby>",
     "クーラー",
-    "<ruby>算盤<rt>そろばん</rt></ruby>"
+    "<ruby>算盤<rt>そろばん</rt></ruby>",
+    "<ruby>顕微鏡<rt>けんびきょう</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>夏<rt>なつ</rt></ruby>、<ruby>足<rt>た</rt></ruby>りないときどうしますか。",
    "opciones": [
+    "<ruby>外<rt>そと</rt></ruby>へ<ruby>出<rt>で</rt></ruby>る",
     "<ruby>扇子<rt>せんす</rt></ruby>で<ruby>扇<rt>あお</rt></ruby>ぐ",
-    "<ruby>窓<rt>まど</rt></ruby>を<ruby>開<rt>あ</rt></ruby>ける",
-    "<ruby>外<rt>そと</rt></ruby>へ<ruby>出<rt>で</rt></ruby>る"
+    "<ruby>窓<rt>まど</rt></ruby>を<ruby>開<rt>あ</rt></ruby>ける"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "モーターの<ruby>模型<rt>もけい</rt></ruby>はだれが<ruby>作<rt>つく</rt></ruby>りましたか。",
    "opciones": [
-    "<ruby>祖父<rt>そふ</rt></ruby>",
     "<ruby>父<rt>ちち</rt></ruby>",
-    "<ruby>店<rt>みせ</rt></ruby>"
+    "<ruby>店<rt>みせ</rt></ruby>",
+    "<ruby>祖父<rt>そふ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "In my grandfather's room, never mind the abacus: there's also a microscope and a telescope. In summer he puts on the fan and, if that isn't enough, fans himself with a folding fan. He says he doesn't like air conditioning. The battery-powered model he made himself with his own ingenuity. The old earpiece and the scales still work well."

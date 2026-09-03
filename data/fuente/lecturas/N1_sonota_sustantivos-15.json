@@ -7,12 +7,12 @@
   {
    "p": "<ruby>現場<rt>げんば</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>で<ruby>多<rt>おお</rt></ruby>かったのは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>制度<rt>せいど</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>い",
     "<ruby>登録<rt>とうろく</rt></ruby>の<ruby>手順<rt>てじゅん</rt></ruby>が<ruby>複雑<rt>ふくざつ</rt></ruby>すぎる",
     "<ruby>人手<rt>ひとで</rt></ruby>が<ruby>足<rt>た</rt></ruby>りない",
-    "<ruby>他社<rt>たしゃ</rt></ruby>を<ruby>真似<rt>まね</rt></ruby>すべきだ"
+    "<ruby>他社<rt>たしゃ</rt></ruby>を<ruby>真似<rt>まね</rt></ruby>すべきだ",
+    "<ruby>制度<rt>せいど</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>い"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>記入<rt>きにゅう</rt></ruby><ruby>欄<rt>らん</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>基準<rt>きじゅん</rt></ruby>に<ruby>並<rt>なら</rt></ruby>べ<ruby>替<rt>か</rt></ruby>えましたか。",

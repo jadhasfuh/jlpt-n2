@@ -7,12 +7,12 @@
   {
    "p": "<ruby>法<rt>ほう</rt></ruby>の<ruby>目的<rt>もくてき</rt></ruby>について、<ruby>何<rt>なに</rt></ruby>を<ruby>知<rt>し</rt></ruby>りましたか。",
    "opciones": [
-    "<ruby>罰<rt>ばっ</rt></ruby>するだけ",
     "<ruby>罰<rt>ばっ</rt></ruby>するだけではない",
+    "<ruby>禁止<rt>きんし</rt></ruby>すること",
     "<ruby>許<rt>ゆる</rt></ruby>すこと",
-    "<ruby>禁止<rt>きんし</rt></ruby>すること"
+    "<ruby>罰<rt>ばっ</rt></ruby>するだけ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>権利<rt>けんり</rt></ruby>をまもるとは、どういうことでもありますか。",

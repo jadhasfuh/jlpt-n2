@@ -16,20 +16,20 @@
   {
    "p": "こたつは どうして やすいですか。",
    "opciones": [
+    "ふるいから",
     "でんきじゃないから",
-    "ちいさいから",
-    "ふるいから"
+    "ちいさいから"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ゴンサさんは こたつを どう 言いましたか。",
    "opciones": [
-    "あぶない はつめいだ",
+    "たかい",
     "いい はつめいだ",
-    "たかい"
+    "あぶない はつめいだ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "With November the mornings turned cold. In my room there's only one heater. The electric heater warms up well, but the bill is expensive. Mrs Tanaka showed me a kotatsu: «this one isn't electric, it's cheap to run». Once you put your feet under the kotatsu, you don't want to take them out. I told Gonza and he said: «that invention is dangerous»."

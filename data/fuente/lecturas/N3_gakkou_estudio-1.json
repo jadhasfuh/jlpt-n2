@@ -7,12 +7,12 @@
   {
    "p": "<ruby>知識<rt>ちしき</rt></ruby>をふやすだけでは、どうですか。",
    "opciones": [
-    "<ruby>理解<rt>りかい</rt></ruby>に<ruby>達<rt>たっ</rt></ruby>する",
     "<ruby>理解<rt>りかい</rt></ruby>には<ruby>達<rt>たっ</rt></ruby>しない",
-    "<ruby>才能<rt>さいのう</rt></ruby>になる",
-    "<ruby>十分<rt>じゅうぶん</rt></ruby>だ"
+    "<ruby>理解<rt>りかい</rt></ruby>に<ruby>達<rt>たっ</rt></ruby>する",
+    "<ruby>十分<rt>じゅうぶん</rt></ruby>だ",
+    "<ruby>才能<rt>さいのう</rt></ruby>になる"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって、<ruby>一<rt>ひと</rt></ruby>つの<ruby>才能<rt>さいのう</rt></ruby>とは<ruby>何<rt>なに</rt></ruby>ですか。",

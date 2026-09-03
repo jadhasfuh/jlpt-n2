@@ -16,20 +16,20 @@
   {
    "p": "カルロスさんは なにを <ruby>見<rt>み</rt></ruby>せましたか。",
    "opciones": [
-    "ざいりゅうカード",
     "がくせいしょう",
+    "ざいりゅうカード",
     "パスポート"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "おまわりさんは なんと 言いましたか。",
    "opciones": [
-    "「きを つけて かえって ください」",
     "「<ruby>来<rt>き</rt></ruby>て ください」",
-    "「だめです」"
+    "「だめです」",
+    "「きを つけて かえって ください」"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "One night, on my way home, I was stopped on my bicycle. The policeman asked: «is this bicycle yours?». I showed him my residence card. It lasted about three minutes, but my heart raced. He said: «get home safely». I've done nothing wrong, but moments like that always frighten me a little."

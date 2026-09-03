@@ -16,20 +16,20 @@
   {
    "p": "ビザを かえるには なにが ひつようですか。",
    "opciones": [
-    "<ruby>日本語<rt>にほんご</rt></ruby>の しけん",
     "おかね",
+    "<ruby>日本語<rt>にほんご</rt></ruby>の しけん",
     "<ruby>会社<rt>かいしゃ</rt></ruby>の てがみ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ミンさんは どのくらい かかりましたか。",
    "opciones": [
-    "<ruby>三年<rt>さんねん</rt></ruby>",
     "<ruby>一年<rt>いちねん</rt></ruby>",
-    "<ruby>十年<rt>じゅうねん</rt></ruby>"
+    "<ruby>十年<rt>じゅうねん</rt></ruby>",
+    "<ruby>三年<rt>さんねん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Min says that next year he wants to work at a company. When school finishes he'll have to change his visa. «Without passing the Japanese exam it's impossible», he told me. It has taken him three years to get this far. I'm only in my first. Listening to him, I thought about what comes next for the first time."

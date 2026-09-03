@@ -26,10 +26,10 @@
    "p": "この<ruby>会社<rt>かいしゃ</rt></ruby>は<ruby>何人<rt>なんにん</rt></ruby>いますか。",
    "opciones": [
     "<ruby>五人<rt>ごにん</rt></ruby>",
-    "<ruby>十五人<rt>じゅうごにん</rt></ruby>",
-    "<ruby>五十人<rt>ごじゅうにん</rt></ruby>"
+    "<ruby>五十人<rt>ごじゅうにん</rt></ruby>",
+    "<ruby>十五人<rt>じゅうごにん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "Our company is small: fifteen of us in all. The president is always the first to arrive. In the morning, the one who cleans the office is him. When I said «you don't have to do that», he laughed and answered: «if you move your body, your head works». In meetings too he listens to what everyone says first. Then he says what he thinks. That's why in this company it's easy to give your opinion."

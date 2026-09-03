@@ -25,11 +25,11 @@
   {
    "p": "どこへ<ruby>行<rt>い</rt></ruby>く<ruby>約束<rt>やくそく</rt></ruby>をしましたか。",
    "opciones": [
-    "<ruby>遊園地<rt>ゆうえんち</rt></ruby>",
     "<ruby>広場<rt>ひろば</rt></ruby>",
-    "<ruby>農村<rt>のうそん</rt></ruby>"
+    "<ruby>農村<rt>のうそん</rt></ruby>",
+    "<ruby>遊園地<rt>ゆうえんち</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Before the festival, the council staff were getting the main avenue ready. Beside the square there's an old bookshop and a temple. I prayed at the temple, then crossed the level crossing and walked towards the iron bridge. Opposite the fire station I ran into a friend, and we agreed to go to the amusement park as soon as we'd finished our errands."

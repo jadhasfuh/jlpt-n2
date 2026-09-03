@@ -7,12 +7,12 @@
   {
    "p": "ひとりぐらしを<ruby>始<rt>はじ</rt></ruby>めたころ、どうでしたか。",
    "opciones": [
-    "たのしかった",
     "よる<ruby>寂<rt>さび</rt></ruby>しくて<ruby>怖<rt>こわ</rt></ruby>かった",
+    "たのしかった",
     "<ruby>気<rt>き</rt></ruby>にならなかった",
     "<ruby>母<rt>はは</rt></ruby>といた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "つらい<ruby>気持<rt>きも</rt></ruby>ちについて、<ruby>何<rt>なに</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりましたか。",

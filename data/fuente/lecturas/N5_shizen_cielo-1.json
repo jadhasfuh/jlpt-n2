@@ -16,20 +16,20 @@
   {
    "p": "やまに のぼると どう なりますか。",
    "opciones": [
-    "<ruby>黒<rt>くろ</rt></ruby>い そらが <ruby>見<rt>み</rt></ruby>えます",
     "なにも <ruby>見<rt>み</rt></ruby>えません",
+    "<ruby>黒<rt>くろ</rt></ruby>い そらが <ruby>見<rt>み</rt></ruby>えます",
     "あかるいです"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>二人<rt>ふたり</rt></ruby>は そこで なにを しましたか。",
    "opciones": [
-    "すわって いました",
     "はなしました",
-    "しゃしんを とりました"
+    "しゃしんを とりました",
+    "すわって いました"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The sky over Kobe never gets very dark, even at night. It's because the city has so many lights. Out in the countryside in Mexico you could see masses of stars. But if you climb the mountain, you can see a black sky here too. Gonza and I went up and sat there for about an hour. Neither of us said anything."

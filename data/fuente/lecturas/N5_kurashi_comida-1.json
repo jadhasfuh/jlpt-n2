@@ -16,20 +16,20 @@
   {
    "p": "みせの <ruby>人<rt>ひと</rt></ruby>は なにを しましたか。",
    "opciones": [
+    "なにも しませんでした",
     "<ruby>魚<rt>さかな</rt></ruby>を くれました",
-    "おかねを とりました",
-    "なにも しませんでした"
+    "おかねを とりました"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ゴンサさんは なにを かいましたか。",
    "opciones": [
-    "<ruby>紅茶<rt>こうちゃ</rt></ruby>",
+    "<ruby>果物<rt>くだもの</rt></ruby>",
     "<ruby>魚<rt>さかな</rt></ruby>",
-    "<ruby>果物<rt>くだもの</rt></ruby>"
+    "<ruby>紅茶<rt>こうちゃ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "In the morning we went to the market. The fish are lined up on the ice. A seller handed me a small fish: «try it». It had nothing but salt on it and tasted incredibly sweet. Gonza bought a tea and carried it with both hands. The vegetables and fruit looked bigger than in Kobe."

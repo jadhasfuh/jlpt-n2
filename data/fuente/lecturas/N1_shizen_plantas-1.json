@@ -7,12 +7,12 @@
   {
    "p": "<ruby>冬<rt>ふゆ</rt></ruby>のあいだ、<ruby>根<rt>ね</rt></ruby>のまわりに<ruby>何<rt>なに</rt></ruby>をしますか。",
    "opciones": [
-    "<ruby>水<rt>みず</rt></ruby>をやる",
     "<ruby>落葉<rt>おちば</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めて<ruby>敷<rt>し</rt></ruby>く",
+    "<ruby>何<rt>なに</rt></ruby>もしない",
     "<ruby>枝<rt>えだ</rt></ruby>を<ruby>切<rt>き</rt></ruby>る",
-    "<ruby>何<rt>なに</rt></ruby>もしない"
+    "<ruby>水<rt>みず</rt></ruby>をやる"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>枝<rt>えだ</rt></ruby>を<ruby>切<rt>き</rt></ruby>りすぎると、どうなりますか。",

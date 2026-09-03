@@ -7,12 +7,12 @@
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どものころ、<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
-    "<ruby>島<rt>しま</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った",
     "<ruby>地図<rt>ちず</rt></ruby>の<ruby>島<rt>しま</rt></ruby>をかぞえた",
     "<ruby>貿易<rt>ぼうえき</rt></ruby>をした",
-    "<ruby>会<rt>かい</rt></ruby>に<ruby>出<rt>で</rt></ruby>た"
+    "<ruby>会<rt>かい</rt></ruby>に<ruby>出<rt>で</rt></ruby>た",
+    "<ruby>島<rt>しま</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>島<rt>しま</rt></ruby>は<ruby>行<rt>い</rt></ruby>ってみてどうでしたか。",

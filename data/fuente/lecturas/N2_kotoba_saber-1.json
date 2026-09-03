@@ -16,20 +16,20 @@
   {
    "p": "<ruby>相手<rt>あいて</rt></ruby>はどこにいましたか。",
    "opciones": [
+    "<ruby>駅<rt>えき</rt></ruby>の<ruby>中<rt>なか</rt></ruby>",
     "<ruby>南口<rt>みなみぐち</rt></ruby>",
-    "<ruby>北口<rt>きたぐち</rt></ruby>",
-    "<ruby>駅<rt>えき</rt></ruby>の<ruby>中<rt>なか</rt></ruby>"
+    "<ruby>北口<rt>きたぐち</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>次<rt>つぎ</rt></ruby>からどうしますか。",
    "opciones": [
-    "<ruby>前<rt>まえ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>に<ruby>確<rt>たし</rt></ruby>かめる",
+    "<ruby>電話<rt>でんわ</rt></ruby>する",
     "<ruby>早<rt>はや</rt></ruby>く<ruby>行<rt>い</rt></ruby>く",
-    "<ruby>電話<rt>でんわ</rt></ruby>する"
+    "<ruby>前<rt>まえ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>に<ruby>確<rt>たし</rt></ruby>かめる"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I got the meeting place wrong. I understood it to be the north exit and the other person was at the south. A slip as small as this can end up being a big problem. I decided that from now on I'll confirm it the day before. The other person didn't get angry and laughed: «I know all about it, it's always the same»."

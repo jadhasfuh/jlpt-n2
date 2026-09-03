@@ -16,20 +16,20 @@
   {
    "p": "<ruby>質<rt>しつ</rt></ruby>はどうでしたか。",
    "opciones": [
+    "<ruby>同<rt>おな</rt></ruby>じ",
     "<ruby>前<rt>まえ</rt></ruby>より<ruby>良<rt>よ</rt></ruby>い",
-    "<ruby>低下<rt>ていか</rt></ruby>した",
-    "<ruby>同<rt>おな</rt></ruby>じ"
+    "<ruby>低下<rt>ていか</rt></ruby>した"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>に<ruby>驚<rt>おどろ</rt></ruby>きますか。",
    "opciones": [
-    "できあがりの<ruby>早<rt>はや</rt></ruby>さ",
+    "<ruby>種類<rt>しゅるい</rt></ruby>",
     "<ruby>値段<rt>ねだん</rt></ruby>",
-    "<ruby>種類<rt>しゅるい</rt></ruby>"
+    "できあがりの<ruby>早<rt>はや</rt></ruby>さ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The shop's frozen section grew and they added more varieties. I feared the quality would drop, but thanks to the overhaul it's better than before. For basic-level cooking, this is more than enough. It isn't that they can be reused in a cycle like a battery, but the base has been strengthened. Every time I see something new, I'm surprised how quickly it's ready."

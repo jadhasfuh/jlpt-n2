@@ -7,12 +7,12 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>去年<rt>きょねん</rt></ruby>の<ruby>夏<rt>なつ</rt></ruby>のあと、<ruby>山<rt>やま</rt></ruby>に<ruby>行<rt>い</rt></ruby>きましたか。",
    "opciones": [
-    "<ruby>何度<rt>なんど</rt></ruby>も<ruby>行<rt>い</rt></ruby>った",
     "<ruby>一度<rt>いちど</rt></ruby>も<ruby>行<rt>い</rt></ruby>っていない",
+    "<ruby>何度<rt>なんど</rt></ruby>も<ruby>行<rt>い</rt></ruby>った",
     "<ruby>冬<rt>ふゆ</rt></ruby>に<ruby>行<rt>い</rt></ruby>った",
     "<ruby>毎月<rt>まいつき</rt></ruby><ruby>行<rt>い</rt></ruby>っている"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>谷<rt>たに</rt></ruby>をすぎると、<ruby>土地<rt>とち</rt></ruby>はどうなりましたか。",

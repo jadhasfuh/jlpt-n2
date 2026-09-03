@@ -7,12 +7,12 @@
   {
    "p": "<ruby>矢<rt>や</rt></ruby>が<ruby>放<rt>はな</rt></ruby>たれたあと、どうなりましたか。",
    "opciones": [
-    "すぐに<ruby>拍手<rt>はくしゅ</rt></ruby>が<ruby>起<rt>お</rt></ruby>きた",
     "<ruby>拍手<rt>はくしゅ</rt></ruby>まで<ruby>数秒<rt>すうびょう</rt></ruby>の<ruby>間<rt>ま</rt></ruby>があった",
-    "<ruby>的<rt>まと</rt></ruby>に<ruby>当<rt>あ</rt></ruby>たらなかった",
-    "<ruby>行事<rt>ぎょうじ</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった"
+    "<ruby>行事<rt>ぎょうじ</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった",
+    "すぐに<ruby>拍手<rt>はくしゅ</rt></ruby>が<ruby>起<rt>お</rt></ruby>きた",
+    "<ruby>的<rt>まと</rt></ruby>に<ruby>当<rt>あ</rt></ruby>たらなかった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>行事<rt>ぎょうじ</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。",

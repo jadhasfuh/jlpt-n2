@@ -16,20 +16,20 @@
   {
    "p": "<ruby>医者<rt>いしゃ</rt></ruby>は なんと 言いましたか。",
    "opciones": [
+    "「<ruby>薬<rt>くすり</rt></ruby>は いりません」",
     "「たいした ことは ありません」",
-    "「<ruby>入<rt>にゅう</rt></ruby>いんして ください」",
-    "「<ruby>薬<rt>くすり</rt></ruby>は いりません」"
+    "「<ruby>入<rt>にゅう</rt></ruby>いんして ください」"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "くすりは いくらでしたか。",
    "opciones": [
-    "ごひゃくえん",
+    "ただ",
     "ごせんえん",
-    "ただ"
+    "ごひゃくえん"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "As my cold wasn't going away, I went to the hospital. I showed my insurance card and it turns out I only pay thirty per cent. The doctor looked at my throat and said: «it's nothing serious». Three days' medicine cost five hundred yen. I told Anna and she laughed: «Japanese insurance doesn't let you down, does it?». When I got better I felt for the first time that this country was looking after me a little."

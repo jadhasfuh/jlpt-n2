@@ -7,22 +7,22 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>絵<rt>え</rt></ruby>をかくのはなぜですか。",
    "opciones": [
+    "<ruby>先生<rt>せんせい</rt></ruby>に<ruby>言<rt>い</rt></ruby>われたから",
     "うまくなりたいから",
     "かいている<ruby>時間<rt>じかん</rt></ruby>がすきだから",
-    "<ruby>先生<rt>せんせい</rt></ruby>に<ruby>言<rt>い</rt></ruby>われたから",
     "<ruby>時間<rt>じかん</rt></ruby>があるから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>のことばのけっかはどうですか。",
    "opciones": [
-    "<ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>でやめる",
-    "たいてい<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>になる",
+    "かわらない",
     "かけなくなる",
-    "かわらない"
+    "<ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>でやめる",
+    "たいてい<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>になる"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "With a hobby, keeping it up is harder than starting. I've been drawing for pleasure for ten years. More than wanting to improve, what I like is the time I spend drawing. When my children were small, I drew in snatches while tidying up the toys. Now I have more time and yet sometimes my hand stops. The teacher at the workshop often says: «just draw for five minutes, please». If you keep drawing for five minutes, you usually end up putting in an hour."

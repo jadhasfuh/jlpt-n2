@@ -7,22 +7,22 @@
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どもたちは、いつから<ruby>列<rt>れつ</rt></ruby>をつくっていましたか。",
    "opciones": [
+    "<ruby>前<rt>まえ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>から",
     "<ruby>開始<rt>かいし</rt></ruby>のあと",
     "<ruby>開始<rt>かいし</rt></ruby>の<ruby>一時間<rt>いちじかん</rt></ruby><ruby>前<rt>まえ</rt></ruby>",
-    "<ruby>昼<rt>ひる</rt></ruby>から",
-    "<ruby>前<rt>まえ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>から"
+    "<ruby>昼<rt>ひる</rt></ruby>から"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は、<ruby>百円<rt>ひゃくえん</rt></ruby>で<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>っていると<ruby>考<rt>かんが</rt></ruby>えていますか。",
    "opciones": [
-    "<ruby>景品<rt>けいひん</rt></ruby>の<ruby>玩具<rt>がんぐ</rt></ruby>",
-    "くじを<ruby>引<rt>ひ</rt></ruby>く<ruby>数秒<rt>すうびょう</rt></ruby>",
     "<ruby>当<rt>あ</rt></ruby>たりの<ruby>確率<rt>かくりつ</rt></ruby>",
-    "<ruby>祭<rt>まつ</rt></ruby>りの<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>"
+    "<ruby>景品<rt>けいひん</rt></ruby>の<ruby>玩具<rt>がんぐ</rt></ruby>",
+    "<ruby>祭<rt>まつ</rt></ruby>りの<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>",
+    "くじを<ruby>引<rt>ひ</rt></ruby>く<ruby>数秒<rt>すうびょう</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "At the summer festival I was put in charge of the raffle stall. In the morning I collected the entry fees and set the prize toys out on the table. The children were queuing an hour before the start. Whatever prize came out, they all had happy faces. Whether you win or not, the fun must be the instant of pulling out the slip. Some adults say it's like gambling, but what you buy for a hundred yen is those few seconds. When it was over I gathered up the leftover toys and put them back in the box. Next year exactly the same ones will come out. The same prizes, the same table, the same queue. I thought that the fact of something not changing is, in itself, a gift."

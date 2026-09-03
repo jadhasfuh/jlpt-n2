@@ -7,12 +7,12 @@
   {
    "p": "<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>習<rt>なら</rt></ruby>ったのは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>海<rt>うみ</rt></ruby>での<ruby>潜<rt>もぐ</rt></ruby>り<ruby>方<rt>かた</rt></ruby>",
     "<ruby>専用<rt>せんよう</rt></ruby>のプールでの<ruby>呼吸<rt>こきゅう</rt></ruby>の<ruby>仕方<rt>しかた</rt></ruby>",
     "<ruby>台風<rt>たいふう</rt></ruby>の<ruby>見分<rt>みわ</rt></ruby>け<ruby>方<rt>かた</rt></ruby>",
+    "<ruby>海<rt>うみ</rt></ruby>での<ruby>潜<rt>もぐ</rt></ruby>り<ruby>方<rt>かた</rt></ruby>",
     "<ruby>道具<rt>どうぐ</rt></ruby>の<ruby>直<rt>なお</rt></ruby>し<ruby>方<rt>かた</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>成熟<rt>せいじゅく</rt></ruby>した<ruby>潜水士<rt>せんすいし</rt></ruby>は、いつ<ruby>一番<rt>いちばん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>をかけますか。",

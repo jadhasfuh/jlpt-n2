@@ -7,12 +7,12 @@
   {
    "p": "<ruby>火災<rt>かさい</rt></ruby>のとき、いちばんあぶないものは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>炎<rt>ほのお</rt></ruby>",
     "<ruby>煙<rt>けむり</rt></ruby>",
+    "<ruby>炎<rt>ほのお</rt></ruby>",
     "<ruby>石炭<rt>せきたん</rt></ruby>",
     "<ruby>金属<rt>きんぞく</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>鉄<rt>てつ</rt></ruby>とプラスチックのようすがちがうのは、なぜですか。",

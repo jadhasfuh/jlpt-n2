@@ -16,20 +16,20 @@
   {
    "p": "<ruby>教室<rt>きょうしつ</rt></ruby>に <ruby>生徒<rt>せいと</rt></ruby>は なんにん いますか。",
    "opciones": [
-    "じゅうごにん",
     "ごにん",
+    "じゅうごにん",
     "ごじゅうにん"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "はじめの ひ、となりに すわったのは だれですか。",
    "opciones": [
-    "ゴンサ",
     "ジャン",
-    "ミンさん"
+    "ミンさん",
+    "ゴンサ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "My school isn't a university. It's a language school. There are fifteen of us in the classroom. Half the class comes from Asia and half from South America. Lessons run from nine in the morning to one in the afternoon. There's homework every day. And not a little. On the first day, the one who sat down next to me was Gonza."

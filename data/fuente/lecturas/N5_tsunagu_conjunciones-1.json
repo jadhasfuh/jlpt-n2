@@ -16,20 +16,20 @@
   {
    "p": "ふくろは どんな ふくろですか。",
    "opciones": [
-    "<ruby>市<rt>し</rt></ruby>の ふくろ",
     "どんな ふくろでも いい",
+    "<ruby>市<rt>し</rt></ruby>の ふくろ",
     "スーパーの ふくろ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>大<rt>おお</rt></ruby>きい ごみは どう しますか。",
    "opciones": [
-    "でんわで よやくします",
     "<ruby>外<rt>そと</rt></ruby>に <ruby>出<rt>だ</rt></ruby>します",
-    "もえる ごみと いっしょに <ruby>出<rt>だ</rt></ruby>します"
+    "もえる ごみと いっしょに <ruby>出<rt>だ</rt></ruby>します",
+    "でんわで よやくします"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Before handing back the flat you have to clear everything out. Burnable rubbish goes out twice a week, between five and eight in the morning. But if it isn't in the city's official bag, they won't take it. Cans, bottles and PET are Wednesdays. And packaging plastic once a week. What caused me most trouble, though, was the futon. Large items have to be booked by phone, and they told me it takes two weeks."

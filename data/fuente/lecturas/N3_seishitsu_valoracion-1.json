@@ -7,12 +7,12 @@
   {
    "p": "<ruby>持<rt>も</rt></ruby>ち<ruby>主<rt>ぬし</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>話<rt>はな</rt></ruby>していましたか。",
    "opciones": [
-    "<ruby>豪華<rt>ごうか</rt></ruby>だ",
     "<ruby>最低<rt>さいてい</rt></ruby><ruby>五十<rt>ごじゅう</rt></ruby><ruby>年<rt>ねん</rt></ruby><em class=\"g\">は</em><ruby>使<rt>つか</rt></ruby>っている",
     "こわれている",
-    "<ruby>新<rt>あたら</rt></ruby>しい"
+    "<ruby>新<rt>あたら</rt></ruby>しい",
+    "<ruby>豪華<rt>ごうか</rt></ruby>だ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>価値<rt>かち</rt></ruby>があるのは<ruby>何<rt>なに</rt></ruby>だと<ruby>言<rt>い</rt></ruby>っていますか。",

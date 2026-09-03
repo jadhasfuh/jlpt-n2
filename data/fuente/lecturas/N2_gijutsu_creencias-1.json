@@ -16,20 +16,20 @@
   {
    "p": "<ruby>坊<rt>ぼう</rt></ruby>さんは<ruby>何<rt>なに</rt></ruby>をしますか。",
    "opciones": [
+    "<ruby>歌<rt>うた</rt></ruby>う",
     "<ruby>神話<rt>しんわ</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む",
-    "<ruby>米<rt>こめ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る",
-    "<ruby>歌<rt>うた</rt></ruby>う"
+    "<ruby>米<rt>こめ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>祖父<rt>そふ</rt></ruby>は<ruby>毎年<rt>まいとし</rt></ruby><ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。",
    "opciones": [
-    "「おかげさまで<ruby>無事<rt>ぶじ</rt></ruby>だ」",
     "「<ruby>迷信<rt>めいしん</rt></ruby>だ」",
-    "「<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>る」"
+    "「<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>る」",
+    "「おかげさまで<ruby>無事<rt>ぶじ</rt></ruby>だ」"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Every year, in the village there's a ceremony where rice is offered to the gods. The monk reads an old myth aloud and we all listen. There's a superstition that if it rains the rice grows well; even so, that's better than doing nothing: it settles the mind. My grandfather says the same thing every year: «thanks to you, this year too we've been well»."

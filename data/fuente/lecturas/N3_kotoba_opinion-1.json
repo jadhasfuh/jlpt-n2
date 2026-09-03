@@ -7,22 +7,22 @@
   {
    "p": "なぜ<ruby>結論<rt>けつろん</rt></ruby>が<ruby>出<rt>で</rt></ruby>ませんでしたか。",
    "opciones": [
-    "<ruby>時間<rt>じかん</rt></ruby>がないから",
-    "<ruby>意見<rt>いけん</rt></ruby>が<ruby>一致<rt>いっち</rt></ruby>しなかったから",
     "<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから",
-    "ていあんが<ruby>多<rt>おお</rt></ruby>いから"
+    "ていあんが<ruby>多<rt>おお</rt></ruby>いから",
+    "<ruby>意見<rt>いけん</rt></ruby>が<ruby>一致<rt>いっち</rt></ruby>しなかったから",
+    "<ruby>時間<rt>じかん</rt></ruby>がないから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>納得<rt>なっとく</rt></ruby>しないまま<ruby>完了<rt>かんりょう</rt></ruby>した<ruby>仕事<rt>しごと</rt></ruby>は、どうなりますか。",
    "opciones": [
+    "わすれられる",
     "うまくいく",
-    "あとで<ruby>反抗<rt>はんこう</rt></ruby>のかたちであらわれる",
     "はやく<ruby>終<rt>お</rt></ruby>わる",
-    "わすれられる"
+    "あとで<ruby>反抗<rt>はんこう</rt></ruby>のかたちであらわれる"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "At the meeting no conclusion came out. It was because the opinions didn't match. If it's all criticism and there are no proposals, things don't move forward. So I asked the person who was opposing: «and instead, what do you think should be done?». I never resort to making someone approve something by keeping quiet. Work closed off without people taking it on always comes back in the form of resistance. It took time, but it ended up taking a shape everyone accepted."

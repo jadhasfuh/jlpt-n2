@@ -7,22 +7,22 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>がとくにむずかしいと<ruby>思<rt>おも</rt></ruby>ったのは、<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>書<rt>か</rt></ruby>き<ruby>方<rt>かた</rt></ruby>",
-    "<ruby>言葉<rt>ことば</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>やうしろに<ruby>付<rt>つ</rt></ruby>く<ruby>部分<rt>ぶぶん</rt></ruby>",
     "<ruby>数<rt>かず</rt></ruby>の<ruby>読<rt>よ</rt></ruby>み<ruby>方<rt>かた</rt></ruby>",
-    "<ruby>祭<rt>まつ</rt></ruby>りの<ruby>名前<rt>なまえ</rt></ruby>"
+    "<ruby>祭<rt>まつ</rt></ruby>りの<ruby>名前<rt>なまえ</rt></ruby>",
+    "<ruby>言葉<rt>ことば</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>やうしろに<ruby>付<rt>つ</rt></ruby>く<ruby>部分<rt>ぶぶん</rt></ruby>",
+    "<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>書<rt>か</rt></ruby>き<ruby>方<rt>かた</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "いま、この<ruby>人<rt>ひと</rt></ruby>はどう<ruby>感<rt>かん</rt></ruby>じていますか。",
    "opciones": [
-    "<ruby>規則<rt>きそく</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えるほうが<ruby>早<rt>はや</rt></ruby>い",
-    "<ruby>耳<rt>みみ</rt></ruby>が<ruby>先<rt>さき</rt></ruby>にわかる<ruby>気<rt>き</rt></ruby>がする",
     "もうならう<ruby>必要<rt>ひつよう</rt></ruby>がない",
-    "<ruby>日本語<rt>にほんご</rt></ruby>はきらいだ"
+    "<ruby>規則<rt>きそく</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えるほうが<ruby>早<rt>はや</rt></ruby>い",
+    "<ruby>日本語<rt>にほんご</rt></ruby>はきらいだ",
+    "<ruby>耳<rt>みみ</rt></ruby>が<ruby>先<rt>さき</rt></ruby>にわかる<ruby>気<rt>き</rt></ruby>がする"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "When I started learning Japanese, that short bit that attaches before or after words gave me a lot of trouble. Just putting «o» in front already sounds polite, and with «-teki» the sense widens. There are also others that go after numbers, like «-mei», «-fun» or «-en». Learning both was harder than learning vocabulary. When I lived in a town near the bay, among the decorations and the bustle of the festival, I realised that everyone used the same way of saying it. Since then I have the feeling that the ear understands before the rules do. I'm not good enough at it to win any prize, but, like water going through a pipe, it comes out more and more by itself."

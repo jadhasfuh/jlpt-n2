@@ -8,21 +8,21 @@
    "p": "<ruby>往診<rt>おうしん</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>は、<ruby>外来<rt>がいらい</rt></ruby>とどうちがいますか。",
    "opciones": [
     "<ruby>薬<rt>くすり</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い",
-    "<ruby>一時間<rt>いちじかん</rt></ruby>かけて<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>く",
     "<ruby>値段<rt>ねだん</rt></ruby>が<ruby>安<rt>やす</rt></ruby>い",
+    "<ruby>一時間<rt>いちじかん</rt></ruby>かけて<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>く",
     "<ruby>毎週<rt>まいしゅう</rt></ruby><ruby>来<rt>く</rt></ruby>る"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>微<rt>かす</rt></ruby>かな<ruby>変化<rt>へんか</rt></ruby>に<ruby>気<rt>き</rt></ruby>づけるのは、なぜですか。",
    "opciones": [
-    "<ruby>薬<rt>くすり</rt></ruby>が<ruby>効<rt>き</rt></ruby>いているから",
-    "<ruby>毎回<rt>まいかい</rt></ruby><ruby>同<rt>おな</rt></ruby>じ<ruby>人<rt>ひと</rt></ruby>が<ruby>看<rt>み</rt></ruby>ているから",
     "<ruby>祖母<rt>そぼ</rt></ruby>が<ruby>話<rt>はな</rt></ruby>すから",
-    "<ruby>家族<rt>かぞく</rt></ruby>がいるから"
+    "<ruby>家族<rt>かぞく</rt></ruby>がいるから",
+    "<ruby>薬<rt>くすり</rt></ruby>が<ruby>効<rt>き</rt></ruby>いているから",
+    "<ruby>毎回<rt>まいかい</rt></ruby><ruby>同<rt>おな</rt></ruby>じ<ruby>人<rt>ひと</rt></ruby>が<ruby>看<rt>み</rt></ruby>ているから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Since my grandmother injured her leg, there's a doctor who comes to see her at home once a month. A consultation that at the clinic would last five minutes he stretches to an hour by listening to her. More than the treatment with medicines, it seems it's that time that has the effect. My grandmother is rather fearful and hides her pain. If anyone can notice a tiny change it's because the same person always sees her. I, who for some months, busy with work, didn't drop by, have no right to use the word «care» lightly. My father keeps telling me to go and see her while she's well. Apparently a full recovery is already unlikely. Even so, the time I spend sitting beside her while they teach me how to look after her is precisely what deserves more care than anything else."

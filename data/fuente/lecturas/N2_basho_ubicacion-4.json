@@ -7,29 +7,29 @@
   {
    "p": "<ruby>三丁目<rt>さんちょうめ</rt></ruby>の<ruby>街角<rt>まちかど</rt></ruby>にあったのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>名所<rt>めいしょ</rt></ruby>",
     "<ruby>盆地<rt>ぼんち</rt></ruby>の<ruby>入口<rt>いりぐち</rt></ruby>",
+    "<ruby>名所<rt>めいしょ</rt></ruby>",
     "<ruby>北極<rt>ほっきょく</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>地図<rt>ちず</rt></ruby>を<ruby>裏返<rt>うらがえ</rt></ruby>すと<ruby>何<rt>なに</rt></ruby>がありましたか。",
    "opciones": [
-    "<ruby>方面<rt>ほうめん</rt></ruby>と<ruby>面積<rt>めんせき</rt></ruby>",
     "<ruby>身分<rt>みぶん</rt></ruby>",
+    "<ruby>方面<rt>ほうめん</rt></ruby>と<ruby>面積<rt>めんせき</rt></ruby>",
     "<ruby>表紙<rt>ひょうし</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>最後<rt>さいご</rt></ruby>に<ruby>何<rt>なに</rt></ruby>が<ruby>近寄<rt>ちかよ</rt></ruby>ってきましたか。",
    "opciones": [
     "<ruby>犬<rt>いぬ</rt></ruby>",
-    "<ruby>猫<rt>ねこ</rt></ruby>",
-    "<ruby>人<rt>ひと</rt></ruby>"
+    "<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>猫<rt>ねこ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "I looked at the map of the area and checked the direction. I was convinced the famous spot was on the corner of the third district, but when I got there it turned out to be the entrance to a small basin. When I turned the map over, the area and the surface came up. I sat on a bench, calmed down and rested with a cat that came over."

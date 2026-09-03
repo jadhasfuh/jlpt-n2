@@ -16,20 +16,20 @@
   {
    "p": "<ruby>名物<rt>めいぶつ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
+    "<ruby>牧畜<rt>ぼくちく</rt></ruby>",
     "<ruby>缶詰<rt>かんづめ</rt></ruby>",
-    "<ruby>水産<rt>すいさん</rt></ruby>",
-    "<ruby>牧畜<rt>ぼくちく</rt></ruby>"
+    "<ruby>水産<rt>すいさん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "どのくらいで<ruby>売<rt>う</rt></ruby>り<ruby>切<rt>き</rt></ruby>れましたか。",
    "opciones": [
-    "<ruby>十分<rt>じゅっぷん</rt></ruby>",
+    "<ruby>一日<rt>いちにち</rt></ruby>",
     "<ruby>一時間<rt>いちじかん</rt></ruby>",
-    "<ruby>一日<rt>いちにち</rt></ruby>"
+    "<ruby>十分<rt>じゅっぷん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The supermarket offer starts right on nine in the morning. The tinned goods it's famous for had a big discount and were in a very visible spot. The moment it opened people came in and within ten minutes they'd sold out. While I stood there hesitating, the shelf was already empty. I asked for the receipt and arranged for it to be sent to me by express post."

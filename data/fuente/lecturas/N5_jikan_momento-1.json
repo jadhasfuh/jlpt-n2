@@ -16,20 +16,20 @@
   {
    "p": "ミンさんは どう しますか。",
    "opciones": [
+    "<ruby>来<rt>き</rt></ruby>ません",
     "さいごまで のこります",
-    "さきに かえります",
-    "<ruby>来<rt>き</rt></ruby>ません"
+    "さきに かえります"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "かえりの みちは どうですか。",
    "opciones": [
-    "くらくて しずかです",
+    "にぎやかです",
     "あかるいです",
-    "にぎやかです"
+    "くらくて しずかです"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Work finishes at ten at night. We clear up and leave the shop together. Min always stays until the very end. They tell me «you can go on ahead», but I stay too. The walk home is dark and quiet. I'm tired, but I've grown fond of that hour."

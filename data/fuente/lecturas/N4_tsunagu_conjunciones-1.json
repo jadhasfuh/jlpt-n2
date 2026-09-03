@@ -7,12 +7,12 @@
   {
    "p": "どうりょうが<ruby>手<rt>て</rt></ruby>つだって、どうなりましたか。",
    "opciones": [
-    "おそくなった",
     "はんぶんの<ruby>時間<rt>じかん</rt></ruby>で<ruby>終<rt>お</rt></ruby>わった",
     "かわらなかった",
+    "おそくなった",
     "むずかしくなった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "つぎの<ruby>日<rt>ひ</rt></ruby>、どうりょうは<ruby>何<rt>なに</rt></ruby>をしましたか。",

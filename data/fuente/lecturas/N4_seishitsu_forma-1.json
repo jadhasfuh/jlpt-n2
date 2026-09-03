@@ -7,22 +7,22 @@
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どものころ、どこで<ruby>遊<rt>あそ</rt></ruby>びましたか。",
    "opciones": [
-    "<ruby>深<rt>ふか</rt></ruby>いところ",
-    "<ruby>浅<rt>あさ</rt></ruby>いところ",
     "ボートの<ruby>上<rt>うえ</rt></ruby>",
-    "<ruby>泳<rt>およ</rt></ruby>がなかった"
+    "<ruby>泳<rt>およ</rt></ruby>がなかった",
+    "<ruby>浅<rt>あさ</rt></ruby>いところ",
+    "<ruby>深<rt>ふか</rt></ruby>いところ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>力<rt>ちから</rt></ruby>をぬくと、どうなりましたか。",
    "opciones": [
     "しずんだ",
-    "からだがういた",
+    "こわくなった",
     "<ruby>足<rt>あし</rt></ruby>がとどいた",
-    "こわくなった"
+    "からだがういた"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "When you swim in the sea, the colour of the water changes between the shallow part and the deep. As a child I only played where it was shallow. The first time I went out to the deep part, in a small boat, it frightened me not to reach the bottom with my feet. But when I simply let my body go, I floated. I hope anyone who's afraid will try it too. Because it's precisely in the deep part that floating is easiest."

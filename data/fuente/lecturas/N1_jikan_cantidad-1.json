@@ -8,21 +8,21 @@
    "p": "<ruby>演技<rt>えんぎ</rt></ruby>について、じっさいに<ruby>効<rt>き</rt></ruby>くのは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
     "<ruby>気持<rt>きも</rt></ruby>ちを<ruby>込<rt>こ</rt></ruby>めること",
-    "<ruby>立<rt>た</rt></ruby>つ<ruby>位置<rt>いち</rt></ruby>や<ruby>間<rt>ま</rt></ruby>の<ruby>取<rt>と</rt></ruby>り<ruby>方<rt>かた</rt></ruby>",
     "<ruby>声<rt>こえ</rt></ruby>を<ruby>張<rt>は</rt></ruby>ること",
+    "<ruby>立<rt>た</rt></ruby>つ<ruby>位置<rt>いち</rt></ruby>や<ruby>間<rt>ま</rt></ruby>の<ruby>取<rt>と</rt></ruby>り<ruby>方<rt>かた</rt></ruby>",
     "<ruby>台詞<rt>せりふ</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>舞台<rt>ぶたい</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>で<ruby>何<rt>なに</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりましたか。",
    "opciones": [
-    "<ruby>上手<rt>じょうず</rt></ruby>にやることが<ruby>大事<rt>だいじ</rt></ruby>だ",
-    "<ruby>丸<rt>まる</rt></ruby>ごと<ruby>引<rt>ひ</rt></ruby>き<ruby>受<rt>う</rt></ruby>けることが<ruby>何<rt>なに</rt></ruby>より<ruby>大事<rt>だいじ</rt></ruby>だ",
     "<ruby>稽古<rt>けいこ</rt></ruby>は<ruby>足<rt>た</rt></ruby>りなかった",
-    "<ruby>主役<rt>しゅやく</rt></ruby>は<ruby>向<rt>む</rt></ruby>いていない"
+    "<ruby>主役<rt>しゅやく</rt></ruby>は<ruby>向<rt>む</rt></ruby>いていない",
+    "<ruby>上手<rt>じょうず</rt></ruby>にやることが<ruby>大事<rt>だいじ</rt></ruby>だ",
+    "<ruby>丸<rt>まる</rt></ruby>ごと<ruby>引<rt>ひ</rt></ruby>き<ruby>受<rt>う</rt></ruby>けることが<ruby>何<rt>なに</rt></ruby>より<ruby>大事<rt>だいじ</rt></ruby>だ"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "In the neighbourhood theatre group I was given a part for the first time. I don't have that many lines, but as the rehearsals piled up, the nerves grew. It's often said that acting consists of putting feeling in and that way it reaches the audience. But in practice your position on stage and your handling of the pauses do more. The director is an older man and he told me off with particular severity: «you, playing the lead, don't settle for raising your voice». There were nights when I was left without a scrap of confidence. Even so I somehow made it to opening night. I put a flower on the table and waited for the curtain to go up. On stage I understood that, more than doing it well, what matters above all is taking it on whole."

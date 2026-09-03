@@ -7,22 +7,22 @@
   {
    "p": "はじめの<ruby>日記<rt>にっき</rt></ruby>はどんなものでしたか。",
    "opciones": [
-    "ながい<ruby>文<rt>ぶん</rt></ruby>",
     "<ruby>漫画<rt>まんが</rt></ruby><em class=\"g\">みたいな</em><ruby>絵<rt>え</rt></ruby>ばかり",
-    "<ruby>小説<rt>しょうせつ</rt></ruby>",
-    "<ruby>何<rt>なに</rt></ruby>も<ruby>書<rt>か</rt></ruby>かなかった"
+    "ながい<ruby>文<rt>ぶん</rt></ruby>",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>書<rt>か</rt></ruby>かなかった",
+    "<ruby>小説<rt>しょうせつ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しましたか。",
    "opciones": [
+    "<ruby>忘<rt>わす</rt></ruby>れ<ruby>物<rt>もの</rt></ruby>をするな",
     "よく<ruby>書<rt>か</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>はよく<ruby>読<rt>よ</rt></ruby>む<ruby>人<rt>ひと</rt></ruby>だ",
-    "<ruby>日記<rt>にっき</rt></ruby>を<ruby>書<rt>か</rt></ruby>きなさい",
     "<ruby>小説<rt>しょうせつ</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みなさい",
-    "<ruby>忘<rt>わす</rt></ruby>れ<ruby>物<rt>もの</rt></ruby>をするな"
+    "<ruby>日記<rt>にっき</rt></ruby>を<ruby>書<rt>か</rt></ruby>きなさい"
    ],
-   "correcta": 0
+   "correcta": 1
   }
  ],
  "traduccion_en": "I've kept a diary since secondary school. At first it was just drawings that looked like a comic. Now there are days when I write so much that people say it looks like a novel. In the literature class the teacher said: «whoever writes a lot is whoever reads a lot». And it's true: words from the books I've read turn up in my writing. Yesterday I left my textbook behind and had to go back for what I'd forgotten. I wrote that in the diary too."

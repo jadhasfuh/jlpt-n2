@@ -7,12 +7,12 @@
   {
    "p": "<ruby>実験<rt>じっけん</rt></ruby>で、<ruby>待<rt>ま</rt></ruby>っているあいだはどうでしたか。",
    "opciones": [
-    "おもしろかった",
     "<ruby>長<rt>なが</rt></ruby>くて<ruby>退屈<rt>たいくつ</rt></ruby>だった",
-    "<ruby>短<rt>みじか</rt></ruby>かった",
-    "<ruby>忙<rt>いそが</rt></ruby>しかった"
+    "<ruby>忙<rt>いそが</rt></ruby>しかった",
+    "おもしろかった",
+    "<ruby>短<rt>みじか</rt></ruby>かった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>金属<rt>きんぞく</rt></ruby>についてどう<ruby>説明<rt>せつめい</rt></ruby>しましたか。",

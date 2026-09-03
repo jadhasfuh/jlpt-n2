@@ -7,12 +7,12 @@
   {
    "p": "<ruby>交渉<rt>こうしょう</rt></ruby>の<ruby>目的<rt>もくてき</rt></ruby>は<ruby>何<rt>なん</rt></ruby>だと<ruby>説明<rt>せつめい</rt></ruby>されていましたか。",
    "opciones": [
-    "<ruby>工場<rt>こうじょう</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やすこと",
     "<ruby>費用<rt>ひよう</rt></ruby>の<ruby>削減<rt>さくげん</rt></ruby>",
     "<ruby>人<rt>ひと</rt></ruby>を<ruby>雇<rt>やと</rt></ruby>うこと",
-    "<ruby>機械<rt>きかい</rt></ruby>の<ruby>開発<rt>かいはつ</rt></ruby>"
+    "<ruby>機械<rt>きかい</rt></ruby>の<ruby>開発<rt>かいはつ</rt></ruby>",
+    "<ruby>工場<rt>こうじょう</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やすこと"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は、どんな<ruby>合意<rt>ごうい</rt></ruby>は<ruby>長<rt>なが</rt></ruby>く<ruby>続<rt>つづ</rt></ruby>かないと<ruby>考<rt>かんが</rt></ruby>えていますか。",

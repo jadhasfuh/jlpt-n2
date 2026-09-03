@@ -16,20 +16,20 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>停車<rt>ていしゃ</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>古<rt>ふる</rt></ruby>い<ruby>機関車<rt>きかんしゃ</rt></ruby>",
     "<ruby>船<rt>ふね</rt></ruby>",
+    "<ruby>古<rt>ふる</rt></ruby>い<ruby>機関車<rt>きかんしゃ</rt></ruby>",
     "<ruby>風船<rt>ふうせん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どもは<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていましたか。",
    "opciones": [
     "<ruby>歯車<rt>はぐるま</rt></ruby>",
-    "<ruby>風船<rt>ふうせん</rt></ruby>",
-    "<ruby>時間割<rt>じかんわり</rt></ruby>"
+    "<ruby>時間割<rt>じかんわり</rt></ruby>",
+    "<ruby>風船<rt>ふうせん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "Since I moved to this town, every morning I change trains at the same station. Just as I was looking at the timetable on a platform with a lot of foot traffic, an old locomotive pulled in. The windows were so clear you could even see the gears. A child ran past with a balloon and overtook me."

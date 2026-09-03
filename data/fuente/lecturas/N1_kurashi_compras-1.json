@@ -8,21 +8,21 @@
    "p": "この<ruby>通<rt>とお</rt></ruby>りに<ruby>値引<rt>ねび</rt></ruby>きの<ruby>札<rt>ふだ</rt></ruby>が<ruby>出<rt>で</rt></ruby>ていないのは、なぜですか。",
    "opciones": [
     "<ruby>高<rt>たか</rt></ruby>い<ruby>店<rt>みせ</rt></ruby>だから",
-    "<ruby>業者<rt>ぎょうしゃ</rt></ruby>が<ruby>仕入<rt>しい</rt></ruby>れに<ruby>来<rt>く</rt></ruby>る<ruby>場所<rt>ばしょ</rt></ruby>だから",
     "<ruby>品<rt>しな</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから",
+    "<ruby>業者<rt>ぎょうしゃ</rt></ruby>が<ruby>仕入<rt>しい</rt></ruby>れに<ruby>来<rt>く</rt></ruby>る<ruby>場所<rt>ばしょ</rt></ruby>だから",
     "<ruby>客<rt>きゃく</rt></ruby>が<ruby>来<rt>こ</rt></ruby>ないから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>店主<rt>てんしゅ</rt></ruby>は<ruby>仕入<rt>しい</rt></ruby>れについて<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。",
    "opciones": [
+    "<ruby>予約<rt>よやく</rt></ruby>しかしない",
     "<ruby>在庫<rt>ざいこ</rt></ruby>をたくさん<ruby>持<rt>も</rt></ruby>つ",
-    "<ruby>売<rt>う</rt></ruby>れるものだけを<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>置<rt>お</rt></ruby>く",
     "<ruby>名産<rt>めいさん</rt></ruby>だけを<ruby>買<rt>か</rt></ruby>う",
-    "<ruby>予約<rt>よやく</rt></ruby>しかしない"
+    "<ruby>売<rt>う</rt></ruby>れるものだけを<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>置<rt>お</rt></ruby>く"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Behind the station there's a street where the wholesalers are lined up. Since it's where traders come to stock up, there are no sale signs. Even so, you get domestically made utensils below the market price. The owner told me they don't buy to build up stock, but put out little by little only what sells. There are local products you can't buy without an advance order or a reservation. Apparently, when something becomes famous, distribution can't keep up. When I looked into the back room, where they were packing, the goods reached to the ceiling. With what you buy they almost always give you something as a gift. I thought that dealings built up over the years are something that appears on no price list."

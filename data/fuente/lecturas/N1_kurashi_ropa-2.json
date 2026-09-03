@@ -7,22 +7,22 @@
   {
    "p": "なぜ<ruby>明<rt>あか</rt></ruby>るいうちに<ruby>終<rt>お</rt></ruby>わらせなければなりませんか。",
    "opciones": [
+    "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るから",
     "<ruby>祭<rt>まつ</rt></ruby>りが<ruby>始<rt>はじ</rt></ruby>まるから",
     "<ruby>電源<rt>でんげん</rt></ruby>のない<ruby>場所<rt>ばしょ</rt></ruby>だから",
-    "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るから",
     "<ruby>子<rt>こ</rt></ruby>どもが<ruby>待<rt>ま</rt></ruby>っているから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>年配<rt>ねんぱい</rt></ruby>の<ruby>方<rt>かた</rt></ruby>は<ruby>木<rt>き</rt></ruby>を<ruby>見<rt>み</rt></ruby>て<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "<ruby>重<rt>おも</rt></ruby>すぎる",
-    "<ruby>自分<rt>じぶん</rt></ruby>より<ruby>年上<rt>としうえ</rt></ruby>だ",
     "<ruby>古<rt>ふる</rt></ruby>くて<ruby>使<rt>つか</rt></ruby>えない",
-    "<ruby>切<rt>き</rt></ruby>るのが<ruby>惜<rt>お</rt></ruby>しい"
+    "<ruby>切<rt>き</rt></ruby>るのが<ruby>惜<rt>お</rt></ruby>しい",
+    "<ruby>自分<rt>じぶん</rt></ruby>より<ruby>年上<rt>としうえ</rt></ruby>だ"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "To get ready for the festival, we went up the mountain from the morning to haul wood. As it had rained, by the time we came back we were all covered in mud. There's no electricity up there, so you have to finish while there's light. An older man counting the rings on a felled trunk said with a laugh: «this one's older than I am». At dusk, back in the square, the washing was moving in the wind. The children, already dressed up, were showing each other their necklaces. Reading the day's programme posted up like a proclamation, I remembered the word «solidarity». With someone who has got dirty in the same mud as you, oddly enough, it's much easier to talk."

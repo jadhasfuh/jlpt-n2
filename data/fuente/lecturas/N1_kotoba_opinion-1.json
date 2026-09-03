@@ -7,12 +7,12 @@
   {
    "p": "<ruby>議題<rt>ぎだい</rt></ruby>がまとまらないのは、なぜですか。",
    "opciones": [
-    "<ruby>趣旨<rt>しゅし</rt></ruby>に<ruby>反対<rt>はんたい</rt></ruby>があるから",
     "<ruby>細<rt>こま</rt></ruby>かい<ruby>条件<rt>じょうけん</rt></ruby>になると<ruby>異論<rt>いろん</rt></ruby>が<ruby>出<rt>で</rt></ruby>るから",
+    "<ruby>司会<rt>しかい</rt></ruby>がいないから",
     "<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから",
-    "<ruby>司会<rt>しかい</rt></ruby>がいないから"
+    "<ruby>趣旨<rt>しゅし</rt></ruby>に<ruby>反対<rt>はんたい</rt></ruby>があるから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>司会<rt>しかい</rt></ruby>の<ruby>方<rt>かた</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",

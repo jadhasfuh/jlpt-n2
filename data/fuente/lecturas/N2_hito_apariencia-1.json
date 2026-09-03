@@ -16,20 +16,20 @@
   {
    "p": "<ruby>姉<rt>あね</rt></ruby>は<ruby>何<rt>なに</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>ですか。",
    "opciones": [
+    "<ruby>料理<rt>りょうり</rt></ruby>",
     "<ruby>服<rt>ふく</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶこと",
-    "<ruby>写真<rt>しゃしん</rt></ruby>",
-    "<ruby>料理<rt>りょうり</rt></ruby>"
+    "<ruby>写真<rt>しゃしん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>大事<rt>だいじ</rt></ruby>だと<ruby>教<rt>おそ</rt></ruby>わりましたか。",
    "opciones": [
     "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>",
-    "<ruby>姿勢<rt>しせい</rt></ruby>",
-    "<ruby>髪<rt>かみ</rt></ruby>"
+    "<ruby>髪<rt>かみ</rt></ruby>",
+    "<ruby>姿勢<rt>しせい</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "There was a time when, seeing myself in photos, I thought I had an ugly face. It stopped mattering to me a long time ago now. My older sister has a good eye for choosing elegant clothes and always keeps her long hair well done. While she massaged my shoulders, she taught me that posture matters more than looks."

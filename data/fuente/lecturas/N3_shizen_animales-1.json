@@ -7,12 +7,12 @@
   {
    "p": "<ruby>鳥<rt>とり</rt></ruby>の<ruby>翼<rt>つばさ</rt></ruby>や<ruby>貝<rt>かい</rt></ruby>の<ruby>殻<rt>から</rt></ruby>は、<ruby>何<rt>なに</rt></ruby>のためのかたちですか。",
    "opciones": [
-    "きれいに<ruby>見<rt>み</rt></ruby>せるため",
     "<ruby>生<rt>い</rt></ruby>きのこるため",
     "うごくため",
+    "きれいに<ruby>見<rt>み</rt></ruby>せるため",
     "<ruby>人間<rt>にんげん</rt></ruby>のため"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>猿<rt>さる</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>何<rt>なに</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えましたか。",

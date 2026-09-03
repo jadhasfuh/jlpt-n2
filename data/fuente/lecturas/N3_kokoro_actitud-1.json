@@ -7,22 +7,22 @@
   {
    "p": "<ruby>以前<rt>いぜん</rt></ruby>のこの<ruby>人<rt>ひと</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>冷静<rt>れいせい</rt></ruby>だった",
-    "<ruby>態度<rt>たいど</rt></ruby>に<ruby>出<rt>で</rt></ruby>てしまうほうだった",
     "だまっていた",
-    "<ruby>慎重<rt>しんちょう</rt></ruby>だった"
+    "<ruby>慎重<rt>しんちょう</rt></ruby>だった",
+    "<ruby>態度<rt>たいど</rt></ruby>に<ruby>出<rt>で</rt></ruby>てしまうほうだった",
+    "<ruby>冷静<rt>れいせい</rt></ruby>だった"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>今<rt>いま</rt></ruby>の<ruby>方法<rt>ほうほう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
+    "<ruby>責<rt>せ</rt></ruby>める",
     "すぐ<ruby>言<rt>い</rt></ruby>う",
-    "<ruby>一<rt>いち</rt></ruby><ruby>分<rt>ぷん</rt></ruby>だまってじぶんを<ruby>外<rt>そと</rt></ruby>から<ruby>見<rt>み</rt></ruby>る",
     "<ruby>冗談<rt>じょうだん</rt></ruby>にする",
-    "<ruby>責<rt>せ</rt></ruby>める"
+    "<ruby>一<rt>いち</rt></ruby><ruby>分<rt>ぷん</rt></ruby>だまってじぶんを<ruby>外<rt>そと</rt></ruby>から<ruby>見<rt>み</rt></ruby>る"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "When a serious problem comes up, shouting angrily doesn't solve it. To be honest, I used to be one of those who let it show in their manner. I'd also cover it up with jokes or start showing off. Now I have a method for calming down first. Keeping quiet for a minute and looking at myself from outside, absorbed as I am. If it's a slip, there's no need to tell anyone off. It's enough to put it right carefully and quietly."

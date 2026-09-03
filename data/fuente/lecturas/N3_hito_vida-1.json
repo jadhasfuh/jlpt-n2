@@ -7,12 +7,12 @@
   {
    "p": "<ruby>祖父<rt>そふ</rt></ruby>はどんな<ruby>人<rt>ひと</rt></ruby>でしたか。",
    "opciones": [
-    "いろいろな<ruby>場所<rt>ばしょ</rt></ruby>にすんだ",
     "<ruby>生<rt>う</rt></ruby>まれてから<ruby>死<rt>し</rt></ruby>ぬまでこの<ruby>土地<rt>とち</rt></ruby>をはなれなかった",
-    "<ruby>歌<rt>うた</rt></ruby>が<ruby>下手<rt>へた</rt></ruby>だった",
-    "しゃしんがきらいだった"
+    "いろいろな<ruby>場所<rt>ばしょ</rt></ruby>にすんだ",
+    "しゃしんがきらいだった",
+    "<ruby>歌<rt>うた</rt></ruby>が<ruby>下手<rt>へた</rt></ruby>だった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>祖父<rt>そふ</rt></ruby>の<ruby>目<rt>め</rt></ruby>をどう<ruby>見<rt>み</rt></ruby>ていますか。",

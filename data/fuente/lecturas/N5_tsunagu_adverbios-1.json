@@ -16,20 +16,20 @@
   {
    "p": "はじめの <ruby>日<rt>ひ</rt></ruby>、どうでしたか。",
    "opciones": [
-    "こえが <ruby>出<rt>で</rt></ruby>ませんでした",
     "じょうずでした",
+    "こえが <ruby>出<rt>で</rt></ruby>ませんでした",
     "<ruby>雨<rt>あめ</rt></ruby>でした"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "どのくらい れんしゅうしましたか。",
    "opciones": [
-    "<ruby>十日<rt>とおか</rt></ruby>ぐらい",
     "<ruby>一日<rt>いちにち</rt></ruby>",
-    "<ruby>一年<rt>いちねん</rt></ruby>"
+    "<ruby>一年<rt>いちねん</rt></ruby>",
+    "<ruby>十日<rt>とおか</rt></ruby>ぐらい"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "For the school's cultural festival the three of us signed up to sing. In the classroom we were too embarrassed, so we practised in the park. On the first day my voice wouldn't come out. Jean played the guitar slowly and waited for us. We went to the park every night for about ten days. On my own I could never have done it."

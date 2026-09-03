@@ -7,12 +7,12 @@
   {
    "p": "<ruby>先輩<rt>せんぱい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>提案<rt>ていあん</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>部品<rt>ぶひん</rt></ruby>を<ruby>直<rt>なお</rt></ruby>すこと",
     "<ruby>見<rt>み</rt></ruby>なかったことにすること",
     "<ruby>課長<rt>かちょう</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>すること",
+    "<ruby>部品<rt>ぶひん</rt></ruby>を<ruby>直<rt>なお</rt></ruby>すこと",
     "<ruby>仕事<rt>しごと</rt></ruby>をやめること"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>課長<rt>かちょう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",

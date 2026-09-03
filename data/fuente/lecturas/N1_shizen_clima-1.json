@@ -7,12 +7,12 @@
   {
    "p": "<ruby>雨具<rt>あまぐ</rt></ruby>について、どんなことが<ruby>起<rt>お</rt></ruby>きますか。",
    "opciones": [
-    "<ruby>必要<rt>ひつよう</rt></ruby>ない",
     "<ruby>出<rt>だ</rt></ruby>したそばから<ruby>雨<rt>あめ</rt></ruby>が<ruby>止<rt>や</rt></ruby>むこともある",
+    "<ruby>必要<rt>ひつよう</rt></ruby>ない",
     "<ruby>重<rt>おも</rt></ruby>すぎる",
     "<ruby>使<rt>つか</rt></ruby>えない"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "いちばん<ruby>危<rt>あぶ</rt></ruby>ないのは<ruby>何<rt>なん</rt></ruby>ですか。",

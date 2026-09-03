@@ -7,12 +7,12 @@
   {
    "p": "<ruby>町<rt>まち</rt></ruby>の<ruby>様子<rt>ようす</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。",
    "opciones": [
-    "<ruby>漁村<rt>ぎょそん</rt></ruby>のころのままだ",
     "<ruby>漁村<rt>ぎょそん</rt></ruby>だったころのおもかげはもうない",
     "<ruby>駅前<rt>えきまえ</rt></ruby>は<ruby>昔<rt>むかし</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じだ",
-    "<ruby>田園<rt>でんえん</rt></ruby>が<ruby>広<rt>ひろ</rt></ruby>がった"
+    "<ruby>田園<rt>でんえん</rt></ruby>が<ruby>広<rt>ひろ</rt></ruby>がった",
+    "<ruby>漁村<rt>ぎょそん</rt></ruby>のころのままだ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>鳥居<rt>とりい</rt></ruby>と<ruby>釣<rt>つ</rt></ruby>り<ruby>鐘<rt>がね</rt></ruby>は、どうして<ruby>昔<rt>むかし</rt></ruby>のすがたなのですか。",

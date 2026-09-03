@@ -25,11 +25,11 @@
   {
    "p": "プレゼントは<ruby>何<rt>なん</rt></ruby>でしたか。",
    "opciones": [
-    "かばん",
+    "<ruby>本<rt>ほん</rt></ruby>",
     "とけい",
-    "<ruby>本<rt>ほん</rt></ruby>"
+    "かばん"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "As my sister finished university, we celebrated it as a family. My grandmother cooked from the morning and laid it all out on the table. My father took lots of photos. When we gave her our congratulations, my sister was crying a little. The present was a new bag. She says she'll take it with her the day she starts work."

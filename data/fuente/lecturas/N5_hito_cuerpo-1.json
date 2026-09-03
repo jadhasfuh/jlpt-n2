@@ -16,20 +16,20 @@
   {
    "p": "アンナさんは なんと こたえましたか。",
    "opciones": [
+    "「だいじょうぶ」",
     "「<ruby>学校<rt>がっこう</rt></ruby>を やすんで ください」",
-    "「びょういんへ <ruby>行<rt>い</rt></ruby>って」",
-    "「だいじょうぶ」"
+    "「びょういんへ <ruby>行<rt>い</rt></ruby>って」"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ゴンサさんは なにを <ruby>持<rt>も</rt></ruby>って <ruby>来<rt>き</rt></ruby>ましたか。",
    "opciones": [
-    "パンと スープ",
+    "ぎゅうにゅう",
     "くすり",
-    "ぎゅうにゅう"
+    "パンと スープ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "When I woke up my head hurt and I couldn't open my eyes. I washed my face and it didn't help. My legs were heavy too and putting my shoes on was hard work. I sent Anna a message and she replied: «stay home, don't come to class». At midday Gonza brought me bread and a beef soup. «I don't know if it's to your taste», he said, and went to wash his hands."

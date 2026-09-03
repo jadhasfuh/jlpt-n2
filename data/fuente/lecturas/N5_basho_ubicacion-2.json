@@ -16,20 +16,20 @@
   {
    "p": "いま、カルロスさんは ちずを みますか。",
    "opciones": [
-    "みません",
     "まいにち みます",
+    "みません",
     "ときどき みます"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "がっこうは なにの <ruby>横<rt>よこ</rt></ruby>に ありますか。",
    "opciones": [
-    "<ruby>大<rt>おお</rt></ruby>きい ビル",
     "<ruby>駅<rt>えき</rt></ruby>",
-    "こうえん"
+    "こうえん",
+    "<ruby>大<rt>おお</rt></ruby>きい ビル"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The school is east of the station. My flat is to the west. Every morning I cross the road and walk south. Along the way there's a big building, and next to it is the school. At first I got it wrong a lot, but now I don't look at the map. Little by little I'm learning the places in this city. It feels like it's becoming my city."

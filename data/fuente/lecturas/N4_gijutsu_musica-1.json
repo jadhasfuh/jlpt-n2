@@ -7,12 +7,12 @@
   {
    "p": "かいじょうでは<ruby>何<rt>なに</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえませんでしたか。",
    "opciones": [
-    "ピアノの<ruby>音<rt>おと</rt></ruby>",
     "ベルや<ruby>話<rt>はな</rt></ruby>し<ruby>声<rt>ごえ</rt></ruby>",
     "<ruby>水<rt>みず</rt></ruby>の<ruby>音<rt>おと</rt></ruby>",
-    "<ruby>歌謡<rt>かよう</rt></ruby>きょく"
+    "<ruby>歌謡<rt>かよう</rt></ruby>きょく",
+    "ピアノの<ruby>音<rt>おと</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>終<rt>お</rt></ruby>わったあと、みんなはどうしましたか。",

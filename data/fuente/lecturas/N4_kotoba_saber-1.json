@@ -7,12 +7,12 @@
   {
    "p": "<ruby>昨日<rt>きのう</rt></ruby>、<ruby>何<rt>なに</rt></ruby>に<ruby>驚<rt>おどろ</rt></ruby>きましたか。",
    "opciones": [
-    "<ruby>魚<rt>さかな</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きいこと",
     "<ruby>思<rt>おも</rt></ruby>ったよりむずかしいこと",
+    "<ruby>魚<rt>さかな</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きいこと",
     "みせの<ruby>人<rt>ひと</rt></ruby>がいないこと",
     "<ruby>本<rt>ほん</rt></ruby>がまちがっていたこと"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えはどれですか。",

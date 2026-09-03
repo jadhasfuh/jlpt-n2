@@ -7,12 +7,12 @@
   {
    "p": "<ruby>祖父<rt>そふ</rt></ruby>は<ruby>原爆<rt>げんばく</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>が<ruby>出<rt>で</rt></ruby>ると、どうしましたか。",
    "opciones": [
-    "<ruby>説明<rt>せつめい</rt></ruby>した",
     "<ruby>黙<rt>だま</rt></ruby>って<ruby>席<rt>せき</rt></ruby>を<ruby>立<rt>た</rt></ruby>った",
-    "<ruby>怒<rt>おこ</rt></ruby>った",
-    "<ruby>泣<rt>な</rt></ruby>いた"
+    "<ruby>説明<rt>せつめい</rt></ruby>した",
+    "<ruby>泣<rt>な</rt></ruby>いた",
+    "<ruby>怒<rt>おこ</rt></ruby>った"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>晩年<rt>ばんねん</rt></ruby>に<ruby>書<rt>か</rt></ruby>き<ruby>残<rt>のこ</rt></ruby>したのは、どんなことですか。",

@@ -7,12 +7,12 @@
   {
    "p": "<ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>った<ruby>人<rt>ひと</rt></ruby>が<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>知<rt>し</rt></ruby>りたいのは<ruby>何<rt>なん</rt></ruby>だと<ruby>気<rt>き</rt></ruby>づきましたか。",
    "opciones": [
-    "<ruby>正<rt>ただ</rt></ruby>しい<ruby>道順<rt>みちじゅん</rt></ruby>",
     "だいじょうぶだという<ruby>一言<rt>ひとこと</rt></ruby>",
+    "<ruby>宿<rt>やど</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>",
     "<ruby>地図<rt>ちず</rt></ruby>の<ruby>読<rt>よ</rt></ruby>み<ruby>方<rt>かた</rt></ruby>",
-    "<ruby>宿<rt>やど</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>"
+    "<ruby>正<rt>ただ</rt></ruby>しい<ruby>道順<rt>みちじゅん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>夕方<rt>ゆうがた</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>について、この<ruby>人<rt>ひと</rt></ruby>はどうしていましたか。",

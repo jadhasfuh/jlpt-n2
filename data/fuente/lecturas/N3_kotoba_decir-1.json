@@ -7,12 +7,12 @@
   {
    "p": "うまい<ruby>話<rt>はな</rt></ruby>し<ruby>方<rt>かた</rt></ruby>とは<ruby>何<rt>なに</rt></ruby>ではありませんか。",
    "opciones": [
-    "<ruby>正直<rt>しょうじき</rt></ruby>に<ruby>話<rt>はな</rt></ruby>すこと",
     "はやく<ruby>話<rt>はな</rt></ruby>すことやむずかしいことばを<ruby>使<rt>つか</rt></ruby>うこと",
+    "<ruby>正直<rt>しょうじき</rt></ruby>に<ruby>話<rt>はな</rt></ruby>すこと",
     "<ruby>絵<rt>え</rt></ruby>を<ruby>描<rt>えが</rt></ruby>くこと",
     "<ruby>心<rt>こころ</rt></ruby>にのこること"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "あとで<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>うと、どうでしたか。",

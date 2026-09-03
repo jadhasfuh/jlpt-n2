@@ -7,22 +7,22 @@
   {
    "p": "<ruby>設計<rt>せっけい</rt></ruby>に<ruby>基<rt>もと</rt></ruby>づかない<ruby>作業<rt>さぎょう</rt></ruby>から、<ruby>何<rt>なに</rt></ruby>が<ruby>生<rt>しょう</rt></ruby>じますか。",
    "opciones": [
+    "やすいたてもの",
     "はやいけっか",
     "あとでもんだい",
-    "あたらしいぎじゅつ",
-    "やすいたてもの"
+    "あたらしいぎじゅつ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>建築<rt>けんちく</rt></ruby>でたいせつなのはどこですか。",
    "opciones": [
-    "<ruby>見<rt>み</rt></ruby>えるところ",
-    "<ruby>見<rt>み</rt></ruby>えないところ",
     "はやさ",
-    "<ruby>発明<rt>はつめい</rt></ruby>"
+    "<ruby>発明<rt>はつめい</rt></ruby>",
+    "<ruby>見<rt>み</rt></ruby>えるところ",
+    "<ruby>見<rt>み</rt></ruby>えないところ"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "On building sites you sometimes feel like skipping steps to save time. But work that doesn't follow the plan always throws up problems later. In construction what matters is what isn't seen. If you skip a stage and the thing breaks ten years later, there was no point in having been quick. Even if you use clever ideas and new technology, the basics don't change. However busy you are, it isn't that you can't check. Because in a minute you can already do quite a lot."

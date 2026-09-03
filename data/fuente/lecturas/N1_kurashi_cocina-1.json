@@ -8,21 +8,21 @@
    "p": "<ruby>子<rt>こ</rt></ruby>どものころ、この<ruby>人<rt>ひと</rt></ruby>はどうでしたか。",
    "opciones": [
     "<ruby>辛<rt>から</rt></ruby>いものが<ruby>好<rt>す</rt></ruby>きだった",
-    "<ruby>甘口<rt>あまくち</rt></ruby>のカレーしか<ruby>食<rt>た</rt></ruby>べられなかった",
     "<ruby>何<rt>なん</rt></ruby>でも<ruby>食<rt>た</rt></ruby>べた",
+    "<ruby>甘口<rt>あまくち</rt></ruby>のカレーしか<ruby>食<rt>た</rt></ruby>べられなかった",
     "<ruby>料理<rt>りょうり</rt></ruby>をしていた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>の<ruby>献立<rt>こんだて</rt></ruby>は、<ruby>何<rt>なに</rt></ruby>を<ruby>基準<rt>きじゅん</rt></ruby>に<ruby>考<rt>かんが</rt></ruby>えましたか。",
    "opciones": [
-    "おいしいかどうか",
-    "<ruby>噛<rt>か</rt></ruby>み<ruby>切<rt>き</rt></ruby>れるかどうか",
     "<ruby>値段<rt>ねだん</rt></ruby>",
-    "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>"
+    "おいしいかどうか",
+    "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>",
+    "<ruby>噛<rt>か</rt></ruby>み<ruby>切<rt>き</rt></ruby>れるかどうか"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "As a child I could only eat mild curry. I couldn't even swallow anything spicy. Now I choose spicy dishes made to the recipe of their place of origin for the pleasure of it. Taste must not be something you're born with. With the years, sooner or later, the palate changes. My grandmother, in her last years, would only accept mildly flavoured food. The menu wasn't thought out for whether it tasted good, but for whether she could chew it. Cooking while picturing whoever is going to eat. That has a different character from cooking that serves to satisfy a craving. When I make the stock on a clear morning, it's as if my grandmother's hand movements came back to the kitchen."

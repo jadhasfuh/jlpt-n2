@@ -8,21 +8,21 @@
    "p": "ひびの<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でしたか。",
    "opciones": [
     "<ruby>構造<rt>こうぞう</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>",
+    "<ruby>屋根<rt>やね</rt></ruby>の<ruby>金具<rt>かなぐ</rt></ruby>",
     "<ruby>建物<rt>たてもの</rt></ruby>が<ruby>乾<rt>かわ</rt></ruby>いて<ruby>縮<rt>ちぢ</rt></ruby>んだだけ",
-    "<ruby>地震<rt>じしん</rt></ruby>",
-    "<ruby>屋根<rt>やね</rt></ruby>の<ruby>金具<rt>かなぐ</rt></ruby>"
+    "<ruby>地震<rt>じしん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>大工<rt>だいく</rt></ruby>さんは、ついでに<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
+    "<ruby>窓<rt>まど</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>替<rt>か</rt></ruby>えた",
     "<ruby>壁<rt>かべ</rt></ruby>を<ruby>塗<rt>ぬ</rt></ruby>った",
-    "<ruby>屋根<rt>やね</rt></ruby>に<ruby>上<rt>あ</rt></ruby>がって<ruby>干<rt>ほ</rt></ruby>し<ruby>物<rt>もの</rt></ruby><ruby>台<rt>だい</rt></ruby>の<ruby>金具<rt>かなぐ</rt></ruby>を<ruby>直<rt>なお</rt></ruby>した",
     "<ruby>柱<rt>はしら</rt></ruby>を<ruby>替<rt>か</rt></ruby>えた",
-    "<ruby>窓<rt>まど</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>替<rt>か</rt></ruby>えた"
+    "<ruby>屋根<rt>やね</rt></ruby>に<ruby>上<rt>あ</rt></ruby>がって<ruby>干<rt>ほ</rt></ruby>し<ruby>物<rt>もの</rt></ruby><ruby>台<rt>だい</rt></ruby>の<ruby>金具<rt>かなぐ</rt></ruby>を<ruby>直<rt>なお</rt></ruby>した"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I noticed there was a crack in the kitchen wall. Our house is forty years old and even the post in one corner has lost its colour. My husband says it's not worth fixing, but it's also frightening to leave it and have it open up further. When I asked a carpenter I know to look at it, he said: «there's nothing at all to worry about». Apparently it's just that the building has dried out and shrunk, and it doesn't affect the structure. Standing back and looking at the whole, it's true that it isn't out of true. While he was at it he went up on the roof and fixed the fittings on my washing line. He cleaned the windows so the light would come in better, washed his hands, which were covered in mud, and left. Just from knowing nothing was wrong, the house looked a little brighter."

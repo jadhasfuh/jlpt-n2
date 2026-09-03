@@ -16,20 +16,20 @@
   {
    "p": "みんなは どう しましたか。",
    "opciones": [
-    "わらいました",
     "おこりました",
+    "わらいました",
     "なにも 言いませんでした"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "その <ruby>日<rt>ひ</rt></ruby>、カルロスさんは どうでしたか。",
    "opciones": [
-    "あまり きんちょうしませんでした",
     "とても こわかったです",
-    "はやく かえりました"
+    "はやく かえりました",
+    "あまり きんちょうしませんでした"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I went to Anna's house. How the table is laid and how people greet each other is different from my home. But a mother trying to make you eat more is exactly the same. I said «Mexican mothers do the same» and everyone laughed. The language and the food are different, but families are alike. That day I wasn't so nervous."

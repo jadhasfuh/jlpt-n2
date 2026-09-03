@@ -16,20 +16,20 @@
   {
    "p": "<ruby>行<rt>い</rt></ruby>き<ruby>先<rt>さき</rt></ruby>をいくつに<ruby>減<rt>へ</rt></ruby>らしましたか。",
    "opciones": [
-    "<ruby>二<rt>ふた</rt></ruby>つ",
     "<ruby>一<rt>ひと</rt></ruby>つ",
+    "<ruby>二<rt>ふた</rt></ruby>つ",
     "<ruby>三<rt>みっ</rt></ruby>つ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>に<ruby>基<rt>もと</rt></ruby>づいて<ruby>時間<rt>じかん</rt></ruby>を<ruby>取<rt>と</rt></ruby>りましたか。",
    "opciones": [
-    "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby>",
+    "<ruby>地図<rt>ちず</rt></ruby>",
     "<ruby>友<rt>とも</rt></ruby>だちの<ruby>話<rt>はなし</rt></ruby>",
-    "<ruby>地図<rt>ちず</rt></ruby>"
+    "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I made the holiday plan, and even I can see it was over-ambitious. I meant to cover the sea, the mountains and the city in one go. Taking into account what my friends wanted, I cut the destinations down to two. Going by last year's experience, I also left more margin for the journeys. It seems that the less you try to fit in, the more you enjoy the trip."

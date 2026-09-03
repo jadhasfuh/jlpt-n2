@@ -7,22 +7,22 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>本<rt>ほん</rt></ruby>をどう<ruby>選<rt>えら</rt></ruby>びたいと<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
+    "ベストセラーから<ruby>選<rt>えら</rt></ruby>ぶ",
     "<ruby>表紙<rt>ひょうし</rt></ruby>で<ruby>選<rt>えら</rt></ruby>ぶ",
     "<ruby>立<rt>た</rt></ruby>ち<ruby>読<rt>よ</rt></ruby>みで<ruby>一章<rt>いっしょう</rt></ruby><ruby>確<rt>たし</rt></ruby>かめてから<ruby>決<rt>き</rt></ruby>める",
-    "ベストセラーから<ruby>選<rt>えら</rt></ruby>ぶ",
     "<ruby>題名<rt>だいめい</rt></ruby>で<ruby>選<rt>えら</rt></ruby>ぶ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>隣<rt>となり</rt></ruby>の<ruby>棚<rt>たな</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。",
    "opciones": [
-    "<ruby>装丁<rt>そうてい</rt></ruby>が<ruby>美<rt>うつく</rt></ruby>しい",
-    "ありふれた<ruby>装丁<rt>そうてい</rt></ruby>だが<ruby>読<rt>よ</rt></ruby>まれ<ruby>続<rt>つづ</rt></ruby>けている",
+    "<ruby>誰<rt>だれ</rt></ruby>も<ruby>読<rt>よ</rt></ruby>まない",
     "<ruby>新<rt>あたら</rt></ruby>しく<ruby>出<rt>で</rt></ruby>たばかりだ",
-    "<ruby>誰<rt>だれ</rt></ruby>も<ruby>読<rt>よ</rt></ruby>まない"
+    "<ruby>装丁<rt>そうてい</rt></ruby>が<ruby>美<rt>うつく</rt></ruby>しい",
+    "ありふれた<ruby>装丁<rt>そうてい</rt></ruby>だが<ruby>読<rt>よ</rt></ruby>まれ<ruby>続<rt>つづ</rt></ruby>けている"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I was in the bookshop looking at the bestseller shelf. All the covers are elegant and the titles original. Rather than buy without being clear about what's inside, I prefer to read a chapter standing up and decide afterwards. On the next shelf along there are books that have spent years in the same place, unperturbed. The edition is utterly ordinary and there's nothing romantic about them. And yet those are the ones that go on being read to a remarkable degree. Fashion is what's fragile; what remains is what's valuable. It means there were people who kept writing even while receiving reviews that crush you. Insisting on choosing the book that suits you is not in the least absurd."

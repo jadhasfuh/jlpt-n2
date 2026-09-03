@@ -7,22 +7,22 @@
   {
    "p": "なぜ<ruby>問<rt>と</rt></ruby>い<ruby>合<rt>あ</rt></ruby>わせができませんでしたか。",
    "opciones": [
-    "<ruby>駅<rt>えき</rt></ruby>が<ruby>遠<rt>とお</rt></ruby>かったから",
-    "<ruby>電話<rt>でんわ</rt></ruby>の<ruby>電池<rt>でんち</rt></ruby>が<ruby>切<rt>き</rt></ruby>れていたから",
     "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>知<rt>し</rt></ruby>らなかったから",
-    "<ruby>放送<rt>ほうそう</rt></ruby>がなかったから"
+    "<ruby>放送<rt>ほうそう</rt></ruby>がなかったから",
+    "<ruby>電話<rt>でんわ</rt></ruby>の<ruby>電池<rt>でんち</rt></ruby>が<ruby>切<rt>き</rt></ruby>れていたから",
+    "<ruby>駅<rt>えき</rt></ruby>が<ruby>遠<rt>とお</rt></ruby>かったから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>体験<rt>たいけん</rt></ruby>から<ruby>学<rt>まな</rt></ruby>んだことは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
     "<ruby>電池<rt>でんち</rt></ruby>を<ruby>充電<rt>じゅうでん</rt></ruby>しておくこと",
-    "<ruby>連絡<rt>れんらく</rt></ruby>が<ruby>取<rt>と</rt></ruby>れないときにどこで<ruby>待<rt>ま</rt></ruby>つかを<ruby>先<rt>さき</rt></ruby>に<ruby>決<rt>き</rt></ruby>めておくこと",
     "<ruby>放送<rt>ほうそう</rt></ruby>を<ruby>頼<rt>たの</rt></ruby>むこと",
-    "<ruby>早<rt>はや</rt></ruby>く<ruby>着<rt>つ</rt></ruby>くこと"
+    "<ruby>早<rt>はや</rt></ruby>く<ruby>着<rt>つ</rt></ruby>くこと",
+    "<ruby>連絡<rt>れんらく</rt></ruby>が<ruby>取<rt>と</rt></ruby>れないときにどこで<ruby>待<rt>ま</rt></ruby>つかを<ruby>先<rt>さき</rt></ruby>に<ruby>決<rt>き</rt></ruby>めておくこと"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Once I got the meeting point wrong and we spent two hours without finding each other. My phone battery had run out, so even if I'd wanted to ask there was no way. I thought about asking for an announcement at the station information desk, but I was embarrassed at the idea of my name being read out and dropped it. In the end it turned out the other person had thought exactly the same, and we laughed. However much you prepare, these mix-ups happen. Because it's precisely what you think you know that you don't check. What I learnt from living through it was something as simple as that we should have decided in advance where to wait if we couldn't get in touch. Since then, when I arrange to meet someone, I always add that line."

@@ -7,12 +7,12 @@
   {
    "p": "けっきょく、どうしましたか。",
    "opciones": [
-    "ぜんぶ<ruby>持<rt>も</rt></ruby>っていった",
     "<ruby>半分<rt>はんぶん</rt></ruby>だけ<ruby>残<rt>のこ</rt></ruby>し、のこりは<ruby>写真<rt>しゃしん</rt></ruby>にとった",
+    "<ruby>何<rt>なに</rt></ruby>もしなかった",
     "ぜんぶすてた",
-    "<ruby>何<rt>なに</rt></ruby>もしなかった"
+    "ぜんぶ<ruby>持<rt>も</rt></ruby>っていった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>物<rt>もの</rt></ruby>をへらすことについて、どう<ruby>信<rt>しん</rt></ruby>じていますか。",

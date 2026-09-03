@@ -8,21 +8,21 @@
    "p": "<ruby>印刷<rt>いんさつ</rt></ruby>し<em class=\"g\">たて</em>の<ruby>本<rt>ほん</rt></ruby>はどうでしたか。",
    "opciones": [
     "つめたかった",
-    "あたたかくてインクのにおいがした",
     "きれいだった",
+    "あたたかくてインクのにおいがした",
     "おもかった"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>題名<rt>だいめい</rt></ruby>はいつきめましたか。",
    "opciones": [
+    "<ruby>著者<rt>ちょしゃ</rt></ruby>がきめなかった",
     "はじめ",
-    "<ruby>最後<rt>さいご</rt></ruby>",
     "<ruby>印刷<rt>いんさつ</rt></ruby>のあと",
-    "<ruby>著者<rt>ちょしゃ</rt></ruby>がきめなかった"
+    "<ruby>最後<rt>さいご</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "A friend who works at a publisher showed me a freshly printed book. It was still warm and smelt of ink. The story the author took years to write takes shape like this. If you read it chapter by chapter, you can clearly see how the scenes change. They say the title was decided at the end. Making books that remain as a record takes time, but the joy of publication day must be something special."

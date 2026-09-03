@@ -25,11 +25,11 @@
   {
    "p": "そのおかげで<ruby>何<rt>なに</rt></ruby>をしなくてよかったですか。",
    "opciones": [
-    "<ruby>一<rt>いち</rt></ruby>から<ruby>作<rt>つく</rt></ruby>り<ruby>直<rt>なお</rt></ruby>すこと",
+    "<ruby>縮小<rt>しゅくしょう</rt></ruby>すること",
     "<ruby>移転<rt>いてん</rt></ruby>すること",
-    "<ruby>縮小<rt>しゅくしょう</rt></ruby>すること"
+    "<ruby>一<rt>いち</rt></ruby>から<ruby>作<rt>つく</rt></ruby>り<ruby>直<rt>なお</rt></ruby>すこと"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Last year the club at the private school was disbanded. The move to another room and the reduction in size coincided. The teacher didn't delete the old records: he kept them all. Thanks to that we were spared redoing everything from scratch. The records of the achievements he showed us saying «look at this» are still there today."

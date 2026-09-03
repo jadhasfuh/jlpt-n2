@@ -16,20 +16,20 @@
   {
    "p": "<ruby>上<rt>うえ</rt></ruby>から なにが <ruby>見<rt>み</rt></ruby>えましたか。",
    "opciones": [
-    "まちと うみ",
     "ほかの <ruby>山<rt>やま</rt></ruby>",
+    "まちと うみ",
     "なにも"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんは なんと こたえましたか。",
    "opciones": [
-    "「じゅうぶんだ」",
     "「ちいさいな」",
-    "「かえろう」"
+    "「かえろう」",
+    "「じゅうぶんだ」"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Right behind Kobe there's the mountain. The whole school climbed it. The path was easy. From the top you can see the entire city and the sea. My flat, the school, the pizzeria: it's all in there. A whole year of my life fitted into the size of a hand. Jean said: «it's small». I answered: «it's enough»."

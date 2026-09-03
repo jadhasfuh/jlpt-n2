@@ -7,22 +7,22 @@
   {
    "p": "<ruby>協会<rt>きょうかい</rt></ruby>に<ruby>加<rt>くわ</rt></ruby>わると、<ruby>何<rt>なに</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えますか。",
    "opciones": [
-    "<ruby>公演<rt>こうえん</rt></ruby>の<ruby>数<rt>かず</rt></ruby>",
-    "<ruby>行政<rt>ぎょうせい</rt></ruby>に<ruby>出<rt>だ</rt></ruby>す<ruby>書類<rt>しょるい</rt></ruby>",
+    "<ruby>切符<rt>きっぷ</rt></ruby>の<ruby>値段<rt>ねだん</rt></ruby>",
     "<ruby>幹部<rt>かんぶ</rt></ruby>の<ruby>人数<rt>にんずう</rt></ruby>",
-    "<ruby>切符<rt>きっぷ</rt></ruby>の<ruby>値段<rt>ねだん</rt></ruby>"
+    "<ruby>行政<rt>ぎょうせい</rt></ruby>に<ruby>出<rt>だ</rt></ruby>す<ruby>書類<rt>しょるい</rt></ruby>",
+    "<ruby>公演<rt>こうえん</rt></ruby>の<ruby>数<rt>かず</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>によれば、<ruby>大事<rt>だいじ</rt></ruby>なのは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>全員<rt>ぜんいん</rt></ruby>が<ruby>同<rt>おな</rt></ruby>じ<ruby>考<rt>かんが</rt></ruby>えであること",
-    "<ruby>同<rt>おな</rt></ruby>じ<ruby>方向<rt>ほうこう</rt></ruby>を<ruby>向<rt>む</rt></ruby>いていること",
+    "<ruby>組織<rt>そしき</rt></ruby>が<ruby>整<rt>ととの</rt></ruby>っていること",
     "<ruby>連盟<rt>れんめい</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ること",
-    "<ruby>組織<rt>そしき</rt></ruby>が<ruby>整<rt>ととの</rt></ruby>っていること"
+    "<ruby>全員<rt>ぜんいん</rt></ruby>が<ruby>同<rt>おな</rt></ruby>じ<ruby>考<rt>かんが</rt></ruby>えであること",
+    "<ruby>同<rt>おな</rt></ruby>じ<ruby>方向<rt>ほうこう</rt></ruby>を<ruby>向<rt>む</rt></ruby>いていること"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I spent a while helping out with the running of a theatre company. There were three people in charge and they handled everything from organising the performances to managing the tickets. By joining the association you can receive a subsidy, but the papers you have to submit to the administration multiply all at once. That the bond was strong didn't mean there were no differing opinions. What matters is precisely looking in the same direction, but there's no need for everyone to think alike. When the group split over whether or not to join the federation, in the end a conclusion was reached by talking a whole night through. It isn't an organisation ruled off like a chessboard. And even so, in the minutes just before the curtain goes up, they were all breathing at the same time."

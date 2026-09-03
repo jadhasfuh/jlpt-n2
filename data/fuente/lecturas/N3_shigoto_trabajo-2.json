@@ -7,12 +7,12 @@
   {
    "p": "<ruby>面接<rt>めんせつ</rt></ruby>のために<ruby>何<rt>なに</rt></ruby>を<ruby>練習<rt>れんしゅう</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>報告<rt>ほうこく</rt></ruby>のしかた",
     "<ruby>名刺<rt>めいし</rt></ruby>のわたし<ruby>方<rt>かた</rt></ruby>",
     "<ruby>相談<rt>そうだん</rt></ruby>のしかた",
+    "<ruby>報告<rt>ほうこく</rt></ruby>のしかた",
     "<ruby>返事<rt>へんじ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>が<em class=\"g\">むしろ</em><ruby>大事<rt>だいじ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>うのは<ruby>何<rt>なに</rt></ruby>ですか。",

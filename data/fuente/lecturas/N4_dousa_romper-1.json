@@ -8,21 +8,21 @@
    "p": "コップが<ruby>割<rt>わ</rt></ruby>れたとき、<ruby>何<rt>なに</rt></ruby>をききましたか。",
    "opciones": [
     "だれが<ruby>割<rt>わ</rt></ruby>ったか",
+    "なぜ<ruby>落<rt>お</rt></ruby>としたか",
     "けがはないか",
-    "いくらだったか",
-    "なぜ<ruby>落<rt>お</rt></ruby>としたか"
+    "いくらだったか"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どもに<ruby>何<rt>なに</rt></ruby>をたのみましたか。",
    "opciones": [
+    "おちゃをいれること",
     "かたづけないこと",
-    "ほうきを<ruby>持<rt>も</rt></ruby>ってくること",
     "あやまること",
-    "おちゃをいれること"
+    "ほうきを<ruby>持<rt>も</rt></ruby>ってくること"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "A child dropped a glass and it broke. His «sorry» sounded very quiet, so he must have thought I was going to tell him off. I only asked him whether he'd hurt himself. Since he wanted to clear it up himself, I asked him to fetch the broom, because it was dangerous. Things break, but what I don't want to break is someone's spirit. We had a tea or something and rested together."

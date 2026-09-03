@@ -16,20 +16,20 @@
   {
    "p": "<ruby>公共<rt>こうきょう</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>をどうしますか。",
    "opciones": [
-    "<ruby>民間<rt>みんかん</rt></ruby>にも<ruby>開<rt>ひら</rt></ruby>く",
     "やめる",
+    "<ruby>民間<rt>みんかん</rt></ruby>にも<ruby>開<rt>ひら</rt></ruby>く",
     "<ruby>増<rt>ふ</rt></ruby>やす"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "こういうときは<ruby>何<rt>なに</rt></ruby>がいいですか。",
    "opciones": [
-    "<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>二紙<rt>にし</rt></ruby><ruby>読<rt>よ</rt></ruby>む",
+    "<ruby>聞<rt>き</rt></ruby>かない",
     "<ruby>待<rt>ま</rt></ruby>つ",
-    "<ruby>聞<rt>き</rt></ruby>かない"
+    "<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>二紙<rt>にし</rt></ruby><ruby>読<rt>よ</rt></ruby>む"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The prime minister announced that the policy is going to change. The substance is opening public works to the private sector as well. Some talk as if nothing were going to change, but things turn quickly. Even foreign consuls and a king gave their opinion. At times like these, there's nothing like reading two different newspapers."

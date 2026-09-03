@@ -7,12 +7,12 @@
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>が<ruby>行事<rt>ぎょうじ</rt></ruby>のたびにしていたことは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>寺<rt>てら</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くこと",
     "<ruby>仏像<rt>ぶつぞう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>水<rt>みず</rt></ruby>を<ruby>供<rt>そな</rt></ruby>えること",
+    "<ruby>寺<rt>てら</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くこと",
     "<ruby>祈<rt>いの</rt></ruby>りの<ruby>言葉<rt>ことば</rt></ruby>を<ruby>書<rt>か</rt></ruby>くこと",
     "<ruby>家<rt>いえ</rt></ruby>をそうじすること"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>によれば、<ruby>頭<rt>あたま</rt></ruby>を<ruby>下<rt>さ</rt></ruby>げる<ruby>相手<rt>あいて</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",

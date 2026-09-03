@@ -7,12 +7,12 @@
   {
    "p": "この<ruby>仕事<rt>しごと</rt></ruby>の<ruby>内容<rt>ないよう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>報道<rt>ほうどう</rt></ruby>を<ruby>書<rt>か</rt></ruby>くこと",
     "<ruby>面会<rt>めんかい</rt></ruby>の<ruby>申<rt>もう</rt></ruby>し<ruby>出<rt>で</rt></ruby>を<ruby>受<rt>う</rt></ruby>け<ruby>付<rt>つ</rt></ruby>け、<ruby>担当<rt>たんとう</rt></ruby>に<ruby>回<rt>まわ</rt></ruby>すこと",
+    "<ruby>時間<rt>じかん</rt></ruby>を<ruby>計<rt>はか</rt></ruby>ること",
     "<ruby>従業員<rt>じゅうぎょういん</rt></ruby>を<ruby>雇<rt>やと</rt></ruby>うこと",
-    "<ruby>時間<rt>じかん</rt></ruby>を<ruby>計<rt>はか</rt></ruby>ること"
+    "<ruby>報道<rt>ほうどう</rt></ruby>を<ruby>書<rt>か</rt></ruby>くこと"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>急<rt>いそ</rt></ruby>がせると、どうなりますか。",

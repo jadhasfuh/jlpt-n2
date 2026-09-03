@@ -7,22 +7,22 @@
   {
    "p": "なぜ<ruby>遅刻<rt>ちこく</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>出<rt>で</rt></ruby>る<ruby>時刻<rt>じこく</rt></ruby>をまちがえたから",
-    "<ruby>渋滞<rt>じゅうたい</rt></ruby>のため",
     "メールが<ruby>来<rt>き</rt></ruby>たから",
-    "バスがなかったから"
+    "バスがなかったから",
+    "<ruby>渋滞<rt>じゅうたい</rt></ruby>のため",
+    "<ruby>出<rt>で</rt></ruby>る<ruby>時刻<rt>じこく</rt></ruby>をまちがえたから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "すわって<ruby>息<rt>いき</rt></ruby>をととのえてから、<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
     "<ruby>帰<rt>かえ</rt></ruby>った",
-    "<em class=\"g\">さらに</em><ruby>一<rt>ひと</rt></ruby>つずつかたづけた",
     "<ruby>一度<rt>いちど</rt></ruby>にぜんぶやった",
-    "メールをけした"
+    "メールをけした",
+    "<em class=\"g\">さらに</em><ruby>一<rt>ひと</rt></ruby>つずつかたづけた"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "This time I was late because of a traffic jam. I left at the same time as always, but the situation changed suddenly. In this city, lately, this happens more and more. In the end I changed to the last bus and got there with great difficulty. At the same time an email marked urgent arrived and I found myself thinking about three things at once. I sat for a while getting my breath back and then dealt with everything one at a time. From now on I'll leave earlier."

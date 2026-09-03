@@ -16,20 +16,20 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりませんでしたか。",
    "opciones": [
-    "<ruby>区域<rt>くいき</rt></ruby>の<ruby>番号<rt>ばんごう</rt></ruby>",
     "<ruby>宛名<rt>あてな</rt></ruby>の<ruby>字<rt>じ</rt></ruby>",
+    "<ruby>区域<rt>くいき</rt></ruby>の<ruby>番号<rt>ばんごう</rt></ruby>",
     "<ruby>限度<rt>げんど</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何日<rt>なんにち</rt></ruby>かかると<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
+    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
     "<ruby>三日<rt>みっか</rt></ruby>",
-    "<ruby>一週間<rt>いっしゅうかん</rt></ruby>",
-    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>"
+    "<ruby>一週間<rt>いっしゅうかん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "I decided to send a registered letter to a friend in the West. When writing the address I didn't know the area number and asked someone from outside. The counter was busy and I waited, stuck in a long queue. The clerk said: «if it's to a country in a temperate zone, it's sure to arrive within a week»."

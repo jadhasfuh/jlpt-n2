@@ -7,22 +7,22 @@
   {
    "p": "<ruby>画家<rt>がか</rt></ruby>は、はじめどうしようとしていましたか。",
    "opciones": [
-    "すぐに<ruby>訴<rt>うった</rt></ruby>えた",
-    "<ruby>放<rt>ほう</rt></ruby>っておこうとしていた",
+    "<ruby>絵<rt>え</rt></ruby>を<ruby>描<rt>か</rt></ruby>き<ruby>直<rt>なお</rt></ruby>した",
     "<ruby>広告<rt>こうこく</rt></ruby><ruby>会社<rt>がいしゃ</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>した",
-    "<ruby>絵<rt>え</rt></ruby>を<ruby>描<rt>か</rt></ruby>き<ruby>直<rt>なお</rt></ruby>した"
+    "<ruby>放<rt>ほう</rt></ruby>っておこうとしていた",
+    "すぐに<ruby>訴<rt>うった</rt></ruby>えた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>結果<rt>けっか</rt></ruby>はどうなりましたか。",
    "opciones": [
-    "<ruby>何<rt>なに</rt></ruby>も<ruby>変<rt>か</rt></ruby>わらなかった",
-    "<ruby>相手<rt>あいて</rt></ruby>が<ruby>取<rt>と</rt></ruby>り<ruby>下<rt>さ</rt></ruby>げ、<ruby>使用料<rt>しようりょう</rt></ruby>が<ruby>支払<rt>しはら</rt></ruby>われた",
+    "<ruby>裁判<rt>さいばん</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>いている",
     "<ruby>絵<rt>え</rt></ruby>が<ruby>戻<rt>もど</rt></ruby>ってきた",
-    "<ruby>裁判<rt>さいばん</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>いている"
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>変<rt>か</rt></ruby>わらなかった",
+    "<ruby>相手<rt>あいて</rt></ruby>が<ruby>取<rt>と</rt></ruby>り<ruby>下<rt>さ</rt></ruby>げ、<ruby>使用料<rt>しようりょう</rt></ruby>が<ruby>支払<rt>しはら</rt></ruby>われた"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "A painting by an artist I know turned up used in an advertisement without permission. He has been in the art world a long time, but of law he understands absolutely nothing. Ignoring everyone else's concern, at first he wanted to let it go. He said: «if I can go on painting, that's enough». But the purpose of legislating is precisely to protect people like that. An acquaintance went with him to the court and gathered the record of the uses. The result was that the other party withdrew the advertisement and paid for the use. There were those who used a word as strong as «plunder», but the painter stayed calm to the end. It isn't that they gave him the painting back. Even so he said that, if his time for painting had been protected, that was enough."

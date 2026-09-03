@@ -7,22 +7,22 @@
   {
    "p": "ガイドを<ruby>頼<rt>たの</rt></ruby>まなかった<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "お<ruby>金<rt>かね</rt></ruby>がなかったから",
-    "<ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>うことまで<ruby>旅<rt>たび</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>っていたから",
     "<ruby>言葉<rt>ことば</rt></ruby>ができたから",
-    "<ruby>時間<rt>じかん</rt></ruby>がなかったから"
+    "<ruby>時間<rt>じかん</rt></ruby>がなかったから",
+    "<ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>うことまで<ruby>旅<rt>たび</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>っていたから",
+    "お<ruby>金<rt>かね</rt></ruby>がなかったから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>立<rt>た</rt></ruby>ち<ruby>去<rt>さ</rt></ruby>るとき、<ruby>何<rt>なに</rt></ruby>が<ruby>寂<rt>さび</rt></ruby>しかったと<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>風景<rt>ふうけい</rt></ruby>",
-    "<ruby>案内<rt>あんない</rt></ruby>してくれた<ruby>人<rt>ひと</rt></ruby>",
     "<ruby>宿<rt>やど</rt></ruby>",
-    "<ruby>島<rt>しま</rt></ruby>"
+    "<ruby>島<rt>しま</rt></ruby>",
+    "<ruby>風景<rt>ふうけい</rt></ruby>",
+    "<ruby>案内<rt>あんない</rt></ruby>してくれた<ruby>人<rt>ひと</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I remember well the day I collected my passport. It was my first trip abroad and I decided the route and the accommodation myself. If I didn't hire a guide it was because I thought getting lost is part of travelling too. When I got there, half of what the guidebook said had gone out of date. As for the boat that crossed to the island, it had stopped running three years earlier. Seeing me in difficulty, the guesthouse owner got the car out and took me. In the same land, in the hands of someone who lives there, a great many paths appear that are on no map. Being treated as a guest feels good, but as I left I understood that what's hard to leave behind isn't the landscape you were shown, but the person who showed it to you."

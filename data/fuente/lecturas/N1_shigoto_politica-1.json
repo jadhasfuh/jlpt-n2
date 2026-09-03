@@ -7,22 +7,22 @@
   {
    "p": "<ruby>審議<rt>しんぎ</rt></ruby>に<ruby>半年<rt>はんとし</rt></ruby>かけたのは、なぜですか。",
    "opciones": [
+    "<ruby>新聞<rt>しんぶん</rt></ruby>に<ruby>載<rt>の</rt></ruby>ったから",
     "<ruby>反対<rt>はんたい</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かったから",
     "<ruby>財政<rt>ざいせい</rt></ruby>の<ruby>数字<rt>すうじ</rt></ruby>を<ruby>全員<rt>ぜんいん</rt></ruby>が<ruby>読<rt>よ</rt></ruby>めるようにするため",
-    "<ruby>学者<rt>がくしゃ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>っていたから",
-    "<ruby>新聞<rt>しんぶん</rt></ruby>に<ruby>載<rt>の</rt></ruby>ったから"
+    "<ruby>学者<rt>がくしゃ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>っていたから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>議論<rt>ぎろん</rt></ruby>に<ruby>残<rt>のこ</rt></ruby>っていたのは、どんな<ruby>人<rt>ひと</rt></ruby>ですか。",
    "opciones": [
     "<ruby>権威<rt>けんい</rt></ruby>のある<ruby>学者<rt>がくしゃ</rt></ruby>",
-    "<ruby>自主<rt>じしゅ</rt></ruby><ruby>的<rt>てき</rt></ruby>に<ruby>調<rt>しら</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>高齢<rt>こうれい</rt></ruby>の<ruby>方<rt>かた</rt></ruby>",
     "<ruby>棄権<rt>きけん</rt></ruby>した<ruby>人<rt>ひと</rt></ruby>",
-    "<ruby>高齢<rt>こうれい</rt></ruby>の<ruby>方<rt>かた</rt></ruby>"
+    "<ruby>自主<rt>じしゅ</rt></ruby><ruby>的<rt>てき</rt></ruby>に<ruby>調<rt>しら</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "The day the result of the neighbourhood referendum came out, the hall was silent. Facing those who wanted the reform, on the opposite side there were mostly older people. Nor was the number of those who abstained small. After the vote several voices of objection were raised. The protests didn't stay in the hall: the next day they were in the paper. It isn't a matter that gets settled because whoever holds the authority decides it. If the deliberation lasted half a year it was so that everyone could read the budget figures. An expert with authority could have been brought in to explain it. But those who studied it on their own were the ones who lasted to the end of the debate. It wasn't a revolutionary change. It was a small advance, one the word «improvement» fits better."

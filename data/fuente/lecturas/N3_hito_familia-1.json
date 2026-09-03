@@ -7,12 +7,12 @@
   {
    "p": "<ruby>祖父<rt>そふ</rt></ruby>が<ruby>何度<rt>なんど</rt></ruby>も<ruby>聞<rt>き</rt></ruby>くのはなぜかもしれませんか。",
    "opciones": [
-    "わすれているから",
     "<ruby>言<rt>い</rt></ruby>いたいだけかもしれない",
+    "<ruby>知<rt>し</rt></ruby>らないから",
     "<ruby>聞<rt>き</rt></ruby>こえないから",
-    "<ruby>知<rt>し</rt></ruby>らないから"
+    "わすれているから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "いとこはどうしていますか。",

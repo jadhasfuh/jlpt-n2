@@ -16,20 +16,20 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>出<rt>で</rt></ruby>てきましたか。",
    "opciones": [
-    "<ruby>乾<rt>かわ</rt></ruby>いた<ruby>糊<rt>のり</rt></ruby>",
     "<ruby>新<rt>あたら</rt></ruby>しい<ruby>本<rt>ほん</rt></ruby>",
+    "<ruby>乾<rt>かわ</rt></ruby>いた<ruby>糊<rt>のり</rt></ruby>",
     "<ruby>写真<rt>しゃしん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>棚<rt>たな</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>飾<rt>かざ</rt></ruby>りましたか。",
    "opciones": [
-    "<ruby>列島<rt>れっとう</rt></ruby>の<ruby>地図<rt>ちず</rt></ruby>",
     "のこぎり",
-    "<ruby>定規<rt>じょうぎ</rt></ruby>"
+    "<ruby>定規<rt>じょうぎ</rt></ruby>",
+    "<ruby>列島<rt>れっとう</rt></ruby>の<ruby>地図<rt>ちず</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Taking advantage of the move, I tidied the desk drawers. Out came old pens and ink, dried-up glue and a broken ruler. There was even a handsaw: I thought that's no place for office supplies. I gathered all the implements into a box and stuck on a note with the contents. On the shelf I put the map of the archipelago my grandfather gave me."

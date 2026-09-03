@@ -16,20 +16,20 @@
   {
    "p": "<ruby>目<rt>め</rt></ruby>で<ruby>見<rt>み</rt></ruby>るだけでどうですか。",
    "opciones": [
-    "<ruby>分<rt>わ</rt></ruby>からない",
     "<ruby>分<rt>わ</rt></ruby>かる",
+    "<ruby>分<rt>わ</rt></ruby>からない",
     "<ruby>少<rt>すこ</rt></ruby>し<ruby>分<rt>わ</rt></ruby>かる"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "アイデアの<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>見<rt>み</rt></ruby>ますか。",
    "opciones": [
-    "<ruby>数字<rt>すうじ</rt></ruby>",
+    "<ruby>人<rt>ひと</rt></ruby>の<ruby>顔<rt>かお</rt></ruby>",
     "<ruby>本<rt>ほん</rt></ruby>",
-    "<ruby>人<rt>ひと</rt></ruby>の<ruby>顔<rt>かお</rt></ruby>"
+    "<ruby>数字<rt>すうじ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "In the experiment I tried changing the salt concentration. Just by looking it isn't possible to tell the difference. If you measure and compare, anyone can notice. That's why, before putting forward ideas, I've got into the habit of looking at the numbers. Thinking may be, above all, comparing."

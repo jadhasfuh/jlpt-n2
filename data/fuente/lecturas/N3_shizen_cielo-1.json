@@ -7,22 +7,22 @@
   {
    "p": "<ruby>写真<rt>しゃしん</rt></ruby>で<ruby>何<rt>なに</rt></ruby>がわかりますか。",
    "opciones": [
+    "<ruby>雲<rt>くも</rt></ruby>のかたち",
     "<ruby>星<rt>ほし</rt></ruby>のかず",
     "<ruby>大気<rt>たいき</rt></ruby>のうすい<ruby>層<rt>そう</rt></ruby>が<ruby>地球<rt>ちきゅう</rt></ruby>をつつんでいること",
-    "<ruby>太陽<rt>たいよう</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きさ",
-    "<ruby>雲<rt>くも</rt></ruby>のかたち"
+    "<ruby>太陽<rt>たいよう</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きさ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>た<em class=\"g\">結果</em>、どうなりましたか。",
    "opciones": [
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>感<rt>かん</rt></ruby>じなかった",
     "こわくなった",
-    "<ruby>同僚<rt>どうりょう</rt></ruby>にあやまろうという<ruby>気<rt>き</rt></ruby>になった",
     "<ruby>宇宙<rt>うちゅう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きたくなった",
-    "<ruby>何<rt>なに</rt></ruby>も<ruby>感<rt>かん</rt></ruby>じなかった"
+    "<ruby>同僚<rt>どうりょう</rt></ruby>にあやまろうという<ruby>気<rt>き</rt></ruby>になった"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I saw the photos a satellite sends back. You can make out the thin layer of atmosphere wrapped around the Earth. Beyond the horizon the sun could be seen and the light spread between the clouds. For how big it is, the Earth's warmth seems a fragile thing. The distance between one star and another is unimaginable. As a result of seeing that photo, I felt like apologising to the colleague I'd argued with."

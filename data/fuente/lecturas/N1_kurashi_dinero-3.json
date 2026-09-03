@@ -7,12 +7,12 @@
   {
    "p": "<ruby>募金<rt>ぼきん</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まったのは、なぜですか。",
    "opciones": [
-    "<ruby>法案<rt>ほうあん</rt></ruby>が<ruby>通<rt>とお</rt></ruby>ったから",
     "<ruby>法案<rt>ほうあん</rt></ruby>を<ruby>待<rt>ま</rt></ruby>っていては<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わないから",
     "<ruby>融資<rt>ゆうし</rt></ruby>が<ruby>下<rt>お</rt></ruby>りたから",
-    "<ruby>川<rt>かわ</rt></ruby>があふれたから"
+    "<ruby>川<rt>かわ</rt></ruby>があふれたから",
+    "<ruby>法案<rt>ほうあん</rt></ruby>が<ruby>通<rt>とお</rt></ruby>ったから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>はいつ<ruby>納入<rt>のうにゅう</rt></ruby>できましたか。",

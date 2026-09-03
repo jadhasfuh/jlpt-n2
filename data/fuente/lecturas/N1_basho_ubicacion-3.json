@@ -7,12 +7,12 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>式場<rt>しきじょう</rt></ruby>に<ruby>早<rt>はや</rt></ruby>く<ruby>着<rt>つ</rt></ruby>いて<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
-    "<ruby>受付<rt>うけつけ</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>った",
     "<ruby>建物<rt>たてもの</rt></ruby>の<ruby>側面<rt>そくめん</rt></ruby>を<ruby>一周<rt>いっしゅう</rt></ruby>した",
     "<ruby>写真<rt>しゃしん</rt></ruby>をとった",
+    "<ruby>受付<rt>うけつけ</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>った",
     "<ruby>町<rt>まち</rt></ruby>へ<ruby>降<rt>お</rt></ruby>りた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>結婚式<rt>けっこんしき</rt></ruby>の<ruby>特徴<rt>とくちょう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でしたか。",

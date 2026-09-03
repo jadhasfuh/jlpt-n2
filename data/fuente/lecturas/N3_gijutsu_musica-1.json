@@ -7,12 +7,12 @@
   {
    "p": "<ruby>笛<rt>ふえ</rt></ruby>の<ruby>音<rt>ね</rt></ruby>は、なぜ<ruby>強<rt>つよ</rt></ruby>くなったり<ruby>弱<rt>よわ</rt></ruby>くなったりしますか。",
    "opciones": [
-    "<ruby>鐘<rt>かね</rt></ruby>のせい",
     "<ruby>風<rt>かぜ</rt></ruby><em class=\"g\">によって</em>",
+    "<ruby>夜<rt>よる</rt></ruby>だから",
     "<ruby>人<rt>ひと</rt></ruby>が<ruby>動<rt>うご</rt></ruby>くから",
-    "<ruby>夜<rt>よる</rt></ruby>だから"
+    "<ruby>鐘<rt>かね</rt></ruby>のせい"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>節<rt>ふし</rt></ruby>のかたちは<ruby>何<rt>なに</rt></ruby>できまりますか。",

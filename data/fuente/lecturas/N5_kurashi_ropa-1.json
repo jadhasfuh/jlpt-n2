@@ -16,20 +16,20 @@
   {
    "p": "<ruby>靴下<rt>くつした</rt></ruby>を なんまい はきますか。",
    "opciones": [
+    "はきません",
     "<ruby>二<rt>に</rt></ruby>まい",
-    "<ruby>一<rt>いち</rt></ruby>まい",
-    "はきません"
+    "<ruby>一<rt>いち</rt></ruby>まい"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "だれの ことばが 正しかったですか。",
    "opciones": [
-    "ミンさん",
     "ゴンサ",
-    "たなかさん"
+    "たなかさん",
+    "ミンさん"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The clothes I brought from Mexico weren't enough for this winter. I bought a coat in a cheap shop. With two pairs of socks you really are warm. Min was right. Taking my shoes off when I go indoors comes naturally now. In my bag I always carry my work clothes."

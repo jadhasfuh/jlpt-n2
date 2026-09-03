@@ -7,12 +7,12 @@
   {
    "p": "<ruby>数字<rt>すうじ</rt></ruby>から<ruby>何<rt>なに</rt></ruby>が<ruby>見<rt>み</rt></ruby>えてきましたか。",
    "opciones": [
-    "<ruby>人口<rt>じんこう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えていること",
     "<ruby>過疎<rt>かそ</rt></ruby>が<ruby>現実<rt>げんじつ</rt></ruby>になっていくこと",
     "<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>が<ruby>戻<rt>もど</rt></ruby>ること",
+    "<ruby>人口<rt>じんこう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えていること",
     "<ruby>村<rt>むら</rt></ruby>が<ruby>豊<rt>ゆた</rt></ruby>かなこと"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は、<ruby>欠乏<rt>けつぼう</rt></ruby>しているのは<ruby>何<rt>なに</rt></ruby>かもしれないと<ruby>言<rt>い</rt></ruby>っていますか。",

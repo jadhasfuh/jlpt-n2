@@ -8,21 +8,21 @@
    "p": "ふるいふとんはどうしますか。",
    "opciones": [
     "<ruby>持<rt>も</rt></ruby>っていく",
-    "すてる",
     "うる",
+    "すてる",
     "まだきめていない"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "あたらしいへやでさいしょにすることは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
     "はこをあける",
-    "まどをあけて<ruby>空気<rt>くうき</rt></ruby>をいれかえる",
     "つくえをおく",
-    "やすむ"
+    "やすむ",
+    "まどをあけて<ruby>空気<rt>くうき</rt></ruby>をいれかえる"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Next month I'm planning to move house. For example, I'm taking the desk and the shelves, but I intend to throw out the old futon. Deciding that took me quite a while. There should be about ten boxes. On moving day people are due to come and help from the morning. Afterwards, the first thing I'll do in the new room will be to open the window and let in fresh air."

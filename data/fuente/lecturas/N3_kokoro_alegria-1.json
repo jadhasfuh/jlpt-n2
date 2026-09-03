@@ -7,12 +7,12 @@
   {
    "p": "<ruby>手紙<rt>てがみ</rt></ruby>には<ruby>何<rt>なに</rt></ruby>と<ruby>書<rt>か</rt></ruby>いてありましたか。",
    "opciones": [
-    "ありがとう",
     "あなたがいてくれてよかった",
+    "がんばって",
     "また<ruby>会<rt>あ</rt></ruby>おう",
-    "がんばって"
+    "ありがとう"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって<ruby>幸<rt>しあわ</rt></ruby>せとは<ruby>何<rt>なに</rt></ruby>ですか。",

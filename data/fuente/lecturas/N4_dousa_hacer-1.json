@@ -8,21 +8,21 @@
    "p": "たなをどうしましたか。",
    "opciones": [
     "すてた",
+    "そのままにした",
     "<ruby>直<rt>なお</rt></ruby>して<ruby>使<rt>つか</rt></ruby>った",
-    "あたらしいのを<ruby>買<rt>か</rt></ruby>った",
-    "そのままにした"
+    "あたらしいのを<ruby>買<rt>か</rt></ruby>った"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "できあがったたなについて、どう<ruby>思<rt>おも</rt></ruby>いましたか。",
    "opciones": [
-    "<ruby>買<rt>か</rt></ruby>ったもののほうがいい",
-    "<ruby>買<rt>か</rt></ruby>ったものより<ruby>気<rt>き</rt></ruby>に<ruby>入<rt>い</rt></ruby>った",
     "こわれやすい",
-    "<ruby>小<rt>ちい</rt></ruby>さすぎる"
+    "<ruby>買<rt>か</rt></ruby>ったもののほうがいい",
+    "<ruby>小<rt>ちい</rt></ruby>さすぎる",
+    "<ruby>買<rt>か</rt></ruby>ったものより<ruby>気<rt>き</rt></ruby>に<ruby>入<rt>い</rt></ruby>った"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "A small shelf I put together ten years ago was about to fall apart. I thought about throwing it out, but decided to repair it and go on using it. First I scraped off the old paint and gave it a new coat. I didn't finish in a day and carried on the next. When your hands get used to it, the work goes faster. When I gathered the books and put them on the finished shelf, I liked it more than a shop-bought one. From now on I've decided that when something breaks, the first thing will be to try to fix it."

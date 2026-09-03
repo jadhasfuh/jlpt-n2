@@ -8,21 +8,21 @@
    "p": "「<ruby>我々<rt>われわれ</rt></ruby>」という<ruby>言葉<rt>ことば</rt></ruby>について、この<ruby>人<rt>ひと</rt></ruby>はどう<ruby>感<rt>かん</rt></ruby>じていますか。",
    "opciones": [
     "<ruby>使<rt>つか</rt></ruby>うべきではない",
-    "<ruby>自分<rt>じぶん</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っているのかわからなくなる",
     "とても<ruby>便利<rt>べんり</rt></ruby>だ",
+    "<ruby>自分<rt>じぶん</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っているのかわからなくなる",
     "<ruby>意味<rt>いみ</rt></ruby>を<ruby>知<rt>し</rt></ruby>らない"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>が「<ruby>別<rt>べつ</rt></ruby>に」と<ruby>答<rt>こた</rt></ruby>えていたのは、なぜですか。",
    "opciones": [
     "<ruby>意見<rt>いけん</rt></ruby>がなかったから",
-    "そう<ruby>答<rt>こた</rt></ruby>えるのがいちばんらくだったから",
+    "<ruby>時間<rt>じかん</rt></ruby>がなかったから",
     "<ruby>権利<rt>けんり</rt></ruby>がなかったから",
-    "<ruby>時間<rt>じかん</rt></ruby>がなかったから"
+    "そう<ruby>答<rt>こた</rt></ruby>えるのがいちばんらくだったから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "In meetings I often hear the expression «what should we do». But sometimes I stop being sure whether I'm inside that «we». I go to say something and in the end it finishes without my having said anything. On days like that, on the way home, my feet don't lighten in the slightest. It isn't that I have no right to an opinion. It's simply that answering «nothing in particular» was the most comfortable thing. Regardless of whether it's right or not, saying out loud what you think. Things usually start moving right there. If I want to change something, I've thought that first I have to say something."

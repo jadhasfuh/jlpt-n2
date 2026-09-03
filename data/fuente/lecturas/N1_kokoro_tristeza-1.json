@@ -7,22 +7,22 @@
   {
    "p": "<ruby>発表<rt>はっぴょう</rt></ruby>の<ruby>冒頭<rt>ぼうとう</rt></ruby>で<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>きましたか。",
    "opciones": [
-    "<ruby>資料<rt>しりょう</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れた",
-    "<ruby>言葉<rt>ことば</rt></ruby>が<ruby>出<rt>で</rt></ruby>てこなくなった",
+    "<ruby>時間<rt>じかん</rt></ruby>に<ruby>遅<rt>おく</rt></ruby>れた",
     "<ruby>客<rt>きゃく</rt></ruby>が<ruby>来<rt>こ</rt></ruby>なかった",
-    "<ruby>時間<rt>じかん</rt></ruby>に<ruby>遅<rt>おく</rt></ruby>れた"
+    "<ruby>言葉<rt>ことば</rt></ruby>が<ruby>出<rt>で</rt></ruby>てこなくなった",
+    "<ruby>資料<rt>しりょう</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとっていちばん<ruby>切<rt>せつ</rt></ruby>なかったのは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>沈黙<rt>ちんもく</rt></ruby>が<ruby>長<rt>なが</rt></ruby>かったこと",
-    "<ruby>同期<rt>どうき</rt></ruby>を<ruby>妬<rt>ねた</rt></ruby>む<ruby>気持<rt>きも</rt></ruby>ちが<ruby>出<rt>で</rt></ruby>てきたこと",
     "<ruby>先輩<rt>せんぱい</rt></ruby>に<ruby>笑<rt>わら</rt></ruby>われたこと",
-    "<ruby>食<rt>た</rt></ruby>べられなかったこと"
+    "<ruby>沈黙<rt>ちんもく</rt></ruby>が<ruby>長<rt>なが</rt></ruby>かったこと",
+    "<ruby>食<rt>た</rt></ruby>べられなかったこと",
+    "<ruby>同期<rt>どうき</rt></ruby>を<ruby>妬<rt>ねた</rt></ruby>む<ruby>気持<rt>きも</rt></ruby>ちが<ruby>出<rt>で</rt></ruby>てきたこと"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "From the eve of an important presentation I felt heavy, and on the day I couldn't eat anything from the morning. Partly because I hadn't slept enough, on the first sentence the words left me. A silence of about ten seconds felt like several minutes to me. Afterwards I was told the audience were having an awful time. Out of embarrassment, it took me a while to be able to lift my head. Seeing that a colleague from my intake had done well, something like envy even came out in me, and that was what hurt most. It turns out the only one who thought he'd made a fool of himself was me: a senior colleague laughed and said that «everyone goes through that at some point». Worries, when you carry them alone, look enormous. As soon as you say them out loud you realise it wasn't such a big thing."

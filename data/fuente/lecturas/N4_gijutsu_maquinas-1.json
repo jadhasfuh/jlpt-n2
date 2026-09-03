@@ -7,12 +7,12 @@
   {
    "p": "はじめの<ruby>頃<rt>ころ</rt></ruby>、みんなはどうでしたか。",
    "opciones": [
-    "すぐに<ruby>使<rt>つか</rt></ruby>った",
     "こわがってさわらなかった",
-    "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだ",
-    "よろこんだ"
+    "よろこんだ",
+    "すぐに<ruby>使<rt>つか</rt></ruby>った",
+    "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "だれかは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",

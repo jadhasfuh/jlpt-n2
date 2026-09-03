@@ -8,21 +8,21 @@
    "p": "<ruby>前<rt>まえ</rt></ruby>の<ruby>責任者<rt>せきにんしゃ</rt></ruby>はどんな<ruby>人<rt>ひと</rt></ruby>でしたか。",
    "opciones": [
     "<ruby>丁寧<rt>ていねい</rt></ruby>だった",
-    "<ruby>荒<rt>あら</rt></ruby>っぽく、<ruby>人前<rt>ひとまえ</rt></ruby>でとがめた",
     "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった",
+    "<ruby>荒<rt>あら</rt></ruby>っぽく、<ruby>人前<rt>ひとまえ</rt></ruby>でとがめた",
     "<ruby>提案<rt>ていあん</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>意見<rt>いけん</rt></ruby>が<ruby>活発<rt>かっぱつ</rt></ruby>に<ruby>出<rt>で</rt></ruby>るようになった<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
+    "<ruby>会議<rt>かいぎ</rt></ruby>が<ruby>減<rt>へ</rt></ruby>ったから",
     "<ruby>数字<rt>すうじ</rt></ruby>がよくなったから",
-    "<ruby>失敗<rt>しっぱい</rt></ruby>をおろそかに<ruby>扱<rt>あつか</rt></ruby>われない<ruby>安心<rt>あんしん</rt></ruby>があるから",
     "<ruby>人<rt>ひと</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えたから",
-    "<ruby>会議<rt>かいぎ</rt></ruby>が<ruby>減<rt>へ</rt></ruby>ったから"
+    "<ruby>失敗<rt>しっぱい</rt></ruby>をおろそかに<ruby>扱<rt>あつか</rt></ruby>われない<ruby>安心<rt>あんしん</rt></ruby>があるから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Over the last six months the atmosphere at work has changed a lot. The previous manager was an abrupt person and, if the numbers didn't come out, he raised his voice in a way that became intimidating. He also reprimanded people badly, telling them off in front of everyone. The new person is exactly the opposite. She's extremely careful and speaks measuring her words. She doesn't boast about results and lends a hand first to whoever is struggling. If opinions now come out freely it must be because there's the reassurance that a mistake won't be dealt with any old how. Colleagues who used to be passive now come with proposals of their own. I wouldn't say the place is entirely calm, but I'm surprised how far one person's conduct can change somewhere."

@@ -7,12 +7,12 @@
   {
    "p": "<ruby>先月<rt>せんげつ</rt></ruby>、<ruby>会議<rt>かいぎ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>かいありましたか。",
    "opciones": [
-    "<ruby>三<rt>さん</rt></ruby>かい",
-    "<ruby>五<rt>ご</rt></ruby>かい",
     "<ruby>十<rt>じゅう</rt></ruby>かい",
+    "<ruby>五<rt>ご</rt></ruby>かい",
+    "<ruby>三<rt>さん</rt></ruby>かい",
     "<ruby>半分<rt>はんぶん</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
    "p": "どうやってへらしましたか。",

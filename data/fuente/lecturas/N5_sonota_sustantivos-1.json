@@ -16,20 +16,20 @@
   {
    "p": "じしょを つかわずに よめたのは なんさつですか。",
    "opciones": [
-    "<ruby>三<rt>さん</rt></ruby>さつ",
     "<ruby>一<rt>いっ</rt></ruby>さつ",
+    "<ruby>三<rt>さん</rt></ruby>さつ",
     "ぜんぶ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>本<rt>ほん</rt></ruby>を どう する つもりですか。",
    "opciones": [
-    "へやに のこして <ruby>行<rt>い</rt></ruby>きます",
+    "うります",
     "<ruby>国<rt>くに</rt></ruby>へ <ruby>持<rt>も</rt></ruby>って <ruby>帰<rt>かえ</rt></ruby>ります",
-    "うります"
+    "へやに のこして <ruby>行<rt>い</rt></ruby>きます"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Jean bought a new bookshelf. We put all our books on it and didn't fill even half. That's everything we've read in a year. But three of them I read without using the dictionary. I wrote my name in them too. I plan to leave them in the flat for whoever comes next."

@@ -16,20 +16,20 @@
   {
    "p": "<ruby>味<rt>あじ</rt></ruby>はどうしましたか。",
    "opciones": [
-    "<ruby>塩辛<rt>しおから</rt></ruby>くしすぎない",
     "とても<ruby>辛<rt>から</rt></ruby>くした",
+    "<ruby>塩辛<rt>しおから</rt></ruby>くしすぎない",
     "<ruby>甘<rt>あま</rt></ruby>くした"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>調味料<rt>ちょうみりょう</rt></ruby>はどう<ruby>入<rt>い</rt></ruby>れますか。",
    "opciones": [
-    "<ruby>少<rt>すこ</rt></ruby>しずつ",
+    "<ruby>入<rt>い</rt></ruby>れない",
     "<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>一度<rt>いちど</rt></ruby>に",
-    "<ruby>入<rt>い</rt></ruby>れない"
+    "<ruby>少<rt>すこ</rt></ruby>しずつ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Since the dinner was something special, we thought out the menu ourselves. As some people are very fussy, we made sure it didn't come out too salty. We gathered round the steaming pot and savoured it together. If you overdo the seasoning it gets heavy, so you add it little by little. When those who'd helped cook said «thank you for the meal», I was left feeling wonderful."

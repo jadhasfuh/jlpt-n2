@@ -7,12 +7,12 @@
   {
    "p": "いつ<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>しましたか。",
    "opciones": [
-    "すぐ",
     "<ruby>夜<rt>よる</rt></ruby>になって",
+    "すぐ",
     "<ruby>昨日<rt>きのう</rt></ruby>",
     "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>せなかった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えましたか。",

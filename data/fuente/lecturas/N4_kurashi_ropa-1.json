@@ -8,21 +8,21 @@
    "p": "<ruby>着物<rt>きもの</rt></ruby>は<ruby>何<rt>なに</rt></ruby>でできていますか。",
    "opciones": [
     "<ruby>木綿<rt>もめん</rt></ruby>",
-    "<ruby>絹<rt>きぬ</rt></ruby>",
     "かわ",
+    "<ruby>絹<rt>きぬ</rt></ruby>",
     "わからない"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>母<rt>はは</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
+    "はやくしろ",
     "よごすな",
-    "まよう<em class=\"g\">な</em>、まず<ruby>着<rt>き</rt></ruby>てみろ",
     "<ruby>床屋<rt>とこや</rt></ruby>へ<ruby>行<rt>い</rt></ruby>け",
-    "はやくしろ"
+    "まよう<em class=\"g\">な</em>、まず<ruby>着<rt>き</rt></ruby>てみろ"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I was given my grandmother's kimono. It's silk and to the touch it's nothing like cotton clothes. My father laughed and told me «don't get it dirty». Since it takes a while to put on, if I go to the hairdresser's first I might not be in time. The gloves didn't go with the sandals, so I changed the footwear too. My mother told me «don't overthink it, try it on first» and I did as she said. Since everything changes from the underwear up, it took me an hour."

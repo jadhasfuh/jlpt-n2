@@ -25,11 +25,11 @@
   {
    "p": "わたしは<ruby>最後<rt>さいご</rt></ruby>にどうなりましたか。",
    "opciones": [
-    "<ruby>元気<rt>げんき</rt></ruby>になった",
+    "<ruby>寝<rt>ね</rt></ruby>た",
     "<ruby>怒<rt>おこ</rt></ruby>った",
-    "<ruby>寝<rt>ね</rt></ruby>た"
+    "<ruby>元気<rt>げんき</rt></ruby>になった"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "At New Year the relatives gathered. My father is a quiet person, but my aunt talks a lot. Being the eldest daughter, I helped in the kitchen. I was tired and sighed, but on the contrary, I filled with energy. It was from seeing everyone's faces. Incidentally, my aunt comes every year, but my cousins come some years and not others."

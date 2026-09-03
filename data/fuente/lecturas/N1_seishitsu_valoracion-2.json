@@ -7,12 +7,12 @@
   {
    "p": "<ruby>資料<rt>しりょう</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でしたか。",
    "opciones": [
-    "<ruby>図<rt>ず</rt></ruby>が<ruby>雑<rt>ざつ</rt></ruby>だった",
     "<ruby>肝心<rt>かんじん</rt></ruby>の<ruby>結論<rt>けつろん</rt></ruby>が<ruby>薄<rt>うす</rt></ruby>かった",
-    "<ruby>数字<rt>すうじ</rt></ruby>が<ruby>足<rt>た</rt></ruby>りなかった",
-    "<ruby>長<rt>なが</rt></ruby>すぎた"
+    "<ruby>長<rt>なが</rt></ruby>すぎた",
+    "<ruby>図<rt>ず</rt></ruby>が<ruby>雑<rt>ざつ</rt></ruby>だった",
+    "<ruby>数字<rt>すうじ</rt></ruby>が<ruby>足<rt>た</rt></ruby>りなかった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>最善<rt>さいぜん</rt></ruby>をつくすとは、<ruby>何<rt>なに</rt></ruby>だと<ruby>分<rt>わ</rt></ruby>かりましたか。",

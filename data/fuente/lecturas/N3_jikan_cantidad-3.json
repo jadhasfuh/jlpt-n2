@@ -8,21 +8,21 @@
    "p": "<ruby>全体<rt>ぜんたい</rt></ruby>の<ruby>平均<rt>へいきん</rt></ruby>はどうなりましたか。",
    "opciones": [
     "へった",
-    "<ruby>増加<rt>ぞうか</rt></ruby>した",
     "かわらない",
+    "<ruby>増加<rt>ぞうか</rt></ruby>した",
     "<ruby>不足<rt>ふそく</rt></ruby>した"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "なぜ<ruby>平均<rt>へいきん</rt></ruby>だけが<ruby>上<rt>あ</rt></ruby>がって<ruby>見<rt>み</rt></ruby>えますか。",
    "opciones": [
     "<ruby>全員<rt>ぜんいん</rt></ruby>がよくなったから",
-    "<ruby>一部<rt>いちぶ</rt></ruby>の<ruby>地域<rt>ちいき</rt></ruby>が<ruby>余分<rt>よぶん</rt></ruby>にのびたから",
+    "<ruby>地域<rt>ちいき</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから",
     "<ruby>調査<rt>ちょうさ</rt></ruby>がまちがっているから",
-    "<ruby>地域<rt>ちいき</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから"
+    "<ruby>一部<rt>いちぶ</rt></ruby>の<ruby>地域<rt>ちいき</rt></ruby>が<ruby>余分<rt>よぶん</rt></ruby>にのびたから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "The results of the national survey were published. The overall average has risen compared with last year. But in most areas the shortfall remained. Figures sometimes betray us. It isn't that everyone improved to the same degree. Because a few areas grew a great deal, only the average appears to rise. While I looked at the numbers, the pattern behind them began to interest me. People with different roles live different realities."

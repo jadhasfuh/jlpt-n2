@@ -7,22 +7,22 @@
   {
    "p": "なぜ、でんしゃがとまりましたか。",
    "opciones": [
+    "<ruby>特急<rt>とっきゅう</rt></ruby>だから",
     "<ruby>雨<rt>あめ</rt></ruby>がふったから",
     "<ruby>交通<rt>こうつう</rt></ruby><ruby>事故<rt>じこ</rt></ruby>があったから",
-    "<ruby>人<rt>ひと</rt></ruby>がおおかったから",
-    "<ruby>特急<rt>とっきゅう</rt></ruby>だから"
+    "<ruby>人<rt>ひと</rt></ruby>がおおかったから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>会社<rt>かいしゃ</rt></ruby>についたのはいつですか。",
    "opciones": [
     "<ruby>予定<rt>よてい</rt></ruby>どおり",
-    "<ruby>予定<rt>よてい</rt></ruby>より<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>あと",
+    "つかなかった",
     "<ruby>予定<rt>よてい</rt></ruby>より<ruby>早<rt>はや</rt></ruby>く",
-    "つかなかった"
+    "<ruby>予定<rt>よてい</rt></ruby>より<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>あと"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "In the morning I was planning to take the express. But there was a traffic accident and the train stopped. It wasn't going to arrive at the scheduled time. The people waiting on the platform kept increasing. Every time an announcement sounded, everyone moved at once. I changed to the bus and chose the long way round. I finally reached the office an hour later than planned. It's precisely on days when nothing goes to plan that you're glad you left home early. Whoever is driving surely thinks the same."

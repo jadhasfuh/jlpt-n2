@@ -7,22 +7,22 @@
   {
    "p": "まちで<ruby>星<rt>ほし</rt></ruby>が<ruby>見<rt>み</rt></ruby>えない<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>空気<rt>くうき</rt></ruby>だけ",
-    "<ruby>空気<rt>くうき</rt></ruby>と、したのあかりが<ruby>明<rt>あか</rt></ruby>るすぎること",
     "<ruby>月<rt>つき</rt></ruby>があるから",
-    "<ruby>山<rt>やま</rt></ruby>がないから"
+    "<ruby>山<rt>やま</rt></ruby>がないから",
+    "<ruby>空気<rt>くうき</rt></ruby>と、したのあかりが<ruby>明<rt>あか</rt></ruby>るすぎること",
+    "<ruby>空気<rt>くうき</rt></ruby>だけ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>星<rt>ほし</rt></ruby>の<ruby>光<rt>ひかり</rt></ruby>について、<ruby>何<rt>なに</rt></ruby>を<ruby>知<rt>し</rt></ruby>りましたか。",
    "opciones": [
-    "<ruby>今<rt>いま</rt></ruby>の<ruby>光<rt>ひかり</rt></ruby>だ",
-    "ずっとまえに<ruby>出<rt>で</rt></ruby>た<ruby>光<rt>ひかり</rt></ruby>だ",
     "<ruby>見<rt>み</rt></ruby>えない",
-    "まちのあかりだ"
+    "<ruby>今<rt>いま</rt></ruby>の<ruby>光<rt>ひかり</rt></ruby>だ",
+    "まちのあかりだ",
+    "ずっとまえに<ruby>出<rt>で</rt></ruby>た<ruby>光<rt>ひかり</rt></ruby>だ"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "In the city you can hardly see the stars. It isn't only because the air is dirty, but because the lights below are too bright. Even so, the moon can be seen, but the stars are hard. The night I went to the mountains I saw the Milky Way for the first time. They say the light that shines isn't from now, but set out a very long time ago. Hearing it put that way, perhaps looking at the sky is looking at the past."

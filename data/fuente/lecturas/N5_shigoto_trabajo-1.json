@@ -16,20 +16,20 @@
   {
    "p": "だれかが おくれたら どう しますか。",
    "opciones": [
-    "ほかの <ruby>人<rt>ひと</rt></ruby>が その ぶんを します",
     "まちます",
+    "ほかの <ruby>人<rt>ひと</rt></ruby>が その ぶんを します",
     "おこります"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "みんなは 「ありがとう」を 言いますか。",
    "opciones": [
-    "言いませんが、<ruby>見<rt>み</rt></ruby>て います",
+    "だれも <ruby>見<rt>み</rt></ruby>て いません",
     "いつも 言います",
-    "だれも <ruby>見<rt>み</rt></ruby>て いません"
+    "言いませんが、<ruby>見<rt>み</rt></ruby>て います"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Everyone at the shop comes from somewhere else. Bangladesh, Myanmar, Vietnam, and me. Nobody speaks the language well, but the work never stops. If someone is late, another does their share. Nobody says «thank you», but everyone notices. Working alongside people, some things get through faster than words."

@@ -7,12 +7,12 @@
   {
    "p": "お<ruby>辞儀<rt>じぎ</rt></ruby>のふかさについて、<ruby>何<rt>なに</rt></ruby>を<ruby>知<rt>し</rt></ruby>りましたか。",
    "opciones": [
-    "いつも<ruby>同<rt>おな</rt></ruby>じ",
     "ばめんによって<ruby>意味<rt>いみ</rt></ruby>がちがう",
+    "いつも<ruby>同<rt>おな</rt></ruby>じ",
     "<ruby>必要<rt>ひつよう</rt></ruby>ない",
     "むずかしい"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "ことばとからだが<ruby>合<rt>あ</rt></ruby>っていないと、どうなりますか。",

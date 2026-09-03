@@ -7,12 +7,12 @@
   {
    "p": "この<ruby>仕事<rt>しごと</rt></ruby>で<ruby>難<rt>むずか</rt></ruby>しいのは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>内容<rt>ないよう</rt></ruby>をやさしくすること",
     "<ruby>順番<rt>じゅんばん</rt></ruby>を<ruby>崩<rt>くず</rt></ruby>さずに<ruby>簡潔<rt>かんけつ</rt></ruby>にすること",
+    "<ruby>内容<rt>ないよう</rt></ruby>をやさしくすること",
     "<ruby>一文<rt>いちぶん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>くすること",
     "<ruby>注意書<rt>ちゅういが</rt></ruby>きを<ruby>増<rt>ふ</rt></ruby>やすこと"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>先輩<rt>せんぱい</rt></ruby>の<ruby>書<rt>か</rt></ruby>き<ruby>方<rt>かた</rt></ruby>の<ruby>特徴<rt>とくちょう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",

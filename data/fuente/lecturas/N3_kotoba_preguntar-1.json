@@ -8,21 +8,21 @@
    "p": "<ruby>問<rt>と</rt></ruby>いの<ruby>立<rt>た</rt></ruby>て<ruby>方<rt>かた</rt></ruby>で、<ruby>何<rt>なに</rt></ruby>がかわりますか。",
    "opciones": [
     "<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>気<rt>き</rt></ruby>もち",
     "<ruby>返<rt>かえ</rt></ruby>ってくる<ruby>答<rt>こた</rt></ruby>え",
-    "<ruby>相手<rt>あいて</rt></ruby>",
-    "<ruby>気<rt>き</rt></ruby>もち"
+    "<ruby>相手<rt>あいて</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "いい<ruby>問<rt>と</rt></ruby>いについて、どう<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
+    "<ruby>必要<rt>ひつよう</rt></ruby>ない",
     "すぐわすれられる",
-    "<ruby>答<rt>こた</rt></ruby>えよりも<ruby>長<rt>なが</rt></ruby>く<ruby>残<rt>のこ</rt></ruby>る",
     "むずかしい",
-    "<ruby>必要<rt>ひつよう</rt></ruby>ない"
+    "<ruby>答<rt>こた</rt></ruby>えよりも<ruby>長<rt>なが</rt></ruby>く<ruby>残<rt>のこ</rt></ruby>る"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "It's difficult to get out of your mouth, just as it is, what has left you with doubts. Asking «what is this?» isn't the same as asking «why is it like this?»: the answer you get changes completely. It's precisely when you have a complaint that it's worth putting it in the form of a question first. Over a coffee or something, I reworded my proposal. A good question lasts longer than an answer."

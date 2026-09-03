@@ -7,22 +7,22 @@
   {
    "p": "なぜ、けさは<ruby>眠<rt>ねむ</rt></ruby>かったですか。",
    "opciones": [
-    "はやく<ruby>起<rt>お</rt></ruby>きたから",
-    "よるおそくまで<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んでいたから",
+    "<ruby>仕事<rt>しごと</rt></ruby>がおおいから",
     "コーヒーをのんだから",
-    "<ruby>仕事<rt>しごと</rt></ruby>がおおいから"
+    "よるおそくまで<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んでいたから",
+    "はやく<ruby>起<rt>お</rt></ruby>きたから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>がいちばんきいたと<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
     "コーヒー",
-    "<ruby>昼<rt>ひる</rt></ruby>に<ruby>十五分<rt>じゅうごふん</rt></ruby><ruby>目<rt>め</rt></ruby>をとじること",
     "がまんすること",
-    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むこと"
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むこと",
+    "<ruby>昼<rt>ひる</rt></ruby>に<ruby>十五分<rt>じゅうごふん</rt></ruby><ruby>目<rt>め</rt></ruby>をとじること"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Since I was reading until late, this morning I was terribly sleepy. I think that when you're sleepy your head doesn't work. Although I had coffee, it made no difference. In the end, closing my eyes for just fifteen minutes at midday helped quite a lot. I think that with sleep, rather than fighting it, it goes faster if you sleep even a little. Tonight I'm going to bed early."

@@ -7,22 +7,22 @@
   {
    "p": "ともだちは、まず<ruby>何<rt>なに</rt></ruby>をすすめましたか。",
    "opciones": [
+    "つくえをかたづけること",
     "すてること",
     "<ruby>同<rt>おな</rt></ruby>じものをはこに<ruby>集<rt>あつ</rt></ruby>めること",
-    "つくえをかたづけること",
     "かみを<ruby>書<rt>か</rt></ruby>くこと"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "いらないものはどのくらいありましたか。",
    "opciones": [
+    "なかった",
     "<ruby>少<rt>すこ</rt></ruby>し",
-    "<ruby>半分<rt>はんぶん</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>",
     "ぜんぶ",
-    "なかった"
+    "<ruby>半分<rt>はんぶん</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "My room was a disaster. There were things on the floor and on the desk. A friend said to me: «what if you first gather the same kinds of things into a box?». I tried it and, with the papers on one side and the pens on the other, it was tidied up in no time. More than half were things I didn't need. He said «and what if you now throw out what you don't need?», but I'm leaving that until I've thought about it a bit more."

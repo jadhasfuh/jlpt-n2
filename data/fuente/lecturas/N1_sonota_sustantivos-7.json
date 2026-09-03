@@ -7,22 +7,22 @@
   {
    "p": "<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>書<rt>か</rt></ruby>くとき、<ruby>何<rt>なに</rt></ruby>をしないようにしましたか。",
    "opciones": [
-    "<ruby>原因<rt>げんいん</rt></ruby>を<ruby>書<rt>か</rt></ruby>く",
-    "<ruby>弁解<rt>べんかい</rt></ruby>を<ruby>入<rt>い</rt></ruby>れる",
+    "<ruby>短<rt>みじか</rt></ruby>くする",
     "<ruby>対策<rt>たいさく</rt></ruby>を<ruby>並<rt>なら</rt></ruby>べる",
-    "<ruby>短<rt>みじか</rt></ruby>くする"
+    "<ruby>弁解<rt>べんかい</rt></ruby>を<ruby>入<rt>い</rt></ruby>れる",
+    "<ruby>原因<rt>げんいん</rt></ruby>を<ruby>書<rt>か</rt></ruby>く"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>相手<rt>あいて</rt></ruby>からの<ruby>返事<rt>へんじ</rt></ruby>はどうでしたか。",
    "opciones": [
     "<ruby>長<rt>なが</rt></ruby>くて<ruby>厳<rt>きび</rt></ruby>しかった",
-    "とても<ruby>短<rt>みじか</rt></ruby>く「<ruby>次<rt>つぎ</rt></ruby>を<ruby>楽<rt>たの</rt></ruby>しみにしています」だけ",
     "<ruby>返事<rt>へんじ</rt></ruby>がなかった",
-    "<ruby>取引<rt>とりひき</rt></ruby>を<ruby>断<rt>ことわ</rt></ruby>られた"
+    "<ruby>取引<rt>とりひき</rt></ruby>を<ruby>断<rt>ことわ</rt></ruby>られた",
+    "とても<ruby>短<rt>みじか</rt></ruby>く「<ruby>次<rt>つぎ</rt></ruby>を<ruby>楽<rt>たの</rt></ruby>しみにしています」だけ"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "A defect was found in a delivered order and it fell to me to write a letter of apology. If you line up excuses, the text comes out confused. I didn't want it to be a cut-price apology. Writing the cause clearly and listing the measures one by one. I didn't end up with a perfect text, but I think I was right not to put in any justification. From the client's contact person an astonishingly short reply reached me. «We look forward to the next one.» That was all. A matter like this inevitably twists the mood of everyone involved. And there are many situations in which having apologised isn't enough. Even so, I took it to mean they had treated me well. By next month at the latest, I intend to deliver it properly."

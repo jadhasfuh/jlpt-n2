@@ -16,20 +16,20 @@
   {
    "p": "<ruby>体<rt>からだ</rt></ruby>のことで<ruby>何<rt>なん</rt></ruby>と<ruby>伝<rt>つた</rt></ruby>えましたか。",
    "opciones": [
-    "おだいじに",
     "おめでとう",
+    "おだいじに",
     "すみません"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>奥<rt>おく</rt></ruby>さんは<ruby>帰<rt>かえ</rt></ruby>るとき<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
-    "いってらっしゃい",
     "おかまいなく",
-    "しつれいしました"
+    "しつれいしました",
+    "いってらっしゃい"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I said «may I?» and went into the house next door. When I said «sorry to trouble you», they answered «it's no trouble». Since I'd heard he was in poor health, I said «get well soon». That the appointment was delayed by the rain couldn't be helped. As I left, the lady came out to the door and waved me off saying «take care». I thought that people's feelings are passed on together with daily life."

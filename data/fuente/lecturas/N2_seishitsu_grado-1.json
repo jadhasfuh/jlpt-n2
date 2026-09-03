@@ -16,20 +16,20 @@
   {
    "p": "どう<ruby>答<rt>こた</rt></ruby>えましたか。",
    "opciones": [
-    "<ruby>正直<rt>しょうじき</rt></ruby>に",
     "<ruby>隠<rt>かく</rt></ruby>して",
+    "<ruby>正直<rt>しょうじき</rt></ruby>に",
     "<ruby>答<rt>こた</rt></ruby>えなかった"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>結果<rt>けっか</rt></ruby>はどうやって<ruby>知<rt>し</rt></ruby>らせますか。",
    "opciones": [
-    "<ruby>書面<rt>しょめん</rt></ruby>で",
     "<ruby>電話<rt>でんわ</rt></ruby>で",
-    "<ruby>直接<rt>ちょくせつ</rt></ruby>"
+    "<ruby>直接<rt>ちょくせつ</rt></ruby>",
+    "<ruby>書面<rt>しょめん</rt></ruby>で"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "On the day of the interview they asked about my strengths and weaknesses. I thought it more sensible to state my weaknesses without hiding them and answered honestly. «Understood», said the person in charge, and wrote something on the criteria sheet. Apparently, my energy is in fact somewhat above average. They'll let me know the result next week in writing."

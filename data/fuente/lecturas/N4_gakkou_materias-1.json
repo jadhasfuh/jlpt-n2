@@ -7,22 +7,22 @@
   {
    "p": "なぜ<ruby>歴史<rt>れきし</rt></ruby>がすきですか。",
    "opciones": [
-    "やさしいから",
-    "むかしの<ruby>人<rt>ひと</rt></ruby>もまよっていたとわかるから",
     "<ruby>数<rt>かず</rt></ruby>をつかうから",
-    "<ruby>先生<rt>せんせい</rt></ruby>がいいから"
+    "<ruby>先生<rt>せんせい</rt></ruby>がいいから",
+    "むかしの<ruby>人<rt>ひと</rt></ruby>もまよっていたとわかるから",
+    "やさしいから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>数学<rt>すうがく</rt></ruby>についての<ruby>考<rt>かんが</rt></ruby>えは、なぜかわりましたか。",
    "opciones": [
+    "ともだちにきいたから",
     "テストができたから",
-    "<ruby>科学<rt>かがく</rt></ruby>で<ruby>数<rt>かず</rt></ruby>が<ruby>物<rt>もの</rt></ruby>の<ruby>動<rt>うご</rt></ruby>きを<ruby>説明<rt>せつめい</rt></ruby>するのを<ruby>見<rt>み</rt></ruby>たから",
     "<ruby>歴史<rt>れきし</rt></ruby>をならったから",
-    "ともだちにきいたから"
+    "<ruby>科学<rt>かがく</rt></ruby>で<ruby>数<rt>かず</rt></ruby>が<ruby>物<rt>もの</rt></ruby>の<ruby>動<rt>うご</rt></ruby>きを<ruby>説明<rt>せつめい</rt></ruby>するのを<ruby>見<rt>み</rt></ruby>たから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "At school, what I like most is history. Because it makes you see that people in the past also hesitated and made mistakes, just like us now. I used to be bad at maths. But in the science class, seeing how the movement of things is explained using numbers, I changed my mind. Like history, maths also has a path thought out by people. Any subject is something somebody built over a long time."

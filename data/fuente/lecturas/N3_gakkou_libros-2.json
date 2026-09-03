@@ -7,11 +7,11 @@
   {
    "p": "<ruby>季刊<rt>きかん</rt></ruby>のざっしはどのくらい<ruby>出<rt>で</rt></ruby>ますか。",
    "opciones": [
-    "<ruby>毎月<rt>まいつき</rt></ruby>",
     "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>",
-    "<ruby>一年<rt>いちねん</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>"
+    "<ruby>一年<rt>いちねん</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>",
+    "<ruby>毎月<rt>まいつき</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>今回<rt>こんかい</rt></ruby>のとくしゅうは<ruby>何<rt>なん</rt></ruby>でしたか。",
@@ -26,10 +26,10 @@
    "p": "<ruby>季刊<rt>きかん</rt></ruby>のざっしのいいところは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
     "やすいこと",
-    "あとで<ruby>読<rt>よ</rt></ruby>んでもふるくならないこと",
-    "うすいこと"
+    "うすいこと",
+    "あとで<ruby>読<rt>よ</rt></ruby>んでもふるくならないこと"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "I look forward to reading a quarterly magazine at the library. As it only comes out once every three months, it feels dense with content. This issue's feature was «the neighbourhood bookshop». The interview with the shopkeepers ran to ten pages and was well worth reading. Monthly magazines tell you what's new, but the quarterly doesn't go stale even if you read it later. Until the next issue comes out, I wait another three months."

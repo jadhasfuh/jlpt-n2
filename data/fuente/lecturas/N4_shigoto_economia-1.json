@@ -7,12 +7,12 @@
   {
    "p": "おじいさんは<ruby>何<rt>なに</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しましたか。",
    "opciones": [
-    "いまのほうがいい",
     "<ruby>昔<rt>むかし</rt></ruby>は<em class=\"g\">そんなに</em><ruby>苦<rt>くる</rt></ruby>しくなかった",
-    "<ruby>競争<rt>きょうそう</rt></ruby>がない",
-    "<ruby>輸出<rt>ゆしゅつ</rt></ruby>がおおい"
+    "いまのほうがいい",
+    "<ruby>輸出<rt>ゆしゅつ</rt></ruby>がおおい",
+    "<ruby>競争<rt>きょうそう</rt></ruby>がない"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "いま、<ruby>増<rt>ふ</rt></ruby>えているものは<ruby>何<rt>なに</rt></ruby>ですか。",

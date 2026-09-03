@@ -16,20 +16,20 @@
   {
    "p": "<ruby>被害<rt>ひがい</rt></ruby>はどうでしたか。",
    "opciones": [
+    "なかった",
     "<ruby>大<rt>たい</rt></ruby>してなかった",
-    "とても<ruby>大<rt>おお</rt></ruby>きかった",
-    "なかった"
+    "とても<ruby>大<rt>おお</rt></ruby>きかった"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "どうして<ruby>被害<rt>ひがい</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかったのですか。",
    "opciones": [
-    "<ruby>去年<rt>きょねん</rt></ruby>より<ruby>準備<rt>じゅんび</rt></ruby>したから",
+    "<ruby>山<rt>やま</rt></ruby>だから",
     "<ruby>雨<rt>あめ</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから",
-    "<ruby>山<rt>やま</rt></ruby>だから"
+    "<ruby>去年<rt>きょねん</rt></ruby>より<ruby>準備<rt>じゅんび</rt></ruby>したから"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "This year the rain in Kanto increased sharply. In several places the rivers overflowed and at some points the roads are closed. Except at a few spots in the mountains, the damage wasn't much. It seems it helped that we'd prepared more than last year. Hearing that everyone without exception was well, I could sleep fairly easily."

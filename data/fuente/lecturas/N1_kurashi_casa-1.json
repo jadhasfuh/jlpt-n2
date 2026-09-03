@@ -7,22 +7,22 @@
   {
    "p": "<ruby>祖父母<rt>そふぼ</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>の<ruby>縁側<rt>えんがわ</rt></ruby>は、どんな<ruby>場所<rt>ばしょ</rt></ruby>でしたか。",
    "opciones": [
+    "<ruby>客<rt>きゃく</rt></ruby>を<ruby>通<rt>とお</rt></ruby>す<ruby>場所<rt>ばしょ</rt></ruby>",
     "<ruby>寒<rt>さむ</rt></ruby>くて<ruby>使<rt>つか</rt></ruby>えない<ruby>場所<rt>ばしょ</rt></ruby>",
     "すわって<ruby>庭<rt>にわ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ているだけで<ruby>一日<rt>いちにち</rt></ruby>がすぎる<ruby>場所<rt>ばしょ</rt></ruby>",
-    "<ruby>物<rt>もの</rt></ruby>を<ruby>置<rt>お</rt></ruby>く<ruby>場所<rt>ばしょ</rt></ruby>",
-    "<ruby>客<rt>きゃく</rt></ruby>を<ruby>通<rt>とお</rt></ruby>す<ruby>場所<rt>ばしょ</rt></ruby>"
+    "<ruby>物<rt>もの</rt></ruby>を<ruby>置<rt>お</rt></ruby>く<ruby>場所<rt>ばしょ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "いまの<ruby>社宅<rt>しゃたく</rt></ruby>に<ruby>足<rt>た</rt></ruby>りないものは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>広<rt>ひろ</rt></ruby>さ",
-    "<ruby>外<rt>そと</rt></ruby>と<ruby>中<rt>なか</rt></ruby>のあいだにあたる<ruby>場所<rt>ばしょ</rt></ruby>",
     "<ruby>便利<rt>べんり</rt></ruby>さ",
-    "<ruby>新<rt>あたら</rt></ruby>しさ"
+    "<ruby>新<rt>あたら</rt></ruby>しさ",
+    "<ruby>広<rt>ひろ</rt></ruby>さ",
+    "<ruby>外<rt>そと</rt></ruby>と<ruby>中<rt>なか</rt></ruby>のあいだにあたる<ruby>場所<rt>ばしょ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "At my grandparents' house there was a wooden veranda. In winter, the table with the brazier; in summer, the doors thrown wide so the air could run through. Just by sitting on those flat boards and looking at the garden the day would go by: it was that kind of space. The company flat where I live now is new and comfortable, but it has no place that falls between outside and inside. It amply meets the square metres required for living and yet I feel something is missing. It's life that adapts to a layout decided in advance. I can't even put up a shelf of my own accord. As a child, when I ran away from home with nowhere to go, I ended up sitting on that very veranda. I think a house isn't something you own, but the place you go back to."

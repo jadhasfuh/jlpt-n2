@@ -7,22 +7,22 @@
   {
    "p": "<ruby>沖<rt>おき</rt></ruby>のほうはどうですか。",
    "opciones": [
+    "つめたい",
     "あさい",
     "<ruby>流<rt>なが</rt></ruby>れがはやくきけんだ",
-    "しずかだ",
-    "つめたい"
+    "しずかだ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>夏<rt>なつ</rt></ruby>でもつめたい<ruby>水<rt>みず</rt></ruby>が<ruby>飲<rt>の</rt></ruby>めたのはなぜですか。",
    "opciones": [
+    "<ruby>水準<rt>すいじゅん</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いから",
     "<ruby>海<rt>うみ</rt></ruby>が<ruby>近<rt>ちか</rt></ruby>いから",
-    "<ruby>祖父<rt>そふ</rt></ruby>がいどから<ruby>水<rt>みず</rt></ruby>を<ruby>汲<rt>く</rt></ruby>んでくれたから",
     "<ruby>台風<rt>たいふう</rt></ruby>のせい",
-    "<ruby>水準<rt>すいじゅん</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いから"
+    "<ruby>祖父<rt>そふ</rt></ruby>がいどから<ruby>水<rt>みず</rt></ruby>を<ruby>汲<rt>く</rt></ruby>んでくれたから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Since I grew up near the sea, I can't sleep without the sound of the waves. I was taught that out at sea the current is fast and swimming is dangerous. On days when the level rises, the water comes up to the height of the ditch. As a child, thanks to my grandfather drawing water from the well, I could drink cold water even in summer. Water, which can be gas or liquid, can perhaps go anywhere precisely because it has no shape. Because of the typhoon, this year I couldn't swim in the sea."

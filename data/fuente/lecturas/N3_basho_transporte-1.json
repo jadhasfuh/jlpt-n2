@@ -8,21 +8,21 @@
    "p": "<ruby>子<rt>こ</rt></ruby>どものころ、エンジンの<ruby>音<rt>おと</rt></ruby>を<ruby>聞<rt>き</rt></ruby>くとどう<ruby>感<rt>かん</rt></ruby>じましたか。",
    "opciones": [
     "うるさい",
+    "ねむくなる",
     "どこかへ<ruby>行<rt>い</rt></ruby>ける<ruby>気<rt>き</rt></ruby>がした",
-    "こわい",
-    "ねむくなる"
+    "こわい"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>父<rt>ちち</rt></ruby>はどんな<ruby>人<rt>ひと</rt></ruby>でしたか。",
    "opciones": [
-    "よく<ruby>話<rt>はな</rt></ruby>す<ruby>人<rt>ひと</rt></ruby>",
-    "しずかで、<ruby>自分<rt>じぶん</rt></ruby>のことを<ruby>述<rt>の</rt></ruby>べない<ruby>人<rt>ひと</rt></ruby>",
+    "きびしい<ruby>人<rt>ひと</rt></ruby>",
     "<ruby>運転<rt>うんてん</rt></ruby>がへたな<ruby>人<rt>ひと</rt></ruby>",
-    "きびしい<ruby>人<rt>ひと</rt></ruby>"
+    "よく<ruby>話<rt>はな</rt></ruby>す<ruby>人<rt>ひと</rt></ruby>",
+    "しずかで、<ruby>自分<rt>じぶん</rt></ruby>のことを<ruby>述<rt>の</rt></ruby>べない<ruby>人<rt>ひと</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "As a child I liked going out for a drive in my father's car. Just hearing the engine gave me the feeling I could go anywhere. Now I'm the one driving. I've ended up watching for the moment to brake and even the mood of whoever is in the passenger seat. My father drove very well. Although he never said anything about himself, the day I learnt to drive he looked pleased. Being a quiet man, only on that day did he talk a lot."

@@ -7,12 +7,12 @@
   {
    "p": "<ruby>歴史<rt>れきし</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>で<ruby>習<rt>なら</rt></ruby>わなかったことは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>王<rt>おう</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>",
     "<ruby>庶民<rt>しょみん</rt></ruby>がどう<ruby>暮<rt>く</rt></ruby>らしていたか",
+    "<ruby>防衛<rt>ぼうえい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>",
     "<ruby>占領<rt>せんりょう</rt></ruby>の<ruby>年号<rt>ねんごう</rt></ruby>",
-    "<ruby>防衛<rt>ぼうえい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>"
+    "<ruby>王<rt>おう</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>本当<rt>ほんとう</rt></ruby>の<ruby>歴史<rt>れきし</rt></ruby>がどこにあると<ruby>考<rt>かんが</rt></ruby>えていますか。",

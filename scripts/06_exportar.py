@@ -107,6 +107,17 @@ descartadas = {u["id"]: [i for i in u["palabras"] if i in DESCARTAR] for u in un
 for u in unidades:
     u["palabras"] = [i for i in u["palabras"] if i not in DESCARTAR]
 
+# Descartar una repetida vació N5/kurashi/casa-2, que sólo tenía esa palabra, y
+# el error no se veía por ningún lado: la unidad seguía existiendo, con su
+# lectura y su capítulo, pero sin nada que estudiar. Si vuelve a pasar, que
+# pare aquí y no llegue a la base.
+_vacias = [u["id"] for u in unidades if not u["palabras"]]
+if _vacias:
+    print("unidades que se quedaron sin vocabulario al descartar:")
+    for _id in _vacias:
+        print(f"  ✗ {_id} — descartadas: {descartadas.get(_id)}")
+    sys.exit(1)
+
 # ---------------------------------------------------------------------- kanji
 KANJI_RX = re.compile(r"[一-鿿]")
 kanji_cat = json.loads(pathlib.Path("data/build/kanji.json").read_text(encoding="utf-8"))

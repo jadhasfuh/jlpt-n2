@@ -16,20 +16,20 @@
   {
    "p": "しごとが おわると どう なりますか。",
    "opciones": [
+    "かわりません",
     "きゅうに <ruby>静<rt>しず</rt></ruby>かに なります",
-    "うるさく なります",
-    "かわりません"
+    "うるさく なります"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ミンさんは なにを くれますか。",
    "opciones": [
-    "つめたい みず",
     "ピザ",
-    "おかね"
+    "おかね",
+    "つめたい みず"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "On Friday nights the shop is flat out. The phone rings, inside it's lively and a bit loud. In front of the oven it's baking hot and outside it's freezing. When the shift ends, the shop goes suddenly quiet. That's when Min hands me a glass of cold water. «It's badly paid work, but it isn't bad», said Min."

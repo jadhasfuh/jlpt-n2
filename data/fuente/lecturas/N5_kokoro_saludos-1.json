@@ -16,20 +16,20 @@
   {
    "p": "カルロスさんは なにを して しまいましたか。",
    "opciones": [
-    "なまえを <ruby>二<rt>に</rt></ruby>かい 言いました",
     "でんわを きりました",
+    "なまえを <ruby>二<rt>に</rt></ruby>かい 言いました",
     "なにも 言えませんでした"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ゴンサさんは なんと 言いましたか。",
    "opciones": [
-    "「おわりだ」",
     "「よかったね」",
-    "「<ruby>行<rt>い</rt></ruby>くな」"
+    "「<ruby>行<rt>い</rt></ruby>くな」",
+    "「おわりだ」"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Anna's mother rang me. Her «hello» sounded just like Anna's voice. I got so nervous that I said my name twice. She invited me: «do come to the house one of these days». After hanging up I told Gonza. Gonza laughed and said «you're done for», but I was happy."

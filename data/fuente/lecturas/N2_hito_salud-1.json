@@ -16,20 +16,20 @@
   {
    "p": "<ruby>看護婦<rt>かんごふ</rt></ruby>さんは<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
-    "<ruby>消毒<rt>しょうどく</rt></ruby>して<ruby>包帯<rt>ほうたい</rt></ruby>を<ruby>巻<rt>ま</rt></ruby>いた",
     "<ruby>診断<rt>しんだん</rt></ruby>した",
+    "<ruby>消毒<rt>しょうどく</rt></ruby>して<ruby>包帯<rt>ほうたい</rt></ruby>を<ruby>巻<rt>ま</rt></ruby>いた",
     "<ruby>薬<rt>くすり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>った"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>薬品<rt>やくひん</rt></ruby>はどこでもらいましたか。",
    "opciones": [
+    "<ruby>内科<rt>ないか</rt></ruby>",
     "<ruby>外科<rt>げか</rt></ruby>",
-    "<ruby>薬局<rt>やっきょく</rt></ruby>",
-    "<ruby>内科<rt>ないか</rt></ruby>"
+    "<ruby>薬局<rt>やっきょく</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "I burnt myself while cooking and went to surgery. The nurse disinfected it and put on a bandage. The person next to me wouldn't stop sneezing and was waiting for internal medicine. They took a while to give me the diagnosis, but at last they called my name, I collected the medicine at the pharmacy and suddenly felt calm."

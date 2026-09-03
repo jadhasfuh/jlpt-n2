@@ -7,12 +7,12 @@
   {
    "p": "<ruby>店<rt>みせ</rt></ruby>が<ruby>閉<rt>し</rt></ruby>まる<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>客<rt>きゃく</rt></ruby>が<ruby>減<rt>へ</rt></ruby>ったから",
     "<ruby>跡継<rt>あとつ</rt></ruby>ぎがおらず、<ruby>設備<rt>せつび</rt></ruby>も<ruby>古<rt>ふる</rt></ruby>くなったから",
-    "<ruby>値段<rt>ねだん</rt></ruby>が<ruby>安<rt>やす</rt></ruby>すぎたから",
-    "<ruby>駅<rt>えき</rt></ruby>の<ruby>向<rt>む</rt></ruby>こうに<ruby>店<rt>みせ</rt></ruby>ができたから"
+    "<ruby>客<rt>きゃく</rt></ruby>が<ruby>減<rt>へ</rt></ruby>ったから",
+    "<ruby>駅<rt>えき</rt></ruby>の<ruby>向<rt>む</rt></ruby>こうに<ruby>店<rt>みせ</rt></ruby>ができたから",
+    "<ruby>値段<rt>ねだん</rt></ruby>が<ruby>安<rt>やす</rt></ruby>すぎたから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>閉<rt>し</rt></ruby>めることは、どうやって<ruby>決<rt>き</rt></ruby>めましたか。",

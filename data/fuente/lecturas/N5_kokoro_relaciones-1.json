@@ -16,20 +16,20 @@
   {
    "p": "アンナさんは なんと こたえましたか。",
    "opciones": [
-    "「わたしも おなじ きもちです」",
     "「ごめんなさい」",
+    "「わたしも おなじ きもちです」",
     "「わかりません」"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんは その <ruby>日<rt>ひ</rt></ruby>、どう かんじましたか。",
    "opciones": [
-    "<ruby>日本語<rt>にほんご</rt></ruby>が ぜんぶ わかる きが しました",
     "かなしかったです",
-    "つかれました"
+    "つかれました",
+    "<ruby>日本語<rt>にほんご</rt></ruby>が ぜんぶ わかる きが しました"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "On Sunday I met Anna in the park. There were children playing and it was very lively. We sat on a bench and I said the words I had looked up in the dictionary. Anna said nothing for a while. Then she answered slowly: «I feel the same». That day I felt as though I understood the whole of Japanese."

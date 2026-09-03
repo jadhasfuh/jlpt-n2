@@ -16,20 +16,20 @@
   {
    "p": "けんたくんは たなかさんの なんですか。",
    "opciones": [
+    "おとうと",
     "まご",
-    "むすこ",
-    "おとうと"
+    "むすこ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんの <ruby>兄弟<rt>きょうだい</rt></ruby>は なんにんですか。",
    "opciones": [
-    "<ruby>姉<rt>あね</rt></ruby>が ひとり",
+    "いません",
     "<ruby>兄<rt>あに</rt></ruby>が ふたり",
-    "いません"
+    "<ruby>姉<rt>あね</rt></ruby>が ひとり"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "On the wall of Mrs Tanaka's house there are lots of photos. «This is my husband», she said, showing me one. Her husband died five years ago. Her daughter lives in Tokyo, and Kenta is her son. «Do you have brothers or sisters?» she asked, and I said: «an older sister». Mrs Tanaka said: «family is family, however far away it is»."

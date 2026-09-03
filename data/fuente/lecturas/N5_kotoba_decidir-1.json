@@ -16,20 +16,20 @@
   {
    "p": "ジャンさんは どうして <ruby>行<rt>い</rt></ruby>けませんか。",
    "opciones": [
+    "かぜだから",
     "バイトが あるから",
-    "おかねが ないから",
-    "かぜだから"
+    "おかねが ないから"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "どこへ <ruby>行<rt>い</rt></ruby>く ことに しましたか。",
    "opciones": [
-    "さっぽろ",
     "とうきょう",
-    "メキシコ"
+    "メキシコ",
+    "さっぽろ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "In December the school closes for the holidays. Gonza said: «let's go north». I said «I've never seen snow» and he answered: «me neither». Jean can't come because he's working. Anna is spending those days with her family. We decided the two of us would go to Sapporo."

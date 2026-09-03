@@ -7,12 +7,12 @@
   {
    "p": "かえりのでんしゃで<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
-    "ねた",
     "ともだちと<ruby>答<rt>こた</rt></ruby>えあわせをした",
     "ノートを<ruby>開<rt>ひら</rt></ruby>いた",
-    "<ruby>話<rt>はな</rt></ruby>さなかった"
+    "<ruby>話<rt>はな</rt></ruby>さなかった",
+    "ねた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>間違<rt>まちが</rt></ruby>えたところについて、どう<ruby>思<rt>おも</rt></ruby>っていますか。",

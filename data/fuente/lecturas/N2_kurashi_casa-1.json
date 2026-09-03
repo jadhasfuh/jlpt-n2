@@ -16,20 +16,20 @@
   {
    "p": "<ruby>庭<rt>にわ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。",
    "opciones": [
-    "<ruby>井戸<rt>いど</rt></ruby>と<ruby>植木<rt>うえき</rt></ruby>",
     "<ruby>車庫<rt>しゃこ</rt></ruby>",
+    "<ruby>井戸<rt>いど</rt></ruby>と<ruby>植木<rt>うえき</rt></ruby>",
     "<ruby>温室<rt>おんしつ</rt></ruby>だけ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>冬<rt>ふゆ</rt></ruby>はどうですか。",
    "opciones": [
-    "<ruby>屋外<rt>おくがい</rt></ruby>のほうが<ruby>暖<rt>あたた</rt></ruby>かいことがある",
+    "<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>られない",
     "とても<ruby>暖<rt>あたた</rt></ruby>かい",
-    "<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>られない"
+    "<ruby>屋外<rt>おくがい</rt></ruby>のほうが<ruby>暖<rt>あたた</rt></ruby>かいことがある"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "My grandfather's house has a tiled roof, and the sliding doors and the shutters are still as they were. In the garden there's a well and some shrubs, and beyond the hedge the vegetable plot begins. It hasn't a scrap of the comfort of a modern flat. What's more, in winter it's sometimes warmer outside. Even so, when I see the flowers raised in the greenhouse, I'm glad I came."

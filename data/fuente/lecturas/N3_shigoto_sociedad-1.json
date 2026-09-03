@@ -7,12 +7,12 @@
   {
    "p": "<ruby>共通<rt>きょうつう</rt></ruby>のルールをつくっても、<ruby>何<rt>なに</rt></ruby>が<ruby>消<rt>け</rt></ruby>せませんか。",
    "opciones": [
-    "<ruby>差別<rt>さべつ</rt></ruby>",
     "<ruby>環境<rt>かんきょう</rt></ruby>のちがい",
+    "<ruby>差別<rt>さべつ</rt></ruby>",
     "<ruby>集団<rt>しゅうだん</rt></ruby>",
     "<ruby>文明<rt>ぶんめい</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>平等<rt>びょうどう</rt></ruby>とは<ruby>何<rt>なに</rt></ruby>ではないと<ruby>言<rt>い</rt></ruby>っていますか。",

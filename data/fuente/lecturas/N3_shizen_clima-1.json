@@ -7,12 +7,12 @@
   {
    "p": "<ruby>湿度<rt>しつど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いと、どうですか。",
    "opciones": [
-    "すずしい",
     "<ruby>気温<rt>きおん</rt></ruby>が<ruby>同<rt>おな</rt></ruby>じでもつらさがちがう",
     "かわらない",
-    "<ruby>乾燥<rt>かんそう</rt></ruby>する"
+    "<ruby>乾燥<rt>かんそう</rt></ruby>する",
+    "すずしい"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>予報<rt>よほう</rt></ruby>の<ruby>正確<rt>せいかく</rt></ruby>さは、<ruby>何<rt>なに</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてくれますか。",

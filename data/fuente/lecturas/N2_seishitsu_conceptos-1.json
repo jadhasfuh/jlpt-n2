@@ -16,20 +16,20 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>合<rt>あ</rt></ruby>いませんでしたか。",
    "opciones": [
-    "<ruby>確率<rt>かくりつ</rt></ruby>の<ruby>計算<rt>けいさん</rt></ruby>とデータ",
     "<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>確率<rt>かくりつ</rt></ruby>の<ruby>計算<rt>けいさん</rt></ruby>とデータ",
     "<ruby>人<rt>ひと</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>三日<rt>みっか</rt></ruby>のあいだどうでしたか。",
    "opciones": [
-    "<ruby>正<rt>ただ</rt></ruby>しい<ruby>答<rt>こた</rt></ruby>えがなかった",
     "すぐ<ruby>分<rt>わ</rt></ruby>かった",
-    "<ruby>休<rt>やす</rt></ruby>んだ"
+    "<ruby>休<rt>やす</rt></ruby>んだ",
+    "<ruby>正<rt>ただ</rt></ruby>しい<ruby>答<rt>こた</rt></ruby>えがなかった"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "While I was sorting out the symbols from the experiment, a contradiction came up. The probability calculation didn't match the original data. I corrected and calculated, corrected and calculated, and corrected again. For three days there wasn't a single correct answer. In the end a formula appeared that worked and at last I could sleep."

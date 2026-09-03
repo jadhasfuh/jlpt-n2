@@ -16,20 +16,20 @@
   {
    "p": "かかりの ひとは どうでしたか。",
    "opciones": [
-    "ゆっくり おしえてくれました",
     "はやく はなしました",
+    "ゆっくり おしえてくれました",
     "なにも いいませんでした"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "どのくらい かかりましたか。",
    "opciones": [
-    "いちじかん",
+    "いちにち",
     "じゅっぷん",
-    "いちにち"
+    "いちじかん"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "On my second day in Japan I went to the city office. You have to register your address. I put the papers in an envelope and handed them in at the counter. «How do I write this?» I asked. The clerk explained it to me slowly. Without letting go of the pen, I filled it in to the end. It took an hour, but now I can live here."

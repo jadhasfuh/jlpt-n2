@@ -16,20 +16,20 @@
   {
    "p": "アンナさんは どこの ひとですか。",
    "opciones": [
-    "にほんじん",
     "ペルーじん",
+    "にほんじん",
     "メキシコじん"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "アンナさんは どうして この クラスに いますか。",
    "opciones": [
-    "スペイン<ruby>語<rt>ご</rt></ruby>を ならって いるから",
     "<ruby>学生<rt>がくせい</rt></ruby>だから",
-    "せんせいだから"
+    "せんせいだから",
+    "スペイン<ruby>語<rt>ご</rt></ruby>を ならって いるから"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Jean is tall and thin. Gonza is shorter than me, but he has a huge voice. Min always wears immaculate shirts. That day a new student arrived. Her name is Anna and she's Japanese. She's learning Spanish, so she helps out in this class. «Pleased to meet you», she said to us."

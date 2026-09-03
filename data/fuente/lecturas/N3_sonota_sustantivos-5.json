@@ -7,29 +7,29 @@
   {
    "p": "<ruby>機械<rt>きかい</rt></ruby>の<ruby>何<rt>なに</rt></ruby>がちがっていましたか。",
    "opciones": [
-    "<ruby>色<rt>いろ</rt></ruby>",
     "<ruby>表示<rt>ひょうじ</rt></ruby>された<ruby>数字<rt>すうじ</rt></ruby>と<ruby>実際<rt>じっさい</rt></ruby>の<ruby>力<rt>ちから</rt></ruby>",
+    "<ruby>色<rt>いろ</rt></ruby>",
     "<ruby>大<rt>おお</rt></ruby>きさ"
-   ],
-   "correcta": 1
-  },
-  {
-   "p": "<ruby>店<rt>みせ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をすると<ruby>言<rt>い</rt></ruby>いましたか。",
-   "opciones": [
-    "<ruby>補償<rt>ほしょう</rt></ruby>をする",
-    "<ruby>何<rt>なに</rt></ruby>もしない",
-    "<ruby>待<rt>ま</rt></ruby>ってほしい"
    ],
    "correcta": 0
   },
   {
-   "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>だと<ruby>考<rt>かんが</rt></ruby>えていることは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "p": "<ruby>店<rt>みせ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をすると<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
-    "<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>の<ruby>非行<rt>ひこう</rt></ruby>をへらすこと",
-    "<ruby>正<rt>ただ</rt></ruby>しく<ruby>表示<rt>ひょうじ</rt></ruby>すること",
-    "やすく<ruby>売<rt>う</rt></ruby>ること"
+    "<ruby>何<rt>なに</rt></ruby>もしない",
+    "<ruby>補償<rt>ほしょう</rt></ruby>をする",
+    "<ruby>待<rt>ま</rt></ruby>ってほしい"
    ],
    "correcta": 1
+  },
+  {
+   "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>だと<ruby>考<rt>かんが</rt></ruby>えていることは<ruby>何<rt>なん</rt></ruby>ですか。",
+   "opciones": [
+    "やすく<ruby>売<rt>う</rt></ruby>ること",
+    "<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>の<ruby>非行<rt>ひこう</rt></ruby>をへらすこと",
+    "<ruby>正<rt>ただ</rt></ruby>しく<ruby>表示<rt>ひょうじ</rt></ruby>すること"
+   ],
+   "correcta": 2
   }
  ],
  "traduccion_en": "A machine I bought at a shop broke straight away. On reading the manual, the figure displayed and the actual power didn't match. I rang the shop and they answered that they would compensate me at once. They say I can choose between being sent a new one or getting my money back. Only young people's misbehaviour makes the news, but a large company's mistakes affect far more people. Labelling things correctly seems a small matter and it is important."

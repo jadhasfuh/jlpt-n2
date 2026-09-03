@@ -7,22 +7,22 @@
   {
    "p": "この<ruby>方<rt>かた</rt></ruby>が<ruby>目方<rt>めかた</rt></ruby>まで<ruby>記録<rt>きろく</rt></ruby>するのは、なぜですか。",
    "opciones": [
-    "<ruby>値段<rt>ねだん</rt></ruby>を<ruby>決<rt>き</rt></ruby>めるため",
-    "<ruby>完成<rt>かんせい</rt></ruby>したときの<ruby>浮<rt>う</rt></ruby>き<ruby>方<rt>かた</rt></ruby>を<ruby>見<rt>み</rt></ruby>るため",
     "<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶため",
-    "<ruby>手本<rt>てほん</rt></ruby>にするため"
+    "<ruby>手本<rt>てほん</rt></ruby>にするため",
+    "<ruby>完成<rt>かんせい</rt></ruby>したときの<ruby>浮<rt>う</rt></ruby>き<ruby>方<rt>かた</rt></ruby>を<ruby>見<rt>み</rt></ruby>るため",
+    "<ruby>値段<rt>ねだん</rt></ruby>を<ruby>決<rt>き</rt></ruby>めるため"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>褒<rt>ほ</rt></ruby>められたとき、この<ruby>方<rt>かた</rt></ruby>はどう<ruby>答<rt>こた</rt></ruby>えましたか。",
    "opciones": [
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった",
     "よろこんだ",
-    "<ruby>素<rt>そ</rt></ruby>っ<ruby>気<rt>け</rt></ruby>なく「<ruby>暇<rt>ひま</rt></ruby>なだけです」と<ruby>答<rt>こた</rt></ruby>えた",
     "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めた",
-    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった"
+    "<ruby>素<rt>そ</rt></ruby>っ<ruby>気<rt>け</rt></ruby>なく「<ruby>暇<rt>ひま</rt></ruby>なだけです」と<ruby>答<rt>こた</rt></ruby>えた"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "In my neighbourhood there's someone who does nothing but ship models. He has proper tools and carves piece by piece while reading off the scale. Works of up to ten years fill his shelves. The first time he showed them to me I thought the work in them showed a mile off. He keeps the procedures noted down on sheets, in the form of a list, with a reference drawing for each style. Recording even the weight is, he says, so as to see how it will float once finished. When I praised him openly, he answered curtly: «it's just that I have free time». The day the vessel I'd been waiting for was ready, we took it together to a pond ringed with saplings. The look on his face the moment it floated was, literally, emotion entire."

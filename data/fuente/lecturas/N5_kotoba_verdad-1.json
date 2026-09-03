@@ -16,20 +16,20 @@
   {
    "p": "まんがは どこに ありますか。",
    "opciones": [
+    "へやの <ruby>中<rt>なか</rt></ruby>",
     "かべ いっぱいに",
-    "うけつけ",
-    "へやの <ruby>中<rt>なか</rt></ruby>"
+    "うけつけ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ゴンサさんは アイスクリームを なんかい とりましたか。",
    "opciones": [
-    "<ruby>三<rt>さん</rt></ruby>かい",
+    "とりませんでした",
     "<ruby>一<rt>いっ</rt></ruby>かい",
-    "とりませんでした"
+    "<ruby>三<rt>さん</rt></ruby>かい"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Before going into the booth they explained the rules. The drinks are all free. So is the ice cream. The comics fill a whole wall and you can take whichever you like. «Really?» I asked twice. It really was. Gonza went for ice cream three times. «This is the best thing about Japan», he said with his mouth full."

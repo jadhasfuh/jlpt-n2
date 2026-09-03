@@ -6,12 +6,12 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "まいにち <u>新聞</u>を よみます。",
   "opciones": [
-   "しんぶん",
    "しんふん",
    "じんぶん",
-   "しんもん"
+   "しんもん",
+   "しんぶん"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "濁音にしない",
    "新をじんと読んだ",
@@ -56,15 +56,15 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "あねは <u>大学</u>の 学生です。",
   "opciones": [
+   "だいかく",
    "だいがく",
    "たいがく",
-   "だいかく",
    "おおがく"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "濁音にしない",
    "学をかくと読んだ",
+   "濁音にしない",
    "大をおおと読んだ"
   ],
   "explicacion": {
@@ -81,15 +81,15 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この <u>時間</u>は みせが すいて います。",
   "opciones": [
-   "じかん",
-   "しかん",
    "じっかん",
+   "しかん",
+   "じかん",
    "じかい"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "濁音にしない",
    "ない促音をつけた",
+   "濁音にしない",
    "間をかいと読んだ"
   ],
   "explicacion": {
@@ -106,16 +106,16 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "きょうは <u>天気</u>が いいです。",
   "opciones": [
-   "てんき",
-   "でんき",
+   "てんけ",
    "てんぎ",
-   "てんけ"
+   "でんき",
+   "てんき"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
-   "電気と混同",
+   "気をけと読んだ",
    "気をぎと読んだ",
-   "気をけと読んだ"
+   "電気と混同"
   ],
   "explicacion": {
    "es": "天気（てんき）. Ojo con 電気（でんき）, «electricidad», que suena parecido.",
@@ -156,12 +156,12 @@
   "instruccion_ja": "＿＿の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "この みちは <u>安全</u>です。",
   "opciones": [
-   "あんぜん",
    "あんせん",
+   "あんぜん",
    "やすぜん",
    "あんぜ"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "濁音にしない",
    "安をやすと読んだ",
@@ -181,16 +181,16 @@
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "きょうは <u>あめ</u>が ふって います。",
   "opciones": [
-   "雨",
-   "雪",
    "電",
-   "雲"
+   "雨",
+   "雲",
+   "雪"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "ゆきと読む字",
    "でんと読む字",
-   "くもと読む字"
+   "くもと読む字",
+   "ゆきと読む字"
   ],
   "explicacion": {
    "es": "雨 (lluvia). 雪 es «nieve» y 雲 «nube».",
@@ -206,12 +206,12 @@
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "<u>みず</u>を のみたいです。",
   "opciones": [
-   "水",
    "氷",
    "永",
+   "水",
    "木"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
    "こおりと読む字",
    "形が似ているだけ",
@@ -231,12 +231,12 @@
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "あの <u>おとこ</u>の 人は だれですか。",
   "opciones": [
-   "男",
    "女",
+   "力",
    "田",
-   "力"
+   "男"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "おんなと読む字",
    "男の一部だけ",
@@ -281,16 +281,16 @@
   "instruccion_ja": "＿＿の言葉を漢字で書くとき、最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "<u>ひがし</u>の そらが あかるいです。",
   "opciones": [
-   "東",
-   "南",
    "西",
-   "北"
+   "東",
+   "北",
+   "南"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
-   "みなみと読む字",
    "にしと読む字",
-   "きたと読む字"
+   "きたと読む字",
+   "みなみと読む字"
   ],
   "explicacion": {
    "es": "東 (este). Los otros tres son los otros puntos cardinales.",
@@ -306,15 +306,15 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "きっては ゆうびんきょくで（　）。",
   "opciones": [
-   "かいます",
-   "のみます",
    "あるきます",
+   "のみます",
+   "かいます",
    "ねます"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "飲む対象ではない",
    "場所と合わない",
+   "飲む対象ではない",
    "場所と合わない"
   ],
   "explicacion": {
@@ -331,12 +331,12 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "さむいですから、まどを（　）ください。",
   "opciones": [
-   "しめて",
    "あけて",
+   "けして",
    "つけて",
-   "けして"
+   "しめて"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "反対の動作",
    "電気などに使う",
@@ -381,12 +381,12 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "きのうは かぜを ひいて、（　）を のみました。",
   "opciones": [
-   "くすり",
    "みず",
-   "おかね",
-   "しんぶん"
+   "くすり",
+   "しんぶん",
+   "おかね"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
    "病気と関係ない",
    "飲む物ではない",
@@ -406,16 +406,16 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "あしたは しごとが ないので、（　）です。",
   "opciones": [
-   "ひま",
-   "いそがしい",
+   "しずか",
    "げんき",
-   "しずか"
+   "ひま",
+   "いそがしい"
   ],
-  "respuesta": 0,
+  "respuesta": 2,
   "logica_distractores": [
-   "反対の意味",
+   "音の話",
    "体の話",
-   "音の話"
+   "反対の意味"
   ],
   "explicacion": {
    "es": "Sin trabajo → libre: ひま. いそがしい es justo lo contrario.",
@@ -431,16 +431,16 @@
   "instruccion_ja": "（　）に入れるのに最もよいものを、1・2・3・4から一つ選びなさい。",
   "enunciado": "でんしゃに（　）、がっこうへ 行きます。",
   "opciones": [
-   "のって",
    "はいって",
+   "すわって",
    "あがって",
-   "すわって"
+   "のって"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "建物に使う",
-   "上に行く動き",
-   "いすの話"
+   "いすの話",
+   "上に行く動き"
   ],
   "explicacion": {
    "es": "Al tren se sube con のる: でんしゃに のる.",
@@ -456,16 +456,16 @@
   "instruccion_ja": "＿＿の文とだいたい同じ意味の文があります。1・2・3・4から一つ選びなさい。",
   "enunciado": "この へやは <u>きれい</u>です。",
   "opciones": [
-   "この へやは そうじが して あります。",
    "この へやは とても せまいです。",
+   "この へやは ふるいです。",
    "この へやは くらいです。",
-   "この へやは ふるいです。"
+   "この へやは そうじが して あります。"
   ],
-  "respuesta": 0,
+  "respuesta": 3,
   "logica_distractores": [
    "広さの話",
-   "明るさの話",
-   "古さの話"
+   "古さの話",
+   "明るさの話"
   ],
   "explicacion": {
    "es": "きれい con una habitación es «limpia»: está recogida.",
@@ -506,16 +506,16 @@
   "instruccion_ja": "＿＿の文とだいたい同じ意味の文があります。1・2・3・4から一つ選びなさい。",
   "enunciado": "ちちは <u>いしゃ</u>です。",
   "opciones": [
+   "ちちは くるまを つくって います。",
    "ちちは びょういんで はたらいて います。",
    "ちちは がっこうで おしえて います。",
-   "ちちは みせで うって います。",
-   "ちちは くるまを つくって います。"
+   "ちちは みせで うって います。"
   ],
-  "respuesta": 0,
+  "respuesta": 1,
   "logica_distractores": [
+   "工場の仕事",
    "先生の仕事",
-   "店の仕事",
-   "工場の仕事"
+   "店の仕事"
   ],
   "explicacion": {
    "es": "いしゃ (médico) trabaja en un hospital.",

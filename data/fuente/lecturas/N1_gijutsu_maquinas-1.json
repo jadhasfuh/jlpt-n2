@@ -7,12 +7,12 @@
   {
    "p": "<ruby>故障<rt>こしょう</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でしたか。",
    "opciones": [
-    "モニターの<ruby>故障<rt>こしょう</rt></ruby>",
     "ポンプのフィルタの<ruby>汚<rt>よご</rt></ruby>れ",
     "<ruby>無線<rt>むせん</rt></ruby>の<ruby>不調<rt>ふちょう</rt></ruby>",
-    "<ruby>装備<rt>そうび</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>いこと"
+    "<ruby>装備<rt>そうび</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>いこと",
+    "モニターの<ruby>故障<rt>こしょう</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>仕組<rt>しく</rt></ruby>みを<ruby>知<rt>し</rt></ruby>っていると、どうなると<ruby>言<rt>い</rt></ruby>っていますか。",

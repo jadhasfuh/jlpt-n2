@@ -16,20 +16,20 @@
   {
    "p": "たなかさんは <ruby>外国<rt>がいこく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>った ことが ありますか。",
    "opciones": [
-    "ありません",
     "あります",
+    "ありません",
     "まいとし <ruby>行<rt>い</rt></ruby>きます"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "けんたくんは <ruby>大<rt>おお</rt></ruby>きく なったら なにを しますか。",
    "opciones": [
-    "メキシコへ <ruby>行<rt>い</rt></ruby>きます",
     "サッカーの せんしゅに なります",
-    "はたらきます"
+    "はたらきます",
+    "メキシコへ <ruby>行<rt>い</rt></ruby>きます"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Mrs Tanaka told me: «do things while you're young». She also said: «I've never been abroad». There are still plenty of places I want to go. But I want to look after the place I'm in now. Kenta says that when he's older he'll go to Mexico. «I'll be waiting», I answered."

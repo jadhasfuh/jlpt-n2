@@ -16,20 +16,20 @@
   {
    "p": "ミンさんは なにを <ruby>教<rt>おし</rt></ruby>えて くれましたか。",
    "opciones": [
+    "やすむ こと",
     "おなじ ばしょに おく こと",
-    "みずを あつく する こと",
-    "やすむ こと"
+    "みずを あつく する こと"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "てんちょうは なにを しましたか。",
    "opciones": [
-    "かたを たたきました",
+    "おこりました",
     "なにか 言いました",
-    "おこりました"
+    "かたを たたきました"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "On my first day I washed two hundred plates. The water was freezing and my hands turned red. Min taught me: «if you set them down one at a time in the same place, you go faster». I did it that way and I really did speed up. By the third day I was the fastest of the lot. The manager said nothing: he patted my shoulder and walked on."

@@ -7,22 +7,22 @@
   {
    "p": "どこでミスをしていましたか。",
    "opciones": [
-    "はじめの<ruby>問題<rt>もんだい</rt></ruby>",
-    "<ruby>最後<rt>さいご</rt></ruby>のけいさん",
+    "ぜんぶ",
     "<ruby>名前<rt>なまえ</rt></ruby>",
-    "ぜんぶ"
+    "<ruby>最後<rt>さいご</rt></ruby>のけいさん",
+    "はじめの<ruby>問題<rt>もんだい</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "いちばん<ruby>力<rt>ちから</rt></ruby>がつくのは<ruby>何<rt>なに</rt></ruby>だと<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>欠席<rt>けっせき</rt></ruby>しないこと",
-    "<ruby>見<rt>み</rt></ruby>なおすこと",
     "<ruby>合格<rt>ごうかく</rt></ruby>すること",
-    "いそぐこと"
+    "<ruby>欠席<rt>けっせき</rt></ruby>しないこと",
+    "いそぐこと",
+    "<ruby>見<rt>み</rt></ruby>なおすこと"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I got my exam results back. I passed, but I'd made the same kind of mistake several times. When I went through question by question where I'd gone wrong, I nearly always slipped on the last calculation. That is, it wasn't that I didn't know: it was that I was rushing. I made it a habit to go over my answers every month. Attending without missing a class matters too, but nothing builds ability like reviewing."

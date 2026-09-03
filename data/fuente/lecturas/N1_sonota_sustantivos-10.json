@@ -8,21 +8,21 @@
    "p": "<ruby>応募<rt>おうぼ</rt></ruby>を<ruby>決<rt>き</rt></ruby>めた<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
     "<ruby>賞金<rt>しょうきん</rt></ruby>",
+    "<ruby>友人<rt>ゆうじん</rt></ruby>の<ruby>勧<rt>すす</rt></ruby>め",
     "<ruby>審査<rt>しんさ</rt></ruby>する<ruby>方<rt>かた</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>",
-    "<ruby>雑誌<rt>ざっし</rt></ruby>が<ruby>好<rt>す</rt></ruby>きだから",
-    "<ruby>友人<rt>ゆうじん</rt></ruby>の<ruby>勧<rt>すす</rt></ruby>め"
+    "<ruby>雑誌<rt>ざっし</rt></ruby>が<ruby>好<rt>す</rt></ruby>きだから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>結果<rt>けっか</rt></ruby>が<ruby>出<rt>で</rt></ruby>たあと、この<ruby>人<rt>ひと</rt></ruby>はどうしましたか。",
    "opciones": [
-    "<ruby>書<rt>か</rt></ruby>くのをやめた",
-    "<ruby>次<rt>つぎ</rt></ruby>の<ruby>一枚<rt>いちまい</rt></ruby>を<ruby>書<rt>か</rt></ruby>きはじめた",
+    "<ruby>編集<rt>へんしゅう</rt></ruby>の<ruby>方<rt>かた</rt></ruby>に<ruby>会<rt>あ</rt></ruby>いにいった",
     "<ruby>雑誌<rt>ざっし</rt></ruby>に<ruby>抗議<rt>こうぎ</rt></ruby>した",
-    "<ruby>編集<rt>へんしゅう</rt></ruby>の<ruby>方<rt>かた</rt></ruby>に<ruby>会<rt>あ</rt></ruby>いにいった"
+    "<ruby>書<rt>か</rt></ruby>くのをやめた",
+    "<ruby>次<rt>つぎ</rt></ruby>の<ruby>一枚<rt>いちまい</rt></ruby>を<ruby>書<rt>か</rt></ruby>きはじめた"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I sent a short piece to a magazine competition. My reason for entering was the name of the person who was going to judge it. I don't know whether I wrote anything worth reading. I cut quite a few adjectives so it wouldn't come out an overblown text. I think I was also right to drop the idea of opening by talking about antiquity. Writing as if you knew what you don't know is unworkable from the start. The result was that I didn't make the cut. I keep telling myself that I wrote nothing that deserves contempt. From the editorial office a short postcard of encouragement reached me. I've reread those letters lined up as if on parade many times. With the pen I bought by saving up, I've started the next page."

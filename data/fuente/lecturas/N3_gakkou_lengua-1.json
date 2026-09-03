@@ -7,12 +7,12 @@
   {
    "p": "<ruby>外国語<rt>がいこくご</rt></ruby>を<ruby>学<rt>まな</rt></ruby>ぶと、<ruby>何<rt>なに</rt></ruby>が<ruby>見<rt>み</rt></ruby>えてきますか。",
    "opciones": [
-    "<ruby>文字<rt>もじ</rt></ruby>のかたち",
     "<ruby>母国語<rt>ぼこくご</rt></ruby>のこと",
-    "<ruby>動詞<rt>どうし</rt></ruby>のかず",
-    "<ruby>訳<rt>やく</rt></ruby>し<ruby>方<rt>かた</rt></ruby>"
+    "<ruby>訳<rt>やく</rt></ruby>し<ruby>方<rt>かた</rt></ruby>",
+    "<ruby>文字<rt>もじ</rt></ruby>のかたち",
+    "<ruby>動詞<rt>どうし</rt></ruby>のかず"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "なぜ<ruby>日本語<rt>にほんご</rt></ruby>は<ruby>訳<rt>やく</rt></ruby>しにくいのですか。",

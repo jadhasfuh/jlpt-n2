@@ -25,11 +25,11 @@
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どもの<ruby>走<rt>はし</rt></ruby>り<ruby>方<rt>かた</rt></ruby>はどう<ruby>見<rt>み</rt></ruby>えましたか。",
    "opciones": [
+    "つかれて<ruby>見<rt>み</rt></ruby>えた",
     "おそく<ruby>見<rt>み</rt></ruby>えた",
-    "<ruby>飛<rt>と</rt></ruby>んでいるように<ruby>見<rt>み</rt></ruby>えた",
-    "つかれて<ruby>見<rt>み</rt></ruby>えた"
+    "<ruby>飛<rt>と</rt></ruby>んでいるように<ruby>見<rt>み</rt></ruby>えた"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "At dusk I was reading on a bench in the park. Suddenly, a boy came running towards me. Out of breath, he asked: «have you seen a dog?». He said it was a small brown dog. We looked together and it was on the other side of the pond. The boy ran off again and hugged the dog. More than running, he looked as if he were flying."

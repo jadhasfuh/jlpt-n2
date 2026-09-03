@@ -7,12 +7,12 @@
   {
    "p": "<ruby>実験<rt>じっけん</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>はどうでしたか。",
    "opciones": [
-    "まいかい<ruby>同<rt>おな</rt></ruby>じ",
     "まいかいすこしずつちがう",
     "まちがっていた",
-    "<ruby>分析<rt>ぶんせき</rt></ruby>できなかった"
+    "<ruby>分析<rt>ぶんせき</rt></ruby>できなかった",
+    "まいかい<ruby>同<rt>おな</rt></ruby>じ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>注目<rt>ちゅうもく</rt></ruby>するべきなのは<ruby>何<rt>なに</rt></ruby>ですか。",

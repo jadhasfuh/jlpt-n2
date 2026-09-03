@@ -16,20 +16,20 @@
   {
    "p": "<ruby>去年<rt>きょねん</rt></ruby><ruby>村<rt>むら</rt></ruby>は<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>きましたか。",
    "opciones": [
-    "<ruby>断水<rt>だんすい</rt></ruby>",
     "<ruby>大雨<rt>おおあめ</rt></ruby>",
+    "<ruby>断水<rt>だんすい</rt></ruby>",
     "<ruby>火事<rt>かじ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>のおかげで<ruby>助<rt>たす</rt></ruby>かりましたか。",
    "opciones": [
-    "<ruby>地下水<rt>ちかすい</rt></ruby>",
+    "<ruby>雨<rt>あめ</rt></ruby>",
     "<ruby>滝<rt>たき</rt></ruby>",
-    "<ruby>雨<rt>あめ</rt></ruby>"
+    "<ruby>地下水<rt>ちかすい</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Near the cape there's a waterfall from which you look out over the ocean. After rain the water overflows and sometimes a rainbow appears above the surface. Last year the town ran out of water, but it was saved thanks to the groundwater. Despite living in the city, I even know the name of the canal here. When the drops from the fountain splash my face, I feel summer has arrived."

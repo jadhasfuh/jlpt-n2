@@ -16,20 +16,20 @@
   {
    "p": "どこの みせが おいしいですか。",
    "opciones": [
+    "コンビニ",
     "<ruby>駅<rt>えき</rt></ruby>の うらの ちいさい みせ",
-    "<ruby>有名<rt>ゆうめい</rt></ruby>な みせ",
-    "コンビニ"
+    "<ruby>有名<rt>ゆうめい</rt></ruby>な みせ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんが まだ <ruby>変<rt>へん</rt></ruby>だと おもう ことは なんですか。",
    "opciones": [
-    "「<ruby>結構<rt>けっこう</rt></ruby>です」の <ruby>意味<rt>いみ</rt></ruby>",
+    "コンビニ",
     "でんしゃの じかん",
-    "コンビニ"
+    "「<ruby>結構<rt>けっこう</rt></ruby>です」の <ruby>意味<rt>いみ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Japan is extremely convenient. The trains arrive on time. The convenience stores are open around the clock. But not everything new is better. Mrs Tanaka's old kotatsu is a precious thing. The small place behind the station is better than the famous ones. That «kekkō desu» means two opposite things still strikes me as very odd."

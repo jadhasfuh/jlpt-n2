@@ -16,20 +16,20 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>心配<rt>しんぱい</rt></ruby>されましたか。",
    "opciones": [
+    "<ruby>動物<rt>どうぶつ</rt></ruby>",
     "<ruby>飢饉<rt>ききん</rt></ruby>",
-    "<ruby>雨<rt>あめ</rt></ruby>",
-    "<ruby>動物<rt>どうぶつ</rt></ruby>"
+    "<ruby>雨<rt>あめ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>今<rt>いま</rt></ruby>はどうなっていますか。",
    "opciones": [
-    "<ruby>前<rt>まえ</rt></ruby>より<ruby>安全<rt>あんぜん</rt></ruby>",
     "<ruby>危<rt>あぶ</rt></ruby>ない",
-    "<ruby>同<rt>おな</rt></ruby>じ"
+    "<ruby>同<rt>おな</rt></ruby>じ",
+    "<ruby>前<rt>まえ</rt></ruby>より<ruby>安全<rt>あんぜん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "After last year's eruption, the town became unsafe. The roads were cut off, food wasn't getting through and famine was feared. In spite of such a great disaster, people kept calm. Regardless of age, everyone carried bundles and also let the animals out. Now the road widening is under way and they say it's safer than before."

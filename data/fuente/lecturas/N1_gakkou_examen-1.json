@@ -7,22 +7,22 @@
   {
    "p": "<ruby>試験<rt>しけん</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>はどうでしたか。",
    "opciones": [
+    "<ruby>受<rt>う</rt></ruby>けられなかった",
     "<ruby>合格<rt>ごうかく</rt></ruby>した",
     "<ruby>合格<rt>ごうかく</rt></ruby><ruby>点<rt>てん</rt></ruby>に<ruby>三点<rt>さんてん</rt></ruby><ruby>足<rt>た</rt></ruby>りなかった",
-    "<ruby>受<rt>う</rt></ruby>けられなかった",
     "まだわからない"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は、<ruby>本当<rt>ほんとう</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>はどこにあると<ruby>考<rt>かんが</rt></ruby>えていますか。",
    "opciones": [
-    "<ruby>見落<rt>みお</rt></ruby>とした<ruby>一問<rt>いちもん</rt></ruby>",
-    "<ruby>前<rt>まえ</rt></ruby>の<ruby>晩<rt>ばん</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>",
     "<ruby>会場<rt>かいじょう</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>の<ruby>多<rt>おお</rt></ruby>さ",
-    "<ruby>運<rt>うん</rt></ruby>"
+    "<ruby>運<rt>うん</rt></ruby>",
+    "<ruby>見落<rt>みお</rt></ruby>とした<ruby>一問<rt>いちもん</rt></ruby>",
+    "<ruby>前<rt>まえ</rt></ruby>の<ruby>晩<rt>ばん</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I signed up for the certification exam in spring. I lined up the manual and the problem books and sat at the table every evening. On the day I sat down, surprised at how many people had come. On the final check I noticed I'd missed a question, and the answer I wrote in a hurry was the source of the mistake. I fell three points short of a pass. It's comfortable to think it was because of that question, but if I look at it properly, the cause is in how I prepared the night before. Neglecting the review and then blaming luck is being too soft on myself. To turn a mistake into a correct answer there's nothing for it but to go through the same procedure again. I've signed up again for the autumn."

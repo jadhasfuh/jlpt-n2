@@ -16,20 +16,20 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>くと<ruby>残<rt>のこ</rt></ruby>りが<ruby>少<rt>すく</rt></ruby>ないですか。",
    "opciones": [
-    "<ruby>課税<rt>かぜい</rt></ruby>と<ruby>為替<rt>かわせ</rt></ruby>",
     "<ruby>賞金<rt>しょうきん</rt></ruby>",
+    "<ruby>課税<rt>かぜい</rt></ruby>と<ruby>為替<rt>かわせ</rt></ruby>",
     "<ruby>定価<rt>ていか</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "あぶなかったのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>定価<rt>ていか</rt></ruby>を<ruby>見<rt>み</rt></ruby>ずに<ruby>買<rt>か</rt></ruby>うところだった",
+    "<ruby>落<rt>お</rt></ruby>とすところだった",
     "<ruby>払<rt>はら</rt></ruby>い<ruby>忘<rt>わす</rt></ruby>れ",
-    "<ruby>落<rt>お</rt></ruby>とすところだった"
+    "<ruby>定価<rt>ていか</rt></ruby>を<ruby>見<rt>み</rt></ruby>ずに<ruby>買<rt>か</rt></ruby>うところだった"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "On payday, I broke a note and paid the delivery charges. Once you subtract the taxes and the transfer's share, less is left than you'd think. I nearly bought something expensive without looking at the marked price. I told myself there's no need at all to rush. I wondered whether I might win some prize, though it isn't as if you get rich that way."

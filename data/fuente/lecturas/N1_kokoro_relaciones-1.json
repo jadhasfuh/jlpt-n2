@@ -7,22 +7,22 @@
   {
    "p": "<ruby>友人<rt>ゆうじん</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしに<ruby>来<rt>き</rt></ruby>ますか。",
    "opciones": [
-    "<ruby>何<rt>なに</rt></ruby>かを<ruby>勧誘<rt>かんゆう</rt></ruby>しに",
-    "お<ruby>使<rt>つか</rt></ruby>いのついでだと<ruby>言<rt>い</rt></ruby>って<ruby>顔<rt>かお</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しに",
     "<ruby>仕事<rt>しごと</rt></ruby>の<ruby>相談<rt>そうだん</rt></ruby>に",
-    "<ruby>助<rt>たす</rt></ruby>けを<ruby>求<rt>もと</rt></ruby>めに"
+    "<ruby>助<rt>たす</rt></ruby>けを<ruby>求<rt>もと</rt></ruby>めに",
+    "お<ruby>使<rt>つか</rt></ruby>いのついでだと<ruby>言<rt>い</rt></ruby>って<ruby>顔<rt>かお</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しに",
+    "<ruby>何<rt>なに</rt></ruby>かを<ruby>勧誘<rt>かんゆう</rt></ruby>しに"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>同僚<rt>どうりょう</rt></ruby>ともめたとき、<ruby>友人<rt>ゆうじん</rt></ruby>はどうしましたか。",
    "opciones": [
     "<ruby>正<rt>ただ</rt></ruby>しさを<ruby>並<rt>なら</rt></ruby>べた",
-    "ただ<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて<ruby>帰<rt>かえ</rt></ruby>った",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わずに<ruby>帰<rt>かえ</rt></ruby>った",
     "<ruby>同僚<rt>どうりょう</rt></ruby>に<ruby>会<rt>あ</rt></ruby>いにいった",
-    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わずに<ruby>帰<rt>かえ</rt></ruby>った"
+    "ただ<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて<ruby>帰<rt>かえ</rt></ruby>った"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Since I moved to the next town, I see my old friends less. It isn't that the relationship has changed. It's simply become hard to drop by their houses for no reason. There's only one who comes to see me once a month. He doesn't come to suggest anything: he says he's making use of being out on an errand. Last year, when I had friction with a colleague, he didn't line up arguments as in a debate: he just listened to me and left. I used to think helping consisted of someone doing something for you. But with the mere certainty that someone has your back a person can already stand up. That you can rely on others in a way that isn't dependence I've only learnt as an adult."

@@ -7,12 +7,12 @@
   {
    "p": "<ruby>昔<rt>むかし</rt></ruby>すんでいた<ruby>家<rt>いえ</rt></ruby>はどうでしたか。",
    "opciones": [
-    "こわされていた",
     "<ruby>塀<rt>へい</rt></ruby>も<ruby>軒<rt>のき</rt></ruby>もそのままのこっていた",
+    "こわされていた",
     "<ruby>新<rt>あたら</rt></ruby>しくなっていた",
     "<ruby>見<rt>み</rt></ruby>つからなかった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>一<rt>いち</rt></ruby><ruby>日<rt>にち</rt></ruby>では、どうですか。",

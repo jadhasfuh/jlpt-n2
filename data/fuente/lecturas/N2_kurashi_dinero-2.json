@@ -16,20 +16,20 @@
   {
    "p": "<ruby>中<rt>なか</rt></ruby>に<ruby>何<rt>なに</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っていましたか。",
    "opciones": [
+    "<ruby>写真<rt>しゃしん</rt></ruby>",
     "<ruby>免税<rt>めんぜい</rt></ruby>の<ruby>紙<rt>かみ</rt></ruby>と<ruby>受取<rt>うけとり</rt></ruby>",
-    "お<ruby>金<rt>かね</rt></ruby>だけ",
-    "<ruby>写真<rt>しゃしん</rt></ruby>"
+    "お<ruby>金<rt>かね</rt></ruby>だけ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "だれが<ruby>受<rt>う</rt></ruby>け<ruby>持<rt>も</rt></ruby>ってくれましたか。",
    "opciones": [
-    "<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>",
     "<ruby>酔<rt>よ</rt></ruby>っ<ruby>払<rt>ぱら</rt></ruby>い",
-    "<ruby>友<rt>とも</rt></ruby>だち"
+    "<ruby>友<rt>とも</rt></ruby>だち",
+    "<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "At a busy spot in the station I found a lost wallet. Inside there was a tax exemption form and a receipt for a payment just made. A member of staff took charge of it, checked the balance and made a note. Perhaps some drunk lost it. Hoping that at least a contact would be found, I went home carefully."

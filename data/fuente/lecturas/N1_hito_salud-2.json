@@ -7,12 +7,12 @@
   {
    "p": "<ruby>事故<rt>じこ</rt></ruby>のとき、<ruby>何<rt>なに</rt></ruby>が<ruby>問題<rt>もんだい</rt></ruby>でしたか。",
    "opciones": [
-    "<ruby>規則<rt>きそく</rt></ruby>がなかった",
     "<ruby>規則<rt>きそく</rt></ruby>は<ruby>読<rt>よ</rt></ruby>んでいたが<ruby>体<rt>からだ</rt></ruby>が<ruby>動<rt>うご</rt></ruby>かなかった",
     "<ruby>医師<rt>いし</rt></ruby>が<ruby>来<rt>こ</rt></ruby>なかった",
+    "<ruby>規則<rt>きそく</rt></ruby>がなかった",
     "<ruby>道具<rt>どうぐ</rt></ruby>がなかった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は、いま<ruby>何<rt>なに</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えていますか。",

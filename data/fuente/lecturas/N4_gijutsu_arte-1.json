@@ -7,12 +7,12 @@
   {
    "p": "となりの<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をききましたか。",
    "opciones": [
-    "<ruby>絵<rt>え</rt></ruby>のねだん",
     "しゃしんを<ruby>写<rt>うつ</rt></ruby>してもいいか",
-    "<ruby>出口<rt>でぐち</rt></ruby>はどこか",
-    "だれの<ruby>絵<rt>え</rt></ruby>か"
+    "だれの<ruby>絵<rt>え</rt></ruby>か",
+    "<ruby>絵<rt>え</rt></ruby>のねだん",
+    "<ruby>出口<rt>でぐち</rt></ruby>はどこか"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>はなぜしゃしんをとりませんでしたか。",

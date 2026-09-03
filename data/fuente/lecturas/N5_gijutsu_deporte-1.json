@@ -16,20 +16,20 @@
   {
    "p": "にちようび、どのくらい あそびましたか。",
    "opciones": [
+    "いちにち",
     "にじかん",
-    "じゅっぷん",
-    "いちにち"
+    "じゅっぷん"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "つぎの ひ、カルロスさんは どうでしたか。",
    "opciones": [
-    "あしが いたかったです",
+    "また あそびました",
     "げんきでした",
-    "また あそびました"
+    "あしが いたかったです"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Kenta, Mrs Tanaka's grandson, is twelve. He likes football and practises in the park every week. On Sunday they invited me along too. We spent two hours running about and kicking the ball. Kenta was far better than me. The next day my legs hurt so much I could hardly walk."

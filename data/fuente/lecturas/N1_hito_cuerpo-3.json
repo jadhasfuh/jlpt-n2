@@ -7,22 +7,22 @@
   {
    "p": "<ruby>店主<rt>てんしゅ</rt></ruby>はどんな<ruby>人<rt>ひと</rt></ruby>ですか。",
    "opciones": [
-    "よくしゃべる",
-    "<ruby>無口<rt>むくち</rt></ruby>で、<ruby>指差<rt>ゆびさ</rt></ruby>すまで<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わない",
+    "<ruby>値段<rt>ねだん</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>ばかりする",
     "<ruby>学者<rt>がくしゃ</rt></ruby>である",
-    "<ruby>値段<rt>ねだん</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>ばかりする"
+    "<ruby>無口<rt>むくち</rt></ruby>で、<ruby>指差<rt>ゆびさ</rt></ruby>すまで<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わない",
+    "よくしゃべる"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>店主<rt>てんしゅ</rt></ruby>は<ruby>品物<rt>しなもの</rt></ruby>について<ruby>何<rt>なに</rt></ruby>を<ruby>話<rt>はな</rt></ruby>しますか。",
    "opciones": [
-    "<ruby>作<rt>つく</rt></ruby>り<ruby>方<rt>かた</rt></ruby>",
-    "<ruby>持<rt>も</rt></ruby>ち<ruby>主<rt>ぬし</rt></ruby>のこと",
+    "<ruby>材料<rt>ざいりょう</rt></ruby>",
     "<ruby>値段<rt>ねだん</rt></ruby>",
-    "<ruby>材料<rt>ざいりょう</rt></ruby>"
+    "<ruby>作<rt>つく</rt></ruby>り<ruby>方<rt>かた</rt></ruby>",
+    "<ruby>持<rt>も</rt></ruby>ち<ruby>主<rt>ぬし</rt></ruby>のこと"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Right opposite the station there's a little antiques shop. The owner is quiet and says nothing until you point at something. It struck me that the body of the shelf was leaning and, when I turned to ask him, he only answered: «it's always been like that». There are no price tags and no explanations either, but when he sees you looking seriously, he finally opens his mouth. I picked up a figure and he read me the text written on the back. He doesn't speak with a scholar's airs: he only talks about who its owners were. He counted off the years as if adding up and told me how many hands that piece had passed through. Explanations that fall a little short are the ones that last longest."

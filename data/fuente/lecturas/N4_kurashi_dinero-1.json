@@ -7,12 +7,12 @@
   {
    "p": "<ruby>学費<rt>がくひ</rt></ruby>をはらうのにどのくらいかかりましたか。",
    "opciones": [
-    "<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>",
     "<ruby>三<rt>さん</rt></ruby><ruby>年<rt>ねん</rt></ruby>",
     "<ruby>五<rt>ご</rt></ruby><ruby>年<rt>ねん</rt></ruby>",
+    "<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>",
     "まだ<ruby>終<rt>お</rt></ruby>わっていない"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "さいごの<ruby>一<rt>いち</rt></ruby>かいをはらって、どう<ruby>感<rt>かん</rt></ruby>じましたか。",

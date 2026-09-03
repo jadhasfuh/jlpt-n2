@@ -7,22 +7,22 @@
   {
    "p": "<ruby>朝<rt>あさ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>がありましたか。",
    "opciones": [
-    "バスがとまった",
-    "でんしゃが<ruby>故障<rt>こしょう</rt></ruby>した",
+    "<ruby>会<rt>かい</rt></ruby>が<ruby>中止<rt>ちゅうし</rt></ruby>になった",
     "<ruby>雨<rt>あめ</rt></ruby>がふった",
-    "<ruby>会<rt>かい</rt></ruby>が<ruby>中止<rt>ちゅうし</rt></ruby>になった"
+    "でんしゃが<ruby>故障<rt>こしょう</rt></ruby>した",
+    "バスがとまった"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>思<rt>おも</rt></ruby>いましたか。",
    "opciones": [
-    "おんがくはむずかしい",
-    "<ruby>仕方<rt>しかた</rt></ruby>はひとつではない",
+    "<ruby>場所<rt>ばしょ</rt></ruby>がとおい",
     "<ruby>子<rt>こ</rt></ruby>そだてはたいへんだ",
-    "<ruby>場所<rt>ばしょ</rt></ruby>がとおい"
+    "おんがくはむずかしい",
+    "<ruby>仕方<rt>しかた</rt></ruby>はひとつではない"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "At a venue in my neighbourhood there was a concert of Western music. The place is less than ten minutes from the station. In the morning the train broke down and the line was cut off, and I thought I'd suddenly be unable to go, but I got there in time by bus. I sat roughly in the middle of the hall. It was cool inside, so I put my jacket on. Listening to someone who keeps up with music while raising children, I thought there isn't only one way of doing things. It was an evening when time went quickly."

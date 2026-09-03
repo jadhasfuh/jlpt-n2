@@ -16,20 +16,20 @@
   {
    "p": "<ruby>昼<rt>ひる</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べましたか。",
    "opciones": [
-    "うどん",
     "<ruby>魚<rt>さかな</rt></ruby>",
+    "うどん",
     "<ruby>肉<rt>にく</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をたくさんしましたか。",
    "opciones": [
     "<ruby>将棋<rt>しょうぎ</rt></ruby>",
-    "<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>ること",
-    "<ruby>散歩<rt>さんぽ</rt></ruby>"
+    "<ruby>散歩<rt>さんぽ</rt></ruby>",
+    "<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>ること"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "Last week I went to a peninsula where there's a national park. Coming out of the cedar forest, the maples were tremendously beautiful. Red leaves had fallen on the ground too. At midday we ate udon and at the inn we played shogi. My father must have enjoyed himself a good deal, because he took dozens of photos."

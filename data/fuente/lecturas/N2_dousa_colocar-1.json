@@ -25,11 +25,11 @@
   {
    "p": "<ruby>春<rt>はる</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありましたか。",
    "opciones": [
-    "<ruby>小<rt>ちい</rt></ruby>さな<ruby>芽<rt>め</rt></ruby>",
+    "<ruby>古<rt>ふる</rt></ruby>い<ruby>紙<rt>かみ</rt></ruby>",
     "<ruby>雪<rt>ゆき</rt></ruby>",
-    "<ruby>古<rt>ふる</rt></ruby>い<ruby>紙<rt>かみ</rt></ruby>"
+    "<ruby>小<rt>ちい</rt></ruby>さな<ruby>芽<rt>め</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "When winter draws near, I cover the trees in the garden with a cloth. I also spread old newspaper over the soil. My grandfather taught me that snow stuck to the leaves shouldn't be brushed off by hand. The branches break. When spring came and I took the cloth off, small buds were stuck to them."

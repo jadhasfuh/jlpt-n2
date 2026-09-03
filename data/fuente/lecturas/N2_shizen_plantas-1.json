@@ -16,20 +16,20 @@
   {
    "p": "<ruby>水<rt>みず</rt></ruby>をやらないとどうなりますか。",
    "opciones": [
+    "<ruby>虫<rt>むし</rt></ruby>が<ruby>来<rt>く</rt></ruby>る",
     "しぼむ",
-    "<ruby>大<rt>おお</rt></ruby>きくなる",
-    "<ruby>虫<rt>むし</rt></ruby>が<ruby>来<rt>く</rt></ruby>る"
+    "<ruby>大<rt>おお</rt></ruby>きくなる"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>母<rt>はは</rt></ruby>は<ruby>何<rt>なに</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか。",
    "opciones": [
-    "<ruby>外<rt>そと</rt></ruby>で<ruby>見<rt>み</rt></ruby>ること",
     "<ruby>生<rt>い</rt></ruby>け<ruby>花<rt>ばな</rt></ruby>",
-    "<ruby>園芸<rt>えんげい</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>"
+    "<ruby>園芸<rt>えんげい</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>",
+    "<ruby>外<rt>そと</rt></ruby>で<ruby>見<rt>み</rt></ruby>ること"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "From the station to my house there's a tree-lined avenue. In spring the flowers are lovely, though in summer there are a lot of insects. Under the big tree are the flowers my mother planted following a gardening book. If she forgets to water them, they wither at once. Whatever the weather, going to see them every morning is her routine. She says she prefers seeing them outside to putting them in a flower arrangement."

@@ -7,22 +7,22 @@
   {
    "p": "<ruby>市場<rt>いちば</rt></ruby>では<ruby>何<rt>なに</rt></ruby>が<ruby>積<rt>つ</rt></ruby>まれていましたか。",
    "opciones": [
-    "<ruby>野菜<rt>やさい</rt></ruby>だけ",
-    "<ruby>配達<rt>はいたつ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つ<ruby>小包<rt>こづつみ</rt></ruby>",
+    "<ruby>支店<rt>してん</rt></ruby>のはこ",
     "<ruby>紙<rt>かみ</rt></ruby>",
-    "<ruby>支店<rt>してん</rt></ruby>のはこ"
+    "<ruby>配達<rt>はいたつ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つ<ruby>小包<rt>こづつみ</rt></ruby>",
+    "<ruby>野菜<rt>やさい</rt></ruby>だけ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>がたいせつだと<ruby>話<rt>はな</rt></ruby>していましたか。",
    "opciones": [
     "<ruby>支店<rt>してん</rt></ruby>をふやすこと",
-    "この<ruby>場<rt>ば</rt></ruby>をまもること",
     "<ruby>安<rt>やす</rt></ruby>く<ruby>売<rt>う</rt></ruby>ること",
-    "<ruby>注文<rt>ちゅうもん</rt></ruby>をふやすこと"
+    "<ruby>注文<rt>ちゅうもん</rt></ruby>をふやすこと",
+    "この<ruby>場<rt>ば</rt></ruby>をまもること"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I went to the market in the morning. The traders called out to one another as they wrapped and arranged the goods. The crates of produce had the order sheets stuck to them, and there were parcels piled up waiting for delivery. It seems the work of selling doesn't consist only of selling. One shopkeeper said that, rather than opening branches, what matters is looking after this place. And the customers must know too that it isn't all about being cheap."

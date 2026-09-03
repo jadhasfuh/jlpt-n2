@@ -7,12 +7,12 @@
   {
    "p": "だれが<ruby>招待<rt>しょうたい</rt></ruby>しましたか。",
    "opciones": [
-    "この<ruby>人<rt>ひと</rt></ruby>",
     "<ruby>先生<rt>せんせい</rt></ruby>",
     "おくさん",
+    "この<ruby>人<rt>ひと</rt></ruby>",
     "<ruby>学生<rt>がくせい</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>教<rt>おし</rt></ruby>わりましたか。",

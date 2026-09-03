@@ -7,22 +7,22 @@
   {
    "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>のことをどう<ruby>思<rt>おも</rt></ruby>っていますか。",
    "opciones": [
-    "もう<ruby>老<rt>お</rt></ruby>いた",
-    "<ruby>老<rt>お</rt></ruby>いたつもりがない",
     "<ruby>定年<rt>ていねん</rt></ruby>が<ruby>待<rt>ま</rt></ruby>ち<ruby>遠<rt>どお</rt></ruby>しい",
-    "<ruby>疲<rt>つか</rt></ruby>れている"
+    "<ruby>疲<rt>つか</rt></ruby>れている",
+    "<ruby>老<rt>お</rt></ruby>いたつもりがない",
+    "もう<ruby>老<rt>お</rt></ruby>いた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>父<rt>ちち</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて、なぜおかしくなりましたか。",
    "opciones": [
-    "<ruby>写真<rt>しゃしん</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>かったから",
-    "<ruby>自分<rt>じぶん</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じことを<ruby>言<rt>い</rt></ruby>ったから",
     "<ruby>母<rt>はは</rt></ruby>が<ruby>笑<rt>わら</rt></ruby>ったから",
-    "<ruby>話<rt>はなし</rt></ruby>が<ruby>長<rt>なが</rt></ruby>かったから"
+    "<ruby>写真<rt>しゃしん</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>かったから",
+    "<ruby>話<rt>はなし</rt></ruby>が<ruby>長<rt>なが</rt></ruby>かったから",
+    "<ruby>自分<rt>じぶん</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じことを<ruby>言<rt>い</rt></ruby>ったから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "We celebrated my father's sixtieth in the village house. He has a few years left before retiring and he has no sense at all of having grown old. He brought out the photos from his youth and went on and on about the friends of his year. Once he starts on the old stories there's no stopping him: it ends up lasting until midnight. My mother laughed, standing in the kitchen. As a child I was bad at asking to be fussed over. From a certain age I never again asked to be carried on shoulders or in arms. I thought it was the character I was born with, but hearing my father say exactly the same thing struck me as oddly funny. Listening to those old stories that never ended, I thought there are things that carry on even when the generation changes."

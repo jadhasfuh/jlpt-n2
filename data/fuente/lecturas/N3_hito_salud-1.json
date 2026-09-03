@@ -8,21 +8,21 @@
    "p": "<ruby>患者<rt>かんじゃ</rt></ruby>どうしの<ruby>話<rt>はなし</rt></ruby>は、どうでしたか。",
    "opciones": [
     "わかりにくかった",
+    "<ruby>必要<rt>ひつよう</rt></ruby>なかった",
     "<ruby>医療<rt>いりょう</rt></ruby>のせつめいより<ruby>気<rt>き</rt></ruby>がらくになった",
-    "つらかった",
-    "<ruby>必要<rt>ひつよう</rt></ruby>なかった"
+    "つらかった"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。",
    "opciones": [
     "はやく<ruby>回復<rt>かいふく</rt></ruby>しなさい",
-    "<ruby>回復<rt>かいふく</rt></ruby>は<ruby>急<rt>いそ</rt></ruby>がなくていい",
     "<ruby>仕事<rt>しごと</rt></ruby>にもどりなさい",
-    "<ruby>歩<rt>ある</rt></ruby>きなさい"
+    "<ruby>歩<rt>ある</rt></ruby>きなさい",
+    "<ruby>回復<rt>かいふく</rt></ruby>は<ruby>急<rt>いそ</rt></ruby>がなくていい"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "After the operation, I went out walking for the first time in a month. The pain from the wound is still there, but it doesn't amount to suffering. There's a period for us patients to talk among ourselves, and hearing someone with the same illness helped me more than the medical explanations. At every check-up, the doctor tells me: «recovery isn't something to hurry». When I was healthy I didn't realise it, but the body doesn't heal unless you give it time. I'm looking forward to the day I go back to work, half a year from now."

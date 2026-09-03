@@ -7,12 +7,12 @@
   {
    "p": "<ruby>学生<rt>がくせい</rt></ruby>のころ、どうやって<ruby>食<rt>た</rt></ruby>べていましたか。",
    "opciones": [
-    "<ruby>親<rt>おや</rt></ruby>に<ruby>送<rt>おく</rt></ruby>ってもらっていた",
     "<ruby>閉店<rt>へいてん</rt></ruby><ruby>前<rt>まえ</rt></ruby>に<ruby>並<rt>なら</rt></ruby>ぶ<ruby>品<rt>しな</rt></ruby>を<ruby>選<rt>えら</rt></ruby>んでいた",
-    "<ruby>働<rt>はたら</rt></ruby>いていた",
-    "<ruby>食<rt>た</rt></ruby>べなかった"
+    "<ruby>食<rt>た</rt></ruby>べなかった",
+    "<ruby>親<rt>おや</rt></ruby>に<ruby>送<rt>おく</rt></ruby>ってもらっていた",
+    "<ruby>働<rt>はたら</rt></ruby>いていた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>最後<rt>さいご</rt></ruby>に<ruby>言<rt>い</rt></ruby>っていることは<ruby>何<rt>なん</rt></ruby>ですか。",

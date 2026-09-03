@@ -7,22 +7,22 @@
   {
    "p": "<ruby>担当<rt>たんとう</rt></ruby>した<ruby>方<rt>かた</rt></ruby>に<ruby>補足<rt>ほそく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>けなかったのは、なぜですか。",
    "opciones": [
-    "<ruby>忙<rt>いそが</rt></ruby>しかったから",
-    "もう<ruby>不在<rt>ふざい</rt></ruby>だから",
+    "<ruby>遠<rt>とお</rt></ruby>いから",
     "<ruby>記録<rt>きろく</rt></ruby>がないから",
-    "<ruby>遠<rt>とお</rt></ruby>いから"
+    "もう<ruby>不在<rt>ふざい</rt></ruby>だから",
+    "<ruby>忙<rt>いそが</rt></ruby>しかったから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>床下<rt>ゆかした</rt></ruby>をのぞいて<ruby>何<rt>なに</rt></ruby>が<ruby>見<rt>み</rt></ruby>えましたか。",
    "opciones": [
-    "<ruby>記録<rt>きろく</rt></ruby>の<ruby>図面<rt>ずめん</rt></ruby>",
-    "<ruby>湿気<rt>しっけ</rt></ruby>が<ruby>木<rt>き</rt></ruby>を<ruby>傷<rt>いた</rt></ruby>めているようす",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>見<rt>み</rt></ruby>えなかった",
     "<ruby>基礎<rt>きそ</rt></ruby>の<ruby>沈<rt>しず</rt></ruby>み",
-    "<ruby>何<rt>なに</rt></ruby>も<ruby>見<rt>み</rt></ruby>えなかった"
+    "<ruby>記録<rt>きろく</rt></ruby>の<ruby>図面<rt>ずめん</rt></ruby>",
+    "<ruby>湿気<rt>しっけ</rt></ruby>が<ruby>木<rt>き</rt></ruby>を<ruby>傷<rt>いた</rt></ruby>めているようす"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "For the refurbishment of an old building, the first thing was to examine the foundations. In the annex to the plans the records from the time were still there, and fifty years of changes fit on a single sheet. Whoever handled the project is no longer around and there's nobody left to ask anything further. In order to decipher those plans, I went round several buildings from the same period. The look of the ground varies with the season. Depending on whether the year has been rainy or not, the way the foundation settles changes. Looking under the floor with a high-magnification instrument, you could see that the released damp was damaging the wood. Telling the owner the distressed state of his building is a heavy task. Even so, you can't hide what you've seen."

@@ -7,22 +7,22 @@
   {
    "p": "<ruby>余裕<rt>よゆう</rt></ruby>があれば、どちらをえらびたいですか。",
    "opciones": [
+    "どちらでもいい",
     "<ruby>地下<rt>ちか</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>",
     "<ruby>日<rt>ひ</rt></ruby>のあたる<ruby>二<rt>に</rt></ruby><ruby>階<rt>かい</rt></ruby>",
-    "どちらでもいい",
     "<ruby>故郷<rt>ふるさと</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>今<rt>いま</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>の<ruby>何<rt>なに</rt></ruby>が<ruby>故郷<rt>ふるさと</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じですか。",
    "opciones": [
-    "ひろさ",
-    "<ruby>雨<rt>あめ</rt></ruby>の<ruby>音<rt>おと</rt></ruby>のひびき<ruby>方<rt>かた</rt></ruby>",
+    "<ruby>屋根<rt>やね</rt></ruby>",
     "<ruby>家賃<rt>やちん</rt></ruby>",
-    "<ruby>屋根<rt>やね</rt></ruby>"
+    "ひろさ",
+    "<ruby>雨<rt>あめ</rt></ruby>の<ruby>音<rt>おと</rt></ruby>のひびき<ruby>方<rt>かた</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I still haven't decided whether to move. The cheap flat in the basement, or the second floor, where the sun reaches? If I had room to spare I'd choose the second floor. Depending on the shape of the roof and the way the windows face, with the same square metres you live in a completely different way. My current flat is like the house in my home town: even the way the rain sounds is the same. Do I take the cheap one, or do I keep that sound? I still have no answer."

@@ -7,22 +7,22 @@
   {
    "p": "<ruby>祖父<rt>そふ</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>、どうしていましたか。",
    "opciones": [
+    "<ruby>鉱山<rt>こうざん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った",
     "<ruby>休<rt>やす</rt></ruby>んでいた",
     "<ruby>降<rt>ふ</rt></ruby>っても<ruby>降<rt>ふ</rt></ruby>らなくても<ruby>五時<rt>ごじ</rt></ruby>には<ruby>畑<rt>はたけ</rt></ruby>に<ruby>出<rt>で</rt></ruby>た",
-    "<ruby>鉱山<rt>こうざん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った",
     "<ruby>林業<rt>りんぎょう</rt></ruby>をしていた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>祖父<rt>そふ</rt></ruby>が<ruby>農耕<rt>のうこう</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>けた<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>儲<rt>もう</rt></ruby>かるから",
-    "<ruby>土<rt>つち</rt></ruby>をさわっていないと<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>かないから",
+    "ほかに<ruby>仕事<rt>しごと</rt></ruby>がないから",
     "<ruby>土地<rt>とち</rt></ruby>が<ruby>広<rt>ひろ</rt></ruby>いから",
-    "ほかに<ruby>仕事<rt>しごと</rt></ruby>がないから"
+    "<ruby>儲<rt>もう</rt></ruby>かるから",
+    "<ruby>土<rt>つち</rt></ruby>をさわっていないと<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>かないから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "My grandfather ran the farm on his own. The cultivable land wasn't especially extensive. Rain or no rain, at five in the morning he was in the field. On the other side of the mountain there was a mine, and apparently several of his classmates went over to mining work. There were some who went into forestry and some who started with dairy cattle. Those who went on tilling were, besides my grandfather, barely a handful. Not because it paid. He used to say that if he didn't touch the soil he couldn't rest easy. On summer mornings, walking between the furrows, it smells of earth. I still remember clearly how hard those hands were."

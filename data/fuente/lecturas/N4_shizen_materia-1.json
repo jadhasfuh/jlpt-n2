@@ -7,12 +7,12 @@
   {
    "p": "なぜ、<ruby>砂<rt>すな</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>でやりますか。",
    "opciones": [
-    "<ruby>見<rt>み</rt></ruby>やすいから",
     "<ruby>焼<rt>や</rt></ruby>けてもひろがらない<em class=\"g\">ようだ</em>から",
-    "<ruby>堅<rt>かた</rt></ruby>いから",
-    "きれいだから"
+    "きれいだから",
+    "<ruby>見<rt>み</rt></ruby>やすいから",
+    "<ruby>堅<rt>かた</rt></ruby>いから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>火事<rt>かじ</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>について<ruby>何<rt>なに</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しましたか。",

@@ -7,12 +7,12 @@
   {
    "p": "<ruby>妹<rt>いもうと</rt></ruby>はなぜ、なかなかねむれませんでしたか。",
    "opciones": [
-    "こわかったから",
     "パスポートと<ruby>到着<rt>とうちゃく</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>をたしかめてばかりいたから",
+    "<ruby>空港<rt>くうこう</rt></ruby>がとおいから",
     "<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いたから",
-    "<ruby>空港<rt>くうこう</rt></ruby>がとおいから"
+    "こわかったから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>本当<rt>ほんとう</rt></ruby>の<ruby>旅<rt>たび</rt></ruby>とは<ruby>何<rt>なに</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>っていますか。",

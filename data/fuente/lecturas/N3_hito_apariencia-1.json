@@ -7,12 +7,12 @@
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どもを<ruby>見<rt>み</rt></ruby>て、どうしましたか。",
    "opciones": [
-    "おこった",
     "わらってしまった",
+    "おこった",
     "<ruby>洗<rt>あら</rt></ruby>った",
     "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>本当<rt>ほんとう</rt></ruby>にきれいに<ruby>見<rt>み</rt></ruby>えるのは<ruby>何<rt>なに</rt></ruby>ですか。",

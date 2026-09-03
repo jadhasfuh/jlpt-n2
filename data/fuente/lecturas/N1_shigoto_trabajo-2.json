@@ -8,21 +8,21 @@
    "p": "<ruby>転任<rt>てんにん</rt></ruby>で<ruby>職務<rt>しょくむ</rt></ruby>はどうなりましたか。",
    "opciones": [
     "<ruby>軽<rt>かる</rt></ruby>くなった",
+    "なくなった",
     "<ruby>庶務<rt>しょむ</rt></ruby>に<ruby>近<rt>ちか</rt></ruby>いものに<ruby>変<rt>か</rt></ruby>わった",
-    "<ruby>同<rt>おな</rt></ruby>じままだった",
-    "なくなった"
+    "<ruby>同<rt>おな</rt></ruby>じままだった"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "いま、どうやって<ruby>続<rt>つづ</rt></ruby>けていますか。",
    "opciones": [
-    "<ruby>辞職<rt>じしょく</rt></ruby>した",
-    "<ruby>分業<rt>ぶんぎょう</rt></ruby>の<ruby>仕方<rt>しかた</rt></ruby>を<ruby>変<rt>か</rt></ruby>えてもらって",
     "<ruby>相談<rt>そうだん</rt></ruby>をやめて",
-    "<ruby>総会<rt>そうかい</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らして"
+    "<ruby>辞職<rt>じしょく</rt></ruby>した",
+    "<ruby>総会<rt>そうかい</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らして",
+    "<ruby>分業<rt>ぶんぎょう</rt></ruby>の<ruby>仕方<rt>しかた</rt></ruby>を<ruby>変<rt>か</rt></ruby>えてもらって"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "When the transfer came up, I thought it was something to celebrate. The people around me said it was a promotion, but the content of the post came to look like general administration. And just as I was wondering whether I should be pleased, on talking it over with a colleague in the department he said: «your obligations are just going to weigh more». Preparing the general meeting, meeting clients, taking the minutes of the deliberations. The tiresome work multiplies all at once. There were several nights when I thought about resigning. Ten years working and it was the first time I'd had doubts. Talking it over was no use and no conclusion came of it, but I did manage to keep changing how the tasks were shared out. The work I do now must be exactly that fine, almost craftsman-like adjustment."

@@ -7,12 +7,12 @@
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>の<ruby>挨拶<rt>あいさつ</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>長<rt>なが</rt></ruby>かった",
     "<ruby>短<rt>みじか</rt></ruby>く、すぐに<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>に<ruby>場<rt>ば</rt></ruby>をゆずった",
+    "<ruby>長<rt>なが</rt></ruby>かった",
     "なかった",
     "<ruby>準備<rt>じゅんび</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をした"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>帰<rt>かえ</rt></ruby>りぎわ、<ruby>皆<rt>みな</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",

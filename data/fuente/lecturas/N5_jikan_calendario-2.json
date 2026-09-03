@@ -16,20 +16,20 @@
   {
    "p": "<ruby>昨日<rt>きのう</rt></ruby>の <ruby>夕方<rt>ゆうがた</rt></ruby>、なにを しましたか。",
    "opciones": [
-    "アンナさんと コーヒーを のみました",
     "しゅくだいを しました",
+    "アンナさんと コーヒーを のみました",
     "アルバイトを さがしました"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>今<rt>いま</rt></ruby>は なんがつですか。",
    "opciones": [
-    "<ruby>十月<rt>じゅうがつ</rt></ruby>",
     "<ruby>三月<rt>さんがつ</rt></ruby>",
-    "<ruby>十二月<rt>じゅうにがつ</rt></ruby>"
+    "<ruby>十二月<rt>じゅうにがつ</rt></ruby>",
+    "<ruby>十月<rt>じゅうがつ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I get up at six every morning and leave the house at seven. Mornings are class; afternoons are homework or job-hunting. Yesterday at dusk I had a coffee with Anna. Today I finally handed in the homework from the day before yesterday. This morning I looked at the calendar and got a shock. It feels like I arrived three days ago, and it's already October."

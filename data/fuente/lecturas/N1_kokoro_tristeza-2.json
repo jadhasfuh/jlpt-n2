@@ -7,12 +7,12 @@
   {
    "p": "<ruby>年度末<rt>ねんどまつ</rt></ruby>が<ruby>忙<rt>いそが</rt></ruby>しかったのは、なぜですか。",
    "opciones": [
-    "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えたから",
     "<ruby>人手<rt>ひとで</rt></ruby>が<ruby>足<rt>た</rt></ruby>りなかったから",
     "<ruby>企画<rt>きかく</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かったから",
-    "<ruby>後輩<rt>こうはい</rt></ruby>が<ruby>来<rt>き</rt></ruby>たから"
+    "<ruby>後輩<rt>こうはい</rt></ruby>が<ruby>来<rt>き</rt></ruby>たから",
+    "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えたから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>年度<rt>ねんど</rt></ruby>が<ruby>明<rt>あ</rt></ruby>けてから、この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",

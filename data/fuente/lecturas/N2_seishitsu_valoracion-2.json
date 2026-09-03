@@ -7,20 +7,20 @@
   {
    "p": "となりの<ruby>席<rt>せき</rt></ruby>の<ruby>客<rt>きゃく</rt></ruby>はどうして<ruby>怒<rt>おこ</rt></ruby>っていましたか。",
    "opciones": [
-    "ねだんが<ruby>高<rt>たか</rt></ruby>かったから",
     "<ruby>注文<rt>ちゅうもん</rt></ruby>がおそかったから",
-    "<ruby>席<rt>せき</rt></ruby>がなかったから"
+    "<ruby>席<rt>せき</rt></ruby>がなかったから",
+    "ねだんが<ruby>高<rt>たか</rt></ruby>かったから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>年上<rt>としうえ</rt></ruby>の<ruby>客<rt>きゃく</rt></ruby>は<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
+    "「<ruby>帰<rt>かえ</rt></ruby>りましょう」",
     "「それはいけませんね」",
-    "「もっと<ruby>早<rt>はや</rt></ruby>くしてください」",
-    "「<ruby>帰<rt>かえ</rt></ruby>りましょう」"
+    "「もっと<ruby>早<rt>はや</rt></ruby>くしてください」"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "この<ruby>文章<rt>ぶんしょう</rt></ruby>で<ruby>言<rt>い</rt></ruby>いたいことは<ruby>何<rt>なん</rt></ruby>ですか。",

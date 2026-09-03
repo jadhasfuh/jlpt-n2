@@ -16,20 +16,20 @@
   {
    "p": "みせの <ruby>人<rt>ひと</rt></ruby>は なにを すすめましたか。",
    "opciones": [
+    "<ruby>駅<rt>えき</rt></ruby>",
     "ネットカフェ",
-    "ホテル",
-    "<ruby>駅<rt>えき</rt></ruby>"
+    "ホテル"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "そこは どんな ところだと 言いましたか。",
    "opciones": [
-    "やすくて <ruby>朝<rt>あさ</rt></ruby>まで いられる",
     "たかい",
-    "とおい"
+    "とおい",
+    "やすくて <ruby>朝<rt>あさ</rt></ruby>まで いられる"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "By eight in the evening we still had nowhere to sleep. The hotels were either full or far too expensive. Gonza asked someone in a shop for help and about places nearby. The man answered: «what about an internet café?». We didn't know the word. «It's cheap. You can stay until morning», he explained."

@@ -7,22 +7,22 @@
   {
    "p": "<ruby>最初<rt>さいしょ</rt></ruby>のころ、<ruby>会議<rt>かいぎ</rt></ruby>でこの<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていましたか。",
    "opciones": [
-    "<ruby>反対<rt>はんたい</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>言<rt>い</rt></ruby>っていた",
-    "<ruby>誰<rt>だれ</rt></ruby>かの<ruby>発言<rt>はつげん</rt></ruby>にうなずくだけだった",
+    "<ruby>記録<rt>きろく</rt></ruby>をとっていた",
     "<ruby>司会<rt>しかい</rt></ruby>をしていた",
-    "<ruby>記録<rt>きろく</rt></ruby>をとっていた"
+    "<ruby>誰<rt>だれ</rt></ruby>かの<ruby>発言<rt>はつげん</rt></ruby>にうなずくだけだった",
+    "<ruby>反対<rt>はんたい</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>言<rt>い</rt></ruby>っていた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>司会<rt>しかい</rt></ruby>を<ruby>任<rt>まか</rt></ruby>されて、この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
-    "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えを<ruby>述<rt>の</rt></ruby>べた",
-    "<ruby>相手<rt>あいて</rt></ruby>の<ruby>言<rt>い</rt></ruby>いたいことを<ruby>概説<rt>がいせつ</rt></ruby>して<ruby>確<rt>たし</rt></ruby>かめた",
     "<ruby>宣言<rt>せんげん</rt></ruby>をした",
-    "<ruby>黙<rt>だま</rt></ruby>っていた"
+    "<ruby>黙<rt>だま</rt></ruby>っていた",
+    "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えを<ruby>述<rt>の</rt></ruby>べた",
+    "<ruby>相手<rt>あいて</rt></ruby>の<ruby>言<rt>い</rt></ruby>いたいことを<ruby>概説<rt>がいせつ</rt></ruby>して<ruby>確<rt>たし</rt></ruby>かめた"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "It took me three years to be able to give an opinion in meetings. At first I did nothing but nod along to what someone else said. Holding a contrary opinion frightened me terribly. Thinking I'd be reprimanded shut my mouth. The turning point was a working group with another department. I was made moderator and became the link between them. Instead of saying what I thought, I summarised what the other person wanted to say and checked it with them. It was no more than that, and yet you could feel the dialogue moving forward. There's no need to make any solemn declaration. Since I understood that it's enough to say you don't understand what you don't understand, meetings stopped frightening me."

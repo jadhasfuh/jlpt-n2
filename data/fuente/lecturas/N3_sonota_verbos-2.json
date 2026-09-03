@@ -8,21 +8,21 @@
    "p": "<ruby>発表<rt>はっぴょう</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>はどうなりましたか。",
    "opciones": [
     "<ruby>早<rt>はや</rt></ruby>くなった",
-    "<ruby>延<rt>の</rt></ruby>びた",
     "なくなった",
+    "<ruby>延<rt>の</rt></ruby>びた",
     "<ruby>決<rt>き</rt></ruby>まっていない"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "いま、この<ruby>人<rt>ひと</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>だと<ruby>感<rt>かん</rt></ruby>じていることは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>成功<rt>せいこう</rt></ruby>すること",
-    "さいごまで<ruby>済<rt>す</rt></ruby>ませること",
     "<ruby>早<rt>はや</rt></ruby>く<ruby>出<rt>だ</rt></ruby>すこと",
-    "<ruby>人<rt>ひと</rt></ruby>に<ruby>見<rt>み</rt></ruby>せないこと"
+    "<ruby>成功<rt>せいこう</rt></ruby>すること",
+    "<ruby>人<rt>ひと</rt></ruby>に<ruby>見<rt>み</rt></ruby>せないこと",
+    "さいごまで<ruby>済<rt>す</rt></ruby>ませること"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Since the presentation date has been put back, I've decided to go over the content again. Certainly, in the first draft there was a lot that was surplus. I've rethought it and split it again into two big parts. Taking the number of participants into account as well, I'm going to shorten it. I read the book the teacher recommended and found several insights I didn't know. Taking in new ideas is a pleasant thing. At first I resisted, but now I feel that, more than whether it comes out well, what matters is finishing it to the end. The day after tomorrow I'll go over it and hand it in."

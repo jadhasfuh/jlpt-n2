@@ -7,22 +7,22 @@
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>が<ruby>洪水<rt>こうずい</rt></ruby>の<ruby>年<rt>とし</rt></ruby>について<ruby>話<rt>はな</rt></ruby>したことは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
+    "<ruby>沼<rt>ぬま</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えた",
     "<ruby>海<rt>うみ</rt></ruby>が<ruby>美<rt>うつく</rt></ruby>しかった",
     "<ruby>家<rt>いえ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>の<ruby>道<rt>みち</rt></ruby>が<ruby>氾濫<rt>はんらん</rt></ruby>した<ruby>川<rt>かわ</rt></ruby>になった",
-    "<ruby>浜<rt>はま</rt></ruby>が<ruby>消<rt>き</rt></ruby>えた",
-    "<ruby>沼<rt>ぬま</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えた"
+    "<ruby>浜<rt>はま</rt></ruby>が<ruby>消<rt>き</rt></ruby>えた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>津波<rt>つなみ</rt></ruby>の<ruby>警報<rt>けいほう</rt></ruby>が<ruby>鳴<rt>な</rt></ruby>った<ruby>夜<rt>よる</rt></ruby>、<ruby>祖母<rt>そぼ</rt></ruby>はどうしましたか。",
    "opciones": [
     "すぐに<ruby>逃<rt>に</rt></ruby>げた",
-    "<ruby>短波<rt>たんぱ</rt></ruby>のラジオを<ruby>離<rt>はな</rt></ruby>さず、<ruby>荷物<rt>にもつ</rt></ruby>をまとめて<ruby>待<rt>ま</rt></ruby>った",
     "<ruby>眠<rt>ねむ</rt></ruby>っていた",
-    "<ruby>海<rt>うみ</rt></ruby>を<ruby>見<rt>み</rt></ruby>にいった"
+    "<ruby>海<rt>うみ</rt></ruby>を<ruby>見<rt>み</rt></ruby>にいった",
+    "<ruby>短波<rt>たんぱ</rt></ruby>のラジオを<ruby>離<rt>はな</rt></ruby>さず、<ruby>荷物<rt>にもつ</rt></ruby>をまとめて<ruby>待<rt>ま</rt></ruby>った"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "As a child I spent the summers at my grandmother's house. The beach was five minutes' walk away and, as soon as I got up, I would run out towards the sea. I was fascinated by how the shape of the beach changed with the tide. On the coast there's a lagoon as well, with creatures different from those of the sea current. Once or twice we walked as far as the source of the river. My grandmother often spoke about the year of the flood. That the water rose and the road in front of the house turned into a river in spate. I remember her saying: «the sea, you see, isn't only beautiful». The night the tsunami warning sounded, my grandmother wouldn't let go of the short-wave radio. She filled the flask with boiling water, packed a bag and sat waiting. I still sometimes remember the sound of the raindrops against the window."

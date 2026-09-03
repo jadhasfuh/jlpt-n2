@@ -7,22 +7,22 @@
   {
    "p": "<ruby>壷<rt>つぼ</rt></ruby>について、<ruby>何<rt>なに</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりましたか。",
    "opciones": [
-    "<ruby>祖父<rt>そふ</rt></ruby>のものだった",
-    "<ruby>誰<rt>だれ</rt></ruby>のものだったか<ruby>手掛<rt>てが</rt></ruby>かりは<ruby>出<rt>で</rt></ruby>てこなかった",
+    "<ruby>名札<rt>なふだ</rt></ruby>が<ruby>付<rt>つ</rt></ruby>いていた",
     "<ruby>高価<rt>こうか</rt></ruby>なものだった",
-    "<ruby>名札<rt>なふだ</rt></ruby>が<ruby>付<rt>つ</rt></ruby>いていた"
+    "<ruby>誰<rt>だれ</rt></ruby>のものだったか<ruby>手掛<rt>てが</rt></ruby>かりは<ruby>出<rt>で</rt></ruby>てこなかった",
+    "<ruby>祖父<rt>そふ</rt></ruby>のものだった"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "ランプを<ruby>捨<rt>す</rt></ruby>てなかったのは、なぜですか。",
    "opciones": [
     "<ruby>使<rt>つか</rt></ruby>う<ruby>予定<rt>よてい</rt></ruby>があるから",
-    "<ruby>祖母<rt>そぼ</rt></ruby>が<ruby>夜<rt>よる</rt></ruby>に<ruby>灯<rt>とも</rt></ruby>していた<ruby>明<rt>あ</rt></ruby>かりだから",
+    "<ruby>家族<rt>かぞく</rt></ruby>に<ruby>頼<rt>たの</rt></ruby>まれたから",
     "<ruby>高<rt>たか</rt></ruby>く<ruby>売<rt>う</rt></ruby>れるから",
-    "<ruby>家族<rt>かぞく</rt></ruby>に<ruby>頼<rt>たの</rt></ruby>まれたから"
+    "<ruby>祖母<rt>そぼ</rt></ruby>が<ruby>夜<rt>よる</rt></ruby>に<ruby>灯<rt>とも</rt></ruby>していた<ruby>明<rt>あ</rt></ruby>かりだから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "While clearing out my grandmother's house, a ceramic vessel came out of the shelf in the sitting room. It's old, the handle is chipped and it carries no label or anything. The whole family gathered to talk it over, but no clue turned up as to whose it had been. When we lifted the carpet the boards creaked, and out of the cupboard where the bedding was kept came a bundle of tea towels. It's all things you don't know how to deal with. It would be quick to start throwing away without restraint, but you can't. The lamp that stood beside the flowerbed I kept myself. I have no plans to use it. Even so, thinking that it was the light my grandmother switched on at night means the option of throwing it out never even comes up."

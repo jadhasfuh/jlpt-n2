@@ -16,20 +16,20 @@
   {
    "p": "<ruby>電話<rt>でんわ</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>話中<rt>はなしちゅう</rt></ruby>だった",
     "つながった",
+    "<ruby>話中<rt>はなしちゅう</rt></ruby>だった",
     "かけなかった"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "どうして<ruby>分<rt>わ</rt></ruby>かりやすくなりましたか。",
    "opciones": [
-    "<ruby>内容<rt>ないよう</rt></ruby>を<ruby>区切<rt>くぎ</rt></ruby>ったから",
+    "<ruby>資料<rt>しりょう</rt></ruby>がないから",
     "<ruby>短<rt>みじか</rt></ruby>かったから",
-    "<ruby>資料<rt>しりょう</rt></ruby>がないから"
+    "<ruby>内容<rt>ないよう</rt></ruby>を<ruby>区切<rt>くぎ</rt></ruby>ったから"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "We arranged to meet at the far end of the station passage. The phone was engaged and in no time the hour was upon us. Since it had been a long time since I'd spoken to that person, I apologised the moment I saw her. On the one hand I was reading the documents alongside and, on the other, moving the conversation forward. Since we talked through it in parts, the problem we have now became a good deal clearer."

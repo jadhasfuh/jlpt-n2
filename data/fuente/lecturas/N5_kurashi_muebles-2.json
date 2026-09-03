@@ -16,20 +16,20 @@
   {
    "p": "カップは だれが くれましたか。",
    "opciones": [
+    "ゴンサ",
     "アンナさん",
-    "たなかさん",
-    "ゴンサ"
+    "たなかさん"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "はじめの <ruby>日<rt>ひ</rt></ruby>、へやは どうでしたか。",
    "opciones": [
-    "からっぽでした",
+    "きたなかったです",
     "いっぱいでした",
-    "きたなかったです"
+    "からっぽでした"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "In three months the room has filled up with things. There's a clock, a small chair and the kotatsu. On the desk are my glasses and a cup Anna gave me. On the first day this room was empty. As things pile up, a place turns into somewhere you come back to. Though I also know the day will come when I leave it all behind."

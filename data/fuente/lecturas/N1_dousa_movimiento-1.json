@@ -7,12 +7,12 @@
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どものころ、この<ruby>人<rt>ひと</rt></ruby>は<ruby>祭<rt>まつ</rt></ruby>りで<ruby>何<rt>なに</rt></ruby>をしていましたか。",
    "opciones": [
-    "<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>舞<rt>ま</rt></ruby>っていた",
     "<ruby>列<rt>れつ</rt></ruby>を<ruby>抜<rt>ぬ</rt></ruby>け<ruby>出<rt>だ</rt></ruby>して<ruby>眠<rt>ねむ</rt></ruby>っていた",
     "<ruby>面<rt>めん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>っていた",
-    "<ruby>写真<rt>しゃしん</rt></ruby>をとっていた"
+    "<ruby>写真<rt>しゃしん</rt></ruby>をとっていた",
+    "<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>舞<rt>ま</rt></ruby>っていた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "いま<ruby>見<rt>み</rt></ruby>て、<ruby>何<rt>なに</rt></ruby>が<ruby>難<rt>むずか</rt></ruby>しいとわかりましたか。",

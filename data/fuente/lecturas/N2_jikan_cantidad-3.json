@@ -16,20 +16,20 @@
   {
    "p": "<ruby>余<rt>あま</rt></ruby>りはどうやって<ruby>出<rt>だ</rt></ruby>しますか。",
    "opciones": [
+    "<ruby>統計<rt>とうけい</rt></ruby>で",
     "<ruby>引算<rt>ひきざん</rt></ruby>で",
-    "<ruby>掛<rt>か</rt></ruby>け<ruby>算<rt>ざん</rt></ruby>で",
-    "<ruby>統計<rt>とうけい</rt></ruby>で"
+    "<ruby>掛<rt>か</rt></ruby>け<ruby>算<rt>ざん</rt></ruby>で"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>中途<rt>ちゅうと</rt></ruby>でやめるとどうなりますか。",
    "opciones": [
-    "<ruby>全般<rt>ぜんぱん</rt></ruby>が<ruby>分<rt>わ</rt></ruby>からなくなる",
+    "<ruby>早<rt>はや</rt></ruby>く<ruby>終<rt>お</rt></ruby>わる",
     "<ruby>楽<rt>らく</rt></ruby>になる",
-    "<ruby>早<rt>はや</rt></ruby>く<ruby>終<rt>お</rt></ruby>わる"
+    "<ruby>全般<rt>ぜんぱん</rt></ruby>が<ruby>分<rt>わ</rt></ruby>からなくなる"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The teacher put whole numbers and fractions on the board and said: «you have to think about it this way». You add up the volumes of the various pieces and with a subtraction you get the remainder. If you leave it halfway you lose the whole, so I listened to the end with all my strength. When you turn each day's rises and falls into statistics, the meaning of the numbers starts to show."

@@ -7,22 +7,22 @@
   {
    "p": "<ruby>父<rt>ちち</rt></ruby>が<ruby>店<rt>みせ</rt></ruby>を<ruby>畳<rt>たた</rt></ruby>むと<ruby>決<rt>き</rt></ruby>めた<ruby>前提<rt>ぜんてい</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でしたか。",
    "opciones": [
-    "<ruby>家族<rt>かぞく</rt></ruby>に<ruby>相談<rt>そうだん</rt></ruby>すること",
-    "<ruby>借金<rt>しゃっきん</rt></ruby>を<ruby>残<rt>のこ</rt></ruby>さないこと",
+    "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>意志<rt>いし</rt></ruby>を<ruby>継<rt>つ</rt></ruby>ぐこと",
     "<ruby>周<rt>まわ</rt></ruby>りの<ruby>意見<rt>いけん</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うこと",
-    "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>意志<rt>いし</rt></ruby>を<ruby>継<rt>つ</rt></ruby>ぐこと"
+    "<ruby>借金<rt>しゃっきん</rt></ruby>を<ruby>残<rt>のこ</rt></ruby>さないこと",
+    "<ruby>家族<rt>かぞく</rt></ruby>に<ruby>相談<rt>そうだん</rt></ruby>すること"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は、あの<ruby>数日<rt>すうじつ</rt></ruby>で<ruby>何<rt>なに</rt></ruby>を<ruby>教<rt>おそ</rt></ruby>わったと<ruby>感<rt>かん</rt></ruby>じていますか。",
    "opciones": [
-    "<ruby>店<rt>みせ</rt></ruby>の<ruby>経営<rt>けいえい</rt></ruby>",
-    "いざという<ruby>折<rt>おり</rt></ruby>にどうふるまうか",
     "<ruby>借金<rt>しゃっきん</rt></ruby>のこわさ",
-    "<ruby>母<rt>はは</rt></ruby>の<ruby>気持<rt>きも</rt></ruby>ち"
+    "<ruby>母<rt>はは</rt></ruby>の<ruby>気持<rt>きも</rt></ruby>ち",
+    "<ruby>店<rt>みせ</rt></ruby>の<ruby>経営<rt>けいえい</rt></ruby>",
+    "いざという<ruby>折<rt>おり</rt></ruby>にどうふるまうか"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "My father closed the shop over everyone's objections. The people around said he should carry on even by force. I learnt later that he decided it on the condition of leaving no debts. At the time I thought I wished he'd consulted us first. But he probably didn't want to burden the family. It was the shop my late grandfather built up. And for my father, all the more, letting go of it must have been even harder. On closing day he took down the sign in one movement and put it in the storeroom for the time being. He packed up until he had no strength left and got home very late. Beside him, my mother made tea in silence. How to behave when the real moment comes. I feel I learnt it in those days, and not through words."

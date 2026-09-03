@@ -8,21 +8,21 @@
    "p": "<ruby>二人<rt>ふたり</rt></ruby>を<ruby>見分<rt>みわ</rt></ruby>けるには、どうすればいいですか。",
    "opciones": [
     "<ruby>服<rt>ふく</rt></ruby>を<ruby>見<rt>み</rt></ruby>る",
+    "<ruby>声<rt>こえ</rt></ruby>をくらべる",
     "しばらく<ruby>話<rt>はな</rt></ruby>して<ruby>表情<rt>ひょうじょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>る",
-    "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>く",
-    "<ruby>声<rt>こえ</rt></ruby>をくらべる"
+    "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>く"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>弟<rt>おとうと</rt></ruby>のほうは、どんな<ruby>人<rt>ひと</rt></ruby>ですか。",
    "opciones": [
     "<ruby>徹底<rt>てってい</rt></ruby><ruby>的<rt>てき</rt></ruby>に<ruby>調<rt>しら</rt></ruby>べる",
-    "<ruby>要点<rt>ようてん</rt></ruby>だけをつかんですぐうごく",
+    "いつもまよう",
     "<ruby>何<rt>なに</rt></ruby>もきめない",
-    "いつもまよう"
+    "<ruby>要点<rt>ようてん</rt></ruby>だけをつかんですぐうごく"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I know two twin brothers with the same face. One became a doctor and the other chose to work in aviation. They've both been single a long time and apparently eat together regularly. Even though the face is the same, the way their gestures move has something distinctive about it, and if you talk to them for a while you tell at once which is which. The elder, when he has to decide something, researches it thoroughly. The younger grasps the essentials and acts immediately. Even when the same rule is applied to them, each one's answer is different. I wish I had someone I could talk to like that."

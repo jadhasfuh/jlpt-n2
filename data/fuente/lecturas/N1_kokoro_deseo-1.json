@@ -7,12 +7,12 @@
   {
    "p": "<ruby>進<rt>すす</rt></ruby>みたい<ruby>方向<rt>ほうこう</rt></ruby>がはっきりしたのは、いつですか。",
    "opciones": [
-    "<ruby>両親<rt>りょうしん</rt></ruby>に<ruby>話<rt>はな</rt></ruby>したとき",
     "<ruby>図書室<rt>としょしつ</rt></ruby>で<ruby>一冊<rt>いっさつ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>に<ruby>出会<rt>であ</rt></ruby>った<ruby>日<rt>ひ</rt></ruby>",
     "<ruby>意欲<rt>いよく</rt></ruby>が<ruby>切<rt>き</rt></ruby>れたとき",
+    "<ruby>両親<rt>りょうしん</rt></ruby>に<ruby>話<rt>はな</rt></ruby>したとき",
     "<ruby>目論見<rt>もくろみ</rt></ruby>どおりにいったとき"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "あとから<ruby>動力<rt>どうりょく</rt></ruby>になったのは<ruby>何<rt>なん</rt></ruby>ですか。",

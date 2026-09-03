@@ -7,12 +7,12 @@
   {
    "p": "<ruby>現場<rt>げんば</rt></ruby>のユニフォームの<ruby>形<rt>かたち</rt></ruby>が<ruby>決<rt>き</rt></ruby>められているのは、なぜですか。",
    "opciones": [
-    "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>をそろえるため",
     "<ruby>袖<rt>そで</rt></ruby>が<ruby>機械<rt>きかい</rt></ruby>に<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれないため",
+    "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>をそろえるため",
     "<ruby>安<rt>やす</rt></ruby>く<ruby>作<rt>つく</rt></ruby>るため",
     "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>入<rt>い</rt></ruby>れるため"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>知<rt>し</rt></ruby>ったことは<ruby>何<rt>なん</rt></ruby>ですか。",

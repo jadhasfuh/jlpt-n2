@@ -8,21 +8,21 @@
    "p": "なぜぬれて<ruby>帰<rt>かえ</rt></ruby>ることになりましたか。",
    "opciones": [
     "<ruby>傘<rt>かさ</rt></ruby>をなくしたから",
-    "<ruby>雨<rt>あめ</rt></ruby>の<ruby>予報<rt>よほう</rt></ruby>を<ruby>見<rt>み</rt></ruby>ずに<ruby>出<rt>で</rt></ruby>かけたから",
     "<ruby>歩<rt>ある</rt></ruby>いて<ruby>帰<rt>かえ</rt></ruby>ったから",
+    "<ruby>雨<rt>あめ</rt></ruby>の<ruby>予報<rt>よほう</rt></ruby>を<ruby>見<rt>み</rt></ruby>ずに<ruby>出<rt>で</rt></ruby>かけたから",
     "<ruby>靴<rt>くつ</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>かったから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>貫禄<rt>かんろく</rt></ruby>のある<ruby>人<rt>ひと</rt></ruby>が<ruby>無理<rt>むり</rt></ruby>をしないのは、なぜだと<ruby>考<rt>かんが</rt></ruby>えていますか。",
    "opciones": [
-    "<ruby>体<rt>からだ</rt></ruby>が<ruby>弱<rt>よわ</rt></ruby>いから",
-    "これを<ruby>何度<rt>なんど</rt></ruby>も<ruby>経験<rt>けいけん</rt></ruby>したから",
+    "<ruby>年<rt>とし</rt></ruby>をとったから",
     "<ruby>予定<rt>よてい</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから",
-    "<ruby>年<rt>とし</rt></ruby>をとったから"
+    "<ruby>体<rt>からだ</rt></ruby>が<ruby>弱<rt>よわ</rt></ruby>いから",
+    "これを<ruby>何度<rt>なんど</rt></ruby>も<ruby>経験<rt>けいけん</rt></ruby>したから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I went out without checking the rain forecast and ended up coming home soaked. I could have bought an umbrella, but at that moment it struck me as a waste. When I got home even my shoes were sodden and I stood in the entrance staring into space. The next day my temperature went up and I had to make several calls to cancel things. The rhythm of the day turned completely upside down and even the papers in circulation came to a halt. The balance of daily life is overturned as easily as that. One day when you let your guard down changes the course of a whole week. While rebuilding my diary, I thought about how valuable it is to be able to keep to the same cycle. That the people with the most on their shoulders are the ones who push themselves least must surely be because they've been through this many times."

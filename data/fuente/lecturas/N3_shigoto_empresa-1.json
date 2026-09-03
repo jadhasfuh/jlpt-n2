@@ -7,12 +7,12 @@
   {
    "p": "あたらしい<ruby>制度<rt>せいど</rt></ruby>で、<ruby>何<rt>なに</rt></ruby>ができましたか。",
    "opciones": [
-    "<ruby>組合<rt>くみあい</rt></ruby>",
     "<ruby>声<rt>こえ</rt></ruby>をとどける<ruby>道<rt>みち</rt></ruby>",
+    "<ruby>政府<rt>せいふ</rt></ruby>の<ruby>方針<rt>ほうしん</rt></ruby>",
     "<ruby>団体<rt>だんたい</rt></ruby>",
-    "<ruby>政府<rt>せいふ</rt></ruby>の<ruby>方針<rt>ほうしん</rt></ruby>"
+    "<ruby>組合<rt>くみあい</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "はたらく<ruby>人<rt>ひと</rt></ruby><em class=\"g\">にとって</em>たいせつなのは<ruby>何<rt>なに</rt></ruby>ですか。",

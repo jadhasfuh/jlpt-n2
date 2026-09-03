@@ -7,12 +7,12 @@
   {
    "p": "コードをすてたのはなぜですか。",
    "opciones": [
-    "<ruby>古<rt>ふる</rt></ruby>いから",
     "<ruby>繋<rt>つな</rt></ruby>げてもいい<ruby>相手<rt>あいて</rt></ruby>がないから",
     "<ruby>隠<rt>かく</rt></ruby>れていたから",
+    "<ruby>古<rt>ふる</rt></ruby>いから",
     "<ruby>溜<rt>た</rt></ruby>まっていたから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "ねじについて、どうしましたか。",

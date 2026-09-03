@@ -16,20 +16,20 @@
   {
    "p": "どこまで<ruby>話<rt>はな</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>終点<rt>しゅうてん</rt></ruby>まで",
     "<ruby>中間<rt>ちゅうかん</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>まで",
+    "<ruby>終点<rt>しゅうてん</rt></ruby>まで",
     "<ruby>次<rt>つぎ</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>まで"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>今度<rt>こんど</rt></ruby>どこへ<ruby>行<rt>い</rt></ruby>きたいですか。",
    "opciones": [
-    "<ruby>海<rt>うみ</rt></ruby>や<ruby>山<rt>やま</rt></ruby>",
     "<ruby>駅<rt>えき</rt></ruby>",
-    "<ruby>店<rt>みせ</rt></ruby>"
+    "<ruby>店<rt>みせ</rt></ruby>",
+    "<ruby>海<rt>うみ</rt></ruby>や<ruby>山<rt>やま</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "A little while ago I ran into a friend at the station. In principle we were going to different things and, what's more, it turned out we had the same destination. We got on together straight away and, without getting off at the stop in between, went on talking until the end of the journey. We agreed properly to meet again soon. Next time I want us all to go together to places like the sea or the mountains."

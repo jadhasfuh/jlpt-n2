@@ -16,20 +16,20 @@
   {
    "p": "おやつは<ruby>何<rt>なに</rt></ruby>でしたか。",
    "opciones": [
+    "<ruby>刺身<rt>さしみ</rt></ruby>",
     "<ruby>干<rt>ほ</rt></ruby>した<ruby>果実<rt>かじつ</rt></ruby>",
-    "<ruby>餅<rt>もち</rt></ruby>",
-    "<ruby>刺身<rt>さしみ</rt></ruby>"
+    "<ruby>餅<rt>もち</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>夜<rt>よる</rt></ruby>は<ruby>何<rt>なに</rt></ruby>で<ruby>乾杯<rt>かんぱい</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>刺身<rt>さしみ</rt></ruby>",
+    "お<ruby>茶<rt>ちゃ</rt></ruby>",
     "おやつ",
-    "お<ruby>茶<rt>ちゃ</rt></ruby>"
+    "<ruby>刺身<rt>さしみ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I went to my grandmother's house to help with the rice planting. In the morning we grilled rice cakes and drank tea from cups. Of what's called «clothing, food and shelter», what's looked after most here is the food. For a snack they brought out dried fruit, large-grained and sweet. What's more, in the evening we toasted with sashimi. I got carried away and ate too much, and decided not to think about calories."

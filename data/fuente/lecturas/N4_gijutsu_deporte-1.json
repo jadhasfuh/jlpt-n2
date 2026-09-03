@@ -7,22 +7,22 @@
   {
    "p": "はじめの<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>はどうでしたか。",
    "opciones": [
+    "たのしかった",
     "すぐうまくなった",
     "ボールにあてられなかった",
-    "たのしかった",
     "やめた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "いちばんたいへんだったのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
     "<ruby>練習<rt>れんしゅう</rt></ruby>すること",
-    "たのしくなる<ruby>回<rt>まわ</rt></ruby>りかたにのるまで",
     "<ruby>運<rt>うん</rt></ruby>がわるいこと",
-    "<ruby>十<rt>じゅう</rt></ruby><ruby>年<rt>ねん</rt></ruby>ぶりのこと"
+    "<ruby>十<rt>じゅう</rt></ruby><ruby>年<rt>ねん</rt></ruby>ぶりのこと",
+    "たのしくなる<ruby>回<rt>まわ</rt></ruby>りかたにのるまで"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "This year I started learning tennis. I hadn't moved my body for ten years. In the first month I couldn't even hit the ball. It wasn't bad luck: I simply lacked practice. After three months in a row I began to connect little by little. When you start to improve, it becomes fun. And when it becomes fun, you start practising more. The hardest part was precisely getting into that cycle."

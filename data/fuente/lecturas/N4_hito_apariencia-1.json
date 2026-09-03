@@ -7,12 +7,12 @@
   {
    "p": "いつから<ruby>痩<rt>や</rt></ruby>せてきましたか。",
    "opciones": [
-    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>め",
     "<ruby>二<rt>に</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>め",
+    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>め",
     "すぐ",
     "まだ<ruby>痩<rt>や</rt></ruby>せていない"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "いちばんかわったのは<ruby>何<rt>なに</rt></ruby>ですか。",

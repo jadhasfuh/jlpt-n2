@@ -16,20 +16,20 @@
   {
    "p": "<ruby>学校<rt>がっこう</rt></ruby>で どうして しかられましたか。",
    "opciones": [
-    "しゅくだいを わすれたから",
     "おくれたから",
+    "しゅくだいを わすれたから",
     "はなしたから"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "てんちょうは つぎの <ruby>日<rt>ひ</rt></ruby> なんと 言いましたか。",
    "opciones": [
-    "「だれでも わるよ」",
     "「もう <ruby>来<rt>こ</rt></ruby>ないで」",
-    "「はらって ください」"
+    "「はらって ください」",
+    "「だれでも わるよ」"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "One day I broke a plate at work. The manager didn't get angry, but I felt awful. On top of that I forgot my homework and got told off at school. I went home and sat there on my own. It was a miserable day, but I didn't cry. The next day the manager told me: «everyone breaks one»."

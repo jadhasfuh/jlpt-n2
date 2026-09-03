@@ -25,11 +25,11 @@
   {
    "p": "<ruby>終<rt>お</rt></ruby>わったあと、<ruby>何<rt>なに</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえましたか。",
    "opciones": [
-    "はくしゅ",
+    "<ruby>声<rt>こえ</rt></ruby>",
     "<ruby>雨<rt>あめ</rt></ruby>の<ruby>音<rt>おと</rt></ruby>",
-    "<ruby>声<rt>こえ</rt></ruby>"
+    "はくしゅ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Tomorrow I have the presentation. I was going to wear striking shoes, but I dropped the idea. Sweat comes out on my forehead and I even feel sick. While I brushed the surface of the paper with my index finger, I joined my hands on my knees. When it ended, I heard the applause and even my skin went hot. And since I didn't want to catch cold, I put my jacket on straight afterwards."

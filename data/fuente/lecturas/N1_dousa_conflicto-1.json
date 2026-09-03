@@ -7,12 +7,12 @@
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>負<rt>ま</rt></ruby>けについて<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
-    "<ruby>記録<rt>きろく</rt></ruby>に<ruby>残<rt>のこ</rt></ruby>してはいけない",
     "<ruby>記録<rt>きろく</rt></ruby>に<ruby>残<rt>のこ</rt></ruby>してもよいが、<ruby>同<rt>おな</rt></ruby>じ<ruby>負<rt>ま</rt></ruby>け<ruby>方<rt>かた</rt></ruby>をくり<ruby>返<rt>かえ</rt></ruby>すな",
     "<ruby>気<rt>き</rt></ruby>にしなくてよい",
+    "<ruby>記録<rt>きろく</rt></ruby>に<ruby>残<rt>のこ</rt></ruby>してはいけない",
     "<ruby>数<rt>かぞ</rt></ruby>えるべきだ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって「<ruby>勝<rt>まさ</rt></ruby>る」とは<ruby>何<rt>なん</rt></ruby>ですか。",

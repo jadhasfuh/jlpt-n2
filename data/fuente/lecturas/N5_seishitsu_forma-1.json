@@ -16,20 +16,20 @@
   {
    "p": "みちの りょうがわに なにが ありますか。",
    "opciones": [
+    "<ruby>木<rt>き</rt></ruby>",
     "ちいさい みせ",
-    "<ruby>高<rt>たか</rt></ruby>い ビル",
-    "<ruby>木<rt>き</rt></ruby>"
+    "<ruby>高<rt>たか</rt></ruby>い ビル"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "うみの ほうを <ruby>見<rt>み</rt></ruby>ると どうですか。",
    "opciones": [
-    "そらが <ruby>広<rt>ひろ</rt></ruby>いです",
+    "くらいです",
     "なにも <ruby>見<rt>み</rt></ruby>えません",
-    "くらいです"
+    "そらが <ruby>広<rt>ひろ</rt></ruby>いです"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The streets of Kobe run long, up towards the mountain. From the school to my flat there's one straight street. It's narrow, but small shops line both sides. Walking along it, a kilometre feels short. If you look towards the sea, the sky is wide. There aren't many tall buildings."

@@ -16,20 +16,20 @@
   {
    "p": "<ruby>裏<rt>うら</rt></ruby>に<ruby>何<rt>なに</rt></ruby>と<ruby>書<rt>か</rt></ruby>いてありましたか。",
    "opciones": [
-    "<ruby>元気<rt>げんき</rt></ruby>でやりたまえ",
     "さようなら",
+    "<ruby>元気<rt>げんき</rt></ruby>でやりたまえ",
     "ありがとう"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>写真<rt>しゃしん</rt></ruby>はどう<ruby>入<rt>い</rt></ruby>れてありましたか。",
    "opciones": [
-    "<ruby>透明<rt>とうめい</rt></ruby>な<ruby>袋<rt>ふくろ</rt></ruby>に<ruby>別々<rt>べつべつ</rt></ruby>に",
+    "そのまま",
     "<ruby>箱<rt>はこ</rt></ruby>に",
-    "そのまま"
+    "<ruby>透明<rt>とうめい</rt></ruby>な<ruby>袋<rt>ふくろ</rt></ruby>に<ruby>別々<rt>べつべつ</rt></ruby>に"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "When I opened the old album my grandfather appeared, looking youthful. A cheerful face, standing slightly at an angle. On the back, in a child's handwriting, it said «all the best». That they were kept separately in transparent bags must be because he looked after them. More than abstract words, a single photo brings the longing."

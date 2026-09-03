@@ -16,20 +16,20 @@
   {
    "p": "さいしょの <ruby>人<rt>ひと</rt></ruby>は どうでしたか。",
    "opciones": [
+    "<ruby>来<rt>き</rt></ruby>ませんでした",
     "ゆっくり <ruby>聞<rt>き</rt></ruby>いて くれました",
-    "はやく はなしました",
-    "<ruby>来<rt>き</rt></ruby>ませんでした"
+    "はやく はなしました"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "かえりみち、カルロスさんは どう かんじましたか。",
    "opciones": [
-    "きもちが <ruby>重<rt>おも</rt></ruby>く なりました",
+    "なにも かんじませんでした",
     "とても うれしかったです",
-    "なにも かんじませんでした"
+    "きもちが <ruby>重<rt>おも</rt></ruby>く なりました"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Gonza showed me an app on his phone: «why don't you try it?». It's an app for talking to Japanese people. I wasn't keen, but it is practice for the language. The first person listened to my Japanese patiently. Her questions were light and it was easy to talk. But on the way home something felt heavy."

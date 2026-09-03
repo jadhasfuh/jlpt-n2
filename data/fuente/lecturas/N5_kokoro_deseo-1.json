@@ -16,20 +16,20 @@
   {
    "p": "ジャンさんは なんと 言いましたか。",
    "opciones": [
-    "「かおで わかるよ」",
     "「言わない ほうが いい」",
+    "「かおで わかるよ」",
     "「まだ はやい」"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "その よる、なにを しましたか。",
    "opciones": [
-    "じしょを <ruby>開<rt>あ</rt></ruby>きました",
     "でんわを しました",
-    "ねました"
+    "ねました",
+    "じしょを <ruby>開<rt>あ</rt></ruby>きました"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I felt like telling Anna what I really feel. But with my Japanese that's hard. Just saying «I like you» sounds like a child talking. I asked Jean and he said: «even if you speak badly, it shows on your face». Gonza only said: «just tell her». That night I opened the dictionary."

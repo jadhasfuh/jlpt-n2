@@ -7,12 +7,12 @@
   {
    "p": "<ruby>最初<rt>さいしょ</rt></ruby>の<ruby>練習<rt>れんしゅう</rt></ruby>に<ruby>何人<rt>なんにん</rt></ruby><ruby>来<rt>き</rt></ruby>ましたか。",
    "opciones": [
-    "<ruby>十人<rt>じゅうにん</rt></ruby>",
     "<ruby>七人<rt>ななにん</rt></ruby>",
+    "<ruby>十人<rt>じゅうにん</rt></ruby>",
     "<ruby>一人<rt>ひとり</rt></ruby>",
     "<ruby>全員<rt>ぜんいん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>指揮<rt>しき</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>は、なぜ<ruby>何<rt>なに</rt></ruby>も<ruby>直<rt>なお</rt></ruby>さなかったのですか。",

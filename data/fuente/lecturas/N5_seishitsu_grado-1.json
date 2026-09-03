@@ -16,20 +16,20 @@
   {
    "p": "アンナさんは なにを さそいましたか。",
    "opciones": [
-    "<ruby>花<rt>はな</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>く こと",
     "うみへ <ruby>行<rt>い</rt></ruby>く こと",
+    "<ruby>花<rt>はな</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>く こと",
     "りょうりを する こと"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんの <ruby>国<rt>くに</rt></ruby>の てんきは どうですか。",
    "opciones": [
-    "<ruby>一年<rt>いちねん</rt></ruby>じゅう おなじような てんき",
     "とても さむいです",
-    "きせつが <ruby>四<rt>よっ</rt></ruby>つ あります"
+    "きせつが <ruby>四<rt>よっ</rt></ruby>つ あります",
+    "<ruby>一年<rt>いちねん</rt></ruby>じゅう おなじような てんき"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "At the end of February the wind turned a little warmer. I like spring far more than winter. Anna said: «when it gets warmer, let's go and see the blossom». They say the Japanese spring is very short. In my country the weather is much the same all year round. I didn't know the changing of the seasons could be such a pleasure."

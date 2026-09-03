@@ -7,22 +7,22 @@
   {
    "p": "<ruby>空港<rt>くうこう</rt></ruby>まで、どのくらいかかりましたか。",
    "opciones": [
-    "<ruby>三十分<rt>さんじゅっぷん</rt></ruby>",
-    "<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby><ruby>半<rt>はん</rt></ruby>",
     "<ruby>二<rt>に</rt></ruby><ruby>時間<rt>じかん</rt></ruby>",
-    "<ruby>半日<rt>はんにち</rt></ruby>"
+    "<ruby>半日<rt>はんにち</rt></ruby>",
+    "<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby><ruby>半<rt>はん</rt></ruby>",
+    "<ruby>三十分<rt>さんじゅっぷん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>についてききましたか。",
    "opciones": [
-    "<ruby>仕事<rt>しごと</rt></ruby>",
-    "<ruby>家族<rt>かぞく</rt></ruby>",
+    "にもつ",
     "<ruby>海<rt>うみ</rt></ruby>",
-    "にもつ"
+    "<ruby>仕事<rt>しごと</rt></ruby>",
+    "<ruby>家族<rt>かぞく</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Since my father was coming back from abroad, I went to meet him at the airport. Changing trains, it took me an hour and a half. Going through one stretch of the journey, the sea was reflected in the window. My father had enormous luggage and had no hands free. He said «I won't talk about work» and only asked about the family. As a child I did nothing but run away from him, and now instead I go to meet him."

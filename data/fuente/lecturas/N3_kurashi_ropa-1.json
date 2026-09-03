@@ -7,12 +7,12 @@
   {
    "p": "<ruby>袖<rt>そで</rt></ruby>が<ruby>破<rt>やぶ</rt></ruby>れていた<ruby>服<rt>ふく</rt></ruby>をどうしましたか。",
    "opciones": [
-    "すてた",
     "<ruby>布<rt>ぬの</rt></ruby>を<ruby>当<rt>あ</rt></ruby>てて<ruby>直<rt>なお</rt></ruby>した",
-    "そのまま<ruby>着<rt>き</rt></ruby>た",
-    "あげた"
+    "あげた",
+    "すてた",
+    "そのまま<ruby>着<rt>き</rt></ruby>た"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えはどれですか。",

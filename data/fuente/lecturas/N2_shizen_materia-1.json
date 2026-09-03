@@ -16,20 +16,20 @@
   {
    "p": "<ruby>温度<rt>おんど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>すぎるとどうなりますか。",
    "opciones": [
-    "<ruby>焦<rt>こ</rt></ruby>げる",
     "<ruby>固<rt>かた</rt></ruby>くなる",
+    "<ruby>焦<rt>こ</rt></ruby>げる",
     "<ruby>割<rt>わ</rt></ruby>れる"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "いちばん<ruby>早<rt>はや</rt></ruby>い<ruby>方法<rt>ほうほう</rt></ruby>は？",
    "opciones": [
-    "<ruby>標本<rt>ひょうほん</rt></ruby>を<ruby>見<rt>み</rt></ruby>る",
+    "<ruby>聞<rt>き</rt></ruby>く",
     "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む",
-    "<ruby>聞<rt>き</rt></ruby>く"
+    "<ruby>標本<rt>ひょうほん</rt></ruby>を<ruby>見<rt>み</rt></ruby>る"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "We visited a brick factory and had to write a report. The raw material's components are mixed, compressed and then fired in the kiln. If the temperature is too high they burn, so beginners are always supervised. Whether it's wood or minerals, without knowing the material's properties you can't manufacture. Whether it's liquid or solid, the quickest thing is to look at a sample."

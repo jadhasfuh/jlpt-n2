@@ -8,21 +8,21 @@
    "p": "<ruby>子<rt>こ</rt></ruby>どものころ、<ruby>何<rt>なに</rt></ruby>が<ruby>退屈<rt>たいくつ</rt></ruby>でしたか。",
    "opciones": [
     "<ruby>勝負<rt>しょうぶ</rt></ruby>そのもの",
+    "<ruby>会場<rt>かいじょう</rt></ruby>までの<ruby>道<rt>みち</rt></ruby>",
     "<ruby>土俵<rt>どひょう</rt></ruby>に<ruby>立<rt>た</rt></ruby>つまでの<ruby>長<rt>なが</rt></ruby>い<ruby>間<rt>ま</rt></ruby>",
-    "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>",
-    "<ruby>会場<rt>かいじょう</rt></ruby>までの<ruby>道<rt>みち</rt></ruby>"
+    "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>勝<rt>か</rt></ruby>った<ruby>時<rt>とき</rt></ruby>に<ruby>喜<rt>よろこ</rt></ruby>ばないのは、なぜですか。",
    "opciones": [
     "<ruby>疲<rt>つか</rt></ruby>れているから",
-    "<ruby>次<rt>つぎ</rt></ruby>に<ruby>上<rt>あ</rt></ruby>がる<ruby>人<rt>ひと</rt></ruby>の<ruby>気持<rt>きも</rt></ruby>ちを<ruby>乱<rt>みだ</rt></ruby>すから",
     "<ruby>規則<rt>きそく</rt></ruby>がないから",
-    "<ruby>客<rt>きゃく</rt></ruby>が<ruby>見<rt>み</rt></ruby>ていないから"
+    "<ruby>客<rt>きゃく</rt></ruby>が<ruby>見<rt>み</rt></ruby>ていないから",
+    "<ruby>次<rt>つぎ</rt></ruby>に<ruby>上<rt>あ</rt></ruby>がる<ruby>人<rt>ひと</rt></ruby>の<ruby>気持<rt>きも</rt></ruby>ちを<ruby>乱<rt>みだ</rt></ruby>すから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "The first time I went to watch sumo my grandfather took me. The long stretch before they stand up in the ring seemed terribly boring to me as a child. Now I see that that stretch is precisely the bout. A grand champion is expected not to change his expression even when he loses. Not rejoicing when he wins answers to the same reason. If you let the emotion out in front of your opponent, you unsettle the mood of whoever steps into the ring next: that's what it means. Even if they train until they bleed, a bout is over in a few seconds. The spectators who come only to see who wins probably don't see even half of it. Why my grandfather didn't explain a single word to me I understood thirty years later."

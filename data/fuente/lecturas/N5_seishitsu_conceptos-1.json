@@ -16,20 +16,20 @@
   {
    "p": "ページの すみに なにが ありましたか。",
    "opciones": [
+    "なにも ありません",
     "えんぴつの メモ",
-    "しゃしん",
-    "なにも ありません"
+    "しゃしん"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "その <ruby>本<rt>ほん</rt></ruby>は いつの ものですか。",
    "opciones": [
-    "<ruby>三十年<rt>さんじゅうねん</rt></ruby>まえ",
     "きょねん",
-    "<ruby>十年<rt>じゅうねん</rt></ruby>まえ"
+    "<ruby>十年<rt>じゅうねん</rt></ruby>まえ",
+    "<ruby>三十年<rt>さんじゅうねん</rt></ruby>まえ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Anna's father showed me an old book. It's the book he learned Spanish from when he was young. In the margins there were lots of pencil notes. «This is from thirty years ago», he said, laughing. My dictionary has similar notes in it. It seems that people learning a language do the same thing in any country."

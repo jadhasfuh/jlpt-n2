@@ -8,21 +8,21 @@
    "p": "<ruby>図書館<rt>としょかん</rt></ruby>はどうやって<ruby>守<rt>まも</rt></ruby>られてきましたか。",
    "opciones": [
     "<ruby>寄付<rt>きふ</rt></ruby>で",
-    "<ruby>土木<rt>どぼく</rt></ruby>の<ruby>予算<rt>よさん</rt></ruby>を<ruby>削<rt>けず</rt></ruby>ってでも",
     "<ruby>国<rt>くに</rt></ruby>の<ruby>助<rt>たす</rt></ruby>けで",
+    "<ruby>土木<rt>どぼく</rt></ruby>の<ruby>予算<rt>よさん</rt></ruby>を<ruby>削<rt>けず</rt></ruby>ってでも",
     "<ruby>閉<rt>と</rt></ruby>じずに<ruby>放<rt>ほう</rt></ruby>っておいて"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>世論<rt>せろん</rt></ruby>について、この<ruby>人<rt>ひと</rt></ruby>はどう<ruby>考<rt>かんが</rt></ruby>えていますか。",
    "opciones": [
+    "<ruby>説明会<rt>せつめいかい</rt></ruby>で<ruby>分<rt>わ</rt></ruby>かる",
     "<ruby>多数<rt>たすう</rt></ruby>が<ruby>正<rt>ただ</rt></ruby>しい",
-    "<ruby>声<rt>こえ</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きい<ruby>人<rt>ひと</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>が<ruby>全体<rt>ぜんたい</rt></ruby>とは<ruby>限<rt>かぎ</rt></ruby>らない",
     "<ruby>意味<rt>いみ</rt></ruby>がない",
-    "<ruby>説明会<rt>せつめいかい</rt></ruby>で<ruby>分<rt>わ</rt></ruby>かる"
+    "<ruby>声<rt>こえ</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きい<ruby>人<rt>ひと</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>が<ruby>全体<rt>ぜんたい</rt></ruby>とは<ruby>限<rt>かぎ</rt></ruby>らない"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "The town was divided over whether to keep the library as a public institution. It's a building that has stood for fifty years, and that has been kept up by cutting even the maintenance budget. So many people came to the open information session that you could call it a crowd. Although we talk about public opinion, the voice of whoever shouts loudest isn't necessarily that of the whole. There must have been many people who, for fear of what others would say, said nothing. Whatever the conclusion turned out to be, everyone's situation needed putting on the table once. When you put it all into the word «the public», you stop seeing the faces of the children who go there. Its role as a place of community and safety was discussed too. In a place with its own circumstances there's no legendary correct answer. To open or to close: in the end, it's something people decide."

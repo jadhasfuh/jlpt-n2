@@ -16,20 +16,20 @@
   {
    "p": "<ruby>職人<rt>しょくにん</rt></ruby>はどうなっていますか。",
    "opciones": [
+    "<ruby>変<rt>か</rt></ruby>わらない",
     "<ruby>減<rt>へ</rt></ruby>っている",
-    "<ruby>増<rt>ふ</rt></ruby>えている",
-    "<ruby>変<rt>か</rt></ruby>わらない"
+    "<ruby>増<rt>ふ</rt></ruby>えている"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>能率<rt>のうりつ</rt></ruby>より<ruby>何<rt>なに</rt></ruby>を<ruby>選<rt>えら</rt></ruby>んでいますか。",
    "opciones": [
-    "<ruby>手<rt>て</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>",
     "<ruby>売買<rt>ばいばい</rt></ruby>",
-    "<ruby>催促<rt>さいそく</rt></ruby>"
+    "<ruby>催促<rt>さいそく</rt></ruby>",
+    "<ruby>手<rt>て</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The town's craft shop has been making the same thing for fifty years. Sales change from year to year, and the trade's distribution changes too. They say there are fewer craftsmen left and that the physical wear is great. Even so they choose handwork over efficiency. Even when complaints about orders come in, not rushing is this shop's way of doing things."

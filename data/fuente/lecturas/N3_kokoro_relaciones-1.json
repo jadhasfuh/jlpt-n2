@@ -8,21 +8,21 @@
    "p": "<ruby>相手<rt>あいて</rt></ruby>はどんな<ruby>人<rt>ひと</rt></ruby>ですか。",
    "opciones": [
     "はじめて<ruby>会<rt>あ</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>家族<rt>かぞく</rt></ruby>",
     "<ruby>以前<rt>いぜん</rt></ruby><ruby>議論<rt>ぎろん</rt></ruby>で<ruby>対立<rt>たいりつ</rt></ruby>した<ruby>人<rt>ひと</rt></ruby>",
-    "<ruby>友<rt>とも</rt></ruby>だち",
-    "<ruby>家族<rt>かぞく</rt></ruby>"
+    "<ruby>友<rt>とも</rt></ruby>だち"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>賛成<rt>さんせい</rt></ruby>してくれる<ruby>人<rt>ひと</rt></ruby>だけを<ruby>招<rt>まね</rt></ruby>くと、どうなりますか。",
    "opciones": [
     "はやくきまる",
-    "<ruby>考<rt>かんが</rt></ruby>えがふかくならない",
+    "<ruby>争<rt>あらそ</rt></ruby>いがない",
     "らくになる",
-    "<ruby>争<rt>あらそ</rt></ruby>いがない"
+    "<ruby>考<rt>かんが</rt></ruby>えがふかくならない"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I was asked to collaborate on a piece of work. It's someone I once clashed with in a debate. If after that argument we were able to go on working on related things it was, I suppose, because there was mutual trust. I think it's precisely the person who has argued with you who's worth really trusting. If you only invite those who agree with you, ideas don't get deeper. Whoever supports you and whoever openly opposes you. I should have realised sooner that you need both."

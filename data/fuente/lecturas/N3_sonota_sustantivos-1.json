@@ -7,12 +7,12 @@
   {
    "p": "<ruby>週末<rt>しゅうまつ</rt></ruby>の<ruby>天気<rt>てんき</rt></ruby>はどうなりますか。",
    "opciones": [
-    "<ruby>雨<rt>あめ</rt></ruby>がふる",
     "<ruby>晴<rt>は</rt></ruby>れる",
     "<ruby>雪<rt>ゆき</rt></ruby>がふる",
-    "わからない"
+    "わからない",
+    "<ruby>雨<rt>あめ</rt></ruby>がふる"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>去年<rt>きょねん</rt></ruby>のキャンプで、どんなことがありましたか。",

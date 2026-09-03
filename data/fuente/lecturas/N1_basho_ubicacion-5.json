@@ -7,12 +7,12 @@
   {
    "p": "<ruby>棚<rt>たな</rt></ruby>の<ruby>切<rt>き</rt></ruby>れ<ruby>目<rt>め</rt></ruby>のうしろに<ruby>何<rt>なに</rt></ruby>がありましたか。",
    "opciones": [
-    "<ruby>古<rt>ふる</rt></ruby>い<ruby>道具<rt>どうぐ</rt></ruby>",
     "<ruby>十年分<rt>じゅうねんぶん</rt></ruby>の<ruby>封筒<rt>ふうとう</rt></ruby>",
     "<ruby>写真<rt>しゃしん</rt></ruby>",
+    "<ruby>古<rt>ふる</rt></ruby>い<ruby>道具<rt>どうぐ</rt></ruby>",
     "<ruby>何<rt>なに</rt></ruby>もなかった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "それが<ruby>見<rt>み</rt></ruby>つからなかった<ruby>理由<rt>りゆう</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。",

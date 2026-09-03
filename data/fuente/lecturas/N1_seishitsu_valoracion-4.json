@@ -7,12 +7,12 @@
   {
    "p": "<ruby>同僚<rt>どうりょう</rt></ruby>は<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をしますか。",
    "opciones": [
-    "<ruby>資料<rt>しりょう</rt></ruby>を<ruby>配<rt>くば</rt></ruby>る",
     "<ruby>根回<rt>ねまわ</rt></ruby>しをして<ruby>反対<rt>はんたい</rt></ruby>が<ruby>出<rt>で</rt></ruby>そうな<ruby>点<rt>てん</rt></ruby>を<ruby>先<rt>さき</rt></ruby>につぶす",
+    "<ruby>何<rt>なに</rt></ruby>もしない",
     "<ruby>机<rt>つくえ</rt></ruby>を<ruby>片付<rt>かたづ</rt></ruby>ける",
-    "<ruby>何<rt>なに</rt></ruby>もしない"
+    "<ruby>資料<rt>しりょう</rt></ruby>を<ruby>配<rt>くば</rt></ruby>る"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>善<rt>よ</rt></ruby>し<ruby>悪<rt>あ</rt></ruby>しを<ruby>分<rt>わ</rt></ruby>けるのは<ruby>何<rt>なん</rt></ruby>だと<ruby>考<rt>かんが</rt></ruby>えていますか。",

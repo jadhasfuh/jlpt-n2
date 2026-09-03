@@ -7,22 +7,22 @@
   {
    "p": "つらい<ruby>時<rt>とき</rt></ruby>をこえてきた<ruby>人<rt>ひと</rt></ruby>は、どうですか。",
    "opciones": [
-    "いつも<ruby>悲<rt>かな</rt></ruby>しい",
-    "<ruby>小<rt>ちい</rt></ruby>さなことに<ruby>満足<rt>まんぞく</rt></ruby>できる",
     "<ruby>幸運<rt>こううん</rt></ruby>だ",
-    "<ruby>微笑<rt>ほほえ</rt></ruby>まない"
+    "<ruby>微笑<rt>ほほえ</rt></ruby>まない",
+    "<ruby>小<rt>ちい</rt></ruby>さなことに<ruby>満足<rt>まんぞく</rt></ruby>できる",
+    "いつも<ruby>悲<rt>かな</rt></ruby>しい"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "その<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
+    "<ruby>尊敬<rt>そんけい</rt></ruby>しなさい",
     "あきらめなさい",
-    "まず<ruby>一<rt>いち</rt></ruby><ruby>度<rt>ど</rt></ruby>やっ<em class=\"g\">てごらん</em>",
     "<ruby>幸福<rt>こうふく</rt></ruby>になりなさい",
-    "<ruby>尊敬<rt>そんけい</rt></ruby>しなさい"
+    "まず<ruby>一<rt>いち</rt></ruby><ruby>度<rt>ど</rt></ruby>やっ<em class=\"g\">てごらん</em>"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Among older people there are some who are always smiling. Why do they look so happy? Is it because they've been lucky? Not necessarily. It seems that the more someone has been through hard times, the more able they are to be content with small things. Respecting others and valuing what they think. That attitude must come back in the form of respect. «Go on, give it a try», that person said to me. Could happiness be something that comes afterwards?"

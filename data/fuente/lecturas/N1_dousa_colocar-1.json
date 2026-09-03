@@ -8,21 +8,21 @@
    "p": "<ruby>棚<rt>たな</rt></ruby>をつけるとき、うまくいかなかった<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
     "<ruby>壁<rt>かべ</rt></ruby>が<ruby>厚<rt>あつ</rt></ruby>かったから",
+    "<ruby>板<rt>いた</rt></ruby>が<ruby>短<rt>みじか</rt></ruby>かったから",
     "<ruby>道具<rt>どうぐ</rt></ruby>をそろえずにはじめたから",
-    "<ruby>手伝<rt>てつだ</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>がいなかったから",
-    "<ruby>板<rt>いた</rt></ruby>が<ruby>短<rt>みじか</rt></ruby>かったから"
+    "<ruby>手伝<rt>てつだ</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>がいなかったから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>下<rt>した</rt></ruby>の<ruby>階<rt>かい</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "<ruby>棚<rt>たな</rt></ruby>はやめたほうがいい",
-    "<ruby>水平<rt>すいへい</rt></ruby>を<ruby>保<rt>たも</rt></ruby>たないと<ruby>皿<rt>さら</rt></ruby>が<ruby>落<rt>お</rt></ruby>ちる",
     "<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>貸<rt>か</rt></ruby>す",
-    "<ruby>壁<rt>かべ</rt></ruby>を<ruby>直<rt>なお</rt></ruby>すべきだ"
+    "<ruby>壁<rt>かべ</rt></ruby>を<ruby>直<rt>なお</rt></ruby>すべきだ",
+    "<ruby>水平<rt>すいへい</rt></ruby>を<ruby>保<rt>たも</rt></ruby>たないと<ruby>皿<rt>さら</rt></ruby>が<ruby>落<rt>お</rt></ruby>ちる"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Since I rented an old house, I decided to put up a shelf in the kitchen. The wall was thin and the screws wouldn't go in properly. Because I'd started without gathering the tools first, I ended up having to measure everything again. The neighbour from downstairs came to lend a hand with the air of someone who knew exactly what he was doing and told me with a laugh: «if you don't keep it level the plates fall off; otherwise you'll be crying about it later». We drove in several nails one after another and fixed the board. While we worked, birds were crowding on the other side of the window. On the finished shelf I arranged, all mixed together, the plates I'd brought. What you do with care becomes part of daily life sooner. I put away the moving boxes as if burying them, and that night I felt for the first time that this was my home."

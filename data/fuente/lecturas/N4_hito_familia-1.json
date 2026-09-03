@@ -25,11 +25,11 @@
   {
    "p": "だれが<ruby>来<rt>き</rt></ruby>ましたか。",
    "opciones": [
+    "<ruby>大家<rt>おおや</rt></ruby>",
     "<ruby>父<rt>ちち</rt></ruby>の<ruby>兄<rt>あに</rt></ruby>",
-    "<ruby>母<rt>はは</rt></ruby>のいとこ",
-    "<ruby>大家<rt>おおや</rt></ruby>"
+    "<ruby>母<rt>はは</rt></ruby>のいとこ"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "Last week I went to my grandparents' house. My grandfather told me stories from the past. Incidentally, my grandmother likes photos, and she showed me ones of the whole family. A cousin of my mother's came too and we all ate together. I thought that if we can gather like this it's perhaps thanks to the family living close by."

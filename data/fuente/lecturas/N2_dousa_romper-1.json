@@ -25,11 +25,11 @@
   {
    "p": "<ruby>祭<rt>まつ</rt></ruby>りはどうなったと<ruby>考<rt>かんが</rt></ruby>えていますか。",
    "opciones": [
+    "<ruby>遅<rt>おく</rt></ruby>れている",
     "<ruby>始<rt>はじ</rt></ruby>まった",
-    "<ruby>取<rt>と</rt></ruby>り<ruby>消<rt>け</rt></ruby>しになった",
-    "<ruby>遅<rt>おく</rt></ruby>れている"
+    "<ruby>取<rt>と</rt></ruby>り<ruby>消<rt>け</rt></ruby>しになった"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "At the summer festival I was put in charge of chipping the ice. The big block was hard and however much I struck it, it wouldn't break. When the sun hit it, it started melting on the surface. On paper I was supposed to start at two, but judging by the fact that nobody was gathering, perhaps they've cancelled it because of the rain."

@@ -7,12 +7,12 @@
   {
    "p": "<ruby>梅雨<rt>つゆ</rt></ruby>はいつ<ruby>始<rt>はじ</rt></ruby>まりますか。",
    "opciones": [
-    "<ruby>五月<rt>ごがつ</rt></ruby>",
     "<ruby>六月<rt>ろくがつ</rt></ruby>",
+    "<ruby>正午<rt>しょうご</rt></ruby>",
     "<ruby>七月<rt>しちがつ</rt></ruby>",
-    "<ruby>正午<rt>しょうご</rt></ruby>"
+    "<ruby>五月<rt>ごがつ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>雨<rt>あめ</rt></ruby>がなければ、どうなりますか。",

@@ -16,20 +16,20 @@
   {
    "p": "きょう、アンナさんは なにを しましたか。",
    "opciones": [
+    "コーヒーを <ruby>作<rt>つく</rt></ruby>りました",
     "はつおんを なおしました",
-    "スペイン<ruby>語<rt>ご</rt></ruby>を ならいました",
-    "コーヒーを <ruby>作<rt>つく</rt></ruby>りました"
+    "スペイン<ruby>語<rt>ご</rt></ruby>を ならいました"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんは なんと こたえましたか。",
    "opciones": [
-    "「ぜんぶ」",
     "「かんじ」",
-    "「なにも」"
+    "「なにも」",
+    "「ぜんぶ」"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Anna is a bright person. Her laugh and her voice are both big. But she's very kind to anyone who makes a mistake. Today she corrected my pronunciation three times. «Which words do you find hard?» she asked, and I answered: «all of them». Anna laughed and said: «I find the whole of Spanish hard too». The coffee was too sweet and I left some."

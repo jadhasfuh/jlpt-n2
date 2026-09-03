@@ -7,12 +7,12 @@
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>信仰<rt>しんこう</rt></ruby>についてどう<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "とてもたいせつだ",
     "<ruby>習慣<rt>しゅうかん</rt></ruby>のようなものだ",
-    "<ruby>必要<rt>ひつよう</rt></ruby>ない",
-    "むずかしい"
+    "むずかしい",
+    "とてもたいせつだ",
+    "<ruby>必要<rt>ひつよう</rt></ruby>ない"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>悪<rt>わる</rt></ruby>いことが<ruby>起<rt>お</rt></ruby>きたとき、<ruby>祖母<rt>そぼ</rt></ruby>はどうしますか。",

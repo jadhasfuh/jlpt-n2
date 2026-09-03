@@ -16,20 +16,20 @@
   {
    "p": "あさ、なにを <ruby>聞<rt>き</rt></ruby>きますか。",
    "opciones": [
+    "おんがく",
     "ラジオの ニュース",
-    "テレビ",
-    "おんがく"
+    "テレビ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんの へやは なんがいですか。",
    "opciones": [
-    "さんかい",
+    "ごかい",
     "<ruby>一<rt>いっ</rt></ruby>かい",
-    "ごかい"
+    "さんかい"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "My fridge is very small. Inside there's milk, eggs and the vegetables Mrs Tanaka gives me. I don't have a television, but I do have a radio. In the morning I eat bread while listening to the news. They speak fast, but the same words keep coming up. There's no lift in the building. My flat is on the third floor."

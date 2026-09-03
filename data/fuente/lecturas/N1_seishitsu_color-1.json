@@ -7,22 +7,22 @@
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>赤<rt>あか</rt></ruby>についてどう<ruby>言<rt>い</rt></ruby>っていましたか。",
    "opciones": [
+    "<ruby>子<rt>こ</rt></ruby>どもの<ruby>色<rt>いろ</rt></ruby>だ",
     "<ruby>出<rt>だ</rt></ruby>すのが<ruby>難<rt>むずか</rt></ruby>しい<ruby>色<rt>いろ</rt></ruby>だ",
     "<ruby>隠<rt>かく</rt></ruby>せない<ruby>色<rt>いろ</rt></ruby>で、だから<ruby>強<rt>つよ</rt></ruby>い",
-    "<ruby>使<rt>つか</rt></ruby>わないほうがいい",
-    "<ruby>子<rt>こ</rt></ruby>どもの<ruby>色<rt>いろ</rt></ruby>だ"
+    "<ruby>使<rt>つか</rt></ruby>わないほうがいい"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "いま、この<ruby>人<rt>ひと</rt></ruby>は<ruby>赤<rt>あか</rt></ruby>らむ<ruby>顔<rt>かお</rt></ruby>をどう<ruby>考<rt>かんが</rt></ruby>えていますか。",
    "opciones": [
     "<ruby>弱<rt>よわ</rt></ruby>さのしるし",
-    "<ruby>白状<rt>はくじょう</rt></ruby>しているだけで<ruby>弱<rt>よわ</rt></ruby>さではない",
     "<ruby>直<rt>なお</rt></ruby>すべきもの",
-    "<ruby>恥<rt>は</rt></ruby>ずかしいもの"
+    "<ruby>恥<rt>は</rt></ruby>ずかしいもの",
+    "<ruby>白状<rt>はくじょう</rt></ruby>しているだけで<ruby>弱<rt>よわ</rt></ruby>さではない"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "When I speak in front of people my face still goes red. As a child that embarrassed me unbearably. What I felt when a classmate pointed at me is the most humiliating thing I remember. In art class there was a period devoted to dyeing cloth and we learnt how to get the colour red. The teacher was the most skilled man in the whole school and used to say: «red is a colour that can't be hidden». And that this is precisely why it's strong. Thinking about it now, that was a kind of confession. A face that reddens is only confessing; it isn't weakness. Just as the timbre of the voice differs from one person to another, I can now think that nerves come out differently in each of us too."

@@ -7,22 +7,22 @@
   {
    "p": "<ruby>文<rt>ぶん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>くするとき、<ruby>何<rt>なに</rt></ruby>をしなければなりませんか。",
    "opciones": [
+    "<ruby>言葉<rt>ことば</rt></ruby>をふやす",
     "<ruby>長<rt>なが</rt></ruby>く<ruby>書<rt>か</rt></ruby>く",
     "<ruby>何<rt>なに</rt></ruby>をけずるかを<ruby>決<rt>き</rt></ruby>める",
-    "<ruby>言葉<rt>ことば</rt></ruby>をふやす",
     "<ruby>読<rt>よ</rt></ruby>み<ruby>返<rt>かえ</rt></ruby>さない"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "いらない<ruby>言葉<rt>ことば</rt></ruby>は、いつ<ruby>見<rt>み</rt></ruby>えてきますか。",
    "opciones": [
-    "<ruby>書<rt>か</rt></ruby>く<ruby>前<rt>まえ</rt></ruby>",
-    "<ruby>作業<rt>さぎょう</rt></ruby>の<em class=\"g\">途中で</em><ruby>読<rt>よ</rt></ruby>み<ruby>返<rt>かえ</rt></ruby>したとき",
     "<ruby>終<rt>お</rt></ruby>わってから",
-    "<ruby>見<rt>み</rt></ruby>えない"
+    "<ruby>書<rt>か</rt></ruby>く<ruby>前<rt>まえ</rt></ruby>",
+    "<ruby>見<rt>み</rt></ruby>えない",
+    "<ruby>作業<rt>さぎょう</rt></ruby>の<em class=\"g\">途中で</em><ruby>読<rt>よ</rt></ruby>み<ruby>返<rt>かえ</rt></ruby>したとき"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Shortening an explanatory text is harder than writing it long. If you simplify it as much as possible, you have to decide what you take out. It seems that the more skilled someone is, the more they tend to write too much. What's needed isn't brevity for its own sake, but a brevity that gets through. If possible, one idea per sentence. When you reread it halfway through the work, the surplus words become visible. Short isn't always best, but it usually is."

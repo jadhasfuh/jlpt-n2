@@ -7,12 +7,12 @@
   {
    "p": "<ruby>半年間<rt>はんとしかん</rt></ruby>、この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていましたか。",
    "opciones": [
-    "<ruby>原稿<rt>げんこう</rt></ruby>を<ruby>書<rt>か</rt></ruby>いていた",
     "<ruby>一連<rt>いちれん</rt></ruby>の<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>手探<rt>てさぐ</rt></ruby>りで<ruby>組<rt>く</rt></ruby>み<ruby>立<rt>た</rt></ruby>てていた",
+    "<ruby>友人<rt>ゆうじん</rt></ruby>を<ruby>待<rt>ま</rt></ruby>っていた",
     "<ruby>印刷<rt>いんさつ</rt></ruby><ruby>所<rt>じょ</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いていた",
-    "<ruby>友人<rt>ゆうじん</rt></ruby>を<ruby>待<rt>ま</rt></ruby>っていた"
+    "<ruby>原稿<rt>げんこう</rt></ruby>を<ruby>書<rt>か</rt></ruby>いていた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>知<rt>し</rt></ruby>ったことは<ruby>何<rt>なん</rt></ruby>ですか。",

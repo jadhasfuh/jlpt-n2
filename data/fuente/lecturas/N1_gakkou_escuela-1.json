@@ -8,21 +8,21 @@
    "p": "<ruby>医者<rt>いしゃ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "もっと<ruby>勉強<rt>べんきょう</rt></ruby>しなさい",
+    "<ruby>目<rt>め</rt></ruby>は<ruby>問題<rt>もんだい</rt></ruby>ない",
     "<ruby>休<rt>やす</rt></ruby>むのも<ruby>勉強<rt>べんきょう</rt></ruby>のうちだ",
-    "<ruby>塾<rt>じゅく</rt></ruby>をやめなさい",
-    "<ruby>目<rt>め</rt></ruby>は<ruby>問題<rt>もんだい</rt></ruby>ない"
+    "<ruby>塾<rt>じゅく</rt></ruby>をやめなさい"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>休学<rt>きゅうがく</rt></ruby>してから<ruby>戻<rt>もど</rt></ruby>ってきた<ruby>子<rt>こ</rt></ruby>は、どんな<ruby>子<rt>こ</rt></ruby>でしたか。",
    "opciones": [
     "いつも<ruby>心配<rt>しんぱい</rt></ruby>していた",
-    "<ruby>考古学<rt>こうこがく</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>ばかり<ruby>読<rt>よ</rt></ruby>んで<ruby>平気<rt>へいき</rt></ruby>だった",
+    "すぐにまた<ruby>休<rt>やす</rt></ruby>んだ",
     "<ruby>成績<rt>せいせき</rt></ruby>がよかった",
-    "すぐにまた<ruby>休<rt>やす</rt></ruby>んだ"
+    "<ruby>考古学<rt>こうこがく</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>ばかり<ruby>読<rt>よ</rt></ruby>んで<ruby>平気<rt>へいき</rt></ruby>だった"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "In secondary school I went to a cram school three days a week. The day ended between classes and tests, and cycling home at ten at night was normal. There were spells when I used up all my strength and just getting to class was enough. When I went to the optician's to have my eyes checked, the doctor told me: «resting is part of studying too». In my year there was a boy who came back after six months off. He read only archaeology books, and when the teacher asked what he intended to live on, he stayed perfectly calm. Thinking about it now, the lesson of those years may not have been given inside the classroom, but on the way home."

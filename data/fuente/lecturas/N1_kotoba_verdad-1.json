@@ -7,12 +7,12 @@
   {
    "p": "<ruby>書類<rt>しょるい</rt></ruby>を<ruby>照合<rt>しょうごう</rt></ruby>して、<ruby>何<rt>なに</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりましたか。",
    "opciones": [
-    "まちがいはなかった",
     "<ruby>面積<rt>めんせき</rt></ruby>の<ruby>数字<rt>すうじ</rt></ruby>がちがっていた",
-    "<ruby>名前<rt>なまえ</rt></ruby>がちがっていた",
-    "<ruby>日付<rt>ひづけ</rt></ruby>がなかった"
+    "<ruby>日付<rt>ひづけ</rt></ruby>がなかった",
+    "まちがいはなかった",
+    "<ruby>名前<rt>なまえ</rt></ruby>がちがっていた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>担当<rt>たんとう</rt></ruby>の<ruby>方<rt>かた</rt></ruby>が<ruby>軽<rt>かる</rt></ruby>く<ruby>流<rt>なが</rt></ruby>そうとしたのは、なぜだと<ruby>考<rt>かんが</rt></ruby>えていますか。",

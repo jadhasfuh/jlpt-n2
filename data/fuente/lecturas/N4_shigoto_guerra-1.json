@@ -7,22 +7,22 @@
   {
    "p": "そぼは、どこで<ruby>話<rt>はなし</rt></ruby>が<ruby>止<rt>と</rt></ruby>まりますか。",
    "opciones": [
-    "はじめ",
-    "<ruby>撃<rt>う</rt></ruby>つ<ruby>音<rt>おと</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いた<ruby>夜<rt>よる</rt></ruby>のところ",
+    "<ruby>止<rt>と</rt></ruby>まらない",
     "さいご",
-    "<ruby>止<rt>と</rt></ruby>まらない"
+    "<ruby>撃<rt>う</rt></ruby>つ<ruby>音<rt>おと</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いた<ruby>夜<rt>よる</rt></ruby>のところ",
+    "はじめ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "そぼにとっていちばんのしあわせは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>戦争<rt>せんそう</rt></ruby>を<ruby>知<rt>し</rt></ruby>ること",
-    "<ruby>安心<rt>あんしん</rt></ruby>してねむれること",
     "<ruby>話<rt>はな</rt></ruby>すこと",
-    "ふとんに<ruby>入<rt>はい</rt></ruby>ること"
+    "<ruby>戦争<rt>せんそう</rt></ruby>を<ruby>知<rt>し</rt></ruby>ること",
+    "ふとんに<ruby>入<rt>はい</rt></ruby>ること",
+    "<ruby>安心<rt>あんしん</rt></ruby>してねむれること"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "My grandmother lived through the war. When she starts to tell it, she always stops at the same point. It seems she can't get out the part about the night she heard the shots. She says: «being able to sleep in peace is the greatest happiness». To me it's obvious, but to her it wasn't. Since I heard that, every time I get into the futon I find myself thinking about it a little."

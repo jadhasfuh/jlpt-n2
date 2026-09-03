@@ -7,12 +7,12 @@
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をするように<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
-    "<ruby>髪<rt>かみ</rt></ruby>を<ruby>切<rt>き</rt></ruby>ること",
     "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>話<rt>はな</rt></ruby>し<ruby>方<rt>かた</rt></ruby>を<ruby>録音<rt>ろくおん</rt></ruby>すること",
-    "<ruby>服<rt>ふく</rt></ruby>を<ruby>買<rt>か</rt></ruby>うこと",
-    "<ruby>背<rt>せ</rt></ruby>すじをのばすこと"
+    "<ruby>背<rt>せ</rt></ruby>すじをのばすこと",
+    "<ruby>髪<rt>かみ</rt></ruby>を<ruby>切<rt>き</rt></ruby>ること",
+    "<ruby>服<rt>ふく</rt></ruby>を<ruby>買<rt>か</rt></ruby>うこと"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>言葉<rt>ことば</rt></ruby>がすんなり<ruby>出<rt>で</rt></ruby>るようになったのは、どうしてからですか。",

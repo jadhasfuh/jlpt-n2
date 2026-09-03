@@ -16,20 +16,20 @@
   {
    "p": "ミンさんは なにを <ruby>教<rt>おし</rt></ruby>えて いますか。",
    "opciones": [
+    "<ruby>日本語<rt>にほんご</rt></ruby>",
     "ピザの やき<ruby>方<rt>かた</rt></ruby>",
-    "さらの あらい<ruby>方<rt>かた</rt></ruby>",
-    "<ruby>日本語<rt>にほんご</rt></ruby>"
+    "さらの あらい<ruby>方<rt>かた</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんの せんぱいは だれですか。",
    "opciones": [
-    "ミンさん",
+    "ゴンサ",
     "てんちょう",
-    "ゴンサ"
+    "ミンさん"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Once you get used to the work, time goes fast. On the first day, four hours felt endless. Now, before I know it, it's time to leave. Min is also teaching me how to bake the pizzas. «My senpai are the people in this shop», Min told me. Mine is Min."

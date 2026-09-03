@@ -8,21 +8,21 @@
    "p": "パネルには<ruby>何<rt>なに</rt></ruby>が<ruby>数<rt>かぞ</rt></ruby>えてありましたか。",
    "opciones": [
     "<ruby>勝<rt>か</rt></ruby>ち<ruby>負<rt>ま</rt></ruby>け",
+    "<ruby>軍隊<rt>ぐんたい</rt></ruby>のおおきさ",
     "<ruby>何人<rt>なんにん</rt></ruby>が<ruby>帰<rt>かえ</rt></ruby>ってこなかったか",
-    "<ruby>武器<rt>ぶき</rt></ruby>のかず",
-    "<ruby>軍隊<rt>ぐんたい</rt></ruby>のおおきさ"
+    "<ruby>武器<rt>ぶき</rt></ruby>のかず"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>戦<rt>たたか</rt></ruby>いを<ruby>克服<rt>こくふく</rt></ruby>するとは<ruby>何<rt>なに</rt></ruby>だと<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>優勝<rt>ゆうしょう</rt></ruby>すること",
-    "<ruby>二度<rt>にど</rt></ruby>と<ruby>始<rt>はじ</rt></ruby>めないこと",
     "<ruby>武器<rt>ぶき</rt></ruby>をもつこと",
-    "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めること"
+    "<ruby>優勝<rt>ゆうしょう</rt></ruby>すること",
+    "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めること",
+    "<ruby>二度<rt>にど</rt></ruby>と<ruby>始<rt>はじ</rt></ruby>めないこと"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "At the museum I saw old weapons. They're the ones the army used. Tools created only to attack the enemy, lined up inside a display case. On the panels there was information about the great war. It didn't recount victories and defeats, but how many people didn't come back. There were also explanations aimed at children, written in simple words. Getting past a war must consist not in coming out the winner, but in never starting one again."

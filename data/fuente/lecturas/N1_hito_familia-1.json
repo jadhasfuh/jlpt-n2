@@ -7,12 +7,12 @@
   {
    "p": "<ruby>店<rt>みせ</rt></ruby>を<ruby>継<rt>つ</rt></ruby>いだのはだれですか。",
    "opciones": [
-    "<ruby>兄<rt>あに</rt></ruby>",
     "<ruby>婿<rt>むこ</rt></ruby>に<ruby>来<rt>き</rt></ruby>た<ruby>義兄<rt>ぎけい</rt></ruby>",
+    "<ruby>兄<rt>あに</rt></ruby>",
     "この<ruby>人<rt>ひと</rt></ruby>",
     "<ruby>親父<rt>おやじ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって<ruby>家族<rt>かぞく</rt></ruby>とは<ruby>何<rt>なん</rt></ruby>ですか。",

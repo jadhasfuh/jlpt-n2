@@ -7,22 +7,22 @@
   {
    "p": "<ruby>奨学金<rt>しょうがくきん</rt></ruby>のじょうけんは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>寮<rt>りょう</rt></ruby>にすむこと",
-    "<ruby>単位<rt>たんい</rt></ruby>を<ruby>一定<rt>いってい</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>とること",
     "<ruby>教授<rt>きょうじゅ</rt></ruby>に<ruby>相談<rt>そうだん</rt></ruby>すること",
-    "<ruby>通学<rt>つうがく</rt></ruby>すること"
+    "<ruby>通学<rt>つうがく</rt></ruby>すること",
+    "<ruby>単位<rt>たんい</rt></ruby>を<ruby>一定<rt>いってい</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>とること",
+    "<ruby>寮<rt>りょう</rt></ruby>にすむこと"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>後輩<rt>こうはい</rt></ruby>はどうしましたか。",
    "opciones": [
-    "わらった",
-    "<em class=\"g\">まるで</em>じぶんのことのようにしんぱいした",
+    "<ruby>教授<rt>きょうじゅ</rt></ruby>に<ruby>話<rt>はな</rt></ruby>した",
     "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった",
-    "<ruby>教授<rt>きょうじゅ</rt></ruby>に<ruby>話<rt>はな</rt></ruby>した"
+    "わらった",
+    "<em class=\"g\">まるで</em>じぶんのことのようにしんぱいした"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "To be able to go to university I was given a grant. It comes with the condition of passing a certain number of credits: if not, it doesn't continue the following term. If I'd failed them, I'd have been left unable even to attend classes. When I told a younger student at the hall of residence, he worried about it as if it were his own business. I talked it over with a professor and decided to take the important subjects first. Being able to keep studying isn't something to take for granted."

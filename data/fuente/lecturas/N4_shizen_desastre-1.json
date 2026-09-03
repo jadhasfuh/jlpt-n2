@@ -8,21 +8,21 @@
    "p": "<ruby>危険<rt>きけん</rt></ruby>なのはいつですか。",
    "opciones": [
     "ゆれているあいだ<em class=\"g\">だけで</em>",
+    "<ruby>危険<rt>きけん</rt></ruby>ではない",
     "そのあとも",
-    "<ruby>朝<rt>あさ</rt></ruby>だけ",
-    "<ruby>危険<rt>きけん</rt></ruby>ではない"
+    "<ruby>朝<rt>あさ</rt></ruby>だけ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>朝<rt>あさ</rt></ruby><em class=\"g\">までに</em><ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
-    "ねた",
-    "うちの<ruby>中<rt>なか</rt></ruby>をぜんぶかたづけた",
+    "そとへ<ruby>出<rt>で</rt></ruby>た",
     "<ruby>水<rt>みず</rt></ruby>をかった",
-    "そとへ<ruby>出<rt>で</rt></ruby>た"
+    "ねた",
+    "うちの<ruby>中<rt>なか</rt></ruby>をぜんぶかたづけた"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "There was an earthquake at night. The shaking lasted a short time, but I couldn't stay on my feet. I walked carefully and moved to a safe place. What's dangerous isn't only while it's shaking. Afterwards there's the broken glass and the fallen furniture left. Before morning came I tidied the whole house. Just having water and food ready changes your state of mind quite a lot. Before the next earthquake I intend to go over my preparations again."

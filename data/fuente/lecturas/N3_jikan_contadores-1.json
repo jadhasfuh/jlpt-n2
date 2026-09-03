@@ -7,12 +7,12 @@
   {
    "p": "<ruby>本<rt>ほん</rt></ruby>を<ruby>何冊<rt>なんさつ</rt></ruby>かりましたか。",
    "opciones": [
-    "<ruby>一冊<rt>いっさつ</rt></ruby>",
-    "<ruby>二冊<rt>にさつ</rt></ruby>",
     "<ruby>三冊<rt>さんさつ</rt></ruby>",
+    "<ruby>二冊<rt>にさつ</rt></ruby>",
+    "<ruby>一冊<rt>いっさつ</rt></ruby>",
     "<ruby>四冊<rt>よんさつ</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
    "p": "<ruby>鳥<rt>とり</rt></ruby>について<ruby>何<rt>なに</rt></ruby>を<ruby>知<rt>し</rt></ruby>りましたか。",

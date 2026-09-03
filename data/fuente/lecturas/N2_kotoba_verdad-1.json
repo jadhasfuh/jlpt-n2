@@ -16,20 +16,20 @@
   {
    "p": "<ruby>実物<rt>じつぶつ</rt></ruby>を<ruby>見<rt>み</rt></ruby>て<ruby>何<rt>なに</rt></ruby>に<ruby>驚<rt>おどろ</rt></ruby>きましたか。",
    "opciones": [
+    "<ruby>値段<rt>ねだん</rt></ruby>",
     "<ruby>色<rt>いろ</rt></ruby>の<ruby>純粋<rt>じゅんすい</rt></ruby>さ",
-    "<ruby>大<rt>おお</rt></ruby>きさ",
-    "<ruby>値段<rt>ねだん</rt></ruby>"
+    "<ruby>大<rt>おお</rt></ruby>きさ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>展示<rt>てんじ</rt></ruby>はいつまでですか。",
    "opciones": [
-    "<ruby>明日<rt>あした</rt></ruby>まで",
+    "<ruby>今日<rt>きょう</rt></ruby>まで",
     "<ruby>来週<rt>らいしゅう</rt></ruby>まで",
-    "<ruby>今日<rt>きょう</rt></ruby>まで"
+    "<ruby>明日<rt>あした</rt></ruby>まで"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Some said the painting they'd seen in a photo was doubtful. When I went to see the original, I was surprised by the purity of the colour. I had the real sense of being in front of something genuine and couldn't help being glad. Looking at the artist's career, it turned out to be an early work. I'm dying to see it again, but the exhibition is only on until tomorrow."

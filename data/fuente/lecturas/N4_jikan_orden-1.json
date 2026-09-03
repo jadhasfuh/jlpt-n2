@@ -7,12 +7,12 @@
   {
    "p": "なぜ、<ruby>本<rt>ほん</rt></ruby>の<ruby>通<rt>とお</rt></ruby>りにやりますか。",
    "opciones": [
-    "はやいから",
     "<ruby>自分<rt>じぶん</rt></ruby>のやり<ruby>方<rt>かた</rt></ruby>だとしっぱいするから",
+    "やさしいから",
     "<ruby>子<rt>こ</rt></ruby>どもがいるから",
-    "やさしいから"
+    "はやいから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "その<ruby>日<rt>ひ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>がありましたか。",

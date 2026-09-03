@@ -16,20 +16,20 @@
   {
    "p": "カルロスさんの まえに なんにん いましたか。",
    "opciones": [
+    "だれも いません",
     "にじゅうにん",
-    "ふたり",
-    "だれも いません"
+    "ふたり"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "じどうはんばいきは どこに ありましたか。",
    "opciones": [
-    "ろうかを <ruby>曲<rt>ま</rt></ruby>がった ところ",
+    "まどぐちの となり",
     "そと",
-    "まどぐちの となり"
+    "ろうかを <ruby>曲<rt>ま</rt></ruby>がった ところ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "At those offices you take a number and sit down. There were twenty people ahead of me. The seat was hard and my back started to ache. Round the corner of the corridor there was a vending machine. I bought a cold tea and sat down again. I thought that in Japan waiting is part of the paperwork too."

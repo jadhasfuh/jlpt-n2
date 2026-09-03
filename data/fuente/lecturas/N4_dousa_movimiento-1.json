@@ -7,22 +7,22 @@
   {
    "p": "はじめ、なぜこわかったですか。",
    "opciones": [
-    "<ruby>人<rt>ひと</rt></ruby>がおおいから",
-    "ゆかが<ruby>滑<rt>すべ</rt></ruby>りやすいから",
     "<ruby>先生<rt>せんせい</rt></ruby>がこわいから",
-    "<ruby>格好<rt>かっこう</rt></ruby>がわるいから"
+    "<ruby>格好<rt>かっこう</rt></ruby>がわるいから",
+    "ゆかが<ruby>滑<rt>すべ</rt></ruby>りやすいから",
+    "<ruby>人<rt>ひと</rt></ruby>がおおいから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>にどうおねがいしましたか。",
    "opciones": [
     "やめさせてほしい",
-    "さいごまでやらせてほしい",
     "はやく<ruby>踊<rt>おど</rt></ruby>ってほしい",
-    "<ruby>見<rt>み</rt></ruby>ないでほしい"
+    "<ruby>見<rt>み</rt></ruby>ないでほしい",
+    "さいごまでやらせてほしい"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I started learning dance at a neighbourhood association. I asked her: «could you show me once more? Slowly, please». Since the floor is slippery, at first I was afraid. I said «even if it looks bad, let me get to the end», and she nodded with a laugh. A month later I danced in front of everyone for the first time. I didn't do it well, but I enjoyed myself."

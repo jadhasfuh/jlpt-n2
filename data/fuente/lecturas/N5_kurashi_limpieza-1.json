@@ -16,20 +16,20 @@
   {
    "p": "せんたくは なんかい しましたか。",
    "opciones": [
+    "しませんでした",
     "<ruby>三<rt>さん</rt></ruby>かい",
-    "<ruby>一<rt>いっ</rt></ruby>かい",
-    "しませんでした"
+    "<ruby>一<rt>いっ</rt></ruby>かい"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "アンナさんに 言って いない ことは なんですか。",
    "opciones": [
-    "ひこうきの こと",
+    "しごとの こと",
     "ゆきの こと",
-    "しごとの こと"
+    "ひこうきの こと"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Back in Kobe the room was cold and dusty. The first thing I did was open the window and clean. The washing had piled up and I ran three loads. I messaged Anna: «I'm back». She asked «how was the snow?» and I sent her photos. About the plane I still haven't told her."

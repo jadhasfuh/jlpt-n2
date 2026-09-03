@@ -7,22 +7,22 @@
   {
    "p": "ある<ruby>日<rt>ひ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
-    "<ruby>人<rt>ひと</rt></ruby>と<ruby>話<rt>はな</rt></ruby>した",
-    "<ruby>切符<rt>きっぷ</rt></ruby>を<ruby>落<rt>お</rt></ruby>とした<ruby>人<rt>ひと</rt></ruby>に<ruby>渡<rt>わた</rt></ruby>した",
+    "<ruby>急<rt>いそ</rt></ruby>いで<ruby>帰<rt>かえ</rt></ruby>った",
     "<ruby>駅<rt>えき</rt></ruby>をかえた",
-    "<ruby>急<rt>いそ</rt></ruby>いで<ruby>帰<rt>かえ</rt></ruby>った"
+    "<ruby>切符<rt>きっぷ</rt></ruby>を<ruby>落<rt>お</rt></ruby>とした<ruby>人<rt>ひと</rt></ruby>に<ruby>渡<rt>わた</rt></ruby>した",
+    "<ruby>人<rt>ひと</rt></ruby>と<ruby>話<rt>はな</rt></ruby>した"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "つながりについて、どう<ruby>考<rt>かんが</rt></ruby>えていますか。",
    "opciones": [
-    "<ruby>時間<rt>じかん</rt></ruby>をかけないと<ruby>生<rt>う</rt></ruby>まれない",
-    "みじかい<ruby>出<rt>で</rt></ruby>あいからも<ruby>生<rt>う</rt></ruby>まれる",
     "<ruby>駅<rt>えき</rt></ruby>では<ruby>生<rt>う</rt></ruby>まれない",
-    "<ruby>話<rt>はな</rt></ruby>さないと<ruby>生<rt>う</rt></ruby>まれない"
+    "<ruby>時間<rt>じかん</rt></ruby>をかけないと<ruby>生<rt>う</rt></ruby>まれない",
+    "<ruby>話<rt>はな</rt></ruby>さないと<ruby>生<rt>う</rt></ruby>まれない",
+    "みじかい<ruby>出<rt>で</rt></ruby>あいからも<ruby>生<rt>う</rt></ruby>まれる"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "At the station in the morning you pass a great many people. We go through the same place at the same time and yet we don't talk to anyone. One day I chased after someone who had dropped their ticket and gave it back. They only thanked me, but that day left me in a good mood. Bonds between people, as well as being built over time, are also born of encounters as brief as that. Watching the back of the person walking away, I too hurried out of the stream of people."

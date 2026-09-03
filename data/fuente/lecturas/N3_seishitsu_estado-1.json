@@ -7,12 +7,12 @@
   {
    "p": "<ruby>問題<rt>もんだい</rt></ruby>が<ruby>起<rt>お</rt></ruby>きたとき、どうしましたか。",
    "opciones": [
-    "<ruby>中止<rt>ちゅうし</rt></ruby>した",
     "<ruby>担当<rt>たんとう</rt></ruby>をわけて<ruby>一<rt>ひと</rt></ruby>つずつ<ruby>進<rt>すす</rt></ruby>めた",
-    "<ruby>延期<rt>えんき</rt></ruby>した",
-    "<ruby>拡大<rt>かくだい</rt></ruby>した"
+    "<ruby>拡大<rt>かくだい</rt></ruby>した",
+    "<ruby>中止<rt>ちゅうし</rt></ruby>した",
+    "<ruby>延期<rt>えんき</rt></ruby>した"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>結局<rt>けっきょく</rt></ruby>、<ruby>何<rt>なに</rt></ruby>を<ruby>優先<rt>ゆうせん</rt></ruby>しましたか。",

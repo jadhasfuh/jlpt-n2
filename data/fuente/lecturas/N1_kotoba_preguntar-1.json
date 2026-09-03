@@ -7,12 +7,12 @@
   {
    "p": "<ruby>質疑<rt>しつぎ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>が<ruby>苦手<rt>にがて</rt></ruby>なのは、なぜですか。",
    "opciones": [
-    "<ruby>時間<rt>じかん</rt></ruby>が<ruby>短<rt>みじか</rt></ruby>いから",
     "<ruby>追及<rt>ついきゅう</rt></ruby>するような<ruby>聞<rt>き</rt></ruby>き<ruby>方<rt>かた</rt></ruby>にならないか<ruby>気<rt>き</rt></ruby>になるから",
-    "<ruby>講演<rt>こうえん</rt></ruby>が<ruby>難<rt>むずか</rt></ruby>しいから",
-    "<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いから"
+    "<ruby>時間<rt>じかん</rt></ruby>が<ruby>短<rt>みじか</rt></ruby>いから",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いから",
+    "<ruby>講演<rt>こうえん</rt></ruby>が<ruby>難<rt>むずか</rt></ruby>しいから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>隣<rt>となり</rt></ruby>の<ruby>席<rt>せき</rt></ruby>の<ruby>方<rt>かた</rt></ruby>が<ruby>質問<rt>しつもん</rt></ruby>したあと、どうなりましたか。",

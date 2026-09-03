@@ -16,20 +16,20 @@
   {
    "p": "こたつに あしを <ruby>入<rt>い</rt></ruby>れると どう なりますか。",
    "opciones": [
-    "すぐ あたたかく なります",
     "さむく なります",
+    "すぐ あたたかく なります",
     "ねむく なりません"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ゴンサさんに とって <ruby>一番<rt>いちばん</rt></ruby> あぶない ものは なんですか。",
    "opciones": [
-    "ネットカフェ",
+    "ラーメン",
     "こたつ",
-    "ラーメン"
+    "ネットカフェ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Mrs Tanaka said «I have a kotatsu I don't use» and gave it to me. It's old, but it works. You put your feet under the table and warm up straight away. Gonza came over and there was no getting him out of it. «This is the second most dangerous thing in Japan», he said. The first, according to him, is the internet café."

@@ -7,22 +7,22 @@
   {
    "p": "<ruby>直<rt>なお</rt></ruby>してみて、どうなりましたか。",
    "opciones": [
+    "できなかった",
     "<ruby>前<rt>まえ</rt></ruby>より<ruby>悪<rt>わる</rt></ruby>くなった",
     "<ruby>前<rt>まえ</rt></ruby>よりずっと<ruby>読<rt>よ</rt></ruby>みやすくなった",
-    "かわらなかった",
-    "できなかった"
+    "かわらなかった"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>末<rt>すえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>にきづきましたか。",
    "opciones": [
-    "はじめの<ruby>案<rt>あん</rt></ruby>がよかった",
-    "はじめの<ruby>案<rt>あん</rt></ruby>にしばられていたこと",
     "<ruby>時間<rt>じかん</rt></ruby>がないこと",
-    "パソコンがこわれたこと"
+    "はじめの<ruby>案<rt>あん</rt></ruby>がよかった",
+    "パソコンがこわれたこと",
+    "はじめの<ruby>案<rt>あん</rt></ruby>にしばられていたこと"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I redid the work materials. Touching something already finished is sometimes harder than doing it from scratch. Because I thought the original form was fine. Nevertheless, on redoing it, it came out far more readable than before. In the end I realised I'd been tied to my first idea. I sat thinking with the computer on and, by the time I noticed, it was already night. At that moment a «you'll see» slipped out of me, said to nobody."

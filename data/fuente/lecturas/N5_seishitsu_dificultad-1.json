@@ -16,20 +16,20 @@
   {
    "p": "はやい ことばは どうですか。",
    "opciones": [
+    "ぜんぜん わかりません",
     "まだ わかりにくいですが こわく ないです",
-    "もう かんぺきです",
-    "ぜんぜん わかりません"
+    "もう かんぺきです"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "だれと はなす とき いちばん じょうずですか。",
    "opciones": [
-    "けんたくん",
+    "てんちょう",
     "アンナさん",
-    "てんちょう"
+    "けんたくん"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Japanese is still hard for me. But things I couldn't do six months ago, I can do now. I can arrange to meet someone by phone. I can explain myself at the hospital. Fast speech is still difficult, but it doesn't frighten me. What I understand best is the way children talk. When I'm talking to Kenta is when I sound my best."

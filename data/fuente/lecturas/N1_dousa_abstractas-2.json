@@ -8,21 +8,21 @@
    "p": "<ruby>昇進<rt>しょうしん</rt></ruby>して<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>直面<rt>ちょくめん</rt></ruby>したのは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
     "<ruby>部下<rt>ぶか</rt></ruby>の<ruby>不満<rt>ふまん</rt></ruby>",
-    "<ruby>古<rt>ふる</rt></ruby>い<ruby>規則<rt>きそく</rt></ruby>の<ruby>山<rt>やま</rt></ruby>",
     "お<ruby>金<rt>かね</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>",
+    "<ruby>古<rt>ふる</rt></ruby>い<ruby>規則<rt>きそく</rt></ruby>の<ruby>山<rt>やま</rt></ruby>",
     "<ruby>仕事<rt>しごと</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>妥協<rt>だきょう</rt></ruby>が<ruby>負<rt>ま</rt></ruby>けに<ruby>見<rt>み</rt></ruby>えなくなるのは、どうしたときですか。",
    "opciones": [
     "<ruby>相手<rt>あいて</rt></ruby>が<ruby>上司<rt>じょうし</rt></ruby>のとき",
-    "<ruby>譲歩<rt>じょうほ</rt></ruby>できる<ruby>線<rt>せん</rt></ruby>を<ruby>先<rt>さき</rt></ruby>に<ruby>決<rt>き</rt></ruby>めておいたとき",
+    "<ruby>規則<rt>きそく</rt></ruby>を<ruby>廃止<rt>はいし</rt></ruby>したとき",
     "<ruby>対決<rt>たいけつ</rt></ruby>したとき",
-    "<ruby>規則<rt>きそく</rt></ruby>を<ruby>廃止<rt>はいし</rt></ruby>したとき"
+    "<ruby>譲歩<rt>じょうほ</rt></ruby>できる<ruby>線<rt>せん</rt></ruby>を<ruby>先<rt>さき</rt></ruby>に<ruby>決<rt>き</rt></ruby>めておいたとき"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I was made section head at a company with fifty years of history. Promotion should be cause for celebration, but the first thing I came up against was a mountain of old rules. When they were issued they probably made sense, but today they're all overlapping content. The moment you try to unify them, opposition appears without fail. Even if the other person is a superior, while the people on the floor are having a hard time I can't back down. That said, confrontation brings nothing good, so I prepared three compromise proposals and turned up with them. If you decide in advance how far you can give way, giving way stops looking like a defeat. I learnt that fulfilling an objective doesn't consist in imposing what's right, but in getting things to move."

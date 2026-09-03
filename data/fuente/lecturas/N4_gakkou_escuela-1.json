@@ -7,12 +7,12 @@
   {
    "p": "はじめのころ、この<ruby>子<rt>こ</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>学校<rt>がっこう</rt></ruby>がすきだった",
     "<ruby>行<rt>い</rt></ruby>きたくないと<ruby>言<rt>い</rt></ruby>っていた",
-    "<ruby>歌<rt>うた</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>だった",
-    "<ruby>先輩<rt>せんぱい</rt></ruby>になった"
+    "<ruby>先輩<rt>せんぱい</rt></ruby>になった",
+    "<ruby>学校<rt>がっこう</rt></ruby>がすきだった",
+    "<ruby>歌<rt>うた</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>だった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "いま、<ruby>歌<rt>うた</rt></ruby>をだれに<ruby>教<rt>おし</rt></ruby>えていますか。",

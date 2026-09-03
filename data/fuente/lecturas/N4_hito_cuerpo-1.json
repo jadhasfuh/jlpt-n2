@@ -7,29 +7,29 @@
   {
    "p": "どこを<ruby>切<rt>き</rt></ruby>りましたか。",
    "opciones": [
-    "<ruby>左<rt>ひだり</rt></ruby>の<ruby>耳<rt>みみ</rt></ruby>",
     "<ruby>右<rt>みぎ</rt></ruby>の<ruby>指<rt>ゆび</rt></ruby>",
+    "<ruby>左<rt>ひだり</rt></ruby>の<ruby>耳<rt>みみ</rt></ruby>",
     "<ruby>首<rt>くび</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>母<rt>はは</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>しましたか。",
    "opciones": [
+    "<ruby>水<rt>みず</rt></ruby>",
     "タオル",
-    "<ruby>指輪<rt>ゆびわ</rt></ruby>",
-    "<ruby>水<rt>みず</rt></ruby>"
+    "<ruby>指輪<rt>ゆびわ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>手<rt>て</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>う<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
-    "<ruby>指輪<rt>ゆびわ</rt></ruby>を<ruby>取<rt>と</rt></ruby>った",
     "<ruby>髪<rt>かみ</rt></ruby>を<ruby>切<rt>き</rt></ruby>った",
-    "<ruby>目<rt>め</rt></ruby>を<ruby>閉<rt>と</rt></ruby>じた"
+    "<ruby>目<rt>め</rt></ruby>を<ruby>閉<rt>と</rt></ruby>じた",
+    "<ruby>指輪<rt>ゆびわ</rt></ruby>を<ruby>取<rt>と</rt></ruby>った"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "A little while ago I cut a finger on my right hand in the kitchen. It bled a bit, but on the whole I'm fine. My mother passed me a towel with her left hand. I took off my ring and washed my hand slowly. My back loosened and I calmed down."

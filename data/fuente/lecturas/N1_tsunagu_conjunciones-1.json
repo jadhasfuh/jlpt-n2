@@ -7,12 +7,12 @@
   {
    "p": "<ruby>樹木<rt>じゅもく</rt></ruby>が<ruby>倒<rt>たお</rt></ruby>れた<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>古<rt>ふる</rt></ruby>かったから",
     "<ruby>根<rt>ね</rt></ruby>が<ruby>浅<rt>あさ</rt></ruby>かったらしい",
     "<ruby>切<rt>き</rt></ruby>られたから",
+    "<ruby>古<rt>ふる</rt></ruby>かったから",
     "<ruby>土<rt>つち</rt></ruby>が<ruby>固<rt>かた</rt></ruby>いから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>苗木<rt>なえぎ</rt></ruby>を<ruby>植<rt>う</rt></ruby>えるのはいつになりますか。",

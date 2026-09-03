@@ -7,12 +7,12 @@
   {
    "p": "<ruby>知人<rt>ちじん</rt></ruby>は<ruby>準備<rt>じゅんび</rt></ruby>にどのくらいかけましたか。",
    "opciones": [
-    "<ruby>一週間<rt>いっしゅうかん</rt></ruby>",
     "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
+    "<ruby>準備<rt>じゅんび</rt></ruby>しなかった",
     "<ruby>一年<rt>いちねん</rt></ruby>",
-    "<ruby>準備<rt>じゅんび</rt></ruby>しなかった"
+    "<ruby>一週間<rt>いっしゅうかん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>周<rt>まわ</rt></ruby>りの<ruby>評価<rt>ひょうか</rt></ruby>を、<ruby>本人<rt>ほんにん</rt></ruby>はどう<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>っていますか。",

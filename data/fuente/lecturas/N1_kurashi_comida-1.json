@@ -7,12 +7,12 @@
   {
    "p": "<ruby>風邪<rt>かぜ</rt></ruby>のとき、<ruby>何<rt>なに</rt></ruby>が<ruby>出<rt>で</rt></ruby>ましたか。",
    "opciones": [
-    "<ruby>定食<rt>ていしょく</rt></ruby>",
     "<ruby>粥<rt>かゆ</rt></ruby>",
-    "パン",
-    "お<ruby>茶<rt>ちゃ</rt></ruby>"
+    "お<ruby>茶<rt>ちゃ</rt></ruby>",
+    "<ruby>定食<rt>ていしょく</rt></ruby>",
+    "パン"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "「<ruby>産物<rt>さんぶつ</rt></ruby>」という<ruby>言葉<rt>ことば</rt></ruby>で、この<ruby>人<rt>ひと</rt></ruby>が<ruby>思<rt>おも</rt></ruby>い<ruby>浮<rt>う</rt></ruby>かべるのは<ruby>何<rt>なん</rt></ruby>ですか。",

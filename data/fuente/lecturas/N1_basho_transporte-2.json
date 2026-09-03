@@ -7,22 +7,22 @@
   {
    "p": "<ruby>風<rt>かぜ</rt></ruby>の<ruby>強<rt>つよ</rt></ruby>い<ruby>日<rt>ひ</rt></ruby>、<ruby>船<rt>ふね</rt></ruby>はどうなりますか。",
    "opciones": [
+    "<ruby>便<rt>びん</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>える",
     "<ruby>時刻表<rt>じこくひょう</rt></ruby>どおりに<ruby>出<rt>で</rt></ruby>る",
     "<ruby>時刻表<rt>じこくひょう</rt></ruby>どおりに<ruby>出<rt>で</rt></ruby>ることのほうがめずらしい",
-    "<ruby>便<rt>びん</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>える",
     "<ruby>旅客<rt>りょかく</rt></ruby>が<ruby>多<rt>おお</rt></ruby>くなる"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>船長<rt>せんちょう</rt></ruby>が<ruby>遭難<rt>そうなん</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えていることを、この<ruby>人<rt>ひと</rt></ruby>はどう<ruby>見<rt>み</rt></ruby>ていますか。",
    "opciones": [
-    "<ruby>使<rt>つか</rt></ruby>い<ruby>道<rt>みち</rt></ruby>のない<ruby>知識<rt>ちしき</rt></ruby>だ",
-    "<ruby>乗<rt>の</rt></ruby>っている<ruby>人<rt>ひと</rt></ruby>を<ruby>守<rt>まも</rt></ruby>っている",
     "<ruby>古<rt>ふる</rt></ruby>すぎる<ruby>話<rt>はなし</rt></ruby>だ",
-    "<ruby>船長<rt>せんちょう</rt></ruby>のじまんだ"
+    "<ruby>使<rt>つか</rt></ruby>い<ruby>道<rt>みち</rt></ruby>のない<ruby>知識<rt>ちしき</rt></ruby>だ",
+    "<ruby>船長<rt>せんちょう</rt></ruby>のじまんだ",
+    "<ruby>乗<rt>の</rt></ruby>っている<ruby>人<rt>ひと</rt></ruby>を<ruby>守<rt>まも</rt></ruby>っている"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "The boat that crosses to the island only sails three times a day. The timetable stuck on the jetty wall is faded, and on days with a strong wind it's rarer for it to leave on time than not. There are about ten passengers. All of them got off the semi-express and walked here. Getting on the boat, the noise of the propulsion comes up through the soles of your feet. Out at sea wind turbines were lined up. The captain remembers well the stories of the ships wrecked in this sea, from long ago until today, and on days of doubtful weather he cuts the crossing short early. It looks like knowledge of no use whatever, but I thought it's actually what protects those on board."

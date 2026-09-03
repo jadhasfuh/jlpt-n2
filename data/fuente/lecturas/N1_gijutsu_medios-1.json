@@ -8,21 +8,21 @@
    "p": "<ruby>手紙<rt>てがみ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>同封<rt>どうふう</rt></ruby>していますか。",
    "opciones": [
     "お<ruby>金<rt>かね</rt></ruby>",
+    "<ruby>地図<rt>ちず</rt></ruby>",
     "<ruby>近所<rt>きんじょ</rt></ruby>の<ruby>張<rt>は</rt></ruby>り<ruby>紙<rt>がみ</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>",
-    "<ruby>印鑑<rt>いんかん</rt></ruby>",
-    "<ruby>地図<rt>ちず</rt></ruby>"
+    "<ruby>印鑑<rt>いんかん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>去年<rt>きょねん</rt></ruby>、なぜ<ruby>手紙<rt>てがみ</rt></ruby>が<ruby>戻<rt>もど</rt></ruby>ってきましたか。",
    "opciones": [
     "<ruby>切手<rt>きって</rt></ruby>が<ruby>足<rt>た</rt></ruby>りなかったから",
-    "<ruby>友人<rt>ゆうじん</rt></ruby>が<ruby>住所<rt>じゅうしょ</rt></ruby>の<ruby>変更<rt>へんこう</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせなかったから",
+    "<ruby>封筒<rt>ふうとう</rt></ruby>が<ruby>破<rt>やぶ</rt></ruby>れたから",
     "<ruby>宛先<rt>あてさき</rt></ruby>を<ruby>書<rt>か</rt></ruby>き<ruby>忘<rt>わす</rt></ruby>れたから",
-    "<ruby>封筒<rt>ふうとう</rt></ruby>が<ruby>破<rt>やぶ</rt></ruby>れたから"
+    "<ruby>友人<rt>ゆうじん</rt></ruby>が<ruby>住所<rt>じゅうしょ</rt></ruby>の<ruby>変更<rt>へんこう</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせなかったから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I still write letters to a friend who went abroad. If I choose paper in an age when you can get in touch instantly by phone, it's because I like the time it takes to arrive. I write the address on the airmail envelope and put inside a photo of some sign in the neighbourhood. More than giving news, my intention is to hand over a piece of scenery. Last year he could well have told me he'd changed address; since he kept quiet about it, a letter came back to me. Seeing that returned envelope I felt a strange sadness. I even keep the delivery slip with the stamp on it. However dense the communications network becomes, I don't think it will ever replace a few handwritten lines."

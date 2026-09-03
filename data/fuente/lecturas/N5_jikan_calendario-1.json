@@ -16,20 +16,20 @@
   {
    "p": "<ruby>夜<rt>よる</rt></ruby>は なにを しますか。",
    "opciones": [
+    "そとへ <ruby>出<rt>で</rt></ruby>ます",
     "まどを <ruby>閉<rt>し</rt></ruby>めます",
-    "まどを <ruby>開<rt>あ</rt></ruby>けます",
-    "そとへ <ruby>出<rt>で</rt></ruby>ます"
+    "まどを <ruby>開<rt>あ</rt></ruby>けます"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんは <ruby>冬<rt>ふゆ</rt></ruby>を どう おもって いますか。",
    "opciones": [
-    "すこし こわいです",
     "たのしみです",
-    "なにも おもいません"
+    "なにも おもいません",
+    "すこし こわいです"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Summer is over and the mornings and evenings have turned cool. Mrs Tanaka says autumn in Kobe is short. At midday it's still hot, but at night I close the window. The colour of the trees on the mountain is changing little by little. This is the first Japanese autumn I've seen. Everyone says winter is much colder, so I'm a bit scared."

@@ -7,12 +7,12 @@
   {
    "p": "<ruby>規則<rt>きそく</rt></ruby>がおおい<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>泥棒<rt>どろぼう</rt></ruby>を<ruby>捕<rt>つか</rt></ruby>まえるため",
     "みんなが<ruby>気持<rt>きも</rt></ruby>ちよく<ruby>使<rt>つか</rt></ruby>えるようにするため",
     "<ruby>図書<rt>としょ</rt></ruby>かんがふるいから",
-    "<ruby>法律<rt>ほうりつ</rt></ruby>だから"
+    "<ruby>法律<rt>ほうりつ</rt></ruby>だから",
+    "<ruby>泥棒<rt>どろぼう</rt></ruby>を<ruby>捕<rt>つか</rt></ruby>まえるため"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていますか。",

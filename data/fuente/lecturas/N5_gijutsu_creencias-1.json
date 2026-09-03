@@ -16,20 +16,20 @@
   {
    "p": "<ruby>手<rt>て</rt></ruby>を なんかい たたきますか。",
    "opciones": [
-    "にかい",
     "<ruby>一<rt>いっ</rt></ruby>かい",
+    "にかい",
     "さんかい"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんは なにを かんがえましたか。",
    "opciones": [
-    "かぞくの こと",
     "テストの こと",
-    "しごとの こと"
+    "しごとの こと",
+    "かぞくの こと"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The whole school went to a shrine. It's the place of the Japanese gods. First you wash your hands, then you go in. You put in a coin, clap twice and bow your head. «You can ask the god for something or thank him, whichever you like», said the teacher. I thought about my family. It was a quiet place, the kind where your mind settles."

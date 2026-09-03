@@ -16,20 +16,20 @@
   {
    "p": "<ruby>前<rt>まえ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はどうでしたか。",
    "opciones": [
+    "<ruby>素直<rt>すなお</rt></ruby>だった",
     "そそっかしかった",
-    "<ruby>謙虚<rt>けんきょ</rt></ruby>だった",
-    "<ruby>素直<rt>すなお</rt></ruby>だった"
+    "<ruby>謙虚<rt>けんきょ</rt></ruby>だった"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>店長<rt>てんちょう</rt></ruby>はエチケットについて<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
-    "<ruby>教<rt>おし</rt></ruby>えるものではない",
     "<ruby>大切<rt>たいせつ</rt></ruby>だ",
-    "いらない"
+    "いらない",
+    "<ruby>教<rt>おし</rt></ruby>えるものではない"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I started working under the new supervisor. He deals with customers politely and has good posture. The previous one spoke abruptly, was careless and often frightened people. There were even complaints from everyone about the breaks. Now everyone is docile and looks calm. The supervisor laughs quietly and says that etiquette isn't something that's taught."

@@ -16,20 +16,20 @@
   {
    "p": "<ruby>定休日<rt>ていきゅうび</rt></ruby>の<ruby>店<rt>みせ</rt></ruby>があるのはいつですか。",
    "opciones": [
-    "<ruby>水曜<rt>すいよう</rt></ruby>と<ruby>木曜<rt>もくよう</rt></ruby>",
     "<ruby>土曜<rt>どよう</rt></ruby>",
+    "<ruby>水曜<rt>すいよう</rt></ruby>と<ruby>木曜<rt>もくよう</rt></ruby>",
     "<ruby>日曜<rt>にちよう</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "いつ<ruby>集<rt>あつ</rt></ruby>まりますか。",
    "opciones": [
     "<ruby>上旬<rt>じょうじゅん</rt></ruby>",
-    "<ruby>中旬<rt>ちゅうじゅん</rt></ruby>",
-    "<ruby>月末<rt>げつまつ</rt></ruby>"
+    "<ruby>月末<rt>げつまつ</rt></ruby>",
+    "<ruby>中旬<rt>ちゅうじゅん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "There was a meeting to fix next year's calendar. On weekdays there's only room in the evening, so many people prefer Saturday or Sunday. On Wednesdays and Thursdays some shops close, and the date wouldn't come out. Even so, we've been having the same conversation for two weeks. In the end we agreed to meet in the middle of the month, at dawn."

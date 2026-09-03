@@ -8,21 +8,21 @@
    "p": "<ruby>一人<rt>ひとり</rt></ruby>で<ruby>行<rt>い</rt></ruby>くことに<ruby>反対<rt>はんたい</rt></ruby>したのは、なぜですか。",
    "opciones": [
     "<ruby>時間<rt>じかん</rt></ruby>がないから",
-    "<ruby>一人<rt>ひとり</rt></ruby>で<ruby>沢<rt>さわ</rt></ruby>を<ruby>登<rt>のぼ</rt></ruby>るのは<ruby>危険<rt>きけん</rt></ruby>な<ruby>可能性<rt>かのうせい</rt></ruby>があるから",
     "<ruby>装備<rt>そうび</rt></ruby>がないから",
+    "<ruby>一人<rt>ひとり</rt></ruby>で<ruby>沢<rt>さわ</rt></ruby>を<ruby>登<rt>のぼ</rt></ruby>るのは<ruby>危険<rt>きけん</rt></ruby>な<ruby>可能性<rt>かのうせい</rt></ruby>があるから",
     "<ruby>道<rt>みち</rt></ruby>が<ruby>単調<rt>たんちょう</rt></ruby>だから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>先輩<rt>せんぱい</rt></ruby>は<ruby>準備<rt>じゅんび</rt></ruby>について<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。",
    "opciones": [
-    "<ruby>地図<rt>ちず</rt></ruby>があれば<ruby>十分<rt>じゅうぶん</rt></ruby>",
-    "<ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby>ただけでは<ruby>準備<rt>じゅんび</rt></ruby>のうちに<ruby>入<rt>はい</rt></ruby>らない",
     "<ruby>装備<rt>そうび</rt></ruby>は<ruby>要<rt>い</rt></ruby>らない",
-    "<ruby>時間<rt>じかん</rt></ruby>をかけるな"
+    "<ruby>地図<rt>ちず</rt></ruby>があれば<ruby>十分<rt>じゅうぶん</rt></ruby>",
+    "<ruby>時間<rt>じかん</rt></ruby>をかけるな",
+    "<ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby>ただけでは<ruby>準備<rt>じゅんび</rt></ruby>のうちに<ruby>入<rt>はい</rt></ruby>らない"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "When a friend said he was going into the mountains alone, I objected. He said it was nothing as grandiose as an expedition. But going up a ravine alone can be dangerous. The argument that he has good instincts and so nothing will happen doesn't hold up. Neglecting preparation is negligence, and that's a different thing from being bold. In the end the two of us went. We showed each other our gear and spent an hour going over the plan. A veteran from the mountaineering club had told me many times that looking at the map doesn't count as preparation. On the day the path was calm to the point of being monotonous. Walking in silence I felt what an orderly tiredness is. Having come down without anything happening was the best result."

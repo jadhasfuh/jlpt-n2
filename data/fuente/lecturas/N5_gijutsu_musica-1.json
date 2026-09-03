@@ -16,20 +16,20 @@
   {
    "p": "うたうのが <ruby>上手<rt>じょうず</rt></ruby>なのは だれですか。",
    "opciones": [
-    "ゴンサ",
     "ジャン",
+    "ゴンサ",
     "カルロス"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "たなかさんは どうして かべを たたきましたか。",
    "opciones": [
-    "よるが おそかったから",
+    "でんきが ついて いたから",
     "うたが すきだから",
-    "でんきが ついて いたから"
+    "よるが おそかったから"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Jean brought his guitar to Japan. He said: «it weighs less than clothes and matters more». At night a small sound comes from his room. Gonza sings very well. I sing terribly. The three of us sang a Peruvian song. Mrs Tanaka banged on the wall. It was already eleven."

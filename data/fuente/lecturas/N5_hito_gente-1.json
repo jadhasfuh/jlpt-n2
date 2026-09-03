@@ -16,20 +16,20 @@
   {
    "p": "なんにんぐらい いれば じゅうぶんだと 言って いますか。",
    "opciones": [
-    "さんにんか よにん",
     "<ruby>大勢<rt>おおぜい</rt></ruby>",
+    "さんにんか よにん",
     "<ruby>一人<rt>ひとり</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "いつ とても うれしかったですか。",
    "opciones": [
-    "じょうだんが 言えた ひ",
     "にほんに <ruby>着<rt>つ</rt></ruby>いた ひ",
-    "テストの ひ"
+    "テストの ひ",
+    "じょうだんが 言えた ひ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I've been in Japan two months now. At first I had no words to talk about myself. Now there are Jean and Gonza, and Anna too. You don't need to talk to lots of people. Three or four you can really talk to is enough. The day I managed a joke in their language I was over the moon."

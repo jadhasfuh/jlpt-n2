@@ -7,12 +7,12 @@
   {
    "p": "<ruby>送別会<rt>そうべつかい</rt></ruby>で、この<ruby>人<rt>ひと</rt></ruby>はどうしましたか。",
    "opciones": [
-    "<ruby>長<rt>なが</rt></ruby>い<ruby>挨拶<rt>あいさつ</rt></ruby>をした",
     "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>えなかった",
     "<ruby>早<rt>はや</rt></ruby>く<ruby>帰<rt>かえ</rt></ruby>った",
-    "<ruby>手紙<rt>てがみ</rt></ruby>をわたした"
+    "<ruby>手紙<rt>てがみ</rt></ruby>をわたした",
+    "<ruby>長<rt>なが</rt></ruby>い<ruby>挨拶<rt>あいさつ</rt></ruby>をした"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>手紙<rt>てがみ</rt></ruby>について、いまどうなっていますか。",

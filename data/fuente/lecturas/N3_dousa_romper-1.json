@@ -7,12 +7,12 @@
   {
    "p": "なぜ、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けませんでしたか。",
    "opciones": [
-    "こわれるから",
     "<ruby>開<rt>あ</rt></ruby>けたらもっとはやく<ruby>溶<rt>と</rt></ruby>けるから",
-    "くらいから",
-    "<ruby>水<rt>みず</rt></ruby>をこぼしたから"
+    "こわれるから",
+    "<ruby>水<rt>みず</rt></ruby>をこぼしたから",
+    "くらいから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>もできない<ruby>時間<rt>じかん</rt></ruby>について、いまどう<ruby>思<rt>おも</rt></ruby>っていますか。",

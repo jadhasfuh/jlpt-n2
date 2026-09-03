@@ -7,22 +7,22 @@
   {
    "p": "あさ<ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きると、<ruby>何<rt>なに</rt></ruby>が<ruby>見<rt>み</rt></ruby>られますか。",
    "opciones": [
-    "なみ",
-    "<ruby>水<rt>みず</rt></ruby>のおもてが<ruby>鏡<rt>かがみ</rt></ruby>のようになるところ",
     "<ruby>海岸<rt>かいがん</rt></ruby>",
-    "<ruby>湯<rt>ゆ</rt></ruby>"
+    "<ruby>湯<rt>ゆ</rt></ruby>",
+    "<ruby>水<rt>みず</rt></ruby>のおもてが<ruby>鏡<rt>かがみ</rt></ruby>のようになるところ",
+    "なみ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>海岸<rt>かいがん</rt></ruby>とちがうところは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>水<rt>みず</rt></ruby>がつめたい",
-    "なみがない",
     "<ruby>人<rt>ひと</rt></ruby>がおおい",
-    "<ruby>泳<rt>およ</rt></ruby>げない"
+    "<ruby>水<rt>みず</rt></ruby>がつめたい",
+    "<ruby>泳<rt>およ</rt></ruby>げない",
+    "なみがない"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Over the summer I stayed near a lake. If you get up early in the morning, you can see the surface of the water turn into a mirror. Unlike the coast there are no waves, so it's good for practising swimming. I put water on to boil and spent a while doing nothing, drinking tea. When you come to a place like that, it seems your head rests before your body does."

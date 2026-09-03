@@ -7,12 +7,12 @@
   {
    "p": "<ruby>祖父<rt>そふ</rt></ruby>について、<ruby>最後<rt>さいご</rt></ruby>まで<ruby>変<rt>か</rt></ruby>わらなかったのは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>声<rt>こえ</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きさ",
     "<ruby>冗談<rt>じょうだん</rt></ruby>を<ruby>言<rt>い</rt></ruby>う<ruby>癖<rt>くせ</rt></ruby>",
+    "<ruby>仕事<rt>しごと</rt></ruby>",
     "<ruby>顔<rt>かお</rt></ruby>のようす",
-    "<ruby>仕事<rt>しごと</rt></ruby>"
+    "<ruby>声<rt>こえ</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きさ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>道具<rt>どうぐ</rt></ruby><ruby>箱<rt>ばこ</rt></ruby>の<ruby>底<rt>そこ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありましたか。",

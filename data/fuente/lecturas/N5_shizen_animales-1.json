@@ -16,20 +16,20 @@
   {
    "p": "しごとが おわると <ruby>猫<rt>ねこ</rt></ruby>は どう しますか。",
    "opciones": [
+    "ねて います",
     "<ruby>鳴<rt>な</rt></ruby>いて <ruby>来<rt>き</rt></ruby>ます",
-    "にげます",
-    "ねて います"
+    "にげます"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ミンさんは <ruby>猫<rt>ねこ</rt></ruby>を なんと 言いましたか。",
    "opciones": [
-    "ここの <ruby>人<rt>ひと</rt></ruby>だ",
+    "あぶない",
     "ペットだ",
-    "あぶない"
+    "ここの <ruby>人<rt>ひと</rt></ruby>だ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "In front of the pizzeria there's always the same cat. Nobody knows whose it is. When my shift ends it miaows and comes over to me. Min feeds it now and then. «It isn't a pet. It belongs to this street», said Min. I'm more of a dog person, but that cat is an exception."

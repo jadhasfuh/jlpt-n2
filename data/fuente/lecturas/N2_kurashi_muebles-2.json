@@ -16,20 +16,20 @@
   {
    "p": "<ruby>棚<rt>たな</rt></ruby>から<ruby>何<rt>なに</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しましたか。",
    "opciones": [
+    "<ruby>座布団<rt>ざぶとん</rt></ruby>",
     "<ruby>蝋燭<rt>ろうそく</rt></ruby>",
-    "<ruby>薬缶<rt>やかん</rt></ruby>",
-    "<ruby>座布団<rt>ざぶとん</rt></ruby>"
+    "<ruby>薬缶<rt>やかん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "どうしてあわてませんでしたか。",
    "opciones": [
-    "<ruby>準備<rt>じゅんび</rt></ruby>してあったから",
+    "<ruby>慣<rt>な</rt></ruby>れているから",
     "<ruby>明<rt>あか</rt></ruby>るいから",
-    "<ruby>慣<rt>な</rt></ruby>れているから"
+    "<ruby>準備<rt>じゅんび</rt></ruby>してあったから"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "At night the power suddenly went out. The alarm clock stopped too and the room went dark. I got a candle from the shelf and lit the paraffin heater. I put water on to boil in the kettle and waited sitting on a cushion. Since I was better prepared than last year, I didn't panic. Anyway, they'd fix it by morning, so I got into bed early."

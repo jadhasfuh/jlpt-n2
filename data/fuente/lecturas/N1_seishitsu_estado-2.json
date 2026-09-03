@@ -7,12 +7,12 @@
   {
    "p": "なぜ<ruby>好況<rt>こうきょう</rt></ruby>に<ruby>見<rt>み</rt></ruby>えていましたか。",
    "opciones": [
-    "<ruby>売上<rt>うりあげ</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えたから",
     "<ruby>一部<rt>いちぶ</rt></ruby>の<ruby>事業<rt>じぎょう</rt></ruby>を<ruby>除外<rt>じょがい</rt></ruby>して<ruby>数<rt>かぞ</rt></ruby>えていたから",
+    "<ruby>売上<rt>うりあげ</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えたから",
     "<ruby>会議<rt>かいぎ</rt></ruby>が<ruby>短<rt>みじか</rt></ruby>かったから",
     "<ruby>数字<rt>すうじ</rt></ruby>が<ruby>正<rt>ただ</rt></ruby>しかったから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>進度<rt>しんど</rt></ruby>を<ruby>正直<rt>しょうじき</rt></ruby>に<ruby>出<rt>だ</rt></ruby>すと、どうなりますか。",

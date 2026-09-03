@@ -7,12 +7,12 @@
   {
    "p": "「<ruby>東洋<rt>とうよう</rt></ruby>と<ruby>西洋<rt>せいよう</rt></ruby>」という<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>について、どうですか。",
    "opciones": [
-    "<ruby>正<rt>ただ</rt></ruby>しい",
     "その<ruby>間<rt>あいだ</rt></ruby>にもたくさんの<ruby>国<rt>くに</rt></ruby>がある",
-    "<ruby>使<rt>つか</rt></ruby>わないほうがいい",
-    "<ruby>同<rt>おな</rt></ruby>じ<ruby>意味<rt>いみ</rt></ruby>だ"
+    "<ruby>同<rt>おな</rt></ruby>じ<ruby>意味<rt>いみ</rt></ruby>だ",
+    "<ruby>正<rt>ただ</rt></ruby>しい",
+    "<ruby>使<rt>つか</rt></ruby>わないほうがいい"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>国家<rt>こっか</rt></ruby>のさかいめについて、どう<ruby>考<rt>かんが</rt></ruby>えていますか。",

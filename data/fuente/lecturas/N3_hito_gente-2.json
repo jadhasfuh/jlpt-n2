@@ -7,12 +7,12 @@
   {
    "p": "<ruby>住民<rt>じゅうみん</rt></ruby>のかおぶれがかわったのはなぜですか。",
    "opciones": [
-    "<ruby>年<rt>とし</rt></ruby>を<ruby>取<rt>と</rt></ruby>ったから",
     "<ruby>住宅<rt>じゅうたく</rt></ruby>がふえたから",
-    "<ruby>仲間<rt>なかま</rt></ruby>になったから",
-    "<ruby>他人<rt>たにん</rt></ruby>だから"
+    "<ruby>年<rt>とし</rt></ruby>を<ruby>取<rt>と</rt></ruby>ったから",
+    "<ruby>他人<rt>たにん</rt></ruby>だから",
+    "<ruby>仲間<rt>なかま</rt></ruby>になったから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>人間<rt>にんげん</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>できまりますか。",

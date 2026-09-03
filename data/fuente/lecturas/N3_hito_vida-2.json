@@ -7,22 +7,22 @@
   {
    "p": "この<ruby>国<rt>くに</rt></ruby>では、<ruby>何<rt>なん</rt></ruby>さい<ruby>以上<rt>いじょう</rt></ruby>を<ruby>老人<rt>ろうじん</rt></ruby>とよびますか。",
    "opciones": [
+    "<ruby>七十<rt>ななじゅう</rt></ruby>さい",
     "<ruby>六十<rt>ろくじゅう</rt></ruby>さい",
     "<ruby>六十五<rt>ろくじゅうご</rt></ruby>さい",
-    "<ruby>七十<rt>ななじゅう</rt></ruby>さい",
     "きまっていない"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "じっさいには、どうですか。",
    "opciones": [
-    "みんなやすんでいる",
-    "まだはたらいている<ruby>人<rt>ひと</rt></ruby>がたくさんいる",
     "<ruby>年齢<rt>ねんれい</rt></ruby>をかぞえない",
-    "<ruby>不幸<rt>ふこう</rt></ruby>だ"
+    "<ruby>不幸<rt>ふこう</rt></ruby>だ",
+    "みんなやすんでいる",
+    "まだはたらいている<ruby>人<rt>ひと</rt></ruby>がたくさんいる"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Every time I write my date of birth I'm surprised by my age. It seems that, depending on the generation, how the same figure is received changes too. From what age someone is called «elderly» isn't clearly fixed. In this country it's established to use that word for those over sixty-five, but in fact a great many are still working. There are nights when I wake in the small hours and think only of misfortunes. But when morning comes, I get back to working flat out."

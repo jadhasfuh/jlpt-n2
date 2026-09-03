@@ -16,20 +16,20 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>のために<ruby>作<rt>つく</rt></ruby>られましたか。",
    "opciones": [
-    "<ruby>侵入<rt>しんにゅう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐため",
     "<ruby>売<rt>う</rt></ruby>るため",
+    "<ruby>侵入<rt>しんにゅう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐため",
     "<ruby>祭<rt>まつ</rt></ruby>りのため"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>最後<rt>さいご</rt></ruby>に<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
-    "<ruby>仲直<rt>なかなお</rt></ruby>りのほうが<ruby>難<rt>むずか</rt></ruby>しい",
+    "<ruby>帰<rt>かえ</rt></ruby>りなさい",
     "<ruby>戦<rt>たたか</rt></ruby>うのは<ruby>簡単<rt>かんたん</rt></ruby>だ",
-    "<ruby>帰<rt>かえ</rt></ruby>りなさい"
+    "<ruby>仲直<rt>なかなお</rt></ruby>りのほうが<ruby>難<rt>むずか</rt></ruby>しい"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "At the museum there was a room from the samurai period. On navy-blue cloth, old rifles and a pistol were lined up. The explanation said they were made to prevent invasions. They say that, before the outcome was decided, many people left their homeland. The guide went on talking regardless of the children making a racket. I took notes as I heard it. At the end he said: «making peace is harder than fighting»."

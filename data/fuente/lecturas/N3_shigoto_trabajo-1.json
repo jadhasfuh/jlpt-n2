@@ -8,21 +8,21 @@
    "p": "なぜ<ruby>断<rt>ことわ</rt></ruby>りましたか。",
    "opciones": [
     "<ruby>条件<rt>じょうけん</rt></ruby>がわるいから",
+    "<ruby>噂<rt>うわさ</rt></ruby>があるから",
     "いまの<ruby>職<rt>しょく</rt></ruby>と<ruby>両立<rt>りょうりつ</rt></ruby>しないから",
-    "<ruby>景気<rt>けいき</rt></ruby>がわるいから",
-    "<ruby>噂<rt>うわさ</rt></ruby>があるから"
+    "<ruby>景気<rt>けいき</rt></ruby>がわるいから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えはどれですか。",
    "opciones": [
     "<ruby>義務<rt>ぎむ</rt></ruby>をふやすべきだ",
-    "<ruby>管理<rt>かんり</rt></ruby>できない<ruby>約束<rt>やくそく</rt></ruby>はだれのためにもならない",
+    "<ruby>噂<rt>うわさ</rt></ruby>を<ruby>気<rt>き</rt></ruby>にすべきだ",
     "<ruby>仕事<rt>しごと</rt></ruby>は<ruby>多<rt>おお</rt></ruby>いほうがいい",
-    "<ruby>噂<rt>うわさ</rt></ruby>を<ruby>気<rt>き</rt></ruby>にすべきだ"
+    "<ruby>管理<rt>かんり</rt></ruby>できない<ruby>約束<rt>やくそく</rt></ruby>はだれのためにもならない"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "A new job offer came my way. The conditions weren't bad, but I decided to turn it down. Word also reached me that it was a shame, with the economy doing so badly. But, thinking about the workload, it isn't compatible with my current job. It's also true that I'd had a run of days looking tired. Rather than piling on obligations, I want to do well what I already have. Committing to something you can't manage ends up benefiting nobody."

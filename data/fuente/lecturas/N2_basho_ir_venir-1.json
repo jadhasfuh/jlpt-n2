@@ -7,20 +7,20 @@
   {
    "p": "どうして<ruby>回<rt>まわ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>をしましたか。",
    "opciones": [
-    "<ruby>雨<rt>あめ</rt></ruby>だったから",
     "<ruby>工事<rt>こうじ</rt></ruby>で<ruby>通<rt>とお</rt></ruby>れなかったから",
-    "<ruby>犬<rt>いぬ</rt></ruby>がいたから"
+    "<ruby>犬<rt>いぬ</rt></ruby>がいたから",
+    "<ruby>雨<rt>あめ</rt></ruby>だったから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>公園<rt>こうえん</rt></ruby>の<ruby>道<rt>みち</rt></ruby>で<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>きましたか。",
    "opciones": [
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>倒<rt>たお</rt></ruby>れた",
     "<ruby>犬<rt>いぬ</rt></ruby>が<ruby>飛<rt>と</rt></ruby>び<ruby>込<rt>こ</rt></ruby>んできた",
-    "<ruby>車<rt>くるま</rt></ruby>が<ruby>止<rt>と</rt></ruby>まった",
-    "<ruby>人<rt>ひと</rt></ruby>が<ruby>倒<rt>たお</rt></ruby>れた"
+    "<ruby>車<rt>くるま</rt></ruby>が<ruby>止<rt>と</rt></ruby>まった"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "その<ruby>道<rt>みち</rt></ruby>はいつ<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いですか。",

@@ -7,22 +7,22 @@
   {
    "p": "コーチは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
+    "<ruby>練習<rt>れんしゅう</rt></ruby>をふやせ",
     "かならず<ruby>勝<rt>か</rt></ruby>て",
     "<em class=\"g\">たとえ</em><ruby>負<rt>ま</rt></ruby>け<em class=\"g\">ても</em>さいごまで<ruby>走<rt>はし</rt></ruby>れ",
-    "<ruby>練習<rt>れんしゅう</rt></ruby>をふやせ",
     "やめてもいい"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "その<ruby>人<rt>ひと</rt></ruby>のちからとは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>勝<rt>か</rt></ruby>つこと",
-    "<ruby>転<rt>ころ</rt></ruby>んだあとに<ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がる<ruby>速<rt>はや</rt></ruby>さ",
     "<ruby>走<rt>はし</rt></ruby>る<ruby>速<rt>はや</rt></ruby>さ",
-    "<ruby>練習<rt>れんしゅう</rt></ruby>のりょう"
+    "<ruby>練習<rt>れんしゅう</rt></ruby>のりょう",
+    "<ruby>勝<rt>か</rt></ruby>つこと",
+    "<ruby>転<rt>ころ</rt></ruby>んだあとに<ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がる<ruby>速<rt>はや</rt></ruby>さ"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "When I was the worst in the team, the coach told me: «even if you lose, run to the end». At the time I didn't understand what he meant. If we train to win the match, why is he talking about after losing? Now I understand. Even if the result is bad, only someone who didn't give up until the end can turn up for the next match. It must be the same with skating. How quickly you get up after falling is the strength you have."

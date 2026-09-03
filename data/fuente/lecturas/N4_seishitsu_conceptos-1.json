@@ -7,12 +7,12 @@
   {
    "p": "なぜ、すぐに<ruby>直<rt>なお</rt></ruby>さなかったのですか。",
    "opciones": [
-    "<ruby>時間<rt>じかん</rt></ruby>がないから",
     "<ruby>原因<rt>げんいん</rt></ruby>が<ruby>分<rt>わ</rt></ruby>からないままではまたとまるから",
-    "ぶひんがないから",
-    "<ruby>人<rt>ひと</rt></ruby>がたりないから"
+    "<ruby>時間<rt>じかん</rt></ruby>がないから",
+    "<ruby>人<rt>ひと</rt></ruby>がたりないから",
+    "ぶひんがないから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>仕事<rt>しごと</rt></ruby>では<ruby>何<rt>なに</rt></ruby>がはやいと<ruby>言<rt>い</rt></ruby>われていますか。",

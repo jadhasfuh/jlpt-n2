@@ -7,12 +7,12 @@
   {
    "p": "<ruby>誤解<rt>ごかい</rt></ruby>だと<ruby>分<rt>わ</rt></ruby>かるまで、どのくらいかかりましたか。",
    "opciones": [
-    "<ruby>一日<rt>いちにち</rt></ruby>",
     "<ruby>三日<rt>みっか</rt></ruby>",
     "<ruby>一<rt>いっ</rt></ruby>しゅうかん",
+    "<ruby>一日<rt>いちにち</rt></ruby>",
     "<ruby>五<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "どうやって<ruby>解決<rt>かいけつ</rt></ruby>しましたか。",

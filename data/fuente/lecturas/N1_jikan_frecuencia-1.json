@@ -7,12 +7,12 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>と<ruby>相手<rt>あいて</rt></ruby>は、どのくらい<ruby>会<rt>あ</rt></ruby>いますか。",
    "opciones": [
-    "<ruby>毎日<rt>まいにち</rt></ruby>",
     "<ruby>月<rt>つき</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>か<ruby>二度<rt>にど</rt></ruby>",
-    "<ruby>年<rt>ねん</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>",
-    "はじめて<ruby>会<rt>あ</rt></ruby>った"
+    "はじめて<ruby>会<rt>あ</rt></ruby>った",
+    "<ruby>毎日<rt>まいにち</rt></ruby>",
+    "<ruby>年<rt>ねん</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>店<rt>みせ</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>、この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をするつもりですか。",

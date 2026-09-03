@@ -7,12 +7,12 @@
   {
    "p": "いままで、だれが<ruby>食事<rt>しょくじ</rt></ruby>をつくっていましたか。",
    "opciones": [
-    "この<ruby>人<rt>ひと</rt></ruby>",
     "<ruby>母<rt>はは</rt></ruby>",
+    "<ruby>三人<rt>さんにん</rt></ruby>で",
     "<ruby>父<rt>ちち</rt></ruby>",
-    "<ruby>三人<rt>さんにん</rt></ruby>で"
+    "この<ruby>人<rt>ひと</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "これから、どうなりますか。",

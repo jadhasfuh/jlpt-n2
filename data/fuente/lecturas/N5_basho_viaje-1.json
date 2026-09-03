@@ -16,20 +16,20 @@
   {
    "p": "その ひとは ひざの <ruby>上<rt>うえ</rt></ruby>に なにを もって いましたか。",
    "opciones": [
+    "とけいだけ",
     "かいしゃの ぬいぐるみ",
-    "<ruby>地図<rt>ちず</rt></ruby>",
-    "とけいだけ"
+    "<ruby>地図<rt>ちず</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんは <ruby>地図<rt>ちず</rt></ruby>で なにを しましたか。",
    "opciones": [
-    "こうべを ゆびで <ruby>押<rt>お</rt></ruby>さえました",
     "<ruby>道<rt>みち</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました",
-    "なにも しませんでした"
+    "なにも しませんでした",
+    "こうべを ゆびで <ruby>押<rt>お</rt></ruby>さえました"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The day I came to Japan I made a long journey. I left home at four in the morning. The young woman in the next seat kept looking at her watch and writing something in a notebook. «These are the flight times», she explained. On her lap she had the airline's official plush toy. I got out the map and pressed my finger on the spot where Kobe is. When the plane landed, she was looking at her watch again."

@@ -16,20 +16,20 @@
   {
    "p": "<ruby>蛇口<rt>じゃぐち</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>水<rt>みず</rt></ruby>の<ruby>出<rt>で</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>い",
     "<ruby>新<rt>あたら</rt></ruby>しい",
+    "<ruby>水<rt>みず</rt></ruby>の<ruby>出<rt>で</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>い",
     "なかった"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>決<rt>き</rt></ruby>める<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をしたいですか。",
    "opciones": [
-    "<ruby>戸棚<rt>とだな</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<ruby>見<rt>み</rt></ruby>る",
+    "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>す",
     "<ruby>家賃<rt>やちん</rt></ruby>を<ruby>下<rt>さ</rt></ruby>げる",
-    "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>す"
+    "<ruby>戸棚<rt>とだな</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<ruby>見<rt>み</rt></ruby>る"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Since the house became too small for us, I started looking for one to rent. I found one with a guest room, a tatami room, a garage and a storeroom. The tap gave little water and there was a slight smell of drains. And yet, the rent was higher than I thought. The deadline is this week, but before deciding I want to open the cupboards and see inside."

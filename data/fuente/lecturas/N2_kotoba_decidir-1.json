@@ -16,20 +16,20 @@
   {
    "p": "<ruby>対策<rt>たいさく</rt></ruby>をいくつ<ruby>用意<rt>ようい</rt></ruby>しましたか。",
    "opciones": [
+    "<ruby>五<rt>いつ</rt></ruby>つ",
     "<ruby>三<rt>みっ</rt></ruby>つ",
-    "<ruby>一<rt>ひと</rt></ruby>つ",
-    "<ruby>五<rt>いつ</rt></ruby>つ"
+    "<ruby>一<rt>ひと</rt></ruby>つ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>予備<rt>よび</rt></ruby>の<ruby>案<rt>あん</rt></ruby>はどうしましたか。",
    "opciones": [
-    "<ruby>残<rt>のこ</rt></ruby>した",
+    "<ruby>使<rt>つか</rt></ruby>った",
     "<ruby>捨<rt>す</rt></ruby>てた",
-    "<ruby>使<rt>つか</rt></ruby>った"
+    "<ruby>残<rt>のこ</rt></ruby>した"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "There was a meeting to decide the theme of next year's programme. Since last year's aim came out blurred, this time we made the criterion clear. Without a yardstick you can't say whether something is right or wrong. We prepared three action plans and also left a backup proposal. That everyone agreed, having spent so long preparing it, seems to me only natural."

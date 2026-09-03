@@ -16,20 +16,20 @@
   {
    "p": "どうして<ruby>何度<rt>なんど</rt></ruby>も<ruby>休<rt>やす</rt></ruby>みましたか。",
    "opciones": [
-    "めまいがしたから",
     "<ruby>暑<rt>あつ</rt></ruby>いから",
+    "めまいがしたから",
     "<ruby>雨<rt>あめ</rt></ruby>だから"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>頂上<rt>ちょうじょう</rt></ruby>で<ruby>何<rt>なに</rt></ruby>がありましたか。",
    "opciones": [
-    "<ruby>景色<rt>けしき</rt></ruby>が<ruby>見<rt>み</rt></ruby>えた",
+    "<ruby>人<rt>ひと</rt></ruby>に<ruby>会<rt>あ</rt></ruby>った",
     "<ruby>鐘<rt>かね</rt></ruby>を<ruby>鳴<rt>な</rt></ruby>らした",
-    "<ruby>人<rt>ひと</rt></ruby>に<ruby>会<rt>あ</rt></ruby>った"
+    "<ruby>景色<rt>けしき</rt></ruby>が<ruby>見<rt>み</rt></ruby>えた"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The shrine where the god is worshipped is at the top of a stone staircase. The sun beat down and the shadows leaned diagonally. Every time I stepped over a root I felt dizzy, and I rested several times. Having sworn I'd climb it even on all fours, I couldn't afford to hesitate. A bell rang, and only from up there was there a view that could be seen."

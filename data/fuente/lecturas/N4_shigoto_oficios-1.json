@@ -7,22 +7,22 @@
   {
    "p": "<ruby>事故<rt>じこ</rt></ruby>のニュースがあると、どうしますか。",
    "opciones": [
-    "<ruby>朝<rt>あさ</rt></ruby>まで<ruby>待<rt>ま</rt></ruby>つ",
-    "<ruby>夜<rt>よる</rt></ruby>でも<ruby>出<rt>で</rt></ruby>かける",
+    "<ruby>書<rt>か</rt></ruby>かない",
     "<ruby>電話<rt>でんわ</rt></ruby>する",
-    "<ruby>書<rt>か</rt></ruby>かない"
+    "<ruby>夜<rt>よる</rt></ruby>でも<ruby>出<rt>で</rt></ruby>かける",
+    "<ruby>朝<rt>あさ</rt></ruby>まで<ruby>待<rt>ま</rt></ruby>つ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>友<rt>とも</rt></ruby>だちは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。",
    "opciones": [
-    "たいへんだからやめる",
-    "<ruby>書<rt>か</rt></ruby>かなければなかったことになる",
     "アナウンサーになりたい",
-    "<ruby>警察<rt>けいさつ</rt></ruby>ではたらきたい"
+    "<ruby>警察<rt>けいさつ</rt></ruby>ではたらきたい",
+    "たいへんだからやめる",
+    "<ruby>書<rt>か</rt></ruby>かなければなかったことになる"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I have a friend who works as a journalist at a newspaper. When there's news of accidents and the like, he goes out even at night. He goes to all sorts of places: police stations, hospitals. It seems hard, but apparently he has no intention of giving it up. He said: «if you don't write it, it's as if it hadn't happened». His face doesn't appear like the presenters', but it's because someone writes it down properly that the rest of us get to know."

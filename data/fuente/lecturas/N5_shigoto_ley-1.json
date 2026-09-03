@@ -16,20 +16,20 @@
   {
    "p": "たなかさんの こたえは なんですか。",
    "opciones": [
+    "ぜんぶ うそ",
     "はんぶんは ほんとう、はんぶんは はなし",
-    "ぜんぶ ほんとう",
-    "ぜんぶ うそ"
+    "ぜんぶ ほんとう"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんは <ruby>日本<rt>にほん</rt></ruby>を どう おもって いますか。",
    "opciones": [
-    "いちばん あんぜんな ばしょ",
     "あぶない ばしょ",
-    "つまらない ばしょ"
+    "つまらない ばしょ",
+    "いちばん あんぜんな ばしょ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "When the film ended I asked a question. «Was that period really like that?» Mrs Tanaka answered: «half of it is true and half of it is story». Scenes where someone is killed are unthinkable in today's Japan. This is the safest place I have lived in. But every country has a period it would rather not talk about."

@@ -16,20 +16,20 @@
   {
    "p": "まどから なにが 見えますか。",
    "opciones": [
-    "ちいさい こうえん",
     "がっこう",
+    "ちいさい こうえん",
     "<ruby>駅<rt>えき</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "メキシコの <ruby>北<rt>きた</rt></ruby>の ふゆは どうですか。",
    "opciones": [
-    "さむいです",
     "あついです",
-    "あたたかいです"
+    "あたたかいです",
+    "さむいです"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "My room isn't big. My luggage is on the bed. The desk is by the window. If you look down from there, there's a small park. «What's that over there?» I asked Mrs Tanaka. «That place is a children's park», she answered. «Is it hot in your country?» she asked me. My home is in the north of Mexico. In winter it's cold. Mrs Tanaka was very surprised."

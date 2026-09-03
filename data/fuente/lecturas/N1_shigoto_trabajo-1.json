@@ -7,12 +7,12 @@
   {
    "p": "<ruby>募集<rt>ぼしゅう</rt></ruby>の<ruby>条件<rt>じょうけん</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>経験<rt>けいけん</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>だ",
     "<ruby>経験<rt>けいけん</rt></ruby>に<ruby>関係<rt>かんけい</rt></ruby>なく<ruby>応募<rt>おうぼ</rt></ruby>できる",
+    "<ruby>年齢<rt>ねんれい</rt></ruby>の<ruby>制限<rt>せいげん</rt></ruby>がある",
     "<ruby>業績<rt>ぎょうせき</rt></ruby>だけで<ruby>決<rt>き</rt></ruby>まる",
-    "<ruby>年齢<rt>ねんれい</rt></ruby>の<ruby>制限<rt>せいげん</rt></ruby>がある"
+    "<ruby>経験<rt>けいけん</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>だ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>決<rt>き</rt></ruby>め<ruby>手<rt>て</rt></ruby>になったのは<ruby>何<rt>なん</rt></ruby>ですか。",

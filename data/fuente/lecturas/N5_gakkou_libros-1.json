@@ -16,20 +16,20 @@
   {
    "p": "<ruby>一<rt>いっ</rt></ruby>ページ <ruby>読<rt>よ</rt></ruby>むのに どのくらい かかりますか。",
    "opciones": [
+    "いちじかん",
     "さんじゅっぷん",
-    "さんぷん",
-    "いちじかん"
+    "さんぷん"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>一番<rt>いちばん</rt></ruby> うれしかったのは いつですか。",
    "opciones": [
-    "さいごまで <ruby>読<rt>よ</rt></ruby>めた ひ",
+    "<ruby>雑誌<rt>ざっし</rt></ruby>を かった ひ",
     "<ruby>図書館<rt>としょかん</rt></ruby>が できた ひ",
-    "<ruby>雑誌<rt>ざっし</rt></ruby>を かった ひ"
+    "さいごまで <ruby>読<rt>よ</rt></ruby>めた ひ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Next to the school there's a small library. After class I've made a habit of reading the newspaper there. There are so many kanji that one page takes me half an hour. Magazines are easier because they have photos. The happiest I've been in Japan was the day I got to the end of something. It was a short story, but I didn't look at the dictionary once."

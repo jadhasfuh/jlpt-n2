@@ -7,12 +7,12 @@
   {
    "p": "<ruby>売上<rt>うりあげ</rt></ruby>の<ruby>不振<rt>ふしん</rt></ruby>に<ruby>重<rt>かさ</rt></ruby>なった<ruby>問題<rt>もんだい</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>人手<rt>ひとで</rt></ruby>が<ruby>足<rt>た</rt></ruby>りない",
     "<ruby>天候<rt>てんこう</rt></ruby>が<ruby>不順<rt>ふじゅん</rt></ruby>で<ruby>材料<rt>ざいりょう</rt></ruby>の<ruby>値<rt>ね</rt></ruby>が<ruby>上<rt>あ</rt></ruby>がった",
     "<ruby>店<rt>みせ</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>い",
-    "<ruby>客<rt>きゃく</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えた"
+    "<ruby>客<rt>きゃく</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えた",
+    "<ruby>人手<rt>ひとで</rt></ruby>が<ruby>足<rt>た</rt></ruby>りない"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>結果<rt>けっか</rt></ruby>はどうなりましたか。",

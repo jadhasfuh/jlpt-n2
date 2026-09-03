@@ -7,12 +7,12 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をほめられましたか。",
    "opciones": [
-    "<ruby>能力<rt>のうりょく</rt></ruby>",
     "<ruby>人柄<rt>ひとがら</rt></ruby>",
-    "<ruby>実績<rt>じっせき</rt></ruby>",
-    "<ruby>辛抱<rt>しんぼう</rt></ruby><ruby>強<rt>づよ</rt></ruby>さ"
+    "<ruby>能力<rt>のうりょく</rt></ruby>",
+    "<ruby>辛抱<rt>しんぼう</rt></ruby><ruby>強<rt>づよ</rt></ruby>さ",
+    "<ruby>実績<rt>じっせき</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>異動<rt>いどう</rt></ruby>のとき、<ruby>何<rt>なに</rt></ruby>を<ruby>知<rt>し</rt></ruby>りましたか。",

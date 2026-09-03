@@ -7,22 +7,22 @@
   {
    "p": "たくさんのきのうがついたどうぐを、じっさいはどのくらい<ruby>使<rt>つか</rt></ruby>いましたか。",
    "opciones": [
+    "<ruby>使<rt>つか</rt></ruby>わなかった",
     "ぜんぶ",
     "<ruby>三<rt>みっ</rt></ruby>つくらい",
-    "<ruby>一<rt>ひと</rt></ruby>つ",
-    "<ruby>使<rt>つか</rt></ruby>わなかった"
+    "<ruby>一<rt>ひと</rt></ruby>つ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>素晴<rt>すば</rt></ruby>らしいどうぐはどんなものですか。",
    "opciones": [
     "<ruby>複雑<rt>ふくざつ</rt></ruby>なもの",
-    "<ruby>美<rt>うつく</rt></ruby>しくてたんじゅんなもの",
+    "<ruby>不便<rt>ふべん</rt></ruby>なもの",
     "<ruby>特別<rt>とくべつ</rt></ruby>なもの",
-    "<ruby>不便<rt>ふべん</rt></ruby>なもの"
+    "<ruby>美<rt>うつく</rt></ruby>しくてたんじゅんなもの"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "There was a time when the more complicated something was, the better it seemed to me. A tool with many functions gave me a feeling of being special. But in practice I only used about three. It wasn't that the others were useless: it's that I didn't need them. Splendid tools are beautiful and simple. Curiously, sometimes what looks inconvenient is what lasts longest. I think what's needed is an eye for choosing the right thing."

@@ -7,12 +7,12 @@
   {
    "p": "<ruby>健康<rt>けんこう</rt></ruby><ruby>診断<rt>しんだん</rt></ruby>で、この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>思<rt>おも</rt></ruby>い<ruby>知<rt>し</rt></ruby>りましたか。",
    "opciones": [
-    "<ruby>準備<rt>じゅんび</rt></ruby>が<ruby>長<rt>なが</rt></ruby>すぎること",
     "<ruby>肉体<rt>にくたい</rt></ruby>は<ruby>正直<rt>しょうじき</rt></ruby>だということ",
-    "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>向<rt>む</rt></ruby>いていないこと",
-    "<ruby>体力<rt>たいりょく</rt></ruby>は<ruby>関係<rt>かんけい</rt></ruby>ないこと"
+    "<ruby>準備<rt>じゅんび</rt></ruby>が<ruby>長<rt>なが</rt></ruby>すぎること",
+    "<ruby>体力<rt>たいりょく</rt></ruby>は<ruby>関係<rt>かんけい</rt></ruby>ないこと",
+    "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>向<rt>む</rt></ruby>いていないこと"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "はじめて<ruby>主体<rt>しゅたい</rt></ruby>として<ruby>動<rt>うご</rt></ruby>いている<ruby>感覚<rt>かんかく</rt></ruby>があったのは、いつですか。",

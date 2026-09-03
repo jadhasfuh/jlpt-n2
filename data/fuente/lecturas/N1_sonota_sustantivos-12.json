@@ -8,21 +8,21 @@
    "p": "<ruby>予定<rt>よてい</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>を<ruby>過<rt>す</rt></ruby>ぎて、この<ruby>人<rt>ひと</rt></ruby>はどうしましたか。",
    "opciones": [
     "<ruby>帰<rt>かえ</rt></ruby>った",
+    "<ruby>電話<rt>でんわ</rt></ruby>をかけた",
     "<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてもらった",
-    "<ruby>待<rt>ま</rt></ruby>ち<ruby>続<rt>つづ</rt></ruby>けた",
-    "<ruby>電話<rt>でんわ</rt></ruby>をかけた"
+    "<ruby>待<rt>ま</rt></ruby>ち<ruby>続<rt>つづ</rt></ruby>けた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>衝撃<rt>しょうげき</rt></ruby>を<ruby>受<rt>う</rt></ruby>けたのは、<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
     "<ruby>手<rt>て</rt></ruby>の<ruby>速<rt>はや</rt></ruby>さ",
-    "<ruby>失敗<rt>しっぱい</rt></ruby>した<ruby>品<rt>しな</rt></ruby>をためらいなく<ruby>処分<rt>しょぶん</rt></ruby>したこと",
     "<ruby>工房<rt>こうぼう</rt></ruby>の<ruby>広<rt>ひろ</rt></ruby>さ",
-    "<ruby>夫婦<rt>ふうふ</rt></ruby>の<ruby>若<rt>わか</rt></ruby>さ"
+    "<ruby>夫婦<rt>ふうふ</rt></ruby>の<ruby>若<rt>わか</rt></ruby>さ",
+    "<ruby>失敗<rt>しっぱい</rt></ruby>した<ruby>品<rt>しな</rt></ruby>をためらいなく<ruby>処分<rt>しょぶん</rt></ruby>したこと"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I went to do a feature at a small workshop in the provinces. The subject was craftsmanship and I'd been told the structure could be flexible. When I arrived, the building was at the end of a gravel track. Apparently it was founded ten years ago by a newly married couple. It was just before the exhibition where they were going to present their pieces and they were extremely busy there. Past the appointed hour they still couldn't attend to me and, since waiting wasn't going to help, I asked to be allowed to watch them work. You understand more things that way than by hearing it explained. The movement of their hands kept a steady rhythm that was neither fast nor slow. What struck me was that they discarded the pieces that came out badly without hesitating. Breaking without a second thought something you'd keep out of attachment. That instant ended up being the most important scene in the article."

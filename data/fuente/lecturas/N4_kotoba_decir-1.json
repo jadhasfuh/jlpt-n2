@@ -7,12 +7,12 @@
   {
    "p": "はじめのころ、どうしましたか。",
    "opciones": [
-    "<ruby>自分<rt>じぶん</rt></ruby>で<ruby>考<rt>かんが</rt></ruby>えた",
     "なんども<ruby>先輩<rt>せんぱい</rt></ruby>にきいた",
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだ",
     "<ruby>使<rt>つか</rt></ruby>わなかった",
-    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだ"
+    "<ruby>自分<rt>じぶん</rt></ruby>で<ruby>考<rt>かんが</rt></ruby>えた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "ていねいなことばは<ruby>何<rt>なに</rt></ruby>のためですか。",

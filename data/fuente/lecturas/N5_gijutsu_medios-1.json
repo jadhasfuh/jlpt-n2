@@ -16,20 +16,20 @@
   {
    "p": "メキシコまで どのくらい かかると 言われましたか。",
    "opciones": [
-    "にしゅうかんぐらい",
     "ふつか",
+    "にしゅうかんぐらい",
     "<ruby>一<rt>いっ</rt></ruby>かげつ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "つぎは なにを おくりますか。",
    "opciones": [
-    "はがき",
     "<ruby>手紙<rt>てがみ</rt></ruby>",
-    "でんわ"
+    "でんわ",
+    "はがき"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I wrote my mother a letter. Not an email. A paper letter. I bought the stamp at the post office and stuck it on the envelope. «To Mexico it takes about two weeks», they told me. Three weeks later my mother rang. Her voice sounded odd. She says she had been crying. Next time I'll send a postcard, so I can send a photo too."

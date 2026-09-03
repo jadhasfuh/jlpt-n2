@@ -7,22 +7,22 @@
   {
    "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>週末<rt>しゅうまつ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をしていましたか。",
    "opciones": [
-    "<ruby>会社<rt>かいしゃ</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いていた",
-    "<ruby>山<rt>やま</rt></ruby>の<ruby>中腹<rt>ちゅうふく</rt></ruby>の<ruby>畑<rt>はたけ</rt></ruby>に<ruby>通<rt>かよ</rt></ruby>っていた",
     "<ruby>家<rt>いえ</rt></ruby>で<ruby>休<rt>やす</rt></ruby>んでいた",
-    "<ruby>町<rt>まち</rt></ruby>へ<ruby>降<rt>お</rt></ruby>りていた"
+    "<ruby>町<rt>まち</rt></ruby>へ<ruby>降<rt>お</rt></ruby>りていた",
+    "<ruby>山<rt>やま</rt></ruby>の<ruby>中腹<rt>ちゅうふく</rt></ruby>の<ruby>畑<rt>はたけ</rt></ruby>に<ruby>通<rt>かよ</rt></ruby>っていた",
+    "<ruby>会社<rt>かいしゃ</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>いていた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>停滞<rt>ていたい</rt></ruby>している<ruby>時<rt>とき</rt></ruby>、どうするべきだと<ruby>考<rt>かんが</rt></ruby>えていましたか。",
    "opciones": [
-    "<ruby>待<rt>ま</rt></ruby>つほうがいい",
-    "<ruby>体<rt>からだ</rt></ruby>をうごかすほうがいい",
     "<ruby>人<rt>ひと</rt></ruby>に<ruby>相談<rt>そうだん</rt></ruby>する",
-    "<ruby>案<rt>あん</rt></ruby>を<ruby>変<rt>か</rt></ruby>える"
+    "<ruby>待<rt>ま</rt></ruby>つほうがいい",
+    "<ruby>案<rt>あん</rt></ruby>を<ruby>変<rt>か</rt></ruby>える",
+    "<ruby>体<rt>からだ</rt></ruby>をうごかすほうがいい"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "My father, as well as working at the company, went up at weekends to the plot halfway up the hillside. Once that area was an uncleared slope, and I was told they turned it into land by removing the stones one by one. There were days when the clouds stopped right overhead, and days when only the village directly below was sunk in rain. Sitting in the sun eating our packed lunch, the voices of the birds in the wood behind sounded very close. It was around the time when opinions inside the company had divided and my father's proposal had just been rejected. Even so, on reaching the plot he'd start with whatever was nearest to hand. He said that the more stuck you are, the better it is to move your body. I still remember the sound of the soil as he turned it over with a sort of iron bar."

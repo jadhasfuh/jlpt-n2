@@ -7,12 +7,12 @@
   {
    "p": "この<ruby>裁判<rt>さいばん</rt></ruby>はどんな<ruby>事件<rt>じけん</rt></ruby>でしたか。",
    "opciones": [
-    "<ruby>殺人<rt>さつじん</rt></ruby>",
     "<ruby>規約<rt>きやく</rt></ruby>をめぐる<ruby>争<rt>あらそ</rt></ruby>い",
+    "<ruby>殺人<rt>さつじん</rt></ruby>",
     "<ruby>特許<rt>とっきょ</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>",
     "<ruby>独裁<rt>どくさい</rt></ruby>の<ruby>事件<rt>じけん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>怖<rt>こわ</rt></ruby>いと<ruby>感<rt>かん</rt></ruby>じたのは<ruby>何<rt>なん</rt></ruby>ですか。",

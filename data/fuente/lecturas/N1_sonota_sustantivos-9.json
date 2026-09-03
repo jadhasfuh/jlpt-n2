@@ -7,22 +7,22 @@
   {
    "p": "<ruby>辞書<rt>じしょ</rt></ruby>の「<ruby>郷愁<rt>きょうしゅう</rt></ruby>」の<ruby>記述<rt>きじゅつ</rt></ruby>はどうでしたか。",
    "opciones": [
-    "とても<ruby>長<rt>なが</rt></ruby>かった",
-    "ごく<ruby>短<rt>みじか</rt></ruby>く、<ruby>概略<rt>がいりゃく</rt></ruby>しかなかった",
     "<ruby>分<rt>わ</rt></ruby>かりやすかった",
-    "<ruby>載<rt>の</rt></ruby>っていなかった"
+    "<ruby>載<rt>の</rt></ruby>っていなかった",
+    "ごく<ruby>短<rt>みじか</rt></ruby>く、<ruby>概略<rt>がいりゃく</rt></ruby>しかなかった",
+    "とても<ruby>長<rt>なが</rt></ruby>かった"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>父<rt>ちち</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。",
    "opciones": [
-    "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しに<ruby>賛成<rt>さんせい</rt></ruby>している",
-    "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しの<ruby>話<rt>はなし</rt></ruby>を<ruby>拒絶<rt>きょぜつ</rt></ruby>する",
     "<ruby>東京<rt>とうきょう</rt></ruby>に<ruby>住<rt>す</rt></ruby>んでいる",
-    "<ruby>年<rt>とし</rt></ruby>に<ruby>二度<rt>にど</rt></ruby><ruby>帰<rt>かえ</rt></ruby>る"
+    "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しに<ruby>賛成<rt>さんせい</rt></ruby>している",
+    "<ruby>年<rt>とし</rt></ruby>に<ruby>二度<rt>にど</rt></ruby><ruby>帰<rt>かえ</rt></ruby>る",
+    "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しの<ruby>話<rt>はなし</rt></ruby>を<ruby>拒絶<rt>きょぜつ</rt></ruby>する"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "From the window of the train back to Tokyo I looked out at a rolling landscape. Although I only go back to that region twice a year, on leaving my chest always feels somewhat heavy. Once or twice I've looked up the word «nostalgia» in the dictionary. The entry was very brief and gave only a summary. It must be an emotion that doesn't let itself be fully explained. My father is stubborn and, however much I talk to him about moving, he refuses. It isn't hard to grasp how he feels. Leaving the house where you were born must be like leaving your memory there. I keep wondering whether there might be some way for us to live together. When it started to get dark outside, the carriage light gave me back my own reflected face. There were several people sitting there with that very same face."

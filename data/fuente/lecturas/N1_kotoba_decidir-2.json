@@ -7,12 +7,12 @@
   {
    "p": "<ruby>当日<rt>とうじつ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>きましたか。",
    "opciones": [
-    "<ruby>人<rt>ひと</rt></ruby>が<ruby>来<rt>こ</rt></ruby>なかった",
     "<ruby>機械<rt>きかい</rt></ruby>が<ruby>故障<rt>こしょう</rt></ruby>した",
     "<ruby>受付<rt>うけつけ</rt></ruby>がまちがえた",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>来<rt>こ</rt></ruby>なかった",
     "<ruby>机<rt>つくえ</rt></ruby>が<ruby>足<rt>た</rt></ruby>りなかった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって<ruby>統率<rt>とうそつ</rt></ruby>とは<ruby>何<rt>なん</rt></ruby>ですか。",

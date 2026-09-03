@@ -7,12 +7,12 @@
   {
    "p": "<ruby>配分<rt>はいぶん</rt></ruby>の<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>いがもめるのは、なぜですか。",
    "opciones": [
-    "<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いから",
     "<ruby>財源<rt>ざいげん</rt></ruby>が<ruby>限<rt>かぎ</rt></ruby>られているから",
-    "<ruby>会議<rt>かいぎ</rt></ruby>が<ruby>長<rt>なが</rt></ruby>いから",
-    "<ruby>意見<rt>いけん</rt></ruby>が<ruby>出<rt>で</rt></ruby>ないから"
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いから",
+    "<ruby>意見<rt>いけん</rt></ruby>が<ruby>出<rt>で</rt></ruby>ないから",
+    "<ruby>会議<rt>かいぎ</rt></ruby>が<ruby>長<rt>なが</rt></ruby>いから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>判断<rt>はんだん</rt></ruby>を<ruby>促<rt>うなが</rt></ruby>すために、<ruby>何<rt>なに</rt></ruby>をしましたか。",

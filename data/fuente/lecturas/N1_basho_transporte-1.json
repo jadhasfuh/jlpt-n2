@@ -7,12 +7,12 @@
   {
    "p": "<ruby>事務所<rt>じむしょ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ってすぐ、この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>見<rt>み</rt></ruby>ますか。",
    "opciones": [
-    "<ruby>天気<rt>てんき</rt></ruby>よほう",
     "<ruby>壁<rt>かべ</rt></ruby>の<ruby>表<rt>ひょう</rt></ruby>にある<ruby>荷<rt>に</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
-    "<ruby>車<rt>くるま</rt></ruby>のかぎ",
-    "<ruby>同僚<rt>どうりょう</rt></ruby>の<ruby>顔<rt>かお</rt></ruby>"
+    "<ruby>天気<rt>てんき</rt></ruby>よほう",
+    "<ruby>同僚<rt>どうりょう</rt></ruby>の<ruby>顔<rt>かお</rt></ruby>",
+    "<ruby>車<rt>くるま</rt></ruby>のかぎ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>運搬<rt>うんぱん</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>について、この<ruby>人<rt>ひと</rt></ruby>はどう<ruby>考<rt>かんが</rt></ruby>えていますか。",

@@ -25,11 +25,11 @@
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
+    "<ruby>食<rt>た</rt></ruby>べなさい",
     "<ruby>走<rt>はし</rt></ruby>りなさい",
-    "<ruby>休<rt>やす</rt></ruby>ませなさい",
-    "<ruby>食<rt>た</rt></ruby>べなさい"
+    "<ruby>休<rt>やす</rt></ruby>ませなさい"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "Yesterday I suddenly fell on the stairs and hit my hip. I may have broken my little finger too. My heart raced and even my nerves hurt. My mother carried me to the hospital on her back. The doctor told me: «rest your body and your mind too». Now that I think about it, I believe I'd had this pain before."

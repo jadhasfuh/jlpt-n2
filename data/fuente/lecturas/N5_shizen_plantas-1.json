@@ -16,20 +16,20 @@
   {
    "p": "アンナさんは なんと 言いましたか。",
    "opciones": [
-    "みじかいから きれいだ",
     "ながく つづく",
+    "みじかいから きれいだ",
     "つまらない"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "はなびらは どこに ならびましたか。",
    "opciones": [
-    "<ruby>水<rt>みず</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>",
+    "みちの <ruby>上<rt>うえ</rt></ruby>",
     "<ruby>木<rt>き</rt></ruby>の <ruby>下<rt>した</rt></ruby>",
-    "みちの <ruby>上<rt>うえ</rt></ruby>"
+    "<ruby>水<rt>みず</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "At the start of April I went with Anna to see the blossom. Under the trees a lot of people were sitting. The petals fell in the wind and settled on the water. «It only lasts a week», said Anna. And she added: «it's beautiful because it's short». I still remember that line."

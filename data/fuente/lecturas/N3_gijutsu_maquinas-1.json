@@ -7,12 +7,12 @@
   {
    "p": "<ruby>楽器<rt>がっき</rt></ruby>と<ruby>機械<rt>きかい</rt></ruby>のちがいは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>古<rt>ふる</rt></ruby>さ",
     "<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>によって<ruby>音<rt>おと</rt></ruby>がかわること",
     "<ruby>値段<rt>ねだん</rt></ruby>",
-    "スイッチがあること"
+    "スイッチがあること",
+    "<ruby>古<rt>ふる</rt></ruby>さ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "そのピアノについて、どうなると<ruby>思<rt>おも</rt></ruby>っていますか。",

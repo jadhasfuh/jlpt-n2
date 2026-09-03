@@ -16,20 +16,20 @@
   {
    "p": "<ruby>学校<rt>がっこう</rt></ruby>の おかねは だれが はらいますか。",
    "opciones": [
+    "<ruby>学校<rt>がっこう</rt></ruby>",
     "<ruby>両親<rt>りょうしん</rt></ruby>",
-    "じぶん",
-    "<ruby>学校<rt>がっこう</rt></ruby>"
+    "じぶん"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "いま さいふに いくら ありますか。",
    "opciones": [
-    "<ruby>三千<rt>さんぜん</rt></ruby>えん",
+    "ぜろ",
     "<ruby>四万<rt>よんまん</rt></ruby>えん",
-    "ぜろ"
+    "<ruby>三千<rt>さんぜん</rt></ruby>えん"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The rent is forty thousand yen. For me that isn't a small amount. Electricity, gas and water come to about ten thousand a month. Food costs half as much if I cook it myself. My parents pay for the school. So everything else I have to work out on my own. I started from zero and right now I have three thousand yen in my wallet."

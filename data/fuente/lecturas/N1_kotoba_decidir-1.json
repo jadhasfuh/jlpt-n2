@@ -7,22 +7,22 @@
   {
    "p": "はじめ、この<ruby>人<rt>ひと</rt></ruby>はどうしていましたか。",
    "opciones": [
+    "<ruby>目標<rt>もくひょう</rt></ruby>を<ruby>絞<rt>しぼ</rt></ruby>った",
     "すぐに<ruby>書<rt>か</rt></ruby>きはじめた",
     "<ruby>上司<rt>じょうし</rt></ruby>の<ruby>指図<rt>さしず</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つばかりだった",
-    "<ruby>数字<rt>すうじ</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めた",
-    "<ruby>目標<rt>もくひょう</rt></ruby>を<ruby>絞<rt>しぼ</rt></ruby>った"
+    "<ruby>数字<rt>すうじ</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって<ruby>決断<rt>けつだん</rt></ruby>とは<ruby>何<rt>なん</rt></ruby>でしたか。",
    "opciones": [
-    "<ruby>足<rt>た</rt></ruby>すこと",
-    "<ruby>削<rt>けず</rt></ruby>ること",
     "<ruby>待<rt>ま</rt></ruby>つこと",
-    "<ruby>相談<rt>そうだん</rt></ruby>すること"
+    "<ruby>足<rt>た</rt></ruby>すこと",
+    "<ruby>相談<rt>そうだん</rt></ruby>すること",
+    "<ruby>削<rt>けず</rt></ruby>ること"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "When I was put in charge of a new business line project, at first the scale left me paralysed. I did nothing but wait for instructions from the boss and was incapable of deciding anything myself. However much you put on the airs of an expert and line up difficult words, if there's no substance nobody approves it. While you're doing it grudgingly, it isn't a project at all. I gathered objective figures and cut the objective down to one. I rewrote it aiming at one thing only: what value we can offer. Deciding didn't consist of adding, but of taking away. The preparations came together and it was approved six months later. The direction I set myself then is still the same."

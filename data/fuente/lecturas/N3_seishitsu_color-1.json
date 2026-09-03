@@ -7,12 +7,12 @@
   {
    "p": "チョークの<ruby>線<rt>せん</rt></ruby>をけすと、どうなりますか。",
    "opciones": [
-    "きえてしまう",
     "うっすらあとがのこる",
-    "<ruby>黒<rt>くろ</rt></ruby>くなる",
-    "<ruby>白<rt>しろ</rt></ruby>くなる"
+    "<ruby>白<rt>しろ</rt></ruby>くなる",
+    "きえてしまう",
+    "<ruby>黒<rt>くろ</rt></ruby>くなる"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "のこるのはどこですか。",

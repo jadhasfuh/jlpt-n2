@@ -16,20 +16,20 @@
   {
    "p": "アンナさんは なんと 言いましたか。",
    "opciones": [
-    "「のうこうですね」",
     "「あまいですね」",
+    "「のうこうですね」",
     "「たかいですね」"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>国<rt>くに</rt></ruby>を <ruby>出<rt>で</rt></ruby>てから、どう かんじますか。",
    "opciones": [
-    "じぶんの <ruby>国<rt>くに</rt></ruby>の ものが たかい",
+    "ぜんぶ やすい",
     "なにも かんじません",
-    "ぜんぶ やすい"
+    "じぶんの <ruby>国<rt>くに</rt></ruby>の ものが たかい"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "At the supermarket I found coffee made in Mexico. It cost three times what it costs in Mexico. I bought it anyway and drank it slowly at home. I gave Anna a cup and she said: «this is strong». City shops have things from all over the world. But since leaving my country, it's my country's things that seem dearest."

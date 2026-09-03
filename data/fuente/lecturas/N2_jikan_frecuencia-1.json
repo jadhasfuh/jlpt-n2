@@ -25,11 +25,11 @@
   {
    "p": "<ruby>急<rt>いそ</rt></ruby>いだ<ruby>結果<rt>けっか</rt></ruby>どうなりましたか。",
    "opciones": [
-    "<ruby>同<rt>おな</rt></ruby>じ<ruby>言葉<rt>ことば</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>った",
     "<ruby>短<rt>みじか</rt></ruby>くなった",
-    "<ruby>終<rt>お</rt></ruby>わった"
+    "<ruby>終<rt>お</rt></ruby>わった",
+    "<ruby>同<rt>おな</rt></ruby>じ<ruby>言葉<rt>ことば</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>った"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I go over the manuscript again and again, cutting out what's surplus. I don't count them one by one, but the number of times is a good deal more than «over and over». It's satisfying to see how it shortens step by step. Sometimes I go back partway, but that's rare. Perhaps from rushing, the same words were left repeated here and there, and I told myself I have to be very careful."

@@ -8,21 +8,21 @@
    "p": "<ruby>日本<rt>にほん</rt></ruby>に<ruby>来<rt>き</rt></ruby>たばかりのころ、この<ruby>人<rt>ひと</rt></ruby>は<ruby>新聞<rt>しんぶん</rt></ruby>が<ruby>読<rt>よ</rt></ruby>めましたか。",
    "opciones": [
     "だいたい<ruby>読<rt>よ</rt></ruby>めた",
+    "<ruby>読<rt>よ</rt></ruby>む<ruby>必要<rt>ひつよう</rt></ruby>がなかった",
     "<ruby>一行<rt>いちぎょう</rt></ruby>も<ruby>読<rt>よ</rt></ruby>めなかった",
-    "<ruby>見出<rt>みだ</rt></ruby>しだけ<ruby>読<rt>よ</rt></ruby>めた",
-    "<ruby>読<rt>よ</rt></ruby>む<ruby>必要<rt>ひつよう</rt></ruby>がなかった"
+    "<ruby>見出<rt>みだ</rt></ruby>しだけ<ruby>読<rt>よ</rt></ruby>めた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "パチンコ<ruby>屋<rt>や</rt></ruby>の<ruby>主人<rt>しゅじん</rt></ruby>は、<ruby>何<rt>なに</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きたがりましたか。",
    "opciones": [
+    "<ruby>辞書<rt>じしょ</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>",
     "<ruby>国防<rt>こくぼう</rt></ruby>のこと",
-    "<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>や<ruby>祭<rt>まつ</rt></ruby>りのこと",
     "<ruby>短歌<rt>たんか</rt></ruby>の<ruby>作<rt>つく</rt></ruby>り<ruby>方<rt>かた</rt></ruby>",
-    "<ruby>辞書<rt>じしょ</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>"
+    "<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>や<ruby>祭<rt>まつ</rt></ruby>りのこと"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "When I first arrived in Japan, I could only speak haltingly. I couldn't read a single line of the newspapers, full of words of Chinese origin, and I didn't know what terms like «UN» or «foreign minister» referred to either. Even so, every night I copied out Japanese texts, looking things up in the dictionary. It was nothing as noble as «effort upon effort». I simply didn't stop. The owner of the neighbourhood pachinko parlour always liked me to talk about my country. Not difficult things like national defence or state assets, but food and festivals. It was in that place too that they taught me a short poem about the origin of heaven and earth. Today I think those ten minutes were far more international than the academic world."

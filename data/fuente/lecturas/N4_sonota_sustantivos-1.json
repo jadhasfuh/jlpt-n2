@@ -7,12 +7,12 @@
   {
    "p": "となりの<ruby>人<rt>ひと</rt></ruby>はどうしましたか。",
    "opciones": [
-    "すぐすわった",
     "<em class=\"g\">なかなか</em>すわろうとし<em class=\"g\">ません</em>でした",
+    "<ruby>立<rt>た</rt></ruby>っていた",
     "ことわった",
-    "<ruby>立<rt>た</rt></ruby>っていた"
+    "すぐすわった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>はどう<ruby>思<rt>おも</rt></ruby>っていますか。",

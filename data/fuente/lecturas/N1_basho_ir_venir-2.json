@@ -7,12 +7,12 @@
   {
    "p": "<ruby>約束<rt>やくそく</rt></ruby>に<ruby>遅<rt>おく</rt></ruby>れそうだとわかって、この<ruby>人<rt>ひと</rt></ruby>はどうしましたか。",
    "opciones": [
-    "<ruby>何<rt>なに</rt></ruby>もしなかった",
     "<ruby>同僚<rt>どうりょう</rt></ruby>に<ruby>言付<rt>ことづ</rt></ruby>けをたのんだ",
-    "<ruby>約束<rt>やくそく</rt></ruby>をやめた",
-    "<ruby>走<rt>はし</rt></ruby>って<ruby>行<rt>い</rt></ruby>った"
+    "<ruby>走<rt>はし</rt></ruby>って<ruby>行<rt>い</rt></ruby>った",
+    "<ruby>何<rt>なに</rt></ruby>もしなかった",
+    "<ruby>約束<rt>やくそく</rt></ruby>をやめた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>先輩<rt>せんぱい</rt></ruby>のどんなところを<ruby>見習<rt>みなら</rt></ruby>いたいと<ruby>思<rt>おも</rt></ruby>いましたか。",

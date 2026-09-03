@@ -7,22 +7,22 @@
   {
    "p": "<ruby>朝<rt>あさ</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>、<ruby>船<rt>ふね</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>隻<rt>せき</rt></ruby><ruby>出<rt>で</rt></ruby>ていきますか。",
    "opciones": [
-    "<ruby>一<rt>いっ</rt></ruby><ruby>隻<rt>せき</rt></ruby>",
     "<ruby>二<rt>に</rt></ruby><ruby>隻<rt>せき</rt></ruby>",
-    "<ruby>三<rt>さん</rt></ruby><ruby>隻<rt>せき</rt></ruby>",
-    "<ruby>出<rt>で</rt></ruby>ない"
+    "<ruby>出<rt>で</rt></ruby>ない",
+    "<ruby>一<rt>いっ</rt></ruby><ruby>隻<rt>せき</rt></ruby>",
+    "<ruby>三<rt>さん</rt></ruby><ruby>隻<rt>せき</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "かぞえられないものは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "りんご",
-    "<ruby>生活<rt>せいかつ</rt></ruby>そのもの",
+    "<ruby>時間<rt>じかん</rt></ruby>のかず",
     "<ruby>船<rt>ふね</rt></ruby>",
-    "<ruby>時間<rt>じかん</rt></ruby>のかず"
+    "りんご",
+    "<ruby>生活<rt>せいかつ</rt></ruby>そのもの"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "There are three boats moored in the harbour. During the morning only one of them goes out. At the market I bought five apples. What can be counted, by counting it, settles the mind. But life itself isn't counted. Neither the time that passes while you work nor what you feel while waiting for someone turns into figures. It's precisely for that reason, I think, that we carefully count what can be counted."

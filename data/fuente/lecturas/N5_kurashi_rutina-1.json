@@ -16,20 +16,20 @@
   {
    "p": "<ruby>暇<rt>ひま</rt></ruby>な <ruby>日<rt>ひ</rt></ruby>は なにを しますか。",
    "opciones": [
+    "はたらきます",
     "そとを あるきます",
-    "ねます",
-    "はたらきます"
+    "ねます"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "じゅんばんが できてから、どう なりましたか。",
    "opciones": [
-    "<ruby>日本語<rt>にほんご</rt></ruby>が よく なりました",
     "つかれました",
-    "かわりません"
+    "かわりません",
+    "<ruby>日本語<rt>にほんご</rt></ruby>が よく なりました"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I get up at six and have a shower. I wash my face, brush my teeth and have bread. After school it's either work or studying at home. On free days I go out for a walk. At night I take a bath and go to bed at twelve. Since I've had this routine, my Japanese has been getting better bit by bit."

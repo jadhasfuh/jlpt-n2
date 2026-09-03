@@ -16,20 +16,20 @@
   {
    "p": "にほんの でんきだいは どうですか。",
    "opciones": [
-    "たかいです",
     "やすいです",
+    "たかいです",
     "ただです"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "いま、へやを <ruby>出<rt>で</rt></ruby>る とき どう しますか。",
    "opciones": [
-    "かならず <ruby>消<rt>け</rt></ruby>します",
     "ときどき わすれます",
-    "つけたままです"
+    "つけたままです",
+    "かならず <ruby>消<rt>け</rt></ruby>します"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Mrs Tanaka asked me: «why don't you turn the light off?». Back home in Mexico I never really thought about it. Jean said that electricity is expensive in Japan. Since that day I always switch it off when I leave the room. At first I forgot; now my hand does it by itself. It's a small thing, but it feels like learning to live here."

@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/kurashi/casa-1",
  "titulo": "ちいさい へや",
- "cuerpo": "へやは とても ちいさかったです。<ruby>戸<rt>と</rt></ruby>を <ruby>閉<rt>し</rt></ruby>めると、ひとりだけの ばしょに なります。<ruby>窓<rt>まど</rt></ruby>は ありませんが、<ruby>中<rt>なか</rt></ruby>は あたたかいです。ゆかに すわって、あしを のばすと ちょうど いい <ruby>大<rt>おお</rt></ruby>きさでした。<ruby>廊下<rt>ろうか</rt></ruby>の おくに お<ruby>手洗<rt>てあら</rt></ruby>いと シャワーが あります。こんな <ruby>建物<rt>たてもの</rt></ruby>は、ぼくの <ruby>国<rt>くに</rt></ruby>には ありません。",
+ "cuerpo": "へやは とても ちいさかったです。<ruby>戸<rt>と</rt></ruby>を <ruby>閉<rt>し</rt></ruby>めると、ひとりだけの ばしょに なります。<ruby>窓<rt>まど</rt></ruby>は ありませんが、<ruby>中<rt>なか</rt></ruby>は あたたかいです。ゆかに すわって、あしを のばすと ちょうど いい <ruby>大<rt>おお</rt></ruby>きさでした。<ruby>廊下<rt>ろうか</rt></ruby>の おくに おてあらいと シャワーが あります。こんな <ruby>建物<rt>たてもの</rt></ruby>は、ぼくの <ruby>国<rt>くに</rt></ruby>には ありません。",
  "traduccion": "La cabina era muy pequeña. Al cerrar la puerta corredera se convierte en un sitio sólo tuyo. No tiene ventana, pero dentro se está caliente. Sentado en el suelo y estirando las piernas, el tamaño era justo. Al fondo del pasillo están los servicios y las duchas. Un edificio así no existe en mi país.",
  "preguntas": [
   {
@@ -16,20 +16,20 @@
   {
    "p": "<ruby>廊下<rt>ろうか</rt></ruby>の おくに なにが ありますか。",
    "opciones": [
-    "お<ruby>手洗<rt>てあら</rt></ruby>いと シャワー",
-    "だいどころ",
-    "<ruby>玄関<rt>げんかん</rt></ruby>"
+    "<ruby>玄関<rt>げんかん</rt></ruby>",
+    "おてあらいと シャワー",
+    "だいどころ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんは この <ruby>建物<rt>たてもの</rt></ruby>を どう おもいましたか。",
    "opciones": [
-    "じぶんの <ruby>国<rt>くに</rt></ruby>には ない",
+    "たかい",
     "ふるい",
-    "たかい"
+    "じぶんの <ruby>国<rt>くに</rt></ruby>には ない"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The booth was very small. When you slide the door shut it becomes a place that's only yours. There's no window, but it's warm inside. Sitting on the floor with my legs stretched out, the size was just right. At the end of the corridor are the toilets and showers. A building like this doesn't exist in my country."

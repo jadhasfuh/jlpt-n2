@@ -16,20 +16,20 @@
   {
    "p": "こうべは どんな まちですか。",
    "opciones": [
-    "ふるい みなとまち",
     "あたらしい まち",
+    "ふるい みなとまち",
     "やまの まち"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんは どのくらい わかりましたか。",
    "opciones": [
-    "はんぶんぐらい",
     "ぜんぶ",
-    "ぜんぜん"
+    "ぜんぜん",
+    "はんぶんぐらい"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Today's class wasn't only about the language. The teacher told us the history of this city. Kobe is an old port where ships have arrived for centuries. That's why, they say, the food and even the shape of the city are different from elsewhere. I listened without looking at my notebook and understood about half. As you learn the language, the city starts making sense too."

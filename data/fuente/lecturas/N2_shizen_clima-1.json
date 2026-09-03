@@ -16,20 +16,20 @@
   {
    "p": "<ruby>弟<rt>おとうと</rt></ruby>は<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
+    "<ruby>外<rt>そと</rt></ruby>へ<ruby>行<rt>い</rt></ruby>こう",
     "<ruby>天気<rt>てんき</rt></ruby>は<ruby>占<rt>うらな</rt></ruby>いと<ruby>同<rt>おな</rt></ruby>じ",
-    "<ruby>寒<rt>さむ</rt></ruby>い",
-    "<ruby>外<rt>そと</rt></ruby>へ<ruby>行<rt>い</rt></ruby>こう"
+    "<ruby>寒<rt>さむ</rt></ruby>い"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "どうして<ruby>喉<rt>のど</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>くなりますか。",
    "opciones": [
-    "<ruby>水分<rt>すいぶん</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから",
+    "<ruby>叫<rt>さけ</rt></ruby>んだから",
     "<ruby>寒<rt>さむ</rt></ruby>いから",
-    "<ruby>叫<rt>さけ</rt></ruby>んだから"
+    "<ruby>水分<rt>すいぶん</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The pressure has dropped and it seems there'll be a blizzard tomorrow. My little brother says cheekily that «the weather is the same as fortune-telling». Between airing the room and getting the heater going, I'm rushed off my feet all morning. Since there's little moisture in the air, my throat suffers. My father, quite unbothered, waits for the good weather the day after tomorrow."

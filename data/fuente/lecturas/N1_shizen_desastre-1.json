@@ -8,21 +8,21 @@
    "p": "<ruby>逃<rt>に</rt></ruby>げる<ruby>機会<rt>きかい</rt></ruby>を<ruby>逃<rt>のが</rt></ruby>すのは、どんなときですか。",
    "opciones": [
     "すぐに<ruby>動<rt>うご</rt></ruby>いたとき",
+    "<ruby>訓練<rt>くんれん</rt></ruby>をしなかったとき",
     "<ruby>様子<rt>ようす</rt></ruby>を<ruby>見<rt>み</rt></ruby>ようとしたとき",
-    "<ruby>救援<rt>きゅうえん</rt></ruby>を<ruby>待<rt>ま</rt></ruby>ったとき",
-    "<ruby>訓練<rt>くんれん</rt></ruby>をしなかったとき"
+    "<ruby>救援<rt>きゅうえん</rt></ruby>を<ruby>待<rt>ま</rt></ruby>ったとき"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>救援<rt>きゅうえん</rt></ruby>が<ruby>来<rt>く</rt></ruby>るまで、<ruby>何日<rt>なんにち</rt></ruby><ruby>持<rt>も</rt></ruby>ちこたえる<ruby>必要<rt>ひつよう</rt></ruby>がありますか。",
    "opciones": [
+    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
     "<ruby>一日<rt>いちにち</rt></ruby>",
-    "<ruby>三日<rt>みっか</rt></ruby>",
     "<ruby>一週間<rt>いっしゅうかん</rt></ruby>",
-    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>"
+    "<ruby>三日<rt>みっか</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "There was a disaster drill in the neighbourhood. About fifty of us took part, half of them elderly. It focused on first aid and on going over the evacuation routes. The firefighter who spoke to us, quite unlike his usually affable tone, was severe when talking about how to decide in a crisis. That the chance to escape is lost, almost always, when you stay to see what happens. A natural disaster isn't avoided however alert you are. Since damage and the destruction of buildings are inevitable, there's nothing for it but to move before it reaches you. Holding out by our own means the three days until rescue arrives. At the end he told us we hadn't gathered to hear tragic stories, but to come through this safe and sound."

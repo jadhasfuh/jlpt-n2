@@ -7,12 +7,12 @@
   {
    "p": "<ruby>会<rt>かい</rt></ruby>にはどんな<ruby>人<rt>ひと</rt></ruby>が<ruby>来<rt>き</rt></ruby>ましたか。",
    "opciones": [
-    "<ruby>男性<rt>だんせい</rt></ruby>だけ",
     "いろいろな<ruby>人<rt>ひと</rt></ruby>",
-    "<ruby>学生<rt>がくせい</rt></ruby>だけ",
-    "だれも<ruby>来<rt>こ</rt></ruby>なかった"
+    "<ruby>男性<rt>だんせい</rt></ruby>だけ",
+    "だれも<ruby>来<rt>こ</rt></ruby>なかった",
+    "<ruby>学生<rt>がくせい</rt></ruby>だけ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>話<rt>はな</rt></ruby>してみて、<ruby>何<rt>なに</rt></ruby>を<ruby>知<rt>し</rt></ruby>りましたか。",

@@ -16,20 +16,20 @@
   {
    "p": "ふうとうを <ruby>開<rt>あ</rt></ruby>ける まえに どう しましたか。",
    "opciones": [
+    "ともだちに <ruby>見<rt>み</rt></ruby>せました",
     "すこし まちました",
-    "すぐ <ruby>開<rt>あ</rt></ruby>けました",
-    "ともだちに <ruby>見<rt>み</rt></ruby>せました"
+    "すぐ <ruby>開<rt>あ</rt></ruby>けました"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "つぎの <ruby>日<rt>ひ</rt></ruby>、はじめに なにを しましたか。",
    "opciones": [
-    "<ruby>両親<rt>りょうしん</rt></ruby>に でんわ",
     "かいもの",
-    "しごと"
+    "しごと",
+    "<ruby>両親<rt>りょうしん</rt></ruby>に でんわ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "After a month working I got my first pay. Before opening the envelope I stood still for a moment. Inside was money I had earned myself. I wanted to spend it and to not touch it at the same time. It was late that day and I didn't go out. The next day, the first thing I did was call my parents."

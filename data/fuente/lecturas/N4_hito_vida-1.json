@@ -7,12 +7,12 @@
   {
    "p": "なまえをきめるのにどのくらいかかりましたか。",
    "opciones": [
-    "<ruby>一<rt>いち</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby>",
     "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
+    "<ruby>一<rt>いち</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby>",
     "<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>",
     "すぐ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>同<rt>おな</rt></ruby>じ<ruby>年<rt>とし</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありましたか。",

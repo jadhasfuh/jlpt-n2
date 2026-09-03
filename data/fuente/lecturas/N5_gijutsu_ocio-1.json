@@ -16,20 +16,20 @@
   {
    "p": "<ruby>一番<rt>いちばん</rt></ruby> にんきだったのは だれの りょうりですか。",
    "opciones": [
-    "ミンさん",
     "カルロスさん",
+    "ミンさん",
     "ジャンさん"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "さいごに なにを しましたか。",
    "opciones": [
-    "みんなで うたいました",
     "かえりました",
-    "べんきょうしました"
+    "べんきょうしました",
+    "みんなで うたいました"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "There was a party at school. Everyone brought food from their own country. I made tacos. I couldn't find tortillas, so I used bread. Min's dish was the most popular. Eating together you can talk even when your language is poor. Jean played the guitar and we all sang."

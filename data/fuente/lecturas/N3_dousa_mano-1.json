@@ -7,12 +7,12 @@
   {
    "p": "きつく<ruby>引<rt>ひ</rt></ruby>っ<ruby>張<rt>ぱ</rt></ruby>りすぎると、どうなりますか。",
    "opciones": [
-    "<ruby>外<rt>はず</rt></ruby>れる",
     "あとで<ruby>解<rt>と</rt></ruby>けなくなる",
-    "<ruby>歩<rt>ある</rt></ruby>けない",
-    "きれる"
+    "<ruby>外<rt>はず</rt></ruby>れる",
+    "きれる",
+    "<ruby>歩<rt>ある</rt></ruby>けない"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>母<rt>はは</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてくれましたか。",

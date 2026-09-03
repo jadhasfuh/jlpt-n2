@@ -7,22 +7,22 @@
   {
    "p": "<ruby>苦<rt>にが</rt></ruby>いやさいは、どうすると<ruby>食<rt>た</rt></ruby>べやすくなりますか。",
    "opciones": [
+    "よくかむ",
     "<ruby>焼<rt>や</rt></ruby>く",
     "<ruby>煮<rt>に</rt></ruby>てからあぶらをすこし<ruby>入<rt>い</rt></ruby>れる",
-    "よくかむ",
     "<ruby>甘<rt>あま</rt></ruby>くする"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "いちばんたいせつなことは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
     "<ruby>焼<rt>や</rt></ruby>くこと",
-    "あわてないで、やさいをその<em class=\"g\">まま</em><ruby>生<rt>い</rt></ruby>かすこと",
+    "ごちそうになること",
     "<ruby>煮<rt>に</rt></ruby>ること",
-    "ごちそうになること"
+    "あわてないで、やさいをその<em class=\"g\">まま</em><ruby>生<rt>い</rt></ruby>かすこと"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Even with the same vegetable, it doesn't taste the same roasted as boiled. Roasting makes it sweet; boiling makes it tender. Bitter vegetables go down better if, after boiling them, you add a little oil. While I wait for the water to boil, I get on with other preparations. Yesterday I was invited to eat. When I said «this is delicious», the person who had cooked it was pleased. If you chew properly, you notice the flavour much better. Roast it or boil it: either will do. What matters is not to rush and to make the most of the vegetable as it is."

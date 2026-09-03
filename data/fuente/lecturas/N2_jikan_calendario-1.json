@@ -16,20 +16,20 @@
   {
    "p": "どうして<ruby>深夜<rt>しんや</rt></ruby>に<ruby>出<rt>で</rt></ruby>ましたか。",
    "opciones": [
-    "<ruby>道<rt>みち</rt></ruby>が<ruby>空<rt>す</rt></ruby>いているから",
     "<ruby>安<rt>やす</rt></ruby>いから",
+    "<ruby>道<rt>みち</rt></ruby>が<ruby>空<rt>す</rt></ruby>いているから",
     "<ruby>朝<rt>あさ</rt></ruby>が<ruby>嫌<rt>きら</rt></ruby>いだから"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "いつまで<ruby>忙<rt>いそが</rt></ruby>しそうですか。",
    "opciones": [
     "<ruby>初旬<rt>しょじゅん</rt></ruby>",
-    "<ruby>下旬<rt>げじゅん</rt></ruby>",
-    "<ruby>元日<rt>がんじつ</rt></ruby>"
+    "<ruby>元日<rt>がんじつ</rt></ruby>",
+    "<ruby>下旬<rt>げじゅん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "Since the public holiday fell next to Monday, I went to the hot springs on New Year's Day. I meant to leave on the Friday, but I heard the road is clearer in the small hours, so I rested a while at home and set off afterwards. Contrary to what I feared, I arrived early and was able to bathe in the morning. That said, I remembered a matter about the course due in three days: until the end of the month I'm going to be busy."

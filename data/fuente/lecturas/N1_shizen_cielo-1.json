@@ -7,22 +7,22 @@
   {
    "p": "<ruby>満月<rt>まんげつ</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>は、どうなりますか。",
    "opciones": [
-    "<ruby>星<rt>ほし</rt></ruby>がよく<ruby>見<rt>み</rt></ruby>える",
-    "<ruby>明<rt>あか</rt></ruby>るすぎて<ruby>惑星<rt>わくせい</rt></ruby>くらいしか<ruby>分<rt>わ</rt></ruby>からない",
+    "<ruby>色<rt>いろ</rt></ruby>がきれいだ",
     "<ruby>何<rt>なに</rt></ruby>も<ruby>見<rt>み</rt></ruby>えない",
-    "<ruby>色<rt>いろ</rt></ruby>がきれいだ"
+    "<ruby>明<rt>あか</rt></ruby>るすぎて<ruby>惑星<rt>わくせい</rt></ruby>くらいしか<ruby>分<rt>わ</rt></ruby>からない",
+    "<ruby>星<rt>ほし</rt></ruby>がよく<ruby>見<rt>み</rt></ruby>える"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>天<rt>てん</rt></ruby>をながめると、この<ruby>人<rt>ひと</rt></ruby>はどうなりますか。",
    "opciones": [
+    "<ruby>眠<rt>ねむ</rt></ruby>くなる",
     "<ruby>明朗<rt>めいろう</rt></ruby>な<ruby>気持<rt>きも</rt></ruby>ちになる",
-    "<ruby>考<rt>かんが</rt></ruby>えごとの<ruby>形<rt>かたち</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>しゆるむ",
     "<ruby>悩<rt>なや</rt></ruby>みが<ruby>消<rt>き</rt></ruby>える",
-    "<ruby>眠<rt>ねむ</rt></ruby>くなる"
+    "<ruby>考<rt>かんが</rt></ruby>えごとの<ruby>形<rt>かたち</rt></ruby>が<ruby>少<rt>すこ</rt></ruby>しゆるむ"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "On winter nights when the air is clear I go up to the roof terrace to look at the sky. As the city lights are strong, you can't see too many stars. Even so, as soon as the eyes get used to the dark, the shapes of the constellations start appearing little by little. The stretch just after the sun sets is the one with the loveliest colours. On full-moon nights there's too much light and you can barely make out the planets. The blinking of the lights on the planes passing overhead I took for stars as a child. Telling apart the satellites in orbit is something I've learnt recently. As soon as I see a light moving slowly, I follow it with my eyes without meaning to. Looking at the sky, the weight of my own worries changes. It isn't as simple as saying it cheers you up. It's just that under the open sky the shape of what you brood over loosens a little."

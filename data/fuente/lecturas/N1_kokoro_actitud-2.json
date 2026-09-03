@@ -7,12 +7,12 @@
   {
    "p": "<ruby>相手<rt>あいて</rt></ruby>が<ruby>無礼<rt>ぶれい</rt></ruby>な<ruby>言葉<rt>ことば</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うのは、なぜだと<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>性格<rt>せいかく</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いから",
     "<ruby>余裕<rt>よゆう</rt></ruby>がないから",
     "<ruby>慣<rt>な</rt></ruby>れているから",
+    "<ruby>性格<rt>せいかく</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いから",
     "<ruby>窓口<rt>まどぐち</rt></ruby>が<ruby>嫌<rt>きら</rt></ruby>いだから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>先輩<rt>せんぱい</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>きとは<ruby>何<rt>なん</rt></ruby>だと<ruby>分<rt>わ</rt></ruby>かりましたか。",

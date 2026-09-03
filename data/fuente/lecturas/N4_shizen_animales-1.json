@@ -7,12 +7,12 @@
   {
    "p": "<ruby>手<rt>て</rt></ruby>をのばすと、<ruby>小鳥<rt>ことり</rt></ruby>はどうしますか。",
    "opciones": [
-    "にげる",
     "もうにげない",
+    "<ruby>虫<rt>むし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べる",
     "<ruby>鳴<rt>な</rt></ruby>く",
-    "<ruby>虫<rt>むし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べる"
+    "にげる"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "なぜ、<ruby>虫<rt>むし</rt></ruby>についての<ruby>考<rt>かんが</rt></ruby>えがかわりましたか。",

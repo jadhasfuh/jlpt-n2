@@ -7,12 +7,12 @@
   {
    "p": "<ruby>大会<rt>たいかい</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>一位<rt>いちい</rt></ruby>",
     "<ruby>三位<rt>さんい</rt></ruby>でアンコールも<ruby>呼<rt>よ</rt></ruby>ばれた",
-    "<ruby>予選<rt>よせん</rt></ruby>で<ruby>落<rt>お</rt></ruby>ちた",
-    "<ruby>出<rt>で</rt></ruby>られなかった"
+    "<ruby>出<rt>で</rt></ruby>られなかった",
+    "<ruby>一位<rt>いちい</rt></ruby>",
+    "<ruby>予選<rt>よせん</rt></ruby>で<ruby>落<rt>お</rt></ruby>ちた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きいと<ruby>思<rt>おも</rt></ruby>っていることは<ruby>何<rt>なん</rt></ruby>ですか。",

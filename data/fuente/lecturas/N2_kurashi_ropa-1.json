@@ -16,20 +16,20 @@
   {
    "p": "マフラーは<ruby>何<rt>なに</rt></ruby>で<ruby>編<rt>あ</rt></ruby>みますか。",
    "opciones": [
-    "ウールの<ruby>糸<rt>いと</rt></ruby>",
     "<ruby>綿<rt>めん</rt></ruby>",
+    "ウールの<ruby>糸<rt>いと</rt></ruby>",
     "<ruby>絹<rt>きぬ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>母<rt>はは</rt></ruby>は<ruby>結局<rt>けっきょく</rt></ruby>どうしたいですか。",
    "opciones": [
-    "<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>新<rt>あたら</rt></ruby>しくしたい",
     "<ruby>捨<rt>す</rt></ruby>てたい",
-    "<ruby>売<rt>う</rt></ruby>りたい"
+    "<ruby>売<rt>う</rt></ruby>りたい",
+    "<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>新<rt>あたら</rt></ruby>しくしたい"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "My mother sews blouses on an old machine and knits scarves out of wool. Winter approaching means it's time to get out the thick clothes, which is to say the wardrobe needs sorting too. The slippers and the apron are in tatters, and seeing them my mother looked weary. In short, it seems what she wants is to replace the lot."

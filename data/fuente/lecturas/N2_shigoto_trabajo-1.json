@@ -16,20 +16,20 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>によって<ruby>行事<rt>ぎょうじ</rt></ruby>が<ruby>延<rt>の</rt></ruby>びますか。",
    "opciones": [
-    "<ruby>天気<rt>てんき</rt></ruby>",
     "<ruby>重役<rt>じゅうやく</rt></ruby>",
+    "<ruby>天気<rt>てんき</rt></ruby>",
     "<ruby>人事<rt>じんじ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>役目<rt>やくめ</rt></ruby>が<ruby>終<rt>お</rt></ruby>わったとき、<ruby>外<rt>そと</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>暗<rt>くら</rt></ruby>かった",
+    "<ruby>雨<rt>あめ</rt></ruby>だった",
     "<ruby>明<rt>あか</rt></ruby>るかった",
-    "<ruby>雨<rt>あめ</rt></ruby>だった"
+    "<ruby>暗<rt>くら</rt></ruby>かった"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Today was my shift and from the morning I prepared the meeting. Since a director was coming, I checked whether the work on the premises was finished. I spoke to the human resources people and got the notice form ready too. In the afternoon we were going to rest in shifts, but going by the weather it seems the event will be delayed. When my duties ended, it had already got dark outside."

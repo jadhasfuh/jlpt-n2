@@ -7,22 +7,22 @@
   {
    "p": "むかしのまつりは、だれのためのものでしたか。",
    "opciones": [
-    "<ruby>見<rt>み</rt></ruby>に<ruby>来<rt>く</rt></ruby>る<ruby>人<rt>ひと</rt></ruby>",
-    "<ruby>村<rt>むら</rt></ruby>ぜんたい",
     "<ruby>子<rt>こ</rt></ruby>ども",
-    "<ruby>社会<rt>しゃかい</rt></ruby>"
+    "<ruby>社会<rt>しゃかい</rt></ruby>",
+    "<ruby>村<rt>むら</rt></ruby>ぜんたい",
+    "<ruby>見<rt>み</rt></ruby>に<ruby>来<rt>く</rt></ruby>る<ruby>人<rt>ひと</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えはどれですか。",
    "opciones": [
-    "かたちをかえてはいけない",
-    "かたちをかえてでも<ruby>続<rt>つづ</rt></ruby>けるほうがいい",
+    "<ruby>強<rt>つよ</rt></ruby>くするべきだ",
     "まつりはいらない",
-    "<ruby>強<rt>つよ</rt></ruby>くするべきだ"
+    "かたちをかえてはいけない",
+    "かたちをかえてでも<ruby>続<rt>つづ</rt></ruby>けるほうがいい"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "When society changes, the shape of traditions changes too. The festival used to be for the whole town. Now it's becoming something for the people who come to watch it. Some people miss the old way. But I think it's better to carry on even in a changed form than to disappear. When the river got polluted, the festival stopped one year. That was when I first knew what it's worth to be able to gather freely. Culture, rather than being made strong, is better made easy to keep up."

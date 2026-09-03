@@ -7,22 +7,22 @@
   {
    "p": "とうふは<ruby>何<rt>なに</rt></ruby>から<ruby>作<rt>つく</rt></ruby>りますか。",
    "opciones": [
-    "こむぎ",
-    "まめ",
+    "みず",
     "こめ",
-    "みず"
+    "まめ",
+    "こむぎ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>簡単<rt>かんたん</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるものについて、どう<ruby>思<rt>おも</rt></ruby>っていますか。",
    "opciones": [
     "だれでもできる",
-    "<ruby>長<rt>なが</rt></ruby>い<ruby>時間<rt>じかん</rt></ruby>をかけて<ruby>考<rt>かんが</rt></ruby>えられたもの",
+    "つまらない",
     "<ruby>無理<rt>むり</rt></ruby>だ",
-    "つまらない"
+    "<ruby>長<rt>なが</rt></ruby>い<ruby>時間<rt>じかん</rt></ruby>をかけて<ruby>考<rt>かんが</rt></ruby>えられたもの"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Tofu is made from soya beans. It's a very simple ingredient, but I thought making it was impossible. When I actually tried, although it takes time, the procedure itself was simple. Bread is made from wheat too. If you understand the logic, you can make almost anything yourself. It's precisely what looks simple that has usually been thought about for a long time."

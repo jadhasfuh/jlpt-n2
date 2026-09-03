@@ -16,20 +16,20 @@
   {
    "p": "けいたいの けいやくで なにが ひつようでしたか。",
    "opciones": [
-    "ほしょうにん",
     "おかね",
+    "ほしょうにん",
     "パスポート"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "だれが てつだって くれましたか。",
    "opciones": [
-    "アンナさんの おとうさん",
     "たなかさん",
-    "ミンさん"
+    "ミンさん",
+    "アンナさんの おとうさん"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "There are quite a few foreigners in this city. At the city office there are leaflets in several languages. Even so, not speaking well still makes things awkward. When I went to get a phone contract they asked for a guarantor. Anna's father helped me. There are still plenty of things I can't do on my own."

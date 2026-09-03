@@ -7,12 +7,12 @@
   {
    "p": "<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>何<rt>なに</rt></ruby>をしていましたか。",
    "opciones": [
-    "<ruby>歩<rt>ある</rt></ruby>いていた",
     "しばらく<ruby>待<rt>ま</rt></ruby>っていた",
-    "しゃしんをとっていた",
-    "<ruby>話<rt>はな</rt></ruby>していた"
+    "<ruby>話<rt>はな</rt></ruby>していた",
+    "<ruby>歩<rt>ある</rt></ruby>いていた",
+    "しゃしんをとっていた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "いつまで<ruby>話<rt>はな</rt></ruby>しましたか。",

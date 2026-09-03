@@ -7,12 +7,12 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は、はじめどのくらい<ruby>住<rt>す</rt></ruby>むつもりでしたか。",
    "opciones": [
-    "<ruby>十<rt>じゅう</rt></ruby><ruby>年<rt>ねん</rt></ruby>",
     "<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>だけ",
     "ずっと",
-    "<ruby>半年<rt>はんとし</rt></ruby>"
+    "<ruby>半年<rt>はんとし</rt></ruby>",
+    "<ruby>十<rt>じゅう</rt></ruby><ruby>年<rt>ねん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>来月<rt>らいげつ</rt></ruby>、この<ruby>人<rt>ひと</rt></ruby>はどこへ<ruby>行<rt>い</rt></ruby>きますか。",

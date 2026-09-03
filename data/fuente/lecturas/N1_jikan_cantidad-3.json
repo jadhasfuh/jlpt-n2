@@ -8,21 +8,21 @@
    "p": "<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>、<ruby>賛成<rt>さんせい</rt></ruby>は<ruby>何割<rt>なんわり</rt></ruby>でしたか。",
    "opciones": [
     "<ruby>五割<rt>ごわり</rt></ruby>",
-    "<ruby>七割<rt>ななわり</rt></ruby>",
     "<ruby>十割<rt>じゅうわり</rt></ruby>",
+    "<ruby>七割<rt>ななわり</rt></ruby>",
     "<ruby>三割<rt>さんわり</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>決定<rt>けってい</rt></ruby>が<ruby>生<rt>い</rt></ruby>きるかどうかは、<ruby>何<rt>なに</rt></ruby>で<ruby>決<rt>き</rt></ruby>まると<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
+    "<ruby>費用<rt>ひよう</rt></ruby>の<ruby>額<rt>がく</rt></ruby>",
     "<ruby>賛成<rt>さんせい</rt></ruby>の<ruby>数<rt>かず</rt></ruby>",
-    "<ruby>反対<rt>はんたい</rt></ruby>した<ruby>人<rt>ひと</rt></ruby>に<ruby>説明<rt>せつめい</rt></ruby>を<ruby>尽<rt>つ</rt></ruby>くせるかどうか",
     "<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>長<rt>なが</rt></ruby>さ",
-    "<ruby>費用<rt>ひよう</rt></ruby>の<ruby>額<rt>がく</rt></ruby>"
+    "<ruby>反対<rt>はんたい</rt></ruby>した<ruby>人<rt>ひと</rt></ruby>に<ruby>説明<rt>せつめい</rt></ruby>を<ruby>尽<rt>つ</rt></ruby>くせるかどうか"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "At the residents' meeting we discussed whether to lower the building's maintenance charge. It dragged on for several days until late at night and, as you'd expect, there was no agreement. Some of the residents were firmly opposed, and with a half-hearted agreement considerable discontent was going to be left. I, of all people, ended up raising my voice halfway through the meeting. I apologised at once, but the atmosphere was never the same again. In proportion, seventy per cent were in favour. A figure a long way short of unanimity. That day I understood painfully that majority rule doesn't settle everything. What gets added after deciding. I think whether that decision comes to work depends on whether you can explain it thoroughly to whoever voted against."

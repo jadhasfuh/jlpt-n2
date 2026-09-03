@@ -7,12 +7,12 @@
   {
    "p": "<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしてくれましたか。",
    "opciones": [
-    "<ruby>地図<rt>ちず</rt></ruby>をくれた",
     "そとまで<ruby>出<rt>で</rt></ruby>て<ruby>案内<rt>あんない</rt></ruby>してくれた",
     "<ruby>店<rt>みせ</rt></ruby>まで<ruby>送<rt>おく</rt></ruby>ってくれた",
+    "<ruby>地図<rt>ちず</rt></ruby>をくれた",
     "<ruby>電話<rt>でんわ</rt></ruby>してくれた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>旅行<rt>りょこう</rt></ruby>のいちばんの<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",

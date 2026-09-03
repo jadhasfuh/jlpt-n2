@@ -8,21 +8,21 @@
    "p": "へやを<ruby>出<rt>で</rt></ruby>るとき、<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。",
    "opciones": [
     "おはようございます",
-    "<ruby>失礼<rt>しつれい</rt></ruby>します",
     "ありがとう",
+    "<ruby>失礼<rt>しつれい</rt></ruby>します",
     "さようなら"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>礼<rt>れい</rt></ruby>のかたちについて、<ruby>何<rt>なに</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりましたか。",
    "opciones": [
-    "むずかしいだけだ",
-    "あいてをこまらせないためのものだ",
     "いらないものだ",
-    "<ruby>会社<rt>かいしゃ</rt></ruby>だけのものだ"
+    "<ruby>会社<rt>かいしゃ</rt></ruby>だけのものだ",
+    "むずかしいだけだ",
+    "あいてをこまらせないためのものだ"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I went to a company for the first time. «Good morning. I'm Tanaka»: when I introduced myself like that, the person at reception smiled. Both when entering a room and when leaving you say «excuse me». It's the same formula, but the meaning changes a little. At first I thought polite forms were difficult. But I understood that they're there so as not to make the other person uncomfortable. They showed me in, saying «reception is here», and work began."

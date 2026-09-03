@@ -8,21 +8,21 @@
    "p": "この<ruby>人<rt>ひと</rt></ruby>はどんな<ruby>人<rt>ひと</rt></ruby>ですか。",
    "opciones": [
     "<ruby>頭<rt>あたま</rt></ruby>が<ruby>固<rt>かた</rt></ruby>い",
+    "わらわない",
     "<ruby>真面目<rt>まじめ</rt></ruby>で<ruby>親切<rt>しんせつ</rt></ruby>だ",
-    "ひどい<ruby>人<rt>ひと</rt></ruby>だ",
-    "わらわない"
+    "ひどい<ruby>人<rt>ひと</rt></ruby>だ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "きょう、はじめて<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
+    "やすんだ",
     "まちがえた",
-    "わらって「ひどい<ruby>一日<rt>いちにち</rt></ruby>でしたね」と<ruby>言<rt>い</rt></ruby>った",
     "<ruby>手<rt>て</rt></ruby>をかした",
-    "やすんだ"
+    "わらって「ひどい<ruby>一日<rt>いちにち</rt></ruby>でしたね」と<ruby>言<rt>い</rt></ruby>った"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "The person I share an office with is very proper. She's kind and, if anyone has a problem, she always lends a hand. But she's too hard on herself and, at the smallest mistake, she looks embarrassed. It isn't that she's rigid in her thinking. It's simply that, watching her, you end up getting tired too. Today, for the first time, she laughed and said «what a dreadful day, eh?». I think little by little she's been learning to relax."

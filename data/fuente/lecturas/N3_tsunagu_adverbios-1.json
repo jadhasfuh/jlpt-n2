@@ -7,12 +7,12 @@
   {
    "p": "<ruby>風<rt>かぜ</rt></ruby>がふいたとき、この<ruby>人<rt>ひと</rt></ruby>はどうしましたか。",
    "opciones": [
-    "<ruby>声<rt>こえ</rt></ruby>をかけた",
     "<ruby>思<rt>おも</rt></ruby>わず<ruby>手<rt>て</rt></ruby>を<ruby>出<rt>だ</rt></ruby>した",
+    "<ruby>写真<rt>しゃしん</rt></ruby>をとった",
     "<ruby>何<rt>なに</rt></ruby>もしなかった",
-    "<ruby>写真<rt>しゃしん</rt></ruby>をとった"
+    "<ruby>声<rt>こえ</rt></ruby>をかけた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>長<rt>なが</rt></ruby>くおぼえているのは、どんなことですか。",

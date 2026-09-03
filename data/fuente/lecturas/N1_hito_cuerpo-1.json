@@ -8,21 +8,21 @@
    "p": "<ruby>運動会<rt>うんどうかい</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>、この<ruby>人<rt>ひと</rt></ruby>はどうでしたか。",
    "opciones": [
     "よく<ruby>食<rt>た</rt></ruby>べた",
+    "<ruby>父<rt>ちち</rt></ruby>と<ruby>練習<rt>れんしゅう</rt></ruby>した",
     "<ruby>空腹<rt>くうふく</rt></ruby>なのに<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べられなかった",
-    "<ruby>寝坊<rt>ねぼう</rt></ruby>した",
-    "<ruby>父<rt>ちち</rt></ruby>と<ruby>練習<rt>れんしゅう</rt></ruby>した"
+    "<ruby>寝坊<rt>ねぼう</rt></ruby>した"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>教<rt>おそ</rt></ruby>えましたか。",
    "opciones": [
-    "もっと<ruby>速<rt>はや</rt></ruby>く<ruby>走<rt>はし</rt></ruby>ること",
-    "<ruby>肩<rt>かた</rt></ruby>の<ruby>力<rt>ちから</rt></ruby>を<ruby>抜<rt>ぬ</rt></ruby>くこと",
     "<ruby>前<rt>まえ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ること",
-    "<ruby>練習<rt>れんしゅう</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やすこと"
+    "<ruby>練習<rt>れんしゅう</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やすこと",
+    "もっと<ruby>速<rt>はや</rt></ruby>く<ruby>走<rt>はし</rt></ruby>ること",
+    "<ruby>肩<rt>かた</rt></ruby>の<ruby>力<rt>ちから</rt></ruby>を<ruby>抜<rt>ぬ</rt></ruby>くこと"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "On the morning of sports day I was hungry and still couldn't eat anything. I kept straightening the collar of my shirt and feeling the ground with my heels. My father patted me on the back: «go on, off you go!». My mother laughed: «it doesn't matter if you fall». In the race, at first glance all I could see was the back of the boy ahead. My chest tightened, as if I were going up a slope. I came third. Broadly, as in training. The teacher pointed out a flaw in my running and explained out loud that I should let the tension out of my shoulders. Running in time with my breathing under a sky blue from side to side. More than who won, what the body remembers is those few dozen seconds."

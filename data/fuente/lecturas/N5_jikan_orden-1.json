@@ -16,20 +16,20 @@
   {
    "p": "いつ クラスが あがりましたか。",
    "opciones": [
-    "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>めの テスト",
     "さいしょの テスト",
+    "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>めの テスト",
     "<ruby>一年<rt>いちねん</rt></ruby>め"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ジャンさんは どう しましたか。",
    "opciones": [
-    "おなじ クラスに のこりました",
     "あがりました",
-    "やめました"
+    "やめました",
+    "おなじ クラスに のこりました"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The school has five classes. I started in the lowest one. In the third-month test I moved up to the next. Jean stayed where he was. «Next time it's my turn», he said, laughing. The walk down the corridor to the new classroom felt very long."

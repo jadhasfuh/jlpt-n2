@@ -7,12 +7,12 @@
   {
    "p": "なぜ<ruby>日程<rt>にってい</rt></ruby>が<ruby>過密<rt>かみつ</rt></ruby>でしたか。",
    "opciones": [
-    "<ruby>人手<rt>ひとで</rt></ruby>が<ruby>足<rt>た</rt></ruby>りないから",
     "<ruby>開拓<rt>かいたく</rt></ruby>が<ruby>進<rt>すす</rt></ruby>む<ruby>前<rt>まえ</rt></ruby>に<ruby>調査<rt>ちょうさ</rt></ruby>を<ruby>終<rt>お</rt></ruby>えなければならないから",
-    "<ruby>夏<rt>なつ</rt></ruby>だから",
-    "<ruby>資料<rt>しりょう</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いから"
+    "<ruby>資料<rt>しりょう</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いから",
+    "<ruby>人手<rt>ひとで</rt></ruby>が<ruby>足<rt>た</rt></ruby>りないから",
+    "<ruby>夏<rt>なつ</rt></ruby>だから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>現場<rt>げんば</rt></ruby>より<ruby>時間<rt>じかん</rt></ruby>がかかるのは<ruby>何<rt>なん</rt></ruby>ですか。",

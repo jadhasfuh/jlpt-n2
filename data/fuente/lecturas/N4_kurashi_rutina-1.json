@@ -7,12 +7,12 @@
   {
    "p": "いま、<ruby>朝<rt>あさ</rt></ruby>はどうですか。",
    "opciones": [
-    "めざましで<ruby>起<rt>お</rt></ruby>きる",
     "めざましより<ruby>先<rt>さき</rt></ruby>に<ruby>目<rt>め</rt></ruby>がさめる",
+    "めざましで<ruby>起<rt>お</rt></ruby>きる",
     "<ruby>家族<rt>かぞく</rt></ruby>が<ruby>起<rt>お</rt></ruby>こす",
     "<ruby>眠<rt>ねむ</rt></ruby>ったまま"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "つづけやすくなったのはなぜですか。",

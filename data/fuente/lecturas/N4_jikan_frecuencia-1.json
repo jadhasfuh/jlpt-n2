@@ -8,21 +8,21 @@
    "p": "<ruby>若<rt>わか</rt></ruby>いころ、なぜ「<ruby>普通<rt>ふつう</rt></ruby>」がきらいでしたか。",
    "opciones": [
     "つまらないから",
-    "とくべつでありたかったから",
     "<ruby>大抵<rt>たいてい</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がきらうから",
+    "とくべつでありたかったから",
     "むずかしいから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "いま、どう<ruby>思<rt>おも</rt></ruby>っていますか。",
    "opciones": [
-    "やはりきらいだ",
-    "なんでもない<ruby>日<rt>ひ</rt></ruby>こそむずかしい",
     "とくべつになりたい",
-    "かわらない"
+    "かわらない",
+    "やはりきらいだ",
+    "なんでもない<ruby>日<rt>ひ</rt></ruby>こそむずかしい"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "For a long time I hated the word «ordinary». Because I wanted to be special. I suppose most people think that when they're young. Now I don't think so at all. Getting up at the same time, going down the same street, greeting the same people. That has been becoming more and more important. What we call «an ordinary day» may in fact be the hardest thing of all."

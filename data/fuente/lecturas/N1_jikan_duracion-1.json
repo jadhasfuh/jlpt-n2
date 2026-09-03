@@ -7,22 +7,22 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>最初<rt>さいしょ</rt></ruby>にしていた<ruby>失敗<rt>しっぱい</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>力<rt>ちから</rt></ruby>を<ruby>抜<rt>ぬ</rt></ruby>きすぎた",
-    "<ruby>速<rt>はや</rt></ruby>く<ruby>進<rt>すす</rt></ruby>もうとして<ruby>手<rt>て</rt></ruby>を<ruby>急<rt>いそ</rt></ruby>がせた",
     "<ruby>練習<rt>れんしゅう</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかった",
-    "コーチの<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>かなかった"
+    "コーチの<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>かなかった",
+    "<ruby>速<rt>はや</rt></ruby>く<ruby>進<rt>すす</rt></ruby>もうとして<ruby>手<rt>て</rt></ruby>を<ruby>急<rt>いそ</rt></ruby>がせた",
+    "<ruby>力<rt>ちから</rt></ruby>を<ruby>抜<rt>ぬ</rt></ruby>きすぎた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>水<rt>みず</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>速<rt>はや</rt></ruby>く<ruby>進<rt>すす</rt></ruby>むには、どうするといいですか。",
    "opciones": [
     "<ruby>素早<rt>すばや</rt></ruby>く<ruby>腕<rt>うで</rt></ruby>を<ruby>回<rt>まわ</rt></ruby>す",
-    "<ruby>一<rt>ひと</rt></ruby>かきを<ruby>長<rt>なが</rt></ruby>く<ruby>持続<rt>じぞく</rt></ruby>させる",
     "<ruby>息<rt>いき</rt></ruby>を<ruby>止<rt>と</rt></ruby>める",
-    "<ruby>足<rt>あし</rt></ruby>をつく"
+    "<ruby>足<rt>あし</rt></ruby>をつく",
+    "<ruby>一<rt>ひと</rt></ruby>かきを<ruby>長<rt>なが</rt></ruby>く<ruby>持続<rt>じぞく</rt></ruby>させる"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "When I started learning to swim I did nothing but get worked up. To move forward fast I sped up my arms and each time I ran out of breath and ended up standing. The coach told me: «the only one rushing you is you». I've never managed to correct my impatient character. But in the water, if you don't ease off, you don't move forward. Rather than turning your arms quickly, it's faster to hold each stroke nice and long. Even having understood it, my body took six months to learn it. I feel the water taught me that being fast isn't always right. With an almost disappointing calm, my body began to float."

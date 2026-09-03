@@ -16,20 +16,20 @@
   {
    "p": "アンナさんの コートは なにいろですか。",
    "opciones": [
+    "<ruby>白<rt>しろ</rt></ruby>",
     "<ruby>黄色<rt>きいろ</rt></ruby>",
-    "<ruby>赤<rt>あか</rt></ruby>",
-    "<ruby>白<rt>しろ</rt></ruby>"
+    "<ruby>赤<rt>あか</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>一月<rt>いちがつ</rt></ruby>に みせの まえに つくのは なんですか。",
    "opciones": [
-    "<ruby>赤<rt>あか</rt></ruby>い ちょうちん",
+    "はな",
     "でんき",
-    "はな"
+    "<ruby>赤<rt>あか</rt></ruby>い ちょうちん"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Winter in Kobe is mostly white and grey. But in January red lanterns light up in front of the shops. The mountain is brown and the sea looks blue. Anna's coat is yellow and you can spot it from far off. Mexican cities have far more colour. But when there are few, red stands out more."

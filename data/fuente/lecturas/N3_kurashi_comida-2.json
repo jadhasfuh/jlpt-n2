@@ -7,12 +7,12 @@
   {
    "p": "<ruby>今年<rt>ことし</rt></ruby>、なぜ<ruby>収穫<rt>しゅうかく</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかったですか。",
    "opciones": [
-    "<ruby>人<rt>ひと</rt></ruby>がたりない",
     "<ruby>天候<rt>てんこう</rt></ruby>のせい",
+    "<ruby>人<rt>ひと</rt></ruby>がたりない",
     "<ruby>値段<rt>ねだん</rt></ruby>が<ruby>高<rt>たか</rt></ruby>い",
     "はたけがない"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>に<ruby>教<rt>おそ</rt></ruby>わったことは<ruby>何<rt>なに</rt></ruby>ですか。",

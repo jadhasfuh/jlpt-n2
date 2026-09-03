@@ -25,11 +25,11 @@
   {
    "p": "どうして<ruby>迷<rt>まよ</rt></ruby>いませんでしたか。",
    "opciones": [
-    "<ruby>地名<rt>ちめい</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きかったから",
+    "<ruby>地図<rt>ちず</rt></ruby>がなかったから",
     "<ruby>人<rt>ひと</rt></ruby>に<ruby>聞<rt>き</rt></ruby>いたから",
-    "<ruby>地図<rt>ちず</rt></ruby>がなかったから"
+    "<ruby>地名<rt>ちめい</rt></ruby>が<ruby>大<rt>おお</rt></ruby>きかったから"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "This point is probably the main entrance. Around the grounds there are trees planted without leaving a gap. If I head south, it should be about thirty minutes to the summit. Fortunately, the place names were written in large letters and I didn't get lost. I had the feeling of walking through a medieval quarter."

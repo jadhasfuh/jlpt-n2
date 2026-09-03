@@ -16,20 +16,20 @@
   {
    "p": "<ruby>土地<rt>とち</rt></ruby>はどうですか。",
    "opciones": [
+    "<ruby>山<rt>やま</rt></ruby>ばかり",
     "ところどころ<ruby>凹<rt>へこ</rt></ruby>んでいる",
-    "<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>平<rt>たい</rt></ruby>ら",
-    "<ruby>山<rt>やま</rt></ruby>ばかり"
+    "<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>平<rt>たい</rt></ruby>ら"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。",
    "opciones": [
-    "<ruby>建<rt>た</rt></ruby>てられないわけではない",
+    "<ruby>危<rt>あぶ</rt></ruby>ない",
     "<ruby>建<rt>た</rt></ruby>てられない",
-    "<ruby>危<rt>あぶ</rt></ruby>ない"
+    "<ruby>建<rt>た</rt></ruby>てられないわけではない"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "On a plain at high latitude is my grandmother's meadow. The rice fields and the farmland are wide, and in the distance you can see a volcano and the forest. The ground looks flat, but on the other hand it's sunken in places. My grandmother says that the soil being soft doesn't mean you can't build. Beyond the posts a smooth sky stretches out, and you remember how far away the equator is."

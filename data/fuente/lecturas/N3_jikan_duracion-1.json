@@ -7,22 +7,22 @@
   {
    "p": "いつ<ruby>時間<rt>じかん</rt></ruby>がゆっくり<ruby>感<rt>かん</rt></ruby>じられますか。",
    "opciones": [
+    "<ruby>車<rt>くるま</rt></ruby>に<ruby>乗<rt>の</rt></ruby>る<ruby>日<rt>ひ</rt></ruby>",
     "まいにち<ruby>同<rt>おな</rt></ruby>じことをする<ruby>日<rt>ひ</rt></ruby>",
     "あたらしいことをしている<ruby>日<rt>ひ</rt></ruby>",
-    "<ruby>夏休<rt>なつやす</rt></ruby>み",
-    "<ruby>車<rt>くるま</rt></ruby>に<ruby>乗<rt>の</rt></ruby>る<ruby>日<rt>ひ</rt></ruby>"
+    "<ruby>夏休<rt>なつやす</rt></ruby>み"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>高速<rt>こうそく</rt></ruby>どうろの<ruby>例<rt>れい</rt></ruby>で、<ruby>何<rt>なに</rt></ruby>を<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>車<rt>くるま</rt></ruby>がはやい",
-    "<ruby>近<rt>ちか</rt></ruby>すぎると<ruby>見<rt>み</rt></ruby>えないかもしれない",
     "<ruby>外<rt>そと</rt></ruby>がきれい",
-    "<ruby>時計<rt>とけい</rt></ruby>がおかしい"
+    "<ruby>時計<rt>とけい</rt></ruby>がおかしい",
+    "<ruby>車<rt>くるま</rt></ruby>がはやい",
+    "<ruby>近<rt>ちか</rt></ruby>すぎると<ruby>見<rt>み</rt></ruby>えないかもしれない"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "As a child, a day was extremely long. Now it goes past at full speed. It's odd, because the clock moves at the same speed. On days when I do something new, time feels slower. Those summer holidays that seemed endless, as soon as they were over, looked like an instant. When you look outside from a car on the motorway, the closer something is the faster it goes past. Perhaps time can't be seen either when it's too close."

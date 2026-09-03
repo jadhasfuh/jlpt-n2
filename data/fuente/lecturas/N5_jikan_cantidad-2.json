@@ -16,20 +16,20 @@
   {
    "p": "でんわの まえに なにを しましたか。",
    "opciones": [
+    "なにも しませんでした",
     "言う ことを かみに かきました",
-    "ともだちに ききました",
-    "なにも しませんでした"
+    "ともだちに ききました"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "あいては なんと 言いましたか。",
    "opciones": [
-    "「あした <ruby>来<rt>き</rt></ruby>て ください」",
+    "「でんわを ください」",
     "「もう いっぱいです」",
-    "「でんわを ください」"
+    "「あした <ruby>来<rt>き</rt></ruby>て ください」"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "On a sheet stuck up in front of a shop there was a phone number. It said: «staff wanted». Before calling I wrote out everything I was going to say. I said «hello, I saw the notice» and the other person started talking very fast. I only caught half of it, but I did hear «come tomorrow». I hung up and sat down on a chair. My hands were cold."

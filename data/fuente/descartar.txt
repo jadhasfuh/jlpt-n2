@@ -8,3 +8,31 @@
 # palabra que ごみ, escrita con dos kanji que nadie usa.
 257
 1661
+
+# --- Entradas repetidas (2026-09-02) -----------------------------------------
+# La misma palabra estaba dos veces porque venía de las dos fuentes (la lista
+# de jlptstudy y los mazos de anki) con id distinto. Se queda la ficha con la
+# definición mejor o la sección más acertada; se va la otra. NO se tocan los
+# homógrafos de verdad —ある (haber / cierto), いる (estar / tostar), かく
+# (rascar / 恥をかく)—, que son palabras distintas que se escriben igual.
+2976    # ~中(~じゅう) — idéntica a la 2068
+592     # お手洗い — la 102667 es la única palabra de N5/kurashi/casa-2:
+        # descartarla dejaba la unidad sin vocabulario
+1114    # きっと — la 1117 trae también el sentido de «con severidad»
+2813    # ただ — la 2814 trae la acepción completa
+2365    # スーパー — se queda la 102802, que es N4 y no dice «súper»
+102899  # トン — decía «1000 libras»; una tonelada son 1000 kg (se queda la 3426)
+100518  # パート — se queda la 102746
+103057  # 下品 — se queda la 1420, con la definición entera
+118     # 余り — la 119 trae también el sentido de «resto»
+102698  # 出かける — idéntica a la 3171
+103047  # 当たり前 — se queda la 78, que además está en el nivel correcto
+161     # 慌てる — estaba en «saber»; se queda la 102816, que está en «tristeza»
+1331    # 暮れる — idéntica a la 1330
+3065    # 月(つき) — idéntica a la 3064
+103082  # 朗らか — estaba clasificada en «cielo»; se queda la 4254
+102900  # 殴る — idéntica a la 3471
+4189    # 減る — idéntica a la 4188
+103044  # 相変わらず — se queda la 3, que está en el nivel correcto
+185     # 言う — idéntica a la 184
+3315    # 通り — idéntica a la 3314

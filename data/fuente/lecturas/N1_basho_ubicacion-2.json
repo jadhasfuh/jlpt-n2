@@ -8,21 +8,21 @@
    "p": "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>の<ruby>習慣<rt>しゅうかん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でしたか。",
    "opciones": [
     "<ruby>畑<rt>はたけ</rt></ruby>に<ruby>出<rt>で</rt></ruby>ること",
+    "<ruby>水<rt>みず</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶこと",
     "<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>て<ruby>遥<rt>はる</rt></ruby>か<ruby>下<rt>した</rt></ruby>の<ruby>町<rt>まち</rt></ruby>をながめること",
-    "<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むこと",
-    "<ruby>水<rt>みず</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶこと"
+    "<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むこと"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>祖父<rt>そふ</rt></ruby>に<ruby>一生<rt>いっしょう</rt></ruby>のことを<ruby>聞<rt>き</rt></ruby>かなかったのは、なぜですか。",
    "opciones": [
     "<ruby>興味<rt>きょうみ</rt></ruby>がなかったから",
-    "<ruby>聞<rt>き</rt></ruby>くのをいつも<ruby>控<rt>ひか</rt></ruby>えていたから",
     "<ruby>話<rt>はな</rt></ruby>してくれたから",
-    "<ruby>遠<rt>とお</rt></ruby>くにいたから"
+    "<ruby>遠<rt>とお</rt></ruby>くにいたから",
+    "<ruby>聞<rt>き</rt></ruby>くのをいつも<ruby>控<rt>ひか</rt></ruby>えていたから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "My grandfather had a small house halfway up the mountain. In the morning, the moment he woke he'd go outside, and his habit was to gaze at the town, far below. The building was old; I'm amazed how well it held out against the winter winds. In a corner of the garden there was a puddle in which, after rain, the whole sky was reflected. My grandfather wasn't one to reveal anything. What he'd devoted his life to I always held back from asking him. Now, ten years after his death, standing alone in that house, I understand that it was more what went unsaid. At the age of looking back over the road travelled, I'm finally able to fix my gaze on that same landscape."

@@ -7,22 +7,22 @@
   {
    "p": "けっかはいつ<ruby>知<rt>し</rt></ruby>らせてくれますか。",
    "opciones": [
+    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby><ruby>後<rt>ご</rt></ruby>",
     "その<ruby>日<rt>ひ</rt></ruby>",
     "<ruby>一<rt>いっ</rt></ruby>しゅうかん<ruby>後<rt>ご</rt></ruby>",
-    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby><ruby>後<rt>ご</rt></ruby>",
     "しらせない"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>自分<rt>じぶん</rt></ruby>に<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
-    "ぜったいうかる",
-    "おちてもいい、<ruby>経験<rt>けいけん</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>る",
+    "<ruby>邪魔<rt>じゃま</rt></ruby>をするな",
     "<ruby>出発<rt>しゅっぱつ</rt></ruby>がはやい",
-    "<ruby>邪魔<rt>じゃま</rt></ruby>をするな"
+    "ぜったいうかる",
+    "おちてもいい、<ruby>経験<rt>けいけん</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>る"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I was introduced to a new company. On the day of the interview I set out early in the morning. When I handed in the papers at reception, they said «allow me to look at these» and went through them carefully. I waited in silence so as not to be a nuisance. I heard they would tell me the result a week later. I told myself that even if they didn't take me, the experience stays. Before, I wouldn't have been able to think like that."

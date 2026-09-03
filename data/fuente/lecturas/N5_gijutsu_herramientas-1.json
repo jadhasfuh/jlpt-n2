@@ -16,20 +16,20 @@
   {
    "p": "あさ さいしょに <ruby>見<rt>み</rt></ruby>えるのは なんですか。",
    "opciones": [
-    "かべの かみ",
     "まど",
+    "かべの かみ",
     "とけい"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "かみは どう なって いますか。",
    "opciones": [
-    "まがって います",
     "きれいです",
-    "ありません"
+    "ありません",
+    "まがって います"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "On my bedroom wall I stick up notes with the words I want to learn. Pencil fades, so I write them with a ballpoint. It's the first thing I see when I wake up. When Mrs Tanaka came into the flat she laughed: «this is a study room». The wall is hardly white any more. I'm terrible at sticking things up, so they're all crooked."

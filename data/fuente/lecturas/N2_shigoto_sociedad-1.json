@@ -16,20 +16,20 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>先<rt>さき</rt></ruby>に<ruby>出<rt>だ</rt></ruby>しますか。",
    "opciones": [
+    "<ruby>理由<rt>りゆう</rt></ruby>",
     "<ruby>例<rt>れい</rt></ruby>",
-    "<ruby>結論<rt>けつろん</rt></ruby>",
-    "<ruby>理由<rt>りゆう</rt></ruby>"
+    "<ruby>結論<rt>けつろん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "どうすれば<ruby>怖<rt>こわ</rt></ruby>くないですか。",
    "opciones": [
-    "<ruby>順序<rt>じゅんじょ</rt></ruby>が<ruby>決<rt>き</rt></ruby>まれば",
+    "<ruby>短<rt>みじか</rt></ruby>ければ",
     "<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なければ",
-    "<ruby>短<rt>みじか</rt></ruby>ければ"
+    "<ruby>順序<rt>じゅんじょ</rt></ruby>が<ruby>決<rt>き</rt></ruby>まれば"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I was asked to give a humanities talk at the university. Setting difficult words aside, I want to speak so that anyone can understand. As in entertainment programmes, I put the examples first. Then the reasons and the conclusion at the end: that's how I order them. I'm bad at public speaking, but if the order is decided it isn't frightening."

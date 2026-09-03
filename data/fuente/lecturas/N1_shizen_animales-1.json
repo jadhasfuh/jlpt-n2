@@ -7,12 +7,12 @@
   {
    "p": "<ruby>雛<rt>ひな</rt></ruby>を<ruby>連<rt>つ</rt></ruby>れている<ruby>時期<rt>じき</rt></ruby>は、どうなりますか。",
    "opciones": [
-    "<ruby>人<rt>ひと</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れる",
     "<ruby>近<rt>ちか</rt></ruby>づくだけで<ruby>群<rt>む</rt></ruby>れが<ruby>飛<rt>と</rt></ruby>び<ruby>立<rt>た</rt></ruby>つ",
     "<ruby>数<rt>かず</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>える",
+    "<ruby>人<rt>ひと</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れる",
     "<ruby>沼<rt>ぬま</rt></ruby>を<ruby>離<rt>はな</rt></ruby>れる"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>見<rt>み</rt></ruby>えるものを<ruby>増<rt>ふ</rt></ruby>やすには、どうするといいですか。",

@@ -7,12 +7,12 @@
   {
    "p": "はじめて<ruby>来<rt>き</rt></ruby>たとき、<ruby>何<rt>なに</rt></ruby>がわかりませんでしたか。",
    "opciones": [
-    "<ruby>道<rt>みち</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>",
     "<ruby>横断<rt>おうだん</rt></ruby>するタイミング",
-    "<ruby>博物館<rt>はくぶつかん</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>",
-    "<ruby>信号<rt>しんごう</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>"
+    "<ruby>道<rt>みち</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>",
+    "<ruby>信号<rt>しんごう</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>",
+    "<ruby>博物館<rt>はくぶつかん</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>都会<rt>とかい</rt></ruby>にいて、<ruby>何<rt>なに</rt></ruby>がたいせつに<ruby>思<rt>おも</rt></ruby>えてきますか。",

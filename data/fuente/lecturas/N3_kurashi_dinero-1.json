@@ -7,12 +7,12 @@
   {
    "p": "<ruby>安<rt>やす</rt></ruby>いものを<ruby>買<rt>か</rt></ruby>うと、どうなることがありますか。",
    "opciones": [
-    "<ruby>得<rt>とく</rt></ruby>をする",
     "すぐこわれてもう<ruby>一度<rt>いちど</rt></ruby><ruby>買<rt>か</rt></ruby>うことになる",
     "<ruby>長<rt>なが</rt></ruby>く<ruby>使<rt>つか</rt></ruby>える",
+    "<ruby>得<rt>とく</rt></ruby>をする",
     "かわらない"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>豊<rt>ゆた</rt></ruby>かさとは<ruby>何<rt>なに</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>っていますか。",

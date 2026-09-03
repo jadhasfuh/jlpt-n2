@@ -16,20 +16,20 @@
   {
    "p": "こうべの ちかくに <ruby>何<rt>なに</rt></ruby>が ありますか。",
    "opciones": [
+    "<ruby>何<rt>なに</rt></ruby>も ありません",
     "うみと<ruby>山<rt>やま</rt></ruby>",
-    "<ruby>川<rt>かわ</rt></ruby>だけ",
-    "<ruby>何<rt>なに</rt></ruby>も ありません"
+    "<ruby>川<rt>かわ</rt></ruby>だけ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に あるのは どれですか。",
    "opciones": [
-    "<ruby>交差点<rt>こうさてん</rt></ruby>と<ruby>図書館<rt>としょかん</rt></ruby>",
     "<ruby>公園<rt>こうえん</rt></ruby>と<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>",
-    "アパートと<ruby>橋<rt>はし</rt></ruby>"
+    "アパートと<ruby>橋<rt>はし</rt></ruby>",
+    "<ruby>交差点<rt>こうさてん</rt></ruby>と<ruby>図書館<rt>としょかん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "My name is Carlos. I come from Mexico. I chose the school through an agency on the internet. Kobe is a big city. The sea and the mountains are very close. In front of the station there's a crossing and a library. If you follow that street to the right, there's the park and the post office. My flat is near the bridge. It's nothing like my city back in Mexico, but I've grown fond of it."

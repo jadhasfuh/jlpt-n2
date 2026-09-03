@@ -16,20 +16,20 @@
   {
    "p": "ゴンサさんの こえは どうでしたか。",
    "opciones": [
-    "すこし ふるえて いました",
     "<ruby>大<rt>おお</rt></ruby>きかったです",
+    "すこし ふるえて いました",
     "しずかでした"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "てを <ruby>出<rt>だ</rt></ruby>すと ゆきは どう なりましたか。",
    "opciones": [
-    "すぐ きえました",
+    "<ruby>大<rt>おお</rt></ruby>きく なりました",
     "つめたく なりました",
-    "<ruby>大<rt>おお</rt></ruby>きく なりました"
+    "すぐ きえました"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "When we got to Sapporo and stepped outside, my breath turned white. Small things were falling from the sky. I stood still for a while. «That's snow», said Gonza, his voice shaking slightly. I held out my hand and it vanished at once. I don't think I'll ever forget that day."

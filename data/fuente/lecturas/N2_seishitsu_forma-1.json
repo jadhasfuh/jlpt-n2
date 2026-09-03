@@ -16,20 +16,20 @@
   {
    "p": "<ruby>角度<rt>かくど</rt></ruby>はどうしましたか。",
    "opciones": [
+    "<ruby>三角<rt>さんかく</rt></ruby>にした",
     "<ruby>直角<rt>ちょっかく</rt></ruby>にした",
-    "カーブにした",
-    "<ruby>三角<rt>さんかく</rt></ruby>にした"
+    "カーブにした"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>のほうが<ruby>軽<rt>かる</rt></ruby>いと<ruby>気<rt>き</rt></ruby>づきましたか。",
    "opciones": [
-    "<ruby>三角<rt>さんかく</rt></ruby>",
     "<ruby>長方形<rt>ちょうほうけい</rt></ruby>",
-    "<ruby>曲線<rt>きょくせん</rt></ruby>"
+    "<ruby>曲線<rt>きょくせん</rt></ruby>",
+    "<ruby>三角<rt>さんかく</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I measured the desk's dimensions and drew a sketch. I combined straight lines and curves, and left the right angles. I couldn't allow myself to settle for a rough design, so I drew the curves again carefully too. It's reckoned that if the weight becomes enormous it won't be possible to move it. When I realised that a triangle weighs less than a rectangle, I set about building it with enthusiasm."

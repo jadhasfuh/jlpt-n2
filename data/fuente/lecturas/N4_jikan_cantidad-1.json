@@ -7,12 +7,12 @@
   {
    "p": "ひきこしのとき、<ruby>何<rt>なに</rt></ruby>に<ruby>気<rt>き</rt></ruby>づきましたか。",
    "opciones": [
-    "にもつが<ruby>半分<rt>はんぶん</rt></ruby>になった",
     "にもつが<ruby>倍<rt>ばい</rt></ruby>に<ruby>増<rt>ふ</rt></ruby>えていた",
     "<ruby>物<rt>もの</rt></ruby>がたりない",
-    "<ruby>皆<rt>みな</rt></ruby>がすてた"
+    "<ruby>皆<rt>みな</rt></ruby>がすてた",
+    "にもつが<ruby>半分<rt>はんぶん</rt></ruby>になった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>半分<rt>はんぶん</rt></ruby>にへらして、どうでしたか。",

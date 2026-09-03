@@ -26,10 +26,10 @@
    "p": "いらない<ruby>物<rt>もの</rt></ruby>をどうしましたか。",
    "opciones": [
     "<ruby>売<rt>う</rt></ruby>った",
-    "<ruby>埋<rt>う</rt></ruby>めた",
-    "<ruby>燃<rt>も</rt></ruby>やした"
+    "<ruby>燃<rt>も</rt></ruby>やした",
+    "<ruby>埋<rt>う</rt></ruby>めた"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "Going by last year's photos, I decided to tidy the storeroom. When I pulled out a box tied with string, what was inside collapsed. A bag hanging from the ceiling fell too and got caught. I wrung out a wet cloth and scrubbed the floor. In the end I dug a hole in the garden and buried what was no use."

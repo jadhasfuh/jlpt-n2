@@ -7,12 +7,12 @@
   {
    "p": "<ruby>同僚<rt>どうりょう</rt></ruby>はどんな<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>採用<rt>さいよう</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>合成<rt>ごうせい</rt></ruby>のこやしを<ruby>使<rt>つか</rt></ruby>う",
     "<ruby>合成<rt>ごうせい</rt></ruby>のこやしを<ruby>使<rt>つか</rt></ruby>わず<ruby>細菌<rt>さいきん</rt></ruby>にまかせる",
     "<ruby>屋上<rt>おくじょう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>わない",
-    "<ruby>水<rt>みず</rt></ruby>をやらない"
+    "<ruby>水<rt>みず</rt></ruby>をやらない",
+    "<ruby>合成<rt>ごうせい</rt></ruby>のこやしを<ruby>使<rt>つか</rt></ruby>う"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>収穫<rt>しゅうかく</rt></ruby>のとき、どうなりましたか。",

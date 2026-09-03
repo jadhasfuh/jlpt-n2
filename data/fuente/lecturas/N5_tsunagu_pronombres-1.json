@@ -16,20 +16,20 @@
   {
    "p": "けんたくんは <ruby>何<rt>なに</rt></ruby>を ききましたか。",
    "opciones": [
+    "メキシコは どこか",
     "なぜ <ruby>一年<rt>いちねん</rt></ruby>は はやいのか",
-    "いつ <ruby>帰<rt>かえ</rt></ruby>るのか",
-    "メキシコは どこか"
+    "いつ <ruby>帰<rt>かえ</rt></ruby>るのか"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ひこうきの まどから <ruby>何<rt>なに</rt></ruby>が <ruby>見<rt>み</rt></ruby>えましたか。",
    "opciones": [
-    "こうべの やま",
+    "なにも",
     "うみだけ",
-    "なにも"
+    "こうべの やま"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I didn't know who would come to the airport. Jean came, and Gonza, and Min, and even Kenta. Anna said nothing and held my hand. «Why does a year go so fast?» Kenta asked. Nobody could answer him. From the plane window I could see the mountain above Kobe. I said «I'll be back», without saying it out loud."

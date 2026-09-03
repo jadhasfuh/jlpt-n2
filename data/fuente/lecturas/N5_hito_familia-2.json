@@ -16,20 +16,20 @@
   {
    "p": "ちちは いつも なにを ききますか。",
    "opciones": [
+    "ともだちの こと",
     "おかねの こと",
-    "がっこうの こと",
-    "ともだちの こと"
+    "がっこうの こと"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ははは なにを 言いますか。",
    "opciones": [
-    "「やさいも たべなさい」",
     "「はやく かえりなさい」",
-    "「べんきょうしなさい」"
+    "「べんきょうしなさい」",
+    "「やさいも たべなさい」"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "On Sunday mornings I phone my parents. In Mexico it's night, so they're both tired. My father only ever asks: «do you have money?». My mother wants to know absolutely everything I've eaten. «Eat your vegetables too», she tells me every time. After the call I stay quiet for a while."

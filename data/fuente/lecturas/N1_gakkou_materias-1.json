@@ -7,12 +7,12 @@
   {
    "p": "<ruby>古<rt>ふる</rt></ruby>い<ruby>建物<rt>たてもの</rt></ruby>について、<ruby>何<rt>なに</rt></ruby>が<ruby>問題<rt>もんだい</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>図面<rt>ずめん</rt></ruby>がないこと",
     "<ruby>図面<rt>ずめん</rt></ruby>どおりに<ruby>建<rt>た</rt></ruby>っていないこと",
     "<ruby>高<rt>たか</rt></ruby>すぎること",
+    "<ruby>図面<rt>ずめん</rt></ruby>がないこと",
     "<ruby>新<rt>あたら</rt></ruby>しすぎること"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって<ruby>身<rt>み</rt></ruby>についたものは<ruby>何<rt>なん</rt></ruby>ですか。",

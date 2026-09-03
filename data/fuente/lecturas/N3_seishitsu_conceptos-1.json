@@ -7,12 +7,12 @@
   {
    "p": "<ruby>効果<rt>こうか</rt></ruby>について、どう<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "すぐ<ruby>出<rt>で</rt></ruby>る",
     "<ruby>数<rt>すう</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>たってから<ruby>現<rt>あらわ</rt></ruby>れることもある",
-    "<ruby>出<rt>で</rt></ruby>ない",
-    "<ruby>約束<rt>やくそく</rt></ruby>できる"
+    "すぐ<ruby>出<rt>で</rt></ruby>る",
+    "<ruby>約束<rt>やくそく</rt></ruby>できる",
+    "<ruby>出<rt>で</rt></ruby>ない"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "いちばんむずかしいと<ruby>感<rt>かん</rt></ruby>じるのは<ruby>何<rt>なに</rt></ruby>ですか。",

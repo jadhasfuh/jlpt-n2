@@ -7,12 +7,12 @@
   {
    "p": "てじゅんを<ruby>一<rt>ひと</rt></ruby>つとばすと、どうなりますか。",
    "opciones": [
-    "はやく<ruby>終<rt>お</rt></ruby>わる",
     "あとの<ruby>段階<rt>だんかい</rt></ruby>でこまる",
-    "かわらない",
-    "らくになる"
+    "らくになる",
+    "はやく<ruby>終<rt>お</rt></ruby>わる",
+    "かわらない"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>のためにそこにいますか。",

@@ -8,21 +8,21 @@
    "p": "じゅんびをした<ruby>人<rt>ひと</rt></ruby>は、どんなときに<ruby>強<rt>つよ</rt></ruby>いですか。",
    "opciones": [
     "<ruby>勝<rt>か</rt></ruby>ったとき",
+    "かんとくがいるとき",
     "しっぱいしたとき",
-    "<ruby>試合<rt>しあい</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>",
-    "かんとくがいるとき"
+    "<ruby>試合<rt>しあい</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "チームのちからを<ruby>表<rt>あらわ</rt></ruby>すのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
     "<ruby>勝<rt>か</rt></ruby>ったときのようす",
-    "<ruby>負<rt>ま</rt></ruby>けたときのようす",
+    "<ruby>選手<rt>せんしゅ</rt></ruby>のかず",
     "<ruby>作戦<rt>さくせん</rt></ruby>",
-    "<ruby>選手<rt>せんしゅ</rt></ruby>のかず"
+    "<ruby>負<rt>ま</rt></ruby>けたときのようす"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "The night before the match, the players get their things ready in silence. They go over and over how to stop the opponent's attack. The result also depends on the form you're in that day, but it's precisely the one who has prepared who can recover when they slip. The coach doesn't go on at length about tactics. He only says one line: «more than the result, whether we did what we had to do». I think it's the way you behave when you lose, more than when you win, that shows a team's strength."

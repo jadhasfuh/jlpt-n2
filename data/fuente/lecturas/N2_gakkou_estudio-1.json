@@ -25,11 +25,11 @@
   {
    "p": "どうして<ruby>遅<rt>おく</rt></ruby>れましたか。",
    "opciones": [
-    "<ruby>道具<rt>どうぐ</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>を<ruby>心得<rt>こころえ</rt></ruby>ていなかったから",
+    "<ruby>休<rt>やす</rt></ruby>んだから",
     "<ruby>寝<rt>ね</rt></ruby>ていたから",
-    "<ruby>休<rt>やす</rt></ruby>んだから"
+    "<ruby>道具<rt>どうぐ</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>を<ruby>心得<rt>こころえ</rt></ruby>ていなかったから"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "On the company training course they explained the performance of the machines. It was like what I studied on my degree, and since the instructor was a former engineer, the explanation was very easy to follow. In the afternoon came the practical, and just from not being confident with the tools I fell behind on my own. I thought that practical work is learnt more with the body than with theory."

@@ -7,12 +7,12 @@
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>目<rt>め</rt></ruby>が<ruby>見<rt>み</rt></ruby>えにくくなってから、どうしましたか。",
    "opciones": [
-    "<ruby>針<rt>はり</rt></ruby><ruby>仕事<rt>しごと</rt></ruby>をやめた",
     "それでも<ruby>糸<rt>いと</rt></ruby>を<ruby>持<rt>も</rt></ruby>つことをやめなかった",
     "<ruby>母<rt>はは</rt></ruby>に<ruby>頼<rt>たの</rt></ruby>んだ",
+    "<ruby>針<rt>はり</rt></ruby><ruby>仕事<rt>しごと</rt></ruby>をやめた",
     "<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>捨<rt>す</rt></ruby>てた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>祖母<rt>そぼ</rt></ruby>のやり<ruby>方<rt>かた</rt></ruby>をどうしたいと<ruby>思<rt>おも</rt></ruby>っていますか。",

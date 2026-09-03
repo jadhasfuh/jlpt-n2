@@ -7,22 +7,22 @@
   {
    "p": "あたらしい<ruby>監督<rt>かんとく</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていますか。",
    "opciones": [
+    "<ruby>命令<rt>めいれい</rt></ruby>する",
     "<ruby>目標<rt>もくひょう</rt></ruby>をかえる",
     "<ruby>手段<rt>しゅだん</rt></ruby>をぜんぶ<ruby>見<rt>み</rt></ruby>なおす",
-    "<ruby>命令<rt>めいれい</rt></ruby>する",
     "<ruby>何<rt>なに</rt></ruby>もしない"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>解決<rt>かいけつ</rt></ruby>のはやさは<ruby>何<rt>なに</rt></ruby>で<ruby>決<rt>き</rt></ruby>まりますか。",
    "opciones": [
     "<ruby>監督<rt>かんとく</rt></ruby>の<ruby>年<rt>とし</rt></ruby>",
-    "<ruby>覚悟<rt>かくご</rt></ruby>のふかさ",
+    "<ruby>命令<rt>めいれい</rt></ruby>",
     "チームの<ruby>数<rt>かず</rt></ruby>",
-    "<ruby>命令<rt>めいれい</rt></ruby>"
+    "<ruby>覚悟<rt>かくご</rt></ruby>のふかさ"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "The team's coach changed. In place of the previous one, a young person is reviewing all the methods. Even when the goal is the same, there are many plans for getting there. Contrary to expectations, everyone agreed at once. To the same extent that deciding takes time, once decided things move fast. Not giving orders, but deciding after listening to opinions from one side and the other. It seems that how quickly something gets settled is set by how deeply it has been taken on board."

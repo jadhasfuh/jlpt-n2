@@ -7,12 +7,12 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>はどんな<ruby>係<rt>かかり</rt></ruby>でしたか。",
    "opciones": [
-    "<ruby>歌<rt>うた</rt></ruby>う<ruby>係<rt>かかり</rt></ruby>",
     "<ruby>照明<rt>しょうめい</rt></ruby>の<ruby>係<rt>かかり</rt></ruby>",
+    "びらだけの<ruby>係<rt>かかり</rt></ruby>",
     "<ruby>踊<rt>おど</rt></ruby>る<ruby>係<rt>かかり</rt></ruby>",
-    "びらだけの<ruby>係<rt>かかり</rt></ruby>"
+    "<ruby>歌<rt>うた</rt></ruby>う<ruby>係<rt>かかり</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>失敗<rt>しっぱい</rt></ruby>の<ruby>内容<rt>ないよう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でしたか。",

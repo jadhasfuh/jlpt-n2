@@ -7,12 +7,12 @@
   {
    "p": "はじめ、なぜこわかったですか。",
    "opciones": [
-    "<ruby>時間<rt>じかん</rt></ruby>がないから",
     "<ruby>失望<rt>しつぼう</rt></ruby>するのがこわかったから",
     "<ruby>退屈<rt>たいくつ</rt></ruby>だから",
+    "<ruby>時間<rt>じかん</rt></ruby>がないから",
     "<ruby>頼<rt>たの</rt></ruby>まれたから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>気<rt>き</rt></ruby>の<ruby>毒<rt>どく</rt></ruby>なのはだれですか。",

@@ -16,20 +16,20 @@
   {
    "p": "まいあさ なにを しますか。",
    "opciones": [
+    "ねて います",
     "おなじ <ruby>道<rt>みち</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby>します",
-    "はしります",
-    "ねて います"
+    "はしります"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "パンやの おばさんは なにを しましたか。",
    "opciones": [
-    "かおを おぼえて くれました",
     "パンを くれました",
-    "なにも しません"
+    "なにも しません",
+    "かおを おぼえて くれました"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I've lived in this room for a year. At first there was nothing in it and sound echoed. Now I know where everything is. Every morning I walk the same street and meet the same people. The woman at the bakery has learned my face. I think this is what «to live somewhere» means."

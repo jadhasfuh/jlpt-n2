@@ -7,12 +7,12 @@
   {
    "p": "<ruby>復興<rt>ふっこう</rt></ruby>でいちばん<ruby>難<rt>むずか</rt></ruby>しかったのは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>道路<rt>どうろ</rt></ruby>をなおすこと",
     "<ruby>離<rt>はな</rt></ruby>れた<ruby>人<rt>ひと</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>ってきてもらうこと",
     "<ruby>橋<rt>はし</rt></ruby>をかけること",
+    "<ruby>道路<rt>どうろ</rt></ruby>をなおすこと",
     "<ruby>予算<rt>よさん</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めること"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>皆<rt>みな</rt></ruby>で<ruby>守<rt>まも</rt></ruby>ろうと<ruby>決<rt>き</rt></ruby>めたことは<ruby>何<rt>なん</rt></ruby>ですか。",

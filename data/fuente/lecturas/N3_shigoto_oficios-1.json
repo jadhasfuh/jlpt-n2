@@ -7,12 +7,12 @@
   {
    "p": "まわりからは<ruby>何<rt>なに</rt></ruby>とよばれていますか。",
    "opciones": [
-    "<ruby>学者<rt>がくしゃ</rt></ruby>",
     "<ruby>名人<rt>めいじん</rt></ruby>",
+    "<ruby>画家<rt>がか</rt></ruby>",
     "<ruby>助手<rt>じょしゅ</rt></ruby>",
-    "<ruby>画家<rt>がか</rt></ruby>"
+    "<ruby>学者<rt>がくしゃ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>口<rt>くち</rt></ruby>ぐせは<ruby>何<rt>なに</rt></ruby>ですか。",

@@ -16,20 +16,20 @@
   {
    "p": "せんたくものは どう しますか。",
    "opciones": [
+    "あらいません",
     "へやの <ruby>中<rt>なか</rt></ruby>に かけます",
-    "そとに かけます",
-    "あらいません"
+    "そとに かけます"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>晴<rt>は</rt></ruby>れた <ruby>日<rt>ひ</rt></ruby>、なにが きれいですか。",
    "opciones": [
-    "みどりの いろ",
+    "うみ",
     "そら",
-    "うみ"
+    "みどりの いろ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "When June comes it rains every day. They call it tsuyu. You look at the forecast and it's always the same picture. The washing won't dry, so I hang it inside the room. It's hot, it rains and the windows steam up. But the green on the days it clears is the most beautiful thing I've seen here."

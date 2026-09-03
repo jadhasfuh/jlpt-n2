@@ -7,22 +7,22 @@
   {
    "p": "<ruby>審判<rt>しんぱん</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いと<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>試合<rt>しあい</rt></ruby>",
-    "<ruby>批判<rt>ひはん</rt></ruby>されること",
+    "<ruby>整理<rt>せいり</rt></ruby>すること",
     "<ruby>逮捕<rt>たいほ</rt></ruby>すること",
-    "<ruby>整理<rt>せいり</rt></ruby>すること"
+    "<ruby>批判<rt>ひはん</rt></ruby>されること",
+    "<ruby>試合<rt>しあい</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "それでも<ruby>続<rt>つづ</rt></ruby>けているのはなぜですか。",
    "opciones": [
     "すきだから",
-    "だれかがやらなければ<ruby>試合<rt>しあい</rt></ruby>が<ruby>成<rt>な</rt></ruby>り<ruby>立<rt>た</rt></ruby>たないから",
+    "<ruby>子<rt>こ</rt></ruby>どものため",
     "お<ruby>金<rt>かね</rt></ruby>のため",
-    "<ruby>子<rt>こ</rt></ruby>どものため"
+    "だれかがやらなければ<ruby>試合<rt>しあい</rt></ruby>が<ruby>成<rt>な</rt></ruby>り<ruby>立<rt>た</rt></ruby>たないから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I listened to someone who works as a referee. He says that, however carefully he watches everything, he sometimes gets a split-second judgement wrong. He's often criticised and says he tends to get discouraged. Even so he carries on, because if nobody does it there's no match. It isn't the same as arresting a criminal in an investigation, but in terms of the responsibility of judging they're alike. He says he also teaches classes aimed at children."

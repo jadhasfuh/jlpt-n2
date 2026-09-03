@@ -7,12 +7,12 @@
   {
    "p": "なぜ、<ruby>裏<rt>うら</rt></ruby>の<ruby>道<rt>みち</rt></ruby>を<ruby>通<rt>かよ</rt></ruby>うようになりましたか。",
    "opciones": [
-    "<ruby>近<rt>ちか</rt></ruby>いから",
     "<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なくしずかだから",
-    "<ruby>店<rt>みせ</rt></ruby>があるから",
-    "<ruby>交番<rt>こうばん</rt></ruby>があるから"
+    "<ruby>交番<rt>こうばん</rt></ruby>があるから",
+    "<ruby>近<rt>ちか</rt></ruby>いから",
+    "<ruby>店<rt>みせ</rt></ruby>があるから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "さいふをどうしましたか。",

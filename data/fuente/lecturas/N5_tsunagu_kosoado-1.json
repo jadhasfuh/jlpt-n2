@@ -16,20 +16,20 @@
   {
    "p": "たなかさんは なんと 言いましたか。",
    "opciones": [
-    "「また いつでも いらっしゃい」",
     "「さようなら」",
+    "「また いつでも いらっしゃい」",
     "「はやく <ruby>出<rt>で</rt></ruby>て ください」"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんは どう こたえましたか。",
    "opciones": [
-    "「ああ」と 言うのが やっとでした",
     "ながく はなしました",
-    "なにも 言いませんでした"
+    "なにも 言いませんでした",
+    "「ああ」と 言うのが やっとでした"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "On the last day I cleaned the room. When I took all the papers off the wall, the marks stayed. This desk, this window, this floor. I remember all of it. A room this small has been a whole year. Mrs Tanaka came round and said: «come back any time». All I managed was a «yeah»."

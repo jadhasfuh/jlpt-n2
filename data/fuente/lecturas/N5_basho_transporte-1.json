@@ -16,20 +16,20 @@
   {
    "p": "どうして <ruby>自転車<rt>じてんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きませんでしたか。",
    "opciones": [
-    "<ruby>雨<rt>あめ</rt></ruby>だったから",
     "<ruby>自転車<rt>じてんしゃ</rt></ruby>が ないから",
+    "<ruby>雨<rt>あめ</rt></ruby>だったから",
     "とおいから"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "まどから <ruby>何<rt>なに</rt></ruby>が <ruby>見<rt>み</rt></ruby>えましたか。",
    "opciones": [
-    "うみ",
+    "<ruby>町<rt>まち</rt></ruby>",
     "<ruby>山<rt>やま</rt></ruby>",
-    "<ruby>町<rt>まち</rt></ruby>"
+    "うみ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "It's twenty minutes to school by train. On the first day I couldn't work out how to buy a ticket. There were people queuing behind me and I was terribly embarrassed. The bicycle is cheaper, but that morning it was raining. I got on the train and got off at the third stop. My bag was heavy and I ended up a bit tired. But the sea was visible through the window, and that cheered me up."

@@ -8,21 +8,21 @@
    "p": "なぜ<ruby>条件<rt>じょうけん</rt></ruby>が<ruby>変更<rt>へんこう</rt></ruby>になりましたか。",
    "opciones": [
     "<ruby>時間<rt>じかん</rt></ruby>がないから",
-    "<ruby>予算<rt>よさん</rt></ruby>に<ruby>制限<rt>せいげん</rt></ruby>がかかったから",
     "<ruby>人<rt>ひと</rt></ruby>がたりないから",
+    "<ruby>予算<rt>よさん</rt></ruby>に<ruby>制限<rt>せいげん</rt></ruby>がかかったから",
     "<ruby>中止<rt>ちゅうし</rt></ruby>になったから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって、りっぱな<ruby>進歩<rt>しんぽ</rt></ruby>とは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>大<rt>おお</rt></ruby>きな<ruby>変化<rt>へんか</rt></ruby>",
-    "<ruby>状態<rt>じょうたい</rt></ruby>にあわせて<ruby>形<rt>かたち</rt></ruby>を<ruby>変<rt>か</rt></ruby>えること",
     "<ruby>中止<rt>ちゅうし</rt></ruby>にすること",
-    "<ruby>予算<rt>よさん</rt></ruby>をふやすこと"
+    "<ruby>予算<rt>よさん</rt></ruby>をふやすこと",
+    "<ruby>大<rt>おお</rt></ruby>きな<ruby>変化<rt>へんか</rt></ruby>",
+    "<ruby>状態<rt>じょうたい</rt></ruby>にあわせて<ruby>形<rt>かたち</rt></ruby>を<ruby>変<rt>か</rt></ruby>えること"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "The conditions of the project changed. When I asked about the circumstances, it turned out there were budget restrictions. Situations like that hardly ever happen, but when they do, the difference is in how you respond. Cancelling is easy. But you can also reach the same goal by another route. When we talk about progress we tend to imagine a big change, but changing shape to fit the situation is a fully valid kind of progress too."

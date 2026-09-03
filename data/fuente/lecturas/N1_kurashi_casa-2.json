@@ -7,12 +7,12 @@
   {
    "p": "<ruby>民宿<rt>みんしゅく</rt></ruby>の<ruby>本館<rt>ほんかん</rt></ruby>は、どんな<ruby>建物<rt>たてもの</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>新<rt>あたら</rt></ruby>しく<ruby>建<rt>た</rt></ruby>てたもの",
     "<ruby>古<rt>ふる</rt></ruby>い<ruby>屋敷<rt>やしき</rt></ruby>を<ruby>改装<rt>かいそう</rt></ruby>したもの",
-    "<ruby>邸宅<rt>ていたく</rt></ruby>だったもの",
-    "<ruby>漁船<rt>ぎょせん</rt></ruby>の<ruby>倉庫<rt>そうこ</rt></ruby>だったもの"
+    "<ruby>新<rt>あたら</rt></ruby>しく<ruby>建<rt>た</rt></ruby>てたもの",
+    "<ruby>漁船<rt>ぎょせん</rt></ruby>の<ruby>倉庫<rt>そうこ</rt></ruby>だったもの",
+    "<ruby>邸宅<rt>ていたく</rt></ruby>だったもの"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>女将<rt>おかみ</rt></ruby>は<ruby>客<rt>きゃく</rt></ruby>への<ruby>接<rt>せっ</rt></ruby>し<ruby>方<rt>かた</rt></ruby>について<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていましたか。",

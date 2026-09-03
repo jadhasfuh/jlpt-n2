@@ -7,12 +7,12 @@
   {
    "p": "<ruby>仕立<rt>した</rt></ruby>て<ruby>屋<rt>や</rt></ruby>の<ruby>何<rt>なに</rt></ruby>に<ruby>驚<rt>おどろ</rt></ruby>きましたか。",
    "opciones": [
-    "<ruby>値段<rt>ねだん</rt></ruby>の<ruby>安<rt>やす</rt></ruby>さ",
     "<ruby>客<rt>きゃく</rt></ruby>の<ruby>様子<rt>ようす</rt></ruby>を<ruby>察<rt>さっ</rt></ruby>する<ruby>早<rt>はや</rt></ruby>さ",
     "<ruby>資格<rt>しかく</rt></ruby>の<ruby>多<rt>おお</rt></ruby>さ",
+    "<ruby>値段<rt>ねだん</rt></ruby>の<ruby>安<rt>やす</rt></ruby>さ",
     "<ruby>道具<rt>どうぐ</rt></ruby>の<ruby>数<rt>かず</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>玄人<rt>くろうと</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るのは<ruby>何<rt>なん</rt></ruby>だと<ruby>言<rt>い</rt></ruby>っていますか。",

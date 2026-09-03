@@ -25,11 +25,11 @@
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>傘<rt>かさ</rt></ruby>",
     "<ruby>地図<rt>ちず</rt></ruby>",
-    "<ruby>お金<rt>おかね</rt></ruby>"
+    "<ruby>お金<rt>おかね</rt></ruby>",
+    "<ruby>傘<rt>かさ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "With so many days of rain, the river water turned muddy. Judging by the colour, soil must have come down from the mountain. In the wind, the flag on the bridge billowed. According to what the people around here say, the same thing happened last year. My grandmother handed me the umbrella and told me to come back early."

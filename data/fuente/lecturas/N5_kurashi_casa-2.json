@@ -16,20 +16,20 @@
   {
    "p": "シャワーは いくらでしたか。",
    "opciones": [
-    "にひゃくえん",
     "ただ",
+    "にひゃくえん",
     "ごひゃくえん"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "そとは どう なって いましたか。",
    "opciones": [
-    "ゆきで しろく なって いました",
+    "あかるかったです",
     "あめでした",
-    "あかるかったです"
+    "ゆきで しろく なって いました"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I woke up at six in the morning. I'd slept on the floor, so my back ached. I went to the toilets and they were spotless too. A shower was thirty minutes for two hundred yen. When I stepped outside the snow had settled and the town had turned white. Gonza was still asleep."

@@ -8,21 +8,21 @@
    "p": "<ruby>箱<rt>はこ</rt></ruby>の<ruby>中身<rt>なかみ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でしたか。",
    "opciones": [
     "<ruby>古<rt>ふる</rt></ruby>い<ruby>道具<rt>どうぐ</rt></ruby>",
+    "<ruby>手紙<rt>てがみ</rt></ruby>",
     "<ruby>紡績<rt>ぼうせき</rt></ruby><ruby>工場<rt>こうじょう</rt></ruby>の<ruby>記録<rt>きろく</rt></ruby>と<ruby>捕鯨<rt>ほげい</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>",
-    "<ruby>地図<rt>ちず</rt></ruby>だけ",
-    "<ruby>手紙<rt>てがみ</rt></ruby>"
+    "<ruby>地図<rt>ちず</rt></ruby>だけ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>呆然<rt>ぼうぜん</rt></ruby>としたのは、なぜですか。",
    "opciones": [
-    "<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>数<rt>かず</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かったから",
-    "<ruby>名簿<rt>めいぼ</rt></ruby>に<ruby>十代<rt>じゅうだい</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>がずらりと<ruby>並<rt>なら</rt></ruby>んでいたから",
     "<ruby>写真<rt>しゃしん</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>かったから",
-    "<ruby>棚<rt>たな</rt></ruby>が<ruby>足<rt>た</rt></ruby>りなかったから"
+    "<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>数<rt>かず</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かったから",
+    "<ruby>棚<rt>たな</rt></ruby>が<ruby>足<rt>た</rt></ruby>りなかったから",
+    "<ruby>名簿<rt>めいぼ</rt></ruby>に<ruby>十代<rt>じゅうだい</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>がずらりと<ruby>並<rt>なら</rt></ruby>んでいたから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I'm helping to sort out the local archive. There were boxes kept in the store that nobody had opened in decades. Inside were the records of a spinning mill and photographs of whaling. Among the huddled houses you can see a chimney, and you get a good sense of what this town was like when it had industry. On the map three factories appeared of which not even the name survives. I was stunned when I saw the list of employees. There was a row of names of inexperienced teenagers. Life then must have been extremely hard. We reinforced the boxes to preserve them and moved the material to new shelves. Rather than being ashamed of my ignorance, I think what matters is that, once you know, you tell it."

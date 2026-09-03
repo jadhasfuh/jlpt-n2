@@ -7,12 +7,12 @@
   {
    "p": "<ruby>単語<rt>たんご</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えるのに、<ruby>何<rt>なに</rt></ruby>が<ruby>確<rt>たし</rt></ruby>かですか。",
    "opciones": [
-    "<ruby>一度<rt>いちど</rt></ruby>で<ruby>覚<rt>おぼ</rt></ruby>えること",
     "<ruby>回<rt>かい</rt></ruby><ruby>数<rt>すう</rt></ruby>を<ruby>重<rt>かさ</rt></ruby>ねること",
-    "<ruby>使<rt>つか</rt></ruby>わないこと",
-    "<ruby>書<rt>か</rt></ruby>くこと"
+    "<ruby>一度<rt>いちど</rt></ruby>で<ruby>覚<rt>おぼ</rt></ruby>えること",
+    "<ruby>書<rt>か</rt></ruby>くこと",
+    "<ruby>使<rt>つか</rt></ruby>わないこと"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>同<rt>おな</rt></ruby>じところでまちがえるのは、なぜわるくないのですか。",

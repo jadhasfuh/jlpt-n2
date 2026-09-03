@@ -7,12 +7,12 @@
   {
    "p": "<ruby>弟<rt>おとうと</rt></ruby>の<ruby>服<rt>ふく</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>値段<rt>ねだん</rt></ruby>が<ruby>高<rt>たか</rt></ruby>い",
     "<ruby>既製<rt>きせい</rt></ruby>の<ruby>服<rt>ふく</rt></ruby>がなかなか<ruby>合<rt>あ</rt></ruby>わない",
+    "<ruby>数<rt>かず</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない",
     "<ruby>色<rt>いろ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きではない",
-    "<ruby>数<rt>かず</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない"
+    "<ruby>値段<rt>ねだん</rt></ruby>が<ruby>高<rt>たか</rt></ruby>い"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>職人<rt>しょくにん</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>はどれですか。",

@@ -7,22 +7,22 @@
   {
    "p": "<ruby>同窓会<rt>どうそうかい</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>、なぜ<ruby>遅<rt>おく</rt></ruby>れましたか。",
    "opciones": [
-    "<ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>ったから",
-    "<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れ、<ruby>雨<rt>あめ</rt></ruby>も<ruby>降<rt>ふ</rt></ruby>ったから",
+    "<ruby>時間<rt>じかん</rt></ruby>を<ruby>間違<rt>まちが</rt></ruby>えたから",
     "<ruby>仕事<rt>しごと</rt></ruby>があったから",
-    "<ruby>時間<rt>じかん</rt></ruby>を<ruby>間違<rt>まちが</rt></ruby>えたから"
+    "<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れ、<ruby>雨<rt>あめ</rt></ruby>も<ruby>降<rt>ふ</rt></ruby>ったから",
+    "<ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>ったから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって「<ruby>旧知<rt>きゅうち</rt></ruby>」とは、どんな<ruby>相手<rt>あいて</rt></ruby>ですか。",
    "opciones": [
+    "<ruby>先生<rt>せんせい</rt></ruby>のような<ruby>相手<rt>あいて</rt></ruby>",
     "<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>相手<rt>あいて</rt></ruby>",
-    "<ruby>説明<rt>せつめい</rt></ruby>をしなくていい<ruby>相手<rt>あいて</rt></ruby>",
     "<ruby>長<rt>なが</rt></ruby>く<ruby>会<rt>あ</rt></ruby>っていない<ruby>相手<rt>あいて</rt></ruby>",
-    "<ruby>先生<rt>せんせい</rt></ruby>のような<ruby>相手<rt>あいて</rt></ruby>"
+    "<ruby>説明<rt>せつめい</rt></ruby>をしなくていい<ruby>相手<rt>あいて</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "The reunion, after so long, was quite lively. The one who in our student days called himself «the hero» now apparently leads a team as its manager. I used to think he was full of himself. That day the train was delayed, it was raining on top of that, and I got to the venue an hour after the start. Even so, the moment I sat down the conversation went back to the past. A teacher who has since retired dropped by too. Without giving himself airs as he used to, but without belittling himself either, he listened to what each of us said. Between memories and laughter, night came on. I realised on the way home that an old friend is someone you don't have to explain anything to."

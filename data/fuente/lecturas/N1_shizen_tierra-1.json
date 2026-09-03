@@ -7,22 +7,22 @@
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どものころ、なぜ<ruby>原<rt>はら</rt></ruby>っぱで<ruby>遊<rt>あそ</rt></ruby>ぶのを<ruby>禁<rt>きん</rt></ruby>じられていましたか。",
    "opciones": [
-    "<ruby>危<rt>あぶ</rt></ruby>ない<ruby>崖<rt>がけ</rt></ruby>があるから",
-    "<ruby>野生<rt>やせい</rt></ruby>の<ruby>動物<rt>どうぶつ</rt></ruby>が<ruby>出<rt>で</rt></ruby>ることがあるから",
+    "<ruby>農地<rt>のうち</rt></ruby>だから",
     "<ruby>遠<rt>とお</rt></ruby>いから",
-    "<ruby>農地<rt>のうち</rt></ruby>だから"
+    "<ruby>野生<rt>やせい</rt></ruby>の<ruby>動物<rt>どうぶつ</rt></ruby>が<ruby>出<rt>で</rt></ruby>ることがあるから",
+    "<ruby>危<rt>あぶ</rt></ruby>ない<ruby>崖<rt>がけ</rt></ruby>があるから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>墓地<rt>ぼち</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>が<ruby>動<rt>うご</rt></ruby>いていないのは、なぜですか。",
    "opciones": [
     "<ruby>法律<rt>ほうりつ</rt></ruby>のため",
-    "<ruby>下地<rt>したじ</rt></ruby>になる<ruby>岩<rt>いわ</rt></ruby>のため",
+    "<ruby>水田<rt>すいでん</rt></ruby>のため",
     "<ruby>領地<rt>りょうち</rt></ruby>の<ruby>境<rt>さかい</rt></ruby>のため",
-    "<ruby>水田<rt>すいでん</rt></ruby>のため"
+    "<ruby>下地<rt>したじ</rt></ruby>になる<ruby>岩<rt>いわ</rt></ruby>のため"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "At the local museum I saw an exhibition about the relief of my region. It's a territory where the mountain range reaches the strait and the rice paddies are lined up between the slopes. Around the plateau, apparently, fossils sometimes come out of the rocks. As a child I often played on the waste ground at the foot of the cliff. Wild animals sometimes appeared and my parents had forbidden it. The exhibition is plain: barely a few original maps hung up. Even so, you could understand well how such steeply sloping terrain has always been made use of. Records also remain of the many times the boundaries of the land were changed. Only the site of the cemetery has never moved, because of the rock beneath it. The land's memory is much longer than people's. I thought this is what they call broadening your view."

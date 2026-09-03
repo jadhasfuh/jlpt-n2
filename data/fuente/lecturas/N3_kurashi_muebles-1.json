@@ -7,12 +7,12 @@
   {
    "p": "<ruby>台<rt>だい</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がはってありましたか。",
    "opciones": [
-    "<ruby>絵<rt>え</rt></ruby>",
     "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いた<ruby>札<rt>ふだ</rt></ruby>",
     "しゃしん",
+    "<ruby>絵<rt>え</rt></ruby>",
     "カレンダー"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>があらわれると<ruby>言<rt>い</rt></ruby>っていますか。",

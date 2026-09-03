@@ -7,22 +7,22 @@
   {
    "p": "<ruby>日常<rt>にちじょう</rt></ruby>のなかで、いちばんかんたんにけずられるのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
+    "<ruby>仕事<rt>しごと</rt></ruby>",
     "<ruby>食事<rt>しょくじ</rt></ruby>",
     "<ruby>睡眠<rt>すいみん</rt></ruby>",
-    "<ruby>仕事<rt>しごと</rt></ruby>",
     "<ruby>休憩<rt>きゅうけい</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<em class=\"g\">どうしても</em><ruby>終<rt>お</rt></ruby>わらせたい<ruby>仕事<rt>しごと</rt></ruby>があるとき、どうするほうが<ruby>早<rt>はや</rt></ruby>いですか。",
    "opciones": [
+    "たのむ",
     "つづける",
-    "<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>の<ruby>休憩<rt>きゅうけい</rt></ruby>をとる",
     "はやく<ruby>起<rt>お</rt></ruby>きる",
-    "たのむ"
+    "<ruby>一<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>の<ruby>休憩<rt>きゅうけい</rt></ruby>をとる"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "When you're busy all year, you tend to leave rest for later. Because, within daily life, cutting sleep is the easiest thing. But if you're still dragging tiredness when you wake, the whole day goes wrong. Even if there's a job you want to finish no matter what, it goes faster if you take an hour's rest. I suddenly remembered that my grandmother used to say «go to bed early». Like courtesy and good manners, respecting your bedtime must be a form of upbringing too."

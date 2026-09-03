@@ -16,20 +16,20 @@
   {
    "p": "ほかの きゃくは どう しましたか。",
    "opciones": [
+    "かえりました",
     "ゆっくり はなして いました",
-    "はやく のみました",
-    "かえりました"
+    "はやく のみました"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ぼくたちは なんと 言いましたか。",
    "opciones": [
-    "「ありがとう」と 「おいしい」",
+    "「もう <ruby>一<rt>いっ</rt></ruby>ぱい」",
     "なにも 言いませんでした",
-    "「もう <ruby>一<rt>いっ</rt></ruby>ぱい」"
+    "「ありがとう」と 「おいしい」"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "In that place, for thirty minutes the drinks were all the same price. Since we were short of money, we drank a great deal. The other customers were chatting calmly and looked over, laughing. Someone working there said: «there's no need to rush like that». With our Japanese we couldn't answer properly. We just said «thank you» and «it's good» over and over."

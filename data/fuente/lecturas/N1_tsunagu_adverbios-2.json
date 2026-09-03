@@ -7,12 +7,12 @@
   {
    "p": "「<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>べばいい」という<ruby>話<rt>はなし</rt></ruby>について、この<ruby>人<rt>ひと</rt></ruby>はどう<ruby>考<rt>かんが</rt></ruby>えていますか。",
    "opciones": [
-    "まったくそのとおりだ",
     "<ruby>一概<rt>いちがい</rt></ruby>にそう<ruby>言<rt>い</rt></ruby>えるものでもない",
     "<ruby>意味<rt>いみ</rt></ruby>がない",
-    "<ruby>一社<rt>いっしゃ</rt></ruby>にまかせるべきだ"
+    "<ruby>一社<rt>いっしゃ</rt></ruby>にまかせるべきだ",
+    "まったくそのとおりだ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>提案<rt>ていあん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",

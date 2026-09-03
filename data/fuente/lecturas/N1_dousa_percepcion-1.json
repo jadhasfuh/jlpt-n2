@@ -7,22 +7,22 @@
   {
    "p": "<ruby>父<rt>ちち</rt></ruby>の<ruby>入院<rt>にゅういん</rt></ruby><ruby>中<rt>ちゅう</rt></ruby>、この<ruby>人<rt>ひと</rt></ruby>はどこによく<ruby>寄<rt>よ</rt></ruby>りましたか。",
    "opciones": [
-    "<ruby>病院<rt>びょういん</rt></ruby>の<ruby>食堂<rt>しょくどう</rt></ruby>",
-    "<ruby>丘<rt>おか</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>の<ruby>展望<rt>てんぼう</rt></ruby><ruby>台<rt>だい</rt></ruby>",
+    "<ruby>駅<rt>えき</rt></ruby>",
     "<ruby>家<rt>いえ</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くの<ruby>公園<rt>こうえん</rt></ruby>",
-    "<ruby>駅<rt>えき</rt></ruby>"
+    "<ruby>丘<rt>おか</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>の<ruby>展望<rt>てんぼう</rt></ruby><ruby>台<rt>だい</rt></ruby>",
+    "<ruby>病院<rt>びょういん</rt></ruby>の<ruby>食堂<rt>しょくどう</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>背景<rt>はいけい</rt></ruby>を<ruby>知<rt>し</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>について、どう<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>たない",
-    "<ruby>偏見<rt>へんけん</rt></ruby>がないぶん<ruby>届<rt>とど</rt></ruby>くことがある",
     "うるさいだけだ",
-    "<ruby>意味<rt>いみ</rt></ruby>がわからない"
+    "<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>たない",
+    "<ruby>意味<rt>いみ</rt></ruby>がわからない",
+    "<ruby>偏見<rt>へんけん</rt></ruby>がないぶん<ruby>届<rt>とど</rt></ruby>くことがある"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "At the top of the hill there's a viewpoint from which you can see the town clearly. When my father was in hospital, I often went by on the way back. The feel of the railing was cold, and as I strained my ears towards the sound of the wind my head gradually settled. In those days I always walked with my head down. Even when reason understands, feelings are somewhere else. A nurse told me «look after yourself», and I remember feeling small. If at that moment I'd kept it all to myself, I think I'd be a different person today. Sometimes a line from someone who doesn't know the context reaches further, precisely because it carries no assumptions. Changing your point of view must be something like this."

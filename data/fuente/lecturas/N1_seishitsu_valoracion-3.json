@@ -7,22 +7,22 @@
   {
    "p": "<ruby>前任者<rt>ぜんにんしゃ</rt></ruby>のやり<ruby>方<rt>かた</rt></ruby>について、<ruby>何<rt>なに</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりましたか。",
    "opciones": [
-    "<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>月並<rt>つきな</rt></ruby>みだった",
-    "<ruby>壮大<rt>そうだい</rt></ruby>な<ruby>意図<rt>いと</rt></ruby>があった",
+    "<ruby>記録<rt>きろく</rt></ruby>がなかった",
     "<ruby>間違<rt>まちが</rt></ruby>っていた",
-    "<ruby>記録<rt>きろく</rt></ruby>がなかった"
+    "<ruby>壮大<rt>そうだい</rt></ruby>な<ruby>意図<rt>いと</rt></ruby>があった",
+    "<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>月並<rt>つきな</rt></ruby>みだった"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって<ruby>相応<rt>そうおう</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>とは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>無茶<rt>むちゃ</rt></ruby>な<ruby>改善<rt>かいぜん</rt></ruby>をすること",
-    "<ruby>不意<rt>ふい</rt></ruby>に<ruby>止<rt>と</rt></ruby>まらない<ruby>仕組<rt>しく</rt></ruby>みを<ruby>残<rt>のこ</rt></ruby>すこと",
     "<ruby>特権<rt>とっけん</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うこと",
-    "<ruby>品質<rt>ひんしつ</rt></ruby>を<ruby>上<rt>あ</rt></ruby>げること"
+    "<ruby>無茶<rt>むちゃ</rt></ruby>な<ruby>改善<rt>かいぜん</rt></ruby>をすること",
+    "<ruby>品質<rt>ひんしつ</rt></ruby>を<ruby>上<rt>あ</rt></ruby>げること",
+    "<ruby>不意<rt>ふい</rt></ruby>に<ruby>止<rt>と</rt></ruby>まらない<ruby>仕組<rt>しく</rt></ruby>みを<ruby>残<rt>のこ</rt></ruby>すこと"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Half a year after my transfer to the branch office, I've finally got into the normal rhythm. The first few months everything went crooked and I worked dragging a vague unease along. My predecessor's way of working had a bad name for being conventional, but on taking over I discovered there was a far-reaching intention behind it. To keep quality constant it's unavoidable not to break the dull procedures. Rather than making reckless improvements and loading the team with an unfair burden, being able to function normally turns out, above all, to be more useful. Even the room for decision that looks like a privilege is no use if it isn't used when it should be. Leaving in place a system that won't come to a sudden stop. Today I think that's the job that falls to me."

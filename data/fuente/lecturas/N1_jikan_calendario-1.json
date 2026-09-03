@@ -7,12 +7,12 @@
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>日取<rt>ひど</rt></ruby>りが<ruby>決<rt>き</rt></ruby>まると、どうしていましたか。",
    "opciones": [
-    "<ruby>手帳<rt>てちょう</rt></ruby>に<ruby>書<rt>か</rt></ruby>いた",
     "<ruby>暦<rt>こよみ</rt></ruby>に<ruby>赤<rt>あか</rt></ruby>い<ruby>丸<rt>まる</rt></ruby>をつけた",
-    "<ruby>家族<rt>かぞく</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>した",
-    "<ruby>何<rt>なに</rt></ruby>もしなかった"
+    "<ruby>手帳<rt>てちょう</rt></ruby>に<ruby>書<rt>か</rt></ruby>いた",
+    "<ruby>何<rt>なに</rt></ruby>もしなかった",
+    "<ruby>家族<rt>かぞく</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>した"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>電話<rt>でんわ</rt></ruby>で<ruby>予定<rt>よてい</rt></ruby>を<ruby>管理<rt>かんり</rt></ruby>するようになって、<ruby>何<rt>なに</rt></ruby>をしなくなりましたか。",

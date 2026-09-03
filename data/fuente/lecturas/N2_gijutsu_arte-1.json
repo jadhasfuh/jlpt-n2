@@ -16,20 +16,20 @@
   {
    "p": "はじめは<ruby>何<rt>なに</rt></ruby>をしていましたか。",
    "opciones": [
+    "<ruby>書道<rt>しょどう</rt></ruby>をした",
     "<ruby>先生<rt>せんせい</rt></ruby>の<ruby>作品<rt>さくひん</rt></ruby>を<ruby>真似<rt>まね</rt></ruby>た",
-    "<ruby>写生<rt>しゃせい</rt></ruby>した",
-    "<ruby>書道<rt>しょどう</rt></ruby>をした"
+    "<ruby>写生<rt>しゃせい</rt></ruby>した"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>隣<rt>となり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>がうまいですか。",
    "opciones": [
     "<ruby>彫刻<rt>ちょうこく</rt></ruby>だけ",
-    "<ruby>書道<rt>しょどう</rt></ruby>と<ruby>写生<rt>しゃせい</rt></ruby>",
-    "<ruby>複写<rt>ふくしゃ</rt></ruby>"
+    "<ruby>複写<rt>ふくしゃ</rt></ruby>",
+    "<ruby>書道<rt>しょどう</rt></ruby>と<ruby>写生<rt>しゃせい</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "I started learning sculpture at the community centre. At first I only copied the teacher's pieces, but since I've decided to carve on my own, I want to aim for a masterpiece. The person next to me is good at calligraphy and life drawing, and was showing it. If I could have hands like that, I'd go every single day."

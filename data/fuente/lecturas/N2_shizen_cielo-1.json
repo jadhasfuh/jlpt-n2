@@ -16,20 +16,20 @@
   {
    "p": "<ruby>昼<rt>ひる</rt></ruby>は<ruby>何<rt>なに</rt></ruby>が<ruby>大変<rt>たいへん</rt></ruby>でしたか。",
    "opciones": [
+    "<ruby>星<rt>ほし</rt></ruby>を<ruby>見<rt>み</rt></ruby>ること",
     "<ruby>日陰<rt>ひかげ</rt></ruby>を<ruby>探<rt>さが</rt></ruby>すこと",
-    "<ruby>屋根<rt>やね</rt></ruby>に<ruby>上<rt>あが</rt></ruby>ること",
-    "<ruby>星<rt>ほし</rt></ruby>を<ruby>見<rt>み</rt></ruby>ること"
+    "<ruby>屋根<rt>やね</rt></ruby>に<ruby>上<rt>あが</rt></ruby>ること"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>今夜<rt>こんや</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>静<rt>しず</rt></ruby>かだった",
     "うるさかった",
-    "<ruby>雨<rt>あめ</rt></ruby>だった"
+    "<ruby>雨<rt>あめ</rt></ruby>だった",
+    "<ruby>静<rt>しず</rt></ruby>かだった"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Going up onto the roof and looking at the sky, the new moon was showing above the horizon. By day the sun beat down and it was hard to find shade. There are many nights when, far from seeing stars, you can't see anything for the clouds. Tonight the light is faint and only a thin cloud is left in the air. Everything was so quiet that it was no moment to start talking about gravity."

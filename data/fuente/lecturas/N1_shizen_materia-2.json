@@ -7,22 +7,22 @@
   {
    "p": "<ruby>木<rt>き</rt></ruby>が<ruby>燃<rt>も</rt></ruby>えるのは、なぜですか。",
    "opciones": [
+    "<ruby>熱<rt>ねつ</rt></ruby>が<ruby>放射<rt>ほうしゃ</rt></ruby>されるから",
     "<ruby>風<rt>かぜ</rt></ruby>があるから",
     "<ruby>炭素<rt>たんそ</rt></ruby>が<ruby>酸素<rt>さんそ</rt></ruby>と<ruby>結<rt>むす</rt></ruby>びつくから",
-    "<ruby>密度<rt>みつど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いから",
-    "<ruby>熱<rt>ねつ</rt></ruby>が<ruby>放射<rt>ほうしゃ</rt></ruby>されるから"
+    "<ruby>密度<rt>みつど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>始<rt>はじ</rt></ruby>める<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
+    "<ruby>煙<rt>けむり</rt></ruby>を<ruby>調<rt>しら</rt></ruby>べた",
     "お<ruby>茶<rt>ちゃ</rt></ruby>をいれた",
-    "<ruby>周<rt>まわ</rt></ruby>りの<ruby>草<rt>くさ</rt></ruby>を<ruby>刈<rt>か</rt></ruby>り、<ruby>水<rt>みず</rt></ruby>を<ruby>用意<rt>ようい</rt></ruby>した",
     "<ruby>川<rt>かわ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>った",
-    "<ruby>煙<rt>けむり</rt></ruby>を<ruby>調<rt>しら</rt></ruby>べた"
+    "<ruby>周<rt>まわ</rt></ruby>りの<ruby>草<rt>くさ</rt></ruby>を<ruby>刈<rt>か</rt></ruby>り、<ruby>水<rt>みず</rt></ruby>を<ruby>用意<rt>ようい</rt></ruby>した"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "By the river, while we were making a bonfire, the subject of combustion came up. A friend who is a science teacher explained that wood burns because the carbon joins with the oxygen. That mixed into the smoke are invisible particles that fly on the wind as if they were dust. Watching the children who were getting into the river in defiance of the cold, I put water on to boil and made tea. Where the fire is densest it looks blue. Although they tell you it's because the molecules move faster, the flame in front of you still looks like a mystery. Before starting we cut the grass around us and got water ready, as a precaution. That your hands warm up from the radiated heat alone always surprises me a little."

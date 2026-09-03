@@ -7,22 +7,22 @@
   {
    "p": "まわりからは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>われますか。",
    "opciones": [
-    "むずかしいね",
-    "よく<ruby>続<rt>つづ</rt></ruby>くね",
+    "<ruby>早<rt>はや</rt></ruby>いね",
     "やめなさい",
-    "<ruby>早<rt>はや</rt></ruby>いね"
+    "よく<ruby>続<rt>つづ</rt></ruby>くね",
+    "むずかしいね"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>意志<rt>いし</rt></ruby>がつづく<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>熱心<rt>ねっしん</rt></ruby>だから",
-    "むかしあきらめたときの<ruby>気持<rt>きも</rt></ruby>ちをおぼえているから",
     "まわりが<ruby>見<rt>み</rt></ruby>ているから",
-    "けいかくがいいから"
+    "<ruby>熱心<rt>ねっしん</rt></ruby>だから",
+    "けいかくがいいから",
+    "むかしあきらめたときの<ruby>気持<rt>きも</rt></ruby>ちをおぼえているから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Right now I'm turning over a new plan. People around me say «how do you keep it up». It seems I give the impression of being very enthusiastic, but there's actually an easy reason. A long time ago I gave up something I wanted to do. Since I remember how that felt, my will lasts now. Anyone, at the start, can only have a weak will. Praying that it goes well, I do what I can."

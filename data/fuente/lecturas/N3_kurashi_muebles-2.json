@@ -8,21 +8,21 @@
    "p": "<ruby>布<rt>ぬの</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>が<ruby>気<rt>き</rt></ruby>に<ruby>入<rt>い</rt></ruby>ると、どうなりますか。",
    "opciones": [
     "<ruby>弁当<rt>べんとう</rt></ruby>がおいしくなる",
+    "<ruby>時間<rt>じかん</rt></ruby>がかかる",
     "その<ruby>日<rt>ひ</rt></ruby>の<ruby>調子<rt>ちょうし</rt></ruby>までよくなる<ruby>気<rt>き</rt></ruby>がする",
-    "かわらない",
-    "<ruby>時間<rt>じかん</rt></ruby>がかかる"
+    "かわらない"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>長<rt>なが</rt></ruby>いあいだ、<ruby>何<rt>なに</rt></ruby>をしていましたか。",
    "opciones": [
     "<ruby>紐<rt>ひも</rt></ruby>をむすんでいた",
-    "あたらしいものをさがしていた",
+    "<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>っていた",
     "<ruby>家具<rt>かぐ</rt></ruby>をそろえていた",
-    "<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>っていた"
+    "あたらしいものをさがしていた"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "Every morning I choose the cloth I wrap the lunchbox in. I only put the leftovers into the containers I leave on the table. Even so, when I like the colour of the cloth, I get the feeling that even the mood of the day improves. It isn't something big like a blanket or a flag: it's just a small piece of cloth. Even if your furniture doesn't match, sometimes something like that is enough. Changing the shape of the knot in the cord would have been enough, and yet I spent ages looking for something new."

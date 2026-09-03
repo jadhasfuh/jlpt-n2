@@ -16,20 +16,20 @@
   {
    "p": "ビルの <ruby>中<rt>なか</rt></ruby>は どうでしたか。",
    "opciones": [
+    "しずかでした",
     "みせが たくさん ありました",
-    "だれも いませんでした",
-    "しずかでした"
+    "だれも いませんでした"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ゴンサさんは なんと 言いましたか。",
    "opciones": [
-    "「<ruby>三十分<rt>さんじゅっぷん</rt></ruby>だけ」",
+    "「たかい」",
     "「かえろう」",
-    "「たかい」"
+    "「<ruby>三十分<rt>さんじゅっぷん</rt></ruby>だけ」"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "At night we walked through the centre. Outside it was dark and empty. But when we went into a big building, inside there were dozens of places. First floor, second, third: all of them bars and shops. In my country there are no buildings like that. It was as if inside one building there was another city. Gonza said «just thirty minutes» and opened the door of one."

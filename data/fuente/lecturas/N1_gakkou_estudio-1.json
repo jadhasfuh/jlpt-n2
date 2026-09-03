@@ -7,12 +7,12 @@
   {
    "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>修行<rt>しゅぎょう</rt></ruby>の<ruby>最初<rt>さいしょ</rt></ruby>の<ruby>二年<rt>にねん</rt></ruby>、<ruby>何<rt>なに</rt></ruby>をしていましたか。",
    "opciones": [
-    "<ruby>建具<rt>たてぐ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>っていた",
     "<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>研<rt>と</rt></ruby>いでいた",
-    "<ruby>弟子<rt>でし</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えていた",
-    "<ruby>店<rt>みせ</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>っていた"
+    "<ruby>建具<rt>たてぐ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>っていた",
+    "<ruby>店<rt>みせ</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>っていた",
+    "<ruby>弟子<rt>でし</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えていた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>弟子<rt>でし</rt></ruby>の<ruby>育成<rt>いくせい</rt></ruby>について、<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>先<rt>さき</rt></ruby>に<ruby>見<rt>み</rt></ruby>ると<ruby>言<rt>い</rt></ruby>っていましたか。",

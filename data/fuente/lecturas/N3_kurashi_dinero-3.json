@@ -7,12 +7,12 @@
   {
    "p": "なぜ<ruby>支出<rt>ししゅつ</rt></ruby>が<ruby>予算<rt>よさん</rt></ruby>をこえましたか。",
    "opciones": [
-    "<ruby>買<rt>か</rt></ruby>いすぎたから",
     "<ruby>物価<rt>ぶっか</rt></ruby>と<ruby>料金<rt>りょうきん</rt></ruby>が<ruby>上<rt>あ</rt></ruby>がったから",
-    "<ruby>収入<rt>しゅうにゅう</rt></ruby>がへったから",
-    "<ruby>貯金<rt>ちょきん</rt></ruby>したから"
+    "<ruby>買<rt>か</rt></ruby>いすぎたから",
+    "<ruby>貯金<rt>ちょきん</rt></ruby>したから",
+    "<ruby>収入<rt>しゅうにゅう</rt></ruby>がへったから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>貯金<rt>ちょきん</rt></ruby>について、どう<ruby>考<rt>かんが</rt></ruby>えていますか。",

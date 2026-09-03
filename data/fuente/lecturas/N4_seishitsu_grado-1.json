@@ -7,12 +7,12 @@
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていましたか。",
    "opciones": [
-    "よくほめた",
     "できていないところをその<ruby>日<rt>ひ</rt></ruby>のうちに<ruby>言<rt>い</rt></ruby>った",
     "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった",
-    "<ruby>以上<rt>いじょう</rt></ruby>のことも<ruby>言<rt>い</rt></ruby>った"
+    "<ruby>以上<rt>いじょう</rt></ruby>のことも<ruby>言<rt>い</rt></ruby>った",
+    "よくほめた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "いま、この<ruby>人<rt>ひと</rt></ruby>はどう<ruby>思<rt>おも</rt></ruby>っていますか。",

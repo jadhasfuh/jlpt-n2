@@ -7,22 +7,22 @@
   {
    "p": "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ったら、どうしますか。",
    "opciones": [
-    "やめる",
-    "<ruby>再来週<rt>さらいしゅう</rt></ruby>にする",
+    "<ruby>行<rt>い</rt></ruby>く",
     "うちでする",
-    "<ruby>行<rt>い</rt></ruby>く"
+    "<ruby>再来週<rt>さらいしゅう</rt></ruby>にする",
+    "やめる"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "いちばんきれいなのはいつですか。",
    "opciones": [
-    "さいしょの<ruby>三<rt>みっ</rt></ruby>か<ruby>日<rt>か</rt></ruby>",
     "<ruby>一<rt>いち</rt></ruby>しゅうかん",
+    "まいにち",
     "<ruby>来週<rt>らいしゅう</rt></ruby>",
-    "まいにち"
+    "さいしょの<ruby>三<rt>みっ</rt></ruby>か<ruby>日<rt>か</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   }
  ],
  "traduccion_en": "Next week we're going to see the cherry blossom. If it rains, we'll put it off to the week after. The grass I planted last year has come up too. A sign says not to break the branches. When the flowers open, the finest part is only the first three days. Perhaps it's precisely because it's brief that everyone gathers. If the weather is good, I intend to prepare food and take it with me."

@@ -7,22 +7,22 @@
   {
    "p": "<ruby>中央<rt>ちゅうおう</rt></ruby>の<ruby>道<rt>みち</rt></ruby>からはずれると、どうなりますか。",
    "opciones": [
-    "はやくつく",
-    "すぐに<ruby>方向<rt>ほうこう</rt></ruby>がわからなくなる",
+    "<ruby>地図<rt>ちず</rt></ruby>が<ruby>要<rt>い</rt></ruby>らなくなる",
     "<ruby>景色<rt>けしき</rt></ruby>がよくなる",
-    "<ruby>地図<rt>ちず</rt></ruby>が<ruby>要<rt>い</rt></ruby>らなくなる"
+    "すぐに<ruby>方向<rt>ほうこう</rt></ruby>がわからなくなる",
+    "はやくつく"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えはどれですか。",
    "opciones": [
-    "<ruby>頂上<rt>ちょうじょう</rt></ruby>だけがたいせつだ",
-    "そこまでの<ruby>時間<rt>じかん</rt></ruby>も<ruby>旅<rt>たび</rt></ruby>のうちだ",
+    "おにぎりがいちばん",
     "<ruby>地図<rt>ちず</rt></ruby>は<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>たない",
-    "おにぎりがいちばん"
+    "<ruby>頂上<rt>ちょうじょう</rt></ruby>だけがたいせつだ",
+    "そこまでの<ruby>時間<rt>じかん</rt></ruby>も<ruby>旅<rt>たび</rt></ruby>のうちだ"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "With people from the area we set out to reach the top of the mountain. As soon as you leave the main path, you lose your bearings at once. There are few landmarks around. On the map the district boundaries were clearly marked, but on the ground they couldn't be made out. When I felt I was reaching my physical limit, the person in front took my rucksack. The onigiri we ate at the summit had its filling squashed, but it was the best of all. Not only the scenery: the time it takes to get there is part of the journey too."

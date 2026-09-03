@@ -7,22 +7,22 @@
   {
    "p": "<ruby>友人<rt>ゆうじん</rt></ruby>は<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて、どうしましたか。",
    "opciones": [
-    "<ruby>嘲笑<rt>あざわら</rt></ruby>った",
-    "<ruby>微笑<rt>びしょう</rt></ruby>して<ruby>聞<rt>き</rt></ruby>いてくれた",
     "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった",
-    "<ruby>冷<rt>ひ</rt></ruby>やかした"
+    "<ruby>冷<rt>ひ</rt></ruby>やかした",
+    "<ruby>微笑<rt>びしょう</rt></ruby>して<ruby>聞<rt>き</rt></ruby>いてくれた",
+    "<ruby>嘲笑<rt>あざわら</rt></ruby>った"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>最後<rt>さいご</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>思<rt>おも</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>極楽<rt>ごくらく</rt></ruby>のような<ruby>一日<rt>いちにち</rt></ruby>がほしい",
-    "こういう<ruby>日<rt>ひ</rt></ruby>を<ruby>重<rt>おも</rt></ruby>んじていきたい",
     "<ruby>喜劇<rt>きげき</rt></ruby>をもっと<ruby>見<rt>み</rt></ruby>たい",
-    "<ruby>天気<rt>てんき</rt></ruby>がよければいい"
+    "<ruby>極楽<rt>ごくらく</rt></ruby>のような<ruby>一日<rt>いちにち</rt></ruby>がほしい",
+    "<ruby>天気<rt>てんき</rt></ruby>がよければいい",
+    "こういう<ruby>日<rt>ひ</rt></ruby>を<ruby>重<rt>おも</rt></ruby>んじていきたい"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "The weather was fine from the morning and the washing dried beautifully. In the letterbox there was a letter with promising news. At midday the set menu at the place I went into without thinking turned out to be a good choice. A day when nothing but good things happen is something that occurs now and then. In the afternoon a friend suggested going to see a comedy. What I kept quiet about for fear of being laughed at I finally told him on the way home. Far from mocking me, my friend listened with a smile. I think it's precisely because he's someone you've known a long time that you can say even what needn't be said. «Salvation» is too big a word, but being listened to comfortably was quite like it. Even if it isn't a day in paradise, I want to learn to value days like that."

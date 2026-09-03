@@ -16,20 +16,20 @@
   {
    "p": "いつ<ruby>役者<rt>やくしゃ</rt></ruby>が<ruby>集<rt>あつ</rt></ruby>まりますか。",
    "opciones": [
-    "<ruby>祭<rt>まつ</rt></ruby>りの<ruby>日<rt>ひ</rt></ruby>",
     "<ruby>毎日<rt>まいにち</rt></ruby>",
+    "<ruby>祭<rt>まつ</rt></ruby>りの<ruby>日<rt>ひ</rt></ruby>",
     "<ruby>冬<rt>ふゆ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "「<ruby>私<rt>わたし</rt></ruby>」は<ruby>何<rt>なに</rt></ruby>になりたいですか。",
    "opciones": [
-    "<ruby>判事<rt>はんじ</rt></ruby>",
+    "<ruby>漁師<rt>りょうし</rt></ruby>",
     "<ruby>大工<rt>だいく</rt></ruby>",
-    "<ruby>漁師<rt>りょうし</rt></ruby>"
+    "<ruby>判事<rt>はんじ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "In this town there are carpenters, fishermen and craftsmen. In the morning the policeman stands guard and the official puts up the notices. It's precisely on festival days that even actors and journalists gather. I'm a waitress, but that's no more than my job for now. If I don't neglect my studies, I think one day I could be a judge."

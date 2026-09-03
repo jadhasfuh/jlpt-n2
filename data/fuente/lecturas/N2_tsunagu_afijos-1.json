@@ -16,20 +16,20 @@
   {
    "p": "<ruby>全部<rt>ぜんぶ</rt></ruby>で<ruby>何<rt>なん</rt></ruby>キロを<ruby>超<rt>こ</rt></ruby>えましたか。",
    "opciones": [
-    "<ruby>三十<rt>さんじゅう</rt></ruby>キロ",
     "<ruby>十<rt>じゅっ</rt></ruby>キロ",
+    "<ruby>三十<rt>さんじゅう</rt></ruby>キロ",
     "<ruby>百<rt>ひゃっ</rt></ruby>キロ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "どの<ruby>箱<rt>はこ</rt></ruby>が<ruby>軽<rt>かる</rt></ruby>かったですか。",
    "opciones": [
-    "<ruby>三<rt>さん</rt></ruby><ruby>番目<rt>ばんめ</rt></ruby>",
+    "<ruby>最後<rt>さいご</rt></ruby>",
     "<ruby>一<rt>いち</rt></ruby><ruby>番目<rt>ばんめ</rt></ruby>",
-    "<ruby>最後<rt>さいご</rt></ruby>"
+    "<ruby>三<rt>さん</rt></ruby><ruby>番目<rt>ばんめ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I stuck the «checked» label on the boxes and set aside only what was meant for the children. Counting them one by one, they came to over thirty kilos. My mother is the same as ever, with a creased note in her hand. Seeing her, I can't help lending a hand. I get the feeling it's too heavy to move, though it isn't as if it's impossible either. Only the third box weighed a tiny bit less."

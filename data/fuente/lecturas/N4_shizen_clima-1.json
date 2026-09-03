@@ -7,12 +7,12 @@
   {
    "p": "<ruby>台風<rt>たいふう</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>、<ruby>何<rt>なに</rt></ruby>がありましたか。",
    "opciones": [
-    "<ruby>木<rt>き</rt></ruby>がたおれた",
     "でんきがとまった",
+    "<ruby>暖房<rt>だんぼう</rt></ruby>がついた",
     "<ruby>雨<rt>あめ</rt></ruby>がふらなかった",
-    "<ruby>暖房<rt>だんぼう</rt></ruby>がついた"
+    "<ruby>木<rt>き</rt></ruby>がたおれた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "つぎの<ruby>朝<rt>あさ</rt></ruby>、<ruby>木<rt>き</rt></ruby>はどうでしたか。",

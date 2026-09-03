@@ -16,20 +16,20 @@
   {
    "p": "<ruby>教室<rt>きょうしつ</rt></ruby>で<ruby>何<rt>なに</rt></ruby>を<ruby>習<rt>なら</rt></ruby>いましたか。",
    "opciones": [
-    "<ruby>公式<rt>こうしき</rt></ruby>と<ruby>方程式<rt>ほうていしき</rt></ruby>",
     "<ruby>算数<rt>さんすう</rt></ruby>の<ruby>歴史<rt>れきし</rt></ruby>",
+    "<ruby>公式<rt>こうしき</rt></ruby>と<ruby>方程式<rt>ほうていしき</rt></ruby>",
     "<ruby>社会科学<rt>しゃかいかがく</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>来月<rt>らいげつ</rt></ruby><ruby>何<rt>なに</rt></ruby>が<ruby>聞<rt>き</rt></ruby>けますか。",
    "opciones": [
-    "<ruby>学会<rt>がっかい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>",
     "<ruby>観測<rt>かんそく</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>",
-    "<ruby>試験<rt>しけん</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>"
+    "<ruby>試験<rt>しけん</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>",
+    "<ruby>学会<rt>がっかい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Because of the rain the outdoor observation was cancelled. Instead, in the classroom we studied formulas and equations. Since I'm bad at calculation, they explained it to me from the beginning. The teacher says that natural sciences and social sciences are the same if you break them down to think about them. It seems that next month we'll also get to hear about the conference."

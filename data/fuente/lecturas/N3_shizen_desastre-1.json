@@ -8,21 +8,21 @@
    "p": "<ruby>訓練<rt>くんれん</rt></ruby>のとき、どんな<ruby>人<rt>ひと</rt></ruby>もいますか。",
    "opciones": [
     "ねている<ruby>人<rt>ひと</rt></ruby>",
-    "こわがっている<em class=\"g\">ふりをする</em><ruby>人<rt>ひと</rt></ruby>",
     "<ruby>笑<rt>わら</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>",
+    "こわがっている<em class=\"g\">ふりをする</em><ruby>人<rt>ひと</rt></ruby>",
     "<ruby>逃<rt>に</rt></ruby>げる<ruby>人<rt>ひと</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "まず<ruby>何<rt>なに</rt></ruby>をすべきだと<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>金庫<rt>きんこ</rt></ruby>の<ruby>書類<rt>しょるい</rt></ruby>をまもる",
-    "<ruby>人<rt>ひと</rt></ruby>を<ruby>助<rt>たす</rt></ruby>ける",
+    "ベルを<ruby>鳴<rt>な</rt></ruby>らす",
     "<ruby>救助<rt>きゅうじょ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つ",
-    "ベルを<ruby>鳴<rt>な</rt></ruby>らす"
+    "<ruby>金庫<rt>きんこ</rt></ruby>の<ruby>書類<rt>しょるい</rt></ruby>をまもる",
+    "<ruby>人<rt>ひと</rt></ruby>を<ruby>助<rt>たす</rt></ruby>ける"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "We did an earthquake drill. When the alarm sounds, we all get under the desks. Since we know it's a drill, some people pretend to be genuinely frightened. But once there's damage it's too late. While you wait for rescue, how to let people know you're all right. Before the papers in the safe, first save the people. We also went over the protocol for when there are people with disabilities. Rather than pretending to be afraid, you'd want to be ready to actually move your hands."

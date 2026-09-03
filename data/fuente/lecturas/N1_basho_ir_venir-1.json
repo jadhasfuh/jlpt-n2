@@ -7,22 +7,22 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>学校<rt>がっこう</rt></ruby>を<ruby>出<rt>で</rt></ruby>たあと、どうしましたか。",
    "opciones": [
+    "<ruby>外国<rt>がいこく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った",
     "<ruby>父<rt>ちち</rt></ruby>の<ruby>工場<rt>こうじょう</rt></ruby>を<ruby>継<rt>つ</rt></ruby>いだ",
     "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>道<rt>みち</rt></ruby>を<ruby>歩<rt>あゆ</rt></ruby>むことにした",
-    "<ruby>何<rt>なに</rt></ruby>もしなかった",
-    "<ruby>外国<rt>がいこく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った"
+    "<ruby>何<rt>なに</rt></ruby>もしなかった"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "はじめの<ruby>志<rt>こころざし</rt></ruby>を<ruby>貫<rt>つらぬ</rt></ruby>けた<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>だと<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
     "<ruby>才能<rt>さいのう</rt></ruby>があったから",
-    "<ruby>人<rt>ひと</rt></ruby>と<ruby>言葉<rt>ことば</rt></ruby>を<ruby>交<rt>まじ</rt></ruby>えることを<ruby>抜<rt>ぬ</rt></ruby>かさなかったから",
     "<ruby>苦<rt>くる</rt></ruby>しくなかったから",
-    "<ruby>父<rt>ちち</rt></ruby>に<ruby>助<rt>たす</rt></ruby>けられたから"
+    "<ruby>父<rt>ちち</rt></ruby>に<ruby>助<rt>たす</rt></ruby>けられたから",
+    "<ruby>人<rt>ひと</rt></ruby>と<ruby>言葉<rt>ことば</rt></ruby>を<ruby>交<rt>まじ</rt></ruby>えることを<ruby>抜<rt>ぬ</rt></ruby>かさなかったから"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "My father ran a small workshop. It was taken for granted that when I finished my studies I'd take over the business, and I remember how afraid I was of letting that expectation down. Even so, the day I passed the exam I decided for the first time to walk my own path. After going through several jobs, I'm now posted at a laboratory in a distant city. Starting with that first year, every year I've given something up and gained something. When the letters on the sign fade and the sleeves of the uniform come apart, you gradually understand how to get out of what hurts. After getting through a good few nights with damp eyes, if I've been able to hold on to my original purpose I think it's because I never skipped talking to people. The urge to run away never ends. And yet, every time I go through the door I think: today too, let's give it a go."

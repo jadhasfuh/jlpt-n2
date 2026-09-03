@@ -7,22 +7,22 @@
   {
    "p": "いとこは<ruby>何<rt>なに</rt></ruby>とれんらくしましたか。",
    "opciones": [
+    "<ruby>火曜<rt>かよう</rt></ruby>にあう",
     "<ruby>正月<rt>しょうがつ</rt></ruby>に<ruby>行<rt>い</rt></ruby>く",
     "<ruby>今年<rt>ことし</rt></ruby>は<ruby>行<rt>い</rt></ruby>けない",
-    "<ruby>季節<rt>きせつ</rt></ruby>のあいさつをする",
-    "<ruby>火曜<rt>かよう</rt></ruby>にあう"
+    "<ruby>季節<rt>きせつ</rt></ruby>のあいさつをする"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>はどう<ruby>思<rt>おも</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>正月<rt>しょうがつ</rt></ruby>でなければだめだ",
-    "<ruby>日<rt>ひ</rt></ruby>をずらしてでもあおうとするのはわるくない",
     "あわなくてもいい",
-    "<ruby>昔<rt>むかし</rt></ruby>のほうがよかった"
+    "<ruby>正月<rt>しょうがつ</rt></ruby>でなければだめだ",
+    "<ruby>昔<rt>むかし</rt></ruby>のほうがよかった",
+    "<ruby>日<rt>ひ</rt></ruby>をずらしてでもあおうとするのはわるくない"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "In the past, the whole family gathered at New Year. Lately there are people who can't come. Last week a cousin let me know: «sorry I can't make it this year». He says that in two weeks' time he would have time. There was a period when it was reduced to the seasonal greeting, but I don't think there's anything wrong with trying to meet even if the day has to move. Even if it's a Tuesday afternoon, if we can see each other, that's enough. In my reply I wrote: «you're the one who should forgive me, I took so long to decide»."

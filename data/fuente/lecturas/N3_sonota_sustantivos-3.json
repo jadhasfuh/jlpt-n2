@@ -7,12 +7,12 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>座席<rt>ざせき</rt></ruby>はどこでしたか。",
    "opciones": [
-    "いちばん<ruby>前<rt>まえ</rt></ruby>",
     "<ruby>後<rt>うし</rt></ruby>ろのほう",
     "<ruby>右<rt>みぎ</rt></ruby>のはし",
-    "<ruby>立<rt>た</rt></ruby>っていた"
+    "<ruby>立<rt>た</rt></ruby>っていた",
+    "いちばん<ruby>前<rt>まえ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>前<rt>まえ</rt></ruby>の<ruby>席<rt>せき</rt></ruby>にすわれなかったのは、なぜですか。",

@@ -7,12 +7,12 @@
   {
    "p": "<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しには<ruby>何<rt>なに</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っていましたか。",
    "opciones": [
-    "カードだけ",
     "<ruby>糸<rt>いと</rt></ruby>やボタン",
     "<ruby>鏡<rt>かがみ</rt></ruby>",
+    "カードだけ",
     "<ruby>表<rt>ひょう</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "なくしたと<ruby>思<rt>おも</rt></ruby>っていたものはどこにありましたか。",

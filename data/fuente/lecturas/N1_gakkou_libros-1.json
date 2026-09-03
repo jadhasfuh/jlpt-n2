@@ -7,22 +7,22 @@
   {
    "p": "<ruby>読<rt>よ</rt></ruby>みたかった<ruby>本<rt>ほん</rt></ruby>は、どうなっていましたか。",
    "opciones": [
-    "<ruby>高<rt>たか</rt></ruby>すぎた",
-    "とうに<ruby>絶版<rt>ぜっぱん</rt></ruby>になっていた",
     "<ruby>電子<rt>でんし</rt></ruby><ruby>版<rt>ばん</rt></ruby>しかなかった",
-    "<ruby>訳<rt>やく</rt></ruby>が<ruby>変<rt>か</rt></ruby>わっていた"
+    "<ruby>訳<rt>やく</rt></ruby>が<ruby>変<rt>か</rt></ruby>わっていた",
+    "とうに<ruby>絶版<rt>ぜっぱん</rt></ruby>になっていた",
+    "<ruby>高<rt>たか</rt></ruby>すぎた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>声<rt>こえ</rt></ruby>に<ruby>出<rt>だ</rt></ruby>して<ruby>読<rt>よ</rt></ruby>んで、<ruby>何<rt>なに</rt></ruby>に<ruby>気<rt>き</rt></ruby>づきましたか。",
    "opciones": [
+    "<ruby>長<rt>なが</rt></ruby>すぎること",
     "<ruby>訳<rt>やく</rt></ruby>が<ruby>古<rt>ふる</rt></ruby>いこと",
-    "<ruby>朗読<rt>ろうどく</rt></ruby>を<ruby>前提<rt>ぜんてい</rt></ruby>に<ruby>書<rt>か</rt></ruby>かれた<ruby>文章<rt>ぶんしょう</rt></ruby>だったこと",
     "<ruby>字<rt>じ</rt></ruby>が<ruby>小<rt>ちい</rt></ruby>さいこと",
-    "<ruby>長<rt>なが</rt></ruby>すぎること"
+    "<ruby>朗読<rt>ろうどく</rt></ruby>を<ruby>前提<rt>ぜんてい</rt></ruby>に<ruby>書<rt>か</rt></ruby>かれた<ruby>文章<rt>ぶんしょう</rt></ruby>だったこと"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "I felt like rereading a long novel I read as a student. On looking for it, it turns out it went out of print long ago. I checked the library catalogue and asked permission to consult it in the reading room. They brought out the original too and I put it alongside to compare them. Both from how good the translation was and from how beautiful the edition was, I was struck by the care taken back then. At the end of the volume a list of the author's other works was included, and there was even a cutting of a review tucked inside. In an age when everything can be read on a screen, clinging to paper could well be called old-fashioned. Even so, when you read it aloud you notice that the length of the sentences fits the breath. That it was a text written with reading aloud in mind has taken me twenty years to realise."

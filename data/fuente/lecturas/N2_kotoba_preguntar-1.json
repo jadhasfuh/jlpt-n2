@@ -16,20 +16,20 @@
   {
    "p": "<ruby>二番目<rt>にばんめ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>待<rt>ま</rt></ruby>ち<ruby>時間<rt>じかん</rt></ruby>",
     "<ruby>値段<rt>ねだん</rt></ruby>",
+    "<ruby>待<rt>ま</rt></ruby>ち<ruby>時間<rt>じかん</rt></ruby>",
     "<ruby>場所<rt>ばしょ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>意外<rt>いがい</rt></ruby>だったことは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>店員<rt>てんいん</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかった",
+    "<ruby>客<rt>きゃく</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない",
     "<ruby>回答<rt>かいとう</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かった",
-    "<ruby>客<rt>きゃく</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない"
+    "<ruby>店員<rt>てんいん</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかった"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The answers to the survey we handed out in the shop were collected. Sure enough, the thing mentioned most was «the price». Since it's what worries the customers who come daily, it's logical that they ask for it to be cheaper. Second was the waiting time, also as expected. What was surprising was that few people mentioned the way the staff treat them."

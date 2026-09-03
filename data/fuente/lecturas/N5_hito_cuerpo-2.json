@@ -16,20 +16,20 @@
   {
    "p": "だれを よびましたか。",
    "opciones": [
-    "ジャンと ゴンサ",
     "アンナさん",
+    "ジャンと ゴンサ",
     "たなかさん"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ゴンサさんは なんと 言いましたか。",
    "opciones": [
-    "「メキシコの あじだ」",
     "「からい」",
-    "「にほんの あじだ」"
+    "「にほんの あじだ」",
+    "「メキシコの あじだ」"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "Once I was better I wanted to pay Gonza back. I looked for beef at the supermarket, but it was expensive. Pork cost half as much. I made curry at home and invited Jean and Gonza. Gonza said «this tastes like Mexico», but it was Japanese curry. Between the three of us we emptied the pot."

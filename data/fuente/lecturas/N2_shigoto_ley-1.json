@@ -16,20 +16,20 @@
   {
    "p": "<ruby>判子<rt>はんこ</rt></ruby>がないので、どうしましたか。",
    "opciones": [
+    "<ruby>待<rt>ま</rt></ruby>った",
     "サインで<ruby>済<rt>す</rt></ruby>ませた",
-    "<ruby>帰<rt>かえ</rt></ruby>った",
-    "<ruby>待<rt>ま</rt></ruby>った"
+    "<ruby>帰<rt>かえ</rt></ruby>った"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>調査<rt>ちょうさ</rt></ruby>はどうなりましたか。",
    "opciones": [
-    "<ruby>止<rt>と</rt></ruby>まっている",
+    "<ruby>進<rt>すす</rt></ruby>んでいる",
     "<ruby>終<rt>お</rt></ruby>わった",
-    "<ruby>進<rt>すす</rt></ruby>んでいる"
+    "<ruby>止<rt>と</rt></ruby>まっている"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "At the tennis court my bag disappeared and I filed a theft report. Since I didn't have my seal with me, apologising, they let me settle it with a signature. They asked me the approximate time, but the conversation ended without my managing to answer clearly. Even if they check the security cameras, it seems catching someone is difficult. Like a stopped clock, the investigation stayed where it was. For the first time I understood that not everyone respects rules and laws."

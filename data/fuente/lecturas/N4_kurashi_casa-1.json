@@ -7,12 +7,12 @@
   {
    "p": "いまのへやのもんだいは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "せまいこと",
     "<ruby>壁<rt>かべ</rt></ruby>がうすくて<ruby>音<rt>おと</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえること",
+    "<ruby>屋上<rt>おくじょう</rt></ruby>がないこと",
     "<ruby>押<rt>お</rt></ruby>し<ruby>入<rt>い</rt></ruby>れがないこと",
-    "<ruby>屋上<rt>おくじょう</rt></ruby>がないこと"
+    "せまいこと"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "つぎのへやのいいところは<ruby>何<rt>なに</rt></ruby>ですか。",

@@ -16,20 +16,20 @@
   {
    "p": "カルロスさんは なにに きが つきましたか。",
    "opciones": [
-    "<ruby>楽<rt>たの</rt></ruby>しいのと うれしいのは ちがう こと",
     "おかねが ない こと",
+    "<ruby>楽<rt>たの</rt></ruby>しいのと うれしいのは ちがう こと",
     "ことばが へたな こと"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "アンナさんと はなす とき、なにを はなしますか。",
    "opciones": [
-    "じぶんの こと",
+    "しごとの こと",
     "<ruby>日本<rt>にほん</rt></ruby>の こと",
-    "しごとの こと"
+    "じぶんの こと"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "The people I met through the app were all kind. They show you the city and take you to places where you eat well. Paying for dinner buys you a good day. But I realised that having fun and being happy aren't the same thing. When I talk to Anna, I talk about myself. With the others I only ever talked about Japan."

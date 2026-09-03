@@ -7,12 +7,12 @@
   {
    "p": "はじめてあう<ruby>人<rt>ひと</rt></ruby>に、<ruby>何<rt>なに</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きますか。",
    "opciones": [
-    "なまえ",
     "どんなことに<ruby>興味<rt>きょうみ</rt></ruby>があるか",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>聞<rt>き</rt></ruby>かない",
     "しごと",
-    "<ruby>何<rt>なに</rt></ruby>も<ruby>聞<rt>き</rt></ruby>かない"
+    "なまえ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えはどれですか。",

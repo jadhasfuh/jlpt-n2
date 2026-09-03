@@ -16,20 +16,20 @@
   {
    "p": "ミンさんは どのくらい <ruby>日本<rt>にほん</rt></ruby>に いますか。",
    "opciones": [
-    "<ruby>二年<rt>にねん</rt></ruby>",
     "<ruby>二<rt>に</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
+    "<ruby>二年<rt>にねん</rt></ruby>",
     "きょねんから"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんは <ruby>英語<rt>えいご</rt></ruby>が できますか。",
    "opciones": [
-    "すこしだけ",
+    "ぜんぜん",
     "とても よく",
-    "ぜんぜん"
+    "すこしだけ"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I'm an international student. In class there are people from all sorts of countries. Jean and Gonza come from Peru. Among ourselves we speak Spanish. Min came from Myanmar. He has been here two years already. The teacher asked me: «can you speak English?». I answered: «only a little». When you're abroad, you think about your own country a lot."

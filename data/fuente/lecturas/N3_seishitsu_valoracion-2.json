@@ -8,21 +8,21 @@
    "p": "<ruby>行列<rt>ぎょうれつ</rt></ruby>のできる<ruby>店<rt>みせ</rt></ruby>について、どう<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
     "いつも<ruby>有利<rt>ゆうり</rt></ruby>だ",
+    "<ruby>評判<rt>ひょうばん</rt></ruby>が<ruby>正<rt>ただ</rt></ruby>しい",
     "<ruby>待<rt>ま</rt></ruby>った<ruby>時間<rt>じかん</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えると<ruby>有利<rt>ゆうり</rt></ruby>とはかぎらない",
-    "<ruby>入<rt>はい</rt></ruby>るべきでない",
-    "<ruby>評判<rt>ひょうばん</rt></ruby>が<ruby>正<rt>ただ</rt></ruby>しい"
+    "<ruby>入<rt>はい</rt></ruby>るべきでない"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>唯一<rt>ゆいいつ</rt></ruby>たしかなことは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>評判<rt>ひょうばん</rt></ruby>を<ruby>信<rt>しん</rt></ruby>じること",
-    "じぶんで<ruby>試<rt>ため</rt></ruby>してみること",
     "<ruby>目上<rt>めうえ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>に<ruby>聞<rt>き</rt></ruby>くこと",
-    "<ruby>値<rt>ね</rt></ruby>だんを<ruby>見<rt>み</rt></ruby>ること"
+    "<ruby>評判<rt>ひょうばん</rt></ruby>を<ruby>信<rt>しん</rt></ruby>じること",
+    "<ruby>値<rt>ね</rt></ruby>だんを<ruby>見<rt>み</rt></ruby>ること",
+    "じぶんで<ruby>試<rt>ため</rt></ruby>してみること"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "A place with a good reputation doesn't necessarily suit you. For instance, even if you go into somewhere with a queue, sometimes, counting the waiting time, you can't say you come out ahead. Even if the appearance is splendid, if the substance is doubtful it's no use. The only sure thing is to try it yourself. Being recommended by someone above you doesn't mean you have to pay an unfairly high price. The more capable someone is, the more they trust their own judgement."

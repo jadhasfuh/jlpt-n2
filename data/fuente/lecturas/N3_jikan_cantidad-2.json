@@ -7,12 +7,12 @@
   {
    "p": "けいかくができなかった<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>時間<rt>じかん</rt></ruby>がない",
     "けいかくが<ruby>大<rt>おお</rt></ruby>きすぎた",
-    "<ruby>数<rt>かぞ</rt></ruby>えなかった",
-    "やる<ruby>気<rt>き</rt></ruby>がない"
+    "やる<ruby>気<rt>き</rt></ruby>がない",
+    "<ruby>時間<rt>じかん</rt></ruby>がない",
+    "<ruby>数<rt>かぞ</rt></ruby>えなかった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって、むずかしいのはどちらですか。",

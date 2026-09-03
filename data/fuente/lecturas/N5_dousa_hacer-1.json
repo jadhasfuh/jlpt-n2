@@ -16,20 +16,20 @@
   {
    "p": "はんこを <ruby>作<rt>つく</rt></ruby>る とき、なにを きかれましたか。",
    "opciones": [
+    "いつ くるか",
     "どんな なまえに するか",
-    "いくら はらうか",
-    "いつ くるか"
+    "いくら はらうか"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "さいしょの にしゅうかんは どうでしたか。",
    "opciones": [
-    "ぜんぶ てつづきでした",
     "まいにち あそびました",
-    "がっこうだけでした"
+    "がっこうだけでした",
+    "ぜんぶ てつづきでした"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "To work you need a bank account. They told me I also needed a personal seal, so I went to have one made. «What name would you like on it?» they asked, and I had to think for a moment. I had a photo taken too. My face came out stiff. Opening the account took another hour. My first two weeks in Japan were paperwork from start to finish."

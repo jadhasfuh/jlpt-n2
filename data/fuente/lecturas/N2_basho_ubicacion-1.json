@@ -7,29 +7,29 @@
   {
    "p": "いつ<ruby>川<rt>かわ</rt></ruby>を<ruby>遡<rt>さかのぼ</rt></ruby>りましたか。",
    "opciones": [
-    "<ruby>冬<rt>ふゆ</rt></ruby>",
     "<ruby>夏<rt>なつ</rt></ruby>",
+    "<ruby>冬<rt>ふゆ</rt></ruby>",
     "<ruby>秋<rt>あき</rt></ruby>"
-   ],
-   "correcta": 1
-  },
-  {
-   "p": "<ruby>道<rt>みち</rt></ruby>はどうでしたか。",
-   "opciones": [
-    "<ruby>険<rt>けわ</rt></ruby>しかった",
-    "<ruby>広<rt>ひろ</rt></ruby>かった",
-    "<ruby>短<rt>みじか</rt></ruby>かった"
    ],
    "correcta": 0
   },
   {
-   "p": "<ruby>弟<rt>おとうと</rt></ruby>はどんな<ruby>顔<rt>かお</rt></ruby>をしていましたか。",
+   "p": "<ruby>道<rt>みち</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>悲<rt>かな</rt></ruby>しげな<ruby>顔<rt>かお</rt></ruby>",
-    "<ruby>楽<rt>たの</rt></ruby>しげな<ruby>顔<rt>かお</rt></ruby>",
-    "<ruby>怖<rt>こわ</rt></ruby>い<ruby>顔<rt>かお</rt></ruby>"
+    "<ruby>短<rt>みじか</rt></ruby>かった",
+    "<ruby>険<rt>けわ</rt></ruby>しかった",
+    "<ruby>広<rt>ひろ</rt></ruby>かった"
    ],
    "correcta": 1
+  },
+  {
+   "p": "<ruby>弟<rt>おとうと</rt></ruby>はどんな<ruby>顔<rt>かお</rt></ruby>をしていましたか。",
+   "opciones": [
+    "<ruby>怖<rt>こわ</rt></ruby>い<ruby>顔<rt>かお</rt></ruby>",
+    "<ruby>悲<rt>かな</rt></ruby>しげな<ruby>顔<rt>かお</rt></ruby>",
+    "<ruby>楽<rt>たの</rt></ruby>しげな<ruby>顔<rt>かお</rt></ruby>"
+   ],
+   "correcta": 2
   }
  ],
  "traduccion_en": "As a child, when summer came I used to go up the river. The path was steep and once my foot got trapped between two stones. When I dived down to look for fish, my little brother always had the look of someone enjoying himself. As dusk approached you could hear crickets everywhere. On the way back we always went down the river the other way."

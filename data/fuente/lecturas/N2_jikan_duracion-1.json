@@ -16,20 +16,20 @@
   {
    "p": "<ruby>隣<rt>となり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はどんな<ruby>話<rt>はな</rt></ruby>し<ruby>方<rt>かた</rt></ruby>ですか。",
    "opciones": [
+    "<ruby>小<rt>ちい</rt></ruby>さい<ruby>声<rt>こえ</rt></ruby>",
     "<ruby>早口<rt>はやくち</rt></ruby>",
-    "ゆっくり",
-    "<ruby>小<rt>ちい</rt></ruby>さい<ruby>声<rt>こえ</rt></ruby>"
+    "ゆっくり"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "「<ruby>私<rt>わたし</rt></ruby>」は<ruby>本当<rt>ほんとう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしたかったですか。",
    "opciones": [
-    "<ruby>眠<rt>ねむ</rt></ruby>りたかった",
     "<ruby>話<rt>はな</rt></ruby>したかった",
-    "<ruby>降<rt>お</rt></ruby>りたかった"
+    "<ruby>降<rt>お</rt></ruby>りたかった",
+    "<ruby>眠<rt>ねむ</rt></ruby>りたかった"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I took the bullet train, avoiding the rush hour. I was surprised to hear its speed and my heart raced. The person next to me talked very fast and kept telling me about a temporary job. Even when you're in a hurry, being talked to at that speed is tiring. The thing is what I wanted was to sleep. Even so, listening on, it turned out to be quite an interesting story."

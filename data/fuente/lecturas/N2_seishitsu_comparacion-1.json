@@ -16,20 +16,20 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>で<ruby>分<rt>わ</rt></ruby>けると<ruby>相違<rt>そうい</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりますか。",
    "opciones": [
+    "<ruby>年<rt>とし</rt></ruby>",
     "<ruby>性別<rt>せいべつ</rt></ruby>",
-    "<ruby>地域<rt>ちいき</rt></ruby>",
-    "<ruby>年<rt>とし</rt></ruby>"
+    "<ruby>地域<rt>ちいき</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "だれに<ruby>確<rt>たし</rt></ruby>かめてもらいますか。",
    "opciones": [
-    "<ruby>先生<rt>せんせい</rt></ruby>",
+    "<ruby>自分<rt>じぶん</rt></ruby>",
     "<ruby>友<rt>とも</rt></ruby>だち",
-    "<ruby>自分<rt>じぶん</rt></ruby>"
+    "<ruby>先生<rt>せんせい</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   }
  ],
  "traduccion_en": "I classified and compared the two tables. The figures look the same, but when you separate them by sex the difference is clear. The more exchange there is in an area, the smaller the gap. So as not to rush to conclusions, I decided to have the professor go over it. I wrote «please send it to me» and attached the documents."

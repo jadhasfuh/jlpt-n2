@@ -7,12 +7,12 @@
   {
    "p": "<ruby>押<rt>お</rt></ruby>し<ruby>入<rt>い</rt></ruby>れを<ruby>空<rt>から</rt></ruby>にして、<ruby>何<rt>なに</rt></ruby>が<ruby>見<rt>み</rt></ruby>つかりましたか。",
    "opciones": [
-    "<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>写真<rt>しゃしん</rt></ruby>",
     "<ruby>十年分<rt>じゅうねんぶん</rt></ruby>の<ruby>汚<rt>よご</rt></ruby>れと<ruby>使<rt>つか</rt></ruby>わなかった<ruby>道具<rt>どうぐ</rt></ruby>",
     "お<ruby>金<rt>かね</rt></ruby>",
-    "<ruby>何<rt>なに</rt></ruby>もなかった"
+    "<ruby>何<rt>なに</rt></ruby>もなかった",
+    "<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>写真<rt>しゃしん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>実感<rt>じっかん</rt></ruby>したことは<ruby>何<rt>なん</rt></ruby>ですか。",
