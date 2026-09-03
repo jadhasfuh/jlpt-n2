@@ -380,6 +380,37 @@ El PDF es correcto en geometría, resolución y fuentes; la conversión la hace 
 imprenta sin problema, o se hace con Acrobat. Casi todas aceptan un PDF normal
 bien hecho, pero pregúntalo.
 
+## Cobertura: cuánto del temario sale de verdad en la historia
+
+`python3 scripts/36_cobertura_libro.py` lo mide (con `--detalle` saca la lista).
+Medido el 2026-09-03:
+
+| | total | dentro de la historia | sólo en la ficha |
+|---|---|---|---|
+| Vocabulario | 925 | **443 (47 %)** | 482 (52 %) |
+| Gramática | 84 | **16 (19 %)** | 68 (80 %) |
+
+Además hay **19 capítulos sin ningún punto de gramática asignado**.
+
+Esto contradice la idea del libro. Si una palabra sólo está en la ficha, no se
+aprende leyendo: queda una lista de vocabulario con una historia al lado, que
+es justo lo que no queríamos. El capítulo 2 lo enseña bien: su texto son 180
+casillas y su ficha pide 土曜日, 映画館, 先週 y 昨夜, que no aparecen por ningún
+lado.
+
+**De dónde viene.** `31_vocabulario_libro.py` coloca cada palabra en el capítulo
+donde la historia la usa por primera vez, pero **la que el libro no usa se queda
+donde la puso el curso**. O sea que el 52 % son palabras que el relato
+sencillamente no gasta.
+
+**Lo que hace falta**, y no es automatizable: alargar los textos. La mediana son
+172 casillas y el hueco da para 12 renglones (324), así que cabe más historia
+sin tocar la maqueta. Subir del 47 % al 80 % es reescribir los 103 capítulos con
+su lista delante.
+
+Lo que sobre después va a un **índice final**: forma, significado, un ejemplo y
+un dibujo con los personajes. Pero el índice es para el resto, no para el grueso.
+
 ### Lo que falta cuando haya dibujos
 
 Las lecturas necesitarán un campo para la ilustración y su pie. Hasta que

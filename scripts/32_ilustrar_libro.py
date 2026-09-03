@@ -198,7 +198,7 @@ def _peticion(url: str, cuerpo, cabeceras, intentos=4):
 
 
 def genera(prompt: str, destino: pathlib.Path, referencia: pathlib.Path | None = None,
-           size="1536x1024", gris=True):
+           size="1536x1024", gris=True, transparente=False):
     """Un dibujo. Con `referencia` usa /images/edits, que es como se le pasa la
     hoja de personajes para que respete las caras."""
     k = clave()
@@ -208,6 +208,8 @@ def genera(prompt: str, destino: pathlib.Path, referencia: pathlib.Path | None =
         def campo(nombre, valor):
             partes.append(f'--{lim}\r\nContent-Disposition: form-data; name="{nombre}"\r\n\r\n{valor}\r\n'.encode())
         campo("model", MODELO); campo("prompt", prompt); campo("size", size)
+        if transparente:
+            campo("background", "transparent"); campo("output_format", "png")
         partes.append(
             f'--{lim}\r\nContent-Disposition: form-data; name="image[]"; filename="ref.png"\r\n'
             f'Content-Type: image/png\r\n\r\n'.encode() + referencia.read_bytes() + b"\r\n")
@@ -217,7 +219,11 @@ def genera(prompt: str, destino: pathlib.Path, referencia: pathlib.Path | None =
                       {"Authorization": f"Bearer {k}",
                        "Content-Type": f"multipart/form-data; boundary={lim}"})
     else:
-        cuerpo = json.dumps({"model": MODELO, "prompt": prompt, "size": size}).encode()
+        peticion = {"model": MODELO, "prompt": prompt, "size": size}
+        if transparente:
+            peticion["background"] = "transparent"
+            peticion["output_format"] = "png"
+        cuerpo = json.dumps(peticion).encode()
         d = _peticion("https://api.openai.com/v1/images/generations", cuerpo,
                       {"Authorization": f"Bearer {k}", "Content-Type": "application/json"})
     destino.parent.mkdir(parents=True, exist_ok=True)
@@ -229,7 +235,7 @@ def genera(prompt: str, destino: pathlib.Path, referencia: pathlib.Path | None =
     # `gris=False` para lo que SÍ lleva color. Con esto siempre puesto, las
     # opciones de examen que se distinguen por el color salían grises: el
     # modelo las pintaba bien y esta línea se lo cargaba después.
-    if gris:
+    if gris and not transparente:
         try:
             from PIL import Image
             Image.open(destino).convert("L").save(destino, optimize=True)
@@ -358,6 +364,44 @@ def monta_portada():
           f"3 mm de sangre · {destino.stat().st_size // 1024} KB)")
 
 
+UI = RAIZ / "public" / "graficos"
+
+
+def grafico(cual):
+    """Los dibujos que usa la INTERFAZ, con fondo transparente.
+
+    Transparente y no sobre papel: la app tiene tema claro y oscuro, y un
+    rectángulo blanco encima del fondo oscuro se vería como un parche. Así el
+    mismo PNG sirve para los dos."""
+    QUE = {
+        "hero": ("the six friends walking together in ONE WIDE HORIZONTAL LINE "
+                 "across the whole width, mid-stride, chatting, full body, feet "
+                 "on the same ground line, plenty of space between them",
+                 ["carlos", "jean", "gonsa", "anna", "min", "kenta"], "1536x1024"),
+        "vacio": ("Carlos alone, sitting on the floor cross-legged with a closed "
+                  "book on his lap, looking up and to the side, waiting, "
+                  "cheerful and a bit bored",
+                  ["carlos"], "1024x1024"),
+        "listo": ("Gonsa and Jean standing side by side, both giving a "
+                  "thumbs-up, pleased with themselves",
+                  ["gonsa", "jean"], "1024x1024"),
+        "muro": ("Anna holding an open book out towards the viewer, offering it, "
+                 "with a calm inviting look",
+                 ["anna"], "1024x1024"),
+    }
+    texto, quienes, size = QUE[cual]
+    fichas = "\n".join(f"- {PERSONAJES[q]}" for q in quienes)
+    prompt = (ESTILO + f"\n\nSUBJECT — {texto}.\n\n"
+              f"CHARACTERS — match the attached reference sheet exactly:\n{fichas}\n\n"
+              "COMPLETELY TRANSPARENT BACKGROUND. Draw ONLY the figures: no "
+              "ground, no shadow, no scenery, no frame, no background of any "
+              "kind. Nothing but the characters floating on transparency.\n\n"
+              "ABSOLUTELY NO TEXT of any kind anywhere in the image.")
+    print(f"gráfico «{cual}»…")
+    genera(prompt, UI / f"{cual}.png", referencia=HOJA, size=size,
+           transparente=True)
+
+
 def capitulos():
     """Los capítulos en el orden del LIBRO, con su texto en español."""
     orden = json.loads((RAIZ / "data/fuente/orden_libro.json").read_text(encoding="utf-8"))
@@ -407,6 +451,10 @@ def main():
     if len(sys.argv) < 2:
         sys.exit(__doc__)
     orden = sys.argv[1]
+    if orden == "grafico":
+        for cual in (sys.argv[2:] or ["hero"]):
+            grafico(cual)
+        return
     if orden == "cubierta":
         if "--montar" in sys.argv: monta_cubierta()
         else: cubierta()
