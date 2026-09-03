@@ -163,6 +163,42 @@ capitulos = orden[:tope] if tope else orden
 
 SALIDA = pathlib.Path("docs/libro-n5-maqueta-vertical.pdf" if VERTICAL
                       else "docs/libro-n5-maqueta.pdf")
+DIBUJOS = pathlib.Path("docs/libro/ilustraciones")
+
+
+def dibujo_de(n, uid):
+    """El PNG del capítulo, si está. Mientras no existía se pintaba un recuadro
+    de puntos con su medida; ahora se pinta el dibujo y el recuadro sólo sale
+    para lo que falte."""
+    f = DIBUJOS / f"{n:03d}-{uid.split('/')[-1]}.png"
+    return f if f.exists() else None
+
+
+_BLANCOS = {}
+
+def _blanqueado(f):
+    """El dibujo con el fondo en blanco puro.
+
+    El papel del dibujo ronda el 240 y la página del PDF es blanca, así que
+    pegado tal cual se ve el rectángulo. Se empuja el casi-blanco a blanco y la
+    línea se queda igual. Se guarda en memoria porque el mismo dibujo puede
+    pintarse dos veces si se generan las dos ediciones."""
+    if f not in _BLANCOS:
+        from PIL import Image
+        im = Image.open(f).convert("L").point(lambda v: 255 if v > 228 else v)
+        _BLANCOS[f] = im
+    return _BLANCOS[f]
+
+
+def pinta_dibujo(c, f, x, y, ancho, alto):
+    """Encaja el dibujo dentro del hueco sin deformarlo y lo centra."""
+    from reportlab.lib.utils import ImageReader
+    im = ImageReader(_blanqueado(f))
+    iw, ih = im.getSize()
+    esc = min(ancho / iw, alto / ih)
+    w, h = iw * esc, ih * esc
+    c.drawImage(im, x + (ancho - w) / 2, y + (alto - h) / 2, w, h,
+                mask="auto")
 c = canvas.Canvas(str(SALIDA), pagesize=(ANCHO, ALTO))
 huecos = []
 sobran = []   # capítulos a los que no les cabe el texto en vertical
@@ -170,7 +206,18 @@ sobran = []   # capítulos a los que no les cabe el texto en vertical
 # ---------------------------------------------------------------- la portada
 # --sin-portada sirve para mirar una página suelta: sips y Vista Previa sólo
 # rasterizan la primera, y con portada esa primera es siempre la misma.
-if "--sin-portada" not in sys.argv:
+_portada = DIBUJOS / "00-portada-montada.png"
+if "--sin-portada" not in sys.argv and _portada.exists():
+  # La portada ya viene compuesta —dibujo, título y logo— a 300 ppp con sangre.
+  # Se mete a sangre completa y se recorta sola al tamaño de página.
+  from reportlab.lib.utils import ImageReader
+  _im = ImageReader(str(_portada))
+  _iw, _ih = _im.getSize()
+  _esc = max(ANCHO / _iw, ALTO / _ih)
+  c.drawImage(_im, (ANCHO - _iw * _esc) / 2, (ALTO - _ih * _esc) / 2,
+              _iw * _esc, _ih * _esc)
+  c.showPage()
+elif "--sin-portada" not in sys.argv:
   c.setFont("Mincho", 30)
   c.drawCentredString(ANCHO / 2, ALTO * 0.62, "こうべの一年")
   c.setFont("Gothic", 11); c.setFillGray(0.4)
@@ -251,12 +298,18 @@ for n, uid in enumerate(capitulos, 1):
                 alto_dib = prueba
                 break
         if alto_dib:
-            c.setDash(2, 3); c.setStrokeGray(0.7)
-            c.rect(x_izq, ALTO - M_ARRIBA - alto_dib, ancho_dib, alto_dib)
-            c.setDash(); c.setFont("Gothic", 7); c.setFillGray(0.5)
-            c.drawCentredString(ANCHO / 2, ALTO - M_ARRIBA - alto_dib / 2,
-                                f"dibujo   {ancho_dib/mm:.0f} × {alto_dib/mm:.0f} mm")
-            c.setFillGray(0)
+            f = dibujo_de(n, uid)
+            if f:
+                pinta_dibujo(c, f, x_izq, ALTO - M_ARRIBA - alto_dib,
+                             ancho_dib, alto_dib)
+            else:
+                c.setDash(2, 3); c.setStrokeGray(0.7)
+                c.rect(x_izq, ALTO - M_ARRIBA - alto_dib, ancho_dib, alto_dib)
+                c.setDash(); c.setFont("Gothic", 7); c.setFillGray(0.5)
+                c.drawCentredString(ANCHO / 2, ALTO - M_ARRIBA - alto_dib / 2,
+                                    f"falta el dibujo   {ancho_dib/mm:.0f} × "
+                                    f"{alto_dib/mm:.0f} mm")
+                c.setFillGray(0)
             huecos.append(("grande", n, alto_dib / mm))
         else:
             huecos.append(("viñeta", n, 0))
@@ -292,13 +345,18 @@ for n, uid in enumerate(capitulos, 1):
     hueco_alto = (y - 4 * mm) - (y_texto_fin + alto_texto)
 
     if hueco_alto > 20 * mm:                       # cabe el dibujo grande
-        c.setDash(2, 3); c.setStrokeGray(0.7)
-        c.rect(x0, y - hueco_alto, CAJA, hueco_alto - 4 * mm)
-        c.setDash()
-        c.setFont("Gothic", 7); c.setFillGray(0.5)
-        c.drawCentredString(x0 + CAJA / 2, y - hueco_alto / 2,
-                            f"dibujo   {CAJA/mm:.0f} × {(hueco_alto-4*mm)/mm:.0f} mm")
-        c.setFillGray(0)
+        f = dibujo_de(n, uid)
+        if f:
+            pinta_dibujo(c, f, x0, y - hueco_alto, CAJA, hueco_alto - 4 * mm)
+        else:
+            c.setDash(2, 3); c.setStrokeGray(0.7)
+            c.rect(x0, y - hueco_alto, CAJA, hueco_alto - 4 * mm)
+            c.setDash()
+            c.setFont("Gothic", 7); c.setFillGray(0.5)
+            c.drawCentredString(x0 + CAJA / 2, y - hueco_alto / 2,
+                                f"falta el dibujo   {CAJA/mm:.0f} × "
+                                f"{(hueco_alto-4*mm)/mm:.0f} mm")
+            c.setFillGray(0)
         huecos.append(("grande", n, (hueco_alto - 4 * mm) / mm))
         y -= hueco_alto
     else:                                          # sólo cabe una viñeta

@@ -331,6 +331,23 @@ crybaby» disparan el filtro de contenido de vez en cuando —el script reintent
 sin ellos— y el crédito de OpenAI se agota sin avisar, con un 429 que en
 realidad dice `credit_balance_exhausted`.
 
+### El libro montado
+
+`python3 scripts/30_libro_pdf.py` ya no dibuja el recuadro de puntos: mete las
+ilustraciones de verdad, y la portada compuesta como página 1. El recuadro sólo
+sale para lo que falte, y entonces pone «falta el dibujo».
+
+Al incrustarlos se les empuja el fondo a blanco puro: el papel del dibujo ronda
+el 240 y la página del PDF es blanca, así que pegados tal cual se veía el
+rectángulo. De paso el PDF baja de 67 MB a 22.
+
+La portada sale a **1818 × 2550 px**: A5 a 300 ppp más 3 mm de sangre por lado,
+que es lo que pide cualquier imprenta. El dibujo viene del modelo a 1024 × 1536
+y hay que ampliarlo —con una máscara de enfoque para recuperar la línea—, pero
+el **título y el logo se dibujan a tamaño final**, que es donde de verdad se
+nota la falta de resolución: una letra ampliada canta y una línea de tinta
+ampliada no.
+
 ### Lo que falta cuando haya dibujos
 
 Las lecturas necesitarán un campo para la ilustración y su pie. Hasta que

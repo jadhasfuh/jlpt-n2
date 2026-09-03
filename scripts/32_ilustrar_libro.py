@@ -299,191 +299,63 @@ LOGO = RAIZ / "android" / "play" / "icono-512.png"
 
 
 def monta_portada():
-    """Pone el título y el logo sobre el dibujo de la portada.
+    """Pone el título y el logo sobre el dibujo de la portada, a tamaño de
+    imprenta.
 
     Se compone aquí y no en el prompt porque el modelo escribe japonés fatal
-    —inventa kanji— y un logo dibujado de memoria no es nuestro logo."""
-    from PIL import Image, ImageDraw, ImageFont
-    base = Image.open(SALIDA / "00-portada.png").convert("RGB")
-    W, H = base.size
+    —inventa kanji— y un logo dibujado de memoria no es nuestro logo.
+
+    Sale a 1819 x 2551: A5 (148 x 210 mm) a 300 ppp más 3 mm de sangre por
+    lado, que es lo que pide cualquier imprenta. El dibujo viene a 1024 x 1536
+    y hay que ampliarlo, pero el TEXTO y el LOGO se dibujan a tamaño final, que
+    es donde de verdad se nota la falta de resolución: una letra ampliada canta
+    y una línea de tinta ampliada no.
+    """
+    from PIL import Image, ImageDraw, ImageFont, ImageFilter
+    PPM = 300 / 25.4                       # píxeles por milímetro
+    SANGRE = round(3 * PPM)
+    CORTE_W, CORTE_H = round(148 * PPM), round(210 * PPM)
+    W, H = CORTE_W + 2 * SANGRE, CORTE_H + 2 * SANGRE
+
+    base = Image.new("RGB", (W, H), (255, 255, 255))
+    arte = Image.open(SALIDA / "00-portada.png").convert("RGB")
+    arte = arte.resize((W, round(arte.height * W / arte.width)), Image.LANCZOS)
+    # Ampliar difumina la línea; un poco de máscara de enfoque la devuelve.
+    arte = arte.filter(ImageFilter.UnsharpMask(radius=2, percent=110, threshold=3))
+    base.paste(arte, (0, (H - arte.height) // 2))
     d = ImageDraw.Draw(base)
-    mincho = ImageFont.truetype(str(FUENTES / "ipaexm.ttf"), int(W * 0.089))
-    gothic = ImageFont.truetype(str(FUENTES / "ipaexg.ttf"), int(W * 0.038))
-    pie = ImageFont.truetype(str(FUENTES / "ipaexg.ttf"), int(W * 0.026))
+
+    mincho = ImageFont.truetype(str(FUENTES / "ipaexm.ttf"), round(W * 0.089))
+    gothic = ImageFont.truetype(str(FUENTES / "ipaexg.ttf"), round(W * 0.038))
+    pie = ImageFont.truetype(str(FUENTES / "ipaexg.ttf"), round(W * 0.026))
 
     # El título va arriba a la IZQUIERDA, no centrado: la torre sube por la
     # derecha hasta el borde y un título centrado se le monta encima.
-    x0 = int(W * 0.09)
+    x0 = SANGRE + round(W * 0.09)
 
     def izquierda(txt, fuente, y, gris=0):
         a = d.textbbox((0, 0), txt, font=fuente)
         d.text((x0 - a[0], y - a[1]), txt, font=fuente, fill=(gris,) * 3)
         return a[3] - a[1]
 
-    alto = izquierda(TITULO_JA, mincho, int(H * 0.085))
-    izquierda(TITULO_ES, gothic, int(H * 0.085) + alto + int(H * 0.028), 70)
+    alto = izquierda(TITULO_JA, mincho, SANGRE + round(CORTE_H * 0.085))
+    izquierda(TITULO_ES, gothic,
+              SANGRE + round(CORTE_H * 0.085) + alto + round(CORTE_H * 0.028), 70)
 
     # El logo abajo a la izquierda, con la dirección DEBAJO y no al lado: al
     # lado se metía entre los pies del personaje.
     logo = Image.open(LOGO).convert("RGB")
-    lado = int(W * 0.070)
+    lado = round(W * 0.070)
     logo = logo.resize((lado, lado), Image.LANCZOS)
-    x, y = x0, int(H * 0.885)
-    base.paste(logo, (x, y))
-    d.text((x, y + lado + int(H * 0.008)), "jlptest.org", font=pie,
+    y = SANGRE + round(CORTE_H * 0.885)
+    base.paste(logo, (x0, y))
+    d.text((x0, y + lado + round(CORTE_H * 0.008)), "jlptest.org", font=pie,
            fill=(70, 70, 70))
 
     destino = SALIDA / "00-portada-montada.png"
-    base.save(destino)
-    print(f"  → {destino.relative_to(RAIZ)}  ({destino.stat().st_size // 1024} KB)")
-
-
-def anuncio():
-    """El arte del anuncio de Facebook, sin letras.
-
-    Los personajes leyendo. El texto y el logo se componen después, igual que
-    en la portada y por lo mismo: el modelo no escribe."""
-    quienes = ["carlos", "anna", "gonsa", "jean"]
-    fichas = "\n".join(f"- {PERSONAJES[q]}" for q in quienes)
-    prompt = (ESTILO + "\n\nSUBJECT — four friends reading, side by side in a "
-              "single horizontal row, seen from the front, standing or sitting "
-              "on the same low step. Each one is absorbed in an open book held "
-              "in front of them, at a different angle and a different height, "
-              "with a different posture — one leaning back, one hunched over, "
-              "one holding it up close, one half looking away. Relaxed and "
-              "unposed.\n\n"
-              f"CHARACTERS — match the attached reference sheet exactly:\n{fichas}\n\n"
-              "The books are blank: their pages carry only a few meaningless "
-              "wavy strokes, never readable text. Empty background, no room, no "
-              "furniture, no scenery — just the figures on white paper with "
-              "generous empty space above them.\n\n"
-              "ABSOLUTELY NO TEXT of any kind anywhere in the image.")
-    print("anuncio…")
-    genera(prompt, SALIDA / "00-anuncio-arte.png", referencia=HOJA, size="1536x1024")
-
-
-ROJO   = (215, 38, 61)      # el rojo del logo, muestreado del icono
-TINTA  = (28, 30, 35)
-PAPEL  = (247, 245, 240)
-FUTURA = "/System/Library/Fonts/Supplemental/Futura.ttc"
-AVENIR = "/System/Library/Fonts/Avenir Next.ttc"
-
-
-def monta_anuncio():
-    """El anuncio de Facebook, 1080x1350 (4:5, que es el formato que más ocupa
-    en el feed). El arte sobre papel y no sobre el fondo oscuro del promo
-    anterior: la ilustración es tinta negra, y sobre oscuro habría que
-    invertirla y pierde el aire de dibujo a mano."""
-    from PIL import Image, ImageDraw, ImageFont, ImageOps
-    W, H = 1080, 1350
-    lienzo = Image.new("RGB", (W, H), PAPEL)
-    d = ImageDraw.Draw(lienzo)
-    tit = ImageFont.truetype(FUTURA, 92, index=2)          # Futura Bold
-    sub = ImageFont.truetype(AVENIR, 32, index=5)     # Medium
-    pie = ImageFont.truetype(AVENIR, 27, index=2)     # Demi Bold
-    x0 = 76
-
-    d.text((x0, 150), "Lecturas", font=tit, fill=TINTA)
-    d.text((x0, 150 + 104), "progresivas", font=tit, fill=ROJO)
-
-    y = 150 + 104 * 2 + 34
-    for linea in ("607 lecturas ordenadas de N5 a N1.",
-                  "Empiezas con veinte palabras y acabas",
-                  "leyendo japonés de verdad."):
-        d.text((x0, y), linea, font=sub, fill=(90, 92, 98)); y += 44
-
-    # El arte, a sangre por abajo. Se tiñe al color del papel: pegado tal cual
-    # se veía la costura entre su blanco y el fondo. Y se le recorta el aire de
-    # arriba, que si no se comía el tercer renglón del texto.
-    arte = Image.open(SALIDA / "00-anuncio-arte.png").convert("L")
-    caja = arte.point(lambda v: 255 if v < 200 else 0).getbbox()
-    if caja:
-        arte = arte.crop((0, max(0, caja[1] - 18), arte.width, arte.height))
-    # El «blanco» del dibujo ronda el 240, no el 255, así que al teñirlo salía
-    # un rectángulo más gris que el papel. Se empuja el casi-blanco a blanco.
-    arte = arte.point(lambda v: 255 if v > 228 else v)
-    arte = ImageOps.colorize(arte, black=TINTA, white=PAPEL)
-    alto = int(arte.height * W / arte.width)
-    arte = arte.resize((W, alto), Image.LANCZOS)
-    tope = H - alto - 104
-    lienzo.paste(arte, (0, tope))
-
-    # franja de pie
-    d.rectangle([0, H - 104, W, H], fill=TINTA)
-    logo = Image.open(LOGO).convert("RGB").resize((58, 58), Image.LANCZOS)
-    lienzo.paste(logo, (x0 - 8, H - 81))
-    d.text((x0 + 66, H - 74), "Los 5 primeros capítulos, gratis", font=pie,
-           fill=(238, 238, 240))
-    a = d.textbbox((0, 0), "jlptest.org", font=pie)
-    d.text((W - x0 - (a[2] - a[0]), H - 74), "jlptest.org", font=pie, fill=ROJO)
-
-    destino = RAIZ / "android" / "play" / "promo-lecturas-1080x1350.png"
-    lienzo.save(destino)
-    print(f"  → {destino.relative_to(RAIZ)}  ({destino.stat().st_size // 1024} KB)")
-
-
-def cubierta():
-    """El arte de la portada de Facebook, sin letras."""
-    quienes = ["carlos", "jean", "gonsa", "anna", "min", "kenta"]
-    fichas = "\n".join(f"- {PERSONAJES[q]}" for q in quienes)
-    prompt = (ESTILO + "\n\nSUBJECT — six friends walking together, seen from "
-              "the front, spread out in ONE WIDE HORIZONTAL LINE across the "
-              "whole width of the picture, mid-stride, chatting. Full body, "
-              "feet on the same ground line, plenty of space between them. "
-              "Relaxed and unposed, each one doing something different — one "
-              "gesturing, one looking back, one hands in pockets.\n\n"
-              f"CHARACTERS — match the attached reference sheet exactly:\n{fichas}\n\n"
-              "Empty background: one loose line for the ground and nothing "
-              "else. No street, no buildings, no scenery. Leave generous empty "
-              "space above their heads.\n\n"
-              "ABSOLUTELY NO TEXT of any kind anywhere in the image.")
-    print("portada de Facebook…")
-    genera(prompt, SALIDA / "00-cubierta-arte.png", referencia=HOJA, size="1536x1024")
-
-
-def monta_cubierta():
-    """1640 x 856, que es lo que pide Facebook.
-
-    Dos recortes que hay que respetar: en móvil se comen los lados, así que lo
-    que importa va al centro; y en escritorio la foto de perfil tapa la esquina
-    de abajo a la izquierda, que se deja vacía."""
-    from PIL import Image, ImageDraw, ImageFont, ImageOps
-    W, H = 1640, 856
-    lienzo = Image.new("RGB", (W, H), PAPEL)
-    d = ImageDraw.Draw(lienzo)
-
-    arte = Image.open(SALIDA / "00-cubierta-arte.png").convert("L")
-    arte = arte.point(lambda v: 255 if v > 228 else v)
-    caja = arte.point(lambda v: 255 if v < 200 else 0).getbbox()
-    if caja:
-        arte = arte.crop((0, max(0, caja[1] - 24), arte.width, arte.height))
-    arte = ImageOps.colorize(arte, black=TINTA, white=PAPEL)
-    # 0,72 del alto dejaba el pelo de Gonsa rozando el subtítulo.
-    alto = int(H * 0.66)
-    ancho = int(arte.width * alto / arte.height)
-    arte = arte.resize((ancho, alto), Image.LANCZOS)
-    lienzo.paste(arte, ((W - ancho) // 2, H - alto - 10))
-
-    tit = ImageFont.truetype(FUTURA, 58, index=2)
-    sub = ImageFont.truetype(AVENIR, 27, index=5)
-    x0, y0 = 92, 74
-    d.text((x0, y0), "Japonés para el JLPT", font=tit, fill=TINTA)
-    d.text((x0, y0 + 70), "de N5 a N1", font=tit, fill=ROJO)
-    d.text((x0, y0 + 152), "Vocabulario, kanji, gramática, lecturas y exámenes.",
-           font=sub, fill=(92, 94, 100))
-
-    # arriba a la derecha: fuera del recorte de móvil por poco, pero el logo
-    # aguanta perderse; la esquina de abajo a la izquierda se queda libre para
-    # la foto de perfil.
-    logo = Image.open(LOGO).convert("RGB").resize((66, 66), Image.LANCZOS)
-    lienzo.paste(logo, (W - 92 - 66, y0))
-    pie = ImageFont.truetype(AVENIR, 30, index=2)
-    a = d.textbbox((0, 0), "jlptest.org", font=pie)
-    d.text((W - 92 - (a[2] - a[0]), y0 + 84), "jlptest.org", font=pie, fill=ROJO)
-
-    destino = RAIZ / "docs" / "facebook-portada-personajes.png"
-    lienzo.save(destino)
-    print(f"  → {destino.relative_to(RAIZ)}  ({destino.stat().st_size // 1024} KB)")
+    base.save(destino, dpi=(300, 300))
+    print(f"  → {destino.relative_to(RAIZ)}  ({W}x{H} px · A5 a 300 ppp con "
+          f"3 mm de sangre · {destino.stat().st_size // 1024} KB)")
 
 
 def capitulos():
