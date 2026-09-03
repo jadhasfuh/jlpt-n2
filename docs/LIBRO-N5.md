@@ -225,6 +225,51 @@ Min, Anna, la señora Tanaka y Kenta— y una veintena de escenarios que vuelven
 | Casa de Anna | 3 |
 | El hospital | 1 |
 
+### El estilo de los dibujos (decidido el 2026-09-03)
+
+**Masaaki Yuasa**, tomando el diseño de 四畳半神話大系, けものづめ, ピンポン y
+デビルマンcrybaby. Lo que lo define, y lo que hay que exigirle al modelo en cada
+petición porque tiende a suavizarlo:
+
+- Caras **angulosas y asimétricas**, construidas con planos planos: mentón en
+  punta, nariz de cuña, las dos mitades no coinciden. Ojos **pequeños y
+  entrecerrados**, nunca grandes ni redondos ni brillantes.
+- Cuerpos alargados y elásticos, cabezas pequeñas, extremidades que se doblan
+  donde no toca, todo el mundo un poco fuera de la vertical.
+- **Plano**: tinta negra sobre papel crudo y manchas negras macizas de borde
+  duro. Nada de trama, ni de rayado, ni de grises, ni de volumen.
+- Los tres latinos llevan **ojos latinos** —grandes, almendrados, iris visible,
+  cejas pesadas—, que es lo que los separa de los japoneses.
+- **Carlos, Jean y Gonsa se caricaturizan; la señora Tanaka y Kenta no.** A los
+  dos se les dibuja del natural, con la misma línea pero sin deformar.
+
+La palabra «cartoon» en el prompt lo arruina: arrastra al modelo a caras
+redondas y simétricas, o sea Ghibli con Pixar. Hay que pedir anguloso, plano y
+feo-bonito, y prohibir Ghibli y Pixar por su nombre.
+
+Alturas, que el modelo se salta si no se las mides: **Carlos y Jean miden
+igual**; Gonsa les saca media cabeza y no más.
+
+### Cómo se generan
+
+`python3 scripts/32_ilustrar_libro.py hoja` saca la hoja de personajes, que es
+la que sostiene la coherencia: el modelo no recuerda nada entre llamadas, así
+que la hoja se manda **como imagen de referencia en cada capítulo**. Está en
+`docs/libro/ilustraciones/00-personajes.png` y no se regenera salvo que
+cambien los personajes.
+
+`... cap --todos` dibuja los capítulos y **salta los que ya existen**, así que
+se puede parar y seguir. `... cap 12 40` rehace sueltos (hay que borrarlos
+antes).
+
+Los PNG se guardan en escala de grises: son dibujos a tinta, y en RGB ocupan
+3,4 veces más sin aportar nada. Quedan a ~340 ppp sobre los 115 mm de ancho.
+
+Dos cosas que hacen fallar la API: los títulos «Kemonozume» y «Devilman
+crybaby» disparan el filtro de contenido de vez en cuando —el script reintenta
+sin ellos— y el crédito de OpenAI se agota sin avisar, con un 429 que en
+realidad dice `credit_balance_exhausted`.
+
 ### Lo que falta cuando haya dibujos
 
 Las lecturas necesitarán un campo para la ilustración y su pie. Hasta que
