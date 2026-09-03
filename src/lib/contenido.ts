@@ -110,6 +110,40 @@ export async function lectura(unidadId: string): Promise<Lectura | null> {
  * curso. Es el índice del libro, porque cada capítulo es la lectura de su
  * unidad y la historia sigue ese orden.
  */
+/**
+ * Las palabras del capítulo que se estudian en OTRO capítulo.
+ *
+ * La página de vocabulario enseña las de su unidad, y sólo ésas. Pero un
+ * capítulo usa además palabras que se estudian mucho después —山 sale en el
+ * primero y se estudia en el 95— y el lector se queda mirando un kanji que no
+ * está en su lista. Aquí se sacan del propio texto, para que estén a mano sin
+ * romper el orden del curso.
+ *
+ * Se busca de más largo a más corto, como el diccionario: así 大通り se
+ * encuentra entera en vez de saltar sobre 大 y 通り por separado.
+ */
+export function palabrasDeFuera(html: string, nivel: string, propias: number[]): Palabra[] {
+  const texto = html.replace(/<rt>.*?<\/rt>/g, "").replace(/<[^>]+>/g, "");
+  const suyas = new Set(propias);
+  const fuera: Palabra[] = [];
+  const vistas = new Set<number>();
+  for (let i = 0; i < texto.length; i++) {
+    for (let n = Math.min(8, texto.length - i); n >= 1; n--) {
+      const cand = indice.get(texto.slice(i, i + n));
+      if (!cand) continue;
+      const p = cand.find((w) => w.jlpt === nivel && !suyas.has(w.id) && !vistas.has(w.id));
+      // Sin analizador morfológico, buscar de largo a corto parte mal algunas
+      // palabras: en ちかく sale かく («rascar») y en ではなく sale では. Un
+      // trozo de dos kana casi nunca es la palabra que hay ahí, así que sólo
+      // entra si lleva kanji o katakana, o si tiene tres kana o más.
+      const fiable = p && (/[一-鿿ァ-ヿ]/.test(p.escritura) || p.escritura.length >= 3);
+      if (p && fiable) { fuera.push(p); vistas.add(p.id); i += n - 1; }
+      break;
+    }
+  }
+  return fuera;
+}
+
 export function capitulos(nivel: string): Unidad[] {
   return UNIDADES
     .filter((u) => u.nivel === nivel)

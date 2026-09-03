@@ -1,5 +1,5 @@
 import { notFound, redirect } from "next/navigation";
-import { capitulos, gramaticas, lectura, palabras } from "@/lib/contenido";
+import { capitulos, gramaticas, lectura, palabras, palabrasDeFuera } from "@/lib/contenido";
 import { puedeVer } from "@/lib/acceso-servidor";
 import { Cabecera } from "@/components/Cabecera";
 import { Libro } from "@/components/Libro";
@@ -54,6 +54,12 @@ export default async function Pagina(
           gramatica={gramaticas(u.gramatica).map((g) => ({
             id: g.id, forma: g.forma, lectura: g.lectura, es: g.es, en: g.en,
           }))}
+          // Las que salen en el texto pero se estudian en otro capítulo: sin
+          // esto, 山 aparece en el capítulo 1 y no está en ninguna lista hasta
+          // el 95.
+          deFuera={l ? palabrasDeFuera(l.cuerpo, nivel, u.palabras).map((w) => ({
+            id: w.id, escritura: w.escritura, lectura: w.lectura, es: w.es, en: w.en,
+          })) : []}
           lectura={l}
         />
       </main>

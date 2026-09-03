@@ -20,11 +20,13 @@ type Punto = { id: string; forma: string; lectura: string; es: string; en: strin
  * anexo: es lo que hace que el capítulo siguiente se entienda sin diccionario,
  * que es exactamente lo que separa leer de descifrar.
  */
-export function Libro({ nivel, n, total, unidad, vocabulario, gramatica, lectura }: {
+export function Libro({ nivel, n, total, unidad, vocabulario, gramatica, deFuera, lectura }: {
   nivel: string; n: number; total: number;
   unidad: { id: string; ja: string; es: string; en: string; seccion: string };
   vocabulario: Palabra[];
   gramatica: Punto[];
+  /** Palabras del texto que se estudian en otro capítulo. */
+  deFuera: Palabra[];
   lectura: Lectura | null;
 }) {
   const { t, idioma } = useAjustes();
@@ -72,6 +74,23 @@ export function Libro({ nivel, n, total, unidad, vocabulario, gramatica, lectura
             </div>
           ))}
         </div>
+
+        {/* Las que el capítulo usa pero enseña otro. Van aparte y en pequeño:
+            no hay que estudiarlas aquí, sólo poder mirarlas sin salir. */}
+        {deFuera.length > 0 && (
+          <>
+            <p className="etiqueta" style={{ marginTop: 18 }}>{t("lib2.deFuera")}</p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "4px 14px" }}>
+              {deFuera.map((w) => (
+                <span key={w.id} style={{ fontSize: 12.5, color: "var(--tinta-2)" }}>
+                  <span className="jp" style={{ fontSize: 14 }}>{w.escritura}</span>
+                  {w.lectura !== w.escritura && <span className="tenue">　{w.lectura}</span>}
+                  {" "}{sig(w, idioma)}
+                </span>
+              ))}
+            </div>
+          </>
+        )}
 
         {/* La gramática va en la misma página que las palabras: en papel serán
             la hoja de la izquierda, y la lectura la de la derecha. */}
