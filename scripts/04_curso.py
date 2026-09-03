@@ -19,6 +19,20 @@ KANJI = re.compile(r"[一-鿿]")
 
 vocab = json.load(open("data/build/vocab_clasificado.json", encoding="utf-8"))
 print("secciones corregidas a mano:", aplicar_secciones(vocab))
+
+# Las descartadas se quitan YA, no sólo al exportar. Si se quedan aquí, 04 les
+# arma su unidad, 06 la vacía después y queda una unidad fantasma con cero
+# palabras y su propia lectura.
+_d = pathlib.Path("data/fuente/descartar.txt")
+if _d.exists():
+    _fuera = set()
+    for _l in _d.read_text(encoding="utf-8").splitlines():
+        _l = re.sub(r"\s*#.*$", "", _l).strip()
+        if _l and not _l.startswith("#"):
+            _fuera.add(int(_l))
+    _antes = len(vocab)
+    vocab = [r for r in vocab if r["id"] not in _fuera]
+    print("descartadas:", _antes - len(vocab))
 et_sec = {s[0]: {"ja": s[1], "es": s[2], "en": s[3]} for s in SECCIONES}
 et_sub = {(s, g[0]): {"ja": g[1], "es": g[2], "en": g[3]} for s in SUBGRUPOS for g in SUBGRUPOS[s]}
 orden_sec = [s[0] for s in SECCIONES]
@@ -213,4 +227,7 @@ for n in NIVELES:
     secs = len({u["seccion"] for u in us})
     print(f"  {n}: {len(us):3d} unidades · {pal:5d} palabras · {secs} secciones")
 largas = [u for u in unidades if len(u["palabras"]) > 27]
-print("unidades con más de 27 palabras:", len(largas))
+# Pasar de 27 sólo es raro cuando lo hace el repartidor. Las que vienen de
+# fundir una cola de una palabra con su vecina llegan a 31 a propósito.
+print(f"unidades por encima de {TOPE_UNIDAD} palabras (fundidas a mano): "
+      f"{len(largas)}" + ("  " + ", ".join(f"{u['id']} ({len(u['palabras'])})" for u in largas) if largas else ""))

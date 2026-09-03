@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/hito/familia-1",
  "titulo": "たなかさんの <ruby>家族<rt>かぞく</rt></ruby>",
- "cuerpo": "たなかさんの <ruby>家<rt>いえ</rt></ruby>の かべに、しゃしんが たくさん あります。「これは しゅじんです」と、ひとつを <ruby>見<rt>み</rt></ruby>せて くれました。ごしゅじんは ごねんまえに なくなったそうです。むすめさんは とうきょうに すんで いて、けんたくんは その こどもです。「<ruby>兄弟<rt>きょうだい</rt></ruby>は いますか」と きかれて、「<ruby>姉<rt>あね</rt></ruby>が ひとり」と こたえました。たなかさんは「<ruby>家族<rt>かぞく</rt></ruby>は とおくても <ruby>家族<rt>かぞく</rt></ruby>ですよ」と 言いました。",
- "traduccion": "En la pared de casa de la señora Tanaka hay muchas fotos. «Éste es mi marido», me dijo enseñándome una. Su marido murió hace cinco años. Su hija vive en Tokio, y Kenta es su hijo. «¿Tienes hermanos?», me preguntó, y contesté: «una hermana mayor». La señora Tanaka dijo: «la familia, aunque esté lejos, es familia».",
+ "cuerpo": "たなかさんの <ruby>家<rt>いえ</rt></ruby>の かべに、しゃしんが たくさん あります。「これは しゅじんです」と、ひとつを <ruby>見<rt>み</rt></ruby>せて くれました。ごしゅじんは ごねんまえに なくなったそうです。むすめさんは とうきょうに すんで いて、けんたくんは その こどもです。「<ruby>兄弟<rt>きょうだい</rt></ruby>は いますか」と きかれて、「<ruby>姉<rt>あね</rt></ruby>が ひとり」と こたえました。たなかさんは「<ruby>家族<rt>かぞく</rt></ruby>は とおくても <ruby>家族<rt>かぞく</rt></ruby>ですよ」と 言いました。にちようびの あさ、<ruby>両親<rt>りょうしん</rt></ruby>と でんわを します。メキシコは よるなので、ふたりとも つかれて います。ちちは いつも「おかねは あるか」と きくだけです。ははは、ぼくが たべた ものを ぜんぶ <ruby>聞<rt>き</rt></ruby>きたがります。「やさいも たべなさい」と まいかい 言われます。でんわの あと、すこし しずかな きもちに なります。",
+ "traduccion": "En la pared de casa de la señora Tanaka hay muchas fotos. «Éste es mi marido», me dijo enseñándome una. Su marido murió hace cinco años. Su hija vive en Tokio, y Kenta es su hijo. «¿Tienes hermanos?», me preguntó, y contesté: «una hermana mayor». La señora Tanaka dijo: «la familia, aunque esté lejos, es familia». Los domingos por la mañana hablo por teléfono con mis padres. En México es de noche, así que los dos están cansados. Mi padre sólo pregunta siempre: «¿tienes dinero?». Mi madre quiere saber absolutamente todo lo que he comido. «Come verdura también», me dice cada vez. Después de la llamada me quedo un rato callado.",
  "preguntas": [
   {
    "p": "ごしゅじんは いつ なくなりましたか。",
@@ -33,7 +33,37 @@
     "いません"
    ],
    "correcta": 0
+  },
+  {
+   "p": "いつ でんわを しますか。",
+   "opciones": [
+    "どようび",
+    "にちようびの あさ",
+    "にちようびの よる",
+    "まいばん"
+   ],
+   "correcta": 1
+  },
+  {
+   "p": "ちちは いつも なにを ききますか。",
+   "opciones": [
+    "がっこうの こと",
+    "たべた ものの こと",
+    "おかねの こと",
+    "ともだちの こと"
+   ],
+   "correcta": 2
+  },
+  {
+   "p": "ははは なにを 言いますか。",
+   "opciones": [
+    "「はやく かえりなさい」",
+    "「べんきょうしなさい」",
+    "「おかねは あるか」",
+    "「やさいも たべなさい」"
+   ],
+   "correcta": 3
   }
  ],
- "traduccion_en": "On the wall of Mrs Tanaka's house there are lots of photos. «This is my husband», she said, showing me one. Her husband died five years ago. Her daughter lives in Tokyo, and Kenta is her son. «Do you have brothers or sisters?» she asked, and I said: «an older sister». Mrs Tanaka said: «family is family, however far away it is»."
+ "traduccion_en": "On the wall of Mrs Tanaka's house there are lots of photos. «This is my husband», she said, showing me one. Her husband died five years ago. Her daughter lives in Tokyo, and Kenta is her son. «Do you have brothers or sisters?» she asked, and I said: «an older sister». Mrs Tanaka said: «family is family, however far away it is». On Sunday mornings I phone my parents. In Mexico it's night, so they're both tired. My father only ever asks: «do you have money?». My mother wants to know absolutely everything I've eaten. «Eat your vegetables too», she tells me every time. After the call I stay quiet for a while."
 }

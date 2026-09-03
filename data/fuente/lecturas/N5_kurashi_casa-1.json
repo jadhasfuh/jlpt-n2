@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/kurashi/casa-1",
  "titulo": "ちいさい へや",
- "cuerpo": "へやは とても ちいさかったです。<ruby>戸<rt>と</rt></ruby>を <ruby>閉<rt>し</rt></ruby>めると、ひとりだけの ばしょに なります。<ruby>窓<rt>まど</rt></ruby>は ありませんが、<ruby>中<rt>なか</rt></ruby>は あたたかいです。ゆかに すわって、あしを のばすと ちょうど いい <ruby>大<rt>おお</rt></ruby>きさでした。<ruby>廊下<rt>ろうか</rt></ruby>の おくに おてあらいと シャワーが あります。こんな <ruby>建物<rt>たてもの</rt></ruby>は、ぼくの <ruby>国<rt>くに</rt></ruby>には ありません。",
- "traduccion": "La cabina era muy pequeña. Al cerrar la puerta corredera se convierte en un sitio sólo tuyo. No tiene ventana, pero dentro se está caliente. Sentado en el suelo y estirando las piernas, el tamaño era justo. Al fondo del pasillo están los servicios y las duchas. Un edificio así no existe en mi país.",
+ "cuerpo": "へやは とても ちいさかったです。<ruby>戸<rt>と</rt></ruby>を <ruby>閉<rt>し</rt></ruby>めると、ひとりだけの ばしょに なります。<ruby>窓<rt>まど</rt></ruby>は ありませんが、<ruby>中<rt>なか</rt></ruby>は あたたかいです。ゆかに すわって、あしを のばすと ちょうど いい <ruby>大<rt>おお</rt></ruby>きさでした。<ruby>廊下<rt>ろうか</rt></ruby>の おくに おてあらいと シャワーが あります。こんな <ruby>建物<rt>たてもの</rt></ruby>は、ぼくの <ruby>国<rt>くに</rt></ruby>には ありません。<ruby>朝<rt>あさ</rt></ruby>、<ruby>六時<rt>ろくじ</rt></ruby>に <ruby>目<rt>め</rt></ruby>が さめました。ゆかで ねたので、せなかが いたかったです。<ruby>お手洗<rt>おてあら</rt></ruby>いへ <ruby>行<rt>い</rt></ruby>くと、そこも とても きれいでした。シャワーは <ruby>三十分<rt>さんじゅっぷん</rt></ruby>で にひゃくえんでした。そとに <ruby>出<rt>で</rt></ruby>ると、ゆきが つもって いて、まちが しろく なって いました。ゴンサは まだ ねて いました。",
+ "traduccion": "La cabina era muy pequeña. Al cerrar la puerta corredera se convierte en un sitio sólo tuyo. No tiene ventana, pero dentro se está caliente. Sentado en el suelo y estirando las piernas, el tamaño era justo. Al fondo del pasillo están los servicios y las duchas. Un edificio así no existe en mi país. Me desperté a las seis de la mañana. Como había dormido en el suelo, me dolía la espalda. Fui a los servicios y también estaban impecables. La ducha eran treinta minutos por doscientos yenes. Al salir a la calle la nieve se había acumulado y la ciudad estaba blanca. Gonza seguía dormido.",
  "preguntas": [
   {
    "p": "へやに <ruby>窓<rt>まど</rt></ruby>は ありますか。",
@@ -33,7 +33,37 @@
     "とても <ruby>大<rt>おお</rt></ruby>きい"
    ],
    "correcta": 2
+  },
+  {
+   "p": "どうして せなかが いたかったですか。",
+   "opciones": [
+    "さむかったから",
+    "シャワーを あびたから",
+    "あるいたから",
+    "ゆかで ねたから"
+   ],
+   "correcta": 3
+  },
+  {
+   "p": "シャワーは いくらでしたか。",
+   "opciones": [
+    "にひゃくえん",
+    "ただ",
+    "ごひゃくえん",
+    "<ruby>三十分<rt>さんじゅっぷん</rt></ruby>で さんびゃくえん"
+   ],
+   "correcta": 0
+  },
+  {
+   "p": "そとは どう なって いましたか。",
+   "opciones": [
+    "ゴンサが おきて いました",
+    "ゆきで しろく なって いました",
+    "あめでした",
+    "あかるかったです"
+   ],
+   "correcta": 1
   }
  ],
- "traduccion_en": "The booth was very small. When you slide the door shut it becomes a place that's only yours. There's no window, but it's warm inside. Sitting on the floor with my legs stretched out, the size was just right. At the end of the corridor are the toilets and showers. A building like this doesn't exist in my country."
+ "traduccion_en": "The booth was very small. When you slide the door shut it becomes a place that's only yours. There's no window, but it's warm inside. Sitting on the floor with my legs stretched out, the size was just right. At the end of the corridor are the toilets and showers. A building like this doesn't exist in my country. I woke up at six in the morning. I'd slept on the floor, so my back ached. I went to the toilets and they were spotless too. A shower was thirty minutes for two hundred yen. When I stepped outside the snow had settled and the town had turned white. Gonza was still asleep."
 }
