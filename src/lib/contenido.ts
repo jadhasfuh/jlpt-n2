@@ -2,6 +2,7 @@ import "server-only";
 import type {
   Palabra, Gramatica, Unidad, NivelCurso, Lectura, Kanji,
 } from "./tipos";
+import ordenLibroJson from "@/../data/fuente/orden_libro.json";
 import vocabularioJson from "../../data/dist/vocabulario.json";
 import gramaticaJson from "../../data/dist/gramatica.json";
 import unidadesJson from "../../data/dist/unidades.json";
@@ -106,11 +107,6 @@ export async function lectura(unidadId: string): Promise<Lectura | null> {
 }
 
 /**
- * El orden en que se leen las unidades de un nivel: el mismo que recorre el
- * curso. Es el índice del libro, porque cada capítulo es la lectura de su
- * unidad y la historia sigue ese orden.
- */
-/**
  * Las palabras del capítulo que se estudian en OTRO capítulo, de cualquier nivel.
  *
  * La página de vocabulario enseña las de su unidad, y sólo ésas. Pero un
@@ -163,10 +159,69 @@ export function palabrasDeFuera(html: string, propias: number[]): Palabra[] {
   return fuera;
 }
 
+/**
+ * La gramática que un capítulo USA pero enseña otro.
+ *
+ * N5 tiene 84 puntos de gramática y el libro 103 capítulos, así que 19 se
+ * quedaban con la hoja de la izquierda a medias. No es que sobre gramática sin
+ * colocar —los 84 están todos repartidos, uno por unidad—: es que hay más
+ * capítulos que puntos.
+ *
+ * Pero ninguno de esos 19 está limpio de gramática: usan から, とき, ている,
+ * でしょう… sólo que se enseñan en otro capítulo. Así que se busca en el texto
+ * y se enseña abajo, diciendo dónde se vio. Es lo mismo que ya se hace con el
+ * vocabulario, y el hueco deja de parecer un olvido.
+ */
+export function gramaticaDeFuera(
+  html: string, nivel: string, propia: string[],
+): { punto: Gramatica; capitulo: number }[] {
+  const texto = html.replace(/<rt>.*?<\/rt>/g, "").replace(/<[^>]+>/g, "").replace(/\s+/g, "");
+  const suyos = new Set(propia);
+  const orden = capitulos(nivel);
+  const dondeSeVe = new Map<string, number>();
+  orden.forEach((u, i) => u.gramatica.forEach((g) => dondeSeVe.set(g, i + 1)));
+
+  const fuera: { punto: Gramatica; capitulo: number }[] = [];
+  for (const g of GRAMATICA) {
+    if (g.nivel !== nivel || suyos.has(g.id)) continue;
+    // La forma del catálogo trae ～, corchetes y alternativas con / o ・.
+    const formas = g.forma
+      .replace(/[～〜]/g, "").replace(/\[[^\]]*\]/g, "")
+      .split(/\s*\/\s*|・/)
+      .map((f) => f.trim())
+      .filter((f) => f.length >= 2 && /^[ぁ-ヿ一-鿿]+$/.test(f));
+    if (formas.some((f) => texto.includes(f))) {
+      fuera.push({ punto: g, capitulo: dondeSeVe.get(g.id) ?? 0 });
+    }
+  }
+  // Primero lo que ya se ha visto, que es lo que se puede recordar.
+  return fuera.sort((a, b) => a.capitulo - b.capitulo).slice(0, 6);
+}
+
+/**
+ * El orden en que se lee el libro, que **no** es el del curso.
+ *
+ * El curso ordena por tema —人と体, 暮らし, 時間…— porque así se estudia. La
+ * historia va por cuándo pasan las cosas. Mientras el libro heredó el orden
+ * del curso, se leía noviembre antes de que llegara el otoño, y el vuelo a
+ * Japón caía en el capítulo 8, cuando Carlos ya había llegado, empezado la
+ * escuela y conocido a la clase.
+ *
+ * La secuencia vive en `data/fuente/orden_libro.json`. Lo que no esté ahí se
+ * va al final en el orden del curso: añadir una unidad no rompe el libro, sólo
+ * la deja sin sitio hasta que se le dé uno.
+ */
+const ORDEN_LIBRO = ordenLibroJson as Record<string, string[] | string>;
+
 export function capitulos(nivel: string): Unidad[] {
+  const guion = ORDEN_LIBRO[nivel];
+  const puesto = new Map(
+    (Array.isArray(guion) ? guion : []).map((id, i) => [id, i]),
+  );
   return UNIDADES
     .filter((u) => u.nivel === nivel)
     .sort((a, b) =>
+      (puesto.get(a.id) ?? Infinity) - (puesto.get(b.id) ?? Infinity) ||
       a.seccion.localeCompare(b.seccion) ||
       a.subgrupo.localeCompare(b.subgrupo) ||
       a.parte - b.parte);

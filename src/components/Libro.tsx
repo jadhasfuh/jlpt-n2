@@ -12,6 +12,7 @@ import { significado as sig } from "@/lib/idioma";
 
 type Palabra = { id: number; escritura: string; lectura: string; es: string; en: string };
 type Fuera = Palabra & { jlpt: string };
+type PuntoFuera = Punto & { capitulo: number };
 type Punto = { id: string; forma: string; lectura: string; es: string; en: string };
 
 /**
@@ -21,13 +22,17 @@ type Punto = { id: string; forma: string; lectura: string; es: string; en: strin
  * anexo: es lo que hace que el capítulo siguiente se entienda sin diccionario,
  * que es exactamente lo que separa leer de descifrar.
  */
-export function Libro({ nivel, n, total, unidad, vocabulario, gramatica, deFuera, lectura }: {
+export function Libro({
+  nivel, n, total, unidad, vocabulario, gramatica, deFuera, gramaticaFuera, lectura,
+}: {
   nivel: string; n: number; total: number;
   unidad: { id: string; ja: string; es: string; en: string; seccion: string };
   vocabulario: Palabra[];
   gramatica: Punto[];
   /** Palabras del texto que se estudian en otro capítulo, con su nivel. */
   deFuera: Fuera[];
+  /** Gramática que el capítulo usa pero enseña otro, con cuál. */
+  gramaticaFuera: PuntoFuera[];
   lectura: Lectura | null;
 }) {
   const { t, idioma } = useAjustes();
@@ -113,6 +118,25 @@ export function Libro({ nivel, n, total, unidad, vocabulario, gramatica, deFuera
                   <span className="jp" style={{ fontSize: 16, minWidth: 104 }}>{g.forma}</span>
                   <span className="tenue" style={{ minWidth: 88 }}>{g.lectura}</span>
                   <span style={{ fontSize: 13, color: "var(--tinta-2)" }}>{sig(g, idioma)}</span>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
+        {gramaticaFuera.length > 0 && (
+          <>
+            <p className="etiqueta" style={{ marginTop: 18 }}>{t("lib2.gramFuera")}</p>
+            <div style={{ display: "grid", gap: 6 }}>
+              {gramaticaFuera.map((g) => (
+                <div key={g.id} style={{ display: "flex", alignItems: "baseline", gap: 8, fontSize: 12.5 }}>
+                  <span className="jp" style={{ fontSize: 14, minWidth: 96 }}>{g.forma}</span>
+                  <span className="tenue" style={{ minWidth: 80 }}>{g.lectura}</span>
+                  <span style={{ color: "var(--tinta-2)", flex: 1 }}>{sig(g, idioma)}</span>
+                  {g.capitulo > 0 && (
+                    <span className="tenue" style={{ whiteSpace: "nowrap" }}>
+                      {t("lib2.visto", { i: g.capitulo })}
+                    </span>
+                  )}
                 </div>
               ))}
             </div>

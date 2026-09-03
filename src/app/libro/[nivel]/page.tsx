@@ -1,5 +1,7 @@
 import { notFound, redirect } from "next/navigation";
-import { capitulos, gramaticas, lectura, palabras, palabrasDeFuera } from "@/lib/contenido";
+import {
+  capitulos, gramaticas, gramaticaDeFuera, lectura, palabras, palabrasDeFuera,
+} from "@/lib/contenido";
 import { puedeVer } from "@/lib/acceso-servidor";
 import { Cabecera } from "@/components/Cabecera";
 import { Libro } from "@/components/Libro";
@@ -60,6 +62,13 @@ export default async function Pagina(
           deFuera={l ? palabrasDeFuera(l.cuerpo, u.palabras).map((w) => ({
             id: w.id, escritura: w.escritura, lectura: w.lectura,
             es: w.es, en: w.en, jlpt: w.jlpt,
+          })) : []}
+          // N5 tiene 84 puntos de gramática y 103 capítulos: 19 se quedaban
+          // sin nada que enseñar. Ninguno está limpio de gramática, sólo que
+          // la suya se enseña en otro capítulo; se dice cuál.
+          gramaticaFuera={l ? gramaticaDeFuera(l.cuerpo, nivel, u.gramatica).map((x) => ({
+            id: x.punto.id, forma: x.punto.forma, lectura: x.punto.lectura,
+            es: x.punto.es, en: x.punto.en, capitulo: x.capitulo,
           })) : []}
           lectura={l}
         />

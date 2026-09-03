@@ -34,6 +34,22 @@ libro cuenta y lo que hace que este sirva de guía además de lectura.
   y duración, con el peluche oficial de la aerolínea en el regazo. Aparece en
   el vuelo de llegada y se la recuerda en el de Sapporo.
 
+## El orden del libro, separado del curso
+
+Desde el 2026-09-03 el libro tiene su propia secuencia, en
+`data/fuente/orden_libro.json`. El curso ordena por tema —人と体, 暮らし,
+時間…— porque así se estudia; la historia va por cuándo pasan las cosas, y
+mezclarlos dejaba noviembre antes de que llegara el otoño y el vuelo a Japón en
+el capítulo 8, cuando Carlos ya había llegado, empezado la escuela y conocido a
+la clase.
+
+Un id que no esté en la lista se va al final, en el orden del curso: añadir una
+unidad no rompe el libro, sólo la deja sin sitio hasta que se le dé uno.
+
+El año, ya en orden: llegada y papeleo → la escuela → los amigos y Anna →
+la pizzería → noviembre y el frío → Sapporo en diciembre → el invierno que se
+abre a la primavera → abril, junio y la despedida.
+
 ## El arco, atado al orden real de las unidades
 
 | Unidades | Sección | Qué pasa |
