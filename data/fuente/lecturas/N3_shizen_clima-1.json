@@ -7,22 +7,22 @@
   {
    "p": "<ruby>湿度<rt>しつど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いと、どうですか。",
    "opciones": [
-    "<ruby>気温<rt>きおん</rt></ruby>が<ruby>同<rt>おな</rt></ruby>じでもつらさがちがう",
-    "かわらない",
     "<ruby>乾燥<rt>かんそう</rt></ruby>する",
-    "すずしい"
+    "すずしい",
+    "かわらない",
+    "<ruby>気温<rt>きおん</rt></ruby>が<ruby>同<rt>おな</rt></ruby>じでもつらさがちがう"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>予報<rt>よほう</rt></ruby>の<ruby>正確<rt>せいかく</rt></ruby>さは、<ruby>何<rt>なに</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてくれますか。",
    "opciones": [
-    "<ruby>気温<rt>きおん</rt></ruby>",
     "<ruby>変化<rt>へんか</rt></ruby>のはやさ",
+    "<ruby>嵐<rt>あらし</rt></ruby>のつよさ",
     "<ruby>昔<rt>むかし</rt></ruby>のこと",
-    "<ruby>嵐<rt>あらし</rt></ruby>のつよさ"
+    "<ruby>気温<rt>きおん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "This summer we had a run of muggy days. With high humidity, even at the same temperature, you take it differently. My grandfather often says the weather can't be predicted any more. They say that, as well as the thunder and the storms, even the frost season has shifted from what it was. The border between the dry winter and the mild spring has been blurring too. Forecasts have become more precise, but that precision is precisely what shows us how fast everything changes."

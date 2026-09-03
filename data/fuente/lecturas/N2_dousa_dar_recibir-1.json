@@ -7,29 +7,32 @@
   {
    "p": "<ruby>川<rt>かわ</rt></ruby>の<ruby>水<rt>みず</rt></ruby>はどうなりましたか。",
    "opciones": [
+    "<ruby>橋<rt>はし</rt></ruby>まで<ruby>上<rt>あ</rt></ruby>がった",
+    "<ruby>止<rt>と</rt></ruby>まった",
     "<ruby>濁<rt>にご</rt></ruby>った",
-    "<ruby>減<rt>へ</rt></ruby>った",
-    "<ruby>止<rt>と</rt></ruby>まった"
+    "<ruby>減<rt>へ</rt></ruby>った"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>風<rt>かぜ</rt></ruby>で<ruby>何<rt>なに</rt></ruby>が<ruby>膨<rt>ふく</rt></ruby>らみましたか。",
    "opciones": [
+    "<ruby>川<rt>かわ</rt></ruby>の<ruby>水<rt>みず</rt></ruby>",
     "<ruby>傘<rt>かさ</rt></ruby>",
-    "<ruby>旗<rt>はた</rt></ruby>",
-    "<ruby>服<rt>ふく</rt></ruby>"
+    "<ruby>服<rt>ふく</rt></ruby>",
+    "<ruby>旗<rt>はた</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>しましたか。",
    "opciones": [
+    "<ruby>傘<rt>かさ</rt></ruby>",
     "<ruby>地図<rt>ちず</rt></ruby>",
-    "<ruby>お金<rt>おかね</rt></ruby>",
-    "<ruby>傘<rt>かさ</rt></ruby>"
+    "<ruby>旗<rt>はた</rt></ruby>",
+    "<ruby>お金<rt>おかね</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "With so many days of rain, the river water turned muddy. Judging by the colour, soil must have come down from the mountain. In the wind, the flag on the bridge billowed. According to what the people around here say, the same thing happened last year. My grandmother handed me the umbrella and told me to come back early."

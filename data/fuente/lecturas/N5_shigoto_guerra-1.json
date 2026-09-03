@@ -7,32 +7,32 @@
   {
    "p": "どんな えいがを <ruby>見<rt>み</rt></ruby>ましたか。",
    "opciones": [
-    "むかしの さむらいの はなし",
     "あたらしい えいが",
     "がいこくの えいが",
+    "むかしの さむらいの はなし",
     "せんそうの ニュース"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "たなかさんは なんと 言いましたか。",
    "opciones": [
     "よく <ruby>聞<rt>き</rt></ruby>いて",
-    "わからなくても いい",
+    "<ruby>音<rt>おと</rt></ruby>が <ruby>大<rt>おお</rt></ruby>きい",
     "つまらない",
-    "<ruby>音<rt>おと</rt></ruby>が <ruby>大<rt>おお</rt></ruby>きい"
+    "わからなくても いい"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "たなかさんの おとうさんは どうでしたか。",
    "opciones": [
-    "えいがが すきでした",
-    "よく はなしました",
     "その じだいの はなしを あまり しませんでした",
+    "よく はなしました",
+    "えいがが すきでした",
     "さむらいの はなしが すきでした"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "At Mrs Tanaka's house we watched an old film. It was a samurai story and the language was extremely hard. «This isn't today's Japanese, it doesn't matter if you don't follow it», she told me. The battle scenes were loud and frightening. Mrs Tanaka watched in silence. «My father didn't talk much about those years», she said."

@@ -7,32 +7,32 @@
   {
    "p": "もえる ごみは いつ <ruby>出<rt>だ</rt></ruby>しますか。",
    "opciones": [
+    "<ruby>水曜日<rt>すいようび</rt></ruby>",
     "しゅうに <ruby>二<rt>に</rt></ruby>かい、あさ",
     "まいにち",
-    "<ruby>水曜日<rt>すいようび</rt></ruby>",
     "しゅうに <ruby>一<rt>いっ</rt></ruby>かい"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ふくろは どんな ふくろですか。",
    "opciones": [
+    "もえる ごみの ふくろ",
     "どんな ふくろでも いい",
     "<ruby>市<rt>し</rt></ruby>の ふくろ",
-    "スーパーの ふくろ",
-    "もえる ごみの ふくろ"
+    "スーパーの ふくろ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>大<rt>おお</rt></ruby>きい ごみは どう しますか。",
    "opciones": [
     "<ruby>外<rt>そと</rt></ruby>に <ruby>出<rt>だ</rt></ruby>します",
     "もえる ごみと いっしょに <ruby>出<rt>だ</rt></ruby>します",
-    "でんわで よやくします",
-    "<ruby>二<rt>に</rt></ruby>しゅうかん まって <ruby>外<rt>そと</rt></ruby>に <ruby>出<rt>だ</rt></ruby>します"
+    "<ruby>二<rt>に</rt></ruby>しゅうかん まって <ruby>外<rt>そと</rt></ruby>に <ruby>出<rt>だ</rt></ruby>します",
+    "でんわで よやくします"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "Before handing back the flat you have to clear everything out. Burnable rubbish goes out twice a week, between five and eight in the morning. But if it isn't in the city's official bag, they won't take it. Cans, bottles and PET are Wednesdays. And packaging plastic once a week. What caused me most trouble, though, was the futon. Large items have to be booked by phone, and they told me it takes two weeks."

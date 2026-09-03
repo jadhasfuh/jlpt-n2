@@ -7,32 +7,32 @@
   {
    "p": "その <ruby>本<rt>ほん</rt></ruby>は なんの <ruby>本<rt>ほん</rt></ruby>ですか。",
    "opciones": [
-    "スペイン<ruby>語<rt>ご</rt></ruby>の <ruby>本<rt>ほん</rt></ruby>",
-    "<ruby>日本語<rt>にほんご</rt></ruby>の <ruby>本<rt>ほん</rt></ruby>",
+    "じしょ",
     "りょうりの <ruby>本<rt>ほん</rt></ruby>",
-    "じしょ"
+    "スペイン<ruby>語<rt>ご</rt></ruby>の <ruby>本<rt>ほん</rt></ruby>",
+    "<ruby>日本語<rt>にほんご</rt></ruby>の <ruby>本<rt>ほん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "ページの すみに なにが ありましたか。",
    "opciones": [
-    "なにも ありません",
-    "えんぴつの メモ",
     "しゃしん",
-    "アンナさんの なまえ"
+    "なにも ありません",
+    "アンナさんの なまえ",
+    "えんぴつの メモ"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "その <ruby>本<rt>ほん</rt></ruby>は いつの ものですか。",
    "opciones": [
-    "きょねん",
-    "<ruby>十年<rt>じゅうねん</rt></ruby>まえ",
     "<ruby>三十年<rt>さんじゅうねん</rt></ruby>まえ",
-    "<ruby>三<rt>さん</rt></ruby><ruby>年<rt>とし</rt></ruby>まえ"
+    "<ruby>三<rt>さん</rt></ruby><ruby>年<rt>とし</rt></ruby>まえ",
+    "きょねん",
+    "<ruby>十年<rt>じゅうねん</rt></ruby>まえ"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "Anna's father showed me an old book. It's the book he learned Spanish from when he was young. In the margins there were lots of pencil notes. «This is from thirty years ago», he said, laughing. My dictionary has similar notes in it. It seems that people learning a language do the same thing in any country."

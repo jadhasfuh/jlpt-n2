@@ -7,22 +7,22 @@
   {
    "p": "<ruby>共通<rt>きょうつう</rt></ruby>のルールをつくっても、<ruby>何<rt>なに</rt></ruby>が<ruby>消<rt>け</rt></ruby>せませんか。",
    "opciones": [
-    "<ruby>環境<rt>かんきょう</rt></ruby>のちがい",
     "<ruby>差別<rt>さべつ</rt></ruby>",
     "<ruby>集団<rt>しゅうだん</rt></ruby>",
-    "<ruby>文明<rt>ぶんめい</rt></ruby>"
+    "<ruby>文明<rt>ぶんめい</rt></ruby>",
+    "<ruby>環境<rt>かんきょう</rt></ruby>のちがい"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>平等<rt>びょうどう</rt></ruby>とは<ruby>何<rt>なに</rt></ruby>ではないと<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "たりない<ruby>人<rt>ひと</rt></ruby>に<ruby>多<rt>おお</rt></ruby>く<ruby>配<rt>くば</rt></ruby>ること",
     "ぜんいんに<ruby>同<rt>おな</rt></ruby>じものを<ruby>配<rt>くば</rt></ruby>ること",
-    "ルールをつくること",
-    "<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>うこと"
+    "たりない<ruby>人<rt>ひと</rt></ruby>に<ruby>多<rt>おお</rt></ruby>く<ruby>配<rt>くば</rt></ruby>ること",
+    "<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>うこと",
+    "ルールをつくること"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "Eliminating discrimination within a group isn't easy. Even if you set common rules, you can't erase differences in circumstances. From the start of the year until summer we talked about this at school. Equality doesn't consist of handing out the same to everyone. Sometimes it means giving more to whoever lacks it. However much civilisation advances, this problem remains hard to measure."

@@ -7,32 +7,32 @@
   {
    "p": "かんじの じゅぎょうは いつですか。",
    "opciones": [
-    "<ruby>月曜日<rt>げつようび</rt></ruby>と <ruby>水曜日<rt>すいようび</rt></ruby>",
-    "<ruby>金曜日<rt>きんようび</rt></ruby>",
     "<ruby>毎日<rt>まいにち</rt></ruby>",
-    "<ruby>土曜日<rt>どようび</rt></ruby>と <ruby>日曜日<rt>にちようび</rt></ruby>"
+    "<ruby>金曜日<rt>きんようび</rt></ruby>",
+    "<ruby>土曜日<rt>どようび</rt></ruby>と <ruby>日曜日<rt>にちようび</rt></ruby>",
+    "<ruby>月曜日<rt>げつようび</rt></ruby>と <ruby>水曜日<rt>すいようび</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>日曜日<rt>にちようび</rt></ruby>は なにの <ruby>日<rt>ひ</rt></ruby>ですか。",
    "opciones": [
-    "やすみの <ruby>日<rt>ひ</rt></ruby>",
     "でんわの <ruby>日<rt>ひ</rt></ruby>",
+    "ギターの <ruby>日<rt>ひ</rt></ruby>",
     "そうじの <ruby>日<rt>ひ</rt></ruby>",
-    "ギターの <ruby>日<rt>ひ</rt></ruby>"
+    "やすみの <ruby>日<rt>ひ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>来週<rt>らいしゅう</rt></ruby>、だれと <ruby>出<rt>で</rt></ruby>かけますか。",
    "opciones": [
-    "ジャン",
-    "けんたくん",
+    "ジャンと ゴンサ",
     "アンナさん",
-    "ジャンと ゴンサ"
+    "ジャン",
+    "けんたくん"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "Every week, Mondays and Wednesdays are kanji class. On Friday nights we play guitar in Jean's room. Saturday I clean; Sunday is phone day. Next week I'm going with Anna to the place we talked about last night. They say there's a festival next month, as there is every year. Where will I be this time next year?"

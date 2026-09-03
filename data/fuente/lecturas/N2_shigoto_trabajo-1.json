@@ -7,29 +7,32 @@
   {
    "p": "<ruby>朝<rt>あさ</rt></ruby>から<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
+    "<ruby>工事<rt>こうじ</rt></ruby>",
     "<ruby>集会<rt>しゅうかい</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>",
     "<ruby>休<rt>やす</rt></ruby>んだ",
-    "<ruby>工事<rt>こうじ</rt></ruby>"
-   ],
-   "correcta": 0
-  },
-  {
-   "p": "<ruby>何<rt>なに</rt></ruby>によって<ruby>行事<rt>ぎょうじ</rt></ruby>が<ruby>延<rt>の</rt></ruby>びますか。",
-   "opciones": [
-    "<ruby>重役<rt>じゅうやく</rt></ruby>",
-    "<ruby>天気<rt>てんき</rt></ruby>",
-    "<ruby>人事<rt>じんじ</rt></ruby>"
+    "<ruby>募集<rt>ぼしゅう</rt></ruby>の<ruby>紙<rt>かみ</rt></ruby>を<ruby>配<rt>くば</rt></ruby>った"
    ],
    "correcta": 1
   },
   {
-   "p": "<ruby>役目<rt>やくめ</rt></ruby>が<ruby>終<rt>お</rt></ruby>わったとき、<ruby>外<rt>そと</rt></ruby>はどうでしたか。",
+   "p": "<ruby>何<rt>なに</rt></ruby>によって<ruby>行事<rt>ぎょうじ</rt></ruby>が<ruby>延<rt>の</rt></ruby>びますか。",
    "opciones": [
-    "<ruby>雨<rt>あめ</rt></ruby>だった",
-    "<ruby>明<rt>あか</rt></ruby>るかった",
-    "<ruby>暗<rt>くら</rt></ruby>かった"
+    "<ruby>交替<rt>こうたい</rt></ruby>の<ruby>順番<rt>じゅんばん</rt></ruby>",
+    "<ruby>重役<rt>じゅうやく</rt></ruby>",
+    "<ruby>天気<rt>てんき</rt></ruby>",
+    "<ruby>人事<rt>じんじ</rt></ruby>"
    ],
    "correcta": 2
+  },
+  {
+   "p": "<ruby>役目<rt>やくめ</rt></ruby>が<ruby>終<rt>お</rt></ruby>わったとき、<ruby>外<rt>そと</rt></ruby>はどうでしたか。",
+   "opciones": [
+    "<ruby>行事<rt>ぎょうじ</rt></ruby>が<ruby>延<rt>の</rt></ruby>びた",
+    "<ruby>明<rt>あか</rt></ruby>るかった",
+    "<ruby>雨<rt>あめ</rt></ruby>だった",
+    "<ruby>暗<rt>くら</rt></ruby>かった"
+   ],
+   "correcta": 3
   }
  ],
  "traduccion_en": "Today was my shift and from the morning I prepared the meeting. Since a director was coming, I checked whether the work on the premises was finished. I spoke to the human resources people and got the notice form ready too. In the afternoon we were going to rest in shifts, but going by the weather it seems the event will be delayed. When my duties ended, it had already got dark outside."

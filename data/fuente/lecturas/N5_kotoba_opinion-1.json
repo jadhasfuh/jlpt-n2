@@ -7,32 +7,32 @@
   {
    "p": "ゴンサさんの けいかくは どうでしたか。",
    "opciones": [
-    "かんたんでした",
     "とても くわしかったです",
+    "かんたんでした",
     "ありませんでした",
     "たかかったです"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "カルロスさんは どう おもいましたか。",
    "opciones": [
+    "とても いいと おもいました",
     "わかりませんでした",
     "いい かんがえだと おもいませんでした",
-    "とても いいと おもいました",
     "さむくないと おもいました"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "さいご、カルロスさんは どう しましたか。",
    "opciones": [
     "けいかくを かえました",
     "<ruby>行<rt>い</rt></ruby>かない ことに しました",
-    "なにも 言いませんでした",
-    "「なんとか なる」と <ruby>言<rt>い</rt></ruby>いました"
+    "「なんとか なる」と <ruby>言<rt>い</rt></ruby>いました",
+    "なにも 言いませんでした"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "Gonza's plan was simple. «Hotels are expensive; we'll work out where to sleep once we're there.» I didn't think it was a good idea. I said «it's a cold place», but he just laughed. When someone says «it'll be fine», it usually isn't. Even so, I like a bit of recklessness too, and I said nothing more."

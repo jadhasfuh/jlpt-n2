@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>混<rt>こ</rt></ruby>むから",
     "<ruby>高<rt>たか</rt></ruby>いから",
-    "<ruby>遅<rt>おそ</rt></ruby>いから"
+    "<ruby>遅<rt>おそ</rt></ruby>いから",
+    "<ruby>時速<rt>じそく</rt></ruby>が<ruby>速<rt>はや</rt></ruby>いから"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>小<rt>ちい</rt></ruby>さい<ruby>声<rt>こえ</rt></ruby>",
     "<ruby>早口<rt>はやくち</rt></ruby>",
-    "ゆっくり"
+    "ゆっくり",
+    "<ruby>短期<rt>たんき</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>し<ruby>方<rt>かた</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>話<rt>はな</rt></ruby>したかった",
     "<ruby>降<rt>お</rt></ruby>りたかった",
-    "<ruby>眠<rt>ねむ</rt></ruby>りたかった"
+    "<ruby>眠<rt>ねむ</rt></ruby>りたかった",
+    "<ruby>継続<rt>けいぞく</rt></ruby>して<ruby>聞<rt>き</rt></ruby>きたかった"
    ],
    "correcta": 2
   }

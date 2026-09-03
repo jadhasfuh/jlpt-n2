@@ -7,22 +7,22 @@
   {
    "p": "いまのへやのもんだいは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
+    "せまいこと",
     "<ruby>壁<rt>かべ</rt></ruby>がうすくて<ruby>音<rt>おと</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえること",
-    "<ruby>屋上<rt>おくじょう</rt></ruby>がないこと",
     "<ruby>押<rt>お</rt></ruby>し<ruby>入<rt>い</rt></ruby>れがないこと",
-    "せまいこと"
+    "<ruby>屋上<rt>おくじょう</rt></ruby>がないこと"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "つぎのへやのいいところは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "ひろいこと",
-    "<ruby>屋上<rt>おくじょう</rt></ruby>に<ruby>出<rt>で</rt></ruby>られること",
+    "<ruby>住所<rt>じゅうしょ</rt></ruby>がいいこと",
     "<ruby>水道<rt>すいどう</rt></ruby>があること",
-    "<ruby>住所<rt>じゅうしょ</rt></ruby>がいいこと"
+    "<ruby>屋上<rt>おくじょう</rt></ruby>に<ruby>出<rt>で</rt></ruby>られること",
+    "ひろいこと"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "Next month I'm moving to a new rented room. The current one is six tatami and has only one built-in cupboard. The walls are thin and you can hear the neighbour clearly. They say that in the next one you can go out onto the roof terrace. I have to do the change of address and give notice about the water. I wonder what will happen to whatever arrives while I'm away. It's a nuisance, but when I think about what will start in the new place, I'm looking forward to it."

@@ -7,32 +7,32 @@
   {
    "p": "けんたくんは なんさいですか。",
    "opciones": [
-    "じゅうにさい",
-    "にじゅうさい",
     "じゅうさい",
-    "じゅうごさい"
-   ],
-   "correcta": 0
-  },
-  {
-   "p": "にちようび、どのくらい あそびましたか。",
-   "opciones": [
-    "いちにち",
-    "にじかん",
-    "じゅっぷん",
-    "まいしゅう"
+    "じゅうにさい",
+    "じゅうごさい",
+    "にじゅうさい"
    ],
    "correcta": 1
   },
   {
-   "p": "つぎの ひ、カルロスさんは どうでしたか。",
+   "p": "にちようび、どのくらい あそびましたか。",
    "opciones": [
-    "また あそびました",
-    "げんきでした",
-    "あしが いたかったです",
-    "サッカーが <ruby>上手<rt>じょうず</rt></ruby>に なりました"
+    "まいしゅう",
+    "じゅっぷん",
+    "にじかん",
+    "いちにち"
    ],
    "correcta": 2
+  },
+  {
+   "p": "つぎの ひ、カルロスさんは どうでしたか。",
+   "opciones": [
+    "サッカーが <ruby>上手<rt>じょうず</rt></ruby>に なりました",
+    "げんきでした",
+    "また あそびました",
+    "あしが いたかったです"
+   ],
+   "correcta": 3
   }
  ],
  "traduccion_en": "Kenta, Mrs Tanaka's grandson, is twelve. He likes football and practises in the park every week. On Sunday they invited me along too. We spent two hours running about and kicking the ball. Kenta was far better than me. The next day my legs hurt so much I could hardly walk."

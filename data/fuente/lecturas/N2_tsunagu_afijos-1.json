@@ -9,7 +9,8 @@
    "opciones": [
     "「<ruby>確認<rt>かくにん</rt></ruby><ruby>済<rt>ずみ</rt></ruby>」の<ruby>札<rt>ふだ</rt></ruby>",
     "<ruby>名前<rt>なまえ</rt></ruby>",
-    "メモ"
+    "メモ",
+    "しわだらけのメモ"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>十<rt>じゅっ</rt></ruby>キロ",
     "<ruby>三十<rt>さんじゅう</rt></ruby>キロ",
-    "<ruby>百<rt>ひゃっ</rt></ruby>キロ"
+    "<ruby>百<rt>ひゃっ</rt></ruby>キロ",
+    "<ruby>三<rt>さん</rt></ruby>キロ"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>最後<rt>さいご</rt></ruby>",
     "<ruby>一<rt>いち</rt></ruby><ruby>番目<rt>ばんめ</rt></ruby>",
-    "<ruby>三<rt>さん</rt></ruby><ruby>番目<rt>ばんめ</rt></ruby>"
+    "<ruby>三<rt>さん</rt></ruby><ruby>番目<rt>ばんめ</rt></ruby>",
+    "<ruby>子<rt>こ</rt></ruby>ども<ruby>向<rt>む</rt></ruby>けの<ruby>箱<rt>はこ</rt></ruby>"
    ],
    "correcta": 2
   }

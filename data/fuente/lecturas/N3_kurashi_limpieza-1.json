@@ -8,21 +8,21 @@
    "p": "とちゅうで<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
     "ねた",
-    "そとへ<ruby>出<rt>で</rt></ruby>た",
     "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>み<em class=\"g\">かけ</em>た",
+    "そとへ<ruby>出<rt>で</rt></ruby>た",
     "<ruby>洗剤<rt>せんざい</rt></ruby>を<ruby>買<rt>か</rt></ruby>った"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "きょうはどうすることにしましたか。",
    "opciones": [
     "ぜんぶ<ruby>終<rt>お</rt></ruby>わらせる",
     "あしたやらない",
-    "<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>い</rt></ruby>う",
-    "ここまでと<ruby>纏<rt>まと</rt></ruby>める"
+    "ここまでと<ruby>纏<rt>まと</rt></ruby>める",
+    "<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>い</rt></ruby>う"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "On my day off I started cleaning. I dusted the shelves and scrubbed the floor with detergent. Halfway through I started reading a book and, before I knew it, it was afternoon. The room is still half tidied. But looking at the part that came out clean, I feel relieved. I was the one who made it dirty, so I can't complain either. I left the rest for tomorrow and decided to call it a day there."

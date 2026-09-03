@@ -7,32 +7,32 @@
   {
    "p": "こうべの <ruby>秋<rt>あき</rt></ruby>は どうですか。",
    "opciones": [
+    "すずしく ありません",
     "みじかいです",
-    "ながいです",
     "あついです",
-    "すずしく ありません"
-   ],
-   "correcta": 0
-  },
-  {
-   "p": "<ruby>夜<rt>よる</rt></ruby>は なにを しますか。",
-   "opciones": [
-    "そとへ <ruby>出<rt>で</rt></ruby>ます",
-    "まどを <ruby>閉<rt>し</rt></ruby>めます",
-    "まどを <ruby>開<rt>あ</rt></ruby>けます",
-    "やまへ <ruby>行<rt>い</rt></ruby>きます"
+    "ながいです"
    ],
    "correcta": 1
   },
   {
-   "p": "カルロスさんは <ruby>冬<rt>ふゆ</rt></ruby>を どう おもって いますか。",
+   "p": "<ruby>夜<rt>よる</rt></ruby>は なにを しますか。",
    "opciones": [
-    "たのしみです",
-    "なにも おもいません",
-    "すこし こわいです",
-    "はやく <ruby>来<rt>き</rt></ruby>て ほしいです"
+    "やまへ <ruby>行<rt>い</rt></ruby>きます",
+    "まどを <ruby>開<rt>あ</rt></ruby>けます",
+    "まどを <ruby>閉<rt>し</rt></ruby>めます",
+    "そとへ <ruby>出<rt>で</rt></ruby>ます"
    ],
    "correcta": 2
+  },
+  {
+   "p": "カルロスさんは <ruby>冬<rt>ふゆ</rt></ruby>を どう おもって いますか。",
+   "opciones": [
+    "はやく <ruby>来<rt>き</rt></ruby>て ほしいです",
+    "たのしみです",
+    "なにも おもいません",
+    "すこし こわいです"
+   ],
+   "correcta": 3
   }
  ],
  "traduccion_en": "Summer is over and the mornings and evenings have turned cool. Mrs Tanaka says autumn in Kobe is short. At midday it's still hot, but at night I close the window. The colour of the trees on the mountain is changing little by little. This is the first Japanese autumn I've seen. Everyone says winter is much colder, so I'm a bit scared."

@@ -7,29 +7,32 @@
   {
    "p": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>係長<rt>かかりちょう</rt></ruby>はどんな<ruby>人<rt>ひと</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>威張<rt>いば</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>",
     "しつこい<ruby>人<rt>ひと</rt></ruby>",
-    "<ruby>厚<rt>あつ</rt></ruby>かましい<ruby>人<rt>ひと</rt></ruby>"
+    "<ruby>厚<rt>あつ</rt></ruby>かましい<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>声<rt>こえ</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きい<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>威張<rt>いば</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>前<rt>まえ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>謙遜<rt>けんそん</rt></ruby>していた",
     "しつこかった",
+    "<ruby>謙遜<rt>けんそん</rt></ruby>していた",
+    "<ruby>威張<rt>いば</rt></ruby>らなかった",
     "<ruby>勇<rt>いさ</rt></ruby>ましかった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>困<rt>こま</rt></ruby>った<ruby>人<rt>ひと</rt></ruby>を<ruby>助<rt>たす</rt></ruby>けるときはどうですか。",
    "opciones": [
     "<ruby>鈍<rt>のろ</rt></ruby>い",
+    "<ruby>勇<rt>いさ</rt></ruby>ましい",
     "<ruby>恐縮<rt>きょうしゅく</rt></ruby>する",
-    "<ruby>勇<rt>いさ</rt></ruby>ましい"
+    "しつこい"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "The new section head isn't one to give himself airs. Since the previous one was tiresome and brazen, everyone is surprised. He says modestly «I've still got a lot to learn», but with time everyone came to believe him. He speaks quietly and moves slowly, so he only seems slow; even so, when he helps someone in trouble he's brave, as you'd expect."

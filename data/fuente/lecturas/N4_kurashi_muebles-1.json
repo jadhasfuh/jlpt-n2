@@ -7,22 +7,22 @@
   {
    "p": "<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しには<ruby>何<rt>なに</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っていましたか。",
    "opciones": [
+    "カードだけ",
     "<ruby>糸<rt>いと</rt></ruby>やボタン",
     "<ruby>鏡<rt>かがみ</rt></ruby>",
-    "カードだけ",
     "<ruby>表<rt>ひょう</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "なくしたと<ruby>思<rt>おも</rt></ruby>っていたものはどこにありましたか。",
    "opciones": [
-    "<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しの<ruby>中<rt>なか</rt></ruby>",
-    "<ruby>鏡<rt>かがみ</rt></ruby>のうしろ",
+    "<ruby>見<rt>み</rt></ruby>つからなかった",
     "つくえの<ruby>上<rt>うえ</rt></ruby>",
-    "<ruby>見<rt>み</rt></ruby>つからなかった"
+    "<ruby>鏡<rt>かがみ</rt></ruby>のうしろ",
+    "<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しの<ruby>中<rt>なか</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "When I opened the desk drawer it was full of threads and buttons. I don't remember since when they've been there. I made a board and tried to pair up what had been separated. From behind the mirror came out the reception card I thought I'd lost. My mother said «you don't need that any more, do you?», but I decided to keep it. Deciding whether to throw something out or not is part of cleaning too."

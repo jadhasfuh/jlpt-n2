@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>",
     "<ruby>地図<rt>ちず</rt></ruby>",
-    "<ruby>本<rt>ほん</rt></ruby>"
+    "<ruby>本<rt>ほん</rt></ruby>",
+    "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>箱<rt>はこ</rt></ruby>",
     "<ruby>袋<rt>ふくろ</rt></ruby>",
-    "<ruby>布<rt>ぬの</rt></ruby>"
+    "<ruby>布<rt>ぬの</rt></ruby>",
+    "<ruby>紐<rt>ひも</rt></ruby>で<ruby>縛<rt>しば</rt></ruby>った<ruby>箱<rt>はこ</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>売<rt>う</rt></ruby>った",
     "<ruby>燃<rt>も</rt></ruby>やした",
-    "<ruby>埋<rt>う</rt></ruby>めた"
+    "<ruby>埋<rt>う</rt></ruby>めた",
+    "<ruby>物置<rt>ものおき</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>した"
    ],
    "correcta": 2
   }

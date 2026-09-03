@@ -7,32 +7,32 @@
   {
    "p": "はじめの しゅうかん、なにが むずかしかったですか。",
    "opciones": [
-    "みんなの <ruby>声<rt>こえ</rt></ruby>が はやかった こと",
     "せんせいの はなし",
+    "かんじが <ruby>読<rt>よ</rt></ruby>めない こと",
     "みちが わからない こと",
-    "かんじが <ruby>読<rt>よ</rt></ruby>めない こと"
+    "みんなの <ruby>声<rt>こえ</rt></ruby>が はやかった こと"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "ジャンさんは なにを おしえてくれましたか。",
    "opciones": [
-    "かんじの よみ<ruby>方<rt>かた</rt></ruby>",
     "「もう いちど おねがいします」",
     "みせの ばしょ",
-    "わらう こと"
+    "わらう こと",
+    "かんじの よみ<ruby>方<rt>かた</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "その ことばを つかうと、どう なりましたか。",
    "opciones": [
     "だれも こたえませんでした",
-    "みんな わらいました",
     "みんな ゆっくり なりました",
-    "みんな はやく なりました"
+    "みんな はやく なりました",
+    "みんな わらいました"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "The first week I understood nothing: everyone spoke so fast. The teacher has a slow way of speaking, but people in the street don't. In shops, when they asked me something, I just pulled a face and smiled. Jean taught me that it's enough to say «could you say that again, please?». The moment I used that phrase, everyone slowed down. I was worn out, but it was a good first week."

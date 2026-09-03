@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>噴火<rt>ふんか</rt></ruby>",
     "<ruby>地震<rt>じしん</rt></ruby>",
-    "<ruby>火事<rt>かじ</rt></ruby>"
+    "<ruby>火事<rt>かじ</rt></ruby>",
+    "<ruby>飢饉<rt>ききん</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>動物<rt>どうぶつ</rt></ruby>",
     "<ruby>飢饉<rt>ききん</rt></ruby>",
-    "<ruby>雨<rt>あめ</rt></ruby>"
+    "<ruby>雨<rt>あめ</rt></ruby>",
+    "<ruby>噴火<rt>ふんか</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>危<rt>あぶ</rt></ruby>ない",
     "<ruby>同<rt>おな</rt></ruby>じ",
-    "<ruby>前<rt>まえ</rt></ruby>より<ruby>安全<rt>あんぜん</rt></ruby>"
+    "<ruby>前<rt>まえ</rt></ruby>より<ruby>安全<rt>あんぜん</rt></ruby>",
+    "<ruby>道<rt>みち</rt></ruby>が<ruby>通<rt>とお</rt></ruby>れない"
    ],
    "correcta": 2
   }

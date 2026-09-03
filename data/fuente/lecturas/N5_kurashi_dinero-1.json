@@ -7,32 +7,32 @@
   {
    "p": "なんじに おきましたか。",
    "opciones": [
-    "<ruby>十時<rt>じゅうじ</rt></ruby>",
     "<ruby>九時<rt>くじ</rt></ruby>",
     "<ruby>六時<rt>ろくじ</rt></ruby>",
+    "<ruby>十時<rt>じゅうじ</rt></ruby>",
     "<ruby>八<rt>はち</rt></ruby><ruby>時<rt>とき</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "ひこうきは なんじでしたか。",
    "opciones": [
-    "<ruby>十二時<rt>じゅうにじ</rt></ruby>",
-    "<ruby>九時<rt>くじ</rt></ruby>",
+    "<ruby>十<rt>じゅう</rt></ruby><ruby>一時<rt>いちじ</rt></ruby>",
     "<ruby>十時<rt>じゅうじ</rt></ruby>",
-    "<ruby>十<rt>じゅう</rt></ruby><ruby>一時<rt>いちじ</rt></ruby>"
+    "<ruby>十二時<rt>じゅうにじ</rt></ruby>",
+    "<ruby>九時<rt>くじ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "あたらしい きっぷは いくらでしたか。",
    "opciones": [
-    "ただ",
-    "はんぶんの ねだん",
     "<ruby>二日分<rt>ふつかぶん</rt></ruby>の しごとの おかね",
-    "<ruby>一日<rt>ついたち</rt></ruby><ruby>分<rt>わ</rt></ruby>の しごとの おかね"
+    "ただ",
+    "<ruby>一日<rt>ついたち</rt></ruby><ruby>分<rt>わ</rt></ruby>の しごとの おかね",
+    "はんぶんの ねだん"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "The next morning I woke up at ten. The plane had left at nine. I lay looking at the ceiling for a while. Gonza woke up and said nothing either. The new ticket cost me two days' wages. «It was fun though, wasn't it?» said Gonza, but I didn't answer."

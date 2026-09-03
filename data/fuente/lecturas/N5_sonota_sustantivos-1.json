@@ -7,32 +7,32 @@
   {
    "p": "<ruby>本<rt>ほん</rt></ruby>を ならべると どうでしたか。",
    "opciones": [
-    "はんぶんも うまりませんでした",
-    "いっぱいに なりました",
     "はいりませんでした",
-    "<ruby>本棚<rt>ほんだな</rt></ruby>が ちいさすぎました"
+    "はんぶんも うまりませんでした",
+    "<ruby>本棚<rt>ほんだな</rt></ruby>が ちいさすぎました",
+    "いっぱいに なりました"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "じしょを つかわずに よめたのは なんさつですか。",
    "opciones": [
     "<ruby>一<rt>いっ</rt></ruby>さつ",
+    "はんぶん",
     "<ruby>三<rt>さん</rt></ruby>さつ",
-    "ぜんぶ",
-    "はんぶん"
+    "ぜんぶ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>本<rt>ほん</rt></ruby>を どう する つもりですか。",
    "opciones": [
-    "うります",
     "<ruby>国<rt>くに</rt></ruby>へ <ruby>持<rt>も</rt></ruby>って <ruby>帰<rt>かえ</rt></ruby>ります",
-    "へやに のこして <ruby>行<rt>い</rt></ruby>きます",
-    "ジャンに あげます"
+    "ジャンに あげます",
+    "うります",
+    "へやに のこして <ruby>行<rt>い</rt></ruby>きます"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "Jean bought a new bookshelf. We put all our books on it and didn't fill even half. That's everything we've read in a year. But three of them I read without using the dictionary. I wrote my name in them too. I plan to leave them in the flat for whoever comes next."

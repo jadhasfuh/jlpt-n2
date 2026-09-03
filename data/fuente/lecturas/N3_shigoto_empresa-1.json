@@ -7,22 +7,22 @@
   {
    "p": "あたらしい<ruby>制度<rt>せいど</rt></ruby>で、<ruby>何<rt>なに</rt></ruby>ができましたか。",
    "opciones": [
-    "<ruby>声<rt>こえ</rt></ruby>をとどける<ruby>道<rt>みち</rt></ruby>",
-    "<ruby>政府<rt>せいふ</rt></ruby>の<ruby>方針<rt>ほうしん</rt></ruby>",
+    "<ruby>組合<rt>くみあい</rt></ruby>",
     "<ruby>団体<rt>だんたい</rt></ruby>",
-    "<ruby>組合<rt>くみあい</rt></ruby>"
+    "<ruby>政府<rt>せいふ</rt></ruby>の<ruby>方針<rt>ほうしん</rt></ruby>",
+    "<ruby>声<rt>こえ</rt></ruby>をとどける<ruby>道<rt>みち</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "はたらく<ruby>人<rt>ひと</rt></ruby><em class=\"g\">にとって</em>たいせつなのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "かたち",
     "<ruby>中身<rt>なかみ</rt></ruby>",
     "<ruby>委員<rt>いいん</rt></ruby>のかず",
+    "かたち",
     "<ruby>経営<rt>けいえい</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "The company's internal system has changed. A joint group was created above the departments and representatives were chosen so that opinions could reach management. For the members, that means a channel has opened for getting their voice through. It doesn't have the form of a union or an association, but for someone who works what matters isn't the form but the substance. Merely following government guidelines doesn't solve the problems on the ground. It's among people who have dealt with each other for a while that things can really be said."

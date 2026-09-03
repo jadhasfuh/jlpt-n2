@@ -7,29 +7,32 @@
   {
    "p": "だれが<ruby>発表<rt>はっぴょう</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>総理大臣<rt>そうりだいじん</rt></ruby>",
+    "<ruby>民間<rt>みんかん</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>",
     "<ruby>国王<rt>こくおう</rt></ruby>",
-    "<ruby>領事<rt>りょうじ</rt></ruby>"
+    "<ruby>領事<rt>りょうじ</rt></ruby>",
+    "<ruby>総理大臣<rt>そうりだいじん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>公共<rt>こうきょう</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>をどうしますか。",
    "opciones": [
-    "やめる",
     "<ruby>民間<rt>みんかん</rt></ruby>にも<ruby>開<rt>ひら</rt></ruby>く",
-    "<ruby>増<rt>ふ</rt></ruby>やす"
+    "やめる",
+    "<ruby>増<rt>ふ</rt></ruby>やす",
+    "<ruby>外国<rt>がいこく</rt></ruby>に<ruby>開<rt>ひら</rt></ruby>く"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "こういうときは<ruby>何<rt>なに</rt></ruby>がいいですか。",
    "opciones": [
-    "<ruby>聞<rt>き</rt></ruby>かない",
+    "<ruby>領事<rt>りょうじ</rt></ruby>に<ruby>聞<rt>き</rt></ruby>く",
+    "<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>二紙<rt>にし</rt></ruby><ruby>読<rt>よ</rt></ruby>む",
     "<ruby>待<rt>ま</rt></ruby>つ",
-    "<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>二紙<rt>にし</rt></ruby><ruby>読<rt>よ</rt></ruby>む"
+    "<ruby>聞<rt>き</rt></ruby>かない"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "The prime minister announced that the policy is going to change. The substance is opening public works to the private sector as well. Some talk as if nothing were going to change, but things turn quickly. Even foreign consuls and a king gave their opinion. At times like these, there's nothing like reading two different newspapers."

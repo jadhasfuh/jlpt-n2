@@ -7,32 +7,32 @@
   {
    "p": "だれと うみへ <ruby>行<rt>い</rt></ruby>きましたか。",
    "opciones": [
-    "アンナさんと けんたくん",
-    "ゴンサと ジャン",
     "ひとりで",
-    "ミンさんと けんたくん"
+    "アンナさんと けんたくん",
+    "ミンさんと けんたくん",
+    "ゴンサと ジャン"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>泳<rt>およ</rt></ruby>ぎましたか。",
    "opciones": [
+    "はい、<ruby>泳<rt>およ</rt></ruby>ぎました",
     "けんたくんだけ",
     "まだ つめたいです",
-    "はい、<ruby>泳<rt>およ</rt></ruby>ぎました",
     "けんたくんが <ruby>泳<rt>およ</rt></ruby>ぎました"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "カルロスさんは <ruby>一年<rt>いちねん</rt></ruby>まえの じぶんに なにを 言いたいですか。",
    "opciones": [
     "はやく かえれ",
+    "うみへ <ruby>行<rt>い</rt></ruby>け",
     "べんきょうしろ",
-    "しんぱいするな",
-    "うみへ <ruby>行<rt>い</rt></ruby>け"
+    "しんぱいするな"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "One Sunday in April I went to the sea with Anna and Kenta. It's still too cold to swim. Kenta took off his shoes, put his feet in the water and shrieked. In the distance you can see ships. When I came to Japan, I came from that direction. To the me of a year ago I'd like to say: don't worry about anything."

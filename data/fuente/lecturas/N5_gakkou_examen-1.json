@@ -7,32 +7,32 @@
   {
    "p": "<ruby>質問<rt>しつもん</rt></ruby>は いくつ ありましたか。",
    "opciones": [
-    "にじゅう",
+    "じゅう",
     "じゅうご",
     "いつつ",
-    "じゅう"
+    "にじゅう"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "ジャンさんは どう しましたか。",
    "opciones": [
-    "さきに <ruby>出<rt>で</rt></ruby>ました",
     "さいごまで のこりました",
+    "さきに <ruby>出<rt>で</rt></ruby>ました",
     "きませんでした",
     "とけいを <ruby>見<rt>み</rt></ruby>ました"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "けっかは いつですか。",
    "opciones": [
-    "らいしゅう",
     "きょう",
     "あした",
-    "ゆうべ"
+    "ゆうべ",
+    "らいしゅう"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "Today we had our first test. The teacher handed out the papers and then looked at the clock. There were twenty questions. I did the first fifteen quickly, but I got stuck on the last five. Gonza left before anyone else. Jean stayed until the end. They say the results are tomorrow. I didn't sleep well last night."

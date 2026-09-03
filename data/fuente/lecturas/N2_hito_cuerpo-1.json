@@ -7,29 +7,32 @@
   {
    "p": "どうして<ruby>椅子<rt>いす</rt></ruby>にもたれましたか。",
    "opciones": [
+    "<ruby>弟<rt>おとうと</rt></ruby>が<ruby>来<rt>き</rt></ruby>たから",
+    "まぶたが<ruby>重<rt>おも</rt></ruby>いから",
     "<ruby>長<rt>なが</rt></ruby>く<ruby>座<rt>すわ</rt></ruby>っていたから",
-    "<ruby>寒<rt>さむ</rt></ruby>いから",
-    "<ruby>弟<rt>おとうと</rt></ruby>が<ruby>来<rt>き</rt></ruby>たから"
+    "<ruby>寒<rt>さむ</rt></ruby>いから"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "たんすから<ruby>何<rt>なに</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しましたか。",
    "opciones": [
+    "<ruby>本<rt>ほん</rt></ruby>",
+    "<ruby>弟<rt>おとうと</rt></ruby>の<ruby>上着<rt>うわぎ</rt></ruby>",
     "<ruby>釘<rt>くぎ</rt></ruby>",
-    "<ruby>毛皮<rt>けがわ</rt></ruby>の<ruby>上着<rt>うわぎ</rt></ruby>",
-    "<ruby>本<rt>ほん</rt></ruby>"
+    "<ruby>毛皮<rt>けがわ</rt></ruby>の<ruby>上着<rt>うわぎ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "<ruby>弟<rt>おとうと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>があると<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
+    "<ruby>雪<rt>ゆき</rt></ruby>の<ruby>足跡<rt>あしあと</rt></ruby>",
     "<ruby>雨<rt>あめ</rt></ruby>",
-    "<ruby>人<rt>ひと</rt></ruby>",
-    "<ruby>雪<rt>ゆき</rt></ruby>の<ruby>足跡<rt>あしあと</rt></ruby>"
+    "<ruby>弟<rt>おとうと</rt></ruby>の<ruby>足跡<rt>あしあと</rt></ruby>",
+    "<ruby>人<rt>ひと</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "I'd been sitting for a long time, so I rested my elbows on the table and leaned back in the chair. When I closed my eyes, my eyelids felt heavy. I thought I'd rest a while and took the leather jacket out of the chest of drawers. My little brother came in, pointed outside with his thumb and said there were footprints in the snow. I was sleepy and, on the contrary, it went away at once."

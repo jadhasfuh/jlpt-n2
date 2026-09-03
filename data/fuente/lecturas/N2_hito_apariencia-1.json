@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>醜<rt>みにく</rt></ruby>い",
     "きれい",
-    "スマート"
+    "スマート",
+    "<ruby>気<rt>き</rt></ruby>にしていなかった"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>料理<rt>りょうり</rt></ruby>",
     "<ruby>服<rt>ふく</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶこと",
-    "<ruby>写真<rt>しゃしん</rt></ruby>"
+    "<ruby>写真<rt>しゃしん</rt></ruby>",
+    "<ruby>肩<rt>かた</rt></ruby>を<ruby>揉<rt>も</rt></ruby>むこと"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>",
     "<ruby>髪<rt>かみ</rt></ruby>",
-    "<ruby>姿勢<rt>しせい</rt></ruby>"
+    "<ruby>姿勢<rt>しせい</rt></ruby>",
+    "<ruby>長<rt>なが</rt></ruby>い<ruby>髪<rt>かみ</rt></ruby>"
    ],
    "correcta": 2
   }

@@ -7,22 +7,22 @@
   {
    "p": "なぜ<ruby>注文<rt>ちゅうもん</rt></ruby>がふえていますか。",
    "opciones": [
-    "<ruby>値<rt>ね</rt></ruby>だんがやすいから",
-    "<ruby>広告<rt>こうこく</rt></ruby>のおかげ",
+    "<ruby>資本<rt>しほん</rt></ruby>がおおいから",
     "<ruby>品<rt>しな</rt></ruby>のよさが<ruby>口<rt>くち</rt></ruby>コミで<ruby>伝<rt>つた</rt></ruby>わったから",
-    "<ruby>資本<rt>しほん</rt></ruby>がおおいから"
+    "<ruby>値<rt>ね</rt></ruby>だんがやすいから",
+    "<ruby>広告<rt>こうこく</rt></ruby>のおかげ"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "これからの<ruby>実力<rt>じつりょく</rt></ruby>になるのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>製造<rt>せいぞう</rt></ruby>をふやすこと",
-    "<ruby>上京<rt>じょうきょう</rt></ruby>すること",
     "<ruby>宣伝<rt>せんでん</rt></ruby>",
-    "<ruby>地元<rt>じもと</rt></ruby>の<ruby>資源<rt>しげん</rt></ruby>をどう<ruby>生<rt>い</rt></ruby>かすか"
+    "<ruby>上京<rt>じょうきょう</rt></ruby>すること",
+    "<ruby>地元<rt>じもと</rt></ruby>の<ruby>資源<rt>しげん</rt></ruby>をどう<ruby>生<rt>い</rt></ruby>かすか",
+    "<ruby>製造<rt>せいぞう</rt></ruby>をふやすこと"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "A small provincial factory has started producing something new. Since it has little capital, it can't spend on advertising or promotion. Even so orders are increasing, because the quality has spread by word of mouth. They still can't produce enough to meet demand. More than development, perhaps it should be called growing pains. While the number of young people leaving for the capital to work falls, how to make use of local resources will be the real skill from now on."

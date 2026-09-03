@@ -7,29 +7,32 @@
   {
    "p": "どこで<ruby>転<rt>ころ</rt></ruby>びましたか。",
    "opciones": [
-    "<ruby>階段<rt>かいだん</rt></ruby>",
     "<ruby>入口<rt>いりぐち</rt></ruby>",
+    "<ruby>階段<rt>かいだん</rt></ruby>",
+    "<ruby>病院<rt>びょういん</rt></ruby>",
     "<ruby>台所<rt>だいどころ</rt></ruby>"
-   ],
-   "correcta": 0
-  },
-  {
-   "p": "<ruby>母<rt>はは</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",
-   "opciones": [
-    "<ruby>電話<rt>でんわ</rt></ruby>をかけた",
-    "<ruby>背負<rt>せお</rt></ruby>って<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った",
-    "<ruby>薬<rt>くすり</rt></ruby>を<ruby>買<rt>か</rt></ruby>った"
    ],
    "correcta": 1
   },
   {
-   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "p": "<ruby>母<rt>はは</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
-    "<ruby>食<rt>た</rt></ruby>べなさい",
-    "<ruby>走<rt>はし</rt></ruby>りなさい",
-    "<ruby>休<rt>やす</rt></ruby>ませなさい"
+    "<ruby>薬<rt>くすり</rt></ruby>を<ruby>買<rt>か</rt></ruby>った",
+    "<ruby>小指<rt>こゆび</rt></ruby>を<ruby>見<rt>み</rt></ruby>た",
+    "<ruby>背負<rt>せお</rt></ruby>って<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った",
+    "<ruby>電話<rt>でんわ</rt></ruby>をかけた"
    ],
    "correcta": 2
+  },
+  {
+   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "opciones": [
+    "<ruby>走<rt>はし</rt></ruby>りなさい",
+    "<ruby>食<rt>た</rt></ruby>べなさい",
+    "<ruby>背負<rt>せお</rt></ruby>いなさい",
+    "<ruby>休<rt>やす</rt></ruby>ませなさい"
+   ],
+   "correcta": 3
   }
  ],
  "traduccion_en": "Yesterday I suddenly fell on the stairs and hit my hip. I may have broken my little finger too. My heart raced and even my nerves hurt. My mother carried me to the hospital on her back. The doctor told me: «rest your body and your mind too». Now that I think about it, I believe I'd had this pain before."

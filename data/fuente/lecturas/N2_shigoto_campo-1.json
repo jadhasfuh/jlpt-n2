@@ -7,29 +7,32 @@
   {
    "p": "<ruby>祖父<rt>そふ</rt></ruby>は<ruby>春<rt>はる</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をしますか。",
    "opciones": [
-    "<ruby>畑<rt>はたけ</rt></ruby>を<ruby>耕<rt>たがや</rt></ruby>す",
     "<ruby>休<rt>やす</rt></ruby>む",
-    "<ruby>取<rt>と</rt></ruby>り<ruby>入<rt>い</rt></ruby>れる"
+    "<ruby>畑<rt>はたけ</rt></ruby>を<ruby>耕<rt>たがや</rt></ruby>す",
+    "<ruby>取<rt>と</rt></ruby>り<ruby>入<rt>い</rt></ruby>れる",
+    "<ruby>取<rt>と</rt></ruby>り<ruby>入<rt>い</rt></ruby>れの<ruby>準備<rt>じゅんび</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>去年<rt>きょねん</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>雨<rt>あめ</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かった",
+    "<ruby>土<rt>つち</rt></ruby>の<ruby>様子<rt>ようす</rt></ruby>がよかった",
+    "よく<ruby>育<rt>そだ</rt></ruby>った",
     "<ruby>作物<rt>さくもつ</rt></ruby>が<ruby>小<rt>ちい</rt></ruby>さくなった",
-    "よく<ruby>育<rt>そだ</rt></ruby>った"
+    "<ruby>雨<rt>あめ</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かった"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>口癖<rt>くちぐせ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
     "<ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きろ",
     "<ruby>休<rt>やす</rt></ruby>め",
+    "<ruby>畑<rt>はたけ</rt></ruby>を<ruby>耕<rt>たがや</rt></ruby>せ",
     "<ruby>土<rt>つち</rt></ruby>はうそをつかない"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "When spring comes, my grandfather ploughs the vegetable plot every day. Last year it rained little and the harvests did nothing but shrink. This year the soil looks good and it seems there'll be something to gather in autumn. He works from five in the morning and at midday rests under a tree. «The earth doesn't lie» is the line he always repeats."

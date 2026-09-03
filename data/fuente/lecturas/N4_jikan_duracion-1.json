@@ -7,22 +7,22 @@
   {
    "p": "わざとゆっくりやって、どうなりましたか。",
    "opciones": [
-    "いつもより<ruby>早<rt>はや</rt></ruby>く<ruby>終<rt>お</rt></ruby>わった",
-    "しっぱいした",
     "かわらなかった",
-    "おそくなった"
+    "いつもより<ruby>早<rt>はや</rt></ruby>く<ruby>終<rt>お</rt></ruby>わった",
+    "おそくなった",
+    "しっぱいした"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "どうりょうは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
+    "<ruby>急<rt>いそ</rt></ruby>いで",
     "おそい",
     "たすかった",
-    "<ruby>急<rt>いそ</rt></ruby>いで",
     "しっぱいだ"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "The closer the deadline, the more mistakes I make from rushing. Today I tried going slowly on purpose. The result is that I finished earlier than usual. Afterwards, a colleague told me it had helped him. I hadn't meant to lend him a hand: I simply did my part properly. But if that's useful to someone, I'm glad I went slowly. From now on I'll go at the speed I can keep up."

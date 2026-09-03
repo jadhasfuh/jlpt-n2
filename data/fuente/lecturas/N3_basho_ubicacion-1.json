@@ -8,21 +8,21 @@
    "p": "<ruby>丘<rt>おか</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>から<ruby>何<rt>なに</rt></ruby>がよくわかりますか。",
    "opciones": [
     "<ruby>鳥<rt>とり</rt></ruby>の<ruby>巣<rt>す</rt></ruby>",
-    "<ruby>道<rt>みち</rt></ruby>の<ruby>幅<rt>はば</rt></ruby>",
     "<ruby>町<rt>まち</rt></ruby>と<ruby>郡<rt>ぐん</rt></ruby>の<ruby>境<rt>さかい</rt></ruby>",
-    "<ruby>建物<rt>たてもの</rt></ruby>の<ruby>数<rt>かず</rt></ruby>"
+    "<ruby>建物<rt>たてもの</rt></ruby>の<ruby>数<rt>かず</rt></ruby>",
+    "<ruby>道<rt>みち</rt></ruby>の<ruby>幅<rt>はば</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "この<ruby>場所<rt>ばしょ</rt></ruby>について、どう<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>人<rt>ひと</rt></ruby>がおおい",
     "<ruby>景色<rt>けしき</rt></ruby>がよくない",
-    "<ruby>有名<rt>ゆうめい</rt></ruby>だ",
-    "<ruby>景色<rt>けしき</rt></ruby>はいいが<ruby>知<rt>し</rt></ruby>られていない"
+    "<ruby>人<rt>ひと</rt></ruby>がおおい",
+    "<ruby>景色<rt>けしき</rt></ruby>はいいが<ruby>知<rt>し</rt></ruby>られていない",
+    "<ruby>有名<rt>ゆうめい</rt></ruby>だ"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "On the edge of the town there's a small hill. Going up a narrow path you reach the top. From there you can clearly make out the boundary between the town and the district. At dusk, the shadows of the buildings stretch out. About this place I was told that long ago there were many birds' nests. Now hardly anyone comes. The view has nothing to envy the famous spots: it's simply that it isn't known. As I was about to leave, the wind sounded behind me."

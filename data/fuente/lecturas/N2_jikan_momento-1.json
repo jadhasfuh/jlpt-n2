@@ -7,29 +7,32 @@
   {
    "p": "<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>たあと<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>きましたか。",
    "opciones": [
-    "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>りはじめた",
+    "<ruby>風<rt>かぜ</rt></ruby>が<ruby>吹<rt>ふ</rt></ruby>いた",
     "<ruby>晴<rt>は</rt></ruby>れた",
-    "<ruby>風<rt>かぜ</rt></ruby>が<ruby>吹<rt>ふ</rt></ruby>いた"
+    "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>りはじめた",
+    "<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れた"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "どこで<ruby>待<rt>ま</rt></ruby>ちましたか。",
    "opciones": [
     "<ruby>家<rt>いえ</rt></ruby>",
-    "<ruby>駅<rt>えき</rt></ruby>",
-    "<ruby>店<rt>みせ</rt></ruby>"
+    "<ruby>店<rt>みせ</rt></ruby>",
+    "<ruby>傘<rt>かさ</rt></ruby>を<ruby>買<rt>か</rt></ruby>った<ruby>店<rt>みせ</rt></ruby>",
+    "<ruby>駅<rt>えき</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "<ruby>最後<rt>さいご</rt></ruby>に<ruby>空<rt>そら</rt></ruby>はどうなりましたか。",
    "opciones": [
+    "<ruby>明<rt>あか</rt></ruby>るくなった",
+    "<ruby>雨<rt>あめ</rt></ruby>がどっと<ruby>降<rt>ふ</rt></ruby>った",
     "<ruby>暗<rt>くら</rt></ruby>くなった",
-    "<ruby>変<rt>か</rt></ruby>わらなかった",
-    "<ruby>明<rt>あか</rt></ruby>るくなった"
+    "<ruby>変<rt>か</rt></ruby>わらなかった"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "It all started with a conversation the other day. I said «I'm off» and left the house, but it suddenly started raining. I put the plans back a little and decided to wait at the station for the time being. On top of that the train was delayed and, to cap it all, I'd left my umbrella behind. And yet, in a moment the sky cleared and I thought that, after all, I'd done well to go out."

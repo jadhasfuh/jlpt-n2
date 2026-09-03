@@ -7,29 +7,32 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>録音<rt>ろくおん</rt></ruby>しますか。",
    "opciones": [
-    "<ruby>村<rt>むら</rt></ruby>の<ruby>民謡<rt>みんよう</rt></ruby>",
+    "<ruby>太鼓<rt>たいこ</rt></ruby>の<ruby>作<rt>つく</rt></ruby>り<ruby>方<rt>ほう</rt></ruby>",
     "コーラス",
+    "<ruby>村<rt>むら</rt></ruby>の<ruby>民謡<rt>みんよう</rt></ruby>",
     "オーケストラ"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>曲<rt>きょく</rt></ruby>で<ruby>使<rt>つか</rt></ruby>う<ruby>楽器<rt>がっき</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
+    "バンド",
     "<ruby>笛<rt>ふえ</rt></ruby>",
-    "<ruby>太鼓<rt>たいこ</rt></ruby>と<ruby>鈴<rt>すず</rt></ruby>",
-    "バンド"
+    "バンドとコーラス",
+    "<ruby>太鼓<rt>たいこ</rt></ruby>と<ruby>鈴<rt>すず</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "リズムはどうですか。",
    "opciones": [
-    "<ruby>短<rt>みじか</rt></ruby>い",
+    "<ruby>難<rt>むずか</rt></ruby>しい",
+    "<ruby>太鼓<rt>たいこ</rt></ruby>だけ<ruby>難<rt>むずか</rt></ruby>しい",
     "<ruby>易<rt>やさ</rt></ruby>しい",
-    "<ruby>難<rt>むずか</rt></ruby>しい"
+    "<ruby>短<rt>みじか</rt></ruby>い"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "We decided to record the town's folk songs. They're simple pieces, just drum and small bells, but the rhythm is difficult. Unless you actually play it, you don't understand that way of feeling it. Young people seem to prefer bands and choirs, but the pleasure of fitting together with everyone, as in an orchestra, is the same."

@@ -7,29 +7,32 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>出<rt>で</rt></ruby>てきましたか。",
    "opciones": [
-    "<ruby>絵<rt>え</rt></ruby>の<ruby>具<rt>ぐ</rt></ruby>の<ruby>箱<rt>はこ</rt></ruby>",
     "<ruby>写真<rt>しゃしん</rt></ruby>",
-    "<ruby>絵<rt>え</rt></ruby>"
+    "<ruby>絵<rt>え</rt></ruby>",
+    "<ruby>灰色<rt>はいいろ</rt></ruby>の<ruby>絵<rt>え</rt></ruby>の<ruby>具<rt>ぐ</rt></ruby>",
+    "<ruby>絵<rt>え</rt></ruby>の<ruby>具<rt>ぐ</rt></ruby>の<ruby>箱<rt>はこ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>空<rt>から</rt></ruby>だったのはどの<ruby>色<rt>いろ</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>紫<rt>むらさき</rt></ruby>",
     "<ruby>灰色<rt>はいいろ</rt></ruby>",
+    "<ruby>真<rt>ま</rt></ruby>っ<ruby>黒<rt>くろ</rt></ruby>",
+    "<ruby>紫<rt>むらさき</rt></ruby>",
     "ピンク"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>姉<rt>あね</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>描<rt>か</rt></ruby>いていましたか。",
    "opciones": [
+    "<ruby>紫<rt>むらさき</rt></ruby>とピンクの<ruby>花<rt>はな</rt></ruby>",
+    "<ruby>青白<rt>あおじろ</rt></ruby>い<ruby>空<rt>そら</rt></ruby>",
     "<ruby>土<rt>つち</rt></ruby>",
-    "<ruby>花<rt>はな</rt></ruby>",
-    "<ruby>青白<rt>あおじろ</rt></ruby>い<ruby>空<rt>そら</rt></ruby>"
+    "<ruby>花<rt>はな</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "My paintbox from when I was a child turned up. Only the purple and the pink were left almost whole, and the grey was empty. They say my sister only painted pale skies. I liked pure black and pure white, and I made the brown parts into earth. Why don't the two of us try painting again?"

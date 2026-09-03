@@ -7,22 +7,22 @@
   {
    "p": "いままで、だれが<ruby>食事<rt>しょくじ</rt></ruby>をつくっていましたか。",
    "opciones": [
+    "この<ruby>人<rt>ひと</rt></ruby>",
     "<ruby>母<rt>はは</rt></ruby>",
-    "<ruby>三人<rt>さんにん</rt></ruby>で",
     "<ruby>父<rt>ちち</rt></ruby>",
-    "この<ruby>人<rt>ひと</rt></ruby>"
+    "<ruby>三人<rt>さんにん</rt></ruby>で"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "これから、どうなりますか。",
    "opciones": [
+    "つくらない",
     "<ruby>母<rt>はは</rt></ruby>がつづける",
     "<ruby>三人<rt>さんにん</rt></ruby>でじゅんばんにする",
-    "<ruby>父<rt>ちち</rt></ruby>がつくる",
-    "つくらない"
+    "<ruby>父<rt>ちち</rt></ruby>がつくる"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "From next month it's been decided that the cooking rota at home will change. Until now my mother did everything. I'm starting by learning to wash the rice. I can make a salad or sandwiches, but doing it daily is another matter. Every time I say «itadakimasu» I think of whoever cooked it. My father goes fishing and brings fish home. From next week, we've agreed to take turns between the three of us."

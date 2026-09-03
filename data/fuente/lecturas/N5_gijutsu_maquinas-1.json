@@ -7,32 +7,32 @@
   {
    "p": "れいぞうこに なにが ありますか。",
    "opciones": [
-    "ぎゅうにゅうと たまごと やさい",
     "にくと さかな",
     "なにも ありません",
+    "ぎゅうにゅうと たまごと やさい",
     "パンと ぎゅうにゅう"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "あさ、なにを <ruby>聞<rt>き</rt></ruby>きますか。",
    "opciones": [
-    "おんがく",
-    "ラジオの ニュース",
     "テレビ",
-    "ことばの べんきょう"
+    "ことばの べんきょう",
+    "おんがく",
+    "ラジオの ニュース"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "カルロスさんの へやは なんがいですか。",
    "opciones": [
-    "ごかい",
-    "<ruby>一<rt>いっ</rt></ruby>かい",
     "さんかい",
-    "にかい"
+    "<ruby>一<rt>いっ</rt></ruby>かい",
+    "にかい",
+    "ごかい"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "My fridge is very small. Inside there's milk, eggs and the vegetables Mrs Tanaka gives me. I don't have a television, but I do have a radio. In the morning I eat bread while listening to the news. They speak fast, but the same words keep coming up. There's no lift in the building. My flat is on the third floor."

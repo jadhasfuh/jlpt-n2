@@ -7,22 +7,22 @@
   {
    "p": "となりの<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていましたか。",
    "opciones": [
-    "<ruby>外国<rt>がいこく</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>に<ruby>通訳<rt>つうやく</rt></ruby>していた",
-    "バスを<ruby>待<rt>ま</rt></ruby>っていた",
+    "<ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby>ていた",
     "アナウンスをしていた",
-    "<ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby>ていた"
+    "バスを<ruby>待<rt>ま</rt></ruby>っていた",
+    "<ruby>外国<rt>がいこく</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>に<ruby>通訳<rt>つうやく</rt></ruby>していた"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
-    "<ruby>何<rt>なに</rt></ruby>もしなかった",
     "<ruby>地図<rt>ちず</rt></ruby>をゆびさして<ruby>教<rt>おし</rt></ruby>えた",
-    "<ruby>通訳<rt>つうやく</rt></ruby>した",
-    "<ruby>駅<rt>えき</rt></ruby>を<ruby>出<rt>で</rt></ruby>た"
+    "<ruby>駅<rt>えき</rt></ruby>を<ruby>出<rt>で</rt></ruby>た",
+    "<ruby>何<rt>なに</rt></ruby>もしなかった",
+    "<ruby>通訳<rt>つうやく</rt></ruby>した"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "I was waiting for the train to leave at the railway station. Unlike the bus at its stop, here the timetables are exact. The announcements were only in Japanese, but the person next to me was translating them for a foreigner. For someone who doesn't understand the language, a station is a difficult place even just to pass through. Although there was little I could do, I pointed at the map and showed him. That happened during that stretch when there's nothing for it but to wait for the train to come."

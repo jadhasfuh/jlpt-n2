@@ -7,29 +7,32 @@
   {
    "p": "<ruby>猫<rt>ねこ</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>匹<rt>びき</rt></ruby>いますか。",
    "opciones": [
-    "<ruby>三<rt>さん</rt></ruby><ruby>匹<rt>びき</rt></ruby>",
     "<ruby>一<rt>いっ</rt></ruby><ruby>匹<rt>ぴき</rt></ruby>",
+    "<ruby>三<rt>さん</rt></ruby><ruby>匹<rt>びき</rt></ruby>",
+    "<ruby>四<rt>よ</rt></ruby><ruby>匹<rt>びき</rt></ruby>",
     "<ruby>五<rt>ご</rt></ruby><ruby>匹<rt>ひき</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>餌<rt>えさ</rt></ruby>をやるならどうするべきですか。",
    "opciones": [
-    "やめる",
+    "ときどきやる",
+    "<ruby>途中<rt>とちゅう</rt></ruby>でやめる",
     "<ruby>毎日<rt>まいにち</rt></ruby><ruby>続<rt>つづ</rt></ruby>ける",
-    "ときどきやる"
+    "やめる"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どもは<ruby>何<rt>なに</rt></ruby>を<ruby>見<rt>み</rt></ruby>ていましたか。",
    "opciones": [
     "<ruby>竹<rt>たけ</rt></ruby>の<ruby>林<rt>はやし</rt></ruby>",
+    "<ruby>四<rt>よ</rt></ruby>つ<ruby>角<rt>かど</rt></ruby>の<ruby>先輩<rt>せんぱい</rt></ruby>",
     "<ruby>先輩<rt>せんぱい</rt></ruby>",
     "<ruby>道<rt>みち</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>る<ruby>猫<rt>ねこ</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "Behind my workplace three cats live. The little bamboo grove is neglected and it's hard to see where you're treading. An older colleague told me that, if you're going to feed them, you have to keep it up every day. His line is that you shouldn't leave things halfway. At the crossing there was a child looking up with all his might at a cat crossing the one-way street."

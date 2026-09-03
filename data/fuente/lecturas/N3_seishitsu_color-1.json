@@ -7,22 +7,22 @@
   {
    "p": "チョークの<ruby>線<rt>せん</rt></ruby>をけすと、どうなりますか。",
    "opciones": [
-    "うっすらあとがのこる",
+    "<ruby>黒<rt>くろ</rt></ruby>くなる",
     "<ruby>白<rt>しろ</rt></ruby>くなる",
     "きえてしまう",
-    "<ruby>黒<rt>くろ</rt></ruby>くなる"
+    "うっすらあとがのこる"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "のこるのはどこですか。",
    "opciones": [
-    "<ruby>黒板<rt>こくばん</rt></ruby>",
     "それを<ruby>見<rt>み</rt></ruby>ていた<ruby>人<rt>ひと</rt></ruby>の<ruby>中<rt>なか</rt></ruby>",
+    "<ruby>黒板<rt>こくばん</rt></ruby>",
     "<ruby>粉<rt>こな</rt></ruby>",
     "<ruby>教室<rt>きょうしつ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "On the classroom blackboard, the teacher writes in large letters. The lines of white chalk, when rubbed out, leave a faint trace. Over a year of classes, tens of thousands of characters must have been written on that board. And yet all that's left is white dust. The teacher wrote putting his heart into it, but the letters themselves disappear. What remains is only inside those who looked at them."

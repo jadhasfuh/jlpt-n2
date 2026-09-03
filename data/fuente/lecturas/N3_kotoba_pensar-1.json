@@ -7,22 +7,22 @@
   {
    "p": "<ruby>記憶<rt>きおく</rt></ruby>は<ruby>記録<rt>きろく</rt></ruby>とどうちがいますか。",
    "opciones": [
-    "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>すたびにすこしずつ<ruby>変<rt>か</rt></ruby>わる",
-    "<ruby>年<rt>とし</rt></ruby>でけえる",
+    "かわらない",
     "はっきりしている",
-    "かわらない"
+    "<ruby>年<rt>とし</rt></ruby>でけえる",
+    "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>すたびにすこしずつ<ruby>変<rt>か</rt></ruby>わる"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>悩<rt>なや</rt></ruby>んでしまうとき、どうしますか。",
    "opciones": [
-    "やすむ",
     "とりあえず<ruby>手<rt>て</rt></ruby>を<ruby>動<rt>うご</rt></ruby>かす",
     "<ruby>考<rt>かんが</rt></ruby>えつづける",
-    "<ruby>人<rt>ひと</rt></ruby>に<ruby>聞<rt>き</rt></ruby>く"
+    "<ruby>人<rt>ひと</rt></ruby>に<ruby>聞<rt>き</rt></ruby>く",
+    "やすむ"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "Old memories become sharper the older you get. Apparently memory, unlike a record, changes a little each time you call it up. The border between imagination and memory isn't as clear as we think. Doubting your own memory is frightening, but that's precisely what makes it interesting. When I'm concentrating on thinking, sometimes I get the «what was I doing?». At times like that I tell myself it's no moment for going over things and, to begin with, I get my hands moving."

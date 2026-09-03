@@ -7,22 +7,22 @@
   {
    "p": "うまい<ruby>話<rt>はな</rt></ruby>し<ruby>方<rt>かた</rt></ruby>とは<ruby>何<rt>なに</rt></ruby>ではありませんか。",
    "opciones": [
-    "はやく<ruby>話<rt>はな</rt></ruby>すことやむずかしいことばを<ruby>使<rt>つか</rt></ruby>うこと",
     "<ruby>正直<rt>しょうじき</rt></ruby>に<ruby>話<rt>はな</rt></ruby>すこと",
     "<ruby>絵<rt>え</rt></ruby>を<ruby>描<rt>えが</rt></ruby>くこと",
-    "<ruby>心<rt>こころ</rt></ruby>にのこること"
+    "<ruby>心<rt>こころ</rt></ruby>にのこること",
+    "はやく<ruby>話<rt>はな</rt></ruby>すことやむずかしいことばを<ruby>使<rt>つか</rt></ruby>うこと"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "あとで<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>うと、どうでしたか。",
    "opciones": [
-    "みんなちがうところを<ruby>覚<rt>おぼ</rt></ruby>えていた",
     "みんなが<ruby>同<rt>おな</rt></ruby>じところを<ruby>覚<rt>おぼ</rt></ruby>えていた",
-    "だれも<ruby>覚<rt>おぼ</rt></ruby>えていなかった",
-    "<ruby>意見<rt>いけん</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かれた"
+    "<ruby>意見<rt>いけん</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かれた",
+    "みんなちがうところを<ruby>覚<rt>おぼ</rt></ruby>えていた",
+    "だれも<ruby>覚<rt>おぼ</rt></ruby>えていなかった"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "I had the chance to listen to a speech. Speeches by someone who expresses themselves well make the scenes visible, as if they were drawing. Simply talking and narrating aren't the same. What we call speaking well doesn't consist of going fast or using difficult words. There are people who, without any special technique, stay in your heart. There's nobody who speaks as honestly as that person. When we talked about it afterwards, we all remembered the same passage."

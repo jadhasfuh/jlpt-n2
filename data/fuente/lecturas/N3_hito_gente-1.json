@@ -7,22 +7,22 @@
   {
    "p": "<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>について、<ruby>友<rt>とも</rt></ruby>だちは<ruby>何<rt>なに</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてくれましたか。",
    "opciones": [
-    "<ruby>国籍<rt>こくせき</rt></ruby>",
     "<ruby>年<rt>とし</rt></ruby>",
     "<ruby>昔<rt>むかし</rt></ruby>この<ruby>空港<rt>くうこう</rt></ruby>ではたらいていたこと",
-    "<ruby>名前<rt>なまえ</rt></ruby>"
+    "<ruby>名前<rt>なまえ</rt></ruby>",
+    "<ruby>国籍<rt>こくせき</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "きおくにのこるのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>国籍<rt>こくせき</rt></ruby>",
     "<ruby>交際<rt>こうさい</rt></ruby>のながさ",
-    "<ruby>名前<rt>なまえ</rt></ruby>",
-    "そのときのようす"
+    "<ruby>国籍<rt>こくせき</rt></ruby>",
+    "そのときのようす",
+    "<ruby>名前<rt>なまえ</rt></ruby>"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "At the airport exit an employee was standing with a board with names written on it. My contact didn't appear and we waited a while. People of different nationalities and ages kept appearing and disappearing. It's curious that, with someone you're seeing for the first time, as soon as your eyes meet you recognise them. When I told a friend about it afterwards, he said he'd heard that employee used to work at this airport. For a close friend the greeting was curt, but that person was very correct. More than years of acquaintance, what stays in the memory is how someone behaved at that moment."

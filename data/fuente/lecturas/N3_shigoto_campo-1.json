@@ -7,22 +7,22 @@
   {
    "p": "<ruby>水<rt>みず</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>にしたがって<ruby>変<rt>か</rt></ruby>えますか。",
    "opciones": [
-    "<ruby>土<rt>つち</rt></ruby>のかわきぐあい",
-    "<ruby>芽<rt>め</rt></ruby>の<ruby>数<rt>かず</rt></ruby>",
     "ひりょう",
-    "<ruby>季節<rt>きせつ</rt></ruby>"
+    "<ruby>季節<rt>きせつ</rt></ruby>",
+    "<ruby>芽<rt>め</rt></ruby>の<ruby>数<rt>かず</rt></ruby>",
+    "<ruby>土<rt>つち</rt></ruby>のかわきぐあい"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>魚<rt>さかな</rt></ruby>も<ruby>作物<rt>さくもつ</rt></ruby>も、<ruby>何<rt>なに</rt></ruby>にしたがってうごきますか。",
    "opciones": [
-    "<ruby>人<rt>ひと</rt></ruby>のつごう",
     "<ruby>季節<rt>きせつ</rt></ruby>",
     "<ruby>天気<rt>てんき</rt></ruby>よほう",
+    "<ruby>人<rt>ひと</rt></ruby>のつごう",
     "<ruby>仕事<rt>しごと</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "In early spring you sow in the vegetable plot. Depending on how dry the soil looks, you change the amount of water. For them to sprout early, you have to pick a mild day. Putting on fertiliser isn't too late if it's done after they sprout. At sea the fishing season begins. Both fish and crops move with the seasons, not with people's convenience. To learn to wait, there's no better trade than this."

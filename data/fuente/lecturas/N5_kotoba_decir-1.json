@@ -7,32 +7,32 @@
   {
    "p": "きっぷを さがすのに どのくらい かかりましたか。",
    "opciones": [
-    "<ruby>三日<rt>みっか</rt></ruby>",
     "<ruby>三時間<rt>さんじかん</rt></ruby>",
-    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
-    "<ruby>二日<rt>ふつか</rt></ruby>"
+    "<ruby>二日<rt>ふつか</rt></ruby>",
+    "<ruby>三日<rt>みっか</rt></ruby>",
+    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "ミンさんは なんと <ruby>教<rt>おし</rt></ruby>えて くれましたか。",
    "opciones": [
     "コートを かえ",
-    "くつしたを <ruby>二<rt>に</rt></ruby>まい はけ",
+    "あさ はやい ひこうきに しろ",
     "<ruby>行<rt>い</rt></ruby>くな",
-    "あさ はやい ひこうきに しろ"
+    "くつしたを <ruby>二<rt>に</rt></ruby>まい はけ"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "おかねは どう なりましたか。",
    "opciones": [
-    "かわりませんでした",
-    "ふえました",
     "はんぶん きえました",
-    "ぜんぶ きえました"
+    "ふえました",
+    "ぜんぶ きえました",
+    "かわりませんでした"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "Finding cheap tickets took me three days. Gonza said: «better the early morning flight». I nearly got the return date wrong and checked it twice. Half of what I'd earned at the shop disappeared. I told Min and he advised me: «it's cold, wear two pairs of socks». I would remember that line later."

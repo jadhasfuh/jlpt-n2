@@ -7,32 +7,32 @@
   {
    "p": "<ruby>映画<rt>えいが</rt></ruby>に <ruby>字<rt>じ</rt></ruby>まくは ありましたか。",
    "opciones": [
-    "ありませんでした",
     "ありました",
+    "スペインごの <ruby>字<rt>じ</rt></ruby>まくが ありました",
     "はんぶんだけ",
-    "スペインごの <ruby>字<rt>じ</rt></ruby>まくが ありました"
+    "ありませんでした"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "ゴンサさんは そとで なにを ききましたか。",
    "opciones": [
-    "「たかかった?」",
     "「なにが おきたの?」",
     "「また <ruby>行<rt>い</rt></ruby>く?」",
+    "「たかかった?」",
     "「<ruby>絵<rt>え</rt></ruby>が きれいだった?」"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "かえりに なにを しましたか。",
    "opciones": [
-    "ごはんを たべました",
-    "かいものを しました",
+    "ポスターを かいました",
     "しゃしんを とりました",
-    "ポスターを かいました"
+    "ごはんを たべました",
+    "かいものを しました"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "On Saturday I went to the cinema with Gonza. It was a Japanese film with no subtitles. Half the story went over my head, but it looked beautiful. As we came out, Gonza asked me: «what happened?». I didn't know either. We both laughed. On the way back we took a photo in front of the poster."

@@ -7,22 +7,22 @@
   {
    "p": "<ruby>鎖<rt>くさり</rt></ruby>の<ruby>輪<rt>わ</rt></ruby>はどうなっていますか。",
    "opciones": [
-    "<ruby>名前<rt>なまえ</rt></ruby>がある",
-    "きかいで<ruby>作<rt>つく</rt></ruby>った",
     "<ruby>形<rt>かたち</rt></ruby>がすこしずつちがう",
-    "ぜんぶ<ruby>同<rt>おな</rt></ruby>じ"
+    "きかいで<ruby>作<rt>つく</rt></ruby>った",
+    "ぜんぶ<ruby>同<rt>おな</rt></ruby>じ",
+    "<ruby>名前<rt>なまえ</rt></ruby>がある"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
    "p": "<ruby>今<rt>いま</rt></ruby>にとどくのはどんなものですか。",
    "opciones": [
-    "<ruby>王<rt>おう</rt></ruby>のもの",
     "<ruby>美<rt>うつく</rt></ruby>しいもの",
-    "<ruby>博物館<rt>はくぶつかん</rt></ruby>のもの",
-    "つかわれ<ruby>続<rt>つづ</rt></ruby>けたもの"
+    "つかわれ<ruby>続<rt>つづ</rt></ruby>けたもの",
+    "<ruby>王<rt>おう</rt></ruby>のもの",
+    "<ruby>博物館<rt>はくぶつかん</rt></ruby>のもの"
    ],
-   "correcta": 3
+   "correcta": 1
   }
  ],
  "traduccion_en": "At the museum I saw an old chain. Each link is made by hand and their shapes vary a little. Unlike a king's crown, nobody's name has survived with it. Tools gradually disappear with time. They are beautiful, yes, but that isn't the only reason they're kept. Only what went on being used reaches us today, changing shape as time passes."

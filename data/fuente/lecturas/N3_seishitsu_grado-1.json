@@ -7,22 +7,22 @@
   {
    "p": "この<ruby>町<rt>まち</rt></ruby>は<ruby>何<rt>なに</rt></ruby><em class=\"g\">で有名</em>ですか。",
    "opciones": [
-    "<ruby>人<rt>ひと</rt></ruby>の<ruby>数<rt>かず</rt></ruby>",
-    "<ruby>建物<rt>たてもの</rt></ruby>",
+    "<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>",
     "<ruby>祭<rt>まつ</rt></ruby>り",
-    "<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>"
+    "<ruby>人<rt>ひと</rt></ruby>の<ruby>数<rt>かず</rt></ruby>",
+    "<ruby>建物<rt>たてもの</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "<ruby>昔<rt>むかし</rt></ruby>はどうだったと<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
     "まじめすぎた",
-    "<ruby>形<rt>かたち</rt></ruby>をかえなかった",
     "<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかった",
-    "<ruby>適度<rt>てきど</rt></ruby>に<ruby>力<rt>ちから</rt></ruby>をぬいていた"
+    "<ruby>適度<rt>てきど</rt></ruby>に<ruby>力<rt>ちから</rt></ruby>をぬいていた",
+    "<ruby>形<rt>かたち</rt></ruby>をかえなかった"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "This town is famous for its festival. It's a place with life and drive. But lately the number of people taking part has been falling. The cause isn't a single one. When you ask someone who has seen it since childhood, they say: «people used to ease off just the right amount». Rather than going on doing exactly the same thing, it might be better to change the form as far as possible. When you take it too seriously, it stops being sustainable. Before the numbers dwindle further, perhaps it's time to go back to basics."

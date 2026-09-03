@@ -7,22 +7,22 @@
   {
    "p": "<ruby>効果<rt>こうか</rt></ruby>について、どう<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>数<rt>すう</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>たってから<ruby>現<rt>あらわ</rt></ruby>れることもある",
     "すぐ<ruby>出<rt>で</rt></ruby>る",
+    "<ruby>出<rt>で</rt></ruby>ない",
     "<ruby>約束<rt>やくそく</rt></ruby>できる",
-    "<ruby>出<rt>で</rt></ruby>ない"
+    "<ruby>数<rt>すう</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>たってから<ruby>現<rt>あらわ</rt></ruby>れることもある"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "いちばんむずかしいと<ruby>感<rt>かん</rt></ruby>じるのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>価値<rt>かち</rt></ruby>をきめること",
     "<ruby>時間<rt>じかん</rt></ruby><em class=\"g\">に関する</em><ruby>判断<rt>はんだん</rt></ruby>",
-    "<ruby>効果<rt>こうか</rt></ruby>をはかること",
-    "やり<ruby>方<rt>かた</rt></ruby>をえらぶこと"
+    "<ruby>価値<rt>かち</rt></ruby>をきめること",
+    "やり<ruby>方<rt>かた</rt></ruby>をえらぶこと",
+    "<ruby>効果<rt>こうか</rt></ruby>をはかること"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "When you try a new way of doing something, the effect doesn't necessarily appear straight away. Sometimes the influence shows itself months later. About certain results, nobody can promise anything. But that doesn't mean it has no value. Whether something is effective or not can't be measured in a single go. I feel that judgements involving time are precisely the hardest ones."

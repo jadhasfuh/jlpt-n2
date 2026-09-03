@@ -7,22 +7,22 @@
   {
    "p": "<ruby>台風<rt>たいふう</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>、<ruby>頼<rt>たよ</rt></ruby>りになったのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "でんき",
-    "<ruby>電報<rt>でんぽう</rt></ruby>",
+    "けいたい",
     "ラジオの<ruby>放送<rt>ほうそう</rt></ruby>",
-    "けいたい"
+    "<ruby>電報<rt>でんぽう</rt></ruby>",
+    "でんき"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "<ruby>朝<rt>あさ</rt></ruby>とどいた<ruby>連絡<rt>れんらく</rt></ruby>はどうでしたか。",
    "opciones": [
     "ぜんぶ<ruby>急<rt>いそ</rt></ruby>ぎだった",
     "<ruby>一<rt>ひと</rt></ruby>つもなかった",
-    "<ruby>読<rt>よ</rt></ruby>めなかった",
-    "ほとんどは<ruby>急<rt>いそ</rt></ruby>がなくてもよかった"
+    "ほとんどは<ruby>急<rt>いそ</rt></ruby>がなくてもよかった",
+    "<ruby>読<rt>よ</rt></ruby>めなかった"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "On the night of the typhoon the power went out and my phone battery ran out as well. I couldn't get in touch with anyone. The only thing I could count on was the radio. They say that long ago there were telegrams. I realised that being connected is now so normal that, when you aren't, you don't feel at ease at all. In the morning the power came back and a pile of messages arrived all at once. Hardly any of them were urgent."

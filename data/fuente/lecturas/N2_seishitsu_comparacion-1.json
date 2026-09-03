@@ -7,29 +7,32 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べましたか。",
    "opciones": [
+    "<ruby>地域<rt>ちいき</rt></ruby>の<ruby>交流<rt>こうりゅう</rt></ruby>",
+    "<ruby>地域<rt>ちいき</rt></ruby>",
     "<ruby>二<rt>ふた</rt></ruby>つの<ruby>表<rt>ひょう</rt></ruby>",
-    "<ruby>人<rt>ひと</rt></ruby>",
-    "<ruby>地域<rt>ちいき</rt></ruby>"
+    "<ruby>人<rt>ひと</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>で<ruby>分<rt>わ</rt></ruby>けると<ruby>相違<rt>そうい</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりますか。",
    "opciones": [
+    "<ruby>交流<rt>こうりゅう</rt></ruby>の<ruby>多<rt>おお</rt></ruby>さ",
+    "<ruby>地域<rt>ちいき</rt></ruby>",
     "<ruby>年<rt>とし</rt></ruby>",
-    "<ruby>性別<rt>せいべつ</rt></ruby>",
-    "<ruby>地域<rt>ちいき</rt></ruby>"
+    "<ruby>性別<rt>せいべつ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "だれに<ruby>確<rt>たし</rt></ruby>かめてもらいますか。",
    "opciones": [
-    "<ruby>自分<rt>じぶん</rt></ruby>",
+    "<ruby>先生<rt>せんせい</rt></ruby>",
+    "<ruby>資料<rt>しりょう</rt></ruby>を<ruby>送<rt>おく</rt></ruby>った<ruby>人<rt>ひと</rt></ruby>",
     "<ruby>友<rt>とも</rt></ruby>だち",
-    "<ruby>先生<rt>せんせい</rt></ruby>"
+    "<ruby>自分<rt>じぶん</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "I classified and compared the two tables. The figures look the same, but when you separate them by sex the difference is clear. The more exchange there is in an area, the smaller the gap. So as not to rush to conclusions, I decided to have the professor go over it. I wrote «please send it to me» and attached the documents."

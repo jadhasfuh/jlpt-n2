@@ -7,22 +7,22 @@
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どもたちが「もう<ruby>一<rt>いち</rt></ruby>かい」と<ruby>言<rt>い</rt></ruby>うのはなぜですか。",
    "opciones": [
-    "<ruby>勝<rt>か</rt></ruby>ったから",
-    "つよくなりたいから",
     "そのばで<ruby>終<rt>お</rt></ruby>わらせたくないから",
+    "つよくなりたいから",
+    "<ruby>勝<rt>か</rt></ruby>ったから",
     "<ruby>雨<rt>あめ</rt></ruby>だから"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
     "やめた",
+    "ルールをかえてみんなが<ruby>勝<rt>か</rt></ruby>てるようにした",
     "<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>い</rt></ruby>った",
-    "カードをすてた",
-    "ルールをかえてみんなが<ruby>勝<rt>か</rt></ruby>てるようにした"
+    "カードをすてた"
    ],
-   "correcta": 3
+   "correcta": 1
   }
  ],
  "traduccion_en": "On a rainy day I played cards with some children. When they lose, they immediately say «again». It isn't that they want to win: it seems they simply don't want it to end there. Since complaining is no use, I changed the rules a little so that everyone could win. Out of the cupboard came the card collection I put together years ago, and the time slipped by as I looked at those puzzling pictures. The games where counting wins and losses makes no sense are the ones that stay with you."

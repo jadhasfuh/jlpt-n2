@@ -7,32 +7,32 @@
   {
    "p": "<ruby>学校<rt>がっこう</rt></ruby>に クラスは いくつ ありますか。",
    "opciones": [
-    "<ruby>五<rt>いつ</rt></ruby>つ",
-    "<ruby>三<rt>みっ</rt></ruby>つ",
     "<ruby>十<rt>とお</rt></ruby>",
-    "<ruby>四<rt>し</rt></ruby>つ"
+    "<ruby>四<rt>し</rt></ruby>つ",
+    "<ruby>五<rt>いつ</rt></ruby>つ",
+    "<ruby>三<rt>みっ</rt></ruby>つ"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "いつ クラスが あがりましたか。",
    "opciones": [
     "さいしょの テスト",
-    "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>めの テスト",
+    "<ruby>三日<rt>みっか</rt></ruby>め",
     "<ruby>一年<rt>いちねん</rt></ruby>め",
-    "<ruby>三日<rt>みっか</rt></ruby>め"
+    "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>めの テスト"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "ジャンさんは どう しましたか。",
    "opciones": [
+    "おなじ クラスに のこりました",
     "あがりました",
     "やめました",
-    "おなじ クラスに のこりました",
     "<ruby>先<rt>さき</rt></ruby>に あがりました"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "The school has five classes. I started in the lowest one. In the third-month test I moved up to the next. Jean stayed where he was. «Next time it's my turn», he said, laughing. The walk down the corridor to the new classroom felt very long."

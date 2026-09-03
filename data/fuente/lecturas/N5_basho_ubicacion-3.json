@@ -7,32 +7,32 @@
   {
    "p": "コンビニまで どのくらい かかりますか。",
    "opciones": [
-    "あるいて にふん",
-    "<ruby>電車<rt>でんしゃ</rt></ruby>で じゅっぷん",
     "とても <ruby>遠<rt>とお</rt></ruby>いです",
-    "あるいて にじゅっぷん"
+    "あるいて にじゅっぷん",
+    "あるいて にふん",
+    "<ruby>電車<rt>でんしゃ</rt></ruby>で じゅっぷん"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "ジャンさんは どうして <ruby>遠<rt>とお</rt></ruby>い スーパーへ <ruby>行<rt>い</rt></ruby>きますか。",
    "opciones": [
     "<ruby>近<rt>ちか</rt></ruby>いから",
-    "やすいから",
+    "あたらしいから",
     "きれいだから",
-    "あたらしいから"
+    "やすいから"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "きのう、へやは どうして さむかったですか。",
    "opciones": [
-    "あめが ふったから",
-    "ストーブが ないから",
     "まどが <ruby>開<rt>あ</rt></ruby>いて いたから",
-    "ストーブを <ruby>点<rt>つ</rt></ruby>けなかったから"
+    "ストーブを <ruby>点<rt>つ</rt></ruby>けなかったから",
+    "あめが ふったから",
+    "ストーブが ないから"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "The convenience store is very close to the flat. On foot it's two minutes. But the cheap supermarket is far away. Jean says cheaper is better and always goes to the far one. I get home late at night, so I prefer the near one. Yesterday I went out and left the window open. When I got back the room was freezing and I had to put the heater on. I'm not doing that again."

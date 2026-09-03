@@ -7,32 +7,32 @@
   {
    "p": "ぼくたちの <ruby>前<rt>まえ</rt></ruby>に <ruby>出<rt>で</rt></ruby>たのは だれですか。",
    "opciones": [
-    "ダンスの グループ",
+    "ジャンの ギター",
     "アンナさん",
-    "<ruby>先生<rt>せんせい</rt></ruby>",
-    "ジャンの ギター"
+    "ダンスの グループ",
+    "<ruby>先生<rt>せんせい</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "アンナさんは なんと 言いましたか。",
    "opciones": [
     "「がんばって」",
-    "「だいじょうぶ」",
+    "てを にぎりました",
     "なにも",
-    "てを にぎりました"
+    "「だいじょうぶ」"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "なんきょく うたいましたか。",
    "opciones": [
-    "<ruby>五<rt>ご</rt></ruby>きょく",
-    "<ruby>一<rt>いっ</rt></ruby>きょく",
     "<ruby>三<rt>さん</rt></ruby>きょく",
-    "<ruby>二<rt>ふた</rt></ruby>きょく"
+    "<ruby>一<rt>いっ</rt></ruby>きょく",
+    "<ruby>二<rt>ふた</rt></ruby>きょく",
+    "<ruby>五<rt>ご</rt></ruby>きょく"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "On the day of the festival the classroom was packed. Before us a dance group performed. My hands went cold and I kept them in my pockets. Anna mouthed «you'll be fine» without a sound. The moment Jean started playing, I suddenly calmed down. We sang three songs. On the last one, everyone clapped."

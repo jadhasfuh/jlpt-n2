@@ -7,29 +7,32 @@
   {
    "p": "<ruby>初<rt>はじ</rt></ruby>めに<ruby>何<rt>なに</rt></ruby>をしますか。",
    "opciones": [
-    "<ruby>紙<rt>かみ</rt></ruby>を<ruby>出<rt>だ</rt></ruby>す",
+    "<ruby>待<rt>ま</rt></ruby>つ",
+    "<ruby>明<rt>あ</rt></ruby>くる<ruby>日<rt>ひ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つ",
     "<ruby>試験<rt>しけん</rt></ruby>を<ruby>受<rt>う</rt></ruby>ける",
-    "<ruby>待<rt>ま</rt></ruby>つ"
+    "<ruby>紙<rt>かみ</rt></ruby>を<ruby>出<rt>だ</rt></ruby>す"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>段階<rt>だんかい</rt></ruby>はいくつありますか。",
    "opciones": [
-    "<ruby>四<rt>よっ</rt></ruby>つ",
     "<ruby>三<rt>みっ</rt></ruby>つ",
-    "<ruby>二<rt>ふた</rt></ruby>つ"
+    "<ruby>一<rt>ひと</rt></ruby>つ",
+    "<ruby>二<rt>ふた</rt></ruby>つ",
+    "<ruby>四<rt>よっ</rt></ruby>つ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>友<rt>とも</rt></ruby>だちとはいつから<ruby>同<rt>おな</rt></ruby>じ<ruby>学級<rt>がっきゅう</rt></ruby>でしたか。",
    "opciones": [
+    "<ruby>登場<rt>とうじょう</rt></ruby>したとき",
+    "<ruby>小学生<rt>しょうがくせい</rt></ruby>のころ",
     "<ruby>去年<rt>きょねん</rt></ruby>",
-    "<ruby>今年<rt>ことし</rt></ruby>",
-    "<ruby>小学生<rt>しょうがくせい</rt></ruby>のころ"
+    "<ruby>今年<rt>ことし</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "To get into the advanced class there's an order of procedures. First you hand in a form and the next day you sit the exam. Apparently there are three levels. A friend who'd been in my class since primary school also turned up, and we both ended up applying on equal terms. The content is at a high level, but if you study it in sequence it'll go well."

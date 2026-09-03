@@ -7,22 +7,22 @@
   {
    "p": "けっきょく、どうしましたか。",
    "opciones": [
-    "<ruby>半分<rt>はんぶん</rt></ruby>だけ<ruby>残<rt>のこ</rt></ruby>し、のこりは<ruby>写真<rt>しゃしん</rt></ruby>にとった",
-    "<ruby>何<rt>なに</rt></ruby>もしなかった",
+    "ぜんぶ<ruby>持<rt>も</rt></ruby>っていった",
     "ぜんぶすてた",
-    "ぜんぶ<ruby>持<rt>も</rt></ruby>っていった"
+    "<ruby>何<rt>なに</rt></ruby>もしなかった",
+    "<ruby>半分<rt>はんぶん</rt></ruby>だけ<ruby>残<rt>のこ</rt></ruby>し、のこりは<ruby>写真<rt>しゃしん</rt></ruby>にとった"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>物<rt>もの</rt></ruby>をへらすことについて、どう<ruby>信<rt>しん</rt></ruby>じていますか。",
    "opciones": [
-    "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>を<ruby>諦<rt>あきら</rt></ruby>めることだ",
     "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>を<ruby>諦<rt>あきら</rt></ruby>めることではない",
+    "かんたんなことだ",
     "よくないことだ",
-    "かんたんなことだ"
+    "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>を<ruby>諦<rt>あきら</rt></ruby>めることだ"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "While I was stacking the boxes for the move, piled-up memories kept coming out. The books I studied with, the letters I'd kept. Taking it all with me weighed too much. But throwing it out felt too much of a shame. In the end I put only half back in the boxes and got rid of the rest after photographing it. I think that cutting down on things isn't giving up your memories. Even if they change shape, what matters is passed on just the same."

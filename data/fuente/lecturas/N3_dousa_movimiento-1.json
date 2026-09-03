@@ -8,21 +8,21 @@
    "p": "ボールがまっすぐ<ruby>飛<rt>と</rt></ruby>ばなかったのはなぜですか。",
    "opciones": [
     "ちからがないから",
-    "ボールがわるいから",
     "<ruby>足<rt>あし</rt></ruby>のどこに<ruby>当<rt>あ</rt></ruby>てるかで<ruby>方向<rt>ほうこう</rt></ruby>がちがうから",
+    "ボールがわるいから",
     "かぜのせい"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
     "つよく<ruby>蹴<rt>け</rt></ruby>るれんしゅう",
-    "<ruby>休<rt>やす</rt></ruby>んだ",
     "<ruby>試合<rt>しあい</rt></ruby>",
-    "まっすぐ<ruby>蹴<rt>け</rt></ruby>るれんしゅう"
+    "まっすぐ<ruby>蹴<rt>け</rt></ruby>るれんしゅう",
+    "<ruby>休<rt>やす</rt></ruby>んだ"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "The day I first played football, even when I hit the ball, it didn't go straight. Depending on which part of your foot you strike it with, the direction changes completely. If you don't learn the basics first, kicking hard is no use. For a month I only practised hitting it straight. I found it boring, but until you manage that you can't move on to the next thing. Now it goes where I aim."

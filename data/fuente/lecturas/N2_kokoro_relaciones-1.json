@@ -7,29 +7,32 @@
   {
    "p": "だれを<ruby>出迎<rt>でむか</rt></ruby>えましたか。",
    "opciones": [
-    "<ruby>親戚<rt>しんせき</rt></ruby>",
     "<ruby>友<rt>とも</rt></ruby>だち",
-    "<ruby>先生<rt>せんせい</rt></ruby>"
+    "<ruby>先生<rt>せんせい</rt></ruby>",
+    "<ruby>昔<rt>むかし</rt></ruby>の<ruby>友<rt>とも</rt></ruby>だち",
+    "<ruby>親戚<rt>しんせき</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どものころはどうでしたか。",
    "opciones": [
-    "<ruby>仲<rt>なか</rt></ruby>がよかった",
     "よくけんかをした",
-    "<ruby>会<rt>あ</rt></ruby>わなかった"
+    "<ruby>会<rt>あ</rt></ruby>わなかった",
+    "<ruby>繋<rt>つな</rt></ruby>がりを<ruby>大切<rt>たいせつ</rt></ruby>にしていた",
+    "<ruby>仲<rt>なか</rt></ruby>がよかった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "どこを<ruby>歩<rt>ある</rt></ruby>きましたか。",
    "opciones": [
     "<ruby>山<rt>やま</rt></ruby>",
-    "<ruby>町<rt>まち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>",
-    "<ruby>川<rt>かわ</rt></ruby>に<ruby>沿<rt>そ</rt></ruby>って"
+    "<ruby>川<rt>かわ</rt></ruby>に<ruby>沿<rt>そ</rt></ruby>って",
+    "<ruby>駅<rt>えき</rt></ruby>の<ruby>中<rt>なか</rt></ruby>",
+    "<ruby>町<rt>まち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "I went to the station to meet relatives I hadn't seen for a long time. As children we often fought, but now we look after the bond. Depending on what suited them, I changed the plans several times. Walking along the river, we laughed as we answered one another's old stories. As we said goodbye, we arranged to meet next year."

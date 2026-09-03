@@ -7,22 +7,22 @@
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どもの<ruby>作文<rt>さくぶん</rt></ruby>には、<ruby>何<rt>なに</rt></ruby>のくべつがついていませんでしたか。",
    "opciones": [
-    "<ruby>目的<rt>もくてき</rt></ruby>と<ruby>願<rt>ねが</rt></ruby>い",
+    "<ruby>仕事<rt>しごと</rt></ruby>と<ruby>趣味<rt>しゅみ</rt></ruby>",
     "<ruby>理想<rt>りそう</rt></ruby>と<ruby>現実<rt>げんじつ</rt></ruby>",
     "<ruby>現在<rt>げんざい</rt></ruby>と<ruby>将来<rt>しょうらい</rt></ruby>",
-    "<ruby>仕事<rt>しごと</rt></ruby>と<ruby>趣味<rt>しゅみ</rt></ruby>"
+    "<ruby>目的<rt>もくてき</rt></ruby>と<ruby>願<rt>ねが</rt></ruby>い"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "まわり<ruby>道<rt>みち</rt></ruby>について、どう<ruby>思<rt>おも</rt></ruby>っていますか。",
    "opciones": [
-    "むだだった",
     "そのぶん<ruby>考<rt>かんが</rt></ruby>えがふかくなった",
-    "こうかいしている",
-    "はやかった"
+    "むだだった",
+    "はやかった",
+    "こうかいしている"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "As a child I wrote an essay about my ideal future. Rereading it now, I see I didn't distinguish between a goal and a wish. «I want to be famous» is a wish; «what I want to create» is a goal. I wish I'd realised sooner. I wish I'd found something to give myself to sooner. But to the same extent that I took detours, my ideas grew deeper. It isn't a path I chose on purpose, but it's the one I want now."

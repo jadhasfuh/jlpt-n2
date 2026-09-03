@@ -7,22 +7,22 @@
   {
    "p": "ふるいものをすてるりょうはどうなっていますか。",
    "opciones": [
-    "<ruby>増<rt>ふ</rt></ruby>える<ruby>一方<rt>いっぽう</rt></ruby>だ",
     "へっている",
-    "<ruby>分<rt>わ</rt></ruby>からない",
-    "かわらない"
+    "かわらない",
+    "<ruby>増<rt>ふ</rt></ruby>える<ruby>一方<rt>いっぽう</rt></ruby>だ",
+    "<ruby>分<rt>わ</rt></ruby>からない"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "きょうからできることは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
     "ぜんぶ<ruby>変<rt>か</rt></ruby>える",
-    "こわれたら<ruby>直<rt>なお</rt></ruby>し、<ruby>使<rt>つか</rt></ruby>わないときは<ruby>電気<rt>でんき</rt></ruby>を<ruby>切<rt>き</rt></ruby>る",
+    "<ruby>何<rt>なに</rt></ruby>もしない",
     "あたらしいものを<ruby>買<rt>か</rt></ruby>う",
-    "<ruby>何<rt>なに</rt></ruby>もしない"
+    "こわれたら<ruby>直<rt>なお</rt></ruby>し、<ruby>使<rt>つか</rt></ruby>わないときは<ruby>電気<rt>でんき</rt></ruby>を<ruby>切<rt>き</rt></ruby>る"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "The appeal of new electronic devices is easy to understand. They're light, fast and do more and more things. But the amount of old devices thrown away keeps growing. The pollution of the land and the water advances where it isn't seen. One person alone can't change everything. Even so: if it breaks, repair it; if it isn't in use, switch it off. That much can be started today. Convenience and responsibility always come together."

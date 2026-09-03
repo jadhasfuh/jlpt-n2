@@ -7,22 +7,22 @@
   {
    "p": "<ruby>機械<rt>きかい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>のために<ruby>動<rt>うご</rt></ruby>いていますか。",
    "opciones": [
-    "<ruby>人<rt>ひと</rt></ruby>を<ruby>見<rt>み</rt></ruby>るため",
     "<ruby>紙<rt>かみ</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶため",
     "<ruby>温度<rt>おんど</rt></ruby>と<ruby>湿度<rt>しつど</rt></ruby>を<ruby>維持<rt>いじ</rt></ruby>するため",
+    "<ruby>人<rt>ひと</rt></ruby>を<ruby>見<rt>み</rt></ruby>るため",
     "<ruby>建物<rt>たてもの</rt></ruby>をまもるため"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "<ruby>静<rt>しず</rt></ruby>かさ<em class=\"g\">に慣れる</em>と、<ruby>何<rt>なに</rt></ruby>がわかってきますか。",
    "opciones": [
     "<ruby>仕事<rt>しごと</rt></ruby>がたんじゅんなこと",
-    "<ruby>資料<rt>しりょう</rt></ruby>の<ruby>数<rt>かず</rt></ruby>",
     "<ruby>機械<rt>きかい</rt></ruby>のしくみ",
-    "<ruby>百年<rt>ひゃくねん</rt></ruby><ruby>先<rt>さき</rt></ruby>に<ruby>渡<rt>わた</rt></ruby>す<ruby>意味<rt>いみ</rt></ruby>"
+    "<ruby>百年<rt>ひゃくねん</rt></ruby><ruby>先<rt>さき</rt></ruby>に<ruby>渡<rt>わた</rt></ruby>す<ruby>意味<rt>いみ</rt></ruby>",
+    "<ruby>資料<rt>しりょう</rt></ruby>の<ruby>数<rt>かず</rt></ruby>"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "In the basement of the library old documents are kept. To keep the temperature and humidity constant, the machines run all year round. When they have to be moved to another building, they're carried sheet by sheet so the paper doesn't tear. In a basement where nobody is even watching, someone has gone on doing this work. At first it looked like a simple task, but once you get used to that silence, you begin to understand what it means to hand something on to someone a hundred years from now."

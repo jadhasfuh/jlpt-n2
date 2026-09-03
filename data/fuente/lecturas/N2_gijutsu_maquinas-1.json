@@ -9,7 +9,8 @@
    "opciones": [
     "クーラー",
     "<ruby>算盤<rt>そろばん</rt></ruby>",
-    "<ruby>顕微鏡<rt>けんびきょう</rt></ruby>"
+    "<ruby>顕微鏡<rt>けんびきょう</rt></ruby>",
+    "<ruby>望遠鏡<rt>ぼうえんきょう</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>外<rt>そと</rt></ruby>へ<ruby>出<rt>で</rt></ruby>る",
     "<ruby>扇子<rt>せんす</rt></ruby>で<ruby>扇<rt>あお</rt></ruby>ぐ",
-    "<ruby>窓<rt>まど</rt></ruby>を<ruby>開<rt>あ</rt></ruby>ける"
+    "<ruby>窓<rt>まど</rt></ruby>を<ruby>開<rt>あ</rt></ruby>ける",
+    "クーラーをつける"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>父<rt>ちち</rt></ruby>",
     "<ruby>店<rt>みせ</rt></ruby>",
-    "<ruby>祖父<rt>そふ</rt></ruby>"
+    "<ruby>祖父<rt>そふ</rt></ruby>",
+    "<ruby>祖父<rt>そふ</rt></ruby>の<ruby>父<rt>ちち</rt></ruby>"
    ],
    "correcta": 2
   }

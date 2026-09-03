@@ -7,22 +7,22 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>去年<rt>きょねん</rt></ruby>の<ruby>夏<rt>なつ</rt></ruby>のあと、<ruby>山<rt>やま</rt></ruby>に<ruby>行<rt>い</rt></ruby>きましたか。",
    "opciones": [
-    "<ruby>一度<rt>いちど</rt></ruby>も<ruby>行<rt>い</rt></ruby>っていない",
     "<ruby>何度<rt>なんど</rt></ruby>も<ruby>行<rt>い</rt></ruby>った",
     "<ruby>冬<rt>ふゆ</rt></ruby>に<ruby>行<rt>い</rt></ruby>った",
-    "<ruby>毎月<rt>まいつき</rt></ruby><ruby>行<rt>い</rt></ruby>っている"
+    "<ruby>毎月<rt>まいつき</rt></ruby><ruby>行<rt>い</rt></ruby>っている",
+    "<ruby>一度<rt>いちど</rt></ruby>も<ruby>行<rt>い</rt></ruby>っていない"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>谷<rt>たに</rt></ruby>をすぎると、<ruby>土地<rt>とち</rt></ruby>はどうなりましたか。",
    "opciones": [
-    "<ruby>高<rt>たか</rt></ruby>くなった",
     "<ruby>急<rt>きゅう</rt></ruby>に<ruby>平<rt>たい</rt></ruby>らになった",
     "<ruby>砂漠<rt>さばく</rt></ruby>になった",
-    "<ruby>海<rt>うみ</rt></ruby>になった"
+    "<ruby>海<rt>うみ</rt></ruby>になった",
+    "<ruby>高<rt>たか</rt></ruby>くなった"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "Since I climbed a mountain last summer I haven't been back. I still sometimes remember the path I walked that day. Going down along the valley, there was an enormous rock planted in the middle of the river. Past that point the terrain suddenly flattens out and the fields stretch away into the distance. On the far side of the plain the vegetable plots were lined up, and you could see a gate made of nothing but a stake driven into the ground. It's a plain landscape. In a photo it probably wouldn't look like anything. But even in an empty place like a desert there's a pleasure you only understand by walking. The feet remember it far better than going round the school yard."

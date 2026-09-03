@@ -7,29 +7,32 @@
   {
    "p": "<ruby>列<rt>れつ</rt></ruby>はどうでしたか。",
    "opciones": [
+    "<ruby>短<rt>みじか</rt></ruby>い",
     "のろのろ<ruby>進<rt>すす</rt></ruby>む",
     "<ruby>速<rt>はや</rt></ruby>い",
-    "<ruby>短<rt>みじか</rt></ruby>い"
+    "ぎっしり<ruby>並<rt>なら</rt></ruby>んで<ruby>速<rt>はや</rt></ruby>い"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>はどうでしたか。",
    "opciones": [
     "<ruby>怒<rt>おこ</rt></ruby>っていた",
+    "いなかった",
     "にこにこしていた",
-    "いなかった"
+    "まごまごしていた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>ると<ruby>空<rt>そら</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>雨<rt>あめ</rt></ruby>",
     "<ruby>暗<rt>くら</rt></ruby>い",
+    "<ruby>雨<rt>あめ</rt></ruby>",
+    "<ruby>広々<rt>ひろびろ</rt></ruby>として<ruby>暗<rt>くら</rt></ruby>い",
     "ぴかぴか"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "In front of the counter people were packed together in a queue. It moved only extremely slowly and some were in a complete muddle. The clerk served with a smile and answered clearly. Just before it was my turn, someone was trying to sneak in. Since you can't just stand there complaining, I got my business done quickly. On the way out, the sky was gleaming and looked enormous."

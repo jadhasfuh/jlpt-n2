@@ -7,29 +7,32 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>いに<ruby>行<rt>い</rt></ruby>きましたか。",
    "opciones": [
+    "<ruby>掃除<rt>そうじ</rt></ruby>",
     "<ruby>田植<rt>たう</rt></ruby>え",
     "<ruby>料理<rt>りょうり</rt></ruby>",
-    "<ruby>掃除<rt>そうじ</rt></ruby>"
-   ],
-   "correcta": 0
-  },
-  {
-   "p": "おやつは<ruby>何<rt>なに</rt></ruby>でしたか。",
-   "opciones": [
-    "<ruby>刺身<rt>さしみ</rt></ruby>",
-    "<ruby>干<rt>ほ</rt></ruby>した<ruby>果実<rt>かじつ</rt></ruby>",
-    "<ruby>餅<rt>もち</rt></ruby>"
+    "<ruby>刺身<rt>さしみ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>りに"
    ],
    "correcta": 1
   },
   {
-   "p": "<ruby>夜<rt>よる</rt></ruby>は<ruby>何<rt>なに</rt></ruby>で<ruby>乾杯<rt>かんぱい</rt></ruby>しましたか。",
+   "p": "おやつは<ruby>何<rt>なに</rt></ruby>でしたか。",
    "opciones": [
-    "お<ruby>茶<rt>ちゃ</rt></ruby>",
-    "おやつ",
-    "<ruby>刺身<rt>さしみ</rt></ruby>"
+    "<ruby>餅<rt>もち</rt></ruby>",
+    "<ruby>刺身<rt>さしみ</rt></ruby>",
+    "<ruby>干<rt>ほ</rt></ruby>した<ruby>果実<rt>かじつ</rt></ruby>",
+    "<ruby>湯飲<rt>ゆの</rt></ruby>みのお<ruby>茶<rt>ちゃ</rt></ruby>"
    ],
    "correcta": 2
+  },
+  {
+   "p": "<ruby>夜<rt>よる</rt></ruby>は<ruby>何<rt>なに</rt></ruby>で<ruby>乾杯<rt>かんぱい</rt></ruby>しましたか。",
+   "opciones": [
+    "おやつ",
+    "お<ruby>茶<rt>ちゃ</rt></ruby>",
+    "<ruby>餅<rt>もち</rt></ruby>",
+    "<ruby>刺身<rt>さしみ</rt></ruby>"
+   ],
+   "correcta": 3
   }
  ],
  "traduccion_en": "I went to my grandmother's house to help with the rice planting. In the morning we grilled rice cakes and drank tea from cups. Of what's called «clothing, food and shelter», what's looked after most here is the food. For a snack they brought out dried fruit, large-grained and sweet. What's more, in the evening we toasted with sashimi. I got carried away and ate too much, and decided not to think about calories."

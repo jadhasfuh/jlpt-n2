@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>激増<rt>げきぞう</rt></ruby>した",
     "<ruby>減<rt>へ</rt></ruby>った",
-    "<ruby>同<rt>おな</rt></ruby>じだった"
+    "<ruby>同<rt>おな</rt></ruby>じだった",
+    "<ruby>所々<rt>ところどころ</rt></ruby>で<ruby>減<rt>へ</rt></ruby>った"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "なかった",
     "<ruby>大<rt>たい</rt></ruby>してなかった",
-    "とても<ruby>大<rt>おお</rt></ruby>きかった"
+    "とても<ruby>大<rt>おお</rt></ruby>きかった",
+    "<ruby>山<rt>やま</rt></ruby>だけ<ruby>大<rt>たい</rt></ruby>きかった"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>山<rt>やま</rt></ruby>だから",
     "<ruby>雨<rt>あめ</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから",
-    "<ruby>去年<rt>きょねん</rt></ruby>より<ruby>準備<rt>じゅんび</rt></ruby>したから"
+    "<ruby>去年<rt>きょねん</rt></ruby>より<ruby>準備<rt>じゅんび</rt></ruby>したから",
+    "<ruby>川<rt>かわ</rt></ruby>が<ruby>過剰<rt>かじょう</rt></ruby>だったから"
    ],
    "correcta": 2
   }

@@ -7,22 +7,22 @@
   {
    "p": "<ruby>祖父<rt>そふ</rt></ruby>はどんな<ruby>人<rt>ひと</rt></ruby>でしたか。",
    "opciones": [
-    "<ruby>生<rt>う</rt></ruby>まれてから<ruby>死<rt>し</rt></ruby>ぬまでこの<ruby>土地<rt>とち</rt></ruby>をはなれなかった",
     "いろいろな<ruby>場所<rt>ばしょ</rt></ruby>にすんだ",
+    "<ruby>歌<rt>うた</rt></ruby>が<ruby>下手<rt>へた</rt></ruby>だった",
     "しゃしんがきらいだった",
-    "<ruby>歌<rt>うた</rt></ruby>が<ruby>下手<rt>へた</rt></ruby>だった"
+    "<ruby>生<rt>う</rt></ruby>まれてから<ruby>死<rt>し</rt></ruby>ぬまでこの<ruby>土地<rt>とち</rt></ruby>をはなれなかった"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>祖父<rt>そふ</rt></ruby>の<ruby>目<rt>め</rt></ruby>をどう<ruby>見<rt>み</rt></ruby>ていますか。",
    "opciones": [
-    "せまい",
     "とても<ruby>広<rt>ひろ</rt></ruby>い",
-    "きびしい",
-    "つめたい"
+    "つめたい",
+    "せまい",
+    "きびしい"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "I went to visit my grandfather's grave. He's someone who never left this land from birth to death. Only one photo of him as a child remains. The children's song he sang back then he went on humming even as an old man. Because he spent his whole life in one place, some may think his world was narrow. But the gaze of someone who has watched people grow, on that same land, from children into adults, was very wide."

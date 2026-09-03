@@ -7,22 +7,22 @@
   {
    "p": "はじめの<ruby>頃<rt>ころ</rt></ruby>、みんなはどうでしたか。",
    "opciones": [
-    "こわがってさわらなかった",
+    "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだ",
     "よろこんだ",
     "すぐに<ruby>使<rt>つか</rt></ruby>った",
-    "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだ"
+    "こわがってさわらなかった"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "だれかは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
-    "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むべきだ",
     "のってしまえばはこんでくれる",
+    "<ruby>古<rt>ふる</rt></ruby>い<ruby>機械<rt>きかい</rt></ruby>がいい",
     "むずかしすぎる",
-    "<ruby>古<rt>ふる</rt></ruby>い<ruby>機械<rt>きかい</rt></ruby>がいい"
+    "<ruby>説明<rt>せつめい</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むべきだ"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "A new machine arrived at the office. At first we were all afraid of it and didn't touch it. The manual is thick and the technical vocabulary is difficult. After a month, someone said: «it's like an escalator: if you get on, it carries you». And it was exactly like that: using it turned out to be faster than learning how it's used."

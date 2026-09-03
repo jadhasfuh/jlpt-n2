@@ -7,22 +7,22 @@
   {
    "p": "なぜ、<ruby>電灯<rt>でんとう</rt></ruby>を<em class=\"g\">あまり</em>つけ<em class=\"g\">ない</em>ようにしていますか。",
    "opciones": [
-    "でんきだいにおどろいたから",
-    "<ruby>光<rt>ひかり</rt></ruby>がきらいだから",
     "カーテンがないから",
-    "<ruby>目<rt>め</rt></ruby>がいたいから"
+    "<ruby>目<rt>め</rt></ruby>がいたいから",
+    "<ruby>光<rt>ひかり</rt></ruby>がきらいだから",
+    "でんきだいにおどろいたから"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "よるについて、<ruby>何<rt>なに</rt></ruby>に<ruby>気<rt>き</rt></ruby>づきましたか。",
    "opciones": [
-    "あかるいほうがいい",
     "<ruby>力<rt>ちから</rt></ruby>のよわい<ruby>灯<rt>ひ</rt></ruby>のほうが<ruby>目<rt>め</rt></ruby>にやさしい",
-    "<ruby>冷房<rt>れいぼう</rt></ruby>がひつよう",
-    "でんきはいらない"
+    "あかるいほうがいい",
+    "でんきはいらない",
+    "<ruby>冷房<rt>れいぼう</rt></ruby>がひつよう"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "Over the summer I left the air conditioning on the whole time. When I saw the bill I got a fright. Since then I try not to put the lights on much during the day. If I open the curtains, natural light is more than bright enough. I also realised that at night a dim light tires the eyes less. Living without using much electricity isn't as uncomfortable as I thought."

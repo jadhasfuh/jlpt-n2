@@ -7,29 +7,32 @@
   {
    "p": "ロビーはどうでしたか。",
    "opciones": [
-    "<ruby>客<rt>きゃく</rt></ruby>がずらりと<ruby>並<rt>なら</rt></ruby>んでいた",
     "だれもいない",
-    "<ruby>静<rt>しず</rt></ruby>か"
+    "<ruby>工事<rt>こうじ</rt></ruby>の<ruby>音<rt>おと</rt></ruby>がしていた",
+    "<ruby>静<rt>しず</rt></ruby>か",
+    "<ruby>客<rt>きゃく</rt></ruby>がずらりと<ruby>並<rt>なら</rt></ruby>んでいた"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>外<rt>そと</rt></ruby>で<ruby>何<rt>なに</rt></ruby>が<ruby>鳴<rt>な</rt></ruby>りましたか。",
    "opciones": [
-    "ダイヤル",
     "サイレン",
+    "ダイヤル",
+    "あくび",
     "テンポ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "どうしてあくびが<ruby>出<rt>で</rt></ruby>ますか。",
    "opciones": [
-    "<ruby>寒<rt>さむ</rt></ruby>いから",
+    "サイレンがうるさいから",
+    "<ruby>眠<rt>ねむ</rt></ruby>れなかったから",
     "<ruby>退屈<rt>たいくつ</rt></ruby>だから",
-    "<ruby>眠<rt>ねむ</rt></ruby>れなかったから"
+    "<ruby>寒<rt>さむ</rt></ruby>いから"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "In the hotel lobby the guests were lined up in a queue. Outside a siren sounded and I hesitated over whether to go or not. I thought I'd at least get the tip ready and counted the coins. A person in a mask told me roughly what was going on. With the noise of the roadworks I couldn't sleep and since morning I haven't stopped yawning."

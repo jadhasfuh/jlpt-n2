@@ -7,22 +7,22 @@
   {
    "p": "いつ<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>夜<rt>よる</rt></ruby>になって",
     "すぐ",
+    "<ruby>夜<rt>よる</rt></ruby>になって",
     "<ruby>昨日<rt>きのう</rt></ruby>",
     "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>せなかった"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えましたか。",
    "opciones": [
+    "かおをわすれた",
     "もっと<ruby>探<rt>さが</rt></ruby>すべきだ",
     "<ruby>探<rt>さが</rt></ruby>すのをやめたころに<ruby>答<rt>こた</rt></ruby>えが<ruby>出<rt>で</rt></ruby>るのかな",
-    "なまえはたいせつでない",
-    "かおをわすれた"
+    "なまえはたいせつでない"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "I can't remember the name of the person I met yesterday. It's odd, because I remember their face perfectly. Could it be that the names you thought impossible to forget are precisely the ones that won't come? I was thinking about other things without paying it any mind and, when evening came, it came to me all at once. I wonder whether the head gives you the answer just when you stop looking for it. From now on, shall I try to stop straining to remember?"

@@ -7,22 +7,22 @@
   {
    "p": "トンネルの<ruby>中<rt>なか</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かった",
     "<ruby>明<rt>あか</rt></ruby>るくてきれいだった",
     "<ruby>暗<rt>くら</rt></ruby>くて<ruby>足<rt>あし</rt></ruby>もとが<ruby>泥<rt>どろ</rt></ruby>だった",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かった",
     "<ruby>短<rt>みじか</rt></ruby>かった"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>たあと、<ruby>人<rt>ひと</rt></ruby>たちは<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
-    "<ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby>た",
     "すぐに<ruby>帰<rt>かえ</rt></ruby>った",
-    "<ruby>写真<rt>しゃしん</rt></ruby>をとった",
-    "わらいながらパンを<ruby>分<rt>わ</rt></ruby>けた"
+    "<ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby>た",
+    "わらいながらパンを<ruby>分<rt>わ</rt></ruby>けた",
+    "<ruby>写真<rt>しゃしん</rt></ruby>をとった"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "It was the day I walked through a very long tunnel. Inside it was dark, the floor was mud and there were several holes in the walls. When I saw the light of the exit, sweat was running down my back. However much you look at the map, you never find out how long it is inside. Coming out, there were people waiting in a line. We laughed at one another for the state we were in and shared out a bundle of bread. It's curious how humour appears on tired faces. I still keep that stretch of time in my memory like a treasure."

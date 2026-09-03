@@ -7,29 +7,32 @@
   {
    "p": "どうして<ruby>寝<rt>ね</rt></ruby>ていませんか。",
    "opciones": [
+    "<ruby>出張<rt>しゅっちょう</rt></ruby>だから",
+    "<ruby>階段<rt>かいだん</rt></ruby>でつまずいたから",
     "<ruby>送別<rt>そうべつ</rt></ruby>の<ruby>会<rt>かい</rt></ruby>があったから",
-    "<ruby>工場<rt>こうじょう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>ったから",
-    "<ruby>出張<rt>しゅっちょう</rt></ruby>だから"
+    "<ruby>工場<rt>こうじょう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>ったから"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>駅<rt>えき</rt></ruby>へ<ruby>急<rt>いそ</rt></ruby>ぐとき、<ruby>何<rt>なに</rt></ruby>がありましたか。",
    "opciones": [
+    "<ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>った",
     "<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れた",
-    "<ruby>階段<rt>かいだん</rt></ruby>でつまずいた",
-    "<ruby>道<rt>みち</rt></ruby>に<ruby>迷<rt>まよ</rt></ruby>った"
+    "<ruby>仲間<rt>なかま</rt></ruby>が<ruby>出迎<rt>でむか</rt></ruby>えてくれた",
+    "<ruby>階段<rt>かいだん</rt></ruby>でつまずいた"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "<ruby>見学<rt>けんがく</rt></ruby>は<ruby>何日<rt>なんにち</rt></ruby>でしたか。",
    "opciones": [
+    "<ruby>日帰<rt>ひがえ</rt></ruby>り",
+    "<ruby>夜<rt>よる</rt></ruby>まで",
     "<ruby>二日<rt>ふつか</rt></ruby>",
-    "<ruby>一週間<rt>いっしゅうかん</rt></ruby>",
-    "<ruby>日帰<rt>ひがえ</rt></ruby>り"
+    "<ruby>一週間<rt>いっしゅうかん</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "Yesterday the farewell dinner ran late and I've hardly slept. I was heading for the station checking the itinerary and tripped on the stairs. Even so, my colleagues came out to meet me and I was grateful. The factory visit was a day trip there and back, and in the evening I was able to get home. My mother said to me: «welcome back»."

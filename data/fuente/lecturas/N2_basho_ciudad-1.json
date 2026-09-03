@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>役所<rt>やくしょ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>",
     "<ruby>書店<rt>しょてん</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>",
-    "<ruby>消防署<rt>しょうぼうしょ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>"
+    "<ruby>消防署<rt>しょうぼうしょ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>寺院<rt>じいん</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>本<rt>ほん</rt></ruby>を<ruby>買<rt>か</rt></ruby>った",
     "<ruby>お参<rt>おまい</rt></ruby>りをした",
-    "<ruby>友<rt>とも</rt></ruby>だちを<ruby>待<rt>ま</rt></ruby>った"
+    "<ruby>友<rt>とも</rt></ruby>だちを<ruby>待<rt>ま</rt></ruby>った",
+    "<ruby>踏切<rt>ふみきり</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>った"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>広場<rt>ひろば</rt></ruby>",
     "<ruby>農村<rt>のうそん</rt></ruby>",
-    "<ruby>遊園地<rt>ゆうえんち</rt></ruby>"
+    "<ruby>遊園地<rt>ゆうえんち</rt></ruby>",
+    "<ruby>寺院<rt>じいん</rt></ruby>"
    ],
    "correcta": 2
   }

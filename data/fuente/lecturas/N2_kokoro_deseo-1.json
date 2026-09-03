@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>欲張<rt>よくば</rt></ruby>りだった",
     "<ruby>小<rt>ちい</rt></ruby>さかった",
-    "なかった"
+    "なかった",
+    "<ruby>友<rt>とも</rt></ruby>だちの<ruby>希望<rt>きぼう</rt></ruby>どおりだった"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>一<rt>ひと</rt></ruby>つ",
     "<ruby>二<rt>ふた</rt></ruby>つ",
-    "<ruby>三<rt>みっ</rt></ruby>つ"
+    "<ruby>三<rt>みっ</rt></ruby>つ",
+    "<ruby>一<rt>ひと</rt></ruby>つも<ruby>減<rt>へ</rt></ruby>らさなかった"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>地図<rt>ちず</rt></ruby>",
     "<ruby>友<rt>とも</rt></ruby>だちの<ruby>話<rt>はなし</rt></ruby>",
-    "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby>"
+    "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby>",
+    "<ruby>友<rt>とも</rt></ruby>だちの<ruby>希望<rt>きぼう</rt></ruby>"
    ],
    "correcta": 2
   }

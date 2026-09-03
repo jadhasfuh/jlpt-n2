@@ -7,32 +7,32 @@
   {
    "p": "ミンさんは <ruby>来年<rt>らいねん</rt></ruby> なにを したいですか。",
    "opciones": [
-    "<ruby>会社<rt>かいしゃ</rt></ruby>で はたらきたい",
-    "<ruby>国<rt>くに</rt></ruby>へ かえりたい",
     "<ruby>学校<rt>がっこう</rt></ruby>を つづけたい",
-    "<ruby>日本語<rt>にほんご</rt></ruby>の しけんを うけたい"
+    "<ruby>日本語<rt>にほんご</rt></ruby>の しけんを うけたい",
+    "<ruby>国<rt>くに</rt></ruby>へ かえりたい",
+    "<ruby>会社<rt>かいしゃ</rt></ruby>で はたらきたい"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "ビザを かえるには なにが ひつようですか。",
    "opciones": [
-    "おかね",
     "<ruby>日本語<rt>にほんご</rt></ruby>の しけん",
-    "<ruby>会社<rt>かいしゃ</rt></ruby>の てがみ",
-    "<ruby>三年<rt>さんねん</rt></ruby>の べんきょう"
+    "<ruby>三年<rt>さんねん</rt></ruby>の べんきょう",
+    "おかね",
+    "<ruby>会社<rt>かいしゃ</rt></ruby>の てがみ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "ミンさんは どのくらい かかりましたか。",
    "opciones": [
-    "<ruby>一年<rt>いちねん</rt></ruby>",
-    "<ruby>十年<rt>じゅうねん</rt></ruby>",
+    "<ruby>二<rt>に</rt></ruby><ruby>年<rt>とし</rt></ruby>",
     "<ruby>三年<rt>さんねん</rt></ruby>",
-    "<ruby>二<rt>に</rt></ruby><ruby>年<rt>とし</rt></ruby>"
+    "<ruby>一年<rt>いちねん</rt></ruby>",
+    "<ruby>十年<rt>じゅうねん</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "Min says that next year he wants to work at a company. When school finishes he'll have to change his visa. «Without passing the Japanese exam it's impossible», he told me. It has taken him three years to get this far. I'm only in my first. Listening to him, I thought about what comes next for the first time."

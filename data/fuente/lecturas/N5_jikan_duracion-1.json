@@ -7,32 +7,32 @@
   {
    "p": "はじめの ひ、よじかんは どうでしたか。",
    "opciones": [
-    "とても ながかったです",
-    "みじかかったです",
     "たのしかったです",
-    "<ruby>速<rt>はや</rt></ruby>く すすみました"
+    "<ruby>速<rt>はや</rt></ruby>く すすみました",
+    "とても ながかったです",
+    "みじかかったです"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "ミンさんは なにを <ruby>教<rt>おし</rt></ruby>えて いますか。",
    "opciones": [
-    "<ruby>日本語<rt>にほんご</rt></ruby>",
-    "ピザの やき<ruby>方<rt>かた</rt></ruby>",
     "さらの あらい<ruby>方<rt>かた</rt></ruby>",
-    "みせの <ruby>人<rt>ひと</rt></ruby>の なまえ"
+    "みせの <ruby>人<rt>ひと</rt></ruby>の なまえ",
+    "<ruby>日本語<rt>にほんご</rt></ruby>",
+    "ピザの やき<ruby>方<rt>かた</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "カルロスさんの せんぱいは だれですか。",
    "opciones": [
-    "ゴンサ",
-    "てんちょう",
     "ミンさん",
-    "みせの <ruby>人<rt>ひと</rt></ruby>たち"
+    "てんちょう",
+    "みせの <ruby>人<rt>ひと</rt></ruby>たち",
+    "ゴンサ"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "Once you get used to the work, time goes fast. On the first day, four hours felt endless. Now, before I know it, it's time to leave. Min is also teaching me how to bake the pizzas. «My senpai are the people in this shop», Min told me. Mine is Min."

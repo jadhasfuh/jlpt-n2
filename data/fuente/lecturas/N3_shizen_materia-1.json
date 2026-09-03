@@ -7,22 +7,22 @@
   {
    "p": "<ruby>火災<rt>かさい</rt></ruby>のとき、いちばんあぶないものは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>煙<rt>けむり</rt></ruby>",
     "<ruby>炎<rt>ほのお</rt></ruby>",
     "<ruby>石炭<rt>せきたん</rt></ruby>",
-    "<ruby>金属<rt>きんぞく</rt></ruby>"
+    "<ruby>金属<rt>きんぞく</rt></ruby>",
+    "<ruby>煙<rt>けむり</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>鉄<rt>てつ</rt></ruby>とプラスチックのようすがちがうのは、なぜですか。",
    "opciones": [
-    "<ruby>値段<rt>ねだん</rt></ruby>がちがうから",
     "<ruby>中<rt>なか</rt></ruby>の<ruby>要素<rt>ようそ</rt></ruby>の<ruby>構成<rt>こうせい</rt></ruby>がちがうから",
     "<ruby>作<rt>つく</rt></ruby>った<ruby>国<rt>くに</rt></ruby>がちがうから",
-    "<ruby>大<rt>おお</rt></ruby>きさがちがうから"
+    "<ruby>大<rt>おお</rt></ruby>きさがちがうから",
+    "<ruby>値段<rt>ねだん</rt></ruby>がちがうから"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "To write a paper on materials I'm comparing metals with plastic. Iron is heavy and strong; plastic is light, but weak against heat. Although they look alike, the composition of the elements inside them is different. That's why they also burn differently. Burning coal gives off thick smoke, and the flame goes out when the oxygen runs out. According to a firefighter I spoke to, in a fire the most dangerous thing isn't the flame but the smoke. I copied a few concrete figures into my notebook. The text has come out as stiff as an exam, but the content has to be right. Knowing about materials is also knowing how the world is made."

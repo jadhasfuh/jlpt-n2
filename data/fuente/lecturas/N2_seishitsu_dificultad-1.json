@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>自転車<rt>じてんしゃ</rt></ruby>",
     "<ruby>時計<rt>とけい</rt></ruby>",
-    "<ruby>机<rt>つくえ</rt></ruby>"
+    "<ruby>机<rt>つくえ</rt></ruby>",
+    "<ruby>部品<rt>ぶひん</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>高<rt>たか</rt></ruby>いから",
     "<ruby>部品<rt>ぶひん</rt></ruby>が<ruby>小<rt>ちい</rt></ruby>さいから",
-    "<ruby>重<rt>おも</rt></ruby>いから"
+    "<ruby>重<rt>おも</rt></ruby>いから",
+    "<ruby>説明書<rt>せつめいしょ</rt></ruby>が<ruby>長<rt>なが</rt></ruby>いから"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>二時間<rt>にじかん</rt></ruby>",
     "<ruby>一日<rt>いちにち</rt></ruby>",
-    "<ruby>十分<rt>じゅっぷん</rt></ruby>"
+    "<ruby>十分<rt>じゅっぷん</rt></ruby>",
+    "<ruby>二時間<rt>にじかん</rt></ruby>と<ruby>十分<rt>じゅっぷん</rt></ruby>"
    ],
    "correcta": 2
   }

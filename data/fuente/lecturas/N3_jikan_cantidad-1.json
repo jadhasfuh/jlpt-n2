@@ -7,22 +7,22 @@
   {
    "p": "<ruby>数字<rt>すうじ</rt></ruby>にならないものは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "パーセント",
     "<ruby>率<rt>りつ</rt></ruby>",
     "しずかに<ruby>手<rt>て</rt></ruby>つだった<ruby>時間<rt>じかん</rt></ruby>",
+    "パーセント",
     "<ruby>図<rt>ず</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "まわりは<ruby>何<rt>なに</rt></ruby>を<ruby>見<rt>み</rt></ruby>ていますか。",
    "opciones": [
-    "<ruby>無理<rt>むり</rt></ruby>",
-    "けっか",
     "<ruby>数字<rt>すうじ</rt></ruby>だけ",
-    "はじめから<ruby>終<rt>お</rt></ruby>わりまでやり<em class=\"g\">通す</em><ruby>人<rt>ひと</rt></ruby>"
+    "けっか",
+    "はじめから<ruby>終<rt>お</rt></ruby>わりまでやり<em class=\"g\">通す</em><ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>無理<rt>むり</rt></ruby>"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "Work results are usually expressed in figures. Percentages and rates line up in graphs. But what matters most doesn't always appear there. The time someone quietly lent a hand, or the will someone managed not to lose, doesn't turn into numbers. Even so, the people around do see whoever carries things through to the end. Not everything can be counted, but I don't forget whoever held on, pushing things a little, to keep the work going."

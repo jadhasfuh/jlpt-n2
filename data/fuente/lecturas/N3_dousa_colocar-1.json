@@ -7,22 +7,22 @@
   {
    "p": "コードをすてたのはなぜですか。",
    "opciones": [
-    "<ruby>繋<rt>つな</rt></ruby>げてもいい<ruby>相手<rt>あいて</rt></ruby>がないから",
-    "<ruby>隠<rt>かく</rt></ruby>れていたから",
     "<ruby>古<rt>ふる</rt></ruby>いから",
-    "<ruby>溜<rt>た</rt></ruby>まっていたから"
+    "<ruby>隠<rt>かく</rt></ruby>れていたから",
+    "<ruby>溜<rt>た</rt></ruby>まっていたから",
+    "<ruby>繋<rt>つな</rt></ruby>げてもいい<ruby>相手<rt>あいて</rt></ruby>がないから"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "ねじについて、どうしましたか。",
    "opciones": [
-    "すてた",
     "ちいさな<ruby>箱<rt>はこ</rt></ruby>にまとめて<ruby>残<rt>のこ</rt></ruby>した",
+    "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>した",
     "<ruby>組<rt>く</rt></ruby>んだ",
-    "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>した"
+    "すてた"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "In the kitchen drawer small things had been piling up. Scissors, string, unused cables. It was all mixed together and it took a while to find anything. I plaited the string to keep it together and, since the cables had nothing to connect to, I decided to throw them out. As for the screws hidden at the back, there's no way of remembering where they came from. But isn't it precisely these things that you need the day after throwing them out? In the end I gathered them all into a little box and put them away."

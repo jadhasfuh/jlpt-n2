@@ -7,22 +7,22 @@
   {
    "p": "あまった<ruby>野菜<rt>やさい</rt></ruby>をどうしましたか。",
    "opciones": [
-    "<ruby>蒸<rt>む</rt></ruby>しておいた",
-    "そのままおいた",
     "すてた",
-    "あげた"
+    "そのままおいた",
+    "あげた",
+    "<ruby>蒸<rt>む</rt></ruby>しておいた"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "いいざいりょうについて、どう<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "たくさん<ruby>手<rt>て</rt></ruby>を<ruby>加<rt>くわ</rt></ruby>えるべきだ",
     "あまり<ruby>手<rt>て</rt></ruby>を<ruby>加<rt>くわ</rt></ruby>えないほうがいい",
-    "<ruby>塩<rt>しお</rt></ruby>をたくさん<ruby>使<rt>つか</rt></ruby>う",
-    "すぐ<ruby>食<rt>た</rt></ruby>べるべきだ"
+    "すぐ<ruby>食<rt>た</rt></ruby>べるべきだ",
+    "たくさん<ruby>手<rt>て</rt></ruby>を<ruby>加<rt>くわ</rt></ruby>えるべきだ",
+    "<ruby>塩<rt>しお</rt></ruby>をたくさん<ruby>使<rt>つか</rt></ruby>う"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "On the day of the festival a neighbour gave me some vegetables. Freshly picked and beautifully fresh. I boiled them straight away and left what was left over to steam. While that was going, I chopped the rest and put it in the fridge. Doing this stops them going off. Adding salt to taste is enough for the flavour. That is: good ingredients are best not handled too much. The dish where I only plated it up was the tastiest of that day."

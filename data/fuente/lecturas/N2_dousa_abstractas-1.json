@@ -7,29 +7,32 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>解散<rt>かいさん</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>私立<rt>しりつ</rt></ruby>の<ruby>学校<rt>がっこう</rt></ruby>の<ruby>会<rt>かい</rt></ruby>",
     "<ruby>組合<rt>くみあい</rt></ruby>",
-    "<ruby>会社<rt>かいしゃ</rt></ruby>"
+    "<ruby>私立<rt>しりつ</rt></ruby>の<ruby>学校<rt>がっこう</rt></ruby>の<ruby>会<rt>かい</rt></ruby>",
+    "<ruby>会社<rt>かいしゃ</rt></ruby>",
+    "<ruby>先生<rt>せんせい</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>記録<rt>きろく</rt></ruby>をどうしましたか。",
    "opciones": [
     "<ruby>削除<rt>さくじょ</rt></ruby>した",
+    "<ruby>見<rt>み</rt></ruby>せずにしまった",
     "<ruby>貯蔵<rt>ちょぞう</rt></ruby>した",
     "<ruby>売<rt>う</rt></ruby>った"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "そのおかげで<ruby>何<rt>なに</rt></ruby>をしなくてよかったですか。",
    "opciones": [
-    "<ruby>縮小<rt>しゅくしょう</rt></ruby>すること",
+    "<ruby>記録<rt>きろく</rt></ruby>を<ruby>削除<rt>さくじょ</rt></ruby>すること",
     "<ruby>移転<rt>いてん</rt></ruby>すること",
+    "<ruby>縮小<rt>しゅくしょう</rt></ruby>すること",
     "<ruby>一<rt>いち</rt></ruby>から<ruby>作<rt>つく</rt></ruby>り<ruby>直<rt>なお</rt></ruby>すこと"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "Last year the club at the private school was disbanded. The move to another room and the reduction in size coincided. The teacher didn't delete the old records: he kept them all. Thanks to that we were spared redoing everything from scratch. The records of the achievements he showed us saying «look at this» are still there today."

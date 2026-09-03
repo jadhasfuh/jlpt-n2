@@ -7,29 +7,32 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>開通<rt>かいつう</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>新<rt>あたら</rt></ruby>しい<ruby>道<rt>みち</rt></ruby>",
+    "<ruby>駅<rt>えき</rt></ruby>",
+    "テープ",
     "<ruby>広場<rt>ひろば</rt></ruby>",
-    "<ruby>駅<rt>えき</rt></ruby>"
+    "<ruby>新<rt>あたら</rt></ruby>しい<ruby>道<rt>みち</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "テープを<ruby>切<rt>き</rt></ruby>るとすぐ<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>きましたか。",
    "opciones": [
-    "<ruby>人<rt>ひと</rt></ruby>が<ruby>帰<rt>かえ</rt></ruby>った",
     "<ruby>車<rt>くるま</rt></ruby>が<ruby>走<rt>はし</rt></ruby>り<ruby>出<rt>だ</rt></ruby>した",
-    "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>った"
+    "テープが<ruby>切<rt>き</rt></ruby>れなかった",
+    "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>った",
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>帰<rt>かえ</rt></ruby>った"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>町長<rt>ちょうちょう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>語<rt>かた</rt></ruby>りましたか。",
    "opciones": [
-    "<ruby>広場<rt>ひろば</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>",
     "<ruby>計画<rt>けいかく</rt></ruby>の<ruby>値段<rt>ねだん</rt></ruby>",
-    "<ruby>基礎<rt>きそ</rt></ruby>からやり<ruby>直<rt>なお</rt></ruby>した<ruby>苦労<rt>くろう</rt></ruby>"
+    "<ruby>基礎<rt>きそ</rt></ruby>からやり<ruby>直<rt>なお</rt></ruby>した<ruby>苦労<rt>くろう</rt></ruby>",
+    "<ruby>計画<rt>けいかく</rt></ruby>の<ruby>改正<rt>かいせい</rt></ruby>の<ruby>回数<rt>かいすう</rt></ruby>",
+    "<ruby>広場<rt>ひろば</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "The new road opened. The works dragged on and the plan was revised several times. The moment the ribbon was cut, the cars all set off at once. The square, now open to the public, was churned up by so many people, and empty boxes were floating about. On the occasion of the event, the mayor told us what it cost to redo everything from the foundations."

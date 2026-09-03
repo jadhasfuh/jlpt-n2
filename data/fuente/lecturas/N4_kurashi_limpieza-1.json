@@ -7,22 +7,22 @@
   {
    "p": "いちばんおおかったごみは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "やさい",
     "ふとん",
-    "ペットボトルとかみ",
-    "ベンチ"
+    "ベンチ",
+    "やさい",
+    "ペットボトルとかみ"
    ],
-   "correcta": 2
+   "correcta": 3
   },
   {
    "p": "なぜ、<ruby>子<rt>こ</rt></ruby>どもたちにも<ruby>手<rt>て</rt></ruby>つだっ<em class=\"g\">てほしい</em>のですか。",
    "opciones": [
-    "はやく<ruby>終<rt>お</rt></ruby>わるから",
+    "<ruby>自分<rt>じぶん</rt></ruby>できれいにした<ruby>場所<rt>ばしょ</rt></ruby>は<ruby>汚<rt>よご</rt></ruby>したくなくなるから",
     "<ruby>楽<rt>たの</rt></ruby>しいから",
     "<ruby>人<rt>ひと</rt></ruby>がたりないから",
-    "<ruby>自分<rt>じぶん</rt></ruby>できれいにした<ruby>場所<rt>ばしょ</rt></ruby>は<ruby>汚<rt>よご</rt></ruby>したくなくなるから"
+    "はやく<ruby>終<rt>お</rt></ruby>わるから"
    ],
-   "correcta": 3
+   "correcta": 0
   }
  ],
  "traduccion_en": "I took part in cleaning the park. We gathered early in the morning and picked up rubbish. What there is most of is plastic bottles and paper. When we cleaned the dirty benches they came out so well they didn't look the same. I'd like the children to lend a hand too. Because a place you've cleaned yourself is one you no longer feel like dirtying. We finished tidying in an hour. Next month we're doing it again, so I want more people to come."

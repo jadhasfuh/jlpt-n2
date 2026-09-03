@@ -7,22 +7,22 @@
   {
    "p": "なぜ、すぐに<ruby>直<rt>なお</rt></ruby>さなかったのですか。",
    "opciones": [
-    "<ruby>原因<rt>げんいん</rt></ruby>が<ruby>分<rt>わ</rt></ruby>からないままではまたとまるから",
     "<ruby>時間<rt>じかん</rt></ruby>がないから",
-    "<ruby>人<rt>ひと</rt></ruby>がたりないから",
-    "ぶひんがないから"
+    "<ruby>原因<rt>げんいん</rt></ruby>が<ruby>分<rt>わ</rt></ruby>からないままではまたとまるから",
+    "ぶひんがないから",
+    "<ruby>人<rt>ひと</rt></ruby>がたりないから"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "この<ruby>仕事<rt>しごと</rt></ruby>では<ruby>何<rt>なに</rt></ruby>がはやいと<ruby>言<rt>い</rt></ruby>われていますか。",
    "opciones": [
-    "けっかを<ruby>見<rt>み</rt></ruby>ること",
-    "<ruby>原因<rt>げんいん</rt></ruby>を<ruby>見<rt>み</rt></ruby>ること",
+    "みんなで<ruby>話<rt>はな</rt></ruby>すこと",
     "すぐ<ruby>直<rt>なお</rt></ruby>すこと",
-    "みんなで<ruby>話<rt>はな</rt></ruby>すこと"
+    "<ruby>原因<rt>げんいん</rt></ruby>を<ruby>見<rt>み</rt></ruby>ること",
+    "けっかを<ruby>見<rt>み</rt></ruby>ること"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "The machine stopped. I tried to fix it straight away, but they say that if you fix it without knowing the cause, it stops again. So I thought I'd first look into what had happened. We talked for an hour among us and found that a small part had worn out. In this trade they say that looking at the cause is faster than looking at the result. From now on I intend to learn to notice before it stops."

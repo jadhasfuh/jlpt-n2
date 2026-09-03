@@ -7,22 +7,22 @@
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どもを<ruby>見<rt>み</rt></ruby>て、どうしましたか。",
    "opciones": [
-    "わらってしまった",
     "おこった",
     "<ruby>洗<rt>あら</rt></ruby>った",
+    "わらってしまった",
     "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>本当<rt>ほんとう</rt></ruby>にきれいに<ruby>見<rt>み</rt></ruby>えるのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
     "<ruby>顔<rt>かお</rt></ruby>",
-    "<ruby>夢中<rt>むちゅう</rt></ruby>になっている<ruby>人<rt>ひと</rt></ruby>の<ruby>姿<rt>すがた</rt></ruby>",
     "<ruby>美人<rt>びじん</rt></ruby>",
-    "きれいな<ruby>手<rt>て</rt></ruby>"
+    "きれいな<ruby>手<rt>て</rt></ruby>",
+    "<ruby>夢中<rt>むちゅう</rt></ruby>になっている<ruby>人<rt>ひと</rt></ruby>の<ruby>姿<rt>すがた</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "My son came back covered in mud. His face and hands were dirty and he even had grass in his hair. I was going to tell him off, but seeing that sight I burst out laughing. Words like «pretty» or «handsome» refer only to the face, but what really looks beautiful is the sight of someone absorbed in what they're doing. That a craftsman with hands full of cuts and grease strikes us as beautiful is surely for the same reason."

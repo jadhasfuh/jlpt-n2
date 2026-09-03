@@ -7,32 +7,32 @@
   {
    "p": "けんたくんは なんさいに なりましたか。",
    "opciones": [
-    "じゅうさんさい",
-    "<ruby>十二<rt>じゅうに</rt></ruby>さい",
     "<ruby>二十歳<rt>はたち</rt></ruby>",
+    "<ruby>十二<rt>じゅうに</rt></ruby>さい",
+    "じゅうさんさい",
     "じゅうよんさい"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "けんたくんは なんと 言いましたか。",
    "opciones": [
     "サッカーを しよう",
-    "<ruby>二十歳<rt>はたち</rt></ruby>に なったら いっしょに のもう",
     "メキシコへ <ruby>行<rt>い</rt></ruby>きたい",
-    "ななねん まって ください"
+    "ななねん まって ください",
+    "<ruby>二十歳<rt>はたち</rt></ruby>に なったら いっしょに のもう"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "パーティーは どこで しましたか。",
    "opciones": [
-    "こうえん",
-    "<ruby>学校<rt>がっこう</rt></ruby>",
     "たなかさんの <ruby>家<rt>いえ</rt></ruby>",
+    "<ruby>学校<rt>がっこう</rt></ruby>",
+    "こうえん",
     "けんたくんの <ruby>家<rt>いえ</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "Kenta has turned thirteen. We had a small party at Mrs Tanaka's house. Children grow up fast, she said. «When I turn twenty, we'll have a drink together», said Kenta. We all laughed. There are still seven years to go. I wonder whether that boy will remember the year I arrived in Japan."

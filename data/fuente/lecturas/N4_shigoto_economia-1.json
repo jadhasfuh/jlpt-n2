@@ -7,22 +7,22 @@
   {
    "p": "おじいさんは<ruby>何<rt>なに</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>昔<rt>むかし</rt></ruby>は<em class=\"g\">そんなに</em><ruby>苦<rt>くる</rt></ruby>しくなかった",
     "いまのほうがいい",
-    "<ruby>輸出<rt>ゆしゅつ</rt></ruby>がおおい",
-    "<ruby>競争<rt>きょうそう</rt></ruby>がない"
+    "<ruby>昔<rt>むかし</rt></ruby>は<em class=\"g\">そんなに</em><ruby>苦<rt>くる</rt></ruby>しくなかった",
+    "<ruby>競争<rt>きょうそう</rt></ruby>がない",
+    "<ruby>輸出<rt>ゆしゅつ</rt></ruby>がおおい"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "いま、<ruby>増<rt>ふ</rt></ruby>えているものは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
+    "<ruby>輸入<rt>ゆにゅう</rt></ruby>",
     "<ruby>工業<rt>こうぎょう</rt></ruby>の<ruby>町<rt>まち</rt></ruby>",
     "あたらしいしごとをはじめる<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>",
-    "<ruby>輸入<rt>ゆにゅう</rt></ruby>",
     "<ruby>産業<rt>さんぎょう</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "Around this capital there are several industrial cities. They export what they produce and import what they lack. It used to be the centre of industry, but now they say the competition is tough. An older man from the neighbourhood told me: «it wasn't so hard before». Even so, it isn't that everything is bad. The number of young people setting up new businesses is growing too."

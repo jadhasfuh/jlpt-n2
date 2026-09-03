@@ -7,22 +7,22 @@
   {
    "p": "でんわで<ruby>何<rt>なに</rt></ruby>を<ruby>聞<rt>き</rt></ruby>かれましたか。",
    "opciones": [
-    "なまえ",
     "<ruby>用<rt>よう</rt></ruby>じ",
-    "<ruby>山田<rt>やまだ</rt></ruby>さんが<em class=\"g\">いらっしゃい</em>ますか",
-    "<ruby>時間<rt>じかん</rt></ruby>"
+    "<ruby>時間<rt>じかん</rt></ruby>",
+    "なまえ",
+    "<ruby>山田<rt>やまだ</rt></ruby>さんが<em class=\"g\">いらっしゃい</em>ますか"
    ],
-   "correcta": 2
+   "correcta": 3
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby>よくないと<ruby>思<rt>おも</rt></ruby>うことは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>待<rt>ま</rt></ruby>つこと",
-    "メモをとること",
+    "<ruby>無視<rt>むし</rt></ruby>すること",
     "<ruby>叱<rt>しか</rt></ruby>ること",
-    "<ruby>無視<rt>むし</rt></ruby>すること"
+    "メモをとること",
+    "<ruby>待<rt>ま</rt></ruby>つこと"
    ],
-   "correcta": 3
+   "correcta": 0
   }
  ],
  "traduccion_en": "When I picked up the phone they asked whether Mr Yamada was in. «He isn't at his desk right now. I think he's back at three», I answered politely. The voice on the other end sounded tired. In situations like that, I think the worst thing is to ignore the person. What matters is showing it through actions. I asked whether there was anything he wanted passed on and took a note. Rather than telling someone off, it goes faster if you listen to them first. In the end, at three, Mr Yamada came back."

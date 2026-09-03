@@ -7,22 +7,22 @@
   {
    "p": "<ruby>手紙<rt>てがみ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>について、どう<ruby>思<rt>おも</rt></ruby>っていますか。",
    "opciones": [
-    "みじかすぎる",
-    "<ruby>必要<rt>ひつよう</rt></ruby>ない",
     "かえっていい",
-    "むだだ"
+    "<ruby>必要<rt>ひつよう</rt></ruby>ない",
+    "むだだ",
+    "みじかすぎる"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
    "p": "<ruby>手紙<rt>てがみ</rt></ruby>には<ruby>何<rt>なに</rt></ruby>を<ruby>書<rt>か</rt></ruby>きますか。",
    "opciones": [
     "<ruby>急<rt>いそ</rt></ruby>ぐ<ruby>話<rt>はなし</rt></ruby>",
-    "<ruby>知<rt>し</rt></ruby>らせ",
+    "ゆっくりした<ruby>話<rt>はなし</rt></ruby>",
     "しごとの<ruby>話<rt>はなし</rt></ruby>",
-    "ゆっくりした<ruby>話<rt>はなし</rt></ruby>"
+    "<ruby>知<rt>し</rt></ruby>らせ"
    ],
-   "correcta": 3
+   "correcta": 1
   }
  ],
  "traduccion_en": "On the noticeboard there was a delivery notice from the post office. It seems it arrived while I was out. An email is instant, but a letter takes time. Sometimes I think that time is precisely the good part. Because you have time to think before writing the reply. Fast isn't always best. There's the telephone and there's email too, but once a year I write a letter. I avoid urgent matters and write only about calm things."

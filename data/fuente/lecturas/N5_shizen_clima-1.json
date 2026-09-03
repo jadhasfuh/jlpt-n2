@@ -7,32 +7,32 @@
   {
    "p": "<ruby>六月<rt>ろくがつ</rt></ruby>は どんな <ruby>天気<rt>てんき</rt></ruby>ですか。",
    "opciones": [
-    "まいにち <ruby>雨<rt>あめ</rt></ruby>",
-    "いつも はれ",
     "さむい",
-    "<ruby>雨<rt>あめ</rt></ruby>と ゆき"
+    "<ruby>雨<rt>あめ</rt></ruby>と ゆき",
+    "まいにち <ruby>雨<rt>あめ</rt></ruby>",
+    "いつも はれ"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "せんたくものは どう しますか。",
    "opciones": [
-    "あらいません",
-    "へやの <ruby>中<rt>なか</rt></ruby>に かけます",
     "そとに かけます",
-    "<ruby>天気<rt>てんき</rt></ruby>よほうを <ruby>見<rt>み</rt></ruby>ます"
+    "<ruby>天気<rt>てんき</rt></ruby>よほうを <ruby>見<rt>み</rt></ruby>ます",
+    "あらいません",
+    "へやの <ruby>中<rt>なか</rt></ruby>に かけます"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "<ruby>晴<rt>は</rt></ruby>れた <ruby>日<rt>ひ</rt></ruby>、なにが きれいですか。",
    "opciones": [
-    "うみ",
-    "そら",
     "みどりの いろ",
-    "<ruby>雨<rt>あめ</rt></ruby>の いろ"
+    "そら",
+    "<ruby>雨<rt>あめ</rt></ruby>の いろ",
+    "うみ"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "When June comes it rains every day. They call it tsuyu. You look at the forecast and it's always the same picture. The washing won't dry, so I hang it inside the room. It's hot, it rains and the windows steam up. But the green on the days it clears is the most beautiful thing I've seen here."

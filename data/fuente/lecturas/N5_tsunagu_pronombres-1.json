@@ -7,32 +7,32 @@
   {
    "p": "くうこうに だれが <ruby>来<rt>き</rt></ruby>ましたか。",
    "opciones": [
-    "ジャンと ゴンサと ミンさんと けんたくん",
-    "だれも <ruby>来<rt>き</rt></ruby>ませんでした",
+    "アンナさんだけ",
     "たなかさんだけ",
-    "アンナさんだけ"
+    "だれも <ruby>来<rt>き</rt></ruby>ませんでした",
+    "ジャンと ゴンサと ミンさんと けんたくん"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "けんたくんは <ruby>何<rt>なに</rt></ruby>を ききましたか。",
    "opciones": [
-    "メキシコは どこか",
     "なぜ <ruby>一年<rt>いちねん</rt></ruby>は はやいのか",
     "いつ <ruby>帰<rt>かえ</rt></ruby>るのか",
+    "メキシコは どこか",
     "だれが <ruby>来<rt>く</rt></ruby>るか"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "ひこうきの まどから <ruby>何<rt>なに</rt></ruby>が <ruby>見<rt>み</rt></ruby>えましたか。",
    "opciones": [
-    "なにも",
     "うみだけ",
     "こうべの やま",
-    "くうこうの <ruby>人<rt>ひと</rt></ruby>たち"
+    "くうこうの <ruby>人<rt>ひと</rt></ruby>たち",
+    "なにも"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "I didn't know who would come to the airport. Jean came, and Gonza, and Min, and even Kenta. Anna said nothing and held my hand. «Why does a year go so fast?» Kenta asked. Nobody could answer him. From the plane window I could see the mountain above Kobe. I said «I'll be back», without saying it out loud."

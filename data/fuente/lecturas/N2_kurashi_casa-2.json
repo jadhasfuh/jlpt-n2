@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>自宅<rt>じたく</rt></ruby>が<ruby>狭<rt>せま</rt></ruby>いから",
     "<ruby>高<rt>たか</rt></ruby>いから",
-    "<ruby>遠<rt>とお</rt></ruby>いから"
+    "<ruby>遠<rt>とお</rt></ruby>いから",
+    "<ruby>家賃<rt>やちん</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いから"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>新<rt>あたら</rt></ruby>しい",
     "<ruby>水<rt>みず</rt></ruby>の<ruby>出<rt>で</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>い",
-    "なかった"
+    "なかった",
+    "<ruby>下水<rt>げすい</rt></ruby>のにおいがした"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>す",
     "<ruby>家賃<rt>やちん</rt></ruby>を<ruby>下<rt>さ</rt></ruby>げる",
-    "<ruby>戸棚<rt>とだな</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<ruby>見<rt>み</rt></ruby>る"
+    "<ruby>戸棚<rt>とだな</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<ruby>見<rt>み</rt></ruby>る",
+    "<ruby>締切<rt>しめきり</rt></ruby>を<ruby>延<rt>の</rt></ruby>ばす"
    ],
    "correcta": 2
   }

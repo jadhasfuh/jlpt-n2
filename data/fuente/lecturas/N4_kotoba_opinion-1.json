@@ -7,22 +7,22 @@
   {
    "p": "なぜ、だまっていませんでしたか。",
    "opciones": [
+    "ぶちょうにきかれたから",
     "<ruby>言<rt>い</rt></ruby>いやすかったから",
     "みんながさんせいしたから",
-    "あとでもんだいになると<ruby>知<rt>し</rt></ruby>っていたから",
-    "ぶちょうにきかれたから"
+    "あとでもんだいになると<ruby>知<rt>し</rt></ruby>っていたから"
    ],
-   "correcta": 2
+   "correcta": 3
   },
   {
    "p": "けっきょく、どうなりましたか。",
    "opciones": [
-    "この<ruby>人<rt>ひと</rt></ruby>がまちがっていた",
+    "みんなで<ruby>考<rt>かんが</rt></ruby>えなおすことになった",
     "だれも<ruby>聞<rt>き</rt></ruby>かなかった",
-    "かいぎが<ruby>終<rt>お</rt></ruby>わった",
-    "みんなで<ruby>考<rt>かんが</rt></ruby>えなおすことになった"
+    "この<ruby>人<rt>ひと</rt></ruby>がまちがっていた",
+    "かいぎが<ruby>終<rt>お</rt></ruby>わった"
    ],
-   "correcta": 3
+   "correcta": 0
   }
  ],
  "traduccion_en": "At the meeting everyone was in agreement. Only I had a contrary opinion. At times like that it's hard to open your mouth. If you keep quiet, at that moment it's more comfortable. But I knew it would end up being a problem later. I said, as calmly as I could: «there's just one thing that worries me». At first it seemed hard to answer, but in the end we decided to rethink it together, and the boss gave his approval too."

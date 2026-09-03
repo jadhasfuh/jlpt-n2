@@ -7,22 +7,22 @@
   {
    "p": "<ruby>袖<rt>そで</rt></ruby>が<ruby>破<rt>やぶ</rt></ruby>れていた<ruby>服<rt>ふく</rt></ruby>をどうしましたか。",
    "opciones": [
-    "<ruby>布<rt>ぬの</rt></ruby>を<ruby>当<rt>あ</rt></ruby>てて<ruby>直<rt>なお</rt></ruby>した",
+    "そのまま<ruby>着<rt>き</rt></ruby>た",
     "あげた",
     "すてた",
-    "そのまま<ruby>着<rt>き</rt></ruby>た"
+    "<ruby>布<rt>ぬの</rt></ruby>を<ruby>当<rt>あ</rt></ruby>てて<ruby>直<rt>なお</rt></ruby>した"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えはどれですか。",
    "opciones": [
-    "<ruby>宝石<rt>ほうせき</rt></ruby>がたいせつだ",
     "きちんと<ruby>揃<rt>そろ</rt></ruby>えた<ruby>服装<rt>ふくそう</rt></ruby>のほうが<ruby>適<rt>てき</rt></ruby>している",
     "<ruby>化粧<rt>けしょう</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>だ",
+    "<ruby>宝石<rt>ほうせき</rt></ruby>がたいせつだ",
     "あたらしい<ruby>服<rt>ふく</rt></ruby>がいい"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "I dry the washing, fold it and put it away. Cotton shirts dry quickly; thick fabrics take longer. Since it was torn at the sleeve, I was going to throw it out, but I decided to patch it and mend it. The clothes I bought meaning to go to a tropical country I ended up using in this city. I think a well-put-together wardrobe suits a person better than jewellery or make-up."

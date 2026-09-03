@@ -7,22 +7,22 @@
   {
    "p": "<ruby>店員<rt>てんいん</rt></ruby>さんは<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
-    "ねだんはこちらです",
     "<ruby>届<rt>とど</rt></ruby>けます",
-    "ごゆっくりごらん<em class=\"g\">なさい</em>",
-    "これがいいですよ"
+    "これがいいですよ",
+    "ねだんはこちらです",
+    "ごゆっくりごらん<em class=\"g\">なさい</em>"
    ],
-   "correcta": 2
+   "correcta": 3
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>をえらびましたか。",
    "opciones": [
+    "<ruby>長<rt>なが</rt></ruby>く<ruby>使<rt>つか</rt></ruby>えそうなほう",
     "やすいほう",
-    "えらばなかった",
     "<ruby>大<rt>おお</rt></ruby>きいほう",
-    "<ruby>長<rt>なが</rt></ruby>く<ruby>使<rt>つか</rt></ruby>えそうなほう"
+    "えらばなかった"
    ],
-   "correcta": 3
+   "correcta": 0
   }
  ],
  "traduccion_en": "In the shop's department I was hesitating over which item to take. An assistant came and said: «take your time looking, please». When people push you it's harder to buy, so I was grateful. In the end I chose, not by price, but the one that looked as though it would last longer. They could have delivered it to my house, but I carried it myself. The assistant said with a laugh: «good luck with the weight!»."

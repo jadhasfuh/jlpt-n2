@@ -7,22 +7,22 @@
   {
    "p": "<ruby>給料<rt>きゅうりょう</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>におどろきましたか。",
    "opciones": [
-    "<ruby>銀行<rt>ぎんこう</rt></ruby>",
     "<ruby>支出<rt>ししゅつ</rt></ruby>",
     "<ruby>封筒<rt>ふうとう</rt></ruby>のおもさ",
-    "<ruby>金額<rt>きんがく</rt></ruby>"
+    "<ruby>金額<rt>きんがく</rt></ruby>",
+    "<ruby>銀行<rt>ぎんこう</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "<ruby>価格<rt>かかく</rt></ruby>の<ruby>高<rt>たか</rt></ruby>いものを<ruby>買<rt>か</rt></ruby>うとき、どうしますか。",
    "opciones": [
-    "<ruby>買<rt>か</rt></ruby>わない",
     "すぐ<ruby>決<rt>き</rt></ruby>める",
-    "<ruby>借金<rt>しゃっきん</rt></ruby>する",
-    "<ruby>一日<rt>いちにち</rt></ruby>おいてから<ruby>決<rt>き</rt></ruby>める"
+    "<ruby>買<rt>か</rt></ruby>わない",
+    "<ruby>一日<rt>いちにち</rt></ruby>おいてから<ruby>決<rt>き</rt></ruby>める",
+    "<ruby>借金<rt>しゃっきん</rt></ruby>する"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "I remember the day I got my first salary. More than the figure, I was surprised by the weight of the envelope. I noted down the payments due and put the rest in the bank. I was bad at accounts, but I resolved to keep a record of my spending. When I buy something expensive, I let a day go by before deciding. I have nothing that could be called assets, but I live measuring things so as not to have to get into debt."

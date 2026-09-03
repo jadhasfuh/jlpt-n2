@@ -7,22 +7,22 @@
   {
    "p": "「<ruby>東洋<rt>とうよう</rt></ruby>と<ruby>西洋<rt>せいよう</rt></ruby>」という<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>について、どうですか。",
    "opciones": [
-    "その<ruby>間<rt>あいだ</rt></ruby>にもたくさんの<ruby>国<rt>くに</rt></ruby>がある",
+    "<ruby>使<rt>つか</rt></ruby>わないほうがいい",
     "<ruby>同<rt>おな</rt></ruby>じ<ruby>意味<rt>いみ</rt></ruby>だ",
     "<ruby>正<rt>ただ</rt></ruby>しい",
-    "<ruby>使<rt>つか</rt></ruby>わないほうがいい"
+    "その<ruby>間<rt>あいだ</rt></ruby>にもたくさんの<ruby>国<rt>くに</rt></ruby>がある"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>国家<rt>こっか</rt></ruby>のさかいめについて、どう<ruby>考<rt>かんが</rt></ruby>えていますか。",
    "opciones": [
-    "しぜんにできたもの",
     "<ruby>人<rt>ひと</rt></ruby>が<ruby>引<rt>ひ</rt></ruby>いた<ruby>線<rt>せん</rt></ruby>にすぎない",
+    "しぜんにできたもの",
     "かえられない",
     "<ruby>大陸<rt>たいりく</rt></ruby>できまる"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "In the language class we learnt how many countries there are in the world. Depending on the continent, both the size of the countries and the culture change. We say «East» and «West», but, that said, between the two there are actually a great many countries. Japan is a country of islands. Nevertheless, since ancient times things have come in across the sea. If you think of the Earth as a single house, the borders between states are no more than lines that people drew."

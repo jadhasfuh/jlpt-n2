@@ -7,22 +7,22 @@
   {
    "p": "<ruby>芝居<rt>しばい</rt></ruby>が<ruby>絵画<rt>かいが</rt></ruby>とちがうのはどこですか。",
    "opciones": [
-    "<ruby>音楽<rt>おんがく</rt></ruby>があること",
-    "<ruby>額<rt>がく</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ること",
     "その<ruby>場<rt>ば</rt></ruby>かぎりで<ruby>消<rt>き</rt></ruby>えること",
-    "きれいなこと"
+    "<ruby>額<rt>がく</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ること",
+    "きれいなこと",
+    "<ruby>音楽<rt>おんがく</rt></ruby>があること"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
    "p": "まちがえる<ruby>音<rt>おと</rt></ruby>について、どう<ruby>思<rt>おも</rt></ruby>いましたか。",
    "opciones": [
     "ざんねんだった",
-    "うるさかった",
+    "かえってよかった",
     "<ruby>気<rt>き</rt></ruby>がつかなかった",
-    "かえってよかった"
+    "うるさかった"
    ],
-   "correcta": 3
+   "correcta": 1
   }
  ],
  "traduccion_en": "I went to see a play for the first time. Unlike painting or music, theatre vanishes with the performance. Watching the serious face of the person acting, you end up holding your own breath. The music was live and there were wrong notes. But that, on the contrary, was good. When it ended I couldn't stand up for a while and stayed in my seat, deeply moved. It's precisely because it can't be kept like a framed picture that it isn't forgotten."

@@ -7,22 +7,22 @@
   {
    "p": "<ruby>問題<rt>もんだい</rt></ruby>が<ruby>起<rt>お</rt></ruby>きたとき、どうしましたか。",
    "opciones": [
-    "<ruby>担当<rt>たんとう</rt></ruby>をわけて<ruby>一<rt>ひと</rt></ruby>つずつ<ruby>進<rt>すす</rt></ruby>めた",
+    "<ruby>延期<rt>えんき</rt></ruby>した",
     "<ruby>拡大<rt>かくだい</rt></ruby>した",
     "<ruby>中止<rt>ちゅうし</rt></ruby>した",
-    "<ruby>延期<rt>えんき</rt></ruby>した"
+    "<ruby>担当<rt>たんとう</rt></ruby>をわけて<ruby>一<rt>ひと</rt></ruby>つずつ<ruby>進<rt>すす</rt></ruby>めた"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>結局<rt>けっきょく</rt></ruby>、<ruby>何<rt>なに</rt></ruby>を<ruby>優先<rt>ゆうせん</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>完成<rt>かんせい</rt></ruby>",
     "<ruby>安定<rt>あんてい</rt></ruby>",
+    "<ruby>時期<rt>じき</rt></ruby>",
     "<ruby>拡大<rt>かくだい</rt></ruby>",
-    "<ruby>時期<rt>じき</rt></ruby>"
+    "<ruby>完成<rt>かんせい</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "While we were making a correction to the system, a problem came up somewhere else. On the ground there was a moment of chaos, but we shared out who was responsible for what and moved forward one at a time. Opinions were divided on whether to postpone delivery and in the end we decided to prioritise stability. Rather than expanding, improving. By the time we got through the peak period, the team's balance had improved too. If the underlying criterion is clear, chaos isn't frightening either."

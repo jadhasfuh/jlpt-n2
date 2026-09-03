@@ -7,22 +7,22 @@
   {
    "p": "<ruby>週末<rt>しゅうまつ</rt></ruby>の<ruby>天気<rt>てんき</rt></ruby>はどうなりますか。",
    "opciones": [
-    "<ruby>晴<rt>は</rt></ruby>れる",
-    "<ruby>雪<rt>ゆき</rt></ruby>がふる",
     "わからない",
-    "<ruby>雨<rt>あめ</rt></ruby>がふる"
+    "<ruby>雨<rt>あめ</rt></ruby>がふる",
+    "<ruby>雪<rt>ゆき</rt></ruby>がふる",
+    "<ruby>晴<rt>は</rt></ruby>れる"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>去年<rt>きょねん</rt></ruby>のキャンプで、どんなことがありましたか。",
    "opciones": [
-    "テントをわすれた",
     "スキーの<ruby>道具<rt>どうぐ</rt></ruby>の<ruby>一<rt>ひと</rt></ruby>つが<ruby>家<rt>いえ</rt></ruby>にのこっていた",
-    "カメラがこわれた",
-    "<ruby>道<rt>みち</rt></ruby>にまよった"
+    "<ruby>道<rt>みち</rt></ruby>にまよった",
+    "テントをわすれた",
+    "カメラがこわれた"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "According to the forecast, the weather will be good this weekend. So we've decided to go camping with the whole group. We put the tent, the sun cream and a small video camera into the bag. On the car key I left a note held on with a pin so as not to lose it. However much you prepare, you always forget something. Last year I took all the ski gear and a single piece of the set stayed at home. When we get back, I'll stick the photos in the album and sign them. Because good days, if you don't do that, are quickly forgotten."

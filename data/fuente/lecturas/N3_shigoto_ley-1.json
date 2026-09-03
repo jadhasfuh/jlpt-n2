@@ -7,22 +7,22 @@
   {
    "p": "<ruby>法<rt>ほう</rt></ruby>の<ruby>目的<rt>もくてき</rt></ruby>について、<ruby>何<rt>なに</rt></ruby>を<ruby>知<rt>し</rt></ruby>りましたか。",
    "opciones": [
-    "<ruby>罰<rt>ばっ</rt></ruby>するだけではない",
-    "<ruby>禁止<rt>きんし</rt></ruby>すること",
+    "<ruby>罰<rt>ばっ</rt></ruby>するだけ",
     "<ruby>許<rt>ゆる</rt></ruby>すこと",
-    "<ruby>罰<rt>ばっ</rt></ruby>するだけ"
+    "<ruby>禁止<rt>きんし</rt></ruby>すること",
+    "<ruby>罰<rt>ばっ</rt></ruby>するだけではない"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>権利<rt>けんり</rt></ruby>をまもるとは、どういうことでもありますか。",
    "opciones": [
-    "だれも<ruby>困<rt>こま</rt></ruby>らない",
     "だれかの<ruby>自由<rt>じゆう</rt></ruby>に<ruby>触<rt>ふ</rt></ruby>れる",
     "<ruby>許可<rt>きょか</rt></ruby>を<ruby>出<rt>だ</rt></ruby>す",
+    "だれも<ruby>困<rt>こま</rt></ruby>らない",
     "<ruby>署名<rt>しょめい</rt></ruby>する"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "I once attended a trial as a member of the public. I learnt that punishing whoever committed a crime isn't the law's only purpose. Rules on prohibition and infringement exist to build a just society. Protecting a right also means touching someone's freedom. Neither granting a permit nor deciding not to forgive are easy things. I felt that not even a signature should be put down without thinking about anything."

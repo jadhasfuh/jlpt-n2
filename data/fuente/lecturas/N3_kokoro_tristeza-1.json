@@ -7,22 +7,22 @@
   {
    "p": "なぜ<ruby>涙<rt>なみだ</rt></ruby>が<ruby>出<rt>で</rt></ruby>たと<ruby>思<rt>おも</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>場面<rt>ばめん</rt></ruby>がしずかだから",
-    "<ruby>映画<rt>えいが</rt></ruby>が<ruby>悲<rt>かな</rt></ruby>しいから",
+    "<ruby>目<rt>め</rt></ruby>がいたいから",
     "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>の<ruby>疲<rt>つか</rt></ruby>れが<ruby>出<rt>で</rt></ruby>たから",
-    "<ruby>目<rt>め</rt></ruby>がいたいから"
+    "<ruby>場面<rt>ばめん</rt></ruby>がしずかだから",
+    "<ruby>映画<rt>えいが</rt></ruby>が<ruby>悲<rt>かな</rt></ruby>しいから"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "<ruby>苦<rt>くる</rt></ruby>しいときについて、どう<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>叫<rt>さけ</rt></ruby>ぶべきだ",
-    "<ruby>泣<rt>な</rt></ruby>くべきだ",
     "すぐ<ruby>分<rt>わ</rt></ruby>かる",
-    "<ruby>苦<rt>くる</rt></ruby>しいと<ruby>気<rt>き</rt></ruby>づけないことがある"
+    "<ruby>泣<rt>な</rt></ruby>くべきだ",
+    "<ruby>苦<rt>くる</rt></ruby>しいと<ruby>気<rt>き</rt></ruby>づけないことがある",
+    "<ruby>叫<rt>さけ</rt></ruby>ぶべきだ"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "Watching a film, tears suddenly came to my eyes. It wasn't a sad scene. On the contrary, it was a calm scene. I think what came out there was the tiredness of a month of constant tension. Because that day I'd been irritable since morning for no reason. When you're having a hard time, sometimes you don't notice that you're having a hard time. Fears and worries come out at some random moment, changed in form. Perhaps it would have been better to be able to cry without shouting."

@@ -7,32 +7,32 @@
   {
    "p": "ゴンサさんは なにを <ruby>見<rt>み</rt></ruby>せましたか。",
    "opciones": [
-    "けいたいの アプリ",
     "しゃしん",
+    "けいたいの アプリ",
     "ほん",
     "<ruby>日本人<rt>にほんじん</rt></ruby>の ともだち"
-   ],
-   "correcta": 0
-  },
-  {
-   "p": "さいしょの <ruby>人<rt>ひと</rt></ruby>は どうでしたか。",
-   "opciones": [
-    "<ruby>来<rt>き</rt></ruby>ませんでした",
-    "ゆっくり <ruby>聞<rt>き</rt></ruby>いて くれました",
-    "はやく はなしました",
-    "しつもんを しませんでした"
    ],
    "correcta": 1
   },
   {
-   "p": "かえりみち、カルロスさんは どう かんじましたか。",
+   "p": "さいしょの <ruby>人<rt>ひと</rt></ruby>は どうでしたか。",
    "opciones": [
-    "なにも かんじませんでした",
-    "とても うれしかったです",
-    "きもちが <ruby>重<rt>おも</rt></ruby>く なりました",
-    "はなしやすかったです"
+    "しつもんを しませんでした",
+    "はやく はなしました",
+    "ゆっくり <ruby>聞<rt>き</rt></ruby>いて くれました",
+    "<ruby>来<rt>き</rt></ruby>ませんでした"
    ],
    "correcta": 2
+  },
+  {
+   "p": "かえりみち、カルロスさんは どう かんじましたか。",
+   "opciones": [
+    "とても うれしかったです",
+    "はなしやすかったです",
+    "なにも かんじませんでした",
+    "きもちが <ruby>重<rt>おも</rt></ruby>く なりました"
+   ],
+   "correcta": 3
   }
  ],
  "traduccion_en": "Gonza showed me an app on his phone: «why don't you try it?». It's an app for talking to Japanese people. I wasn't keen, but it is practice for the language. The first person listened to my Japanese patiently. Her questions were light and it was easy to talk. But on the way home something felt heavy."

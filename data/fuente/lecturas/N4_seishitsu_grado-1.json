@@ -7,22 +7,22 @@
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていましたか。",
    "opciones": [
-    "できていないところをその<ruby>日<rt>ひ</rt></ruby>のうちに<ruby>言<rt>い</rt></ruby>った",
-    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった",
     "<ruby>以上<rt>いじょう</rt></ruby>のことも<ruby>言<rt>い</rt></ruby>った",
-    "よくほめた"
+    "できていないところをその<ruby>日<rt>ひ</rt></ruby>のうちに<ruby>言<rt>い</rt></ruby>った",
+    "よくほめた",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "いま、この<ruby>人<rt>ひと</rt></ruby>はどう<ruby>思<rt>おも</rt></ruby>っていますか。",
    "opciones": [
-    "こわいだけだった",
-    "それほど<ruby>正<rt>ただ</rt></ruby>しいことばはほかになかった",
+    "わすれた",
     "きびしすぎた",
-    "わすれた"
+    "それほど<ruby>正<rt>ただ</rt></ruby>しいことばはほかになかった",
+    "こわいだけだった"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "I had an extremely strict teacher. I found him rather frightening, but a long time later I realised why. He almost always pointed out what was wrong on that same day. And he said nothing beyond that. Of course, when you're told it hurts. But there were no words so accurate anywhere else. Now I realise he was right."

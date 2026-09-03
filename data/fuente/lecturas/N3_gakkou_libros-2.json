@@ -7,32 +7,32 @@
   {
    "p": "<ruby>季刊<rt>きかん</rt></ruby>のざっしはどのくらい<ruby>出<rt>で</rt></ruby>ますか。",
    "opciones": [
-    "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>",
-    "<ruby>一年<rt>いちねん</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>",
     "<ruby>毎月<rt>まいつき</rt></ruby>",
-    "<ruby>三<rt>さん</rt></ruby><ruby>年<rt>とし</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>"
+    "<ruby>三<rt>さん</rt></ruby><ruby>年<rt>とし</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>",
+    "<ruby>一年<rt>いちねん</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>",
+    "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>今回<rt>こんかい</rt></ruby>のとくしゅうは<ruby>何<rt>なん</rt></ruby>でしたか。",
    "opciones": [
-    "<ruby>図書館<rt>としょかん</rt></ruby>",
     "<ruby>町<rt>まち</rt></ruby>の<ruby>本屋<rt>ほんや</rt></ruby>",
     "<ruby>新聞<rt>しんぶん</rt></ruby>",
-    "<ruby>図書館<rt>としょかん</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>のインタビュー"
+    "<ruby>図書館<rt>としょかん</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>のインタビュー",
+    "<ruby>図書館<rt>としょかん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>季刊<rt>きかん</rt></ruby>のざっしのいいところは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
     "やすいこと",
-    "うすいこと",
     "あとで<ruby>読<rt>よ</rt></ruby>んでもふるくならないこと",
+    "うすいこと",
     "<ruby>新<rt>あたら</rt></ruby>しいことがすぐわかること"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "I look forward to reading a quarterly magazine at the library. As it only comes out once every three months, it feels dense with content. This issue's feature was «the neighbourhood bookshop». The interview with the shopkeepers ran to ten pages and was well worth reading. Monthly magazines tell you what's new, but the quarterly doesn't go stale even if you read it later. Until the next issue comes out, I wait another three months."

@@ -7,22 +7,22 @@
   {
    "p": "お<ruby>辞儀<rt>じぎ</rt></ruby>のふかさについて、<ruby>何<rt>なに</rt></ruby>を<ruby>知<rt>し</rt></ruby>りましたか。",
    "opciones": [
-    "ばめんによって<ruby>意味<rt>いみ</rt></ruby>がちがう",
     "いつも<ruby>同<rt>おな</rt></ruby>じ",
     "<ruby>必要<rt>ひつよう</rt></ruby>ない",
-    "むずかしい"
+    "むずかしい",
+    "ばめんによって<ruby>意味<rt>いみ</rt></ruby>がちがう"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "ことばとからだが<ruby>合<rt>あ</rt></ruby>っていないと、どうなりますか。",
    "opciones": [
-    "ゆるされる",
     "<ruby>気持<rt>きも</rt></ruby>ちがつたわらない",
-    "はやい",
-    "<ruby>辞書<rt>じしょ</rt></ruby>でわかる"
+    "<ruby>辞書<rt>じしょ</rt></ruby>でわかる",
+    "ゆるされる",
+    "はやい"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "When I first worked in Japan, I was surprised to learn that the depth of a bow has meaning. The morning greeting is light; when apologising, deep. Not knowing that, I made them all the same, and it must have come across as rude. I thought saying «I'm sorry» was enough, but if the words and the body don't match, the feeling doesn't get through. Just as you shouldn't smoke where it's forbidden, you shouldn't do things that don't fit the situation. Unfortunately, this isn't in the dictionary."

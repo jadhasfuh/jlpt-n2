@@ -7,29 +7,32 @@
   {
    "p": "どこに<ruby>入社<rt>にゅうしゃ</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>商社<rt>しょうしゃ</rt></ruby>",
     "<ruby>政党<rt>せいとう</rt></ruby>",
-    "<ruby>本部<rt>ほんぶ</rt></ruby>"
+    "<ruby>連合<rt>れんごう</rt></ruby>の<ruby>会<rt>かい</rt></ruby>",
+    "<ruby>本部<rt>ほんぶ</rt></ruby>",
+    "<ruby>商社<rt>しょうしゃ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>間違<rt>まちが</rt></ruby>えますか。",
    "opciones": [
-    "<ruby>時間<rt>じかん</rt></ruby>",
     "<ruby>区分<rt>くぶん</rt></ruby>",
-    "<ruby>名前<rt>なまえ</rt></ruby>"
+    "<ruby>宛名<rt>あてな</rt></ruby>の<ruby>御中<rt>おんちゅう</rt></ruby>",
+    "<ruby>名前<rt>なまえ</rt></ruby>",
+    "<ruby>時間<rt>じかん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>先週<rt>せんしゅう</rt></ruby><ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
-    "<ruby>謝<rt>あやま</rt></ruby>った",
     "<ruby>休<rt>やす</rt></ruby>んだ",
-    "<ruby>強気<rt>つよき</rt></ruby>で<ruby>意見<rt>いけん</rt></ruby>を<ruby>言<rt>い</rt></ruby>った"
+    "<ruby>強気<rt>つよき</rt></ruby>で<ruby>意見<rt>いけん</rt></ruby>を<ruby>言<rt>い</rt></ruby>った",
+    "<ruby>謝<rt>あやま</rt></ruby>った",
+    "<ruby>規則<rt>きそく</rt></ruby>を<ruby>作<rt>つく</rt></ruby>った"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "A year has gone by since I joined the trading company. I still don't properly understand the head office's structure, and I keep going to the wrong department and apologising. There are many strict rules, but as long as they teach them to me I can learn them. Last week I attended the federation meeting and for the first time gave my opinion firmly. I'm also finally getting used to writing «Onchū» on envelopes."

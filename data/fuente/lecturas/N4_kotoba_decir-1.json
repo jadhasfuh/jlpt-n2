@@ -7,22 +7,22 @@
   {
    "p": "はじめのころ、どうしましたか。",
    "opciones": [
+    "<ruby>自分<rt>じぶん</rt></ruby>で<ruby>考<rt>かんが</rt></ruby>えた",
     "なんども<ruby>先輩<rt>せんぱい</rt></ruby>にきいた",
-    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだ",
     "<ruby>使<rt>つか</rt></ruby>わなかった",
-    "<ruby>自分<rt>じぶん</rt></ruby>で<ruby>考<rt>かんが</rt></ruby>えた"
+    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んだ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "ていねいなことばは<ruby>何<rt>なに</rt></ruby>のためですか。",
    "opciones": [
     "じぶんをたてるため",
-    "あいてをたてるため",
     "はやく<ruby>話<rt>はな</rt></ruby>すため",
+    "あいてをたてるため",
     "しごとのため"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "In work conversations you have to choose your words. Not «I say» but «I tell him», not «I said» but «I explained to him». At first I asked the senior staff over and over how I should put it. If you confuse «what the boss said» with «what I explained to him», the meaning comes out backwards. It's difficult, but polite language exists to put the other person first. It's precisely for that reason that you have to learn it."

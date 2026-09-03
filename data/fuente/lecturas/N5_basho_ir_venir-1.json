@@ -7,32 +7,32 @@
   {
    "p": "カルロスさんは どうして まちがえましたか。",
    "opciones": [
-    "<ruby>出口<rt>でぐち</rt></ruby>が <ruby>三<rt>みっ</rt></ruby>つ あったから",
     "ちずが なかったから",
     "はやく おきなかったから",
-    "たなかさんに あわなかったから"
+    "たなかさんに あわなかったから",
+    "<ruby>出口<rt>でぐち</rt></ruby>が <ruby>三<rt>みっ</rt></ruby>つ あったから"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "たなかさんは だれですか。",
    "opciones": [
-    "クラスメート",
     "アパートの おおやさん",
     "がっこうの せんせい",
+    "クラスメート",
     "となりの へやの ひと"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "カルロスさんは <ruby>時間<rt>じかん</rt></ruby>に まにあいましたか。",
    "opciones": [
-    "わかりません",
     "いいえ、おくれました",
     "はい、まだ <ruby>時間<rt>じかん</rt></ruby>が ありました",
+    "わかりません",
     "はい、でも <ruby>走<rt>はし</rt></ruby>りませんでした"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "This morning I got up early. I left the flat and walked to the station. There were three exits and I took the wrong one. I stopped in the street and looked at the map. Just then the woman next door asked me: «where are you going?». It was Mrs Tanaka. She is the landlady of my flat. She told me: «from here, to the left». I broke into a run. There was still time."

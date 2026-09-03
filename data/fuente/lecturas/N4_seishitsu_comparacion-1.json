@@ -7,22 +7,22 @@
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どものころ、どう<ruby>感<rt>かん</rt></ruby>じていましたか。",
    "opciones": [
+    "<ruby>妹<rt>いもうと</rt></ruby>がしずかだ",
     "<ruby>何<rt>なに</rt></ruby>も<ruby>感<rt>かん</rt></ruby>じなかった",
     "<ruby>兄<rt>あに</rt></ruby>がすきだった",
-    "<ruby>自分<rt>じぶん</rt></ruby>がだめ<em class=\"g\">に見え</em>た",
-    "<ruby>妹<rt>いもうと</rt></ruby>がしずかだ"
+    "<ruby>自分<rt>じぶん</rt></ruby>がだめ<em class=\"g\">に見え</em>た"
    ],
-   "correcta": 2
+   "correcta": 3
   },
   {
    "p": "<ruby>大人<rt>おとな</rt></ruby>になって<ruby>分<rt>わ</rt></ruby>かったことは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>比<rt>くら</rt></ruby>べるべきだ",
-    "<ruby>兄<rt>あに</rt></ruby>のほうがすぐれている",
+    "<ruby>兄<rt>あに</rt></ruby>も<ruby>同<rt>おな</rt></ruby>じことを<ruby>思<rt>おも</rt></ruby>っていた",
     "<ruby>顔<rt>かお</rt></ruby>が<ruby>似<rt>に</rt></ruby>ている",
-    "<ruby>兄<rt>あに</rt></ruby>も<ruby>同<rt>おな</rt></ruby>じことを<ruby>思<rt>おも</rt></ruby>っていた"
+    "<ruby>比<rt>くら</rt></ruby>べるべきだ",
+    "<ruby>兄<rt>あに</rt></ruby>のほうがすぐれている"
    ],
-   "correcta": 3
+   "correcta": 0
   }
  ],
  "traduccion_en": "As a child I was always compared to my older brother. Every time they said «be like him», I saw myself as useless. What I understood as an adult is that my brother thought exactly the same. Our faces are alike, but what we like has nothing to do with each other. Of the siblings, the quietest is my little sister. Now I think it's fine this way, each of us different. When you stop comparing, you start to see what's good in the other person."

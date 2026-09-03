@@ -7,32 +7,32 @@
   {
    "p": "<ruby>食堂<rt>しょくどう</rt></ruby>の <ruby>中<rt>なか</rt></ruby>は どうでしたか。",
    "opciones": [
-    "あつかったです",
-    "さむかったです",
     "しずかでした",
+    "さむかったです",
+    "あつかったです",
     "めがねが ありませんでした"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "ゴンサさんは ラーメンを なんと 言いましたか。",
    "opciones": [
-    "からい",
-    "くすりだ",
+    "ゆうめいだ",
     "<ruby>料理<rt>りょうり</rt></ruby>だ",
-    "ゆうめいだ"
+    "からい",
+    "くすりだ"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "そとは どうでしたか。",
    "opciones": [
-    "あつかったです",
-    "はれて いました",
     "ゆきが ふって いました",
+    "はれて いました",
+    "あつかったです",
     "さむくて <ruby>人<rt>ひと</rt></ruby>が いませんでした"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "I'd heard that Sapporo ramen is famous. We went into a small canteen and inside it was so hot my glasses steamed up. The broth was so rich it warmed me from the inside. «This isn't food, it's medicine», said Gonza. Outside it was still snowing. I thought that good things taste better in cold places."

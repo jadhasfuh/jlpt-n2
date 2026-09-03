@@ -7,32 +7,32 @@
   {
    "p": "<ruby>二月<rt>にがつ</rt></ruby>の おわりに なにが かわりましたか。",
    "opciones": [
-    "かぜが <ruby>暖<rt>あたた</rt></ruby>かく なりました",
-    "ゆきが ふりました",
     "あつく なりました",
-    "はるが おわりました"
+    "はるが おわりました",
+    "かぜが <ruby>暖<rt>あたた</rt></ruby>かく なりました",
+    "ゆきが ふりました"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "アンナさんは なにを さそいましたか。",
    "opciones": [
+    "はるまで まつ こと",
     "うみへ <ruby>行<rt>い</rt></ruby>く こと",
-    "<ruby>花<rt>はな</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>く こと",
     "りょうりを する こと",
-    "はるまで まつ こと"
+    "<ruby>花<rt>はな</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>く こと"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "カルロスさんの <ruby>国<rt>くに</rt></ruby>の てんきは どうですか。",
    "opciones": [
-    "とても さむいです",
-    "きせつが <ruby>四<rt>よっ</rt></ruby>つ あります",
     "<ruby>一年<rt>いちねん</rt></ruby>じゅう おなじような てんき",
-    "はるが とても みじかいです"
+    "とても さむいです",
+    "はるが とても みじかいです",
+    "きせつが <ruby>四<rt>よっ</rt></ruby>つ あります"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "At the end of February the wind turned a little warmer. I like spring far more than winter. Anna said: «when it gets warmer, let's go and see the blossom». They say the Japanese spring is very short. In my country the weather is much the same all year round. I didn't know the changing of the seasons could be such a pleasure."

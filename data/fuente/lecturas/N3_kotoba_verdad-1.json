@@ -8,21 +8,21 @@
    "p": "<ruby>言<rt>い</rt></ruby>わずにいると、どうなりますか。",
    "opciones": [
     "らくになる",
-    "<ruby>相手<rt>あいて</rt></ruby>がこまる",
     "こちらの<ruby>気持<rt>きも</rt></ruby>ちのほうが<ruby>重<rt>おも</rt></ruby>くなる",
-    "わすれる"
+    "わすれる",
+    "<ruby>相手<rt>あいて</rt></ruby>がこまる"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "<ruby>相手<rt>あいて</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
-    "<ruby>話<rt>はな</rt></ruby>すべきだった",
-    "<ruby>知<rt>し</rt></ruby>っていた",
     "おこった",
-    "そんなこと、<ruby>気<rt>き</rt></ruby>にしていなかった"
+    "<ruby>知<rt>し</rt></ruby>っていた",
+    "そんなこと、<ruby>気<rt>き</rt></ruby>にしていなかった",
+    "<ruby>話<rt>はな</rt></ruby>すべきだった"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "The truth is there's something I'd been keeping secret for a long time. It's a fact I can prove, but I thought telling it would only make the other person uncomfortable. It's odd: when you keep it to yourself, it's your own mood that turns heavy. When I actually told it, they said: «oh, that wasn't worrying me». Reality turned out to be far lighter than what I'd built up in my head. Carrying things alone seems, after all, not to be a good idea."

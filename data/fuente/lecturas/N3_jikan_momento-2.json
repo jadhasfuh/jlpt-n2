@@ -7,22 +7,22 @@
   {
    "p": "その<ruby>人<rt>ひと</rt></ruby>とはどんな<ruby>関係<rt>かんけい</rt></ruby>でしたか。",
    "opciones": [
-    "<ruby>以前<rt>いぜん</rt></ruby>の<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>仲間<rt>なかま</rt></ruby>",
     "はじめて<ruby>会<rt>あ</rt></ruby>った",
+    "<ruby>家族<rt>かぞく</rt></ruby>",
     "<ruby>近所<rt>きんじょ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>",
-    "<ruby>家族<rt>かぞく</rt></ruby>"
+    "<ruby>以前<rt>いぜん</rt></ruby>の<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>仲間<rt>なかま</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "いっしょにはたらいた<ruby>期間<rt>きかん</rt></ruby>はどのくらいですか。",
    "opciones": [
-    "<ruby>十年<rt>じゅうねん</rt></ruby>",
     "<ruby>二年<rt>にねん</rt></ruby>ほど",
+    "<ruby>十年<rt>じゅうねん</rt></ruby>",
     "<ruby>一年<rt>いちねん</rt></ruby>",
     "<ruby>分<rt>わ</rt></ruby>からない"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "When I was walking in front of the station I happened to run into someone from the company where I used to work. I hadn't expected to see him again. For an instant I didn't know who he was. He's a colleague I worked with from the start. In terms of time it was about two years, but what I received then is still with me. We said goodbye with a «let's meet up sometime». Ten years since then. Under a sky that looked about to rain, I stood thinking how strange time is."

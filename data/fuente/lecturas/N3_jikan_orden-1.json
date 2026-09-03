@@ -7,22 +7,22 @@
   {
    "p": "てじゅんを<ruby>一<rt>ひと</rt></ruby>つとばすと、どうなりますか。",
    "opciones": [
-    "あとの<ruby>段階<rt>だんかい</rt></ruby>でこまる",
+    "かわらない",
     "らくになる",
     "はやく<ruby>終<rt>お</rt></ruby>わる",
-    "かわらない"
+    "あとの<ruby>段階<rt>だんかい</rt></ruby>でこまる"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>のためにそこにいますか。",
    "opciones": [
-    "<ruby>一<rt>いち</rt></ruby><ruby>位<rt>い</rt></ruby>になるため",
     "<ruby>一<rt>ひと</rt></ruby>つの<ruby>舞台<rt>ぶたい</rt></ruby>をつくるため",
+    "<ruby>音<rt>おと</rt></ruby>のため",
     "<ruby>先輩<rt>せんぱい</rt></ruby>のため",
-    "<ruby>音<rt>おと</rt></ruby>のため"
+    "<ruby>一<rt>いち</rt></ruby><ruby>位<rt>い</rt></ruby>になるため"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "The stage preparations are done in a set order. If you skip a step, at the next stage you always end up in trouble. The day I made the same mistake three times in a row, a senior colleague told me: «don't get worked up, you'll get used to it». A few seconds' difference throws the sound and the lights out, so you can't let your attention slip. Even so, when you carry it through to the end, the instant the curtain goes up feels excellent. We aren't there to come first, but to build a show."

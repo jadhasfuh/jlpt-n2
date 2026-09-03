@@ -7,22 +7,22 @@
   {
    "p": "なぜ、<ruby>中<rt>なか</rt></ruby>でできることも<ruby>選<rt>えら</rt></ruby>びましたか。",
    "opciones": [
-    "<ruby>道具<rt>どうぐ</rt></ruby>がないから",
     "<ruby>人<rt>ひと</rt></ruby>がおおいから",
-    "<ruby>天気<rt>てんき</rt></ruby>がよくないと<ruby>聞<rt>き</rt></ruby>いたから",
-    "<ruby>時間<rt>じかん</rt></ruby>がないから"
+    "<ruby>道具<rt>どうぐ</rt></ruby>がないから",
+    "<ruby>時間<rt>じかん</rt></ruby>がないから",
+    "<ruby>天気<rt>てんき</rt></ruby>がよくないと<ruby>聞<rt>き</rt></ruby>いたから"
    ],
-   "correcta": 2
+   "correcta": 3
   },
   {
    "p": "<ruby>準備<rt>じゅんび</rt></ruby>についてどう<ruby>思<rt>おも</rt></ruby>っていますか。",
    "opciones": [
+    "している<ruby>時間<rt>じかん</rt></ruby>がいちばん<ruby>楽<rt>たの</rt></ruby>しい",
     "めんどうだ",
     "いらない",
-    "みじかいほうがいい",
-    "している<ruby>時間<rt>じかん</rt></ruby>がいちばん<ruby>楽<rt>たの</rt></ruby>しい"
+    "みじかいほうがいい"
    ],
-   "correcta": 3
+   "correcta": 0
   }
  ],
  "traduccion_en": "Next week I'm organising a gathering. I set out the schedule as if it were a television listing and prepared the materials too. To arrive at the time everyone agreed on, I get the preparations done the day before. Since I heard the weather wasn't going to be very good, I also chose activities that can be done indoors. The more time you put into preparing, the easier the day turns out. In fact, they say there are many people for whom the preparation is the best part. I'm one of them."

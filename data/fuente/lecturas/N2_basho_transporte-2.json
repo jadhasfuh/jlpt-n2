@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>乗換<rt>のりかえ</rt></ruby>",
     "<ruby>停車<rt>ていしゃ</rt></ruby>",
-    "<ruby>輸送<rt>ゆそう</rt></ruby>"
+    "<ruby>輸送<rt>ゆそう</rt></ruby>",
+    "<ruby>見学<rt>けんがく</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>船<rt>ふね</rt></ruby>",
     "<ruby>古<rt>ふる</rt></ruby>い<ruby>機関車<rt>きかんしゃ</rt></ruby>",
-    "<ruby>風船<rt>ふうせん</rt></ruby>"
+    "<ruby>風船<rt>ふうせん</rt></ruby>",
+    "<ruby>歯車<rt>はぐるま</rt></ruby>の<ruby>工場<rt>こうじょう</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>歯車<rt>はぐるま</rt></ruby>",
     "<ruby>時間割<rt>じかんわり</rt></ruby>",
-    "<ruby>風船<rt>ふうせん</rt></ruby>"
+    "<ruby>風船<rt>ふうせん</rt></ruby>",
+    "<ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>った<ruby>窓<rt>まど</rt></ruby>"
    ],
    "correcta": 2
   }

@@ -7,22 +7,22 @@
   {
    "p": "<ruby>単語<rt>たんご</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えるのに、<ruby>何<rt>なに</rt></ruby>が<ruby>確<rt>たし</rt></ruby>かですか。",
    "opciones": [
-    "<ruby>回<rt>かい</rt></ruby><ruby>数<rt>すう</rt></ruby>を<ruby>重<rt>かさ</rt></ruby>ねること",
     "<ruby>一度<rt>いちど</rt></ruby>で<ruby>覚<rt>おぼ</rt></ruby>えること",
+    "<ruby>使<rt>つか</rt></ruby>わないこと",
     "<ruby>書<rt>か</rt></ruby>くこと",
-    "<ruby>使<rt>つか</rt></ruby>わないこと"
+    "<ruby>回<rt>かい</rt></ruby><ruby>数<rt>すう</rt></ruby>を<ruby>重<rt>かさ</rt></ruby>ねること"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>同<rt>おな</rt></ruby>じところでまちがえるのは、なぜわるくないのですか。",
    "opciones": [
-    "だれでもまちがえるから",
     "そこがよわいと<ruby>分<rt>わ</rt></ruby>かるから",
     "<ruby>時間<rt>じかん</rt></ruby>がかかるから",
+    "だれでもまちがえるから",
     "わすれるから"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "When memorising vocabulary, trying to learn it all at once is impossible. Piling up repetitions is more reliable. Even words I hardly ever use end up coming out by themselves if I repeat them. It goes slowly, but they really do add up. Getting the same point wrong many times isn't necessarily bad. Because each time you find out that's where you're weak, next time you can be careful. I think it's only after forgetting something once that you really learn it."

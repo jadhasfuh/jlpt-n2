@@ -7,32 +7,32 @@
   {
    "p": "しごとは <ruby>一<rt>いっ</rt></ruby>しゅうかんに なんかいですか。",
    "opciones": [
+    "<ruby>五<rt>ご</rt></ruby>かい",
     "<ruby>三<rt>さん</rt></ruby>かい",
-    "<ruby>毎日<rt>まいにち</rt></ruby>",
     "<ruby>一<rt>いっ</rt></ruby>かい",
-    "<ruby>五<rt>ご</rt></ruby>かい"
-   ],
-   "correcta": 0
-  },
-  {
-   "p": "かえってから なにが できるように なりましたか。",
-   "opciones": [
-    "そうじ",
-    "べんきょう",
-    "りょうり",
-    "ピザを <ruby>作<rt>さく</rt></ruby>る こと"
+    "<ruby>毎日<rt>まいにち</rt></ruby>"
    ],
    "correcta": 1
   },
   {
-   "p": "ゴンサさんは なんと 言いますか。",
+   "p": "かえってから なにが できるように なりましたか。",
    "opciones": [
-    "「つかれて いる」",
-    "「おかねが ある」",
-    "「ピザの においが する」",
-    "「ピザを ください」"
+    "りょうり",
+    "そうじ",
+    "べんきょう",
+    "ピザを <ruby>作<rt>さく</rt></ruby>る こと"
    ],
    "correcta": 2
+  },
+  {
+   "p": "ゴンサさんは なんと 言いますか。",
+   "opciones": [
+    "「ピザを ください」",
+    "「つかれて いる」",
+    "「おかねが ある」",
+    "「ピザの においが する」"
+   ],
+   "correcta": 3
   }
  ],
  "traduccion_en": "I work three times a week. At first I was wrecked every time and fell asleep the moment I got home. Little by little I've found time to study after getting back. Now and then they give me a pizza from the staff meal. Gonza says: «mate, you smell of pizza». On working days I have less time, but the day feels fuller."

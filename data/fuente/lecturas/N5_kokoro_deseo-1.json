@@ -7,32 +7,32 @@
   {
    "p": "カルロスさんは だれに なにを 言いたいですか。",
    "opciones": [
-    "アンナさんに ほんとうの きもち",
-    "ジャンに しごとの こと",
     "ゴンサに おかねの こと",
-    "ジャンに <ruby>日本語<rt>にほんご</rt></ruby>の こと"
+    "ジャンに <ruby>日本語<rt>にほんご</rt></ruby>の こと",
+    "ジャンに しごとの こと",
+    "アンナさんに ほんとうの きもち"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "ジャンさんは なんと 言いましたか。",
    "opciones": [
-    "「言わない ほうが いい」",
     "「かおで わかるよ」",
+    "「言わない ほうが いい」",
     "「まだ はやい」",
     "「はやく <ruby>言<rt>い</rt></ruby>え」"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "その よる、なにを しましたか。",
    "opciones": [
-    "でんわを しました",
-    "ねました",
+    "ゴンサに そうだんしました",
     "じしょを <ruby>開<rt>あ</rt></ruby>きました",
-    "ゴンサに そうだんしました"
+    "でんわを しました",
+    "ねました"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "I felt like telling Anna what I really feel. But with my Japanese that's hard. Just saying «I like you» sounds like a child talking. I asked Jean and he said: «even if you speak badly, it shows on your face». Gonza only said: «just tell her». That night I opened the dictionary."

@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>高校<rt>こうこう</rt></ruby>の<ruby>教師<rt>きょうし</rt></ruby>",
     "<ruby>講師<rt>こうし</rt></ruby>",
-    "<ruby>助教授<rt>じょきょうじゅ</rt></ruby>"
+    "<ruby>助教授<rt>じょきょうじゅ</rt></ruby>",
+    "<ruby>大学院<rt>だいがくいん</rt></ruby>の<ruby>学生<rt>がくせい</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>学力<rt>がくりょく</rt></ruby>",
     "<ruby>学部<rt>がくぶ</rt></ruby>で<ruby>学<rt>まな</rt></ruby>んだこと",
-    "サークル"
+    "サークル",
+    "<ruby>校庭<rt>こうてい</rt></ruby>での<ruby>話<rt>はなし</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>旅行<rt>りょこう</rt></ruby>する",
     "<ruby>働<rt>はたら</rt></ruby>く",
-    "<ruby>学術<rt>がくじゅつ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む"
+    "<ruby>学術<rt>がくじゅつ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む",
+    "ゼミに<ruby>入<rt>い</rt></ruby>る"
    ],
    "correcta": 2
   }

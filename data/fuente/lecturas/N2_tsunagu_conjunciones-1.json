@@ -7,29 +7,32 @@
   {
    "p": "<ruby>会<rt>かい</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありましたか。",
    "opciones": [
-    "<ruby>問答<rt>もんどう</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>",
     "<ruby>食事<rt>しょくじ</rt></ruby>",
-    "<ruby>休<rt>やす</rt></ruby>み"
+    "<ruby>休<rt>やす</rt></ruby>み",
+    "<ruby>資料<rt>しりょう</rt></ruby>を<ruby>配<rt>くば</rt></ruby>る<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>問答<rt>もんどう</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>で<ruby>準備<rt>じゅんび</rt></ruby>してきた<ruby>人<rt>ひと</rt></ruby>だと<ruby>分<rt>わ</rt></ruby>かりましたか。",
    "opciones": [
-    "<ruby>顔<rt>かお</rt></ruby>",
     "<ruby>話<rt>はな</rt></ruby>し<ruby>方<rt>かた</rt></ruby>",
-    "<ruby>資料<rt>しりょう</rt></ruby>"
+    "<ruby>顔<rt>かお</rt></ruby>",
+    "<ruby>資料<rt>しりょう</rt></ruby>",
+    "<ruby>持<rt>も</rt></ruby>ってきた<ruby>資料<rt>しりょう</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>来月<rt>らいげつ</rt></ruby><ruby>以降<rt>いこう</rt></ruby>のことは？",
    "opciones": [
+    "<ruby>来月<rt>らいげつ</rt></ruby>から<ruby>始<rt>はじ</rt></ruby>まる",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>決<rt>き</rt></ruby>まっていない",
     "<ruby>決<rt>き</rt></ruby>まった",
-    "<ruby>中止<rt>ちゅうし</rt></ruby>",
-    "<ruby>何<rt>なに</rt></ruby>も<ruby>決<rt>き</rt></ruby>まっていない"
+    "<ruby>中止<rt>ちゅうし</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "At the end of the meeting there was a question session. It was a matter where interests are divided, and all sorts of opinions came out. From the way people spoke you could tell at once who had come prepared. That said, about what happens from next month nothing has been decided. In any case, there's nothing better than giving notice in good time. And so, everyone left with the documents and the rest of it."

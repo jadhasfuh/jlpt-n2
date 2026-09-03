@@ -7,22 +7,22 @@
   {
    "p": "<ruby>今年<rt>ことし</rt></ruby>、なぜ<ruby>収穫<rt>しゅうかく</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかったですか。",
    "opciones": [
-    "<ruby>天候<rt>てんこう</rt></ruby>のせい",
     "<ruby>人<rt>ひと</rt></ruby>がたりない",
     "<ruby>値段<rt>ねだん</rt></ruby>が<ruby>高<rt>たか</rt></ruby>い",
-    "はたけがない"
+    "はたけがない",
+    "<ruby>天候<rt>てんこう</rt></ruby>のせい"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>に<ruby>教<rt>おそ</rt></ruby>わったことは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>菓子<rt>かし</rt></ruby>をたべること",
     "<ruby>穀物<rt>こくもつ</rt></ruby>と<ruby>野菜<rt>やさい</rt></ruby>をきちんととること",
-    "<ruby>昼食<rt>ちゅうしょく</rt></ruby>をぬくこと",
-    "<ruby>食欲<rt>しょくよく</rt></ruby>をおさえること"
+    "<ruby>食欲<rt>しょくよく</rt></ruby>をおさえること",
+    "<ruby>菓子<rt>かし</rt></ruby>をたべること",
+    "<ruby>昼食<rt>ちゅうしょく</rt></ruby>をぬくこと"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "They say this year's wheat harvest has been poor. Because of the weather, the crops grew badly. Food prices rising is no more than the consequence. If I've ended up eating only sweet things at midday it's because my hand goes there by itself, but I know that, thinking about nutrition, it isn't right. Just as my grandmother taught me: eat plenty of grains and vegetables. It's precisely when you have no appetite that how you choose your food matters."

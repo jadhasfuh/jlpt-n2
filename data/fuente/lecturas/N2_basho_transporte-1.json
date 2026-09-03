@@ -7,29 +7,32 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>に<ruby>乗車<rt>じょうしゃ</rt></ruby>しましたか。",
    "opciones": [
+    "<ruby>往復<rt>おうふく</rt></ruby>のバス",
     "モノレール",
     "<ruby>私鉄<rt>してつ</rt></ruby>",
     "ヘリコプター"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>通路<rt>つうろ</rt></ruby>から<ruby>何<rt>なに</rt></ruby>が<ruby>見<rt>み</rt></ruby>えましたか。",
    "opciones": [
     "<ruby>貨物<rt>かもつ</rt></ruby>の<ruby>船<rt>ふね</rt></ruby>",
+    "<ruby>広場<rt>ひろば</rt></ruby>",
     "<ruby>線路<rt>せんろ</rt></ruby>と<ruby>大通<rt>おおどお</rt></ruby>りの<ruby>交差<rt>こうさ</rt></ruby>",
-    "<ruby>広場<rt>ひろば</rt></ruby>"
+    "プラットホームと<ruby>通路<rt>つうろ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>車掌<rt>しゃしょう</rt></ruby>さんはどうでしたか。",
    "opciones": [
     "<ruby>怒<rt>おこ</rt></ruby>っていた",
     "<ruby>来<rt>こ</rt></ruby>なかった",
+    "きっぷを<ruby>売<rt>う</rt></ruby>ってくれた",
     "やさしかった"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "In the morning I bought a return ticket on the station platform. After much hesitation, instead of the private railway I got on the monorail. Standing in the aisle I looked outside: the tracks and the main avenue crossed each other. The inspector came to check the ticket and explained everything to me kindly. I got off at the next station and walked to the sea."

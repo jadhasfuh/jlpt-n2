@@ -7,29 +7,32 @@
   {
    "p": "<ruby>赤<rt>あか</rt></ruby>ちゃんはまず<ruby>何<rt>なに</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えますか。",
    "opciones": [
-    "<ruby>這<rt>は</rt></ruby>うこと",
+    "<ruby>歩<rt>ある</rt></ruby>くこと",
     "<ruby>走<rt>はし</rt></ruby>ること",
-    "<ruby>歩<rt>ある</rt></ruby>くこと"
+    "<ruby>手<rt>て</rt></ruby>を<ruby>伸<rt>の</rt></ruby>ばすこと",
+    "<ruby>這<rt>は</rt></ruby>うこと"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>母親<rt>ははおや</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
-    "<ruby>赤<rt>あか</rt></ruby>ちゃんを<ruby>抱<rt>だ</rt></ruby>いた",
     "ボールを<ruby>転<rt>ころ</rt></ruby>がした",
-    "<ruby>走<rt>はし</rt></ruby>った"
+    "<ruby>赤<rt>あか</rt></ruby>ちゃんを<ruby>抱<rt>だ</rt></ruby>いた",
+    "<ruby>走<rt>はし</rt></ruby>った",
+    "しゃがんで<ruby>見<rt>み</rt></ruby>ていた"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "ボールはどうなりましたか。",
    "opciones": [
     "<ruby>止<rt>と</rt></ruby>まった",
-    "<ruby>消<rt>き</rt></ruby>えた",
-    "<ruby>坂<rt>さか</rt></ruby>を<ruby>転<rt>ころ</rt></ruby>がった"
+    "<ruby>坂<rt>さか</rt></ruby>を<ruby>転<rt>ころ</rt></ruby>がった",
+    "<ruby>赤<rt>あか</rt></ruby>ちゃんが<ruby>拾<rt>ひろ</rt></ruby>った",
+    "<ruby>消<rt>き</rt></ruby>えた"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "From the point of view of bodily movement, it seems babies learn to crawl first. In the park, when the mother crouched down and rolled a ball, the baby bent forward and went after it. The ball rolled down the slope and wouldn't stop. In my experience, at that age children reach out for anything."

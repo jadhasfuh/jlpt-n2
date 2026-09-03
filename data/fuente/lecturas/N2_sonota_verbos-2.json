@@ -7,29 +7,32 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>の<ruby>係<rt>かかり</rt></ruby>になりましたか。",
    "opciones": [
-    "<ruby>撮影<rt>さつえい</rt></ruby>",
     "<ruby>司会<rt>しかい</rt></ruby>",
-    "<ruby>行列<rt>ぎょうれつ</rt></ruby>"
+    "<ruby>行列<rt>ぎょうれつ</rt></ruby>",
+    "<ruby>行列<rt>ぎょうれつ</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby>",
+    "<ruby>撮影<rt>さつえい</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>朝<rt>あさ</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>暖<rt>あたた</rt></ruby>かい",
     "<ruby>凍<rt>こご</rt></ruby>えるほど<ruby>寒<rt>さむ</rt></ruby>い",
+    "<ruby>息<rt>いき</rt></ruby>が<ruby>白<rt>しろ</rt></ruby>くならない",
+    "<ruby>暖<rt>あたた</rt></ruby>かい",
     "<ruby>雨<rt>あめ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "どうして<ruby>詫<rt>わ</rt></ruby>びましたか。",
    "opciones": [
-    "<ruby>撮<rt>と</rt></ruby>れなかったから",
     "<ruby>休<rt>やす</rt></ruby>んだから",
-    "カメラが<ruby>詰<rt>つ</rt></ruby>まって<ruby>遅<rt>おく</rt></ruby>れたから"
+    "カメラが<ruby>詰<rt>つ</rt></ruby>まって<ruby>遅<rt>おく</rt></ruby>れたから",
+    "<ruby>休<rt>やす</rt></ruby>みを<ruby>削<rt>けず</rt></ruby>ったから",
+    "<ruby>撮<rt>と</rt></ruby>れなかったから"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "I was put in charge of photographing the festival procession. The presenter stood on the other side of the street so as not to block people's way. In the morning it was freezing cold and your breath rose white. The camera jammed, I fell behind and apologised to everyone. Since I'd prepared for this to the point of cutting my own breaks, I wanted to photograph it to the end."

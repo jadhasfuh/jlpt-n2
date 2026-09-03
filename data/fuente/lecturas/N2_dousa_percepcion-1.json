@@ -7,29 +7,32 @@
   {
    "p": "<ruby>窓<rt>まど</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けると<ruby>何<rt>なに</rt></ruby>がしましたか。",
    "opciones": [
-    "<ruby>花<rt>はな</rt></ruby>の<ruby>匂<rt>にお</rt></ruby>い",
     "<ruby>雨<rt>あめ</rt></ruby>の<ruby>音<rt>おと</rt></ruby>",
-    "<ruby>声<rt>こえ</rt></ruby>"
+    "<ruby>声<rt>こえ</rt></ruby>",
+    "<ruby>花<rt>はな</rt></ruby>の<ruby>匂<rt>にお</rt></ruby>い",
+    "<ruby>工事<rt>こうじ</rt></ruby>の<ruby>雑音<rt>ざつおん</rt></ruby>だけ"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>弟<rt>おとうと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていましたか。",
    "opciones": [
+    "<ruby>明日<rt>あした</rt></ruby>の<ruby>宿題<rt>しゅくだい</rt></ruby>の<ruby>用意<rt>ようい</rt></ruby>",
     "<ruby>寝<rt>ね</rt></ruby>ていた",
-    "<ruby>宿題<rt>しゅくだい</rt></ruby>",
-    "<ruby>食事<rt>しょくじ</rt></ruby>"
+    "<ruby>食事<rt>しょくじ</rt></ruby>",
+    "<ruby>宿題<rt>しゅくだい</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "<ruby>今<rt>いま</rt></ruby>やると、どうなりますか。",
    "opciones": [
-    "<ruby>叱<rt>しか</rt></ruby>られる",
+    "<ruby>朝<rt>あさ</rt></ruby><ruby>急<rt>いそ</rt></ruby>がなくて<ruby>済<rt>す</rt></ruby>む",
     "<ruby>疲<rt>つか</rt></ruby>れる",
-    "<ruby>朝<rt>あさ</rt></ruby><ruby>急<rt>いそ</rt></ruby>がなくて<ruby>済<rt>す</rt></ruby>む"
+    "<ruby>明日<rt>あした</rt></ruby>やらなくて<ruby>済<rt>す</rt></ruby>む",
+    "<ruby>叱<rt>しか</rt></ruby>られる"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "When I opened the window the smell of flowers reached me from somewhere. The noise of distant roadworks echoed. My brother was doing his homework, grumbling. Since he said «I'll do it tomorrow», I explained that if he did it now he'd save himself the morning rush. As a father, I felt these things have to be said."

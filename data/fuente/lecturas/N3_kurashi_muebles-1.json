@@ -7,22 +7,22 @@
   {
    "p": "<ruby>台<rt>だい</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がはってありましたか。",
    "opciones": [
-    "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いた<ruby>札<rt>ふだ</rt></ruby>",
-    "しゃしん",
     "<ruby>絵<rt>え</rt></ruby>",
-    "カレンダー"
+    "しゃしん",
+    "カレンダー",
+    "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いた<ruby>札<rt>ふだ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>があらわれると<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>年<rt>とし</rt></ruby>",
     "<ruby>道具<rt>どうぐ</rt></ruby>のならび<ruby>方<rt>かた</rt></ruby>にその<ruby>人<rt>ひと</rt></ruby>のくらし",
     "<ruby>台所<rt>だいどころ</rt></ruby>のひろさ",
+    "<ruby>年<rt>とし</rt></ruby>",
     "<ruby>料理<rt>りょうり</rt></ruby>のうまさ"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "In my grandmother's kitchen old pots and plates are lined up. The vinegar and the salt in their tins are all in the same place. On the worktop there were labels stuck on with the names written out. That is, she had it arranged so you could see at a glance where everything is. As a child I used to take a basket of food from here and go into the garden to watch the birds. A person's life is reflected in how the utensils are arranged too."

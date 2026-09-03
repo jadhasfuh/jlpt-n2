@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>値段<rt>ねだん</rt></ruby>",
     "<ruby>待<rt>ま</rt></ruby>ち<ruby>時間<rt>じかん</rt></ruby>",
-    "<ruby>店員<rt>てんいん</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>"
+    "<ruby>店員<rt>てんいん</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>",
+    "<ruby>毎日<rt>まいにち</rt></ruby><ruby>来<rt>く</rt></ruby>る<ruby>客<rt>きゃく</rt></ruby>の<ruby>数<rt>かず</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>値段<rt>ねだん</rt></ruby>",
     "<ruby>待<rt>ま</rt></ruby>ち<ruby>時間<rt>じかん</rt></ruby>",
-    "<ruby>場所<rt>ばしょ</rt></ruby>"
+    "<ruby>場所<rt>ばしょ</rt></ruby>",
+    "<ruby>店員<rt>てんいん</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>客<rt>きゃく</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない",
     "<ruby>回答<rt>かいとう</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かった",
-    "<ruby>店員<rt>てんいん</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかった"
+    "<ruby>店員<rt>てんいん</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかった",
+    "<ruby>値段<rt>ねだん</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby>だったこと"
    ],
    "correcta": 2
   }

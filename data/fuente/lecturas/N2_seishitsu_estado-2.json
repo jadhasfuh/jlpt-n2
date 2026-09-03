@@ -7,29 +7,32 @@
   {
    "p": "<ruby>店<rt>みせ</rt></ruby>の<ruby>冷凍<rt>れいとう</rt></ruby>の<ruby>棚<rt>たな</rt></ruby>はどうなりましたか。",
    "opciones": [
-    "<ruby>増大<rt>ぞうだい</rt></ruby>した",
     "<ruby>小<rt>ちい</rt></ruby>さくなった",
-    "なくなった"
+    "なくなった",
+    "<ruby>増大<rt>ぞうだい</rt></ruby>した",
+    "<ruby>種類<rt>しゅるい</rt></ruby>だけ<ruby>減<rt>へ</rt></ruby>った"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>質<rt>しつ</rt></ruby>はどうでしたか。",
    "opciones": [
+    "<ruby>低下<rt>ていか</rt></ruby>した",
+    "<ruby>整備<rt>せいび</rt></ruby>のせいで<ruby>低下<rt>ていか</rt></ruby>した",
     "<ruby>同<rt>おな</rt></ruby>じ",
-    "<ruby>前<rt>まえ</rt></ruby>より<ruby>良<rt>よ</rt></ruby>い",
-    "<ruby>低下<rt>ていか</rt></ruby>した"
+    "<ruby>前<rt>まえ</rt></ruby>より<ruby>良<rt>よ</rt></ruby>い"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>に<ruby>驚<rt>おどろ</rt></ruby>きますか。",
    "opciones": [
-    "<ruby>種類<rt>しゅるい</rt></ruby>",
+    "できあがりの<ruby>早<rt>はや</rt></ruby>さ",
+    "<ruby>乾電池<rt>かんでんち</rt></ruby>の<ruby>循環<rt>じゅんかん</rt></ruby>",
     "<ruby>値段<rt>ねだん</rt></ruby>",
-    "できあがりの<ruby>早<rt>はや</rt></ruby>さ"
+    "<ruby>種類<rt>しゅるい</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "The shop's frozen section grew and they added more varieties. I feared the quality would drop, but thanks to the overhaul it's better than before. For basic-level cooking, this is more than enough. It isn't that they can be reused in a cycle like a battery, but the base has been strengthened. Every time I see something new, I'm surprised how quickly it's ready."

@@ -7,22 +7,22 @@
   {
    "p": "<ruby>面接<rt>めんせつ</rt></ruby>のために<ruby>何<rt>なに</rt></ruby>を<ruby>練習<rt>れんしゅう</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>名刺<rt>めいし</rt></ruby>のわたし<ruby>方<rt>かた</rt></ruby>",
-    "<ruby>相談<rt>そうだん</rt></ruby>のしかた",
     "<ruby>報告<rt>ほうこく</rt></ruby>のしかた",
-    "<ruby>返事<rt>へんじ</rt></ruby>"
+    "<ruby>相談<rt>そうだん</rt></ruby>のしかた",
+    "<ruby>返事<rt>へんじ</rt></ruby>",
+    "<ruby>名刺<rt>めいし</rt></ruby>のわたし<ruby>方<rt>かた</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>が<em class=\"g\">むしろ</em><ruby>大事<rt>だいじ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>うのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>給料<rt>きゅうりょう</rt></ruby>",
     "どんな<ruby>同僚<rt>どうりょう</rt></ruby>とはたらくか",
     "<ruby>通勤<rt>つうきん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>",
-    "<ruby>責任<rt>せきにん</rt></ruby>のおもさ"
+    "<ruby>責任<rt>せきにん</rt></ruby>のおもさ",
+    "<ruby>給料<rt>きゅうりょう</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "I went to a job interview. I even practised how to hand over my business card. When choosing a job, the salary and the commuting time also worry you. But what may matter more is which colleagues you're going to work with. Even in a post with a lot of responsibility, if you have someone to consult, you get through. They say that even the way you report changes completely depending on the team. I'd like an answer as soon as possible, but with these things there's nothing for it but to wait."

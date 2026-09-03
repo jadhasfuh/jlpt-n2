@@ -7,22 +7,22 @@
   {
    "p": "<ruby>手紙<rt>てがみ</rt></ruby>には<ruby>何<rt>なに</rt></ruby>と<ruby>書<rt>か</rt></ruby>いてありましたか。",
    "opciones": [
-    "あなたがいてくれてよかった",
-    "がんばって",
+    "ありがとう",
     "また<ruby>会<rt>あ</rt></ruby>おう",
-    "ありがとう"
+    "がんばって",
+    "あなたがいてくれてよかった"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって<ruby>幸<rt>しあわ</rt></ruby>せとは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>希望<rt>きぼう</rt></ruby>どおりのけっかが<ruby>出<rt>で</rt></ruby>ること",
     "こういう<ruby>手紙<rt>てがみ</rt></ruby>がとどくこと",
-    "<ruby>恋<rt>こい</rt></ruby>をすること",
-    "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>終<rt>お</rt></ruby>わること"
+    "<ruby>希望<rt>きぼう</rt></ruby>どおりのけっかが<ruby>出<rt>で</rt></ruby>ること",
+    "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>終<rt>お</rt></ruby>わること",
+    "<ruby>恋<rt>こい</rt></ruby>をすること"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "A letter came from someone I'd worked with. It said: «how lucky that you were there». When you receive words like that, you feel you've lived up to what was expected of you. Being trusted as a colleague is the greatest joy. It isn't a strong feeling like love or infatuation, but something calmer and more pleasant. Happiness may not be results turning out as you hoped, but a letter like this arriving. While I wrote the reply a smile slipped out."

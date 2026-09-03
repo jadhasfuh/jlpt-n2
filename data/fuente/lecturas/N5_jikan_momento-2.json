@@ -7,32 +7,32 @@
   {
    "p": "どのくらい はたらいて、きゅうりょうを もらいましたか。",
    "opciones": [
-    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
+    "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
     "<ruby>一<rt>いっ</rt></ruby>しゅうかん",
     "<ruby>一年<rt>いちねん</rt></ruby>",
-    "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>"
+    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "ふうとうを <ruby>開<rt>あ</rt></ruby>ける まえに どう しましたか。",
    "opciones": [
-    "ともだちに <ruby>見<rt>み</rt></ruby>せました",
     "すこし まちました",
+    "<ruby>両親<rt>りょうしん</rt></ruby>に でんわを しました",
     "すぐ <ruby>開<rt>あ</rt></ruby>けました",
-    "<ruby>両親<rt>りょうしん</rt></ruby>に でんわを しました"
+    "ともだちに <ruby>見<rt>み</rt></ruby>せました"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "つぎの <ruby>日<rt>ひ</rt></ruby>、はじめに なにを しましたか。",
    "opciones": [
     "かいもの",
-    "しごと",
     "<ruby>両親<rt>りょうしん</rt></ruby>に でんわ",
+    "しごと",
     "ふうとうを <ruby>開<rt>あ</rt></ruby>けました"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "After a month working I got my first pay. Before opening the envelope I stood still for a moment. Inside was money I had earned myself. I wanted to spend it and to not touch it at the same time. It was late that day and I didn't go out. The next day, the first thing I did was call my parents."

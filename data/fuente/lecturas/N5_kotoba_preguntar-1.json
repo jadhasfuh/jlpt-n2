@@ -7,32 +7,32 @@
   {
    "p": "<ruby>夜<rt>よる</rt></ruby> <ruby>八時<rt>はちじ</rt></ruby>に、なにが ありませんでしたか。",
    "opciones": [
-    "とまる ところ",
-    "たべもの",
+    "みせの <ruby>人<rt>ひと</rt></ruby>",
     "おかね",
-    "みせの <ruby>人<rt>ひと</rt></ruby>"
+    "たべもの",
+    "とまる ところ"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "みせの <ruby>人<rt>ひと</rt></ruby>は なにを すすめましたか。",
    "opciones": [
-    "<ruby>駅<rt>えき</rt></ruby>",
     "ネットカフェ",
     "ホテル",
-    "ゴンサの ともだちの <ruby>家<rt>いえ</rt></ruby>"
+    "ゴンサの ともだちの <ruby>家<rt>いえ</rt></ruby>",
+    "<ruby>駅<rt>えき</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "そこは どんな ところだと 言いましたか。",
    "opciones": [
-    "たかい",
-    "とおい",
+    "いっぱいで <ruby>入<rt>い</rt></ruby>れない",
     "やすくて <ruby>朝<rt>あさ</rt></ruby>まで いられる",
-    "いっぱいで <ruby>入<rt>い</rt></ruby>れない"
+    "たかい",
+    "とおい"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "By eight in the evening we still had nowhere to sleep. The hotels were either full or far too expensive. Gonza asked someone in a shop for help and about places nearby. The man answered: «what about an internet café?». We didn't know the word. «It's cheap. You can stay until morning», he explained."

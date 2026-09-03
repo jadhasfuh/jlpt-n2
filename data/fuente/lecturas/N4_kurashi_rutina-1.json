@@ -7,22 +7,22 @@
   {
    "p": "いま、<ruby>朝<rt>あさ</rt></ruby>はどうですか。",
    "opciones": [
-    "めざましより<ruby>先<rt>さき</rt></ruby>に<ruby>目<rt>め</rt></ruby>がさめる",
     "めざましで<ruby>起<rt>お</rt></ruby>きる",
+    "めざましより<ruby>先<rt>さき</rt></ruby>に<ruby>目<rt>め</rt></ruby>がさめる",
     "<ruby>家族<rt>かぞく</rt></ruby>が<ruby>起<rt>お</rt></ruby>こす",
     "<ruby>眠<rt>ねむ</rt></ruby>ったまま"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "つづけやすくなったのはなぜですか。",
    "opciones": [
+    "<ruby>家事<rt>かじ</rt></ruby>がすきだから",
     "はやくねるから",
     "だれかのためにやるから",
-    "<ruby>家事<rt>かじ</rt></ruby>がすきだから",
     "<ruby>夢<rt>ゆめ</rt></ruby>を<ruby>見<rt>み</rt></ruby>るから"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "Getting up at six every morning has become a habit for me. At first, even when the alarm went off, I'd fall back asleep. There were days when my family woke me. Now I wake up before the alarm. If I get the housework done in the morning, the day feels longer. When you repeat the same thing, sometimes you even do it in your sleep. I've also started making my sister her morning tea. When you do it for someone, it's easier to keep up."

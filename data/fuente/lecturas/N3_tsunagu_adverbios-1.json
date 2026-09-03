@@ -7,22 +7,22 @@
   {
    "p": "<ruby>風<rt>かぜ</rt></ruby>がふいたとき、この<ruby>人<rt>ひと</rt></ruby>はどうしましたか。",
    "opciones": [
-    "<ruby>思<rt>おも</rt></ruby>わず<ruby>手<rt>て</rt></ruby>を<ruby>出<rt>だ</rt></ruby>した",
-    "<ruby>写真<rt>しゃしん</rt></ruby>をとった",
+    "<ruby>声<rt>こえ</rt></ruby>をかけた",
     "<ruby>何<rt>なに</rt></ruby>もしなかった",
-    "<ruby>声<rt>こえ</rt></ruby>をかけた"
+    "<ruby>思<rt>おも</rt></ruby>わず<ruby>手<rt>て</rt></ruby>を<ruby>出<rt>だ</rt></ruby>した",
+    "<ruby>写真<rt>しゃしん</rt></ruby>をとった"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>が<ruby>長<rt>なが</rt></ruby>くおぼえているのは、どんなことですか。",
    "opciones": [
+    "<ruby>駅<rt>えき</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>",
     "<ruby>電車<rt>でんしゃ</rt></ruby>のかたち",
-    "<ruby>共<rt>とも</rt></ruby>に<ruby>同<rt>おな</rt></ruby>じ<ruby>時間<rt>じかん</rt></ruby>にいたという<ruby>感<rt>かん</rt></ruby>じ",
     "<ruby>帽子<rt>ぼうし</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>",
-    "<ruby>駅<rt>えき</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>"
+    "<ruby>共<rt>とも</rt></ruby>に<ruby>同<rt>おな</rt></ruby>じ<ruby>時間<rt>じかん</rt></ruby>にいたという<ruby>感<rt>かん</rt></ruby>じ"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "On the station platform, a child was staring at the trains. He stayed standing in the same spot the whole time, without moving. When the wind suddenly blew and his cap was about to fly off, my hand moved by itself. His mother gave me a proper bow of the head. That was all we said to each other directly. It isn't something I'll remember for ever, but without noticing I've started remembering that day now and then. Perhaps because it was, above all, a natural exchange. More than simple kindness, the feeling of having been together in the same moment is what, unexpectedly, lasts longer."

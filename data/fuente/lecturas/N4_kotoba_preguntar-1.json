@@ -7,22 +7,22 @@
   {
    "p": "なぜ、<ruby>相談<rt>そうだん</rt></ruby>できませんでしたか。",
    "opciones": [
+    "<ruby>先輩<rt>せんぱい</rt></ruby>がこわいから",
     "<ruby>答<rt>こた</rt></ruby>えを<ruby>知<rt>し</rt></ruby>っていたから",
     "<ruby>時間<rt>じかん</rt></ruby>がないから",
-    "「じぶんのことはじぶんで」と<ruby>思<rt>おも</rt></ruby>っていたから",
-    "<ruby>先輩<rt>せんぱい</rt></ruby>がこわいから"
+    "「じぶんのことはじぶんで」と<ruby>思<rt>おも</rt></ruby>っていたから"
    ],
-   "correcta": 2
+   "correcta": 3
   },
   {
    "p": "いちばんたすけになったのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>先輩<rt>せんぱい</rt></ruby>のやさしさ",
-    "<ruby>答<rt>こた</rt></ruby>えそのもの",
+    "ひとりではないと<ruby>分<rt>わ</rt></ruby>かったこと",
     "<ruby>返事<rt>へんじ</rt></ruby>のはやさ",
-    "ひとりではないと<ruby>分<rt>わ</rt></ruby>かったこと"
+    "<ruby>先輩<rt>せんぱい</rt></ruby>のやさしさ",
+    "<ruby>答<rt>こた</rt></ruby>えそのもの"
    ],
-   "correcta": 3
+   "correcta": 0
   }
  ],
  "traduccion_en": "When the answer won't come however much you turn it over, you can talk it through with someone. But I found that very hard. Because I thought my problems had to be solved by me. Last month I asked a senior colleague for the first time. He answered straight away and said: «for that sort of thing, ask me whenever you like». More than the answer itself, what helped was understanding that I wasn't alone. Now I'm able to ask early."

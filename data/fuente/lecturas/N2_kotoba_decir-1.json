@@ -7,29 +7,32 @@
   {
    "p": "<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>何<rt>なに</rt></ruby>がありましたか。",
    "opciones": [
-    "<ruby>人<rt>ひと</rt></ruby>が<ruby>倒<rt>たお</rt></ruby>れた",
+    "<ruby>救急車<rt>きゅうきゅうしゃ</rt></ruby>が<ruby>止<rt>と</rt></ruby>まった",
+    "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>った",
     "<ruby>店<rt>みせ</rt></ruby>が<ruby>開<rt>あ</rt></ruby>いた",
-    "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>った"
+    "<ruby>人<rt>ひと</rt></ruby>が<ruby>倒<rt>たお</rt></ruby>れた"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "「<ruby>私<rt>わたし</rt></ruby>」はどうしましたか。",
    "opciones": [
-    "<ruby>呼<rt>よ</rt></ruby>んだ",
     "ただ<ruby>立<rt>た</rt></ruby>っていた",
-    "<ruby>走<rt>はし</rt></ruby>った"
+    "<ruby>囁<rt>ささや</rt></ruby>いた",
+    "<ruby>走<rt>はし</rt></ruby>った",
+    "<ruby>呼<rt>よ</rt></ruby>んだ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>隣<rt>となり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
+    "<ruby>救急車<rt>きゅうきゅうしゃ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>べ",
+    "あわてても<ruby>助<rt>たす</rt></ruby>からない",
     "<ruby>早<rt>はや</rt></ruby>く<ruby>行<rt>い</rt></ruby>け",
-    "<ruby>黙<rt>だま</rt></ruby>れ",
-    "あわてても<ruby>助<rt>たす</rt></ruby>からない"
+    "<ruby>黙<rt>だま</rt></ruby>れ"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "In front of the station someone collapsed and another person shouted to call people over. An employee from a nearby shop called the ambulance. I, unable to do anything, just stood there. The person next to me whispered quietly: «getting flustered isn't going to save anyone». Afterwards, the teacher explained to us with examples how to act in cases like that."

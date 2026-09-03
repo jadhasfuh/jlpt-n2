@@ -7,29 +7,32 @@
   {
    "p": "<ruby>研修<rt>けんしゅう</rt></ruby>で<ruby>何<rt>なに</rt></ruby>の<ruby>解説<rt>かいせつ</rt></ruby>を<ruby>受<rt>う</rt></ruby>けましたか。",
    "opciones": [
-    "<ruby>機械<rt>きかい</rt></ruby>の<ruby>性能<rt>せいのう</rt></ruby>",
+    "<ruby>教養<rt>きょうよう</rt></ruby>",
+    "<ruby>道具<rt>どうぐ</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>",
     "<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>歴史<rt>れきし</rt></ruby>",
-    "<ruby>教養<rt>きょうよう</rt></ruby>"
+    "<ruby>機械<rt>きかい</rt></ruby>の<ruby>性能<rt>せいのう</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "どうして<ruby>説明<rt>せつめい</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりやすかったですか。",
    "opciones": [
-    "<ruby>短<rt>みじか</rt></ruby>かったから",
     "<ruby>先生<rt>せんせい</rt></ruby>が<ruby>元<rt>もと</rt></ruby><ruby>技師<rt>ぎし</rt></ruby>だから",
-    "<ruby>本<rt>ほん</rt></ruby>があったから"
+    "<ruby>本<rt>ほん</rt></ruby>があったから",
+    "<ruby>短<rt>みじか</rt></ruby>かったから",
+    "<ruby>大学<rt>だいがく</rt></ruby>で<ruby>習<rt>なら</rt></ruby>ったから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "どうして<ruby>遅<rt>おく</rt></ruby>れましたか。",
    "opciones": [
-    "<ruby>休<rt>やす</rt></ruby>んだから",
     "<ruby>寝<rt>ね</rt></ruby>ていたから",
-    "<ruby>道具<rt>どうぐ</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>を<ruby>心得<rt>こころえ</rt></ruby>ていなかったから"
+    "<ruby>道具<rt>どうぐ</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>を<ruby>心得<rt>こころえ</rt></ruby>ていなかったから",
+    "<ruby>休<rt>やす</rt></ruby>んだから",
+    "<ruby>実習<rt>じっしゅう</rt></ruby>がなかったから"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "On the company training course they explained the performance of the machines. It was like what I studied on my degree, and since the instructor was a former engineer, the explanation was very easy to follow. In the afternoon came the practical, and just from not being confident with the tools I fell behind on my own. I thought that practical work is learnt more with the body than with theory."

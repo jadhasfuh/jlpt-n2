@@ -7,29 +7,32 @@
   {
    "p": "どうして<ruby>留守番<rt>るすばん</rt></ruby>をしましたか。",
    "opciones": [
-    "<ruby>家主<rt>やぬし</rt></ruby>が<ruby>別荘<rt>べっそう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>ったから",
+    "<ruby>仕事<rt>しごと</rt></ruby>だから",
     "<ruby>雨<rt>あめ</rt></ruby>だから",
-    "<ruby>仕事<rt>しごと</rt></ruby>だから"
+    "<ruby>家主<rt>やぬし</rt></ruby>に<ruby>花<rt>はな</rt></ruby>の<ruby>世話<rt>せわ</rt></ruby>を<ruby>頼<rt>たの</rt></ruby>まれたから",
+    "<ruby>家主<rt>やぬし</rt></ruby>が<ruby>別荘<rt>べっそう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>ったから"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>物置<rt>ものおき</rt></ruby>から<ruby>何<rt>なに</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>花<rt>はな</rt></ruby>",
     "<ruby>庖丁<rt>ほうちょう</rt></ruby>",
+    "<ruby>花<rt>はな</rt></ruby>",
+    "<ruby>床<rt>とこ</rt></ruby>の<ruby>間<rt>ま</rt></ruby>の<ruby>花<rt>はな</rt></ruby>",
     "<ruby>地図<rt>ちず</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>電話<rt>でんわ</rt></ruby>で<ruby>何<rt>なに</rt></ruby>を<ruby>聞<rt>き</rt></ruby>かれましたか。",
    "opciones": [
-    "<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>出入口<rt>でいりぐち</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>",
+    "<ruby>番地<rt>ばんち</rt></ruby>",
     "<ruby>名前<rt>なまえ</rt></ruby>",
-    "<ruby>番地<rt>ばんち</rt></ruby>"
+    "<ruby>時間<rt>じかん</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "Since the owner went off to his country house, I was left looking after the place. I changed the flowers in the alcove, took the knife out of the storeroom and cooked. Just as I was going to take a nap the phone rang and they asked me the house number. I told them that in that case I'd send them the plan, and I added a photo of the entrance too. Having done that, they replied at once that they'd found it."

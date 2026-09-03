@@ -7,22 +7,22 @@
   {
    "p": "なぜ、<ruby>本<rt>ほん</rt></ruby>の<ruby>通<rt>とお</rt></ruby>りにやりますか。",
    "opciones": [
+    "はやいから",
     "<ruby>自分<rt>じぶん</rt></ruby>のやり<ruby>方<rt>かた</rt></ruby>だとしっぱいするから",
-    "やさしいから",
     "<ruby>子<rt>こ</rt></ruby>どもがいるから",
-    "はやいから"
+    "やさしいから"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "その<ruby>日<rt>ひ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>がありましたか。",
    "opciones": [
     "うまくできた",
-    "ゆかのやさいを<ruby>踏<rt>ふ</rt></ruby>んでしまった",
     "<ruby>本<rt>ほん</rt></ruby>をなくした",
+    "ゆかのやさいを<ruby>踏<rt>ふ</rt></ruby>んでしまった",
     "<ruby>子<rt>こ</rt></ruby>どもがしっぱいした"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "When I cook something new, I do it exactly as the book says. Because if I go my own way from the start, it almost always turns out badly. I do it once to the letter and, while it's going well, I think about what could be changed. While my son was helping me at my side, I stepped on a vegetable that had fallen on the floor. In the end, that day's meal didn't come out as the book said. But next time it ought to go better."

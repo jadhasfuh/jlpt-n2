@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>活字<rt>かつじ</rt></ruby>の<ruby>古<rt>ふる</rt></ruby>い<ruby>本<rt>ほん</rt></ruby>",
     "<ruby>新<rt>あたら</rt></ruby>しい<ruby>雑誌<rt>ざっし</rt></ruby>",
-    "<ruby>図鑑<rt>ずかん</rt></ruby>"
+    "<ruby>図鑑<rt>ずかん</rt></ruby>",
+    "<ruby>索引<rt>さくいん</rt></ruby>だけ"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>社説<rt>しゃせつ</rt></ruby>",
     "<ruby>随筆<rt>ずいひつ</rt></ruby>と<ruby>童話<rt>どうわ</rt></ruby>",
-    "<ruby>原稿<rt>げんこう</rt></ruby>"
+    "<ruby>原稿<rt>げんこう</rt></ruby>",
+    "<ruby>古典<rt>こてん</rt></ruby>と<ruby>索引<rt>さくいん</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>作者<rt>さくしゃ</rt></ruby>",
     "<ruby>日付<rt>ひづけ</rt></ruby>",
-    "<ruby>題名<rt>だいめい</rt></ruby>"
+    "<ruby>題名<rt>だいめい</rt></ruby>",
+    "<ruby>返<rt>かえ</rt></ruby>す<ruby>日<rt>ひ</rt></ruby>"
    ],
    "correcta": 2
   }

@@ -7,32 +7,32 @@
   {
    "p": "<ruby>魚<rt>さかな</rt></ruby>は どこに ならんで いましたか。",
    "opciones": [
+    "みせの <ruby>外<rt>そと</rt></ruby>",
     "こおりの <ruby>上<rt>うえ</rt></ruby>",
-    "テーブルの <ruby>上<rt>うえ</rt></ruby>",
     "はこの <ruby>中<rt>なか</rt></ruby>",
-    "みせの <ruby>外<rt>そと</rt></ruby>"
-   ],
-   "correcta": 0
-  },
-  {
-   "p": "みせの <ruby>人<rt>ひと</rt></ruby>は なにを しましたか。",
-   "opciones": [
-    "なにも しませんでした",
-    "<ruby>魚<rt>さかな</rt></ruby>を くれました",
-    "おかねを とりました",
-    "<ruby>紅茶<rt>こうちゃ</rt></ruby>を くれました"
+    "テーブルの <ruby>上<rt>うえ</rt></ruby>"
    ],
    "correcta": 1
   },
   {
-   "p": "ゴンサさんは なにを かいましたか。",
+   "p": "みせの <ruby>人<rt>ひと</rt></ruby>は なにを しましたか。",
    "opciones": [
-    "<ruby>果物<rt>くだもの</rt></ruby>",
-    "<ruby>魚<rt>さかな</rt></ruby>",
-    "<ruby>紅茶<rt>こうちゃ</rt></ruby>",
-    "<ruby>野菜<rt>やさい</rt></ruby>"
+    "<ruby>紅茶<rt>こうちゃ</rt></ruby>を くれました",
+    "おかねを とりました",
+    "<ruby>魚<rt>さかな</rt></ruby>を くれました",
+    "なにも しませんでした"
    ],
    "correcta": 2
+  },
+  {
+   "p": "ゴンサさんは なにを かいましたか。",
+   "opciones": [
+    "<ruby>魚<rt>さかな</rt></ruby>",
+    "<ruby>野菜<rt>やさい</rt></ruby>",
+    "<ruby>果物<rt>くだもの</rt></ruby>",
+    "<ruby>紅茶<rt>こうちゃ</rt></ruby>"
+   ],
+   "correcta": 3
   }
  ],
  "traduccion_en": "In the morning we went to the market. The fish are lined up on the ice. A seller handed me a small fish: «try it». It had nothing but salt on it and tasted incredibly sweet. Gonza bought a tea and carried it with both hands. The vegetables and fruit looked bigger than in Kobe."

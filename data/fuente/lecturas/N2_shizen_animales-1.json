@@ -7,29 +7,32 @@
   {
    "p": "<ruby>猫<rt>ねこ</rt></ruby>はどう<ruby>歩<rt>ある</rt></ruby>きますか。",
    "opciones": [
-    "しっぽを<ruby>立<rt>た</rt></ruby>てて",
     "ゆっくり",
-    "<ruby>走<rt>はし</rt></ruby>って"
+    "<ruby>走<rt>はし</rt></ruby>って",
+    "<ruby>爪<rt>つめ</rt></ruby>を<ruby>立<rt>た</rt></ruby>てて",
+    "しっぽを<ruby>立<rt>た</rt></ruby>てて"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>爪<rt>つめ</rt></ruby>を<ruby>切<rt>き</rt></ruby>るとどうなりますか。",
    "opciones": [
-    "<ruby>喜<rt>よろこ</rt></ruby>ぶ",
     "<ruby>逃<rt>に</rt></ruby>げる",
-    "<ruby>寝<rt>ね</rt></ruby>る"
+    "<ruby>喜<rt>よろこ</rt></ruby>ぶ",
+    "<ruby>寝<rt>ね</rt></ruby>る",
+    "しっぽを<ruby>立<rt>た</rt></ruby>てる"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>冬<rt>ふゆ</rt></ruby>、「<ruby>私<rt>わたし</rt></ruby>」は<ruby>何<rt>なに</rt></ruby>をしますか。",
    "opciones": [
     "<ruby>競馬<rt>けいば</rt></ruby>を<ruby>見<rt>み</rt></ruby>る",
-    "<ruby>外<rt>そと</rt></ruby>へ<ruby>出<rt>で</rt></ruby>る",
-    "<ruby>編物<rt>あみもの</rt></ruby>"
+    "<ruby>編物<rt>あみもの</rt></ruby>",
+    "<ruby>猫<rt>ねこ</rt></ruby>と<ruby>外<rt>そと</rt></ruby>へ<ruby>出<rt>で</rt></ruby>る",
+    "<ruby>外<rt>そと</rt></ruby>へ<ruby>出<rt>で</rt></ruby>る"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "Our cat walks with its tail up. Cutting its claws is quite a job: it struggles and runs off. Rain or snow, in the morning it always wants to go out. Through the winter I knit while I wait for it. My father watches the horse-racing programme, and the two of us spend a quiet afternoon."

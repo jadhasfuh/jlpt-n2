@@ -7,22 +7,22 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていますか。",
    "opciones": [
-    "<ruby>毎月<rt>まいつき</rt></ruby>すこしずつ<ruby>寄付<rt>きふ</rt></ruby>する",
     "りょうりを<ruby>作<rt>つく</rt></ruby>る",
+    "<ruby>子<rt>こ</rt></ruby>どもをあずかる",
     "<ruby>時間<rt>じかん</rt></ruby>をあげる",
-    "<ruby>子<rt>こ</rt></ruby>どもをあずかる"
+    "<ruby>毎月<rt>まいつき</rt></ruby>すこしずつ<ruby>寄付<rt>きふ</rt></ruby>する"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>時間<rt>じかん</rt></ruby>のある<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしていますか。",
    "opciones": [
-    "<ruby>寄付<rt>きふ</rt></ruby>する",
     "りょうりを<ruby>作<rt>つく</rt></ruby>って<ruby>貢献<rt>こうけん</rt></ruby>する",
+    "<ruby>寄付<rt>きふ</rt></ruby>する",
     "<ruby>何<rt>なに</rt></ruby>もしない",
     "<ruby>子<rt>こ</rt></ruby>どもを<ruby>見<rt>み</rt></ruby>る"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "Every month I make a small donation to the neighbourhood children's canteen. I know money isn't everything, but with the job I have now, it's what I can do. Whoever has time contributes by cooking. It's perfectly normal for what each person can do to be different. I don't think it's right to say «there's nothing I can do» and end up doing nothing. When you see the faces of the children who receive it, you can't help wanting to carry on. Support is something that spreads."

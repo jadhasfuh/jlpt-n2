@@ -7,22 +7,22 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって、<ruby>身<rt>み</rt></ruby>ぢかなのはどちらですか。",
    "opciones": [
-    "<ruby>大使<rt>たいし</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>",
-    "<ruby>首相<rt>しゅしょう</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>",
+    "<ruby>外交<rt>がいこう</rt></ruby>",
     "<ruby>自分<rt>じぶん</rt></ruby>のまちのこと",
-    "<ruby>外交<rt>がいこう</rt></ruby>"
+    "<ruby>大使<rt>たいし</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>",
+    "<ruby>首相<rt>しゅしょう</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "よくないと<ruby>思<rt>おも</rt></ruby>っているのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>議会<rt>ぎかい</rt></ruby>を<ruby>見<rt>み</rt></ruby>ること",
     "<ruby>知事<rt>ちじ</rt></ruby>をえらぶこと",
     "<ruby>投票<rt>とうひょう</rt></ruby>に<ruby>行<rt>い</rt></ruby>くこと",
-    "<ruby>知<rt>し</rt></ruby>ろう<em class=\"g\">としない</em>まま<ruby>文句<rt>もんく</rt></ruby>だけを<ruby>言<rt>い</rt></ruby>うこと"
+    "<ruby>知<rt>し</rt></ruby>ろう<em class=\"g\">としない</em>まま<ruby>文句<rt>もんく</rt></ruby>だけを<ruby>言<rt>い</rt></ruby>うこと",
+    "<ruby>議会<rt>ぎかい</rt></ruby>を<ruby>見<rt>み</rt></ruby>ること"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "There was an election to choose the governor. More than news about parliament or the prime minister, what happens in my own city feels closer. Even so, the reality is that many people don't even try to go and vote. Diplomatic work or an ambassador's sounds distant, but choosing ministers and chamber presidents goes back, at bottom, to each person's vote. I don't think complaining without even trying to inform yourself is right."

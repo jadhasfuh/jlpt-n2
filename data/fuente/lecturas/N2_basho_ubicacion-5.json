@@ -7,29 +7,32 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>譲<rt>ゆず</rt></ruby>らないと<ruby>決<rt>き</rt></ruby>めていましたか。",
    "opciones": [
-    "<ruby>日当<rt>ひあ</rt></ruby>たり",
     "<ruby>広<rt>ひろ</rt></ruby>さ",
-    "<ruby>家賃<rt>やちん</rt></ruby>"
+    "<ruby>家賃<rt>やちん</rt></ruby>",
+    "<ruby>五階<rt>ごかい</rt></ruby>であること",
+    "<ruby>日当<rt>ひあ</rt></ruby>たり"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>机<rt>つくえ</rt></ruby>を<ruby>組<rt>く</rt></ruby>み<ruby>立<rt>た</rt></ruby>てるとき<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>きましたか。",
    "opciones": [
-    "<ruby>窓<rt>まど</rt></ruby>が<ruby>割<rt>わ</rt></ruby>れた",
     "<ruby>箱<rt>はこ</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>っ<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>した",
+    "<ruby>窓<rt>まど</rt></ruby>が<ruby>割<rt>わ</rt></ruby>れた",
+    "<ruby>棚<rt>たな</rt></ruby>が<ruby>倒<rt>たお</rt></ruby>れた",
     "<ruby>猫<rt>ねこ</rt></ruby>が<ruby>出<rt>で</rt></ruby>ていった"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "<ruby>猫<rt>ねこ</rt></ruby>をどうしましたか。",
    "opciones": [
-    "<ruby>呼<rt>よ</rt></ruby>んだ",
     "<ruby>追<rt>お</rt></ruby>い<ruby>掛<rt>か</rt></ruby>けた",
-    "<ruby>待<rt>ま</rt></ruby>った"
+    "<ruby>待<rt>ま</rt></ruby>った",
+    "<ruby>棚<rt>たな</rt></ruby>の<ruby>奥<rt>おく</rt></ruby>から<ruby>出<rt>で</rt></ruby>した",
+    "<ruby>呼<rt>よ</rt></ruby>んだ"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "When I moved I had decided not to give way at least on sunlight. The new flat is on the fifth floor and from the window it looks out over the city. While I was assembling the desk I knocked over a box. The cat took fright and got right to the back of the shelf. Instead of chasing it, I waited until I could go up to it slowly."

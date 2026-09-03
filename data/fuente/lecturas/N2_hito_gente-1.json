@@ -7,29 +7,32 @@
   {
    "p": "<ruby>知人<rt>ちじん</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
-    "サラリーマン",
     "<ruby>先生<rt>せんせい</rt></ruby>",
+    "<ruby>知<rt>し</rt></ruby>らない",
+    "サラリーマン",
     "<ruby>医者<rt>いしゃ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>夏<rt>なつ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしますか。",
    "opciones": [
     "<ruby>旅行<rt>りょこう</rt></ruby>する",
-    "<ruby>外<rt>そと</rt></ruby>で<ruby>涼<rt>すず</rt></ruby>む",
-    "<ruby>泳<rt>およ</rt></ruby>ぐ"
+    "<ruby>毎晩<rt>まいばん</rt></ruby><ruby>話<rt>はな</rt></ruby>し<ruby>掛<rt>か</rt></ruby>ける",
+    "<ruby>泳<rt>およ</rt></ruby>ぐ",
+    "<ruby>外<rt>そと</rt></ruby>で<ruby>涼<rt>すず</rt></ruby>む"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "<ruby>先週<rt>せんしゅう</rt></ruby><ruby>何<rt>なに</rt></ruby>がありましたか。",
    "opciones": [
-    "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>した",
+    "<ruby>約束<rt>やくそく</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れかけた",
     "けんかした",
-    "<ruby>約束<rt>やくそく</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れかけた"
+    "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>した",
+    "<ruby>相手<rt>あいて</rt></ruby>が<ruby>謝<rt>あやま</rt></ruby>った"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "The neighbour, an office worker, and I have been friends for ten years. In the days when I only knew his full name we didn't talk at all, but now I chat with him almost every evening. In summer the two of us go out to get some air. Last week I very nearly forgot an appointment. When I apologised of my own accord, he said as if to himself: «don't give it a thought»."

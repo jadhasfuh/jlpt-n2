@@ -7,29 +7,32 @@
   {
    "p": "いつかびが<ruby>生<rt>は</rt></ruby>えやすいですか。",
    "opciones": [
+    "<ruby>錆<rt>さ</rt></ruby>が<ruby>出<rt>で</rt></ruby>るころ",
     "<ruby>梅雨<rt>つゆ</rt></ruby>",
     "<ruby>冬<rt>ふゆ</rt></ruby>",
     "<ruby>秋<rt>あき</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>今年<rt>ことし</rt></ruby>はどこまで<ruby>黒<rt>くろ</rt></ruby>くなりましたか。",
    "opciones": [
+    "<ruby>金<rt>かな</rt></ruby>ぐまで",
     "<ruby>床<rt>ゆか</rt></ruby>だけ",
     "<ruby>天<rt>てん</rt></ruby>じょうまで",
     "<ruby>壁<rt>かべ</rt></ruby>だけ"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>錆<rt>さ</rt></ruby>びていたものをどうしましたか。",
    "opciones": [
-    "そのままにした",
     "<ruby>捨<rt>す</rt></ruby>てた",
+    "<ruby>袋<rt>ふくろ</rt></ruby>にまとめた",
+    "そのままにした",
     "<ruby>錆<rt>さび</rt></ruby>を<ruby>落<rt>お</rt></ruby>として<ruby>拭<rt>ふ</rt></ruby>いた"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "When the rainy season comes, mould appears easily in the bathroom. This year not only the wall but even the ceiling turned black. I cleaned in order, crushed the waste and gathered it into a bag. The fittings were rusty, so I removed the rust before wiping them. If I leave it dirty I don't feel easy, and I can't stop until everything is in order. When I'd finished, both the room and I were left feeling clear."

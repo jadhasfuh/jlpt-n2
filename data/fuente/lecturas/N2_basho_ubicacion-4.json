@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>盆地<rt>ぼんち</rt></ruby>の<ruby>入口<rt>いりぐち</rt></ruby>",
     "<ruby>名所<rt>めいしょ</rt></ruby>",
-    "<ruby>北極<rt>ほっきょく</rt></ruby>"
+    "<ruby>北極<rt>ほっきょく</rt></ruby>",
+    "<ruby>付近<rt>ふきん</rt></ruby>の<ruby>地図<rt>ちず</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>身分<rt>みぶん</rt></ruby>",
     "<ruby>方面<rt>ほうめん</rt></ruby>と<ruby>面積<rt>めんせき</rt></ruby>",
-    "<ruby>表紙<rt>ひょうし</rt></ruby>"
+    "<ruby>表紙<rt>ひょうし</rt></ruby>",
+    "<ruby>街角<rt>まちかど</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>犬<rt>いぬ</rt></ruby>",
     "<ruby>人<rt>ひと</rt></ruby>",
-    "<ruby>猫<rt>ねこ</rt></ruby>"
+    "<ruby>猫<rt>ねこ</rt></ruby>",
+    "<ruby>子<rt>こ</rt></ruby>ども"
    ],
    "correcta": 2
   }

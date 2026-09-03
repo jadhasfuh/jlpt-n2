@@ -7,32 +7,32 @@
   {
    "p": "はじめの <ruby>日<rt>ひ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>が わかりませんでしたか。",
    "opciones": [
+    "<ruby>電車<rt>でんしゃ</rt></ruby>の <ruby>時間<rt>じかん</rt></ruby>",
     "<ruby>切符<rt>きっぷ</rt></ruby>の かいかた",
     "がっこうの ばしょ",
-    "<ruby>電車<rt>でんしゃ</rt></ruby>の <ruby>時間<rt>じかん</rt></ruby>",
     "<ruby>降<rt>お</rt></ruby>りる <ruby>駅<rt>えき</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "どうして <ruby>自転車<rt>じてんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きませんでしたか。",
    "opciones": [
     "<ruby>自転車<rt>じてんしゃ</rt></ruby>が ないから",
+    "<ruby>荷物<rt>にもつ</rt></ruby>が おもかったから",
     "<ruby>雨<rt>あめ</rt></ruby>だったから",
-    "とおいから",
-    "<ruby>荷物<rt>にもつ</rt></ruby>が おもかったから"
+    "とおいから"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "まどから <ruby>何<rt>なに</rt></ruby>が <ruby>見<rt>み</rt></ruby>えましたか。",
    "opciones": [
-    "<ruby>町<rt>まち</rt></ruby>",
+    "<ruby>雨<rt>あめ</rt></ruby>",
     "<ruby>山<rt>やま</rt></ruby>",
-    "うみ",
-    "<ruby>雨<rt>あめ</rt></ruby>"
+    "<ruby>町<rt>まち</rt></ruby>",
+    "うみ"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "It's twenty minutes to school by train. On the first day I couldn't work out how to buy a ticket. There were people queuing behind me and I was terribly embarrassed. The bicycle is cheaper, but that morning it was raining. I got on the train and got off at the third stop. My bag was heavy and I ended up a bit tired. But the sea was visible through the window, and that cheered me up."

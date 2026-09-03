@@ -7,32 +7,32 @@
   {
    "p": "ガスは だれが <ruby>開<rt>あ</rt></ruby>けますか。",
    "opciones": [
+    "がっこうの ひと",
     "かいしゃの ひと",
-    "じぶんで",
     "たなかさん",
-    "がっこうの ひと"
+    "じぶんで"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "その ひとは なにを みましたか。",
    "opciones": [
     "まどの そと",
+    "ゆかの した",
     "だいどころの した",
-    "おふろの <ruby>中<rt>なか</rt></ruby>",
-    "ゆかの した"
+    "おふろの <ruby>中<rt>なか</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "その ひの よる、カルロスさんは なにを しましたか。",
    "opciones": [
     "そとで たべました",
     "はやく ねました",
-    "あたたかい おふろに <ruby>入<rt>はい</rt></ruby>りました",
-    "ゆかを ふきました"
+    "ゆかを ふきました",
+    "あたたかい おふろに <ruby>入<rt>はい</rt></ruby>りました"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "You can't turn the gas on yourself. Someone from the company comes. I spent the whole morning waiting in the flat. The technician took his shoes off and looked under the kitchen unit. «You close this like so», he showed me. With a cleaning cloth, he wiped the floor dry. When I said «I want to be able to use hot water», he laughed. That night I had my first hot bath."

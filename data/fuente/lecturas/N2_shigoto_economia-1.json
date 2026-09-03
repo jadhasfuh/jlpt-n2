@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>五十年<rt>ごじゅうねん</rt></ruby>",
     "<ruby>十年<rt>じゅうねん</rt></ruby>",
-    "<ruby>百年<rt>ひゃくねん</rt></ruby>"
+    "<ruby>百年<rt>ひゃくねん</rt></ruby>",
+    "<ruby>五<rt>ご</rt></ruby><ruby>年<rt>とし</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>変<rt>か</rt></ruby>わらない",
     "<ruby>減<rt>へ</rt></ruby>っている",
-    "<ruby>増<rt>ふ</rt></ruby>えている"
+    "<ruby>増<rt>ふ</rt></ruby>えている",
+    "<ruby>体力<rt>たいりょく</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えている"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>売買<rt>ばいばい</rt></ruby>",
     "<ruby>催促<rt>さいそく</rt></ruby>",
-    "<ruby>手<rt>て</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>"
+    "<ruby>手<rt>て</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby>",
+    "<ruby>売行<rt>うれゆ</rt></ruby>き"
    ],
    "correcta": 2
   }

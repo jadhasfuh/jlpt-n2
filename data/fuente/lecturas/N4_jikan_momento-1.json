@@ -7,22 +7,22 @@
   {
    "p": "<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>何<rt>なに</rt></ruby>をしていましたか。",
    "opciones": [
+    "しゃしんをとっていた",
     "しばらく<ruby>待<rt>ま</rt></ruby>っていた",
     "<ruby>話<rt>はな</rt></ruby>していた",
-    "<ruby>歩<rt>ある</rt></ruby>いていた",
-    "しゃしんをとっていた"
+    "<ruby>歩<rt>ある</rt></ruby>いていた"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "いつまで<ruby>話<rt>はな</rt></ruby>しましたか。",
    "opciones": [
+    "<ruby>夜<rt>よる</rt></ruby>おそくまで",
     "<ruby>昼<rt>ひる</rt></ruby>まで",
     "<ruby>日<rt>ひ</rt></ruby>が<ruby>暮<rt>く</rt></ruby>れるまで",
-    "<ruby>夜<rt>よる</rt></ruby>おそくまで",
     "すぐ<ruby>別<rt>わか</rt></ruby>れた"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "The other day I ran into a friend from my student days. It had been a long time. I waited for a while in front of the station and saw him coming along. His face hasn't changed. We talked about when we worked part-time together and had a good time. We kept talking until it got dark. As we said goodbye, I asked someone to take a photo of us. He said «right, I'm off» and waved his hand. I don't know when the next time will be; even if it's only now and then, I want to see him again."

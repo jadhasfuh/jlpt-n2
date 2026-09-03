@@ -7,22 +7,22 @@
   {
    "p": "その<ruby>人<rt>ひと</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>のことをどう<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>怠<rt>なま</rt></ruby>けている",
-    "<ruby>我慢<rt>がまん</rt></ruby>している",
     "べつに<ruby>我慢<rt>がまん</rt></ruby>していない",
-    "つかれている"
+    "つかれている",
+    "<ruby>怠<rt>なま</rt></ruby>けている",
+    "<ruby>我慢<rt>がまん</rt></ruby>している"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えはどれですか。",
    "opciones": [
     "<ruby>静<rt>しず</rt></ruby>かな<ruby>人<rt>ひと</rt></ruby>は<ruby>怠<rt>なま</rt></ruby>けている",
-    "<ruby>性格<rt>せいかく</rt></ruby>はかわらない",
+    "やり<ruby>込<rt>こ</rt></ruby>む<ruby>人<rt>ひと</rt></ruby>はだいたい<ruby>静<rt>しず</rt></ruby>かだ",
     "<ruby>我慢<rt>がまん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>だ",
-    "やり<ruby>込<rt>こ</rt></ruby>む<ruby>人<rt>ひと</rt></ruby>はだいたい<ruby>静<rt>しず</rt></ruby>かだ"
+    "<ruby>性格<rt>せいかく</rt></ruby>はかわらない"
    ],
-   "correcta": 3
+   "correcta": 1
   }
  ],
  "traduccion_en": "At my work there's a very calm person. From morning to evening, I've never seen her raise her voice. I thought she must be holding it in, but she says «it isn't that I'm holding it in». Perhaps, more than character, it's a different kind of way of thinking. Nor is she lazy: she works more carefully than anyone. Someone who gives themselves fully to something is generally quiet."

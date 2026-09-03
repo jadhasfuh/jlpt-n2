@@ -7,22 +7,22 @@
   {
    "p": "<ruby>楽器<rt>がっき</rt></ruby>と<ruby>機械<rt>きかい</rt></ruby>のちがいは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>によって<ruby>音<rt>おと</rt></ruby>がかわること",
-    "<ruby>値段<rt>ねだん</rt></ruby>",
     "スイッチがあること",
-    "<ruby>古<rt>ふる</rt></ruby>さ"
+    "<ruby>古<rt>ふる</rt></ruby>さ",
+    "<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>によって<ruby>音<rt>おと</rt></ruby>がかわること",
+    "<ruby>値段<rt>ねだん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "そのピアノについて、どうなると<ruby>思<rt>おも</rt></ruby>っていますか。",
    "opciones": [
     "すぐすてられる",
-    "<ruby>音<rt>おと</rt></ruby>が<ruby>出<rt>で</rt></ruby>るかぎりだれかがひき<ruby>続<rt>つづ</rt></ruby>ける",
+    "<ruby>置<rt>お</rt></ruby>きかえられる",
     "<ruby>直<rt>なお</rt></ruby>される",
-    "<ruby>置<rt>お</rt></ruby>きかえられる"
+    "<ruby>音<rt>おと</rt></ruby>が<ruby>出<rt>で</rt></ruby>るかぎりだれかがひき<ruby>続<rt>つづ</rt></ruby>ける"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "In the school music room there's an old piano. As equipment it isn't new, but it sounds good. An instrument, even though it's a device, changes its sound depending on who plays it. It isn't like a machine that works by simply flicking a switch. I was told that in this town nobody capable of repairing it is likely to appear. Nor is there money to replace it. But as long as it goes on sounding, someone will go on playing it. Perhaps things like this last longer than machines that look as though they'll never break."

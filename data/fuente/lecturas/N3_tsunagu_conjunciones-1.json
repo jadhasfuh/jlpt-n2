@@ -7,22 +7,22 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>は、はじめどのくらい<ruby>住<rt>す</rt></ruby>むつもりでしたか。",
    "opciones": [
-    "<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>だけ",
-    "ずっと",
     "<ruby>半年<rt>はんとし</rt></ruby>",
-    "<ruby>十<rt>じゅう</rt></ruby><ruby>年<rt>ねん</rt></ruby>"
+    "<ruby>十<rt>じゅう</rt></ruby><ruby>年<rt>ねん</rt></ruby>",
+    "<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>だけ",
+    "ずっと"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>来月<rt>らいげつ</rt></ruby>、この<ruby>人<rt>ひと</rt></ruby>はどこへ<ruby>行<rt>い</rt></ruby>きますか。",
    "opciones": [
-    "<ruby>東京<rt>とうきょう</rt></ruby>にのこる",
-    "<ruby>東京<rt>とうきょう</rt></ruby>を<ruby>通<rt>とお</rt></ruby>って<ruby>北<rt>きた</rt></ruby>のほうへ<ruby>行<rt>い</rt></ruby>く",
     "<ruby>南<rt>みなみ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く",
-    "どこへも<ruby>行<rt>い</rt></ruby>かない"
+    "どこへも<ruby>行<rt>い</rt></ruby>かない",
+    "<ruby>東京<rt>とうきょう</rt></ruby>にのこる",
+    "<ruby>東京<rt>とうきょう</rt></ruby>を<ruby>通<rt>とお</rt></ruby>って<ruby>北<rt>きた</rt></ruby>のほうへ<ruby>行<rt>い</rt></ruby>く"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "It will soon be ten years since I came to this town. At first I meant to stay only one. And, before I knew it, it had stretched out this far. The thing is life was good here, so what can you do. If I could do all these years again, I think I'd choose the same path. Or perhaps I'd have come here sooner. Because the person I was when I lived elsewhere did nothing but wait for something. Incidentally, next month I'm going north via Tokyo. Therefore this room will be empty for a while. If anything at all happens, let the neighbour know."

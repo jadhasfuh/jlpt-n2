@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>朗<rt>ほが</rt></ruby>らか",
     "<ruby>下品<rt>げひん</rt></ruby>",
-    "<ruby>幼稚<rt>ようち</rt></ruby>"
+    "<ruby>幼稚<rt>ようち</rt></ruby>",
+    "<ruby>斜<rt>なな</rt></ruby>めで<ruby>見<rt>み</rt></ruby>えない"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "さようなら",
     "<ruby>元気<rt>げんき</rt></ruby>でやりたまえ",
-    "ありがとう"
+    "ありがとう",
+    "<ruby>大切<rt>たいせつ</rt></ruby>にしていた"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "そのまま",
     "<ruby>箱<rt>はこ</rt></ruby>に",
-    "<ruby>透明<rt>とうめい</rt></ruby>な<ruby>袋<rt>ふくろ</rt></ruby>に<ruby>別々<rt>べつべつ</rt></ruby>に"
+    "<ruby>透明<rt>とうめい</rt></ruby>な<ruby>袋<rt>ふくろ</rt></ruby>に<ruby>別々<rt>べつべつ</rt></ruby>に",
+    "アルバムに<ruby>斜<rt>なな</rt></ruby>めに"
    ],
    "correcta": 2
   }

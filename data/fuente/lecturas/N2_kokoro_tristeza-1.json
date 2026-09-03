@@ -7,29 +7,32 @@
   {
    "p": "<ruby>切符<rt>きっぷ</rt></ruby>をどうしましたか。",
    "opciones": [
+    "<ruby>宿<rt>やど</rt></ruby>に<ruby>預<rt>あず</rt></ruby>けた",
     "<ruby>破<rt>やぶ</rt></ruby>いてしまった",
-    "<ruby>落<rt>お</rt></ruby>とした",
-    "<ruby>忘<rt>わす</rt></ruby>れた"
+    "<ruby>忘<rt>わす</rt></ruby>れた",
+    "<ruby>落<rt>お</rt></ruby>とした"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>宿<rt>やど</rt></ruby>に<ruby>苦情<rt>くじょう</rt></ruby>を<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
     "はい",
+    "<ruby>手紙<rt>てがみ</rt></ruby>で<ruby>言<rt>い</rt></ruby>った",
     "いいえ",
-    "<ruby>手紙<rt>てがみ</rt></ruby>で<ruby>言<rt>い</rt></ruby>った"
+    "<ruby>言<rt>い</rt></ruby>おうとしてやめた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>友<rt>とも</rt></ruby>だちを<ruby>見<rt>み</rt></ruby>てどう<ruby>思<rt>おも</rt></ruby>いましたか。",
    "opciones": [
     "<ruby>憎<rt>にく</rt></ruby>らしかった",
     "みじめだった",
+    "<ruby>仕方<rt>しかた</rt></ruby>がないと<ruby>思<rt>おも</rt></ruby>った",
     "<ruby>羨<rt>うらや</rt></ruby>ましかった"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "After all the trouble of organising the trip, bad luck piled up on top. I tore the ticket and the rain wrecked the plans. I lamented how absent-minded I am, but getting angry is no use. I didn't complain to the accommodation. I thought it was something affecting those people's work. My friends seemed to be enjoying themselves and I envied them a little."

@@ -7,22 +7,22 @@
   {
    "p": "なまえをきめるのにどのくらいかかりましたか。",
    "opciones": [
-    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
     "<ruby>一<rt>いち</rt></ruby><ruby>週間<rt>しゅうかん</rt></ruby>",
+    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
     "<ruby>一<rt>いち</rt></ruby><ruby>年<rt>ねん</rt></ruby>",
     "すぐ"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>同<rt>おな</rt></ruby>じ<ruby>年<rt>とし</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありましたか。",
    "opciones": [
+    "だれもいなくなった",
     "<ruby>子<rt>こ</rt></ruby>どもが<ruby>二人<rt>ふたり</rt></ruby><ruby>生<rt>う</rt></ruby>まれた",
     "<ruby>一人<rt>ひとり</rt></ruby>ふえて<ruby>一人<rt>ひとり</rt></ruby>へった",
-    "そふが<ruby>生<rt>う</rt></ruby>まれた",
-    "だれもいなくなった"
+    "そふが<ruby>生<rt>う</rt></ruby>まれた"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "My sister had a baby. She said it took them a month to decide on the name. The first time I held him I was surprised at how little he weighed. My mother used to say that as soon as they become small children they're off running. And sure enough, within a year he was walking. Around that same time my grandfather died. In the same year, one person joined and another left. Every time I smell a baby, I remember that."

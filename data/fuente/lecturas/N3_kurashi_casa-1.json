@@ -7,22 +7,22 @@
   {
    "p": "<ruby>昔<rt>むかし</rt></ruby>すんでいた<ruby>家<rt>いえ</rt></ruby>はどうでしたか。",
    "opciones": [
-    "<ruby>塀<rt>へい</rt></ruby>も<ruby>軒<rt>のき</rt></ruby>もそのままのこっていた",
     "こわされていた",
     "<ruby>新<rt>あたら</rt></ruby>しくなっていた",
-    "<ruby>見<rt>み</rt></ruby>つからなかった"
+    "<ruby>見<rt>み</rt></ruby>つからなかった",
+    "<ruby>塀<rt>へい</rt></ruby>も<ruby>軒<rt>のき</rt></ruby>もそのままのこっていた"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>一<rt>いち</rt></ruby><ruby>日<rt>にち</rt></ruby>では、どうですか。",
    "opciones": [
-    "じゅうぶん",
     "<ruby>時間<rt>じかん</rt></ruby>がたりない",
-    "ながすぎる",
-    "<ruby>歩<rt>ある</rt></ruby>けない"
+    "じゅうぶん",
+    "<ruby>歩<rt>ある</rt></ruby>けない",
+    "ながすぎる"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "I went back to my home town after ten years. Starting with the school building, the town's buildings had changed quite a lot. The house where I lived as a child still has the same wall and eaves. I even remembered the creak of the floor. Well then, what now? I've booked the accommodation, but with only one day there isn't time. I also want to go to the place where the hut used to be. If I walk without any hold-ups, I ought to be able to do a round before dusk."

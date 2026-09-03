@@ -7,29 +7,32 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>の<ruby>係<rt>かかり</rt></ruby>になりましたか。",
    "opciones": [
+    "<ruby>氷<rt>こおり</rt></ruby>を<ruby>溶<rt>と</rt></ruby>かす<ruby>係<rt>かかり</rt></ruby>",
     "<ruby>氷<rt>こおり</rt></ruby>を<ruby>砕<rt>くだ</rt></ruby>く<ruby>係<rt>かかり</rt></ruby>",
-    "<ruby>受付<rt>うけつけ</rt></ruby>",
-    "<ruby>料理<rt>りょうり</rt></ruby>"
+    "<ruby>料理<rt>りょうり</rt></ruby>",
+    "<ruby>受付<rt>うけつけ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>日<rt>ひ</rt></ruby>が<ruby>当<rt>あ</rt></ruby>たると<ruby>氷<rt>こおり</rt></ruby>はどうなりましたか。",
    "opciones": [
     "<ruby>固<rt>かた</rt></ruby>くなった",
+    "<ruby>叩<rt>たた</rt></ruby>かなくても<ruby>砕<rt>くだ</rt></ruby>けた",
     "<ruby>溶<rt>と</rt></ruby>けはじめた",
     "<ruby>割<rt>わ</rt></ruby>れた"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>祭<rt>まつ</rt></ruby>りはどうなったと<ruby>考<rt>かんが</rt></ruby>えていますか。",
    "opciones": [
-    "<ruby>遅<rt>おく</rt></ruby>れている",
+    "<ruby>二時<rt>にじ</rt></ruby>に<ruby>始<rt>はじ</rt></ruby>まった",
     "<ruby>始<rt>はじ</rt></ruby>まった",
+    "<ruby>遅<rt>おく</rt></ruby>れている",
     "<ruby>取<rt>と</rt></ruby>り<ruby>消<rt>け</rt></ruby>しになった"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "At the summer festival I was put in charge of chipping the ice. The big block was hard and however much I struck it, it wouldn't break. When the sun hit it, it started melting on the surface. On paper I was supposed to start at two, but judging by the fact that nobody was gathering, perhaps they've cancelled it because of the rain."

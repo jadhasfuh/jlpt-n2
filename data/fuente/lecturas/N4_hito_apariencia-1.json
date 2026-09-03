@@ -7,22 +7,22 @@
   {
    "p": "いつから<ruby>痩<rt>や</rt></ruby>せてきましたか。",
    "opciones": [
-    "<ruby>二<rt>に</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>め",
     "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>め",
     "すぐ",
-    "まだ<ruby>痩<rt>や</rt></ruby>せていない"
+    "まだ<ruby>痩<rt>や</rt></ruby>せていない",
+    "<ruby>二<rt>に</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>め"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "いちばんかわったのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>",
     "あさのからだのかるさ",
+    "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>",
     "たいじゅう",
     "<ruby>運動<rt>うんどう</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "At the medical check-up I'd put on three kilos since last year. They told me to exercise and I decided to walk. In the first month nothing changed. From the second I started to lose weight little by little. I can't manage it daily, as you'd expect, but I keep it up once every three days. More than my appearance, what has changed is how light my body feels when I get up. The doctor was right, of course."

@@ -7,29 +7,32 @@
   {
    "p": "<ruby>峠<rt>とうげ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>店<rt>みせ</rt></ruby>はいくつありますか。",
    "opciones": [
+    "たくさん",
     "<ruby>一<rt>いっ</rt></ruby>けん",
     "<ruby>三<rt>さん</rt></ruby>けん",
-    "たくさん"
+    "<ruby>一<rt>いっ</rt></ruby>つもない"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "メニューはいくつですか。",
    "opciones": [
     "<ruby>五<rt>いつ</rt></ruby>つ",
+    "<ruby>一<rt>いっ</rt></ruby>つ",
     "<ruby>三<rt>みっ</rt></ruby>つ",
     "<ruby>十<rt>とお</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "かえるとき、<ruby>皆<rt>みな</rt></ruby>は<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。",
    "opciones": [
     "おはよう",
     "しめた",
+    "「<ruby>材料<rt>ざいりょう</rt></ruby>が<ruby>余<rt>あま</rt></ruby>ったら」",
     "ごくろうさま"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "At the top of the port there's a single old shop. The menu has only three dishes and the prices have one digit fewer. «If there's material left over, it's for everyone», the owner says almost every day. Since it's on my way home anyway, I always end up stopping by. As I leave, everyone says «good work today»."

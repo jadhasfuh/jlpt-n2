@@ -7,32 +7,32 @@
   {
    "p": "ジャンさんは どんな ひとですか。",
    "opciones": [
-    "<ruby>背<rt>せ</rt></ruby>が たかくて ほそい",
+    "こえが <ruby>大<rt>だい</rt></ruby>きくて ひくい",
     "ひくくて こえが おおきい",
-    "きれいな シャツを きて いる",
-    "こえが <ruby>大<rt>だい</rt></ruby>きくて ひくい"
+    "<ruby>背<rt>せ</rt></ruby>が たかくて ほそい",
+    "きれいな シャツを きて いる"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "アンナさんは どこの ひとですか。",
    "opciones": [
     "ペルーじん",
-    "にほんじん",
+    "スペインじん",
     "メキシコじん",
-    "スペインじん"
+    "にほんじん"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "アンナさんは どうして この クラスに いますか。",
    "opciones": [
-    "<ruby>学生<rt>がくせい</rt></ruby>だから",
-    "せんせいだから",
     "スペイン<ruby>語<rt>ご</rt></ruby>を ならって いるから",
-    "にほんごを おしえて いるから"
+    "にほんごを おしえて いるから",
+    "<ruby>学生<rt>がくせい</rt></ruby>だから",
+    "せんせいだから"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "Jean is tall and thin. Gonza is shorter than me, but he has a huge voice. Min always wears immaculate shirts. That day a new student arrived. Her name is Anna and she's Japanese. She's learning Spanish, so she helps out in this class. «Pleased to meet you», she said to us."

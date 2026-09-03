@@ -7,22 +7,22 @@
   {
    "p": "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>すると、どうなりましたか。",
    "opciones": [
-    "ねむれなくなった",
-    "もっと<ruby>気<rt>き</rt></ruby>になった",
+    "ひっこした",
     "<ruby>物音<rt>ものおと</rt></ruby>が<ruby>気<rt>き</rt></ruby>にならなくなった",
-    "ひっこした"
+    "ねむれなくなった",
+    "もっと<ruby>気<rt>き</rt></ruby>になった"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "いなかで、どうしてねむれませんでしたか。",
    "opciones": [
     "<ruby>騒音<rt>そうおん</rt></ruby>がうるさいから",
     "ラジオがないから",
-    "<ruby>知<rt>し</rt></ruby>らない<ruby>場所<rt>ばしょ</rt></ruby>だから",
-    "あまりに<ruby>静<rt>しず</rt></ruby>かだから"
+    "あまりに<ruby>静<rt>しず</rt></ruby>かだから",
+    "<ruby>知<rt>し</rt></ruby>らない<ruby>場所<rt>ばしょ</rt></ruby>だから"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "I moved to a place beside a big avenue. At first the noise bothered me and I couldn't sleep. After a month I stopped noticing it. I think that means the human body gets used to things. But the day I went to the countryside, it was so quiet that, the other way round, I couldn't sleep. What on earth was silence to me? By common sense, you should sleep better the quieter it is. Observing the situation and squeezing out some ingenuity, I ended up falling asleep with the radio on low."

@@ -7,22 +7,22 @@
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>の<ruby>座席<rt>ざせき</rt></ruby>はどこでしたか。",
    "opciones": [
-    "<ruby>後<rt>うし</rt></ruby>ろのほう",
-    "<ruby>右<rt>みぎ</rt></ruby>のはし",
     "<ruby>立<rt>た</rt></ruby>っていた",
-    "いちばん<ruby>前<rt>まえ</rt></ruby>"
+    "いちばん<ruby>前<rt>まえ</rt></ruby>",
+    "<ruby>右<rt>みぎ</rt></ruby>のはし",
+    "<ruby>後<rt>うし</rt></ruby>ろのほう"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>前<rt>まえ</rt></ruby>の<ruby>席<rt>せき</rt></ruby>にすわれなかったのは、なぜですか。",
    "opciones": [
-    "お<ruby>金<rt>かね</rt></ruby>がなかったから",
     "<ruby>順番<rt>じゅんばん</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つのがおそかったから",
     "<ruby>友<rt>とも</rt></ruby>だちがいたから",
-    "<ruby>道<rt>みち</rt></ruby>にまよったから"
+    "<ruby>道<rt>みち</rt></ruby>にまよったから",
+    "お<ruby>金<rt>かね</rt></ruby>がなかったから"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "I went to see a play about a king and a queen. My seat was quite far back, but the audience's excitement reached me all the same. In the scenes where the actor playing the prince shone, the hall fell silent. The script quoted words by a poet, and there's one line I remember over and over. If I'd sat further forward I'd have seen better, but I took too long to join the queue. Though there's no use regretting it at this stage. Housewives, students, all sorts of people looking in the same direction. They say there's a growing trend of people taking an interest in moments like that."

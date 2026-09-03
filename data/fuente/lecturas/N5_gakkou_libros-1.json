@@ -7,32 +7,32 @@
   {
    "p": "<ruby>図書館<rt>としょかん</rt></ruby>は どこに ありますか。",
    "opciones": [
-    "<ruby>学校<rt>がっこう</rt></ruby>の となり",
-    "<ruby>駅<rt>えき</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>",
     "アパートの <ruby>下<rt>した</rt></ruby>",
-    "<ruby>教室<rt>きょうしつ</rt></ruby>の <ruby>中<rt>ちゅう</rt></ruby>"
-   ],
-   "correcta": 0
-  },
-  {
-   "p": "<ruby>一<rt>いっ</rt></ruby>ページ <ruby>読<rt>よ</rt></ruby>むのに どのくらい かかりますか。",
-   "opciones": [
-    "いちじかん",
-    "さんじゅっぷん",
-    "さんぷん",
-    "じゅっぷん"
+    "<ruby>学校<rt>がっこう</rt></ruby>の となり",
+    "<ruby>教室<rt>きょうしつ</rt></ruby>の <ruby>中<rt>ちゅう</rt></ruby>",
+    "<ruby>駅<rt>えき</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>"
    ],
    "correcta": 1
   },
   {
-   "p": "<ruby>一番<rt>いちばん</rt></ruby> うれしかったのは いつですか。",
+   "p": "<ruby>一<rt>いっ</rt></ruby>ページ <ruby>読<rt>よ</rt></ruby>むのに どのくらい かかりますか。",
    "opciones": [
-    "<ruby>雑誌<rt>ざっし</rt></ruby>を かった ひ",
-    "<ruby>図書館<rt>としょかん</rt></ruby>が できた ひ",
-    "さいごまで <ruby>読<rt>よ</rt></ruby>めた ひ",
-    "じしょを かった ひ"
+    "さんぷん",
+    "いちじかん",
+    "さんじゅっぷん",
+    "じゅっぷん"
    ],
    "correcta": 2
+  },
+  {
+   "p": "<ruby>一番<rt>いちばん</rt></ruby> うれしかったのは いつですか。",
+   "opciones": [
+    "じしょを かった ひ",
+    "<ruby>図書館<rt>としょかん</rt></ruby>が できた ひ",
+    "<ruby>雑誌<rt>ざっし</rt></ruby>を かった ひ",
+    "さいごまで <ruby>読<rt>よ</rt></ruby>めた ひ"
+   ],
+   "correcta": 3
   }
  ],
  "traduccion_en": "Next to the school there's a small library. After class I've made a habit of reading the newspaper there. There are so many kanji that one page takes me half an hour. Magazines are easier because they have photos. The happiest I've been in Japan was the day I got to the end of something. It was a short story, but I didn't look at the dictionary once."

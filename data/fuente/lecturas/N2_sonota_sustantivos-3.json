@@ -7,29 +7,32 @@
   {
    "p": "<ruby>看板<rt>かんばん</rt></ruby>には<ruby>何<rt>なに</rt></ruby>がありますか。",
    "opciones": [
-    "<ruby>矢印<rt>やじるし</rt></ruby>",
     "<ruby>見本<rt>みほん</rt></ruby>",
-    "<ruby>括弧<rt>かっこ</rt></ruby>"
-   ],
-   "correcta": 0
-  },
-  {
-   "p": "<ruby>括弧<rt>かっこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>には<ruby>何<rt>なに</rt></ruby>が<ruby>書<rt>か</rt></ruby>いてありますか。",
-   "opciones": [
-    "<ruby>名前<rt>なまえ</rt></ruby>",
-    "<ruby>用途<rt>ようと</rt></ruby>",
-    "<ruby>値段<rt>ねだん</rt></ruby>"
+    "<ruby>矢印<rt>やじるし</rt></ruby>",
+    "<ruby>括弧<rt>かっこ</rt></ruby>",
+    "<ruby>高層<rt>こうそう</rt></ruby>ビルの<ruby>名前<rt>なまえ</rt></ruby>"
    ],
    "correcta": 1
   },
   {
-   "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きに<ruby>問<rt>と</rt></ruby>い<ruby>合<rt>あ</rt></ruby>わせましたか。",
+   "p": "<ruby>括弧<rt>かっこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>には<ruby>何<rt>なに</rt></ruby>が<ruby>書<rt>か</rt></ruby>いてありますか。",
    "opciones": [
-    "<ruby>時間<rt>じかん</rt></ruby>",
-    "<ruby>場所<rt>ばしょ</rt></ruby>",
-    "<ruby>伝染<rt>でんせん</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐ<ruby>方法<rt>ほうほう</rt></ruby>"
+    "<ruby>値段<rt>ねだん</rt></ruby>",
+    "<ruby>催<rt>もよお</rt></ruby>しの<ruby>日<rt>にち</rt></ruby>",
+    "<ruby>用途<rt>ようと</rt></ruby>",
+    "<ruby>名前<rt>なまえ</rt></ruby>"
    ],
    "correcta": 2
+  },
+  {
+   "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きに<ruby>問<rt>と</rt></ruby>い<ruby>合<rt>あ</rt></ruby>わせましたか。",
+   "opciones": [
+    "<ruby>場所<rt>ばしょ</rt></ruby>",
+    "<ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>人命<rt>じんめい</rt></ruby>に<ruby>関<rt>かか</rt></ruby>わる<ruby>話<rt>はなし</rt></ruby>",
+    "<ruby>伝染<rt>でんせん</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐ<ruby>方法<rt>ほうほう</rt></ruby>"
+   ],
+   "correcta": 3
   }
  ],
  "traduccion_en": "On both sides of the skyscraper there are signs with arrows. Samples from the event are lined up and their use is given in brackets. There were also matters affecting human lives, and just from hearing about it indirectly a sigh escaped me. Thinking «how can I leave without asking how contagion is prevented!», I put the question. That they answered me is nothing other than the credit of those who have been preparing it for a long time."

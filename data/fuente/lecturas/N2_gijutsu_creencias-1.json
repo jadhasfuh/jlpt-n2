@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>米<rt>こめ</rt></ruby>",
     "<ruby>花<rt>はな</rt></ruby>",
-    "<ruby>お金<rt>おかね</rt></ruby>"
+    "<ruby>お金<rt>おかね</rt></ruby>",
+    "<ruby>雨<rt>あめ</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>歌<rt>うた</rt></ruby>う",
     "<ruby>神話<rt>しんわ</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む",
-    "<ruby>米<rt>こめ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る"
+    "<ruby>米<rt>こめ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る",
+    "<ruby>迷信<rt>めいしん</rt></ruby>を<ruby>話<rt>はな</rt></ruby>す"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "「<ruby>迷信<rt>めいしん</rt></ruby>だ」",
     "「<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>る」",
-    "「おかげさまで<ruby>無事<rt>ぶじ</rt></ruby>だ」"
+    "「おかげさまで<ruby>無事<rt>ぶじ</rt></ruby>だ」",
+    "「<ruby>今年<rt>ことし</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない」"
    ],
    "correcta": 2
   }

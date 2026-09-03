@@ -7,32 +7,32 @@
   {
    "p": "メキシコの <ruby>服<rt>ふく</rt></ruby>は どうでしたか。",
    "opciones": [
-    "さむすぎました",
-    "あつすぎました",
     "ちょうど よかったです",
-    "あたらしかったです"
+    "あたらしかったです",
+    "さむすぎました",
+    "あつすぎました"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>靴下<rt>くつした</rt></ruby>を なんまい はきますか。",
    "opciones": [
-    "はきません",
-    "<ruby>二<rt>に</rt></ruby>まい",
     "<ruby>一<rt>いち</rt></ruby>まい",
-    "<ruby>三<rt>み</rt></ruby>まい"
+    "<ruby>三<rt>み</rt></ruby>まい",
+    "はきません",
+    "<ruby>二<rt>に</rt></ruby>まい"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "だれの ことばが 正しかったですか。",
    "opciones": [
-    "ゴンサ",
-    "たなかさん",
     "ミンさん",
-    "アンナさん"
+    "ゴンサ",
+    "アンナさん",
+    "たなかさん"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "The clothes I brought from Mexico weren't enough for this winter. I bought a coat in a cheap shop. With two pairs of socks you really are warm. Min was right. Taking my shoes off when I go indoors comes naturally now. In my bag I always carry my work clothes."

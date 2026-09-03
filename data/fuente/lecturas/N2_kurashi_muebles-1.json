@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>台所<rt>だいどころ</rt></ruby>の<ruby>道具<rt>どうぐ</rt></ruby>",
     "<ruby>服<rt>ふく</rt></ruby>",
-    "<ruby>本<rt>ほん</rt></ruby>"
+    "<ruby>本<rt>ほん</rt></ruby>",
+    "<ruby>割<rt>わ</rt></ruby>れやすい<ruby>物<rt>もの</rt></ruby>だけ"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>箒<rt>ほうき</rt></ruby>",
     "<ruby>割<rt>わ</rt></ruby>れやすい<ruby>物<rt>もの</rt></ruby>",
-    "ねじ"
+    "ねじ",
+    "<ruby>蓋<rt>ふた</rt></ruby>のない<ruby>入<rt>い</rt></ruby>れ<ruby>物<rt>もの</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>い",
     "<ruby>順番<rt>じゅんばん</rt></ruby>",
-    "じゃんけん"
+    "じゃんけん",
+    "くじ"
    ],
    "correcta": 2
   }

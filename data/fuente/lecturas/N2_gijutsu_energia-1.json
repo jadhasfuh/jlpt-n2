@@ -7,29 +7,32 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>が<ruby>切<rt>き</rt></ruby>れましたか。",
    "opciones": [
+    "<ruby>電池<rt>でんち</rt></ruby>",
+    "<ruby>他<rt>ほか</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>の<ruby>電球<rt>でんきゅう</rt></ruby>",
     "<ruby>台所<rt>だいどころ</rt></ruby>の<ruby>電球<rt>でんきゅう</rt></ruby>",
-    "<ruby>電力<rt>でんりょく</rt></ruby>",
-    "<ruby>電池<rt>でんち</rt></ruby>"
+    "<ruby>電力<rt>でんりょく</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をしましたか。",
    "opciones": [
+    "<ruby>磁石<rt>じしゃく</rt></ruby>の色",
+    "<ruby>直流<rt>ちょくりゅう</rt></ruby>の<ruby>直<rt>なお</rt></ruby>し<ruby>方<rt>かた</rt></ruby>",
     "<ruby>料理<rt>りょうり</rt></ruby>",
-    "<ruby>電流<rt>でんりゅう</rt></ruby>",
-    "<ruby>磁石<rt>じしゃく</rt></ruby>の色"
+    "<ruby>電流<rt>でんりゅう</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "<ruby>最後<rt>さいご</rt></ruby>にどうしましたか。",
    "opciones": [
+    "<ruby>新<rt>あたら</rt></ruby>しいのを<ruby>買<rt>か</rt></ruby>いに<ruby>行<rt>い</rt></ruby>った",
     "<ruby>直<rt>なお</rt></ruby>した",
-    "<ruby>寝<rt>ね</rt></ruby>た",
-    "<ruby>新<rt>あたら</rt></ruby>しいのを<ruby>買<rt>か</rt></ruby>いに<ruby>行<rt>い</rt></ruby>った"
+    "<ruby>父<rt>ちち</rt></ruby>が<ruby>直<rt>なお</rt></ruby>した",
+    "<ruby>寝<rt>ね</rt></ruby>た"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "The kitchen bulb suddenly blew. It wasn't that the power had gone: the other rooms were lit. My father started talking about current with a magnet and a battery, but understanding direct current doesn't mean knowing how to fix it. Saying that having light isn't enough, in the end he went to buy a new one."

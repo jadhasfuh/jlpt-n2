@@ -7,32 +7,32 @@
   {
    "p": "バイトを する ために なにが <ruby>要<rt>い</rt></ruby>りますか。",
    "opciones": [
-    "ぎんこうの こうざ",
-    "パスポート",
     "じてんしゃ",
+    "パスポート",
+    "ぎんこうの こうざ",
     "ざいりゅうカード"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "はんこを <ruby>作<rt>つく</rt></ruby>る とき、なにを きかれましたか。",
    "opciones": [
-    "いつ くるか",
-    "どんな なまえに するか",
     "いくら はらうか",
-    "しゃしんを <ruby>撮<rt>と</rt></ruby>るか"
+    "いつ くるか",
+    "しゃしんを <ruby>撮<rt>と</rt></ruby>るか",
+    "どんな なまえに するか"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "さいしょの にしゅうかんは どうでしたか。",
    "opciones": [
-    "まいにち あそびました",
-    "がっこうだけでした",
     "ぜんぶ てつづきでした",
-    "バイトを して いました"
+    "バイトを して いました",
+    "まいにち あそびました",
+    "がっこうだけでした"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "To work you need a bank account. They told me I also needed a personal seal, so I went to have one made. «What name would you like on it?» they asked, and I had to think for a moment. I had a photo taken too. My face came out stiff. Opening the account took another hour. My first two weeks in Japan were paperwork from start to finish."

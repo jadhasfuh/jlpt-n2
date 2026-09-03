@@ -7,32 +7,32 @@
   {
    "p": "いま、できるように なった ことは なんですか。",
    "opciones": [
+    "<ruby>半年<rt>はんとし</rt></ruby>まえから できました",
     "でんわで やくそくを する こと",
     "はやい ことばを <ruby>聞<rt>き</rt></ruby>く こと",
-    "かんじを ぜんぶ <ruby>書<rt>か</rt></ruby>く こと",
-    "<ruby>半年<rt>はんとし</rt></ruby>まえから できました"
-   ],
-   "correcta": 0
-  },
-  {
-   "p": "はやい ことばは どうですか。",
-   "opciones": [
-    "ぜんぜん わかりません",
-    "まだ わかりにくいですが こわく ないです",
-    "もう かんぺきです",
-    "もう ぜんぶ わかります"
+    "かんじを ぜんぶ <ruby>書<rt>か</rt></ruby>く こと"
    ],
    "correcta": 1
   },
   {
-   "p": "だれと はなす とき いちばん じょうずですか。",
+   "p": "はやい ことばは どうですか。",
    "opciones": [
-    "てんちょう",
-    "アンナさん",
-    "けんたくん",
-    "ミンさん"
+    "もう ぜんぶ わかります",
+    "もう かんぺきです",
+    "まだ わかりにくいですが こわく ないです",
+    "ぜんぜん わかりません"
    ],
    "correcta": 2
+  },
+  {
+   "p": "だれと はなす とき いちばん じょうずですか。",
+   "opciones": [
+    "ミンさん",
+    "アンナさん",
+    "てんちょう",
+    "けんたくん"
+   ],
+   "correcta": 3
   }
  ],
  "traduccion_en": "Japanese is still hard for me. But things I couldn't do six months ago, I can do now. I can arrange to meet someone by phone. I can explain myself at the hospital. Fast speech is still difficult, but it doesn't frighten me. What I understand best is the way children talk. When I'm talking to Kenta is when I sound my best."

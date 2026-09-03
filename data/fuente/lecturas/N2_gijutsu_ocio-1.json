@@ -7,29 +7,32 @@
   {
    "p": "<ruby>花火<rt>はなび</rt></ruby>はどのくらいでしたか。",
    "opciones": [
-    "<ruby>三十分<rt>さんじゅっぷん</rt></ruby>",
     "<ruby>一時間<rt>いちじかん</rt></ruby>",
+    "<ruby>三十分<rt>さんじゅっぷん</rt></ruby>",
+    "<ruby>去年<rt>きょねん</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じ",
     "<ruby>十分<rt>じゅっぷん</rt></ruby>"
-   ],
-   "correcta": 0
-  },
-  {
-   "p": "<ruby>待<rt>ま</rt></ruby>つ<ruby>間<rt>あいだ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>をしましたか。",
-   "opciones": [
-    "<ruby>演劇<rt>えんげき</rt></ruby>",
-    "かるたや<ruby>謎謎<rt>なぞなぞ</rt></ruby>",
-    "<ruby>食事<rt>しょくじ</rt></ruby>"
    ],
    "correcta": 1
   },
   {
-   "p": "<ruby>来月<rt>らいげつ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>がありますか。",
+   "p": "<ruby>待<rt>ま</rt></ruby>つ<ruby>間<rt>あいだ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>をしましたか。",
    "opciones": [
-    "<ruby>祭<rt>まつ</rt></ruby>り",
-    "<ruby>花火<rt>はなび</rt></ruby>",
-    "<ruby>演劇<rt>えんげき</rt></ruby>"
+    "<ruby>切符<rt>きっぷ</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めた",
+    "<ruby>演劇<rt>えんげき</rt></ruby>",
+    "かるたや<ruby>謎謎<rt>なぞなぞ</rt></ruby>",
+    "<ruby>食事<rt>しょくじ</rt></ruby>"
    ],
    "correcta": 2
+  },
+  {
+   "p": "<ruby>来月<rt>らいげつ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>がありますか。",
+   "opciones": [
+    "<ruby>花火<rt>はなび</rt></ruby>",
+    "レクリェーション",
+    "<ruby>祭<rt>まつ</rt></ruby>り",
+    "<ruby>演劇<rt>えんげき</rt></ruby>"
+   ],
+   "correcta": 3
   }
  ],
  "traduccion_en": "I watched the fireworks at the town's recreational event. There were fewer than last year: it was no more than thirty minutes. Even so everyone said it was just as well, compared with it being cancelled for rain. While we waited we played cards and riddles. Next month there's theatre too, so my ticket collection will grow again."

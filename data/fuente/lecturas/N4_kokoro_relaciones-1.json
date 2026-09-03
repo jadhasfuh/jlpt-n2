@@ -7,22 +7,22 @@
   {
    "p": "だれが<ruby>招待<rt>しょうたい</rt></ruby>しましたか。",
    "opciones": [
+    "この<ruby>人<rt>ひと</rt></ruby>",
     "<ruby>先生<rt>せんせい</rt></ruby>",
     "おくさん",
-    "この<ruby>人<rt>ひと</rt></ruby>",
     "<ruby>学生<rt>がくせい</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>教<rt>おし</rt></ruby>わりましたか。",
    "opciones": [
-    "<ruby>先生<rt>せんせい</rt></ruby>をたずねること",
-    "してもらったことはほかのだれかにかえせばいい",
+    "<ruby>挨拶<rt>あいさつ</rt></ruby>のしかた",
     "<ruby>仕事<rt>しごと</rt></ruby>をやめること",
-    "<ruby>挨拶<rt>あいさつ</rt></ruby>のしかた"
+    "してもらったことはほかのだれかにかえせばいい",
+    "<ruby>先生<rt>せんせい</rt></ruby>をたずねること"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "I went to visit the teacher who helped me so much in my student years. He was the one who invited me. When I greeted them in the hall, his wife made me a tea. He has retired now, but they say he keeps in touch with many former students. I asked whether I could come and see him whenever I had a problem and he answered with a laugh that of course I could. I learnt that what someone does for you gets passed on to somebody else."

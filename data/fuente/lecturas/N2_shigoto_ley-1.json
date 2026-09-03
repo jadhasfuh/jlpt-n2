@@ -7,29 +7,32 @@
   {
    "p": "どこで<ruby>荷物<rt>にもつ</rt></ruby>が<ruby>無<rt>な</rt></ruby>くなりましたか。",
    "opciones": [
-    "テニスコート",
     "<ruby>駅<rt>えき</rt></ruby>",
-    "<ruby>店<rt>みせ</rt></ruby>"
-   ],
-   "correcta": 0
-  },
-  {
-   "p": "<ruby>判子<rt>はんこ</rt></ruby>がないので、どうしましたか。",
-   "opciones": [
-    "<ruby>待<rt>ま</rt></ruby>った",
-    "サインで<ruby>済<rt>す</rt></ruby>ませた",
-    "<ruby>帰<rt>かえ</rt></ruby>った"
+    "テニスコート",
+    "<ruby>店<rt>みせ</rt></ruby>",
+    "<ruby>防犯<rt>ぼうはん</rt></ruby>のカメラの<ruby>前<rt>まえ</rt></ruby>"
    ],
    "correcta": 1
   },
   {
-   "p": "<ruby>調査<rt>ちょうさ</rt></ruby>はどうなりましたか。",
+   "p": "<ruby>判子<rt>はんこ</rt></ruby>がないので、どうしましたか。",
    "opciones": [
-    "<ruby>進<rt>すす</rt></ruby>んでいる",
-    "<ruby>終<rt>お</rt></ruby>わった",
-    "<ruby>止<rt>と</rt></ruby>まっている"
+    "<ruby>帰<rt>かえ</rt></ruby>った",
+    "<ruby>判子<rt>はんこ</rt></ruby>を<ruby>借<rt>か</rt></ruby>りた",
+    "サインで<ruby>済<rt>す</rt></ruby>ませた",
+    "<ruby>待<rt>ま</rt></ruby>った"
    ],
    "correcta": 2
+  },
+  {
+   "p": "<ruby>調査<rt>ちょうさ</rt></ruby>はどうなりましたか。",
+   "opciones": [
+    "<ruby>終<rt>お</rt></ruby>わった",
+    "<ruby>進<rt>すす</rt></ruby>んでいる",
+    "<ruby>人<rt>ひと</rt></ruby>を<ruby>捕<rt>とら</rt></ruby>えた",
+    "<ruby>止<rt>と</rt></ruby>まっている"
+   ],
+   "correcta": 3
   }
  ],
  "traduccion_en": "At the tennis court my bag disappeared and I filed a theft report. Since I didn't have my seal with me, apologising, they let me settle it with a signature. They asked me the approximate time, but the conversation ended without my managing to answer clearly. Even if they check the security cameras, it seems catching someone is difficult. Like a stopped clock, the investigation stayed where it was. For the first time I understood that not everyone respects rules and laws."

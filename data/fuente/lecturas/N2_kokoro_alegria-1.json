@@ -7,29 +7,32 @@
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>近所<rt>きんじょ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>どもをどうしますか。",
    "opciones": [
+    "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えない",
     "かわいがる",
     "<ruby>叱<rt>しか</rt></ruby>る",
     "<ruby>無視<rt>むし</rt></ruby>する"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>私<rt>わたし</rt></ruby>が<ruby>落<rt>お</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>んだとき、どうしてくれましたか。",
    "opciones": [
-    "<ruby>笑<rt>わら</rt></ruby>った",
+    "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>んでくれた",
+    "<ruby>怒<rt>おこ</rt></ruby>った",
     "<ruby>慰<rt>なぐさ</rt></ruby>めてくれた",
-    "<ruby>怒<rt>おこ</rt></ruby>った"
+    "<ruby>笑<rt>わら</rt></ruby>った"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>私<rt>わたし</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>祖母<rt>そぼ</rt></ruby>から<ruby>学<rt>まな</rt></ruby>んでいますか。",
    "opciones": [
     "<ruby>料理<rt>りょうり</rt></ruby>",
     "<ruby>言葉<rt>ことば</rt></ruby>",
+    "<ruby>人<rt>ひと</rt></ruby>を<ruby>疑<rt>うたが</rt></ruby>う<ruby>気持<rt>きも</rt></ruby>ち",
     "<ruby>人<rt>ひと</rt></ruby>を<ruby>敬<rt>うやま</rt></ruby>う<ruby>気持<rt>きも</rt></ruby>ち"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "My grandmother is very fond of the neighbourhood children. Even with those who say «pleased to meet you» for the first time, she learns their name at once and chats with them. When I was low she comforted me too without saying anything. I still receive that kindness today. My grandmother trusts people to the end, whatever happens. I think the wish to respect people grows in me little by little from watching her."

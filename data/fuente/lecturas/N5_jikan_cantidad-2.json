@@ -7,32 +7,32 @@
   {
    "p": "かみには なにが かいて ありましたか。",
    "opciones": [
+    "でんわばんごうだけ",
     "アルバイト ぼしゅう",
     "みせの なまえ",
-    "やすみの <ruby>日<rt>ひ</rt></ruby>",
-    "でんわばんごうだけ"
-   ],
-   "correcta": 0
-  },
-  {
-   "p": "でんわの まえに なにを しましたか。",
-   "opciones": [
-    "なにも しませんでした",
-    "言う ことを かみに かきました",
-    "ともだちに ききました",
-    "いすに すわりました"
+    "やすみの <ruby>日<rt>ひ</rt></ruby>"
    ],
    "correcta": 1
   },
   {
-   "p": "あいては なんと 言いましたか。",
+   "p": "でんわの まえに なにを しましたか。",
    "opciones": [
-    "「でんわを ください」",
-    "「もう いっぱいです」",
-    "「あした <ruby>来<rt>き</rt></ruby>て ください」",
-    "「もう いちど かけて ください」"
+    "ともだちに ききました",
+    "なにも しませんでした",
+    "言う ことを かみに かきました",
+    "いすに すわりました"
    ],
    "correcta": 2
+  },
+  {
+   "p": "あいては なんと 言いましたか。",
+   "opciones": [
+    "「もう いっぱいです」",
+    "「もう いちど かけて ください」",
+    "「でんわを ください」",
+    "「あした <ruby>来<rt>き</rt></ruby>て ください」"
+   ],
+   "correcta": 3
   }
  ],
  "traduccion_en": "On a sheet stuck up in front of a shop there was a phone number. It said: «staff wanted». Before calling I wrote out everything I was going to say. I said «hello, I saw the notice» and the other person started talking very fast. I only caught half of it, but I did hear «come tomorrow». I hung up and sat down on a chair. My hands were cold."

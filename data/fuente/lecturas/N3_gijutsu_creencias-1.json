@@ -7,22 +7,22 @@
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>信仰<rt>しんこう</rt></ruby>についてどう<ruby>言<rt>い</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>習慣<rt>しゅうかん</rt></ruby>のようなものだ",
+    "<ruby>必要<rt>ひつよう</rt></ruby>ない",
     "むずかしい",
-    "とてもたいせつだ",
-    "<ruby>必要<rt>ひつよう</rt></ruby>ない"
+    "<ruby>習慣<rt>しゅうかん</rt></ruby>のようなものだ",
+    "とてもたいせつだ"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>悪<rt>わる</rt></ruby>いことが<ruby>起<rt>お</rt></ruby>きたとき、<ruby>祖母<rt>そぼ</rt></ruby>はどうしますか。",
    "opciones": [
+    "<ruby>何<rt>なに</rt></ruby>もしない",
     "<ruby>悪魔<rt>あくま</rt></ruby>のせいにする",
-    "じぶんにできることをする",
     "<ruby>祈<rt>いの</rt></ruby>る",
-    "<ruby>何<rt>なに</rt></ruby>もしない"
+    "じぶんにできることをする"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "My grandmother puts her hands together before the Buddhist altar every morning. She has never talked about religion at length. She says: «calling it faith sounds grand, but it's more of a habit». When something bad happens, it's easy to blame the devil. But she doesn't do that. She says: «I only do what I can». I've come to think that it doesn't matter what each person believes in: if they live decently, that's enough."

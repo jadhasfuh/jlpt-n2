@@ -7,29 +7,32 @@
   {
    "p": "どこで<ruby>紙<rt>かみ</rt></ruby>を<ruby>落<rt>お</rt></ruby>としかけましたか。",
    "opciones": [
-    "<ruby>駅<rt>えき</rt></ruby>の<ruby>改札<rt>かいさつ</rt></ruby>",
     "<ruby>会場<rt>かいじょう</rt></ruby>",
+    "<ruby>会場<rt>かいじょう</rt></ruby>の<ruby>受付<rt>うけつけ</rt></ruby>",
+    "<ruby>駅<rt>えき</rt></ruby>の<ruby>改札<rt>かいさつ</rt></ruby>",
     "<ruby>家<rt>いえ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "どうして<ruby>緊張<rt>きんちょう</rt></ruby>しましたか。",
    "opciones": [
+    "<ruby>寝<rt>ね</rt></ruby>ていないから",
     "<ruby>遅<rt>おく</rt></ruby>れたから",
-    "<ruby>去年<rt>きょねん</rt></ruby><ruby>落<rt>お</rt></ruby>ちたから",
-    "<ruby>寝<rt>ね</rt></ruby>ていないから"
+    "<ruby>改札<rt>かいさつ</rt></ruby>で<ruby>紙<rt>かみ</rt></ruby>を<ruby>落<rt>お</rt></ruby>としかけたから",
+    "<ruby>去年<rt>きょねん</rt></ruby><ruby>落<rt>お</rt></ruby>ちたから"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "<ruby>点数<rt>てんすう</rt></ruby>はどうでしたか。",
    "opciones": [
+    "<ruby>満点<rt>まんてん</rt></ruby>ではないが<ruby>合格<rt>ごうかく</rt></ruby>",
     "<ruby>満点<rt>まんてん</rt></ruby>",
     "<ruby>不合格<rt>ふごうかく</rt></ruby>",
-    "<ruby>満点<rt>まんてん</rt></ruby>ではないが<ruby>合格<rt>ごうかく</rt></ruby>"
+    "<ruby>見<rt>み</rt></ruby><ruby>直<rt>なお</rt></ruby>さなかった"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "In the morning I nearly dropped the exam application form at the station barrier. At the venue I was nervous precisely because I failed last year. When I'd finished writing my answers and gone over them, there was only one I wasn't sure about. In the marking the score wasn't perfect, but I passed. My mother laughed and said «this is a masterpiece», and hung my exam paper on the wall."

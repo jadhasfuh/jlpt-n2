@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>駅<rt>えき</rt></ruby>の<ruby>突<rt>つ</rt></ruby>き<ruby>当<rt>あ</rt></ruby>たり",
     "<ruby>店<rt>みせ</rt></ruby>",
-    "<ruby>会社<rt>かいしゃ</rt></ruby>"
+    "<ruby>会社<rt>かいしゃ</rt></ruby>",
+    "<ruby>相手<rt>あいて</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "つながった",
     "<ruby>話中<rt>はなしちゅう</rt></ruby>だった",
-    "かけなかった"
+    "かけなかった",
+    "<ruby>間<rt>ま</rt></ruby>も<ruby>無<rt>な</rt></ruby>くつながった"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>資料<rt>しりょう</rt></ruby>がないから",
     "<ruby>短<rt>みじか</rt></ruby>かったから",
-    "<ruby>内容<rt>ないよう</rt></ruby>を<ruby>区切<rt>くぎ</rt></ruby>ったから"
+    "<ruby>内容<rt>ないよう</rt></ruby>を<ruby>区切<rt>くぎ</rt></ruby>ったから",
+    "<ruby>並行<rt>へいこう</rt></ruby>して<ruby>読<rt>よ</rt></ruby>んだから"
    ],
    "correcta": 2
   }

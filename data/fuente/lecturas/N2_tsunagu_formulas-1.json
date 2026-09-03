@@ -7,29 +7,32 @@
   {
    "p": "<ruby>先輩<rt>せんぱい</rt></ruby>は<ruby>何年<rt>なんねん</rt></ruby><ruby>働<rt>はたら</rt></ruby>きましたか。",
    "opciones": [
-    "<ruby>十年<rt>じゅうねん</rt></ruby>",
     "<ruby>五年<rt>ごねん</rt></ruby>",
+    "<ruby>一<rt>ひと</rt></ruby><ruby>年<rt>とし</rt></ruby>",
+    "<ruby>十年<rt>じゅうねん</rt></ruby>",
     "<ruby>二十年<rt>にじゅうねん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>噂<rt>うわさ</rt></ruby>では<ruby>何<rt>なに</rt></ruby>をしますか。",
    "opciones": [
+    "<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>残<rt>のこ</rt></ruby>る",
+    "<ruby>休<rt>やす</rt></ruby>む",
     "<ruby>旅行<rt>りょこう</rt></ruby>する",
-    "<ruby>故郷<rt>こきょう</rt></ruby>で<ruby>店<rt>みせ</rt></ruby>を<ruby>開<rt>ひら</rt></ruby>く",
-    "<ruby>休<rt>やす</rt></ruby>む"
+    "<ruby>故郷<rt>こきょう</rt></ruby>で<ruby>店<rt>みせ</rt></ruby>を<ruby>開<rt>ひら</rt></ruby>く"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "<ruby>皆<rt>みな</rt></ruby>は<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
+    "おせわになりました",
     "おげんきで",
-    "まあまあ",
-    "おせわになりました"
+    "「<ruby>仕方<rt>しかた</rt></ruby>がない」",
+    "まあまあ"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "A senior colleague who'd been at the company ten years is leaving. He laughed himself, saying «well, what can you do». Word has it he's going to open a shop in his home town. Keeping him by force would be disrespectful, but it's natural to feel sad. So we all bowed our heads and said «thank you for everything». My colleague's new shop is bound to do well."

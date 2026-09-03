@@ -7,22 +7,22 @@
   {
    "p": "こどもたちのこえを<ruby>聞<rt>き</rt></ruby>いて、どうなりましたか。",
    "opciones": [
-    "こちらまで<ruby>笑<rt>わら</rt></ruby>ってしまった",
     "うるさかっただけ",
+    "こちらまで<ruby>笑<rt>わら</rt></ruby>ってしまった",
     "きょうしつを<ruby>出<rt>で</rt></ruby>た",
     "<ruby>何<rt>なに</rt></ruby>も<ruby>思<rt>おも</rt></ruby>わなかった"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "きょう、<ruby>何<rt>なに</rt></ruby>をすることにしましたか。",
    "opciones": [
-    "おそくまではたらく",
-    "<ruby>早<rt>はや</rt></ruby>くかえる",
     "こどもと<ruby>遊<rt>あそ</rt></ruby>ぶ",
-    "<ruby>笑<rt>わら</rt></ruby>う"
+    "<ruby>笑<rt>わら</rt></ruby>う",
+    "<ruby>早<rt>はや</rt></ruby>くかえる",
+    "おそくまではたらく"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "From outside the classroom you could hear children making a racket. At first it seemed noisy, but after listening for a while I ended up laughing too. It wasn't that anything funny had happened. It's simply that happy voices are catching. Today I decided to go home early. Because seeing the happy faces at home is what I look forward to now. I think that looking forward to something, rather than getting it from someone, is better decided and made yourself."

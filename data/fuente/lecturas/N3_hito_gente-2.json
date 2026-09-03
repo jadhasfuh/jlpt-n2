@@ -7,22 +7,22 @@
   {
    "p": "<ruby>住民<rt>じゅうみん</rt></ruby>のかおぶれがかわったのはなぜですか。",
    "opciones": [
-    "<ruby>住宅<rt>じゅうたく</rt></ruby>がふえたから",
     "<ruby>年<rt>とし</rt></ruby>を<ruby>取<rt>と</rt></ruby>ったから",
+    "<ruby>仲間<rt>なかま</rt></ruby>になったから",
     "<ruby>他人<rt>たにん</rt></ruby>だから",
-    "<ruby>仲間<rt>なかま</rt></ruby>になったから"
+    "<ruby>住宅<rt>じゅうたく</rt></ruby>がふえたから"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>人間<rt>にんげん</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>できまりますか。",
    "opciones": [
-    "<ruby>時間<rt>じかん</rt></ruby>のながさ",
     "<ruby>個人<rt>こじん</rt></ruby>のせいかつとたすけあいのバランス",
     "<ruby>住宅<rt>じゅうたく</rt></ruby>の<ruby>数<rt>かず</rt></ruby>",
+    "<ruby>時間<rt>じかん</rt></ruby>のながさ",
     "<ruby>年<rt>とし</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "As the number of homes grew, the neighbourhood changed too. Those who have always lived here and the new arrivals. Even if they're strangers at first, as time passes they gradually become companions. Respecting each person's private life and, when there's a problem, helping each other. Human relationships are defined by that balance. As I get older, I understand better what people who take your side are worth. From acquaintances to friends, and from there to close friends. There are things only time can do."

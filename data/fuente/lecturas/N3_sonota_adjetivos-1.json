@@ -8,21 +8,21 @@
    "p": "となりの<ruby>家<rt>いえ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>について、<ruby>何<rt>なに</rt></ruby>がわかりますか。",
    "opciones": [
     "まだ<ruby>寝<rt>ね</rt></ruby>ている",
-    "<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>った",
     "もう<ruby>出<rt>で</rt></ruby>かけたらしい",
+    "<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>った",
     "<ruby>雪<rt>ゆき</rt></ruby>をかいている"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって<ruby>完全<rt>かんぜん</rt></ruby>な<ruby>朝<rt>あさ</rt></ruby>ごはんとは<ruby>何<rt>なん</rt></ruby>ですか。",
    "opciones": [
     "<ruby>贅沢<rt>ぜいたく</rt></ruby>なりょうり",
     "かたいパン",
-    "<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べないこと",
-    "あたたかい<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>が<ruby>一<rt>ひと</rt></ruby>つあること"
+    "あたたかい<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>が<ruby>一<rt>ひと</rt></ruby>つあること",
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べないこと"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "When I opened the curtain, the sun was hitting the snow and it was almost dazzling. It seems the neighbour had already gone out: on the path there was a single line of footprints. Since it had turned cold suddenly overnight, the leftover bread had gone hard. For breakfast nothing fancy is needed. With a hot drink it's already complete. I get the impression that the source of happiness isn't as high up as we think."

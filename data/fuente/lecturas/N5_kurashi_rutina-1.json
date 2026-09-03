@@ -7,32 +7,32 @@
   {
    "p": "<ruby>朝<rt>あさ</rt></ruby>、なんじに <ruby>起<rt>お</rt></ruby>きますか。",
    "opciones": [
+    "<ruby>十二時<rt>じゅうにじ</rt></ruby>",
     "<ruby>六時<rt>ろくじ</rt></ruby>",
-    "<ruby>七時<rt>しちじ</rt></ruby>",
     "<ruby>八時<rt>はちじ</rt></ruby>",
-    "<ruby>十二時<rt>じゅうにじ</rt></ruby>"
+    "<ruby>七時<rt>しちじ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>暇<rt>ひま</rt></ruby>な <ruby>日<rt>ひ</rt></ruby>は なにを しますか。",
    "opciones": [
-    "はたらきます",
-    "そとを あるきます",
+    "お<ruby>風呂<rt>ふろ</rt></ruby>に <ruby>入<rt>はい</rt></ruby>ります",
     "ねます",
-    "お<ruby>風呂<rt>ふろ</rt></ruby>に <ruby>入<rt>はい</rt></ruby>ります"
+    "そとを あるきます",
+    "はたらきます"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "じゅんばんが できてから、どう なりましたか。",
    "opciones": [
     "つかれました",
+    "<ruby>暇<rt>ひま</rt></ruby>に なりました",
     "かわりません",
-    "<ruby>日本語<rt>にほんご</rt></ruby>が よく なりました",
-    "<ruby>暇<rt>ひま</rt></ruby>に なりました"
+    "<ruby>日本語<rt>にほんご</rt></ruby>が よく なりました"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "I get up at six and have a shower. I wash my face, brush my teeth and have bread. After school it's either work or studying at home. On free days I go out for a walk. At night I take a bath and go to bed at twelve. Since I've had this routine, my Japanese has been getting better bit by bit."

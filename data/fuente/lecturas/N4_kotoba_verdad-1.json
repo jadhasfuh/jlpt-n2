@@ -7,22 +7,22 @@
   {
    "p": "<ruby>昨日<rt>きのう</rt></ruby>、なぜ<ruby>言<rt>い</rt></ruby>い<em class=\"g\">づらかった</em>ですか。",
    "opciones": [
-    "わすれたから",
     "<ruby>時間<rt>じかん</rt></ruby>がないから",
-    "こわかったから",
-    "ちいさいことだから"
+    "わすれたから",
+    "ちいさいことだから",
+    "こわかったから"
    ],
-   "correcta": 2
+   "correcta": 3
   },
   {
    "p": "はやく<ruby>言<rt>い</rt></ruby>って、どうなりましたか。",
    "opciones": [
+    "<ruby>直<rt>なお</rt></ruby>すことができた",
     "おこられた",
     "もんだいになった",
-    "かくせた",
-    "<ruby>直<rt>なお</rt></ruby>すことができた"
+    "かくせた"
    ],
-   "correcta": 3
+   "correcta": 0
   }
  ],
  "traduccion_en": "A small lie may not hurt anyone. But once you've told it, you then have to keep adjusting to it. It's true that sometimes it's hard to tell the truth. Yesterday, when reporting a mistake at work, I was afraid and found it hard to say. But because I said it early, it could be put right. If I'd hidden it, it might have turned into a much bigger problem."

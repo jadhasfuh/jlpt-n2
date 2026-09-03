@@ -7,32 +7,32 @@
   {
    "p": "その みせは どんな みせでしたか。",
    "opciones": [
-    "<ruby>三十分<rt>さんじゅっぷん</rt></ruby>で おなじ ねだん",
-    "とても たかい みせ",
+    "のみものが ぜんぶ ただの みせ",
     "しずかな みせ",
-    "のみものが ぜんぶ ただの みせ"
+    "とても たかい みせ",
+    "<ruby>三十分<rt>さんじゅっぷん</rt></ruby>で おなじ ねだん"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "ほかの きゃくは どう しましたか。",
    "opciones": [
-    "かえりました",
     "ゆっくり はなして いました",
     "はやく のみました",
-    "こちらを <ruby>見<rt>み</rt></ruby>ませんでした"
+    "こちらを <ruby>見<rt>み</rt></ruby>ませんでした",
+    "かえりました"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "ぼくたちは なんと 言いましたか。",
    "opciones": [
-    "「もう <ruby>一<rt>いっ</rt></ruby>ぱい」",
     "なにも 言いませんでした",
     "「ありがとう」と 「おいしい」",
+    "「もう <ruby>一<rt>いっ</rt></ruby>ぱい」",
     "「そんなに いそがなくても いい」"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "In that place, for thirty minutes the drinks were all the same price. Since we were short of money, we drank a great deal. The other customers were chatting calmly and looked over, laughing. Someone working there said: «there's no need to rush like that». With our Japanese we couldn't answer properly. We just said «thank you» and «it's good» over and over."

@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>布<rt>ぬの</rt></ruby>",
     "<ruby>紙<rt>かみ</rt></ruby>",
-    "<ruby>土<rt>つち</rt></ruby>"
+    "<ruby>土<rt>つち</rt></ruby>",
+    "<ruby>雪<rt>ゆき</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>葉<rt>は</rt></ruby>が<ruby>落<rt>お</rt></ruby>ちる",
     "<ruby>枝<rt>えだ</rt></ruby>が<ruby>折<rt>お</rt></ruby>れる",
-    "<ruby>芽<rt>め</rt></ruby>が<ruby>出<rt>で</rt></ruby>る"
+    "<ruby>芽<rt>め</rt></ruby>が<ruby>出<rt>で</rt></ruby>る",
+    "<ruby>布<rt>ぬの</rt></ruby>が<ruby>破<rt>やぶ</rt></ruby>れる"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>古<rt>ふる</rt></ruby>い<ruby>紙<rt>かみ</rt></ruby>",
     "<ruby>雪<rt>ゆき</rt></ruby>",
-    "<ruby>小<rt>ちい</rt></ruby>さな<ruby>芽<rt>め</rt></ruby>"
+    "<ruby>小<rt>ちい</rt></ruby>さな<ruby>芽<rt>め</rt></ruby>",
+    "<ruby>折<rt>お</rt></ruby>れた<ruby>枝<rt>えだ</rt></ruby>"
    ],
    "correcta": 2
   }

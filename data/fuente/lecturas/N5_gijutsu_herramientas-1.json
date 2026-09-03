@@ -7,32 +7,32 @@
   {
    "p": "どうして ボールペンで かきますか。",
    "opciones": [
-    "えんぴつは よわいから",
+    "かべが しろいから",
     "きれいだから",
     "やすいから",
-    "かべが しろいから"
+    "えんぴつは よわいから"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "あさ さいしょに <ruby>見<rt>み</rt></ruby>えるのは なんですか。",
    "opciones": [
-    "まど",
     "かべの かみ",
+    "まど",
     "とけい",
     "ボールペン"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "かみは どう なって いますか。",
    "opciones": [
-    "きれいです",
-    "ありません",
+    "しろく なりました",
     "まがって います",
-    "しろく なりました"
+    "きれいです",
+    "ありません"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "On my bedroom wall I stick up notes with the words I want to learn. Pencil fades, so I write them with a ballpoint. It's the first thing I see when I wake up. When Mrs Tanaka came into the flat she laughed: «this is a study room». The wall is hardly white any more. I'm terrible at sticking things up, so they're all crooked."

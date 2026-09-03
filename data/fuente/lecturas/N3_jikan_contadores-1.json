@@ -7,22 +7,22 @@
   {
    "p": "<ruby>本<rt>ほん</rt></ruby>を<ruby>何冊<rt>なんさつ</rt></ruby>かりましたか。",
    "opciones": [
-    "<ruby>三冊<rt>さんさつ</rt></ruby>",
-    "<ruby>二冊<rt>にさつ</rt></ruby>",
     "<ruby>一冊<rt>いっさつ</rt></ruby>",
-    "<ruby>四冊<rt>よんさつ</rt></ruby>"
+    "<ruby>二冊<rt>にさつ</rt></ruby>",
+    "<ruby>四冊<rt>よんさつ</rt></ruby>",
+    "<ruby>三冊<rt>さんさつ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>鳥<rt>とり</rt></ruby>について<ruby>何<rt>なに</rt></ruby>を<ruby>知<rt>し</rt></ruby>りましたか。",
    "opciones": [
-    "<ruby>数<rt>かず</rt></ruby>",
     "<ruby>一<rt>いち</rt></ruby><ruby>羽<rt>わ</rt></ruby>ずつちがう<ruby>鳴<rt>な</rt></ruby>き<ruby>声<rt>ごえ</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていること",
+    "<ruby>名前<rt>なまえ</rt></ruby>のつけ<ruby>方<rt>かた</rt></ruby>",
     "<ruby>季節<rt>きせつ</rt></ruby>",
-    "<ruby>名前<rt>なまえ</rt></ruby>のつけ<ruby>方<rt>かた</rt></ruby>"
+    "<ruby>数<rt>かず</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "At the library I took out three books. I spent an hour hesitating over which. When the season comes when the plum trees flower, books about the four seasons are put on the most visible shelves. Reading them chapter by chapter, I learnt the names of birds I didn't know. Apparently each one has a different song. Learning them all is hard even to imagine, but the path you walk knowing such things is nothing like the one from when you didn't."

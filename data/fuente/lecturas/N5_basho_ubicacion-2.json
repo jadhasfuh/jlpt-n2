@@ -7,32 +7,32 @@
   {
    "p": "がっこうは <ruby>駅<rt>えき</rt></ruby>の どちらですか。",
    "opciones": [
-    "<ruby>東<rt>ひがし</rt></ruby>",
     "<ruby>西<rt>にし</rt></ruby>",
     "<ruby>南<rt>みなみ</rt></ruby>",
-    "<ruby>北<rt>きた</rt></ruby>"
+    "<ruby>北<rt>きた</rt></ruby>",
+    "<ruby>東<rt>ひがし</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "いま、カルロスさんは ちずを みますか。",
    "opciones": [
-    "まいにち みます",
     "みません",
-    "ときどき みます",
-    "はじめだけ みました"
+    "はじめだけ みました",
+    "まいにち みます",
+    "ときどき みます"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "がっこうは なにの <ruby>横<rt>よこ</rt></ruby>に ありますか。",
    "opciones": [
     "<ruby>駅<rt>えき</rt></ruby>",
-    "こうえん",
     "<ruby>大<rt>おお</rt></ruby>きい ビル",
-    "アパート"
+    "アパート",
+    "こうえん"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "The school is east of the station. My flat is to the west. Every morning I cross the road and walk south. Along the way there's a big building, and next to it is the school. At first I got it wrong a lot, but now I don't look at the map. Little by little I'm learning the places in this city. It feels like it's becoming my city."

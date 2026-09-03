@@ -7,29 +7,32 @@
   {
    "p": "<ruby>新聞<rt>しんぶん</rt></ruby>に<ruby>何<rt>なに</rt></ruby>が<ruby>出<rt>で</rt></ruby>ましたか。",
    "opciones": [
-    "<ruby>工事<rt>こうじ</rt></ruby>の<ruby>評論<rt>ひょうろん</rt></ruby>",
     "<ruby>写真<rt>しゃしん</rt></ruby>",
+    "<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>",
+    "<ruby>工事<rt>こうじ</rt></ruby>の<ruby>評論<rt>ひょうろん</rt></ruby>",
     "<ruby>広告<rt>こうこく</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>の<ruby>恐<rt>おそ</rt></ruby>れがありますか。",
    "opciones": [
+    "<ruby>工事<rt>こうじ</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れる<ruby>恐<rt>おそ</rt></ruby>れ",
+    "<ruby>雨<rt>あめ</rt></ruby>",
     "<ruby>怪我<rt>けが</rt></ruby>",
-    "<ruby>火事<rt>かじ</rt></ruby>",
-    "<ruby>雨<rt>あめ</rt></ruby>"
+    "<ruby>火事<rt>かじ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "「<ruby>私<rt>わたし</rt></ruby>」は<ruby>何<rt>なに</rt></ruby>が<ruby>大事<rt>だいじ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>いますか。",
    "opciones": [
+    "<ruby>皆<rt>みな</rt></ruby>が<ruby>納得<rt>なっとく</rt></ruby>すること",
+    "<ruby>怪我<rt>けが</rt></ruby>をしないこと",
     "<ruby>急<rt>いそ</rt></ruby>ぐこと",
-    "<ruby>断定<rt>だんてい</rt></ruby>すること",
-    "<ruby>皆<rt>みな</rt></ruby>が<ruby>納得<rt>なっとく</rt></ruby>すること"
+    "<ruby>断定<rt>だんてい</rt></ruby>すること"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "A column about the town's roadworks appeared in the newspaper. It says that, if the old sockets are left as they are, there's a fire risk. Last year a workman was injured as well. Nothing can be stated yet, but I intend to give my opinion at the meeting. I think it matters more that everyone is convinced than that we go fast."

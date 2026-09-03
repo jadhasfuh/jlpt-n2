@@ -7,32 +7,32 @@
   {
    "p": "どこで<ruby>先生<rt>せんせい</rt></ruby>に<ruby>会<rt>あ</rt></ruby>いましたか。",
    "opciones": [
-    "<ruby>公園<rt>こうえん</rt></ruby>",
     "<ruby>学校<rt>がっこう</rt></ruby>",
+    "<ruby>公園<rt>こうえん</rt></ruby>",
     "<ruby>家<rt>いえ</rt></ruby>",
     "<ruby>病院<rt>びょういん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "あしたは<ruby>何<rt>なに</rt></ruby>がありますか。",
    "opciones": [
     "<ruby>旅行<rt>りょこう</rt></ruby>",
-    "<ruby>漢字<rt>かんじ</rt></ruby>のテスト",
     "<ruby>仕事<rt>しごと</rt></ruby>",
+    "<ruby>漢字<rt>かんじ</rt></ruby>のテスト",
     "<ruby>先生<rt>せんせい</rt></ruby>との<ruby>約束<rt>やくそく</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "どうして<ruby>胃<rt>い</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いですか。",
    "opciones": [
+    "<ruby>食<rt>た</rt></ruby>べすぎたから",
     "<ruby>走<rt>はし</rt></ruby>ったから",
     "<ruby>寝<rt>ね</rt></ruby>すぎたから",
-    "<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べていないから",
-    "<ruby>食<rt>た</rt></ruby>べすぎたから"
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べていないから"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "This morning I ran into my teacher in the park. He shook my hand with a smile and I nodded my head. Now that I think of it, tomorrow I have the kanji test, the memorising one. Since I haven't eaten anything since morning, I'm hungry and my stomach hurts. When I get home I'll gargle and eat my fill. By keeping a regular life like this, you end up being able to round the day off well."

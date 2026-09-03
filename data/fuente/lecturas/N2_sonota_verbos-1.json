@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>石段<rt>いしだん</rt></ruby>の<ruby>先<rt>さき</rt></ruby>",
     "<ruby>木<rt>き</rt></ruby>の<ruby>下<rt>した</rt></ruby>",
-    "<ruby>町<rt>まち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>"
+    "<ruby>町<rt>まち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>",
+    "<ruby>鐘<rt>かね</rt></ruby>の<ruby>下<rt>した</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>暑<rt>あつ</rt></ruby>いから",
     "めまいがしたから",
-    "<ruby>雨<rt>あめ</rt></ruby>だから"
+    "<ruby>雨<rt>あめ</rt></ruby>だから",
+    "<ruby>木<rt>き</rt></ruby>の<ruby>根<rt>ね</rt></ruby>をまたげないから"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>人<rt>ひと</rt></ruby>に<ruby>会<rt>あ</rt></ruby>った",
     "<ruby>鐘<rt>かね</rt></ruby>を<ruby>鳴<rt>な</rt></ruby>らした",
-    "<ruby>景色<rt>けしき</rt></ruby>が<ruby>見<rt>み</rt></ruby>えた"
+    "<ruby>景色<rt>けしき</rt></ruby>が<ruby>見<rt>み</rt></ruby>えた",
+    "めまいがした"
    ],
    "correcta": 2
   }

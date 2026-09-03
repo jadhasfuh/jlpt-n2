@@ -7,22 +7,22 @@
   {
    "p": "けいかくができなかった<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "けいかくが<ruby>大<rt>おお</rt></ruby>きすぎた",
+    "<ruby>数<rt>かぞ</rt></ruby>えなかった",
     "やる<ruby>気<rt>き</rt></ruby>がない",
     "<ruby>時間<rt>じかん</rt></ruby>がない",
-    "<ruby>数<rt>かぞ</rt></ruby>えなかった"
+    "けいかくが<ruby>大<rt>おお</rt></ruby>きすぎた"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって、むずかしいのはどちらですか。",
    "opciones": [
-    "<ruby>数<rt>かず</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やすこと",
     "<ruby>数<rt>かず</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らすこと",
-    "<ruby>計算<rt>けいさん</rt></ruby>",
-    "<ruby>続<rt>つづ</rt></ruby>けること"
+    "<ruby>数<rt>かず</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やすこと",
+    "<ruby>続<rt>つづ</rt></ruby>けること",
+    "<ruby>計算<rt>けいさん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "Half the year has gone by. Adding up the total of what I planned at the start, it turns out I'd done very little. There are sections I stopped counting halfway. In short, the plan was too big. So I decided to cut the tasks down and add them one at a time. In the end I didn't achieve the best result, but I did give it a sustainable shape. Along the way, I also deleted all the unnecessary plans. Reducing the quantity is harder than increasing it."

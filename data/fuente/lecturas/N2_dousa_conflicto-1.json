@@ -7,29 +7,32 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>について<ruby>論<rt>ろん</rt></ruby>じましたか。",
    "opciones": [
-    "コンクールに<ruby>出<rt>で</rt></ruby>るかどうか",
+    "<ruby>練習<rt>れんしゅう</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>",
+    "<ruby>朝<rt>あさ</rt></ruby>に<ruby>集<rt>あつ</rt></ruby>まるかどうか",
     "<ruby>先生<rt>せんせい</rt></ruby>のこと",
-    "<ruby>練習<rt>れんしゅう</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>"
+    "コンクールに<ruby>出<rt>で</rt></ruby>るかどうか"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "いつ<ruby>集<rt>あつ</rt></ruby>まることになりましたか。",
    "opciones": [
-    "<ruby>夜<rt>よる</rt></ruby>",
     "<ruby>朝<rt>あさ</rt></ruby>",
-    "<ruby>昼<rt>ひる</rt></ruby>"
+    "<ruby>昼<rt>ひる</rt></ruby>",
+    "<ruby>夜<rt>よる</rt></ruby>",
+    "<ruby>来月<rt>らいげつ</rt></ruby>から"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "「わたし」は<ruby>朝<rt>あさ</rt></ruby>がどうですか。",
    "opciones": [
+    "みんなと<ruby>同<rt>おな</rt></ruby>じ",
+    "<ruby>苦手<rt>にがて</rt></ruby>",
     "<ruby>好<rt>す</rt></ruby>き",
-    "<ruby>平気<rt>へいき</rt></ruby>",
-    "<ruby>苦手<rt>にがて</rt></ruby>"
+    "<ruby>平気<rt>へいき</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "We discussed among ourselves whether to enter next month's competition. The majority view was that, since there isn't enough rehearsal time, there's nothing for it but to meet in the mornings. I'm bad at mornings, but since everyone agreed I've no choice but to go along with them. Once it was decided, the teacher laughed and said: «you're all looking better already»."

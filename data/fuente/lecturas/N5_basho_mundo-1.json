@@ -7,32 +7,32 @@
   {
    "p": "ジャンさんと ゴンサさんは どこから <ruby>来<rt>き</rt></ruby>ましたか。",
    "opciones": [
-    "ペルー",
-    "メキシコ",
     "ミャンマー",
-    "スペイン"
+    "スペイン",
+    "ペルー",
+    "メキシコ"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "ミンさんは どのくらい <ruby>日本<rt>にほん</rt></ruby>に いますか。",
    "opciones": [
+    "<ruby>二<rt>に</rt></ruby>しゅうかん",
     "<ruby>二<rt>に</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
-    "<ruby>二年<rt>にねん</rt></ruby>",
     "きょねんから",
-    "<ruby>二<rt>に</rt></ruby>しゅうかん"
+    "<ruby>二年<rt>にねん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "カルロスさんは <ruby>英語<rt>えいご</rt></ruby>が できますか。",
    "opciones": [
-    "ぜんぜん",
-    "とても よく",
     "すこしだけ",
+    "とても よく",
+    "ぜんぜん",
     "せんせいと おなじくらい"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "I'm an international student. In class there are people from all sorts of countries. Jean and Gonza come from Peru. Among ourselves we speak Spanish. Min came from Myanmar. He has been here two years already. The teacher asked me: «can you speak English?». I answered: «only a little». When you're abroad, you think about your own country a lot."

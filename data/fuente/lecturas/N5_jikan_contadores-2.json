@@ -7,32 +7,32 @@
   {
    "p": "さいしょの <ruby>日<rt>ひ</rt></ruby>、さらを なんまい あらいましたか。",
    "opciones": [
-    "<ruby>二百<rt>にひゃく</rt></ruby>まい",
+    "<ruby>三<rt>さん</rt></ruby><ruby>百<rt>ひゃく</rt></ruby>まい",
     "<ruby>十<rt>じゅう</rt></ruby>まい",
     "<ruby>二十<rt>にじゅう</rt></ruby>まい",
-    "<ruby>三<rt>さん</rt></ruby><ruby>百<rt>ひゃく</rt></ruby>まい"
+    "<ruby>二百<rt>にひゃく</rt></ruby>まい"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "ミンさんは なにを <ruby>教<rt>おし</rt></ruby>えて くれましたか。",
    "opciones": [
-    "やすむ こと",
     "おなじ ばしょに おく こと",
     "みずを あつく する こと",
-    "はやく あらう こと"
+    "はやく あらう こと",
+    "やすむ こと"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "てんちょうは なにを しましたか。",
    "opciones": [
-    "おこりました",
     "なにか 言いました",
     "かたを たたきました",
+    "おこりました",
     "なにも しませんでした"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "On my first day I washed two hundred plates. The water was freezing and my hands turned red. Min taught me: «if you set them down one at a time in the same place, you go faster». I did it that way and I really did speed up. By the third day I was the fastest of the lot. The manager said nothing: he patted my shoulder and walked on."

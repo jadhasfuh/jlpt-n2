@@ -7,32 +7,32 @@
   {
    "p": "だれの<ruby>家<rt>うち</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きましたか。",
    "opciones": [
-    "<ruby>祖父<rt>そふ</rt></ruby>と<ruby>祖母<rt>そぼ</rt></ruby>",
     "いとこ",
-    "<ruby>娘<rt>むすめ</rt></ruby>",
-    "<ruby>母<rt>はは</rt></ruby>"
+    "<ruby>母<rt>はは</rt></ruby>",
+    "<ruby>祖父<rt>そふ</rt></ruby>と<ruby>祖母<rt>そぼ</rt></ruby>",
+    "<ruby>娘<rt>むすめ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>祖母<rt>そぼ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか。",
    "opciones": [
-    "<ruby>料理<rt>りょうり</rt></ruby>",
-    "<ruby>写真<rt>しゃしん</rt></ruby>",
+    "むかしの<ruby>話<rt>はなし</rt></ruby>",
     "<ruby>音楽<rt>おんがく</rt></ruby>",
-    "むかしの<ruby>話<rt>はなし</rt></ruby>"
+    "<ruby>料理<rt>りょうり</rt></ruby>",
+    "<ruby>写真<rt>しゃしん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "だれが<ruby>来<rt>き</rt></ruby>ましたか。",
    "opciones": [
-    "<ruby>大家<rt>おおや</rt></ruby>",
-    "<ruby>父<rt>ちち</rt></ruby>の<ruby>兄<rt>あに</rt></ruby>",
     "<ruby>母<rt>はは</rt></ruby>のいとこ",
-    "<ruby>祖母<rt>そぼ</rt></ruby>のいとこ"
+    "<ruby>父<rt>ちち</rt></ruby>の<ruby>兄<rt>あに</rt></ruby>",
+    "<ruby>祖母<rt>そぼ</rt></ruby>のいとこ",
+    "<ruby>大家<rt>おおや</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "Last week I went to my grandparents' house. My grandfather told me stories from the past. Incidentally, my grandmother likes photos, and she showed me ones of the whole family. A cousin of my mother's came too and we all ate together. I thought that if we can gather like this it's perhaps thanks to the family living close by."

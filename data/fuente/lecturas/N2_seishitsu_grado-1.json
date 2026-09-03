@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>長所<rt>ちょうしょ</rt></ruby>と<ruby>短所<rt>たんしょ</rt></ruby>",
     "<ruby>基準<rt>きじゅん</rt></ruby>",
-    "<ruby>活力<rt>かつりょく</rt></ruby>"
+    "<ruby>活力<rt>かつりょく</rt></ruby>",
+    "<ruby>活力<rt>かつりょく</rt></ruby>の<ruby>標準<rt>ひょうじゅん</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>隠<rt>かく</rt></ruby>して",
     "<ruby>正直<rt>しょうじき</rt></ruby>に",
-    "<ruby>答<rt>こた</rt></ruby>えなかった"
+    "<ruby>答<rt>こた</rt></ruby>えなかった",
+    "<ruby>弱点<rt>じゃくてん</rt></ruby>を<ruby>隠<rt>かく</rt></ruby>して"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>電話<rt>でんわ</rt></ruby>で",
     "<ruby>直接<rt>ちょくせつ</rt></ruby>",
-    "<ruby>書面<rt>しょめん</rt></ruby>で"
+    "<ruby>書面<rt>しょめん</rt></ruby>で",
+    "<ruby>当日<rt>とうじつ</rt></ruby>に"
    ],
    "correcta": 2
   }

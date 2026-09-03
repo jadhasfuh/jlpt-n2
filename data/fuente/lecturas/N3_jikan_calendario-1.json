@@ -7,22 +7,22 @@
   {
    "p": "<ruby>梅雨<rt>つゆ</rt></ruby>はいつ<ruby>始<rt>はじ</rt></ruby>まりますか。",
    "opciones": [
-    "<ruby>六月<rt>ろくがつ</rt></ruby>",
-    "<ruby>正午<rt>しょうご</rt></ruby>",
+    "<ruby>五月<rt>ごがつ</rt></ruby>",
     "<ruby>七月<rt>しちがつ</rt></ruby>",
-    "<ruby>五月<rt>ごがつ</rt></ruby>"
+    "<ruby>正午<rt>しょうご</rt></ruby>",
+    "<ruby>六月<rt>ろくがつ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "この<ruby>雨<rt>あめ</rt></ruby>がなければ、どうなりますか。",
    "opciones": [
-    "<ruby>気<rt>き</rt></ruby>もちがいい",
     "<ruby>米<rt>こめ</rt></ruby>がそだたない",
-    "<ruby>晴<rt>は</rt></ruby>れる",
-    "<ruby>世紀<rt>せいき</rt></ruby>がかわる"
+    "<ruby>世紀<rt>せいき</rt></ruby>がかわる",
+    "<ruby>気<rt>き</rt></ruby>もちがいい",
+    "<ruby>晴<rt>は</rt></ruby>れる"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "When June arrives the rainy season begins. Rainy days follow one another and even at dawn it stays dark. The washing doesn't dry and even your mood gets damp. People back then planted the rice to coincide with this time of year. It seems an unpleasant season, but without this rain the rice doesn't grow. When a break appears after midday, lively voices come from outside. Even as the centuries change, the way of getting through this season was settled long ago."

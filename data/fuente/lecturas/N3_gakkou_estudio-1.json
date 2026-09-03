@@ -7,22 +7,22 @@
   {
    "p": "<ruby>知識<rt>ちしき</rt></ruby>をふやすだけでは、どうですか。",
    "opciones": [
-    "<ruby>理解<rt>りかい</rt></ruby>には<ruby>達<rt>たっ</rt></ruby>しない",
     "<ruby>理解<rt>りかい</rt></ruby>に<ruby>達<rt>たっ</rt></ruby>する",
+    "<ruby>才能<rt>さいのう</rt></ruby>になる",
     "<ruby>十分<rt>じゅうぶん</rt></ruby>だ",
-    "<ruby>才能<rt>さいのう</rt></ruby>になる"
+    "<ruby>理解<rt>りかい</rt></ruby>には<ruby>達<rt>たっ</rt></ruby>しない"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "この<ruby>人<rt>ひと</rt></ruby>にとって、<ruby>一<rt>ひと</rt></ruby>つの<ruby>才能<rt>さいのう</rt></ruby>とは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>知識<rt>ちしき</rt></ruby>がおおいこと",
     "つづけられること",
-    "<ruby>能力<rt>のうりょく</rt></ruby>がたかいこと",
-    "けいかくを<ruby>立<rt>た</rt></ruby>てること"
+    "<ruby>知識<rt>ちしき</rt></ruby>がおおいこと",
+    "けいかくを<ruby>立<rt>た</rt></ruby>てること",
+    "<ruby>能力<rt>のうりょく</rt></ruby>がたかいこと"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "Some people say «it's just that that person has talent». But whether in languages or in physical education, I've often seen that the one who progresses is the one who keeps up the training. Increasing your knowledge isn't enough to reach understanding. You need to review your study plan and actually put it into practice. Even though differences in ability exist, the effort you put in always stays. Even if you have no talent, being able to keep it up is itself a kind of talent."

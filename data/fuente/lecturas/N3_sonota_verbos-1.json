@@ -7,22 +7,22 @@
   {
    "p": "<ruby>子<rt>こ</rt></ruby>どものころ、<ruby>何<rt>なに</rt></ruby>がありましたか。",
    "opciones": [
-    "<ruby>池<rt>いけ</rt></ruby>で<ruby>溺<rt>おぼ</rt></ruby>れかけた",
-    "<ruby>湖<rt>みずうみ</rt></ruby>で<ruby>泳<rt>およ</rt></ruby>いだ",
+    "<ruby>魚<rt>さかな</rt></ruby>をつった",
     "<ruby>氷<rt>こおり</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>いた",
-    "<ruby>魚<rt>さかな</rt></ruby>をつった"
+    "<ruby>池<rt>いけ</rt></ruby>で<ruby>溺<rt>おぼ</rt></ruby>れかけた",
+    "<ruby>湖<rt>みずうみ</rt></ruby>で<ruby>泳<rt>およ</rt></ruby>いだ"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>家族<rt>かぞく</rt></ruby>はどうしましたか。",
    "opciones": [
     "<ruby>何度<rt>なんど</rt></ruby>も<ruby>聞<rt>き</rt></ruby>いた",
-    "<ruby>無理<rt>むり</rt></ruby>に<ruby>聞<rt>き</rt></ruby>こうとしなかった",
     "<ruby>何<rt>なに</rt></ruby>も<ruby>知<rt>し</rt></ruby>らなかった",
-    "おこった"
+    "おこった",
+    "<ruby>無理<rt>むり</rt></ruby>に<ruby>聞<rt>き</rt></ruby>こうとしなかった"
    ],
-   "correcta": 1
+   "correcta": 3
   }
  ],
  "traduccion_en": "On mornings when the lake freezes, the light shines on the ice. As a child I nearly drowned in a nearby pond; that time a neighbour saved me. Even today, when I hear the sound of water, my body goes stiff and I can't get past that. I couldn't explain properly what happened that day, and I kept quiet for a long time. My family must have been worried, and yet nobody tried to force it out of me. This year, for my birthday, they all gathered round to celebrate. Time doesn't take the fear away entirely, but I think that's connected to having people who hold you up."

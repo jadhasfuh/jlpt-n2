@@ -7,22 +7,22 @@
   {
    "p": "<ruby>異<rt>こと</rt></ruby>なる<ruby>性質<rt>せいしつ</rt></ruby>のものは、どうですか。",
    "opciones": [
-    "<ruby>等<rt>ひと</rt></ruby>しい",
-    "<ruby>同<rt>おな</rt></ruby>じものさしではかれる",
+    "<ruby>数字<rt>すうじ</rt></ruby>であらわせる",
     "<ruby>同<rt>おな</rt></ruby>じものさしでははかれない",
-    "<ruby>数字<rt>すうじ</rt></ruby>であらわせる"
+    "<ruby>等<rt>ひと</rt></ruby>しい",
+    "<ruby>同<rt>おな</rt></ruby>じものさしではかれる"
    ],
-   "correcta": 2
+   "correcta": 1
   },
   {
    "p": "いちばんたいせつなことは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>値段<rt>ねだん</rt></ruby>を<ruby>見<rt>み</rt></ruby>ること",
     "<ruby>比<rt>くら</rt></ruby>べること",
-    "<ruby>使<rt>つか</rt></ruby>ってみること",
-    "<ruby>何<rt>なに</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べているのかをはっきりさせること"
+    "<ruby>値段<rt>ねだん</rt></ruby>を<ruby>見<rt>み</rt></ruby>ること",
+    "<ruby>何<rt>なに</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べているのかをはっきりさせること",
+    "<ruby>使<rt>つか</rt></ruby>ってみること"
    ],
-   "correcta": 3
+   "correcta": 2
   }
  ],
  "traduccion_en": "When you compare two things, expressing the difference in numbers makes it clearer. But things of a different nature can't be measured with the same yardstick. Even if the price is the same, the contents may be something else entirely. Set side by side they look alike, but when you use them you tell them apart at once. In the end, more than comparing itself, what matters is being clear about what it is you're comparing."

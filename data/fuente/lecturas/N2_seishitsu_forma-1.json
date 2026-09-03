@@ -7,29 +7,32 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>測定<rt>そくてい</rt></ruby>しましたか。",
    "opciones": [
-    "<ruby>机<rt>つくえ</rt></ruby>の<ruby>寸法<rt>すんぽう</rt></ruby>",
     "<ruby>角度<rt>かくど</rt></ruby>",
+    "<ruby>机<rt>つくえ</rt></ruby>の<ruby>寸法<rt>すんぽう</rt></ruby>",
+    "<ruby>下書<rt>したが</rt></ruby>きの<ruby>角度<rt>かくど</rt></ruby>",
     "<ruby>重量<rt>じゅうりょう</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>角度<rt>かくど</rt></ruby>はどうしましたか。",
    "opciones": [
-    "<ruby>三角<rt>さんかく</rt></ruby>にした",
+    "おおざっぱなままにした",
+    "カーブにした",
     "<ruby>直角<rt>ちょっかく</rt></ruby>にした",
-    "カーブにした"
+    "<ruby>三角<rt>さんかく</rt></ruby>にした"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>のほうが<ruby>軽<rt>かる</rt></ruby>いと<ruby>気<rt>き</rt></ruby>づきましたか。",
    "opciones": [
     "<ruby>長方形<rt>ちょうほうけい</rt></ruby>",
     "<ruby>曲線<rt>きょくせん</rt></ruby>",
+    "<ruby>直線<rt>ちょくせん</rt></ruby>",
     "<ruby>三角<rt>さんかく</rt></ruby>"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "I measured the desk's dimensions and drew a sketch. I combined straight lines and curves, and left the right angles. I couldn't allow myself to settle for a rough design, so I drew the curves again carefully too. It's reckoned that if the weight becomes enormous it won't be possible to move it. When I realised that a triangle weighs less than a rectangle, I set about building it with enthusiasm."

@@ -7,22 +7,22 @@
   {
    "p": "<ruby>安<rt>やす</rt></ruby>いものを<ruby>買<rt>か</rt></ruby>うと、どうなることがありますか。",
    "opciones": [
-    "すぐこわれてもう<ruby>一度<rt>いちど</rt></ruby><ruby>買<rt>か</rt></ruby>うことになる",
-    "<ruby>長<rt>なが</rt></ruby>く<ruby>使<rt>つか</rt></ruby>える",
     "<ruby>得<rt>とく</rt></ruby>をする",
-    "かわらない"
+    "<ruby>長<rt>なが</rt></ruby>く<ruby>使<rt>つか</rt></ruby>える",
+    "かわらない",
+    "すぐこわれてもう<ruby>一度<rt>いちど</rt></ruby><ruby>買<rt>か</rt></ruby>うことになる"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "<ruby>豊<rt>ゆた</rt></ruby>かさとは<ruby>何<rt>なに</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>っていますか。",
    "opciones": [
-    "<ruby>持<rt>も</rt></ruby>っている<ruby>金<rt>かね</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>",
     "<ruby>選<rt>えら</rt></ruby>び<ruby>方<rt>かた</rt></ruby>",
+    "とおくへ<ruby>行<rt>い</rt></ruby>くこと",
     "<ruby>安<rt>やす</rt></ruby>く<ruby>買<rt>か</rt></ruby>うこと",
-    "とおくへ<ruby>行<rt>い</rt></ruby>くこと"
+    "<ruby>持<rt>も</rt></ruby>っている<ruby>金<rt>かね</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "If you buy looking only at the price, sometimes you end up losing out. You buy the cheap one and it breaks straight away. In the end you have to buy it again. I've also gone all the way to a distant shop to buy the same thing ten yen cheaper. But in exchange I spent time and the train fare. There's no need to deliberately choose the expensive one, but I've started thinking about whether it will last. I think wealth isn't the amount of money you have, but the way you choose."

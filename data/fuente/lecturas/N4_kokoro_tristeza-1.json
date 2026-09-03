@@ -7,22 +7,22 @@
   {
    "p": "ひとりぐらしを<ruby>始<rt>はじ</rt></ruby>めたころ、どうでしたか。",
    "opciones": [
-    "よる<ruby>寂<rt>さび</rt></ruby>しくて<ruby>怖<rt>こわ</rt></ruby>かった",
     "たのしかった",
+    "よる<ruby>寂<rt>さび</rt></ruby>しくて<ruby>怖<rt>こわ</rt></ruby>かった",
     "<ruby>気<rt>き</rt></ruby>にならなかった",
     "<ruby>母<rt>はは</rt></ruby>といた"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "つらい<ruby>気持<rt>きも</rt></ruby>ちについて、<ruby>何<rt>なに</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かりましたか。",
    "opciones": [
     "すぐけすべきだ",
+    "わすれるべきだ",
     "むりにけさなくてもいい",
-    "だれかに<ruby>話<rt>はな</rt></ruby>すべきだ",
-    "わすれるべきだ"
+    "だれかに<ruby>話<rt>はな</rt></ruby>すべきだ"
    ],
-   "correcta": 1
+   "correcta": 2
   }
  ],
  "traduccion_en": "When I started living alone, at night I felt lonely and afraid. My mother, worried, called me every evening. But that couldn't go on for ever. Little by little I got used to time on my own. Days when something sad happens are still hard. I get angry too, and there are things I regret. But I understood that those feelings don't have to be wiped out by force. Carrying them with you as they are ends up feeling lighter instead."

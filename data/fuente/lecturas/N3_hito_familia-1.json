@@ -7,22 +7,22 @@
   {
    "p": "<ruby>祖父<rt>そふ</rt></ruby>が<ruby>何度<rt>なんど</rt></ruby>も<ruby>聞<rt>き</rt></ruby>くのはなぜかもしれませんか。",
    "opciones": [
-    "<ruby>言<rt>い</rt></ruby>いたいだけかもしれない",
-    "<ruby>知<rt>し</rt></ruby>らないから",
+    "わすれているから",
     "<ruby>聞<rt>き</rt></ruby>こえないから",
-    "わすれているから"
+    "<ruby>知<rt>し</rt></ruby>らないから",
+    "<ruby>言<rt>い</rt></ruby>いたいだけかもしれない"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "いとこはどうしていますか。",
    "opciones": [
-    "すわって<ruby>話<rt>はな</rt></ruby>している",
     "しごとの<ruby>話<rt>はなし</rt></ruby><em class=\"g\">ばかりで</em>なかなかすわらない",
     "<ruby>来<rt>こ</rt></ruby>なかった",
-    "<ruby>子<rt>こ</rt></ruby>どもと<ruby>遊<rt>あそ</rt></ruby>んでいる"
+    "<ruby>子<rt>こ</rt></ruby>どもと<ruby>遊<rt>あそ</rt></ruby>んでいる",
+    "すわって<ruby>話<rt>はな</rt></ruby>している"
    ],
-   "correcta": 1
+   "correcta": 0
   }
  ],
  "traduccion_en": "The family gathered at my grandfather's house. People came as couples and people came with their children. Of the sisters, the youngest has just had her first grandchild. My grandfather asks over and over: «what was the name again?». It may not be that he forgets, but that he simply wants to say it. The cousin who took over the farm never stops talking about work and won't quite sit down. Even so, the day the whole family gathers is only once a year."

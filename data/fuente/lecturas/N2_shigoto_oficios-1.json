@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>警備<rt>けいび</rt></ruby>に<ruby>立<rt>た</rt></ruby>つ",
     "<ruby>紙<rt>かみ</rt></ruby>を<ruby>貼<rt>は</rt></ruby>る",
-    "<ruby>集<rt>あつ</rt></ruby>まる"
+    "<ruby>集<rt>あつ</rt></ruby>まる",
+    "<ruby>公表<rt>こうひょう</rt></ruby>の<ruby>紙<rt>かみ</rt></ruby>を<ruby>貼<rt>は</rt></ruby>る"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>毎日<rt>まいにち</rt></ruby>",
     "<ruby>祭<rt>まつ</rt></ruby>りの<ruby>日<rt>ひ</rt></ruby>",
-    "<ruby>冬<rt>ふゆ</rt></ruby>"
+    "<ruby>冬<rt>ふゆ</rt></ruby>",
+    "<ruby>朝<rt>あさ</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>漁師<rt>りょうし</rt></ruby>",
     "<ruby>大工<rt>だいく</rt></ruby>",
-    "<ruby>判事<rt>はんじ</rt></ruby>"
+    "<ruby>判事<rt>はんじ</rt></ruby>",
+    "ジャーナリスト"
    ],
    "correcta": 2
   }

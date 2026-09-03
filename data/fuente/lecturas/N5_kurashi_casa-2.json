@@ -7,32 +7,32 @@
   {
    "p": "どうして せなかが いたかったですか。",
    "opciones": [
-    "ゆかで ねたから",
-    "あるいたから",
     "さむかったから",
-    "シャワーを あびたから"
+    "シャワーを あびたから",
+    "あるいたから",
+    "ゆかで ねたから"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "シャワーは いくらでしたか。",
    "opciones": [
-    "ただ",
     "にひゃくえん",
+    "ただ",
     "ごひゃくえん",
     "<ruby>三十分<rt>さんじゅっぷん</rt></ruby>で さんびゃくえん"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "そとは どう なって いましたか。",
    "opciones": [
-    "あかるかったです",
-    "あめでした",
+    "ゴンサが おきて いました",
     "ゆきで しろく なって いました",
-    "ゴンサが おきて いました"
+    "あめでした",
+    "あかるかったです"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "I woke up at six in the morning. I'd slept on the floor, so my back ached. I went to the toilets and they were spotless too. A shower was thirty minutes for two hundred yen. When I stepped outside the snow had settled and the town had turned white. Gonza was still asleep."

@@ -7,29 +7,32 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をしますか。",
    "opciones": [
+    "<ruby>番組<rt>ばんぐみ</rt></ruby>の<ruby>作<rt>つく</rt></ruby>り<ruby>方<rt>かた</rt></ruby>",
+    "<ruby>公衆<rt>こうしゅう</rt></ruby>",
     "<ruby>人文科学<rt>じんぶんかがく</rt></ruby>",
-    "<ruby>芸能<rt>げいのう</rt></ruby>",
-    "<ruby>公衆<rt>こうしゅう</rt></ruby>"
+    "<ruby>芸能<rt>げいのう</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>を<ruby>先<rt>さき</rt></ruby>に<ruby>出<rt>だ</rt></ruby>しますか。",
    "opciones": [
+    "<ruby>結論<rt>けつろん</rt></ruby>",
+    "<ruby>難<rt>むずか</rt></ruby>しい<ruby>言葉<rt>ことば</rt></ruby>",
     "<ruby>理由<rt>りゆう</rt></ruby>",
-    "<ruby>例<rt>れい</rt></ruby>",
-    "<ruby>結論<rt>けつろん</rt></ruby>"
+    "<ruby>例<rt>れい</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "どうすれば<ruby>怖<rt>こわ</rt></ruby>くないですか。",
    "opciones": [
-    "<ruby>短<rt>みじか</rt></ruby>ければ",
+    "<ruby>順序<rt>じゅんじょ</rt></ruby>が<ruby>決<rt>き</rt></ruby>まれば",
     "<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なければ",
-    "<ruby>順序<rt>じゅんじょ</rt></ruby>が<ruby>決<rt>き</rt></ruby>まれば"
+    "<ruby>例<rt>れい</rt></ruby>を<ruby>抜<rt>ぬ</rt></ruby>きにすれば",
+    "<ruby>短<rt>みじか</rt></ruby>ければ"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "I was asked to give a humanities talk at the university. Setting difficult words aside, I want to speak so that anyone can understand. As in entertainment programmes, I put the examples first. Then the reasons and the conclusion at the end: that's how I order them. I'm bad at public speaking, but if the order is decided it isn't frightening."

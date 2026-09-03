@@ -7,32 +7,32 @@
   {
    "p": "カルロスさんの <ruby>学校<rt>がっこう</rt></ruby>は なんですか。",
    "opciones": [
-    "ことばの <ruby>学校<rt>がっこう</rt></ruby>",
     "<ruby>大学<rt>だいがく</rt></ruby>",
+    "ことばの <ruby>学校<rt>がっこう</rt></ruby>",
     "こうこう",
     "りょうりの <ruby>学校<rt>がっこう</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 1
   },
   {
    "p": "<ruby>教室<rt>きょうしつ</rt></ruby>に <ruby>生徒<rt>せいと</rt></ruby>は なんにん いますか。",
    "opciones": [
     "ごにん",
-    "じゅうごにん",
     "ごじゅうにん",
+    "じゅうごにん",
     "じゅうにん"
    ],
-   "correcta": 1
+   "correcta": 2
   },
   {
    "p": "はじめの ひ、となりに すわったのは だれですか。",
    "opciones": [
     "ジャン",
+    "たなかさん",
     "ミンさん",
-    "ゴンサ",
-    "たなかさん"
+    "ゴンサ"
    ],
-   "correcta": 2
+   "correcta": 3
   }
  ],
  "traduccion_en": "My school isn't a university. It's a language school. There are fifteen of us in the classroom. Half the class comes from Asia and half from South America. Lessons run from nine in the morning to one in the afternoon. There's homework every day. And not a little. On the first day, the one who sat down next to me was Gonza."

@@ -7,29 +7,32 @@
   {
    "p": "<ruby>献立<rt>こんだて</rt></ruby>はだれが<ruby>考<rt>かんが</rt></ruby>えましたか。",
    "opciones": [
+    "<ruby>炊事<rt>すいじ</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>った<ruby>人<rt>ひと</rt></ruby>",
+    "<ruby>先生<rt>せんせい</rt></ruby>",
     "<ruby>自分<rt>じぶん</rt></ruby>たち",
-    "<ruby>店<rt>みせ</rt></ruby>",
-    "<ruby>先生<rt>せんせい</rt></ruby>"
+    "<ruby>店<rt>みせ</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>味<rt>あじ</rt></ruby>はどうしましたか。",
    "opciones": [
     "とても<ruby>辛<rt>から</rt></ruby>くした",
-    "<ruby>塩辛<rt>しおから</rt></ruby>くしすぎない",
-    "<ruby>甘<rt>あま</rt></ruby>くした"
+    "<ruby>甘<rt>あま</rt></ruby>くした",
+    "<ruby>湯気<rt>ゆげ</rt></ruby>が<ruby>立<rt>た</rt></ruby>つまで<ruby>煮<rt>に</rt></ruby>た",
+    "<ruby>塩辛<rt>しおから</rt></ruby>くしすぎない"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "<ruby>調味料<rt>ちょうみりょう</rt></ruby>はどう<ruby>入<rt>い</rt></ruby>れますか。",
    "opciones": [
-    "<ruby>入<rt>い</rt></ruby>れない",
+    "<ruby>少<rt>すこ</rt></ruby>しずつ",
     "<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>一度<rt>いちど</rt></ruby>に",
-    "<ruby>少<rt>すこ</rt></ruby>しずつ"
+    "くどくなるまで",
+    "<ruby>入<rt>い</rt></ruby>れない"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "Since the dinner was something special, we thought out the menu ourselves. As some people are very fussy, we made sure it didn't come out too salty. We gathered round the steaming pot and savoured it together. If you overdo the seasoning it gets heavy, so you add it little by little. When those who'd helped cook said «thank you for the meal», I was left feeling wonderful."

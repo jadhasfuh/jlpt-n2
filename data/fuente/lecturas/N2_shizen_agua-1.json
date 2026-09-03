@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>海洋<rt>かいよう</rt></ruby>",
     "<ruby>運河<rt>うんが</rt></ruby>",
-    "<ruby>噴水<rt>ふんすい</rt></ruby>"
+    "<ruby>噴水<rt>ふんすい</rt></ruby>",
+    "<ruby>地下水<rt>ちかすい</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>大雨<rt>おおあめ</rt></ruby>",
     "<ruby>断水<rt>だんすい</rt></ruby>",
-    "<ruby>火事<rt>かじ</rt></ruby>"
+    "<ruby>火事<rt>かじ</rt></ruby>",
+    "にじが<ruby>出<rt>で</rt></ruby>た"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>雨<rt>あめ</rt></ruby>",
     "<ruby>滝<rt>たき</rt></ruby>",
-    "<ruby>地下水<rt>ちかすい</rt></ruby>"
+    "<ruby>地下水<rt>ちかすい</rt></ruby>",
+    "<ruby>運河<rt>うんが</rt></ruby>"
    ],
    "correcta": 2
   }

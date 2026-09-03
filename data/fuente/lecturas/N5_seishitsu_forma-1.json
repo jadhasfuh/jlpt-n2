@@ -7,32 +7,32 @@
   {
    "p": "<ruby>学校<rt>がっこう</rt></ruby>から アパートまでの みちは どうですか。",
    "opciones": [
-    "まっすぐです",
-    "まがって います",
     "とても ひろいです",
-    "<ruby>狭<rt>せま</rt></ruby>くて まがって います"
+    "<ruby>狭<rt>せま</rt></ruby>くて まがって います",
+    "まがって います",
+    "まっすぐです"
    ],
-   "correcta": 0
+   "correcta": 3
   },
   {
    "p": "みちの りょうがわに なにが ありますか。",
    "opciones": [
-    "<ruby>木<rt>き</rt></ruby>",
     "ちいさい みせ",
+    "やま",
     "<ruby>高<rt>たか</rt></ruby>い ビル",
-    "やま"
+    "<ruby>木<rt>き</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
    "p": "うみの ほうを <ruby>見<rt>み</rt></ruby>ると どうですか。",
    "opciones": [
-    "くらいです",
     "なにも <ruby>見<rt>み</rt></ruby>えません",
     "そらが <ruby>広<rt>ひろ</rt></ruby>いです",
+    "くらいです",
     "<ruby>高<rt>たか</rt></ruby>い ビルが ならんで います"
    ],
-   "correcta": 2
+   "correcta": 1
   }
  ],
  "traduccion_en": "The streets of Kobe run long, up towards the mountain. From the school to my flat there's one straight street. It's narrow, but small shops line both sides. Walking along it, a kilometre feels short. If you look towards the sea, the sky is wide. There aren't many tall buildings."

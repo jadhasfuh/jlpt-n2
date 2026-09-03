@@ -7,29 +7,32 @@
   {
    "p": "<ruby>紺<rt>こん</rt></ruby>の<ruby>布<rt>ぬの</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありましたか。",
    "opciones": [
+    "<ruby>武士<rt>ぶし</rt></ruby>の<ruby>服<rt>ふく</rt></ruby>",
+    "<ruby>写真<rt>しゃしん</rt></ruby>",
     "<ruby>鉄砲<rt>てっぽう</rt></ruby>とピストル",
-    "<ruby>本<rt>ほん</rt></ruby>",
-    "<ruby>写真<rt>しゃしん</rt></ruby>"
+    "<ruby>本<rt>ほん</rt></ruby>"
    ],
-   "correcta": 0
+   "correcta": 2
   },
   {
    "p": "<ruby>何<rt>なに</rt></ruby>のために<ruby>作<rt>つく</rt></ruby>られましたか。",
    "opciones": [
     "<ruby>売<rt>う</rt></ruby>るため",
-    "<ruby>侵入<rt>しんにゅう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐため",
-    "<ruby>祭<rt>まつ</rt></ruby>りのため"
+    "<ruby>故郷<rt>こきょう</rt></ruby>を<ruby>離<rt>はな</rt></ruby>れるため",
+    "<ruby>祭<rt>まつ</rt></ruby>りのため",
+    "<ruby>侵入<rt>しんにゅう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐため"
    ],
-   "correcta": 1
+   "correcta": 3
   },
   {
    "p": "<ruby>係<rt>かかり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>最後<rt>さいご</rt></ruby>に<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
    "opciones": [
-    "<ruby>帰<rt>かえ</rt></ruby>りなさい",
+    "<ruby>仲直<rt>なかなお</rt></ruby>りのほうが<ruby>難<rt>むずか</rt></ruby>しい",
+    "<ruby>子<rt>こ</rt></ruby>どもは<ruby>騒<rt>さわ</rt></ruby>ぐな",
     "<ruby>戦<rt>たたか</rt></ruby>うのは<ruby>簡単<rt>かんたん</rt></ruby>だ",
-    "<ruby>仲直<rt>なかなお</rt></ruby>りのほうが<ruby>難<rt>むずか</rt></ruby>しい"
+    "<ruby>帰<rt>かえ</rt></ruby>りなさい"
    ],
-   "correcta": 2
+   "correcta": 0
   }
  ],
  "traduccion_en": "At the museum there was a room from the samurai period. On navy-blue cloth, old rifles and a pistol were lined up. The explanation said they were made to prevent invasions. They say that, before the outcome was decided, many people left their homeland. The guide went on talking regardless of the children making a racket. I took notes as I heard it. At the end he said: «making peace is harder than fighting»."

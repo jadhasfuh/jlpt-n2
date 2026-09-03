@@ -8,21 +8,21 @@
    "p": "なぜ、<ruby>三<rt>みっ</rt></ruby>か<ruby>日<rt>か</rt></ruby>やすまなければなりませんでしたか。",
    "opciones": [
     "<ruby>熱<rt>ねつ</rt></ruby>がたかいから",
+    "<ruby>注射<rt>ちゅうしゃ</rt></ruby>をしたから",
     "<ruby>医師<rt>いし</rt></ruby>がいないから",
-    "ほかの<ruby>人<rt>ひと</rt></ruby>に<ruby>移<rt>うつ</rt></ruby>してはいけないから",
-    "<ruby>注射<rt>ちゅうしゃ</rt></ruby>をしたから"
+    "ほかの<ruby>人<rt>ひと</rt></ruby>に<ruby>移<rt>うつ</rt></ruby>してはいけないから"
    ],
-   "correcta": 2
+   "correcta": 3
   },
   {
    "p": "<ruby>治<rt>なお</rt></ruby>ることについて、どう<ruby>思<rt>おも</rt></ruby>いましたか。",
    "opciones": [
+    "じぶんだけのことではない",
     "じぶんだけのこと",
     "はやいほうがいい",
-    "<ruby>医学<rt>いがく</rt></ruby>はむずかしい",
-    "じぶんだけのことではない"
+    "<ruby>医学<rt>いがく</rt></ruby>はむずかしい"
    ],
-   "correcta": 3
+   "correcta": 0
   }
  ],
  "traduccion_en": "Since my cough wasn't going away, I went to see the doctor. I had a temperature too. The nurse gave me an injection, though I've been bad with them since I was a child. She asked me how I felt and I said I was fine now, but they made me rest for three days. Because you can't infect other people. Looking at those being discharged, I thought that getting better isn't something that concerns you alone. Medicine protects not only your body, but also those around you."
