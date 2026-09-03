@@ -3,6 +3,7 @@ import type {
   Palabra, Gramatica, Unidad, NivelCurso, Lectura, Kanji,
 } from "./tipos";
 import ordenLibroJson from "@/../data/fuente/orden_libro.json";
+import vocabLibroJson from "@/../data/fuente/vocabulario_libro.json";
 import vocabularioJson from "../../data/dist/vocabulario.json";
 import gramaticaJson from "../../data/dist/gramatica.json";
 import unidadesJson from "../../data/dist/unidades.json";
@@ -129,7 +130,8 @@ export function palabrasDeFuera(
   // En qué capítulo del libro se estudia cada palabra. Sin esto, 名前 salía en
   // el capítulo 2 —Carlos se presenta— sin decir que no llega hasta el 99.
   const dondeSeVe = new Map<number, number>();
-  capitulos(nivel).forEach((u, i) => u.palabras.forEach((w) => dondeSeVe.set(w, i + 1)));
+  capitulos(nivel).forEach((u, i) =>
+    palabrasDelCapitulo(nivel, u.id).forEach((w) => dondeSeVe.set(w.id, i + 1)));
   const KATA = (c: string) => /[ァ-ヶー]/.test(c ?? "");
   const KAN  = (c: string) => /[一-鿿]/.test(c ?? "");
   const KANA = (c: string) => /[ぁ-ゖ]/.test(c ?? "");
@@ -227,6 +229,31 @@ export function gramaticaDeFuera(
   }
   // Primero lo que ya se ha visto, que es lo que se puede recordar.
   return fuera.sort((a, b) => a.capitulo - b.capitulo).slice(0, 6);
+}
+
+/**
+ * Las palabras que enseña un capítulo del LIBRO, que no son las de su unidad.
+ *
+ * El curso reparte por tema: とても vive en «Cualidades y grado», la sección 11
+ * de 14, así que se estudiaba en el capítulo 83 aunque Carlos la use en el 2.
+ * Para estudiar por temas está bien; para leer una historia, no —79 palabras se
+ * leían antes de aprenderse—.
+ *
+ * Aquí la palabra que la historia usa se adelanta al capítulo donde aparece, y
+ * la que el libro no llega a usar se queda donde la puso el curso. Ninguna se
+ * pierde: el libro ordena por la historia sin dejar de enseñar el nivel entero.
+ *
+ * La lista vive en `data/fuente/vocabulario_libro.json`, que se puede corregir
+ * a mano —y hace falta: el analizador se equivoca con las rachas largas de
+ * kana—. Si un capítulo no está en el archivo, se usan las palabras de su
+ * unidad, como antes.
+ */
+const VOCAB_LIBRO = vocabLibroJson as Record<string, Record<string, number[]> | string>;
+
+export function palabrasDelCapitulo(nivel: string, unidadId: string): Palabra[] {
+  const lista = VOCAB_LIBRO[nivel];
+  const ids = typeof lista === "object" ? lista[unidadId] : undefined;
+  return palabras(ids ?? UNIDADES.find((u) => u.id === unidadId)?.palabras ?? []);
 }
 
 /**

@@ -50,6 +50,26 @@ El año, ya en orden: llegada y papeleo → la escuela → los amigos y Anna →
 la pizzería → noviembre y el frío → Sapporo en diciembre → el invierno que se
 abre a la primavera → abril, junio y la despedida.
 
+## El vocabulario del libro, también separado del curso
+
+Decidido el 2026-09-03, después de ver que 名前 se leía en el capítulo 2 —Carlos
+se presenta— y no se estudiaba hasta el 99. No era un caso suelto: **79
+palabras se leían antes de aprenderse**, en 47 de los 103 capítulos, y las
+peores eran las más básicas, porque el curso las ordena por tema y sus temas
+caen al final —とても en el 83, 大きい en el 82, アパート en el 71—.
+
+`data/fuente/vocabulario_libro.json` da al libro su propia lista: la palabra
+que la historia usa va al capítulo donde aparece por primera vez, y la que el
+libro no llega a usar se queda donde la puso el curso. Ninguna se pierde: las
+926 siguen colocadas, 321 adelantadas y el resto en su sitio de siempre. Con
+eso, **las palabras que se leen antes de estudiarse pasan de 79 a 0**.
+
+La saca `scripts/31_vocabulario_libro.py`, que analiza el texto con **janome**
+—buscar por trozos no vale: el texto de N5 va casi todo en kana y de 「した」
+salía 舌, de 「こうえん」 salía 講演—. Aun con analizador se equivoca en las
+rachas largas de kana: de 「ひこうき」 sacaba ひく y de 「おおやさん」, 野菜. Por
+eso **manda el archivo, no el script**: se corrige a mano y no se pierde.
+
 ## El arco, atado al orden real de las unidades
 
 | Unidades | Sección | Qué pasa |

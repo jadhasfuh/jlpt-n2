@@ -1,6 +1,7 @@
 import { notFound, redirect } from "next/navigation";
 import {
-  capitulos, gramaticas, gramaticaDeFuera, lectura, palabras, palabrasDeFuera,
+  capitulos, gramaticas, gramaticaDeFuera, lectura, palabrasDelCapitulo,
+  palabrasDeFuera,
 } from "@/lib/contenido";
 import { puedeVer } from "@/lib/acceso-servidor";
 import { Cabecera } from "@/components/Cabecera";
@@ -50,7 +51,7 @@ export default async function Pagina(
           n={n}
           total={lista.length}
           unidad={{ id: u.id, ja: u.ja, es: u.es, en: u.en, seccion: u.seccion }}
-          vocabulario={palabras(u.palabras).map((w) => ({
+          vocabulario={palabrasDelCapitulo(nivel, u.id).map((w) => ({
             id: w.id, escritura: w.escritura, lectura: w.lectura, es: w.es, en: w.en,
           }))}
           gramatica={gramaticas(u.gramatica).map((g) => ({
@@ -59,7 +60,7 @@ export default async function Pagina(
           // Las que salen en el texto pero se estudian en otro capítulo: sin
           // esto, 山 aparece en el capítulo 1 y no está en ninguna lista hasta
           // el 95.
-          deFuera={l ? palabrasDeFuera(l.cuerpo, nivel, u.palabras).map((x) => ({
+          deFuera={l ? palabrasDeFuera(l.cuerpo, nivel, palabrasDelCapitulo(nivel, u.id).map((w) => w.id)).map((x) => ({
             id: x.palabra.id, escritura: x.palabra.escritura,
             lectura: x.palabra.lectura, es: x.palabra.es, en: x.palabra.en,
             jlpt: x.palabra.jlpt, capitulo: x.capitulo,
