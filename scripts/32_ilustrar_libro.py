@@ -333,6 +333,90 @@ def monta_portada():
     print(f"  → {destino.relative_to(RAIZ)}  ({destino.stat().st_size // 1024} KB)")
 
 
+def anuncio():
+    """El arte del anuncio de Facebook, sin letras.
+
+    Los personajes leyendo. El texto y el logo se componen después, igual que
+    en la portada y por lo mismo: el modelo no escribe."""
+    quienes = ["carlos", "anna", "gonsa", "jean"]
+    fichas = "\n".join(f"- {PERSONAJES[q]}" for q in quienes)
+    prompt = (ESTILO + "\n\nSUBJECT — four friends reading, side by side in a "
+              "single horizontal row, seen from the front, standing or sitting "
+              "on the same low step. Each one is absorbed in an open book held "
+              "in front of them, at a different angle and a different height, "
+              "with a different posture — one leaning back, one hunched over, "
+              "one holding it up close, one half looking away. Relaxed and "
+              "unposed.\n\n"
+              f"CHARACTERS — match the attached reference sheet exactly:\n{fichas}\n\n"
+              "The books are blank: their pages carry only a few meaningless "
+              "wavy strokes, never readable text. Empty background, no room, no "
+              "furniture, no scenery — just the figures on white paper with "
+              "generous empty space above them.\n\n"
+              "ABSOLUTELY NO TEXT of any kind anywhere in the image.")
+    print("anuncio…")
+    genera(prompt, SALIDA / "00-anuncio-arte.png", referencia=HOJA, size="1536x1024")
+
+
+ROJO   = (215, 38, 61)      # el rojo del logo, muestreado del icono
+TINTA  = (28, 30, 35)
+PAPEL  = (247, 245, 240)
+FUTURA = "/System/Library/Fonts/Supplemental/Futura.ttc"
+AVENIR = "/System/Library/Fonts/Avenir Next.ttc"
+
+
+def monta_anuncio():
+    """El anuncio de Facebook, 1080x1350 (4:5, que es el formato que más ocupa
+    en el feed). El arte sobre papel y no sobre el fondo oscuro del promo
+    anterior: la ilustración es tinta negra, y sobre oscuro habría que
+    invertirla y pierde el aire de dibujo a mano."""
+    from PIL import Image, ImageDraw, ImageFont, ImageOps
+    W, H = 1080, 1350
+    lienzo = Image.new("RGB", (W, H), PAPEL)
+    d = ImageDraw.Draw(lienzo)
+    tit = ImageFont.truetype(FUTURA, 92, index=2)          # Futura Bold
+    sub = ImageFont.truetype(AVENIR, 32, index=5)     # Medium
+    pie = ImageFont.truetype(AVENIR, 27, index=2)     # Demi Bold
+    x0 = 76
+
+    d.text((x0, 150), "Lecturas", font=tit, fill=TINTA)
+    d.text((x0, 150 + 104), "progresivas", font=tit, fill=ROJO)
+
+    y = 150 + 104 * 2 + 34
+    for linea in ("607 lecturas ordenadas de N5 a N1.",
+                  "Empiezas con veinte palabras y acabas",
+                  "leyendo japonés de verdad."):
+        d.text((x0, y), linea, font=sub, fill=(90, 92, 98)); y += 44
+
+    # El arte, a sangre por abajo. Se tiñe al color del papel: pegado tal cual
+    # se veía la costura entre su blanco y el fondo. Y se le recorta el aire de
+    # arriba, que si no se comía el tercer renglón del texto.
+    arte = Image.open(SALIDA / "00-anuncio-arte.png").convert("L")
+    caja = arte.point(lambda v: 255 if v < 200 else 0).getbbox()
+    if caja:
+        arte = arte.crop((0, max(0, caja[1] - 18), arte.width, arte.height))
+    # El «blanco» del dibujo ronda el 240, no el 255, así que al teñirlo salía
+    # un rectángulo más gris que el papel. Se empuja el casi-blanco a blanco.
+    arte = arte.point(lambda v: 255 if v > 228 else v)
+    arte = ImageOps.colorize(arte, black=TINTA, white=PAPEL)
+    alto = int(arte.height * W / arte.width)
+    arte = arte.resize((W, alto), Image.LANCZOS)
+    tope = H - alto - 104
+    lienzo.paste(arte, (0, tope))
+
+    # franja de pie
+    d.rectangle([0, H - 104, W, H], fill=TINTA)
+    logo = Image.open(LOGO).convert("RGB").resize((58, 58), Image.LANCZOS)
+    lienzo.paste(logo, (x0 - 8, H - 81))
+    d.text((x0 + 66, H - 74), "Los 5 primeros capítulos, gratis", font=pie,
+           fill=(238, 238, 240))
+    a = d.textbbox((0, 0), "jlptest.org", font=pie)
+    d.text((W - x0 - (a[2] - a[0]), H - 74), "jlptest.org", font=pie, fill=ROJO)
+
+    destino = RAIZ / "android" / "play" / "promo-lecturas-1080x1350.png"
+    lienzo.save(destino)
+    print(f"  → {destino.relative_to(RAIZ)}  ({destino.stat().st_size // 1024} KB)")
+
+
 def capitulos():
     """Los capítulos en el orden del LIBRO, con su texto en español."""
     orden = json.loads((RAIZ / "data/fuente/orden_libro.json").read_text(encoding="utf-8"))
@@ -382,6 +466,10 @@ def main():
     if len(sys.argv) < 2:
         sys.exit(__doc__)
     orden = sys.argv[1]
+    if orden == "anuncio":
+        if "--montar" in sys.argv: monta_anuncio()
+        else: anuncio()
+        return
     if orden == "portada":
         if "--montar" in sys.argv: monta_portada()
         else: portada()

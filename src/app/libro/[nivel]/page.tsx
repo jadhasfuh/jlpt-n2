@@ -3,7 +3,7 @@ import {
   capitulos, gramaticas, gramaticaDeFuera, lectura, palabrasDelCapitulo,
   palabrasDeFuera,
 } from "@/lib/contenido";
-import { puedeVer } from "@/lib/acceso-servidor";
+import { puedeVerCapitulo } from "@/lib/acceso-servidor";
 import { Cabecera } from "@/components/Cabecera";
 import { Libro } from "@/components/Libro";
 import { idiomaActual } from "@/lib/idioma-servidor";
@@ -35,9 +35,9 @@ export default async function Pagina(
   const n = Math.min(Math.max(0, Number(c) || 0), lista.length - 1);
   const u = lista[n];
 
-  // El libro respeta el mismo candado que la unidad: si esa sección está
-  // cerrada, no se lee aquí por la puerta de atrás.
-  if (!(await puedeVer(u.seccion))) redirect("/suscripcion?desde=contenido");
+  // Los cinco primeros capítulos son libres; del sexto en adelante vale el
+  // mismo candado que la unidad, para que no se lea por la puerta de atrás.
+  if (!(await puedeVerCapitulo(u.seccion, n))) redirect("/suscripcion?desde=contenido");
 
   const idioma = await idiomaActual();
   const l = await lectura(u.id);

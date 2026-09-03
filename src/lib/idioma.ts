@@ -410,6 +410,7 @@ const T = {
                       en: "Saved per device: phone and computer are turned on separately." },
   "lib2.titulo":    { es: "Libro de {n}", en: "{n} reader" },
   "lib2.capitulo":  { es: "capítulo {i} de {n}", en: "chapter {i} of {n}" },
+  "lib2.gratis": { es: "gratis", en: "free" },
   "lib2.antes":     { es: "Las palabras de este capítulo",
                       en: "The words in this chapter" },
   "lib2.gramatica": { es: "La gramática de este capítulo",

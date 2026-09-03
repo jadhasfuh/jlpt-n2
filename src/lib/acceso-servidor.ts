@@ -1,6 +1,6 @@
 import "server-only";
 import { alDia, perfil } from "./sesion";
-import { esLibre } from "./acceso";
+import { capituloLibre, esLibre } from "./acceso";
 
 /**
  * La puerta de acceso, del lado que manda.
@@ -27,6 +27,12 @@ export async function puedeVer(seccion: string): Promise<boolean> {
   if (accesoAbierto()) return true;
   if (esLibre(seccion)) return true;
   return alDia(await perfil());
+}
+
+/** Un capítulo del libro: o es de los primeros, o vale la regla de siempre. */
+export async function puedeVerCapitulo(seccion: string, n: number): Promise<boolean> {
+  if (capituloLibre(n)) return true;
+  return puedeVer(seccion);
 }
 
 /** Para lo que no cuelga de una sección (el examen, por ejemplo). */

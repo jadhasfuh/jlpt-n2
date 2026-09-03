@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { capituloLibre } from "@/lib/acceso";
 import { useState } from "react";
 import type { Lectura } from "@/lib/tipos";
 import { useAjustes } from "./Ajustes";
@@ -35,7 +36,7 @@ export function Libro({
   gramaticaFuera: PuntoFuera[];
   lectura: Lectura | null;
 }) {
-  const { t, idioma } = useAjustes();
+  const { t, idioma, tieneAcceso } = useAjustes();
   const [traducir, setTraducir] = useState(false);
   const [resp, setResp] = useState<Record<number, number>>({});
 
@@ -55,6 +56,10 @@ export function Libro({
     <>
       <div style={{ display: "flex", alignItems: "center", gap: 10, margin: "22px 0 6px" }}>
         <span className="tenue" style={{ fontSize: 13 }}>{t("lib2.capitulo", { i: n + 1, n: total })}</span>
+        {/* Que se vea que la muestra existe ANTES de toparse con el muro. */}
+        {!tieneAcceso && capituloLibre(n) && (
+          <span className="pastilla gratis">{t("lib2.gratis")}</span>
+        )}
         <div style={{ flex: 1, height: 4, borderRadius: 3, background: "var(--pista)" }}>
           <div style={{
             width: `${((n + 1) / total) * 100}%`, height: "100%", borderRadius: 3,

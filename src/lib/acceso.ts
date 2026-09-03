@@ -18,6 +18,21 @@ export function esLibre(seccion: string): boolean {
   return seccion === SECCION_LIBRE;
 }
 
+/**
+ * Cuántos capítulos del libro se leen sin pagar.
+ *
+ * El libro no se puede cerrar por secciones como el curso: va en orden
+ * cronológico, así que el capítulo 1 cae en `basho` y quedaba bloqueado, que
+ * es justo al revés de lo que interesa. Lo que engancha es el principio de la
+ * historia, así que lo que se abre son los cinco primeros CAPÍTULOS, vaya cada
+ * uno a la sección que vaya.
+ */
+export const CAPITULOS_LIBRES = 5;
+
+export function capituloLibre(n: number): boolean {
+  return n < CAPITULOS_LIBRES;
+}
+
 export function nivelesConMuestra(): Nivel[] {
   return ["N5", "N4", "N3", "N2", "N1"];
 }
