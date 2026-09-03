@@ -262,6 +262,77 @@ def hoja_personajes(sufijo=""):
     genera(prompt, HOJA.with_stem(HOJA.stem + sufijo))
 
 
+def portada():
+    """La portada, SIN una sola letra.
+
+    El título y el logo se componen encima con PIL: estos modelos escriben
+    japonés fatal —salen kanji inventados— y un logo dibujado de memoria no es
+    nuestro logo. El dibujo pone la torre y el personaje; las letras las pone
+    una tipografía de verdad."""
+    prompt = (ESTILO + "\n\nSUBJECT — the cover of a book.\n"
+              "Kobe Port Tower: the tall red lattice tower with the pinched "
+              "hourglass waist, drawn as a flat angular silhouette of thin "
+              "crossing struts, standing tall on the right. At its foot, small, "
+              "Carlos with his hands in his hoodie pockets, looking up at it, "
+              "cheerful. A couple of loose strokes for the ground and one for "
+              "the hills behind. Nothing else.\n\n"
+              f"{PERSONAJES['carlos']}\n\n"
+              "The attached image is the character model sheet — copy Carlos's "
+              "design exactly. Vertical portrait composition. Leave the whole "
+              "upper third almost EMPTY: a title goes there later.\n\n"
+              "ABSOLUTELY NO TEXT, no letters, no title, no logo, no signature, "
+              "no watermark. Not one character anywhere.")
+    print("portada…")
+    genera(prompt, SALIDA / "00-portada.png", referencia=HOJA, size="1024x1536")
+
+
+TITULO_JA = "こうべの一年"
+TITULO_ES = "Un año en Kobe"
+FUENTES = pathlib.Path("/private/tmp/claude-501/-Users-jadhasfuh-Documents-jlptest"
+                       "/de6ce02c-8b5a-444f-9eba-a860178bf9ed/scratchpad/fuentes")
+LOGO = RAIZ / "android" / "play" / "icono-512.png"
+
+
+def monta_portada():
+    """Pone el título y el logo sobre el dibujo de la portada.
+
+    Se compone aquí y no en el prompt porque el modelo escribe japonés fatal
+    —inventa kanji— y un logo dibujado de memoria no es nuestro logo."""
+    from PIL import Image, ImageDraw, ImageFont
+    base = Image.open(SALIDA / "00-portada.png").convert("RGB")
+    W, H = base.size
+    d = ImageDraw.Draw(base)
+    mincho = ImageFont.truetype(str(FUENTES / "ipaexm.ttf"), int(W * 0.089))
+    gothic = ImageFont.truetype(str(FUENTES / "ipaexg.ttf"), int(W * 0.038))
+    pie = ImageFont.truetype(str(FUENTES / "ipaexg.ttf"), int(W * 0.026))
+
+    # El título va arriba a la IZQUIERDA, no centrado: la torre sube por la
+    # derecha hasta el borde y un título centrado se le monta encima.
+    x0 = int(W * 0.09)
+
+    def izquierda(txt, fuente, y, gris=0):
+        a = d.textbbox((0, 0), txt, font=fuente)
+        d.text((x0 - a[0], y - a[1]), txt, font=fuente, fill=(gris,) * 3)
+        return a[3] - a[1]
+
+    alto = izquierda(TITULO_JA, mincho, int(H * 0.085))
+    izquierda(TITULO_ES, gothic, int(H * 0.085) + alto + int(H * 0.028), 70)
+
+    # El logo abajo a la izquierda, con la dirección DEBAJO y no al lado: al
+    # lado se metía entre los pies del personaje.
+    logo = Image.open(LOGO).convert("RGB")
+    lado = int(W * 0.070)
+    logo = logo.resize((lado, lado), Image.LANCZOS)
+    x, y = x0, int(H * 0.885)
+    base.paste(logo, (x, y))
+    d.text((x, y + lado + int(H * 0.008)), "jlptest.org", font=pie,
+           fill=(70, 70, 70))
+
+    destino = SALIDA / "00-portada-montada.png"
+    base.save(destino)
+    print(f"  → {destino.relative_to(RAIZ)}  ({destino.stat().st_size // 1024} KB)")
+
+
 def capitulos():
     """Los capítulos en el orden del LIBRO, con su texto en español."""
     orden = json.loads((RAIZ / "data/fuente/orden_libro.json").read_text(encoding="utf-8"))
@@ -311,6 +382,10 @@ def main():
     if len(sys.argv) < 2:
         sys.exit(__doc__)
     orden = sys.argv[1]
+    if orden == "portada":
+        if "--montar" in sys.argv: monta_portada()
+        else: portada()
+        return
     if orden == "hoja":
         hoja_personajes(sys.argv[2] if len(sys.argv) > 2 else ""); return
     if orden != "cap":
