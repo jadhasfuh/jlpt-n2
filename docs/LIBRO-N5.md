@@ -169,6 +169,42 @@ No se recortan: el texto está bien y fundirlos fue lo correcto. En el papel se
 les da la página entera de texto con una viñeta pequeña en una esquina, en
 lugar del dibujo grande. Tres excepciones en 103 no rompen un libro.
 
+### La maqueta
+
+`python3 scripts/30_libro_pdf.py` saca **docs/libro-n5-maqueta.pdf**: el libro
+entero a tamaño real, 148 × 210 mm, con los márgenes, el cuerpo de 12,5 pt, el
+furigana dibujado carácter a carácter y el hueco del dibujo marcado con su
+medida en milímetros. Sirve para mirarlo antes de encargar nada.
+
+Se compone con **IPAex明朝** para la historia e **IPAexゴシック** para las
+etiquetas —son TrueType y libres, que es lo que hace falta para incrustarlas—.
+Las Hiragino del sistema no valen: llevan contornos PostScript y ninguna
+librería de PDF las mete dentro del archivo.
+
+Con `--capitulos 8` saca sólo los ocho primeros, que para mirar la maqueta
+basta y tarda un segundo.
+
+### Cuántos dibujos
+
+**103, uno por capítulo, más la portada.** El texto ocupa 6 renglones de
+mediana —12 el más largo—, así que en todos cabe el dibujo grande: 115 mm de
+ancho por 82 mm de alto de media. Ninguno se queda en viñeta.
+
+No son 103 dibujos sin relación. Son **siete personajes** —Carlos, Jean, Gonsa,
+Min, Anna, la señora Tanaka y Kenta— y una veintena de escenarios que vuelven:
+
+| | |
+|---|---|
+| Su habitación | 20 capítulos |
+| El aula | 16 |
+| La pizzería | 16 |
+| Las calles de Kobe | 14 |
+| Casa de la señora Tanaka | 8 |
+| Avión y aeropuerto · Sapporo · naturaleza | 5 cada uno |
+| Ventanillas oficiales | 4 |
+| Casa de Anna | 3 |
+| El hospital | 1 |
+
 ### Lo que falta cuando haya dibujos
 
 Las lecturas necesitarán un campo para la ilustración y su pie. Hasta que
