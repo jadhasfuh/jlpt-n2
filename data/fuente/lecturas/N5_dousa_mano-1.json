@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/dousa/mano-1",
  "titulo": "ガスの ひとが きた ひ",
- "cuerpo": "ガスは じぶんで <ruby>開<rt>あ</rt></ruby>ける ことが できません。かいしゃの ひとが きます。ぼくは ごぜんちゅう、へやで まって いました。その ひとは くつを ぬいで、だいどころの したを みました。「ここを <ruby>閉<rt>し</rt></ruby>めて ください」と ぼくに みせてくれました。そうじの ぬので、ゆかを ふきました。「おゆが つかいたいです」と いうと、その ひとは わらいました。その ひの よる、はじめて あたたかい おふろに <ruby>入<rt>はい</rt></ruby>りました。",
- "traduccion": "El gas no lo puedes abrir tú. Viene alguien de la compañía. Yo estuve toda la mañana esperando en el piso. El técnico se quitó los zapatos y miró debajo de la cocina. «Esto se cierra así», me enseñó. Con un trapo de limpiar, secó el suelo. Cuando le dije «quiero poder usar agua caliente», se rió. Esa noche me di el primer baño caliente.",
+ "cuerpo": "ガスは じぶんで <ruby>開<rt>あ</rt></ruby>ける ことが できません。かいしゃの ひとが きます。ぼくは ごぜんちゅう、へやで まって いました。その ひとは くつを <ruby>脱<rt>ぬ</rt></ruby>いで、だいどころの したを みました。「ここを <ruby>閉<rt>し</rt></ruby>めて ください」と ぼくに みせてくれました。そうじの ぬので、ゆかを <ruby>拭<rt>ふ</rt></ruby>きました。「おゆが つかい<em class=\"g\">たい</em>です」と いうと、その ひとは わらいました。その ひの よる、はじめて あたたかい おふろに <ruby>入<rt>はい</rt></ruby>りました。まどが <ruby>閉<rt>し</rt></ruby>まって いるか、ねる まえに かならず みます。くつの ひもを <ruby>締<rt>し</rt></ruby>めて、げんかんまで おくりました。",
+ "traduccion": "El gas no lo puedes abrir tú. Viene alguien de la compañía. Yo estuve toda la mañana esperando en el piso. El técnico se quitó los zapatos y miró debajo de la cocina. «Esto se cierra así», me enseñó. Con un trapo de limpiar, secó el suelo. Cuando le dije «quiero poder usar agua caliente», se rio. Esa noche me di el primer baño caliente. Antes de dormir compruebo siempre si la ventana está cerrada. Se ató los cordones y lo acompañé hasta la entrada.",
  "preguntas": [
   {
    "p": "ガスは だれが <ruby>開<rt>あ</rt></ruby>けますか。",
@@ -35,5 +35,5 @@
    "correcta": 3
   }
  ],
- "traduccion_en": "You can't turn the gas on yourself. Someone from the company comes. I spent the whole morning waiting in the flat. The technician took his shoes off and looked under the kitchen unit. «You close this like so», he showed me. With a cleaning cloth, he wiped the floor dry. When I said «I want to be able to use hot water», he laughed. That night I had my first hot bath."
+ "traduccion_en": "You cannot turn the gas on yourself. Someone from the company comes. I spent the whole morning waiting in the flat. He took off his shoes and looked under the kitchen unit. «You close it here,» he showed me. With a cleaning cloth he wiped the floor. When I said «I want to be able to use hot water,» he laughed. That night I had my first hot bath. Before going to sleep I always check whether the window is shut. He tied his laces and I saw him to the door."
 }

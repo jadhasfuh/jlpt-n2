@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/basho/ubicacion-1",
  "titulo": "へやの なか",
- "cuerpo": "ぼくの へやは ひろくありません。ベッドの <ruby>上<rt>うえ</rt></ruby>に にもつが あります。つくえは まどの そばです。そこから <ruby>下<rt>した</rt></ruby>を <ruby>見<rt>み</rt></ruby>ると、ちいさい こうえんが あります。「あれは なんですか」と たなかさんに ききました。「あそこは こどもの こうえんです」と こたえました。「あなたの くには あついですか」と たなかさんが ききました。ぼくの うちは メキシコの <ruby>北<rt>きた</rt></ruby>です。ふゆは さむいです。たなかさんは とても おどろきました。",
- "traduccion": "Mi habitación no es grande. Encima de la cama está mi equipaje. La mesa está junto a la ventana. Si miras hacia abajo desde ahí, hay un parque pequeño. «¿Qué es aquello?», le pregunté a la señora Tanaka. «Eso de allá es un parque infantil», contestó. «¿Hace calor en tu país?», me preguntó ella. Mi casa está en el norte de México. En invierno hace frío. La señora Tanaka se quedó muy sorprendida.",
+ "cuerpo": "ぼくの へやは ひろくありません。ベッドの <ruby>上<rt>うえ</rt></ruby>に にもつが あります。つくえは まどの そばです。そこから <ruby>下<rt>した</rt></ruby>を <ruby>見<rt>み</rt></ruby>ると、ちいさい こうえんが あります。「あれは なんですか」と たなかさんに ききました。「あそこは こどもの こうえんです」と こたえました。「あなたの くには あついですか」と たなかさんが ききました。ぼくの うちは メキシコの <ruby>北<rt>きた</rt></ruby>です。ふゆは さむいです。たなかさんは とても おどろきました。「こうえんは そっちでは なくて、そちらですよ」と まどの <ruby>後<rt>うし</rt></ruby>ろを ゆびで さしました。あっちの やまが みえる <ruby>方<rt>ほう</rt></ruby>です。ねる <em class=\"g\">まえに</em>、その ところを ちずで さがしました。ここは しずかで、どこへ <ruby>行<rt>い</rt></ruby>っても うみが ちかいです。",
+ "traduccion": "Mi habitación no es grande. Encima de la cama está mi equipaje. La mesa está junto a la ventana. Si miras hacia abajo desde ahí, hay un parque pequeño. «¿Qué es aquello?», le pregunté a la señora Tanaka. «Eso de allá es un parque para niños», contestó. «¿En tu país hace calor?», me preguntó ella. Mi casa está en el norte de México. En invierno hace frío. La señora Tanaka se quedó muy sorprendida. «El parque no es por ahí, es por allá», dijo señalando con el dedo detrás de la ventana. Del lado por donde se ven las montañas. Antes de dormir busqué ese sitio en el mapa. Aquí es tranquilo, y vayas a donde vayas el mar queda cerca.",
  "preguntas": [
   {
    "p": "にもつは どこに ありますか。",
@@ -35,5 +35,5 @@
    "correcta": 2
   }
  ],
- "traduccion_en": "My room isn't big. My luggage is on the bed. The desk is by the window. If you look down from there, there's a small park. «What's that over there?» I asked Mrs Tanaka. «That place is a children's park», she answered. «Is it hot in your country?» she asked me. My home is in the north of Mexico. In winter it's cold. Mrs Tanaka was very surprised."
+ "traduccion_en": "My room is not big. My luggage is on the bed. The desk is by the window. If you look down from there, there is a small park. «What is that?» I asked Mrs Tanaka. «That over there is a children's park,» she answered. «Is it hot in your country?» she asked me. My home is in the north of Mexico. In winter it is cold. Mrs Tanaka was very surprised. «The park isn't that way, it's over there,» she said, pointing behind the window. On the side where you can see the mountains. Before going to sleep I looked for that spot on the map. It is quiet here, and wherever you go the sea is close."
 }

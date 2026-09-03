@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/gijutsu/maquinas-1",
  "titulo": "れいぞうこの <ruby>中<rt>なか</rt></ruby>",
- "cuerpo": "ぼくの れいぞうこは とても ちいさいです。ぎゅうにゅうと たまごと、たなかさんが くれた やさいが <ruby>入<rt>はい</rt></ruby>って います。テレビは ありませんが、ラジオが あります。あさ、ニュースを <ruby>聞<rt>き</rt></ruby>きながら パンを たべます。ことばは はやいですが、おなじ ことばが なんかいも <ruby>出<rt>で</rt></ruby>て きます。アパートに エレベーターは ありません。ぼくの へやは さんかいです。",
- "traduccion": "Mi nevera es muy pequeña. Dentro hay leche, huevos y las verduras que me regala la señora Tanaka. Televisión no tengo, pero sí una radio. Por la mañana desayuno pan escuchando las noticias. Hablan rápido, pero las mismas palabras salen una y otra vez. En el edificio no hay ascensor. Mi piso está en el tercero.",
+ "cuerpo": "ぼくの れいぞうこは とても <em class=\"g\">ちいさい</em>です。ぎゅうにゅうと たまごと、たなかさんが くれた やさいが <ruby>入<rt>はい</rt></ruby>って います。テレビは ありませんが、ラジオが あります。あさ、ニュースを <ruby>聞<rt>き</rt></ruby>きながら パンを たべます。ことばは はやいですが、おなじ ことばが なんかいも <ruby>出<rt>で</rt></ruby>て きます。アパートに エレベーターは ありません。ぼくの へやは さんかいです。<ruby>晩御飯<rt>ばんごはん</rt></ruby>は だいたい ひとりで たべます。ジャンは カメラが すきで、まいしゅう しゃしんを みせに きます。がっこうには テープレコーダーも あって、<ruby>留学生<rt>りゅうがくせい</rt></ruby>は みんな それで れんしゅうします。",
+ "traduccion": "Mi nevera es muy pequeña. Dentro hay leche, huevos y las verduras que me regala la señora Tanaka. Televisión no tengo, pero sí una radio. Por la mañana desayuno pan escuchando las noticias. Hablan rápido, pero las mismas palabras salen una y otra vez. En el edificio no hay ascensor. Mi habitación está en el tercer piso. La cena casi siempre la hago solo. A Jean le gusta la cámara y viene cada semana a enseñarme fotos. En la escuela hay también una grabadora, y todos los estudiantes extranjeros practicamos con ella.",
  "preguntas": [
   {
    "p": "れいぞうこに なにが ありますか。",
@@ -35,5 +35,5 @@
    "correcta": 0
   }
  ],
- "traduccion_en": "My fridge is very small. Inside there's milk, eggs and the vegetables Mrs Tanaka gives me. I don't have a television, but I do have a radio. In the morning I eat bread while listening to the news. They speak fast, but the same words keep coming up. There's no lift in the building. My flat is on the third floor."
+ "traduccion_en": "My fridge is very small. Inside there is milk, eggs and the vegetables Mrs Tanaka gives me. I have no television, but I do have a radio. In the morning I eat bread while listening to the news. They speak fast, but the same words come up again and again. There is no lift in the building. My room is on the third floor. I usually have dinner on my own. Jean likes his camera and comes round every week to show me photos. At school there is a tape recorder too, and all of us international students practise with it."
 }

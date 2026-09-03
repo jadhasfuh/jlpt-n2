@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/dousa/movimiento-1",
  "titulo": "まつ じかん",
- "cuerpo": "やくしょでは、ばんごうを とって <ruby>座<rt>すわ</rt></ruby>ります。ぼくの まえに にじゅうにんも いました。いすは かたくて、こしが いたく なりました。ろうかを <ruby>曲<rt>ま</rt></ruby>がった ところに、じどうはんばいきが ありました。つめたい おちゃを かって、また <ruby>座<rt>すわ</rt></ruby>りました。にほんでは、まつのも しごとの うちだと おもいました。",
- "traduccion": "En las oficinas coges un número y te sientas. Delante de mí había veinte personas. El asiento era duro y acabó doliéndome la espalda. Doblando el pasillo había una máquina expendedora. Compré un té frío y me volví a sentar. Pensé que en Japón esperar también forma parte del trámite.",
+ "cuerpo": "やくしょでは、ばんごうを とって <ruby>座<rt>すわ</rt></ruby>ります。ぼくの まえに にじゅうにんも いました。いすは かたくて、こしが いたく なりました。ろうかを <ruby>曲<rt>ま</rt></ruby>がった ところに、じどうはんばいきが ありました。つめたい おちゃを かって、また <ruby>座<rt>すわ</rt></ruby>りました。にほんでは、まつのも しごとの うちだと おもいました。ながい いきを <ruby>吐<rt>は</rt></ruby>いて、まどの そとを みました。そとでは こどもたちが はしって いました。ぼくの ばんごうが よばれたのは、ひるまえでした。",
+ "traduccion": "En las oficinas coges un número y te sientas. Delante de mí había veinte personas. El asiento era duro y acabó doliéndome la espalda. Doblando el pasillo había una máquina expendedora. Compré un té frío y me volví a sentar. Pensé que en Japón esperar también es parte del trabajo. Solté un suspiro largo y miré por la ventana. Fuera había niños corriendo. Llamaron mi número justo antes del mediodía.",
  "preguntas": [
   {
    "p": "やくしょでは はじめに なにを しますか。",
@@ -35,5 +35,5 @@
    "correcta": 2
   }
  ],
- "traduccion_en": "At those offices you take a number and sit down. There were twenty people ahead of me. The seat was hard and my back started to ache. Round the corner of the corridor there was a vending machine. I bought a cold tea and sat down again. I thought that in Japan waiting is part of the paperwork too."
+ "traduccion_en": "At the government office you take a number and sit down. There were twenty people ahead of me. The chair was hard and my back started to ache. Round the corner of the corridor there was a vending machine. I bought a cold tea and sat back down. I thought that in Japan waiting is part of the job too. I let out a long breath and looked out of the window. Outside there were children running. They called my number just before noon."
 }

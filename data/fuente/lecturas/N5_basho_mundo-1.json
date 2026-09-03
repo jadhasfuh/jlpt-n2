@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/basho/mundo-1",
  "titulo": "<ruby>留学生<rt>りゅうがくせい</rt></ruby>の クラス",
- "cuerpo": "ぼくは <ruby>留学生<rt>りゅうがくせい</rt></ruby>です。クラスには いろいろな <ruby>国<rt>くに</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>が います。ジャンと ゴンサは ペルーから <ruby>来<rt>き</rt></ruby>ました。ぼくたちは スペインごで はなします。ミンさんは ミャンマーから <ruby>来<rt>き</rt></ruby>ました。もう <ruby>二年<rt>にねん</rt></ruby> ここに います。せんせいが「<ruby>英語<rt>えいご</rt></ruby>が できますか」と ききました。ぼくは「すこしだけです」と こたえました。<ruby>外国<rt>がいこく</rt></ruby>に いると、じぶんの <ruby>国<rt>くに</rt></ruby>のことを よく かんがえます。",
- "traduccion": "Soy estudiante extranjero. En clase hay gente de países muy distintos. Jean y Gonza vienen de Perú. Entre nosotros hablamos en español. Min vino de Myanmar. Lleva ya dos años aquí. El profesor me preguntó: «¿sabes inglés?». Contesté: «sólo un poco». Cuando estás en el extranjero, piensas mucho en tu propio país.",
+ "cuerpo": "ぼくは <ruby>留学生<rt>りゅうがくせい</rt></ruby>です。クラスには いろいろな <ruby>国<rt>くに</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>が います。ジャンと ゴンサは ペルーから <ruby>来<rt>き</rt></ruby>ました。ぼくたちは スペインごで はなします。ミンさんは ミャンマーから <ruby>来<rt>き</rt></ruby>ました。<em class=\"g\">も</em>う <ruby>二年<rt>にねん</rt></ruby> ここに います。せんせいが「<ruby>英語<rt>えいご</rt></ruby>が できますか」と ききました。ぼくは「すこしだけです」と こたえました。<ruby>外国<rt>がいこく</rt></ruby>に いると、じぶんの <ruby>国<rt>くに</rt></ruby>のことを よく かんがえます。ぼくの <ruby>両親<rt>りょうしん</rt></ruby>も でんわで おなじ ことを ききます。きょうしつの すみに <ruby>球<rt>きゅう</rt></ruby>の かたちの ちきゅうぎが あります。みんな じぶんの <ruby>国<rt>くに</rt></ruby>を さがします。",
+ "traduccion": "Soy estudiante extranjero. En clase hay gente de países muy distintos. Jean y Gonza vienen de Perú. Entre nosotros hablamos en español. Min vino de Myanmar. Lleva ya dos años aquí. El profesor me preguntó: «¿sabes inglés?». Contesté: «solo un poco». Cuando estás en el extranjero piensas mucho en tu propio país. Mis padres también me preguntan lo mismo por teléfono. En una esquina del aula hay un globo terráqueo con forma de esfera. Todos buscamos nuestro país en él.",
  "preguntas": [
   {
    "p": "ジャンさんと ゴンサさんは どこから <ruby>来<rt>き</rt></ruby>ましたか。",
@@ -35,5 +35,5 @@
    "correcta": 0
   }
  ],
- "traduccion_en": "I'm an international student. In class there are people from all sorts of countries. Jean and Gonza come from Peru. Among ourselves we speak Spanish. Min came from Myanmar. He has been here two years already. The teacher asked me: «can you speak English?». I answered: «only a little». When you're abroad, you think about your own country a lot."
+ "traduccion_en": "I am an international student. In class there are people from all sorts of countries. Jean and Gonsa came from Peru. Among ourselves we speak Spanish. Min came from Myanmar. He has been here two years already. The teacher asked me, «can you speak English?» I answered, «only a little.» When you are abroad you think a lot about your own country. My parents ask me the same thing on the phone. In the corner of the classroom there is a globe, a sphere. We all look for our own country on it."
 }
