@@ -73,3 +73,65 @@
 4816    # よろしく — se queda la 102817, que además está en «saludos»
 103085  # ミリ — idéntica a la 4473
 3761    # 二十(はたち) — 二十 solo se lee にじゅう; はたち es 二十歳, que ya es la 3760
+
+# --- La misma palabra escrita de dos maneras (2026-09-02) ---------------------
+# Criterio de Adrián: si las dos copias están en la MISMA subsección son la
+# misma lección y sobra una; si una está en N5 y otra en N3, se quedan las dos,
+# porque en una se aprende la palabra y en la otra el kanji.
+#
+# De las 127 parejas que se leen igual dentro de una misma subsección, la
+# mayoría NO son duplicados —飛行/非行, 大便/代弁, 意思/意志, 硬貨/高価 son
+# palabras distintas que suenan igual— y se quedan. Aquí sólo van las que son
+# la misma palabra. Se queda la grafía que se usa hoy.
+30      # 明き — se queda 空き
+99      # あと — se queda 跡
+149     # 在る — se queda ある
+323     # 煎る — se queda いる (煎 no es kanji de N5)
+378     # うち — se queda 内
+552     # 起す — la okurigana de hoy es 起こす
+571     # 小父さん — se queda 伯父さん
+572     # 叔父さん — se queda 伯父さん
+624     # 叔母さん — se queda 伯母さん
+656     # おや — se queda 親
+847     # 個所 — la grafía de hoy es 箇所
+977     # 河 — se queda 川
+1094    # 規準 — se queda 基準
+1742    # 捜す — se queda 探す
+2815    # 唯 — se queda ただ
+3116    # つまずく — se queda 躓く
+3177    # 適確 — se queda 的確
+3449    # 永い — se queda 長い
+3457    # 中味 — se queda 中身
+3611    # 寝巻 — se queda 寝間着
+3736    # 始めに — se queda 初めに
+4023    # 殖える — se queda 増える
+4108    # 殖やす — se queda 増やす
+4288    # 濠 — se queda 堀
+4335    # 交ざる — se queda 混ざる
+4394    # 円い — se queda 丸い
+4446    # 見付ける — la grafía de hoy es 見つける
+4690    # 軟らかい — se queda 柔らかい
+4811    # 慶び — se queda 喜び
+4813    # 慶ぶ — se queda 喜ぶ
+4958    # 椀 — se queda 碗
+# Fórmulas hechas: se queda la grafía normal de cada una, no siempre la misma.
+275     # いっていらっしゃい — se queda 行っていらっしゃい
+103049  # 行ってらっしゃい — いってらっしゃい va en kana
+538     # おきのどくに — se queda お気の毒に
+550     # おげんきで — se queda お元気で
+936     # かまいません — se queda 構いません
+1592    # ごくろうさま — se queda ご苦労様
+2673    # そのほか — se queda その他
+3492    # なにしろ — se queda 何しろ
+102488  # よし — se queda 良し
+102675  # 可愛い — かわいい se escribe en kana (可愛い es ateji)
+102778  # 凄い — すごい se escribe en kana
+103058  # こうよう — se queda 紅葉
+36      # あきれる — se queda 呆れる
+
+# --- Idénticas: misma escritura y misma lectura -------------------------------
+# Quedaban tres. かく se queda por duplicado a propósito: una es N5 («rascar»)
+# y otra N1 (恥をかく), y son niveles distintos. Las otras dos eran la misma
+# ficha dos veces, así que los dos sentidos van juntos en la que se queda.
+150     # ある「或る」 — el sentido «un cierto…» pasa a la 148
+324     # いる「煎る」 — tostar no es vocabulario de N5; いる es «estar»

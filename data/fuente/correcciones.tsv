@@ -431,3 +431,5 @@ id|kana|kanji|en|es
 # Los contadores que ya estaban bien, con el mismo formato que los demás.
 100173|||counter for cupfuls|(contador) tazas y vasos
 102998|||counter for defeats|(contador) derrotas
+# ある lleva ahora sus dos sentidos, que en kana se escriben igual.
+148|||to be, to exist, to have; a certain ~, some ~|haber, estar, existir; cierto ~, un tal ~ (ある日: cierto día)
