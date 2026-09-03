@@ -9,7 +9,8 @@
    "opciones": [
     "インターネットの エージェントで",
     "ともだちに ききました",
-    "がっこうへ 行きました"
+    "がっこうへ 行きました",
+    "メキシコの がっこうで ききました"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>何<rt>なに</rt></ruby>も ありません",
     "うみと<ruby>山<rt>やま</rt></ruby>",
-    "<ruby>川<rt>かわ</rt></ruby>だけ"
+    "<ruby>川<rt>かわ</rt></ruby>だけ",
+    "うみだけ"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>公園<rt>こうえん</rt></ruby>と<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>",
     "アパートと<ruby>橋<rt>はし</rt></ruby>",
-    "<ruby>交差点<rt>こうさてん</rt></ruby>と<ruby>図書館<rt>としょかん</rt></ruby>"
+    "<ruby>交差点<rt>こうさてん</rt></ruby>と<ruby>図書館<rt>としょかん</rt></ruby>",
+    "<ruby>公園<rt>こうえん</rt></ruby>と<ruby>図書館<rt>としょかん</rt></ruby>"
    ],
    "correcta": 2
   }

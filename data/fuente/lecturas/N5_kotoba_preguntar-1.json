@@ -9,7 +9,8 @@
    "opciones": [
     "とまる ところ",
     "たべもの",
-    "おかね"
+    "おかね",
+    "みせの <ruby>人<rt>ひと</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>駅<rt>えき</rt></ruby>",
     "ネットカフェ",
-    "ホテル"
+    "ホテル",
+    "ゴンサの ともだちの <ruby>家<rt>いえ</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "たかい",
     "とおい",
-    "やすくて <ruby>朝<rt>あさ</rt></ruby>まで いられる"
+    "やすくて <ruby>朝<rt>あさ</rt></ruby>まで いられる",
+    "いっぱいで <ruby>入<rt>い</rt></ruby>れない"
    ],
    "correcta": 2
   }

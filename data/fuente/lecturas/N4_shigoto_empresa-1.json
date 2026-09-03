@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>社長<rt>しゃちょう</rt></ruby>",
     "あたらしい<ruby>人<rt>ひと</rt></ruby>",
-    "そうじの<ruby>会社<rt>かいしゃ</rt></ruby>"
+    "そうじの<ruby>会社<rt>かいしゃ</rt></ruby>",
+    "みんなでします"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>えを<ruby>言<rt>い</rt></ruby>う",
     "みんなの<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>く",
-    "けっかを<ruby>書<rt>か</rt></ruby>く"
+    "けっかを<ruby>書<rt>か</rt></ruby>く",
+    "そうじをする"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>五人<rt>ごにん</rt></ruby>",
     "<ruby>五十人<rt>ごじゅうにん</rt></ruby>",
-    "<ruby>十五人<rt>じゅうごにん</rt></ruby>"
+    "<ruby>十五人<rt>じゅうごにん</rt></ruby>",
+    "<ruby>十<rt>じゅう</rt></ruby><ruby>人<rt>ひと</rt></ruby>"
    ],
    "correcta": 2
   }

@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>教室<rt>きょうしつ</rt></ruby>では はずかしいから",
     "<ruby>公園<rt>こうえん</rt></ruby>が ひろいから",
-    "<ruby>学校<rt>がっこう</rt></ruby>が しまって いるから"
+    "<ruby>学校<rt>がっこう</rt></ruby>が しまって いるから",
+    "<ruby>公園<rt>こうえん</rt></ruby>で うたう ことに なったから"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "じょうずでした",
     "こえが <ruby>出<rt>で</rt></ruby>ませんでした",
-    "<ruby>雨<rt>あめ</rt></ruby>でした"
+    "<ruby>雨<rt>あめ</rt></ruby>でした",
+    "ギターが ありませんでした"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>一日<rt>いちにち</rt></ruby>",
     "<ruby>一年<rt>いちねん</rt></ruby>",
-    "<ruby>十日<rt>とおか</rt></ruby>ぐらい"
+    "<ruby>十日<rt>とおか</rt></ruby>ぐらい",
+    "<ruby>三日<rt>みっか</rt></ruby>"
    ],
    "correcta": 2
   }

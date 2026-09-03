@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>公園<rt>こうえん</rt></ruby>",
     "<ruby>学校<rt>がっこう</rt></ruby>",
-    "<ruby>家<rt>いえ</rt></ruby>"
+    "<ruby>家<rt>いえ</rt></ruby>",
+    "<ruby>病院<rt>びょういん</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>旅行<rt>りょこう</rt></ruby>",
     "<ruby>漢字<rt>かんじ</rt></ruby>のテスト",
-    "<ruby>仕事<rt>しごと</rt></ruby>"
+    "<ruby>仕事<rt>しごと</rt></ruby>",
+    "<ruby>先生<rt>せんせい</rt></ruby>との<ruby>約束<rt>やくそく</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>走<rt>はし</rt></ruby>ったから",
     "<ruby>寝<rt>ね</rt></ruby>すぎたから",
-    "<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べていないから"
+    "<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べていないから",
+    "<ruby>食<rt>た</rt></ruby>べすぎたから"
    ],
    "correcta": 2
   }

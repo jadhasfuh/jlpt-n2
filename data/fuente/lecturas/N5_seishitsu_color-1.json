@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>白<rt>しろ</rt></ruby>と はいいろ",
     "<ruby>赤<rt>あか</rt></ruby>と <ruby>青<rt>あお</rt></ruby>",
-    "<ruby>緑<rt>みどり</rt></ruby>"
+    "<ruby>緑<rt>みどり</rt></ruby>",
+    "<ruby>茶色<rt>ちゃいろ</rt></ruby>と <ruby>黄色<rt>きいろ</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>白<rt>しろ</rt></ruby>",
     "<ruby>黄色<rt>きいろ</rt></ruby>",
-    "<ruby>赤<rt>あか</rt></ruby>"
+    "<ruby>赤<rt>あか</rt></ruby>",
+    "<ruby>青<rt>あお</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "はな",
     "でんき",
-    "<ruby>赤<rt>あか</rt></ruby>い ちょうちん"
+    "<ruby>赤<rt>あか</rt></ruby>い ちょうちん",
+    "<ruby>黄色<rt>きいろ</rt></ruby>い コート"
    ],
    "correcta": 2
   }

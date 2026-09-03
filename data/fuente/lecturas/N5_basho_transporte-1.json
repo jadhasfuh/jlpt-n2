@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>切符<rt>きっぷ</rt></ruby>の かいかた",
     "がっこうの ばしょ",
-    "<ruby>電車<rt>でんしゃ</rt></ruby>の <ruby>時間<rt>じかん</rt></ruby>"
+    "<ruby>電車<rt>でんしゃ</rt></ruby>の <ruby>時間<rt>じかん</rt></ruby>",
+    "<ruby>降<rt>お</rt></ruby>りる <ruby>駅<rt>えき</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>自転車<rt>じてんしゃ</rt></ruby>が ないから",
     "<ruby>雨<rt>あめ</rt></ruby>だったから",
-    "とおいから"
+    "とおいから",
+    "<ruby>荷物<rt>にもつ</rt></ruby>が おもかったから"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>町<rt>まち</rt></ruby>",
     "<ruby>山<rt>やま</rt></ruby>",
-    "うみ"
+    "うみ",
+    "<ruby>雨<rt>あめ</rt></ruby>"
    ],
    "correcta": 2
   }

@@ -9,7 +9,8 @@
    "opciones": [
     "こおりの <ruby>上<rt>うえ</rt></ruby>",
     "テーブルの <ruby>上<rt>うえ</rt></ruby>",
-    "はこの <ruby>中<rt>なか</rt></ruby>"
+    "はこの <ruby>中<rt>なか</rt></ruby>",
+    "みせの <ruby>外<rt>そと</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "なにも しませんでした",
     "<ruby>魚<rt>さかな</rt></ruby>を くれました",
-    "おかねを とりました"
+    "おかねを とりました",
+    "<ruby>紅茶<rt>こうちゃ</rt></ruby>を くれました"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>果物<rt>くだもの</rt></ruby>",
     "<ruby>魚<rt>さかな</rt></ruby>",
-    "<ruby>紅茶<rt>こうちゃ</rt></ruby>"
+    "<ruby>紅茶<rt>こうちゃ</rt></ruby>",
+    "<ruby>野菜<rt>やさい</rt></ruby>"
    ],
    "correcta": 2
   }

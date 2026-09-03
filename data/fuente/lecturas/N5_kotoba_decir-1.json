@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>三日<rt>みっか</rt></ruby>",
     "<ruby>三時間<rt>さんじかん</rt></ruby>",
-    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>"
+    "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>",
+    "<ruby>二日<rt>ふつか</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "コートを かえ",
     "くつしたを <ruby>二<rt>に</rt></ruby>まい はけ",
-    "<ruby>行<rt>い</rt></ruby>くな"
+    "<ruby>行<rt>い</rt></ruby>くな",
+    "あさ はやい ひこうきに しろ"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "かわりませんでした",
     "ふえました",
-    "はんぶん きえました"
+    "はんぶん きえました",
+    "ぜんぶ きえました"
    ],
    "correcta": 2
   }

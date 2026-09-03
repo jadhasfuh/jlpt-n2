@@ -9,7 +9,8 @@
    "opciones": [
     "まっすぐです",
     "まがって います",
-    "とても ひろいです"
+    "とても ひろいです",
+    "<ruby>狭<rt>せま</rt></ruby>くて まがって います"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>木<rt>き</rt></ruby>",
     "ちいさい みせ",
-    "<ruby>高<rt>たか</rt></ruby>い ビル"
+    "<ruby>高<rt>たか</rt></ruby>い ビル",
+    "やま"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "くらいです",
     "なにも <ruby>見<rt>み</rt></ruby>えません",
-    "そらが <ruby>広<rt>ひろ</rt></ruby>いです"
+    "そらが <ruby>広<rt>ひろ</rt></ruby>いです",
+    "<ruby>高<rt>たか</rt></ruby>い ビルが ならんで います"
    ],
    "correcta": 2
   }

@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>一年<rt>いちねん</rt></ruby>の さくぶん",
     "テストの べんきょう",
-    "しゃしん"
+    "しゃしん",
+    "ネットカフェの はなし"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "ネットカフェ",
     "<ruby>駅<rt>えき</rt></ruby>で まちがえた <ruby>日<rt>ひ</rt></ruby>",
-    "うみ"
+    "うみ",
+    "<ruby>一年<rt>いちねん</rt></ruby>の ぜんぶ"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>一<rt>いち</rt></ruby>まい",
     "<ruby>十<rt>じゅう</rt></ruby>まい",
-    "<ruby>三<rt>さん</rt></ruby>まい"
+    "<ruby>三<rt>さん</rt></ruby>まい",
+    "<ruby>一時間<rt>いちじかん</rt></ruby>で <ruby>一<rt>いち</rt></ruby>まい"
    ],
    "correcta": 2
   }

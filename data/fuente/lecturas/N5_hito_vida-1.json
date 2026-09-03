@@ -9,7 +9,8 @@
    "opciones": [
     "じゅうさんさい",
     "<ruby>十二<rt>じゅうに</rt></ruby>さい",
-    "<ruby>二十歳<rt>はたち</rt></ruby>"
+    "<ruby>二十歳<rt>はたち</rt></ruby>",
+    "じゅうよんさい"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "サッカーを しよう",
     "<ruby>二十歳<rt>はたち</rt></ruby>に なったら いっしょに のもう",
-    "メキシコへ <ruby>行<rt>い</rt></ruby>きたい"
+    "メキシコへ <ruby>行<rt>い</rt></ruby>きたい",
+    "ななねん まって ください"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "こうえん",
     "<ruby>学校<rt>がっこう</rt></ruby>",
-    "たなかさんの <ruby>家<rt>いえ</rt></ruby>"
+    "たなかさんの <ruby>家<rt>いえ</rt></ruby>",
+    "けんたくんの <ruby>家<rt>いえ</rt></ruby>"
    ],
    "correcta": 2
   }

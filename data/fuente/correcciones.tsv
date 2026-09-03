@@ -284,6 +284,16 @@ id|kana|kanji|en|es
 484|お|-|honourable (prefix)|prefijo de cortesía
 # Fichas que se quedan de un par repetido, con la definición arreglada.
 102746|||part-time work, part-time employee|trabajo a tiempo parcial; empleado a tiempo parcial
-102816|||to become flustered, to panic, to lose one's head|aturullarse, entrar en pánico, perder los nervios
-4254|||cheerful, merry, bright (sky, weather)|alegre, jovial; despejado (cielo, tiempo)
-1420|||vulgarity, coarseness, indecency|vulgaridad, ordinariez, indecencia
+161|||to become flustered, to panic, to lose one's head|aturullarse, entrar en pánico, perder los nervios
+103082|||cheerful, merry, bright (sky, weather)|alegre, jovial; despejado (cielo, tiempo)
+103057|||vulgarity, coarseness, indecency|vulgaridad, ordinariez, indecencia
+# 当たり前 y 出かける: la ficha que se queda es la de la unidad corta.
+103047|||natural, obvious, reasonable, usual, common|natural, lógico, obvio, lo normal
+102698|||to go out, to depart, to set off|salir, partir, ponerse en camino
+# Las fichas que vienen de los mazos de anki traen a veces el paréntesis del
+# tipo de adjetivo o una variante dentro de la palabra: «下品(な)», «パート
+# (タイム)». Eso rompe el furigana y la búsqueda en el diccionario.
+161|あわてる|慌てる||
+103057|げひん|下品||
+103082|ほがらか|朗らか||
+102746|パート|-||

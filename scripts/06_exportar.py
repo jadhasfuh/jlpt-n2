@@ -21,7 +21,13 @@ if f.exists():
         l = sin_comentario(l)
         if not l or l.startswith(("#", "id|")): continue
         c = (l.split("|") + [""] * 5)[:5]
-        CORRECCIONES[int(c[0])] = dict(zip(("kana", "kanji", "en", "es"), c[1:]))
+        # Un id puede aparecer en más de una línea —una para el significado y
+        # otra, más abajo, para la ortografía—. Se fusionan campo a campo: si
+        # aquí se sustituyera el diccionario entero, la segunda línea borraría
+        # en silencio lo que arreglaba la primera.
+        destino = CORRECCIONES.setdefault(int(c[0]), {})
+        for k, val in zip(("kana", "kanji", "en", "es"), c[1:]):
+            if val.strip(): destino[k] = val
 f = pathlib.Path("data/fuente/descartar.txt")
 if f.exists():
     for l in f.read_text(encoding="utf-8").splitlines():

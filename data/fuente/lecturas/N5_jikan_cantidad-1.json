@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>四万<rt>よんまん</rt></ruby>えん",
     "<ruby>一万<rt>いちまん</rt></ruby>えん",
-    "<ruby>三千<rt>さんぜん</rt></ruby>えん"
+    "<ruby>三千<rt>さんぜん</rt></ruby>えん",
+    "<ruby>五<rt>ご</rt></ruby><ruby>万<rt>まん</rt></ruby>えん"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>学校<rt>がっこう</rt></ruby>",
     "<ruby>両親<rt>りょうしん</rt></ruby>",
-    "じぶん"
+    "じぶん",
+    "アルバイトの おかね"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "ぜろ",
     "<ruby>四万<rt>よんまん</rt></ruby>えん",
-    "<ruby>三千<rt>さんぜん</rt></ruby>えん"
+    "<ruby>三千<rt>さんぜん</rt></ruby>えん",
+    "<ruby>一万<rt>いちまん</rt></ruby>えん"
    ],
    "correcta": 2
   }

@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>月曜日<rt>げつようび</rt></ruby>と <ruby>水曜日<rt>すいようび</rt></ruby>",
     "<ruby>金曜日<rt>きんようび</rt></ruby>",
-    "<ruby>毎日<rt>まいにち</rt></ruby>"
+    "<ruby>毎日<rt>まいにち</rt></ruby>",
+    "<ruby>土曜日<rt>どようび</rt></ruby>と <ruby>日曜日<rt>にちようび</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "やすみの <ruby>日<rt>ひ</rt></ruby>",
     "でんわの <ruby>日<rt>ひ</rt></ruby>",
-    "そうじの <ruby>日<rt>ひ</rt></ruby>"
+    "そうじの <ruby>日<rt>ひ</rt></ruby>",
+    "ギターの <ruby>日<rt>ひ</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "ジャン",
     "けんたくん",
-    "アンナさん"
+    "アンナさん",
+    "ジャンと ゴンサ"
    ],
    "correcta": 2
   }

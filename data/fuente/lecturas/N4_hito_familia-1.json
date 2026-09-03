@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>祖父<rt>そふ</rt></ruby>と<ruby>祖母<rt>そぼ</rt></ruby>",
     "いとこ",
-    "<ruby>娘<rt>むすめ</rt></ruby>"
+    "<ruby>娘<rt>むすめ</rt></ruby>",
+    "<ruby>母<rt>はは</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>料理<rt>りょうり</rt></ruby>",
     "<ruby>写真<rt>しゃしん</rt></ruby>",
-    "<ruby>音楽<rt>おんがく</rt></ruby>"
+    "<ruby>音楽<rt>おんがく</rt></ruby>",
+    "むかしの<ruby>話<rt>はなし</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>大家<rt>おおや</rt></ruby>",
     "<ruby>父<rt>ちち</rt></ruby>の<ruby>兄<rt>あに</rt></ruby>",
-    "<ruby>母<rt>はは</rt></ruby>のいとこ"
+    "<ruby>母<rt>はは</rt></ruby>のいとこ",
+    "<ruby>祖母<rt>そぼ</rt></ruby>のいとこ"
    ],
    "correcta": 2
   }

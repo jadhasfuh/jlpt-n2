@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>表示<rt>ひょうじ</rt></ruby>された<ruby>数字<rt>すうじ</rt></ruby>と<ruby>実際<rt>じっさい</rt></ruby>の<ruby>力<rt>ちから</rt></ruby>",
     "<ruby>色<rt>いろ</rt></ruby>",
-    "<ruby>大<rt>おお</rt></ruby>きさ"
+    "<ruby>大<rt>おお</rt></ruby>きさ",
+    "ねだんと<ruby>説明書<rt>せつめいしょ</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>何<rt>なに</rt></ruby>もしない",
     "<ruby>補償<rt>ほしょう</rt></ruby>をする",
-    "<ruby>待<rt>ま</rt></ruby>ってほしい"
+    "<ruby>待<rt>ま</rt></ruby>ってほしい",
+    "あたらしいものだけを<ruby>送<rt>おく</rt></ruby>る"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "やすく<ruby>売<rt>う</rt></ruby>ること",
     "<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>の<ruby>非行<rt>ひこう</rt></ruby>をへらすこと",
-    "<ruby>正<rt>ただ</rt></ruby>しく<ruby>表示<rt>ひょうじ</rt></ruby>すること"
+    "<ruby>正<rt>ただ</rt></ruby>しく<ruby>表示<rt>ひょうじ</rt></ruby>すること",
+    "<ruby>大<rt>おお</rt></ruby>きな<ruby>会社<rt>かいしゃ</rt></ruby>をへらすこと"
    ],
    "correcta": 2
   }

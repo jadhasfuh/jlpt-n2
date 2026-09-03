@@ -9,7 +9,8 @@
    "opciones": [
     "みっつ",
     "ふたつ",
-    "よっつ"
+    "よっつ",
+    "いつつ"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "おなじです",
     "<ruby>片仮名<rt>かたかな</rt></ruby>",
-    "<ruby>平仮名<rt>ひらがな</rt></ruby>"
+    "<ruby>平仮名<rt>ひらがな</rt></ruby>",
+    "<ruby>漢字<rt>かんじ</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "よみ<ruby>方<rt>かた</rt></ruby>が ひとつの こと",
     "<ruby>書<rt>か</rt></ruby>きやすい こと",
-    "<ruby>意味<rt>いみ</rt></ruby>が <ruby>見<rt>み</rt></ruby>える こと"
+    "<ruby>意味<rt>いみ</rt></ruby>が <ruby>見<rt>み</rt></ruby>える こと",
+    "<ruby>辞書<rt>じしょ</rt></ruby>が いらない こと"
    ],
    "correcta": 2
   }

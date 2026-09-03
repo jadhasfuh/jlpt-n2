@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>十時<rt>じゅうじ</rt></ruby>",
     "<ruby>九時<rt>くじ</rt></ruby>",
-    "<ruby>六時<rt>ろくじ</rt></ruby>"
+    "<ruby>六時<rt>ろくじ</rt></ruby>",
+    "<ruby>八<rt>はち</rt></ruby><ruby>時<rt>とき</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>十二時<rt>じゅうにじ</rt></ruby>",
     "<ruby>九時<rt>くじ</rt></ruby>",
-    "<ruby>十時<rt>じゅうじ</rt></ruby>"
+    "<ruby>十時<rt>じゅうじ</rt></ruby>",
+    "<ruby>十<rt>じゅう</rt></ruby><ruby>一時<rt>いちじ</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "ただ",
     "はんぶんの ねだん",
-    "<ruby>二日分<rt>ふつかぶん</rt></ruby>の しごとの おかね"
+    "<ruby>二日分<rt>ふつかぶん</rt></ruby>の しごとの おかね",
+    "<ruby>一日<rt>ついたち</rt></ruby><ruby>分<rt>わ</rt></ruby>の しごとの おかね"
    ],
    "correcta": 2
   }

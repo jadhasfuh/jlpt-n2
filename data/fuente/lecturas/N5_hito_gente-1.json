@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>二<rt>に</rt></ruby>かげつ",
     "にねん",
-    "<ruby>二<rt>に</rt></ruby>しゅうかん"
+    "<ruby>二<rt>に</rt></ruby>しゅうかん",
+    "<ruby>六<rt>ろく</rt></ruby>かげつ"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>大勢<rt>おおぜい</rt></ruby>",
     "さんにんか よにん",
-    "<ruby>一人<rt>ひとり</rt></ruby>"
+    "<ruby>一人<rt>ひとり</rt></ruby>",
+    "<ruby>二人<rt>ふたり</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "にほんに <ruby>着<rt>つ</rt></ruby>いた ひ",
     "テストの ひ",
-    "じょうだんが 言えた ひ"
+    "じょうだんが 言えた ひ",
+    "アンナさんが <ruby>来<rt>き</rt></ruby>た ひ"
    ],
    "correcta": 2
   }

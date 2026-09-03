@@ -9,7 +9,8 @@
    "opciones": [
     "ありません",
     "あります",
-    "<ruby>二<rt>ふた</rt></ruby>つ あります"
+    "<ruby>二<rt>ふた</rt></ruby>つ あります",
+    "ちいさいのが <ruby>一<rt>ひと</rt></ruby>つ あります"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>玄関<rt>げんかん</rt></ruby>",
     "おてあらいと シャワー",
-    "だいどころ"
+    "だいどころ",
+    "<ruby>戸<rt>と</rt></ruby>と <ruby>窓<rt>まど</rt></ruby>"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "たかい",
     "ふるい",
-    "じぶんの <ruby>国<rt>くに</rt></ruby>には ない"
+    "じぶんの <ruby>国<rt>くに</rt></ruby>には ない",
+    "とても <ruby>大<rt>おお</rt></ruby>きい"
    ],
    "correcta": 2
   }

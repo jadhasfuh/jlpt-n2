@@ -9,7 +9,8 @@
    "opciones": [
     "しちじ",
     "ろくじ",
-    "はちじ"
+    "はちじ",
+    "<ruby>午前<rt>ごぜん</rt></ruby> くじ"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "しゅくだいを しました",
     "アンナさんと コーヒーを のみました",
-    "アルバイトを さがしました"
+    "アルバイトを さがしました",
+    "カレンダーを <ruby>見<rt>み</rt></ruby>ました"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>三月<rt>さんがつ</rt></ruby>",
     "<ruby>十二月<rt>じゅうにがつ</rt></ruby>",
-    "<ruby>十月<rt>じゅうがつ</rt></ruby>"
+    "<ruby>十月<rt>じゅうがつ</rt></ruby>",
+    "<ruby>九<rt>きゅう</rt></ruby><ruby>月<rt>つき</rt></ruby>"
    ],
    "correcta": 2
   }

@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>四月<rt>しがつ</rt></ruby>の はじめ",
     "<ruby>六月<rt>ろくがつ</rt></ruby>",
-    "<ruby>十二月<rt>じゅうにがつ</rt></ruby>"
+    "<ruby>十二月<rt>じゅうにがつ</rt></ruby>",
+    "<ruby>四月<rt>しがつ</rt></ruby>の おわり"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "ながく つづく",
     "みじかいから きれいだ",
-    "つまらない"
+    "つまらない",
+    "<ruby>木<rt>き</rt></ruby>の <ruby>下<rt>した</rt></ruby>で <ruby>食<rt>た</rt></ruby>べましょう"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "みちの <ruby>上<rt>うえ</rt></ruby>",
     "<ruby>木<rt>き</rt></ruby>の <ruby>下<rt>した</rt></ruby>",
-    "<ruby>水<rt>みず</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>"
+    "<ruby>水<rt>みず</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>",
+    "かぜの <ruby>中<rt>ちゅう</rt></ruby>"
    ],
    "correcta": 2
   }

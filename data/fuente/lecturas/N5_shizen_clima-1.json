@@ -9,7 +9,8 @@
    "opciones": [
     "まいにち <ruby>雨<rt>あめ</rt></ruby>",
     "いつも はれ",
-    "さむい"
+    "さむい",
+    "<ruby>雨<rt>あめ</rt></ruby>と ゆき"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "あらいません",
     "へやの <ruby>中<rt>なか</rt></ruby>に かけます",
-    "そとに かけます"
+    "そとに かけます",
+    "<ruby>天気<rt>てんき</rt></ruby>よほうを <ruby>見<rt>み</rt></ruby>ます"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "うみ",
     "そら",
-    "みどりの いろ"
+    "みどりの いろ",
+    "<ruby>雨<rt>あめ</rt></ruby>の いろ"
    ],
    "correcta": 2
   }

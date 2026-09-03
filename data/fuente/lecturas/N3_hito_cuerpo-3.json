@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>が<ruby>長<rt>なが</rt></ruby>かったから",
     "けつあつが<ruby>高<rt>たか</rt></ruby>いから",
-    "<ruby>口実<rt>こうじつ</rt></ruby>がほしかったから"
+    "<ruby>口実<rt>こうじつ</rt></ruby>がほしかったから",
+    "<ruby>肩<rt>かた</rt></ruby>の<ruby>筋肉<rt>きんにく</rt></ruby>が<ruby>固<rt>かた</rt></ruby>かったから"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>痛<rt>いた</rt></ruby>くなかった",
     "<ruby>筋肉<rt>きんにく</rt></ruby>が<ruby>固<rt>かた</rt></ruby>かった",
-    "<ruby>冷<rt>つめ</rt></ruby>たかった"
+    "<ruby>冷<rt>つめ</rt></ruby>たかった",
+    "かるくなった"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "うれしかった",
     "おどろいた",
-    "がっかりした"
+    "がっかりした",
+    "みじかくてよかったと<ruby>思<rt>おも</rt></ruby>った"
    ],
    "correcta": 2
   }

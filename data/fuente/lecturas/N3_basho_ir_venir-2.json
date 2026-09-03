@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>犬<rt>いぬ</rt></ruby>",
     "ボール",
-    "<ruby>友<rt>とも</rt></ruby>だち"
+    "<ruby>友<rt>とも</rt></ruby>だち",
+    "<ruby>本<rt>ほん</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "ベンチの<ruby>下<rt>した</rt></ruby>",
     "<ruby>池<rt>いけ</rt></ruby>のむこう",
-    "<ruby>公園<rt>こうえん</rt></ruby>の<ruby>外<rt>そと</rt></ruby>"
+    "<ruby>公園<rt>こうえん</rt></ruby>の<ruby>外<rt>そと</rt></ruby>",
+    "<ruby>池<rt>いけ</rt></ruby>のこちらがわ"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "つかれて<ruby>見<rt>み</rt></ruby>えた",
     "おそく<ruby>見<rt>み</rt></ruby>えた",
-    "<ruby>飛<rt>と</rt></ruby>んでいるように<ruby>見<rt>み</rt></ruby>えた"
+    "<ruby>飛<rt>と</rt></ruby>んでいるように<ruby>見<rt>み</rt></ruby>えた",
+    "<ruby>歩<rt>ある</rt></ruby>いているように<ruby>見<rt>み</rt></ruby>えた"
    ],
    "correcta": 2
   }

@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>東<rt>ひがし</rt></ruby>",
     "<ruby>西<rt>にし</rt></ruby>",
-    "<ruby>南<rt>みなみ</rt></ruby>"
+    "<ruby>南<rt>みなみ</rt></ruby>",
+    "<ruby>北<rt>きた</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "まいにち みます",
     "みません",
-    "ときどき みます"
+    "ときどき みます",
+    "はじめだけ みました"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>駅<rt>えき</rt></ruby>",
     "こうえん",
-    "<ruby>大<rt>おお</rt></ruby>きい ビル"
+    "<ruby>大<rt>おお</rt></ruby>きい ビル",
+    "アパート"
    ],
    "correcta": 2
   }

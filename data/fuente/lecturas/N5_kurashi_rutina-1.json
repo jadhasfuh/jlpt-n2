@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>六時<rt>ろくじ</rt></ruby>",
     "<ruby>七時<rt>しちじ</rt></ruby>",
-    "<ruby>八時<rt>はちじ</rt></ruby>"
+    "<ruby>八時<rt>はちじ</rt></ruby>",
+    "<ruby>十二時<rt>じゅうにじ</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "はたらきます",
     "そとを あるきます",
-    "ねます"
+    "ねます",
+    "お<ruby>風呂<rt>ふろ</rt></ruby>に <ruby>入<rt>はい</rt></ruby>ります"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "つかれました",
     "かわりません",
-    "<ruby>日本語<rt>にほんご</rt></ruby>が よく なりました"
+    "<ruby>日本語<rt>にほんご</rt></ruby>が よく なりました",
+    "<ruby>暇<rt>ひま</rt></ruby>に なりました"
    ],
    "correcta": 2
   }

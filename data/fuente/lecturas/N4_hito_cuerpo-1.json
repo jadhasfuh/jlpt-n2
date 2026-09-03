@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>右<rt>みぎ</rt></ruby>の<ruby>指<rt>ゆび</rt></ruby>",
     "<ruby>左<rt>ひだり</rt></ruby>の<ruby>耳<rt>みみ</rt></ruby>",
-    "<ruby>首<rt>くび</rt></ruby>"
+    "<ruby>首<rt>くび</rt></ruby>",
+    "<ruby>左<rt>ひだり</rt></ruby>の<ruby>指<rt>ゆび</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>水<rt>みず</rt></ruby>",
     "タオル",
-    "<ruby>指輪<rt>ゆびわ</rt></ruby>"
+    "<ruby>指輪<rt>ゆびわ</rt></ruby>",
+    "くすり"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>髪<rt>かみ</rt></ruby>を<ruby>切<rt>き</rt></ruby>った",
     "<ruby>目<rt>め</rt></ruby>を<ruby>閉<rt>と</rt></ruby>じた",
-    "<ruby>指輪<rt>ゆびわ</rt></ruby>を<ruby>取<rt>と</rt></ruby>った"
+    "<ruby>指輪<rt>ゆびわ</rt></ruby>を<ruby>取<rt>と</rt></ruby>った",
+    "タオルを<ruby>渡<rt>わた</rt></ruby>した"
    ],
    "correcta": 2
   }

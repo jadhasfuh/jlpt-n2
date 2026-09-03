@@ -9,7 +9,8 @@
    "opciones": [
     "ひこうきの じかんを <ruby>書<rt>か</rt></ruby>いて いました",
     "ねて いました",
-    "ほんを よんで いました"
+    "ほんを よんで いました",
+    "<ruby>地図<rt>ちず</rt></ruby>を <ruby>見<rt>み</rt></ruby>て いました"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "とけいだけ",
     "かいしゃの ぬいぐるみ",
-    "<ruby>地図<rt>ちず</rt></ruby>"
+    "<ruby>地図<rt>ちず</rt></ruby>",
+    "ノート"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>道<rt>みち</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました",
     "なにも しませんでした",
-    "こうべを ゆびで <ruby>押<rt>お</rt></ruby>さえました"
+    "こうべを ゆびで <ruby>押<rt>お</rt></ruby>さえました",
+    "ひこうきの じかんを <ruby>書<rt>か</rt></ruby>きました"
    ],
    "correcta": 2
   }

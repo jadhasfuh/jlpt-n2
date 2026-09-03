@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>学校<rt>がっこう</rt></ruby>の となり",
     "<ruby>駅<rt>えき</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>",
-    "アパートの <ruby>下<rt>した</rt></ruby>"
+    "アパートの <ruby>下<rt>した</rt></ruby>",
+    "<ruby>教室<rt>きょうしつ</rt></ruby>の <ruby>中<rt>ちゅう</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "いちじかん",
     "さんじゅっぷん",
-    "さんぷん"
+    "さんぷん",
+    "じゅっぷん"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>雑誌<rt>ざっし</rt></ruby>を かった ひ",
     "<ruby>図書館<rt>としょかん</rt></ruby>が できた ひ",
-    "さいごまで <ruby>読<rt>よ</rt></ruby>めた ひ"
+    "さいごまで <ruby>読<rt>よ</rt></ruby>めた ひ",
+    "じしょを かった ひ"
    ],
    "correcta": 2
   }

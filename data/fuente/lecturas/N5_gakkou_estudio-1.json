@@ -9,7 +9,8 @@
    "opciones": [
     "とても きれいです",
     "きたないです",
-    "<ruby>大<rt>おお</rt></ruby>きいです"
+    "<ruby>大<rt>おお</rt></ruby>きいです",
+    "<ruby>上手<rt>じょうず</rt></ruby>では ありません"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "しません",
     "さんじゅっぷん",
-    "さんじかん"
+    "さんじかん",
+    "まいばんでは ありません"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>学校<rt>がっこう</rt></ruby>",
     "かばんの <ruby>中<rt>なか</rt></ruby>",
-    "つくえの <ruby>上<rt>うえ</rt></ruby>"
+    "つくえの <ruby>上<rt>うえ</rt></ruby>",
+    "ノートの <ruby>下<rt>げ</rt></ruby>"
    ],
    "correcta": 2
   }

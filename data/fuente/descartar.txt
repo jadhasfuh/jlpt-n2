@@ -11,8 +11,9 @@
 
 # --- Entradas repetidas (2026-09-02) -----------------------------------------
 # La misma palabra estaba dos veces porque venía de las dos fuentes (la lista
-# de jlptstudy y los mazos de anki) con id distinto. Se queda la ficha con la
-# definición mejor o la sección más acertada; se va la otra. NO se tocan los
+# de jlptstudy y los mazos de anki) con id distinto. De las dos se descarta
+# la que está en la unidad MÁS LLENA, para no vaciar las unidades cortas; la
+# definición buena se le pasa por correcciones.tsv a la que se queda. NO se tocan los
 # homógrafos de verdad —ある (haber / cierto), いる (estar / tostar), かく
 # (rascar / 恥をかく)—, que son palabras distintas que se escriben igual.
 2976    # ~中(~じゅう) — idéntica a la 2068
@@ -23,14 +24,19 @@
 2365    # スーパー — se queda la 102802, que es N4 y no dice «súper»
 102899  # トン — decía «1000 libras»; una tonelada son 1000 kg (se queda la 3426)
 100518  # パート — se queda la 102746
-103057  # 下品 — se queda la 1420, con la definición entera
+1420    # 下品 — la 103057 está en N2/seishitsu/valoracion-2, con 4 palabras;
+        # ésta estaba en sonota/adjetivos-1, con 14
 118     # 余り — la 119 trae también el sentido de «resto»
-102698  # 出かける — idéntica a la 3171
-103047  # 当たり前 — se queda la 78, que además está en el nivel correcto
-161     # 慌てる — estaba en «saber»; se queda la 102816, que está en «tristeza»
+3171    # 出かける — la 102698 está en N5/basho/viaje-1, que sólo tiene 5
+        # palabras; ésta estaba en momento-2, que tiene 11
+78      # 当たり前 — la 103047 está en N2/seishitsu/valoracion-2, que sólo
+        # tiene 4 palabras; ésta estaba en una unidad de 20
+102816  # 慌てる — la 161 está en N3/kotoba/saber-1, con 3 palabras; ésta
+        # estaba en kokoro/tristeza-2, con 18
 1331    # 暮れる — idéntica a la 1330
 3065    # 月(つき) — idéntica a la 3064
-103082  # 朗らか — estaba clasificada en «cielo»; se queda la 4254
+4254    # 朗らか — la 103082 está en N2/shizen/cielo-1, con 11 palabras;
+        # ésta estaba en sonota/adjetivos-1, con 14
 102900  # 殴る — idéntica a la 3471
 4189    # 減る — idéntica a la 4188
 103044  # 相変わらず — se queda la 3, que está en el nivel correcto

@@ -9,7 +9,8 @@
    "opciones": [
     "かみの <ruby>手紙<rt>てがみ</rt></ruby>",
     "メール",
-    "しゃしん"
+    "しゃしん",
+    "はがき"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "ふつか",
     "にしゅうかんぐらい",
-    "<ruby>一<rt>いっ</rt></ruby>かげつ"
+    "<ruby>一<rt>いっ</rt></ruby>かげつ",
+    "さんしゅうかん"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>手紙<rt>てがみ</rt></ruby>",
     "でんわ",
-    "はがき"
+    "はがき",
+    "<ruby>切手<rt>きって</rt></ruby>"
    ],
    "correcta": 2
   }

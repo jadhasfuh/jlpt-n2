@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>会社<rt>かいしゃ</rt></ruby>で はたらきたい",
     "<ruby>国<rt>くに</rt></ruby>へ かえりたい",
-    "<ruby>学校<rt>がっこう</rt></ruby>を つづけたい"
+    "<ruby>学校<rt>がっこう</rt></ruby>を つづけたい",
+    "<ruby>日本語<rt>にほんご</rt></ruby>の しけんを うけたい"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "おかね",
     "<ruby>日本語<rt>にほんご</rt></ruby>の しけん",
-    "<ruby>会社<rt>かいしゃ</rt></ruby>の てがみ"
+    "<ruby>会社<rt>かいしゃ</rt></ruby>の てがみ",
+    "<ruby>三年<rt>さんねん</rt></ruby>の べんきょう"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>一年<rt>いちねん</rt></ruby>",
     "<ruby>十年<rt>じゅうねん</rt></ruby>",
-    "<ruby>三年<rt>さんねん</rt></ruby>"
+    "<ruby>三年<rt>さんねん</rt></ruby>",
+    "<ruby>二<rt>に</rt></ruby><ruby>年<rt>とし</rt></ruby>"
    ],
    "correcta": 2
   }

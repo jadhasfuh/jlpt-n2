@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>十時<rt>じゅうじ</rt></ruby>",
     "<ruby>八時<rt>はちじ</rt></ruby>",
-    "<ruby>十二時<rt>じゅうにじ</rt></ruby>"
+    "<ruby>十二時<rt>じゅうにじ</rt></ruby>",
+    "<ruby>九<rt>きゅう</rt></ruby><ruby>時<rt>とき</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>来<rt>き</rt></ruby>ません",
     "さいごまで のこります",
-    "さきに かえります"
+    "さきに かえります",
+    "<ruby>後<rt>あと</rt></ruby>かたづけを しません"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "にぎやかです",
     "あかるいです",
-    "くらくて しずかです"
+    "くらくて しずかです",
+    "とても ながいです"
    ],
    "correcta": 2
   }

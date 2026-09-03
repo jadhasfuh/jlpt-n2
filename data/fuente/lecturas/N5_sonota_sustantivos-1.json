@@ -9,7 +9,8 @@
    "opciones": [
     "はんぶんも うまりませんでした",
     "いっぱいに なりました",
-    "はいりませんでした"
+    "はいりませんでした",
+    "<ruby>本棚<rt>ほんだな</rt></ruby>が ちいさすぎました"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>一<rt>いっ</rt></ruby>さつ",
     "<ruby>三<rt>さん</rt></ruby>さつ",
-    "ぜんぶ"
+    "ぜんぶ",
+    "はんぶん"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "うります",
     "<ruby>国<rt>くに</rt></ruby>へ <ruby>持<rt>も</rt></ruby>って <ruby>帰<rt>かえ</rt></ruby>ります",
-    "へやに のこして <ruby>行<rt>い</rt></ruby>きます"
+    "へやに のこして <ruby>行<rt>い</rt></ruby>きます",
+    "ジャンに あげます"
    ],
    "correcta": 2
   }

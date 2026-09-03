@@ -9,7 +9,8 @@
    "opciones": [
     "バングラデシュ",
     "ミャンマー",
-    "<ruby>日本<rt>にほん</rt></ruby>"
+    "<ruby>日本<rt>にほん</rt></ruby>",
+    "ペルー"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>五<rt>ご</rt></ruby>まい",
     "<ruby>十<rt>じゅう</rt></ruby>まい",
-    "<ruby>百<rt>ひゃく</rt></ruby>まい"
+    "<ruby>百<rt>ひゃく</rt></ruby>まい",
+    "<ruby>三<rt>さん</rt></ruby>まい"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "ゴンサ",
     "ジャン",
-    "ミンさん"
+    "ミンさん",
+    "アンナさん"
    ],
    "correcta": 2
   }

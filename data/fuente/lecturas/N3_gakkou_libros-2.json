@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>",
     "<ruby>一年<rt>いちねん</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>",
-    "<ruby>毎月<rt>まいつき</rt></ruby>"
+    "<ruby>毎月<rt>まいつき</rt></ruby>",
+    "<ruby>三<rt>さん</rt></ruby><ruby>年<rt>とし</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>図書館<rt>としょかん</rt></ruby>",
     "<ruby>町<rt>まち</rt></ruby>の<ruby>本屋<rt>ほんや</rt></ruby>",
-    "<ruby>新聞<rt>しんぶん</rt></ruby>"
+    "<ruby>新聞<rt>しんぶん</rt></ruby>",
+    "<ruby>図書館<rt>としょかん</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>のインタビュー"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "やすいこと",
     "うすいこと",
-    "あとで<ruby>読<rt>よ</rt></ruby>んでもふるくならないこと"
+    "あとで<ruby>読<rt>よ</rt></ruby>んでもふるくならないこと",
+    "<ruby>新<rt>あたら</rt></ruby>しいことがすぐわかること"
    ],
    "correcta": 2
   }

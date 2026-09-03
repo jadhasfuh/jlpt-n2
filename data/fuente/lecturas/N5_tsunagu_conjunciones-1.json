@@ -9,7 +9,8 @@
    "opciones": [
     "しゅうに <ruby>二<rt>に</rt></ruby>かい、あさ",
     "まいにち",
-    "<ruby>水曜日<rt>すいようび</rt></ruby>"
+    "<ruby>水曜日<rt>すいようび</rt></ruby>",
+    "しゅうに <ruby>一<rt>いっ</rt></ruby>かい"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "どんな ふくろでも いい",
     "<ruby>市<rt>し</rt></ruby>の ふくろ",
-    "スーパーの ふくろ"
+    "スーパーの ふくろ",
+    "もえる ごみの ふくろ"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>外<rt>そと</rt></ruby>に <ruby>出<rt>だ</rt></ruby>します",
     "もえる ごみと いっしょに <ruby>出<rt>だ</rt></ruby>します",
-    "でんわで よやくします"
+    "でんわで よやくします",
+    "<ruby>二<rt>に</rt></ruby>しゅうかん まって <ruby>外<rt>そと</rt></ruby>に <ruby>出<rt>だ</rt></ruby>します"
    ],
    "correcta": 2
   }

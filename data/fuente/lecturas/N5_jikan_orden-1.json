@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>五<rt>いつ</rt></ruby>つ",
     "<ruby>三<rt>みっ</rt></ruby>つ",
-    "<ruby>十<rt>とお</rt></ruby>"
+    "<ruby>十<rt>とお</rt></ruby>",
+    "<ruby>四<rt>し</rt></ruby>つ"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "さいしょの テスト",
     "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>めの テスト",
-    "<ruby>一年<rt>いちねん</rt></ruby>め"
+    "<ruby>一年<rt>いちねん</rt></ruby>め",
+    "<ruby>三日<rt>みっか</rt></ruby>め"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "あがりました",
     "やめました",
-    "おなじ クラスに のこりました"
+    "おなじ クラスに のこりました",
+    "<ruby>先<rt>さき</rt></ruby>に あがりました"
    ],
    "correcta": 2
   }

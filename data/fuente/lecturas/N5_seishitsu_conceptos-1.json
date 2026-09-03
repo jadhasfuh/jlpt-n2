@@ -9,7 +9,8 @@
    "opciones": [
     "スペイン<ruby>語<rt>ご</rt></ruby>の <ruby>本<rt>ほん</rt></ruby>",
     "<ruby>日本語<rt>にほんご</rt></ruby>の <ruby>本<rt>ほん</rt></ruby>",
-    "りょうりの <ruby>本<rt>ほん</rt></ruby>"
+    "りょうりの <ruby>本<rt>ほん</rt></ruby>",
+    "じしょ"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "なにも ありません",
     "えんぴつの メモ",
-    "しゃしん"
+    "しゃしん",
+    "アンナさんの なまえ"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "きょねん",
     "<ruby>十年<rt>じゅうねん</rt></ruby>まえ",
-    "<ruby>三十年<rt>さんじゅうねん</rt></ruby>まえ"
+    "<ruby>三十年<rt>さんじゅうねん</rt></ruby>まえ",
+    "<ruby>三<rt>さん</rt></ruby><ruby>年<rt>とし</rt></ruby>まえ"
    ],
    "correcta": 2
   }

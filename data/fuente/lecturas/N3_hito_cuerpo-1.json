@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>発表<rt>はっぴょう</rt></ruby>",
     "<ruby>試験<rt>しけん</rt></ruby>",
-    "<ruby>旅行<rt>りょこう</rt></ruby>"
+    "<ruby>旅行<rt>りょこう</rt></ruby>",
+    "<ruby>発表<rt>はっぴょう</rt></ruby>のじゅんび"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "<ruby>履<rt>は</rt></ruby>いた",
     "やめた",
-    "<ruby>買<rt>か</rt></ruby>った"
+    "<ruby>買<rt>か</rt></ruby>った",
+    "じみな<ruby>靴<rt>くつ</rt></ruby>にかえた"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "<ruby>声<rt>こえ</rt></ruby>",
     "<ruby>雨<rt>あめ</rt></ruby>の<ruby>音<rt>おと</rt></ruby>",
-    "はくしゅ"
+    "はくしゅ",
+    "なにも<ruby>聞<rt>き</rt></ruby>こえなかった"
    ],
    "correcta": 2
   }

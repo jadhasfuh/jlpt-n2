@@ -9,7 +9,8 @@
    "opciones": [
     "時間どおりに <ruby>来<rt>き</rt></ruby>ます",
     "おそいです",
-    "たかいです"
+    "たかいです",
+    "<ruby>一日<rt>いちにち</rt></ruby>じゅう <ruby>開<rt>あ</rt></ruby>いて います"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "コンビニ",
     "<ruby>駅<rt>えき</rt></ruby>の うらの ちいさい みせ",
-    "<ruby>有名<rt>ゆうめい</rt></ruby>な みせ"
+    "<ruby>有名<rt>ゆうめい</rt></ruby>な みせ",
+    "<ruby>新<rt>あたら</rt></ruby>しい みせ"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "コンビニ",
     "でんしゃの じかん",
-    "「<ruby>結構<rt>けっこう</rt></ruby>です」の <ruby>意味<rt>いみ</rt></ruby>"
+    "「<ruby>結構<rt>けっこう</rt></ruby>です」の <ruby>意味<rt>いみ</rt></ruby>",
+    "こたつ"
    ],
    "correcta": 2
   }

@@ -9,7 +9,8 @@
    "opciones": [
     "<ruby>十二月<rt>じゅうにがつ</rt></ruby>",
     "<ruby>一月<rt>いちがつ</rt></ruby>",
-    "<ruby>八月<rt>はちがつ</rt></ruby>"
+    "<ruby>八月<rt>はちがつ</rt></ruby>",
+    "<ruby>十<rt>じゅう</rt></ruby><ruby>月<rt>つき</rt></ruby>"
    ],
    "correcta": 0
   },
@@ -18,7 +19,8 @@
    "opciones": [
     "かぜだから",
     "バイトが あるから",
-    "おかねが ないから"
+    "おかねが ないから",
+    "かぞくと すごすから"
    ],
    "correcta": 1
   },
@@ -27,7 +29,8 @@
    "opciones": [
     "とうきょう",
     "メキシコ",
-    "さっぽろ"
+    "さっぽろ",
+    "こうべの きた"
    ],
    "correcta": 2
   }
