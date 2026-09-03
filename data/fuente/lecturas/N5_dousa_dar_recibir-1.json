@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/dousa/dar_recibir-1",
  "titulo": "ざいりゅうカード",
- "cuerpo": "くうこうで ざいりゅうカードを もらいました。この カードは いつも もって いなければ なりません。まどぐちで しょるいを <ruby>出<rt>だ</rt></ruby>す とき、ペンが ありませんでした。うしろの ひとが ペンを <ruby>貸<rt>か</rt></ruby>してくれました。「いちねん、ここに いる つもりです」と かかりの ひとに いいました。じゅうしょが かわったら、また <ruby>書<rt>か</rt></ruby>きかえます。カードを <ruby>無<rt>な</rt></ruby>くしたら たいへんなので、いつも かばんの おなじ ところに <ruby>入<rt>い</rt></ruby>れて います。",
- "traduccion": "En el aeropuerto me dieron la tarjeta de residencia. Hay que llevarla encima siempre. Cuando fui a entregar los papeles en la ventanilla, no tenía bolígrafo. El señor de detrás me prestó el suyo. «Pienso quedarme aquí un año», le dije al funcionario. Si cambio de domicilio, hay que volver a cambiarla. Perderla es un problema serio, así que la llevo siempre en el mismo sitio del bolso.",
+ "cuerpo": "くうこうで ざいりゅうカードを もらいました。この カードは いつも もって いなければ なりません。まどぐちで しょるいを <ruby>出<rt>だ</rt></ruby>す とき、ペンが ありませんでした。うしろの ひとが ペンを <ruby>貸<rt>か</rt></ruby>してくれました。「いちねん、ここに いる <em class=\"g\">つもり</em>です」と かかりの ひとに いいました。じゅうしょが かわったら、また <ruby>書<rt>か</rt></ruby>きかえます。カードを <ruby>無<rt>な</rt></ruby>くしたら たいへんなので、いつも かばんの おなじ ところに <ruby>入<rt>い</rt></ruby>れて います。ミンさんは「わすれると たいへんだよ」と <ruby>言<rt>い</rt></ruby>いました。かおを <ruby>上<rt>あ</rt></ruby>げると、まどの そとは もう くらかったです。",
+ "traduccion": "En el aeropuerto me dieron la tarjeta de residencia. Hay que llevarla encima siempre. Cuando fui a entregar los papeles en la ventanilla, no tenía bolígrafo. El señor de detrás me prestó el suyo. «Pienso quedarme aquí un año», le dije al funcionario. Si cambio de domicilio, hay que volver a escribirlo. Como perderla sería un lío, la llevo siempre en el mismo sitio del bolso. Min me dijo: «como se te olvide, la lías». Cuando levanté la cara, fuera de la ventana ya era de noche.",
  "preguntas": [
   {
    "p": "ざいりゅうカードは どこで もらいましたか。",
@@ -35,5 +35,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "At the airport they gave me my residence card. You have to carry it with you at all times. When I went to hand in the papers at the counter, I had no pen. The man behind me lent me his. «I intend to stay here for a year», I told the clerk. If I move, it has to be changed again. Losing it is a serious problem, so I always keep it in the same place in my bag."
+ "traduccion_en": "At the airport they gave me my residence card. You have to carry it at all times. When I went to hand in the forms at the window, I had no pen. The man behind me lent me his. «I intend to stay here a year,» I told the clerk. If my address changes, it has to be rewritten. Losing it would be a nightmare, so I always keep it in the same pocket of my bag. Min said, «if you forget it, you're in trouble.» When I looked up, it was already dark outside the window."
 }

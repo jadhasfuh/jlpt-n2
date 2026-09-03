@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/basho/ir_venir-1",
  "titulo": "はじめての あさ",
- "cuerpo": "けさ、はやく おきました。アパートを <ruby>出<rt>で</rt></ruby>て、<ruby>駅<rt>えき</rt></ruby>まで <ruby>歩<rt>ある</rt></ruby>きました。<ruby>出口<rt>でぐち</rt></ruby>が <ruby>三<rt>みっ</rt></ruby>つ あって、ぼくは まちがえました。<ruby>道<rt>みち</rt></ruby>で <ruby>止<rt>と</rt></ruby>まって、ちずを <ruby>見<rt>み</rt></ruby>ました。そのとき、となりの <ruby>人<rt>ひと</rt></ruby>が「どこへ <ruby>行<rt>い</rt></ruby>きますか」と ききました。たなかさんでした。ぼくの アパートの おおやさんです。「ここから <ruby>左<rt>ひだり</rt></ruby>です」と おしえてくれました。ぼくは <ruby>走<rt>はし</rt></ruby>りました。まだ <ruby>時間<rt>じかん</rt></ruby>が ありました。",
- "traduccion": "Esta mañana me levanté temprano. Salí del piso y fui andando hasta la estación. Había tres salidas y me equivoqué. Me paré en la calle y miré el mapa. En eso, la vecina me preguntó: «¿adónde va?». Era la señora Tanaka. Es la casera de mi piso. Me indicó: «desde aquí, a la izquierda». Eché a correr. Todavía tenía tiempo.",
+ "cuerpo": "けさ、はやく おきました。アパートを <ruby>出<rt>で</rt></ruby>て、<ruby>駅<rt>えき</rt></ruby>まで <ruby>歩<rt>ある</rt></ruby>きました。<ruby>出口<rt>でぐち</rt></ruby>が <ruby>三<rt>みっ</rt></ruby>つ あって、ぼくは まちがえました。<ruby>道<rt>みち</rt></ruby>で <ruby>止<rt>と</rt></ruby>まって、ちずを <ruby>見<rt>み</rt></ruby>ました。そのとき、となりの <ruby>人<rt>ひと</rt></ruby>が「どこへ <ruby>行<rt>い</rt></ruby>きますか」と ききました。たなかさんでした。ぼくの アパートの おおやさんです。「ここから <ruby>左<rt>ひだり</rt></ruby>です」と おしえてくれました。ぼくは <ruby>走<rt>はし</rt></ruby>りました。まだ <ruby>時間<rt>じかん</rt></ruby>が ありました。<ruby>駅<rt>えき</rt></ruby>の かいだんを <ruby>登<rt>のぼ</rt></ruby>って、ホームまで いそぎました。<em class=\"g\">そして</em> コンビニに <ruby>寄<rt>よ</rt></ruby>って、おにぎりを かいました。たなかさんに ちずを <ruby>返<rt>かえ</rt></ruby>すのを わすれました。<ruby>時間<rt>じかん</rt></ruby>が <ruby>経<rt>た</rt></ruby>つのは はやいです。",
+ "traduccion": "Esta mañana me levanté temprano. Salí del piso y fui andando hasta la estación. Había tres salidas y me equivoqué. Me paré en la calle y miré el mapa. En eso, la vecina me preguntó: «¿adónde va?». Era la señora Tanaka, la casera de mi piso. «Desde aquí, a la izquierda», me indicó. Eché a correr. Todavía me quedaba tiempo. Subí las escaleras de la estación y me di prisa hasta el andén. Y luego pasé por el konbini y compré un onigiri. Se me olvidó devolverle el mapa a la señora Tanaka. El tiempo pasa deprisa.",
  "preguntas": [
   {
    "p": "カルロスさんは どうして まちがえましたか。",
@@ -35,5 +35,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "This morning I got up early. I left the flat and walked to the station. There were three exits and I took the wrong one. I stopped in the street and looked at the map. Just then the woman next door asked me: «where are you going?». It was Mrs Tanaka. She is the landlady of my flat. She told me: «from here, to the left». I broke into a run. There was still time."
+ "traduccion_en": "This morning I got up early. I left the flat and walked to the station. There were three exits and I took the wrong one. I stopped in the street and looked at the map. Just then the woman next to me asked, «where are you going?» It was Mrs Tanaka, my landlady. «From here, to the left,» she told me. I ran. I still had time. I climbed the station stairs and hurried to the platform. And then I stopped by the konbini and bought an onigiri. I forgot to give Mrs Tanaka her map back. Time goes by fast."
 }
