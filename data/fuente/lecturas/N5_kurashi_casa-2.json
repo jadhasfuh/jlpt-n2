@@ -1,36 +1,36 @@
 {
  "unidad_id": "N5/kurashi/casa-2",
- "titulo": "あたらしいアパート",
- "cuerpo": "<ruby>先週<rt>せんしゅう</rt></ruby>、あたらしいアパートにひっこしました。へやは<ruby>二<rt>ふた</rt></ruby>つあります。だいどころは<ruby>小<rt>ちい</rt></ruby>さいですが、あかるいです。<ruby>お手洗<rt>おてあら</rt></ruby>いは<ruby>入口<rt>いりぐち</rt></ruby>のよこにあります。まどから<ruby>公園<rt>こうえん</rt></ruby>が<ruby>見<rt>み</rt></ruby>えます。ちかくにえきがあって、べんりです。ここでたのしくくらしたいです。",
- "traduccion": "La semana pasada me mudé a un piso nuevo. Tiene dos habitaciones. La cocina es pequeña, pero luminosa. El aseo está al lado de la entrada. Desde la ventana se ve un parque. Hay una estación cerca y es cómodo. Quiero vivir aquí a gusto.",
+ "titulo": "<ruby>朝<rt>あさ</rt></ruby>の シャワー",
+ "cuerpo": "<ruby>朝<rt>あさ</rt></ruby>、<ruby>六時<rt>ろくじ</rt></ruby>に <ruby>目<rt>め</rt></ruby>が さめました。ゆかで ねたので、せなかが いたかったです。<ruby>お手洗<rt>おてあら</rt></ruby>いへ <ruby>行<rt>い</rt></ruby>くと、そこも とても きれいでした。シャワーは <ruby>三十分<rt>さんじゅっぷん</rt></ruby>で にひゃくえんでした。そとに <ruby>出<rt>で</rt></ruby>ると、ゆきが つもって いて、まちが しろく なって いました。ゴンサは まだ ねて いました。",
+ "traduccion": "Me desperté a las seis de la mañana. Como había dormido en el suelo, me dolía la espalda. Fui a los servicios y también estaban impecables. La ducha eran treinta minutos por doscientos yenes. Al salir a la calle la nieve se había acumulado y la ciudad estaba blanca. Gonza seguía dormido.",
  "preguntas": [
   {
-   "p": "<ruby>お手洗<rt>おてあら</rt></ruby>いはどこにありますか。",
+   "p": "どうして せなかが いたかったですか。",
    "opciones": [
-    "だいどころのなか",
-    "<ruby>入口<rt>いりぐち</rt></ruby>のよこ",
-    "まどのそば"
+    "ゆかで ねたから",
+    "あるいたから",
+    "さむかったから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "まどから<ruby>何<rt>なに</rt></ruby>が<ruby>見<rt>み</rt></ruby>えますか。",
+   "p": "シャワーは いくらでしたか。",
    "opciones": [
-    "えき",
-    "<ruby>公園<rt>こうえん</rt></ruby>",
-    "<ruby>学校<rt>がっこう</rt></ruby>"
+    "にひゃくえん",
+    "ただ",
+    "ごひゃくえん"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "だいどころはどうですか。",
+   "p": "そとは どう なって いましたか。",
    "opciones": [
-    "<ruby>小<rt>ちい</rt></ruby>さくてあかるい",
-    "<ruby>大<rt>おお</rt></ruby>きくてくらい",
-    "<ruby>小<rt>ちい</rt></ruby>さくてくらい"
+    "ゆきで しろく なって いました",
+    "あめでした",
+    "あかるかったです"
    ],
    "correcta": 0
   }
  ],
- "traduccion_en": "Last week I moved to a new flat. It has two rooms. The kitchen is small, but bright. The toilet is next to the entrance. From the window you can see a park. There's a station nearby and it's handy. I want to live here happily."
+ "traduccion_en": "I woke up at six in the morning. I'd slept on the floor, so my back ached. I went to the toilets and they were spotless too. A shower was thirty minutes for two hundred yen. When I stepped outside the snow had settled and the town had turned white. Gonza was still asleep."
 }

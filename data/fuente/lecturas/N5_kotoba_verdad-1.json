@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kotoba/verdad-1",
- "titulo": "<ruby>本当<rt>ほんとう</rt></ruby>のこと",
- "cuerpo": "ちいさいころ、ガラスをわってしまいました。こわくて、「<ruby>知<rt>し</rt></ruby>らない」と<ruby>言<rt>い</rt></ruby>いました。<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>いませんでしたが、その<ruby>顔<rt>かお</rt></ruby>をいまでもおぼえています。よる、ふとんの<ruby>中<rt>なか</rt></ruby>で「<ruby>言<rt>い</rt></ruby>わ<em class=\"g\">なくちゃ</em>」とおもいました。つぎのあさ、「わたしがわりました」と<ruby>話<rt>はな</rt></ruby>しました。<ruby>父<rt>ちち</rt></ruby>は「<ruby>本当<rt>ほんとう</rt></ruby>のことを<ruby>言<rt>い</rt></ruby>うのは、わるいことをするより<ruby>大<rt>たい</rt></ruby>へんだね」と<ruby>言<rt>い</rt></ruby>いました。うそをつくと、じぶんが<ruby>一番<rt>いちばん</rt></ruby>くるしいのだと<ruby>分<rt>わ</rt></ruby>かりました。これからも、こわくても<ruby>言<rt>い</rt></ruby>わ<em class=\"g\">なくちゃ</em>いけません。",
- "traduccion": "De pequeño rompí un cristal. Me dio miedo y dije «yo no he sido». Mi padre no dijo nada, pero todavía recuerdo la cara que puso. Por la noche, bajo el futón, pensé «tengo que decirlo». A la mañana siguiente le dije: «lo rompí yo». Mi padre me contestó: «decir la verdad cuesta más que hacer algo malo, ¿eh?». Entendí que cuando mientes, el que peor lo pasa eres tú. De aquí en adelante, aunque dé miedo, tengo que decirlo.",
+ "titulo": "ほんとうに ぜんぶ ただ",
+ "cuerpo": "へやに <ruby>入<rt>はい</rt></ruby>る まえに、みせの <ruby>人<rt>ひと</rt></ruby>が せつめいを しました。のみものは ぜんぶ ただ。アイスクリームも ただ。まんがは かべ いっぱいに あって、じゆうに <ruby>読<rt>よ</rt></ruby>めます。「ほんとうですか」と ぼくは <ruby>二<rt>に</rt></ruby>かい <ruby>聞<rt>き</rt></ruby>きました。ほんとうでした。ゴンサは アイスクリームを <ruby>三<rt>さん</rt></ruby>かい とりに <ruby>行<rt>い</rt></ruby>きました。「これは <ruby>日本<rt>にほん</rt></ruby>の いちばん いい ところだ」と、<ruby>口<rt>くち</rt></ruby>を いっぱいに して 言いました。",
+ "traduccion": "Antes de pasar a la cabina nos explicaron las normas. Las bebidas son todas gratis. El helado también. Los cómics ocupan la pared entera y puedes coger los que quieras. «¿En serio?», pregunté dos veces. Era en serio. Gonza fue tres veces a por helado. «Esto es lo mejor de Japón», dijo con la boca llena.",
  "preguntas": [
   {
-   "p": "なぜ、はじめ「<ruby>知<rt>し</rt></ruby>らない」と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "p": "のみものは いくらですか。",
    "opciones": [
-    "わすれたから",
-    "こわかったから",
-    "<ruby>父<rt>ちち</rt></ruby>がいなかったから",
-    "<ruby>本当<rt>ほんとう</rt></ruby>だから"
+    "ただです",
+    "さんびゃくえん",
+    "たかいです"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>父<rt>ちち</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "p": "まんがは どこに ありますか。",
    "opciones": [
-    "おこった",
-    "<ruby>本当<rt>ほんとう</rt></ruby>のことを<ruby>言<rt>い</rt></ruby>うのは<ruby>大<rt>たい</rt></ruby>へんだ",
-    "うそをつくな",
-    "<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなかった"
+    "かべ いっぱいに",
+    "うけつけ",
+    "へやの <ruby>中<rt>なか</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "ゴンサさんは アイスクリームを なんかい とりましたか。",
+   "opciones": [
+    "<ruby>三<rt>さん</rt></ruby>かい",
+    "<ruby>一<rt>いっ</rt></ruby>かい",
+    "とりませんでした"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "As a child I broke a window. I got scared and said «it wasn't me». My father said nothing, but I still remember the face he made. At night, under the futon, I thought «I have to say it». The next morning I told him: «I broke it». My father answered me: «telling the truth is harder than doing something wrong, isn't it?». I understood that when you lie, the one who suffers most is you. From now on, even if it's frightening, I have to say it."
+ "traduccion_en": "Before going into the booth they explained the rules. The drinks are all free. So is the ice cream. The comics fill a whole wall and you can take whichever you like. «Really?» I asked twice. It really was. Gonza went for ice cream three times. «This is the best thing about Japan», he said with his mouth full."
 }

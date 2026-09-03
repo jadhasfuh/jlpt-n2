@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kotoba/saber-1",
- "titulo": "「<ruby>分<rt>わ</rt></ruby>かりました」",
- "cuerpo": "かいぎのあと、<ruby>先生<rt>せんせい</rt></ruby>に「ここまで<em class=\"g\">はどうですか</em>」ときかれました。わたしはすぐに「<ruby>分<rt>わ</rt></ruby>かりました」とこたえました。でも、うちにかえってかんがえると、はんぶんも<ruby>分<rt>わ</rt></ruby>かっていませんでした。つぎの<ruby>日<rt>ひ</rt></ruby>、もういちどきくと、<ruby>先生<rt>せんせい</rt></ruby>はいやな<ruby>顔<rt>かお</rt></ruby>をせず、はじめから<ruby>話<rt>はな</rt></ruby>してくれました。「<ruby>分<rt>わ</rt></ruby>かったふりをするより、そのほう<em class=\"g\">はどうですか</em>?」とわらっていました。いまは、<ruby>分<rt>わ</rt></ruby>からないときは<ruby>分<rt>わ</rt></ruby>からないと<ruby>言<rt>い</rt></ruby>うようにしています。",
- "traduccion": "Después de la reunión, el profesor me preguntó «¿qué tal hasta aquí?». Yo respondí enseguida «entendido». Pero al llegar a casa y pensarlo, no había entendido ni la mitad. Al día siguiente volví a preguntar y él, sin poner mala cara, me lo explicó desde el principio. Se rió y me dijo: «mejor así que fingir que lo has entendido, ¿no?». Ahora, cuando no entiendo algo, procuro decir que no lo entiendo.",
+ "titulo": "ネットカフェの つかい<ruby>方<rt>かた</rt></ruby>",
+ "cuerpo": "うけつけで、かみに なまえと じゅうしょを かきました。「なんじかんに しますか」と <ruby>聞<rt>き</rt></ruby>かれて、ぼくたちは かおを <ruby>見<rt>み</rt></ruby>あわせました。「<ruby>九時間<rt>くじかん</rt></ruby>で いくらですか」と ゴンサが <ruby>聞<rt>き</rt></ruby>きました。こたえた ねだんは、ホテルの <ruby>四分<rt>よんぶん</rt></ruby>の <ruby>一<rt>いち</rt></ruby>でした。その とき、ぼくたちは やっと わかりました。この <ruby>国<rt>くに</rt></ruby>には、しらない ものが まだ たくさん あります。",
+ "traduccion": "En recepción escribimos nombre y dirección en una hoja. «¿Cuántas horas?», nos preguntaron, y Gonza y yo nos miramos. «¿Cuánto cuestan nueve horas?», preguntó Gonza. El precio que dijeron era la cuarta parte de un hotel. Ahí lo entendimos por fin. En este país todavía hay muchas cosas que no conozco.",
  "preguntas": [
   {
-   "p": "なぜ、つぎの<ruby>日<rt>ひ</rt></ruby>もういちどききましたか。",
+   "p": "うけつけで なにを かきましたか。",
    "opciones": [
-    "<ruby>先生<rt>せんせい</rt></ruby>がよんだから",
-    "はんぶんも<ruby>分<rt>わ</rt></ruby>かっていなかったから",
-    "かいぎがあったから",
-    "<ruby>時間<rt>じかん</rt></ruby>があったから"
+    "なまえと じゅうしょ",
+    "でんわばんごう",
+    "なにも"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "いま、どうするようにしていますか。",
+   "p": "ねだんは ホテルの どのくらいでしたか。",
    "opciones": [
-    "<ruby>分<rt>わ</rt></ruby>かったふりをする",
-    "<ruby>分<rt>わ</rt></ruby>からないときは<ruby>分<rt>わ</rt></ruby>からないと<ruby>言<rt>い</rt></ruby>う",
-    "きかない",
-    "うちでかんがえる"
+    "<ruby>四分<rt>よんぶん</rt></ruby>の <ruby>一<rt>いち</rt></ruby>",
+    "はんぶん",
+    "おなじ"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "ゴンサさんは なにを <ruby>聞<rt>き</rt></ruby>きましたか。",
+   "opciones": [
+    "<ruby>九時間<rt>くじかん</rt></ruby>の ねだん",
+    "みちの ばしょ",
+    "たべものの こと"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "After the meeting, the teacher asked me «how has it been so far?». I answered straight away «understood». But when I got home and thought about it, I hadn't understood even half. The next day I asked again and he, without pulling a face, explained it to me from the beginning. He laughed and said: «better that than pretending you've understood, right?». Now, when I don't understand something, I try to say I don't understand."
+ "traduccion_en": "At the desk we wrote our names and addresses on a form. «How many hours?» they asked, and Gonza and I looked at each other. «How much for nine hours?» Gonza asked. The price they gave was a quarter of a hotel. That's when we finally got it. There are still a lot of things in this country I don't know about."
 }

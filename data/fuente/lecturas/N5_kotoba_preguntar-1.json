@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kotoba/preguntar-1",
- "titulo": "<ruby>答<rt>こた</rt></ruby>えられない<ruby>問題<rt>もんだい</rt></ruby>",
- "cuerpo": "しごとで、こたえられない<ruby>問題<rt>もんだい</rt></ruby>にあいました。じぶんでかんがえてもわからないので、<ruby>先<rt>せん</rt></ruby>ぱいに<ruby>頼<rt>たの</rt></ruby>みました。「わからないときは、すぐにきか<em class=\"g\">ないといけない</em>」と<ruby>言<rt>い</rt></ruby>われました。<ruby>一人<rt>ひとり</rt></ruby>でなやんでいた<ruby>時間<rt>じかん</rt></ruby>が、もったいなかったのです。<ruby>三<rt>さん</rt></ruby><ruby>問<rt>もん</rt></ruby>のうち、ふたつはすぐに<ruby>答<rt>こた</rt></ruby>えがわかりました。のこりのひとつは、<ruby>二人<rt>ふたり</rt></ruby>でかんがえました。わからないことをかくさ<em class=\"g\">ないといけない</em>のではなく、<ruby>見<rt>み</rt></ruby>せるほうがはやいのだと<ruby>知<rt>し</rt></ruby>りました。",
- "traduccion": "En el trabajo me topé con un problema que no sabía responder. Como por mucho que pensara no lo sacaba, se lo pedí a un compañero veterano. Me dijo: «cuando no lo sepas, tienes que preguntar enseguida». El tiempo que pasé dándole vueltas yo solo fue tiempo perdido. De las tres preguntas, dos las resolví al momento. La que quedaba la pensamos entre los dos. Aprendí que lo que no sabes no hay que esconderlo: se va más rápido enseñándolo.",
+ "titulo": "とまる ところが ない",
+ "cuerpo": "<ruby>夜<rt>よる</rt></ruby> <ruby>八時<rt>はちじ</rt></ruby>に なっても、とまる ところが ありませんでした。ホテルは どこも いっぱいか、たかすぎました。ゴンサが みせの <ruby>人<rt>ひと</rt></ruby>に たのんで、ちかくの ばしょを <ruby>聞<rt>き</rt></ruby>きました。その <ruby>人<rt>ひと</rt></ruby>は 「ネットカフェは どうですか」と こたえました。ぼくたちは その ことばを <ruby>知<rt>し</rt></ruby>りませんでした。「やすいですよ。<ruby>朝<rt>あさ</rt></ruby>まで いられます」と <ruby>教<rt>おし</rt></ruby>えて くれました。",
+ "traduccion": "A las ocho de la noche seguíamos sin sitio donde dormir. Los hoteles estaban llenos o eran carísimos. Gonza le pidió ayuda a alguien de una tienda y preguntó por sitios cercanos. Aquel hombre contestó: «¿y un cibercafé?». Nosotros no conocíamos esa palabra. «Es barato. Puedes quedarte hasta la mañana», nos explicó.",
  "preguntas": [
   {
-   "p": "なぜ、<ruby>先<rt>せん</rt></ruby>ぱいに<ruby>頼<rt>たの</rt></ruby>みましたか。",
+   "p": "<ruby>夜<rt>よる</rt></ruby> <ruby>八時<rt>はちじ</rt></ruby>に、なにが ありませんでしたか。",
    "opciones": [
-    "いそがしかったから",
-    "じぶんでかんがえてもわからなかったから",
-    "<ruby>時間<rt>じかん</rt></ruby>があったから",
-    "<ruby>問題<rt>もんだい</rt></ruby>がおおかったから"
+    "とまる ところ",
+    "たべもの",
+    "おかね"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>三<rt>さん</rt></ruby><ruby>問<rt>もん</rt></ruby>のうち、いくつすぐにわかりましたか。",
+   "p": "みせの <ruby>人<rt>ひと</rt></ruby>は なにを すすめましたか。",
    "opciones": [
-    "ひとつ",
-    "ふたつ",
-    "みっつ",
-    "ぜんぶわからなかった"
+    "ネットカフェ",
+    "ホテル",
+    "<ruby>駅<rt>えき</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "そこは どんな ところだと 言いましたか。",
+   "opciones": [
+    "やすくて <ruby>朝<rt>あさ</rt></ruby>まで いられる",
+    "たかい",
+    "とおい"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "At work I ran into a problem I couldn't answer. Since I couldn't work it out however much I thought, I asked a senior colleague. He told me: «when you don't know, you have to ask straight away». The time I spent going over it alone was time wasted. Of the three questions, two I solved at once. The one that was left we thought about together. I learnt that what you don't know shouldn't be hidden: it goes faster if you show it."
+ "traduccion_en": "By eight in the evening we still had nowhere to sleep. The hotels were either full or far too expensive. Gonza asked someone in a shop for help and about places nearby. The man answered: «what about an internet café?». We didn't know the word. «It's cheap. You can stay until morning», he explained."
 }

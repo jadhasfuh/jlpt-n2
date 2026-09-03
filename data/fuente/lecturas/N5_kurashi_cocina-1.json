@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kurashi/cocina-1",
- "titulo": "はじめての<ruby>料理<rt>りょうり</rt></ruby>",
- "cuerpo": "きょう<em class=\"g\">は</em>、はじめて<ruby>一人<rt>ひとり</rt></ruby>で<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>りました。やさいを<ruby>揚<rt>あ</rt></ruby>げて、<ruby>辛<rt>から</rt></ruby>いたれを<ruby>漬<rt>つ</rt></ruby>けました。あじみをすると、<ruby>辛<rt>から</rt></ruby>すぎました。みずをすこし<ruby>入<rt>い</rt></ruby>れると、ちょうどよくなりました。<ruby>食堂<rt>しょくどう</rt></ruby>やレストランのりょうりはかんたんそうに<ruby>見<rt>み</rt></ruby>えますが、じっさい<em class=\"g\">は</em>たいへんです。おいしいものを<ruby>食<rt>た</rt></ruby>べるとき、これから<em class=\"g\">は</em><ruby>作<rt>つく</rt></ruby>った<ruby>人<rt>ひと</rt></ruby>のこともかんがえようとおもいました。",
- "traduccion": "Hoy he cocinado solo por primera vez. Freí verdura y la dejé en una salsa picante. Al probarla, estaba demasiado picante. Le añadí un poco de agua y quedó en su punto. La comida de los comedores y los restaurantes parece fácil, pero en realidad cuesta. A partir de ahora, cuando coma algo rico, pensaré también en quien lo ha hecho.",
+ "titulo": "<ruby>食堂<rt>しょくどう</rt></ruby>の ラーメン",
+ "cuerpo": "さっぽろの ラーメンは ゆうめいだと <ruby>聞<rt>き</rt></ruby>いて いました。ちいさい <ruby>食堂<rt>しょくどう</rt></ruby>に <ruby>入<rt>はい</rt></ruby>ると、<ruby>中<rt>なか</rt></ruby>は あつくて、めがねが しろく なりました。スープが とても こくて、からだの <ruby>中<rt>なか</rt></ruby>まで あたたかく なりました。「これは <ruby>料理<rt>りょうり</rt></ruby>じゃない、くすりだ」と ゴンサが 言いました。そとは まだ ゆきが ふって います。おいしい ものは、さむい ところの ほうが おいしいと おもいました。",
+ "traduccion": "Había oído que el ramen de Sapporo es famoso. Entramos en un comedor pequeño y dentro hacía tanto calor que se me empañaron las gafas. El caldo era tan denso que me calentó por dentro. «Esto no es comida, es medicina», dijo Gonza. Fuera seguía nevando. Pensé que las cosas buenas saben mejor en los sitios fríos.",
  "preguntas": [
   {
-   "p": "あじみをすると、どうでしたか。",
+   "p": "<ruby>食堂<rt>しょくどう</rt></ruby>の <ruby>中<rt>なか</rt></ruby>は どうでしたか。",
    "opciones": [
-    "ちょうどよかった",
-    "<ruby>辛<rt>から</rt></ruby>すぎた",
-    "あまかった",
-    "つめたかった"
+    "あつかったです",
+    "さむかったです",
+    "しずかでした"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "どうやってなおしましたか。",
+   "p": "ゴンサさんは ラーメンを なんと 言いましたか。",
    "opciones": [
-    "たれをすてた",
-    "みずをすこし<ruby>入<rt>い</rt></ruby>れた",
-    "もういちど<ruby>揚<rt>あ</rt></ruby>げた",
-    "しおを<ruby>入<rt>い</rt></ruby>れた"
+    "くすりだ",
+    "<ruby>料理<rt>りょうり</rt></ruby>だ",
+    "からい"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "そとは どうでしたか。",
+   "opciones": [
+    "ゆきが ふって いました",
+    "はれて いました",
+    "あつかったです"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Today I cooked on my own for the first time. I fried some vegetables and left them in a spicy sauce. When I tasted it, it was too spicy. I added a little water and it came out right. Food in canteens and restaurants looks easy, but it's actually hard work. From now on, when I eat something good, I'll think about whoever made it too."
+ "traduccion_en": "I'd heard that Sapporo ramen is famous. We went into a small canteen and inside it was so hot my glasses steamed up. The broth was so rich it warmed me from the inside. «This isn't food, it's medicine», said Gonza. Outside it was still snowing. I thought that good things taste better in cold places."
 }
