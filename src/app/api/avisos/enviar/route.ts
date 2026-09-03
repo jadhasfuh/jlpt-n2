@@ -27,11 +27,22 @@ const TEXTO = {
 };
 
 export async function POST(req: Request) {
+  // Dos fallos distintos que antes daban el mismo 401 y costaba media hora
+  // distinguir: que al servidor le falte la variable, y que quien llama mande
+  // la clave mal. El primero es cosa nuestra y merece un 500 que lo diga.
   const secreto = process.env.AVISOS_SECRETO;
+  if (!secreto) {
+    return NextResponse.json({ error: "AVISOS_SECRETO no está puesto en el servidor" },
+                             { status: 500 });
+  }
   const dado = req.headers.get("authorization")?.replace(/^Bearer\s+/i, "")
             ?? new URL(req.url).searchParams.get("clave");
-  if (!secreto || dado !== secreto) {
-    return NextResponse.json({ error: "no autorizado" }, { status: 401 });
+  if (!dado) {
+    return NextResponse.json({ error: "falta la cabecera authorization: Bearer <clave>" },
+                             { status: 401 });
+  }
+  if (dado !== secreto) {
+    return NextResponse.json({ error: "clave incorrecta" }, { status: 401 });
   }
 
   const publica = process.env.NEXT_PUBLIC_VAPID_PUBLICA;
