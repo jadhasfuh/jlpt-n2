@@ -89,31 +89,10 @@
 323     # 煎る — se queda いる (煎 no es kanji de N5)
 378     # うち — se queda 内
 552     # 起す — la okurigana de hoy es 起こす
-571     # 小父さん — se queda 伯父さん
-572     # 叔父さん — se queda 伯父さん
-624     # 叔母さん — se queda 伯母さん
 656     # おや — se queda 親
-847     # 個所 — la grafía de hoy es 箇所
-977     # 河 — se queda 川
-1094    # 規準 — se queda 基準
-1742    # 捜す — se queda 探す
 2815    # 唯 — se queda ただ
 3116    # つまずく — se queda 躓く
-3177    # 適確 — se queda 的確
-3449    # 永い — se queda 長い
-3457    # 中味 — se queda 中身
-3611    # 寝巻 — se queda 寝間着
-3736    # 始めに — se queda 初めに
-4023    # 殖える — se queda 増える
-4108    # 殖やす — se queda 増やす
-4288    # 濠 — se queda 堀
-4335    # 交ざる — se queda 混ざる
-4394    # 円い — se queda 丸い
 4446    # 見付ける — la grafía de hoy es 見つける
-4690    # 軟らかい — se queda 柔らかい
-4811    # 慶び — se queda 喜び
-4813    # 慶ぶ — se queda 喜ぶ
-4958    # 椀 — se queda 碗
 # Fórmulas hechas: se queda la grafía normal de cada una, no siempre la misma.
 275     # いっていらっしゃい — se queda 行っていらっしゃい
 103049  # 行ってらっしゃい — いってらっしゃい va en kana
