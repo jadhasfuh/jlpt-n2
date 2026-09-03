@@ -2,9 +2,10 @@
 import Link from "next/link";
 import { capituloLibre } from "@/lib/acceso";
 import { useState } from "react";
-import type { Lectura } from "@/lib/tipos";
+import type { Gramatica, Lectura } from "@/lib/tipos";
 import { useAjustes } from "./Ajustes";
 import { Jp, JpHtml, JpEnLinea, BotonVoz } from "./Jp";
+import { PanelGramatica } from "./PanelGramatica";
 import { Ordenar } from "./Ordenar";
 import { enFrases, soloTexto } from "@/lib/voz";
 import { IcDerecha, IcIzquierda } from "./Iconos";
@@ -29,7 +30,7 @@ export function Libro({
   nivel: string; n: number; total: number;
   unidad: { id: string; ja: string; es: string; en: string; seccion: string };
   vocabulario: Palabra[];
-  gramatica: Punto[];
+  gramatica: Gramatica[];
   /** Palabras del texto que se estudian en otro capítulo, con su nivel. */
   deFuera: Fuera[];
   /** Gramática que el capítulo usa pero enseña otro, con cuál. */
@@ -38,6 +39,9 @@ export function Libro({
 }) {
   const { t, idioma, tieneAcceso } = useAjustes();
   const [traducir, setTraducir] = useState(false);
+  // Las dos listas iban una debajo de otra dentro de la misma tarjeta, así que
+  // se veía una tabla dentro de otra. Las mismas pestañas que las subsecciones.
+  const [pestana, setPestana] = useState<"vocabulario" | "gramatica">("vocabulario");
   const [resp, setResp] = useState<Record<number, number>>({});
 
   const trad = (idioma === "en" && lectura?.traduccion_en)
@@ -74,89 +78,102 @@ export function Libro({
       <p className="tenue" style={{ margin: "0 0 18px" }}>{idioma === "en" ? unidad.en : unidad.es}</p>
 
       {/* La página de antes: las palabras que va a usar el capítulo. */}
-      <section className="tarjeta" style={{ padding: 18, marginBottom: 14 }}>
+      <section style={{ marginBottom: 14 }}>
         <p className="etiqueta" style={{ marginTop: 0 }}>{t("lib2.antes")}</p>
-        {/* Antes eran tres columnas de ancho fijo con la palabra, la lectura
-            y el significado al mismo peso: se leía como una hoja de cálculo.
-            Ahora usa la misma ficha que las subsecciones —<Jp> pinta el
-            furigana encima y colorea los kanji por nivel—, así que la palabra
-            manda y la lectura deja de ocupar una columna propia. */}
-        <div className="lista-vocab">
-          {vocabulario.map((w) => (
-            <div key={w.id} className="fila-libro">
-              <Jp escritura={w.escritura} lectura={w.lectura} clase="jp-medio" revelar />
-              <span className="glosa">{sig(w, idioma)}</span>
-            </div>
+
+        <div className="filtros" style={{ marginBottom: 12 }}>
+          {([
+            ["vocabulario", "語彙", vocabulario.length],
+            ...(gramatica.length ? [["gramatica", "文法", gramatica.length] as const] : []),
+          ] as const).map(([id, ja, num]) => (
+            <button key={id} className={`btn chico ${pestana === id ? "encendido" : ""}`}
+                    onClick={() => setPestana(id as "vocabulario" | "gramatica")}>
+              <span className="jp">{ja}</span>
+              <span style={{ fontSize: 11, opacity: .7 }}>{num}</span>
+            </button>
           ))}
         </div>
 
-        {/* Las que el capítulo usa pero enseña otro. Van aparte y en pequeño:
-            no hay que estudiarlas aquí, sólo poder mirarlas sin salir. */}
-        {deFuera.length > 0 && (
+        {pestana === "gramatica" ? (
           <>
-            <p className="etiqueta" style={{ marginTop: 18 }}>{t("lib2.deFuera")}</p>
-            <div className="lista-vocab compacta">
-              {deFuera.map((w) => (
-                <div key={w.id} className="fila-libro">
-                  <Jp escritura={w.escritura}
-                      lectura={w.lectura !== w.escritura ? w.lectura : undefined}
-                      revelar />
-                  {/* El nivel sólo se marca si NO es el del libro: dentro del
-                      libro de N5, ver «N5» en cada línea no dice nada; ver
-                      «N1» junto a こたつ sí. */}
-                  {w.jlpt !== nivel && (
-                    <span className={`pastilla ${w.jlpt.toLowerCase()}`}
-                          style={{ fontSize: 10.5, padding: "1px 6px" }}>{w.jlpt}</span>
-                  )}
-                  <span style={{ color: "var(--tinta-2)", flex: 1 }}>{sig(w, idioma)}</span>
-                  {w.capitulo > 0 && (
-                    <span className="tenue" style={{ whiteSpace: "nowrap" }}>
-                      {t("lib2.visto", { i: w.capitulo })}
-                    </span>
-                  )}
+            <PanelGramatica items={gramatica} />
+            {gramaticaFuera.length > 0 && (
+              <>
+                <p className="etiqueta">{t("lib2.gramFuera")}</p>
+                <div className="tarjeta" style={{ padding: "4px 14px" }}>
+                  <table className="tabla-vocab">
+                    <tbody>
+                      {gramaticaFuera.map((g) => (
+                        <tr key={g.id}>
+                          <td style={{ width: "44%" }}>
+                            <Jp escritura={g.forma} lectura={g.lectura} />
+                          </td>
+                          <td style={{ color: "var(--tinta-2)" }}>{sig(g, idioma)}</td>
+                          <td className="tenue" style={{ textAlign: "right", whiteSpace: "nowrap" }}>
+                            {g.capitulo > 0 ? t("lib2.visto", { i: g.capitulo }) : ""}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
                 </div>
-              ))}
-            </div>
+              </>
+            )}
           </>
-        )}
+        ) : (
+          <>
+            <div className="tarjeta" style={{ padding: "4px 14px" }}>
+              <table className="tabla-vocab">
+                <tbody>
+                  {vocabulario.map((w) => (
+                    <tr key={w.id}>
+                      <td style={{ width: "44%" }}>
+                        <Jp escritura={w.escritura} lectura={w.lectura} clase="jp-medio" />
+                      </td>
+                      <td style={{ color: "var(--tinta-2)" }}>{sig(w, idioma)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
 
-        {/* La gramática va en la misma página que las palabras: en papel serán
-            la hoja de la izquierda, y la lectura la de la derecha. */}
-        {gramatica.length > 0 && (
-          <>
-            <p className="etiqueta" style={{ marginTop: 18 }}>{t("lib2.gramatica")}</p>
-            {/* El patrón es lo que hay que reconocer al leer, así que va en su
-                propia superficie y no en una columna más. */}
-            <div style={{ display: "grid", gap: 8 }}>
-              {gramatica.map((g) => (
-                <div key={g.id} className="ficha-gram">
-                  <span className="jp patron">{g.forma}</span>
-                  {g.lectura && g.lectura !== g.forma && (
-                    <span className="tenue lectura-gram">{g.lectura}</span>
-                  )}
-                  <span className="glosa">{sig(g, idioma)}</span>
+            {/* Las que el capítulo usa pero enseña otro. Van aparte y en
+                pequeño: no hay que estudiarlas aquí, sólo poder mirarlas sin
+                salir del capítulo. */}
+            {deFuera.length > 0 && (
+              <>
+                <p className="etiqueta" style={{ marginTop: 16 }}>{t("lib2.deFuera")}</p>
+                <div className="tarjeta" style={{ padding: "4px 14px" }}>
+                  <table className="tabla-vocab">
+                    <tbody>
+                      {deFuera.map((w) => (
+                        <tr key={w.id}>
+                          <td style={{ width: "40%" }}>
+                            <Jp escritura={w.escritura}
+                                lectura={w.lectura !== w.escritura ? w.lectura : undefined} />
+                          </td>
+                          <td style={{ color: "var(--tinta-2)" }}>
+                            {/* El nivel sólo si NO es el del libro: dentro del
+                                libro de N5, ver «N5» en cada línea no dice
+                                nada; ver «N1» junto a こたつ sí. */}
+                            {w.jlpt !== nivel && (
+                              <span className={`pastilla ${w.jlpt.toLowerCase()}`}
+                                    style={{ fontSize: 10.5, padding: "1px 6px", marginRight: 6 }}>
+                                {w.jlpt}
+                              </span>
+                            )}
+                            {sig(w, idioma)}
+                          </td>
+                          <td className="tenue" style={{ textAlign: "right", whiteSpace: "nowrap" }}>
+                            {w.capitulo > 0 ? t("lib2.visto", { i: w.capitulo }) : ""}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
                 </div>
-              ))}
-            </div>
-          </>
-        )}
-        {gramaticaFuera.length > 0 && (
-          <>
-            <p className="etiqueta" style={{ marginTop: 18 }}>{t("lib2.gramFuera")}</p>
-            <div style={{ display: "grid", gap: 6 }}>
-              {gramaticaFuera.map((g) => (
-                <div key={g.id} className="fila-libro" style={{ fontSize: 12.5 }}>
-                  <span className="jp" style={{ fontSize: 14 }}>{g.forma}</span>
-                  <span className="tenue">{g.lectura}</span>
-                  <span style={{ color: "var(--tinta-2)", flex: 1 }}>{sig(g, idioma)}</span>
-                  {g.capitulo > 0 && (
-                    <span className="tenue" style={{ whiteSpace: "nowrap" }}>
-                      {t("lib2.visto", { i: g.capitulo })}
-                    </span>
-                  )}
-                </div>
-              ))}
-            </div>
+              </>
+            )}
           </>
         )}
       </section>

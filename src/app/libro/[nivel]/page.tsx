@@ -54,9 +54,9 @@ export default async function Pagina(
           vocabulario={palabrasDelCapitulo(nivel, u.id).map((w) => ({
             id: w.id, escritura: w.escritura, lectura: w.lectura, es: w.es, en: w.en,
           }))}
-          gramatica={gramaticas(u.gramatica).map((g) => ({
-            id: g.id, forma: g.forma, lectura: g.lectura, es: g.es, en: g.en,
-          }))}
+          // Entera y no recortada: el panel de gramática de las subsecciones
+          // es el mismo componente, y necesita nivel, tier y categoría.
+          gramatica={gramaticas(u.gramatica)}
           // Las que salen en el texto pero se estudian en otro capítulo: sin
           // esto, 山 aparece en el capítulo 1 y no está en ninguna lista hasta
           // el 95.
