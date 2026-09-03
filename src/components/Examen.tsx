@@ -5,6 +5,7 @@ import {
   type Ajuste, type Item, type Seccion,
 } from "@/lib/examen";
 import { useAjustes } from "./Ajustes";
+import OPCIONES_ILUSTRADAS from "@/lib/opciones-ilustradas.json";
 import { JpEnLinea } from "./Jp";
 import { AyudaInstruccion } from "./AyudaInstruccion";
 import { MuroDePago } from "./MuroDePago";
@@ -105,6 +106,8 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
 
   const item = items?.[n];
 
+  const conViñetas = !!item && (OPCIONES_ILUSTRADAS as string[]).includes(item.id);
+
   // El texto largo vive en el primer ítem de su grupo; los siguientes lo heredan.
   const pasaje = useMemo(() => {
     if (!items || !item) return null;
@@ -177,7 +180,7 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
     const puntos = Math.round(bloques.reduce((s, b) => s + (b.bien / b.n) * 60, 0));
 
     return (
-      <div className="escena" style={{ overflowY: "auto" }}>
+      <div className="escena sin-barra" style={{ overflowY: "auto" }}>
         <div className="escena-cabeza">
           <button className="icono-btn" onClick={cerrar} aria-label={t("com.cerrar")}><IcCerrar size={16} /></button>
           <div className="crecer" />
@@ -293,7 +296,7 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
         )}
       </div>
 
-      <div style={{ flex: 1, overflowY: "auto", paddingBottom: 12 }}>
+      <div className="sin-barra" style={{ flex: 1, overflowY: "auto", paddingBottom: 12 }}>
         <div style={{ display: "flex", gap: 6, alignItems: "center", margin: "10px 0 8px" }}>
           <span className="pastilla"><span className="jp">{NOMBRE_TIPO[item.tipo].ja}</span></span>
           <span className="tenue">{NOMBRE_TIPO[item.tipo][idioma]}</span>
@@ -350,23 +353,45 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
           <JpEnLinea html={marcarHuecos(item.enunciado)} />
         </div>
 
-        <div className="opciones">
+        {/* 課題理解 de N5 y N4: en el examen real las opciones no son texto,
+            son cuatro viñetas, y elegir mirando es parte de la dificultad. Con
+            el texto delante el ejercicio es más fácil de lo que debería. */}
+        <div className={conViñetas ? "opciones-vinetas" : "opciones"}>
           {item.opciones.map((op, i) => {
             const correcta = i === item.respuesta;
             const clase = !mostrando ? (elegida === i ? "bien" : "")
                         : correcta ? "bien" : elegida === i ? "mal" : "";
             return (
-              <button key={i} className={`opcion ${clase}`} onClick={() => responder(i)}>
+              <button key={i} className={`opcion ${clase}`} onClick={() => responder(i)}
+                      aria-label={conViñetas ? op : undefined}>
                 <span className="casilla">
                   {mostrando && correcta ? <IcBien size={12} weight="bold" />
                    : mostrando && elegida === i ? <IcCerrar size={12} weight="bold" />
                    : LETRAS[i]}
                 </span>
-                <span className="jp">{op}</span>
+                {conViñetas ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={`/examen/opciones/${item.id}-${i + 1}.png`} alt={op}
+                       className="vineta-opcion" />
+                ) : (
+                  <span className="jp">{op}</span>
+                )}
               </button>
             );
           })}
         </div>
+
+        {/* Al corregir sí se pone el texto: ahí ya no hay nada que adivinar y
+            saber cómo se dice «huevos y leche» es justo lo que se lleva. */}
+        {conViñetas && mostrando && (
+          <div className="tenue" style={{ marginTop: 8, lineHeight: 1.8 }}>
+            {item.opciones.map((op, i) => (
+              <div key={i}>
+                {LETRAS[i]} · <span className="jp">{op}</span>
+              </div>
+            ))}
+          </div>
+        )}
 
         {mostrando && (
           <div className="explica" style={{ margin: "14px auto 0" }}>

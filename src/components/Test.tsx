@@ -128,7 +128,7 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
             clase="jp-grande" revelar={elegida !== null} />
       </div>
 
-      <div style={{ flex: 1, overflowY: "auto" }}>
+      <div className="sin-barra" style={{ flex: 1, overflowY: "auto" }}>
         <div className="opciones" style={{ margin: "0 auto" }}>
           {q.opciones.map((op, k) => {
             const correcta = op.id === q.palabra.id;

@@ -417,6 +417,70 @@ def monta_anuncio():
     print(f"  → {destino.relative_to(RAIZ)}  ({destino.stat().st_size // 1024} KB)")
 
 
+def cubierta():
+    """El arte de la portada de Facebook, sin letras."""
+    quienes = ["carlos", "jean", "gonsa", "anna", "min", "kenta"]
+    fichas = "\n".join(f"- {PERSONAJES[q]}" for q in quienes)
+    prompt = (ESTILO + "\n\nSUBJECT — six friends walking together, seen from "
+              "the front, spread out in ONE WIDE HORIZONTAL LINE across the "
+              "whole width of the picture, mid-stride, chatting. Full body, "
+              "feet on the same ground line, plenty of space between them. "
+              "Relaxed and unposed, each one doing something different — one "
+              "gesturing, one looking back, one hands in pockets.\n\n"
+              f"CHARACTERS — match the attached reference sheet exactly:\n{fichas}\n\n"
+              "Empty background: one loose line for the ground and nothing "
+              "else. No street, no buildings, no scenery. Leave generous empty "
+              "space above their heads.\n\n"
+              "ABSOLUTELY NO TEXT of any kind anywhere in the image.")
+    print("portada de Facebook…")
+    genera(prompt, SALIDA / "00-cubierta-arte.png", referencia=HOJA, size="1536x1024")
+
+
+def monta_cubierta():
+    """1640 x 856, que es lo que pide Facebook.
+
+    Dos recortes que hay que respetar: en móvil se comen los lados, así que lo
+    que importa va al centro; y en escritorio la foto de perfil tapa la esquina
+    de abajo a la izquierda, que se deja vacía."""
+    from PIL import Image, ImageDraw, ImageFont, ImageOps
+    W, H = 1640, 856
+    lienzo = Image.new("RGB", (W, H), PAPEL)
+    d = ImageDraw.Draw(lienzo)
+
+    arte = Image.open(SALIDA / "00-cubierta-arte.png").convert("L")
+    arte = arte.point(lambda v: 255 if v > 228 else v)
+    caja = arte.point(lambda v: 255 if v < 200 else 0).getbbox()
+    if caja:
+        arte = arte.crop((0, max(0, caja[1] - 24), arte.width, arte.height))
+    arte = ImageOps.colorize(arte, black=TINTA, white=PAPEL)
+    # 0,72 del alto dejaba el pelo de Gonsa rozando el subtítulo.
+    alto = int(H * 0.66)
+    ancho = int(arte.width * alto / arte.height)
+    arte = arte.resize((ancho, alto), Image.LANCZOS)
+    lienzo.paste(arte, ((W - ancho) // 2, H - alto - 10))
+
+    tit = ImageFont.truetype(FUTURA, 58, index=2)
+    sub = ImageFont.truetype(AVENIR, 27, index=5)
+    x0, y0 = 92, 74
+    d.text((x0, y0), "Japonés para el JLPT", font=tit, fill=TINTA)
+    d.text((x0, y0 + 70), "de N5 a N1", font=tit, fill=ROJO)
+    d.text((x0, y0 + 152), "Vocabulario, kanji, gramática, lecturas y exámenes.",
+           font=sub, fill=(92, 94, 100))
+
+    # arriba a la derecha: fuera del recorte de móvil por poco, pero el logo
+    # aguanta perderse; la esquina de abajo a la izquierda se queda libre para
+    # la foto de perfil.
+    logo = Image.open(LOGO).convert("RGB").resize((66, 66), Image.LANCZOS)
+    lienzo.paste(logo, (W - 92 - 66, y0))
+    pie = ImageFont.truetype(AVENIR, 30, index=2)
+    a = d.textbbox((0, 0), "jlptest.org", font=pie)
+    d.text((W - 92 - (a[2] - a[0]), y0 + 84), "jlptest.org", font=pie, fill=ROJO)
+
+    destino = RAIZ / "docs" / "facebook-portada-personajes.png"
+    lienzo.save(destino)
+    print(f"  → {destino.relative_to(RAIZ)}  ({destino.stat().st_size // 1024} KB)")
+
+
 def capitulos():
     """Los capítulos en el orden del LIBRO, con su texto en español."""
     orden = json.loads((RAIZ / "data/fuente/orden_libro.json").read_text(encoding="utf-8"))
@@ -466,6 +530,10 @@ def main():
     if len(sys.argv) < 2:
         sys.exit(__doc__)
     orden = sys.argv[1]
+    if orden == "cubierta":
+        if "--montar" in sys.argv: monta_cubierta()
+        else: cubierta()
+        return
     if orden == "anuncio":
         if "--montar" in sys.argv: monta_anuncio()
         else: anuncio()

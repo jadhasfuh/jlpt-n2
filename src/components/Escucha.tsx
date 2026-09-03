@@ -195,7 +195,7 @@ export function Escucha({ unidad, palabras, cerrar }: {
         )}
       </div>
 
-      <div style={{ flex: 1, overflowY: "auto" }}>
+      <div className="sin-barra" style={{ flex: 1, overflowY: "auto" }}>
         <div className="opciones" style={{ margin: "0 auto" }}>
           {q.opciones.map((op) => {
             const bien = op.id === q.correcta.id;

@@ -326,11 +326,13 @@ rt { font-size: .5em; color: var(--tinta-3); font-family: var(--ui); opacity: .6
    le den la vuelta a los números ni al español intercalado. */
 .jp-tategaki {
   overflow-x: auto;
+  scrollbar-width: none;
   overflow-y: hidden;
   direction: rtl;
   padding-bottom: 6px;
   overscroll-behavior-x: contain;
 }
+.jp-tategaki::-webkit-scrollbar { height: 0; display: none; }
 .jp-tategaki > .jp {
   direction: ltr;
   writing-mode: vertical-rl;
@@ -662,4 +664,27 @@ em.g.n3 { border-color: color-mix(in srgb, var(--n3) 60%, transparent); }
 :root[data-tema="oscuro"] .escena-examen { filter: invert(1); background: #000; }
 @media (prefers-color-scheme: dark) {
   :root:not([data-tema="claro"]) .escena-examen { filter: invert(1); background: #000; }
+}
+
+/* Scroll sin barra, para que el panel se sienta app y no página.
+   Sólo en los paneles de DENTRO —el examen, el vertical—: en el scroll de la
+   página entera la barra es la única pista de cuánto queda, y en un escritorio
+   con ratón quitarla es peor. */
+.sin-barra { scrollbar-width: none; -ms-overflow-style: none; }
+.sin-barra::-webkit-scrollbar { width: 0; height: 0; display: none; }
+
+/* Las cuatro viñetas de 課題理解, en rejilla como en el papel del examen. */
+.opciones-vinetas { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.opciones-vinetas .opcion {
+  flex-direction: column; align-items: stretch; gap: 8px; padding: 10px;
+  height: auto;
+}
+.opciones-vinetas .casilla { align-self: flex-start; }
+.vineta-opcion {
+  display: block; width: 100%; height: auto; border-radius: var(--radio-sm);
+  background: #fff;
+}
+:root[data-tema="oscuro"] .vineta-opcion { filter: invert(1); background: #000; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) .vineta-opcion { filter: invert(1); background: #000; }
 }
