@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/shigoto/oficios-1",
- "titulo": "まちの<ruby>警官<rt>けいかん</rt></ruby>",
- "cuerpo": "<ruby>駅<rt>えき</rt></ruby>のまえに<ruby>交番<rt>こうばん</rt></ruby>があります。そこの<ruby>警官<rt>けいかん</rt></ruby>は、いつもおなじ<ruby>人<rt>ひと</rt></ruby>です。みちをきくと、かならずかみに<ruby>書<rt>か</rt></ruby>いておしえてくれます。せんしゅう、かさをわすれたとき、その<ruby>人<rt>ひと</rt></ruby>がとどけてくれました。「いっしょに<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>き<em class=\"g\">ませんか</em>」と<ruby>言<rt>い</rt></ruby>われて、わすれものがあつまるへやまで<ruby>行<rt>い</rt></ruby>きました。しごとはたくさんあるはずなのに、いやな<ruby>顔<rt>かお</rt></ruby>をしません。こんど、おかしをもっておれいに<ruby>行<rt>い</rt></ruby>き<em class=\"g\">ませんか</em>と、うちのははをさそうつもりです。",
- "traduccion": "Delante de la estación hay una caseta de policía. El agente que está allí es siempre el mismo. Cuando le preguntas por una calle, siempre te lo apunta en un papel. La semana pasada, cuando me dejé el paraguas, fue él quien me lo llevó. Me dijo «¿vamos a mirarlo juntos?» y fuimos hasta la sala donde se juntan los objetos perdidos. Aunque debe de tener muchísimo trabajo, nunca pone mala cara. La próxima vez pienso proponerle a mi madre ir a darle las gracias con unos dulces.",
+ "titulo": "<ruby>交番<rt>こうばん</rt></ruby>の おまわりさん",
+ "cuerpo": "ある よる、かえりみちで じてんしゃを とめられました。おまわりさんが「これは あなたの じてんしゃですか」と ききました。ぼくは ざいりゅうカードを <ruby>見<rt>み</rt></ruby>せました。<ruby>三分<rt>さんぷん</rt></ruby>ぐらいで おわりましたが、こころが はやく なりました。「きを つけて かえって ください」と 言われました。わるい ことは して いませんが、こういう ときは いつも すこし こわいです。",
+ "traduccion": "Una noche, volviendo a casa, me pararon con la bicicleta. El policía me preguntó: «¿esta bicicleta es suya?». Le enseñé la tarjeta de residencia. Duró unos tres minutos, pero se me aceleró el pulso. Me dijo: «vuelva con cuidado». No he hecho nada malo, pero en esos momentos siempre paso un poco de miedo.",
  "preguntas": [
   {
-   "p": "かさをわすれたとき、<ruby>警官<rt>けいかん</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "p": "よる、なにが ありましたか。",
    "opciones": [
-    "かみに<ruby>書<rt>か</rt></ruby>いた",
-    "とどけてくれた",
-    "<ruby>何<rt>なに</rt></ruby>もしなかった",
-    "みちをきいた"
+    "じてんしゃを とめられました",
+    "さいふを なくしました",
+    "けがを しました"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "こんど、<ruby>何<rt>なに</rt></ruby>をするつもりですか。",
+   "p": "カルロスさんは なにを <ruby>見<rt>み</rt></ruby>せましたか。",
    "opciones": [
-    "かさをかう",
-    "ははとおれいに<ruby>行<rt>い</rt></ruby>く",
-    "<ruby>交番<rt>こうばん</rt></ruby>ではたらく",
-    "みちをきく"
+    "ざいりゅうカード",
+    "がくせいしょう",
+    "パスポート"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "おまわりさんは なんと 言いましたか。",
+   "opciones": [
+    "「きを つけて かえって ください」",
+    "「<ruby>来<rt>き</rt></ruby>て ください」",
+    "「だめです」"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "In front of the station there's a police box. The officer there is always the same one. When you ask him about a street, he always writes it down for you on a piece of paper. Last week, when I left my umbrella behind, it was he who brought it to me. He said «shall we go and look together?» and we went to the room where lost property is kept. Although he must have a huge amount of work, he never pulls a face. Next time I intend to suggest to my mother that we go and thank him with some sweets."
+ "traduccion_en": "One night, on my way home, I was stopped on my bicycle. The policeman asked: «is this bicycle yours?». I showed him my residence card. It lasted about three minutes, but my heart raced. He said: «get home safely». I've done nothing wrong, but moments like that always frighten me a little."
 }

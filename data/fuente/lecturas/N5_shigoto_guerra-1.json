@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/shigoto/guerra-1",
- "titulo": "そふの<ruby>話<rt>はなし</rt></ruby>",
- "cuerpo": "そふは<ruby>戦<rt>せん</rt></ruby>そうのことをあまり<ruby>話<rt>はな</rt></ruby>しませんでした。いちどだけ、「<ruby>銃<rt>じゅう</rt></ruby>をもったことがある」と<ruby>言<rt>い</rt></ruby>いました。それから、「その<ruby>話<rt>はなし</rt></ruby>はし<em class=\"g\">ないでください</em>」とじぶんで<ruby>言<rt>い</rt></ruby>って、だまりました。こわかったのだとおもいます。いま、そふはもういません。<ruby>何<rt>なに</rt></ruby>があったのか、ぜんぶは<ruby>分<rt>わ</rt></ruby>かりません。でも、そのしずかな<ruby>顔<rt>かお</rt></ruby>をわすれ<em class=\"g\">ないでください</em>と、じぶんに<ruby>言<rt>い</rt></ruby>っています。",
- "traduccion": "Mi abuelo casi no hablaba de la guerra. Solo una vez dijo: «llegué a tener un fusil en las manos». Y luego, él mismo dijo «por favor, no habléis de eso» y se calló. Creo que era miedo. Ahora mi abuelo ya no está. No sé todo lo que pasó. Pero me digo a mí mismo que no olvide aquella cara callada.",
+ "titulo": "テレビの ふるい えいが",
+ "cuerpo": "たなかさんの <ruby>家<rt>いえ</rt></ruby>で、ふるい えいがを <ruby>見<rt>み</rt></ruby>ました。むかしの さむらいの はなしで、ことばが とても むずかしかったです。「これは <ruby>今<rt>いま</rt></ruby>の <ruby>日本語<rt>にほんご</rt></ruby>じゃ ないから、わからなくても いいですよ」と たなかさんが 言いました。せんそうの ばめんは、<ruby>音<rt>おと</rt></ruby>が <ruby>大<rt>おお</rt></ruby>きくて こわかったです。たなかさんは しずかに <ruby>見<rt>み</rt></ruby>て いました。「わたしの ちちは、この じだいの はなしを あまり しませんでした」と 言いました。",
+ "traduccion": "En casa de la señora Tanaka vimos una película antigua. Era una historia de samuráis y el lenguaje era dificilísimo. «Esto no es el japonés de ahora, no pasa nada si no lo entiendes», me dijo ella. Las escenas de guerra sonaban muy fuerte y daban miedo. La señora Tanaka la miraba en silencio. «Mi padre no hablaba mucho de aquella época», dijo.",
  "preguntas": [
   {
-   "p": "そふは<ruby>戦<rt>せん</rt></ruby>そうについて、どうでしたか。",
+   "p": "どんな えいがを <ruby>見<rt>み</rt></ruby>ましたか。",
    "opciones": [
-    "よく<ruby>話<rt>はな</rt></ruby>した",
-    "あまり<ruby>話<rt>はな</rt></ruby>さなかった",
-    "わすれていた",
-    "たのしそうだった"
+    "むかしの さむらいの はなし",
+    "あたらしい えいが",
+    "がいこくの えいが"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "この<ruby>人<rt>ひと</rt></ruby>はじぶんに<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>っていますか。",
+   "p": "たなかさんは なんと 言いましたか。",
    "opciones": [
-    "ぜんぶ<ruby>知<rt>し</rt></ruby>りたい",
-    "しずかな<ruby>顔<rt>かお</rt></ruby>をわすれないように",
-    "<ruby>話<rt>はな</rt></ruby>してほしい",
-    "<ruby>銃<rt>じゅう</rt></ruby>を<ruby>見<rt>み</rt></ruby>たい"
+    "わからなくても いい",
+    "よく <ruby>聞<rt>き</rt></ruby>いて",
+    "つまらない"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "たなかさんの おとうさんは どうでしたか。",
+   "opciones": [
+    "その じだいの はなしを あまり しませんでした",
+    "よく はなしました",
+    "えいがが すきでした"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "My grandfather hardly ever spoke about the war. Only once did he say: «I got as far as holding a rifle in my hands». And then he himself said «please, don't talk about that» and fell silent. I think it was fear. Now my grandfather is gone. I don't know everything that happened. But I tell myself not to forget that silent face."
+ "traduccion_en": "At Mrs Tanaka's house we watched an old film. It was a samurai story and the language was extremely hard. «This isn't today's Japanese, it doesn't matter if you don't follow it», she told me. The battle scenes were loud and frightening. Mrs Tanaka watched in silence. «My father didn't talk much about those years», she said."
 }

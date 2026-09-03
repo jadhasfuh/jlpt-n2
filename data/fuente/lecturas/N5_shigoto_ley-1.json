@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/shigoto/ley-1",
- "titulo": "きまりのはなし",
- "cuerpo": "こうえんに「ここでボールをつかってはいけません」とかいてあります。はじめは、なぜだろうとおもいました。でも、ちいさい<ruby>子<rt>こ</rt></ruby>どもがおおいのを<ruby>見<rt>み</rt></ruby>て、わかりました。きまりは、だれかをこまらせるためではなく、まもるためにあります。「いっしょにかたづけ<em class=\"g\">ましょうか</em>」と、しらない<ruby>人<rt>ひと</rt></ruby>に<ruby>声<rt>こえ</rt></ruby>をかけられました。ふたりでやると、すぐにおわりました。「つぎからは<ruby>手<rt>て</rt></ruby>つだい<em class=\"g\">ましょうか</em>」ときくのは、じぶんからでいいのだとおもいました。",
- "traduccion": "En el parque hay un cartel que dice «no se puede jugar con la pelota aquí». Al principio pensé por qué. Pero al ver cuántos niños pequeños había, lo entendí. Las normas no están para fastidiar a nadie, sino para proteger. Un desconocido me dijo: «¿recogemos juntos?». Entre los dos acabamos enseguida. Pensé que ofrecerse con un «¿le echo una mano?» está bien hacerlo uno mismo.",
+ "titulo": "えいがの あとで",
+ "cuerpo": "えいがが おわってから、ぼくは しつもんを しました。「あの じだいは、ほんとうに あんな ふうでしたか」たなかさんは 「はんぶんは ほんとう、はんぶんは はなしです」と こたえました。<ruby>人<rt>ひと</rt></ruby>を きる ばめんは、いまの <ruby>日本<rt>にほん</rt></ruby>では かんがえられません。ここは、ぼくが すんで いる <ruby>国<rt>くに</rt></ruby>の <ruby>中<rt>なか</rt></ruby>で いちばん あんぜんな ばしょです。でも、どの <ruby>国<rt>くに</rt></ruby>にも、はなしたく ない じだいが あります。",
+ "traduccion": "Cuando terminó la película le hice una pregunta. «¿Aquella época fue de verdad así?» La señora Tanaka contestó: «la mitad es verdad y la mitad es cuento». Las escenas en las que se mata a alguien son impensables en el Japón de hoy. Éste es el sitio más seguro en el que he vivido. Pero todos los países tienen una época de la que no quieren hablar.",
  "preguntas": [
   {
-   "p": "なぜ、ボールをつかってはいけないのですか。",
+   "p": "カルロスさんは なにを しつもんしましたか。",
    "opciones": [
-    "こうえんがせまいから",
-    "ちいさい<ruby>子<rt>こ</rt></ruby>どもがおおいから",
-    "ボールがないから",
-    "きまりだから"
+    "あの じだいは ほんとうに あんな ふうだったか",
+    "えいがの なまえ",
+    "だれが つくったか"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "しらない<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いましたか。",
+   "p": "たなかさんの こたえは なんですか。",
    "opciones": [
-    "ボールをかして",
-    "いっしょにかたづけ<em class=\"g\">ましょうか</em>",
-    "かえって",
-    "きまりをまもって"
+    "はんぶんは ほんとう、はんぶんは はなし",
+    "ぜんぶ ほんとう",
+    "ぜんぶ うそ"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんは <ruby>日本<rt>にほん</rt></ruby>を どう おもって いますか。",
+   "opciones": [
+    "いちばん あんぜんな ばしょ",
+    "あぶない ばしょ",
+    "つまらない ばしょ"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "In the park there's a sign that says «no ball games here». At first I wondered why. But when I saw how many small children there were, I understood. Rules aren't there to annoy anyone, but to protect. A stranger said to me: «shall we pick them up together?». Between the two of us we finished quickly. I thought that offering with a «shall I give you a hand?» is a good thing to do yourself."
+ "traduccion_en": "When the film ended I asked a question. «Was that period really like that?» Mrs Tanaka answered: «half of it is true and half of it is story». Scenes where someone is killed are unthinkable in today's Japan. This is the safest place I have lived in. But every country has a period it would rather not talk about."
 }

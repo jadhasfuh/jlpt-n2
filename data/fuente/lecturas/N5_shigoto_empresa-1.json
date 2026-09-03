@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/shigoto/empresa-1",
- "titulo": "はじめての<ruby>会社<rt>かいしゃ</rt></ruby>",
- "cuerpo": "らいしゅうから、あたらしい<ruby>会社<rt>かいしゃ</rt></ruby>ではたらきます。きょうは、そのばしょを<ruby>見<rt>み</rt></ruby><em class=\"g\">に行く</em>ことにしました。<ruby>駅<rt>えき</rt></ruby>から<ruby>歩<rt>ある</rt></ruby>いて<ruby>十<rt>じゅっ</rt></ruby>ぷんでした。たてものはふるいですが、まえに<ruby>大<rt>おお</rt></ruby>きな木があって、しずかでした。<ruby>中<rt>なか</rt></ruby>にはいらず、そとから<ruby>見<rt>み</rt></ruby>ただけです。かえりに、<ruby>本<rt>ほん</rt></ruby>をかい<em class=\"g\">に行き</em>ました。しごとのまえに<ruby>読<rt>よ</rt></ruby>んでおきたいものがあったからです。あしたはもう<ruby>一<rt>いち</rt></ruby>ど、あさの<ruby>時間<rt>じかん</rt></ruby>に<ruby>行<rt>い</rt></ruby>ってみます。",
- "traduccion": "La semana que viene empiezo a trabajar en una empresa nueva. Hoy he decidido ir a ver dónde está. Son diez minutos andando desde la estación. El edificio es viejo, pero delante hay un árbol grande y estaba tranquilo. No entré: solo lo miré desde fuera. A la vuelta fui a comprar un libro. Es que había algo que quería leer antes de empezar. Mañana iré otra vez, a la hora de la mañana.",
+ "titulo": "ミンさんの はなし",
+ "cuerpo": "ミンさんは <ruby>来年<rt>らいねん</rt></ruby>、<ruby>会社<rt>かいしゃ</rt></ruby>で はたらきたいと 言って います。<ruby>学校<rt>がっこう</rt></ruby>が おわったら、ビザを かえなければ なりません。「<ruby>日本語<rt>にほんご</rt></ruby>の しけんに ごうかくしないと むりだ」と 言いました。<ruby>三年<rt>さんねん</rt></ruby>かかって、やっと ここまで <ruby>来<rt>き</rt></ruby>たそうです。ぼくは まだ <ruby>一年目<rt>いちねんめ</rt></ruby>です。ミンさんの はなしを <ruby>聞<rt>き</rt></ruby>いて、じぶんの さきの ことを はじめて かんがえました。",
+ "traduccion": "Min dice que el año que viene quiere trabajar en una empresa. Cuando acabe la escuela tendrá que cambiar de visado. «Sin aprobar el examen de japonés es imposible», me dijo. Le ha costado tres años llegar hasta aquí. Yo voy por el primero. Escuchándole pensé por primera vez en lo que viene después.",
  "preguntas": [
   {
-   "p": "きょう、<ruby>何<rt>なに</rt></ruby>をしに<ruby>行<rt>い</rt></ruby>きましたか。",
+   "p": "ミンさんは <ruby>来年<rt>らいねん</rt></ruby> なにを したいですか。",
    "opciones": [
-    "はたらきに",
-    "<ruby>会社<rt>かいしゃ</rt></ruby>のばしょを<ruby>見<rt>み</rt></ruby>に",
-    "<ruby>本<rt>ほん</rt></ruby>をかいに",
-    "<ruby>人<rt>ひと</rt></ruby>にあいに"
+    "<ruby>会社<rt>かいしゃ</rt></ruby>で はたらきたい",
+    "<ruby>国<rt>くに</rt></ruby>へ かえりたい",
+    "<ruby>学校<rt>がっこう</rt></ruby>を つづけたい"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>会社<rt>かいしゃ</rt></ruby>のたてものはどうでしたか。",
+   "p": "ビザを かえるには なにが ひつようですか。",
    "opciones": [
-    "あたらしい",
-    "ふるいがしずか",
-    "<ruby>大<rt>おお</rt></ruby>きい",
-    "とおい"
+    "<ruby>日本語<rt>にほんご</rt></ruby>の しけん",
+    "おかね",
+    "<ruby>会社<rt>かいしゃ</rt></ruby>の てがみ"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "ミンさんは どのくらい かかりましたか。",
+   "opciones": [
+    "<ruby>三年<rt>さんねん</rt></ruby>",
+    "<ruby>一年<rt>いちねん</rt></ruby>",
+    "<ruby>十年<rt>じゅうねん</rt></ruby>"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Next week I start work at a new company. Today I decided to go and see where it is. It's ten minutes' walk from the station. The building is old, but there's a big tree in front and it was quiet. I didn't go in: I just looked at it from outside. On the way back I went to buy a book. The thing is, there was something I wanted to read before starting. Tomorrow I'll go again, at the morning hour."
+ "traduccion_en": "Min says that next year he wants to work at a company. When school finishes he'll have to change his visa. «Without passing the Japanese exam it's impossible», he told me. It has taken him three years to get this far. I'm only in my first. Listening to him, I thought about what comes next for the first time."
 }
