@@ -172,6 +172,19 @@ export function palabrasDeFuera(html: string, propias: number[]): Palabra[] {
  * y se enseña abajo, diciendo dónde se vio. Es lo mismo que ya se hace con el
  * vocabulario, y el hueco deja de parecer un olvido.
  */
+/**
+ * Trozos que aparecen en cualquier frase: encontrarlos no significa nada.
+ *
+ * Sólo la cópula y los auxiliares vacíos. なる, から y ので se quedan fuera de
+ * la lista aunque sean frecuentes: son puntos de gramática de verdad, y
+ * filtrarlos dejaba 「冬やすみの そうだん」 —que se apoya justo en なる y en
+ * ので— con la hoja de la izquierda en blanco.
+ */
+const AUXILIAR = new Set([
+  "です", "ます", "ました", "ません", "でした", "だ",
+  "ある", "いる", "する", "こと", "もの", "ない",
+]);
+
 export function gramaticaDeFuera(
   html: string, nivel: string, propia: string[],
 ): { punto: Gramatica; capitulo: number }[] {
@@ -184,12 +197,20 @@ export function gramaticaDeFuera(
   const fuera: { punto: Gramatica; capitulo: number }[] = [];
   for (const g of GRAMATICA) {
     if (g.nivel !== nivel || suyos.has(g.id)) continue;
-    // La forma del catálogo trae ～, corchetes y alternativas con / o ・.
+    // La forma del catálogo trae ～, corchetes, letras de hueco (A, B) y
+    // alternativas separadas por / o por ・. Ojo con ・: en 「は〜より・・・です」
+    // eran puntos suspensivos, no alternativas, y al partir por ahí salía el
+    // fragmento 「です」 — que casa con cualquier frase del libro.
     const formas = g.forma
-      .replace(/[～〜]/g, "").replace(/\[[^\]]*\]/g, "")
-      .split(/\s*\/\s*|・/)
+      .replace(/[～〜]/g, "")
+      .replace(/\[[^\]]*\]/g, "")
+      .replace(/[A-Z]/g, "")
+      .replace(/[・．]{2,}|…/g, "／")        // los puntos suspensivos no separan
+      .split(/\s*[/／]\s*|・/)
       .map((f) => f.trim())
-      .filter((f) => f.length >= 2 && /^[ぁ-ヿ一-鿿]+$/.test(f));
+      .filter((f) => f.length >= 2 && /^[ぁ-ヿ一-鿿、。]+$/.test(f))
+      // Un trozo que es sólo cópula o auxiliar casa con todo y no enseña nada.
+      .filter((f) => !AUXILIAR.has(f));
     if (formas.some((f) => texto.includes(f))) {
       fuera.push({ punto: g, capitulo: dondeSeVe.get(g.id) ?? 0 });
     }

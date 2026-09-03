@@ -167,6 +167,23 @@ if bajada.exists():
                      "ja": g["ja"], "en": g["en"], "es": g.get("es", ""),
                      "tier": g["tier"], "cat": g["cat"]})
 
+# La lista de origen escribe algunas formas de manera que no se pueden usar:
+# 「は〜より・・・です」 usa ・・・ de puntos suspensivos, y ・ es justo el separador
+# de alternativas (ちゃいけない・じゃいけない). Se arreglan aquí, a mano.
+_gc = pathlib.Path("data/fuente/gramatica_correcciones.tsv")
+if _gc.exists():
+    _por_id = {g["id"]: g for g in gram}
+    _n = 0
+    for _l in _gc.read_text(encoding="utf-8").splitlines():
+        _l = re.sub(r"\s*#.*$", "", _l).strip()
+        if not _l or _l.startswith(("#", "id|")): continue
+        _c = (_l.split("|") + [""] * 3)[:3]
+        _g = _por_id.get(_c[0].strip())
+        if not _g: continue
+        for _k, _v in zip(("ja", "es"), _c[1:]):
+            if _v.strip(): _g[_k] = _v.strip(); _n += 1
+    print("formas de gramática corregidas a mano:", _n)
+
 ORDEN_CAT = ["particulas","formas","conectores","tiempo","grado","adicion","contraste","causa",
              "condicion","grado_limite","comparacion","modo","estado_cambio","relacion",
              "punto_vista","cortesia","deseo","interrogativos","obligacion","posibilidad",

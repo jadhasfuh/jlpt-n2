@@ -50,6 +50,13 @@ def trozos(html):
     fuera += [(c, None) for c in INVISIBLE.sub("", TAGS.sub("", html[i:]))]
     return [t for t in fuera if t[0] != ""]
 
+def recortar(t, limite=34):
+    """Corta por palabra y pone puntos suspensivos, no a mitad de «Sustantivo»."""
+    t = INVISIBLE.sub("", t)
+    if len(t) <= limite: return t
+    corte = t[:limite].rsplit(" ", 1)[0]
+    return (corte if len(corte) > limite * 0.6 else t[:limite - 1]) + "…"
+
 def ancho(t, fuente=("Mincho", CUERPO)):
     return pdfmetrics.stringWidth(t, fuente[0], fuente[1])
 
@@ -127,7 +134,7 @@ for n, uid in enumerate(capitulos, 1):
         c.setFont("Gothic", 7.5); c.setFillGray(0.45)
         c.drawString(x0 + 26 * mm, y, v["lectura"])
         c.setFillGray(0.15); c.setFont("Gothic", 7.5)
-        c.drawString(x0 + 50 * mm, y, INVISIBLE.sub("", v["es"])[:34])
+        c.drawString(x0 + 50 * mm, y, recortar(v["es"]))
         c.setFillGray(0); y -= 4.6 * mm
     if u["gramatica"] and y > M_ABAJO + 14 * mm:
         y -= 3 * mm
@@ -138,7 +145,7 @@ for n, uid in enumerate(capitulos, 1):
             if not g or y < M_ABAJO: continue
             c.setFont("Mincho", 9.5); c.drawString(x0, y, g["forma"])
             c.setFillGray(0.15); c.setFont("Gothic", 7.5)
-            c.drawString(x0 + 50 * mm, y, INVISIBLE.sub("", g["es"])[:34]); c.setFillGray(0)
+            c.drawString(x0 + 50 * mm, y, recortar(g["es"])); c.setFillGray(0)
             y -= 4.6 * mm
     if "--solo-historia" not in sys.argv: c.showPage()
     else: c.setPageSize((ANCHO, ALTO))

@@ -1,0 +1,10 @@
+# Formas de gramática mal escritas en la lista de origen.
+# Columnas: id|forma|es   — deja el campo vacío para no tocarlo.
+#
+# El origen usa ・・・ como puntos suspensivos, y ・ es justo el separador de
+# alternativas (ちゃいけない・じゃいけない). Al trocear la forma para buscarla en
+# un texto, 「は〜より・・・です」 daba el fragmento 「です」, que casa con
+# absolutamente cualquier frase: ese punto salía en casi todos los capítulos.
+id|forma|es
+n5-wa-yori-desu|AはBより〜です|A es más ~ que B
+n4-wa-ga-wa|Aは〜が、Bは…|A es ~, pero B (comparación)
