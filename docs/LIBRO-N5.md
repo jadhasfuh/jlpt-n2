@@ -107,3 +107,54 @@ La historia de N5 acaba cuando termina el año de escuela. Lo que no cabe aquí
 
 O sea que Carlos vive N5 y N4 completos, se profesionaliza en N3 y desaparece
 cuando el examen deja de contar historias.
+
+## La edición en papel
+
+Decidido el 2026-09-03: **un capítulo por pliego, con ilustración.** Página
+izquierda el vocabulario y la gramática, derecha la historia y un dibujo.
+
+Es lo que hace cualquier graded reader, y resuelve de paso el problema de
+tamaño. La referencia que miramos es
+[小説ミラーさん](https://www.3anet.co.jp/np/books/2470/) —A5変, 147 páginas,
+18 relatos, unos 2 800 caracteres cada uno—. Nuestros capítulos son de otra
+naturaleza: 103 en vez de 18, y **172 casillas de mediana** contando espacios y
+puntuación. Alargarlos a 2 800 sería reescribir el libro y romper la regla de
+«un capítulo = una unidad de veinte palabras». El hueco que sobra no es un
+defecto: es donde va el dibujo, que un principiante necesita tanto como el
+texto.
+
+### Las cuentas
+
+Sobre A5変 (148 × 210 mm), cuerpo de 11 pt con furigana —que pide interlínea
+doble, unos 7,8 mm por renglón—:
+
+| | |
+|---|---|
+| Caja de texto | 105 mm de ancho → **27 casillas por renglón** |
+| Alto disponible | 168 mm → 21 renglones en total |
+| Historia | **12 renglones** = 324 casillas |
+| Ilustración | los 9 renglones restantes: 105 × 70 mm |
+
+Con 12 renglones **caben 100 de los 103 capítulos**. La mediana pide 9, así que
+la mayoría deja sitio de sobra y el dibujo puede crecer.
+
+### Las tres excepciones
+
+Los tres capítulos que salieron de fundir una cola de una palabra con su
+vecina se van del doble:
+
+| | | |
+|---|---|---|
+| 33 · 頭が いたい ひ | 358 casillas | 19 renglones |
+| 34 · たなかさんの 家族 | 341 | 18 |
+| 63 · ちいさい へや | 280 | 14 |
+
+No se recortan: el texto está bien y fundirlos fue lo correcto. En el papel se
+les da la página entera de texto con una viñeta pequeña en una esquina, en
+lugar del dibujo grande. Tres excepciones en 103 no rompen un libro.
+
+### Lo que falta cuando haya dibujos
+
+Las lecturas necesitarán un campo para la ilustración y su pie. Hasta que
+existan las imágenes no se añade: un campo vacío en 607 lecturas no ayuda a
+nadie.
