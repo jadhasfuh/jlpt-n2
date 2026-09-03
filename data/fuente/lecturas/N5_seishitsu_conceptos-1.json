@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/seishitsu/conceptos-1",
- "titulo": "<ruby>本<rt>もと</rt></ruby>のこたえ",
- "cuerpo": "「なぜべんきょうするのか」と<ruby>子<rt>こ</rt></ruby>どもにきかれました。すぐにこたえられませんでした。しごとのためだけでは、<ruby>本<rt>もと</rt></ruby>のこたえにならない<em class=\"g\">のです</em>。かんがえてみると、わたしがべんきょうをつづけるのは、<ruby>知<rt>し</rt></ruby>らなかったことを<ruby>知<rt>し</rt></ruby>るときの<ruby>気<rt>き</rt></ruby>もちがすきだから<em class=\"g\">なのです</em>。その<ruby>気<rt>き</rt></ruby>もちには、<ruby>年<rt>とし</rt></ruby>もしごともかんけいありません。<ruby>子<rt>こ</rt></ruby>どもには「たのしいからだよ」とこたえました。みじかいことばですが、うそではありません。",
- "traduccion": "Un niño me preguntó por qué estudiamos. No supe contestar en el momento. Es que decir «por el trabajo» no llega a ser la respuesta de fondo. Pensándolo, si yo sigo estudiando es porque me gusta la sensación de saber algo que no sabía. Esa sensación no tiene nada que ver con la edad ni con el trabajo. Al niño le contesté «porque es divertido». Son pocas palabras, pero no es mentira.",
+ "titulo": "<ruby>一<rt>いっ</rt></ruby>さつの <ruby>本<rt>ほん</rt></ruby>",
+ "cuerpo": "アンナさんの おとうさんが、ふるい <ruby>本<rt>ほん</rt></ruby>を <ruby>見<rt>み</rt></ruby>せて くれました。その <ruby>人<rt>ひと</rt></ruby>が わかい ころ、スペイン<ruby>語<rt>ご</rt></ruby>を ならった <ruby>本<rt>ほん</rt></ruby>です。ページの すみに、えんぴつで メモが たくさん ありました。「<ruby>三十年<rt>さんじゅうねん</rt></ruby>まえです」と わらって いました。ぼくの じしょにも、おなじような メモが あります。ことばを ならう <ruby>人<rt>ひと</rt></ruby>は、どこの <ruby>国<rt>くに</rt></ruby>でも おなじ ことを するようです。",
+ "traduccion": "El padre de Anna me enseñó un libro viejo. Es el libro con el que él estudió español de joven. En los márgenes había un montón de notas a lápiz. «Esto es de hace treinta años», dijo riéndose. En mi diccionario hay notas parecidas. Parece que quien aprende un idioma hace lo mismo en cualquier país.",
  "preguntas": [
   {
-   "p": "なぜ、すぐにこたえられませんでしたか。",
+   "p": "その <ruby>本<rt>ほん</rt></ruby>は なんの <ruby>本<rt>ほん</rt></ruby>ですか。",
    "opciones": [
-    "しつもんがむずかしかったから",
-    "しごとのためだけでは<ruby>本<rt>もと</rt></ruby>のこたえにならないから",
-    "<ruby>子<rt>こ</rt></ruby>どもだったから",
-    "たのしくないから"
+    "スペイン<ruby>語<rt>ご</rt></ruby>の <ruby>本<rt>ほん</rt></ruby>",
+    "<ruby>日本語<rt>にほんご</rt></ruby>の <ruby>本<rt>ほん</rt></ruby>",
+    "りょうりの <ruby>本<rt>ほん</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "この<ruby>人<rt>ひと</rt></ruby>がべんきょうをつづけるりゆうは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "p": "ページの すみに なにが ありましたか。",
    "opciones": [
-    "しごとのため",
-    "<ruby>知<rt>し</rt></ruby>るときの<ruby>気<rt>き</rt></ruby>もちがすきだから",
-    "<ruby>年<rt>とし</rt></ruby>をとったから",
-    "<ruby>子<rt>こ</rt></ruby>どものため"
+    "えんぴつの メモ",
+    "しゃしん",
+    "なにも ありません"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "その <ruby>本<rt>ほん</rt></ruby>は いつの ものですか。",
+   "opciones": [
+    "<ruby>三十年<rt>さんじゅうねん</rt></ruby>まえ",
+    "きょねん",
+    "<ruby>十年<rt>じゅうねん</rt></ruby>まえ"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "A child asked me why we study. I couldn't answer on the spot. The thing is, saying «for work» doesn't get to the real answer. Thinking about it, if I keep studying it's because I like the feeling of knowing something I didn't know. That feeling has nothing to do with age or with work. I answered the child «because it's fun». It's few words, but it isn't a lie."
+ "traduccion_en": "Anna's father showed me an old book. It's the book he learned Spanish from when he was young. In the margins there were lots of pencil notes. «This is from thirty years ago», he said, laughing. My dictionary has similar notes in it. It seems that people learning a language do the same thing in any country."
 }

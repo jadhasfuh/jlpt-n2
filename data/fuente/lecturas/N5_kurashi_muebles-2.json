@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kurashi/muebles-2",
- "titulo": "<ruby>眼鏡<rt>めがね</rt></ruby>をさがす",
- "cuerpo": "あさ、<ruby>眼鏡<rt>めがね</rt></ruby><em class=\"g\">を</em>さがしました。<ruby>時計<rt>とけい</rt></ruby><em class=\"g\">を</em><ruby>見<rt>み</rt></ruby>ると、もう<ruby>出<rt>で</rt></ruby>る<ruby>時間<rt>じかん</rt></ruby>でした。<ruby>椅子<rt>いす</rt></ruby>の<ruby>下<rt>した</rt></ruby>にも、<ruby>茶碗<rt>ちゃわん</rt></ruby>のよこにもありません。<ruby>花瓶<rt>かびん</rt></ruby>の<ruby>石<rt>いし</rt></ruby>のあいだをのぞきましたが、そこにもありません。<ruby>危<rt>あぶ</rt></ruby>ないので、<ruby>石鹸<rt>せっけん</rt></ruby>の<ruby>皿<rt>さら</rt></ruby>まで<ruby>見<rt>み</rt></ruby>ました。さいごに、じぶんのあたま<em class=\"g\">を</em>さわると、そこにありました。<ruby>寝<rt>ね</rt></ruby>るまえに<ruby>上<rt>うえ</rt></ruby>にあげて、そのままわすれていたのです。",
- "traduccion": "Por la mañana busqué las gafas. Miré el reloj y ya era hora de salir. No estaban debajo de la silla ni al lado del cuenco. Miré entre las piedras del jarrón y tampoco. Por si acaso, miré hasta el platito del jabón. Al final me toqué la cabeza y ahí estaban. Me las había subido antes de dormir y se me había olvidado.",
+ "titulo": "へやが ふえた もの",
+ "cuerpo": "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>で、へやの ものが ふえました。<ruby>時計<rt>とけい</rt></ruby>と、ちいさい <ruby>椅子<rt>いす</rt></ruby>と、こたつが あります。つくえの <ruby>上<rt>うえ</rt></ruby>には <ruby>眼鏡<rt>めがね</rt></ruby>と、アンナさんが くれた カップが あります。はじめの <ruby>日<rt>ひ</rt></ruby>、この へやは からっぽでした。ものが ふえると、<ruby>帰<rt>かえ</rt></ruby>る ばしょに なって いきます。でも、ぜんぶ おいて <ruby>帰<rt>かえ</rt></ruby>る <ruby>日<rt>ひ</rt></ruby>が <ruby>来<rt>く</rt></ruby>る ことも <ruby>知<rt>し</rt></ruby>って います。",
+ "traduccion": "En tres meses la habitación se ha llenado de cosas. Hay un reloj, una silla pequeña y el kotatsu. Encima de la mesa están mis gafas y una taza que me regaló Anna. El primer día esta habitación estaba vacía. Cuando se acumulan cosas, el sitio se convierte en un lugar al que volver. Aunque también sé que llegará el día de dejarlo todo aquí y marcharme.",
  "preguntas": [
   {
-   "p": "<ruby>眼鏡<rt>めがね</rt></ruby>はどこにありましたか。",
+   "p": "へやに あるのは なんですか。",
    "opciones": [
-    "<ruby>椅子<rt>いす</rt></ruby>の<ruby>下<rt>した</rt></ruby>",
-    "<ruby>花瓶<rt>かびん</rt></ruby>のなか",
-    "あたまの<ruby>上<rt>うえ</rt></ruby>",
-    "<ruby>石鹸<rt>せっけん</rt></ruby>の<ruby>皿<rt>さら</rt></ruby>"
+    "<ruby>時計<rt>とけい</rt></ruby>と <ruby>椅子<rt>いす</rt></ruby>と こたつ",
+    "ベッドだけ",
+    "なにも ありません"
    ],
-   "correcta": 2
+   "correcta": 0
   },
   {
-   "p": "なぜ、そこにありましたか。",
+   "p": "カップは だれが くれましたか。",
    "opciones": [
-    "だれかがおいたから",
-    "<ruby>寝<rt>ね</rt></ruby>るまえに<ruby>上<rt>うえ</rt></ruby>にあげてわすれたから",
-    "<ruby>時計<rt>とけい</rt></ruby>のよこにおいたから",
-    "おとしたから"
+    "アンナさん",
+    "たなかさん",
+    "ゴンサ"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "はじめの <ruby>日<rt>ひ</rt></ruby>、へやは どうでしたか。",
+   "opciones": [
+    "からっぽでした",
+    "いっぱいでした",
+    "きたなかったです"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "In the morning I looked for my glasses. I checked the clock and it was already time to leave. They weren't under the chair or beside the bowl. I looked among the stones in the vase and they weren't there either. Just in case, I even looked in the soap dish. In the end I touched my head and there they were. I'd pushed them up before going to sleep and forgotten."
+ "traduccion_en": "In three months the room has filled up with things. There's a clock, a small chair and the kotatsu. On the desk are my glasses and a cup Anna gave me. On the first day this room was empty. As things pile up, a place turns into somewhere you come back to. Though I also know the day will come when I leave it all behind."
 }

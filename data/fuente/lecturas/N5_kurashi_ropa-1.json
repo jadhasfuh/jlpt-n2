@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kurashi/ropa-1",
- "titulo": "<ruby>背広<rt>せびろ</rt></ruby>と<ruby>靴<rt>くつ</rt></ruby>",
- "cuerpo": "しごとの<ruby>一日<rt>いちにち</rt></ruby>めは、<ruby>背広<rt>せびろ</rt></ruby>をきました。<ruby>上着<rt>うわぎ</rt></ruby>のボタンをとめると、せなかがまっすぐになる<ruby>気<rt>き</rt></ruby>がします。<ruby>靴<rt>くつ</rt></ruby>は<ruby>革<rt>かわ</rt></ruby>のもので、あたらしいのであしがいたかったです。<ruby>靴下<rt>くつした</rt></ruby>をあついものにかえると、すこしよくなりました。<ruby>財布<rt>さいふ</rt></ruby>はポケットではなく、かばんに<ruby>入<rt>い</rt></ruby>れます。かえりに<ruby>雨<rt>あめ</rt></ruby>がふって、<ruby>洋服<rt>ようふく</rt></ruby>がぬれました。うちで<ruby>脱<rt>ぬ</rt></ruby>いで、かけておきました。あしたは<ruby>帽子<rt>ぼうし</rt></ruby>をもって<ruby>行<rt>い</rt></ruby>きます。",
- "traduccion": "El primer día de trabajo me puse un traje. Cuando me abrocho el botón de la chaqueta, me da la sensación de que la espalda se pone recta. Los zapatos eran de piel y, como estaban nuevos, me dolían los pies. Cambié a unos calcetines más gruesos y mejoró un poco. La cartera no la llevo en el bolsillo, sino en la mochila. A la vuelta llovió y la ropa se me mojó. En casa me la quité y la dejé colgada. Mañana me llevo el sombrero.",
+ "titulo": "<ruby>冬<rt>ふゆ</rt></ruby>の ふく",
+ "cuerpo": "メキシコから <ruby>持<rt>も</rt></ruby>って <ruby>来<rt>き</rt></ruby>た <ruby>服<rt>ふく</rt></ruby>では、<ruby>冬<rt>ふゆ</rt></ruby>は さむすぎました。やすい みせで コートを <ruby>買<rt>か</rt></ruby>いました。<ruby>靴下<rt>くつした</rt></ruby>を <ruby>二<rt>に</rt></ruby>まい はくと、ほんとうに あたたかいです。ミンさんの ことばは 正しかったです。<ruby>家<rt>いえ</rt></ruby>に <ruby>入<rt>はい</rt></ruby>る とき、<ruby>靴<rt>くつ</rt></ruby>を <ruby>脱<rt>ぬ</rt></ruby>ぐのは もう しぜんです。さいふには、いつも バイトの ふくが <ruby>入<rt>はい</rt></ruby>って います。",
+ "traduccion": "Con la ropa que me traje de México el invierno era demasiado frío. Me compré un abrigo en una tienda barata. Con dos pares de calcetines se está de verdad caliente. Min tenía razón. Quitarme los zapatos al entrar en casa ya me sale solo. En la mochila llevo siempre la ropa del trabajo.",
  "preguntas": [
   {
-   "p": "なぜ、あしがいたかったですか。",
+   "p": "メキシコの <ruby>服<rt>ふく</rt></ruby>は どうでしたか。",
    "opciones": [
-    "<ruby>靴下<rt>くつした</rt></ruby>がうすいから",
-    "<ruby>靴<rt>くつ</rt></ruby>があたらしいから",
-    "あるいたから",
-    "<ruby>雨<rt>あめ</rt></ruby>がふったから"
+    "さむすぎました",
+    "あつすぎました",
+    "ちょうど よかったです"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>財布<rt>さいふ</rt></ruby>はどこに<ruby>入<rt>い</rt></ruby>れますか。",
+   "p": "<ruby>靴下<rt>くつした</rt></ruby>を なんまい はきますか。",
    "opciones": [
-    "ポケット",
-    "かばん",
-    "<ruby>上着<rt>うわぎ</rt></ruby>",
-    "<ruby>背広<rt>せびろ</rt></ruby>"
+    "<ruby>二<rt>に</rt></ruby>まい",
+    "<ruby>一<rt>いち</rt></ruby>まい",
+    "はきません"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "だれの ことばが 正しかったですか。",
+   "opciones": [
+    "ミンさん",
+    "ゴンサ",
+    "たなかさん"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "On my first day at work I wore a suit. When I do up the jacket button, I get the feeling my back straightens. The shoes were leather and, since they were new, my feet hurt. I changed to thicker socks and it got a little better. I don't carry my wallet in my pocket, but in my bag. On the way back it rained and my clothes got wet. At home I took them off and left them hanging. Tomorrow I'm taking my hat."
+ "traduccion_en": "The clothes I brought from Mexico weren't enough for this winter. I bought a coat in a cheap shop. With two pairs of socks you really are warm. Min was right. Taking my shoes off when I go indoors comes naturally now. In my bag I always carry my work clothes."
 }

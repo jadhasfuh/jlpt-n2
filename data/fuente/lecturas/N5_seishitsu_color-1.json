@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/seishitsu/color-1",
- "titulo": "<ruby>色<rt>いろ</rt></ruby>のはなし",
- "cuerpo": "うちのかべは<ruby>白<rt>しろ</rt></ruby>です。まえは<ruby>青<rt>あお</rt></ruby>かったのですが、くらく<ruby>見<rt>み</rt></ruby>えたのでかえました。<ruby>白<rt>しろ</rt></ruby>いかべには、<ruby>赤<rt>あか</rt></ruby>いえも<ruby>緑<rt>みどり</rt></ruby>のえもあいます。そとの木は<ruby>春<rt>はる</rt></ruby>に<ruby>緑<rt>みどり</rt></ruby>になり、<ruby>秋<rt>あき</rt></ruby>には<ruby>黄色<rt>きいろ</rt></ruby>くなります。<ruby>茶色<rt>ちゃいろ</rt></ruby>のつくえのよこに<ruby>青<rt>あお</rt></ruby>いいすをおくと、へやがしずかに<ruby>見<rt>み</rt></ruby>えました。<ruby>色<rt>いろ</rt></ruby>をえらぶときは、いちどおいて<ruby>見<rt>み</rt></ruby>てからきめ<em class=\"g\">なくてはならない</em>とおもいます。かべをぜんぶぬってから、こうかいしたことがあるからです。",
- "traduccion": "La pared de casa es blanca. Antes era azul, pero se veía oscura y la cambiamos. Con una pared blanca pegan tanto los cuadros rojos como los verdes. El árbol de fuera se pone verde en primavera y amarillo en otoño. Al poner una silla azul junto al escritorio marrón, la habitación se veía serena. Creo que al elegir un color hay que ponerlo y mirarlo antes de decidir. Porque ya me pasó arrepentirme después de pintar la pared entera.",
+ "titulo": "まちの <ruby>色<rt>いろ</rt></ruby>",
+ "cuerpo": "<ruby>冬<rt>ふゆ</rt></ruby>の こうべは、<ruby>白<rt>しろ</rt></ruby>と はいいろが おおいです。でも、<ruby>一月<rt>いちがつ</rt></ruby>に なると、<ruby>赤<rt>あか</rt></ruby>い ちょうちんが みせの まえに つきます。やまは <ruby>茶色<rt>ちゃいろ</rt></ruby>で、うみは <ruby>青<rt>あお</rt></ruby>く <ruby>見<rt>み</rt></ruby>えます。アンナさんの コートは <ruby>黄色<rt>きいろ</rt></ruby>くて、とおくからでも すぐ わかります。メキシコの まちは、もっと <ruby>色<rt>いろ</rt></ruby>が おおいです。でも、<ruby>少<rt>すく</rt></ruby>ない <ruby>色<rt>いろ</rt></ruby>の <ruby>中<rt>なか</rt></ruby>の <ruby>赤<rt>あか</rt></ruby>は、よく <ruby>見<rt>み</rt></ruby>えます。",
+ "traduccion": "El invierno de Kobe es sobre todo blanco y gris. Pero en enero se encienden farolillos rojos delante de las tiendas. La montaña es marrón y el mar se ve azul. El abrigo de Anna es amarillo y se distingue desde lejos. En las ciudades de México hay muchos más colores. Pero cuando hay pocos, el rojo se ve mejor.",
  "preguntas": [
   {
-   "p": "まえのかべは<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>でしたか。",
+   "p": "<ruby>冬<rt>ふゆ</rt></ruby>の こうべは どんな <ruby>色<rt>いろ</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>白<rt>しろ</rt></ruby>",
-    "<ruby>青<rt>あお</rt></ruby>",
-    "<ruby>緑<rt>みどり</rt></ruby>",
-    "<ruby>茶色<rt>ちゃいろ</rt></ruby>"
+    "<ruby>白<rt>しろ</rt></ruby>と はいいろ",
+    "<ruby>赤<rt>あか</rt></ruby>と <ruby>青<rt>あお</rt></ruby>",
+    "<ruby>緑<rt>みどり</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>色<rt>いろ</rt></ruby>をえらぶとき、どうするといいですか。",
+   "p": "アンナさんの コートは なにいろですか。",
    "opciones": [
-    "すぐにきめる",
-    "いちどおいて<ruby>見<rt>み</rt></ruby>てからきめる",
-    "<ruby>人<rt>ひと</rt></ruby>にきく",
-    "<ruby>白<rt>しろ</rt></ruby>にする"
+    "<ruby>黄色<rt>きいろ</rt></ruby>",
+    "<ruby>赤<rt>あか</rt></ruby>",
+    "<ruby>白<rt>しろ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>一月<rt>いちがつ</rt></ruby>に みせの まえに つくのは なんですか。",
+   "opciones": [
+    "<ruby>赤<rt>あか</rt></ruby>い ちょうちん",
+    "でんき",
+    "はな"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "The wall at home is white. It used to be blue, but it looked dark and we changed it. With a white wall both red and green pictures go well. The tree outside turns green in spring and yellow in autumn. When we put a blue chair next to the brown desk, the room looked calm. I think that when choosing a colour you should put it there and look at it before deciding. Because I've already had the experience of regretting it after painting a whole wall."
+ "traduccion_en": "Winter in Kobe is mostly white and grey. But in January red lanterns light up in front of the shops. The mountain is brown and the sea looks blue. Anna's coat is yellow and you can spot it from far off. Mexican cities have far more colour. But when there are few, red stands out more."
 }

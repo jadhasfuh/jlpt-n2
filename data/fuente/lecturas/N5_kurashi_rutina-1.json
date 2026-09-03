@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/kurashi/rutina-1",
- "titulo": "まい<ruby>日<rt>にち</rt></ruby>のこと",
- "cuerpo": "わたしのまいあさは、いつもおなじ<em class=\"g\">です</em>。<ruby>六<rt>ろく</rt></ruby>じに<ruby>起<rt>お</rt></ruby>きて、シャワーを<ruby>浴<rt>あ</rt></ruby>びます。<ruby>顔<rt>かお</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>って、はを<ruby>磨<rt>みが</rt></ruby>きます。それから、へやを<ruby>掃<rt>は</rt></ruby>きます。<ruby>時間<rt>じかん</rt></ruby>が<ruby>余<rt>あま</rt></ruby>ったら、そとを<ruby>見<rt>み</rt></ruby>ながらコーヒーを<ruby>飲<rt>の</rt></ruby>みます。<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>も、おなじようにします。<ruby>暇<rt>ひま</rt></ruby>な<ruby>日<rt>ひ</rt></ruby>こそ、じかんをきめるほうがいいの<em class=\"g\">です</em>。そうしないと、<ruby>一日<rt>いちにち</rt></ruby>がすぐにおわってしまうから<em class=\"g\">です</em>。",
- "traduccion": "Mis mañanas son siempre iguales. Me levanto a las seis y me ducho. Me lavo la cara y me cepillo los dientes. Después barro la habitación. Si me sobra tiempo, me tomo un café mirando por la ventana. Los días libres hago lo mismo. Precisamente los días sin nada que hacer conviene fijar un horario. Porque si no, el día se acaba enseguida.",
+ "titulo": "まいにちの じゅんばん",
+ "cuerpo": "<ruby>朝<rt>あさ</rt></ruby> <ruby>六時<rt>ろくじ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きて、シャワーを <ruby>浴<rt>あ</rt></ruby>びます。かおを <ruby>洗<rt>あら</rt></ruby>って、はを みがいて、パンを <ruby>食<rt>た</rt></ruby>べます。<ruby>学校<rt>がっこう</rt></ruby>が おわると、バイトか、うちで べんきょうです。<ruby>暇<rt>ひま</rt></ruby>な <ruby>日<rt>ひ</rt></ruby>は、そとを あるきます。<ruby>夜<rt>よる</rt></ruby>は お<ruby>風呂<rt>ふろ</rt></ruby>に <ruby>入<rt>はい</rt></ruby>って、<ruby>十二時<rt>じゅうにじ</rt></ruby>に <ruby>休<rt>やす</rt></ruby>みます。この じゅんばんが できてから、<ruby>日本語<rt>にほんご</rt></ruby>が <ruby>少<rt>すこ</rt></ruby>しずつ よく なりました。",
+ "traduccion": "Me levanto a las seis y me ducho. Me lavo la cara, me lavo los dientes y desayuno pan. Al salir de clase, o trabajo o estudio en casa. Los días libres salgo a caminar. Por la noche me doy un baño y a las doce me acuesto. Desde que tengo este orden, mi japonés va mejorando poco a poco.",
  "preguntas": [
   {
-   "p": "<ruby>時間<rt>じかん</rt></ruby>が<ruby>余<rt>あま</rt></ruby>ったら、<ruby>何<rt>なに</rt></ruby>をしますか。",
+   "p": "<ruby>朝<rt>あさ</rt></ruby>、なんじに <ruby>起<rt>お</rt></ruby>きますか。",
    "opciones": [
-    "もういちど<ruby>寝<rt>ね</rt></ruby>る",
-    "コーヒーを<ruby>飲<rt>の</rt></ruby>む",
-    "へやを<ruby>掃<rt>は</rt></ruby>く",
-    "そとへ<ruby>出<rt>で</rt></ruby>る"
+    "<ruby>六時<rt>ろくじ</rt></ruby>",
+    "<ruby>七時<rt>しちじ</rt></ruby>",
+    "<ruby>八時<rt>はちじ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>暇<rt>ひま</rt></ruby>な<ruby>日<rt>ひ</rt></ruby>について、どうかんがえていますか。",
+   "p": "<ruby>暇<rt>ひま</rt></ruby>な <ruby>日<rt>ひ</rt></ruby>は なにを しますか。",
    "opciones": [
-    "<ruby>何<rt>なに</rt></ruby>もしなくていい",
-    "じかんをきめるほうがいい",
-    "はやく<ruby>起<rt>お</rt></ruby>きなくていい",
-    "<ruby>休<rt>やす</rt></ruby>むほうがいい"
+    "そとを あるきます",
+    "ねます",
+    "はたらきます"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "じゅんばんが できてから、どう なりましたか。",
+   "opciones": [
+    "<ruby>日本語<rt>にほんご</rt></ruby>が よく なりました",
+    "つかれました",
+    "かわりません"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "My mornings are always the same. I get up at six and take a shower. I wash my face and brush my teeth. Then I sweep the room. If I have time to spare, I have a coffee looking out of the window. On my days off I do the same. It's precisely on days with nothing to do that it's worth fixing a schedule. Because otherwise the day is over in no time."
+ "traduccion_en": "I get up at six and have a shower. I wash my face, brush my teeth and have bread. After school it's either work or studying at home. On free days I go out for a walk. At night I take a bath and go to bed at twelve. Since I've had this routine, my Japanese has been getting better bit by bit."
 }

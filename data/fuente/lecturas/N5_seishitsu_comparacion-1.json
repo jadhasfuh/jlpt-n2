@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/seishitsu/comparacion-1",
- "titulo": "<ruby>同<rt>おな</rt></ruby>じに<ruby>見<rt>み</rt></ruby>えて",
- "cuerpo": "ふたごのともだちがいます。かおはほとんど<ruby>同<rt>おな</rt></ruby>じですが、よく<ruby>見<rt>み</rt></ruby>ると<ruby>違<rt>ちが</rt></ruby>います。<ruby>一人<rt>ひとり</rt></ruby>はよく<ruby>話<rt>はな</rt></ruby>し、もう<ruby>一人<rt>ひとり</rt></ruby>はしずかです。はじめてあったとき、なんどもまちがえてしまいました。「どうしてわかるの?」ときくと、「あるきかたが<ruby>違<rt>ちが</rt></ruby>うん<em class=\"g\">です</em>」とおしえてくれました。それからは、かおではなくうしろすがたで<ruby>見<rt>み</rt></ruby>るようにしています。にている<ruby>人<rt>ひと</rt></ruby>はいても、<ruby>同<rt>おな</rt></ruby>じ<ruby>人<rt>ひと</rt></ruby>はいないん<em class=\"g\">です</em>。",
- "traduccion": "Tengo unos amigos gemelos. Sus caras son casi iguales, pero si te fijas bien son distintas. Uno habla mucho y el otro es callado. La primera vez que los conocí me equivoqué muchas veces. Cuando les pregunté cómo se distinguen, me explicaron: «es que andamos distinto». Desde entonces procuro mirar no la cara, sino la figura por detrás. Puede haber gente parecida, pero no hay dos personas iguales.",
+ "titulo": "<ruby>同<rt>おな</rt></ruby>じと <ruby>違<rt>ちが</rt></ruby>う",
+ "cuerpo": "アンナさんの <ruby>家<rt>いえ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。テーブルの ならべ<ruby>方<rt>かた</rt></ruby>も、あいさつも、ぼくの <ruby>家<rt>いえ</rt></ruby>とは <ruby>違<rt>ちが</rt></ruby>います。でも、おかあさんが たくさん <ruby>食<rt>た</rt></ruby>べさせようと するのは <ruby>同<rt>おな</rt></ruby>じでした。「メキシコの おかあさんも <ruby>同<rt>おな</rt></ruby>じです」と 言うと、みんな わらいました。ことばも りょうりも <ruby>違<rt>ちが</rt></ruby>いますが、<ruby>家族<rt>かぞく</rt></ruby>は にて います。その <ruby>日<rt>ひ</rt></ruby>、ぼくは あまり きんちょうしませんでした。",
+ "traduccion": "Fui a casa de Anna. Cómo se pone la mesa y cómo se saluda es distinto de mi casa. Pero que la madre intente que comas mucho es exactamente igual. Dije «las madres mexicanas hacen lo mismo» y se rieron todos. El idioma y la comida son distintos, pero las familias se parecen. Ese día no estuve tan nervioso.",
  "preguntas": [
   {
-   "p": "ふたごをどうやってみわけますか。",
+   "p": "なにが <ruby>同<rt>おな</rt></ruby>じでしたか。",
    "opciones": [
-    "かお",
-    "あるきかたやうしろすがた",
-    "<ruby>声<rt>こえ</rt></ruby>",
-    "みわけられない"
+    "おかあさんが たくさん <ruby>食<rt>た</rt></ruby>べさせる こと",
+    "テーブルの ならべ<ruby>方<rt>かた</rt></ruby>",
+    "あいさつ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をおもっていますか。",
+   "p": "みんなは どう しましたか。",
    "opciones": [
-    "ふたごはぜんぶ<ruby>同<rt>おな</rt></ruby>じだ",
-    "にている<ruby>人<rt>ひと</rt></ruby>はいても<ruby>同<rt>おな</rt></ruby>じ<ruby>人<rt>ひと</rt></ruby>はいない",
-    "かおがたいせつだ",
-    "しずかなほうがいい"
+    "わらいました",
+    "おこりました",
+    "なにも 言いませんでした"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "その <ruby>日<rt>ひ</rt></ruby>、カルロスさんは どうでしたか。",
+   "opciones": [
+    "あまり きんちょうしませんでした",
+    "とても こわかったです",
+    "はやく かえりました"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "I have twin friends. Their faces are almost identical, but if you look closely they're different. One talks a lot and the other is quiet. The first time I met them I got them wrong many times. When I asked how you tell them apart, they explained: «it's that we walk differently». Since then I try to look not at the face, but at the figure from behind. There may be people who look alike, but there are no two identical people."
+ "traduccion_en": "I went to Anna's house. How the table is laid and how people greet each other is different from my home. But a mother trying to make you eat more is exactly the same. I said «Mexican mothers do the same» and everyone laughed. The language and the food are different, but families are alike. That day I wasn't so nervous."
 }
