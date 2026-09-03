@@ -140,6 +140,7 @@ const T = {
   "uni.escucha":   { es: "Ejercicio de oído", en: "Listening exercise" },
   "uni.verSig":    { es: "ver significado", en: "show meaning" },
   "uni.siguienteUnidad": { es: "Siguiente unidad", en: "Next unit" },
+  "uni.est.punto":       { es: "el punto:", en: "the dot:" },
   "uni.est.dominada":    { es: "dominada", en: "mastered" },
   "uni.est.aprendiendo": { es: "en curso", en: "learning" },
   "uni.est.nueva":       { es: "nueva",    en: "new" },

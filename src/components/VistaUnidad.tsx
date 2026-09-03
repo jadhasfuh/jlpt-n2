@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { Gramatica, Kanji, Palabra, Unidad } from "@/lib/tipos";
 import { useAjustes } from "./Ajustes";
-import { Jp, BotonVoz } from "./Jp";
+import { Jp, BotonVoz, Leyenda } from "./Jp";
 import { PanelGramatica } from "./PanelGramatica";
 import { PanelKanji } from "./PanelKanji";
 import { Practica } from "./Practica";
@@ -144,7 +144,12 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
               })}
             </div>
 
+            {/* Dos sistemas de color distintos conviven en esta pantalla y hay
+                que decir cuál es cuál: el PUNTO es cómo llevas la palabra, y el
+                KANJI va pintado por su nivel JLPT. Sin las dos leyendas, el
+                color del kanji se lee como si también fuera del repaso. */}
             <div className="leyenda" style={{ marginTop: 10 }}>
+              <span className="tenue" style={{ fontWeight: 500 }}>{t("uni.est.punto")}</span>
               {([
                 ["dominada", "uni.est.dominada", "var(--acento)"],
                 ["aprendiendo", "uni.est.aprendiendo", "var(--acento-700)"],
@@ -157,6 +162,7 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
                 </span>
               ))}
             </div>
+            <Leyenda />
           </>
         )}
 

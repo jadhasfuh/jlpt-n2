@@ -348,6 +348,38 @@ el **título y el logo se dibujan a tamaño final**, que es donde de verdad se
 nota la falta de resolución: una letra ampliada canta y una línea de tinta
 ampliada no.
 
+### Para la imprenta
+
+`python3 scripts/35_libro_imprenta.py` deja en `docs/imprenta/` los dos
+archivos que pide cualquier imprenta —el **interior** y la **cubierta** por
+separado, nunca juntos—:
+
+| | |
+|---|---|
+| `libro-n5-interior.pdf` | 148 × 210 mm, 208 páginas, una tinta |
+| `libro-n5-cubierta.pdf` | 313 × 216 mm: contra + lomo + portada, con sangre y marcas |
+
+Lo comprobado, no de memoria:
+
+- **Fuentes incrustadas.** Reportlab mete las IPAex, así que sale solo.
+- **300 ppp al tamaño final.** Los dibujos van a 1536 px sobre 115 mm = 339 ppp.
+- **3 mm de sangre donde el color llega al borde.** En el **interior no hace
+  falta**: los dibujos van dentro de la caja y no tocan el corte. En la
+  cubierta sí, porque el dibujo llega al filo.
+- **El interior a una tinta**, en escala de grises y no CMYK. Un negro
+  compuesto de cuatro tintas se desregistra y encima cuesta más.
+- **Páginas múltiplo de 4**, que es como se pliegan los cuadernillos: 207 + 1 en
+  blanco = 208.
+- **El lomo depende del papel**: 11,4 mm con 208 páginas en offset de 90 g.
+  Con `--papel 80g-offset` o `100g-estucado` sale otro. **Confírmalo con la
+  imprenta antes de mandar nada**, porque el grosor real varía por proveedor y
+  un lomo mal calculado descuadra la cubierta entera.
+
+**Lo que NO hace: PDF/X-1a.** Reportlab no lo sabe y aquí no hay Ghostscript.
+El PDF es correcto en geometría, resolución y fuentes; la conversión la hace la
+imprenta sin problema, o se hace con Acrobat. Casi todas aceptan un PDF normal
+bien hecho, pero pregúntalo.
+
 ### Lo que falta cuando haya dibujos
 
 Las lecturas necesitarán un campo para la ilustración y su pie. Hasta que
