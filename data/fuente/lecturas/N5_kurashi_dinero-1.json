@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/kurashi/dinero-1",
  "titulo": "つぎの <ruby>朝<rt>あさ</rt></ruby>",
- "cuerpo": "つぎの <ruby>朝<rt>あさ</rt></ruby>、<ruby>目<rt>め</rt></ruby>が さめたのは <ruby>十時<rt>じゅうじ</rt></ruby>でした。ひこうきは <ruby>九時<rt>くじ</rt></ruby>でした。ぼくは しばらく てんじょうを <ruby>見<rt>み</rt></ruby>て いました。ゴンサも おきて、なにも 言いませんでした。あたらしい きっぷは、ぼくの <ruby>二<rt>ふつ</rt></ruby>か<ruby>分<rt>ぶん</rt></ruby>の しごとの おかねでした。「たのしかったな」と ゴンサが 言いましたが、ぼくは こたえませんでした。",
+ "cuerpo": "つぎの <ruby>朝<rt>あさ</rt></ruby>、<ruby>目<rt>め</rt></ruby>が さめたのは <ruby>十時<rt>じゅうじ</rt></ruby>でした。ひこうきは <ruby>九時<rt>くじ</rt></ruby>でした。ぼくは しばらく てんじょうを <ruby>見<rt>み</rt></ruby>て いました。ゴンサも おきて、なにも 言いませんでした。あたらしい きっぷは、ぼくの <ruby>二日分<rt>ふつかぶん</rt></ruby>の しごとの おかねでした。「たのしかったな」と ゴンサが 言いましたが、ぼくは こたえませんでした。",
  "traduccion": "A la mañana siguiente me desperté a las diez. El avión salía a las nueve. Me quedé un rato mirando el techo. Gonza se despertó y tampoco dijo nada. El billete nuevo me costó lo que gano en dos días de trabajo. «Ha estado bien, ¿eh?», dijo Gonza, pero yo no contesté.",
  "preguntas": [
   {
@@ -25,7 +25,7 @@
   {
    "p": "あたらしい きっぷは いくらでしたか。",
    "opciones": [
-    "<ruby>二<rt>ふつ</rt></ruby>か<ruby>分<rt>ぶん</rt></ruby>の しごとの おかね",
+    "<ruby>二日分<rt>ふつかぶん</rt></ruby>の しごとの おかね",
     "ただ",
     "はんぶんの ねだん"
    ],

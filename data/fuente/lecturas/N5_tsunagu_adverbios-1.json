@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/tsunagu/adverbios-1",
- "titulo": "<ruby>独<rt>ひと</rt></ruby>りの<ruby>時間<rt>じかん</rt></ruby>",
- "cuerpo": "わたしは<ruby>独<rt>ひと</rt></ruby>りでいるの<em class=\"g\">が好き</em>です。さびしいのではありません。<ruby>多分<rt>たぶん</rt></ruby>、あたまの<ruby>中<rt>なか</rt></ruby>をかたづける<ruby>時間<rt>じかん</rt></ruby>がひつようなのです。<ruby>人<rt>ひと</rt></ruby>と<ruby>話<rt>はな</rt></ruby>すのも<ruby>好<rt>す</rt></ruby>きですが、そのあとは<ruby>独<rt>ひと</rt></ruby>りになります。すぐに<ruby>分<rt>わ</rt></ruby>かることもあれば、<ruby>時間<rt>じかん</rt></ruby>がかかることもあります。しずかなところで<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むの<em class=\"g\">が好き</em>なのも、たぶんおなじりゆうです。",
- "traduccion": "Me gusta estar solo. No es que me sienta solo. Seguramente necesito un rato para ordenar lo que tengo en la cabeza. También me gusta hablar con la gente, pero después me quedo solo. Hay cosas que entiendo enseguida y otras que me llevan tiempo. Que me guste leer en un sitio tranquilo seguramente es por la misma razón.",
+ "titulo": "ぶんかさいの れんしゅう",
+ "cuerpo": "<ruby>学校<rt>がっこう</rt></ruby>の ぶんかさいで、<ruby>三人<rt>さんにん</rt></ruby>で うたう ことに なりました。<ruby>教室<rt>きょうしつ</rt></ruby>では はずかしいので、<ruby>公園<rt>こうえん</rt></ruby>で れんしゅうしました。はじめの <ruby>日<rt>ひ</rt></ruby>、こえが ぜんぜん <ruby>出<rt>で</rt></ruby>ませんでした。ジャンは ゆっくりと ギターを ひいて、ぼくたちを <ruby>待<rt>ま</rt></ruby>って くれました。たぶん <ruby>十日<rt>とおか</rt></ruby>ぐらい、まいばん <ruby>公園<rt>こうえん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。ひとりでは ぜったいに できなかったと おもいます。",
+ "traduccion": "En el festival cultural de la escuela nos apuntamos a cantar los tres. En el aula nos daba vergüenza, así que ensayábamos en el parque. El primer día no me salía la voz. Jean tocaba la guitarra despacio y nos esperaba. Fuimos al parque cada noche durante unos diez días. Solo no habría podido hacerlo jamás.",
  "preguntas": [
   {
-   "p": "なぜ、<ruby>独<rt>ひと</rt></ruby>りの<ruby>時間<rt>じかん</rt></ruby>がひつようですか。",
+   "p": "どうして <ruby>公園<rt>こうえん</rt></ruby>で れんしゅうしましたか。",
    "opciones": [
-    "さびしいから",
-    "あたまの<ruby>中<rt>なか</rt></ruby>をかたづけるため",
-    "<ruby>人<rt>ひと</rt></ruby>がきらいだから",
-    "<ruby>本<rt>ほん</rt></ruby>をよむため"
+    "<ruby>教室<rt>きょうしつ</rt></ruby>では はずかしいから",
+    "<ruby>公園<rt>こうえん</rt></ruby>が ひろいから",
+    "<ruby>学校<rt>がっこう</rt></ruby>が しまって いるから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>人<rt>ひと</rt></ruby>と<ruby>話<rt>はな</rt></ruby>すことについて、どうですか。",
+   "p": "はじめの <ruby>日<rt>ひ</rt></ruby>、どうでしたか。",
    "opciones": [
-    "きらい",
-    "<ruby>好<rt>す</rt></ruby>きだがそのあとは<ruby>独<rt>ひと</rt></ruby>りになる",
-    "しない",
-    "<ruby>多分<rt>たぶん</rt></ruby>できない"
+    "こえが <ruby>出<rt>で</rt></ruby>ませんでした",
+    "じょうずでした",
+    "<ruby>雨<rt>あめ</rt></ruby>でした"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "どのくらい れんしゅうしましたか。",
+   "opciones": [
+    "<ruby>十日<rt>とおか</rt></ruby>ぐらい",
+    "<ruby>一日<rt>いちにち</rt></ruby>",
+    "<ruby>一年<rt>いちねん</rt></ruby>"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "I like being alone. It isn't that I feel lonely. I probably need a while to sort out what's in my head. I like talking to people too, but afterwards I stay on my own. There are things I understand straight away and others that take me time. That I like reading in a quiet place is probably for the same reason."
+ "traduccion_en": "For the school's cultural festival the three of us signed up to sing. In the classroom we were too embarrassed, so we practised in the park. On the first day my voice wouldn't come out. Jean played the guitar slowly and waited for us. We went to the park every night for about ten days. On my own I could never have done it."
 }

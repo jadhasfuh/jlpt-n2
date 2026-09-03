@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/sonota/verbos-1",
- "titulo": "まいにちの<ruby>散歩<rt>さんぽ</rt></ruby>",
- "cuerpo": "まいあさ、うちのちかくを<ruby>散歩<rt>さんぽ</rt></ruby>します。<ruby>一<rt>いち</rt></ruby>じかんもかかりません。<ruby>建<rt>た</rt></ruby>ったばかりのたてものの<ruby>前<rt>まえ</rt></ruby>をとおると、きのうまでなかったかんばんが<ruby>付<rt>つ</rt></ruby>いていました。<ruby>待<rt>ま</rt></ruby>っていてもかわらないものもありますが、まちはすこしずつかわっています。あるかない<ruby>日<rt>ひ</rt></ruby>があると、からだのちょうしが<ruby>欠<rt>か</rt></ruby>けるようにかんじます。だから、あめでも<ruby>歩<rt>ある</rt></ruby>きます。ねぼうし<em class=\"g\">ちゃいけない</em>ので、よるははやく<ruby>寝<rt>ね</rt></ruby>ます。とちゅうでやめ<em class=\"g\">ちゃいけない</em>と、じぶんにやくそくしました。",
- "traduccion": "Cada mañana doy un paseo cerca de casa. No llega ni a una hora. Al pasar por delante de un edificio recién construido, vi que le habían puesto un cartel que ayer no estaba. Hay cosas que no cambian por mucho que esperes, pero la ciudad va cambiando poco a poco. Los días que no ando, siento que algo le falta a mi cuerpo. Por eso camino aunque llueva. Como no puedo quedarme dormido, me acuesto pronto. Me he prometido a mí mismo que no puedo dejarlo a medias.",
+ "titulo": "<ruby>住<rt>す</rt></ruby>んだ ばしょ",
+ "cuerpo": "この へやに <ruby>一年<rt>いちねん</rt></ruby> <ruby>住<rt>す</rt></ruby>みました。はじめは、なにも なくて、<ruby>音<rt>おと</rt></ruby>が よく ひびきました。いまは、ものの ばしょが ぜんぶ わかります。まいあさ おなじ <ruby>道<rt>みち</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby>して、おなじ <ruby>人<rt>ひと</rt></ruby>に <ruby>会<rt>あ</rt></ruby>います。パンやの おばさんは、ぼくの かおを おぼえて くれました。「<ruby>住<rt>す</rt></ruby>む」と いうのは、こういう ことだと おもいます。",
+ "traduccion": "He vivido un año en esta habitación. Al principio no había nada y el sonido rebotaba. Ahora sé dónde está cada cosa. Cada mañana paseo por la misma calle y me cruzo con la misma gente. La señora de la panadería se ha aprendido mi cara. Creo que esto es lo que significa «vivir en un sitio».",
  "preguntas": [
   {
-   "p": "<ruby>散歩<rt>さんぽ</rt></ruby>はどのくらいかかりますか。",
+   "p": "はじめ、へやは どうでしたか。",
    "opciones": [
-    "<ruby>一<rt>いち</rt></ruby>じかんより<ruby>少<rt>すく</rt></ruby>ない",
-    "<ruby>一<rt>いち</rt></ruby>じかん",
-    "<ruby>二<rt>に</rt></ruby>じかん",
-    "<ruby>三十分<rt>さんじゅっぷん</rt></ruby>ちょうど"
+    "なにも なくて <ruby>音<rt>おと</rt></ruby>が ひびきました",
+    "いっぱいでした",
+    "きたなかったです"
    ],
    "correcta": 0
   },
   {
-   "p": "あるかない<ruby>日<rt>ひ</rt></ruby>は、どうかんじますか。",
+   "p": "まいあさ なにを しますか。",
    "opciones": [
-    "らくだ",
-    "からだのちょうしが<ruby>欠<rt>か</rt></ruby>けるようだ",
-    "うれしい",
-    "<ruby>何<rt>なに</rt></ruby>もかんじない"
+    "おなじ <ruby>道<rt>みち</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby>します",
+    "はしります",
+    "ねて います"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "パンやの おばさんは なにを しましたか。",
+   "opciones": [
+    "かおを おぼえて くれました",
+    "パンを くれました",
+    "なにも しません"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Every morning I take a walk near home. It doesn't even take an hour. Going past a newly built block, I saw they'd put up a sign that wasn't there yesterday. There are things that don't change however long you wait, but the city keeps changing little by little. On days when I don't walk, I feel my body is missing something. That's why I walk even when it rains. Since I can't fall asleep, I go to bed early. I've promised myself that I can't leave it half done."
+ "traduccion_en": "I've lived in this room for a year. At first there was nothing in it and sound echoed. Now I know where everything is. Every morning I walk the same street and meet the same people. The woman at the bakery has learned my face. I think this is what «to live somewhere» means."
 }

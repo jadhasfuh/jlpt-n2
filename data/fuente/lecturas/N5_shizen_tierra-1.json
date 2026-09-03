@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/shizen/tierra-1",
- "titulo": "<ruby>山<rt>やま</rt></ruby>のみち",
- "cuerpo": "ちかくの<ruby>山<rt>やま</rt></ruby>にのぼりました。ちずでは<ruby>易<rt>やさ</rt></ruby>しそうに<ruby>見<rt>み</rt></ruby>えました。<em class=\"g\">でも</em>、じっさいはきゅうで、なんどもやすみました。うえまで<ruby>行<rt>い</rt></ruby>くと、<ruby>下<rt>した</rt></ruby>にまちがぜんぶ<ruby>見<rt>み</rt></ruby>えました。かえりはらくだとおもいました。<em class=\"g\">でも</em>、あしがつかれていて、のぼるときよりゆっくりでした。うちにかえってから、<ruby>碁<rt>ご</rt></ruby>をうちながら、きょうのみちをかんがえました。<ruby>山<rt>やま</rt></ruby>は、ちずより<ruby>大<rt>おお</rt></ruby>きいのです。",
- "traduccion": "Subí a la montaña que hay cerca. En el mapa parecía fácil. Pero en realidad era empinada y paré muchas veces. Al llegar arriba se veía el pueblo entero abajo. Pensé que la bajada sería cómoda. Pero tenía las piernas cansadas y fui más despacio que subiendo. Al volver a casa, mientras jugaba al go, estuve pensando en el camino de hoy. La montaña es más grande que el mapa.",
+ "titulo": "やまの <ruby>上<rt>うえ</rt></ruby>から",
+ "cuerpo": "こうべの うしろには、すぐ <ruby>山<rt>やま</rt></ruby>が あります。<ruby>学校<rt>がっこう</rt></ruby>の みんなで のぼりました。みちは <ruby>易<rt>やさ</rt></ruby>しかったです。<ruby>上<rt>うえ</rt></ruby>から <ruby>見<rt>み</rt></ruby>ると、まちと うみが ぜんぶ <ruby>見<rt>み</rt></ruby>えます。ぼくの アパートも、<ruby>学校<rt>がっこう</rt></ruby>も、バイトの みせも、ぜんぶ そこに あります。<ruby>一年<rt>いちねん</rt></ruby>の せいかつが、てのひらぐらいの <ruby>大<rt>おお</rt></ruby>きさでした。ジャンが「ちいさいな」と 言いました。ぼくは 「じゅうぶんだ」と こたえました。",
+ "traduccion": "Justo detrás de Kobe está la montaña. Subimos todos los de la escuela. El camino era fácil. Desde arriba se ve la ciudad entera y el mar. Mi piso, la escuela y la pizzería: todo está ahí dentro. Un año entero de mi vida cabía en el tamaño de una mano. Jean dijo: «qué pequeño». Yo contesté: «es suficiente».",
  "preguntas": [
   {
-   "p": "ちずでは、みちはどう<ruby>見<rt>み</rt></ruby>えましたか。",
+   "p": "みちは どうでしたか。",
    "opciones": [
-    "きゅう",
-    "<ruby>易<rt>やさ</rt></ruby>しそう",
-    "ながい",
-    "みじかい"
+    "<ruby>易<rt>やさ</rt></ruby>しかったです",
+    "とても むずかしかったです",
+    "ながかったです"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "かえりはどうでしたか。",
+   "p": "<ruby>上<rt>うえ</rt></ruby>から なにが <ruby>見<rt>み</rt></ruby>えましたか。",
    "opciones": [
-    "らくだった",
-    "のぼるときよりゆっくりだった",
-    "はやかった",
-    "やすまなかった"
+    "まちと うみ",
+    "ほかの <ruby>山<rt>やま</rt></ruby>",
+    "なにも"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんは なんと こたえましたか。",
+   "opciones": [
+    "「じゅうぶんだ」",
+    "「ちいさいな」",
+    "「かえろう」"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "I climbed the mountain nearby. On the map it looked easy. But it was actually steep and I stopped many times. When I got to the top you could see the whole town below. I thought the way down would be comfortable. But my legs were tired and I went more slowly than on the way up. Back home, while playing go, I kept thinking about today's path. The mountain is bigger than the map."
+ "traduccion_en": "Right behind Kobe there's the mountain. The whole school climbed it. The path was easy. From the top you can see the entire city and the sea. My flat, the school, the pizzeria: it's all in there. A whole year of my life fitted into the size of a hand. Jean said: «it's small». I answered: «it's enough»."
 }

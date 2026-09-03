@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/tsunagu/kosoado-1",
- "titulo": "これとそれとあれ",
- "cuerpo": "みせで、ははが「これをください」と<ruby>言<rt>い</rt></ruby>いました。てんいんは「そのあかいのですか」とききました。ははは「いいえ、そのとなりのあおいの」とこたえました。おなじものを<ruby>見<rt>み</rt></ruby>ていても、ことばだけではつたわりません。ゆびでさして、「ああ、こんなかたちのものですね」とてんいんが<ruby>言<rt>い</rt></ruby>って、やっとわかりました。この、その、あの。みじかいことばですが、どこから<ruby>見<rt>み</rt></ruby>ているかでかわるのです。",
- "traduccion": "En la tienda mi madre dijo «deme este». El dependiente preguntó «¿ese rojo?». Ella contestó «no, el azul de al lado». Aunque estén mirando lo mismo, con palabras solas no se entiende. Señaló con el dedo y el dependiente dijo «ah, uno con esta forma», y por fin quedó claro. Kono, sono, ano. Son palabras cortas, pero cambian según desde dónde estés mirando.",
+ "titulo": "からっぽの へや",
+ "cuerpo": "さいごの <ruby>日<rt>ひ</rt></ruby>、へやを そうじしました。かべの かみを ぜんぶ とると、あとが のこって いました。この つくえ、この まど、この ゆか。ぜんぶ おぼえて います。こんな ちいさい へやが、<ruby>一年<rt>いちねん</rt></ruby>の ぜんぶでした。たなかさんが <ruby>来<rt>き</rt></ruby>て、「また いつでも いらっしゃい」と 言いました。ああ、と こたえるのが やっとでした。",
+ "traduccion": "El último día limpié la habitación. Al quitar todos los papeles de la pared quedaron las marcas. Esta mesa, esta ventana, este suelo. Me acuerdo de todo. Una habitación tan pequeña ha sido un año entero. Vino la señora Tanaka y me dijo: «vuelve cuando quieras». No me salió más que un «ya».",
  "preguntas": [
   {
-   "p": "ははがほしかったのはどれですか。",
+   "p": "かべの かみを とると、なにが のこりましたか。",
    "opciones": [
-    "あかいの",
-    "あおいの",
-    "てんいんのもの",
-    "となりのみせのもの"
+    "あと",
+    "ことば",
+    "なにも"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "いつ、やっとわかりましたか。",
+   "p": "たなかさんは なんと 言いましたか。",
    "opciones": [
-    "ははが<ruby>言<rt>い</rt></ruby>ったとき",
-    "ゆびでさしたとき",
-    "てんいんがきいたとき",
-    "みせを<ruby>出<rt>で</rt></ruby>たとき"
+    "「また いつでも いらっしゃい」",
+    "「さようなら」",
+    "「はやく <ruby>出<rt>で</rt></ruby>て ください」"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんは どう こたえましたか。",
+   "opciones": [
+    "「ああ」と 言うのが やっとでした",
+    "ながく はなしました",
+    "なにも 言いませんでした"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "In the shop my mother said «give me this one». The assistant asked «that red one?». She answered «no, the blue one next to it». Even when you're both looking at the same thing, words alone don't get it across. She pointed with her finger and the assistant said «ah, one this shape», and at last it was clear. Kono, sono, ano. They're short words, but they change depending on where you're looking from."
+ "traduccion_en": "On the last day I cleaned the room. When I took all the papers off the wall, the marks stayed. This desk, this window, this floor. I remember all of it. A room this small has been a whole year. Mrs Tanaka came round and said: «come back any time». All I managed was a «yeah»."
 }

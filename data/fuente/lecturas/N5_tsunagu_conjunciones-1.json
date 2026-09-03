@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/tsunagu/conjunciones-1",
- "titulo": "<ruby>三<rt>みっ</rt></ruby>つの<ruby>中<rt>なか</rt></ruby>で",
- "cuerpo": "ちかくにみせが<ruby>三<rt>みっ</rt></ruby>つあります。ひとつめはやすいです。ふたつめは<ruby>近<rt>ちか</rt></ruby>いです。みっつめはしなものがおおいです。でも、この<em class=\"g\">の中で</em>ふたつめ<em class=\"g\">が一番</em>よく<ruby>行<rt>い</rt></ruby>きます。やすさやおおさより、<ruby>近<rt>ちか</rt></ruby>いことがたいせつだったのです。しかし、たくさんかうときは、みっつめまで<ruby>行<rt>い</rt></ruby>きます。それから、かえりにひとつめによることもあります。<ruby>他<rt>ほか</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>にはへんに<ruby>見<rt>み</rt></ruby>えるかもしれませんが、これがわたしのやりかたです。",
- "traduccion": "Cerca de casa hay tres tiendas. La primera es barata. La segunda queda cerca. La tercera tiene más surtido. Pero de este grupo, a la que más voy es a la segunda. Más que lo barato o lo variado, lo que importaba era la cercanía. Sin embargo, cuando compro mucho voy hasta la tercera. Y después, a veces paso por la primera a la vuelta. A los demás quizá les parezca raro, pero esta es mi manera.",
+ "titulo": "ごみの <ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "へやを かえす <ruby>前<rt>まえ</rt></ruby>に、ぜんぶ かたづけなければ なりません。もえる ごみは しゅうに <ruby>二<rt>に</rt></ruby>かい、あさ <ruby>五時<rt>ごじ</rt></ruby>から <ruby>八時<rt>はちじ</rt></ruby>までに <ruby>出<rt>だ</rt></ruby>します。しかし、<ruby>市<rt>し</rt></ruby>の ふくろに <ruby>入<rt>い</rt></ruby>れなければ うけとって もらえません。かんと びんと ペットボトルは <ruby>水曜日<rt>すいようび</rt></ruby>です。それから、プラスチックは しゅうに <ruby>一<rt>いっ</rt></ruby>かい。でも、<ruby>一番<rt>いちばん</rt></ruby> こまったのは ふとんでした。<ruby>大<rt>おお</rt></ruby>きい ごみは でんわで よやくが ひつようで、<ruby>二<rt>に</rt></ruby>しゅうかん かかると 言われました。",
+ "traduccion": "Antes de devolver el piso hay que recogerlo todo. La basura quemable se saca dos veces por semana, entre las cinco y las ocho de la mañana. Pero si no va en la bolsa oficial de la ciudad, no te la recogen. Latas, botellas y plásticos PET son los miércoles. Y el plástico de envases, una vez por semana. Lo que más me complicó, sin embargo, fue el futón. Los muebles grandes hay que pedirlos por teléfono con cita, y me dijeron que tardaban dos semanas.",
  "preguntas": [
   {
-   "p": "いちばんよく<ruby>行<rt>い</rt></ruby>くのはどのみせですか。",
+   "p": "もえる ごみは いつ <ruby>出<rt>だ</rt></ruby>しますか。",
    "opciones": [
-    "ひとつめ",
-    "ふたつめ",
-    "みっつめ",
-    "<ruby>行<rt>い</rt></ruby>かない"
+    "しゅうに <ruby>二<rt>に</rt></ruby>かい、あさ",
+    "まいにち",
+    "<ruby>水曜日<rt>すいようび</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "たくさんかうときはどうしますか。",
+   "p": "ふくろは どんな ふくろですか。",
    "opciones": [
-    "ひとつめへ<ruby>行<rt>い</rt></ruby>く",
-    "みっつめまで<ruby>行<rt>い</rt></ruby>く",
-    "<ruby>行<rt>い</rt></ruby>かない",
-    "ふたつめだけ"
+    "<ruby>市<rt>し</rt></ruby>の ふくろ",
+    "どんな ふくろでも いい",
+    "スーパーの ふくろ"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>大<rt>おお</rt></ruby>きい ごみは どう しますか。",
+   "opciones": [
+    "でんわで よやくします",
+    "<ruby>外<rt>そと</rt></ruby>に <ruby>出<rt>だ</rt></ruby>します",
+    "もえる ごみと いっしょに <ruby>出<rt>だ</rt></ruby>します"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Near my house there are three shops. The first is cheap. The second is close. The third has more choice. But out of this group, the one I go to most is the second. More than cheapness or variety, what mattered was being close. However, when I'm buying a lot I go as far as the third. And then I sometimes stop at the first on the way back. To other people it may seem odd, but this is my way."
+ "traduccion_en": "Before handing back the flat you have to clear everything out. Burnable rubbish goes out twice a week, between five and eight in the morning. But if it isn't in the city's official bag, they won't take it. Cans, bottles and PET are Wednesdays. And packaging plastic once a week. What caused me most trouble, though, was the futon. Large items have to be booked by phone, and they told me it takes two weeks."
 }

@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/sonota/adjetivos-1",
- "titulo": "<ruby>若<rt>わか</rt></ruby>いということ",
- "cuerpo": "「<ruby>若<rt>わか</rt></ruby>いうちにいろいろやりなさい」と、よく<ruby>言<rt>い</rt></ruby>われます。でも、<ruby>若<rt>わか</rt></ruby>いときは、<ruby>何<rt>なに</rt></ruby>をやりたいかもわからないものです。いま、<ruby>年<rt>とし</rt></ruby>をとってから、やりたいことがはっきりしてきました。からだはむかしより<ruby>弱<rt>よわ</rt></ruby>いですが、きもちは<ruby>強<rt>つよ</rt></ruby>くなりました。<ruby>若<rt>わか</rt></ruby>いのは<ruby>年<rt>とし</rt></ruby>ではなく、あたらしいことをはじめられるかどうかだとおもいます。きょうも<ruby>一<rt>ひと</rt></ruby>つ、はじめてのことをしました。",
- "traduccion": "Se oye mucho «haz muchas cosas mientras seas joven». Pero cuando eres joven ni siquiera sabes qué quieres hacer. Ahora que he cumplido años, lo que quiero hacer se ha ido aclarando. El cuerpo está más flojo que antes, pero el ánimo se ha vuelto más fuerte. Creo que ser joven no es la edad, sino si puedes empezar algo nuevo. Hoy también he hecho una cosa por primera vez.",
+ "titulo": "<ruby>若<rt>わか</rt></ruby>い うちに",
+ "cuerpo": "たなかさんが「<ruby>若<rt>わか</rt></ruby>い うちに、いろいろ しなさい」と 言いました。「わたしは そとの <ruby>国<rt>くに</rt></ruby>へ <ruby>行<rt>い</rt></ruby>った ことが ありません」とも 言いました。ぼくは、<ruby>行<rt>い</rt></ruby>きたい ばしょが まだ たくさん あります。でも、いま いる ばしょを たいせつに したいと おもいます。けんたくんは、<ruby>大<rt>おお</rt></ruby>きく なったら メキシコへ <ruby>行<rt>い</rt></ruby>くそうです。「まって いる」と ぼくは こたえました。",
+ "traduccion": "La señora Tanaka me dijo: «haz cosas mientras seas joven». También me dijo: «yo nunca he salido del país». A mí todavía me quedan muchos sitios a los que quiero ir. Pero quiero cuidar el sitio en el que estoy ahora. Kenta dice que cuando sea mayor irá a México. «Te espero», le contesté.",
  "preguntas": [
   {
-   "p": "<ruby>若<rt>わか</rt></ruby>いときは、どうだと<ruby>言<rt>い</rt></ruby>っていますか。",
+   "p": "たなかさんは なんと 言いましたか。",
    "opciones": [
-    "やりたいことがはっきりしている",
-    "<ruby>何<rt>なに</rt></ruby>をやりたいかもわからない",
-    "からだが<ruby>弱<rt>よわ</rt></ruby>い",
-    "きもちが<ruby>強<rt>つよ</rt></ruby>い"
+    "<ruby>若<rt>わか</rt></ruby>い うちに いろいろ しなさい",
+    "はやく かえりなさい",
+    "べんきょうしなさい"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "この<ruby>人<rt>ひと</rt></ruby>にとって、<ruby>若<rt>わか</rt></ruby>いとは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "p": "たなかさんは <ruby>外国<rt>がいこく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>った ことが ありますか。",
    "opciones": [
-    "<ruby>年<rt>とし</rt></ruby>がすくないこと",
-    "あたらしいことをはじめられること",
-    "からだが<ruby>強<rt>つよ</rt></ruby>いこと",
-    "しごとがあること"
+    "ありません",
+    "あります",
+    "まいとし <ruby>行<rt>い</rt></ruby>きます"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "けんたくんは <ruby>大<rt>おお</rt></ruby>きく なったら なにを しますか。",
+   "opciones": [
+    "メキシコへ <ruby>行<rt>い</rt></ruby>きます",
+    "サッカーの せんしゅに なります",
+    "はたらきます"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "You often hear «do lots of things while you're young». But when you're young you don't even know what you want to do. Now that I've got older, what I want to do has been getting clearer. My body is weaker than before, but my spirit has got stronger. I think being young isn't about age, but about whether you can start something new. Today too I did something for the first time."
+ "traduccion_en": "Mrs Tanaka told me: «do things while you're young». She also said: «I've never been abroad». There are still plenty of places I want to go. But I want to look after the place I'm in now. Kenta says that when he's older he'll go to Mexico. «I'll be waiting», I answered."
 }

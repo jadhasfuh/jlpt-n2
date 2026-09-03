@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/sonota/sustantivos-1",
- "titulo": "<ruby>名前<rt>なまえ</rt></ruby>のこと",
- "cuerpo": "わたしの<ruby>名前<rt>なまえ</rt></ruby>は、そふがつけてくれました。<ruby>例<rt>れい</rt></ruby>をいくつも<ruby>書<rt>か</rt></ruby>いて、さいごにこれにきめたそうです。ながい<ruby>名前<rt>なまえ</rt></ruby><em class=\"g\">より</em>みじかい<em class=\"g\">ほうが</em>おぼえてもらいやすい、というのがりゆうでした。たしかに、はじめての<ruby>人<rt>ひと</rt></ruby>にもすぐおぼえてもらえます。ハンカチやレコードにも<ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いておくと、なくしたときにもどってきます。ものをなくす<ruby>防止<rt>ぼうし</rt></ruby>には、あたらしいものをかう<em class=\"g\">より</em>、<ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>く<em class=\"g\">ほうが</em>はやいのです。",
- "traduccion": "Mi nombre me lo puso mi abuelo. Dicen que escribió varios ejemplos y al final se decidió por este. Su razón era que un nombre corto se recuerda mejor que uno largo. Y es verdad: la gente que me conoce por primera vez se lo aprende enseguida. Si escribes tu nombre en los pañuelos y en los discos, cuando los pierdes vuelven. Para evitar perder cosas, es más rápido escribir el nombre que comprar otras nuevas.",
+ "titulo": "<ruby>本棚<rt>ほんだな</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>で",
+ "cuerpo": "ジャンが あたらしい <ruby>本棚<rt>ほんだな</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。ぼくたちの <ruby>本<rt>ほん</rt></ruby>を ぜんぶ ならべると、はんぶんも うまりませんでした。<ruby>一年<rt>いちねん</rt></ruby>で よんだ <ruby>本<rt>ほん</rt></ruby>は、それだけです。でも、その うちの <ruby>三<rt>さん</rt></ruby>さつは、じしょを つかわずに よめました。<ruby>名前<rt>なまえ</rt></ruby>も <ruby>書<rt>か</rt></ruby>いて おきました。つぎに <ruby>来<rt>く</rt></ruby>る <ruby>人<rt>ひと</rt></ruby>が つかえるように、へやに のこして <ruby>行<rt>い</rt></ruby>く つもりです。",
+ "traduccion": "Jean se compró una estantería nueva. Pusimos todos nuestros libros y no llenamos ni la mitad. Eso es todo lo que hemos leído en un año. Pero tres de ellos los leí sin usar el diccionario. Les puse también mi nombre. Pienso dejarlos en el piso para quien venga después.",
  "preguntas": [
   {
-   "p": "そふが、なぜその<ruby>名前<rt>なまえ</rt></ruby>にしましたか。",
+   "p": "<ruby>本<rt>ほん</rt></ruby>を ならべると どうでしたか。",
    "opciones": [
-    "ながいから",
-    "みじかいほうがおぼえてもらいやすいから",
-    "<ruby>例<rt>れい</rt></ruby>がなかったから",
-    "きれいだから"
+    "はんぶんも うまりませんでした",
+    "いっぱいに なりました",
+    "はいりませんでした"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "ものをなくさないために、<ruby>何<rt>なに</rt></ruby>がはやいですか。",
+   "p": "じしょを つかわずに よめたのは なんさつですか。",
    "opciones": [
-    "あたらしいものをかう",
-    "<ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>く",
-    "もたない",
-    "しまう"
+    "<ruby>三<rt>さん</rt></ruby>さつ",
+    "<ruby>一<rt>いっ</rt></ruby>さつ",
+    "ぜんぶ"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>本<rt>ほん</rt></ruby>を どう する つもりですか。",
+   "opciones": [
+    "へやに のこして <ruby>行<rt>い</rt></ruby>きます",
+    "<ruby>国<rt>くに</rt></ruby>へ <ruby>持<rt>も</rt></ruby>って <ruby>帰<rt>かえ</rt></ruby>ります",
+    "うります"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "My grandfather gave me my name. They say he wrote out several examples and in the end settled on this one. His reason was that a short name is remembered better than a long one. And it's true: people who meet me for the first time learn it straight away. If you write your name on your handkerchiefs and your discs, when you lose them they come back. To avoid losing things, writing your name is faster than buying new ones."
+ "traduccion_en": "Jean bought a new bookshelf. We put all our books on it and didn't fill even half. That's everything we've read in a year. But three of them I read without using the dictionary. I wrote my name in them too. I plan to leave them in the flat for whoever comes next."
 }

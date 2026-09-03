@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/tsunagu/pronombres-1",
- "titulo": "<ruby>誰<rt>だれ</rt></ruby>のもの",
- "cuerpo": "きょうしつに、<ruby>名前<rt>なまえ</rt></ruby>のないノートがありました。「これは<ruby>誰<rt>だれ</rt></ruby>のですか」とみんなにききましたが、<ruby>誰<rt>だれ</rt></ruby>もこたえません。なぜ<ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>かないのだろうとおもいました。そのノート<em class=\"g\">は</em>わたしのもの<em class=\"g\">より</em>あついです。<ruby>中<rt>なか</rt></ruby>を<ruby>見<rt>み</rt></ruby>ると、<ruby>字<rt>じ</rt></ruby>がとてもきれいでした。つぎの<ruby>日<rt>ひ</rt></ruby>、となりのクラスの<ruby>人<rt>ひと</rt></ruby>がとりにきました。「いかがしましたか」ときくと、わらってあたまをさげました。<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わなくても、うれしいのがわかりました。",
- "traduccion": "En el aula había un cuaderno sin nombre. Pregunté a todos «¿de quién es esto?», pero nadie contestó. Me pregunté por qué no le pondrían el nombre. Aquel cuaderno era más grueso que el mío. Al mirar dentro, la letra era preciosa. Al día siguiente vino a recogerlo alguien de la clase de al lado. Le pregunté «¿qué tal ha ido?» y me hizo una reverencia riéndose. Aunque no dijo nada, se notaba que estaba contenta.",
+ "titulo": "また、いつか",
+ "cuerpo": "くうこうに、だれが <ruby>来<rt>く</rt></ruby>るか わかりませんでした。ジャンと ゴンサと ミンさんと、けんたくんまで <ruby>来<rt>き</rt></ruby>ました。アンナさんは なにも 言わないで、ぼくの てを もって いました。「なぜ <ruby>一年<rt>いちねん</rt></ruby>は こんなに はやいの?」と けんたくんが ききました。だれも こたえられませんでした。ひこうきの まどから、こうべの やまが <ruby>見<rt>み</rt></ruby>えました。ぼくは、また <ruby>来<rt>き</rt></ruby>ますと、こえに <ruby>出<rt>だ</rt></ruby>さないで 言いました。",
+ "traduccion": "No sabía quién iba a venir al aeropuerto. Vinieron Jean, Gonza, Min y hasta Kenta. Anna no dijo nada y me tenía cogida la mano. «¿Por qué un año pasa tan rápido?», preguntó Kenta. Nadie supo contestarle. Desde la ventanilla del avión se veía la montaña de Kobe. Dije «volveré», sin llegar a decirlo en voz alta.",
  "preguntas": [
   {
-   "p": "ノートについて、<ruby>正<rt>ただ</rt></ruby>しいのはどれですか。",
+   "p": "くうこうに だれが <ruby>来<rt>き</rt></ruby>ましたか。",
    "opciones": [
-    "<ruby>名前<rt>なまえ</rt></ruby>が<ruby>書<rt>か</rt></ruby>いてあった",
-    "わたしのもの<em class=\"g\">より</em>あつい",
-    "<ruby>字<rt>じ</rt></ruby>がきたない",
-    "<ruby>誰<rt>だれ</rt></ruby>のものかすぐわかった"
+    "ジャンと ゴンサと ミンさんと けんたくん",
+    "だれも <ruby>来<rt>き</rt></ruby>ませんでした",
+    "たなかさんだけ"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "つぎの<ruby>日<rt>ひ</rt></ruby>、<ruby>誰<rt>だれ</rt></ruby>がきましたか。",
+   "p": "けんたくんは <ruby>何<rt>なに</rt></ruby>を ききましたか。",
    "opciones": [
-    "おなじクラスの<ruby>人<rt>ひと</rt></ruby>",
-    "となりのクラスの<ruby>人<rt>ひと</rt></ruby>",
-    "せんせい",
-    "<ruby>誰<rt>だれ</rt></ruby>もこない"
+    "なぜ <ruby>一年<rt>いちねん</rt></ruby>は はやいのか",
+    "いつ <ruby>帰<rt>かえ</rt></ruby>るのか",
+    "メキシコは どこか"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "ひこうきの まどから <ruby>何<rt>なに</rt></ruby>が <ruby>見<rt>み</rt></ruby>えましたか。",
+   "opciones": [
+    "こうべの やま",
+    "うみだけ",
+    "なにも"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "In the classroom there was a notebook with no name on it. I asked everyone «whose is this?», but nobody answered. I wondered why they hadn't put their name on it. That notebook was thicker than mine. When I looked inside, the handwriting was beautiful. The next day someone from the class next door came to collect it. I asked her «how did it go?» and she bowed with a laugh. Although she said nothing, you could tell she was pleased."
+ "traduccion_en": "I didn't know who would come to the airport. Jean came, and Gonza, and Min, and even Kenta. Anna said nothing and held my hand. «Why does a year go so fast?» Kenta asked. Nobody could answer him. From the plane window I could see the mountain above Kobe. I said «I'll be back», without saying it out loud."
 }

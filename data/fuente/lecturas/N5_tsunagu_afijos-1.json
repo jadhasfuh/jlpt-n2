@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/tsunagu/afijos-1",
- "titulo": "<ruby>古<rt>ふる</rt></ruby>いものと<ruby>新<rt>あたら</rt></ruby>しいもの",
- "cuerpo": "そぼの<ruby>家<rt>いえ</rt></ruby>には、<ruby>古<rt>ふる</rt></ruby>いものがたくさんあります。<ruby>旧<rt>きゅう</rt></ruby>いとけいや、<ruby>上<rt>うわ</rt></ruby>ぎのボタンまでとってあります。「<ruby>反<rt>はん</rt></ruby>たいだね」と<ruby>母<rt>はは</rt></ruby>は<ruby>言<rt>い</rt></ruby>います。<ruby>母<rt>はは</rt></ruby>はすぐにすててしまう<ruby>人<rt>ひと</rt></ruby>だからです。わたしはそのあいだにいます。おきゃく<ruby>様<rt>さま</rt></ruby>にもらったコップは、<em class=\"g\">まだ</em>つかっ<em class=\"g\">ていません</em>。すてるかどうかも、<em class=\"g\">まだ</em>きめ<em class=\"g\">ていません</em>。きめられないのは、まようだけのねうちがあるからだとおもいます。",
- "traduccion": "En casa de mi abuela hay muchas cosas viejas. Guarda hasta relojes antiguos y los botones de las chaquetas. Mi madre dice «sois opuestas». Es que ella tira las cosas enseguida. Yo estoy en medio. La taza que me regaló una visita todavía no la he usado. Tampoco he decidido aún si tirarla. Creo que si no consigo decidirme es porque merece la pena dudar.",
+ "titulo": "ぶんかさいの <ruby>日<rt>ひ</rt></ruby>",
+ "cuerpo": "ぶんかさいの <ruby>日<rt>ひ</rt></ruby>、<ruby>教室<rt>きょうしつ</rt></ruby>は <ruby>人<rt>ひと</rt></ruby>で いっぱいでした。ぼくたちの <ruby>前<rt>まえ</rt></ruby>に、ダンスの グループが <ruby>出<rt>で</rt></ruby>ました。ぼくは てが つめたく なって、ずっと ポケットに <ruby>入<rt>い</rt></ruby>れて いました。アンナさんが 「だいじょうぶ」と、こえだけで 言いました。ジャンが ギターを ひきはじめると、きゅうに おちつきました。<ruby>三<rt>さん</rt></ruby>きょく うたいました。さいごの きょくで、みんなが てを たたきました。",
+ "traduccion": "El día del festival el aula estaba a reventar. Antes de nosotros salió un grupo de baile. A mí se me quedaron las manos heladas y las tenía metidas en los bolsillos. Anna me dijo «tranquilo» sólo moviendo los labios. En cuanto Jean empezó a tocar, me calmé de golpe. Cantamos tres canciones. En la última, todo el mundo aplaudió.",
  "preguntas": [
   {
-   "p": "<ruby>母<rt>はは</rt></ruby>はどんな<ruby>人<rt>ひと</rt></ruby>ですか。",
+   "p": "ぼくたちの <ruby>前<rt>まえ</rt></ruby>に <ruby>出<rt>で</rt></ruby>たのは だれですか。",
    "opciones": [
-    "<ruby>古<rt>ふる</rt></ruby>いものをとっておく",
-    "すぐにすててしまう",
-    "まよう",
-    "とけいがすき"
+    "ダンスの グループ",
+    "アンナさん",
+    "<ruby>先生<rt>せんせい</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "コップはどうなっていますか。",
+   "p": "アンナさんは なんと 言いましたか。",
    "opciones": [
-    "つかっている",
-    "<em class=\"g\">まだ</em>つかっ<em class=\"g\">ていません</em>",
-    "すてた",
-    "そぼにあげた"
+    "「だいじょうぶ」",
+    "「がんばって」",
+    "なにも"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "なんきょく うたいましたか。",
+   "opciones": [
+    "<ruby>三<rt>さん</rt></ruby>きょく",
+    "<ruby>一<rt>いっ</rt></ruby>きょく",
+    "<ruby>五<rt>ご</rt></ruby>きょく"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "At my grandmother's house there are many old things. She even keeps old clocks and the buttons off jackets. My mother says «you two are opposites». The thing is she throws things out straight away. I'm in the middle. The cup a visitor gave me I still haven't used. Nor have I decided whether to throw it out. I think that if I can't make up my mind, it's because it's worth hesitating."
+ "traduccion_en": "On the day of the festival the classroom was packed. Before us a dance group performed. My hands went cold and I kept them in my pockets. Anna mouthed «you'll be fine» without a sound. The moment Jean started playing, I suddenly calmed down. We sang three songs. On the last one, everyone clapped."
 }
