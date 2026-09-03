@@ -1,7 +1,7 @@
 {
  "unidad_id": "N3/shigoto/trabajo-2",
  "titulo": "<ruby>面接<rt>めんせつ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>",
- "cuerpo": "<ruby>就職<rt>しゅうしょく</rt></ruby>の<ruby>面接<rt>めんせつ</rt></ruby>を<ruby>受<rt>う</rt></ruby>けてきました。<ruby>名刺<rt>めいし</rt></ruby>のわたし<ruby>方<rt>かた</rt></ruby>から<ruby>練習<rt>れんしゅう</rt></ruby>しました。<ruby>職業<rt>しょくぎょう</rt></ruby>をえらぶとき、<ruby>給料<rt>きゅうりょう</rt></ruby>や<ruby>通勤<rt>つうきん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>も<ruby>気<rt>き</rt></ruby>になります。でも<em class=\"g\">むしろ</em>、どんな<ruby>同僚<rt>どうりょう</rt></ruby>とはたらくかのほうが<ruby>大<rt>だい</rt></ruby>じかもしれません。<ruby>責任<rt>せきにん</rt></ruby>のおもい<ruby>仕事<rt>しごと</rt></ruby>でも、<ruby>相談<rt>そうだん</rt></ruby>できる<ruby>人<rt>ひと</rt></ruby>がいればやっていけます。<ruby>報告<rt>ほうこく</rt></ruby>のしかたひとつでも、チームによってまるでちがうそうです。<em class=\"g\">なるべく</em>はやく<ruby>返事<rt>へんじ</rt></ruby>がほしいところですが、こういうことは<ruby>待<rt>ま</rt></ruby>つしかありません。",
+ "cuerpo": "<ruby>就職<rt>しゅうしょく</rt></ruby>の<ruby>面接<rt>めんせつ</rt></ruby>を<ruby>受<rt>う</rt></ruby>けてきました。<ruby>名刺<rt>めいし</rt></ruby>のわたし<ruby>方<rt>かた</rt></ruby>から<ruby>練習<rt>れんしゅう</rt></ruby>しました。<ruby>職業<rt>しょくぎょう</rt></ruby>をえらぶとき、<ruby>給料<rt>きゅうりょう</rt></ruby>や<ruby>通勤<rt>つうきん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>も<ruby>気<rt>き</rt></ruby>になります。でも<em class=\"g\">むしろ</em>、どんな<ruby>同僚<rt>どうりょう</rt></ruby>とはたらくかのほうが<ruby>大事<rt>だいじ</rt></ruby>かもしれません。<ruby>責任<rt>せきにん</rt></ruby>のおもい<ruby>仕事<rt>しごと</rt></ruby>でも、<ruby>相談<rt>そうだん</rt></ruby>できる<ruby>人<rt>ひと</rt></ruby>がいればやっていけます。<ruby>報告<rt>ほうこく</rt></ruby>のしかたひとつでも、チームによってまるでちがうそうです。<em class=\"g\">なるべく</em>はやく<ruby>返事<rt>へんじ</rt></ruby>がほしいところですが、こういうことは<ruby>待<rt>ま</rt></ruby>つしかありません。",
  "traduccion": "Fui a una entrevista de trabajo. Practiqué hasta cómo entregar la tarjeta de visita. Al elegir un empleo, también te preocupan el sueldo y el tiempo de desplazamiento. Pero puede que importe más bien con qué compañeros vas a trabajar. Incluso en un puesto de mucha responsabilidad, si tienes a quien consultar, sales adelante. Dicen que hasta la forma de informar cambia por completo según el equipo. Me gustaría tener respuesta cuanto antes, pero estas cosas no queda más que esperarlas.",
  "preguntas": [
   {
@@ -15,7 +15,7 @@
    "correcta": 1
   },
   {
-   "p": "この<ruby>人<rt>ひと</rt></ruby>が<em class=\"g\">むしろ</em><ruby>大<rt>だい</rt></ruby>じだと<ruby>思<rt>おも</rt></ruby>うのは<ruby>何<rt>なに</rt></ruby>ですか。",
+   "p": "この<ruby>人<rt>ひと</rt></ruby>が<em class=\"g\">むしろ</em><ruby>大事<rt>だいじ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>うのは<ruby>何<rt>なに</rt></ruby>ですか。",
    "opciones": [
     "<ruby>給料<rt>きゅうりょう</rt></ruby>",
     "どんな<ruby>同僚<rt>どうりょう</rt></ruby>とはたらくか",

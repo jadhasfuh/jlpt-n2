@@ -1,11 +1,11 @@
 {
  "unidad_id": "N3/kokoro/saludos-1",
- "titulo": "<ruby>御辞儀<rt>おじぎ</rt></ruby>のふかさ",
- "cuerpo": "はじめて<ruby>日本<rt>にほん</rt></ruby>ではたらいたとき、<ruby>御辞儀<rt>おじぎ</rt></ruby>のふかさに<ruby>意味<rt>いみ</rt></ruby>があると<ruby>知<rt>し</rt></ruby>っておどろきました。あさのあいさつは<ruby>軽<rt>かる</rt></ruby>く、あやまるときはふかくします。<ruby>知<rt>し</rt></ruby>らずに<ruby>同<rt>おな</rt></ruby>じふかさでしていて、<ruby>失礼<rt>しつれい</rt></ruby>だった<em class=\"g\">こと</em>でしょう。「ごめんなさい」と<ruby>言<rt>い</rt></ruby>えばすむと<ruby>思<rt>おも</rt></ruby>っていましたが、ことばとからだが<ruby>合<rt>あ</rt></ruby>っていないと、<ruby>気持<rt>きも</rt></ruby>ちはつたわりません。<ruby>禁煙<rt>きんえん</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>でタバコをすうように、<ruby>場<rt>ば</rt></ruby>にあわないことをする<em class=\"g\">べきではない</em>のです。あいにく、これは<ruby>辞<rt>じ</rt></ruby>しょには<ruby>書<rt>か</rt></ruby>いてありません。",
+ "titulo": "お<ruby>辞儀<rt>じぎ</rt></ruby>のふかさ",
+ "cuerpo": "はじめて<ruby>日本<rt>にほん</rt></ruby>ではたらいたとき、お<ruby>辞儀<rt>じぎ</rt></ruby>のふかさに<ruby>意味<rt>いみ</rt></ruby>があると<ruby>知<rt>し</rt></ruby>っておどろきました。あさのあいさつは<ruby>軽<rt>かる</rt></ruby>く、あやまるときはふかくします。<ruby>知<rt>し</rt></ruby>らずに<ruby>同<rt>おな</rt></ruby>じふかさでしていて、<ruby>失礼<rt>しつれい</rt></ruby>だった<em class=\"g\">こと</em>でしょう。「ごめんなさい」と<ruby>言<rt>い</rt></ruby>えばすむと<ruby>思<rt>おも</rt></ruby>っていましたが、ことばとからだが<ruby>合<rt>あ</rt></ruby>っていないと、<ruby>気持<rt>きも</rt></ruby>ちはつたわりません。<ruby>禁煙<rt>きんえん</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>でタバコをすうように、<ruby>場<rt>ば</rt></ruby>にあわないことをする<em class=\"g\">べきではない</em>のです。あいにく、これは<ruby>辞書<rt>じしょ</rt></ruby>には<ruby>書<rt>か</rt></ruby>いてありません。",
  "traduccion": "Cuando trabajé por primera vez en Japón, me sorprendió saber que la profundidad de la reverencia tiene significado. El saludo de la mañana es ligero; al disculparse, profunda. Sin saberlo yo las hacía todas iguales, y debía de resultar descortés. Creía que bastaba con decir «lo siento», pero si las palabras y el cuerpo no coinciden, el sentimiento no llega. Igual que no se debe fumar en un sitio donde está prohibido, no hay que hacer cosas que no encajan con la situación. Por desgracia, esto no viene en el diccionario.",
  "preguntas": [
   {
-   "p": "<ruby>御辞儀<rt>おじぎ</rt></ruby>のふかさについて、<ruby>何<rt>なに</rt></ruby>を<ruby>知<rt>し</rt></ruby>りましたか。",
+   "p": "お<ruby>辞儀<rt>じぎ</rt></ruby>のふかさについて、<ruby>何<rt>なに</rt></ruby>を<ruby>知<rt>し</rt></ruby>りましたか。",
    "opciones": [
     "いつも<ruby>同<rt>おな</rt></ruby>じ",
     "ばめんによって<ruby>意味<rt>いみ</rt></ruby>がちがう",
@@ -20,7 +20,7 @@
     "ゆるされる",
     "<ruby>気持<rt>きも</rt></ruby>ちがつたわらない",
     "はやい",
-    "<ruby>辞<rt>じ</rt></ruby>しょでわかる"
+    "<ruby>辞書<rt>じしょ</rt></ruby>でわかる"
    ],
    "correcta": 1
   }

@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/kurashi/muebles-1",
  "titulo": "こたつを もらう",
- "cuerpo": "たなかさんが「つかわない こたつが ある」と 言って、くれました。ふるいですが、まだ つかえます。テーブルの <ruby>下<rt>した</rt></ruby>に あしを <ruby>入<rt>い</rt></ruby>れると、すぐ あたたかく なります。ゴンサが あそびに <ruby>来<rt>き</rt></ruby>て、こたつから <ruby>出<rt>で</rt></ruby>なく なりました。「これは <ruby>日本<rt>にほん</rt></ruby>の いちばん あぶない もの<ruby>二<rt>に</rt></ruby>ばんめだ」と 言いました。<ruby>一<rt>いち</rt></ruby>ばんめは ネットカフェだそうです。",
+ "cuerpo": "たなかさんが「つかわない こたつが ある」と 言って、くれました。ふるいですが、まだ つかえます。テーブルの <ruby>下<rt>した</rt></ruby>に あしを <ruby>入<rt>い</rt></ruby>れると、すぐ あたたかく なります。ゴンサが あそびに <ruby>来<rt>き</rt></ruby>て、こたつから <ruby>出<rt>で</rt></ruby>なく なりました。「これは <ruby>日本<rt>にほん</rt></ruby>の いちばん あぶない もの<ruby>二<rt>に</rt></ruby>ばんめだ」と 言いました。<ruby>一番目<rt>いちばんめ</rt></ruby>は ネットカフェだそうです。",
  "traduccion": "La señora Tanaka me dijo «tengo un kotatsu que no uso» y me lo regaló. Es viejo, pero funciona. Metes los pies debajo de la mesa y enseguida entras en calor. Gonza vino de visita y ya no hubo forma de sacarlo de ahí. «Esto es la segunda cosa más peligrosa de Japón», dijo. La primera, según él, es el cibercafé.",
  "preguntas": [
   {
@@ -23,7 +23,7 @@
    "correcta": 0
   },
   {
-   "p": "ゴンサさんに とって <ruby>一<rt>いち</rt></ruby>ばん あぶない ものは なんですか。",
+   "p": "ゴンサさんに とって <ruby>一番<rt>いちばん</rt></ruby> あぶない ものは なんですか。",
    "opciones": [
     "ネットカフェ",
     "こたつ",

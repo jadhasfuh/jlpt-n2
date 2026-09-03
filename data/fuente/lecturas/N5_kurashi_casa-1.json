@@ -1,7 +1,7 @@
 {
  "unidad_id": "N5/kurashi/casa-1",
  "titulo": "ちいさい へや",
- "cuerpo": "へやは とても ちいさかったです。<ruby>戸<rt>と</rt></ruby>を <ruby>閉<rt>し</rt></ruby>めると、ひとりだけの ばしょに なります。<ruby>窓<rt>まど</rt></ruby>は ありませんが、<ruby>中<rt>なか</rt></ruby>は あたたかいです。ゆかに すわって、あしを のばすと ちょうど いい <ruby>大<rt>おお</rt></ruby>きさでした。<ruby>廊下<rt>ろうか</rt></ruby>の おくに <ruby>御手洗<rt>おてあら</rt></ruby>いと シャワーが あります。こんな <ruby>建物<rt>たてもの</rt></ruby>は、ぼくの <ruby>国<rt>くに</rt></ruby>には ありません。",
+ "cuerpo": "へやは とても ちいさかったです。<ruby>戸<rt>と</rt></ruby>を <ruby>閉<rt>し</rt></ruby>めると、ひとりだけの ばしょに なります。<ruby>窓<rt>まど</rt></ruby>は ありませんが、<ruby>中<rt>なか</rt></ruby>は あたたかいです。ゆかに すわって、あしを のばすと ちょうど いい <ruby>大<rt>おお</rt></ruby>きさでした。<ruby>廊下<rt>ろうか</rt></ruby>の おくに お<ruby>手洗<rt>てあら</rt></ruby>いと シャワーが あります。こんな <ruby>建物<rt>たてもの</rt></ruby>は、ぼくの <ruby>国<rt>くに</rt></ruby>には ありません。",
  "traduccion": "La cabina era muy pequeña. Al cerrar la puerta corredera se convierte en un sitio sólo tuyo. No tiene ventana, pero dentro se está caliente. Sentado en el suelo y estirando las piernas, el tamaño era justo. Al fondo del pasillo están los servicios y las duchas. Un edificio así no existe en mi país.",
  "preguntas": [
   {
@@ -16,7 +16,7 @@
   {
    "p": "<ruby>廊下<rt>ろうか</rt></ruby>の おくに なにが ありますか。",
    "opciones": [
-    "<ruby>御手洗<rt>おてあら</rt></ruby>いと シャワー",
+    "お<ruby>手洗<rt>てあら</rt></ruby>いと シャワー",
     "だいどころ",
     "<ruby>玄関<rt>げんかん</rt></ruby>"
    ],

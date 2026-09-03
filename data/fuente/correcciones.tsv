@@ -272,3 +272,13 @@ id|kana|kanji|en|es
 3612|||sleepy, drowsy|con sueño, somnoliento
 # かるた es el juego de cartas japonés, no «jugando a las cartas».
 970|||karuta, Japanese playing cards|karuta, cartas japonesas
+# El prefijo honorífico 御~ delante de una palabra en kana hoy se escribe en
+# kana: お辞儀, ご飯, ご覧. En kanji sólo se queda 御中, que va en el sobre.
+569||お辞儀|bow, bowing|reverencia, inclinación
+592|おてあらい|お手洗い|toilet, lavatory, bathroom|baño, servicios
+1653||ご飯|cooked rice, meal|arroz cocido, comida
+1655||ご無沙汰|not writing or contacting for a while|tiempo sin escribirse ni verse
+1666|ごめん|-|your pardon, declining, dismissal|perdón; con permiso
+1673||ご覧|look, please look, see|mira; mire usted
+100687||お世辞|flattery, compliment|halago, cumplido
+484|お|-|honourable (prefix)|prefijo de cortesía

@@ -1,14 +1,14 @@
 {
  "unidad_id": "N3/kurashi/dinero-2",
  "titulo": "<ruby>給料<rt>きゅうりょう</rt></ruby>をあずける",
- "cuerpo": "はじめて<ruby>給料<rt>きゅうりょう</rt></ruby>をもらった<ruby>日<rt>ひ</rt></ruby>のことを<ruby>覚<rt>おぼ</rt></ruby>えています。<ruby>金額<rt>きんがく</rt></ruby>よりも、<ruby>封<rt>ふう</rt></ruby>とうのおもさにおどろきました。<ruby>支払<rt>しはらい</rt></ruby>のよていを<ruby>書<rt>か</rt></ruby>き<ruby>出<rt>だ</rt></ruby>して、のこりを<ruby>銀行<rt>ぎんこう</rt></ruby>に<ruby>預<rt>あず</rt></ruby>けました。<ruby>会計<rt>かいけい</rt></ruby>のことは<ruby>苦手<rt>にがて</rt></ruby>でしたが、<ruby>支出<rt>ししゅつ</rt></ruby>を<ruby>記<rt>き</rt></ruby>ろくする<em class=\"g\">ように</em>しました。<ruby>価格<rt>かかく</rt></ruby>の<ruby>高<rt>たか</rt></ruby>いものを<ruby>買<rt>か</rt></ruby>うときは、<ruby>一日<rt>いちにち</rt></ruby>おいてから<ruby>決<rt>き</rt></ruby>めます。<ruby>財産<rt>ざいさん</rt></ruby>というほどのものはありませんが、<ruby>借金<rt>しゃっきん</rt></ruby>をしないですむ<em class=\"g\">ように</em>、<ruby>加減<rt>かげん</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えながら<ruby>暮<rt>く</rt></ruby>らしています。",
+ "cuerpo": "はじめて<ruby>給料<rt>きゅうりょう</rt></ruby>をもらった<ruby>日<rt>ひ</rt></ruby>のことを<ruby>覚<rt>おぼ</rt></ruby>えています。<ruby>金額<rt>きんがく</rt></ruby>よりも、<ruby>封筒<rt>ふうとう</rt></ruby>のおもさにおどろきました。<ruby>支払<rt>しはらい</rt></ruby>のよていを<ruby>書<rt>か</rt></ruby>き<ruby>出<rt>だ</rt></ruby>して、のこりを<ruby>銀行<rt>ぎんこう</rt></ruby>に<ruby>預<rt>あず</rt></ruby>けました。<ruby>会計<rt>かいけい</rt></ruby>のことは<ruby>苦手<rt>にがて</rt></ruby>でしたが、<ruby>支出<rt>ししゅつ</rt></ruby>を<ruby>記録<rt>きろく</rt></ruby>する<em class=\"g\">ように</em>しました。<ruby>価格<rt>かかく</rt></ruby>の<ruby>高<rt>たか</rt></ruby>いものを<ruby>買<rt>か</rt></ruby>うときは、<ruby>一日<rt>いちにち</rt></ruby>おいてから<ruby>決<rt>き</rt></ruby>めます。<ruby>財産<rt>ざいさん</rt></ruby>というほどのものはありませんが、<ruby>借金<rt>しゃっきん</rt></ruby>をしないですむ<em class=\"g\">ように</em>、<ruby>加減<rt>かげん</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えながら<ruby>暮<rt>く</rt></ruby>らしています。",
  "traduccion": "Recuerdo el día que cobré mi primer sueldo. Más que la cifra, me sorprendió el peso del sobre. Apunté los pagos previstos y el resto lo ingresé en el banco. La contabilidad se me daba mal, pero me propuse llevar registro de los gastos. Cuando compro algo caro, dejo pasar un día antes de decidir. No tengo nada que se pueda llamar patrimonio, pero vivo midiendo las cosas para no tener que endeudarme.",
  "preguntas": [
   {
    "p": "<ruby>給料<rt>きゅうりょう</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>におどろきましたか。",
    "opciones": [
     "<ruby>金額<rt>きんがく</rt></ruby>",
-    "<ruby>封<rt>ふう</rt></ruby>とうのおもさ",
+    "<ruby>封筒<rt>ふうとう</rt></ruby>のおもさ",
     "<ruby>銀行<rt>ぎんこう</rt></ruby>",
     "<ruby>支出<rt>ししゅつ</rt></ruby>"
    ],

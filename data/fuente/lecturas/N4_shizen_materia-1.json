@@ -15,7 +15,7 @@
    "correcta": 1
   },
   {
-   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>火事<rt>かじ</rt></ruby>の<ruby>原<rt>げん</rt></ruby>いんについて<ruby>何<rt>なに</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しましたか。",
+   "p": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>火事<rt>かじ</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>について<ruby>何<rt>なに</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しましたか。",
    "opciones": [
     "ガスから",
     "たいてい<ruby>小<rt>ちい</rt></ruby>さなゆだんから",

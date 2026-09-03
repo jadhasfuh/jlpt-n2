@@ -1,7 +1,7 @@
 {
  "unidad_id": "N4/seishitsu/valoracion-1",
  "titulo": "<ruby>必要<rt>ひつよう</rt></ruby>なものだけ",
- "cuerpo": "<ruby>複雑<rt>ふくざつ</rt></ruby>なものほどよく<ruby>見<rt>み</rt></ruby>えた<ruby>時期<rt>じき</rt></ruby>がありました。たくさんのきのうがついたどうぐは、<ruby>特別<rt>とくべつ</rt></ruby>な<ruby>気<rt>き</rt></ruby>がしたのです。でも、じっさいに<ruby>使<rt>つか</rt></ruby>うのは、そのうちの<ruby>三<rt>みっ</rt></ruby>つくらいでした。ほかは<ruby>駄目<rt>だめ</rt></ruby>なのではなく、わたしには<em class=\"g\">が必要</em>なかっただけです。<ruby>素晴<rt>すば</rt></ruby>らしいどうぐは、<ruby>美<rt>うつく</rt></ruby>しくて<ruby>単<rt>たん</rt></ruby>じゅんです。<ruby>意外<rt>いがい</rt></ruby>なことに、<ruby>不便<rt>ふべん</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるほうが、<ruby>長<rt>なが</rt></ruby>く<ruby>使<rt>つか</rt></ruby>えることもあります。<ruby>適当<rt>てきとう</rt></ruby>なものをえらぶ<ruby>目<rt>め</rt></ruby><em class=\"g\">が必要</em>なのだと<ruby>思<rt>おも</rt></ruby>います。",
+ "cuerpo": "<ruby>複雑<rt>ふくざつ</rt></ruby>なものほどよく<ruby>見<rt>み</rt></ruby>えた<ruby>時期<rt>じき</rt></ruby>がありました。たくさんのきのうがついたどうぐは、<ruby>特別<rt>とくべつ</rt></ruby>な<ruby>気<rt>き</rt></ruby>がしたのです。でも、じっさいに<ruby>使<rt>つか</rt></ruby>うのは、そのうちの<ruby>三<rt>みっ</rt></ruby>つくらいでした。ほかは<ruby>駄目<rt>だめ</rt></ruby>なのではなく、わたしには<em class=\"g\">が必要</em>なかっただけです。<ruby>素晴<rt>すば</rt></ruby>らしいどうぐは、<ruby>美<rt>うつく</rt></ruby>しくてたんじゅんです。<ruby>意外<rt>いがい</rt></ruby>なことに、<ruby>不便<rt>ふべん</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるほうが、<ruby>長<rt>なが</rt></ruby>く<ruby>使<rt>つか</rt></ruby>えることもあります。<ruby>適当<rt>てきとう</rt></ruby>なものをえらぶ<ruby>目<rt>め</rt></ruby><em class=\"g\">が必要</em>なのだと<ruby>思<rt>おも</rt></ruby>います。",
  "traduccion": "Hubo una época en la que cuanto más complicado era algo, mejor me parecía. Una herramienta con muchas funciones me daba sensación de ser especial. Pero en la práctica solo usaba unas tres. Las demás no es que fueran inútiles: es que yo no las necesitaba. Las herramientas espléndidas son bellas y simples. Curiosamente, a veces lo que parece incómodo es lo que dura más. Creo que lo que hace falta es tener ojo para elegir lo adecuado.",
  "preguntas": [
   {
@@ -18,7 +18,7 @@
    "p": "<ruby>素晴<rt>すば</rt></ruby>らしいどうぐはどんなものですか。",
    "opciones": [
     "<ruby>複雑<rt>ふくざつ</rt></ruby>なもの",
-    "<ruby>美<rt>うつく</rt></ruby>しくて<ruby>単<rt>たん</rt></ruby>じゅんなもの",
+    "<ruby>美<rt>うつく</rt></ruby>しくてたんじゅんなもの",
     "<ruby>特別<rt>とくべつ</rt></ruby>なもの",
     "<ruby>不便<rt>ふべん</rt></ruby>なもの"
    ],

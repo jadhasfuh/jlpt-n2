@@ -23,18 +23,19 @@ app de React Native reutilice los mismos tokens y el mismo módulo de acceso.
 
 | Cifra | |
 |---|---|
-| 7 614 | palabras, de N5 a N1 |
-| 197 | puntos de gramática (todos N2), repartidos entre las unidades de ese nivel |
-| 602 | unidades de ~20 palabras |
+| 8 025 | palabras, de N5 a N1 |
+| 846 | puntos de gramática, repartidos entre las unidades de su nivel |
+| 614 | unidades de ~20 palabras, cada una con su lectura |
+| 106 | de esas lecturas, en N5, son los capítulos del libro de Carlos |
 | 14 | secciones temáticas · 101 subgrupos |
 
 | Nivel | Palabras | Unidades |
 |---|---|---|
-| N5 | 859 | 100 |
-| N4 | 655 | 95 |
-| N3 | 1 785 | 127 |
-| N2 | 1 652 | 123 |
-| N1 | 2 663 | 157 |
+| N5 | 940 | 106 |
+| N4 | 729 | 97 |
+| N3 | 2 007 | 130 |
+| N2 | 1 705 | 124 |
+| N1 | 2 644 | 157 |
 
 **Dos fuentes.** La base es la lista del N2 de jlptstudy.net (4 959 entradas, la
 spec de 2004). Como esa lista no distingue N3 ni trae N1, los niveles reales se

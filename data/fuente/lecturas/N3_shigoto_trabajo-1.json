@@ -1,14 +1,14 @@
 {
  "unidad_id": "N3/shigoto/trabajo-1",
  "titulo": "<ruby>契約<rt>けいやく</rt></ruby>を<ruby>断<rt>ことわ</rt></ruby>る",
- "cuerpo": "あたらしい<ruby>仕事<rt>しごと</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>がありました。<ruby>条件<rt>じょうけん</rt></ruby>はわるくありませんでしたが、<ruby>断<rt>ことわ</rt></ruby>ることにしました。<ruby>景気<rt>けいき</rt></ruby>がよくない<ruby>時期<rt>じき</rt></ruby>にもったいないという<ruby>噂<rt>うわさ</rt></ruby>も<ruby>耳<rt>みみ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りました。でも、<ruby>作業<rt>さぎょう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えると、いまの<ruby>職<rt>しょく</rt></ruby>と<ruby>両<rt>りょう</rt></ruby>りつしません。つかれ<em class=\"g\">気味</em>の<ruby>日<rt>ひ</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>いていたのも<ruby>事<rt>じ</rt></ruby>じつです。<ruby>義務<rt>ぎむ</rt></ruby>をふやす<em class=\"g\">よりも</em>、<ruby>今<rt>いま</rt></ruby>の<ruby>勤<rt>つと</rt></ruby>めをきちんとやりたいのです。<ruby>管理<rt>かんり</rt></ruby>できない<ruby>約束<rt>やくそく</rt></ruby>をするのは、けっきょくだれのためにもなりません。",
+ "cuerpo": "あたらしい<ruby>仕事<rt>しごと</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>がありました。<ruby>条件<rt>じょうけん</rt></ruby>はわるくありませんでしたが、<ruby>断<rt>ことわ</rt></ruby>ることにしました。<ruby>景気<rt>けいき</rt></ruby>がよくない<ruby>時期<rt>じき</rt></ruby>にもったいないという<ruby>噂<rt>うわさ</rt></ruby>も<ruby>耳<rt>みみ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>りました。でも、<ruby>作業<rt>さぎょう</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えると、いまの<ruby>職<rt>しょく</rt></ruby>と<ruby>両立<rt>りょうりつ</rt></ruby>しません。つかれ<em class=\"g\">気味</em>の<ruby>日<rt>ひ</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>いていたのも<ruby>事実<rt>じじつ</rt></ruby>です。<ruby>義務<rt>ぎむ</rt></ruby>をふやす<em class=\"g\">よりも</em>、<ruby>今<rt>いま</rt></ruby>の<ruby>勤<rt>つと</rt></ruby>めをきちんとやりたいのです。<ruby>管理<rt>かんり</rt></ruby>できない<ruby>約束<rt>やくそく</rt></ruby>をするのは、けっきょくだれのためにもなりません。",
  "traduccion": "Me llegó una oferta de trabajo nueva. Las condiciones no estaban mal, pero decidí rechazarla. También me llegó el rumor de que era una lástima, con lo mal que va la economía. Pero, pensando en la carga de trabajo, no es compatible con mi empleo actual. También es cierto que llevaba una racha de días con aire de cansancio. Más que sumar obligaciones, quiero hacer bien lo que ya tengo. Comprometerse a algo que no puedes gestionar no acaba beneficiando a nadie.",
  "preguntas": [
   {
    "p": "なぜ<ruby>断<rt>ことわ</rt></ruby>りましたか。",
    "opciones": [
     "<ruby>条件<rt>じょうけん</rt></ruby>がわるいから",
-    "いまの<ruby>職<rt>しょく</rt></ruby>と<ruby>両<rt>りょう</rt></ruby>りつしないから",
+    "いまの<ruby>職<rt>しょく</rt></ruby>と<ruby>両立<rt>りょうりつ</rt></ruby>しないから",
     "<ruby>景気<rt>けいき</rt></ruby>がわるいから",
     "<ruby>噂<rt>うわさ</rt></ruby>があるから"
    ],

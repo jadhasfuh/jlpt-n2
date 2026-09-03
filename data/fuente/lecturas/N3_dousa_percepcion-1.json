@@ -1,14 +1,14 @@
 {
  "unidad_id": "N3/dousa/percepcion-1",
  "titulo": "<ruby>香<rt>かお</rt></ruby>りと<ruby>印象<rt>いんしょう</rt></ruby>",
- "cuerpo": "<ruby>雨<rt>あめ</rt></ruby>のあとの<ruby>土<rt>つち</rt></ruby>のにおいを<ruby>嗅<rt>か</rt></ruby>ぐと、こどものころを<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>します。においは、<ruby>光景<rt>こうけい</rt></ruby>よりもつよく<ruby>記<rt>き</rt></ruby>おくに<ruby>結<rt>むす</rt></ruby>びついているそうです。<ruby>目<rt>め</rt></ruby>でながめた<ruby>風<rt>ふう</rt></ruby>けいは<ruby>時間<rt>じかん</rt></ruby>とともにうすれますが、<ruby>香<rt>かお</rt></ruby>りは<em class=\"g\">もしかしたら</em>、そのままのこっているのかもしれません。<ruby>台所<rt>だいどころ</rt></ruby>をのぞくと、<ruby>母<rt>はは</rt></ruby>がりょうりをしていたあの<ruby>感覚<rt>かんかく</rt></ruby>がよみがえります。<em class=\"g\">もしかしたら</em>、<ruby>人<rt>ひと</rt></ruby>は<ruby>目<rt>め</rt></ruby>よりも<ruby>鼻<rt>はな</rt></ruby>で<ruby>昔<rt>むかし</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えているのではないでしょうか。",
+ "cuerpo": "<ruby>雨<rt>あめ</rt></ruby>のあとの<ruby>土<rt>つち</rt></ruby>のにおいを<ruby>嗅<rt>か</rt></ruby>ぐと、こどものころを<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>します。においは、<ruby>光景<rt>こうけい</rt></ruby>よりもつよくきおくに<ruby>結<rt>むす</rt></ruby>びついているそうです。<ruby>目<rt>め</rt></ruby>でながめた<ruby>風景<rt>ふうけい</rt></ruby>は<ruby>時間<rt>じかん</rt></ruby>とともにうすれますが、<ruby>香<rt>かお</rt></ruby>りは<em class=\"g\">もしかしたら</em>、そのままのこっているのかもしれません。<ruby>台所<rt>だいどころ</rt></ruby>をのぞくと、<ruby>母<rt>はは</rt></ruby>がりょうりをしていたあの<ruby>感覚<rt>かんかく</rt></ruby>がよみがえります。<em class=\"g\">もしかしたら</em>、<ruby>人<rt>ひと</rt></ruby>は<ruby>目<rt>め</rt></ruby>よりも<ruby>鼻<rt>はな</rt></ruby>で<ruby>昔<rt>むかし</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えているのではないでしょうか。",
  "traduccion": "Cuando huelo la tierra después de la lluvia, me acuerdo de mi infancia. Dicen que los olores se asocian a la memoria con más fuerza que las imágenes. Los paisajes que miramos con los ojos se van difuminando con el tiempo, pero quizá los aromas se queden tal cual. Al asomarme a la cocina me vuelve aquella sensación de cuando mi madre cocinaba. Quizá las personas recordemos el pasado más con la nariz que con los ojos.",
  "preguntas": [
   {
    "p": "においについて、どう<ruby>言<rt>い</rt></ruby>われていますか。",
    "opciones": [
     "すぐわすれる",
-    "<ruby>光景<rt>こうけい</rt></ruby>よりつよく<ruby>記<rt>き</rt></ruby>おくに<ruby>結<rt>むす</rt></ruby>びついている",
+    "<ruby>光景<rt>こうけい</rt></ruby>よりつよくきおくに<ruby>結<rt>むす</rt></ruby>びついている",
     "<ruby>目<rt>め</rt></ruby>のほうがつよい",
     "かんけいがない"
    ],
@@ -19,7 +19,7 @@
    "opciones": [
     "<ruby>雨<rt>あめ</rt></ruby>のにおい",
     "<ruby>母<rt>はは</rt></ruby>がりょうりをしていた<ruby>感覚<rt>かんかく</rt></ruby>",
-    "<ruby>風<rt>ふう</rt></ruby>けい",
+    "<ruby>風景<rt>ふうけい</rt></ruby>",
     "こどものこえ"
    ],
    "correcta": 1
