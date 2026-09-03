@@ -138,6 +138,43 @@ export function BotonFurigana() {
   );
 }
 
+/**
+ * Los tres interruptores, en una sola letra cada uno, para meterlos en la
+ * navegación: あ (furigana), 意 (significado) y 色 (color de los kanji).
+ *
+ * Antes vivían dentro de la página, así que para quitar el furigana a mitad de
+ * una lectura había que subir hasta arriba del todo. Aquí van siempre a mano,
+ * en el pulgar. Encendido se ve por el color —el mismo `.encendido` de siempre—
+ * y no cambiando la letra: si あ se convirtiera en 字 al activarse, la letra
+ * pasaría a decir lo contrario de lo que hace el botón.
+ */
+export function ConmutadoresJp() {
+  const { furigana, significado, colores, alternar, t } = useAjustes();
+  const uno = (
+    k: "furigana" | "significado" | "colores",
+    encendido: boolean,
+    letra: string,
+    titulo: string,
+  ) => (
+    <button
+      className={`conmutador-jp ${encendido ? "encendido" : ""}`}
+      onClick={() => alternar(k)}
+      aria-pressed={encendido}
+      aria-label={titulo}
+      title={titulo}
+    >
+      <span className="jp">{letra}</span>
+    </button>
+  );
+  return (
+    <div className="conmutadores-jp">
+      {uno("furigana", furigana, "あ", t("aj.furigana"))}
+      {uno("significado", significado, "意", t("aj.significado"))}
+      {uno("colores", colores, "色", t("aj.colores"))}
+    </div>
+  );
+}
+
 /** Los dos botones rápidos. Van en cada paso de cada sección. */
 export function BotonesRapidos({ compacto = false }: { compacto?: boolean }) {
   const { furigana, significado, colores, alternar, t } = useAjustes();

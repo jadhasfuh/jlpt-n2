@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import { curso, gramaticas, nivelCurso, unidad } from "@/lib/contenido";
 import { Cabecera } from "@/components/Cabecera";
 import { PanelGramatica } from "@/components/PanelGramatica";
-import { BotonesRapidos } from "@/components/Ajustes";
 import { idiomaActual } from "@/lib/idioma-servidor";
 import { t as trad, type Clave } from "@/lib/idioma";
 
@@ -33,7 +32,6 @@ export default async function Pagina({ params }: { params: Promise<{ nivel: stri
             </p>
           </div>
           <div className="crecer" style={{ flex: 1 }} />
-          <BotonesRapidos compacto />
         </section>
         <PanelGramatica items={gram} agrupar />
       </main>

@@ -8,7 +8,7 @@ import { Buscador } from "./Buscador";
 import {
   IcAuto, IcCurso, IcDiccionario, IcExamen, IcLuna, IcPerfil, IcRepaso, IcSol,
 } from "./Iconos";
-import { useAjustes } from "./Ajustes";
+import { ConmutadoresJp, useAjustes } from "./Ajustes";
 
 /**
  * La navegación de escritorio. En móvil no existe (la barra inferior hace su
@@ -78,6 +78,8 @@ export function Lateral() {
             ))}
           </div>
         )}
+
+        <ConmutadoresJp />
 
         <div style={{ flex: 1 }} />
         <button className="icono-btn" onClick={cambiarTema} aria-label={nombreTema} title={nombreTema}>

@@ -7,7 +7,7 @@ import {
   anotar, contarPendientes, cuandoToca, hechosHoy, leerProgreso, masFlojas,
   paraRepasar, prevision7dias, topeDiario, vivas, type Progreso,
 } from "@/lib/progreso";
-import { BotonesRapidos, useAjustes } from "./Ajustes";
+import { useAjustes } from "./Ajustes";
 import { Jp, BotonVoz } from "./Jp";
 import { Reportar } from "./Reportar";
 import { IcBien, IcDerecha } from "./Iconos";
@@ -229,10 +229,6 @@ export function Repaso() {
         <span className="tenue" style={{ fontVariantNumeric: "tabular-nums" }}>
           {i + 1} / {cola.length}
         </span>
-      </div>
-
-      <div className="filtros" style={{ marginBottom: 14 }}>
-        <BotonesRapidos compacto />
       </div>
 
       <div className="tarjeta" style={{ textAlign: "center", padding: "44px 20px", position: "relative", overflow: "hidden" }}>

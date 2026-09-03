@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { Gramatica, Kanji, Palabra, Unidad } from "@/lib/tipos";
-import { BotonesRapidos, useAjustes } from "./Ajustes";
+import { useAjustes } from "./Ajustes";
 import { Jp, BotonVoz } from "./Jp";
 import { PanelGramatica } from "./PanelGramatica";
 import { PanelKanji } from "./PanelKanji";
@@ -70,7 +70,6 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
                 {total > 1 && ` · ${t("uni.unidadDe", { i: indice, n: total })}`}
               </p>
             </div>
-            <BotonesRapidos compacto />
           </div>
         </section>
 

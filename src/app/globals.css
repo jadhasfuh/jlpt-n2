@@ -144,10 +144,36 @@ h1, h2, h3 { font-weight: 500; }
 /* ------------------------ navegación inferior --------------------- */
 .barra-inferior {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
-  display: flex; gap: 4px;
+  display: flex; gap: 4px; flex-wrap: wrap;
   background: color-mix(in srgb, var(--papel) 88%, transparent);
   backdrop-filter: blur(14px); border-top: 1px solid var(--linea);
   padding: 8px 12px calc(18px + env(safe-area-inset-bottom));
+}
+/* con los interruptores encima, la barra son dos filas */
+.barra-inferior.con-jp { padding-top: 6px; }
+:root[data-jp="1"] { --barra: 104px; }
+
+/* --------------------- interruptores あ 意 色 --------------------- */
+.conmutadores-jp {
+  flex: 0 0 100%; display: flex; gap: 6px; justify-content: center;
+  padding-bottom: 6px; margin-bottom: 2px;
+  border-bottom: 1px solid color-mix(in srgb, var(--linea) 60%, transparent);
+}
+.conmutador-jp {
+  min-width: 46px; min-height: 30px; padding: 0 12px;
+  display: inline-flex; align-items: center; justify-content: center;
+  border: 1px solid var(--linea); border-radius: var(--radio-sm);
+  background: transparent; color: var(--tinta-3); font-size: 14px; line-height: 1;
+  transition: background .14s ease-out, border-color .14s ease-out, color .14s ease-out;
+}
+.conmutador-jp:active { background: color-mix(in srgb, var(--acento) 18%, transparent); }
+.conmutador-jp.encendido {
+  background: color-mix(in srgb, var(--acento) 14%, transparent);
+  border-color: var(--acento); color: var(--acento);
+}
+.lateral .conmutadores-jp {
+  flex: none; justify-content: flex-start; border-bottom: 0;
+  padding: 0; margin: 16px 0 0;
 }
 .barra-inferior a {
   flex: 1; display: flex; flex-direction: column; align-items: center;

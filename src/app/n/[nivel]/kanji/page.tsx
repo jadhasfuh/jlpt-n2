@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import { curso, kanjiDeNivel, nivelCurso } from "@/lib/contenido";
 import { Cabecera } from "@/components/Cabecera";
 import { PanelKanji } from "@/components/PanelKanji";
-import { BotonesRapidos } from "@/components/Ajustes";
 import { idiomaActual } from "@/lib/idioma-servidor";
 import { t as trad, type Clave } from "@/lib/idioma";
 
@@ -31,7 +30,6 @@ export default async function Pagina({ params }: { params: Promise<{ nivel: stri
             </p>
           </div>
           <div className="crecer" style={{ flex: 1 }} />
-          <BotonesRapidos compacto />
         </section>
         <PanelKanji kanji={kanji} titulo={`nivel ${nivel}`} />
       </main>
