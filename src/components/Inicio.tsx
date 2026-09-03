@@ -41,6 +41,11 @@ export function Inicio({ niveles, totales, dentro = true }: {
 
   return (
     <>
+      {/* Los personajes del libro presentando la app. Va difuminado por abajo
+          para que no acabe en un corte recto contra el título. */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src="/graficos/hero.png" alt="" className="grafico hero" />
+
       <section style={{ padding: "6px 0 12px" }}>
         <h1 className="jp" style={{ fontSize: 26, fontWeight: 500, lineHeight: 1.25, margin: "0 0 6px" }}>
           日本語能力試験

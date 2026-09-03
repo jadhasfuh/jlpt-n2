@@ -72,7 +72,8 @@ export function Repaso() {
   if (!todas.length) {
     return (
       <div className="tarjeta" style={{ marginTop: 48, textAlign: "center", padding: 40 }}>
-        <span className="jp" style={{ fontSize: 30, fontWeight: 500, color: "var(--acento)" }}>休</span>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/graficos/vacio.png" alt="" className="grafico grafico-vacio" />
         <p style={{ fontSize: 16 }}>{t("rep.nadaVencido")}</p>
         <p className="silencio">
           {proxima ? t("rep.proxima", { t: proxima }) : t("rep.sinNada")}

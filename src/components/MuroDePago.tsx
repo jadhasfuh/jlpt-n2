@@ -25,14 +25,11 @@ export function MuroDePago({ que, cerrar, nivel }: {
     <div style={{ textAlign: "center", maxWidth: 380, margin: "0 auto", position: "relative" }}>
       <div className="halo" />
 
-      <div style={{
-        position: "relative", width: 76, height: 76, margin: "0 auto 20px",
-        borderRadius: "50%", display: "grid", placeItems: "center",
-        background: "color-mix(in srgb, var(--acento) 14%, transparent)",
-        border: "1px solid color-mix(in srgb, var(--acento) 30%, transparent)",
-      }}>
-        <IcCandado size={30} weight="light" style={{ color: "var(--acento)" }} />
-      </div>
+      {/* Anna ofreciendo el libro, en vez de un candado. Esta pantalla
+          vende: un candado dice «no puedes», y el dibujo dice «toma». */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src="/graficos/muro.png" alt="" className="grafico grafico-vacio"
+           style={{ maxWidth: 150, marginTop: 0 }} />
 
       <h2 style={{ fontSize: 20, fontWeight: 500, margin: "0 0 8px", lineHeight: 1.35 }}>
         {t(que === "examen" ? "muro.tituloExamen" : "muro.tituloContenido")}

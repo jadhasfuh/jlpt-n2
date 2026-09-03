@@ -194,6 +194,12 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
           <p style={{ margin: 0, fontSize: 13, color: "var(--tinta-2)" }}>
             {t("ex.puntos", { n: puntos, total: tope })} · {t("ex.aciertos", { a: aciertos, n: items.length })}
           </p>
+          {/* Sólo cuando se aprueba: felicitar por un 40 % no felicita a nadie. */}
+          {puntos >= tope * 0.6 && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src="/graficos/listo.png" alt="" className="grafico grafico-vacio"
+                 style={{ maxWidth: 160 }} />
+          )}
         </div>
 
         <h2 className="enc-seccion">{t("ex.porSeccion")}</h2>

@@ -46,6 +46,24 @@
   --fantasma: rgba(233,233,237,.05);   /* el numeral kanji de fondo */
   --pista: rgba(233,233,237,.13);      /* el resto del aro, la barra vacía */
 
+  /* --- escala de espacios: múltiplos de 4, que es lo que usa el resto ---
+     Estaban los valores sueltos por el archivo (5, 9, 11, 14…) y cada
+     componente elegía el suyo. Con la escala, dos cosas separadas «igual» lo
+     están de verdad. */
+  --e1: 4px; --e2: 8px; --e3: 12px; --e4: 16px; --e5: 24px; --e6: 32px;
+
+  /* --- escala tipográfica --- */
+  --t-xs: 11px;    /* etiquetas */
+  --t-sm: 12.5px;  /* secundario */
+  --t-md: 14px;    /* cuerpo */
+  --t-lg: 17px;    /* subtítulo */
+  --t-xl: 22px;    /* título */
+  --peso-medio: 500; --peso-fuerte: 600;
+
+  /* --- sombras: dos alturas, no una --- */
+  --sombra-1: 0 1px 2px rgba(0,0,0,.28);
+  --sombra-2: 0 2px 6px rgba(0,0,0,.30), 0 12px 28px -20px rgba(0,0,0,.75);
+
   --jp: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
   --ui: var(--fuente-ui), "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --barra: 62px;
@@ -66,6 +84,8 @@
     --fantasma: rgba(41,43,49,.07);
     --pista: rgba(41,43,49,.13);
     --sombra: 0 1px 2px rgba(35,37,50,.06), 0 10px 30px -18px rgba(35,37,50,.35);
+    --sombra-1: 0 1px 2px rgba(35,37,50,.07);
+    --sombra-2: 0 2px 6px rgba(35,37,50,.08), 0 12px 28px -20px rgba(35,37,50,.30);
     color-scheme: light;
   }
 }
@@ -689,3 +709,67 @@ em.g.n3 { border-color: color-mix(in srgb, var(--n3) 60%, transparent); }
    かばん— e invertir volvería el azul naranja y el rojo cian, o sea que
    destruiría la respuesta. Se quedan sobre su tarjeta blanca, que se lee como
    papel. */
+
+/* ================= sistema visual: lo que faltaba ==================== */
+
+/* Foco visible. No había ninguno: con teclado no se sabía dónde estabas, y
+   en una app de estudio se navega mucho con tabulador. `:focus-visible` y no
+   `:focus` para que no salga el anillo al tocar con el dedo. */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--acento);
+  outline-offset: 2px;
+  border-radius: var(--radio-sm);
+}
+
+/* Las tarjetas tenían borde pero ninguna elevación, así que se leían como
+   cajas dibujadas y no como superficies. */
+.tarjeta { box-shadow: var(--sombra-1); }
+.tarjeta.elevada { box-shadow: var(--sombra-2); }
+
+/* Divisor tenue, para separar sin dibujar una línea dura. */
+.divisor {
+  height: 1px; border: 0; margin: var(--e4) 0;
+  background: linear-gradient(90deg, transparent, var(--linea) 12%,
+              var(--linea) 88%, transparent);
+}
+
+/* --- vocabulario: la palabra manda, la glosa se escanea ---------------
+   La fila era palabra y significado al mismo tamaño y con el mismo peso, así
+   que para encontrar una palabra había que leerlas todas. */
+.lista-vocab > div { border-radius: var(--radio-sm); }
+.lista-vocab > div + div { box-shadow: inset 0 1px 0 var(--linea); }
+.lista-vocab .jp-medio { font-weight: var(--peso-medio); }
+.glosa { font-size: var(--t-md); line-height: 1.45; }
+.glosa-sec { display: block; font-size: var(--t-xs); color: var(--tinta-3); margin-top: 1px; }
+
+/* --- badges: un solo sistema para nivel y para estado ---------------- */
+.pastilla.estado { border-color: transparent; padding: 1px 7px; font-size: var(--t-xs); }
+.pastilla.estado.nueva      { background: var(--pista); color: var(--tinta-3); }
+.pastilla.estado.aprendiendo{ background: color-mix(in srgb, var(--acento) 16%, transparent);
+                              color: var(--acento-300); }
+.pastilla.estado.dominada   { background: color-mix(in srgb, var(--acento) 26%, transparent);
+                              color: var(--acento-300); }
+.pastilla.estado.vencida    { background: color-mix(in srgb, var(--rojo) 18%, transparent);
+                              color: var(--rojo); }
+
+/* --- gráficos de los personajes en la interfaz ----------------------- */
+.grafico {
+  display: block; width: 100%; height: auto;
+  /* Son de tinta negra sobre transparente: en tema oscuro hay que invertirlos
+     o no se ven. Al ser monocromos, invertir no estropea ningún color. */
+  filter: none;
+}
+:root[data-tema="oscuro"] .grafico { filter: invert(1); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) .grafico { filter: invert(1); }
+}
+.hero {
+  margin: 0 0 var(--e2);
+  /* Sin tope, a ancho completo se come media pantalla en un móvil. Se recorta
+     por abajo, que es donde están los pies y donde ya se difumina. */
+  max-height: 190px; object-fit: cover; object-position: 50% 12%;
+  /* se difumina por abajo para que no acabe en un corte recto */
+  -webkit-mask-image: linear-gradient(180deg, #000 72%, transparent);
+  mask-image: linear-gradient(180deg, #000 72%, transparent);
+}
+.grafico-vacio { max-width: 190px; margin: var(--e4) auto var(--e3); opacity: .9; }

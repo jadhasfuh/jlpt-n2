@@ -123,8 +123,8 @@ export function VistaUnidad({ unidad, palabras, gramatica, kanji, siguiente, ind
                         // encendido el interruptor global de 意味.
                         <button className="revelado-td" disabled={significado}
                                 onClick={() => setAbierto({ ...abierto, [w.id]: false })}>
-                          <span style={{ fontSize: 13.5 }}>{sig(w, idioma)}</span>
-                          <span style={{ display: "block", fontSize: 11, color: "var(--tinta-3)" }}>
+                          <span className="glosa">{sig(w, idioma)}</span>
+                          <span className="glosa-sec">
                             {w.registro.length > 0 && <em>{w.registro.join(" · ")} — </em>}
                             {sigSec(w, idioma)}
                           </span>
