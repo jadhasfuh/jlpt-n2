@@ -1,13 +1,13 @@
 {
  "unidad_id": "N4/seishitsu/dificultad-1",
  "titulo": "<ruby>簡単<rt>かんたん</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるもの",
- "cuerpo": "とうふはまめ<em class=\"g\">から作ります</em>。とても<ruby>簡単<rt>かんたん</rt></ruby>なざいりょうですが、<ruby>作<rt>つく</rt></ruby>るのは<ruby>無理<rt>むり</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>っていました。じっさいにやってみると、<ruby>時間<rt>じかん</rt></ruby>はかかるものの、<ruby>手<rt>て</rt></ruby>じゅんそのものは<ruby>単<rt>たん</rt></ruby>じゅんでした。パンも<ruby>小麦<rt>こむぎ</rt></ruby><em class=\"g\">から作られます</em>。<ruby>理<rt>り</rt></ruby>くつが<ruby>分<rt>わ</rt></ruby>かれば、たいていのものは<ruby>自分<rt>じぶん</rt></ruby>で<ruby>作<rt>つく</rt></ruby>れます。<ruby>簡単<rt>かんたん</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるものほど、じつは<ruby>長<rt>なが</rt></ruby>い<ruby>時間<rt>じかん</rt></ruby>をかけて<ruby>考<rt>かんが</rt></ruby>えられたものなのです。",
+ "cuerpo": "とうふはまめ<em class=\"g\">から作ります</em>。とても<ruby>簡単<rt>かんたん</rt></ruby>なざいりょうですが、<ruby>作<rt>つく</rt></ruby>るのは<ruby>無理<rt>むり</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>っていました。じっさいにやってみると、<ruby>時間<rt>じかん</rt></ruby>はかかるものの、<ruby>手<rt>て</rt></ruby>じゅんそのものは<ruby>単<rt>たん</rt></ruby>じゅんでした。パンもこむぎ<em class=\"g\">から作られます</em>。<ruby>理<rt>り</rt></ruby>くつが<ruby>分<rt>わ</rt></ruby>かれば、たいていのものは<ruby>自分<rt>じぶん</rt></ruby>で<ruby>作<rt>つく</rt></ruby>れます。<ruby>簡単<rt>かんたん</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるものほど、じつは<ruby>長<rt>なが</rt></ruby>い<ruby>時間<rt>じかん</rt></ruby>をかけて<ruby>考<rt>かんが</rt></ruby>えられたものなのです。",
  "traduccion": "El tofu se hace a partir de la soja. Es un ingrediente muy sencillo, pero yo creía que hacerlo era imposible. Al probarlo de verdad, aunque lleva tiempo, el procedimiento en sí era simple. El pan también se hace a partir del trigo. Si entiendes la lógica, casi todo puedes hacerlo tú. Precisamente lo que parece sencillo suele ser lo que se pensó durante mucho tiempo.",
  "preguntas": [
   {
    "p": "とうふは<ruby>何<rt>なに</rt></ruby>から<ruby>作<rt>つく</rt></ruby>りますか。",
    "opciones": [
-    "<ruby>小麦<rt>こむぎ</rt></ruby>",
+    "こむぎ",
     "まめ",
     "こめ",
     "みず"

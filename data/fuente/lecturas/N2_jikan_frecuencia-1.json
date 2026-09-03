@@ -1,7 +1,7 @@
 {
  "unidad_id": "N2/jikan/frecuencia-1",
  "titulo": "<ruby>絶<rt>た</rt></ruby>えず<ruby>見直<rt>みなお</rt></ruby>す",
- "cuerpo": "<ruby>原稿<rt>げんこう</rt></ruby>を<ruby>絶<rt>た</rt></ruby>えず<ruby>見直<rt>みなお</rt></ruby>し、いらない<ruby>部分<rt>ぶぶん</rt></ruby>を<ruby>削<rt>けず</rt></ruby>っていく。いちいち<ruby>数<rt>かぞ</rt></ruby>えてはいないが、<ruby>回数<rt>かいすう</rt></ruby>は<ruby>再三<rt>さいさん</rt></ruby>どころではない。<ruby>着々<rt>ちゃくちゃく</rt></ruby>と<ruby>短<rt>みじか</rt></ruby>くなるのが<ruby>楽<rt>たの</rt></ruby>しい<em class=\"g\">もの</em>だ。<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>引返<rt>ひきかえ</rt></ruby>すこともあるが、<ruby>稀<rt>まれ</rt></ruby>だ。<ruby>急<rt>いそ</rt></ruby>いだ<em class=\"g\">せいか</em>、<ruby>点々<rt>てんてん</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じ<ruby>言葉<rt>ことば</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>っていて、くれぐれも<ruby>気<rt>き</rt></ruby>をつけようと<ruby>思<rt>おも</rt></ruby>った。",
+ "cuerpo": "<ruby>原稿<rt>げんこう</rt></ruby>を<ruby>絶<rt>た</rt></ruby>えず<ruby>見直<rt>みなお</rt></ruby>し、いらない<ruby>部分<rt>ぶぶん</rt></ruby>を<ruby>削<rt>けず</rt></ruby>っていく。いちいち<ruby>数<rt>かぞ</rt></ruby>えてはいないが、<ruby>回数<rt>かいすう</rt></ruby>は<ruby>再三<rt>さいさん</rt></ruby>どころではない。<ruby>着々<rt>ちゃくちゃく</rt></ruby>と<ruby>短<rt>みじか</rt></ruby>くなるのが<ruby>楽<rt>たの</rt></ruby>しい<em class=\"g\">もの</em>だ。<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>引返<rt>ひきかえ</rt></ruby>すこともあるが、まれだ。<ruby>急<rt>いそ</rt></ruby>いだ<em class=\"g\">せいか</em>、<ruby>点々<rt>てんてん</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じ<ruby>言葉<rt>ことば</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>っていて、くれぐれも<ruby>気<rt>き</rt></ruby>をつけようと<ruby>思<rt>おも</rt></ruby>った。",
  "traduccion": "Reviso el manuscrito sin parar y voy recortando lo que sobra. No las cuento una a una, pero las veces son bastantes más que «una y otra vez». Da gusto ver cómo se acorta paso a paso. A veces vuelvo atrás a mitad de camino, pero es raro. Quizá por las prisas, quedaban las mismas palabras repetidas aquí y allá, y me dije que hay que tener mucho cuidado.",
  "preguntas": [
   {
@@ -17,7 +17,7 @@
    "p": "<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>引返<rt>ひきかえ</rt></ruby>すことはありますか。",
    "opciones": [
     "よくある",
-    "<ruby>稀<rt>まれ</rt></ruby>にある",
+    "まれにある",
     "<ruby>全<rt>まった</rt></ruby>くない"
    ],
    "correcta": 1

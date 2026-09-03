@@ -1,7 +1,7 @@
 {
  "unidad_id": "N2/seishitsu/estado-2",
  "titulo": "<ruby>冷凍<rt>れいとう</rt></ruby>の<ruby>食品<rt>しょくひん</rt></ruby>",
- "cuerpo": "<ruby>店<rt>みせ</rt></ruby>の<ruby>冷凍<rt>れいとう</rt></ruby>の<ruby>棚<rt>たな</rt></ruby>が<ruby>増大<rt>ぞうだい</rt></ruby>し、<ruby>種類<rt>しゅるい</rt></ruby>も<ruby>追加<rt>ついか</rt></ruby>された。<ruby>質<rt>しつ</rt></ruby>が<ruby>低下<rt>ていか</rt></ruby>するのではと<ruby>心配<rt>しんぱい</rt></ruby>したが、<ruby>整備<rt>せいび</rt></ruby>のおかげで<ruby>前<rt>まえ</rt></ruby>より<ruby>良<rt>よ</rt></ruby>い。<ruby>初級<rt>しょきゅう</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>なら、これで<ruby>十分<rt>じゅうぶん</rt></ruby><ruby>通用<rt>つうよう</rt></ruby>する。<ruby>乾電池<rt>かんでんち</rt></ruby>のように<ruby>循環<rt>じゅんかん</rt></ruby>して<ruby>使<rt>つか</rt></ruby>えるわけではないが、<ruby>基盤<rt>きばん</rt></ruby>は<ruby>強化<rt>きょうか</rt></ruby>された。<ruby>新<rt>あたら</rt></ruby>しい<ruby>物<rt>もの</rt></ruby>を<ruby>見<rt>み</rt></ruby>る<em class=\"g\">につけ</em>、<ruby>出来上<rt>できあ</rt></ruby>がりの<ruby>早<rt>はや</rt></ruby>さに<ruby>驚<rt>おどろ</rt></ruby>く。",
+ "cuerpo": "<ruby>店<rt>みせ</rt></ruby>の<ruby>冷凍<rt>れいとう</rt></ruby>の<ruby>棚<rt>たな</rt></ruby>が<ruby>増大<rt>ぞうだい</rt></ruby>し、<ruby>種類<rt>しゅるい</rt></ruby>も<ruby>追加<rt>ついか</rt></ruby>された。<ruby>質<rt>しつ</rt></ruby>が<ruby>低下<rt>ていか</rt></ruby>するのではと<ruby>心配<rt>しんぱい</rt></ruby>したが、<ruby>整備<rt>せいび</rt></ruby>のおかげで<ruby>前<rt>まえ</rt></ruby>より<ruby>良<rt>よ</rt></ruby>い。<ruby>初級<rt>しょきゅう</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>なら、これで<ruby>十分<rt>じゅうぶん</rt></ruby><ruby>通用<rt>つうよう</rt></ruby>する。<ruby>乾電池<rt>かんでんち</rt></ruby>のように<ruby>循環<rt>じゅんかん</rt></ruby>して<ruby>使<rt>つか</rt></ruby>えるわけではないが、<ruby>基盤<rt>きばん</rt></ruby>は<ruby>強化<rt>きょうか</rt></ruby>された。<ruby>新<rt>あたら</rt></ruby>しい<ruby>物<rt>もの</rt></ruby>を<ruby>見<rt>み</rt></ruby>る<em class=\"g\">につけ</em>、できあがりの<ruby>早<rt>はや</rt></ruby>さに<ruby>驚<rt>おどろ</rt></ruby>く。",
  "traduccion": "La sección de congelados de la tienda creció y añadieron más variedades. Temí que bajara la calidad, pero gracias a la puesta a punto está mejor que antes. Para cocina de nivel básico, con esto sobra. No es que se puedan reutilizar en ciclo como una pila, pero la base sí se ha reforzado. Cada vez que veo algo nuevo, me sorprende lo rápido que queda listo.",
  "preguntas": [
   {
@@ -25,7 +25,7 @@
   {
    "p": "<ruby>何<rt>なに</rt></ruby>に<ruby>驚<rt>おどろ</rt></ruby>きますか。",
    "opciones": [
-    "<ruby>出来上<rt>できあ</rt></ruby>がりの<ruby>早<rt>はや</rt></ruby>さ",
+    "できあがりの<ruby>早<rt>はや</rt></ruby>さ",
     "<ruby>値段<rt>ねだん</rt></ruby>",
     "<ruby>種類<rt>しゅるい</rt></ruby>"
    ],

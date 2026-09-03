@@ -1,13 +1,13 @@
 {
  "unidad_id": "N2/kurashi/rutina-1",
  "titulo": "<ruby>休<rt>やす</rt></ruby>みの<ruby>日課<rt>にっか</rt></ruby>",
- "cuerpo": "<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>も<ruby>日課<rt>にっか</rt></ruby>は<ruby>変<rt>か</rt></ruby>えない。<ruby>朝<rt>あさ</rt></ruby>は<ruby>髭<rt>ひげ</rt></ruby>を<ruby>剃<rt>そ</rt></ruby>り、ブラシで<ruby>髪<rt>かみ</rt></ruby>を<ruby>整<rt>ととの</rt></ruby>える。<em class=\"g\"><ruby>少<rt>すく</rt></ruby>なくとも</em><ruby>三十分<rt>さんじゅっぷん</rt></ruby>は<ruby>歩<rt>ある</rt></ruby>き、<ruby>海水浴<rt>かいすいよく</rt></ruby>の<ruby>季節<rt>きせつ</rt></ruby>なら<ruby>泳<rt>およ</rt></ruby>ぐ。<ruby>昼<rt>ひる</rt></ruby>は<ruby>一休<rt>ひとやす</rt></ruby>みして、<ruby>猫<rt>ねこ</rt></ruby>を<ruby>撫<rt>な</rt></ruby>でる。<ruby>夕立<rt>ゆうだち</rt></ruby>が<ruby>来<rt>き</rt></ruby>た<ruby>日<rt>ひ</rt></ruby>は、<em class=\"g\">わずかに</em><ruby>予定<rt>よてい</rt></ruby>を<ruby>変<rt>か</rt></ruby>えるだけだ。レジャーというより、<ruby>休養<rt>きゅうよう</rt></ruby>のための<ruby>動作<rt>どうさ</rt></ruby>に<ruby>近<rt>ちか</rt></ruby>い。",
+ "cuerpo": "<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>も<ruby>日課<rt>にっか</rt></ruby>は<ruby>変<rt>か</rt></ruby>えない。<ruby>朝<rt>あさ</rt></ruby>はひげを<ruby>剃<rt>そ</rt></ruby>り、ブラシで<ruby>髪<rt>かみ</rt></ruby>を<ruby>整<rt>ととの</rt></ruby>える。<em class=\"g\"><ruby>少<rt>すく</rt></ruby>なくとも</em><ruby>三十分<rt>さんじゅっぷん</rt></ruby>は<ruby>歩<rt>ある</rt></ruby>き、<ruby>海水浴<rt>かいすいよく</rt></ruby>の<ruby>季節<rt>きせつ</rt></ruby>なら<ruby>泳<rt>およ</rt></ruby>ぐ。<ruby>昼<rt>ひる</rt></ruby>は<ruby>一休<rt>ひとやす</rt></ruby>みして、<ruby>猫<rt>ねこ</rt></ruby>を<ruby>撫<rt>な</rt></ruby>でる。<ruby>夕立<rt>ゆうだち</rt></ruby>が<ruby>来<rt>き</rt></ruby>た<ruby>日<rt>ひ</rt></ruby>は、<em class=\"g\">わずかに</em><ruby>予定<rt>よてい</rt></ruby>を<ruby>変<rt>か</rt></ruby>えるだけだ。レジャーというより、<ruby>休養<rt>きゅうよう</rt></ruby>のための<ruby>動作<rt>どうさ</rt></ruby>に<ruby>近<rt>ちか</rt></ruby>い。",
  "traduccion": "Ni en los días libres cambio mi rutina. Por la mañana me afeito y me arreglo el pelo con el cepillo. Camino al menos treinta minutos y, si es temporada de baños, nado. Al mediodía descanso un rato y acaricio al gato. Los días que cae un chaparrón, sólo cambio ligeramente los planes. Más que ocio, se parece a una serie de gestos para descansar.",
  "preguntas": [
   {
    "p": "<ruby>朝<rt>あさ</rt></ruby><ruby>何<rt>なに</rt></ruby>をしますか。",
    "opciones": [
-    "<ruby>髭<rt>ひげ</rt></ruby>を<ruby>剃<rt>そ</rt></ruby>る",
+    "ひげを<ruby>剃<rt>そ</rt></ruby>る",
     "<ruby>泳<rt>およ</rt></ruby>ぐ",
     "<ruby>猫<rt>ねこ</rt></ruby>を<ruby>撫<rt>な</rt></ruby>でる"
    ],

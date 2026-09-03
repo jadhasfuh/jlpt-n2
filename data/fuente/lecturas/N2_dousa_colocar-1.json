@@ -2,7 +2,7 @@
  "unidad_id": "N2/dousa/colocar-1",
  "titulo": "<ruby>布<rt>ぬの</rt></ruby>を<ruby>被<rt>かぶ</rt></ruby>せる",
  "cuerpo": "<ruby>冬<rt>ふゆ</rt></ruby>が<ruby>近<rt>ちか</rt></ruby>づくと、<ruby>庭<rt>にわ</rt></ruby>の<ruby>木<rt>き</rt></ruby>に<ruby>布<rt>ぬの</rt></ruby>を<ruby>被<rt>かぶ</rt></ruby>せる。<ruby>土<rt>つち</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>にも<ruby>古<rt>ふる</rt></ruby>い<ruby>紙<rt>かみ</rt></ruby>を<ruby>敷<rt>し</rt></ruby>いておく。<ruby>葉<rt>は</rt></ruby>にくっついた<ruby>雪<rt>ゆき</rt></ruby>は、<ruby>手<rt>て</rt></ruby>で<ruby>落<rt>お</rt></ruby>とす<em class=\"g\">ものではない</em>と<ruby>祖父<rt>そふ</rt></ruby>に<ruby>教<rt>おそ</rt></ruby>わった。<ruby>枝<rt>えだ</rt></ruby>が<ruby>折<rt>お</rt></ruby>れてしまうからだ。<ruby>春<rt>はる</rt></ruby>になって<ruby>布<rt>ぬの</rt></ruby>を<ruby>取<rt>と</rt></ruby>ると、<ruby>小<rt>ちい</rt></ruby>さな<ruby>芽<rt>め</rt></ruby>がくっついていた。",
- "traduccion": "Cuando se acerca el invierno, cubro con una tela los árboles del jardín. También extiendo papel viejo sobre la tierra. Mi abuelo me enseñó que la nieve pegada a las hojas no se debe quitar con la mano: se rompen las ramas. Al llegar la primavera, cuando quité la tela, había pequeños brotes pegados.",
+ "traduccion": "Cuando se acerca el invierno, cubro con una tela los árboles del jardín. También extiendo papel viejo sobre la tierra. Mi abuelo me enseñó que la nieve pegada a las hojas no se debe quitar con la mano. Es que las ramas se rompen. Al llegar la primavera, cuando quité la tela, había pequeños brotes pegados.",
  "preguntas": [
   {
    "p": "<ruby>冬<rt>ふゆ</rt></ruby>に<ruby>木<rt>き</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>被<rt>かぶ</rt></ruby>せますか。",
@@ -32,5 +32,5 @@
    "correcta": 0
   }
  ],
- "traduccion_en": "When winter draws near, I cover the trees in the garden with a cloth. I also spread old newspaper over the soil. My grandfather taught me that snow stuck to the leaves shouldn't be brushed off by hand: the branches break. When spring came and I took the cloth off, small buds were stuck to them."
+ "traduccion_en": "When winter draws near, I cover the trees in the garden with a cloth. I also spread old newspaper over the soil. My grandfather taught me that snow stuck to the leaves shouldn't be brushed off by hand. The branches break. When spring came and I took the cloth off, small buds were stuck to them."
 }

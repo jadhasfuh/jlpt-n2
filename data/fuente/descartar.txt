@@ -2,3 +2,9 @@
 # Se sacan del vocabulario y de las sesiones. Un id por línea.
 81      # あひら — no es una palabra; la fila venía vacía en la fuente
 3134    # 釣(つり) — repetida idéntica a la 3133
+
+# 佚【いつ】 no es una palabra: la fuente pegó la glosa del *kanji* («perderse,
+# paz, esconderse, error, hermoso») y la coló en N5. 塵芥【ごみ】 es la misma
+# palabra que ごみ, escrita con dos kanji que nadie usa.
+257
+1661

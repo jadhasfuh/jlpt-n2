@@ -50,6 +50,32 @@ for r in vocab:
         if valor == "-": r[campo] = ""
         elif valor: r[campo] = valor
 
+# --------------------------------------------------------------- glosas
+# JMdict trae dentro de la definición cosas que no son la definición: la
+# etimología «(nl: Kop)», la categoría gramatical «(n)» —que ya va en su propia
+# columna— y el mismo significado repetido dos veces porque venía de dos
+# sentidos distintos. Al traducir al español eso se vuelve ruido de verdad:
+# コック salía como «cocinar (nl:); grifo, grifo, polla».
+ETIM = re.compile(r"\s*\((?:nl|de|fr|pt|it|es|ru|la|ain|chi|kor|eng|grc|ar)\s*:[^)]*\)")
+POS_SUELTO = re.compile(r"^\((?:n|v|a|adj|adv|vs|vi|vt|v1|v5[a-z]|adj-i|adj-na|"
+                        r"exp|int|pref|suf|conj|aux|gram|prt|sufijo|prefijo)\)\s*", re.I)
+
+def limpiar_glosa(g):
+    g = ETIM.sub("", g or "").strip()
+    g = POS_SUELTO.sub("", g).strip()
+    vistos, grupos = set(), []
+    for grupo in g.split(";"):
+        partes = []
+        for x in grupo.split(","):
+            x = x.strip()
+            k = x.lower()
+            if not x or k in vistos:
+                continue
+            vistos.add(k); partes.append(x)
+        if partes:
+            grupos.append(", ".join(partes))
+    return "; ".join(grupos)
+
 salida_v = []
 for r in vocab:
     kana, kanji = limpiar_jp(r["kana"]), limpiar_jp(r["kanji"])
@@ -57,8 +83,11 @@ for r in vocab:
     salida_v.append({
         "id": r["id"], "kana": kana, "kanji": kanji,
         "escritura": kanji or kana, "lectura": kana,
-        "pos": r["pos"], "en": en,
-        "es": CORRECCIONES.get(r["id"], {}).get("es", "").strip() or cache.get(en, ""),
+        "pos": r["pos"], "en": limpiar_glosa(en),
+        # ojo: la caché de español está indexada por la glosa inglesa CRUDA,
+        # así que se busca con `en` sin tocar y se limpia después.
+        "es": limpiar_glosa(CORRECCIONES.get(r["id"], {}).get("es", "").strip()
+                            or cache.get(en, "")),
         "registro": r.get("registro", []),
         "seccion": r["seccion"], "subgrupo": r["subgrupo"], "jlpt": r["jlpt"],
     })

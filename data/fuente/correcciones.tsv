@@ -165,3 +165,110 @@ id|kana|kanji|en|es
 4728|ゆにゅう|||                 # 輸入 es ゆにゅう; ゆしゅつ es 輸出, lo contrario
 100187||-||                      # さする va en kana; 摩する se lee まする
 101058||口ずさむ|to hum, to sing to oneself|tararear, canturrear   # «to humble» era una errata por «to hum»
+
+# --- Ortografía moderna ------------------------------------------------------
+# Dos reglas, aplicadas el 2026-09-02:
+#  a) morfema gramatical (auxiliar, nombre formal, adverbio) -> kana, aunque el
+#     kanji sea jōyō:  話し掛ける no es japonés de hoy, se escribe 話しかける.
+#  b) kanji fuera del jōyō en una palabra de N5/N4 -> kana, que es como lo
+#     escriben los libros de texto: うそ, ごみ, もらう, しょうゆ.
+# Los sustantivos concretos de N3+ se dejan en kanji aunque sean 表外 (嘘 no,
+# pero 噂, 蝶, 癌 sí se escriben así de verdad).
+487||追いかける||   # 追い掛ける → 追いかける
+3793||話しかける||   # 話し掛ける → 話しかける
+4794||呼びかける||   # 呼び掛ける → 呼びかける
+103020||見かける||   # 見掛ける → 見かける
+100087||心がける||   # 心掛ける → 心がける
+101798||手がける||   # 手掛ける → 手がける
+1604||腰かける||   # 腰掛ける → 腰かける
+3171||出かける||   # 出掛ける → 出かける
+3317||通りかかる||   # 通り掛かる → 通りかかる
+3913||引っかかる||   # 引っ掛かる → 引っかかる
+100182||差しかかる||   # 差し掛かる → 差しかかる
+102501||寄りかかる||   # 寄り掛かる → 寄りかかる
+640||お目にかかる||   # お目に掛かる → お目にかかる
+2383||~すぎる||   # ~過ぎる → ~すぎる
+3175||できあがる||   # 出来上がる → できあがる
+3174||できあがり||   # 出来上がり → できあがり
+3186||できるだけ||   # 出来るだけ → できるだけ
+3434||ない||   # 無い → ない
+100413||情けない||   # 情無い → 情けない
+101547||そっけない||   # 素っ気無い → そっけない
+321||いる||   # 居る → いる
+667||おる||   # 居る → おる
+148||ある||   # 有る → ある
+2457||する||   # 為る → する
+3511||なる||   # 為る → なる
+3475||なす||   # 為す → なす
+2877||ため||   # 為 → ため
+2471||せい||   # 所為 → せい
+1633||こと||   # 事 → こと
+3352||ところ||   # 所 → ところ
+3356||ところどころ||   # 所々 → ところどころ
+4275||ほど||   # 程 → ほど
+1753||先ほど||   # 先程 → 先ほど
+3516||なるほど||   # 成程 → なるほど
+100405||中ほど||   # 中程 → 中ほど
+102498||よほど||   # 余程 → よほど
+1306||くらい||   # 位 → くらい
+3485||など||   # 等 → など
+972||彼ら||   # 彼等 → 彼ら
+4819||~ら||   # ~等 → ~ら
+4739||よう||   # 様 → よう
+1741||逆さま||   # 逆様 → 逆さま
+4932||わけ||   # 訳 → わけ
+101820||手はず||   # 手筈 → 手はず
+100393||ないし||   # 乃至 → ないし
+100624||うんぬん||   # 云々 → うんぬん
+100654||おいて||   # 於いて → おいて
+4596||もちろん||   # 勿論 → もちろん
+4601||もっとも||   # 尤も → もっとも
+2814||ただ||   # 只 → ただ
+150||ある||   # 或 → ある
+3577||にわか||   # 俄 → にわか
+4396||まれ||   # 稀 → まれ
+102575||はるか||   # 遥か → はるか
+101204||あっけない||   # 呆気ない → あっけない
+100438||なれなれしい||   # 馴々しい → なれなれしい
+786||かく||   # 掻く → かく
+324||いる||   # 炒る → いる
+777||かかる||   # 罹る → かかる
+3894||ひく||   # 轢く → ひく
+3539||にぎやか||   # 賑やか → にぎやか
+2969||ちゃわん||   # 茶碗 → ちゃわん
+2676||そば||   # 蕎麦 → そば
+2230||しょうゆ||   # 醤油 → しょうゆ
+124||あめ||   # 飴 → あめ
+2539||せっけん||   # 石鹸 → せっけん
+2527||せき||   # 咳 → せき
+372||うそ||   # 嘘 → うそ
+1660||ごみ||   # 塵 → ごみ
+423||うれしい||   # 嬉しい → うれしい
+4437||みそ||   # 味噌 → みそ
+947||かむ||   # 噛む → かむ
+2454||すり||   # 掏摸 → すり
+3591||ぬれる||   # 濡れる → ぬれる
+2008||しま||   # 縞 → しま
+4627||もらう||   # 貰う → もらう
+3518||なれる||   # 馴れる → なれる
+3897||ひげ||   # 髭 → ひげ
+1618||ごちそう||   # 御馳走 → ごちそう
+3137||つる||   # 吊る → つる
+2611||~そう||   # ~艘 → ~そう
+
+# --- Glosas que había que escribir a mano ------------------------------------
+# コック es «cocinero» (del neerlandés kok). JMdict le junta el sentido de
+# «llave de paso», y el traductor automático eligió para «cock» la acepción
+# que no era. Se queda sólo la de cocina.
+1627|||cook, chef|cocinero, cocinera
+# だらしない es «desaliñado». La glosa inglesa traía «a slut», que ni es lo que
+# significa ni es algo que deba salir en una ficha de estudio.
+2887|||slovenly, untidy, sloppy, undisciplined|desaliñado, descuidado, dejado
+# 紐 traía «proxeneta» (es jerga real, pero no en una lista de N3).
+3962|||string, cord, strap|cuerda, cordón, cinta
+# コップ es el vaso, no el material; ガラス sí es el vidrio.
+1631|||glass, tumbler, cup|vaso
+# 眠い arrastraba «aestivation» (letargo estival) de un sentido que no es suyo.
+3612|||sleepy, drowsy|con sueño, somnoliento
+# かるた es el juego de cartas japonés, no «jugando a las cartas».
+970|||karuta, Japanese playing cards|karuta, cartas japonesas

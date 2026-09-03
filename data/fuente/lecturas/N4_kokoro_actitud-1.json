@@ -2,7 +2,7 @@
  "unidad_id": "N4/kokoro/actitud-1",
  "titulo": "<ruby>丁寧<rt>ていねい</rt></ruby>にこたえる",
  "cuerpo": "でんわに<ruby>出<rt>で</rt></ruby>ると、「<ruby>山田<rt>やまだ</rt></ruby>さんは<em class=\"g\">いらっしゃい</em>ますか」と<ruby>聞<rt>き</rt></ruby>かれました。「ただいま<ruby>席<rt>せき</rt></ruby>をはずしております。<ruby>三時<rt>さんじ</rt></ruby>にはもどると<ruby>思<rt>おも</rt></ruby>います」と<ruby>丁寧<rt>ていねい</rt></ruby>に<ruby>答<rt>こた</rt></ruby>えました。あいてのこえはつかれていました。こういうとき、<ruby>無視<rt>むし</rt></ruby>するのがいちばんよくないと<ruby>思<rt>おも</rt></ruby>います。<ruby>大事<rt>だいじ</rt></ruby>なのは、<ruby>行動<rt>こうどう</rt></ruby>でしめすことです。「おつたえしたいことは<em class=\"g\">ございます</em>か」ときいて、メモをとりました。<ruby>叱<rt>しか</rt></ruby>るよりも、まずあいてのはなしを<ruby>聞<rt>き</rt></ruby>くほうがはやいのです。とうとう<ruby>三時<rt>さんじ</rt></ruby>に、<ruby>山田<rt>やまだ</rt></ruby>さんはもどってきました。",
- "traduccion": "Al coger el teléfono me preguntaron si estaba el señor Yamada. Contesté con formalidad: «ahora mismo no está en su sitio; creo que vuelve a las tres». La voz del otro sonaba cansada. En situaciones así, creo que lo peor es ignorar a la persona. Lo importante es demostrarlo con hechos. Le pregunté si había algo que quisiera transmitirle y tomé nota. Más que regañar, se va más rápido escuchando primero al otro. Al final, a las tres, el señor Yamada volvió.",
+ "traduccion": "Al coger el teléfono me preguntaron si estaba el señor Yamada. «Ahora mismo no está en su sitio. Creo que vuelve a las tres», contesté con formalidad. La voz del otro sonaba cansada. En situaciones así, creo que lo peor es ignorar a la persona. Lo importante es demostrarlo con hechos. Le pregunté si había algo que quisiera transmitirle y tomé nota. Más que regañar, se va más rápido escuchando primero al otro. Al final, a las tres, el señor Yamada volvió.",
  "preguntas": [
   {
    "p": "でんわで<ruby>何<rt>なに</rt></ruby>を<ruby>聞<rt>き</rt></ruby>かれましたか。",
@@ -25,5 +25,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "When I picked up the phone they asked whether Mr Yamada was in. I answered politely: «he isn't at his desk right now; I think he's back at three». The voice on the other end sounded tired. In situations like that, I think the worst thing is to ignore the person. What matters is showing it through actions. I asked whether there was anything he wanted passed on and took a note. Rather than telling someone off, it goes faster if you listen to them first. In the end, at three, Mr Yamada came back."
+ "traduccion_en": "When I picked up the phone they asked whether Mr Yamada was in. «He isn't at his desk right now. I think he's back at three», I answered politely. The voice on the other end sounded tired. In situations like that, I think the worst thing is to ignore the person. What matters is showing it through actions. I asked whether there was anything he wanted passed on and took a note. Rather than telling someone off, it goes faster if you listen to them first. In the end, at three, Mr Yamada came back."
 }

@@ -2,7 +2,7 @@
  "unidad_id": "N4/kokoro/saludos-1",
  "titulo": "「<ruby>失礼<rt>しつれい</rt></ruby>します」",
  "cuerpo": "はじめての<ruby>会社<rt>かいしゃ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。「おはようございます。<ruby>田中<rt>たなか</rt></ruby><em class=\"g\">でございます</em>」と<ruby>名<rt>な</rt></ruby>のると、うけつけの<ruby>人<rt>ひと</rt></ruby>がにっこりしました。へやに<ruby>入<rt>はい</rt></ruby>るときも、<ruby>出<rt>で</rt></ruby>るときも、「<ruby>失礼<rt>しつれい</rt></ruby>します」と<ruby>言<rt>い</rt></ruby>います。おなじことばですが、<ruby>意味<rt>いみ</rt></ruby>はすこしちがいます。はじめは<ruby>礼<rt>れい</rt></ruby>のかたちがむずかしいと<ruby>思<rt>おも</rt></ruby>っていました。でも、それはあいてをこまらせないためのものだと<ruby>分<rt>わ</rt></ruby>かりました。「こちらが<ruby>受付<rt>うけつけ</rt></ruby><em class=\"g\">でございます</em>」と<ruby>案内<rt>あんない</rt></ruby>されて、しごとがはじまりました。",
- "traduccion": "Fui por primera vez a una empresa. Cuando me presenté con «buenos días, soy Tanaka», la persona de recepción sonrió. Tanto al entrar en una sala como al salir se dice «con permiso». Es la misma fórmula, pero el sentido cambia un poco. Al principio pensaba que las formas de cortesía eran difíciles. Pero entendí que están ahí para no incomodar al otro. Me acompañaron diciendo «aquí es la recepción» y empezó el trabajo.",
+ "traduccion": "Fui por primera vez a una empresa. «Buenos días. Soy Tanaka»: al presentarme así, la persona de recepción sonrió. Tanto al entrar en una sala como al salir se dice «con permiso». Es la misma fórmula, pero el sentido cambia un poco. Al principio pensaba que las formas de cortesía eran difíciles. Pero entendí que están ahí para no incomodar al otro. Me acompañaron diciendo «aquí es la recepción» y empezó el trabajo.",
  "preguntas": [
   {
    "p": "へやを<ruby>出<rt>で</rt></ruby>るとき、<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。",
@@ -25,5 +25,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "I went to a company for the first time. When I introduced myself with «good morning, I'm Tanaka», the person at reception smiled. Both when entering a room and when leaving you say «excuse me». It's the same formula, but the meaning changes a little. At first I thought polite forms were difficult. But I understood that they're there so as not to make the other person uncomfortable. They showed me in, saying «reception is here», and work began."
+ "traduccion_en": "I went to a company for the first time. «Good morning. I'm Tanaka»: when I introduced myself like that, the person at reception smiled. Both when entering a room and when leaving you say «excuse me». It's the same formula, but the meaning changes a little. At first I thought polite forms were difficult. But I understood that they're there so as not to make the other person uncomfortable. They showed me in, saying «reception is here», and work began."
 }

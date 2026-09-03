@@ -2,7 +2,7 @@
  "unidad_id": "N2/kokoro/tristeza-1",
  "titulo": "<ruby>折角<rt>せっかく</rt></ruby>の<ruby>旅行<rt>りょこう</rt></ruby>",
  "cuerpo": "<ruby>折角<rt>せっかく</rt></ruby>の<ruby>旅行<rt>りょこう</rt></ruby>だったのに、<ruby>不運<rt>ふうん</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>いた。<ruby>切符<rt>きっぷ</rt></ruby>を<ruby>破<rt>やぶ</rt></ruby>いてしまい、<ruby>雨<rt>あめ</rt></ruby>で<ruby>予定<rt>よてい</rt></ruby>も<ruby>崩<rt>くず</rt></ruby>れた。<ruby>自分<rt>じぶん</rt></ruby>のそそっかしさを<ruby>悔<rt>く</rt></ruby>やんだが、<ruby>怒<rt>おこ</rt></ruby>っても<ruby>仕方<rt>しかた</rt></ruby>がない。<ruby>宿<rt>やど</rt></ruby>への<ruby>苦情<rt>くじょう</rt></ruby>は<ruby>言<rt>い</rt></ruby>わなかった。<ruby>相手<rt>あいて</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby><em class=\"g\">に<ruby>関<rt>かか</rt></ruby>わる</em>ことだと<ruby>思<rt>おも</rt></ruby>ったからだ。<ruby>友<rt>とも</rt></ruby>だちは<ruby>楽<rt>たの</rt></ruby>しそうで、<ruby>少<rt>すこ</rt></ruby>しだけ<ruby>羨<rt>うらや</rt></ruby>ましかった。",
- "traduccion": "Con lo que costó organizar el viaje, y encima se encadenó la mala suerte. Rompí el billete y la lluvia desbarató los planes. Me lamenté de lo despistado que soy, pero enfadarse no sirve de nada. No presenté queja al alojamiento: pensé que era algo que afectaba al trabajo de esa gente. Mis amigos parecían pasarlo bien y les tuve un poquito de envidia.",
+ "traduccion": "Con lo que costó organizar el viaje, y encima se encadenó la mala suerte. Rompí el billete y la lluvia desbarató los planes. Me lamenté de lo despistado que soy, pero enfadarse no sirve de nada. No presenté queja al alojamiento. Pensé que era algo que afectaba al trabajo de esa gente. Mis amigos parecían pasarlo bien y les tuve un poquito de envidia.",
  "preguntas": [
   {
    "p": "<ruby>切符<rt>きっぷ</rt></ruby>をどうしましたか。",
@@ -32,5 +32,5 @@
    "correcta": 0
   }
  ],
- "traduccion_en": "After all the trouble of organising the trip, bad luck piled up on top. I tore the ticket and the rain wrecked the plans. I lamented how absent-minded I am, but getting angry is no use. I didn't complain to the accommodation: I thought it was something affecting those people's work. My friends seemed to be enjoying themselves and I envied them a little."
+ "traduccion_en": "After all the trouble of organising the trip, bad luck piled up on top. I tore the ticket and the rain wrecked the plans. I lamented how absent-minded I am, but getting angry is no use. I didn't complain to the accommodation. I thought it was something affecting those people's work. My friends seemed to be enjoying themselves and I envied them a little."
 }
