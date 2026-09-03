@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/shizen/cielo-1",
- "titulo": "<ruby>空<rt>そら</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>",
- "cuerpo": "あさは<ruby>明<rt>あか</rt></ruby>るい<ruby>空<rt>そら</rt></ruby>が、ゆうがたには<ruby>赤<rt>あか</rt></ruby>くなり、よるは<ruby>黒<rt>くろ</rt></ruby>くなります。おなじ<ruby>空<rt>そら</rt></ruby>なのに、<ruby>時間<rt>じかん</rt></ruby>で<ruby>色<rt>いろ</rt></ruby>がかわります。<ruby>暗<rt>くら</rt></ruby>いよるに<ruby>空<rt>そら</rt></ruby>を<ruby>見<rt>み</rt></ruby>あげると、ほしが<ruby>見<rt>み</rt></ruby>えます。まちのなかでは<ruby>少<rt>すこ</rt></ruby>ししか<ruby>見<rt>み</rt></ruby>えませんが、やまへ<ruby>行<rt>い</rt></ruby>くと、かぞえられないほどあります。<ruby>空<rt>そら</rt></ruby>は<ruby>空<rt>から</rt></ruby>のようで、<ruby>何<rt>なに</rt></ruby>もないように<ruby>見<rt>み</rt></ruby>えますが、<ruby>本当<rt>ほんとう</rt></ruby>はたくさんのものがあるのです。",
- "traduccion": "Por la mañana el cielo es claro, al atardecer se pone rojo y por la noche negro. Siendo el mismo cielo, cambia de color según la hora. Si miras el cielo en una noche oscura, se ven estrellas. En la ciudad solo se ven unas pocas, pero si vas a la montaña hay tantas que no se pueden contar. El cielo parece vacío, como si no hubiera nada, pero en realidad está lleno de cosas.",
+ "titulo": "<ruby>夜<rt>よる</rt></ruby>の そら",
+ "cuerpo": "こうべの そらは、<ruby>夜<rt>よる</rt></ruby>でも あまり <ruby>暗<rt>くら</rt></ruby>く ありません。まちの あかりが おおいからです。メキシコの いなかでは、ほしが たくさん <ruby>見<rt>み</rt></ruby>えました。でも、やまに のぼると、ここでも <ruby>黒<rt>くろ</rt></ruby>い そらが <ruby>見<rt>み</rt></ruby>えます。ゴンサと <ruby>二人<rt>ふたり</rt></ruby>で のぼって、<ruby>一時間<rt>いちじかん</rt></ruby>ぐらい すわって いました。だれも なにも 言いませんでした。",
+ "traduccion": "El cielo de Kobe no llega a estar muy oscuro ni de noche. Es que la ciudad tiene muchas luces. En el campo de México se veían muchísimas estrellas. Pero si subes a la montaña, también aquí se ve el cielo negro. Subimos Gonza y yo y estuvimos sentados como una hora. Ninguno dijo nada.",
  "preguntas": [
   {
-   "p": "ゆうがた、<ruby>空<rt>そら</rt></ruby>は<ruby>何<rt>なに</rt></ruby><ruby>色<rt>いろ</rt></ruby>になりますか。",
+   "p": "こうべの そらは どうして <ruby>暗<rt>くら</rt></ruby>く ないですか。",
    "opciones": [
-    "<ruby>明<rt>あか</rt></ruby>るい",
-    "<ruby>赤<rt>あか</rt></ruby>い",
-    "<ruby>黒<rt>くろ</rt></ruby>い",
-    "<ruby>暗<rt>くら</rt></ruby>い"
+    "まちの あかりが おおいから",
+    "つきが あるから",
+    "そらが せまいから"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "ほしがたくさん<ruby>見<rt>み</rt></ruby>えるのはどこですか。",
+   "p": "やまに のぼると どう なりますか。",
    "opciones": [
-    "まちのなか",
-    "やま",
-    "うちのなか",
-    "<ruby>空<rt>から</rt></ruby>のところ"
+    "<ruby>黒<rt>くろ</rt></ruby>い そらが <ruby>見<rt>み</rt></ruby>えます",
+    "なにも <ruby>見<rt>み</rt></ruby>えません",
+    "あかるいです"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>二人<rt>ふたり</rt></ruby>は そこで なにを しましたか。",
+   "opciones": [
+    "すわって いました",
+    "はなしました",
+    "しゃしんを とりました"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "In the morning the sky is clear, at dusk it turns red and at night black. Though it's the same sky, it changes colour with the hour. If you look at the sky on a dark night, you can see stars. In the city you only see a few, but if you go to the mountains there are so many they can't be counted. The sky looks empty, as if there were nothing there, but it's actually full of things."
+ "traduccion_en": "The sky over Kobe never gets very dark, even at night. It's because the city has so many lights. Out in the countryside in Mexico you could see masses of stars. But if you climb the mountain, you can see a black sky here too. Gonza and I went up and sat there for about an hour. Neither of us said anything."
 }

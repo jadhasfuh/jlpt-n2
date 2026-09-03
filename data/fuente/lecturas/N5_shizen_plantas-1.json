@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/shizen/plantas-1",
- "titulo": "<ruby>花<rt>はな</rt></ruby>が<ruby>咲<rt>さ</rt></ruby>くまで",
- "cuerpo": "はるに、にわの<ruby>木<rt>き</rt></ruby>に<ruby>芽<rt>め</rt></ruby>が<ruby>出<rt>で</rt></ruby>ました。ちいさくて、はじめは<ruby>葉<rt>は</rt></ruby>かどうかもわかりませんでした。まいあさ<ruby>見<rt>み</rt></ruby>ていました<em class=\"g\">けれども</em>、なかなか<ruby>大<rt>おお</rt></ruby>きくなりません。ある<ruby>日<rt>ひ</rt></ruby>、<ruby>一<rt>いち</rt></ruby>しゅうかん<ruby>見<rt>み</rt></ruby>なかった<em class=\"g\">けれども</em>、そのあいだに<ruby>花<rt>はな</rt></ruby>が<ruby>咲<rt>さ</rt></ruby>いていました。まっているときはながく<ruby>感<rt>かん</rt></ruby>じ、わすれているとはやいようです。<ruby>木<rt>き</rt></ruby>は、<ruby>見<rt>み</rt></ruby>られていなくてもそだつのだとおもいました。",
- "traduccion": "En primavera brotó un yema en el árbol del jardín. Era tan pequeña que al principio ni sabía si era una hoja. La miraba todas las mañanas, pero no acababa de crecer. Un día pasé una semana sin mirarla y, en ese tiempo, había florecido. Cuando esperas se hace largo, y cuando te olvidas parece rápido. Pensé que el árbol crece aunque nadie lo mire.",
+ "titulo": "<ruby>花<rt>はな</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>く",
+ "cuerpo": "<ruby>四月<rt>しがつ</rt></ruby>の はじめ、アンナさんと <ruby>花<rt>はな</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>きました。<ruby>木<rt>き</rt></ruby>の <ruby>下<rt>した</rt></ruby>に、たくさんの <ruby>人<rt>ひと</rt></ruby>が すわって います。はなびらが かぜで おちて、<ruby>水<rt>みず</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に ならびました。「<ruby>一<rt>いっ</rt></ruby>しゅうかんだけです」と アンナさんが 言いました。「みじかいから きれいなんです」とも 言いました。ぼくは その ことばを、いまでも おぼえて います。",
+ "traduccion": "A principios de abril fui con Anna a ver las flores. Debajo de los árboles había mucha gente sentada. Los pétalos caían con el viento y se posaban sobre el agua. «Sólo dura una semana», dijo Anna. Y añadió: «es bonito porque dura poco». Todavía me acuerdo de esa frase.",
  "preguntas": [
   {
-   "p": "<ruby>花<rt>はな</rt></ruby>が<ruby>咲<rt>さ</rt></ruby>いたのはいつですか。",
+   "p": "いつ <ruby>行<rt>い</rt></ruby>きましたか。",
    "opciones": [
-    "まいあさ<ruby>見<rt>み</rt></ruby>ていたとき",
-    "<ruby>一<rt>いち</rt></ruby>しゅうかん<ruby>見<rt>み</rt></ruby>なかったあいだ",
-    "<ruby>芽<rt>め</rt></ruby>が<ruby>出<rt>で</rt></ruby>たとき",
-    "ふゆ"
+    "<ruby>四月<rt>しがつ</rt></ruby>の はじめ",
+    "<ruby>六月<rt>ろくがつ</rt></ruby>",
+    "<ruby>十二月<rt>じゅうにがつ</rt></ruby>"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "この<ruby>人<rt>ひと</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をおもいましたか。",
+   "p": "アンナさんは なんと 言いましたか。",
    "opciones": [
-    "<ruby>木<rt>き</rt></ruby>はまいにち<ruby>見<rt>み</rt></ruby>るべきだ",
-    "<ruby>木<rt>き</rt></ruby>は<ruby>見<rt>み</rt></ruby>られていなくてもそだつ",
-    "はるはみじかい",
-    "<ruby>花<rt>はな</rt></ruby>はちいさい"
+    "みじかいから きれいだ",
+    "ながく つづく",
+    "つまらない"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "はなびらは どこに ならびましたか。",
+   "opciones": [
+    "<ruby>水<rt>みず</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>",
+    "<ruby>木<rt>き</rt></ruby>の <ruby>下<rt>した</rt></ruby>",
+    "みちの <ruby>上<rt>うえ</rt></ruby>"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "In spring a bud came out on the tree in the garden. It was so small that at first I couldn't even tell if it was a leaf. I looked at it every morning, but it never quite grew. One day I went a week without looking at it and, in that time, it had flowered. When you wait it feels long, and when you forget it seems fast. I thought that the tree grows even if nobody watches it."
+ "traduccion_en": "At the start of April I went with Anna to see the blossom. Under the trees a lot of people were sitting. The petals fell in the wind and settled on the water. «It only lasts a week», said Anna. And she added: «it's beautiful because it's short». I still remember that line."
 }

@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/shizen/materia-1",
- "titulo": "<ruby>紙<rt>かみ</rt></ruby>と<ruby>作文<rt>さくぶん</rt></ruby>",
- "cuerpo": "<ruby>学校<rt>がっこう</rt></ruby>で<ruby>作文<rt>さくぶん</rt></ruby>を<ruby>書<rt>か</rt></ruby>きました。<ruby>紙<rt>かみ</rt></ruby>が<ruby>一<rt>いち</rt></ruby>まいしかなかった<em class=\"g\">から</em>、まちがえられませんでした。<ruby>鉛筆<rt>えんぴつ</rt></ruby>で<ruby>点<rt>てん</rt></ruby>をうって、かんがえをならべてから<ruby>書<rt>か</rt></ruby>きはじめました。となりの<ruby>人<rt>ひと</rt></ruby>は<ruby>三<rt>さん</rt></ruby>まいつかっていました。おわってから、「なぜ<ruby>一<rt>いち</rt></ruby>まいで<ruby>書<rt>か</rt></ruby>けるの」ときかれました。<ruby>書<rt>か</rt></ruby>くまえにかんがえた<em class=\"g\">から</em>です。かんがえる<ruby>時間<rt>じかん</rt></ruby>は、むだのように<ruby>見<rt>み</rt></ruby>えて、じつはいちばんはやいのです。",
- "traduccion": "En el colegio escribí una redacción. Como solo tenía una hoja, no podía equivocarme. Hice unos puntos con el lápiz, ordené las ideas y luego empecé a escribir. La persona de al lado gastó tres hojas. Al terminar me preguntó por qué había podido escribirla en una sola. Porque lo pensé antes de escribir. El rato de pensar parece tiempo perdido, pero en realidad es lo más rápido.",
+ "titulo": "さくぶんの しゅくだい",
+ "cuerpo": "<ruby>先生<rt>せんせい</rt></ruby>が「<ruby>一年<rt>いちねん</rt></ruby>の さくぶんを <ruby>書<rt>か</rt></ruby>いて ください」と 言いました。かみを <ruby>前<rt>まえ</rt></ruby>に して、<ruby>一時間<rt>いちじかん</rt></ruby> なにも <ruby>書<rt>か</rt></ruby>けませんでした。ありすぎて、どれを <ruby>書<rt>か</rt></ruby>けば いいか わかりません。ゴンサは 「ネットカフェの ことを <ruby>書<rt>か</rt></ruby>け」と 言いました。ぼくは、はじめて <ruby>駅<rt>えき</rt></ruby>で まちがえた <ruby>日<rt>ひ</rt></ruby>の ことを <ruby>書<rt>か</rt></ruby>きました。<ruby>三<rt>さん</rt></ruby>まいに なりました。",
+ "traduccion": "El profesor nos pidió: «escribid una redacción sobre este año». Me pasé una hora delante del papel sin escribir nada. Hay tanto que no sabía por dónde empezar. Gonza me dijo: «escribe lo del cibercafé». Yo escribí sobre el día en que me equivoqué de salida en la estación. Me salieron tres folios.",
  "preguntas": [
   {
-   "p": "なぜ、まちがえられませんでしたか。",
+   "p": "<ruby>先生<rt>せんせい</rt></ruby>は なにを たのみましたか。",
    "opciones": [
-    "<ruby>時間<rt>じかん</rt></ruby>がなかったから",
-    "<ruby>紙<rt>かみ</rt></ruby>が<ruby>一<rt>いち</rt></ruby>まいしかなかったから",
-    "<ruby>鉛筆<rt>えんぴつ</rt></ruby>がなかったから",
-    "となりの<ruby>人<rt>ひと</rt></ruby>がいたから"
+    "<ruby>一年<rt>いちねん</rt></ruby>の さくぶん",
+    "テストの べんきょう",
+    "しゃしん"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>書<rt>か</rt></ruby>くまえに<ruby>何<rt>なに</rt></ruby>をしましたか。",
+   "p": "カルロスさんは なにに ついて <ruby>書<rt>か</rt></ruby>きましたか。",
    "opciones": [
-    "<ruby>紙<rt>かみ</rt></ruby>をかった",
-    "<ruby>点<rt>てん</rt></ruby>をうってかんがえをならべた",
-    "となりの<ruby>人<rt>ひと</rt></ruby>にきいた",
-    "<ruby>読<rt>よ</rt></ruby>んだ"
+    "<ruby>駅<rt>えき</rt></ruby>で まちがえた <ruby>日<rt>ひ</rt></ruby>",
+    "ネットカフェ",
+    "うみ"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "なんまいに なりましたか。",
+   "opciones": [
+    "<ruby>三<rt>さん</rt></ruby>まい",
+    "<ruby>一<rt>いち</rt></ruby>まい",
+    "<ruby>十<rt>じゅう</rt></ruby>まい"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "At school I wrote an essay. Since I only had one sheet, I couldn't make mistakes. I made a few notes with a pencil, put my ideas in order and then started writing. The person next to me used up three sheets. When we finished he asked me why I'd been able to write it on just one. Because I thought about it before writing. The time spent thinking looks like wasted time, but it's actually the fastest way."
+ "traduccion_en": "The teacher told us: «write a composition about this year». I sat in front of the paper for an hour without writing anything. There was so much that I didn't know where to start. Gonza said: «write about the internet café». I wrote about the day I took the wrong exit at the station. It came to three pages."
 }

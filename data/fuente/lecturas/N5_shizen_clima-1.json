@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/shizen/clima-1",
- "titulo": "<ruby>天気<rt>てんき</rt></ruby>のはなし",
- "cuerpo": "きょうは<ruby>朝<rt>あさ</rt></ruby>から<ruby>曇<rt>くも</rt></ruby>っていました。ひるすぎに<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>りはじめて、かぜも<ruby>吹<rt>ふ</rt></ruby>きました。ゆうがたには<ruby>晴<rt>は</rt></ruby>れて、そらが<ruby>澄<rt>す</rt></ruby>んでいました。<ruby>一日<rt>いちにち</rt></ruby>のうちに、こんなにかわるのはめずらしいです。なつは<ruby>暑<rt>あつ</rt></ruby><em class=\"g\">すぎる</em>し、ふゆは<ruby>寒<rt>さむ</rt></ruby><em class=\"g\">すぎる</em>ので、はるとあきがいちばんいいです。<ruby>雪<rt>ゆき</rt></ruby>のふる<ruby>日<rt>ひ</rt></ruby>は、みちがしずかになります。<ruby>温<rt>あたた</rt></ruby>かいおちゃをのみながら、まどからそれを<ruby>見<rt>み</rt></ruby>るのがすきです。",
- "traduccion": "Hoy estuvo nublado desde la mañana. Pasado el mediodía empezó a llover y también sopló viento. Al atardecer se despejó y el cielo quedó limpio. Es raro que cambie tanto en un solo día. En verano hace demasiado calor y en invierno demasiado frío, así que la primavera y el otoño son lo mejor. Los días de nieve las calles se quedan silenciosas. Me gusta mirarlo desde la ventana mientras tomo un té templado.",
+ "titulo": "つゆの あめ",
+ "cuerpo": "<ruby>六月<rt>ろくがつ</rt></ruby>に なると、まいにち <ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>ふ</rt></ruby>ります。つゆと 言うそうです。<ruby>天気<rt>てんき</rt></ruby>よほうを <ruby>見<rt>み</rt></ruby>ても、いつも おなじ えが ならんで います。せんたくものが かわかないので、へやの <ruby>中<rt>なか</rt></ruby>に かけます。<ruby>暑<rt>あつ</rt></ruby>くて、<ruby>雨<rt>あめ</rt></ruby>で、<ruby>窓<rt>まど</rt></ruby>が <ruby>曇<rt>くも</rt></ruby>ります。でも、<ruby>晴<rt>は</rt></ruby>れた <ruby>日<rt>ひ</rt></ruby>の みどりの いろは、いままでで いちばん きれいでした。",
+ "traduccion": "Cuando llega junio llueve todos los días. Lo llaman tsuyu. Miras el parte del tiempo y aparece siempre el mismo dibujo. La ropa no se seca, así que la tiendo dentro de la habitación. Hace calor, llueve y las ventanas se empañan. Pero el verde de los días que escampa es lo más bonito que he visto hasta ahora.",
  "preguntas": [
   {
-   "p": "ゆうがた、<ruby>天気<rt>てんき</rt></ruby>はどうなりましたか。",
+   "p": "<ruby>六月<rt>ろくがつ</rt></ruby>は どんな <ruby>天気<rt>てんき</rt></ruby>ですか。",
    "opciones": [
-    "<ruby>雨<rt>あめ</rt></ruby>がふった",
-    "<ruby>晴<rt>は</rt></ruby>れた",
-    "<ruby>曇<rt>くも</rt></ruby>った",
-    "<ruby>雪<rt>ゆき</rt></ruby>がふった"
+    "まいにち <ruby>雨<rt>あめ</rt></ruby>",
+    "いつも はれ",
+    "さむい"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "いちばんいいきせつはどれですか。",
+   "p": "せんたくものは どう しますか。",
    "opciones": [
-    "なつとふゆ",
-    "はるとあき",
-    "なつだけ",
-    "ふゆだけ"
+    "へやの <ruby>中<rt>なか</rt></ruby>に かけます",
+    "そとに かけます",
+    "あらいません"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "<ruby>晴<rt>は</rt></ruby>れた <ruby>日<rt>ひ</rt></ruby>、なにが きれいですか。",
+   "opciones": [
+    "みどりの いろ",
+    "そら",
+    "うみ"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Today it was cloudy from the morning. After midday it started to rain and the wind blew too. At dusk it cleared and the sky was clean. It's unusual for it to change so much in a single day. In summer it's too hot and in winter too cold, so spring and autumn are the best. On snowy days the streets go silent. I like watching it from the window with a warm tea."
+ "traduccion_en": "When June comes it rains every day. They call it tsuyu. You look at the forecast and it's always the same picture. The washing won't dry, so I hang it inside the room. It's hot, it rains and the windows steam up. But the green on the days it clears is the most beautiful thing I've seen here."
 }

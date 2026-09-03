@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/shizen/animales-1",
- "titulo": "うちの<ruby>猫<rt>ねこ</rt></ruby>",
- "cuerpo": "うちには<ruby>猫<rt>ねこ</rt></ruby>が<ruby>一<rt>いっ</rt></ruby>ぴきいます。<ruby>犬<rt>いぬ</rt></ruby>もかいたいとおもっています。<em class=\"g\">しかし</em>、へやがせまいのでむりです。<ruby>猫<rt>ねこ</rt></ruby>はあさ、まどのそばのすみでそとを<ruby>見<rt>み</rt></ruby>ています。<ruby>鳥<rt>とり</rt></ruby>が<ruby>鳴<rt>な</rt></ruby>くと、<ruby>耳<rt>みみ</rt></ruby>がうごきます。<em class=\"g\">しかし</em>、そとへ<ruby>出<rt>で</rt></ruby>ようとはしません。<ruby>動物<rt>どうぶつ</rt></ruby>にも、すきなばしょとこわいばしょがあるのでしょう。よるは、わたしのあしのよこで<ruby>寝<rt>ね</rt></ruby>ます。それがいちばんあたたかいばしょのようです。",
- "traduccion": "En casa tenemos un gato. También me gustaría tener un perro. Sin embargo, la habitación es pequeña y no puede ser. Por la mañana el gato se pone en el rincón junto a la ventana a mirar fuera. Cuando cantan los pájaros, mueve las orejas. Sin embargo, no intenta salir. Los animales también deben de tener sitios que les gustan y sitios que les dan miedo. Por la noche duerme junto a mis pies. Parece que ese es el sitio más caliente.",
+ "titulo": "みせの まえの ねこ",
+ "cuerpo": "バイトの みせの まえに、いつも おなじ <ruby>猫<rt>ねこ</rt></ruby>が います。だれの <ruby>猫<rt>ねこ</rt></ruby>か わかりません。しごとが おわると、<ruby>鳴<rt>な</rt></ruby>いて ぼくの ほうへ <ruby>来<rt>き</rt></ruby>ます。ミンさんが ときどき たべものを あげて います。「ペットじゃ ない。ここの <ruby>人<rt>ひと</rt></ruby>だ」と ミンさんが 言いました。<ruby>犬<rt>いぬ</rt></ruby>が すきな ぼくも、この <ruby>猫<rt>ねこ</rt></ruby>だけは とくべつです。",
+ "traduccion": "Delante de la pizzería hay siempre el mismo gato. No se sabe de quién es. Cuando acabo el turno, maúlla y se me acerca. Min le da de comer de vez en cuando. «No es una mascota. Es del barrio», dijo Min. A mí me gustan más los perros, pero ese gato es aparte.",
  "preguntas": [
   {
-   "p": "なぜ、<ruby>犬<rt>いぬ</rt></ruby>をかいませんか。",
+   "p": "<ruby>猫<rt>ねこ</rt></ruby>は だれの ものですか。",
    "opciones": [
-    "<ruby>猫<rt>ねこ</rt></ruby>がいるから",
-    "へやがせまいから",
-    "<ruby>鳥<rt>とり</rt></ruby>がいるから",
-    "たかいから"
+    "わかりません",
+    "ミンさんの",
+    "てんちょうの"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "<ruby>鳥<rt>とり</rt></ruby>が<ruby>鳴<rt>な</rt></ruby>くと、<ruby>猫<rt>ねこ</rt></ruby>はどうしますか。",
+   "p": "しごとが おわると <ruby>猫<rt>ねこ</rt></ruby>は どう しますか。",
    "opciones": [
-    "そとへ<ruby>出<rt>で</rt></ruby>る",
-    "<ruby>耳<rt>みみ</rt></ruby>がうごく",
-    "<ruby>寝<rt>ね</rt></ruby>る",
-    "<ruby>鳴<rt>な</rt></ruby>く"
+    "<ruby>鳴<rt>な</rt></ruby>いて <ruby>来<rt>き</rt></ruby>ます",
+    "にげます",
+    "ねて います"
    ],
-   "correcta": 1
+   "correcta": 0
+  },
+  {
+   "p": "ミンさんは <ruby>猫<rt>ねこ</rt></ruby>を なんと 言いましたか。",
+   "opciones": [
+    "ここの <ruby>人<rt>ひと</rt></ruby>だ",
+    "ペットだ",
+    "あぶない"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "We have a cat at home. I'd like to have a dog too. However, the room is small and it can't be done. In the morning the cat settles in the corner by the window and looks outside. When the birds sing, it moves its ears. However, it doesn't try to go out. Animals must have places they like and places that frighten them too. At night it sleeps by my feet. That seems to be the warmest spot."
+ "traduccion_en": "In front of the pizzeria there's always the same cat. Nobody knows whose it is. When my shift ends it miaows and comes over to me. Min feeds it now and then. «It isn't a pet. It belongs to this street», said Min. I'm more of a dog person, but that cat is an exception."
 }

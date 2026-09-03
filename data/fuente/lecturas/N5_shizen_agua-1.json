@@ -1,29 +1,36 @@
 {
  "unidad_id": "N5/shizen/agua-1",
- "titulo": "<ruby>海<rt>うみ</rt></ruby>と<ruby>川<rt>かわ</rt></ruby>",
- "cuerpo": "うちの<ruby>近<rt>ちか</rt></ruby>くには<ruby>川<rt>かわ</rt></ruby>があります。<ruby>海<rt>うみ</rt></ruby>はとおいです<em class=\"g\">けど</em>、<ruby>年<rt>とし</rt></ruby>に<ruby>一<rt>いち</rt></ruby>どは<ruby>行<rt>い</rt></ruby>きます。<ruby>川<rt>かわ</rt></ruby>の<ruby>水<rt>みず</rt></ruby>はすんでいて、<ruby>下<rt>した</rt></ruby>の<ruby>石<rt>いし</rt></ruby>まで<ruby>見<rt>み</rt></ruby>えます。<ruby>子<rt>こ</rt></ruby>どものころは、ここでよく<ruby>泳<rt>およ</rt></ruby>ぎました。いまはプールのほうがおおいです<em class=\"g\">けど</em>、<ruby>川<rt>かわ</rt></ruby>の<ruby>水<rt>みず</rt></ruby>のつめたさはわすれません。<ruby>池<rt>いけ</rt></ruby>のとりに<ruby>手<rt>て</rt></ruby>を<ruby>振<rt>ふ</rt></ruby>ると、にげずにこちらを<ruby>見<rt>み</rt></ruby>ていました。",
- "traduccion": "Cerca de casa hay un río. El mar queda lejos, pero voy una vez al año. El agua del río es transparente y se ven hasta las piedras del fondo. De niño nadaba mucho aquí. Ahora voy más a la piscina, pero no olvido lo fría que estaba el agua del río. Cuando saludé con la mano a los pájaros del estanque, no se fueron: se quedaron mirándome.",
+ "titulo": "はるの うみ",
+ "cuerpo": "<ruby>四月<rt>しがつ</rt></ruby>の にちようび、アンナさんと けんたくんと うみへ <ruby>行<rt>い</rt></ruby>きました。まだ <ruby>泳<rt>およ</rt></ruby>ぐには つめたいです。けんたくんは くつを ぬいで、<ruby>水<rt>みず</rt></ruby>に あしを <ruby>入<rt>い</rt></ruby>れて さけびました。とおくに ふねが <ruby>見<rt>み</rt></ruby>えます。ぼくが <ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>き</rt></ruby>た とき、あの ほうこうから <ruby>来<rt>き</rt></ruby>ました。<ruby>一年<rt>いちねん</rt></ruby>まえの じぶんに、なにも しんぱいするなと 言いたいです。",
+ "traduccion": "Un domingo de abril fui al mar con Anna y con Kenta. Todavía está demasiado frío para nadar. Kenta se quitó los zapatos, metió los pies en el agua y pegó un grito. A lo lejos se ven barcos. Cuando llegué a Japón, vine desde aquella dirección. Al yo de hace un año me gustaría decirle que no se preocupara por nada.",
  "preguntas": [
   {
-   "p": "<ruby>川<rt>かわ</rt></ruby>の<ruby>水<rt>みず</rt></ruby>はどうですか。",
+   "p": "だれと うみへ <ruby>行<rt>い</rt></ruby>きましたか。",
    "opciones": [
-    "きたない",
-    "すんでいて<ruby>石<rt>いし</rt></ruby>まで<ruby>見<rt>み</rt></ruby>える",
-    "あたたかい",
-    "ふかい"
+    "アンナさんと けんたくん",
+    "ゴンサと ジャン",
+    "ひとりで"
    ],
-   "correcta": 1
+   "correcta": 0
   },
   {
-   "p": "いまは、どこでおよぐことがおおいですか。",
+   "p": "<ruby>泳<rt>およ</rt></ruby>ぎましたか。",
    "opciones": [
-    "<ruby>川<rt>かわ</rt></ruby>",
-    "<ruby>海<rt>うみ</rt></ruby>",
-    "プール",
-    "<ruby>池<rt>いけ</rt></ruby>"
+    "まだ つめたいです",
+    "はい、<ruby>泳<rt>およ</rt></ruby>ぎました",
+    "けんたくんだけ"
    ],
-   "correcta": 2
+   "correcta": 0
+  },
+  {
+   "p": "カルロスさんは <ruby>一年<rt>いちねん</rt></ruby>まえの じぶんに なにを 言いたいですか。",
+   "opciones": [
+    "しんぱいするな",
+    "はやく かえれ",
+    "べんきょうしろ"
+   ],
+   "correcta": 0
   }
  ],
- "traduccion_en": "Near my house there's a river. The sea is far away, but I go once a year. The river water is clear and you can even see the stones at the bottom. As a child I swam here a lot. Now I go to the pool more, but I haven't forgotten how cold the river water was. When I waved at the birds on the pond, they didn't leave: they stayed looking at me."
+ "traduccion_en": "One Sunday in April I went to the sea with Anna and Kenta. It's still too cold to swim. Kenta took off his shoes, put his feet in the water and shrieked. In the distance you can see ships. When I came to Japan, I came from that direction. To the me of a year ago I'd like to say: don't worry about anything."
 }
