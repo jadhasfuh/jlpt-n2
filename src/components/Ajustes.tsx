@@ -131,8 +131,14 @@ export function ProveedorAjustes({
  * en el pulgar. Encendido se ve por el color —el mismo `.encendido` de siempre—
  * y no cambiando la letra: si あ se convirtiera en 字 al activarse, la letra
  * pasaría a decir lo contrario de lo que hace el botón.
+ *
+ * `conSignificado={false}` quita 意 donde estorba. En un test y en la sesión
+ * de cinco minutos no hace nada visible, y en el repaso hace justo lo que no
+ * debe: enseña el significado, que es la respuesta que se está intentando
+ * recordar. Un botón que no hace nada confunde; uno que resuelve el ejercicio
+ * por ti, más.
  */
-export function ConmutadoresJp() {
+export function ConmutadoresJp({ conSignificado = true }: { conSignificado?: boolean }) {
   const { furigana, significado, colores, alternar, t } = useAjustes();
   const uno = (
     k: "furigana" | "significado" | "colores",
@@ -153,7 +159,7 @@ export function ConmutadoresJp() {
   return (
     <div className="conmutadores-jp">
       {uno("furigana", furigana, "あ", t("aj.furigana"))}
-      {uno("significado", significado, "意", t("aj.significado"))}
+      {conSignificado && uno("significado", significado, "意", t("aj.significado"))}
       {uno("colores", colores, "色", t("aj.colores"))}
     </div>
   );

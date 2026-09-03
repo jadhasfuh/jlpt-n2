@@ -112,7 +112,7 @@ export function Test({ unidad, palabras, cerrar, siguiente }: {
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(n / preguntas.length) * 100}%` }} />
         </div>
-        <ConmutadoresJp />
+        <ConmutadoresJp conSignificado={false} />
         <span className="tenue" style={{ fontVariantNumeric: "tabular-nums" }}>{n + 1}/{preguntas.length}</span>
         <span style={{ display: "inline-flex", alignItems: "center", gap: 3, fontSize: 11.5,
                        color: "var(--acento-300)", fontVariantNumeric: "tabular-nums" }}>

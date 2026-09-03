@@ -138,7 +138,7 @@ export function Escucha({ unidad, palabras, cerrar }: {
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(n / preguntas.length) * 100}%` }} />
         </div>
-        <ConmutadoresJp />
+        <ConmutadoresJp conSignificado={false} />
         <span className="tenue" style={{ fontVariantNumeric: "tabular-nums" }}>{n + 1}/{preguntas.length}</span>
         <span className="pastilla"><span className="jp">聴解</span></span>
       </div>

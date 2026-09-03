@@ -112,7 +112,7 @@ export function Practica({ unidad, palabras, gramatica, cerrar }: {
             <i key={n} className={marcas[n] === true ? "bien" : marcas[n] === false ? "mal" : ""} />
           ))}
         </div>
-        <ConmutadoresJp />
+        <ConmutadoresJp conSignificado={false} />
         <span className="tenue" style={{ fontVariantNumeric: "tabular-nums" }}>
           {i + 1}/{mazo.length}
         </span>

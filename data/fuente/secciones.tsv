@@ -11,3 +11,12 @@
 # afinar matices.
 id|seccion|subgrupo
 1627|shigoto|oficios     # コック — es el cocinero, no la llave de paso
+# Interjecciones y partículas que el clasificador colocó por la definición
+# equivocada: はい acabó en «Ropa» porque su glosa decía «ponerse una espada».
+3680|kokoro|saludos          # はい — sí
+3676|kokoro|saludos          # はあ — sí, vaya
+430|kokoro|saludos           # うん — sí informal
+3592|tsunagu|formulas        # ね — partícula final
+3267|tsunagu|pronombres      # どう — cómo
+2009|jikan|orden             # しまい — el final
+4413|tsunagu|afijos          # ~み — sufijo que hace sustantivo

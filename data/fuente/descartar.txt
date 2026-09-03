@@ -42,3 +42,33 @@
 103044  # 相変わらず — se queda la 3, que está en el nivel correcto
 185     # 言う — idéntica a la 184
 3315    # 通り — idéntica a la 3314
+
+# --- Entradas que la fuente dejó rotas (2026-09-02) ---------------------------
+# 出(で) «outflow, graduate of»: la palabra es marginal y la escritura queda en
+# «で» a secas, que es la partícula. En una lista de estudio sólo confunde.
+3142
+# さす(傘を~) — es la misma que la 103035, que ya trae la acepción del paraguas.
+# Ésta llevaba pegada la glosa de 灸をさす («aplicar moxa»), que no es esa
+# palabra. Se va la de la unidad más llena (25 frente a 22).
+1787
+
+# --- Repetidas que salieron al arreglar las lecturas vacías (2026-09-02) ------
+# Mientras la lectura estaba vacía, estas 16 palabras no chocaban con su gemela
+# y el control de duplicados no las veía. Misma regla de siempre: se va la copia
+# de la unidad MÁS LLENA, y la definición buena pasa a la que se queda.
+246     # ~いち — se queda la 103037 (afijos, 19 palabras)
+4213    # ~ほう — se queda la 103043, que está en una unidad de 6
+103055  # かび — idéntica a la 929
+103060  # しいんと — idéntica a la 1870
+103063  # しつれいしました — idéntica a la 1975
+2012    # しまった — se queda la 102812, que está en una unidad de 9
+2023    # しめた — se queda la 103065
+103067  # しわ — idéntica a la 2284
+103066  # じゅうたん — idéntica a la 2090
+2445    # すみません — se queda la 102813, que está en una unidad de 9
+2720    # だいいち — se queda la 103071, con mejor definición
+103074  # どういたしまして — idéntica a la 3272
+102901  # はあ — se queda la 3676, que está en una unidad de 19 frente a 27
+103078  # はい — se queda la 3680: はい es de N5, no de N2
+4816    # よろしく — se queda la 102817, que además está en «saludos»
+103085  # ミリ — idéntica a la 4473

@@ -79,7 +79,8 @@ export function Lateral() {
           </div>
         )}
 
-        <ConmutadoresJp />
+        {/* en el repaso, 意 enseñaría la respuesta */}
+        <ConmutadoresJp conSignificado={!ruta.startsWith("/repaso")} />
 
         <div style={{ flex: 1 }} />
         <button className="icono-btn" onClick={cambiarTema} aria-label={nombreTema} title={nombreTema}>

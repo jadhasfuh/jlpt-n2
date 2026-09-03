@@ -297,3 +297,75 @@ id|kana|kanji|en|es
 103057|げひん|下品||
 103082|ほがらか|朗らか||
 102746|パート|-||
+
+# --- El paréntesis de la fuente decía QUÉ homófono era ------------------------
+# La lista original pone en la columna de la lectura una nota entre paréntesis
+# —（感）interjección, （副）adverbio, （ズボンを~）«se pone con pantalones»— que
+# sirve para distinguir homófonos. En nueve entradas la nota dice una palabra y
+# la definición pegada al lado es la de OTRA: はい（感）salía como «ponerse una
+# espada» (佩い) y どう（接。副）como «niño, sirviente» (童). No es que quedara
+# raro: enseñaba otra palabra.
+3680|||yes; I see; certainly|sí; ya veo; claro
+3267|||how, in what way, how about|cómo, de qué manera; qué tal
+3592|||right?, isn't it? (sentence-final particle)|¿verdad?, ¿no? (partícula final)
+2009|||the end, finish, closing|el final, el fin, el cierre
+3712|||to put on (trousers, skirt, shoes, socks)|ponerse (pantalones, falda, zapatos, calcetines)
+4413|||-ness, -th (suffix making a noun from an adjective)|-ez, -ura (sufijo que hace sustantivo de un adjetivo)
+246|||the most ~ in Japan, the best ~ (suffix)|el mejor ~, el número uno de ~ (sufijo)
+430|||yeah, uh-huh (informal yes)|sí, ajá (sí informal)
+1636|||whole, entirely, together with|entero, del todo, junto con lo demás
+
+# --- Español que traducía el inglés palabra por palabra -----------------------
+# El traductor automático copiaba la forma inglesa en vez de decirlo en
+# español: 看病 «nursing (a patient)» salía como «enfermería (un paciente)»,
+# que ni es enfermería ni se dice así. Cuando el inglés lleva un gerundio con
+# su objeto entre paréntesis, en español va el infinitivo con su «a».
+1046|||nursing, looking after a sick person|cuidar a un enfermo, atender a un paciente
+100877|||nursing (as a profession), nursing care|cuidados de enfermería, atención al enfermo
+100771|||nursing, looking after (a sick or drunk person)|atender, cuidar (a un enfermo o a un borracho)
+1797|||musical composition, setting words to music|composición musical, poner música (a una letra)
+4653|||role, part, duties|papel, función, cometido
+100064|||issuing, granting, delivery (of a document)|expedición, entrega (de un documento)
+100301|||investment, putting in (money, resources); throwing in|aportación, inversión (de dinero o medios); echar, arrojar
+101795|||too late, beyond help|demasiado tarde, fuera de tiempo
+102076|||starting point, square one; drawing (of a bill)|punto de partida, casilla de salida; libramiento (de una letra)
+102185|||washing hung out to dry, laundry|ropa tendida, colada
+102385|||groping for, fumbling for, searching blindly|búsqueda a tientas, tanteo
+2869|||egg; roe; (a person) in the making|huevo; hueva; (persona) en ciernes
+4937|||to forget; to leave (something) behind|olvidar; dejarse (algo) olvidado
+3599|||screw|tornillo
+551|||your child, someone else's child (polite)|su hijo, el hijo de usted (cortés)
+102740|||your house (polite); you|su casa (cortés); usted
+640|||to meet someone of higher status (humble)|conocer a alguien de más rango (humilde)
+100271|||to kick away; to kick someone|echar de una patada; dar una patada a alguien
+100378|||to act as intermediary; to announce someone; to pass on (a message)|hacer de intermediario; anunciar a alguien; transmitir (un recado)
+3649|||to desire, to wish for; to command (a view of)|desear, anhelar; tener vistas a
+3666|||riding past one's station|pasarse de estación
+2604|||washing one's face|lavarse la cara, aseo
+1499|||passing (an exam), success, eligibility|aprobado (de un examen), aptitud
+1618|||feast, treat; to treat someone (to a meal)|banquete, comida especial; invitar (a alguien)
+2984|||parking (a vehicle)|aparcamiento, estacionamiento
+3157|||stopping (of a train), stop|parada (de un tren)
+3806|||spring, coil spring|muelle, resorte
+1037|||canned goods, canning; tin can|conserva en lata, enlatado; lata
+1201|||fishing industry, fisheries|pesca (sector), industria pesquera
+3815|||scene, situation|escena, situación
+3919|||moving house, change of residence|mudanza, cambio de domicilio
+4326|||defeat, loss|derrota, pérdida
+100111|||fixing, fixation (of a salary, of capital)|fijación; fijar (un sueldo, un capital)
+3465|||to sing (of a bird), to make its sound (of an animal)|cantar (un pájaro), emitir su sonido (un animal)
+738|||remodelling, renovation; modification (computing)|remodelación, reforma; modificación (informática)
+102017|||blockade; freezing (of funds)|bloqueo; congelación (de fondos)
+101869|||annulment, revocation; breaking (of a treaty)|anulación, revocación; ruptura (de un tratado)
+101514|||launching (of a publication), first issue|lanzamiento (de una publicación), primer número
+101702|||lottery, raffle, draw|sorteo, rifa
+409|||to turn (something) over, to turn inside out|dar la vuelta a algo, volver del revés
+4665|||to lose weight, to get thin|adelgazar, perder peso
+1998|||ground, terrain; base, foothold|terreno, suelo; base
+2601|||the whole, the entirety; general|el conjunto, la totalidad; general
+254|||market (as an economic concept)|mercado (como concepto económico)
+2477|||daily life, livelihood|vida diaria, sustento
+# Las definiciones buenas, en la ficha que se queda de cada par.
+103037|||the most ~ in Japan, the best ~ (suffix)|el mejor ~, el número uno de ~ (sufijo)
+103043|||the ~ side, the one that is ~ (in comparisons)|el lado de ~, el más ~ (en comparaciones)
+3676|||yes, indeed, well; (a sigh)|sí, ya; vaya (también un suspiro)

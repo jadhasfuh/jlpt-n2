@@ -115,7 +115,7 @@ export function SesionRapida() {
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(restante / (MINUTOS * 60)) * 100}%` }} />
         </div>
-        <ConmutadoresJp />
+        <ConmutadoresJp conSignificado={false} />
       </div>
 
       <div className="tarjeta" style={{ textAlign: "center", padding: "44px 20px" }}>

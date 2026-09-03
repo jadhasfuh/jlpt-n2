@@ -35,6 +35,7 @@ if f.exists():
         if l and not l.startswith("#"): DESCARTAR.add(int(l))
 
 KANA = "぀-ヿー"
+CJK  = "一-鿿"
 def limpiar_jp(s):
     return re.sub(r"^（[^）]*）\s*", "", s or "").replace("～", "~").strip()
 
@@ -86,6 +87,12 @@ def limpiar_glosa(g):
 salida_v = []
 for r in vocab:
     kana, kanji = limpiar_jp(r["kana"]), limpiar_jp(r["kanji"])
+    # La fuente usa a veces la columna de la lectura para una nota —（感）,
+    # （副）, （ズボンを~）— que distingue homófonos. `limpiar_jp` la quita y la
+    # entrada se quedaba SIN lectura: 32 palabras con el campo vacío. Cuando la
+    # escritura ya es kana, la lectura es ella misma.
+    if not kana and kanji and not re.search(f"[{CJK}]", kanji):
+        kana = kanji
     en = r["en"].strip()
     salida_v.append({
         "id": r["id"], "kana": kana, "kanji": kanji,

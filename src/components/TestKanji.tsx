@@ -135,7 +135,7 @@ export function TestKanji({ kanji, titulo, cerrar }: {
         <div className="barra" style={{ flex: 1 }}>
           <i style={{ width: `${(n / preguntas.length) * 100}%` }} />
         </div>
-        <ConmutadoresJp />
+        <ConmutadoresJp conSignificado={false} />
         <span className="tenue">{puntos} pt · {n + 1}/{preguntas.length}</span>
       </div>
 
