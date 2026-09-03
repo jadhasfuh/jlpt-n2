@@ -44,6 +44,106 @@ THIS DRAWING IS THE ANSWER TO AN EXAM QUESTION. Precision beats everything:
 """.strip()
 
 
+# --------------------------------------------------- los dos casos que fallan
+#
+# 1. COLOR. En línea negra no hay forma de distinguir 「青いシャツ」 de
+#    「白いシャツ」: salían las dos como una camisa de contorno, o sea dos
+#    opciones idénticas y una pregunta sin respuesta. Esas van en color. En el
+#    papel del examen no se puede, pero esto es una pantalla y el color no
+#    cuesta nada — y encima 青い/赤い/白い es justo el vocabulario que se está
+#    preguntando.
+#
+# 2. RELOJES. El modelo pone las manecillas donde le parece: pedimos 二時三十分
+#    y dibujó las 3:30, con la aguja de la hora en el 3 en vez de a medio camino
+#    entre el 2 y el 3. Un reloj es geometría, así que se dibuja aquí y no se
+#    le pide a nadie. Es el caso en que la precisión manda sobre el estilo.
+
+ESTILO_COLOR = """
+STYLE — plain line drawing in FLAT COLOUR, for a Japanese listening paper.
+A clean black outline, and inside it ONE FLAT SOLID COLOUR per object — the
+exact colour the option names, bright and unmistakable. Blue is a clear medium
+blue, red is a clear red, white is plain white with only the outline. No
+shading, no gradients, no texture, no grey, no pattern: one flat fill and
+nothing else. White background.
+
+THE COLOUR IS THE ANSWER. Two options in this question differ ONLY in colour,
+so if the fill is grey, washed out, or the wrong hue the question has no
+solution. Make the colour obvious at a glance.
+
+HARD RULES:
+1. NO TEXT anywhere: no letters, no numbers, no words, no labels, no logos.
+2. Draw exactly what is listed and nothing else. If a number is given, draw
+   exactly that many, clearly separated and easy to count.
+3. Centred on white with even space around. Nobody in the picture unless the
+   option names a person.
+
+FORBIDDEN: Studio Ghibli; Pixar or any 3D look; manga or anime; cute
+picture-book style; photorealism; shading; drop shadows.
+""".strip()
+
+COLORES = ("青", "赤", "白", "黒", "黄", "緑", "茶", "紫",
+           "あお", "あか", "しろ", "くろ", "きいろ", "みどり",
+           "ピンク", "オレンジ")
+
+CIFRA = {"一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6,
+         "七": 7, "八": 8, "九": 9, "十": 10}
+
+
+def _numero(s):
+    """Kanji a entero, para 1..59: 二十 → 20, 五十 → 50, 二十五 → 25."""
+    if not s: return None
+    if "十" in s:
+        a, _, b = s.partition("十")
+        return (CIFRA.get(a, 1) if a else 1) * 10 + (CIFRA.get(b, 0) if b else 0)
+    return CIFRA.get(s)
+
+
+def hora_de(texto):
+    """(hora, minuto) si la opción es una hora; si no, None."""
+    m = re.fullmatch(r"\s*([一二三四五六七八九十]+)時(半|([一二三四五六七八九十]+)分)?\s*", texto)
+    if not m: return None
+    h = _numero(m.group(1))
+    if h is None: return None
+    if m.group(2) == "半": return (h, 30)
+    if m.group(3):
+        mi = _numero(m.group(3))
+        return (h, mi) if mi is not None else None
+    return (h, 0)
+
+
+def pinta_reloj(h, mi, destino, lado=1024):
+    """Un reloj de pared con la hora exacta, al estilo de los demás dibujos:
+    línea negra gruesa sobre blanco y sin un solo número."""
+    from PIL import Image, ImageDraw
+    import math
+    esc = 4                                   # se dibuja en grande y se reduce
+    S = lado * esc
+    im = Image.new("L", (S, S), 255)
+    d = ImageDraw.Draw(im)
+    c, r = S / 2, S * 0.40
+    d.ellipse([c - r, c - r, c + r, c + r], outline=0, width=int(S * 0.012))
+    d.ellipse([c - r * 0.93, c - r * 0.93, c + r * 0.93, c + r * 0.93],
+              outline=0, width=int(S * 0.004))
+    for k in range(60):
+        a = math.radians(k * 6 - 90)
+        largo = r * (0.10 if k % 5 == 0 else 0.045)
+        gordo = int(S * (0.010 if k % 5 == 0 else 0.004))
+        r1 = r * 0.86
+        d.line([c + r1 * math.cos(a), c + r1 * math.sin(a),
+                c + (r1 - largo) * math.cos(a), c + (r1 - largo) * math.sin(a)],
+               fill=0, width=gordo)
+    def aguja(ang, largo, gordo):
+        a = math.radians(ang - 90)
+        d.line([c, c, c + largo * math.cos(a), c + largo * math.sin(a)],
+               fill=0, width=gordo)
+    # la aguja de la hora avanza con los minutos: a y media va a medio camino
+    aguja(((h % 12) + mi / 60) * 30, r * 0.50, int(S * 0.022))
+    aguja(mi * 6, r * 0.76, int(S * 0.014))
+    d.ellipse([c - S * 0.012, c - S * 0.012, c + S * 0.012, c + S * 0.012], fill=0)
+    im.resize((lado, lado), Image.LANCZOS).save(destino)
+    print(f"  → {destino.relative_to(RAIZ)}  (reloj {h}:{mi:02d}, dibujado a mano)")
+
+
 def items(nivel):
     fuera = []
     for f in sorted((RAIZ / "data/fuente/examen").glob("*.json")):
@@ -54,16 +154,39 @@ def items(nivel):
 
 
 def dibuja(it, i, opcion):
-    prompt = (_examen.ESTILO + "\n\n" + PRECISION + "\n\nSUBJECT — option "
+    limpia = _examen.limpia(opcion)
+    destino = SALIDA / f"{it['id']}-{i + 1}.png"
+
+    reloj = hora_de(limpia)
+    if reloj:
+        pinta_reloj(reloj[0], reloj[1], destino)
+        return
+
+    # Si la opción nombra un color, el dibujo va en color; en línea negra dos
+    # opciones que sólo se diferencian en el color salen idénticas.
+    hay_color = any(c in limpia for c in COLORES)
+    # Parchear frases sueltas del estilo monocromo no bastaba: salían grises.
+    # Con su propio bloque el color sale del color que pide la opción.
+    estilo = ESTILO_COLOR if hay_color else _examen.ESTILO
+
+    # Se le pasan LAS CUATRO opciones, no sólo la suya. El japonés elide el
+    # sustantivo —「青いのと 赤いの」 son かばん, que sólo aparece en las otras
+    # opciones— y sin verlas el modelo se lo inventa: pidió bolsos y dibujó
+    # lápices. Además así sabe de qué tiene que distinguirse.
+    todas = "\n".join(
+        f"  {k + 1}. {_examen.limpia(o)}" + ("   ← DRAW THIS ONE" if k == i else "")
+        for k, o in enumerate(it["opciones"]))
+    prompt = (estilo + "\n\n" + PRECISION + "\n\nSUBJECT — option "
               f"{i + 1} of 4 for a Japanese listening question.\n\n"
               f"THE QUESTION (context only, do not draw it):\n"
               f"{_examen.limpia(it['enunciado'])}\n\n"
+              f"THE FOUR OPTIONS, so you know what the objects are and what "
+              f"this one has to differ from:\n{todas}\n\n"
               f"WHAT TO DRAW (Japanese, from the exam bank) — exactly this and "
-              f"nothing else:\n{_examen.limpia(opcion)}\n\n"
+              f"nothing else:\n{limpia}\n\n"
               "Square composition on white. No text, no numbers, no labels.")
-    destino = SALIDA / f"{it['id']}-{i + 1}.png"
-    print(f"  {it['id']}-{i + 1}  {_examen.limpia(opcion)[:38]}")
-    _il.genera(prompt, destino, size="1024x1024")
+    print(f"  {it['id']}-{i + 1}  {limpia[:38]}" + ("   [color]" if hay_color else ""))
+    _il.genera(prompt, destino, size="1024x1024", gris=not hay_color)
 
 
 def main():

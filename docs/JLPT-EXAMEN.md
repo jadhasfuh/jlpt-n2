@@ -215,3 +215,49 @@ En la app salen **antes del botón de escuchar**, como en el papel: primero se
 mira la escena, luego suena el audio. En tema oscuro se invierten, para que no
 sean un foco de luz en mitad de la pantalla.
 
+## Las cuatro viñetas de 課題理解
+
+En el examen real, a N5 y N4 las opciones de 課題理解 no son texto: son cuatro
+dibujos, y elegir mirando es parte de la dificultad —hay que retener el audio
+mientras se mira—. Con opciones de texto el ejercicio es más fácil de lo que
+debería.
+
+`python3 scripts/34_ilustrar_opciones.py` dibuja las de N5 (14 ítems, 56
+viñetas); con `--nivel N4` las de N4. Escribe además
+`src/lib/opciones-ilustradas.json`, que es lo que lee la app para saber cuándo
+pintar viñetas. Se apunta ahí y no se deduce en el navegador: probar a cargar y
+esperar el error da parpadeo, y un ítem a medio dibujar dejaría dos opciones con
+viñeta y dos con texto, que es la peor combinación.
+
+La diferencia con 発話表現: allí el dibujo pone la escena y la respuesta está en
+el audio; **aquí el dibujo ES la respuesta**. Si no se pueden contar dos huevos
+y distinguirlos de tres, la pregunta no tiene solución. Por eso el estilo se
+mantiene pero la exigencia de precisión sube.
+
+### Los tres casos que fallaron
+
+**Colores.** 「青いシャツ 二まい」 y 「白いシャツ 二まい」 salían las dos como
+una camisa de contorno: dos opciones idénticas y una pregunta sin respuesta. En
+línea negra el color no existe. Esas van **en color**, con su propio bloque de
+estilo —parchear frases sueltas del monocromo no bastaba, salían grises—. En el
+papel del examen no se puede; esto es una pantalla y el color no cuesta nada, y
+encima 青い/赤い/白い es justo el vocabulario que se pregunta.
+
+Ojo: en tema oscuro las viñetas **no se invierten**, al revés que las escenas de
+発話表現. Invertir volvería el azul naranja y el rojo cian, o sea que destruiría
+la respuesta.
+
+**Relojes.** Se pidió 二時三十分 y dibujó las 3:30, con la aguja de la hora en el
+3 en vez de a medio camino entre el 2 y el 3. Un reloj es geometría, así que se
+dibuja con PIL —`pinta_reloj()`— y no se le pide a nadie. Es el caso en que la
+precisión manda sobre el estilo.
+
+**El sustantivo elidido.** 「青いのと 赤いの」 no dice de qué: son かばん, y eso
+sólo aparece en las otras opciones. El modelo dibujó lápices. Ahora se le pasan
+**las cuatro opciones** en cada petición, marcando cuál toca: así sabe qué es el
+objeto y de qué tiene que distinguirse.
+
+Y un fallo propio que costó dos tandas: `genera()` convertía **todo** a escala
+de grises —lo puse para el libro, que es tinta— así que el color se generaba
+bien y se destruía después. Ahora lleva `gris=False` para lo que sí va en color.
+

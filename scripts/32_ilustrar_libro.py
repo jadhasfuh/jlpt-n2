@@ -198,7 +198,7 @@ def _peticion(url: str, cuerpo, cabeceras, intentos=4):
 
 
 def genera(prompt: str, destino: pathlib.Path, referencia: pathlib.Path | None = None,
-           size="1536x1024"):
+           size="1536x1024", gris=True):
     """Un dibujo. Con `referencia` usa /images/edits, que es como se le pasa la
     hoja de personajes para que respete las caras."""
     k = clave()
@@ -225,11 +225,16 @@ def genera(prompt: str, destino: pathlib.Path, referencia: pathlib.Path | None =
     # Son dibujos a tinta negra: guardarlos en RGB ocupa 3,4 veces más sin
     # aportar nada. A 1536x1024 y 115 mm de ancho quedan a ~340 ppp, de sobra
     # para imprenta.
-    try:
-        from PIL import Image
-        Image.open(destino).convert("L").save(destino, optimize=True)
-    except ImportError:
-        pass
+    #
+    # `gris=False` para lo que SÍ lleva color. Con esto siempre puesto, las
+    # opciones de examen que se distinguen por el color salían grises: el
+    # modelo las pintaba bien y esta línea se lo cargaba después.
+    if gris:
+        try:
+            from PIL import Image
+            Image.open(destino).convert("L").save(destino, optimize=True)
+        except ImportError:
+            pass
     u = d.get("usage") or {}
     try: nombre = destino.resolve().relative_to(RAIZ)
     except ValueError: nombre = destino

@@ -684,7 +684,8 @@ em.g.n3 { border-color: color-mix(in srgb, var(--n3) 60%, transparent); }
   display: block; width: 100%; height: auto; border-radius: var(--radio-sm);
   background: #fff;
 }
-:root[data-tema="oscuro"] .vineta-opcion { filter: invert(1); background: #000; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-tema="claro"]) .vineta-opcion { filter: invert(1); background: #000; }
-}
+/* En oscuro NO se invierten, al revés que las escenas de 発話表現: algunas
+   opciones se distinguen justamente por el color —青いかばん frente a 赤い
+   かばん— e invertir volvería el azul naranja y el rojo cian, o sea que
+   destruiría la respuesta. Se quedan sobre su tarjeta blanca, que se lee como
+   papel. */
