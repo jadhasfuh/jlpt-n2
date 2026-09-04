@@ -118,7 +118,9 @@ def cubierta(paginas, papel="90g-offset"):
               "書いて あります。103の しょうが、",
               "ひとつづきの ものがたりに なって います。",
               "",
-              "かんじには ぜんぶ ふりがなが ついて います。"):
+              "かんじには ぜんぶ ふりがなが ついて います。",
+              "",
+              "日本語能力試験 N5の べんきょうの ための 本です。"):
         tx.textLine(l)
     c.drawText(tx)
     c.setFont("Gothic", 9); c.setFillColorRGB(0.35, 0.36, 0.40)
@@ -127,6 +129,8 @@ def cubierta(paginas, papel="90g-offset"):
     for l in ("Un año en Kobe. Ciento tres capítulos, una sola",
               "historia, escrita entera con el vocabulario y la",
               "gramática del N5. Todos los kanji llevan furigana.",
+              "",
+              "Material de apoyo para preparar el JLPT N5.",
               "",
               "jlptest.org"):
         tx.textLine(l)

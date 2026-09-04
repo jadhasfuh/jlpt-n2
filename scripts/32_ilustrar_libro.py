@@ -297,7 +297,7 @@ def portada():
     genera(prompt, SALIDA / "00-portada.png", referencia=HOJA, size="1024x1536")
 
 
-TITULO_JA = "こうべの一年"
+TITULO_JA = [("神戸", "こうべ"), ("の", None), ("一年", "いちねん")]
 TITULO_ES = "Un año en Kobe"
 FUENTES = pathlib.Path("/private/tmp/claude-501/-Users-jadhasfuh-Documents-jlptest"
                        "/de6ce02c-8b5a-444f-9eba-a860178bf9ed/scratchpad/fuentes")
@@ -344,9 +344,23 @@ def monta_portada():
         d.text((x0 - a[0], y - a[1]), txt, font=fuente, fill=(gris,) * 3)
         return a[3] - a[1]
 
-    alto = izquierda(TITULO_JA, mincho, SANGRE + round(CORTE_H * 0.085))
-    izquierda(TITULO_ES, gothic,
-              SANGRE + round(CORTE_H * 0.085) + alto + round(CORTE_H * 0.028), 70)
+    # El título con furigana: 神戸 en kanji y こうべ encima. Dice de un vistazo
+    # dos cosas —que el libro va de Kobe y que TODO lleva furigana—, que es
+    # justo lo que necesita saber quien lo coge de una estantería.
+    rubi = ImageFont.truetype(str(FUENTES / "ipaexg.ttf"), round(W * 0.028))
+    y0 = SANGRE + round(CORTE_H * 0.085) + round(W * 0.045)
+    x, alto = x0, 0
+    for base_txt, lec in TITULO_JA:
+        a = d.textbbox((0, 0), base_txt, font=mincho)
+        if lec:
+            b = d.textbbox((0, 0), lec, font=rubi)
+            d.text((x + ((a[2] - a[0]) - (b[2] - b[0])) / 2 - b[0],
+                    y0 - (b[3] - b[1]) - round(W * 0.020) - b[1]),
+                   lec, font=rubi, fill=(120, 120, 126))
+        d.text((x - a[0], y0 - a[1]), base_txt, font=mincho, fill=(0, 0, 0))
+        x += a[2] - a[0]
+        alto = max(alto, a[3] - a[1])
+    izquierda(TITULO_ES, gothic, y0 + alto + round(CORTE_H * 0.028), 70)
 
     # El logo abajo a la izquierda, con la dirección DEBAJO y no al lado: al
     # lado se metía entre los pies del personaje.

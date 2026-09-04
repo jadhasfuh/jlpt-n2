@@ -157,6 +157,31 @@ def renglones(ts, caja):
     if linea: fuera.append(linea)
     return fuera
 
+def pinta_titulo(c, x, y, linea, cuerpo=None, vertical=False):
+    """El título del capítulo: en ゴシック y más grande que el texto.
+
+    Iba en 明朝 al mismo cuerpo que la historia, así que no se distinguía de un
+    renglón cualquiera. En japonés no se enfatiza con negrita —no existe una
+    versión negrita del 明朝 clásico—, sino cambiando de familia."""
+    cuerpo = cuerpo or CUERPO * 1.35
+    for base, lec, _ in linea:
+        w = pdfmetrics.stringWidth(base, "Gothic", cuerpo)
+        if lec:
+            wl = pdfmetrics.stringWidth(lec, "Gothic", cuerpo * 0.42)
+            c.setFont("Gothic", cuerpo * 0.42); c.setFillGray(0.45)
+            c.drawString(x + (w - wl) / 2, y + cuerpo * 0.92, lec)
+            c.setFillGray(0)
+        c.setFont("Gothic", cuerpo)
+        c.drawString(x, y, base)
+        x += w
+    return x
+
+
+def ancho_titulo(linea, cuerpo=None):
+    cuerpo = cuerpo or CUERPO * 1.35
+    return sum(pdfmetrics.stringWidth(b, "Gothic", cuerpo) for b, _, _ in linea)
+
+
 def pinta_renglon(c, x, y, linea):
     for base, lec, g in linea:
         w = ancho(base)
@@ -206,33 +231,34 @@ def columnas(ts, alto):
     if col: fuera.append(col)
     return fuera
 
-def pinta_columna(c, x, y_alto, col):
+def pinta_columna(c, x, y_alto, col, titulo=False):
     """Una columna. `x` es el eje; el furigana va a su derecha."""
     y = y_alto
+    cuerpo = CUERPO * 1.3 if titulo else CUERPO
     for base, lec, g in col:
         if lec:                                   # furigana al lado derecho
-            c.setFont("Mincho", FURIGANA)
-            paso = (len(base) * CUERPO) / max(1, len(lec))
+            c.setFont("Gothic" if titulo else "Mincho", FURIGANA)
+            paso = (len(base) * cuerpo) / max(1, len(lec))
             for i, ch in enumerate(lec):
-                c.drawString(x + CUERPO * 0.52,
+                c.drawString(x + cuerpo * 0.52,
                              y - (i + 1) * paso + paso * 0.25, ch)
-        c.setFont("Gothic" if g else "Mincho", CUERPO)
+        c.setFont("Gothic" if (g or titulo) else "Mincho", cuerpo)
         for ch in base:
-            w = ancho(ch)
-            cx, cy = x - w / 2, y - CUERPO * 0.86
+            w = pdfmetrics.stringWidth(ch, "Gothic" if titulo else "Mincho", cuerpo)
+            cx, cy = x - w / 2, y - cuerpo * 0.86
             if ch in ESQUINA:
-                c.drawString(cx + CUERPO * 0.30, cy + CUERPO * 0.42, ch)
+                c.drawString(cx + cuerpo * 0.30, cy + cuerpo * 0.42, ch)
             elif ch in GIRAN:
                 c.saveState()
-                c.translate(x, y - CUERPO / 2)
+                c.translate(x, y - cuerpo / 2)
                 c.rotate(-90)
-                c.drawString(-w / 2, -CUERPO * 0.36, ch)
+                c.drawString(-w / 2, -cuerpo * 0.36, ch)
                 c.restoreState()
             elif ch in PEQUENAS:
-                c.drawString(cx + CUERPO * 0.12, cy + CUERPO * 0.10, ch)
+                c.drawString(cx + cuerpo * 0.12, cy + cuerpo * 0.10, ch)
             else:
                 c.drawString(cx, cy, ch)
-            y -= CUERPO
+            y -= cuerpo
 
 # ------------------------------------------------------------------- los datos
 lecturas = {l["unidad_id"]: l for l in json.load(open("data/dist/lecturas.json"))}
@@ -335,8 +361,15 @@ if "--sin-portada" not in sys.argv:
     # ---- cómo se usa ----
     y = ALTO - M_ARRIBA - 6 * mm
     c.setFont("Mincho", 16); c.drawString(M_CANTO, y, "この 本の つかい方")
-    y -= 12 * mm
-    c.setFont("Gothic", 9.5); c.setFillGray(0.2)
+    y -= 9 * mm
+    c.setFont("Gothic", 9.5); c.setFillGray(0.35)
+    for linea in ("Este libro es material de APOYO para preparar el JLPT N5.",
+                  "No sustituye al temario: lo pone a funcionar. Todo lo que",
+                  "hay dentro —las 925 palabras y los 84 puntos de gramática—",
+                  "es el vocabulario y la gramática del N5, y nada más."):
+        c.drawString(M_CANTO, y, linea); y -= 6.2 * mm
+    y -= 5 * mm
+    c.setFillGray(0.2)
     for linea in ("Cada capítulo tiene dos partes. Primero las palabras y la",
                   "gramática que vas a necesitar; después la historia.",
                   "",
@@ -469,18 +502,20 @@ for n, uid in enumerate(capitulos, desde + 1):
         c.drawCentredString(x + lado / 2, y_base - 3.6 * mm, "アプリで れんしゅう")
         c.setFillGray(0)
 
-    def pon_dibujo(x, y_base):
+    def pon_dibujo(x, y_base, ancho=None, alto=None):
+        ancho = ancho or ANCHO_DIB
+        alto = alto or ALTO_DIB
         f = dibujo_de(n, uid)
         if f:
-            pinta_dibujo(c, f, x, y_base, ANCHO_DIB, ALTO_DIB)
+            pinta_dibujo(c, f, x, y_base, ancho, alto)
         else:
             c.setDash(2, 3); c.setStrokeGray(0.7)
-            c.rect(x, y_base, ANCHO_DIB, ALTO_DIB); c.setDash()
+            c.rect(x, y_base, ancho, alto); c.setDash()
             c.setFont("Gothic", 7); c.setFillGray(0.5)
-            c.drawCentredString(x + ANCHO_DIB / 2, y_base + ALTO_DIB / 2,
-                                f"falta el dibujo   {ANCHO_DIB/mm:.0f} × {ALTO_DIB/mm:.0f} mm")
+            c.drawCentredString(x + ancho / 2, y_base + alto / 2,
+                                f"falta el dibujo   {ancho/mm:.0f} × {alto/mm:.0f} mm")
             c.setFillGray(0)
-        huecos.append(("grande", n, ALTO_DIB / mm))
+        huecos.append(("grande", n, alto / mm))
 
     if VERTICAL:
         # En un libro japonés el lomo va a la derecha, así que el margen ancho
@@ -504,16 +539,32 @@ for n, uid in enumerate(capitulos, desde + 1):
                 c.setFont("Gothic", 8); c.setFillGray(0.45)
                 c.drawString(M_CANTO, ALTO - M_ARRIBA, f"{n}")
                 c.setFillGray(0)
-            pinta_columna(c, x, y_alto, col)
-            x -= COLUMNA * (1.15 if k < len(cols_tit) else 1)
+            if k < len(cols_tit):
+                pinta_columna(c, x, y_alto, col, titulo=True)
+                x -= COLUMNA * 1.5
+            else:
+                pinta_columna(c, x, y_alto, col)
+                x -= COLUMNA
+        # filete vertical entre el título y la historia
+        if cols_tit:
+            xr = x_der - COLUMNA * 1.5 * len(cols_tit) + COLUMNA * 0.28
+            c.setStrokeGray(0.78); c.setLineWidth(0.6)
+            c.line(xr, y_alto, xr, y_alto - alto_col * 0.55)
 
-        # el dibujo cierra el capítulo: en lo que quede a la izquierda si cabe,
-        # y si no, en la página siguiente
-        if x - x_izq < ANCHO_DIB:
+        # El dibujo cierra el capítulo. El ancho útil de la página es
+        # exactamente el del dibujo, así que en cuanto se ocupaba UNA columna ya
+        # no cabía y el dibujo se iba a una tercera página: quedaban hojas con
+        # una sola línea de texto. Se le deja encoger hasta el 75 % antes de
+        # pasar de página, que es lo que evita la mayoría de esas huérfanas.
+        libre = x - x_izq
+        if libre < ANCHO_DIB * 0.75:
             c.showPage(); extra += 1
             x = x_der
-        pon_dibujo(x - ANCHO_DIB, (ALTO - ALTO_DIB) / 2)
-        pon_qr(x - ANCHO_DIB, (ALTO - ALTO_DIB) / 2 - 25 * mm)
+            libre = ANCHO_DIB
+        anc = min(ANCHO_DIB, libre)
+        alt = anc * 2 / 3
+        pon_dibujo(x - anc, (ALTO - alt) / 2, anc, alt)
+        pon_qr(x - anc, (ALTO - alt) / 2 - 25 * mm)
         if extra:
             largos.append((n, extra))
         c.showPage()
@@ -522,10 +573,13 @@ for n, uid in enumerate(capitulos, desde + 1):
     x0, y = M_LOMO, ALTO - M_ARRIBA
     c.setFont("Gothic", 8); c.setFillGray(0.45)
     c.drawRightString(ANCHO - M_CANTO, y, f"{n}")
-    c.setFillGray(0); y -= 7 * mm
+    c.setFillGray(0); y -= 9 * mm
     for ln in renglones(trozos(l["titulo"]), CAJA)[:2]:
-        pinta_renglon(c, x0, y, ln); y -= INTERLINEA * 1.25
-    y -= INTERLINEA * 0.4
+        pinta_titulo(c, x0, y, ln); y -= INTERLINEA * 1.45
+    y += INTERLINEA * 0.5
+    c.setStrokeGray(0.78); c.setLineWidth(0.6)
+    c.line(x0, y, x0 + CAJA, y)
+    y -= INTERLINEA * 1.1
 
     extra = 0
     for ln in renglones(trozos(l["cuerpo"], gram_formas), CAJA):

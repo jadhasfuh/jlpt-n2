@@ -5,6 +5,7 @@ import Link from "next/link";
 import { NOMBRE_TIPO, marcarHuecos, type Item } from "@/lib/examen";
 import { useAjustes } from "./Ajustes";
 import { JpEnLinea } from "./Jp";
+import OPCIONES_ILUSTRADAS from "@/lib/opciones-ilustradas.json";
 import { AyudaInstruccion } from "./AyudaInstruccion";
 import { IcBien, IcCerrar, IcDerecha, IcReproducir } from "./Iconos";
 import { callar, decirTramos } from "@/lib/voz";
@@ -228,6 +229,7 @@ export function TestLibre({ nivel, items }: { nivel: string; items: Item[] }) {
 
   // ----------------------------------------------------------- pregunta
   const item = items[n];
+  const conViñetas = !!item && (OPCIONES_ILUSTRADAS as string[]).includes(item.id);
   const elegida = respuestas[item.id];
   const ultima = n === items.length - 1;
 
@@ -274,6 +276,17 @@ export function TestLibre({ nivel, items }: { nivel: string; items: Item[] }) {
         <JpEnLinea html={marcarHuecos(item.enunciado)} />
       </p>
 
+      {/* 発話表現: la instrucción manda mirar el dibujo de la flecha. */}
+      {item.tipo === "hatsuwa" && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={`/examen/escenas/${item.id}.png`} alt="" className="escena-examen"
+             onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }} />
+      )}
+
+      {/* 課題理解 con viñetas: es la única pregunta de escucha de la muestra, y
+          enseñarla con dibujos —como en el examen real— es lo que demuestra de
+          qué va el producto. Sin esto salía como texto, igual que las demás. */}
+      <div className={conViñetas ? "opciones-vinetas" : undefined}>
       {item.opciones.map((o, j) => {
         const act = elegida === j;
         return (
@@ -289,10 +302,17 @@ export function TestLibre({ nivel, items }: { nivel: string; items: Item[] }) {
                 ? "color-mix(in srgb, var(--acento) 48%, transparent)" : "var(--linea)"}`,
             }}>
             <span style={{ opacity: 0.6, fontSize: 13 }}>{LETRAS[j]}</span>
-            <JpEnLinea html={o} />
+            {conViñetas ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={`/examen/opciones/${item.id}-${j + 1}.png`} alt={o}
+                   className="vineta-opcion" />
+            ) : (
+              <JpEnLinea html={o} />
+            )}
           </button>
         );
       })}
+      </div>
 
       <div style={{ display: "flex", gap: 8, marginTop: 14 }}>
         {n > 0 && (
