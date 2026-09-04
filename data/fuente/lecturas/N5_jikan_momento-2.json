@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/jikan/momento-2",
  "titulo": "はじめての きゅうりょう",
- "cuerpo": "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby> はたらいて、はじめての きゅうりょうを もらいました。ふうとうを <ruby>開<rt>あ</rt></ruby>ける まえに、すこし まちました。<ruby>中<rt>なか</rt></ruby>には じぶんで かせいだ おかねが ありました。<ruby>早<rt>はや</rt></ruby>く つかいたい きもちと、つかいたく ない きもちが ありました。その <ruby>日<rt>ひ</rt></ruby>は もう おそかったので、<ruby>出<rt>で</rt></ruby>かけませんでした。つぎの <ruby>日<rt>ひ</rt></ruby>、まず <ruby>両親<rt>りょうしん</rt></ruby>に でんわを しました。",
- "traduccion": "Después de un mes trabajando cobré mi primer sueldo. Antes de abrir el sobre me quedé un momento parado. Dentro había dinero ganado por mí. Tenía a la vez ganas de gastarlo y ganas de no tocarlo. Ese día ya era tarde y no salí. Al día siguiente, lo primero que hice fue llamar a mis padres.",
+ "cuerpo": "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby> はたらいて、はじめての きゅうりょうを もらいました。ふうとうを <ruby>開<rt>あ</rt></ruby>ける まえに、すこし まちました。<ruby>中<rt>なか</rt></ruby>には じぶんで かせいだ おかねが ありました。<ruby>早<rt>はや</rt></ruby>く つかいたい きもちと、つかいたく ない きもちが ありました。その <ruby>日<rt>ひ</rt></ruby>は もう おそかったので、<ruby>出<rt>で</rt></ruby>かけませんでした。つぎの <ruby>日<rt>ひ</rt></ruby>、まず <ruby>両親<rt>りょうしん</rt></ruby>に でんわを しました。それが <ruby>済<rt>す</rt></ruby>んでから、もとまちの ふるほんやへ <ruby>行<rt>い</rt></ruby>きました。<ruby>二時間<rt>にじかん</rt></ruby>ぐらい たなの まえに いました。<ruby>三冊<rt>さんさつ</rt></ruby>かって、のこりは ぜんぶ さいふに もどしました。うちに かえって、はじめて じぶんで かった ほんを つくえに ならべました。",
+ "traduccion": "Después de un mes trabajando cobré mi primer sueldo. Antes de abrir el sobre me quedé un momento parado. Dentro había dinero ganado por mí. Tenía a la vez ganas de gastarlo y ganas de no tocarlo. Ese día ya era tarde y no salí. Al día siguiente lo primero que hice fue llamar a mis padres. Cuando terminé, me fui a la librería de viejo de Motomachi. Estuve unas dos horas delante de las estanterías. Compré tres libros y el resto lo devolví entero a la cartera. Al llegar a casa coloqué en la mesa los primeros libros que me he comprado yo.",
  "preguntas": [
   {
    "p": "どのくらい はたらいて、きゅうりょうを もらいましたか。",
@@ -35,5 +35,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "After a month working I got my first pay. Before opening the envelope I stood still for a moment. Inside was money I had earned myself. I wanted to spend it and to not touch it at the same time. It was late that day and I didn't go out. The next day, the first thing I did was call my parents."
+ "traduccion_en": "After a month of work I got my first pay. Before opening the envelope I stood there a moment. Inside was money I had earned myself. I wanted to spend it and at the same time I didn't want to touch it. It was already late that day, so I didn't go out. The next day the first thing I did was phone my parents. Once that was done, I went to the second-hand bookshop in Motomachi. I spent about two hours in front of the shelves. I bought three books and put the rest straight back in my wallet. At home I lined up on my desk the first books I have bought for myself."
 }

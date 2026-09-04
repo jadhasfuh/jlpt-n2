@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/shizen/animales-1",
  "titulo": "みせの まえの ねこ",
- "cuerpo": "バイトの みせの まえに、いつも おなじ <ruby>猫<rt>ねこ</rt></ruby>が います。だれの <ruby>猫<rt>ねこ</rt></ruby>か わかりません。しごとが おわると、<ruby>鳴<rt>な</rt></ruby>いて ぼくの ほうへ <ruby>来<rt>き</rt></ruby>ます。ミンさんが ときどき たべものを あげて います。「ペットじゃ ない。ここの <ruby>人<rt>ひと</rt></ruby>だ」と ミンさんが <ruby>言<rt>い</rt></ruby>いました。<ruby>犬<rt>いぬ</rt></ruby>が すきな ぼくも、この <ruby>猫<rt>ねこ</rt></ruby>だけは とくべつです。",
- "traduccion": "Delante de la pizzería hay siempre el mismo gato. No se sabe de quién es. Cuando acabo el turno, maúlla y se me acerca. Min le da de comer de vez en cuando. «No es una mascota. Es del barrio», dijo Min. A mí me gustan más los perros, pero ese gato es aparte.",
+ "cuerpo": "バイトの みせの まえに、いつも おなじ <ruby>猫<rt>ねこ</rt></ruby>が います。だれの <ruby>猫<rt>ねこ</rt></ruby>か わかりません。しごとが おわると、<ruby>鳴<rt>な</rt></ruby>いて ぼくの ほうへ <ruby>来<rt>き</rt></ruby>ます。ミンさんが ときどき たべものを あげて います。「ペットじゃ ない。ここの <ruby>人<rt>ひと</rt></ruby>だ」と ミンさんが <ruby>言<rt>い</rt></ruby>いました。<ruby>犬<rt>いぬ</rt></ruby>が すきな ぼくも、この <ruby>猫<rt>ねこ</rt></ruby>だけは とくべつです。みみが かたっぽう すこし かけて います。<em class=\"g\">しかし</em>、<ruby>目<rt>め</rt></ruby>は とても きれいです。かどの ところで まって いるので、みんな「かどの こ」と よびます。ノートの すみに、ペンで その <ruby>顔<rt>かお</rt></ruby>を かきました。<ruby>動物<rt>どうぶつ</rt></ruby>は ことばが なくても わかると、ミンさんは <ruby>言<rt>い</rt></ruby>います。",
+ "traduccion": "Delante de la pizzería hay siempre el mismo gato. No se sabe de quién es. Cuando acabo el turno, maúlla y se me acerca. Min le da de comer de vez en cuando. «No es una mascota. Es del barrio», dijo Min. A mí me gustan más los perros, pero este gato es una excepción. Tiene una oreja un poco rota. Pero los ojos los tiene preciosos. Como espera en la esquina, todos lo llaman «el de la esquina». En una esquina del cuaderno le dibujé la cara con el bolígrafo. Min dice que con los animales te entiendes sin palabras.",
  "preguntas": [
   {
    "p": "<ruby>猫<rt>ねこ</rt></ruby>は だれの ものですか。",
@@ -35,5 +35,5 @@
    "correcta": 2
   }
  ],
- "traduccion_en": "In front of the pizzeria there's always the same cat. Nobody knows whose it is. When my shift ends it miaows and comes over to me. Min feeds it now and then. «It isn't a pet. It belongs to this street», said Min. I'm more of a dog person, but that cat is an exception."
+ "traduccion_en": "In front of the pizzeria there is always the same cat. Nobody knows whose it is. When my shift ends it miaows and comes over to me. Min feeds it now and then. «It's not a pet. It's a local,» Min said. I am more of a dog person, but this cat is the exception. One of its ears is slightly torn. But its eyes are beautiful. Since it waits on the corner, everyone calls it «the corner one». In the corner of my notebook I drew its face with my pen. Min says you understand animals without words."
 }
