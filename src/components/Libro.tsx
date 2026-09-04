@@ -201,7 +201,7 @@ export function Libro({
           <article className="tarjeta">
             {/* La misma ilustración que lleva el capítulo en papel. */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={`/libro/${unidad.id.replace(/\//g, "_")}.png`} alt=""
+            <img src={`/libro/${unidad.id.replace(/\//g, "_")}.webp`} alt=""
                  className="dibujo-capitulo"
                  onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }} />
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>

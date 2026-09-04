@@ -236,7 +236,18 @@ def genera(prompt: str, destino: pathlib.Path, referencia: pathlib.Path | None =
         d = _peticion("https://api.openai.com/v1/images/generations", cuerpo,
                       {"Authorization": f"Bearer {k}", "Content-Type": "application/json"})
     destino.parent.mkdir(parents=True, exist_ok=True)
-    destino.write_bytes(base64.b64decode(d["data"][0]["b64_json"]))
+    crudo = base64.b64decode(d["data"][0]["b64_json"])
+    if destino.suffix == ".webp":
+        # La API siempre devuelve PNG. Lo que va a la app se guarda en WebP,
+        # que para línea negra pesa la octava parte (39_aligerar_imagenes.py).
+        import io
+        from PIL import Image
+        im = Image.open(io.BytesIO(crudo))
+        if gris and not transparente:
+            im = im.convert("L")
+        im.save(destino, "WEBP", quality=88, method=6)
+    else:
+        destino.write_bytes(crudo)
     # Son dibujos a tinta negra: guardarlos en RGB ocupa 3,4 veces más sin
     # aportar nada. A 1536x1024 y 115 mm de ancho quedan a ~340 ppp, de sobra
     # para imprenta.
@@ -244,7 +255,7 @@ def genera(prompt: str, destino: pathlib.Path, referencia: pathlib.Path | None =
     # `gris=False` para lo que SÍ lleva color. Con esto siempre puesto, las
     # opciones de examen que se distinguen por el color salían grises: el
     # modelo las pintaba bien y esta línea se lo cargaba después.
-    if gris and not transparente:
+    if gris and not transparente and destino.suffix != ".webp":
         try:
             from PIL import Image
             Image.open(destino).convert("L").save(destino, optimize=True)
@@ -610,7 +621,6 @@ def sincroniza_app():
     olvidarla una vez para que la app enseñara dibujos de dos generaciones
     atrás mientras el PDF tenía los nuevos.
     """
-    import shutil
     destino = RAIZ / "public" / "libro"
     destino.mkdir(parents=True, exist_ok=True)
     copiados = 0
@@ -618,10 +628,16 @@ def sincroniza_app():
         f = SALIDA / f"{n:03d}-{cap['id'].split('/')[-1]}.png"
         if not f.exists():
             print(f"  cap {n}: no hay dibujo"); continue
-        d = destino / (cap["id"].replace("/", "_") + ".png")
+        # A la app va en WebP: public/ entra entero en la imagen de Docker y en
+        # el APK, y estos dibujos de línea pesan la octava parte en WebP sin que
+        # se note. El PNG de docs/ se queda como está, que es el que va a
+        # imprenta. Ver scripts/39_aligerar_imagenes.py.
+        d = destino / (cap["id"].replace("/", "_") + ".webp")
         if d.exists() and d.stat().st_mtime >= f.stat().st_mtime:
             continue
-        shutil.copy2(f, d); copiados += 1
+        from PIL import Image
+        Image.open(f).save(d, "WEBP", quality=88, method=6)
+        copiados += 1
     print(f"copiados a public/libro: {copiados}")
 
 

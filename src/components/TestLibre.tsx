@@ -279,7 +279,7 @@ export function TestLibre({ nivel, items }: { nivel: string; items: Item[] }) {
       {/* 発話表現: la instrucción manda mirar el dibujo de la flecha. */}
       {item.tipo === "hatsuwa" && (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={`/examen/escenas/${item.id}.png`} alt="" className="escena-examen"
+        <img src={`/examen/escenas/${item.id}.webp`} alt="" className="escena-examen"
              onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }} />
       )}
 
@@ -304,7 +304,7 @@ export function TestLibre({ nivel, items }: { nivel: string; items: Item[] }) {
             <span style={{ opacity: 0.6, fontSize: 13 }}>{LETRAS[j]}</span>
             {conViñetas ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img src={`/examen/opciones/${item.id}-${j + 1}.png`} alt={o}
+              <img src={`/examen/opciones/${item.id}-${j + 1}.webp`} alt={o}
                    className="vineta-opcion" />
             ) : (
               <JpEnLinea html={o} />

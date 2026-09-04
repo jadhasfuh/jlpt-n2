@@ -79,7 +79,7 @@ def dibuja(it):
               f"{quien}\n\n" + FLECHA + "\n\n"
               "Horizontal composition, lots of empty white paper. "
               "Remember: no text of any kind anywhere in the image.")
-    destino = SALIDA / f"{it['id']}.png"
+    destino = SALIDA / f"{it['id']}.webp"
     print(f"{it['id']}  {escena[:44]}")
     _il.genera(prompt, destino, size="1536x1024")
 
@@ -90,7 +90,7 @@ def main():
     SALIDA.mkdir(parents=True, exist_ok=True)
     rehacer = "--todos" in sys.argv
     for it in todos:
-        if not rehacer and (SALIDA / f"{it['id']}.png").exists():
+        if not rehacer and (SALIDA / f"{it['id']}.webp").exists():
             print(f"{it['id']}  ya está, se salta"); continue
         dibuja(it)
 

@@ -155,7 +155,7 @@ def items(nivel):
 
 def dibuja(it, i, opcion):
     limpia = _examen.limpia(opcion)
-    destino = SALIDA / f"{it['id']}-{i + 1}.png"
+    destino = SALIDA / f"{it['id']}-{i + 1}.webp"
 
     reloj = hora_de(limpia)
     if reloj:
@@ -198,7 +198,7 @@ def main():
     SALIDA.mkdir(parents=True, exist_ok=True)
     for it in todos:
         for i, op in enumerate(it["opciones"]):
-            if (SALIDA / f"{it['id']}-{i + 1}.png").exists():
+            if (SALIDA / f"{it['id']}-{i + 1}.webp").exists():
                 continue
             dibuja(it, i, op)
 
@@ -217,7 +217,7 @@ def manifiesto():
             if it.get("tipo") != "kadai":
                 continue
             n = len(it["opciones"])
-            if all((SALIDA / f"{it['id']}-{i + 1}.png").exists() for i in range(n)):
+            if all((SALIDA / f"{it['id']}-{i + 1}.webp").exists() for i in range(n)):
                 completos.append(it["id"])
     destino = RAIZ / "src/lib/opciones-ilustradas.json"
     destino.write_text(json.dumps(sorted(completos), indent=1) + "\n", encoding="utf-8")

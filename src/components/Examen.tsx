@@ -336,7 +336,7 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
         {item.tipo === "hatsuwa" && (
           // eslint-disable-next-line @next/next/no-img-element
           <img
-            src={`/examen/escenas/${item.id}.png`}
+            src={`/examen/escenas/${item.id}.webp`}
             alt=""
             className="escena-examen"
             onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = "none"; }}
@@ -379,7 +379,7 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
                 </span>
                 {conViñetas ? (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img src={`/examen/opciones/${item.id}-${i + 1}.png`} alt={op}
+                  <img src={`/examen/opciones/${item.id}-${i + 1}.webp`} alt={op}
                        className="vineta-opcion" />
                 ) : (
                   <span className="jp">{op}</span>
