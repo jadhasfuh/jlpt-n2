@@ -825,3 +825,55 @@ em.g.n3 { border-color: color-mix(in srgb, var(--n3) 60%, transparent); }
 }
 .globo-pie ul { margin: var(--e2) 0 0; padding-left: 1.1em; }
 .globo-pie li { font-size: var(--t-sm); color: var(--tinta-2); line-height: 1.8; }
+
+/* ------------------------------- 情報検索: el folleto ---------------------
+   Estos ítems no son un texto seguido: son un impreso —un aviso del
+   ayuntamiento, un horario, un folleto— y la pregunta se responde buscando el
+   dato. Con los apartados marcados, el ojo salta al que necesita, que es lo
+   que el ejercicio mide. Como párrafo corrido era otra pregunta distinta.
+
+   Va con borde y fondo propio para que se lea como un papel dentro de la
+   página, no como una sección más de la interfaz. */
+.folleto {
+  border: 1px solid var(--borde-fuerte); border-radius: var(--radio);
+  background: var(--papel-2); padding: var(--e4) var(--e4) var(--e3);
+  margin-bottom: var(--e3);
+}
+.folleto-titulo {
+  margin: 0 0 var(--e3); padding-bottom: var(--e2);
+  border-bottom: 2px solid var(--tinta-4);
+  font-size: var(--t-lg); font-weight: var(--peso-fuerte);
+  line-height: 1.6; text-align: center;
+}
+.folleto-seccion {
+  margin: var(--e4) 0 var(--e2); font-size: var(--t-md);
+  font-weight: var(--peso-fuerte); color: var(--acento-300);
+  display: flex; align-items: baseline; gap: var(--e2);
+}
+/* La barrita hace de ■ del impreso sin ocupar un carácter del texto. */
+.folleto-seccion::before {
+  content: ""; flex: none; width: 3px; height: 1em;
+  background: var(--acento); border-radius: 2px; transform: translateY(2px);
+}
+.folleto-seccion:first-child { margin-top: 0; }
+.folleto-texto, .folleto-punto {
+  margin: 0 0 var(--e1); padding-left: var(--e4);
+  font-size: var(--t-md); line-height: 1.95;
+  /* Los espacios ideográficos alinean las columnas del impreso
+     —「自転車　　　　　　600円」—, así que no se colapsan. */
+  white-space: pre-wrap;
+}
+.folleto-punto { position: relative; padding-left: calc(var(--e4) + var(--e3)); }
+.folleto-punto::before {
+  content: "・"; position: absolute; left: var(--e4); color: var(--tinta-3);
+}
+/* Las notas del ※ son donde suele estar la respuesta —la excepción a la regla
+   de arriba—, así que se separan pero no se apagan tanto como para saltárselas. */
+.folleto-nota {
+  margin: var(--e2) 0 0; font-size: var(--t-sm); line-height: 1.85;
+  color: var(--tinta-2);
+}
+.folleto-glosario {
+  margin-top: var(--e4); padding-top: var(--e3);
+  border-top: 1px solid var(--linea);
+}

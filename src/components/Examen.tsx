@@ -10,6 +10,7 @@ import { JpEnLinea } from "./Jp";
 import { AyudaInstruccion } from "./AyudaInstruccion";
 import { MuroDePago } from "./MuroDePago";
 import { Transcripcion } from "./Transcripcion";
+import { Folleto } from "./Folleto";
 import { callar, decirTramos } from "@/lib/voz";
 import { IcBien, IcCerrar, IcDerecha, IcReproducir } from "./Iconos";
 
@@ -326,22 +327,7 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
 
         <AyudaInstruccion tipo={item.tipo} texto={item.instruccion_ja} />
 
-        {pasaje && (
-          <div className="tarjeta" style={{ marginBottom: 12 }}>
-            <div className="jp" style={{ fontSize: 14.5, lineHeight: 2, whiteSpace: "pre-wrap" }}>
-              {pasaje.texto}
-            </div>
-            {pasaje.notas && pasaje.notas.length > 0 && (
-              <div style={{ marginTop: 10, borderTop: "1px solid var(--linea)", paddingTop: 8 }}>
-                {pasaje.notas.map((nt, i) => (
-                  <div key={i} className="tenue">
-                    （注{i + 1}）<span className="jp">{nt.termino}</span>：<span className="jp">{nt.glosa}</span>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
+        {pasaje && <Folleto texto={pasaje.texto} notas={pasaje.notas} />}
 
         {/* 発話表現: la instrucción dice 「絵を見ながら…矢印（→）の人は何と
             言いますか」, así que sin dibujo el ejercicio pide mirar algo que no
