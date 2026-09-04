@@ -142,4 +142,15 @@ if sin_kanji:
 print(f"\nlecturas revisadas: {len(lecturas)}")
 print(f"  con kanji por encima del nivel (hay que corregir): {graves}")
 print(f"  sólo con kanji adelantados pero del nivel o menos:  {leves}")
+
+# Lo de arriba son avisos que se miran cuando se puede. Esto no: el marcado a
+# medio convertir sale IMPRESO, con las llaves puestas. Estuvo así en el libro
+# porque el aviso se imprimía a mitad de una salida larga y nadie bajaba a
+# leerlo. Ahora es la última línea y devuelve error, que es lo único que no se
+# pasa por alto.
+_rotas = rotas + sin_kanji
+if _rotas:
+    print(f"\nPARADA: {_rotas} lecturas con marcado a medio convertir. "
+          f"Eso se imprime tal cual.", file=sys.stderr)
+    sys.exit(1)
 sys.exit(0)

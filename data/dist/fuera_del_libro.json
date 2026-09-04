@@ -169,6 +169,12 @@
    "es": "antes de, delante de"
   },
   {
+   "cap": 16,
+   "escritura": "遇う",
+   "lectura": "あう",
+   "es": "encontrarse por casualidad (grafía poco usada)"
+  },
+  {
    "cap": 20,
    "escritura": "~物",
    "lectura": "~ぶつ",
@@ -627,10 +633,22 @@
    "es": "la forma de hacer algo; cómo hacerlo ~"
   },
   {
+   "cap": 22,
+   "forma": "のが下手",
+   "lectura": "のがへた",
+   "es": "ser malo haciendo algo"
+  },
+  {
    "cap": 25,
    "forma": "ないで",
    "lectura": "",
    "es": "sin hacer ~; hacer [B] sin hacer [A]"
+  },
+  {
+   "cap": 26,
+   "forma": "のが上手",
+   "lectura": "のがじょうず",
+   "es": "ser bueno en"
   },
   {
    "cap": 28,
@@ -745,6 +763,12 @@
    "forma": "お / ご",
    "lectura": "",
    "es": "marcador cortés; partícula de prefijo honorífico"
+  },
+  {
+   "cap": 62,
+   "forma": "ほうがいい",
+   "lectura": "",
+   "es": "mejor; Sería mejor hacerlo; debería ~"
   },
   {
    "cap": 63,
