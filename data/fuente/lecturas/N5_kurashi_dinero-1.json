@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/kurashi/dinero-1",
  "titulo": "つぎの <ruby>朝<rt>あさ</rt></ruby>",
- "cuerpo": "つぎの <ruby>朝<rt>あさ</rt></ruby>、<ruby>目<rt>め</rt></ruby>が さめたのは <ruby>十時<rt>じゅうじ</rt></ruby>でした。ひこうきは <ruby>九時<rt>くじ</rt></ruby>でした。ぼくは しばらく てんじょうを <ruby>見<rt>み</rt></ruby>て いました。ゴンサも おきて、なにも <ruby>言<rt>い</rt></ruby>いませんでした。あたらしい きっぷは、ぼくの <ruby>二日分<rt>ふつかぶん</rt></ruby>の しごとの おかねでした。「たのしかったな」と ゴンサが <ruby>言<rt>い</rt></ruby>いましたが、ぼくは こたえませんでした。",
- "traduccion": "A la mañana siguiente me desperté a las diez. El avión salía a las nueve. Me quedé un rato mirando el techo. Gonza se despertó y tampoco dijo nada. El billete nuevo me costó lo que gano en dos días de trabajo. «Ha estado bien, ¿eh?», dijo Gonza, pero yo no contesté.",
+ "cuerpo": "つぎの <ruby>朝<rt>あさ</rt></ruby>、<ruby>目<rt>め</rt></ruby>が さめたのは <ruby>十時<rt>じゅうじ</rt></ruby>でした。ひこうきは <ruby>九時<rt>くじ</rt></ruby>でした。ぼくは しばらく てんじょうを <ruby>見<rt>み</rt></ruby>て いました。ゴンサも おきて、なにも <ruby>言<rt>い</rt></ruby>いませんでした。あたらしい きっぷは、ぼくの <ruby>二日分<rt>ふつかぶん</rt></ruby>の しごとの おかねでした。「たのしかったな」と ゴンサが <ruby>言<rt>い</rt></ruby>いましたが、ぼくは こたえませんでした。<ruby>銀行<rt>ぎんこう</rt></ruby>の アプリを <ruby>開<rt>ひら</rt></ruby>いて、のこりの <ruby>数<rt>すう</rt></ruby>を <ruby>見<rt>み</rt></ruby>ました。あたらしい きっぷを とるのに、<ruby>一時間<rt>いちじかん</rt></ruby> <ruby>掛<rt>か</rt></ruby>かりました。「この たびで <ruby>得<rt>え</rt></ruby>た ものは なんだ」と ゴンサに きくと、「ゆきを <ruby>見<rt>み</rt></ruby>ただろう」と こたえました。それは そうです<em class=\"g\">よ</em>ね。",
+ "traduccion": "A la mañana siguiente me desperté a las diez. El avión salía a las nueve. Me quedé un rato mirando el techo. Gonza se despertó y tampoco dijo nada. El billete nuevo me costó lo que gano en dos días de trabajo. «Ha estado bien, ¿eh?», dijo Gonza, y yo no contesté. Abrí la aplicación del banco y miré la cifra que quedaba. Sacar el billete nuevo nos llevó una hora. Le pregunté a Gonza «¿y qué hemos sacado de este viaje?» y contestó: «has visto la nieve, ¿no?». Pues sí, la verdad.",
  "preguntas": [
   {
    "p": "なんじに おきましたか。",
@@ -35,5 +35,5 @@
    "correcta": 0
   }
  ],
- "traduccion_en": "The next morning I woke up at ten. The plane had left at nine. I lay looking at the ceiling for a while. Gonza woke up and said nothing either. The new ticket cost me two days' wages. «It was fun though, wasn't it?» said Gonza, but I didn't answer."
+ "traduccion_en": "The next morning I woke up at ten. The plane was at nine. I lay looking at the ceiling for a while. Gonsa woke up too and said nothing. The new ticket cost me two days' wages. «It was fun, wasn't it,» said Gonsa, and I didn't answer. I opened the bank app and looked at the figure that was left. Getting the new ticket took us an hour. I asked Gonsa, «so what did we get out of this trip?» and he answered, «you saw snow, didn't you?» Well, that's true enough."
 }

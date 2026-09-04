@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/kurashi/compras-1",
  "titulo": "<ruby>三十分<rt>さんじゅっぷん</rt></ruby>の みせ",
- "cuerpo": "その みせでは、<ruby>三十分<rt>さんじゅっぷん</rt></ruby>で のみものが ぜんぶ おなじ ねだんでした。ぼくたちは おかねが すくなかったので、たくさん のみました。ほかの きゃくは ゆっくり はなして いて、こちらを <ruby>見<rt>み</rt></ruby>て わらいました。みせの <ruby>人<rt>ひと</rt></ruby>が 「そんなに いそがなくても いいですよ」と <ruby>言<rt>い</rt></ruby>いました。ぼくたちの <ruby>日本語<rt>にほんご</rt></ruby>では、うまく こたえられませんでした。「ありがとう」と 「おいしい」だけを、なんかいも <ruby>言<rt>い</rt></ruby>いました。",
- "traduccion": "En ese local, por treinta minutos las bebidas costaban todas lo mismo. Como andábamos justos de dinero, bebimos muchísimo. Los demás clientes charlaban tranquilos y nos miraban riéndose. Alguien del local nos dijo: «no hace falta que corráis tanto». Con nuestro japonés no supimos contestar bien. Repetimos «gracias» y «está bueno» un montón de veces.",
+ "cuerpo": "その みせでは、<ruby>三十分<rt>さんじゅっぷん</rt></ruby>で のみものが ぜんぶ おなじ ねだんでした。ぼくたちは おかねが すくなかったので、たくさん のみました。ほかの きゃくは ゆっくり はなして いて、こちらを <ruby>見<rt>み</rt></ruby>て わらいました。みせの <ruby>人<rt>ひと</rt></ruby>が「そんなに いそがなくても いいですよ」と <ruby>言<rt>い</rt></ruby>いました。ぼくたちの <ruby>日本語<rt>にほんご</rt></ruby>では、うまく こたえられませんでした。「ありがとう」<em class=\"g\">や</em>「おいしい」だけを、なんかいも <ruby>言<rt>い</rt></ruby>いました。かえりに、デパートの まえを とおりました。もう しまって いましたが、まどの <ruby>中<rt>なか</rt></ruby>は あかるかったです。ふるい ものを <ruby>売<rt>う</rt></ruby>る いちが、あさから ひらくそうです。ぼくは まどの まえに <ruby>立<rt>た</rt></ruby>って、ながい あいだ <ruby>見<rt>み</rt></ruby>て いました。「おまえ、<ruby>勉強<rt>べんきょう</rt></ruby>より かいものが すきだな」と ゴンサが <ruby>言<rt>い</rt></ruby>いました。",
+ "traduccion": "En ese local, por treinta minutos las bebidas costaban todas lo mismo. Como andábamos justos de dinero, bebimos muchísimo. Los demás clientes charlaban tranquilos y nos miraban riéndose. Alguien del local nos dijo: «no hace falta que corráis tanto». Con nuestro japonés no supimos contestar bien. Sólo repetimos muchas veces «gracias» y «está muy bueno». De vuelta pasamos por delante de unos grandes almacenes. Ya estaban cerrados, pero por dentro las ventanas seguían iluminadas. Dicen que por la mañana abre un mercadillo de cosas viejas. Yo me quedé un buen rato plantado delante del escaparate. «A ti te gusta más comprar que estudiar», dijo Gonza.",
  "preguntas": [
   {
    "p": "その みせは どんな みせでしたか。",
@@ -35,5 +35,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "In that place, for thirty minutes the drinks were all the same price. Since we were short of money, we drank a great deal. The other customers were chatting calmly and looked over, laughing. Someone working there said: «there's no need to rush like that». With our Japanese we couldn't answer properly. We just said «thank you» and «it's good» over and over."
+ "traduccion_en": "In that place, for thirty minutes all the drinks cost the same. Since we were short of money, we drank a lot. The other customers were chatting calmly and looked over at us, laughing. Someone from the bar said, «there's no need to rush like that.» With our Japanese we could not answer properly. We just repeated «thank you» and «it's delicious» over and over. On the way back we passed a department store. It was already closed, but the windows were still lit inside. Apparently a market selling old things opens there in the morning. I stood in front of the window looking for a long time. «You like shopping more than studying,» said Gonsa."
 }

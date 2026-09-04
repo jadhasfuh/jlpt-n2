@@ -70,7 +70,9 @@ def revisa(uid, html, niveles):
     # finales de frase, y se saltan las citas, que pueden ir en otro registro.
     finales = [f for f in re.split(r"[。！？]", re.sub(r"「[^」]*」", "", texto)) if f.strip()]
     CORTES = re.compile(r"(です|ます|ました|ません|でした|でしょう|ましょう|"
-                        r"ください|ませんか|ましょうか)か?$")
+                        r"ください|ませんか|ましょうか)[かねよなわ]*$")
+    # …y las partículas de final de frase no cambian el registro: 「そうですよね」
+    # sigue siendo cortés.
     # Una enumeración no es un predicado: 「コップと スプーンと フォーク。」 no
     # está en forma llana, es una lista. Se reconoce porque no lleva ni verbo
     # ni adjetivo al final. Misma excepción que 27_validar_registro.
