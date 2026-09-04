@@ -50,6 +50,41 @@ Cuenta de desarrollador: 25 USD, pago único. Ficha de la aplicación, capturas,
 descripción, política de privacidad (ya está en `/legal/privacidad`) y el
 cuestionario de contenido.
 
+### 3b. Rellenar la ficha
+
+Todo lo que Play pide de la ficha está escrito en `android/play/`. No hay que
+redactar nada: es copiar y pegar. En Play Console va en dos sitios distintos, y
+es lo que más se busca:
+
+**Crecimiento → Presencia en Play Store → Ficha de Play Store principal**
+—los textos y las imágenes:
+
+| Campo de Play | De dónde sale |
+|---|---|
+| Nombre, descripción breve y completa | `play/ficha-es.txt` |
+| Lo mismo en inglés (añadir el idioma primero) | `play/ficha-en.txt` |
+| Icono de la app, 512 × 512 | `play/icono-512.png` |
+| Gráfico destacado, 1024 × 500 | `play/grafico-destacado-1024x500.png` |
+| Capturas de teléfono, 1080 × 1920 | `play/capturas/` (las cuatro, en orden) |
+
+**Política → Contenido de la aplicación** —los cuestionarios:
+
+| Cuestionario | De dónde sale |
+|---|---|
+| Seguridad de los datos | `play/seguridad-datos.txt` |
+| Acceso a la app (cuenta de revisión) | `play/acceso-app.txt` |
+| Política de privacidad (URL) | `https://jlptest.org/legal/privacidad` |
+
+Y las notas de la versión, al subir cada AAB, en `play/notas-version.txt`.
+
+> Google mueve estos menús de sitio cada pocos meses. Si no aparecen con esos
+> nombres, están en la barra de la izquierda dentro de la app, no en la portada
+> de la consola: los textos y las imágenes por un lado y los cuestionarios de
+> política por otro, que es lo que no cambia.
+
+La lista de los doce probadores que Play exige antes de publicar es aparte, en
+`play/probadores.txt`.
+
 ### 4. Poner la huella y verificar el dominio
 
 Al recibir el primer envío, Play firma con **su** clave y enseña la huella
