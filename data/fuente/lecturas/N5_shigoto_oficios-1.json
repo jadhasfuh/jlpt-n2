@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/shigoto/oficios-1",
  "titulo": "<ruby>交番<rt>こうばん</rt></ruby>の おまわりさん",
- "cuerpo": "ある よる、かえりみちで じてんしゃを とめられました。おまわりさんが「これは あなたの じてんしゃですか」と ききました。ぼくは ざいりゅうカードを <ruby>見<rt>み</rt></ruby>せました。<ruby>三分<rt>さんぷん</rt></ruby>ぐらいで おわりましたが、こころが はやく なりました。「きを つけて かえって ください」と <ruby>言<rt>い</rt></ruby>われました。わるい ことは して いませんが、こういう ときは いつも すこし こわいです。",
- "traduccion": "Una noche, volviendo a casa, me pararon con la bicicleta. El policía me preguntó: «¿esta bicicleta es suya?». Le enseñé la tarjeta de residencia. Duró unos tres minutos, pero se me aceleró el pulso. Me dijo: «vuelva con cuidado». No he hecho nada malo, pero en esos momentos siempre paso un poco de miedo.",
+ "cuerpo": "ある よる、かえりみちで じてんしゃを とめられました。おまわりさんが「これは あなたの じてんしゃですか」と ききました。ぼくは ざいりゅうカードを <ruby>見<rt>み</rt></ruby>せました。<ruby>三<rt>さん</rt></ruby>ぷんぐらいで おわりましたが、こころが はやく なりました。「きを つけて かえって ください」と <ruby>言<rt>い</rt></ruby>われました。わるい ことは して いませんが、こういう ときは いつも すこし こわいです。つぎの <ruby>日<rt>ひ</rt></ruby>、ジャンに はなしました。「じてんしゃの とうろくを して い<em class=\"g\">ませんか</em>」と きかれて、ぼくは だまりました。<ruby>警官<rt>けいかん</rt></ruby>は しんせつでしたが、こわいのは しんせつかどうかでは ありません。しゅうまつに、<ruby>交番<rt>こうばん</rt></ruby>で とうろくを しなおしました。",
+ "traduccion": "Una noche, volviendo a casa, me pararon con la bicicleta. El policía me preguntó: «¿esta bicicleta es suya?». Le enseñé la tarjeta de residencia. Duró unos tres minutos, pero se me aceleró el pulso. Me dijo: «vuelva con cuidado». No he hecho nada malo, pero en estos momentos siempre me entra algo de miedo. Al día siguiente se lo conté a Jean. Me preguntó «¿no tienes la bicicleta registrada?» y me quedé callado. El agente fue amable, pero lo que da miedo no es si son amables o no. El fin de semana fui a la comisaría del barrio a rehacer el registro.",
  "preguntas": [
   {
    "p": "よる、なにが ありましたか。",
@@ -35,5 +35,5 @@
    "correcta": 2
   }
  ],
- "traduccion_en": "One night, on my way home, I was stopped on my bicycle. The policeman asked: «is this bicycle yours?». I showed him my residence card. It lasted about three minutes, but my heart raced. He said: «get home safely». I've done nothing wrong, but moments like that always frighten me a little."
+ "traduccion_en": "One night, on my way home, I was stopped on my bicycle. The policeman asked, «is this your bicycle?» I showed him my residence card. It was over in about three minutes, but my heart raced. «Get home safely,» he said. I have done nothing wrong, but at moments like that I am always a little afraid. The next day I told Jean. He asked, «haven't you registered the bike?» and I went quiet. The officer was kind, but what frightens you is not whether they are kind. At the weekend I went to the local police box and registered it again."
 }
