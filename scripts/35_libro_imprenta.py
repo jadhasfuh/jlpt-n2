@@ -58,6 +58,14 @@ def _es_portada(pagina):
     return any(str(xo[k].get_object().get("/ColorSpace")) == "/DeviceRGB" for k in xo)
 
 
+def _capitulos():
+    """Cuántos capítulos tiene el libro. Se cuenta: la contraportada decía 103
+    y son 97 desde que se fundieron los que se quedaron sin unidad."""
+    import json
+    o = json.loads((RAIZ / "data/fuente/orden_libro.json").read_text(encoding="utf-8"))
+    return len(o["N5"])
+
+
 def interior():
     """El interior, ya montado por 30_libro_pdf.py, con las páginas en blanco
     que hagan falta para que el total sea múltiplo de 4."""
@@ -106,18 +114,26 @@ def cubierta(paginas, papel="90g-offset"):
     c = canvas.Canvas(str(destino), pagesize=(W, H))
     c.setTitle("こうべの一年 — cubierta")
 
-    # la portada, a la derecha, a sangre
+    # LA PORTADA VA A LA IZQUIERDA, no a la derecha.
+    #
+    # El libro se cose por la derecha (右綴じ). Eso pone el lomo en el canto
+    # DERECHO de la portada, así que en la hoja extendida, y mirándola por
+    # fuera, el orden de izquierda a derecha es: portada · lomo ·
+    # contraportada. Al revés que un libro occidental.
+    #
+    # Estaba montada a la occidental: con la encuadernación japonesa que le
+    # pedimos a la imprenta, la portada habría acabado de contraportada.
     f = DIBUJOS / "00-portada-montada.png"
     if f.exists():
         im = ImageReader(str(f))
         iw, ih = im.getSize()
-        ancho = CORTE_W + SANGRE * 2
+        ancho = CORTE_W + SANGRE
         esc = max(ancho / iw, H / ih)
-        c.drawImage(im, W - iw * esc, (H - ih * esc) / 2, iw * esc, ih * esc)
+        c.drawImage(im, 0, (H - ih * esc) / 2, iw * esc, ih * esc)
 
-    # contraportada y lomo en el color del papel del dibujo
+    # contraportada y lomo, a la derecha, en el color del papel del dibujo
     c.setFillColorRGB(0.969, 0.961, 0.941)
-    c.rect(0, 0, SANGRE + CORTE_W + lomo, H, stroke=0, fill=1)
+    c.rect(SANGRE + CORTE_W, 0, lomo + CORTE_W + SANGRE, H, stroke=0, fill=1)
 
     pdfmetrics.registerFont(TTFont("Gothic", str(FUENTES / "ipaexg.ttf")))
     pdfmetrics.registerFont(TTFont("Mincho", str(FUENTES / "ipaexm.ttf")))
@@ -126,7 +142,7 @@ def cubierta(paginas, papel="90g-offset"):
     # En japonés: es un libro que se lee en Japón, y la contraportada es lo
     # primero que mira quien lo coge en una tienda de allí.
     c.setFont("Mincho", 10.5)
-    tx = c.beginText(SANGRE + 18 * mm, H - SANGRE - 42 * mm)
+    tx = c.beginText(SANGRE + CORTE_W + lomo + 18 * mm, H - SANGRE - 40 * mm)
     tx.setLeading(19)
     for l in ("カルロスは メキシコから 神戸に 来ました。",
               "インターネットの エージェントで きめた",
@@ -134,7 +150,7 @@ def cubierta(paginas, papel="90g-offset"):
               "ピザやの アルバイトの 一年の はなしです。",
               "",
               "ぜんぶ N5の ことばと ぶんぽうだけで",
-              "書いて あります。103の しょうが、",
+              f"書いて あります。{_capitulos()}の しょうが、",
               "ひとつづきの ものがたりに なって います。",
               "",
               "かんじには ぜんぶ ふりがなが ついて います。",
@@ -143,9 +159,9 @@ def cubierta(paginas, papel="90g-offset"):
         tx.textLine(l)
     c.drawText(tx)
     c.setFont("Gothic", 9); c.setFillColorRGB(0.35, 0.36, 0.40)
-    tx = c.beginText(SANGRE + 18 * mm, H - SANGRE - 118 * mm)
+    tx = c.beginText(SANGRE + CORTE_W + lomo + 18 * mm, H - SANGRE - 132 * mm)
     tx.setLeading(14)
-    for l in ("Un año en Kobe. Ciento tres capítulos, una sola",
+    for l in (f"Un año en Kobe. {_capitulos()} capítulos, una sola",
               "historia, escrita entera con el vocabulario y la",
               "gramática del N5. Todos los kanji llevan furigana.",
               "",
@@ -161,7 +177,7 @@ def cubierta(paginas, papel="90g-offset"):
     c.translate(SANGRE + CORTE_W + lomo / 2, H / 2)
     c.rotate(-90)
     c.setFont("Mincho", 11)
-    c.drawCentredString(0, -4, "こうべの一年   ·   jlptest.org")
+    c.drawCentredString(0, -4, "神戸の一年   ·   jlptest.org")
     c.restoreState()
 
     # marcas de corte, fuera de la zona impresa

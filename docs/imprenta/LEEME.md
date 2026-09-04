@@ -27,6 +27,19 @@ derecha a izquierda. Si no se dice, la imprenta lo monta a la occidental por
 costumbre y el libro sale del revés: la portada quedaría al final y las páginas
 en orden inverso. Es el error caro de este trabajo.
 
+## Cómo va montada la cubierta
+
+La hoja extendida, mirándola por fuera, de izquierda a derecha:
+
+    ┌──────────────┬──────┬──────────────┐
+    │   PORTADA    │ lomo │ CONTRAPORTADA│
+    │  神戸の一年   │17,6mm│  el resumen  │
+    └──────────────┴──────┴──────────────┘
+
+**Al revés que un libro occidental**, y es lo que corresponde: al coserse por
+la derecha, el lomo queda en el canto derecho de la portada. Si les llega una
+cubierta con la portada a la derecha, está mal montada.
+
 ## Detalles que preguntan
 
 - **Sangre.** La cubierta lleva 3 mm por los cuatro lados y marcas de corte.
