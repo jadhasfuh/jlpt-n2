@@ -18,6 +18,17 @@ llevan también las preguntas y su respuesta, y tocarlas a mano para cambiar só
 el cuerpo es pedir romper algo. Aquí se sustituye lo que se escribe y el resto
 se queda como estaba.
 
+KANA O KANJI. La regla, para cuando haya duda al escribir un capítulo:
+
+  · si el catálogo trae la palabra en kana al nivel del libro, va en kana;
+  · si no es palabra del nivel, o su kanji es de un nivel superior, va en
+    KANJI CON FURIGANA.
+
+Y hay un caso en que el kana no vale aunque la palabra sea del nivel: cuando se
+lee como otra cosa. 「たばこは すいませんね」 se lee «perdón» y no «no fuma»
+(吸いません); 「あつい ふく」 se lee «ropa calurosa» y era 厚い; 「かかりの ひと」
+podía ser 掛かり y es 係. Ahí manda que se entienda.
+
 Lo que comprueba antes de escribir, que es lo que se nos ha colado antes:
 
   · que no se mezcle です・ます con forma diccionario (el fallo de las 87)
