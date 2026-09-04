@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/sonota/verbos-1",
  "titulo": "<ruby>住<rt>す</rt></ruby>んだ ばしょ",
- "cuerpo": "この へやに <ruby>一年<rt>いちねん</rt></ruby> <ruby>住<rt>す</rt></ruby>みました。はじめは、なにも なくて、<ruby>音<rt>おと</rt></ruby>が よく ひびきました。いまは、ものの ばしょが ぜんぶ わかります。まいあさ おなじ <ruby>道<rt>みち</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby>して、おなじ <ruby>人<rt>ひと</rt></ruby>に <ruby>会<rt>あ</rt></ruby>います。パンやの おばさんは、ぼくの かおを おぼえて くれました。「<ruby>住<rt>す</rt></ruby>む」と いうのは、こういう ことだと おもいます。",
- "traduccion": "He vivido un año en esta habitación. Al principio no había nada y el sonido rebotaba. Ahora sé dónde está cada cosa. Cada mañana paseo por la misma calle y me cruzo con la misma gente. La señora de la panadería se ha aprendido mi cara. Creo que esto es lo que significa «vivir en un sitio».",
+ "cuerpo": "この へやに <ruby>一年<rt>いちねん</rt></ruby> <ruby>住<rt>す</rt></ruby>みました。はじめは、なにも なくて、<ruby>音<rt>おと</rt></ruby>が よく ひびきました。いまは、ものの ばしょが ぜんぶ わかります。まいあさ おなじ <ruby>道<rt>みち</rt></ruby>を <ruby>散歩<rt>さんぽ</rt></ruby>して、おなじ <ruby>人<rt>ひと</rt></ruby>に <ruby>会<rt>あ</rt></ruby>います。パンやの おばさんは、ぼくの かおを おぼえて くれました。「<ruby>住<rt>す</rt></ruby>む」と いうのは、こういう ことだと おもいます。まえは たなに ほこりが <ruby>付<rt>つ</rt></ruby>いて いても きに しませんでした。いまは まいしゅう ふきます。となりに あたらしい ビルが <ruby>建<rt>た</rt></ruby>ちはじめました。あさ、こうじの <ruby>音<rt>おと</rt></ruby>で <ruby>目<rt>め</rt></ruby>が さめます。くすりが <ruby>効<rt>き</rt></ruby>くように、じかんも きずに <ruby>効<rt>き</rt></ruby>きます。カップの ふちが すこし <ruby>欠<rt>か</rt></ruby>けましたが、まだ つかって います。ここで なにかが <ruby>始<rt>はじ</rt></ruby>まって、そして <ruby>終<rt>お</rt></ruby>わろうと して います。",
+ "traduccion": "He vivido un año en esta habitación. Al principio no había nada y el sonido rebotaba. Ahora sé dónde está cada cosa. Cada mañana paseo por la misma calle y me cruzo con la misma gente. La señora de la panadería se ha aprendido mi cara. Creo que «vivir» en un sitio es justo esto. Antes me daba igual que hubiera polvo en la estantería. Ahora la limpio cada semana. Al lado han empezado a levantar un edificio nuevo. Por la mañana me despierta el ruido de la obra. Igual que hace efecto una medicina, el tiempo hace efecto en las heridas. La taza se ha desportillado un poco por el borde, pero la sigo usando. Aquí empezó algo, y ahora está a punto de terminar.",
  "preguntas": [
   {
    "p": "はじめ、へやは どうでしたか。",
@@ -35,5 +35,5 @@
    "correcta": 2
   }
  ],
- "traduccion_en": "I've lived in this room for a year. At first there was nothing in it and sound echoed. Now I know where everything is. Every morning I walk the same street and meet the same people. The woman at the bakery has learned my face. I think this is what «to live somewhere» means."
+ "traduccion_en": "I have lived in this room for a year. At first there was nothing and sound echoed. Now I know where everything is. Every morning I walk the same street and see the same people. The woman at the bakery has learnt my face. I think this is exactly what «to live» somewhere means. I used to not care if there was dust on the shelf. Now I wipe it every week. Next door they have started putting up a new building. In the morning the noise of the works wakes me. Just as medicine takes effect, time takes effect on wounds. The rim of the cup is a bit chipped, but I still use it. Something began here, and now it is about to end."
 }

@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/tsunagu/kosoado-1",
  "titulo": "からっぽの へや",
- "cuerpo": "さいごの <ruby>日<rt>ひ</rt></ruby>、へやを そうじしました。かべの かみを ぜんぶ とると、あとが のこって いました。この つくえ、この まど、この ゆか。ぜんぶ おぼえて います。こんな ちいさい へやが、<ruby>一年<rt>いちねん</rt></ruby>の ぜんぶでした。たなかさんが <ruby>来<rt>き</rt></ruby>て、「また いつでも いらっしゃい」と <ruby>言<rt>い</rt></ruby>いました。ああ、と こたえるのが やっとでした。",
- "traduccion": "El último día limpié la habitación. Al quitar todos los papeles de la pared quedaron las marcas. Esta mesa, esta ventana, este suelo. Me acuerdo de todo. Una habitación tan pequeña ha sido un año entero. Vino la señora Tanaka y me dijo: «vuelve cuando quieras». No me salió más que un «ya».",
+ "cuerpo": "さいごの <ruby>日<rt>ひ</rt></ruby>、へやを そうじしました。かべの かみを ぜんぶ とると、あとが のこって いました。この つくえも、この まども、この ゆかも おぼえて います。こんな ちいさい へやが、<ruby>一年<rt>いちねん</rt></ruby>の ぜんぶでした。たなかさんが <ruby>来<rt>き</rt></ruby>て、「また いつでも いらっしゃい」と <ruby>言<rt>い</rt></ruby>いました。ああ、と こたえるのが やっとでした。これは アンナさんの カップ、それは ゴンサが わすれて <ruby>行<rt>い</rt></ruby>った ぼうしです。どちらも <ruby>持<rt>も</rt></ruby>って <ruby>帰<rt>かえ</rt></ruby>ります。あの ひ、なにも なかった この へやに、いまは あとが たくさん あります。",
+ "traduccion": "El último día limpié la habitación. Al quitar todos los papeles de la pared quedaron las marcas. Esta mesa, esta ventana, este suelo. Me acuerdo de todo. Una habitación tan pequeña ha sido un año entero. Vino la señora Tanaka y me dijo: «vuelve cuando quieras». Sólo me salió un «ah». Ésta es la taza de Anna; eso de ahí es el gorro que se dejó Gonza. Me llevo las dos cosas. Aquel día esta habitación no tenía nada, y ahora está llena de marcas.",
  "preguntas": [
   {
    "p": "かべの かみを とると、なにが のこりましたか。",
@@ -35,5 +35,5 @@
    "correcta": 2
   }
  ],
- "traduccion_en": "On the last day I cleaned the room. When I took all the papers off the wall, the marks stayed. This desk, this window, this floor. I remember all of it. A room this small has been a whole year. Mrs Tanaka came round and said: «come back any time». All I managed was a «yeah»."
+ "traduccion_en": "On the last day I cleaned the room. When I took all the papers off the wall, the marks were still there. This desk, this window, this floor. I remember all of it. A room this small was a whole year. Mrs Tanaka came and said, «come back any time.» All I managed was an «ah.» This is Anna's cup; that over there is the cap Gonsa left behind. I am taking both. That first day this room had nothing in it, and now it is full of marks."
 }
