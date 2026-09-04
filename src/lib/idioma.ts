@@ -275,6 +275,8 @@ const T = {
   "per.cancelada": { es: "Cancelada; te dura hasta el {fecha}.",
                      en: "Cancelled; yours until {fecha}." },
   "per.salir":     { es: "Salir de la cuenta", en: "Sign out" },
+  "per.salirAviso": { es: "Tu avance se queda guardado en tu cuenta y se borra de este aparato. Vuelve entero al entrar otra vez.",
+                      en: "Your progress stays in your account and is removed from this device. It comes back in full when you sign in again." },
   "per.sinCuenta": { es: "Sin cuenta, tu avance se guarda sólo en este navegador{abierto}. Si lo borras o cambias de aparato, se pierde.",
                      en: "Without an account your progress lives only in this browser{abierto}. Clear it or switch devices and it's gone." },
   "per.todoAbierto": { es: " y todo el contenido está abierto", en: " and all the content is open" },

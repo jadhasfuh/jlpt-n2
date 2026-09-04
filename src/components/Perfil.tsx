@@ -120,8 +120,26 @@ export function Perfil({ totalPalabras, cuenta, alDia }: {
                 {alDia ? t("sus.gestionar") : t("sus.suscribirse")} <IcDerecha size={15} />
               </Link>
             )}
-            <form action="/auth/salir" method="post" style={{ marginTop: 8 }}>
+            {/* Al salir hay que borrar la copia LOCAL del avance.
+                Antes no se borraba, y eso daba dos problemas: quien cogiera
+                el aparato después veía el avance de otro sin sesión ninguna,
+                y —peor— al entrar la siguiente cuenta, adoptarCuenta() funde
+                lo que hay en el navegador con lo suyo de la nube, así que se
+                quedaba con los XP, la racha y las medallas del anterior.
+                La copia de la nube no se toca: vuelve entera al volver a
+                entrar, y sincronizar() corre en cada guardado, así que no
+                queda nada sin subir. */}
+            <form action="/auth/salir" method="post" style={{ marginTop: 8 }}
+                  onSubmit={() => {
+                    try {
+                      localStorage.removeItem("jlpt.progreso");
+                      localStorage.removeItem("jlpt.examen.vistos");
+                    } catch { /* navegador sin almacenamiento */ }
+                  }}>
               <button className="btn" style={{ width: "100%" }}>{t("per.salir")}</button>
+              <p className="tenue" style={{ marginTop: 8, marginBottom: 0 }}>
+                {t("per.salirAviso")}
+              </p>
             </form>
           </>
         ) : (
