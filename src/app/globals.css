@@ -674,16 +674,17 @@ em.g.n3 { border-color: color-mix(in srgb, var(--n3) 60%, transparent); }
   font-size: .9em;
 }
 
-/* La escena de 発話表現. Los dibujos son 3:2 en blanco y negro; en oscuro se
-   invierten para que no sea un foco de luz en mitad de la pantalla. */
+/* La escena de 発話表現: 3:2, tinta negra sobre blanco. En oscuro NO se
+   invierte —aquí también hay personas, y el negativo se lee fatal—; se baja el
+   brillo, que era lo que se buscaba con la inversión: que no deslumbre. */
 .escena-examen {
   display: block; width: 100%; height: auto; margin: 4px 0 14px;
   border: 1px solid var(--linea); border-radius: var(--radio-sm);
   background: #fff;
 }
-:root[data-tema="oscuro"] .escena-examen { filter: invert(1); background: #000; }
+:root[data-tema="oscuro"] .escena-examen { filter: brightness(0.88); }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-tema="claro"]) .escena-examen { filter: invert(1); background: #000; }
+  :root:not([data-tema="claro"]) .escena-examen { filter: brightness(0.88); }
 }
 
 /* Scroll sin barra, para que el panel se sienta app y no página.
@@ -776,13 +777,18 @@ em.g.n3 { border-color: color-mix(in srgb, var(--n3) 60%, transparent); }
 
 /* ------------------------- el libro, en pantalla -------------------- */
 /* El dibujo del capítulo, el mismo que va en papel. */
+/* El dibujo del capítulo va SIEMPRE en negro sobre blanco, también con el tema
+   oscuro. Invertirlo —que es lo que hacía— parece buena idea con un diagrama,
+   pero esto son personas: el pelo negro de Gonsa salía blanco y la escena
+   entera se leía como el negativo de una foto. Se deja el papel blanco y se
+   baja un punto el brillo para que no deslumbre de noche. */
 .dibujo-capitulo {
   display: block; width: 100%; height: auto; margin: 0 0 var(--e4);
   border-radius: var(--radio-sm); background: #fff;
 }
-:root[data-tema="oscuro"] .dibujo-capitulo { filter: invert(1); background: #000; }
+:root[data-tema="oscuro"] .dibujo-capitulo { filter: brightness(0.88); }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-tema="claro"]) .dibujo-capitulo { filter: invert(1); background: #000; }
+  :root:not([data-tema="claro"]) .dibujo-capitulo { filter: brightness(0.88); }
 }
 
 /* ------------------- el globo de la transcripción ------------------- */

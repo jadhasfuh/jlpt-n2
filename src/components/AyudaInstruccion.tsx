@@ -3,7 +3,7 @@ import { useState } from "react";
 import { AYUDA_INSTRUCCION, type TipoItem } from "@/lib/examen";
 import { useAjustes } from "./Ajustes";
 import { Globo } from "./Globo";
-import { JpHtml } from "./Jp";
+import { JpEnLinea, JpHtml } from "./Jp";
 
 /**
  * La instrucción del examen, con un botón «?» al lado.
@@ -19,16 +19,19 @@ export function AyudaInstruccion({ tipo, texto }: { tipo: TipoItem; texto: strin
 
   return (
     <>
-      <p className="jp" style={{
+      <div className="jp" style={{
         fontSize: 11.5, color: "var(--tinta-3)", margin: "0 0 10px", lineHeight: 1.6,
         display: "flex", alignItems: "flex-start", gap: 6,
       }}>
-        <span style={{ flex: 1, minWidth: 0 }}>{texto}</span>
+        {/* Con <JpEnLinea>, que las instrucciones traen furigana y los
+           interruptores de あ/意/色 tienen que llegarles igual que al
+           resto del japonés de la página. */}
+        <span style={{ flex: 1, minWidth: 0 }}><JpEnLinea html={texto} /></span>
         {ayuda && (
           <button onClick={() => setAbierta(true)} className="ayuda-btn"
                   aria-label={t("ex.queDice")} title={t("ex.queDice")}>?</button>
         )}
-      </p>
+      </div>
 
       {abierta && ayuda && (
         <Globo cerrar={() => setAbierta(false)}>

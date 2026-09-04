@@ -276,13 +276,13 @@ export function capitulos(nivel: string): Unidad[] {
   const puesto = new Map(
     (Array.isArray(guion) ? guion : []).map((id, i) => [id, i]),
   );
+  // Sólo las que están en el guion. El nivel tiene 106 unidades y la historia
+  // son 103: las otras tres no tienen lectura escrita, y colándose al final
+  // —el `?? Infinity` las mandaba ahí— el libro decía «capítulo 2 de 106» y
+  // terminaba en tres capítulos en blanco.
   return UNIDADES
-    .filter((u) => u.nivel === nivel)
-    .sort((a, b) =>
-      (puesto.get(a.id) ?? Infinity) - (puesto.get(b.id) ?? Infinity) ||
-      a.seccion.localeCompare(b.seccion) ||
-      a.subgrupo.localeCompare(b.subgrupo) ||
-      a.parte - b.parte);
+    .filter((u) => u.nivel === nivel && puesto.has(u.id))
+    .sort((a, b) => puesto.get(a.id)! - puesto.get(b.id)!);
 }
 
 /**

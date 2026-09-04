@@ -245,11 +245,12 @@ export function TestLibre({ nivel, items }: { nivel: string; items: Item[] }) {
         </div>
       </div>
 
-      <p style={{ margin: "12px 0 0", fontSize: 12.5, color: "var(--tinta-2)",
-                  display: "flex", alignItems: "center", gap: 6 }}>
-        <JpEnLinea html={item.instruccion_ja} />
+      {/* Sólo AyudaInstruccion: ya pinta la instrucción y el botón «?».
+          Antes se pintaba además con <JpEnLinea> justo encima y salía dos
+          veces, en dos columnas —el <p> de dentro cerraba el de fuera. */}
+      <div style={{ margin: "12px 0 0" }}>
         <AyudaInstruccion tipo={item.tipo} texto={item.instruccion_ja} />
-      </p>
+      </div>
 
       {/* La de escucha no se lee: se oye. El guion lo dice la voz del sistema,
           con voz distinta para cada personaje. */}
