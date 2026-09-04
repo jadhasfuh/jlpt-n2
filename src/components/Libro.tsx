@@ -37,11 +37,14 @@ export function Libro({
   gramaticaFuera: PuntoFuera[];
   lectura: Lectura | null;
 }) {
-  const { t, idioma, tieneAcceso } = useAjustes();
+  const { t, idioma, tieneAcceso, significado } = useAjustes();
   const [traducir, setTraducir] = useState(false);
   // Las dos listas iban una debajo de otra dentro de la misma tarjeta, así que
   // se veía una tabla dentro de otra. Las mismas pestañas que las subsecciones.
   const [pestana, setPestana] = useState<"vocabulario" | "gramatica">("vocabulario");
+  // 意 tapaba el significado en las subsecciones y aquí no hacía nada. Mismo
+  // trato: se tapa hasta pedirlo, salvo que el interruptor global lo abra.
+  const [abierto, setAbierto] = useState<Record<string, boolean>>({});
   const [resp, setResp] = useState<Record<number, number>>({});
 
   const trad = (idioma === "en" && lectura?.traduccion_en)
@@ -125,14 +128,29 @@ export function Libro({
             <div className="tarjeta" style={{ padding: "4px 14px" }}>
               <table className="tabla-vocab">
                 <tbody>
-                  {vocabulario.map((w) => (
-                    <tr key={w.id}>
-                      <td style={{ width: "44%" }}>
-                        <Jp escritura={w.escritura} lectura={w.lectura} clase="jp-medio" />
-                      </td>
-                      <td style={{ color: "var(--tinta-2)" }}>{sig(w, idioma)}</td>
-                    </tr>
-                  ))}
+                  {vocabulario.map((w) => {
+                    const visible = significado || abierto[`v${w.id}`];
+                    return (
+                      <tr key={w.id}>
+                        <td style={{ width: "44%" }}>
+                          <Jp escritura={w.escritura} lectura={w.lectura} clase="jp-medio" />
+                        </td>
+                        <td>
+                          {visible ? (
+                            <button className="revelado-td" disabled={significado}
+                                    onClick={() => setAbierto({ ...abierto, [`v${w.id}`]: false })}>
+                              <span style={{ color: "var(--tinta-2)" }}>{sig(w, idioma)}</span>
+                            </button>
+                          ) : (
+                            <button className="btn fantasma" style={{ paddingLeft: 0 }}
+                                    onClick={() => setAbierto({ ...abierto, [`v${w.id}`]: true })}>
+                              {t("com.verSig")}
+                            </button>
+                          )}
+                        </td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>

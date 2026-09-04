@@ -66,10 +66,11 @@ def revisa(uid, html, niveles):
     # El registro: o todo です・ます o todo forma diccionario. Se miran sólo los
     # finales de frase, y se saltan las citas, que pueden ir en otro registro.
     finales = [f for f in re.split(r"[。！？]", re.sub(r"「[^」]*」", "", texto)) if f.strip()]
-    cortes = sum(1 for f in finales if re.search(r"(です|ます|ました|ません|でした)$", f.strip()))
+    CORTES = re.compile(r"(です|ます|ました|ません|でした|でしょう|ましょう|"
+                        r"ください|ませんか|ましょうか)か?$")
+    cortes = sum(1 for f in finales if CORTES.search(f.strip()))
     if finales and 0 < cortes < len(finales):
-        llanas = [f.strip()[-12:] for f in finales
-                  if not re.search(r"(です|ます|ました|ません|でした)$", f.strip())]
+        llanas = [f.strip()[-12:] for f in finales if not CORTES.search(f.strip())]
         malo.append(f"mezcla です・ます con forma llana: …{' / …'.join(llanas[:3])}")
     return malo
 

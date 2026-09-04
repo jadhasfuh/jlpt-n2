@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/gijutsu/deporte-1",
  "titulo": "スポーツの ひ",
- "cuerpo": "たなかさんの まごの けんたくんは じゅうにさいです。サッカーが すきで、まいしゅう <ruby>公園<rt>こうえん</rt></ruby>で れんしゅうして います。にちようび、ぼくも さそわれました。はしったり、ボールを けったり して、にじかんあそびました。けんたくんは ぼくより ずっと <ruby>上手<rt>じょうず</rt></ruby>でした。つぎの ひ、あしが いたくて あるけませんでした。",
- "traduccion": "Kenta, el nieto de la señora Tanaka, tiene doce años. Le gusta el fútbol y entrena en el parque todas las semanas. El domingo me invitaron a mí también. Estuvimos dos horas corriendo y dándole a la pelota. Kenta jugaba muchísimo mejor que yo. Al día siguiente me dolían tanto las piernas que no podía andar.",
+ "cuerpo": "たなかさんの まごの けんたくんは じゅうにさいです。サッカーが すきで、まいしゅう <ruby>公園<rt>こうえん</rt></ruby>で れんしゅうして います。にちようび、ぼくも さそわれました。はしっ<em class=\"g\">たり</em>、ボールを けっ<em class=\"g\">たり</em> して、にじかん あそびました。けんたくんは ぼくより ずっと <ruby>上手<rt>じょうず</rt></ruby>でした。つぎの <ruby>日<rt>ひ</rt></ruby>、あしが いたくて あるけませんでした。はなくまの <ruby>公園<rt>こうえん</rt></ruby>には ゴールが ふたつ あります。ゆうがた、ちかくの <ruby>人<rt>ひと</rt></ruby>たちも あつまって きます。ぼくは ベンチで みずを のんで いました。",
+ "traduccion": "Kenta, el nieto de la señora Tanaka, tiene doce años. Le gusta el fútbol y entrena en el parque todas las semanas. El domingo me invitaron a mí también. Estuvimos dos horas corriendo, dándole a la pelota y cosas así. Kenta jugaba muchísimo mejor que yo. Al día siguiente me dolían tanto las piernas que no podía andar. En el parque de Hanakuma hay dos porterías. Al atardecer se va juntando también gente del barrio. Yo estaba en el banco bebiendo agua.",
  "preguntas": [
   {
    "p": "けんたくんは なんさいですか。",
@@ -35,5 +35,5 @@
    "correcta": 3
   }
  ],
- "traduccion_en": "Kenta, Mrs Tanaka's grandson, is twelve. He likes football and practises in the park every week. On Sunday they invited me along too. We spent two hours running about and kicking the ball. Kenta was far better than me. The next day my legs hurt so much I could hardly walk."
+ "traduccion_en": "Kenta, Mrs Tanaka's grandson, is twelve. He likes football and trains in the park every week. On Sunday they invited me along too. We spent two hours running, kicking the ball and so on. Kenta was far better than me. The next day my legs hurt so much I could not walk. In Hanakuma park there are two goals. Towards evening people from the neighbourhood gather too. I was on the bench drinking water."
 }

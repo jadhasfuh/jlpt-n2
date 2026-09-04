@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/gijutsu/ocio-1",
  "titulo": "クラスの パーティー",
- "cuerpo": "がっこうで パーティーが ありました。みんな じぶんの <ruby>国<rt>くに</rt></ruby>の りょうりを もって きました。ぼくは タコスを <ruby>作<rt>つく</rt></ruby>りました。かわが なくて、パンで しました。ミンさんの りょうりが <ruby>一番<rt>いちばん</rt></ruby> にんきでした。いっしょに たべると、ことばが へたでも はなせます。ジャンが ギターを ひいて、みんなで うたいました。",
- "traduccion": "En la escuela hubo una fiesta. Cada uno trajo comida de su país. Yo hice tacos. No encontré tortillas y los hice con pan. Lo de Min fue lo que más éxito tuvo. Comiendo juntos se puede hablar aunque tu idioma sea malo. Jean tocó la guitarra y cantamos todos.",
+ "cuerpo": "がっこうで パーティーが ありました。みんな じぶんの <ruby>国<rt>くに</rt></ruby>の りょうりを もって きました。ぼくは タコスを <ruby>作<rt>つく</rt></ruby>りました。かわが <em class=\"g\">ない</em>ので、パンで しました。ミンさんの りょうりが <ruby>一番<rt>いちばん</rt></ruby> にんきでした。<em class=\"g\"><ruby>一緒<rt>いっしょ</rt></ruby>に</em> たべると、ことばが へたでも はなせます。ジャンが ギターを ひいて、みんなで うたいました。さんじゅう<ruby>人<rt>にん</rt></ruby>ぐらい あつまりました。せんせいたちも のこって、さいごまで います。かたづけの あと、みんなで さんのみやの カラオケへ <ruby>行<rt>い</rt></ruby>きました。",
+ "traduccion": "En la escuela hubo una fiesta. Cada uno trajo comida de su país. Yo hice tacos. Como no había tortillas, los hice con pan. Lo de Min fue lo que más éxito tuvo. Comiendo juntos se puede hablar aunque tu idioma sea malo. Jean tocó la guitarra y cantamos todos. Nos juntamos unas treinta personas. Los profesores también se quedaron hasta el final. Después de recoger, nos fuimos todos al karaoke de Sannomiya.",
  "preguntas": [
   {
    "p": "カルロスさんは なにを <ruby>作<rt>つく</rt></ruby>りましたか。",
@@ -35,5 +35,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "There was a party at school. Everyone brought food from their own country. I made tacos. I couldn't find tortillas, so I used bread. Min's dish was the most popular. Eating together you can talk even when your language is poor. Jean played the guitar and we all sang."
+ "traduccion_en": "There was a party at school. Everyone brought food from their own country. I made tacos. Since there were no tortillas, I made them with bread. Min's dish was the most popular. When you eat together you can talk even if your language is poor. Jean played the guitar and we all sang. About thirty people turned up. The teachers stayed to the end too. After clearing up we all went to the karaoke in Sannomiya."
 }
