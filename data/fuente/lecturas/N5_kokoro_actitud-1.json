@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/kokoro/actitud-1",
  "titulo": "アプリの はなし",
- "cuerpo": "ゴンサが「これ、やって みない?」と、けいたいの アプリを <ruby>見<rt>み</rt></ruby>せました。<ruby>日本人<rt>にほんじん</rt></ruby>と はなせる アプリです。ぼくは あまり すきでは ありませんでしたが、ことばの れんしゅうには なります。さいしょの <ruby>人<rt>ひと</rt></ruby>は、ぼくの ことばを ゆっくり <ruby>聞<rt>き</rt></ruby>いて くれました。しつもんが かるくて、はなしやすかったです。でも、<ruby>家<rt>いえ</rt></ruby>に かえる みちで、なんだか きもちが <ruby>重<rt>おも</rt></ruby>く なりました。",
- "traduccion": "Gonza me enseñó una aplicación del móvil: «¿no la pruebas?». Es una app para hablar con japoneses. A mí no me hacía mucha gracia, pero para practicar el idioma sirve. La primera persona escuchó mi japonés con paciencia. Preguntaba cosas ligeras y era fácil hablar con ella. Pero de vuelta a casa se me quedó un peso raro.",
+ "cuerpo": "ゴンサが「これ、やって みない?」と、けいたいの アプリを <ruby>見<rt>み</rt></ruby>せました。<ruby>日本人<rt>にほんじん</rt></ruby>と はなせる アプリです。ぼくは あまり すきでは ありませんでしたが、ことばの れんしゅうには なります。さいしょの <ruby>人<rt>ひと</rt></ruby>は、ぼくの ことばを ゆっくり <ruby>聞<rt>き</rt></ruby>いて くれました。しつもんが かるくて、はなしやすかったです。でも、<ruby>家<rt>いえ</rt></ruby>に かえる みちで、なんだか きもちが <ruby>重<rt>おも</rt></ruby>く なりました。あちらは しんせつでしたが、ぼくは じぶんの ことを ひとつも はなして いません。そういう <ruby>風<rt>ふう</rt></ruby>に ことばを つかうのが、すこし <ruby>嫌<rt>いや</rt></ruby>に なりました。あしたからは アンナさんと はなす ことに <em class=\"g\">します</em>。",
+ "traduccion": "Gonza me enseñó una aplicación del móvil: «¿no la pruebas?». Es una app para hablar con japoneses. A mí no me hacía mucha gracia, pero para practicar el idioma sirve. La primera persona escuchó mi japonés con paciencia. Preguntaba cosas fáciles y era cómodo hablar. Pero de vuelta a casa se me puso algo pesado el ánimo. Ellos fueron amables, pero yo no conté ni una cosa mía. Usar la lengua de esa manera empezó a darme cierta grima. A partir de mañana decido hablar con Anna.",
  "preguntas": [
   {
    "p": "ゴンサさんは なにを <ruby>見<rt>み</rt></ruby>せましたか。",
@@ -35,5 +35,5 @@
    "correcta": 3
   }
  ],
- "traduccion_en": "Gonza showed me an app on his phone: «why don't you try it?». It's an app for talking to Japanese people. I wasn't keen, but it is practice for the language. The first person listened to my Japanese patiently. Her questions were light and it was easy to talk. But on the way home something felt heavy."
+ "traduccion_en": "Gonsa showed me an app on his phone: «why don't you try this?» It's an app for talking with Japanese people. I wasn't keen, but it does work as language practice. The first person listened to my Japanese patiently. The questions were easy and it was comfortable to talk. But on the way home something in me felt heavy. They were kind, but I hadn't told them a single thing about myself. Using the language that way started to put me off. From tomorrow I've decided to talk with Anna instead."
 }

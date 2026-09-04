@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/seishitsu/comparacion-1",
  "titulo": "<ruby>同<rt>おな</rt></ruby>じと <ruby>違<rt>ちが</rt></ruby>う",
- "cuerpo": "アンナさんの <ruby>家<rt>いえ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。テーブルの ならべ<ruby>方<rt>かた</rt></ruby>も、あいさつも、ぼくの <ruby>家<rt>いえ</rt></ruby>とは <ruby>違<rt>ちが</rt></ruby>います。でも、おかあさんが たくさん <ruby>食<rt>た</rt></ruby>べさせようと するのは <ruby>同<rt>おな</rt></ruby>じでした。「メキシコの おかあさんも <ruby>同<rt>おな</rt></ruby>じです」と <ruby>言<rt>い</rt></ruby>うと、みんな わらいました。ことばも りょうりも <ruby>違<rt>ちが</rt></ruby>いますが、<ruby>家族<rt>かぞく</rt></ruby>は にて います。その <ruby>日<rt>ひ</rt></ruby>、ぼくは あまり きんちょうしませんでした。",
- "traduccion": "Fui a casa de Anna. Cómo se pone la mesa y cómo se saluda es distinto de mi casa. Pero que la madre intente que comas mucho es exactamente igual. Dije «las madres mexicanas hacen lo mismo» y se rieron todos. El idioma y la comida son distintos, pero las familias se parecen. Ese día no estuve tan nervioso.",
+ "cuerpo": "アンナさんの <ruby>家<rt>いえ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。テーブルの ならべ<ruby>方<rt>かた</rt></ruby>も、あいさつも、ぼくの <ruby>家<rt>いえ</rt></ruby>とは <ruby>違<rt>ちが</rt></ruby>います。でも、おかあさんが たくさん <ruby>食<rt>た</rt></ruby>べさせようと するのは <ruby>同<rt>おな</rt></ruby>じでした。「メキシコの おかあさんも <ruby>同<rt>おな</rt></ruby>じです」と <ruby>言<rt>い</rt></ruby>うと、みんな わらいました。ことばも りょうりも <ruby>違<rt>ちが</rt></ruby>いますが、<ruby>家族<rt>かぞく</rt></ruby>は にて います。その <ruby>日<rt>ひ</rt></ruby>、ぼくは あまり きんちょうしませんでした。「おかわりは?」と きかれて、「いえ、もう じゅうぶんです」と こたえました。それでも もう<ruby>一<rt>ひと</rt></ruby>つ おさらが <ruby>来<rt>き</rt></ruby>ました。ことわれなかった<em class=\"g\">んです</em>、と あとで アンナさんに はなしました。",
+ "traduccion": "Fui a casa de Anna. Cómo se pone la mesa y cómo se saluda es distinto de mi casa. Pero que la madre intente que comas mucho es exactamente igual. Dije «las madres mexicanas hacen lo mismo» y se rieron todos. El idioma y la comida son distintos, pero las familias se parecen. Ese día no me puse muy nervioso. Me preguntaron «¿repites?» y contesté «no, ya tengo bastante». Aun así llegó otro plato. Luego le expliqué a Anna que es que no supe decir que no.",
  "preguntas": [
   {
    "p": "なにが <ruby>同<rt>おな</rt></ruby>じでしたか。",
@@ -35,5 +35,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "I went to Anna's house. How the table is laid and how people greet each other is different from my home. But a mother trying to make you eat more is exactly the same. I said «Mexican mothers do the same» and everyone laughed. The language and the food are different, but families are alike. That day I wasn't so nervous."
+ "traduccion_en": "I went to Anna's house. How the table is laid and how people greet each other are different from my home. But the way the mother tries to make you eat a lot was exactly the same. When I said «Mexican mothers are the same,» everyone laughed. The language and the food are different, but families resemble one another. That day I wasn't very nervous. They asked «more?» and I answered «no, I've had plenty.» Even so another plate arrived. Afterwards I explained to Anna that the thing is, I couldn't say no."
 }

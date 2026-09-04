@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/kokoro/alegria-1",
  "titulo": "<ruby>楽<rt>たの</rt></ruby>しい <ruby>人<rt>ひと</rt></ruby>",
- "cuerpo": "アプリで あう <ruby>人<rt>ひと</rt></ruby>たちは、みんな しんせつでした。まちの ことを <ruby>教<rt>おし</rt></ruby>えて くれて、おいしい みせにも つれて <ruby>行<rt>い</rt></ruby>って くれます。ごはんの おかねを はらうだけで、いい <ruby>一日<rt>いちにち</rt></ruby>に なります。でも、<ruby>楽<rt>たの</rt></ruby>しいのと うれしいのは ちがうと きが つきました。アンナさんと はなす とき、ぼくは じぶんの ことを はなして います。ほかの <ruby>人<rt>ひと</rt></ruby>とは、<ruby>日本<rt>にほん</rt></ruby>の ことしか はなして いませんでした。",
- "traduccion": "La gente que conocía por la app era toda amable. Te enseñan la ciudad y te llevan a sitios donde se come bien. Pagando la cena te sale un buen día. Pero me di cuenta de que pasarlo bien y estar contento no son lo mismo. Cuando hablo con Anna, hablo de mí. Con las demás sólo hablaba de Japón.",
+ "cuerpo": "アプリで あう <ruby>人<rt>ひと</rt></ruby>たちは、みんな しんせつでした。まちの ことを <ruby>教<rt>おし</rt></ruby>えて くれて、おいしい みせにも つれて <ruby>行<rt>い</rt></ruby>って くれます。ごはんの おかねを はらうだけで、いい <ruby>一日<rt>いちにち</rt></ruby>に なります。でも、<ruby>楽<rt>たの</rt></ruby>しいのと うれしいのは ちがうと きが つきました。アンナさんと はなす とき、ぼくは じぶんの ことを はなして います。ほかの <ruby>人<rt>ひと</rt></ruby>とは、<ruby>日本<rt>にほん</rt></ruby>の ことしか はなして いませんでした。さんのみやの いざかやで、みんなで おさけを のみました。「おなじのを もう<ruby>一<rt>ひと</rt></ruby>つ <em class=\"g\">ください</em>」と ぼくが <ruby>言<rt>い</rt></ruby>うと、アンナさんが わらいました。かえりに、ちいさい こえで「きょうは ありがとう」と <ruby>礼<rt>れい</rt></ruby>を <ruby>言<rt>い</rt></ruby>いました。ほんとうに <ruby>好<rt>す</rt></ruby>きな <ruby>人<rt>ひと</rt></ruby>の まえでは、ことばが すくなく なります。",
+ "traduccion": "La gente que conocía por la app era toda amable. Te enseñan la ciudad y te llevan a sitios donde se come bien. Pagando la cena te sale un buen día. Pero me di cuenta de que pasarlo bien y estar contento no son lo mismo. Cuando hablo con Anna hablo de mí. Con los demás sólo hablaba de Japón. En un izakaya de Sannomiya bebimos todos juntos. Cuando dije «ponme otra igual», Anna se rio. Al despedirnos le di las gracias en voz baja: «gracias por hoy». Delante de la persona que de verdad te gusta, salen menos palabras.",
  "preguntas": [
   {
    "p": "アプリで あう <ruby>人<rt>ひと</rt></ruby>たちは どうでしたか。",
@@ -35,5 +35,5 @@
    "correcta": 2
   }
  ],
- "traduccion_en": "The people I met through the app were all kind. They show you the city and take you to places where you eat well. Paying for dinner buys you a good day. But I realised that having fun and being happy aren't the same thing. When I talk to Anna, I talk about myself. With the others I only ever talked about Japan."
+ "traduccion_en": "The people I met through the app were all kind. They show you the city and take you to places with good food. Just paying for the meal makes it a good day. But I realised that having fun and being happy are not the same. When I talk with Anna, I talk about myself. With the others I only ever talked about Japan. At an izakaya in Sannomiya we all had a drink. When I said «another one of the same, please,» Anna laughed. On the way out I thanked her quietly: «thanks for today.» In front of the person you really like, fewer words come out."
 }

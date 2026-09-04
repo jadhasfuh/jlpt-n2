@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/kokoro/relaciones-1",
  "titulo": "<ruby>公園<rt>こうえん</rt></ruby>で",
- "cuerpo": "にちようび、アンナさんと <ruby>公園<rt>こうえん</rt></ruby>で あいました。<ruby>子<rt>こ</rt></ruby>どもたちが あそんで いて、とても にぎやかでした。ベンチに すわって、ぼくは じしょで しらべた ことばを <ruby>言<rt>い</rt></ruby>いました。アンナさんは しばらく なにも <ruby>言<rt>い</rt></ruby>いませんでした。それから、「わたしも おなじ きもちです」と、ゆっくり こたえました。ぼくは その <ruby>日<rt>ひ</rt></ruby>、<ruby>日本語<rt>にほんご</rt></ruby>が ぜんぶ わかる きが しました。",
- "traduccion": "El domingo quedé con Anna en el parque. Había niños jugando y estaba todo muy animado. Nos sentamos en un banco y le dije las palabras que había buscado en el diccionario. Anna se quedó un rato callada. Después contestó despacio: «yo siento lo mismo». Aquel día tuve la sensación de entender el japonés entero.",
+ "cuerpo": "にちようび、アンナさんと <ruby>公園<rt>こうえん</rt></ruby>で あいました。<ruby>子<rt>こ</rt></ruby>どもたちが あそんで いて、とても にぎやかでした。ベンチに すわって、ぼくは じしょで しらべた ことばを <ruby>言<rt>い</rt></ruby>いました。アンナさんは しばらく なにも <ruby>言<rt>い</rt></ruby>いませんでした。それから、「わたしも おなじ きもちです」と、ゆっくり こたえました。ぼくは その <ruby>日<rt>ひ</rt></ruby>、<ruby>日本語<rt>にほんご</rt></ruby>が ぜんぶ わかる きが しました。「これから、まいしゅう ここで あって <em class=\"g\">も いいです</em>か」と ききました。アンナさんは うなずきました。ジャンとは クラスで <ruby>遇<rt>あ</rt></ruby>っただけの <ruby>仲<rt>なか</rt></ruby>でしたが、いまは いちばん ちかい ともだちです。<ruby>結婚<rt>けっこん</rt></ruby>の ことは、まだ だれも <ruby>言<rt>い</rt></ruby>いません。",
+ "traduccion": "El domingo quedé con Anna en el parque. Había niños jugando y estaba todo muy animado. Nos sentamos en un banco y le dije las palabras que había buscado en el diccionario. Anna se quedó un rato callada. Después contestó despacio: «yo siento lo mismo». Ese día tuve la sensación de entender el japonés entero. Le pregunté: «¿podemos vernos aquí todas las semanas a partir de ahora?». Anna asintió. Con Jean sólo me había cruzado en clase, y ahora es mi amigo más cercano. De casarse todavía no habla nadie.",
  "preguntas": [
   {
    "p": "どこで あいましたか。",
@@ -35,5 +35,5 @@
    "correcta": 0
   }
  ],
- "traduccion_en": "On Sunday I met Anna in the park. There were children playing and it was very lively. We sat on a bench and I said the words I had looked up in the dictionary. Anna said nothing for a while. Then she answered slowly: «I feel the same». That day I felt as though I understood the whole of Japanese."
+ "traduccion_en": "On Sunday I met Anna in the park. There were children playing and it was very lively. We sat on a bench and I said the words I had looked up in the dictionary. Anna said nothing for a while. Then she answered slowly: «I feel the same.» That day I felt as if I understood the whole of Japanese. I asked, «from now on, may we meet here every week?» Anna nodded. With Jean I had only crossed paths in class, and now he is my closest friend. Nobody is saying anything about marriage yet."
 }
