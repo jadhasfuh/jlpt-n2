@@ -1,16 +1,52 @@
 {
  "vocabulario": [
   {
-   "cap": 2,
-   "escritura": "~道",
-   "lectura": "~どう",
-   "es": "camino, calle"
+   "cap": 1,
+   "escritura": "ひく",
+   "lectura": "ひく",
+   "es": "atropellar a alguien (con vehículo), derribar a alguien"
+  },
+  {
+   "cap": 1,
+   "escritura": "買う",
+   "lectura": "かう",
+   "es": "comprar"
   },
   {
    "cap": 2,
-   "escritura": "昨夜",
-   "lectura": "ゆうべ",
-   "es": "anoche"
+   "escritura": "乗る",
+   "lectura": "のる",
+   "es": "subir, montar, abordar"
+  },
+  {
+   "cap": 2,
+   "escritura": "青",
+   "lectura": "あお",
+   "es": "azul; verde (del semáforo)"
+  },
+  {
+   "cap": 2,
+   "escritura": "大使館",
+   "lectura": "たいしかん",
+   "es": "embajada"
+  },
+  {
+   "cap": 3,
+   "escritura": "置く",
+   "lectura": "おく",
+   "es": "poner, colocar"
+  },
+  {
+   "cap": 3,
+   "escritura": "聞く",
+   "lectura": "きく",
+   "es": "oír, escuchar, preguntar"
+  },
+  {
+   "cap": 3,
+   "escritura": "やる",
+   "lectura": "やる",
+   "es": "hacer"
   },
   {
    "cap": 3,
@@ -25,22 +61,16 @@
    "es": "saltar, brincar"
   },
   {
-   "cap": 3,
-   "escritura": "倣う",
-   "lectura": "ならう",
-   "es": "imitar, seguir, emular"
+   "cap": 4,
+   "escritura": "ない",
+   "lectura": "ない",
+   "es": "no hay, no tiene"
   },
   {
-   "cap": 3,
-   "escritura": "因る",
-   "lectura": "よる",
-   "es": "venir de"
-  },
-  {
-   "cap": 3,
-   "escritura": "挙げる",
-   "lectura": "あげる",
-   "es": "citar, mencionar; celebrar (una boda); levantar (la mano)"
+   "cap": 4,
+   "escritura": "差す",
+   "lectura": "さす",
+   "es": "sostener en alto (un paraguas); entrar (la luz)"
   },
   {
    "cap": 4,
@@ -50,45 +80,33 @@
   },
   {
    "cap": 6,
-   "escritura": "~だす",
-   "lectura": "~だす",
-   "es": "sacar, salir"
+   "escritura": "~くらい",
+   "lectura": "~くらい",
+   "es": "más o menos ~, unos ~"
   },
   {
-   "cap": 9,
-   "escritura": "空く",
-   "lectura": "あく",
-   "es": "abrirse, vaciarse"
-  },
-  {
-   "cap": 9,
-   "escritura": "飼う",
-   "lectura": "かう",
-   "es": "mantener, criar, alimentar"
-  },
-  {
-   "cap": 9,
-   "escritura": "切る",
-   "lectura": "きる",
-   "es": "cortar, picar, rebanar"
-  },
-  {
-   "cap": 9,
-   "escritura": "射す",
-   "lectura": "さす",
-   "es": "brillar, golpear"
-  },
-  {
-   "cap": 9,
-   "escritura": "突く",
-   "lectura": "つく",
-   "es": "empujar, golpear"
+   "cap": 8,
+   "escritura": "呼ぶ",
+   "lectura": "よぶ",
+   "es": "llamar, invitar"
   },
   {
    "cap": 10,
    "escritura": "カメラ",
    "lectura": "カメラ",
    "es": "cámara"
+  },
+  {
+   "cap": 10,
+   "escritura": "ラジオカセ",
+   "lectura": "ラジオカセ",
+   "es": "reproductor de casetes de radio"
+  },
+  {
+   "cap": 12,
+   "escritura": "~枚",
+   "lectura": "~まい",
+   "es": "contador de cosas planas"
   },
   {
    "cap": 14,
@@ -98,27 +116,9 @@
   },
   {
    "cap": 14,
-   "escritura": "~車",
-   "lectura": "~しゃ",
-   "es": "coche, automóvil, vehículo"
-  },
-  {
-   "cap": 14,
-   "escritura": "~船",
-   "lectura": "~せん",
-   "es": "barco, embarcación"
-  },
-  {
-   "cap": 14,
    "escritura": "発つ",
    "lectura": "たつ",
    "es": "partir (en avión, tren, etc.)"
-  },
-  {
-   "cap": 14,
-   "escritura": "機能",
-   "lectura": "きのう",
-   "es": "función, facultad"
   },
   {
    "cap": 14,
@@ -128,15 +128,9 @@
   },
   {
    "cap": 15,
-   "escritura": "~区",
-   "lectura": "~く",
-   "es": "~ distrito, ~ barrio"
-  },
-  {
-   "cap": 15,
-   "escritura": "~下",
-   "lectura": "~か",
-   "es": "abajo, debajo"
+   "escritura": "ところ",
+   "lectura": "ところ",
+   "es": "lugar"
   },
   {
    "cap": 15,
@@ -146,45 +140,15 @@
   },
   {
    "cap": 15,
-   "escritura": "~外",
-   "lectura": "~がい",
-   "es": "afuera, exterior"
-  },
-  {
-   "cap": 15,
-   "escritura": "~所",
-   "lectura": "~じょ",
-   "es": "lugar, punto, escena"
-  },
-  {
-   "cap": 15,
-   "escritura": "~町",
-   "lectura": "~ちょう",
-   "es": "pueblo, cuadra, barrio"
-  },
-  {
-   "cap": 15,
-   "escritura": "~内",
-   "lectura": "~ない",
-   "es": "dentro"
-  },
-  {
-   "cap": 15,
-   "escritura": "上~",
-   "lectura": "うわ~",
-   "es": "arriba, encima"
+   "escritura": "張る",
+   "lectura": "はる",
+   "es": "tensar, extender; llenarse (de agua); hincharse"
   },
   {
    "cap": 16,
-   "escritura": "外~",
-   "lectura": "がい~",
-   "es": "afuera, exterior"
-  },
-  {
-   "cap": 16,
-   "escritura": "就く",
-   "lectura": "つく",
-   "es": "instalarse en (lugar), tomar (asiento, posición), estudiar (con el maestro)"
+   "escritura": "~分",
+   "lectura": "~ふん",
+   "es": "~ minutos"
   },
   {
    "cap": 16,
@@ -194,51 +158,15 @@
   },
   {
    "cap": 16,
-   "escritura": "上る",
-   "lectura": "のぼる",
-   "es": "subir (una cuesta, una escalera); ascender a (una cifra)"
+   "escritura": "町",
+   "lectura": "まち",
+   "es": "pueblo, barrio (unidad administrativa)"
   },
   {
    "cap": 16,
-   "escritura": "昇る",
-   "lectura": "のぼる",
-   "es": "elevarse (el sol, el humo); ascender de rango"
-  },
-  {
-   "cap": 16,
-   "escritura": "占める",
-   "lectura": "しめる",
-   "es": "comprender, dar cuenta de, compensar (de); retener, ocupar"
-  },
-  {
-   "cap": 16,
-   "escritura": "勤める",
-   "lectura": "つとめる",
-   "es": "trabajar en (una empresa), estar empleado en"
-  },
-  {
-   "cap": 16,
-   "escritura": "務める",
-   "lectura": "つとめる",
-   "es": "desempeñar (un cargo, un papel)"
-  },
-  {
-   "cap": 16,
-   "escritura": "努める",
-   "lectura": "つとめる",
-   "es": "esforzarse por, empeñarse en"
-  },
-  {
-   "cap": 16,
-   "escritura": "留まる",
-   "lectura": "とまる",
-   "es": "ser arreglado; permanecer, permanecer (en un solo lugar)"
-  },
-  {
-   "cap": 16,
-   "escritura": "ひく",
-   "lectura": "ひく",
-   "es": "atropellar a alguien (con vehículo), derribar a alguien"
+   "escritura": "~前",
+   "lectura": "~まえ",
+   "es": "antes de, delante de"
   },
   {
    "cap": 20,
@@ -253,22 +181,10 @@
    "es": "compilación (de un texto), edición"
   },
   {
-   "cap": 20,
-   "escritura": "載る",
-   "lectura": "のる",
-   "es": "aparecer (en forma impresa), ser registrado"
-  },
-  {
-   "cap": 21,
-   "escritura": "~史",
-   "lectura": "~し",
-   "es": "historia"
-  },
-  {
-   "cap": 23,
-   "escritura": "かく",
-   "lectura": "かく",
-   "es": "rascarse, transpirar"
+   "cap": 22,
+   "escritura": "~過ぎ",
+   "lectura": "~すぎ",
+   "es": "pasado, después"
   },
   {
    "cap": 24,
@@ -278,831 +194,423 @@
   },
   {
    "cap": 25,
-   "escritura": "~御",
-   "lectura": "~ご",
-   "es": "prefijo honorífico/cortés/humilde"
-  },
-  {
-   "cap": 26,
-   "escritura": "者",
-   "lectura": "もの",
-   "es": "persona"
-  },
-  {
-   "cap": 26,
    "escritura": "私",
    "lectura": "わたくし",
    "es": "Yo mismo, asuntos privados."
   },
   {
-   "cap": 26,
+   "cap": 25,
    "escritura": "私",
    "lectura": "わたし",
    "es": "Yo mismo, asuntos privados."
   },
   {
-   "cap": 26,
-   "escritura": "~女",
-   "lectura": "~じょ",
-   "es": "mujer, hembra"
-  },
-  {
-   "cap": 26,
+   "cap": 25,
    "escritura": "~人",
    "lectura": "~じん",
    "es": "~ persona"
   },
   {
-   "cap": 26,
-   "escritura": "~性",
-   "lectura": "~せい",
-   "es": "naturaleza (de una persona)"
-  },
-  {
    "cap": 27,
-   "escritura": "~歌",
-   "lectura": "~か",
-   "es": "canción, canto"
+   "escritura": "~きる",
+   "lectura": "~きる",
+   "es": "hacer ~ del todo, terminar de ~ (auxiliar)"
   },
   {
-   "cap": 30,
-   "escritura": "~教",
-   "lectura": "~きょう",
-   "es": "-ismo (religión)"
+   "cap": 28,
+   "escritura": "飲む",
+   "lectura": "のむ",
+   "es": "beber"
   },
   {
-   "cap": 31,
+   "cap": 29,
    "escritura": "~人",
    "lectura": "~にん",
    "es": "persona, alguien"
   },
   {
-   "cap": 32,
-   "escritura": "ペット",
-   "lectura": "ペット",
-   "es": "mascota"
-  },
-  {
-   "cap": 32,
-   "escritura": "呼ぶ",
-   "lectura": "よぶ",
-   "es": "llamar, invitar"
-  },
-  {
-   "cap": 32,
-   "escritura": "皮",
-   "lectura": "かわ",
-   "es": "piel, cáscara, corteza (piel sin curtir)"
-  },
-  {
-   "cap": 32,
+   "cap": 30,
    "escritura": "~口",
    "lectura": "~くち",
    "es": "boca"
   },
   {
-   "cap": 32,
-   "escritura": "~手",
-   "lectura": "~しゅ",
-   "es": "mano, brazo"
-  },
-  {
-   "cap": 32,
-   "escritura": "~頭",
-   "lectura": "~とう",
-   "es": "cabeza"
-  },
-  {
-   "cap": 32,
-   "escritura": "辛い",
-   "lectura": "つらい",
-   "es": "doloroso, desgarrador"
-  },
-  {
-   "cap": 32,
+   "cap": 30,
    "escritura": "渡す",
    "lectura": "わたす",
    "es": "pasar por encima, entregar"
   },
   {
-   "cap": 32,
+   "cap": 30,
    "escritura": "入口",
    "lectura": "いりぐち",
    "es": "entrada, portón, aproximación, boca"
   },
   {
-   "cap": 35,
-   "escritura": "分かる",
-   "lectura": "わかる",
-   "es": "entender"
+   "cap": 33,
+   "escritura": "~か月",
+   "lectura": "~かげつ",
+   "es": "(número de) meses"
   },
   {
-   "cap": 35,
-   "escritura": "奥さん",
-   "lectura": "おくさん",
-   "es": "esposa, su esposa, señora"
-  },
-  {
-   "cap": 35,
+   "cap": 33,
    "escritura": "女",
    "lectura": "おんな",
    "es": "mujer, niña, hija"
   },
   {
-   "cap": 35,
-   "escritura": "姓",
-   "lectura": "せい",
-   "es": "apellido"
+   "cap": 33,
+   "escritura": "奥さん",
+   "lectura": "おくさん",
+   "es": "esposa, su esposa, señora"
   },
   {
-   "cap": 35,
+   "cap": 33,
    "escritura": "お兄さん",
    "lectura": "おにいさん",
    "es": "hermano mayor, (vocativo) \"¿Señor?\""
   },
   {
-   "cap": 35,
+   "cap": 33,
    "escritura": "お姉さん",
    "lectura": "おねえさん",
    "es": "hermana mayor, (vocativo) \"¿Señorita?\""
   },
   {
-   "cap": 35,
-   "escritura": "伯父さん",
-   "lectura": "おじさん",
-   "es": "tío (hermano mayor del padre o de la madre)"
-  },
-  {
-   "cap": 35,
-   "escritura": "小父さん",
-   "lectura": "おじさん",
-   "es": "señor, hombre de mediana edad (sin parentesco)"
-  },
-  {
-   "cap": 35,
-   "escritura": "叔父さん",
-   "lectura": "おじさん",
-   "es": "tío (hermano menor del padre o de la madre)"
-  },
-  {
-   "cap": 35,
+   "cap": 33,
    "escritura": "伯母さん",
    "lectura": "おばさん",
    "es": "tía (hermana mayor del padre o de la madre)"
   },
   {
-   "cap": 35,
+   "cap": 33,
    "escritura": "叔母さん",
    "lectura": "おばさん",
    "es": "tía (hermana menor del padre o de la madre)"
   },
   {
-   "cap": 36,
-   "escritura": "~産",
-   "lectura": "~さん",
-   "es": "(dar) nacimiento, alumbramiento, parto"
-  },
-  {
-   "cap": 36,
+   "cap": 34,
    "escritura": "死ぬ",
    "lectura": "しぬ",
    "es": "morir"
   },
   {
-   "cap": 37,
+   "cap": 35,
    "escritura": "~年",
    "lectura": "~ねん",
    "es": "año"
   },
   {
    "cap": 37,
-   "escritura": "~夜",
-   "lectura": "~や",
-   "es": "noche, tarde"
+   "escritura": "~だす",
+   "lectura": "~だす",
+   "es": "sacar, salir"
   },
   {
    "cap": 37,
-   "escritura": "コピーする",
-   "lectura": "コピーする",
-   "es": "copiar"
+   "escritura": "~歳",
+   "lectura": "~さい",
+   "es": "año"
   },
   {
    "cap": 37,
-   "escritura": "毎週",
-   "lectura": "まいしゅう",
-   "es": "cada semana"
+   "escritura": "~日",
+   "lectura": "~にち",
+   "es": "día, fecha (sufijo)"
+  },
+  {
+   "cap": 37,
+   "escritura": "十日",
+   "lectura": "とおか",
+   "es": "diez días; décimo día del mes"
   },
   {
    "cap": 38,
-   "escritura": "明後日",
-   "lectura": "みょうごにち",
-   "es": "pasado mañana"
-  },
-  {
-   "cap": 39,
-   "escritura": "ラジオカセ",
-   "lectura": "ラジオカセ",
-   "es": "reproductor de casetes de radio"
-  },
-  {
-   "cap": 40,
-   "escritura": "~か月",
-   "lectura": "~かげつ",
-   "es": "(número de) meses"
-  },
-  {
-   "cap": 40,
-   "escritura": "上",
-   "lectura": "かみ",
-   "es": "primer volumen; calidad superior; gubernamental"
-  },
-  {
-   "cap": 40,
-   "escritura": "上",
-   "lectura": "じょう",
-   "es": "primer volumen; calidad superior; gubernamental"
-  },
-  {
-   "cap": 40,
    "escritura": "番",
    "lectura": "ばん",
    "es": "número (en una serie)"
   },
   {
-   "cap": 40,
+   "cap": 38,
    "escritura": "~中",
    "lectura": "~じゅう",
    "es": "mediano (tamaño), promedio (grado, nivel, etc.), medio"
   },
   {
-   "cap": 40,
+   "cap": 38,
    "escritura": "~中",
    "lectura": "~ちゅう",
    "es": "mediano (tamaño), promedio (grado, nivel, etc.), medio"
   },
   {
-   "cap": 41,
-   "escritura": "~きる",
-   "lectura": "~きる",
-   "es": "hacer ~ del todo, terminar de ~ (auxiliar)"
+   "cap": 38,
+   "escritura": "~側",
+   "lectura": "~がわ",
+   "es": "lado (de algo, o ponerse del lado de alguien), parte"
   },
   {
-   "cap": 41,
-   "escritura": "各~",
-   "lectura": "かく~",
-   "es": "cada uno, cada, todos"
-  },
-  {
-   "cap": 41,
+   "cap": 39,
    "escritura": "本~",
    "lectura": "ほん~",
    "es": "libro, volumen, guión"
   },
   {
-   "cap": 41,
-   "escritura": "大使館",
-   "lectura": "たいしかん",
-   "es": "embajada"
-  },
-  {
-   "cap": 42,
-   "escritura": "~泊",
-   "lectura": "~はく",
-   "es": "contador de noches de estancia"
-  },
-  {
-   "cap": 42,
-   "escritura": "~本",
-   "lectura": "~ほん",
-   "es": "contador para cosas cilíndricas"
-  },
-  {
-   "cap": 45,
-   "escritura": "正",
-   "lectura": "せい",
-   "es": "(lógico) verdadero, regular"
-  },
-  {
-   "cap": 45,
-   "escritura": "~遍",
-   "lectura": "~へん",
-   "es": "número de veces"
-  },
-  {
-   "cap": 46,
-   "escritura": "~期",
-   "lectura": "~き",
-   "es": "período, tiempo"
-  },
-  {
-   "cap": 46,
-   "escritura": "~機",
-   "lectura": "~き",
-   "es": "oportunidad"
-  },
-  {
-   "cap": 46,
-   "escritura": "~前",
-   "lectura": "~ぜん",
-   "es": "antes de, anterior"
-  },
-  {
-   "cap": 46,
-   "escritura": "~前",
-   "lectura": "~まえ",
-   "es": "antes de, delante de"
-  },
-  {
-   "cap": 46,
-   "escritura": "今~",
-   "lectura": "こん~",
-   "es": "ahora, el momento presente, justo ahora"
-  },
-  {
-   "cap": 47,
-   "escritura": "~終る",
-   "lectura": "~おわる",
-   "es": "terminar, llegar a su fin"
-  },
-  {
-   "cap": 47,
-   "escritura": "~時間",
-   "lectura": "~じかん",
-   "es": "tiempo"
-  },
-  {
-   "cap": 49,
-   "escritura": "おる",
-   "lectura": "おる",
-   "es": "ser (animado), ser, existir"
-  },
-  {
-   "cap": 49,
-   "escritura": "する",
-   "lectura": "する",
-   "es": "hacer"
-  },
-  {
-   "cap": 49,
-   "escritura": "なる",
-   "lectura": "なる",
-   "es": "cambiar, ser útil, llegar a"
-  },
-  {
-   "cap": 50,
-   "escritura": "角",
-   "lectura": "つの",
-   "es": "cuerno"
-  },
-  {
-   "cap": 52,
-   "escritura": "~目",
-   "lectura": "~め",
-   "es": "~nd, ~th (secuencia)"
-  },
-  {
-   "cap": 64,
-   "escritura": "選択",
-   "lectura": "せんたく",
-   "es": "selección, elección"
-  },
-  {
-   "cap": 66,
-   "escritura": "物",
-   "lectura": "もの",
-   "es": "cosa, objeto"
-  },
-  {
-   "cap": 67,
-   "escritura": "せい",
-   "lectura": "せい",
-   "es": "causa, motivo, culpa"
-  },
-  {
-   "cap": 68,
-   "escritura": "~問",
-   "lectura": "~もん",
-   "es": "pregunta, consulta"
-  },
-  {
-   "cap": 71,
-   "escritura": "どれ",
-   "lectura": "どれ",
-   "es": "bueno ahora déjame ver cuál (de tres o más)"
-  },
-  {
-   "cap": 71,
-   "escritura": "ドア",
-   "lectura": "ドア",
-   "es": "puerta (estilo occidental)"
-  },
-  {
-   "cap": 71,
-   "escritura": "トイレ",
-   "lectura": "トイレ",
-   "es": "retrete, lavabo, cuarto de baño"
-  },
-  {
-   "cap": 71,
-   "escritura": "それでは",
-   "lectura": "それでは",
-   "es": "en esa situación, bueno entonces..."
-  },
-  {
-   "cap": 71,
-   "escritura": "隣",
-   "lectura": "となり",
-   "es": "al lado de"
-  },
-  {
-   "cap": 71,
-   "escritura": "庭",
-   "lectura": "にわ",
-   "es": "jardín"
-  },
-  {
-   "cap": 71,
-   "escritura": "門",
-   "lectura": "もん",
-   "es": "puerta"
-  },
-  {
-   "cap": 71,
-   "escritura": "~家",
-   "lectura": "~か",
-   "es": "casa, residencia, vivienda"
-  },
-  {
-   "cap": 71,
-   "escritura": "~家",
-   "lectura": "~け",
-   "es": "casa, residencia, vivienda"
-  },
-  {
-   "cap": 71,
-   "escritura": "空き",
-   "lectura": "あき",
-   "es": "habitación, tiempo de sobra, vacío"
-  },
-  {
-   "cap": 71,
-   "escritura": "借りる",
-   "lectura": "かりる",
-   "es": "pedir prestado, tener un préstamo, contratar, alquilar, comprar a crédito"
-  },
-  {
-   "cap": 71,
-   "escritura": "階段",
-   "lectura": "かいだん",
-   "es": "escaleras"
-  },
-  {
-   "cap": 71,
-   "escritura": "玄関",
-   "lectura": "げんかん",
-   "es": "entrada, hall de entrada"
-  },
-  {
-   "cap": 71,
-   "escritura": "台所",
-   "lectura": "だいどころ",
-   "es": "cocina"
-  },
-  {
-   "cap": 71,
-   "escritura": "八百屋",
-   "lectura": "やおや",
-   "es": "verdulero"
-  },
-  {
-   "cap": 72,
-   "escritura": "~国",
-   "lectura": "~こく",
-   "es": "país, estado"
-  },
-  {
-   "cap": 72,
-   "escritura": "レストラン",
-   "lectura": "レストラン",
-   "es": "restaurante"
-  },
-  {
-   "cap": 72,
-   "escritura": "~辛い",
-   "lectura": "~づらい",
-   "es": "picante, caliente"
-  },
-  {
-   "cap": 72,
-   "escritura": "揚げる",
-   "lectura": "あげる",
-   "es": "freír (en aceite); izar (una bandera)"
-  },
-  {
-   "cap": 72,
-   "escritura": "漬ける",
-   "lectura": "つける",
-   "es": "remojar, humedecer, encurtir"
-  },
-  {
-   "cap": 73,
-   "escritura": "採る",
-   "lectura": "とる",
-   "es": "adoptar (medida, propuesta); recoger (fruta)"
-  },
-  {
-   "cap": 73,
-   "escritura": "捕る",
-   "lectura": "とる",
-   "es": "atrapar, capturar (un animal, una pelota)"
-  },
-  {
-   "cap": 73,
-   "escritura": "牛乳",
-   "lectura": "ぎゅうにゅう",
-   "es": "leche (de vaca)"
-  },
-  {
-   "cap": 74,
-   "escritura": "~だけ",
-   "lectura": "~だけ",
-   "es": "sólo ~, como ~"
-  },
-  {
-   "cap": 78,
-   "escritura": "~色",
-   "lectura": "~しょく",
-   "es": "color, matiz"
-  },
-  {
-   "cap": 79,
-   "escritura": "~器",
-   "lectura": "~き",
-   "es": "cuenco, vasija, recipiente"
-  },
-  {
-   "cap": 79,
-   "escritura": "~重",
-   "lectura": "~じゅう",
-   "es": "jūbako, caja de comida de varios niveles"
-  },
-  {
-   "cap": 79,
-   "escritura": "差す",
-   "lectura": "さす",
-   "es": "sostener en alto (un paraguas); entrar (la luz)"
-  },
-  {
-   "cap": 79,
-   "escritura": "指す",
-   "lectura": "さす",
-   "es": "señalar (con el dedo), indicar"
-  },
-  {
-   "cap": 79,
-   "escritura": "重~",
-   "lectura": "じゅう~",
-   "es": "jūbako, caja de comida de varios niveles"
-  },
-  {
-   "cap": 79,
-   "escritura": "引く",
-   "lectura": "ひく",
-   "es": "menos, tirar, tocar (instr. de cuerda)"
-  },
-  {
-   "cap": 85,
-   "escritura": "~製",
-   "lectura": "~せい",
-   "es": "hacer, fabricar, -hecho"
-  },
-  {
-   "cap": 86,
-   "escritura": "~戦",
-   "lectura": "~せん",
-   "es": "guerra, batalla, campaña"
-  },
-  {
-   "cap": 88,
-   "escritura": "~殿",
-   "lectura": "~どの",
-   "es": "Sr./Sra. ~ (sufijo formal, en escritos)"
-  },
-  {
-   "cap": 88,
-   "escritura": "副~",
-   "lectura": "ふく~",
-   "es": "asistente, asociado, vice-"
-  },
-  {
-   "cap": 90,
-   "escritura": "~くらい",
-   "lectura": "~くらい",
-   "es": "más o menos ~, unos ~"
-  },
-  {
-   "cap": 93,
-   "escritura": "河",
-   "lectura": "かわ",
-   "es": "río (grande), corriente"
-  },
-  {
-   "cap": 93,
-   "escritura": "清む",
-   "lectura": "すむ",
-   "es": "volverse claro (grafía poco usada de 澄む)"
-  },
-  {
-   "cap": 93,
-   "escritura": "万年筆",
-   "lectura": "まんねんひつ",
-   "es": "pluma estilográfica"
-  },
-  {
-   "cap": 94,
-   "escritura": "碁",
-   "lectura": "ご",
-   "es": "Go (juego de mesa de capturar territorio)"
-  },
-  {
-   "cap": 94,
-   "escritura": "~山",
-   "lectura": "~さん",
-   "es": "montaña, colina"
-  },
-  {
-   "cap": 95,
-   "escritura": "~風",
-   "lectura": "~ふう",
-   "es": "viento, brisa, corriente de aire"
-  },
-  {
-   "cap": 96,
-   "escritura": "銅",
-   "lectura": "どう",
-   "es": "cobre"
-  },
-  {
-   "cap": 96,
-   "escritura": "灰",
-   "lectura": "はい",
-   "es": "ceniza"
-  },
-  {
-   "cap": 96,
-   "escritura": "~紙",
-   "lectura": "~し",
-   "es": "papel"
-  },
-  {
-   "cap": 96,
+   "cap": 40,
    "escritura": "吸う",
    "lectura": "すう",
    "es": "fumar, inhalar, chupar"
   },
   {
-   "cap": 97,
-   "escritura": "独り",
-   "lectura": "ひとり",
-   "es": "solo, soltero"
+   "cap": 40,
+   "escritura": "どちら",
+   "lectura": "どちら",
+   "es": "cuál (de dos), quién"
   },
   {
-   "cap": 98,
-   "escritura": "上",
-   "lectura": "うわ",
-   "es": "superior, exterior, superficie"
+   "cap": 40,
+   "escritura": "~本",
+   "lectura": "~ほん",
+   "es": "contador para cosas cilíndricas"
   },
   {
-   "cap": 98,
-   "escritura": "性",
-   "lectura": "せい",
-   "es": "sexo, género"
+   "cap": 41,
+   "escritura": "~個",
+   "lectura": "~こ",
+   "es": "(contador) cosas pequeñas, unidades"
   },
   {
-   "cap": 98,
+   "cap": 41,
+   "escritura": "~冊",
+   "lectura": "~さつ",
+   "es": "contador de volúmenes"
+  },
+  {
+   "cap": 41,
+   "escritura": "~匹",
+   "lectura": "~ひき",
+   "es": "(contador) animales pequeños"
+  },
+  {
+   "cap": 44,
+   "escritura": "永い",
+   "lectura": "ながい",
+   "es": "largo (en el tiempo), eterno"
+  },
+  {
+   "cap": 45,
+   "escritura": "~終る",
+   "lectura": "~おわる",
+   "es": "terminar, llegar a su fin"
+  },
+  {
+   "cap": 45,
+   "escritura": "~時間",
+   "lectura": "~じかん",
+   "es": "tiempo"
+  },
+  {
+   "cap": 45,
+   "escritura": "~時",
+   "lectura": "~じ",
+   "es": "tiempo, hora, momento"
+  },
+  {
+   "cap": 46,
+   "escritura": "勤める",
+   "lectura": "つとめる",
+   "es": "trabajar en (una empresa), estar empleado en"
+  },
+  {
+   "cap": 50,
+   "escritura": "~目",
+   "lectura": "~め",
+   "es": "~nd, ~th (secuencia)"
+  },
+  {
+   "cap": 51,
    "escritura": "~様",
    "lectura": "~さん",
    "es": "señor, señora"
   },
   {
-   "cap": 98,
-   "escritura": "反~",
-   "lectura": "はん~",
-   "es": "anti-"
+   "cap": 56,
+   "escritura": "あなた",
+   "lectura": "あなた",
+   "es": "tú, usted"
   },
   {
-   "cap": 98,
-   "escritura": "古~",
-   "lectura": "ふる~",
-   "es": "artículo usado, artículo de segunda mano"
+   "cap": 60,
+   "escritura": "かばん",
+   "lectura": "かばん",
+   "es": "bolso, cartera"
   },
   {
-   "cap": 99,
-   "escritura": "~枚",
-   "lectura": "~まい",
-   "es": "contador de cosas planas"
+   "cap": 63,
+   "escritura": "物",
+   "lectura": "もの",
+   "es": "cosa, objeto"
   },
   {
-   "cap": 99,
+   "cap": 68,
+   "escritura": "どれ",
+   "lectura": "どれ",
+   "es": "bueno ahora déjame ver cuál (de tres o más)"
+  },
+  {
+   "cap": 68,
+   "escritura": "それでは",
+   "lectura": "それでは",
+   "es": "en esa situación, bueno entonces..."
+  },
+  {
+   "cap": 68,
+   "escritura": "隣",
+   "lectura": "となり",
+   "es": "al lado de"
+  },
+  {
+   "cap": 68,
+   "escritura": "庭",
+   "lectura": "にわ",
+   "es": "jardín"
+  },
+  {
+   "cap": 68,
+   "escritura": "門",
+   "lectura": "もん",
+   "es": "puerta"
+  },
+  {
+   "cap": 68,
+   "escritura": "~階",
+   "lectura": "~かい",
+   "es": "piso, historia"
+  },
+  {
+   "cap": 69,
+   "escritura": "レストラン",
+   "lectura": "レストラン",
+   "es": "restaurante"
+  },
+  {
+   "cap": 69,
+   "escritura": "~屋",
+   "lectura": "~や",
+   "es": "tienda, restaurante"
+  },
+  {
+   "cap": 70,
+   "escritura": "晩御飯",
+   "lectura": "ばんごはん",
+   "es": "cena"
+  },
+  {
+   "cap": 71,
+   "escritura": "昼御飯",
+   "lectura": "ひるごはん",
+   "es": "almuerzo, comida del mediodia"
+  },
+  {
+   "cap": 73,
+   "escritura": "円",
+   "lectura": "えん",
+   "es": "círculo, dinero"
+  },
+  {
+   "cap": 76,
+   "escritura": "引く",
+   "lectura": "ひく",
+   "es": "menos, tirar, tocar (instr. de cuerda)"
+  },
+  {
+   "cap": 84,
+   "escritura": "日",
+   "lectura": "にち",
+   "es": "sol, día"
+  },
+  {
+   "cap": 84,
+   "escritura": "~月",
+   "lectura": "~がつ",
+   "es": "luna"
+  },
+  {
+   "cap": 84,
+   "escritura": "長い",
+   "lectura": "ながい",
+   "es": "largo (en el espacio)"
+  },
+  {
+   "cap": 87,
+   "escritura": "万年筆",
+   "lectura": "まんねんひつ",
+   "es": "pluma estilográfica"
+  },
+  {
+   "cap": 90,
+   "escritura": "貼る",
+   "lectura": "はる",
+   "es": "pegar, adherir (un papel, una pegatina)"
+  },
+  {
+   "cap": 91,
+   "escritura": "~だけ",
+   "lectura": "~だけ",
+   "es": "sólo ~, como ~"
+  },
+  {
+   "cap": 92,
+   "escritura": "~円",
+   "lectura": "~えん",
+   "es": "~ yenes"
+  },
+  {
+   "cap": 93,
    "escritura": "グラム",
    "lectura": "グラム",
    "es": "gramo"
   },
   {
-   "cap": 99,
+   "cap": 93,
    "escritura": "ハンカチ",
    "lectura": "ハンカチ",
    "es": "pañuelo"
   },
   {
-   "cap": 99,
+   "cap": 93,
    "escritura": "レコード",
    "lectura": "レコード",
    "es": "grabar"
   },
   {
-   "cap": 99,
-   "escritura": "跡",
-   "lectura": "あと",
-   "es": "traza, huellas, marca, signo; restos, ruinas; cicatriz"
-  },
-  {
-   "cap": 99,
-   "escritura": "否",
-   "lectura": "いや",
-   "es": "no, los noes"
-  },
-  {
-   "cap": 99,
-   "escritura": "例",
-   "lectura": "れい",
-   "es": "instancia, ejemplo, caso"
-  },
-  {
-   "cap": 99,
-   "escritura": "専制",
-   "lectura": "せんせい",
-   "es": "despotismo, autocracia"
-  },
-  {
-   "cap": 99,
-   "escritura": "防止",
-   "lectura": "ぼうし",
-   "es": "prevención, control"
-  },
-  {
-   "cap": 100,
-   "escritura": "~所",
-   "lectura": "~しょ",
-   "es": "lugar, punto, escena"
-  },
-  {
-   "cap": 100,
-   "escritura": "ある",
-   "lectura": "ある",
-   "es": "haber, estar, existir; cierto ~, un tal ~ (ある日: cierto día)"
-  },
-  {
-   "cap": 100,
-   "escritura": "刺す",
-   "lectura": "さす",
-   "es": "traspasar, apuñalar, pinchar, clavar"
-  },
-  {
-   "cap": 100,
+   "cap": 94,
    "escritura": "成る",
    "lectura": "なる",
    "es": "convertirse en"
   },
   {
-   "cap": 100,
+   "cap": 94,
    "escritura": "浸ける",
    "lectura": "つける",
    "es": "sumergirse, remojarse"
   },
   {
-   "cap": 100,
-   "escritura": "仮定",
-   "lectura": "かてい",
-   "es": "suposición, hipótesis"
+   "cap": 94,
+   "escritura": "コピーする",
+   "lectura": "コピーする",
+   "es": "copiar"
   },
   {
-   "cap": 101,
+   "cap": 95,
    "escritura": "ええ",
    "lectura": "ええ",
    "es": "si"
   },
   {
-   "cap": 101,
-   "escritura": "他",
-   "lectura": "ほか",
-   "es": "otro (especialmente lugares y cosas)"
-  },
-  {
-   "cap": 103,
-   "escritura": "どう",
-   "lectura": "どう",
-   "es": "cómo, de qué manera; qué tal"
+   "cap": 95,
+   "escritura": "など",
+   "lectura": "など",
+   "es": "etcétera, etc., y similares."
   }
  ],
  "gramatica": [
@@ -1119,205 +627,223 @@
    "es": "la forma de hacer algo; cómo hacerlo ~"
   },
   {
-   "cap": 29,
+   "cap": 25,
+   "forma": "ないで",
+   "lectura": "",
+   "es": "sin hacer ~; hacer [B] sin hacer [A]"
+  },
+  {
+   "cap": 28,
    "forma": "たり～たり",
    "lectura": "",
    "es": "hacer cosas como A y B"
   },
   {
    "cap": 30,
-   "forma": "か～か",
-   "lectura": "",
-   "es": "o"
-  },
-  {
-   "cap": 32,
    "forma": "か",
    "lectura": "",
    "es": "partícula de pregunta"
   },
   {
-   "cap": 34,
+   "cap": 32,
    "forma": "な-adjectives",
    "lectura": "",
    "es": "adjetivos na"
   },
   {
-   "cap": 35,
+   "cap": 33,
    "forma": "が",
    "lectura": "",
    "es": "marcador de materia; sin embargo; pero ~"
   },
   {
-   "cap": 36,
+   "cap": 34,
    "forma": "に/へ",
    "lectura": "",
    "es": "a (indica dirección/destino)"
   },
   {
-   "cap": 37,
+   "cap": 35,
    "forma": "たことがある",
    "lectura": "",
    "es": "haber hecho algo antes"
   },
   {
-   "cap": 40,
+   "cap": 38,
    "forma": "があります",
    "lectura": "",
    "es": "hay; es (cosas no vivas)"
   },
   {
-   "cap": 44,
+   "cap": 42,
    "forma": "ている",
    "lectura": "",
    "es": "acción en curso o estado actual"
   },
   {
-   "cap": 45,
+   "cap": 43,
    "forma": "で",
    "lectura": "",
    "es": "en; por; con; vía ~"
   },
   {
-   "cap": 46,
+   "cap": 44,
    "forma": "なる",
    "lectura": "",
    "es": "convertirse en"
   },
   {
-   "cap": 53,
+   "cap": 45,
+   "forma": "ましょう",
+   "lectura": "",
+   "es": "vamos ~"
+  },
+  {
+   "cap": 47,
+   "forma": "か～か",
+   "lectura": "",
+   "es": "o"
+  },
+  {
+   "cap": 51,
    "forma": "にする",
    "lectura": "",
    "es": "para decidir sobre"
   },
   {
-   "cap": 54,
+   "cap": 52,
    "forma": "をください",
    "lectura": "",
    "es": "por favor dame ~"
   },
   {
-   "cap": 55,
+   "cap": 53,
    "forma": "てください",
    "lectura": "",
    "es": "por favor hazlo"
   },
   {
-   "cap": 56,
+   "cap": 54,
    "forma": "てもいいです",
    "lectura": "",
    "es": "está bien ~; ¿Puedo ~?"
   },
   {
-   "cap": 57,
+   "cap": 55,
    "forma": "がほしい",
    "lectura": "",
    "es": "querer algo"
   },
   {
-   "cap": 62,
-   "forma": "お / ご",
-   "lectura": "",
-   "es": "marcador cortés; partícula de prefijo honorífico"
-  },
-  {
-   "cap": 66,
-   "forma": "なくてもいい",
-   "lectura": "",
-   "es": "no tienes que"
-  },
-  {
-   "cap": 68,
-   "forma": "ないといけない",
-   "lectura": "",
-   "es": "debe hacer; tengo la obligación de hacer ~"
-  },
-  {
-   "cap": 69,
-   "forma": "はどうですか",
-   "lectura": "",
-   "es": "¿Qué tal? como esta"
-  },
-  {
-   "cap": 71,
-   "forma": "の",
-   "lectura": "",
-   "es": "partícula posesiva"
-  },
-  {
-   "cap": 72,
-   "forma": "は",
-   "lectura": "",
-   "es": "marcador de tema"
-  },
-  {
-   "cap": 77,
-   "forma": "がいます",
-   "lectura": "",
-   "es": "hay; ser; es (seres vivos)"
-  },
-  {
-   "cap": 78,
-   "forma": "なくてはならない",
-   "lectura": "",
-   "es": "debe hacer; necesito hacer ~"
-  },
-  {
-   "cap": 79,
-   "forma": "を",
-   "lectura": "",
-   "es": "partícula marcadora de objeto"
-  },
-  {
-   "cap": 82,
-   "forma": "なくてはいけない",
-   "lectura": "",
-   "es": "debe hacer; necesito hacer"
-  },
-  {
-   "cap": 84,
-   "forma": "てはいけない",
-   "lectura": "",
-   "es": "no debe; puede que no; no puedo"
-  },
-  {
-   "cap": 86,
+   "cap": 58,
    "forma": "ないでください",
    "lectura": "",
    "es": "por favor no lo hagas ~"
   },
   {
-   "cap": 89,
+   "cap": 60,
+   "forma": "お / ご",
+   "lectura": "",
+   "es": "marcador cortés; partícula de prefijo honorífico"
+  },
+  {
+   "cap": 63,
+   "forma": "なくてもいい",
+   "lectura": "",
+   "es": "no tienes que"
+  },
+  {
+   "cap": 65,
+   "forma": "ないといけない",
+   "lectura": "",
+   "es": "debe hacer; tengo la obligación de hacer ~"
+  },
+  {
+   "cap": 66,
+   "forma": "はどうですか",
+   "lectura": "",
+   "es": "¿Qué tal? como esta"
+  },
+  {
+   "cap": 68,
+   "forma": "の",
+   "lectura": "",
+   "es": "partícula posesiva"
+  },
+  {
+   "cap": 69,
+   "forma": "は",
+   "lectura": "",
+   "es": "marcador de tema"
+  },
+  {
+   "cap": 74,
+   "forma": "がいます",
+   "lectura": "",
+   "es": "hay; ser; es (seres vivos)"
+  },
+  {
+   "cap": 75,
+   "forma": "なくてはならない",
+   "lectura": "",
+   "es": "debe hacer; necesito hacer ~"
+  },
+  {
+   "cap": 76,
+   "forma": "を",
+   "lectura": "",
+   "es": "partícula marcadora de objeto"
+  },
+  {
+   "cap": 79,
+   "forma": "なくてはいけない",
+   "lectura": "",
+   "es": "debe hacer; necesito hacer"
+  },
+  {
+   "cap": 81,
+   "forma": "てはいけない",
+   "lectura": "",
+   "es": "no debe; puede que no; no puedo"
+  },
+  {
+   "cap": 83,
    "forma": "に行く",
    "lectura": "にいく",
    "es": "ir a hacer ~"
   },
   {
-   "cap": 97,
+   "cap": 84,
+   "forma": "ましょうか",
+   "lectura": "",
+   "es": "¿Debo ~; solía ofrecer ayuda al oyente"
+  },
+  {
+   "cap": 91,
    "forma": "のが好き",
    "lectura": "のがすき",
    "es": "gustarle hacer algo"
   },
   {
-   "cap": 98,
+   "cap": 92,
    "forma": "まだ～ていません",
    "lectura": "",
    "es": "todavía no ~"
   },
   {
-   "cap": 99,
+   "cap": 93,
    "forma": "より～ほうが",
    "lectura": "",
    "es": "[2] es más que [1]"
   },
   {
-   "cap": 100,
+   "cap": 94,
    "forma": "ちゃいけない・じゃいけない",
    "lectura": "",
    "es": "no debe hacer (japonés hablado)"
   },
   {
-   "cap": 101,
+   "cap": 95,
    "forma": "の中で[A]が一番",
    "lectura": "のなかで[A]がいちばん",
    "es": "fuera de este grupo; [A] es mejor"

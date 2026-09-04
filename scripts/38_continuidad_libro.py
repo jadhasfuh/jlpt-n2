@@ -24,9 +24,18 @@ ALIAS = {"Carlos": ["carlos"], "Jean": ["jean"], "Gonza": ["gonsa", "gonza"],
          "Anna": ["anna"], "señora Tanaka": ["tanaka"], "Min": ["min"],
          "Kenta": ["kenta"], "Alan sensei": ["alan"]}
 
-# El capítulo en que se le conoce. Nombrarle antes es el fallo típico.
-PRESENTA = {"Carlos": 1, "Alan sensei": 2, "señora Tanaka": 3, "Jean": 11,
-            "Gonza": 11, "Min": 11, "Anna": 24, "Kenta": 29}
+# Dónde se le conoce. Nombrarle antes es el fallo típico.
+#
+# Va por unidad y no por número de capítulo: los números se mueven en cuanto se
+# funde o se parte uno, y entonces esto empezaba a dar errores que no existían.
+PRESENTA = {"Carlos": "N5/basho/viaje-1",
+            "Alan sensei": "N5/basho/ciudad-1",
+            "señora Tanaka": "N5/basho/ir_venir-1",
+            "Jean": "N5/basho/mundo-1",
+            "Gonza": "N5/basho/mundo-1",
+            "Min": "N5/basho/mundo-1",
+            "Anna": "N5/hito/apariencia-1",
+            "Kenta": "N5/gijutsu/deporte-1"}
 
 
 # Rasgos físicos que sólo tiene parte del reparto. Si un capítulo los nombra y
@@ -57,15 +66,20 @@ def main():
         f = RAIZ / "data/fuente/lecturas" / (uid.replace("/", "_") + ".json")
         capitulos.append((uid, json.loads(f.read_text(encoding="utf-8")).get("traduccion", "")))
 
+    # de unidad a número de capítulo, con el orden de hoy
+    donde = {uid: i for i, (uid, _) in enumerate(capitulos, 1)}
+    presentado = {q: donde[u] for q, u in PRESENTA.items() if u in donde}
+
     problemas = 0
     anterior = set()
     for n, (uid, es) in enumerate(capitulos, 1):
         gente = quienes(es)
 
         for quien in gente:
-            if n < PRESENTA.get(quien, 0):
+            donde = presentado.get(quien)
+            if donde and n < donde:
                 print(f"  ✗ cap {n:3d} {uid}: sale {quien}, "
-                      f"y se le presenta en el {PRESENTA[quien]}")
+                      f"y se le presenta en el {donde}")
                 problemas += 1
 
         for rasgo, (palabras, duenos) in RASGOS.items():

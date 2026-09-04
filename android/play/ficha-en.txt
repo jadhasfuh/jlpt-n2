@@ -8,10 +8,10 @@ FULL DESCRIPTION (max 4000)
 Study Japanese for the JLPT with a course that runs in order from beginning to end, N5 through N1.
 
 WHAT'S INSIDE
-· 8,027 words arranged into 614 themed units, not loose lists.
+· 7,957 words arranged into 612 themed units, not loose lists.
 · 1,981 kanji with their readings, stroke counts and the words they appear in.
 · 846 grammar points, from the simplest to the most complex.
-· 614 reading passages written to level: each one uses only the vocabulary and kanji you have already seen.
+· 600 reading passages written to level: each one uses only the vocabulary and kanji you have already seen.
 · Practice exams with the structure and the scoring of the real JLPT.
 
 HOW YOU STUDY

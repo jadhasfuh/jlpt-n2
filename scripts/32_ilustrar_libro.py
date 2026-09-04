@@ -548,8 +548,11 @@ def capitulos():
 # escena no le manda nada concreto, copia la disposición de la hoja: los pone
 # en fila, de pie, mirando al frente. Aquí van los momentos en que eso se nota,
 # porque lo que cuenta el capítulo es quién mira a quién.
-ESCENAS = {
-    98: ("The moment right before they sing. Carlos is at a microphone stand "
+#
+# La clave es la UNIDAD y no el número de capítulo: los números se mueven en
+# cuanto se funde uno, y entonces la composición se le aplicaba a otra escena.
+ESCENAS_POR_UNIDAD = {
+    "N5/tsunagu/afijos-1": ("The moment right before they sing. Carlos is at a microphone stand "
          "at the front, hands jammed in his hoodie pocket, nervous. Anna is "
          "right beside him, TURNED TOWARDS HIM and mouthing a word to him to "
          "calm him down. Jean is behind them on the far side, sitting with his "
@@ -586,8 +589,9 @@ def ilustra_capitulo(n: int, cap: dict):
               "anyone else is in the scene, they go on the far side, never "
               "between the two of them.\n"
               if n >= 56 and "anna" in quienes else "")
+    guion = ESCENAS_POR_UNIDAD.get(cap["id"])
     montaje = (f"\n\nTHE MOMENT TO DRAW — follow this composition exactly:\n"
-               f"{ESCENAS[n]}\n" if n in ESCENAS else "")
+               f"{guion}\n" if guion else "")
     prompt = (ESTILO + pareja + f"\n\nSUBJECT — one illustration for chapter {n} of a "
               "graded reader. Draw the single clearest moment of this scene.\n\n"
               f"SCENE (Spanish, from the book):\n{cap['es']}\n" + montaje + "\n"

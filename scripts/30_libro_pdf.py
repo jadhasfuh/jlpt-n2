@@ -359,14 +359,19 @@ def _fila_indice(y, num, titulo):
 
 if "--sin-portada" not in sys.argv:
     # ---- cómo se usa ----
+    # Las cifras se cuentan, no se escriben: cuando el vocabulario cambió de
+    # nivel el libro seguía prometiendo 925 palabras y ya no eran.
+    _n_palabras = sum(len(unidades[u]["palabras"]) for u in orden)
+    _n_gram = len({g for u in orden for g in unidades[u]["gramatica"]})
     y = ALTO - M_ARRIBA - 6 * mm
     c.setFont("Mincho", 16); c.drawString(M_CANTO, y, "この 本の つかい方")
     y -= 9 * mm
     c.setFont("Gothic", 9.5); c.setFillGray(0.35)
     for linea in ("Este libro es material de APOYO para preparar el JLPT N5.",
                   "No sustituye al temario: lo pone a funcionar. Todo lo que",
-                  "hay dentro —las 925 palabras y los 84 puntos de gramática—",
-                  "es el vocabulario y la gramática del N5, y nada más."):
+                  f"hay dentro —las {_n_palabras} palabras y los {_n_gram} puntos de",
+                  "gramática— es el vocabulario y la gramática del N5, y nada más.",
+                  ):
         c.drawString(M_CANTO, y, linea); y -= 6.2 * mm
     y -= 5 * mm
     c.setFillGray(0.2)
