@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/gijutsu/creencias-1",
  "titulo": "はじめての じんじゃ",
- "cuerpo": "<ruby>学校<rt>がっこう</rt></ruby>の みんなで じんじゃへ <ruby>行<rt>い</rt></ruby>きました。にほんの <ruby>神<rt>かみ</rt></ruby>さまの ところです。<ruby>手<rt>て</rt></ruby>を あらってから、なかへ <ruby>入<rt>はい</rt></ruby>ります。おかねを <ruby>入<rt>い</rt></ruby>れて、にかい <ruby>手<rt>て</rt></ruby>を たたいて、あたまを さげます。「<ruby>神<rt>かみ</rt></ruby>さまに おねがいするか、ありがとうを <ruby>言<rt>い</rt></ruby>うか、どちらでも いいですよ」と せんせいが <ruby>言<rt>い</rt></ruby>いました。ぼくは かぞくの ことを かんがえました。しずかで、きが おちつく ばしょでした。",
- "traduccion": "Fuimos todos los de la escuela a un santuario. Es el sitio de los dioses japoneses. Primero te lavas las manos y luego entras. Echas una moneda, das dos palmadas y bajas la cabeza. «Puedes pedirle algo al dios o darle las gracias, lo que prefieras», dijo el profesor. Yo pensé en mi familia. Era un sitio silencioso, de esos donde se te calma el ánimo.",
+ "cuerpo": "<ruby>学校<rt>がっこう</rt></ruby>の みんなで じんじゃへ <ruby>行<rt>い</rt></ruby>きました。にほんの <ruby>神<rt>かみ</rt></ruby>さまの ところです。<ruby>手<rt>て</rt></ruby>を あらってから、なかへ <ruby>入<rt>はい</rt></ruby>ります。おかねを <ruby>入<rt>い</rt></ruby>れて、にかい <ruby>手<rt>て</rt></ruby>を たたいて、あたまを さげます。「<ruby>神<rt>かみ</rt></ruby>さまに おねがいするか、ありがとうを <ruby>言<rt>い</rt></ruby>うか、どちらでも いいですよ」と せんせいが <ruby>言<rt>い</rt></ruby>いました。ぼくは かぞくの ことを かんがえました。しずかで、きが おちつく ばしょでした。ふたりで <ruby>行<rt>い</rt></ruby>く<em class=\"g\">か</em>、みんなで <ruby>行<rt>い</rt></ruby>く<em class=\"g\">か</em>、まだ きめて いません。",
+ "traduccion": "Fuimos todos los de la escuela a un santuario. Es el sitio de los dioses japoneses. Primero te lavas las manos y luego entras. Echas una moneda, das dos palmadas y bajas la cabeza. «Puedes pedirle algo al dios o darle las gracias, lo que prefieras», dijo el profesor. Yo pensé en mi familia. Era un sitio silencioso, de esos donde se te calma el ánimo. Todavía no hemos decidido si vamos los dos o vamos todos.",
  "preguntas": [
   {
    "p": "じんじゃに <ruby>入<rt>はい</rt></ruby>る <ruby>前<rt>まえ</rt></ruby>に なにを しますか。",
@@ -35,5 +35,5 @@
    "correcta": 0
   }
  ],
- "traduccion_en": "The whole school went to a shrine. It's the place of the Japanese gods. First you wash your hands, then you go in. You put in a coin, clap twice and bow your head. «You can ask the god for something or thank him, whichever you like», said the teacher. I thought about my family. It was a quiet place, the kind where your mind settles."
+ "traduccion_en": "The whole school went to a shrine. It's the place of the Japanese gods. First you wash your hands, then you go in. You put in a coin, clap twice and bow your head. «You can ask the god for something or thank him, whichever you like», said the teacher. I thought about my family. It was a quiet place, the kind where your mind settles. We still haven't decided whether to go as a pair or all together."
 }

@@ -387,8 +387,17 @@ Medido el 2026-09-03:
 
 | | total | dentro de la historia | sólo en la ficha |
 |---|---|---|---|
-| Vocabulario | 925 | **443 (47 %)** | 482 (52 %) |
-| Gramática | 84 | **16 (19 %)** | 68 (80 %) |
+| Vocabulario | 925 | **689 (74 %)** | 236 (25 %) |
+| Gramática | 84 | **46 (54 %)** | 38 (45 %) |
+
+Al medirlo por primera vez era 47 % y 19 %. Los 103 capítulos se reescribieron
+con su lista delante, alargándolos: la mediana pasó de 172 casillas a más del
+doble, y el libro de 207 páginas a 234.
+
+La gramática cuenta también cuando el capítulo la **marca** con 「[…]」. Los
+puntos de un solo carácter —も, に, ね— salen en cada frase, así que
+encontrarlos a ciegas no probaba nada; marcar uno sí, porque el alumno ve dónde
+está el punto en vez de adivinarlo entre cincuenta.
 
 Además hay **19 capítulos sin ningún punto de gramática asignado**.
 

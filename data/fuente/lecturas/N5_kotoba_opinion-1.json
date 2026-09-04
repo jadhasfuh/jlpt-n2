@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/kotoba/opinion-1",
  "titulo": "ゴンサの けいかく",
- "cuerpo": "ゴンサの けいかくは かんたんでした。「ホテルは たかいから、とまる ところは あとで かんがえよう」ぼくは いい かんがえだと おもいませんでした。「さむい <ruby>国<rt>くに</rt></ruby>だよ」と <ruby>言<rt>い</rt></ruby>いましたが、ゴンサは わらって いました。「なんとか なる」と <ruby>言<rt>い</rt></ruby>う <ruby>人<rt>ひと</rt></ruby>の はなしは、たいてい なんとか なりません。でも、ぼくも わかいので、なにも <ruby>言<rt>い</rt></ruby>いませんでした。",
- "traduccion": "El plan de Gonza era sencillo. «Los hoteles son caros; ya pensaremos dónde dormir cuando estemos allí.» A mí no me pareció buena idea. Le dije «es un sitio frío», pero él se reía. Cuando alguien dice «ya se arreglará», normalmente no se arregla. Aun así, a mí también me tira lo imprudente, y no dije nada más.",
+ "cuerpo": "ゴンサの けいかくは かんたんでした。「ホテルは たかいから、とまる ところは あとで かんがえよう」ぼくは いい かんがえだと おもいませんでした。「さむい <ruby>国<rt>くに</rt></ruby>だよ」と <ruby>言<rt>い</rt></ruby>いましたが、ゴンサは わらって いました。「なんとか なる」と <ruby>言<rt>い</rt></ruby>う <ruby>人<rt>ひと</rt></ruby>の はなしは、たいてい なんとか なりません。でも、ぼくも わかいので、なにも <ruby>言<rt>い</rt></ruby>いませんでした。「ぜんぶ きめ<em class=\"g\">なくても いい</em>よ」と ゴンサは <ruby>言<rt>い</rt></ruby>いましたが、ぼくは ちずを かばんに <ruby>入<rt>い</rt></ruby>れました。",
+ "traduccion": "El plan de Gonza era sencillo. «Los hoteles son caros; ya pensaremos dónde dormir cuando estemos allí.» A mí no me pareció buena idea. Le dije «es un sitio frío», pero él se reía. Cuando alguien dice «ya se arreglará», normalmente no se arregla. Aun así, a mí también me tira lo imprudente, y no dije nada más. «No hace falta decidirlo todo», dijo Gonza, pero yo me metí el mapa en la bolsa.",
  "preguntas": [
   {
    "p": "ゴンサさんの けいかくは どうでしたか。",
@@ -35,5 +35,5 @@
    "correcta": 3
   }
  ],
- "traduccion_en": "Gonza's plan was simple. «Hotels are expensive; we'll work out where to sleep once we're there.» I didn't think it was a good idea. I said «it's a cold place», but he just laughed. When someone says «it'll be fine», it usually isn't. Even so, I like a bit of recklessness too, and I said nothing more."
+ "traduccion_en": "Gonza's plan was simple. «Hotels are expensive; we'll work out where to sleep once we're there.» I didn't think it was a good idea. I said «it's a cold place», but he just laughed. When someone says «it'll be fine», it usually isn't. Even so, I like a bit of recklessness too, and I said nothing more. «You don't have to decide everything,» said Gonsa, but I put the map in my bag."
 }

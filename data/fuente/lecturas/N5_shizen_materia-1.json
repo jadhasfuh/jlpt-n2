@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/shizen/materia-1",
  "titulo": "さくぶんの しゅくだい",
- "cuerpo": "<ruby>先生<rt>せんせい</rt></ruby>が「<ruby>一年<rt>いちねん</rt></ruby>の さくぶんを <ruby>書<rt>か</rt></ruby>いて ください」と <ruby>言<rt>い</rt></ruby>いました。かみを <ruby>前<rt>まえ</rt></ruby>に して、<ruby>一時間<rt>いちじかん</rt></ruby> なにも <ruby>書<rt>か</rt></ruby>けませんでした。ありすぎて、どれを <ruby>書<rt>か</rt></ruby>けば いいか わかりません。ゴンサは 「ネットカフェの ことを <ruby>書<rt>か</rt></ruby>け」と <ruby>言<rt>い</rt></ruby>いました。ぼくは、はじめて <ruby>駅<rt>えき</rt></ruby>で まちがえた <ruby>日<rt>ひ</rt></ruby>の ことを <ruby>書<rt>か</rt></ruby>きました。<ruby>三<rt>さん</rt></ruby>まいに なりました。",
- "traduccion": "El profesor nos pidió: «escribid una redacción sobre este año». Me pasé una hora delante del papel sin escribir nada. Hay tanto que no sabía por dónde empezar. Gonza me dijo: «escribe lo del cibercafé». Yo escribí sobre el día en que me equivoqué de salida en la estación. Me salieron tres folios.",
+ "cuerpo": "<ruby>先生<rt>せんせい</rt></ruby>が「<ruby>一年<rt>いちねん</rt></ruby>の さくぶんを <ruby>書<rt>か</rt></ruby>いて ください」と <ruby>言<rt>い</rt></ruby>いました。かみを <ruby>前<rt>まえ</rt></ruby>に して、<ruby>一時間<rt>いちじかん</rt></ruby> なにも <ruby>書<rt>か</rt></ruby>けませんでした。ありすぎて、どれを <ruby>書<rt>か</rt></ruby>けば いいか わかりません。ゴンサは 「ネットカフェの ことを <ruby>書<rt>か</rt></ruby>け」と <ruby>言<rt>い</rt></ruby>いました。ぼくは、はじめて <ruby>駅<rt>えき</rt></ruby>で まちがえた <ruby>日<rt>ひ</rt></ruby>の ことを <ruby>書<rt>か</rt></ruby>きました。<ruby>三<rt>さん</rt></ruby>まいに なりました。かんたんな <ruby>日<rt>ひ</rt></ruby>を えらんだのは、その <ruby>日<rt>ひ</rt></ruby>が いちばん こわかった<em class=\"g\">から</em>です。",
+ "traduccion": "El profesor nos pidió: «escribid una redacción sobre este año». Me pasé una hora delante del papel sin escribir nada. Hay tanto que no sabía por dónde empezar. Gonza me dijo: «escribe lo del cibercafé». Yo escribí sobre el día en que me equivoqué de salida en la estación. Me salieron tres folios. Elegí un día sencillo porque fue el día que más miedo pasé.",
  "preguntas": [
   {
    "p": "<ruby>先生<rt>せんせい</rt></ruby>は なにを たのみましたか。",
@@ -35,5 +35,5 @@
    "correcta": 3
   }
  ],
- "traduccion_en": "The teacher told us: «write a composition about this year». I sat in front of the paper for an hour without writing anything. There was so much that I didn't know where to start. Gonza said: «write about the internet café». I wrote about the day I took the wrong exit at the station. It came to three pages."
+ "traduccion_en": "The teacher told us: «write a composition about this year». I sat in front of the paper for an hour without writing anything. There was so much that I didn't know where to start. Gonza said: «write about the internet café». I wrote about the day I took the wrong exit at the station. It came to three pages. I chose a simple day because it was the day I was most frightened."
 }

@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/kotoba/saber-1",
  "titulo": "ネットカフェの つかい<ruby>方<rt>かた</rt></ruby>",
- "cuerpo": "うけつけで、かみに なまえと じゅうしょを かきました。「なんじかんに しますか」と <ruby>聞<rt>き</rt></ruby>かれて、ぼくたちは かおを <ruby>見<rt>み</rt></ruby>あわせました。「<ruby>九時間<rt>くじかん</rt></ruby>で いくらですか」と ゴンサが <ruby>聞<rt>き</rt></ruby>きました。こたえた ねだんは、ホテルの <ruby>四分<rt>よんぶん</rt></ruby>の <ruby>一<rt>いち</rt></ruby>でした。その とき、ぼくたちは やっと わかりました。この <ruby>国<rt>くに</rt></ruby>には、しらない ものが まだ たくさん あります。",
- "traduccion": "En recepción escribimos nombre y dirección en una hoja. «¿Cuántas horas?», nos preguntaron, y Gonza y yo nos miramos. «¿Cuánto cuestan nueve horas?», preguntó Gonza. El precio que dijeron era la cuarta parte de un hotel. Ahí lo entendimos por fin. En este país todavía hay muchas cosas que no conozco.",
+ "cuerpo": "うけつけで、かみに なまえと じゅうしょを かきました。「なんじかんに しますか」と <ruby>聞<rt>き</rt></ruby>かれて、ぼくたちは かおを <ruby>見<rt>み</rt></ruby>あわせました。「<ruby>九時間<rt>くじかん</rt></ruby>で いくらですか」と ゴンサが <ruby>聞<rt>き</rt></ruby>きました。こたえた ねだんは、ホテルの <ruby>四分<rt>よんぶん</rt></ruby>の <ruby>一<rt>いち</rt></ruby>でした。その とき、ぼくたちは やっと わかりました。この <ruby>国<rt>くに</rt></ruby>には、しらない ものが まだ たくさん あります。「ネットカフェ<em class=\"g\">は どうですか</em>」と、あの ひとは <ruby>言<rt>い</rt></ruby>って くれました。",
+ "traduccion": "En recepción escribimos nombre y dirección en una hoja. «¿Cuántas horas?», nos preguntaron, y Gonza y yo nos miramos. «¿Cuánto cuestan nueve horas?», preguntó Gonza. El precio que dijeron era la cuarta parte de un hotel. Ahí lo entendimos por fin. En este país todavía hay muchas cosas que no conozco. «¿Y un cibercafé?», nos dijo aquel hombre.",
  "preguntas": [
   {
    "p": "うけつけで なにを かきましたか。",
@@ -35,5 +35,5 @@
    "correcta": 0
   }
  ],
- "traduccion_en": "At the desk we wrote our names and addresses on a form. «How many hours?» they asked, and Gonza and I looked at each other. «How much for nine hours?» Gonza asked. The price they gave was a quarter of a hotel. That's when we finally got it. There are still a lot of things in this country I don't know about."
+ "traduccion_en": "At the desk we wrote our names and addresses on a form. «How many hours?» they asked, and Gonza and I looked at each other. «How much for nine hours?» Gonza asked. The price they gave was a quarter of a hotel. That's when we finally got it. There are still a lot of things in this country I don't know about. «How about an internet café?» that man suggested."
 }

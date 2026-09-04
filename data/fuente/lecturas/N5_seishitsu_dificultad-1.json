@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/seishitsu/dificultad-1",
  "titulo": "できる ように なる",
- "cuerpo": "<ruby>日本語<rt>にほんご</rt></ruby>は まだ <ruby>難<rt>むずか</rt></ruby>しいです。でも、<ruby>半年<rt>はんとし</rt></ruby>まえに できなかった ことが、いま できます。でんわで やくそくが できます。びょういんで せつめいが できます。はやい ことばは まだ わかりにくいですが、こわく ありません。<ruby>一番<rt>いちばん</rt></ruby> わかりやすいのは、<ruby>子<rt>こ</rt></ruby>どもの ことばです。けんたくんと はなす とき、ぼくは いちばん じょうずに なります。",
- "traduccion": "El japonés me sigue pareciendo difícil. Pero cosas que hace medio año no podía hacer, ahora las hago. Puedo quedar por teléfono. Puedo explicarme en el hospital. Lo que hablan rápido aún me cuesta, pero ya no me da miedo. Lo que mejor entiendo es cómo hablan los niños. Cuando hablo con Kenta es cuando mejor me sale.",
+ "cuerpo": "<ruby>日本語<rt>にほんご</rt></ruby>は まだ <ruby>難<rt>むずか</rt></ruby>しいです。でも、<ruby>半年<rt>はんとし</rt></ruby>まえに できなかった ことが、いま できます。でんわで やくそくが できます。びょういんで せつめいが できます。はやい ことばは まだ わかりにくいですが、こわく ありません。<ruby>一番<rt>いちばん</rt></ruby> わかりやすいのは、<ruby>子<rt>こ</rt></ruby>どもの ことばです。けんたくんと はなす とき、ぼくは いちばん じょうずに なります。らいねんの ぼくは、いまの ぼくより もっと はなせる<em class=\"g\">だろう</em>と おもいます。",
+ "traduccion": "El japonés me sigue pareciendo difícil. Pero cosas que hace medio año no podía hacer, ahora las hago. Puedo quedar por teléfono. Puedo explicarme en el hospital. Lo que hablan rápido aún me cuesta, pero ya no me da miedo. Lo que mejor entiendo es cómo hablan los niños. Cuando hablo con Kenta es cuando mejor me sale. Creo que el año que viene hablaré más que ahora.",
  "preguntas": [
   {
    "p": "いま、できるように なった ことは なんですか。",
@@ -35,5 +35,5 @@
    "correcta": 3
   }
  ],
- "traduccion_en": "Japanese is still hard for me. But things I couldn't do six months ago, I can do now. I can arrange to meet someone by phone. I can explain myself at the hospital. Fast speech is still difficult, but it doesn't frighten me. What I understand best is the way children talk. When I'm talking to Kenta is when I sound my best."
+ "traduccion_en": "Japanese is still hard for me. But things I couldn't do six months ago, I can do now. I can arrange to meet someone by phone. I can explain myself at the hospital. Fast speech is still difficult, but it doesn't frighten me. What I understand best is the way children talk. When I'm talking to Kenta is when I sound my best. I think next year I will speak more than I do now."
 }

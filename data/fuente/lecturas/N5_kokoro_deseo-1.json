@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/kokoro/deseo-1",
  "titulo": "アンナさんに <ruby>言<rt>い</rt></ruby>いたい こと",
- "cuerpo": "アンナさんに ほんとうの ことを <ruby>言<rt>い</rt></ruby>いたく なりました。でも、ぼくの <ruby>日本語<rt>にほんご</rt></ruby>では むずかしいです。「すきです」だけでは、<ruby>子<rt>こ</rt></ruby>どもの ことばみたいです。ジャンに そうだんすると、「ことばが へたでも かおで わかるよ」と <ruby>言<rt>い</rt></ruby>いました。ゴンサは 「はやく <ruby>言<rt>い</rt></ruby>え」と <ruby>言<rt>い</rt></ruby>うだけでした。その よる、ぼくは じしょを <ruby>開<rt>あ</rt></ruby>きました。",
- "traduccion": "Me entraron ganas de decirle a Anna lo que siento de verdad. Pero con mi japonés eso es difícil. Un «me gustas» a secas suena a lenguaje de niño. Se lo consulté a Jean y me dijo: «aunque hables mal, se te ve en la cara». Gonza sólo dijo: «díselo ya». Esa noche abrí el diccionario.",
+ "cuerpo": "アンナさんに ほんとうの ことを <ruby>言<rt>い</rt></ruby>いたく なりました。でも、ぼくの <ruby>日本語<rt>にほんご</rt></ruby>では むずかしいです。「すきです」だけでは、<ruby>子<rt>こ</rt></ruby>どもの ことばみたいです。ジャンに そうだんすると、「ことばが へたでも かおで わかるよ」と <ruby>言<rt>い</rt></ruby>いました。ゴンサは 「はやく <ruby>言<rt>い</rt></ruby>え」と <ruby>言<rt>い</rt></ruby>うだけでした。その よる、ぼくは じしょを <ruby>開<rt>あ</rt></ruby>きました。「ゆっくり <ruby>言<rt>い</rt></ruby>っ<em class=\"g\">て ください</em>」と、こころの <ruby>中<rt>なか</rt></ruby>で れんしゅうしました。",
+ "traduccion": "Me entraron ganas de decirle a Anna lo que siento de verdad. Pero con mi japonés eso es difícil. Un «me gustas» a secas suena a lenguaje de niño. Se lo consulté a Jean y me dijo: «aunque hables mal, se te ve en la cara». Gonza sólo dijo: «díselo ya». Esa noche abrí el diccionario. «Dilo despacio», practiqué en mi cabeza.",
  "preguntas": [
   {
    "p": "カルロスさんは だれに なにを <ruby>言<rt>い</rt></ruby>いたいですか。",
@@ -35,5 +35,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "I felt like telling Anna what I really feel. But with my Japanese that's hard. Just saying «I like you» sounds like a child talking. I asked Jean and he said: «even if you speak badly, it shows on your face». Gonza only said: «just tell her». That night I opened the dictionary."
+ "traduccion_en": "I felt like telling Anna what I really feel. But with my Japanese that's hard. Just saying «I like you» sounds like a child talking. I asked Jean and he said: «even if you speak badly, it shows on your face». Gonza only said: «just tell her». That night I opened the dictionary. «Say it slowly,» I practised in my head."
 }

@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/jikan/duracion-1",
  "titulo": "<ruby>速<rt>はや</rt></ruby>く なる",
- "cuerpo": "しごとに なれると、じかんが <ruby>速<rt>はや</rt></ruby>く すすみます。はじめの ひは よじかんが とても ながかったです。いまは、きが つくと おわる じかんに なって います。ミンさんは ピザを やくのも <ruby>教<rt>おし</rt></ruby>えて くれて います。「ぼくの せんぱいは この みせの <ruby>人<rt>ひと</rt></ruby>たちです」と ミンさんが <ruby>言<rt>い</rt></ruby>いました。ぼくの せんぱいは ミンさんです。",
- "traduccion": "Cuando te acostumbras al trabajo, el tiempo pasa rápido. El primer día, cuatro horas se me hicieron larguísimas. Ahora, cuando quiero darme cuenta, ya es la hora de salir. Min me está enseñando también a hornear las pizzas. «Mis senpai son la gente de esta tienda», me dijo Min. El mío es Min.",
+ "cuerpo": "しごとに なれると、じかんが <ruby>速<rt>はや</rt></ruby>く すすみます。はじめの ひは よじかんが とても ながかったです。いまは、きが つくと おわる じかんに なって います。ミンさんは ピザを やくのも <ruby>教<rt>おし</rt></ruby>えて くれて います。「ぼくの せんぱいは この みせの <ruby>人<rt>ひと</rt></ruby>たちです」と ミンさんが <ruby>言<rt>い</rt></ruby>いました。ぼくの せんぱいは ミンさんです。いま、ミンさんは あたらしい ひとに おなじ ことを <em class=\"g\"><ruby>教<rt>おし</rt></ruby>えて います</em>。",
+ "traduccion": "Cuando te acostumbras al trabajo, el tiempo pasa rápido. El primer día, cuatro horas se me hicieron larguísimas. Ahora, cuando quiero darme cuenta, ya es la hora de salir. Min me está enseñando también a hornear las pizzas. «Mis senpai son la gente de esta tienda», me dijo Min. El mío es Min. Ahora Min le está enseñando lo mismo a alguien nuevo.",
  "preguntas": [
   {
    "p": "はじめの ひ、よじかんは どうでしたか。",
@@ -35,5 +35,5 @@
    "correcta": 0
   }
  ],
- "traduccion_en": "Once you get used to the work, time goes fast. On the first day, four hours felt endless. Now, before I know it, it's time to leave. Min is also teaching me how to bake the pizzas. «My senpai are the people in this shop», Min told me. Mine is Min."
+ "traduccion_en": "Once you get used to the work, time goes fast. On the first day, four hours felt endless. Now, before I know it, it's time to leave. Min is also teaching me how to bake the pizzas. «My senpai are the people in this shop», Min told me. Mine is Min. Right now Min is teaching the same thing to someone new."
 }

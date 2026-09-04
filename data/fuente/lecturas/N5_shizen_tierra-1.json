@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/shizen/tierra-1",
  "titulo": "やまの <ruby>上<rt>うえ</rt></ruby>から",
- "cuerpo": "こうべの うしろには、すぐ <ruby>山<rt>やま</rt></ruby>が あります。<ruby>学校<rt>がっこう</rt></ruby>の みんなで のぼりました。みちは <ruby>易<rt>やさ</rt></ruby>しかったです。<ruby>上<rt>うえ</rt></ruby>から <ruby>見<rt>み</rt></ruby>ると、まちと うみが ぜんぶ <ruby>見<rt>み</rt></ruby>えます。ぼくの アパートも、<ruby>学校<rt>がっこう</rt></ruby>も、バイトの みせも、ぜんぶ そこに あります。<ruby>一年<rt>いちねん</rt></ruby>の せいかつが、てのひらぐらいの <ruby>大<rt>おお</rt></ruby>きさでした。ジャンが「ちいさいな」と <ruby>言<rt>い</rt></ruby>いました。ぼくは 「じゅうぶんだ」と こたえました。",
- "traduccion": "Justo detrás de Kobe está la montaña. Subimos todos los de la escuela. El camino era fácil. Desde arriba se ve la ciudad entera y el mar. Mi piso, la escuela y la pizzería: todo está ahí dentro. Un año entero de mi vida cabía en el tamaño de una mano. Jean dijo: «qué pequeño». Yo contesté: «es suficiente».",
+ "cuerpo": "こうべの うしろには、すぐ <ruby>山<rt>やま</rt></ruby>が あります。<ruby>学校<rt>がっこう</rt></ruby>の みんなで のぼりました。みちは <ruby>易<rt>やさ</rt></ruby>しかったです。<ruby>上<rt>うえ</rt></ruby>から <ruby>見<rt>み</rt></ruby>ると、まちと うみが ぜんぶ <ruby>見<rt>み</rt></ruby>えます。ぼくの アパートも、<ruby>学校<rt>がっこう</rt></ruby>も、バイトの みせも、ぜんぶ そこに あります。<ruby>一年<rt>いちねん</rt></ruby>の せいかつが、てのひらぐらいの <ruby>大<rt>おお</rt></ruby>きさでした。ジャンが「ちいさいな」と <ruby>言<rt>い</rt></ruby>いました。ぼくは 「じゅうぶんだ」と こたえました。ちいさい まちです。<em class=\"g\">でも</em>、ぼくの <ruby>一年<rt>いちねん</rt></ruby>は ぜんぶ そこに あります。",
+ "traduccion": "Justo detrás de Kobe está la montaña. Subimos todos los de la escuela. El camino era fácil. Desde arriba se ve la ciudad entera y el mar. Mi piso, la escuela y la pizzería: todo está ahí dentro. Un año entero de mi vida cabía en el tamaño de una mano. Jean dijo: «qué pequeño». Yo contesté: «es suficiente». Es una ciudad pequeña. Pero mi año entero está ahí dentro.",
  "preguntas": [
   {
    "p": "みちは どうでしたか。",
@@ -35,5 +35,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "Right behind Kobe there's the mountain. The whole school climbed it. The path was easy. From the top you can see the entire city and the sea. My flat, the school, the pizzeria: it's all in there. A whole year of my life fitted into the size of a hand. Jean said: «it's small». I answered: «it's enough»."
+ "traduccion_en": "Right behind Kobe there's the mountain. The whole school climbed it. The path was easy. From the top you can see the entire city and the sea. My flat, the school, the pizzeria: it's all in there. A whole year of my life fitted into the size of a hand. Jean said: «it's small». I answered: «it's enough». It is a small city. But my whole year is in there."
 }

@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/kotoba/decidir-1",
  "titulo": "<ruby>冬<rt>ふゆ</rt></ruby>やすみの そうだん",
- "cuerpo": "<ruby>十二月<rt>じゅうにがつ</rt></ruby>に <ruby>学校<rt>がっこう</rt></ruby>が やすみに なります。ゴンサが「きたへ <ruby>行<rt>い</rt></ruby>こう」と <ruby>言<rt>い</rt></ruby>いました。「ゆきを <ruby>見<rt>み</rt></ruby>た ことが ない」と ぼくが <ruby>言<rt>い</rt></ruby>うと、ゴンサは 「ぼくもだ」と こたえました。ジャンは バイトが あるので <ruby>行<rt>い</rt></ruby>けません。アンナさんは かぞくと すごすそうです。ふたりで さっぽろへ <ruby>行<rt>い</rt></ruby>く ことに きめました。",
- "traduccion": "En diciembre la escuela cierra por vacaciones. Gonza dijo: «vámonos al norte». Le dije «yo no he visto nunca la nieve» y él contestó: «yo tampoco». Jean no puede venir porque trabaja. Anna pasa esos días con su familia. Decidimos ir los dos a Sapporo.",
+ "cuerpo": "<ruby>十二月<rt>じゅうにがつ</rt></ruby>に <ruby>学校<rt>がっこう</rt></ruby>が やすみに なります。ゴンサが「きたへ <ruby>行<rt>い</rt></ruby>こう」と <ruby>言<rt>い</rt></ruby>いました。「ゆきを <ruby>見<rt>み</rt></ruby>た ことが ない」と ぼくが <ruby>言<rt>い</rt></ruby>うと、ゴンサは 「ぼくもだ」と こたえました。ジャンは バイトが あるので <ruby>行<rt>い</rt></ruby>けません。アンナさんは かぞくと すごすそうです。ふたりで さっぽろへ <ruby>行<rt>い</rt></ruby>く ことに きめました。ジャンは「ゆきは まいとし <ruby>降<rt>ふ</rt></ruby>る。バイトは いま しか ない」と <ruby>言<rt>い</rt></ruby>いました。それも ただしいです。ぼくたちは かえりの <ruby>日<rt>ひ</rt></ruby>を <ruby>四日<rt>よっか</rt></ruby>あとに きめました。",
+ "traduccion": "En diciembre la escuela cierra por vacaciones. Gonza dijo: «vámonos al norte». Le dije «yo no he visto nunca la nieve» y él contestó: «yo tampoco». Jean no puede venir porque trabaja. Anna pasa esos días con su familia. Decidimos ir los dos a Sapporo. Jean dijo: «la nieve cae todos los años; el trabajo sólo lo tienes ahora». También es verdad. Nosotros fijamos la vuelta cuatro días después.",
  "preguntas": [
   {
    "p": "いつ <ruby>学校<rt>がっこう</rt></ruby>が やすみに なりますか。",
@@ -35,5 +35,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "In December the school closes for the holidays. Gonza said: «let's go north». I said «I've never seen snow» and he answered: «me neither». Jean can't come because he's working. Anna is spending those days with her family. We decided the two of us would go to Sapporo."
+ "traduccion_en": "In December the school closes for the holidays. Gonza said: «let's go north». I said «I've never seen snow» and he answered: «me neither». Jean can't come because he's working. Anna is spending those days with her family. We decided the two of us would go to Sapporo. Jean said, «snow falls every year; the job you only have now.» That is also true. We set the return for four days later."
 }

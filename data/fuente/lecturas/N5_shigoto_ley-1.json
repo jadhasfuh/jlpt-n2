@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/shigoto/ley-1",
  "titulo": "えいがの あとで",
- "cuerpo": "えいがが おわってから、ぼくは しつもんを しました。「あの じだいは、ほんとうに あんな ふうでしたか」たなかさんは 「はんぶんは ほんとう、はんぶんは はなしです」と こたえました。<ruby>人<rt>ひと</rt></ruby>を きる ばめんは、いまの <ruby>日本<rt>にほん</rt></ruby>では かんがえられません。ここは、ぼくが すんで いる <ruby>国<rt>くに</rt></ruby>の <ruby>中<rt>なか</rt></ruby>で いちばん あんぜんな ばしょです。でも、どの <ruby>国<rt>くに</rt></ruby>にも、はなしたく ない じだいが あります。",
- "traduccion": "Cuando terminó la película le hice una pregunta. «¿Aquella época fue de verdad así?» La señora Tanaka contestó: «la mitad es verdad y la mitad es cuento». Las escenas en las que se mata a alguien son impensables en el Japón de hoy. Éste es el sitio más seguro en el que he vivido. Pero todos los países tienen una época de la que no quieren hablar.",
+ "cuerpo": "えいがが おわってから、ぼくは しつもんを しました。「あの じだいは、ほんとうに あんな ふうでしたか」たなかさんは 「はんぶんは ほんとう、はんぶんは はなしです」と こたえました。<ruby>人<rt>ひと</rt></ruby>を きる ばめんは、いまの <ruby>日本<rt>にほん</rt></ruby>では かんがえられません。ここは、ぼくが すんで いる <ruby>国<rt>くに</rt></ruby>の <ruby>中<rt>なか</rt></ruby>で いちばん あんぜんな ばしょです。でも、どの <ruby>国<rt>くに</rt></ruby>にも、はなしたく ない じだいが あります。「こんど、その えいがの ことを もっと はなし<em class=\"g\">ましょうか</em>」と ぼくは ききました。",
+ "traduccion": "Cuando terminó la película le hice una pregunta. «¿Aquella época fue de verdad así?» La señora Tanaka contestó: «la mitad es verdad y la mitad es cuento». Las escenas en las que se mata a alguien son impensables en el Japón de hoy. Éste es el sitio más seguro en el que he vivido. Pero todos los países tienen una época de la que no quieren hablar. «¿Hablamos otro día más de esa película?», le pregunté.",
  "preguntas": [
   {
    "p": "カルロスさんは なにを しつもんしましたか。",
@@ -35,5 +35,5 @@
    "correcta": 3
   }
  ],
- "traduccion_en": "When the film ended I asked a question. «Was that period really like that?» Mrs Tanaka answered: «half of it is true and half of it is story». Scenes where someone is killed are unthinkable in today's Japan. This is the safest place I have lived in. But every country has a period it would rather not talk about."
+ "traduccion_en": "When the film ended I asked a question. «Was that period really like that?» Mrs Tanaka answered: «half of it is true and half of it is story». Scenes where someone is killed are unthinkable in today's Japan. This is the safest place I have lived in. But every country has a period it would rather not talk about. «Shall we talk more about that film another day?» I asked."
 }

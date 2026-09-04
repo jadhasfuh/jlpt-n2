@@ -108,6 +108,12 @@ def recortar(t, limite=34):
 def ancho(t, fuente=("Mincho", CUERPO)):
     return pdfmetrics.stringWidth(t, fuente[0], fuente[1])
 
+# 禁則処理: caracteres que no pueden EMPEZAR un renglón. Si al cortar cae uno
+# de éstos al principio, se arrastra al renglón de antes. Sin esto salen
+# renglones que empiezan por 「、」, que en japonés no se hace nunca.
+NO_INICIAN = set("、。，．・：；！？」』）］｝〉》”’ーぁぃぅぇぉっゃゅょゎヵヶァィゥェォッャュョ")
+
+
 def renglones(ts, caja):
     """Reparte los trozos en renglones. Se corta en los espacios, que es donde
     corta un libro para principiantes; si un bloque no cabe, se corta igual."""
@@ -119,6 +125,10 @@ def renglones(ts, caja):
                 fuera.append(linea); linea, x = [], 0.0
                 continue
         elif x + w > caja and linea:
+            # si lo que abre el renglón nuevo no puede abrirlo, se queda aquí
+            if base and base[0] in NO_INICIAN:
+                linea.append((base, lec, g)); x += w
+                continue
             fuera.append(linea); linea, x = [], 0.0
         linea.append((base, lec, g)); x += w
     if linea: fuera.append(linea)
@@ -165,6 +175,9 @@ def columnas(ts, alto):
                 fuera.append(col); col, usado = [], 0.0
                 continue
         elif usado + h > alto and col:
+            if base and base[0] in NO_INICIAN:
+                col.append((base, lec, g)); usado += h
+                continue
             fuera.append(col); col, usado = [], 0.0
         col.append((base, lec, g)); usado += h
     if col: fuera.append(col)

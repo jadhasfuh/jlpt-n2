@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/sonota/sustantivos-1",
  "titulo": "<ruby>本棚<rt>ほんだな</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>で",
- "cuerpo": "ジャンが あたらしい <ruby>本棚<rt>ほんだな</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。ぼくたちの <ruby>本<rt>ほん</rt></ruby>を ぜんぶ ならべると、はんぶんも うまりませんでした。<ruby>一年<rt>いちねん</rt></ruby>で よんだ <ruby>本<rt>ほん</rt></ruby>は、それだけです。でも、その うちの <ruby>三<rt>さん</rt></ruby>さつは、じしょを つかわずに よめました。<ruby>名前<rt>なまえ</rt></ruby>も <ruby>書<rt>か</rt></ruby>いて おきました。つぎに <ruby>来<rt>く</rt></ruby>る <ruby>人<rt>ひと</rt></ruby>が つかえるように、へやに のこして <ruby>行<rt>い</rt></ruby>く つもりです。",
- "traduccion": "Jean se compró una estantería nueva. Pusimos todos nuestros libros y no llenamos ni la mitad. Eso es todo lo que hemos leído en un año. Pero tres de ellos los leí sin usar el diccionario. Les puse también mi nombre. Pienso dejarlos en el piso para quien venga después.",
+ "cuerpo": "ジャンが あたらしい <ruby>本棚<rt>ほんだな</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。ぼくたちの <ruby>本<rt>ほん</rt></ruby>を ぜんぶ ならべると、はんぶんも うまりませんでした。<ruby>一年<rt>いちねん</rt></ruby>で よんだ <ruby>本<rt>ほん</rt></ruby>は、それだけです。でも、その うちの <ruby>三<rt>さん</rt></ruby>さつは、じしょを つかわずに よめました。<ruby>名前<rt>なまえ</rt></ruby>も <ruby>書<rt>か</rt></ruby>いて おきました。つぎに <ruby>来<rt>く</rt></ruby>る <ruby>人<rt>ひと</rt></ruby>が つかえるように、へやに のこして <ruby>行<rt>い</rt></ruby>く つもりです。<ruby>本<rt>ほん</rt></ruby>を かぞえる<em class=\"g\">より</em>、<ruby>読<rt>よ</rt></ruby>んだ ページを かぞえる<em class=\"g\">ほうが</em> いいと おもいます。",
+ "traduccion": "Jean se compró una estantería nueva. Pusimos todos nuestros libros y no llenamos ni la mitad. Eso es todo lo que hemos leído en un año. Pero tres de ellos los leí sin usar el diccionario. Les puse también mi nombre. Pienso dejarlos en el piso para quien venga después. Creo que es mejor contar las páginas leídas que contar los libros.",
  "preguntas": [
   {
    "p": "<ruby>本<rt>ほん</rt></ruby>を ならべると どうでしたか。",
@@ -35,5 +35,5 @@
    "correcta": 3
   }
  ],
- "traduccion_en": "Jean bought a new bookshelf. We put all our books on it and didn't fill even half. That's everything we've read in a year. But three of them I read without using the dictionary. I wrote my name in them too. I plan to leave them in the flat for whoever comes next."
+ "traduccion_en": "Jean bought a new bookshelf. We put all our books on it and didn't fill even half. That's everything we've read in a year. But three of them I read without using the dictionary. I wrote my name in them too. I plan to leave them in the flat for whoever comes next. I think counting the pages you have read is better than counting the books."
 }
