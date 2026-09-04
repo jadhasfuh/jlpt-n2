@@ -22,8 +22,15 @@ def carga(p):
 
 
 def plano(s):
-    """El texto tal como se lee: sin marcado y sin furigana."""
-    return re.sub(r"<rt>[^<]*</rt>", "", s or "")
+    """El texto tal como se lee: sin marcado y sin furigana.
+
+    Hay que quitar TODAS las etiquetas, no sólo el <rt>. Dejando el <ruby>,
+    「<ruby>大<rt>おお</rt></ruby>きい」 se queda en «<ruby>大</ruby>きい» y
+    buscar 「大きい」 ahí no encuentra nada: la palabra sale en el capítulo y
+    esto la contaba como que no. Medía de menos justo las que llevan kanji,
+    que son las que importan.
+    """
+    return re.sub(r"<[^>]+>", "", re.sub(r"<rt>[^<]*</rt>", "", s or ""))
 
 
 def aparece(formas, txt):
@@ -122,6 +129,21 @@ def main():
     linea("VOCABULARIO", v_ok, v_tot)
     linea("GRAMÁTICA  ", g_ok, g_tot)
     print(f"\ncapítulos sin ningún punto de gramática asignado: {len(sin_gram)}")
+
+    # El índice del final del libro se compone con esto, así que la lista se
+    # escribe siempre y no sólo cuando se pide --detalle: si se queda vieja, el
+    # apéndice enseña palabras que sí salen en la historia.
+    fuera = {
+        "vocabulario": [{"cap": n, "escritura": e, "lectura": l2, "es": es}
+                        for n, e, l2, es in falta_v],
+        "gramatica": [{"cap": n, "forma": f, "lectura": l2, "es": es}
+                      for n, f, l2, es, _ in falta_g],
+    }
+    destino = RAIZ / "data/dist/fuera_del_libro.json"
+    destino.write_text(json.dumps(fuera, ensure_ascii=False, indent=1) + "\n",
+                       encoding="utf-8")
+    print(f"\nfuera de la historia → {destino.relative_to(RAIZ)}  "
+          f"({len(falta_v)} palabras, {len(falta_g)} puntos)")
 
     if "--detalle" in sys.argv:
         print("\n--- vocabulario que no sale en su capítulo ---")

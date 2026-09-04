@@ -645,6 +645,128 @@ for n, uid in enumerate(capitulos, desde + 1):
         largos.append((n, extra))
     c.showPage()
 
+# ------------------------------------------------------------ el índice final
+#
+# La idea del libro es que la ficha enseñe las palabras y la página siguiente
+# las use. Sale el 80 % del vocabulario y el 57 % de la gramática; el resto se
+# queda en la ficha y no llega a leerse nunca. Eso es lo que recoge esto: no un
+# glosario del libro entero —para eso está cada capítulo— sino exactamente lo
+# que el libro nombra y no llega a usar.
+#
+# Va al final y no en cada capítulo a propósito: meter ahí una frase de ejemplo
+# por cada punto que falta convertiría la ficha en una gramática, y la ficha
+# tiene que caber de un vistazo.
+
+def _taquigrafia(s):
+    """(base, lectura|None, gótica) desde «{漢字|かんじ}» y «[gramática]».
+
+    Se parte aquí y no con trozos() porque trozos() decide la ゴシック
+    buscando la forma del punto dentro del texto, y en los ejemplos la forma
+    va escrita con los espacios del 分かち書き —「た ことが あります」 contra
+    「たことがある」— y no la encontraría nunca."""
+    fuera, i, g = [], 0, False
+    while i < len(s):
+        ch = s[i]
+        if ch == "[": g = True; i += 1; continue
+        if ch == "]": g = False; i += 1; continue
+        if ch == "{":
+            j = s.index("}", i)
+            base, _, lec = s[i + 1:j].partition("|")
+            fuera.append((base, lec or None, g)); i = j + 1; continue
+        fuera.append((ch, None, g)); i += 1
+    return fuera
+
+
+def _titulo_seccion(txt, sub):
+    y = ALTO - M_ARRIBA - 6 * mm
+    c.setFont("Mincho", 16); c.setFillGray(0); c.drawString(M_CANTO, y, txt)
+    y -= 7.5 * mm
+    c.setFont("Gothic", 7.6); c.setFillGray(0.45)
+    for linea in sub:
+        c.drawString(M_CANTO, y, linea); y -= 4.6 * mm
+    c.setFillGray(0)
+    return y - 5 * mm
+
+
+if "--sin-portada" not in sys.argv and not tope and not desde:
+    fuera_f = pathlib.Path("data/dist/fuera_del_libro.json")
+    apend_f = pathlib.Path("data/fuente/libro_apendice.json")
+    if fuera_f.exists() and apend_f.exists():
+        _fuera = json.load(open(fuera_f))
+        _ejem = json.load(open(apend_f)); _ejem.pop("_", None)
+        _gpor = {g["forma"]: g for g in gram.values() if g["nivel"] == "N5"}
+        # El banco los tiene con el nombre inglés; en la página quedan en
+        # japonés como todo lo demás.
+        _COMO_SE_DICE = {"い-adjectives": "い けいようし",
+                         "な-adjectives": "な けいようし"}
+
+        # ---- 1. la gramática que no llega a usarse, con un ejemplo ----
+        y = _titulo_seccion("ぶんぽうの さくいん", [
+            "Los puntos de gramática que el libro nombra en la ficha de un",
+            "capítulo pero que no llegan a aparecer dentro de la historia.",
+            "El ejemplo va con la gente del libro, y la parte en otra letra",
+            "es el punto."])
+        ALTO_G = 25 * mm
+        for it in _fuera["gramatica"]:
+            g = _gpor.get(it["forma"])
+            ej = _ejem.get(g["id"]) if g else None
+            if not ej:
+                continue
+            # Se miden las líneas ANTES de decidir si cabe: un ejemplo de dos
+            # líneas ocupa más que el hueco fijo, y así no se parte la ficha
+            # de la frase que la explica.
+            lineas = renglones(_taquigrafia(ej["ej"]), CAJA)
+            if y - (ALTO_G + (len(lineas) - 1) * INTERLINEA) < M_ABAJO:
+                c.showPage(); y = ALTO - M_ARRIBA - 4 * mm
+            c.setFillGray(0.955)
+            c.roundRect(M_CANTO - 1.5 * mm, y - 2.6 * mm, CAJA, 9.2 * mm,
+                        1.2 * mm, stroke=0, fill=1)
+            c.setFillGray(0); c.setFont("Gothic", 10)
+            c.drawString(M_CANTO, y + 2.6 * mm,
+                         _COMO_SE_DICE.get(it["forma"], it["forma"]))
+            c.setFont("Gothic", 6.4); c.setFillGray(0.5)
+            c.drawRightString(ANCHO - M_LOMO, y + 3 * mm, f'cap. {it["cap"]}')
+            c.setFont("Gothic", 7.4); c.setFillGray(0.28)
+            c.drawString(M_CANTO, y - 0.8 * mm, recortar(it["es"], 58))
+            c.setFillGray(0)
+            y -= 13.5 * mm
+            for ln in lineas:
+                pinta_renglon(c, M_CANTO, y, ln); y -= INTERLINEA
+            y -= 1 * mm
+            c.setFont("Gothic", 7.2); c.setFillGray(0.42)
+            c.drawString(M_CANTO, y, recortar(ej["es"], 78))
+            c.setFillGray(0)
+            y -= 11 * mm
+        c.showPage()
+
+        # ---- 2. las palabras que se quedan sólo en la ficha ----
+        y = _titulo_seccion("ふろく・ことばの さくいん", [
+            "Las palabras que aparecen en la ficha de un capítulo pero no en",
+            "su historia. Son del N5 igual que las demás: entran en el examen",
+            "aunque aquí no haya salido la ocasión de usarlas."])
+        COL = [M_CANTO, M_CANTO + CAJA / 2 + 3 * mm]
+        ANCHO_COL = CAJA / 2 - 3 * mm
+        col, y0 = 0, y
+        for w in _fuera["vocabulario"]:
+            if y < M_ABAJO + 6 * mm:
+                if col == 0:
+                    col, y = 1, y0
+                else:
+                    c.showPage(); col, y = 0, ALTO - M_ARRIBA - 4 * mm; y0 = y
+            x = COL[col]
+            if w["lectura"] and w["lectura"] != w["escritura"]:
+                c.setFont("Gothic", 6); c.setFillGray(0.5)
+                c.drawString(x, y + 4.2 * mm, w["lectura"])
+            c.setFillGray(0); c.setFont("Mincho", 10)
+            c.drawString(x, y, w["escritura"])
+            c.setFont("Gothic", 6); c.setFillGray(0.55)
+            c.drawRightString(x + ANCHO_COL, y, f'{w["cap"]}')
+            c.setFont("Gothic", 7); c.setFillGray(0.3)
+            c.drawString(x, y - 4 * mm, recortar(w["es"], 38))
+            c.setFillGray(0)
+            y -= 11.4 * mm
+        c.showPage()
+
 _paginas = c.getPageNumber() - 1
 c.save()
 
