@@ -10,7 +10,12 @@ un PDF para el INTERIOR y otro para la CUBIERTA, nunca los dos juntos.
 Lo que exige una imprenta, comprobado y no de memoria:
 
   · PDF con las fuentes incrustadas. Reportlab incrusta las IPAex, así que sale
-    solo.
+    solo. Deja además Helvetica y Times-Roman declaradas en cada página sin
+    escribir un solo glifo con ellas; el preflight las marca como «no
+    incrustadas» y no pasa nada, porque no imprimen nada. NO se quitan: se
+    probó, y al borrarlas del diccionario de recursos se desordenan los
+    subconjuntos de las IPAex —「ミンさん」 desaparecía y 「けんたくん」 salía
+    como 「ぷけのんけ」—. Si la imprenta pregunta, se le dice.
   · Imágenes a 300 ppp al tamaño final. Los dibujos van a 1536 px sobre 115 mm
     de ancho = 339 ppp. La portada se genera ya a 300 ppp.
   · 3 mm de sangre donde el color llegue al borde. En el INTERIOR no hace
@@ -47,6 +52,12 @@ MARCA = 5 * mm                              # largo de las marcas de corte
 PAPELES = {"90g-offset": 0.11, "80g-offset": 0.10, "100g-estucado": 0.09}
 
 
+def _es_portada(pagina):
+    """La portada es la única página que lleva una imagen a color a sangre."""
+    xo = (pagina.get("/Resources", {}) or {}).get("/XObject", {}) or {}
+    return any(str(xo[k].get_object().get("/ColorSpace")) == "/DeviceRGB" for k in xo)
+
+
 def interior():
     """El interior, ya montado por 30_libro_pdf.py, con las páginas en blanco
     que hagan falta para que el total sea múltiplo de 4."""
@@ -62,9 +73,17 @@ def interior():
     print(f"  edición: {'VERTICAL (縦書き, se cose por la DERECHA)' if vertical else 'horizontal'}")
     r = PdfReader(str(origen))
     w = PdfWriter()
-    for p in r.pages:
+    # La maqueta empieza por la PORTADA, y la portada no va en el interior: va
+    # en el archivo de la cubierta. Dejándola, la imprenta la mete otra vez
+    # como página 1 del bloque de texto —y encima es la única imagen en color
+    # de un interior a una tinta.
+    paginas = list(r.pages)
+    if _es_portada(paginas[0]):
+        paginas = paginas[1:]
+        print("  (quitada la portada: va en el archivo de la cubierta)")
+    for p in paginas:
         w.add_page(p)
-    faltan = (-len(r.pages)) % 4
+    faltan = (-len(paginas)) % 4
     for _ in range(faltan):
         w.add_blank_page()
     w.add_metadata({"/Title": "こうべの一年 · Un año en Kobe",
@@ -73,9 +92,9 @@ def interior():
     with destino.open("wb") as f:
         w.write(f)
     print(f"  interior  → {destino.relative_to(RAIZ)}")
-    print(f"    {len(r.pages)} páginas + {faltan} en blanco = {len(r.pages) + faltan} "
+    print(f"    {len(paginas)} páginas + {faltan} en blanco = {len(paginas) + faltan} "
           f"(múltiplo de 4)")
-    return len(r.pages) + faltan
+    return len(paginas) + faltan
 
 
 def cubierta(paginas, papel="90g-offset"):
