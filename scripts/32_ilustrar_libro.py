@@ -533,6 +533,19 @@ def capitulos():
     return out
 
 
+# Capítulos a los que hay que decirles la composición. El modelo, cuando la
+# escena no le manda nada concreto, copia la disposición de la hoja: los pone
+# en fila, de pie, mirando al frente. Aquí van los momentos en que eso se nota,
+# porque lo que cuenta el capítulo es quién mira a quién.
+ESCENAS = {
+    98: ("The moment right before they sing. Carlos is at a microphone stand "
+         "at the front, hands jammed in his hoodie pocket, nervous. Anna is "
+         "right beside him, TURNED TOWARDS HIM and mouthing a word to him to "
+         "calm him down. Jean is behind them on the far side, sitting with his "
+         "guitar. Nobody stands in a row facing the viewer."),
+}
+
+
 def quien_sale(texto: str):
     ALIAS = {"carlos": ["carlos"], "jean": ["jean"], "gonsa": ["gonsa", "gonza"],
              "anna": ["anna"], "tanaka": ["tanaka"], "min": ["min"],
@@ -553,12 +566,20 @@ def ilustra_capitulo(n: int, cap: dict):
     fichas = "\n".join(f"- {PERSONAJES[q]}" for q in quienes)
     # Desde el capítulo 56 Anna y Carlos son pareja, y eso se nota en cómo se
     # miran. Antes del 56 son compañeros de clase y nada más.
-    pareja = ("\n\nAnna and Carlos are a couple by this point in the story: "
-              "they stand close and look at each other.\n"
+    # Decir sólo «son pareja» no bastaba: en el festival el modelo puso a Jean
+    # entre los dos y a Anna mirando a otro lado. Hay que decir dónde va cada
+    # uno y hacia dónde mira.
+    pareja = ("\n\nAnna and Carlos are a couple by this point in the story. "
+              "Anna stands RIGHT NEXT TO Carlos, with nobody in between them, "
+              "and she is LOOKING AT HIM, not at the viewer and not away. If "
+              "anyone else is in the scene, they go on the far side, never "
+              "between the two of them.\n"
               if n >= 56 and "anna" in quienes else "")
+    montaje = (f"\n\nTHE MOMENT TO DRAW — follow this composition exactly:\n"
+               f"{ESCENAS[n]}\n" if n in ESCENAS else "")
     prompt = (ESTILO + pareja + f"\n\nSUBJECT — one illustration for chapter {n} of a "
               "graded reader. Draw the single clearest moment of this scene.\n\n"
-              f"SCENE (Spanish, from the book):\n{cap['es']}\n\n"
+              f"SCENE (Spanish, from the book):\n{cap['es']}\n" + montaje + "\n"
               f"CHARACTERS IN THIS SCENE — match the attached reference sheet "
               f"exactly, same faces, same clothes, same proportions:\n{fichas}\n\n"
               f"HOW MANY PEOPLE: exactly {len(quienes)}. Not one more.\n\n"
@@ -569,7 +590,10 @@ def ilustra_capitulo(n: int, cap: dict):
               "friends, not even blurred figures in the background. If the "
               "sheet shows eight people and this scene names one, draw ONE "
               "person alone.\n\n"
-              "Horizontal composition with room to breathe. No text of any "
+              "Horizontal composition with room to breathe. Do NOT line the "
+              "characters up in a row facing the viewer: place them as the "
+              "moment needs, turned towards whoever they are talking to. "
+              "No text of any "
               "kind, simplified mitten hands, one head and two arms and two "
               "legs per person.")
     destino = SALIDA / f"{n:03d}-{cap['id'].split('/')[-1]}.png"
