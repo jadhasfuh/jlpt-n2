@@ -316,6 +316,49 @@ def pinta_dibujo(c, f, x, y, ancho, alto):
     c.drawImage(im, x + (ancho - w) / 2, y + (alto - h) / 2, w, h,
                 mask="auto")
 c = canvas.Canvas(str(SALIDA), pagesize=(ANCHO, ALTO))
+
+# ---------------------------------------------- el margen del lomo, por hoja
+#
+# Todo se dibuja con la caja pegada al canto (M_CANTO) y luego se mueve la
+# página entera si el lomo cae a la izquierda. El lomo CAMBIA DE LADO en cada
+# hoja: cosido por la derecha (縦書き, 右綴じ) cae a la derecha en las impares
+# y a la izquierda en las pares; en un libro occidental, al revés.
+#
+# Antes se dibujaban todas las páginas iguales, así que la mitad del libro
+# tenía el margen estrecho pegado al encolado — y en rústica fresada ahí se
+# pierden tres o cuatro milímetros más, con lo que el texto se come el lomo.
+DESPL = M_LOMO - M_CANTO
+
+
+def _pagina_interior():
+    """El número que tendrá la página en el libro impreso.
+
+    La portada no cuenta: va en el archivo de la cubierta, y
+    35_libro_imprenta.py la quita. Si contara, todas las paridades saldrían
+    cambiadas.
+    """
+    return c.getPageNumber() - (0 if "--sin-portada" in sys.argv else 1)
+
+
+def _coloca_margen():
+    n = _pagina_interior()
+    if n < 1:
+        return
+    lomo_izquierda = (n % 2 == 0) if VERTICAL else (n % 2 == 1)
+    if lomo_izquierda:
+        c.translate(DESPL, 0)
+
+
+_pasa_pagina = c.showPage
+
+
+def _showPage():
+    _pasa_pagina()
+    _coloca_margen()
+
+
+c.showPage = _showPage
+_coloca_margen()
 huecos = []
 largos = []   # capítulos que ocupan más de una página
 
@@ -617,9 +660,9 @@ for n, uid in enumerate(capitulos, desde + 1):
         c.showPage()
         continue
 
-    x0, y = M_LOMO, ALTO - M_ARRIBA
+    x0, y = M_CANTO, ALTO - M_ARRIBA
     c.setFont("Gothic", 8); c.setFillGray(0.45)
-    c.drawRightString(ANCHO - M_CANTO, y, f"{n}")
+    c.drawRightString(M_CANTO + CAJA, y, f"{n}")
     c.setFillGray(0); y -= 9 * mm
     for ln in renglones(trozos(l["titulo"]), CAJA)[:2]:
         pinta_titulo(c, x0, y, ln); y -= INTERLINEA * 1.45
@@ -633,7 +676,7 @@ for n, uid in enumerate(capitulos, desde + 1):
             c.showPage(); extra += 1
             y = ALTO - M_ARRIBA
             c.setFont("Gothic", 8); c.setFillGray(0.45)
-            c.drawRightString(ANCHO - M_CANTO, y, f"{n}")
+            c.drawRightString(M_CANTO + CAJA, y, f"{n}")
             c.setFillGray(0); y -= 9 * mm
         pinta_renglon(c, x0, y, ln); y -= INTERLINEA
 

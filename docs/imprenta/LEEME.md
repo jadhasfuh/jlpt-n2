@@ -42,6 +42,11 @@ cubierta con la portada a la derecha, está mal montada.
 
 ## Detalles que preguntan
 
+- **Márgenes espejados.** El margen del lomo (18 mm) va del lado por donde se
+  cose y el del canto (15 mm) del otro, y como el lomo cambia de lado en cada
+  hoja, los márgenes se alternan: en las **impares** el lomo cae a la derecha,
+  en las **pares** a la izquierda. Ya viene así en el archivo; no hay que
+  desplazar nada al imponer.
 - **Sangre.** La cubierta lleva 3 mm por los cuatro lados y marcas de corte.
   El interior **no lleva y no la necesita**: no hay nada que llegue al borde,
   los dibujos van dentro de la caja de texto.

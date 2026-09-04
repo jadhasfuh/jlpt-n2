@@ -45,6 +45,7 @@ FUENTES = pathlib.Path("/private/tmp/claude-501/-Users-jadhasfuh-Documents-jlpte
                        "/de6ce02c-8b5a-444f-9eba-a860178bf9ed/scratchpad/fuentes")
 
 CORTE_W, CORTE_H = 148 * mm, 210 * mm      # A5
+M_LOMO, M_CANTO = 18 * mm, 15 * mm         # los mismos que 30_libro_pdf.py
 SANGRE = 3 * mm
 MARCA = 5 * mm                              # largo de las marcas de corte
 
@@ -64,6 +65,45 @@ def _capitulos():
     import json
     o = json.loads((RAIZ / "data/fuente/orden_libro.json").read_text(encoding="utf-8"))
     return len(o["N5"])
+
+
+def _capitulos():
+    """Cuántos capítulos tiene el libro. Se cuenta: la contraportada decía 103
+    y son 97 desde que se fundieron los que se quedaron sin unidad."""
+    import json
+    o = json.loads((RAIZ / "data/fuente/orden_libro.json").read_text(encoding="utf-8"))
+    return len(o["N5"])
+
+
+def _espeja_margenes(paginas, vertical):
+    """Pone el margen ancho SIEMPRE del lado por donde se cose.
+
+    La maqueta dibuja todas las páginas iguales: 18 mm a un lado y 15 al otro.
+    Pero el lomo cambia de lado en cada hoja. En un libro cosido por la derecha
+    (縦書き, 右綴じ) el lomo cae a la DERECHA en las impares y a la IZQUIERDA en
+    las pares; en uno occidental, al revés.
+
+    Sin esto, la mitad del libro tiene el margen ESTRECHO pegado al encolado, y
+    en rústica fresada ahí se pierden tres o cuatro milímetros más: el texto de
+    esas páginas queda comiéndose el lomo y cuesta leerlo sin forzar el libro.
+
+    Se hace aquí y no en la maqueta porque el número de página bueno es el de
+    ESTE archivo, ya sin la portada.
+    """
+    from pypdf import Transformation
+    d = (M_LOMO - M_CANTO)          # los 3 mm que hay que mover
+    movidas = 0
+    for i, pagina in enumerate(paginas, 1):
+        impar = i % 2 == 1
+        # a la izquierda está dibujado el margen ancho; hay que llevarlo al
+        # lado del lomo
+        lomo_izquierda = (not impar) if vertical else impar
+        if lomo_izquierda:
+            continue                # ya está donde toca
+        pagina.add_transformation(Transformation().translate(-d, 0))
+        movidas += 1
+    print(f"    márgenes espejados: {movidas} páginas movidas {d/mm:.0f} mm "
+          f"(el lomo va a la {'derecha' if vertical else 'izquierda'} en las impares)")
 
 
 def interior():
