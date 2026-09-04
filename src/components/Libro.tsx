@@ -2,9 +2,10 @@
 import Link from "next/link";
 import { capituloLibre } from "@/lib/acceso";
 import { useState } from "react";
-import type { Gramatica, Lectura } from "@/lib/tipos";
+import type { Gramatica, Kanji, Lectura } from "@/lib/tipos";
 import { useAjustes } from "./Ajustes";
 import { Jp, JpHtml, JpEnLinea, BotonVoz } from "./Jp";
+import { PanelKanji } from "./PanelKanji";
 import { PanelGramatica } from "./PanelGramatica";
 import { Ordenar } from "./Ordenar";
 import { enFrases, soloTexto } from "@/lib/voz";
@@ -25,12 +26,14 @@ type Punto = { id: string; forma: string; lectura: string; es: string; en: strin
  * que es exactamente lo que separa leer de descifrar.
  */
 export function Libro({
-  nivel, n, total, unidad, vocabulario, gramatica, deFuera, gramaticaFuera, lectura,
+  nivel, n, total, unidad, vocabulario, gramatica, kanji, deFuera, gramaticaFuera, lectura,
 }: {
   nivel: string; n: number; total: number;
   unidad: { id: string; ja: string; es: string; en: string; seccion: string };
   vocabulario: Palabra[];
   gramatica: Gramatica[];
+  /** Los kanji que enseña el capítulo. */
+  kanji: Kanji[];
   /** Palabras del texto que se estudian en otro capítulo, con su nivel. */
   deFuera: Fuera[];
   /** Gramática que el capítulo usa pero enseña otro, con cuál. */
@@ -41,7 +44,7 @@ export function Libro({
   const [traducir, setTraducir] = useState(false);
   // Las dos listas iban una debajo de otra dentro de la misma tarjeta, así que
   // se veía una tabla dentro de otra. Las mismas pestañas que las subsecciones.
-  const [pestana, setPestana] = useState<"vocabulario" | "gramatica">("vocabulario");
+  const [pestana, setPestana] = useState<"vocabulario" | "kanji" | "gramatica">("vocabulario");
   // 意 tapaba el significado en las subsecciones y aquí no hacía nada. Mismo
   // trato: se tapa hasta pedirlo, salvo que el interruptor global lo abra.
   const [abierto, setAbierto] = useState<Record<string, boolean>>({});
@@ -87,17 +90,20 @@ export function Libro({
         <div className="filtros" style={{ marginBottom: 12 }}>
           {([
             ["vocabulario", "語彙", vocabulario.length],
+            ...(kanji.length ? [["kanji", "漢字", kanji.length] as const] : []),
             ...(gramatica.length ? [["gramatica", "文法", gramatica.length] as const] : []),
           ] as const).map(([id, ja, num]) => (
             <button key={id} className={`btn chico ${pestana === id ? "encendido" : ""}`}
-                    onClick={() => setPestana(id as "vocabulario" | "gramatica")}>
+                    onClick={() => setPestana(id as "vocabulario" | "kanji" | "gramatica")}>
               <span className="jp">{ja}</span>
               <span style={{ fontSize: 11, opacity: .7 }}>{num}</span>
             </button>
           ))}
         </div>
 
-        {pestana === "gramatica" ? (
+        {pestana === "kanji" ? (
+          <PanelKanji kanji={kanji} titulo={`${unidad.ja} · ${nivel}`} />
+        ) : pestana === "gramatica" ? (
           <>
             <PanelGramatica items={gramatica} />
             {gramaticaFuera.length > 0 && (

@@ -265,6 +265,7 @@ lecturas = {l["unidad_id"]: l for l in json.load(open("data/dist/lecturas.json")
 unidades = {u["id"]: u for u in json.load(open("data/dist/unidades.json"))}
 vocab = {v["id"]: v for v in json.load(open("data/dist/vocabulario.json"))}
 gram = {g["id"]: g for g in json.load(open("data/dist/gramatica.json"))}
+kanji = {k["char"]: k for k in json.load(open("data/dist/kanji.json"))}
 orden = json.load(open("data/fuente/orden_libro.json"))["N5"]
 
 VERTICAL = "--vertical" in sys.argv
@@ -494,6 +495,8 @@ if "--sin-portada" not in sys.argv:
         y -= 5.4 * mm
     c.showPage()
 
+_temario = {"voc": [0, 0], "kanji": [0, 0], "gram": [0, 0]}   # pintado / total
+
 for n, uid in enumerate(capitulos, desde + 1):
     u, l = unidades[uid], lecturas[uid]
     gram_formas = formas_gramatica(u["gramatica"])
@@ -522,10 +525,32 @@ for n, uid in enumerate(capitulos, desde + 1):
         c.setFillGray(0)
         return y - 7 * mm
 
+    def sigue_ficha(y, alto):
+        """Sitio para una fila más; si no lo hay, pasa de página.
+
+        Antes se hacía `continue` y la fila desaparecía sin avisar: en los
+        capítulos con veinticuatro palabras y veinticinco kanji el temario se
+        quedaba a medias, que es justo lo que no puede pasar en la página que
+        existe para que la historia se entienda.
+        """
+        if y - alto >= M_ABAJO:
+            return y
+        c.showPage()
+        yy = ALTO - M_ARRIBA
+        c.setFont("Gothic", 8); c.setFillGray(0.45)
+        c.drawString(x0, yy, f"{n}")
+        c.setFillGray(0)
+        return yy - 9 * mm
+
+    _temario["voc"][1] += sum(1 for p in u["palabras"] if p in vocab)
+    _temario["kanji"][1] += sum(1 for ch in u["kanji"] if ch in kanji)
+    _temario["gram"][1] += sum(1 for g in u["gramatica"] if g in gram)
+
     y = cabecera("この しょうの ことば", y)
     for pid in u["palabras"]:
         v = vocab.get(pid)
-        if not v or y < M_ABAJO + 6 * mm: continue
+        if not v: continue
+        y = sigue_ficha(y, 7.4 * mm)
         if v["lectura"] and v["lectura"] != v["escritura"]:
             c.setFont("Gothic", 6.2); c.setFillGray(0.5)
             c.drawString(x0, y + 4.4 * mm, v["lectura"])
@@ -536,13 +561,58 @@ for n, uid in enumerate(capitulos, desde + 1):
         c.drawString(x0 + 34 * mm, y, recortar(v["es"], 40))
         c.setFillGray(0)
         y -= 7.4 * mm
+        _temario["voc"][0] += 1
 
-    if u["gramatica"] and y > M_ABAJO + 16 * mm:
+    # Los kanji del capítulo. Estaban en la unidad y no se enseñaban en ningún
+    # sitio del libro: el temario son las tres cosas, palabras, kanji y
+    # gramática. Van en una rejilla con la lectura y el significado, que en
+    # papel es donde caben sin comerse la página.
+    if u["kanji"]:
         y -= 4 * mm
+        y = sigue_ficha(y, 18 * mm)
+        y = cabecera("この しょうの かんじ", y)
+        POR_FILA = 6
+        PASO = ANCHO_AYUDA / POR_FILA
+        fila = 0
+        for i, ch in enumerate(u["kanji"]):
+            k = kanji.get(ch)
+            if not k: continue
+            col = i % POR_FILA
+            if col == 0:
+                y = sigue_ficha(y, 11 * mm)
+                fila += 1
+            x = x0 + col * PASO
+            c.setFont("Mincho", 15)
+            c.drawString(x, y, ch)
+            # Debajo, la PALABRA DEL CAPÍTULO que lo usa, no una lectura
+            # suelta del diccionario: la primera de 館 es やかた, que no sirve
+            # de nada, y la que el alumno acaba de ver es 映画館. Si el kanji
+            # no sale en ninguna palabra del capítulo, entonces sí la lectura.
+            pie = ""
+            for pid in u["palabras"]:
+                w = vocab.get(pid)
+                if w and ch in (w.get("escritura") or ""):
+                    pie = w["escritura"].replace("~", "").replace("～", "")
+                    break
+            if not pie:
+                pie = (k.get("kun") or k.get("on") or [""])[0].split(".")[0].strip("-")
+            if pie:
+                c.setFont("Mincho" if any(ord(x) > 0x4DFF for x in pie) else "Gothic", 5.6)
+                c.setFillGray(0.5)
+                c.drawString(x, y - 4.2 * mm, pie[:6])
+                c.setFillGray(0)
+            _temario["kanji"][0] += 1
+            if col == POR_FILA - 1 or i == len(u["kanji"]) - 1:
+                y -= 11 * mm
+
+    if u["gramatica"]:
+        y -= 4 * mm
+        y = sigue_ficha(y, 18 * mm)
         y = cabecera("ぶんぽう", y)
         for gid in u["gramatica"]:
             g = gram.get(gid)
-            if not g or y < M_ABAJO + 6 * mm: continue
+            if not g: continue
+            y = sigue_ficha(y, 11.6 * mm)
             # la forma en una caja tenue: es lo que hay que reconocer al leer
             alto_f = 9.2 * mm
             c.setFillGray(0.955)
@@ -560,6 +630,7 @@ for n, uid in enumerate(capitulos, desde + 1):
             c.drawString(x0, y - 0.8 * mm, recortar(g["es"], 58))
             c.setFillGray(0)
             y -= alto_f + 2.4 * mm
+            _temario["gram"][0] += 1
 
     if "--solo-historia" not in sys.argv: c.showPage()
     else: c.setPageSize((ANCHO, ALTO))
@@ -817,6 +888,16 @@ if "--sin-portada" not in sys.argv and not tope and not desde:
 
 _paginas = c.getPageNumber() - 1
 c.save()
+
+# El temario de cada capítulo tiene que llevar TODO lo de su unidad. Antes se
+# saltaba en silencio lo que no cabía en la página, así que los capítulos
+# grandes salían con la lista a medias.
+for _que, (_puesto, _hay) in _temario.items():
+    if _puesto != _hay:
+        print(f"  ✗ TEMARIO INCOMPLETO: {_que} {_puesto} de {_hay}", file=sys.stderr)
+print(f"  temario: {_temario['voc'][0]} palabras · {_temario['kanji'][0]} kanji · "
+      f"{_temario['gram'][0]} puntos de gramática, todos puestos"
+      if all(a == b for a, b in _temario.values()) else "")
 
 grandes = [h for h in huecos if h[0] == "grande"]
 vinetas = [h for h in huecos if h[0] == "viñeta"]

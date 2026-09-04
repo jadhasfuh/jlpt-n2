@@ -1,6 +1,6 @@
 import { notFound, redirect } from "next/navigation";
 import {
-  capitulos, gramaticas, gramaticaDeFuera, lectura, palabrasDelCapitulo,
+  capitulos, gramaticas, gramaticaDeFuera, kanjis, lectura, palabrasDelCapitulo,
   palabrasDeFuera,
 } from "@/lib/contenido";
 import { puedeVerCapitulo } from "@/lib/acceso-servidor";
@@ -23,7 +23,12 @@ export default async function Pagina(
     searchParams: Promise<{ c?: string }>;
   },
 ) {
-  const { nivel } = await params;
+  const { nivel: pedido } = await params;
+  // El QR del libro impreso apunta a /libro/n5 en minúscula y la lista está en
+  // mayúscula, así que TODOS los códigos del libro daban 404. Se normaliza
+  // aquí: así valen los que ya están impresos y los que escriba alguien a
+  // mano.
+  const nivel = pedido.toUpperCase();
   // Sólo los niveles con historia escrita. En el resto no hay libro que
   // leer, así que la página no existe en vez de existir vacía.
   if (!NIVELES_CON_LIBRO.includes(nivel as Nivel)) notFound();
@@ -57,6 +62,10 @@ export default async function Pagina(
           // Entera y no recortada: el panel de gramática de las subsecciones
           // es el mismo componente, y necesita nivel, tier y categoría.
           gramatica={gramaticas(u.gramatica)}
+          // El temario del capítulo son las tres cosas: palabras,
+          // kanji y gramática. Los kanji estaban en la unidad y no se
+          // enseñaban en ninguna parte del libro.
+          kanji={kanjis(u.kanji)}
           // Las que salen en el texto pero se estudian en otro capítulo: sin
           // esto, 山 aparece en el capítulo 1 y no está en ninguna lista hasta
           // el 95.
