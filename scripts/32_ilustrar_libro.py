@@ -110,6 +110,15 @@ PERSONAJES = {
               "grin, eyebrows up, wide hopeful eyes. Never worried, never sad "
               "unless the scene says so. Messy dark hair, light stubble, plain "
               "hoodie and jeans. EXACTLY THE SAME HEIGHT as Jean.",
+    # Alan no está en la hoja de referencia: sale en dos capítulos y
+    # meterlo en la fila habría hecho la hoja más larga para nada. Su
+    # descripción va aquí y el prompt avisa de que a éste hay que
+    # dibujarlo de lo que dice el texto.
+    "alan":   "ALAN — Mexican man in his mid twenties, a language teacher. "
+              "NOT ON THE REFERENCE SHEET: draw him from this description. "
+              "Round friendly face, short tidy hair, small beard, plain "
+              "shirt. LATIN AMERICAN EYES: large and open, rounded almond, "
+              "visible dark iris, heavy dark brows.",
     "jean":   "JEAN — Peruvian man, mid twenties. EXACTLY THE SAME HEIGHT as "
               "Carlos, a bit stockier. Extrovert and a charmer, always working "
               "the room: one eyebrow up, easy confident smile, chin lifted, "
@@ -416,6 +425,63 @@ def grafico(cual):
            transparente=True)
 
 
+# Quién es quién, para la hoja de personajes del libro.
+FICHAS = {
+ # Las descripciones van cortas a propósito: tres líneas es lo que cabe debajo
+ # de cada foto para que los nueve entren en dos hojas.
+ "carlos": ("カルロス", "Carlos",
+            "Mexicano, 23 años. Llega a Kobe con una agencia de internet. "
+            "Cuenta la historia."),
+ "alan":   ("アラン", "Alan sensei",
+            "Su profesor de japonés en línea desde México. Lo aloja la "
+            "primera semana."),
+ "jean":   ("ジャン", "Jean",
+            "Peruano, de la escuela de idiomas. Extrovertido, toca la "
+            "guitarra, siempre ligando."),
+ "gonsa":  ("ゴンサ", "Gonza",
+            "Peruano, el otro compañero. Humor negro y planes malísimos."),
+ "anna":   ("アンナ", "Anna",
+            "Japonesa. Ayuda en clase porque estudia español. Acaba siendo "
+            "la novia de Carlos."),
+ "tanaka": ("たなかさん", "Señora Tanaka",
+            "La casera. Pregunta demasiado, que es lo que necesita quien no "
+            "entiende un recibo."),
+ "min":    ("ミンさん", "Min",
+            "De Myanmar, compañero de clase. Su senpai en la pizzería y en "
+            "la cocina."),
+ "kenta":  ("けんたくん", "Kenta",
+            "El nieto de la señora Tanaka, doce años. Juega al fútbol mejor "
+            "que Carlos."),
+ "avion":  ("ひこうきの ひと", "La chica del avión",
+            "Otaku de los vuelos: cronometra el despegue con su peluche de "
+            "la aerolínea."),
+}
+
+
+def retratos():
+    """Un retrato 3:2 por personaje, para la hoja de quién es quién.
+
+    Se generan sueltos y no recortando la hoja de referencia: ahí están de
+    cuerpo entero y en fila, y lo que hace falta aquí es una cara reconocible
+    al tamaño de un carnet."""
+    for cual, (_, _, _) in FICHAS.items():
+        destino = SALIDA / f"retrato-{cual}.png"
+        if destino.exists():
+            print(f"  {cual}: ya está"); continue
+        ficha = PERSONAJES[cual]
+        prompt = (ESTILO + "\n\nSUBJECT — a single portrait, head and "
+                  "shoulders only, facing the viewer, neutral expression, on a "
+                  "completely plain empty background. Like an ID photo.\n\n"
+                  f"THE PERSON:\n- {ficha}\n\n"
+                  + ("The attached sheet shows this character: copy that face "
+                     "and clothes exactly.\n\n" if cual != "alan" else "")
+                  + "EXACTLY ONE PERSON. Nobody else, no background, no props. "
+                    "ABSOLUTELY NO TEXT anywhere.")
+        print(f"  retrato de {cual}…")
+        genera(prompt, destino,
+               referencia=HOJA if cual != "alan" else None, size="1024x1024")
+
+
 def capitulos():
     """Los capítulos en el orden del LIBRO, con su texto en español."""
     orden = json.loads((RAIZ / "data/fuente/orden_libro.json").read_text(encoding="utf-8"))
@@ -436,35 +502,79 @@ def capitulos():
 def quien_sale(texto: str):
     ALIAS = {"carlos": ["carlos"], "jean": ["jean"], "gonsa": ["gonsa", "gonza"],
              "anna": ["anna"], "tanaka": ["tanaka"], "min": ["min"],
-             "kenta": ["kenta"]}
+             "kenta": ["kenta"], "alan": ["alan"]}
     t = texto.lower()
-    return [k for k, ns in ALIAS.items()
-            if any(re.search(rf"\b{n}\b", t) for n in ns)]
+    quienes = [k for k, ns in ALIAS.items()
+               if any(re.search(rf"\b{n}\b", t) for n in ns)]
+    # Carlos es el narrador: está en TODAS las escenas, las cuente o no la
+    # traducción. Sin esto, el capítulo del festival salía con Anna y Jean y
+    # sin él, que es a quien ella está mirando.
+    if "carlos" not in quienes:
+        quienes.insert(0, "carlos")
+    return quienes
 
 
 def ilustra_capitulo(n: int, cap: dict):
     quienes = quien_sale(cap["es"] + " " + cap["titulo"]) or ["carlos"]
     fichas = "\n".join(f"- {PERSONAJES[q]}" for q in quienes)
-    prompt = (ESTILO + f"\n\nSUBJECT — one illustration for chapter {n} of a "
+    # Desde el capítulo 56 Anna y Carlos son pareja, y eso se nota en cómo se
+    # miran. Antes del 56 son compañeros de clase y nada más.
+    pareja = ("\n\nAnna and Carlos are a couple by this point in the story: "
+              "they stand close and look at each other.\n"
+              if n >= 56 and "anna" in quienes else "")
+    prompt = (ESTILO + pareja + f"\n\nSUBJECT — one illustration for chapter {n} of a "
               "graded reader. Draw the single clearest moment of this scene.\n\n"
               f"SCENE (Spanish, from the book):\n{cap['es']}\n\n"
               f"CHARACTERS IN THIS SCENE — match the attached reference sheet "
               f"exactly, same faces, same clothes, same proportions:\n{fichas}\n\n"
-              "The attached image is the character model sheet. Copy those "
-              "designs; do not redesign anyone. Draw only the characters listed "
-              "above — no extra people unless the scene needs a vague figure in "
-              "the background. Horizontal composition with room to breathe. "
-              "Remember: no text of any kind, simplified mitten hands, one head "
-              "and two arms and two legs per person.")
+              f"HOW MANY PEOPLE: exactly {len(quienes)}. Not one more.\n\n"
+              "The attached sheet is a REFERENCE for how these characters look. "
+              "It is NOT the scene. Do not copy the row of people from it. Use "
+              "it only to draw the faces and clothes of the characters named "
+              "above, and draw NOBODY ELSE — no crowd, no bystanders, no extra "
+              "friends, not even blurred figures in the background. If the "
+              "sheet shows eight people and this scene names one, draw ONE "
+              "person alone.\n\n"
+              "Horizontal composition with room to breathe. No text of any "
+              "kind, simplified mitten hands, one head and two arms and two "
+              "legs per person.")
     destino = SALIDA / f"{n:03d}-{cap['id'].split('/')[-1]}.png"
     print(f"cap {n:>3} · {cap['titulo'][:34]:<34} [{', '.join(quienes)}]")
     genera(prompt, destino, referencia=HOJA)
+
+
+def sincroniza_app():
+    """Copia los dibujos del libro a public/, que es de donde tira la app.
+
+    Son dos sitios porque el PDF los quiere numerados en el orden del libro
+    (002-ciudad-1.png) y la app los busca por el id de la unidad
+    (N5_basho_ciudad-1.png). Antes esta copia se hacía a mano, y bastó con
+    olvidarla una vez para que la app enseñara dibujos de dos generaciones
+    atrás mientras el PDF tenía los nuevos.
+    """
+    import shutil
+    destino = RAIZ / "public" / "libro"
+    destino.mkdir(parents=True, exist_ok=True)
+    copiados = 0
+    for n, cap in enumerate(capitulos(), 1):
+        f = SALIDA / f"{n:03d}-{cap['id'].split('/')[-1]}.png"
+        if not f.exists():
+            print(f"  cap {n}: no hay dibujo"); continue
+        d = destino / (cap["id"].replace("/", "_") + ".png")
+        if d.exists() and d.stat().st_mtime >= f.stat().st_mtime:
+            continue
+        shutil.copy2(f, d); copiados += 1
+    print(f"copiados a public/libro: {copiados}")
 
 
 def main():
     if len(sys.argv) < 2:
         sys.exit(__doc__)
     orden = sys.argv[1]
+    if orden == "app":
+        sincroniza_app(); return
+    if orden == "retratos":
+        retratos(); return
     if orden == "grafico":
         for cual in (sys.argv[2:] or ["hero"]):
             grafico(cual)

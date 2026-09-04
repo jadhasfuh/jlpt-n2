@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/seishitsu/conceptos-1",
  "titulo": "<ruby>一<rt>いっ</rt></ruby>さつの <ruby>本<rt>ほん</rt></ruby>",
- "cuerpo": "アンナさんの おとうさんが、ふるい <ruby>本<rt>ほん</rt></ruby>を <ruby>見<rt>み</rt></ruby>せて くれました。その <ruby>人<rt>ひと</rt></ruby>が わかい ころ、スペイン<ruby>語<rt>ご</rt></ruby>を ならった <ruby>本<rt>ほん</rt></ruby>です。ページの すみに、えんぴつで メモが たくさん ありました。「<ruby>三十年<rt>さんじゅうねん</rt></ruby>まえです」と わらって いました。ぼくの じしょにも、おなじような メモが あります。ことばを ならう <ruby>人<rt>ひと</rt></ruby>は、どこの <ruby>国<rt>くに</rt></ruby>でも おなじ ことを するようです。ことばを ならう ひとは、どこの <ruby>国<rt>くに</rt></ruby>でも おなじ ことを する<em class=\"g\">のです</em>。",
- "traduccion": "El padre de Anna me enseñó un libro viejo. Es el libro con el que él estudió español de joven. En los márgenes había un montón de notas a lápiz. «Esto es de hace treinta años», dijo riéndose. En mi diccionario hay notas parecidas. Parece que quien aprende un idioma hace lo mismo en cualquier país. La gente que aprende idiomas hace lo mismo en cualquier país.",
+ "cuerpo": "アンナさんの おとうさんが、ふるい <ruby>本<rt>ほん</rt></ruby>を <ruby>見<rt>み</rt></ruby>せて くれました。その <ruby>人<rt>ひと</rt></ruby>が わかい ころ、スペイン<ruby>語<rt>ご</rt></ruby>を ならった <ruby>本<rt>ほん</rt></ruby>です。ページの すみに、えんぴつで メモが たくさん ありました。「<ruby>三十年<rt>さんじゅうねん</rt></ruby>まえです」と わらって いました。ぼくの じしょにも、おなじような メモが あります。ことばを ならう ひとは、どこの <ruby>国<rt>くに</rt></ruby>でも おなじ ことを する<em class=\"g\">のです</em>。",
+ "traduccion": "El padre de Anna me enseñó un libro viejo. Es el libro con el que él estudió español de joven. En los márgenes había un montón de notas a lápiz. «Esto es de hace treinta años», dijo riéndose. En mi diccionario hay notas parecidas. La gente que aprende idiomas hace lo mismo en cualquier país.",
  "preguntas": [
   {
    "p": "その <ruby>本<rt>ほん</rt></ruby>は なんの <ruby>本<rt>ほん</rt></ruby>ですか。",
@@ -35,5 +35,5 @@
    "correcta": 0
   }
  ],
- "traduccion_en": "Anna's father showed me an old book. It's the book he learned Spanish from when he was young. In the margins there were lots of pencil notes. «This is from thirty years ago», he said, laughing. My dictionary has similar notes in it. It seems that people learning a language do the same thing in any country. People learning a language do the same thing in every country."
+ "traduccion_en": "Anna's father showed me an old book. It's the book he learned Spanish from when he was young. In the margins there were lots of pencil notes. «This is from thirty years ago», he said, laughing. My dictionary has similar notes in it. People learning a language do the same thing in every country."
 }

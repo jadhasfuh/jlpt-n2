@@ -389,6 +389,52 @@ if "--sin-portada" not in sys.argv:
     c.setFillGray(0)
     c.showPage()
 
+    # ---- quién es quién ----
+    # Los personajes vuelven durante 103 capítulos, y a mitad del libro es fácil
+    # perder cuál era Jean y cuál Gonsa. Una foto y una línea bastan.
+    import importlib.util as _iu
+    _s = _iu.spec_from_file_location("_il", "scripts/32_ilustrar_libro.py")
+    _il = _iu.module_from_spec(_s); _s.loader.exec_module(_il)
+
+    # 3:2, como las de un carné. El tamaño lo manda el que quepan los nueve en
+    # dos hojas: con la foto más grande entraban cuatro por página y salían tres.
+    ANCHO_R, ALTO_R = 45 * mm, 30 * mm
+    COL_X = [M_CANTO, M_CANTO + ANCHO_R + 13 * mm]
+    y = ALTO - M_ARRIBA - 6 * mm
+    c.setFont("Mincho", 16); c.drawString(M_CANTO, y, "この 本の 人たち")
+    y -= 11 * mm
+    fila_alto = ALTO_R + 20 * mm          # de fila a fila
+    fila_lleno = ALTO_R + 17.5 * mm       # foto, nombre y tres líneas
+    for i, (cual, (ja, es, desc)) in enumerate(_il.FICHAS.items()):
+        col = i % 2
+        if col == 0 and y - fila_lleno < M_ABAJO:
+            c.showPage(); y = ALTO - M_ARRIBA - 6 * mm
+        x = COL_X[col]
+        f = DIBUJOS / f"retrato-{cual}.png"
+        if f.exists():
+            pinta_dibujo(c, f, x, y - ALTO_R, ANCHO_R, ALTO_R)
+        else:
+            c.setDash(2, 3); c.setStrokeGray(0.75)
+            c.rect(x, y - ALTO_R, ANCHO_R, ALTO_R); c.setDash()
+        c.setFont("Mincho", 10.5); c.setFillGray(0)
+        c.drawString(x, y - ALTO_R - 6 * mm, ja)
+        c.setFont("Gothic", 7.5); c.setFillGray(0.45)
+        c.drawString(x + pdfmetrics.stringWidth(ja, "Mincho", 10.5) + 3 * mm,
+                     y - ALTO_R - 6 * mm, es)
+        c.setFillGray(0.28); c.setFont("Gothic", 7)
+        yy = y - ALTO_R - 10.5 * mm
+        linea = ""
+        for palabra in desc.split():
+            if pdfmetrics.stringWidth(linea + " " + palabra, "Gothic", 7) > ANCHO_R:
+                c.drawString(x, yy, linea); yy -= 3.4 * mm; linea = palabra
+            else:
+                linea = (linea + " " + palabra).strip()
+        if linea: c.drawString(x, yy, linea)
+        c.setFillGray(0)
+        if col == 1: y -= fila_alto
+    if len(_il.FICHAS) % 2: y -= fila_alto
+    c.showPage()
+
     # ---- índice ----
     y = ALTO - M_ARRIBA - 6 * mm
     c.setFont("Mincho", 16); c.drawString(M_CANTO, y, "もくじ")
