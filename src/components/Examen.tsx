@@ -9,6 +9,7 @@ import OPCIONES_ILUSTRADAS from "@/lib/opciones-ilustradas.json";
 import { JpEnLinea } from "./Jp";
 import { AyudaInstruccion } from "./AyudaInstruccion";
 import { MuroDePago } from "./MuroDePago";
+import { Transcripcion } from "./Transcripcion";
 import { callar, decirTramos } from "@/lib/voz";
 import { IcBien, IcCerrar, IcDerecha, IcReproducir } from "./Iconos";
 
@@ -44,6 +45,7 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
   const [respuestas, setRespuestas] = useState<Record<string, number>>({});
   const [revelada, setRevelada] = useState(false);
   const [fin, setFin] = useState<null | "tiempo" | "terminado">(null);
+  const [verGuion, setVerGuion] = useState<string | null>(null);
   const [sinAcceso, setSinAcceso] = useState(false);
   const [queda, setQueda] = useState(ajuste.minutos * 60);
   const [transcurrido, setTranscurrido] = useState(0);
@@ -220,6 +222,11 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
         </div>
         <p className="tenue" style={{ marginBottom: 18 }}>{t("ex.notaEscala")}</p>
 
+        {verGuion && (
+          <Transcripcion item={items.find((x) => x.id === verGuion)!}
+                         alCerrar={() => setVerGuion(null)} />
+        )}
+
         <h2 className="enc-seccion">{t("ex.repasar")}</h2>
         <div style={{ display: "grid", gap: 8, paddingBottom: 20 }}>
           {items.map((x, i) => {
@@ -246,6 +253,15 @@ export function Examen({ ajuste, cerrar }: { ajuste: Ajuste; cerrar: () => void 
                   <span style={{ color: "var(--acento)" }}>{LETRAS[x.respuesta]}. </span>
                   <span className="jp">{x.opciones[x.respuesta]}</span>
                 </div>
+                {/* Las de escucha se oyen una vez y ya está: sin el guion,
+                    fallar una no enseña nada. Aquí se puede volver a oír
+                    leyendo, que es como se aprende a escuchar. */}
+                {x.guion && (
+                  <button className="btn chico" style={{ marginBottom: 8 }}
+                          onClick={() => setVerGuion(x.id)}>
+                    {t("ex.verTranscripcion")}
+                  </button>
+                )}
                 <div style={{ fontSize: 12.5, color: "var(--tinta-2)" }}>
                   {x.explicacion[idioma]}
                 </div>

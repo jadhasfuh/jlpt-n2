@@ -545,11 +545,7 @@ for n, uid in enumerate(capitulos, desde + 1):
             else:
                 pinta_columna(c, x, y_alto, col)
                 x -= COLUMNA
-        # filete vertical entre el título y la historia
-        if cols_tit:
-            xr = x_der - COLUMNA * 1.5 * len(cols_tit) + COLUMNA * 0.28
-            c.setStrokeGray(0.78); c.setLineWidth(0.6)
-            c.line(xr, y_alto, xr, y_alto - alto_col * 0.55)
+
 
         # El dibujo cierra el capítulo. El ancho útil de la página es
         # exactamente el del dibujo, así que en cuanto se ocupaba UNA columna ya
@@ -576,10 +572,9 @@ for n, uid in enumerate(capitulos, desde + 1):
     c.setFillGray(0); y -= 9 * mm
     for ln in renglones(trozos(l["titulo"]), CAJA)[:2]:
         pinta_titulo(c, x0, y, ln); y -= INTERLINEA * 1.45
-    y += INTERLINEA * 0.5
-    c.setStrokeGray(0.78); c.setLineWidth(0.6)
-    c.line(x0, y, x0 + CAJA, y)
-    y -= INTERLINEA * 1.1
+    # Sin filete bajo el título: chocaba con el furigana del primer renglón y
+    # el título ya se distingue por la familia y el cuerpo.
+    y -= INTERLINEA * 0.15
 
     extra = 0
     for ln in renglones(trozos(l["cuerpo"], gram_formas), CAJA):
