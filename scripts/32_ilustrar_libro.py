@@ -458,6 +458,23 @@ FICHAS = {
 }
 
 
+def _recorta_3x2(f):
+    """El cuadrado que devuelve la API, recortado a 3:2 por la parte de arriba.
+
+    La hoja de «quién es quién» las coloca como fotos de carné, y una cuadrada
+    entre ocho de 3:2 se ve enseguida. Se recorta por arriba porque el aire
+    sobra ahí: el retrato es de hombros para arriba y la cara está en el
+    tercio de en medio."""
+    from PIL import Image
+    im = Image.open(f)
+    alto = round(im.width * 2 / 3)
+    if im.height <= alto:
+        return
+    arriba = round((im.height - alto) * 0.45)
+    im.crop((0, arriba, im.width, arriba + alto)).save(f)
+    print(f"    recortado a {im.width}×{alto}")
+
+
 def retratos():
     """Un retrato 3:2 por personaje, para la hoja de quién es quién.
 
@@ -469,17 +486,34 @@ def retratos():
         if destino.exists():
             print(f"  {cual}: ya está"); continue
         ficha = PERSONAJES[cual]
-        prompt = (ESTILO + "\n\nSUBJECT — a single portrait, head and "
-                  "shoulders only, facing the viewer, neutral expression, on a "
-                  "completely plain empty background. Like an ID photo.\n\n"
-                  f"THE PERSON:\n- {ficha}\n\n"
-                  + ("The attached sheet shows this character: copy that face "
-                     "and clothes exactly.\n\n" if cual != "alan" else "")
+        # Alan no está en la hoja, pero la hoja va igualmente: es de donde
+        # sale el estilo. Generándolo sin referencia —que es como se hizo la
+        # primera vez— el modelo se vuelve a su dibujo realista de siempre y
+        # el retrato desentona con los otros ocho.
+        de_la_hoja = ("The attached sheet shows this character: copy that face "
+                      "and clothes exactly.\n\n" if cual != "alan" else
+                      "THIS PERSON IS NOT ON THE ATTACHED SHEET. The sheet is "
+                      "there ONLY so you match its DRAWING STYLE — the same "
+                      "ink line, the same angular flat shapes, the same solid "
+                      "blacks, the same amount of detail. Do not copy any face "
+                      "from it; draw the person described above.\n\n")
+        # El encuadre se dice con números porque «head and shoulders» se
+        # interpretaba como un primer plano de la cara en unos y un busto
+        # entero en otros, y en la hoja de carnés se ve enseguida.
+        prompt = (ESTILO + "\n\nSUBJECT — a single portrait, like an ID "
+                  "photo: head, shoulders and the top of the chest, facing "
+                  "the viewer, neutral expression, on a completely plain "
+                  "empty background.\n\nFRAMING: the head takes up about "
+                  "HALF the height of the picture and sits in the upper "
+                  "middle, with clear empty space above it and to both "
+                  "sides. Never a close-up: the face must not fill the "
+                  "frame.\n\n"
+                  f"THE PERSON:\n- {ficha}\n\n" + de_la_hoja
                   + "EXACTLY ONE PERSON. Nobody else, no background, no props. "
                     "ABSOLUTELY NO TEXT anywhere.")
         print(f"  retrato de {cual}…")
-        genera(prompt, destino,
-               referencia=HOJA if cual != "alan" else None, size="1024x1024")
+        genera(prompt, destino, referencia=HOJA, size="1024x1024")
+        _recorta_3x2(destino)
 
 
 def capitulos():

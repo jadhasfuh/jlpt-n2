@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/kurashi/cocina-1",
  "titulo": "<ruby>食堂<rt>しょくどう</rt></ruby>の ラーメン",
- "cuerpo": "<em class=\"g\"><ruby>札幌<rt>さっぽろ</rt></ruby>の ラーメンは ゆうめいだと </em><ruby>聞<rt>き</rt></ruby>いて いました。ちいさい <ruby>食堂<rt>しょくどう</rt></ruby>に <ruby>入<rt>はい</rt></ruby>ると、<ruby>中<rt>なか</rt></ruby>は あつくて、めがねが しろく なりました。スープが とても こくて、からだの <ruby>中<rt>なか</rt></ruby>まで あたたかく なりました。「これは <ruby>料理<rt>りょうり</rt></ruby>じゃない、くすりだ」と ゴンサが <ruby>言<rt>い</rt></ruby>いました。そとは まだ ゆきが ふって います。おいしい ものは、さむい ところの ほうが おいしいと おもいました。",
- "traduccion": "Había oído que el ramen de Sapporo es famoso. Entramos en un comedor pequeño y dentro hacía tanto calor que se me empañaron las gafas. El caldo era tan denso que me calentó por dentro. «Esto no es comida, es medicina», dijo Gonza. Fuera seguía nevando. Pensé que las cosas buenas saben mejor en los sitios fríos.",
+ "cuerpo": "<em class=\"g\"><ruby>札幌<rt>さっぽろ</rt></ruby>の ラーメンは ゆうめいだと </em><ruby>聞<rt>き</rt></ruby>いて いました。ちいさい <ruby>食堂<rt>しょくどう</rt></ruby>に <ruby>入<rt>はい</rt></ruby>ると、<ruby>中<rt>なか</rt></ruby>は あつくて、まどが しろく なりました。スープが とても こくて、からだの <ruby>中<rt>なか</rt></ruby>まで あたたかく なりました。「これは <ruby>料理<rt>りょうり</rt></ruby>じゃない、くすりだ」と ゴンサが <ruby>言<rt>い</rt></ruby>いました。そとは まだ ゆきが ふって います。おいしい ものは、さむい ところの ほうが おいしいと おもいました。",
+ "traduccion": "Había oído que el ramen de Sapporo es famoso. Entramos en un comedor pequeño y dentro hacía tanto calor que se empañaron las ventanas. El caldo era tan denso que me calentó por dentro. «Esto no es comida, es medicina», dijo Gonza. Fuera seguía nevando. Pensé que las cosas buenas saben mejor en los sitios fríos.",
  "preguntas": [
   {
    "p": "<ruby>食堂<rt>しょくどう</rt></ruby>の <ruby>中<rt>なか</rt></ruby>は どうでしたか。",
@@ -10,7 +10,7 @@
     "しずかでした",
     "さむかったです",
     "あつかったです",
-    "めがねが ありませんでした"
+    "くらかったです"
    ],
    "correcta": 2
   },
@@ -35,5 +35,5 @@
    "correcta": 0
   }
  ],
- "traduccion_en": "I'd heard that Sapporo ramen is famous. We went into a small canteen and inside it was so hot my glasses steamed up. The broth was so rich it warmed me from the inside. «This isn't food, it's medicine», said Gonza. Outside it was still snowing. I thought that good things taste better in cold places."
+ "traduccion_en": "I'd heard that Sapporo ramen is famous. We went into a small canteen and inside it was so hot the windows steamed up. The broth was so rich it warmed me from the inside. «This isn't food, it's medicine», said Gonza. Outside it was still snowing. I thought that good things taste better in cold places."
 }

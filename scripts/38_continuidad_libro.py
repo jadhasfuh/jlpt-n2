@@ -29,6 +29,17 @@ PRESENTA = {"Carlos": 1, "Alan sensei": 2, "señora Tanaka": 3, "Jean": 11,
             "Gonza": 11, "Min": 11, "Anna": 24, "Kenta": 29}
 
 
+# Rasgos físicos que sólo tiene parte del reparto. Si un capítulo los nombra y
+# no nombra a nadie que los tenga, el que los lleva acaba siendo el narrador —y
+# el dibujo obedece al texto: el capítulo del ramen decía «se me empañaron las
+# gafas» y salió un Carlos con gafas que no lleva en ninguna otra página.
+RASGOS = {
+    "gafas": (("gafas", "めがね", "眼鏡"), ("Jean", "Anna", "señora Tanaka")),
+    "guitarra": (("guitarra", "ギター"), ("Jean",)),
+    "afro": (("afro",), ("Gonza",)),
+}
+
+
 def quienes(texto):
     t = texto.lower()
     return [k for k, ns in ALIAS.items()
@@ -55,6 +66,12 @@ def main():
             if n < PRESENTA.get(quien, 0):
                 print(f"  ✗ cap {n:3d} {uid}: sale {quien}, "
                       f"y se le presenta en el {PRESENTA[quien]}")
+                problemas += 1
+
+        for rasgo, (palabras, duenos) in RASGOS.items():
+            if any(w in es for w in palabras) and not any(d in gente for d in duenos):
+                print(f"  ✗ cap {n:3d} {uid}: habla de {rasgo} y no sale "
+                      f"{' ni '.join(duenos)}; se lo va a quedar Carlos")
                 problemas += 1
 
         vistas = set()
