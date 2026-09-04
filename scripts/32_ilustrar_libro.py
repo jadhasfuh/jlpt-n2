@@ -444,22 +444,22 @@ FICHAS = {
             "Mexicano, 23 años. Llega a Kobe con una agencia de internet. "
             "Cuenta la historia."),
  "alan":   ("アラン", "Alan sensei",
-            "Su profesor de japonés en línea desde México. Lo aloja la "
-            "primera semana."),
+            "El profesor que le daba las clases en línea desde México. "
+            "Ya vivía en Kobe cuando Carlos llegó."),
  "jean":   ("ジャン", "Jean",
             "Peruano, de la escuela de idiomas. Extrovertido, toca la "
             "guitarra, siempre ligando."),
  "gonsa":  ("ゴンサ", "Gonza",
             "Peruano, el otro compañero. Humor negro y planes malísimos."),
  "anna":   ("アンナ", "Anna",
-            "Japonesa. Ayuda en clase porque estudia español. Acaba siendo "
-            "la novia de Carlos."),
+            "Japonesa. Ayuda en la clase porque está estudiando "
+            "español. Corrige la pronunciación sin que se lo pidan."),
  "tanaka": ("たなかさん", "Señora Tanaka",
             "La casera. Pregunta demasiado, que es lo que necesita quien no "
             "entiende un recibo."),
  "min":    ("ミンさん", "Min",
-            "De Myanmar, compañero de clase. Su senpai en la pizzería y en "
-            "la cocina."),
+            "De Myanmar, compañero de clase. Lleva dos años aquí y sabe "
+            "cómo funciona todo."),
  "kenta":  ("けんたくん", "Kenta",
             "El nieto de la señora Tanaka, doce años. Juega al fútbol mejor "
             "que Carlos."),
