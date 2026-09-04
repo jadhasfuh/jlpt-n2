@@ -44,9 +44,21 @@ def aparece(formas, txt):
     return False
 
 
+MARCADO = re.compile(r'<em class="g">([^<]+)</em>')
+
+
+def marcados(html):
+    """Los trozos que el capítulo señala como su punto de gramática."""
+    return {re.sub(r"<[^>]+>", "", m) for m in MARCADO.findall(html or "")}
+
+
 def formas_gram(g):
-    """Lo buscable de un punto de gramática. Los de un solo carácter (も, に)
-    son partículas: salen siempre y no prueban nada, así que no se cuentan."""
+    """Lo buscable de un punto de gramática.
+
+    Los de un solo carácter —も, に, ね— salen en cada frase, así que
+    encontrarlos no prueba nada: por eso no se buscan a ciegas. Lo que sí
+    cuenta es que el capítulo MARQUE uno, y entonces el alumno ve dónde está
+    en vez de adivinarlo entre cincuenta."""
     fuera = set()
     for bruto in (g.get("forma"), g.get("lectura")):
         if not bruto:
@@ -73,6 +85,7 @@ def main():
     for n, uid in enumerate(orden, 1):
         l = lect[uid]
         txt = plano(l["cuerpo"]) + plano(l["titulo"])
+        marca = marcados(l["cuerpo"]) | marcados(l["titulo"])
 
         for pid in libro.get(uid, []):
             w = vocab.get(pid)
@@ -93,7 +106,10 @@ def main():
                 continue
             g_tot += 1
             f = formas_gram(g)
-            if f and aparece(f, txt):
+            # marcado explícito: vale aunque sea una partícula suelta
+            señalado = any(x in marca for x in
+                           {g.get("forma", ""), g.get("lectura", "")} | f if x)
+            if señalado or (f and aparece(f, txt)):
                 g_ok += 1
             else:
                 falta_g.append((n, g["forma"], g.get("lectura", ""), g["es"], not f))

@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/seishitsu/color-1",
  "titulo": "まちの <ruby>色<rt>いろ</rt></ruby>",
- "cuerpo": "<ruby>冬<rt>ふゆ</rt></ruby>の こうべは、<ruby>白<rt>しろ</rt></ruby>と はいいろが おおいです。でも、<ruby>一月<rt>いちがつ</rt></ruby>に なると、<ruby>赤<rt>あか</rt></ruby>い ちょうちんが みせの まえに つきます。やまは <ruby>茶色<rt>ちゃいろ</rt></ruby>で、うみは <ruby>青<rt>あお</rt></ruby>く <ruby>見<rt>み</rt></ruby>えます。アンナさんの コートは <ruby>黄色<rt>きいろ</rt></ruby>くて、とおくからでも すぐ わかります。メキシコの まちは、もっと <ruby>色<rt>いろ</rt></ruby>が おおいです。でも、<ruby>少<rt>すく</rt></ruby>ない <ruby>色<rt>いろ</rt></ruby>の <ruby>中<rt>なか</rt></ruby>の <ruby>赤<rt>あか</rt></ruby>は、よく <ruby>見<rt>み</rt></ruby>えます。",
- "traduccion": "El invierno de Kobe es sobre todo blanco y gris. Pero en enero se encienden farolillos rojos delante de las tiendas. La montaña es marrón y el mar se ve azul. El abrigo de Anna es amarillo y se distingue desde lejos. En las ciudades de México hay muchos más colores. Pero cuando hay pocos, el rojo se ve mejor.",
+ "cuerpo": "<ruby>冬<rt>ふゆ</rt></ruby>の こうべは、<ruby>白<rt>しろ</rt></ruby>と はいいろが おおいです。でも、<ruby>一<rt>いち</rt></ruby><ruby>月<rt>がつ</rt></ruby>に なると、<ruby>赤<rt>あか</rt></ruby>い ちょうちんが みせの まえに つきます。やまは <ruby>茶色<rt>ちゃいろ</rt></ruby>で、うみは <ruby>青<rt>あお</rt></ruby>く <ruby>見<rt>み</rt></ruby>えます。アンナさんの コートは <ruby>黄色<rt>きいろ</rt></ruby>くて、とおくからでも すぐ わかります。メキシコの まちは、もっと <ruby>色<rt>いろ</rt></ruby>が おおいです。でも、<ruby>少<rt>すく</rt></ruby>ない <ruby>色<rt>いろ</rt></ruby>の <ruby>中<rt>なか</rt></ruby>の <ruby>赤<rt>あか</rt></ruby>は、よく <ruby>見<rt>み</rt></ruby>えます。はるに なると、やまが <ruby>緑<rt>みどり</rt></ruby>に かわるそうです。ひるごはんを たべながら、アンナさんが おしえて くれました。「その <ruby>色<rt>いろ</rt></ruby>を <ruby>見<rt>み</rt></ruby><em class=\"g\">なくては なりません</em>よ」と わらって <ruby>言<rt>い</rt></ruby>いました。",
+ "traduccion": "El invierno de Kobe es sobre todo blanco y gris. Pero en enero se encienden farolillos rojos delante de las tiendas. La montaña es marrón y el mar se ve azul. El abrigo de Anna es amarillo y se distingue desde lejos. En las ciudades de México hay muchos más colores. Pero el rojo, entre pocos colores, se ve muchísimo mejor. Dicen que en primavera la montaña se vuelve verde. Anna me lo contó mientras comíamos. «Ese color tienes que verlo», dijo riéndose.",
  "preguntas": [
   {
    "p": "<ruby>冬<rt>ふゆ</rt></ruby>の こうべは どんな <ruby>色<rt>いろ</rt></ruby>ですか。",
@@ -35,5 +35,5 @@
    "correcta": 2
   }
  ],
- "traduccion_en": "Winter in Kobe is mostly white and grey. But in January red lanterns light up in front of the shops. The mountain is brown and the sea looks blue. Anna's coat is yellow and you can spot it from far off. Mexican cities have far more colour. But when there are few, red stands out more."
+ "traduccion_en": "Winter in Kobe is mostly white and grey. But in January red lanterns go up in front of the shops. The mountain is brown and the sea looks blue. Anna's coat is yellow and you can spot it from far away. Mexican towns have far more colour. But red, among few colours, stands out much more. They say that in spring the mountain turns green. Anna told me over lunch. «You have to see that colour,» she said, laughing."
 }

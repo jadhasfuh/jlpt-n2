@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/kurashi/rutina-1",
  "titulo": "まいにちの じゅんばん",
- "cuerpo": "<ruby>朝<rt>あさ</rt></ruby> <ruby>六時<rt>ろくじ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きて、シャワーを <ruby>浴<rt>あ</rt></ruby>びます。かおを <ruby>洗<rt>あら</rt></ruby>って、はを みがいて、パンを <ruby>食<rt>た</rt></ruby>べます。<ruby>学校<rt>がっこう</rt></ruby>が おわると、バイトか、うちで べんきょうです。<ruby>暇<rt>ひま</rt></ruby>な <ruby>日<rt>ひ</rt></ruby>は、そとを あるきます。<ruby>夜<rt>よる</rt></ruby>は お<ruby>風呂<rt>ふろ</rt></ruby>に <ruby>入<rt>はい</rt></ruby>って、<ruby>十二時<rt>じゅうにじ</rt></ruby>に <ruby>休<rt>やす</rt></ruby>みます。この じゅんばんが できてから、<ruby>日本語<rt>にほんご</rt></ruby>が <ruby>少<rt>すこ</rt></ruby>しずつ よく なりました。",
- "traduccion": "Me levanto a las seis y me ducho. Me lavo la cara, me lavo los dientes y desayuno pan. Al salir de clase, o trabajo o estudio en casa. Los días libres salgo a caminar. Por la noche me doy un baño y a las doce me acuesto. Desde que tengo este orden, mi japonés va mejorando poco a poco.",
+ "cuerpo": "<ruby>朝<rt>あさ</rt></ruby> <ruby>六時<rt>ろくじ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きて、シャワーを <ruby>浴<rt>あ</rt></ruby>びます。かおを <ruby>洗<rt>あら</rt></ruby>って、はを みがいて、パンを <ruby>食<rt>た</rt></ruby>べます。<ruby>学校<rt>がっこう</rt></ruby>が おわると、バイトか、うちで べんきょう<em class=\"g\">です</em>。<ruby>暇<rt>ひま</rt></ruby>な <ruby>日<rt>ひ</rt></ruby>は、そとを あるきます。<ruby>夜<rt>よる</rt></ruby>は お<ruby>風呂<rt>ふろ</rt></ruby>に <ruby>入<rt>はい</rt></ruby>って、<ruby>十二時<rt>じゅうにじ</rt></ruby>に <ruby>休<rt>やす</rt></ruby>みます。この じゅんばんが できてから、<ruby>日本語<rt>にほんご</rt></ruby>が <ruby>少<rt>すこ</rt></ruby>しずつ よく なりました。<ruby>雨<rt>あめ</rt></ruby>の <ruby>日<rt>ひ</rt></ruby>は バスに のります。ゆかを <ruby>掃<rt>は</rt></ruby>くのは、しごとの ない <ruby>日<rt>ひ</rt></ruby>だけです。ほかの ことは あとまわしに しても、この じゅんばんだけは くずしません。",
+ "traduccion": "Me levanto a las seis y me ducho. Me lavo la cara, me lavo los dientes y desayuno pan. Al salir de clase, o trabajo o estudio en casa. Los días libres salgo a caminar. Por la noche me doy un baño y a las doce me acuesto. Desde que tengo este orden, el japonés me va saliendo poco a poco mejor. Los días de lluvia cojo el autobús. Barrer el suelo lo dejo sólo para los días que no trabajo. Lo demás lo puedo posponer, pero este orden no lo rompo.",
  "preguntas": [
   {
    "p": "<ruby>朝<rt>あさ</rt></ruby>、なんじに <ruby>起<rt>お</rt></ruby>きますか。",
@@ -35,5 +35,5 @@
    "correcta": 3
   }
  ],
- "traduccion_en": "I get up at six and have a shower. I wash my face, brush my teeth and have bread. After school it's either work or studying at home. On free days I go out for a walk. At night I take a bath and go to bed at twelve. Since I've had this routine, my Japanese has been getting better bit by bit."
+ "traduccion_en": "I get up at six and take a shower. I wash my face, brush my teeth and eat some bread. After school it is either work or studying at home. On free days I go out walking. At night I take a bath and go to bed at twelve. Since I got this routine, my Japanese has slowly got better. On rainy days I take the bus. Sweeping the floor I save for days I am not working. Everything else can wait, but this order I do not break."
 }
