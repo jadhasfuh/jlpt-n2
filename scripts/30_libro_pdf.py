@@ -114,23 +114,46 @@ def ancho(t, fuente=("Mincho", CUERPO)):
 NO_INICIAN = set("、。，．・：；！？」』）］｝〉》”’ーぁぃぅぇぉっゃゅょゎヵヶァィゥェォッャュョ")
 
 
+def palabras(ts):
+    """Agrupa los trozos en PALABRAS, usando los espacios del 分かち書き.
+
+    El japonés normal se puede cortar entre casi cualquier par de caracteres,
+    pero este libro va escrito con espacios entre palabras y cortar dentro
+    —食べまし / た— se lee fatal a este nivel. Cortando sólo en los espacios,
+    cada renglón acaba en palabra entera."""
+    fuera, act = [], []
+    for tr in ts:
+        if tr[0] == " ":
+            if act: fuera.append(act); act = []
+            fuera.append([tr])
+        else:
+            act.append(tr)
+    if act: fuera.append(act)
+    return fuera
+
+
+def ancho_de(pal):
+    return sum(max(ancho(b), ancho(l or "", ("Mincho", FURIGANA))) for b, l, _ in pal)
+
+
 def renglones(ts, caja):
     """Reparte los trozos en renglones. Se corta en los espacios, que es donde
     corta un libro para principiantes; si un bloque no cabe, se corta igual."""
     fuera, linea, x = [], [], 0.0
-    for base, lec, g in ts:
-        w = max(ancho(base), ancho(lec or "", ("Mincho", FURIGANA)))
-        if base == " ":
+    for pal in palabras(ts):
+        w = ancho_de(pal)
+        if pal[0][0] == " ":
+            # un espacio al final de renglón no se pinta: se traga el corte
             if x + w > caja and linea:
                 fuera.append(linea); linea, x = [], 0.0
                 continue
         elif x + w > caja and linea:
-            # si lo que abre el renglón nuevo no puede abrirlo, se queda aquí
-            if base and base[0] in NO_INICIAN:
-                linea.append((base, lec, g)); x += w
+            # lo que no puede abrir renglón se queda en el de antes
+            if pal[0][0] and pal[0][0][0] in NO_INICIAN:
+                linea += pal; x += w
                 continue
             fuera.append(linea); linea, x = [], 0.0
-        linea.append((base, lec, g)); x += w
+        linea += pal; x += w
     if linea: fuera.append(linea)
     return fuera
 
@@ -168,18 +191,18 @@ COLUMNA = CUERPO * 2.15          # ancho de columna: cuerpo + furigana al lado
 def columnas(ts, alto):
     """Reparte los trozos en columnas de `alto` puntos, de arriba abajo."""
     fuera, col, usado = [], [], 0.0
-    for base, lec, g in ts:
-        h = len(base) * CUERPO
-        if base == " ":
+    for pal in palabras(ts):
+        h = sum(len(b) for b, _, _ in pal) * CUERPO
+        if pal[0][0] == " ":
             if usado + h > alto and col:
                 fuera.append(col); col, usado = [], 0.0
                 continue
         elif usado + h > alto and col:
-            if base and base[0] in NO_INICIAN:
-                col.append((base, lec, g)); usado += h
+            if pal[0][0] and pal[0][0][0] in NO_INICIAN:
+                col += pal; usado += h
                 continue
             fuera.append(col); col, usado = [], 0.0
-        col.append((base, lec, g)); usado += h
+        col += pal; usado += h
     if col: fuera.append(col)
     return fuera
 
@@ -295,6 +318,55 @@ elif "--sin-portada" not in sys.argv:
   c.setFillGray(0)
   c.showPage()
 
+# ------------------------------------------------- las páginas de entrada
+# Cómo se usa el libro y el índice. Van antes del capítulo 1 porque es lo que
+# uno mira al abrirlo, y porque el QR de cada capítulo no se entiende si no se
+# ha explicado antes para qué sirve.
+def _fila_indice(y, num, titulo):
+    c.setFont("Gothic", 8); c.setFillGray(0.45)
+    c.drawRightString(M_CANTO + 8 * mm, y, str(num))
+    c.setFillGray(0); c.setFont("Mincho", 9)
+    for base, lec, _ in [x for ln in renglones(trozos(titulo), CAJA - 14 * mm)[:1] for x in ln]:
+        pass
+    c.drawString(M_CANTO + 12 * mm, y, re.sub(r"<[^>]+>", "", RUBY.sub(r"\1", titulo)))
+
+
+if "--sin-portada" not in sys.argv:
+    # ---- cómo se usa ----
+    y = ALTO - M_ARRIBA - 6 * mm
+    c.setFont("Mincho", 16); c.drawString(M_CANTO, y, "この 本の つかい方")
+    y -= 12 * mm
+    c.setFont("Gothic", 9.5); c.setFillGray(0.2)
+    for linea in ("Cada capítulo tiene dos partes. Primero las palabras y la",
+                  "gramática que vas a necesitar; después la historia.",
+                  "",
+                  "Léelo entero antes de mirar nada. Si te atascas, vuelve a la",
+                  "lista de la izquierda: todo lo que hace falta está ahí.",
+                  "",
+                  "Al final de cada capítulo hay un código. Con la cámara del",
+                  "móvil te lleva a esa misma lección en jlptest.org, donde",
+                  "puedes oír el texto, ver la traducción y hacer el test.",
+                  "",
+                  "Está al final y no al principio a propósito: mirar la",
+                  "traducción antes de leer es dejar de leer.",
+                  "",
+                  "La gramática del capítulo va marcada en el texto con otra",
+                  "letra y un subrayado fino, para que se vea dónde se usa."):
+        c.drawString(M_CANTO, y, linea); y -= 6.2 * mm
+    c.setFillGray(0)
+    c.showPage()
+
+    # ---- índice ----
+    y = ALTO - M_ARRIBA - 6 * mm
+    c.setFont("Mincho", 16); c.drawString(M_CANTO, y, "もくじ")
+    y -= 11 * mm
+    for i, uid_i in enumerate(orden, 1):
+        if y < M_ABAJO:
+            c.showPage(); y = ALTO - M_ARRIBA
+        _fila_indice(y, i, lecturas[uid_i]["titulo"])
+        y -= 5.4 * mm
+    c.showPage()
+
 for n, uid in enumerate(capitulos, desde + 1):
     u, l = unidades[uid], lecturas[uid]
     gram_formas = formas_gramatica(u["gramatica"])
@@ -366,67 +438,65 @@ for n, uid in enumerate(capitulos, desde + 1):
     else: c.setPageSize((ANCHO, ALTO))
 
     # ---------------------------------------------------- derecha: la historia
+    #
+    # El orden es TEXTO y después DIBUJO, no al revés. Antes el dibujo se metía
+    # en el hueco que sobraba, así que caía en medio de la historia y cada
+    # capítulo lo tenía de un tamaño distinto. Ahora el texto corre entero —por
+    # las páginas que haga falta— y el dibujo cierra el capítulo, siempre con
+    # la misma medida.
+    ANCHO_DIB = CAJA
+    ALTO_DIB = CAJA * 2 / 3          # los dibujos son 3:2
+
+    def pon_qr(x, y_base, lado=17 * mm):
+        """El QR a la lección de la app: ahí están el test y la traducción.
+
+        Va al final del capítulo, que es cuando uno acaba de leer y quiere
+        comprobar si lo ha entendido. Al principio sería una invitación a no
+        leer."""
+        from reportlab.graphics.barcode import qr
+        from reportlab.graphics.shapes import Drawing, Group
+        from reportlab.graphics import renderPDF
+        w = qr.QrCodeWidget(f"https://jlptest.org/libro/n5?c={n - 1}",
+                            barLevel="M", barBorder=0)
+        b = w.getBounds()
+        g = Group(w)
+        g.transform = (lado / (b[2] - b[0]), 0, 0, lado / (b[3] - b[1]),
+                       -b[0] * lado / (b[2] - b[0]), -b[1] * lado / (b[3] - b[1]))
+        d = Drawing(lado, lado)
+        d.add(g)
+        renderPDF.draw(d, c, x, y_base)
+        c.setFont("Gothic", 5.6); c.setFillGray(0.5)
+        c.drawCentredString(x + lado / 2, y_base - 3.6 * mm, "アプリで れんしゅう")
+        c.setFillGray(0)
+
+    def pon_dibujo(x, y_base):
+        f = dibujo_de(n, uid)
+        if f:
+            pinta_dibujo(c, f, x, y_base, ANCHO_DIB, ALTO_DIB)
+        else:
+            c.setDash(2, 3); c.setStrokeGray(0.7)
+            c.rect(x, y_base, ANCHO_DIB, ALTO_DIB); c.setDash()
+            c.setFont("Gothic", 7); c.setFillGray(0.5)
+            c.drawCentredString(x + ANCHO_DIB / 2, y_base + ALTO_DIB / 2,
+                                f"falta el dibujo   {ANCHO_DIB/mm:.0f} × {ALTO_DIB/mm:.0f} mm")
+            c.setFillGray(0)
+        huecos.append(("grande", n, ALTO_DIB / mm))
+
     if VERTICAL:
         # En un libro japonés el lomo va a la derecha, así que el margen ancho
         # —el que se come la costura— cambia de lado.
         x_der, x_izq = ANCHO - M_LOMO, M_CANTO
         y_alto = ALTO - M_ARRIBA
+        alto_col = y_alto - M_ABAJO
         c.setFont("Gothic", 8); c.setFillGray(0.45)
         c.drawString(M_CANTO, ALTO - M_ARRIBA, f"{n}")
         c.setFillGray(0)
 
-        # El dibujo va en una BANDA APAISADA ARRIBA, no en el hueco que sobre.
-        #
-        # En vertical lo que sobra es una tira alta y estrecha —43 mm de ancho
-        # por 168 de alto en el capítulo 1—, y los dibujos son 3:2 apaisados.
-        # Meterlos ahí obligaría a redibujar los 103 en vertical. Con la banda
-        # arriba se reusan tal cual, y además es como lo hace media literatura
-        # infantil japonesa: estampa arriba, columnas debajo.
-        ancho_dib = ANCHO - M_LOMO - M_CANTO
-        # La banda se queda con lo que sobre, no al revés: con una altura fija
-        # de 2/3 del ancho había 14 capítulos a los que ya no les cabía el
-        # texto. Se prueba de la más alta a la más baja y se coge la primera
-        # que deja sitio a todas las columnas.
-        disponible = x_der - x_izq
-        alto_dib = 0.0
-        for prueba in [ancho_dib * r for r in
-                       (2/3, 0.58, 0.5, 0.42, 0.34, 0.26, 0.18, 0.0)]:
-            alto_col_p = (ALTO - M_ARRIBA - (prueba + AIRE_ABAJO if prueba else 0)) - M_ABAJO
-            n_tit = len(columnas(trozos(l["titulo"]), alto_col_p)[:2])
-            n_cue = len(columnas(trozos(l["cuerpo"], gram_formas), alto_col_p))
-            # el título separa un poco más que el cuerpo
-            if n_tit * COLUMNA * 1.15 + n_cue * COLUMNA <= disponible:
-                alto_dib = prueba
-                break
-        if alto_dib:
-            f = dibujo_de(n, uid)
-            if f:
-                pinta_dibujo(c, f, x_izq, ALTO - M_ARRIBA - alto_dib,
-                             ancho_dib, alto_dib)
-            else:
-                c.setDash(2, 3); c.setStrokeGray(0.7)
-                c.rect(x_izq, ALTO - M_ARRIBA - alto_dib, ancho_dib, alto_dib)
-                c.setDash(); c.setFont("Gothic", 7); c.setFillGray(0.5)
-                c.drawCentredString(ANCHO / 2, ALTO - M_ARRIBA - alto_dib / 2,
-                                    f"falta el dibujo   {ancho_dib/mm:.0f} × "
-                                    f"{alto_dib/mm:.0f} mm")
-                c.setFillGray(0)
-            huecos.append(("grande", n, alto_dib / mm))
-        else:
-            huecos.append(("viñeta", n, 0))
-
-        y_alto = ALTO - M_ARRIBA - (alto_dib + AIRE_ABAJO if alto_dib else 0)
-        alto_col = (y_alto - M_ABAJO)
-        cols_tit = columnas(trozos(l["titulo"]), alto_col)
         x = x_der
-        for col in cols_tit[:2]:
-            pinta_columna(c, x, y_alto, col); x -= COLUMNA * 1.15
-
-        # Igual que en horizontal: si no caben todas las columnas, el capítulo
-        # sigue en la página siguiente.
-        cols = columnas(trozos(l["cuerpo"], gram_formas), alto_col)
+        cols_tit = columnas(trozos(l["titulo"]), alto_col)[:2]
+        cols = cols_tit + columnas(trozos(l["cuerpo"], gram_formas), alto_col)
         extra = 0
-        for col in cols:
+        for k, col in enumerate(cols):
             if x - COLUMNA < x_izq:
                 c.showPage(); extra += 1
                 x, y_alto = x_der, ALTO - M_ARRIBA
@@ -434,7 +504,16 @@ for n, uid in enumerate(capitulos, desde + 1):
                 c.setFont("Gothic", 8); c.setFillGray(0.45)
                 c.drawString(M_CANTO, ALTO - M_ARRIBA, f"{n}")
                 c.setFillGray(0)
-            pinta_columna(c, x, y_alto, col); x -= COLUMNA
+            pinta_columna(c, x, y_alto, col)
+            x -= COLUMNA * (1.15 if k < len(cols_tit) else 1)
+
+        # el dibujo cierra el capítulo: en lo que quede a la izquierda si cabe,
+        # y si no, en la página siguiente
+        if x - x_izq < ANCHO_DIB:
+            c.showPage(); extra += 1
+            x = x_der
+        pon_dibujo(x - ANCHO_DIB, (ALTO - ALTO_DIB) / 2)
+        pon_qr(x - ANCHO_DIB, (ALTO - ALTO_DIB) / 2 - 25 * mm)
         if extra:
             largos.append((n, extra))
         c.showPage()
@@ -446,55 +525,29 @@ for n, uid in enumerate(capitulos, desde + 1):
     c.setFillGray(0); y -= 7 * mm
     for ln in renglones(trozos(l["titulo"]), CAJA)[:2]:
         pinta_renglon(c, x0, y, ln); y -= INTERLINEA * 1.25
+    y -= INTERLINEA * 0.4
 
-    lineas = renglones(trozos(l["cuerpo"], gram_formas), CAJA)
-    alto_texto = len(lineas) * INTERLINEA
-    y_texto_fin = M_ABAJO
-    hueco_alto = (y - AIRE_ARRIBA) - (y_texto_fin + alto_texto)
-
-    # Cuando el texto es largo, el hueco que sobra no da para un dibujo digno.
-    # Antes eso dejaba el capítulo sin dibujo; ahora manda el dibujo y el texto
-    # sigue en la página siguiente, que es para lo que se permitió el doble
-    # pliego. Un capítulo largo no tiene por qué ser un capítulo sin dibujo.
-    BANDA = 62 * mm
-    if hueco_alto < 35 * mm + AIRE_ARRIBA + AIRE_ABAJO:
-        hueco_alto = BANDA + AIRE_ARRIBA + AIRE_ABAJO
-
-    if hueco_alto > 20 * mm + AIRE_ABAJO:          # cabe el dibujo grande
-        alto_dib = hueco_alto - AIRE_ARRIBA - AIRE_ABAJO
-        base_dib = y - AIRE_ARRIBA - alto_dib
-        f = dibujo_de(n, uid)
-        if f:
-            pinta_dibujo(c, f, x0, base_dib, CAJA, alto_dib)
-        else:
-            c.setDash(2, 3); c.setStrokeGray(0.7)
-            c.rect(x0, base_dib, CAJA, alto_dib)
-            c.setDash()
-            c.setFont("Gothic", 7); c.setFillGray(0.5)
-            c.drawCentredString(x0 + CAJA / 2, base_dib + alto_dib / 2,
-                                f"falta el dibujo   {CAJA/mm:.0f} × "
-                                f"{alto_dib/mm:.0f} mm")
-            c.setFillGray(0)
-        huecos.append(("grande", n, alto_dib / mm))
-        y = base_dib - AIRE_ABAJO
-    else:                                          # sólo cabe una viñeta
-        huecos.append(("viñeta", n, 0))
-
-    # Un capítulo puede pasar de una página. Cuando el texto no cabe, sigue en
-    # la siguiente en vez de recortarse: es preferible un capítulo de dos hojas
-    # a una historia a la que le falta el final.
-    paginas_extra = 0
-    for ln in lineas:
+    extra = 0
+    for ln in renglones(trozos(l["cuerpo"], gram_formas), CAJA):
         if y < M_ABAJO:
-            c.showPage()
-            paginas_extra += 1
+            c.showPage(); extra += 1
             y = ALTO - M_ARRIBA
             c.setFont("Gothic", 8); c.setFillGray(0.45)
             c.drawRightString(ANCHO - M_CANTO, y, f"{n}")
             c.setFillGray(0); y -= 9 * mm
         pinta_renglon(c, x0, y, ln); y -= INTERLINEA
-    if paginas_extra:
-        largos.append((n, paginas_extra))
+
+    # El alto que hay que reservar es el del dibujo MÁS el del QR: si sólo se
+    # mira el dibujo, el QR se sale de la caja y dos capítulos se quedaban sin él.
+    ALTO_CIERRE = ALTO_DIB + 25 * mm
+    y -= AIRE_ARRIBA
+    if y - ALTO_CIERRE < M_ABAJO:
+        c.showPage(); extra += 1
+        y = ALTO - M_ARRIBA
+    pon_dibujo(x0, y - ALTO_DIB)
+    pon_qr(x0 + CAJA - 17 * mm, y - ALTO_DIB - 21 * mm)
+    if extra:
+        largos.append((n, extra))
     c.showPage()
 
 _paginas = c.getPageNumber() - 1

@@ -51,9 +51,15 @@ def interior():
     """El interior, ya montado por 30_libro_pdf.py, con las páginas en blanco
     que hagan falta para que el total sea múltiplo de 4."""
     from pypdf import PdfReader, PdfWriter
-    origen = RAIZ / "docs" / "libro-n5-maqueta.pdf"
+    # La edición que se imprime es la VERTICAL: es como se lee un libro en
+    # Japón. Con --horizontal sale la otra.
+    vertical = "--horizontal" not in sys.argv
+    origen = RAIZ / "docs" / ("libro-n5-maqueta-vertical.pdf" if vertical
+                              else "libro-n5-maqueta.pdf")
     if not origen.exists():
-        sys.exit("falta docs/libro-n5-maqueta.pdf; corre antes scripts/30_libro_pdf.py")
+        sys.exit(f"falta {origen.name}; corre antes scripts/30_libro_pdf.py"
+                 + (" --vertical" if vertical else ""))
+    print(f"  edición: {'VERTICAL (縦書き, se cose por la DERECHA)' if vertical else 'horizontal'}")
     r = PdfReader(str(origen))
     w = PdfWriter()
     for p in r.pages:
@@ -98,19 +104,34 @@ def cubierta(paginas, papel="90g-offset"):
     pdfmetrics.registerFont(TTFont("Mincho", str(FUENTES / "ipaexm.ttf")))
     c.setFillColorRGB(0.11, 0.12, 0.14)
     c.setFont("Gothic", 10)
-    tx = c.beginText(SANGRE + 18 * mm, H - SANGRE - 45 * mm)
-    tx.setLeading(16)
-    for l in ("Carlos llega a Kobe con una agencia que",
-              "contrató por internet. De ahí salen el papeleo,",
-              "la escuela, el trabajo de medio tiempo y los",
-              "viajes mal planeados.",
+    # En japonés: es un libro que se lee en Japón, y la contraportada es lo
+    # primero que mira quien lo coge en una tienda de allí.
+    c.setFont("Mincho", 10.5)
+    tx = c.beginText(SANGRE + 18 * mm, H - SANGRE - 42 * mm)
+    tx.setLeading(19)
+    for l in ("カルロスは メキシコから 神戸に 来ました。",
+              "インターネットの エージェントで きめた",
+              "がっこうと、ちいさい アパートと、",
+              "ピザやの アルバイトの 一年の はなしです。",
               "",
-              "103 capítulos, una sola historia, escrita entera",
-              "con el vocabulario y la gramática del N5.",
+              "ぜんぶ N5の ことばと ぶんぽうだけで",
+              "書いて あります。103の しょうが、",
+              "ひとつづきの ものがたりに なって います。",
+              "",
+              "かんじには ぜんぶ ふりがなが ついて います。"):
+        tx.textLine(l)
+    c.drawText(tx)
+    c.setFont("Gothic", 9); c.setFillColorRGB(0.35, 0.36, 0.40)
+    tx = c.beginText(SANGRE + 18 * mm, H - SANGRE - 118 * mm)
+    tx.setLeading(14)
+    for l in ("Un año en Kobe. Ciento tres capítulos, una sola",
+              "historia, escrita entera con el vocabulario y la",
+              "gramática del N5. Todos los kanji llevan furigana.",
               "",
               "jlptest.org"):
         tx.textLine(l)
     c.drawText(tx)
+    c.setFillColorRGB(0.11, 0.12, 0.14)
 
     # el lomo, girado
     c.saveState()
@@ -133,6 +154,8 @@ def cubierta(paginas, papel="90g-offset"):
     print(f"  cubierta  → {destino.relative_to(RAIZ)}")
     print(f"    {W/mm:.0f} × {H/mm:.0f} mm  ·  lomo {lomo/mm:.1f} mm "
           f"({paginas} páginas en {papel})  ·  3 mm de sangre y marcas de corte")
+    print("    OJO: encuadernación 右綴じ, por la derecha. Hay que decírselo a la")
+    print("    imprenta: por defecto montan a la occidental y saldría del revés.")
 
 
 if __name__ == "__main__":

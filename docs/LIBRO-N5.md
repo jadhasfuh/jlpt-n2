@@ -348,6 +348,36 @@ el **título y el logo se dibujan a tamaño final**, que es donde de verdad se
 nota la falta de resolución: una letra ampliada canta y una línea de tinta
 ampliada no.
 
+### La maqueta del capítulo
+
+El orden es **texto y después dibujo**, nunca al revés. Antes el dibujo se metía
+en el hueco que sobrara, así que caía en medio de la historia y cada capítulo lo
+tenía de un tamaño distinto. Ahora el texto corre entero —por las páginas que
+haga falta— y el dibujo cierra el capítulo, **siempre a 115 × 77 mm**.
+
+Los cortes de renglón caen **en los espacios**, no en cualquier carácter. El
+japonés normal se puede partir entre casi cualquier par de letras, pero este
+libro va en 分かち書き y partir dentro de una palabra —食べまし / た— se lee
+fatal a este nivel.
+
+Al final de cada capítulo va un **QR a esa misma lección en la app**, donde
+están el audio, la traducción y el test. Va al final y no al principio a
+propósito: mirar la traducción antes de leer es dejar de leer.
+
+Delante de todo hay dos páginas de entrada: **cómo se usa el libro** y el
+**índice** de los 103 capítulos.
+
+### Nombres propios y números, en kanji
+
+神戸, 札幌, 三宮, 花隈, 元町, 東京, 西神中央, 日本 — todos con furigana. Los
+kanji van muy por encima de N5, pero al llegar a Japón las estaciones y los
+carteles no están en kana: saber leerlos es de lo primero que hace falta.
+
+Igual con los números y las horas: 四時 y no よじ, 二人 y no ふたり. Al
+convertirlos hay que mirar lo que va delante y detrás, porque 「いちじ」 sale
+dentro de 「じゅういちじ」 (las once) y de 「いちじかん」 (una hora), y 「とお」
+dentro de とおい y とおり.
+
 ### Para la imprenta
 
 `python3 scripts/35_libro_imprenta.py` deja en `docs/imprenta/` los dos
@@ -356,7 +386,7 @@ separado, nunca juntos—:
 
 | | |
 |---|---|
-| `libro-n5-interior.pdf` | 148 × 210 mm, 208 páginas, una tinta |
+| `libro-n5-interior.pdf` | 148 × 210 mm, una tinta — **sale de la edición VERTICAL** |
 | `libro-n5-cubierta.pdf` | 313 × 216 mm: contra + lomo + portada, con sangre y marcas |
 
 Lo comprobado, no de memoria:
