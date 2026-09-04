@@ -71,6 +71,12 @@ def revisa(uid, html, niveles):
     finales = [f for f in re.split(r"[。！？]", re.sub(r"「[^」]*」", "", texto)) if f.strip()]
     CORTES = re.compile(r"(です|ます|ました|ません|でした|でしょう|ましょう|"
                         r"ください|ませんか|ましょうか)か?$")
+    # Una enumeración no es un predicado: 「コップと スプーンと フォーク。」 no
+    # está en forma llana, es una lista. Se reconoce porque no lleva ni verbo
+    # ni adjetivo al final. Misma excepción que 27_validar_registro.
+    def es_predicado(f):
+        return bool(re.search(r"[うくぐすつぬぶむるいたてでな]$|[ぁ-ん]$", f.strip()))
+    finales = [f for f in finales if es_predicado(f)]
     cortes = sum(1 for f in finales if CORTES.search(f.strip()))
     if finales and 0 < cortes < len(finales):
         llanas = [f.strip()[-12:] for f in finales if not CORTES.search(f.strip())]

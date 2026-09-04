@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/kotoba/preguntar-1",
  "titulo": "とまる ところが ない",
- "cuerpo": "<ruby>夜<rt>よる</rt></ruby> <ruby>八時<rt>はちじ</rt></ruby>に なっても、とまる ところが ありませんでした。ホテルは どこも いっぱいか、たかすぎました。ゴンサが みせの <ruby>人<rt>ひと</rt></ruby>に たのんで、ちかくの ばしょを <ruby>聞<rt>き</rt></ruby>きました。その <ruby>人<rt>ひと</rt></ruby>は 「ネットカフェは どうですか」と こたえました。ぼくたちは その ことばを <ruby>知<rt>し</rt></ruby>りませんでした。「やすいですよ。<ruby>朝<rt>あさ</rt></ruby>まで いられます」と <ruby>教<rt>おし</rt></ruby>えて くれました。",
- "traduccion": "A las ocho de la noche seguíamos sin sitio donde dormir. Los hoteles estaban llenos o eran carísimos. Gonza le pidió ayuda a alguien de una tienda y preguntó por sitios cercanos. Aquel hombre contestó: «¿y un cibercafé?». Nosotros no conocíamos esa palabra. «Es barato. Puedes quedarte hasta la mañana», nos explicó.",
+ "cuerpo": "<ruby>夜<rt>よる</rt></ruby> <ruby>八時<rt>はちじ</rt></ruby>に なっても、とまる ところが ありませんでした。ホテルは どこも いっぱいか、たかすぎました。ゴンサが みせの <ruby>人<rt>ひと</rt></ruby>に たのんで、ちかくの ばしょを <ruby>聞<rt>き</rt></ruby>きました。その <ruby>人<rt>ひと</rt></ruby>は 「ネットカフェは どうですか」と こたえました。ぼくたちは その ことばを <ruby>知<rt>し</rt></ruby>りませんでした。「やすいですよ。<ruby>朝<rt>あさ</rt></ruby>まで いられます」と <ruby>教<rt>おし</rt></ruby>えて くれました。ぼくは かばんから ノートを <ruby>出<rt>だ</rt></ruby>して、みちを かいて もらいました。「<ruby>問題<rt>もんだい</rt></ruby>は、<ruby>今晩<rt>こんばん</rt></ruby>だけじゃ ない」と ゴンサが <ruby>言<rt>い</rt></ruby>いました。あしたの <ruby>夜<rt>よる</rt></ruby>も きめて い<em class=\"g\">ないと いけません</em>。<ruby>外<rt>そと</rt></ruby>は もう くらくて、<ruby>雪<rt>ゆき</rt></ruby>が つよく なって いました。",
+ "traduccion": "A las ocho de la noche seguíamos sin sitio donde dormir. Los hoteles estaban llenos o eran carísimos. Gonza le pidió ayuda a alguien de una tienda y preguntó por sitios cercanos. Aquel hombre contestó: «¿y un cibercafé?». Nosotros no conocíamos la palabra. «Es barato. Puedes quedarte hasta la mañana», nos explicó. Saqué el cuaderno de la bolsa y le pedí que me dibujara el camino. «El problema no es sólo esta noche», dijo Gonza. Lo de mañana también hay que decidirlo. Fuera ya era de noche y la nieve caía más fuerte.",
  "preguntas": [
   {
    "p": "<ruby>夜<rt>よる</rt></ruby> <ruby>八時<rt>はちじ</rt></ruby>に、なにが ありませんでしたか。",
@@ -35,5 +35,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "By eight in the evening we still had nowhere to sleep. The hotels were either full or far too expensive. Gonza asked someone in a shop for help and about places nearby. The man answered: «what about an internet café?». We didn't know the word. «It's cheap. You can stay until morning», he explained."
+ "traduccion_en": "By eight at night we still had nowhere to stay. Every hotel was full or far too expensive. Gonsa asked someone in a shop for help and enquired about places nearby. The man answered, «how about an internet café?» We did not know the word. «It's cheap. You can stay until morning,» he explained. I took my notebook out of my bag and had him draw the way. «The problem isn't just tonight,» said Gonsa. We have to sort out tomorrow night too. Outside it was already dark and the snow was coming down harder."
 }
