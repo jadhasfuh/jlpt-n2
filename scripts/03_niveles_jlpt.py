@@ -15,14 +15,19 @@ KANJI = re.compile(r"[一-鿿]")
 
 def cargar(nivel):
     filas = list(csv.DictReader(open(RAW / f"jlpt_{nivel.lower()}.csv", encoding="utf-8")))
-    escrituras, lecturas = set(), set()
+    escrituras, lecturas, pares = set(), set(), set()
     for f in filas:
         e = (f.get("expression") or "").strip()
         l = (f.get("reading") or "").strip()
         if e: escrituras.add(e)
         if l: lecturas.add(l)
         if e and not l: lecturas.add(e)
-    return filas, escrituras, lecturas
+        # La lista distingue 円/えん (N5, el yen) de 円/まる (N3, el círculo) y
+        # 杯/はい (N5, el contador) de 杯/さかずき (N1, la copa). Esa pareja es
+        # la que identifica la palabra; ni la grafía ni la lectura por
+        # separado valen.
+        if e and l: pares.add((e, l))
+    return filas, escrituras, lecturas, pares
 
 listas = {n: cargar(n) for n in NIVELES}
 for n in NIVELES:
@@ -36,12 +41,64 @@ vocab = json.load(open("data/build/vocab_raw.json", encoding="utf-8"))
 vocab = [r for r in vocab if r["id"] < ID_N1]
 print(f"\npool de partida: {len(vocab)}")
 
+# Lo poco que la lista de origen tiene mal, puesto a mano. Manda sobre ella.
+A_MANO = {}
+_m = pathlib.Path("data/fuente/niveles_a_mano.tsv")
+if _m.exists():
+    for _l in _m.read_text(encoding="utf-8").splitlines():
+        if not _l.strip() or _l.startswith("#"):
+            continue
+        _c = _l.split("\t")
+        if len(_c) >= 3:
+            A_MANO[(_c[0].strip(), _c[1].strip())] = _c[2].strip()
+    print(f"niveles puestos a mano: {len(A_MANO)}")
+
+
 def nivel_de(kana, kanji):
-    """El nivel más fácil donde aparece la palabra. None si no está en ninguno."""
-    for n in NIVELES:
-        _, esc, lec = listas[n]
-        if (kanji and kanji in esc) or (kana in esc) or (kana in lec):
-            return n
+    """El nivel de la palabra. None si no está en ninguna lista.
+
+    Manda la pareja GRAFÍA+LECTURA; luego la grafía sola; y la lectura sólo si
+    la grafía no está en ninguna lista. Buscando por lectura a la vez, cada homófono de una palabra fácil
+    heredaba su nivel: せんせい está en la lista del N5 por 先生, así que 専制
+    «despotismo» entraba como vocabulario de estudio del N5. Igual 選択 por
+    洗濯, 仮定 por 課程, 防止 por 帽子 y 斬る «decapitar» por 切る — que llegó a
+    ser la única palabra de una unidad de N5 titulada 法律と犯罪.
+
+    Y con la grafía sola tampoco basta, porque el fallo existe también al
+    revés: 杯 es N5 como contador (はい) y N1 como copa de sake (さかずき), y
+    分 es N5 como minuto (ふん) y N3 como parte (ぶん). Las listas distinguen
+    las dos, así que se pregunta por la pareja. La lectura sigue haciendo
+    falta para lo que se escribe en kana, que en las listas no tiene grafía.
+    """
+    if (kanji, kana) in A_MANO:
+        return A_MANO[(kanji, kana)]
+    # 1) la pareja grafía+lectura, que es lo que identifica la palabra
+    if kanji and kana:
+        for n in NIVELES:
+            if (kanji, kana) in listas[n][3]:
+                return n
+    # 2) la misma palabra escrita en kana. La lista trae まだ como まだ y el
+    #    kanji 未だ sólo en N1, y leído いまだ, que es otra palabra: sin este
+    #    paso, nuestra まだ —que va escrita 未だ— se iba al N1. Se exige que la
+    #    entrada sea kana pura (grafía igual que lectura) para no volver a
+    #    coger un homófono por la lectura.
+    if kana:
+        for n in NIVELES:
+            if (kana, kana) in listas[n][3]:
+                return n
+    # 3) la lectura, SÓLO para lo que se escribe en kana. Es de donde salía el
+    #    fallo: preguntando por la lectura de una palabra con kanji, 専制 se
+    #    quedaba con el nivel de 先生.
+    if not kanji:
+        for n in NIVELES:
+            _, esc, lec, _ = listas[n]
+            if kana in esc or kana in lec:
+                return n
+    # Y si la palabra lleva kanji y no está en ninguna lista con su lectura, no
+    # se adivina: la grafía sola miente cuando la lista la trae con OTRA
+    # lectura. 足 sólo aparece como 足/そく, el contador de zapatos del N2, y
+    # con eso 足/あし «pie» —que es N5 de toda la vida— se iba al N2. Sin
+    # respuesta, quien llama se queda con el nivel que ya tenía.
     return None
 
 def limpio(s):

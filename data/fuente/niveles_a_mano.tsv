@@ -1,0 +1,10 @@
+# Nivel puesto a mano, cuando la lista de origen se equivoca.
+#
+# grafía <tab> lectura <tab> nivel <tab> por qué
+#
+# El nivel sale de jamsinclair/open-anki-jlpt-decks casando grafía+lectura, que
+# acierta casi siempre. Esto es para lo poco que la propia lista tiene mal, y
+# se queda corto a propósito: cada línea de aquí es una opinión nuestra contra
+# la fuente, así que hay que poder defenderla.
+四	よん	N5	La lista pone 四/し en N5 y 四/よん en N3. よん es la lectura corriente al contar y los números del 1 al 10 son N5 en el libro.
+方	ほう	N5	La lista lo baja a N3, pero より〜ほうが es gramática nuestra de N5: la palabra tiene que estar donde se usa.
