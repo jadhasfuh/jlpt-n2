@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/jikan/contadores-1",
  "titulo": "ピザやの さいしょの <ruby>日<rt>ひ</rt></ruby>",
- "cuerpo": "みせは ピザやでした。てんちょうは バングラデシュの <ruby>人<rt>ひと</rt></ruby>です。「<ruby>一<rt>いち</rt></ruby>、<ruby>二<rt>に</rt></ruby>、<ruby>三<rt>さん</rt></ruby>」と かぞえながら、しごとの じゅんばんを <ruby>教<rt>おし</rt></ruby>えて くれました。さらを あらって、テーブルを ふいて、ピザの はこを <ruby>作<rt>つく</rt></ruby>ります。はこは <ruby>十<rt>じゅう</rt></ruby>まいで <ruby>一<rt>ひと</rt></ruby>セットです。はやく うごく <ruby>人<rt>ひと</rt></ruby>たちで、みんな しごとを とても まじめに して います。そして、おどろいた ことに、ミンさんも そこで はたらいて いました。",
- "traduccion": "El sitio era una pizzería. El encargado es de Bangladesh. Contando «uno, dos, tres» me fue enseñando el orden del trabajo. Lavar los platos, limpiar las mesas, montar las cajas de pizza. Las cajas van de diez en diez. Es gente que se mueve rápido y se toma el trabajo muy en serio. Y, para mi sorpresa, Min también trabajaba allí.",
+ "cuerpo": "みせは ピザやでした。てんちょうは バングラデシュの <ruby>人<rt>ひと</rt></ruby>です。「<ruby>一<rt>いち</rt></ruby>、<ruby>二<rt>に</rt></ruby>、<ruby>三<rt>さん</rt></ruby>」と かぞえながら、しごとの じゅんばんを <ruby>教<rt>おし</rt></ruby>えて くれました。さらを あらって、テーブルを ふいて、ピザの はこを <ruby>作<rt>つく</rt></ruby>ります。はこは <ruby>十<rt>じゅう</rt></ruby>まいで <ruby>一<rt>ひと</rt></ruby>セットです。はやく うごく <ruby>人<rt>ひと</rt></ruby>たちで、みんな しごとを とても まじめに して います。そして、おどろいた ことに、ミンさんも そこで はたらいて いました。「<ruby>四<rt>よん</rt></ruby>、<ruby>五<rt>ご</rt></ruby>、<ruby>六<rt>ろく</rt></ruby>、<ruby>七<rt>しち</rt></ruby>、<ruby>八<rt>はち</rt></ruby>、<ruby>九<rt>きゅう</rt></ruby>」と、こえに <ruby>出<rt>だ</rt></ruby>して かぞえます。ピザの はこを <ruby>百<rt>ひゃく</rt></ruby>こ <ruby>作<rt>つく</rt></ruby>る <ruby>日<rt>ひ</rt></ruby>も あります。「<ruby>億<rt>おく</rt></ruby>まで かぞえるのか」と ゴンサに わらわれました。「どっちが はやいか、きょうで きめよう」と ミンさんが <ruby>言<rt>い</rt></ruby>いました。ぼくは <em class=\"g\">いつも</em> まけます。てんちょうは そばの きの <ruby>松<rt>まつ</rt></ruby>を <ruby>見<rt>み</rt></ruby>ながら、たばこを <ruby>一本<rt>いっぽん</rt></ruby> すいます。",
+ "traduccion": "El sitio era una pizzería. El encargado es de Bangladesh. Contando «uno, dos, tres» me fue enseñando el orden del trabajo. Lavar los platos, limpiar las mesas, montar las cajas de pizza. Las cajas van de diez en diez. Es gente que se mueve rápido y todos se toman el trabajo muy en serio. Y, para mi sorpresa, Min también trabajaba allí. «Cuatro, cinco, seis, siete, ocho, nueve», contamos en voz alta. Hay días en que montamos cien cajas de pizza. «¿Vas a contar hasta cien millones?», se rio Gonza. «Hoy decidimos quién es más rápido», dijo Min. Yo pierdo siempre. El encargado se fuma un cigarro mirando el pino de al lado.",
  "preguntas": [
   {
    "p": "てんちょうは どこの <ruby>人<rt>ひと</rt></ruby>ですか。",
@@ -35,5 +35,5 @@
    "correcta": 2
   }
  ],
- "traduccion_en": "The place was a pizzeria. The manager is from Bangladesh. Counting «one, two, three», he taught me the order of the work. Wash the dishes, wipe the tables, fold the pizza boxes. The boxes go in sets of ten. They're people who move fast and take the work very seriously. And, to my surprise, Min worked there too."
+ "traduccion_en": "The place was a pizzeria. The manager is from Bangladesh. Counting «one, two, three» he taught me the order of the work. Wash the plates, wipe the tables, fold the pizza boxes. The boxes come in sets of ten. They are people who move fast, and everyone takes the work very seriously. And, to my surprise, Min worked there too. «Four, five, six, seven, eight, nine,» we count out loud. Some days we fold a hundred pizza boxes. «Are you going to count to a hundred million?» laughed Gonsa. «Today we settle who is faster,» said Min. I always lose. The manager smokes one cigarette looking at the pine tree outside."
 }

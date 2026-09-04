@@ -22,7 +22,7 @@ Lo que comprueba antes de escribir, que es lo que se nos ha colado antes:
 
   · que no se mezcle です・ます con forma diccionario (el fallo de las 87)
   · que todo kanji por encima del nivel lleve furigana
-  · que el texto quepa en la página (324 casillas es lo que da la caja)
+  · que el texto no pase de dos páginas (648 casillas)
 """
 import json, pathlib, re, sys
 
@@ -32,7 +32,10 @@ from rubi import rubi
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 FUENTE = RAIZ / "data/fuente/libro_textos.json"
 LECTURAS = RAIZ / "data/fuente/lecturas"
-TOPE = 324                      # casillas que caben en la caja de la página
+# Una página son 324 casillas. Un capítulo puede ocupar dos —el PDF continúa
+# solo—, así que el tope real es el doble. Pasar de ahí ya no es un capítulo
+# largo, es dos capítulos sin partir.
+TOPE = 648
 ORDEN = {"N5": 5, "N4": 4, "N3": 3, "N2": 2, "N1": 1}
 RUBY = re.compile(r"<ruby>([^<]+)<rt>([^<]+)</rt></ruby>")
 KANJI = re.compile(r"[一-鿿]")

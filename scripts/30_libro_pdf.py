@@ -255,7 +255,7 @@ def pinta_dibujo(c, f, x, y, ancho, alto):
                 mask="auto")
 c = canvas.Canvas(str(SALIDA), pagesize=(ANCHO, ALTO))
 huecos = []
-sobran = []   # capítulos a los que no les cabe el texto en vertical
+largos = []   # capítulos que ocupan más de una página
 
 # ---------------------------------------------------------------- la portada
 # --sin-portada sirve para mirar una página suelta: sips y Vista Previa sólo
@@ -409,14 +409,21 @@ for n, uid in enumerate(capitulos, desde + 1):
         for col in cols_tit[:2]:
             pinta_columna(c, x, y_alto, col); x -= COLUMNA * 1.15
 
+        # Igual que en horizontal: si no caben todas las columnas, el capítulo
+        # sigue en la página siguiente.
         cols = columnas(trozos(l["cuerpo"], gram_formas), alto_col)
-        cabidas = 0
+        extra = 0
         for col in cols:
-            if x - COLUMNA < x_izq: break
+            if x - COLUMNA < x_izq:
+                c.showPage(); extra += 1
+                x, y_alto = x_der, ALTO - M_ARRIBA
+                alto_col = y_alto - M_ABAJO
+                c.setFont("Gothic", 8); c.setFillGray(0.45)
+                c.drawString(M_CANTO, ALTO - M_ARRIBA, f"{n}")
+                c.setFillGray(0)
             pinta_columna(c, x, y_alto, col); x -= COLUMNA
-            cabidas += 1
-        if cabidas < len(cols):
-            sobran.append((n, len(cols) - cabidas))
+        if extra:
+            largos.append((n, extra))
         c.showPage()
         continue
 
@@ -431,6 +438,14 @@ for n, uid in enumerate(capitulos, desde + 1):
     alto_texto = len(lineas) * INTERLINEA
     y_texto_fin = M_ABAJO
     hueco_alto = (y - AIRE_ARRIBA) - (y_texto_fin + alto_texto)
+
+    # Cuando el texto es largo, el hueco que sobra no da para un dibujo digno.
+    # Antes eso dejaba el capítulo sin dibujo; ahora manda el dibujo y el texto
+    # sigue en la página siguiente, que es para lo que se permitió el doble
+    # pliego. Un capítulo largo no tiene por qué ser un capítulo sin dibujo.
+    BANDA = 62 * mm
+    if hueco_alto < 35 * mm + AIRE_ARRIBA + AIRE_ABAJO:
+        hueco_alto = BANDA + AIRE_ARRIBA + AIRE_ABAJO
 
     if hueco_alto > 20 * mm + AIRE_ABAJO:          # cabe el dibujo grande
         alto_dib = hueco_alto - AIRE_ARRIBA - AIRE_ABAJO
@@ -452,18 +467,32 @@ for n, uid in enumerate(capitulos, desde + 1):
     else:                                          # sólo cabe una viñeta
         huecos.append(("viñeta", n, 0))
 
+    # Un capítulo puede pasar de una página. Cuando el texto no cabe, sigue en
+    # la siguiente en vez de recortarse: es preferible un capítulo de dos hojas
+    # a una historia a la que le falta el final.
+    paginas_extra = 0
     for ln in lineas:
+        if y < M_ABAJO:
+            c.showPage()
+            paginas_extra += 1
+            y = ALTO - M_ARRIBA
+            c.setFont("Gothic", 8); c.setFillGray(0.45)
+            c.drawRightString(ANCHO - M_CANTO, y, f"{n}")
+            c.setFillGray(0); y -= 9 * mm
         pinta_renglon(c, x0, y, ln); y -= INTERLINEA
+    if paginas_extra:
+        largos.append((n, paginas_extra))
     c.showPage()
 
+_paginas = c.getPageNumber() - 1
 c.save()
 
 grandes = [h for h in huecos if h[0] == "grande"]
 vinetas = [h for h in huecos if h[0] == "viñeta"]
-print(f"{SALIDA}  ·  {len(capitulos)} capítulos = {len(capitulos)*2} páginas")
+print(f"{SALIDA}  ·  {len(capitulos)} capítulos = {_paginas} páginas")
 print(f"  dibujo grande: {len(grandes)}   (alto medio "
       f"{sum(h[2] for h in grandes)/max(1,len(grandes)):.0f} mm)")
 print(f"  sólo viñeta:   {len(vinetas)}   capítulos {[h[1] for h in vinetas]}")
-if sobran:
-    print(f"  NO CABEN en vertical: {len(sobran)} capítulos "
-          f"(capítulo, columnas que se salen) → {sobran[:12]}")
+if largos:
+    print(f"  de más de una página: {len(largos)} "
+          f"(capítulo, páginas de más) → {largos[:12]}")

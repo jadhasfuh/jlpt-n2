@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/jikan/contadores-2",
  "titulo": "さらを あらう",
- "cuerpo": "さいしょの <ruby>日<rt>ひ</rt></ruby>、さらを <ruby>二百<rt>にひゃく</rt></ruby>まい あらいました。みずが つめたくて、てが あかく なりました。ミンさんが「<ruby>一<rt>ひと</rt></ruby>つずつ おなじ ばしょに おくと はやい」と <ruby>教<rt>おし</rt></ruby>えて くれました。そのとおりに すると、ほんとうに はやく なりました。<ruby>三日<rt>みっか</rt></ruby>めには、だれよりも はやく なりました。てんちょうが なにも <ruby>言<rt>い</rt></ruby>わないで、ぼくの かたを たたいて いきました。",
- "traduccion": "El primer día lavé doscientos platos. El agua estaba helada y se me pusieron las manos rojas. Min me enseñó: «si los pones de uno en uno siempre en el mismo sitio, vas más rápido». Lo hice así y, en efecto, gané velocidad. Al tercer día era el más rápido de todos. El encargado no dijo nada: me dio una palmada en el hombro y siguió.",
+ "cuerpo": "さいしょの <ruby>日<rt>ひ</rt></ruby>、さらを <ruby>二百<rt>にひゃく</rt></ruby>まい あらいました。みずが つめたくて、てが あかく なりました。ミンさんが「<ruby>一<rt>ひと</rt></ruby>つずつ おなじ ばしょに おくと はやい」と <ruby>教<rt>おし</rt></ruby>えて くれました。そのとおりに すると、ほんとうに はやく なりました。<ruby>三日<rt>みっか</rt></ruby>めには、だれよりも はやく なりました。てんちょうが なにも <ruby>言<rt>い</rt></ruby>わないで、ぼくの かたを たたいて いきました。コップは <ruby>四<rt>よっ</rt></ruby>つずつ、さらは <ruby>六<rt>むっ</rt></ruby>つずつ ならべます。ちいさい さらは <ruby>八<rt>やっ</rt></ruby>つ、おおきいのは <ruby>七<rt>なな</rt></ruby>つで いっぱいに なります。<ruby>九<rt>ここの</rt></ruby>つ めの さらを おくと、たなが おちそうに なります。<em class=\"g\">まだ</em> てが いたいですが、あしたも <ruby>行<rt>い</rt></ruby>きます。",
+ "traduccion": "El primer día lavé doscientos platos. El agua estaba helada y se me pusieron las manos rojas. Min me enseñó: «si los pones de uno en uno siempre en el mismo sitio, vas más rápido». Lo hice así y, en efecto, gané velocidad. Al tercer día era más rápido que nadie. El encargado, sin decir nada, me dio una palmada en el hombro al pasar. Los vasos van de cuatro en cuatro y los platos de seis en seis. Con ocho platos pequeños o siete grandes ya se llena. Si pones el noveno, el estante parece que se va a caer. Todavía me duelen las manos, pero mañana vuelvo.",
  "preguntas": [
   {
    "p": "さいしょの <ruby>日<rt>ひ</rt></ruby>、さらを なんまい あらいましたか。",
@@ -35,5 +35,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "On my first day I washed two hundred plates. The water was freezing and my hands turned red. Min taught me: «if you set them down one at a time in the same place, you go faster». I did it that way and I really did speed up. By the third day I was the fastest of the lot. The manager said nothing: he patted my shoulder and walked on."
+ "traduccion_en": "On the first day I washed two hundred plates. The water was freezing and my hands turned red. Min taught me: «if you put them down one at a time always in the same place, you go faster.» I did it that way and I really did get quicker. By the third day I was faster than anyone. The manager said nothing and just patted me on the shoulder as he went by. Glasses go four at a time and plates six at a time. Eight small plates or seven big ones and it is full. If you add a ninth, the rack looks like it will fall. My hands still hurt, but I am going back tomorrow."
 }

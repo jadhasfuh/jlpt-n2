@@ -1,8 +1,8 @@
 {
  "unidad_id": "N5/jikan/calendario-3",
  "titulo": "<ruby>来週<rt>らいしゅう</rt></ruby>の やくそく",
- "cuerpo": "<ruby>毎週<rt>まいしゅう</rt></ruby> <ruby>月曜日<rt>げつようび</rt></ruby>と <ruby>水曜日<rt>すいようび</rt></ruby>は かんじの じゅぎょうです。<ruby>金曜日<rt>きんようび</rt></ruby>の <ruby>夜<rt>よる</rt></ruby>、ジャンの へやで ギターを ひきます。<ruby>土曜日<rt>どようび</rt></ruby>は そうじ、<ruby>日曜日<rt>にちようび</rt></ruby>は でんわの <ruby>日<rt>ひ</rt></ruby>です。<ruby>来週<rt>らいしゅう</rt></ruby>、アンナさんと <ruby>昨夜<rt>ゆうべ</rt></ruby> はなした みせへ <ruby>行<rt>い</rt></ruby>く ことに なりました。<ruby>来月<rt>らいげつ</rt></ruby>は <ruby>毎年<rt>まいねん</rt></ruby> まつりが あるそうです。<ruby>来年<rt>らいねん</rt></ruby>の いま、ぼくは どこに いるでしょうか。",
- "traduccion": "Todas las semanas, lunes y miércoles toca clase de kanji. El viernes por la noche tocamos la guitarra en la habitación de Jean. El sábado limpio; el domingo es el día de las llamadas. La semana que viene he quedado con Anna para ir al sitio del que hablamos anoche. Dicen que el mes que viene hay una fiesta, como todos los años. ¿Dónde estaré yo por estas fechas el año que viene?",
+ "cuerpo": "<ruby>毎週<rt>まいしゅう</rt></ruby> <ruby>月曜日<rt>げつようび</rt></ruby>と <ruby>水曜日<rt>すいようび</rt></ruby>は かんじの じゅぎょうです。<ruby>火曜日<rt>かようび</rt></ruby>は はやく おわります。<ruby>金曜日<rt>きんようび</rt></ruby>の <ruby>夜<rt>よる</rt></ruby>、ジャンの へやで ギターを ひきます。<ruby>土曜日<rt>どようび</rt></ruby>は そうじ、<ruby>日曜日<rt>にちようび</rt></ruby>は でんわの <ruby>日<rt>ひ</rt></ruby>です。<ruby>来週<rt>らいしゅう</rt></ruby>、アンナさんと <ruby>昨夜<rt>ゆうべ</rt></ruby> はなした みせへ <ruby>行<rt>い</rt></ruby>く ことに なりました。<ruby>来月<rt>らいげつ</rt></ruby>は <ruby>毎年<rt>まいとし</rt></ruby> まつりが あるそうです。<ruby>来年<rt>らいねん</rt></ruby>の いま、ぼくは どこに いるでしょうか。<ruby>今晩<rt>こんばん</rt></ruby>は ミンさんが <ruby>夕飯<rt>ゆうはん</rt></ruby>を つくって くれます。<ruby>鶏肉<rt>とりにく</rt></ruby>と やさいの りょうりだそうです。<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>は ぼくが かって いきます。「<ruby>皆<rt>みな</rt></ruby>さん、ゆっくりと たべて ください」と ミンさんは いつも <ruby>言<rt>い</rt></ruby>います。",
+ "traduccion": "Todas las semanas, lunes y miércoles toca clase de kanji. Los martes acabamos pronto. El viernes por la noche tocamos la guitarra en la habitación de Jean. El sábado limpio; el domingo es el día de las llamadas. La semana que viene he quedado con Anna para ir al sitio del que hablamos anoche. El mes que viene, según dicen, hay una fiesta que se celebra todos los años. El año que viene por estas fechas, ¿dónde estaré? Esta noche Min nos hace la cena. Dice que es un plato de pollo con verduras. La bebida la llevo yo. «Comed con calma, todos», dice siempre Min.",
  "preguntas": [
   {
    "p": "かんじの じゅぎょうは いつですか。",
@@ -35,5 +35,5 @@
    "correcta": 1
   }
  ],
- "traduccion_en": "Every week, Mondays and Wednesdays are kanji class. On Friday nights we play guitar in Jean's room. Saturday I clean; Sunday is phone day. Next week I'm going with Anna to the place we talked about last night. They say there's a festival next month, as there is every year. Where will I be this time next year?"
+ "traduccion_en": "Every week, Monday and Wednesday are kanji lessons. On Tuesdays we finish early. On Friday nights we play guitar in Jean's room. Saturday is cleaning; Sunday is the day for phone calls. Next week I have arranged to go with Anna to the place we talked about last night. Next month, apparently, there is a festival held every year. This time next year, where will I be? Tonight Min is cooking dinner for us. He says it is a chicken and vegetable dish. I am bringing the drinks. «Everyone, please eat slowly,» Min always says."
 }
