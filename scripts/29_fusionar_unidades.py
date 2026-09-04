@@ -14,6 +14,12 @@ que 04_curso la vuelva a crear.
 Las lecturas quedan más largas, que para leer es mejor. El título es el de la
 primera, porque es donde empieza el texto.
 
+OJO: pegar dos textos no los convierte en uno. Cuatro de las lecturas fundidas
+—行き来, 本と読み書き, その他の名詞④, よいとわるい①— se leían como dos
+historias sueltas una detrás de otra, sin nada que las uniera. Después de
+fundir hay que leer el resultado y escribir la frase de enlace; el script no
+puede hacerlo por su cuenta. Lo avisa al terminar.
+
     python3 scripts/29_fusionar_unidades.py            # ensayo
     python3 scripts/29_fusionar_unidades.py --escribir
 """
@@ -93,3 +99,5 @@ if escribir:
     print(f"\n  unidades_publicadas.json reescrito: {len(salida)} unidades")
 
 print(f"\nunidades fundidas: {len(fusiones)}" + ("" if escribir else "   (ensayo)"))
+if fusiones and escribir:
+    print("\nAHORA HAY QUE LEERLAS: los dos textos están pegados uno detrás de\notro y hasta que no se escriba una frase de enlace se leen como dos\nhistorias sueltas. Pasó con cuatro de las anteriores.")
