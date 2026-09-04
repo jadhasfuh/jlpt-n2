@@ -204,12 +204,17 @@ supabase/        config.toml y migrations/ (el esquema)
 
 ### El orden del pipeline no es el de los números
 
-Hay que correrlo **01 → 03 → 02 → 04 → 05 → 06**, no 01→06.
+Hay que correrlo **01 → 03 → 07 → 02 → 04 → 05 → 06**, no 01→07.
 
 `03_niveles_jlpt.py` no sólo etiqueta el nivel: reescribe `vocab_raw.json`
 añadiendo el campo `jlpt` y las palabras que faltaban de las listas. `02` lee
 ese fichero, así que si va antes, clasifica sin nivel y `04` revienta con
 `KeyError: 'jlpt'`.
+
+`07_completar_definiciones.py` escribe en el MISMO fichero, rellenando desde
+Jisho lo que la fuente dejó vacío. Si se salta —es fácil, porque su número
+sugiere que va al final— esas definiciones no llegan nunca: eran 228 palabras
+que salían en las tarjetas sin significado.
 
 ### Los ids de las palabras importadas están congelados
 

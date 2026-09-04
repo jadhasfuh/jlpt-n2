@@ -116,4 +116,14 @@
 101606  # 断える: no es palabra; たえる con ese sentido se escribe 絶える
 103062  # しかく — la misma palabra que la 1877 「四角」, y en la misma
         # subsección (basho/ciudad); se queda la que lleva kanji
+# Duplicados exactos de una palabra que ya está en el pool. Se queda la del
+# pool, que además lleva la grafía moderna.
+102682  # 御飯 — la 1653 ya es ご飯, que es como se escribe de verdad. La norma
+        # del 公用文 sí escribe 御 en kanji cuando se lee ご, pero eso es estilo
+        # de documento oficial: en la calle y en los libros de texto es ご飯.
+103057  # 御免 — se queda la 1666 「ごめん」
+103058  # 逆様 — se queda la 1741 「逆さま」
+103059  # 先程 — se queda la 1753 「先ほど」
+103089  # 傾らか — なだらか va en kana; 傾 no tiene esa lectura en el 常用漢字表
+        # y en la tarjeta salía un kanji que no está ni en el teclado
 

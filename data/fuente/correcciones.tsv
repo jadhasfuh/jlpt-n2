@@ -603,3 +603,13 @@ id|kana|kanji|en|es
 # 508 traía kanji y kana al revés: salía «おお~【大~】».
 508|おお~|大~|large ~, big ~ (prefix)|gran~, macro~ (prefijo)
 
+
+# ── las últimas sin definición, y grafías que no son japonés moderno ──────
+# なだらか se escribe en kana. 「傾らか」 existe en el diccionario grande, pero
+# 傾 no tiene esa lectura en el 常用漢字表 y en la tarjeta salía un kanji que
+# no está ni en el teclado.
+3480|なだらか|なだらか|gentle (slope), gradual, smooth|suave, en pendiente suave, gradual
+# 御 se escribe お/ご en japonés moderno: ご飯, ごめん.
+2383|||too ~, excessively ~|demasiado ~, en exceso
+102808|||glad, pleased, happy|contento, alegre, encantado
+102815|||to meet someone of higher status (humble)|conocer a alguien de más rango (humilde)
