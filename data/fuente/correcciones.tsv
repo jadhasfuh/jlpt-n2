@@ -613,3 +613,15 @@ id|kana|kanji|en|es
 2383|||too ~, excessively ~|demasiado ~, en exceso
 102808|||glad, pleased, happy|contento, alegre, encantado
 102815|||to meet someone of higher status (humble)|conocer a alguien de más rango (humilde)
+
+# ── acepciones equivocadas que la fuente eligió mal ───────────────────────
+# 帯 salía como «banda de conducción y valencia»: es el sentido de física de
+# bandas de JMdict. A nivel N3, 帯 es el obi del kimono.
+627|||obi, sash (of a kimono); band, strip|obi, faja del kimono; banda, cinta
+447|||English-Japanese (of a dictionary)|inglés-japonés (de un diccionario)
+1051|||kanji-Japanese (of a dictionary)|kanji-japonés (de un diccionario)
+783|||limit; as far as one can, as long as ~|límite; hasta donde se pueda, mientras ~
+1316|||sports ground, field; grand|campo, terreno de juego; grande
+# «al contenido de su corazón» era «to one's heart's content» a máquina.
+# Y se escribe 思いっきり: la okurigana de 思いっ切り es la variante.
+646|おもいっきり|思いっきり|to one's heart's content, as much as one likes|con todas las ganas, a placer, todo lo que uno quiera

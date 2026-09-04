@@ -126,4 +126,5 @@
 103059  # 先程 — se queda la 1753 「先ほど」
 103089  # 傾らか — なだらか va en kana; 傾 no tiene esa lectura en el 常用漢字表
         # y en la tarjeta salía un kanji que no está ni en el teclado
+103051  # 思いっきり — la 646 es la misma palabra; sólo cambia la okurigana
 

@@ -1,0 +1,15 @@
+# Grafías que NUNCA se vuelven a importar de las listas JLPT.
+#
+# Cuando a una palabra del pool se le corrige la grafía —思いっ切り → 思いっきり,
+# 傾らか → なだらか— la vieja queda libre, y en la pasada siguiente el importador
+# la mete otra vez como si fuera otra palabra. Aparecen entonces dos tarjetas de
+# lo mismo, una de ellas con la grafía que acabamos de descartar.
+#
+# Una línea por grafía. Los comentarios van con #.
+
+思いっ切り     # se escribe 思いっきり
+傾らか         # なだらか va en kana: 傾 no tiene esa lectura en el 常用漢字表
+御飯           # se escribe ご飯
+御免           # se escribe ごめん
+逆様           # se escribe 逆さま
+先程           # se escribe 先ほど

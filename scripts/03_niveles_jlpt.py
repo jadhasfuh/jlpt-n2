@@ -123,6 +123,16 @@ if _MAPA.exists():
 
 ya = {limpio(r["kanji"]) for r in vocab if r["kanji"]} | {limpio(r["kana"]) for r in vocab}
 
+# Grafías corregidas que no deben volver. Al cambiarle la grafía a una palabra
+# del pool, la vieja queda libre y el importador la mete otra vez como si fuera
+# otra palabra: salen dos tarjetas de lo mismo, una con la grafía descartada.
+_ni = pathlib.Path("data/fuente/no_importar.txt")
+if _ni.exists():
+    for _l in _ni.read_text(encoding="utf-8").splitlines():
+        _l = re.sub(r"\s*#.*$", "", _l).strip()
+        if _l:
+            ya.add(limpio(_l))
+
 def _prim(sentido: str) -> str:
     """El primer sentido, en minúsculas y sin adornos: «to slip out of place,
     to be off» → «slip out of place». Es lo que permite reconocer que dos
