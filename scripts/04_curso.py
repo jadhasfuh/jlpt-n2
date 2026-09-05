@@ -119,17 +119,31 @@ for nivel in NIVELES:
                 # una palabra a una unidad no invalida su lectura —sólo quita
                 # cuando se rompe algo—, y así se evitan las unidades de una
                 # sola palabra, que son una experiencia de estudio pésima.
-                for p in nuevas_p:
+                pendientes = list(nuevas_p)
+                while pendientes:
                     hueco = min(trozos, key=lambda t: len(t[1])) if trozos else None
                     if hueco is not None and len(hueco[1]) < TOPE_UNIDAD:
-                        hueco[1].append(p)
-                    elif trozos and len(trozos[-1][1]) < TOPE_UNIDAD:
-                        trozos[-1][1].append(p)
-                    else:
+                        hueco[1].append(pendientes.pop(0))
+                    elif len(pendientes) >= MIN_COLA or not trozos:
                         # Unidad nueva: estrena número por encima de todos los
-                        # que ya existan, para no pisar un id publicado.
+                        # que ya existan, para no pisar un id publicado. Sólo
+                        # si la cola da para una unidad de verdad, que es la
+                        # misma regla que MIN_COLA en el troceo normal.
                         n = max((int(k.rsplit("-", 1)[1]) for k, _ in trozos), default=0) + 1
-                        trozos.append((f"{nivel}/{sec}/{sub}-{n}", [p]))
+                        trozos.append((f"{nivel}/{sec}/{sub}-{n}", [pendientes.pop(0)]))
+                    else:
+                        # Cola corta y todas las unidades llenas: se reparte
+                        # entre las que hay aunque pasen de 27.
+                        #
+                        # Antes abría unidad igual, y como el reparto sólo
+                        # rellena huecos POR DEBAJO del tope, las siguientes
+                        # caían todas en esa: doce subsecciones de 1 a 4
+                        # palabras, sin lectura, porque una lectura se escribe
+                        # a mano y estas unidades nacen solas. Una unidad de
+                        # una palabra no da capítulo; pasar de 27 no molesta.
+                        for p in pendientes:
+                            min(trozos, key=lambda t: len(t[1]))[1].append(p)
+                        pendientes = []
                 # Aquí NO se funden colas: fundir dos unidades hace
                 # desaparecer una, y si tenía lectura la deja huérfana. Una
                 # unidad publicada no se borra nunca, aunque quede pequeña.
