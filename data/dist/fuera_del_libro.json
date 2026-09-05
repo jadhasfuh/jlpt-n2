@@ -98,9 +98,9 @@
   },
   {
    "cap": 10,
-   "escritura": "ラジオカセ",
-   "lectura": "ラジオカセ",
-   "es": "reproductor de casetes de radio"
+   "escritura": "ラジカセ",
+   "lectura": "ラジカセ",
+   "es": "radiocasete"
   },
   {
    "cap": 12,
@@ -136,7 +136,7 @@
    "cap": 15,
    "escritura": "~方",
    "lectura": "~かた",
-   "es": "dirección, camino, lado"
+   "es": "modo de ~, manera de ~ (読み方: forma de leer)"
   },
   {
    "cap": 15,
@@ -196,19 +196,19 @@
    "cap": 24,
    "escritura": "低い",
    "lectura": "ひくい",
-   "es": "corto, bajo, humilde, bajo (voz)"
+   "es": "bajo (altura, voz, precio)"
   },
   {
    "cap": 25,
    "escritura": "私",
    "lectura": "わたくし",
-   "es": "Yo mismo, asuntos privados."
+   "es": "yo (formal)"
   },
   {
    "cap": 25,
    "escritura": "私",
    "lectura": "わたし",
-   "es": "Yo mismo, asuntos privados."
+   "es": "yo"
   },
   {
    "cap": 25,
@@ -238,13 +238,13 @@
    "cap": 30,
    "escritura": "~口",
    "lectura": "~くち",
-   "es": "boca"
+   "es": "boca; abertura, entrada (入口: entrada)"
   },
   {
    "cap": 30,
    "escritura": "渡す",
    "lectura": "わたす",
-   "es": "pasar por encima, entregar"
+   "es": "entregar, dar; pasar al otro lado"
   },
   {
    "cap": 30,
@@ -262,7 +262,7 @@
    "cap": 33,
    "escritura": "女",
    "lectura": "おんな",
-   "es": "mujer, niña, hija"
+   "es": "mujer, chica"
   },
   {
    "cap": 33,
@@ -274,13 +274,13 @@
    "cap": 33,
    "escritura": "お兄さん",
    "lectura": "おにいさん",
-   "es": "hermano mayor, (vocativo) \"¿Señor?\""
+   "es": "hermano mayor; (para llamar) joven"
   },
   {
    "cap": 33,
    "escritura": "お姉さん",
    "lectura": "おねえさん",
-   "es": "hermana mayor, (vocativo) \"¿Señorita?\""
+   "es": "hermana mayor; (para llamar) señorita"
   },
   {
    "cap": 33,
@@ -310,13 +310,13 @@
    "cap": 37,
    "escritura": "~だす",
    "lectura": "~だす",
-   "es": "sacar, salir"
+   "es": "ponerse a ~ (降り出す: ponerse a llover)"
   },
   {
    "cap": 37,
    "escritura": "~歳",
    "lectura": "~さい",
-   "es": "año"
+   "es": "~ años (de edad)"
   },
   {
    "cap": 37,
@@ -340,13 +340,13 @@
    "cap": 38,
    "escritura": "~中",
    "lectura": "~じゅう",
-   "es": "mediano (tamaño), promedio (grado, nivel, etc.), medio"
+   "es": "por todo ~, durante todo ~ (一日中: todo el día)"
   },
   {
    "cap": 38,
    "escritura": "~中",
    "lectura": "~ちゅう",
-   "es": "mediano (tamaño), promedio (grado, nivel, etc.), medio"
+   "es": "en pleno ~, mientras ~ (勉強中: estudiando)"
   },
   {
    "cap": 38,
@@ -358,7 +358,7 @@
    "cap": 39,
    "escritura": "本~",
    "lectura": "ほん~",
-   "es": "libro, volumen, guión"
+   "es": "este ~, ~ principal (本日: hoy)"
   },
   {
    "cap": 40,
@@ -404,7 +404,7 @@
   },
   {
    "cap": 45,
-   "escritura": "~終る",
+   "escritura": "~終わる",
    "lectura": "~おわる",
    "es": "terminar, llegar a su fin"
   },
@@ -412,13 +412,13 @@
    "cap": 45,
    "escritura": "~時間",
    "lectura": "~じかん",
-   "es": "tiempo"
+   "es": "~ horas (duración)"
   },
   {
    "cap": 45,
    "escritura": "~時",
    "lectura": "~じ",
-   "es": "tiempo, hora, momento"
+   "es": "las ~ (hora)"
   },
   {
    "cap": 46,
@@ -430,7 +430,7 @@
    "cap": 50,
    "escritura": "~目",
    "lectura": "~め",
-   "es": "~nd, ~th (secuencia)"
+   "es": "~º (三番目: el tercero)"
   },
   {
    "cap": 51,
@@ -460,7 +460,7 @@
    "cap": 68,
    "escritura": "どれ",
    "lectura": "どれ",
-   "es": "bueno ahora déjame ver cuál (de tres o más)"
+   "es": "cuál (de tres o más)"
   },
   {
    "cap": 68,
@@ -490,7 +490,7 @@
    "cap": 68,
    "escritura": "~階",
    "lectura": "~かい",
-   "es": "piso, historia"
+   "es": "~ª planta, ~ piso"
   },
   {
    "cap": 69,
@@ -520,13 +520,13 @@
    "cap": 73,
    "escritura": "円",
    "lectura": "えん",
-   "es": "círculo, dinero"
+   "es": "círculo, redondo; yen (moneda)"
   },
   {
    "cap": 76,
    "escritura": "引く",
    "lectura": "ひく",
-   "es": "menos, tirar, tocar (instr. de cuerda)"
+   "es": "tirar de; restar; tocar (instrumento de cuerda); consultar (el diccionario)"
   },
   {
    "cap": 84,
@@ -538,7 +538,7 @@
    "cap": 84,
    "escritura": "~月",
    "lectura": "~がつ",
-   "es": "luna"
+   "es": "~ (mes del año: 一月, enero)"
   },
   {
    "cap": 84,
@@ -586,7 +586,7 @@
    "cap": 93,
    "escritura": "レコード",
    "lectura": "レコード",
-   "es": "grabar"
+   "es": "disco; récord"
   },
   {
    "cap": 94,
@@ -598,7 +598,7 @@
    "cap": 94,
    "escritura": "浸ける",
    "lectura": "つける",
-   "es": "sumergirse, remojarse"
+   "es": "poner en remojo, sumergir"
   },
   {
    "cap": 94,
@@ -610,7 +610,7 @@
    "cap": 95,
    "escritura": "ええ",
    "lectura": "ええ",
-   "es": "si"
+   "es": "sí"
   },
   {
    "cap": 95,

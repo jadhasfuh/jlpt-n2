@@ -128,3 +128,12 @@
         # y en la tarjeta salía un kanji que no está ni en el teclado
 103051  # 思いっきり — la 646 es la misma palabra; sólo cambia la okurigana
 
+
+# --- Repetidas al normalizar la okurigana (2026-09-04) -----------------------
+# 決る y 分る eran las mismas palabras que 決まる y 分かる, escritas con la
+# okurigana abreviada de la lista vieja. Al poner la grafía estándar quedaron
+# dos entradas idénticas.
+1133    # 決まる — se queda la 102749, en sonota/verbos-1, que es donde va un
+        # verbo; ésta estaba en kurashi/ropa-1 por el sentido de «quedar bien»
+102734  # 分かる — se queda la 4924: es la ÚNICA palabra de N5/kotoba/saber-1 y
+        # descartarla dejaba esa unidad sin vocabulario

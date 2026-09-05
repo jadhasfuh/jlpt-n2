@@ -118,6 +118,23 @@ def interior():
     if not origen.exists():
         sys.exit(f"falta {origen.name}; corre antes scripts/30_libro_pdf.py"
                  + (" --vertical" if vertical else ""))
+    # …y que no sea la de antes de tocar los datos.
+    #
+    # La maqueta que se imprime es la VERTICAL, y 30_libro_pdf.py sólo la
+    # rehace con --vertical. Corriendo el script a secas se rehace la
+    # horizontal, éste sigue leyendo la vertical vieja y el interior sale
+    # idéntico al anterior sin decir una palabra: se corrigió el vocabulario y
+    # a la imprenta se iba a mandar el temario antiguo.
+    fuentes = [RAIZ / "data/dist/vocabulario.json",
+               RAIZ / "data/dist/lecturas.json",
+               RAIZ / "data/dist/unidades.json",
+               RAIZ / "data/fuente/orden_libro.json"]
+    viejas = [p.name for p in fuentes
+              if p.exists() and p.stat().st_mtime > origen.stat().st_mtime]
+    if viejas:
+        sys.exit(f"{origen.name} es más vieja que {', '.join(viejas)}.\n"
+                 f"  Corre antes:  python3 scripts/30_libro_pdf.py"
+                 + (" --vertical" if vertical else ""))
     print(f"  edición: {'VERTICAL (縦書き, se cose por la DERECHA)' if vertical else 'horizontal'}")
     r = PdfReader(str(origen))
     w = PdfWriter()

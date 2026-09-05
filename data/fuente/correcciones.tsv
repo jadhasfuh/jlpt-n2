@@ -125,7 +125,7 @@ id|kana|kanji|en|es
 102717|まいげつ|||
 102720|まいねん|||
 102745|パート|||
-102754|~てしまう|||
+102754|~てしまう||to end up ~; to do ~ completely (with regret)|
 102786|おかねもち|||
 102787|~によると|||
 102801|スーパー|||
@@ -625,3 +625,237 @@ id|kana|kanji|en|es
 # «al contenido de su corazón» era «to one's heart's content» a máquina.
 # Y se escribe 思いっきり: la okurigana de 思いっ切り es la variante.
 646|おもいっきり|思いっきり|to one's heart's content, as much as one likes|con todas las ganas, a placer, todo lo que uno quiera
+
+# ---------------------------------------------------------------------------
+# Afijos glosados con el significado del kanji SUELTO, no del afijo.
+# La lista original define ~長 como «altura» (el 長 de 長い) cuando de sufijo es
+# «jefe» (社長), y 重~ con la glosa de 重箱, que es sólo un ejemplo. El error
+# viene del inglés, así que se corrigen las dos lenguas. Se añade un ejemplo
+# entre paréntesis: un afijo sin ejemplo no se entiende.
+2066|||~ layers, ~-fold (二重: double)|~ capas, ~ pliegues (二重: doble)
+2067|||~ layers, ~-fold (二重: double)|~ capas, ~ pliegues (二重: doble)
+886|||prone to ~, tends to ~ (病気がち: sickly)|propenso a ~, que suele ~ (病気がち: enfermizo)
+888|||~ (month of the year: 一月, January)|~ (mes del año: 一月, enero)
+868|||way of ~, how to ~ (読み方: how to read)|modo de ~, manera de ~ (読み方: forma de leer)
+1662|||into; thoroughly (申し込む: to apply)|hacia dentro; del todo (申し込む: solicitar)
+1484|||high ~ (高血圧: high blood pressure)|alto ~, de ~ alta (高血圧: tensión alta)
+1055|||device, instrument (楽器: musical instrument)|aparato, instrumento (楽器: instrumento musical)
+1056|||machine, device; aircraft (洗濯機: washing machine)|máquina, aparato; avión (洗濯機: lavadora)
+2033|||company, firm (出版社: publishing house)|empresa, compañía (出版社: editorial)
+2058|||one who does ~ (歌手: singer)|el que hace ~ (歌手: cantante)
+2068|||throughout ~, all ~ long (一日中: all day long)|por todo ~, durante todo ~ (一日中: todo el día)
+2975|||in the middle of ~, during ~ (勉強中: studying)|en pleno ~, mientras ~ (勉強中: estudiando)
+2639|||(counter) pairs of footwear and socks|(contador) pares de calzado y calcetines
+2718|||charge for ~ (電気代: electricity bill); ~s (age range: 20代)|importe de ~ (電気代: la luz); ~ años de edad (20代)
+2999|||head of ~, chief of ~ (社長: company president)|jefe de ~, director de ~ (社長: presidente)
+3000|||notebook, register (手帳: pocket diary)|cuaderno, libreta, registro (手帳: agenda)
+3057|||way of using ~, handling of ~ (言葉遣い: manner of speech)|manera de usar ~, trato de ~ (言葉遣い: modo de hablar)
+3132|||hard to ~, awkward to ~ (読みづらい: hard to read)|difícil de ~, que cuesta ~ (読みづらい: difícil de leer)
+3264|||(counter) large animals|(contador) animales grandes
+3868|||non-, un-, anti- (非公開: not open to the public)|no ~, in~, anti~ (非公開: no público)
+4014|||~ style, ~-like (和風: Japanese style)|al estilo ~, a la manera de ~ (和風: estilo japonés)
+4119|||after ~ (三年ぶり: after three years)|después de ~ (三年ぶり: tres años después)
+4293|||this ~, main ~ (本日: today)|este ~, ~ principal (本日: hoy)
+4300|||just a ~, a mere ~ (ほんの少し: just a little)|sólo un ~, un simple ~ (ほんの少し: sólo un poco)
+4469|||the next ~ (明日 みょうにち: tomorrow)|el ~ siguiente (明日 みょうにち: mañana)
+4856|||territory of ~, domain of ~ (大統領: president)|territorio de ~, dominio de ~ (大統領: presidente)
+4920|||my ~, our ~ (我が国: our country)|mi ~, nuestro ~ (我が国: nuestro país)
+2995|||long ~ (長距離: long distance)|largo ~, de larga ~ (長距離: larga distancia)
+3447|||long ~ (長靴: rain boots)|largo ~ (長靴: botas de agua)
+100630|||~-run, run by ~ (国営: state-run)|gestionado por ~ (国営: estatal)
+100825|||one of a pair, one-sided (片手: one hand)|uno de los dos ~, de un solo lado (片手: una mano)
+101245|||joint ~, mutual ~ (問い合わせ: enquiry)|~ conjunto, ~ mutuo (問い合わせ: consulta)
+100989|||~ enthusiast, ~ buff|fanático de ~, loco por ~
+100016|||the late ~|el difunto ~
+102754|||to end up ~; to do ~ completely (with regret)|acabar de ~; ~ del todo (y ya no hay vuelta atrás)
+2444|||already ~, ~ done (支払済み: already paid)|ya ~, ~ hecho (支払済み: ya pagado)
+3444|||to re-~, to do ~ again (やり直す: to redo)|volver a ~, rehacer (やり直す: rehacer)
+2808|||to start ~ing (降り出す: to start raining)|ponerse a ~ (降り出す: ponerse a llover)
+3543|||hard to ~ (読みにくい: hard to read)|difícil de ~ (読みにくい: difícil de leer)
+1277|||mouth; opening, entrance (入口: entrance)|boca; abertura, entrada (入口: entrada)
+997|||(counter) volumes, tomes|(contador) tomos, volúmenes
+2159|||dealer in ~ (貿易商: trading merchant)|comerciante de ~ (貿易商: comerciante importador)
+3269|||the same ~, the said ~|el mismo ~, el mencionado ~
+102239|||~ more (五割増し: 50 % more)|un ~ más (五割増し: un 50 % más)
+100439|||things like ~, ~ and the like (dismissive)|cosas como ~, ~ y esas cosas (despectivo)
+102746|||~-storey (二階建て: two-storey)|de ~ plantas (二階建て: de dos plantas)
+
+# Traducción automática: el inglés se tradujo palabra a palabra y salió otra cosa.
+# «counter» (contador) → «mostrador»; «storey» (planta) → «historia»;
+# «late» (difunto) → «tarde»; «run» (llevar, gestionar) → «correr»;
+# «freak» (fanático) → «monstruo»; «spring» (manantial) → «primavera».
+708|||~th floor, ~th storey|~ª planta, ~ piso
+103041|||(counter) boats, vessels|(contador) embarcaciones
+230|||spring (of water), fountain|manantial, fuente
+101411|||spring, coil|muelle, resorte
+3406|||truck; running track|camión; pista (de atletismo)
+420|||department of a shop, sales counter|sección de una tienda, departamento (donde se vende algo)
+4518|||~th (三番目: the third)|~º (三番目: el tercero)
+4210|||~ish, ~-looking (安っぽい: cheap-looking)|~oso, que tira a ~ (安っぽい: de aspecto barato)
+
+# Okurigana comida. La lista original usa la grafía abreviada de rótulo y
+# formulario (目覚し, 落着く), no la estándar. Quien estudie con ella la
+# escribirá así en el examen. Columna kanji = grafía estándar.
+4542||目覚まし|alarm clock (目覚まし時計); waking up|despertador (目覚まし時計); el despertarse
+102357||目覚ましい||
+588||落ち着く||
+3664||乗り換え||
+100369||取り扱い||
+102374||申し込み||
+379||打ち合わせ||
+
+# Más okurigana comida, en verbos. 集る no es «あつまる»: se lee たかる y es otro
+# verbo, así que esa grafía enseñaba la lectura equivocada.
+91||集まる||
+603||落とす||
+675||終わる||
+676||~終わる||
+991||代わる|to take the place of, to relieve, to substitute for|sustituir a, tomar el lugar de; relevar
+1133||決まる||
+101539||損なう||
+102610||引き取る||
+
+# Códigos de diccionario (v5r, exp, int, n-t…) que se colaron en la glosa, y
+# glosas conjugadas o a medias: 続く no es «continuará» —eso es el rótulo de
+# «continuará en el próximo capítulo»— sino «continuar».
+147|||thank you|gracias
+658|||rest, day off; good night|descanso, día libre; buenas noches (おやすみなさい)
+1389|||this morning|esta mañana
+1707|||come on!, now then; well, I'm not sure…|¡venga!, ¡vamos!; pues no sé…
+2506|||political party|partido político
+2649|||so, therefore, thereupon|entonces, así que, por eso
+2686|||and then, so, therefore|y entonces, por eso, así que
+4131|||to behave; to treat, to entertain|comportarse; agasajar, invitar (a comer)
+896|||to shoulder, to carry; to play a trick on|llevar al hombro, cargar; tomar el pelo
+3077|||to be lit, to catch fire, to come on|encenderse (luz, fuego)
+3093|||to continue, to last, to follow|continuar, seguir, durar
+3892|||to pull; to subtract; to play (strings); to look up|tirar de; restar; tocar (instrumento de cuerda); consultar (el diccionario)
+581|||probably, in all likelihood|probablemente, seguramente
+2933|||near, nearby, vicinity|cerca, cercanía, alrededores
+4316|||to go, to come (humble); to be beaten, worn out|ir, venir (humilde); rendirse, estar agotado
+536|||to make up for, to supplement|compensar, suplir, completar
+100457|||to shoulder, to bear (a responsibility)|llevar al hombro; cargar con (una responsabilidad)
+
+# ===========================  N5, revisión palabra a palabra  ===============
+# El fallo que más se repite: el kanji tiene dos lecturas y la entrada se quedó
+# con la glosa de la OTRA. 辛い es «picante» leído からい y «doloroso» leído
+# つらい; 角 es «esquina» (かど) y «cuerno» (つの); 風 es «viento» (かぜ) y
+# «manera» (ふう). Como el examen y el libro van por lectura, la glosa tiene que
+# ser la de ESA lectura.
+961|||spicy, hot (taste)|picante
+910|||corner, street corner|esquina (de la calle)
+853|||wind, breeze|viento
+4292|||book|libro
+964|||body|cuerpo
+47|||to open (something)|abrir (algo)
+37|||to open, to become open (door, shop)|abrirse (puerta, tienda)
+2665|||outside, exterior|fuera, el exterior
+368|||behind, the back, the rear|detrás, la parte de atrás
+865|||person (polite); way, direction|persona (cortés); manera, lado
+
+# Traducción automática: «key» → «clave» (es «llave»), «vegetable» → «vegetal»,
+# «folk» → «gente», «record» → «disco», «lit.» → «iluminado».
+779|||key|llave
+4657|||vegetables|verdura, hortaliza
+4024|||fork|tenedor
+4883|||record (disc); record (best mark)|disco; récord
+102688|||stove, heater|estufa, calefactor
+4537|||metre, meter|metro (unidad)
+3746|||bus|autobús
+102664|||sake; alcoholic drink|sake; bebida alcohólica
+3863|||half|la mitad
+1825|||the year after next|dentro de dos años
+2807|||to take out, to send, to hand in|sacar, enviar, entregar
+4940|||I, me (formal)|yo (formal)
+4941|||I, me|yo
+3211|||well then, in that case|entonces, pues, en ese caso
+345|||above, on top of; the upper part|encima, arriba; la parte de arriba
+102657|||over there; that person (polite)|allá, aquello de allá; aquella persona
+3420|||which one (of three or more)|cuál (de tres o más)
+102731|ラジカセ|ラジカセ|boombox, radio-cassette player|radiocasete
+
+# Glosas rotas, duplicadas o con un trozo de otra entrada dentro.
+597|||younger brother|hermano menor
+687|||woman, girl|mujer, chica
+616|||older brother; (to address a young man) young man|hermano mayor; (para llamar) joven
+617|||older sister; (to address a young woman) miss|hermana mayor; (para llamar) señorita
+1321|||to come, to arrive|venir, llegar
+4942|||to hand over, to give; to take across|entregar, dar; pasar al otro lado
+224|||doctor, physician|médico, doctor
+3971|||hospital|hospital
+1437|||healthy, full of energy; spirits|sano, con energía; ánimo
+2221|||sturdy, tough, durable; healthy|resistente, fuerte; sano
+930|||vase|florero, jarrón
+1550|||police box, neighbourhood police station|puesto de policía (de barrio)
+102669|||bentō, packed lunch|bentō, comida para llevar en fiambrera
+4863|||cooking; a dish, cuisine|cocina; plato, comida preparada
+2675|||side, beside|lado, al lado de
+4770|||well, properly; often|bien, correctamente; a menudo
+102674|||curry|curry
+115|||sweet; indulgent, soft (on someone)|dulce; indulgente, blando (con alguien)
+3895|||low (height, voice, price)|bajo (altura, voz, precio)
+4127|||old (things, not people)|viejo, antiguo (cosas, no personas)
+2465|||back; height, stature|espalda; estatura
+2466|||height, stature|estatura
+4200|||study, studying|estudio, estudiar
+466|||circle, round; yen (currency)|círculo, redondo; yen (moneda)
+4349|||still, yet; not yet|todavía, aún; todavía no
+4807|||night|noche
+3837|||evening, night|noche (la tarde-noche)
+4694|||evening, dusk|atardecer, caída de la tarde
+4708|||evening; last night|atardecer; anoche
+1713|||~ years old|~ años (de edad)
+3067|||next, following; the next one|siguiente, próximo
+4401|||ten thousand|diez mil
+2742|||all right, no problem; safe|está bien, no hay problema
+102693|||to like very much, to love|que gusta mucho, encantar
+2839|||vertical, lengthwise; the length|vertical, de arriba abajo; el largo
+4456|||south|sur
+105|||that ~ over there|aquel, aquella (de allá)
+155|||that one over there|aquello (de allá)
+2373|||to like, liking|que gusta, gustar
+1206|||to dislike, hate|que no gusta, odiar
+2764|||very; awful, tough|muy; terrible, duro
+2197|||skilful, good at|hábil, bueno (en algo)
+4177|||unskilful, bad at|torpe, malo (en algo)
+4709|||famous, well-known|famoso, conocido
+1408|||splendid, fine; no thank you, that's enough|estupendo, bien; no, gracias (ya basta)
+4661|||cheap, inexpensive|barato
+4451|||green|verde
+2965|||brown|marrón, castaño
+327|||colour|color
+512|||big, large|grande
+233|||busy|ocupado, atareado
+3735|||to begin, to start (something begins)|empezar, comenzar (algo empieza)
+3086|||to soak, to steep, to dip|poner en remojo, sumergir
+679|||music|música
+448|||yes|sí
+2668|||that ~|ese, esa
+1647|||this ~|este, esta
+326|||to put in, to insert|meter, poner dentro
+2446|||to live, to reside|vivir, residir
+3661|||to climb, to go up|subir, escalar
+1061|||to go out (light, fire); to disappear|apagarse; desaparecer
+3188|||exit, way out|salida
+3236|||train (electric)|tren (eléctrico)
+2938|||underground, metro, subway|metro (tren subterráneo)
+3833|||fine weather, clear sky|buen tiempo, cielo despejado
+4124|||to fall (rain, snow)|caer (lluvia, nieve)
+1853|||a walk, a stroll|paseo, dar un paseo
+3984|||hiragana (the cursive syllabary)|hiragana (silabario cursivo)
+4151|||text, composition; sentence|texto, redacción; frase
+1731|||wallet, purse|cartera, monedero
+2553|||business suit|traje (de hombre)
+2623|||cleaning, sweeping|limpieza
+102668|||bath (Japanese-style)|baño (a la japonesa)
+4663|||rest, break; day off, holiday|descanso; día libre, vacaciones
+1886|||~ hours (duration)|~ horas (duración)
+1861|||~ o'clock|las ~ (hora)
+3257|||times (counter); degrees (temperature)|veces (contador); grados (temperatura)
+577|||to push, to press; to stamp (a seal)|empujar, pulsar; estampar (un sello)
+1302||曇り|cloudiness, cloudy weather|nublado, nubosidad
+4320||曲がる||
+4924||分かる|to understand|entender, comprender
+
+# Definiciones de las repetidas que se descartan, pasadas a la que se queda.
+102749|||to be decided, to be settled; to look good (clothes)|quedar fijado, decidirse; quedar bien (la ropa)
